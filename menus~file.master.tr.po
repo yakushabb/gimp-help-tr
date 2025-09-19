@@ -1,22 +1,23 @@
 # Turkish translation for gimp-help.
-# Copyright (C) 2019 gimp-help's COPYRIGHT HOLDER
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gimp-help package.
 #
-# Sabri Ünal <libreajans@gmail.com>, 2019.
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.10.0\n"
-"POT-Creation-Date: 2025-07-15 08:41+0000\n"
-"PO-Revision-Date: 2024-02-25 06:33+0300\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
-"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Project-Id-Version: GIMP-Help master\n"
+"POT-Creation-Date: 2025-03-18 09:22+0000\n"
+"PO-Revision-Date: 2025-09-19 17:49+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.7\n"
 
 #: src/menus/file/show-in-file-manager.xml:6(title)
 #: src/menus/file/show-in-file-manager.xml:8(primary)
@@ -1484,79 +1485,4 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/file/close-all.xml:0(None)
 msgid "translator-credits"
-msgstr "Sabri Ünal <libreajans@gmail.com>, 2019."
-
-#~| msgid ""
-#~| "@@image: 'images/menus/file/new.png'; "
-#~| "md5=91c33dbb59296722126cb68b4e9060b1"
-#~ msgid ""
-#~ "@@image: 'images/menus/file/new.png'; md5=01b72ccfad4ce256e9986b555e261892"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/new.png'; md5=01b72ccfad4ce256e9986b555e261892"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/new/templates.png'; "
-#~ "md5=13f6ba75446ccb2dc74dfb737e9c216e"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/new/templates.png'; "
-#~ "md5=13f6ba75446ccb2dc74dfb737e9c216e"
-
-#~ msgid "The <quote>Template</quote> dialog"
-#~ msgstr "<quote>Şablon</quote> kutusu"
-
-#~ msgid "New Image dialog (Advanced Options)"
-#~ msgstr "Yeni Görüntü iletişim kutusu (Gelişmiş Seçenekler)"
-
-#~ msgid "Activate Command"
-#~ msgstr "Komutu Etkinleştir"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/create.png'; "
-#~ "md5=b89d2c4186b64dc1912278d349c11abe"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/create.png'; "
-#~ "md5=b89d2c4186b64dc1912278d349c11abe"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/create_win.png'; "
-#~ "md5=7e2d2412fa796e3d4235778381aa855f"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/create_win.png'; "
-#~ "md5=7e2d2412fa796e3d4235778381aa855f"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/create/webpage.png'; "
-#~ "md5=edd99ea00a48aa420c9b25915497bfb4"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/create/webpage.png'; "
-#~ "md5=edd99ea00a48aa420c9b25915497bfb4"
-
-#~ msgid "Activate the command"
-#~ msgstr "Komutu etkinleştir"
-
-#~ msgid "Activate the Command"
-#~ msgstr "Komutu Etkinleştir"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/open-location.png'; "
-#~ "md5=5a91b60af69b2bb16217d745ac73dceb"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/open-location.png'; "
-#~ "md5=5a91b60af69b2bb16217d745ac73dceb"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/open.png'; "
-#~ "md5=4ac9517a39693c68dae342386b894c42"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/open.png'; "
-#~ "md5=4ac9517a39693c68dae342386b894c42"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/open/folder-context-menu.png'; "
-#~ "md5=176c8f89fdbffbc3735b34b18e810c5c"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/open/folder-context-menu.png'; "
-#~ "md5=176c8f89fdbffbc3735b34b18e810c5c"
-
-#~ msgid "Activate Dialog"
-#~ msgstr "İletişim Kutusunu Etkinleştir"
+msgstr "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025."
