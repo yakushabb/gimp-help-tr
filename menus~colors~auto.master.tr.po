@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-07-15 08:41+0000\n"
-"PO-Revision-Date: 2025-09-19 20:20+0300\n"
+"PO-Revision-Date: 2025-09-19 21:11+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -46,7 +46,7 @@ msgstr ""
 #: src/menus/colors/auto/white-balance.xml:10(title)
 #: src/menus/colors/auto/white-balance.xml:17(primary)
 msgid "White Balance"
-msgstr ""
+msgstr "Beyaz Dengesi"
 
 #: src/menus/colors/auto/white-balance.xml:13(primary)
 #: src/menus/colors/auto/stretch-contrast.xml:14(primary)
@@ -58,7 +58,7 @@ msgstr "Renkler"
 
 #: src/menus/colors/auto/white-balance.xml:14(secondary)
 msgid "White balance"
-msgstr ""
+msgstr "Beyaz Dengesi"
 
 #: src/menus/colors/auto/white-balance.xml:20(para)
 msgid ""
@@ -92,10 +92,8 @@ msgstr ""
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:32(title)
 #: src/menus/colors/auto/equalize.xml:36(title)
 #: src/menus/colors/auto/color-enhance.xml:33(title)
-#, fuzzy
-#| msgid "Activate the Command"
 msgid "Activating the Command"
-msgstr "Komutu Etkinleştir"
+msgstr "Komutun Etkinleştirilmesi"
 
 #: src/menus/colors/auto/white-balance.xml:50(para)
 msgid ""
@@ -103,10 +101,13 @@ msgid ""
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
 "guisubmenu><guimenuitem>White Balance</guimenuitem></menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Kendiliğinden</guisubmenu><guimenuitem>Beyaz Dengesi</"
+"guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/colors/auto/white-balance.xml:63(title)
 msgid "<quote>White Balance</quote> example"
-msgstr ""
+msgstr "<quote>Beyaz Dengesi</quote> örneği"
 
 #: src/menus/colors/auto/white-balance.xml:65(title)
 #: src/menus/colors/auto/stretch-contrast.xml:119(title)
@@ -127,7 +128,7 @@ msgstr ""
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:65(title)
 #: src/menus/colors/auto/equalize.xml:65(title)
 msgid "Image after the command"
-msgstr ""
+msgstr "Komuttan sonraki görüntü"
 
 #: src/menus/colors/auto/white-balance.xml:87(para)
 msgid ""
@@ -145,16 +146,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/auto/stretch-contrast.xml:66(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/menus/colors/auto/stretch-hsv.png'; "
-#| "md5=fb016a380256c6bbf3a302281a432904"
 msgid ""
 "@@image: 'images/menus/colors/auto/stretch_contrast-dialog.png'; "
 "md5=89d88fbe7f88f9eba463d18c19bec4c1"
 msgstr ""
-"@@image: 'images/menus/colors/auto/stretch-hsv.png'; "
-"md5=fb016a380256c6bbf3a302281a432904"
+"@@image: 'images/menus/colors/auto/stretch_contrast-dialog.png'; "
+"md5=89d88fbe7f88f9eba463d18c19bec4c1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -169,15 +166,15 @@ msgstr ""
 #: src/menus/colors/auto/stretch-contrast.xml:11(title)
 #: src/menus/colors/auto/stretch-contrast.xml:18(primary)
 msgid "Stretch Contrast"
-msgstr ""
+msgstr "Karşıtlığı Genişlet"
 
 #: src/menus/colors/auto/stretch-contrast.xml:15(secondary)
 msgid "Stretch contrast"
-msgstr ""
+msgstr "Karşıtlığı genişlet"
 
 #: src/menus/colors/auto/stretch-contrast.xml:21(primary)
 msgid "Contrast"
-msgstr ""
+msgstr "Karşıtlık"
 
 #: src/menus/colors/auto/stretch-contrast.xml:24(para)
 msgid ""
@@ -205,30 +202,33 @@ msgid ""
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
 "guisubmenu><guimenuitem>Stretch Contrast</guimenuitem></menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Kendiliğinden</guisubmenu><guimenuitem>Karşıtlığı "
+"Genişlet</guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/colors/auto/stretch-contrast.xml:60(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/menus/colors/auto/stretch-contrast.xml:62(title)
 msgid "<quote>Stretch Contrast</quote> settings"
-msgstr ""
+msgstr "<quote>Karşıtlığı genişlet</quote> ayarları"
 
 #: src/menus/colors/auto/stretch-contrast.xml:72(term)
 msgid "Presets"
-msgstr ""
+msgstr "Önayarlar"
 
 #: src/menus/colors/auto/stretch-contrast.xml:74(para)
 msgid ""
 "<quote>Presets</quote> are a common feature for several Colors commands. You "
 "can find its description in <xref linkend=\"colors-common-features\"/>."
 msgstr ""
+"<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
+"Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"
 
 #: src/menus/colors/auto/stretch-contrast.xml:83(term)
-#, fuzzy
-#| msgid "Colors"
 msgid "Keep Colors"
-msgstr "Renkler"
+msgstr "Renkleri Koru"
 
 #: src/menus/colors/auto/stretch-contrast.xml:85(para)
 msgid "Impact each color channel with the same amount."
@@ -236,7 +236,7 @@ msgstr ""
 
 #: src/menus/colors/auto/stretch-contrast.xml:92(term)
 msgid "Non-Linear Components"
-msgstr ""
+msgstr "Doğrusal olmayan bileşenler"
 
 #: src/menus/colors/auto/stretch-contrast.xml:94(para)
 msgid ""
@@ -246,19 +246,19 @@ msgstr ""
 
 #: src/menus/colors/auto/stretch-contrast.xml:102(term)
 msgid "Blending Options"
-msgstr ""
+msgstr "Harmanlama Seçenekleri"
 
 #: src/menus/colors/auto/stretch-contrast.xml:103(term)
 msgid "Preview"
-msgstr ""
+msgstr "Ön İzleme"
 
 #: src/menus/colors/auto/stretch-contrast.xml:104(term)
 msgid "Merge filter"
-msgstr ""
+msgstr "Süzgeci birleştir"
 
 #: src/menus/colors/auto/stretch-contrast.xml:105(term)
 msgid "Split view"
-msgstr ""
+msgstr "Bölünmüş görünüm"
 
 #: src/menus/colors/auto/stretch-contrast.xml:107(para)
 msgid ""
@@ -268,7 +268,7 @@ msgstr ""
 
 #: src/menus/colors/auto/stretch-contrast.xml:117(title)
 msgid "<quote>Stretch Contrast</quote> Example"
-msgstr ""
+msgstr "<quote>Karşıtlığı Genişlet</quote> Örneği"
 
 #: src/menus/colors/auto/stretch-contrast.xml:126(para)
 msgid ""
@@ -297,11 +297,11 @@ msgstr ""
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:10(title)
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:17(primary)
 msgid "Stretch Contrast HSV"
-msgstr ""
+msgstr "Karşıtlığı Genişlet HSV"
 
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:14(secondary)
 msgid "Stretch colors in HSV space"
-msgstr ""
+msgstr "Renkleri HSV uzayında genişlet"
 
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:20(para)
 msgid ""
@@ -321,10 +321,13 @@ msgid ""
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
 "guisubmenu><guimenuitem>Stretch Contrast HSV</guimenuitem></menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Kendiliğinden</guisubmenu><guimenuitem>Karşıtlığı "
+"Genişlet HSV</guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:48(title)
 msgid "<quote>Stretch Contrast HSV</quote> example"
-msgstr ""
+msgstr "<quote>Karşıtlığı Genişlet HSV</quote> Örneği"
 
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:57(para)
 msgid ""
@@ -352,7 +355,7 @@ msgstr ""
 #: src/menus/colors/auto/equalize.xml:13(secondary)
 #: src/menus/colors/auto/equalize.xml:16(primary)
 msgid "Equalize"
-msgstr ""
+msgstr "Eşitle"
 
 #: src/menus/colors/auto/equalize.xml:18(para)
 msgid ""
@@ -377,10 +380,13 @@ msgid ""
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
 "guisubmenu><guimenuitem>Equalize</guimenuitem></menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Kendiliğinden</guisubmenu><guimenuitem>Eşitle</"
+"guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/colors/auto/equalize.xml:48(title)
 msgid "<quote>Equalize</quote> example"
-msgstr ""
+msgstr "<quote>Eşitle</quote> örneği"
 
 #: src/menus/colors/auto/equalize.xml:57(para)
 msgid ""
@@ -411,11 +417,11 @@ msgstr ""
 #: src/menus/colors/auto/color-enhance.xml:6(title)
 #: src/menus/colors/auto/color-enhance.xml:13(primary)
 msgid "Color Enhance"
-msgstr ""
+msgstr "Renk İyileştir"
 
 #: src/menus/colors/auto/color-enhance.xml:10(secondary)
 msgid "Color enhance"
-msgstr ""
+msgstr "Renk İyileştir"
 
 #: src/menus/colors/auto/color-enhance.xml:16(para)
 msgid ""
@@ -440,10 +446,13 @@ msgid ""
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
 "guisubmenu><guimenuitem>Color Enhance</guimenuitem></menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Kendiliğinden</guisubmenu><guimenuitem>Renk İyileştir</"
+"guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/colors/auto/color-enhance.xml:49(title)
 msgid "<quote>Color Enhance</quote> example"
-msgstr ""
+msgstr "<quote>Renk İyileştir</quote> örneği"
 
 #: src/menus/colors/auto/color-enhance.xml:58(para)
 msgid ""
@@ -453,7 +462,7 @@ msgstr ""
 
 #: src/menus/colors/auto/color-enhance.xml:66(title)
 msgid "Command applied"
-msgstr ""
+msgstr "Komut uygulanmış"
 
 #: src/menus/colors/auto/color-enhance.xml:75(para)
 msgid ""
