@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
+"Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-07-15 08:41+0000\n"
-"PO-Revision-Date: 2023-08-11 12:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-09-19 20:20+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -18,6 +26,8 @@ msgid ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
 msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -26,14 +36,22 @@ msgid ""
 "@@image: 'images/filters/examples/color-taj-smoothpalette.jpg'; "
 "md5=d5bbed65e7d000b93a374fccbbae0511"
 msgstr ""
+"@@image: 'images/filters/examples/color-taj-smoothpalette.jpg'; "
+"md5=d5bbed65e7d000b93a374fccbbae0511"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/info/smooth_palette.xml:78(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/menus/colors/info/smoothpalette.png'; "
+#| "md5=807f4e29f253dc7568b04142a03f890a"
 msgid ""
 "@@image: 'images/menus/colors/info/smoothpalette.png'; "
 "md5=1b5be1636a75d9231da4bbcf22093a47"
 msgstr ""
+"@@image: 'images/menus/colors/info/smoothpalette.png'; "
+"md5=807f4e29f253dc7568b04142a03f890a"
 
 #: src/menus/colors/info/smooth_palette.xml:13(title)
 #: src/menus/colors/info/smooth_palette.xml:17(secondary)
@@ -45,13 +63,13 @@ msgstr ""
 #: src/menus/colors/info/export-histogram.xml:13(primary)
 #: src/menus/colors/info/borderaverage.xml:23(primary)
 msgid "Colors"
-msgstr ""
+msgstr "Renkler"
 
 #: src/menus/colors/info/smooth_palette.xml:24(title)
 #: src/menus/colors/info/export-histogram.xml:21(title)
 #: src/menus/colors/info/borderaverage.xml:31(title)
 msgid "Overview"
-msgstr ""
+msgstr "Genel Görünüm"
 
 #: src/menus/colors/info/smooth_palette.xml:26(title)
 msgid "Example for the <quote>Smooth Palette</quote> filter"
@@ -61,7 +79,7 @@ msgstr ""
 #: src/menus/colors/info/borderaverage.xml:40(para)
 #: src/menus/colors/info/borderaverage.xml:128(title)
 msgid "Original image"
-msgstr ""
+msgstr "Özgün görüntü"
 
 #: src/menus/colors/info/smooth_palette.xml:42(para)
 msgid "Filter <quote>Smooth Palette</quote> applied"
@@ -98,7 +116,7 @@ msgstr ""
 #: src/menus/colors/info/export-histogram.xml:74(title)
 #: src/menus/colors/info/borderaverage.xml:88(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/menus/colors/info/smooth_palette.xml:74(title)
 msgid "<quote>Smooth Palette</quote> options"
@@ -141,10 +159,16 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/info/export-histogram.xml:80(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/menus/colors/info/borderaverage.png'; "
+#| "md5=a8846cd122c6a2511135d2f0417d6104"
 msgid ""
 "@@image: 'images/menus/colors/info/histogram-export-dialog.png'; "
 "md5=e3620029e86b6d11f7ac0f06722eab94"
 msgstr ""
+"@@image: 'images/menus/colors/info/borderaverage.png'; "
+"md5=a8846cd122c6a2511135d2f0417d6104"
 
 #: src/menus/colors/info/export-histogram.xml:10(title)
 #: src/menus/colors/info/export-histogram.xml:14(secondary)
@@ -269,6 +293,8 @@ msgid ""
 "@@image: 'images/filters/examples/taj_orig.png'; "
 "md5=6d55b998009a6ba13b039ee2c2b39e93"
 msgstr ""
+"@@image: 'images/filters/examples/taj_orig.png'; "
+"md5=6d55b998009a6ba13b039ee2c2b39e93"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -277,14 +303,22 @@ msgid ""
 "@@image: 'images/filters/examples/color-taj-borderaverage.png'; "
 "md5=41f56a97061a52364009dd2675ba097d"
 msgstr ""
+"@@image: 'images/filters/examples/color-taj-borderaverage.png'; "
+"md5=41f56a97061a52364009dd2675ba097d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/info/borderaverage.xml:94(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/menus/colors/info/borderaverage.png'; "
+#| "md5=a8846cd122c6a2511135d2f0417d6104"
 msgid ""
 "@@image: 'images/menus/colors/info/borderaverage.png'; "
 "md5=20aab0bbd6453ab2b5faf86a7f6c1e95"
 msgstr ""
+"@@image: 'images/menus/colors/info/borderaverage.png'; "
+"md5=a8846cd122c6a2511135d2f0417d6104"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -293,6 +327,8 @@ msgid ""
 "@@image: 'images/filters/examples/borderaverage.png'; "
 "md5=2eb0a1cef18e12bed37e5cbb8f4a3170"
 msgstr ""
+"@@image: 'images/filters/examples/borderaverage.png'; "
+"md5=2eb0a1cef18e12bed37e5cbb8f4a3170"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -301,6 +337,8 @@ msgid ""
 "@@image: 'images/filters/examples/borderaverage08.png'; "
 "md5=90e67186fe6c2871cea1a8db10841d8a"
 msgstr ""
+"@@image: 'images/filters/examples/borderaverage08.png'; "
+"md5=90e67186fe6c2871cea1a8db10841d8a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -309,6 +347,8 @@ msgid ""
 "@@image: 'images/filters/examples/borderaverage64.png'; "
 "md5=b06841e5e6629b6950bbe8aa0adb7d2b"
 msgstr ""
+"@@image: 'images/filters/examples/borderaverage64.png'; "
+"md5=b06841e5e6629b6950bbe8aa0adb7d2b"
 
 #: src/menus/colors/info/borderaverage.xml:20(title)
 #: src/menus/colors/info/borderaverage.xml:24(secondary)
@@ -422,4 +462,4 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/colors/info/borderaverage.xml:0(None)
 msgid "translator-credits"
-msgstr ""
+msgstr "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025."
