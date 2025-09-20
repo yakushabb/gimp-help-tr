@@ -22,9 +22,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/web/semiflatten.xml:73(None)
-#| msgid ""
-#| "@@image: 'images/filters/examples/logo-semi-flatten.png'; "
-#| "md5=28544a262be300ef4a0cdfda63dc693d"
 msgid ""
 "@@image: 'images/filters/web/semi-flatten-dialog.png'; "
 "md5=beb25606c49f95c0cb98e4d2dec03775"
@@ -35,9 +32,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/web/semiflatten.xml:114(None)
-#| msgid ""
-#| "@@image: 'images/filters/examples/BGcolor.png'; "
-#| "md5=1077d10cca3a3da7c4c802db52c003c3"
 msgid ""
 "@@image: 'images/filters/examples/logo-semi-BGcolor.png'; "
 "md5=1077d10cca3a3da7c4c802db52c003c3"
@@ -220,9 +214,6 @@ msgstr "Sonuç, GIF biçiminde, Yarı Düzleştir süzgeci uygulandıktan sonra"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/web/imagemap.xml:106(None)
-#| msgid ""
-#| "@@image: 'images/filters/web/imagemap.png'; "
-#| "md5=a9a2fd16d5f6b780c9c26f0b3f1b7fd6"
 msgid ""
 "@@image: 'images/filters/web/imagemap.png'; "
 "md5=e92454bec43d9aad118450e511d58692"
@@ -233,9 +224,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/web/imagemap.xml:175(None)
-#| msgid ""
-#| "@@image: 'images/filters/web/imagemap-area.png'; "
-#| "md5=e3d9dc3f816836b2210f3fc05953cdc6"
 msgid ""
 "@@image: 'images/filters/web/imagemap-area.png'; "
 "md5=f419c1c2a0dfae8e559115d2b92dd6eb"
@@ -246,9 +234,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/web/imagemap.xml:275(None)
-#| msgid ""
-#| "@@image: 'images/filters/web/imagemap-info.png'; "
-#| "md5=9ba9496833b57fb19bfc7ea6026f51a7"
 msgid ""
 "@@image: 'images/filters/web/imagemap-info.png'; "
 "md5=007ccd6a12de06c32ae831b3c81659dd"
@@ -259,9 +244,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/web/imagemap.xml:310(None)
-#| msgid ""
-#| "@@image: 'images/filters/web/imagemap-grid.png'; "
-#| "md5=38e4dc57f83b5f8e210b471f8f831c80"
 msgid ""
 "@@image: 'images/filters/web/imagemap-grid.png'; "
 "md5=7daba16e4f55605aaf10bd82129281f3"
@@ -272,9 +254,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/web/imagemap.xml:341(None)
-#| msgid ""
-#| "@@image: 'images/filters/web/imagemap-guides-options.png'; "
-#| "md5=5be977d592696fee8285e9abe77896c9"
 msgid ""
 "@@image: 'images/filters/web/imagemap-guides-options.png'; "
 "md5=6e65d7eaf8032c2e37d91d7f6c050ff1"
@@ -285,9 +264,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/web/imagemap.xml:395(None)
-#| msgid ""
-#| "@@image: 'images/filters/web/imagemap-draw.png'; "
-#| "md5=1430dcf0788f13157c48ca71c5b44a84"
 msgid ""
 "@@image: 'images/filters/web/imagemap-draw.png'; "
 "md5=b3c500d1350e9a5a6f43d59564777179"
