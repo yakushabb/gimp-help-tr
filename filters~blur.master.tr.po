@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
+"Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-07-15 08:40+0000\n"
-"PO-Revision-Date: 2023-08-11 12:30-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-09-24 00:38+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -26,6 +34,8 @@ msgid ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
 msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -34,6 +44,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-zoom.jpg'; "
 "md5=4f26c42fd44cfac2701fa51272bfa8d7"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-zoom.jpg'; "
+"md5=4f26c42fd44cfac2701fa51272bfa8d7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -42,6 +54,8 @@ msgid ""
 "@@image: 'images/filters/blur/zoom-options.png'; "
 "md5=601ec890d68a67a9753a073cf5328403"
 msgstr ""
+"@@image: 'images/filters/blur/zoom-options.png'; "
+"md5=601ec890d68a67a9753a073cf5328403"
 
 #: src/filters/blur/zoom-motion.xml:9(title)
 #: src/filters/blur/zoom-motion.xml:17(primary)
@@ -62,7 +76,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:9(primary)
 #: src/filters/blur/circular-motion.xml:12(primary)
 msgid "Filters"
-msgstr ""
+msgstr "Süzgeçler"
 
 #: src/filters/blur/zoom-motion.xml:13(secondary)
 #: src/filters/blur/variable-blur.xml:10(secondary)
@@ -97,7 +111,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:18(title)
 #: src/filters/blur/circular-motion.xml:21(title)
 msgid "Overview"
-msgstr ""
+msgstr "Genel Görünüm"
 
 #: src/filters/blur/zoom-motion.xml:23(title)
 msgid "The Zoom Motion Blur filter"
@@ -113,7 +127,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:27(para)
 #: src/filters/blur/circular-motion.xml:30(para)
 msgid "Original"
-msgstr ""
+msgstr "Özgün"
 
 #: src/filters/blur/zoom-motion.xml:39(para)
 #: src/filters/blur/linear-motion.xml:38(para)
@@ -144,7 +158,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:50(title)
 #: src/filters/blur/circular-motion.xml:52(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/filters/blur/zoom-motion.xml:55(title)
 msgid "<quote>Zoom Motion Blur</quote> filter options"
@@ -161,7 +175,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:65(term)
 #: src/filters/blur/circular-motion.xml:65(term)
 msgid "Presets"
-msgstr ""
+msgstr "Önayarlar"
 
 #: src/filters/blur/zoom-motion.xml:67(quote)
 #: src/filters/blur/variable-blur.xml:64(quote)
@@ -175,7 +189,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:66(quote)
 #: src/filters/blur/circular-motion.xml:66(quote)
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 #: src/filters/blur/zoom-motion.xml:68(term)
 #: src/filters/blur/variable-blur.xml:65(term)
@@ -188,7 +202,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:67(term)
 #: src/filters/blur/circular-motion.xml:67(term)
 msgid "Clipping"
-msgstr ""
+msgstr "Kırpma"
 
 #: src/filters/blur/zoom-motion.xml:69(term)
 #: src/filters/blur/variable-blur.xml:66(term)
@@ -201,7 +215,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:68(term)
 #: src/filters/blur/circular-motion.xml:68(term)
 msgid "Blending Options"
-msgstr ""
+msgstr "Harmanlama Seçenekleri"
 
 #: src/filters/blur/zoom-motion.xml:70(term)
 #: src/filters/blur/variable-blur.xml:67(term)
@@ -214,7 +228,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:69(term)
 #: src/filters/blur/circular-motion.xml:69(term)
 msgid "Preview"
-msgstr ""
+msgstr "Ön izleme"
 
 #: src/filters/blur/zoom-motion.xml:71(term)
 #: src/filters/blur/variable-blur.xml:68(term)
@@ -227,7 +241,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:70(term)
 #: src/filters/blur/circular-motion.xml:70(term)
 msgid "Merge filter"
-msgstr ""
+msgstr "Süzgeci birleştir"
 
 #: src/filters/blur/zoom-motion.xml:72(term)
 #: src/filters/blur/variable-blur.xml:69(term)
@@ -240,7 +254,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:71(term)
 #: src/filters/blur/circular-motion.xml:71(term)
 msgid "Split view"
-msgstr ""
+msgstr "Bölünmüş görünüm"
 
 #: src/filters/blur/zoom-motion.xml:79(term)
 #: src/filters/blur/focus-blur.xml:150(term)
@@ -296,18 +310,28 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/variable-blur.xml:33(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/blur-taj-zoom.jpg'; "
+#| "md5=4f26c42fd44cfac2701fa51272bfa8d7"
 msgid ""
 "@@image: 'images/filters/examples/blur-taj-variable.jpg'; "
 "md5=44f9573f87159d48433e5f3c3a104d27"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-variable.jpg'; "
+"md5=44f9573f87159d48433e5f3c3a104d27"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/variable-blur.xml:56(None)
+#| msgid ""
+#| "@@image: 'images/filters/blur/median-dialog.png'; "
+#| "md5=24b0b0c8e3da7cdf198bf4a1eb7e1b71"
 msgid ""
 "@@image: 'images/filters/blur/variable-blur-dialog.png'; "
 "md5=ab7df1f9ba23a0a8dec70f29a90d8f8e"
 msgstr ""
+"@@image: 'images/filters/blur/variable-blur-dialog.png'; "
+"md5=ab7df1f9ba23a0a8dec70f29a90d8f8e"
 
 #: src/filters/blur/variable-blur.xml:6(title)
 #: src/filters/blur/variable-blur.xml:11(tertiary)
@@ -384,14 +408,21 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-tblur.jpg'; "
 "md5=f29dc0106640ba234b0d21ac3a6faa19"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-tblur.jpg'; "
+"md5=f29dc0106640ba234b0d21ac3a6faa19"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/tileable.xml:133(None)
+#| msgid ""
+#| "@@image: 'images/filters/blur/tileable-options.png'; "
+#| "md5=725fe0d58879f8ad9ca89ed7a15b5fa0"
 msgid ""
 "@@image: 'images/filters/blur/tileable-options.png'; "
 "md5=66e5de1a6a3a497903cb90a757619e21"
 msgstr ""
+"@@image: 'images/filters/blur/tileable-options.png'; "
+"md5=66e5de1a6a3a497903cb90a757619e21"
 
 #: src/filters/blur/tileable.xml:8(title)
 #: src/filters/blur/tileable.xml:13(tertiary)
@@ -472,7 +503,7 @@ msgstr ""
 #: src/filters/blur/gauss.xml:57(title)
 #: src/filters/blur/gauss_select.xml:55(title)
 msgid "Activating the Filter"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/blur/tileable.xml:116(para)
 msgid ""
@@ -536,14 +567,21 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-pixelise.jpg'; "
 "md5=3a624ae1bcb7fa3ac25649f5b931e91e"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-pixelise.jpg'; "
+"md5=3a624ae1bcb7fa3ac25649f5b931e91e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/pixelize.xml:69(None)
+#| msgid ""
+#| "@@image: 'images/filters/blur/pixelize-options.png'; "
+#| "md5=7179c77545daff4300eb555f1ba55887"
 msgid ""
 "@@image: 'images/filters/blur/pixelize-options.png'; "
 "md5=347c82c52b694df0a6a99e9164ff0b97"
 msgstr ""
+"@@image: 'images/filters/blur/pixelize-options.png'; "
+"md5=347c82c52b694df0a6a99e9164ff0b97"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -552,13 +590,15 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-vchain.svg'; "
 "md5=d47eea1ce790b9e3211d223704a1e9de"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
 
 #: src/filters/blur/pixelize.xml:8(title)
 #: src/filters/blur/pixelize.xml:13(tertiary)
 #: src/filters/blur/pixelize.xml:16(primary)
 #: src/filters/blur/introduction.xml:115(title)
 msgid "Pixelize"
-msgstr ""
+msgstr "Pikselleştir"
 
 #: src/filters/blur/pixelize.xml:22(title)
 msgid "Example for the <quote>Pixelize</quote> filter"
@@ -585,12 +625,12 @@ msgstr ""
 
 #: src/filters/blur/pixelize.xml:65(title)
 msgid "<quote>Pixelize</quote> filter options"
-msgstr ""
+msgstr "<quote>Pikselleştir</quote> süzgeci seçenekleri"
 
 #: src/filters/blur/pixelize.xml:87(term)
 #: src/filters/blur/focus-blur.xml:78(term)
 msgid "Shape"
-msgstr ""
+msgstr "Şekil"
 
 #: src/filters/blur/pixelize.xml:89(para)
 msgid ""
@@ -602,11 +642,11 @@ msgstr ""
 
 #: src/filters/blur/pixelize.xml:99(term)
 msgid "Block width"
-msgstr ""
+msgstr "Blok genişliği"
 
 #: src/filters/blur/pixelize.xml:100(term)
 msgid "Block height"
-msgstr ""
+msgstr "Blok yüksekliği"
 
 #: src/filters/blur/pixelize.xml:102(para)
 msgid "Here you can set the desired width and height of the blocks, in pixels."
@@ -621,11 +661,11 @@ msgstr ""
 
 #: src/filters/blur/pixelize.xml:121(term)
 msgid "Size ratio X"
-msgstr ""
+msgstr "X boyut oranı"
 
 #: src/filters/blur/pixelize.xml:122(term)
 msgid "Size ratio Y"
-msgstr ""
+msgstr "Y boyut oranı"
 
 #: src/filters/blur/pixelize.xml:124(para)
 msgid ""
@@ -637,11 +677,11 @@ msgstr ""
 
 #: src/filters/blur/pixelize.xml:133(term)
 msgid "Offset X"
-msgstr ""
+msgstr "X Konumu"
 
 #: src/filters/blur/pixelize.xml:134(term)
 msgid "Offset Y"
-msgstr ""
+msgstr "Y Konumu"
 
 #: src/filters/blur/pixelize.xml:136(para)
 msgid "Horizontal/Vertical offset of the shapes in pixels inside a block."
@@ -649,7 +689,7 @@ msgstr ""
 
 #: src/filters/blur/pixelize.xml:143(term)
 msgid "Background color"
-msgstr ""
+msgstr "Arka plan rengi"
 
 #: src/filters/blur/pixelize.xml:145(para)
 msgid ""
@@ -674,14 +714,21 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-calcul.png'; "
 "md5=f5e2b47c7758b44c5d81fe937deb25d6"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-calcul.png'; "
+"md5=f5e2b47c7758b44c5d81fe937deb25d6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/median-blur.xml:65(None)
+#| msgid ""
+#| "@@image: 'images/filters/blur/median-dialog.png'; "
+#| "md5=24b0b0c8e3da7cdf198bf4a1eb7e1b71"
 msgid ""
 "@@image: 'images/filters/blur/median-dialog.png'; "
 "md5=51dcc89ab7526d9fe2722fef84c9778b"
 msgstr ""
+"@@image: 'images/filters/blur/median-dialog.png'; "
+"md5=51dcc89ab7526d9fe2722fef84c9778b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -690,6 +737,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-neighbor.png'; "
 "md5=ff44eb4042764539b24b950fe5d36ada"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-neighbor.png'; "
+"md5=ff44eb4042764539b24b950fe5d36ada"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -699,6 +748,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-vs-gaussian.png'; "
 "md5=7d04e8df3a762c55743b5602f9cae1a6"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-vs-gaussian.png'; "
+"md5=7d04e8df3a762c55743b5602f9cae1a6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -707,6 +758,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-radius-100.png'; "
 "md5=fc79e1dc5614ac197b642d5feba62889"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-radius-100.png'; "
+"md5=fc79e1dc5614ac197b642d5feba62889"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -715,6 +768,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-percent.jpg'; "
 "md5=78f9a017ca9d77c8e210b0e156d8a014"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-percent.jpg'; "
+"md5=78f9a017ca9d77c8e210b0e156d8a014"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -723,6 +778,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-alpha-percent-bw.png'; "
 "md5=9374ef330b817307a6665be93e3fd311"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-alpha-percent-bw.png'; "
+"md5=9374ef330b817307a6665be93e3fd311"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -731,6 +788,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-alpha-percent.png'; "
 "md5=712b1ffbc6f622629ee0f3f923201cc4"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-alpha-percent.png'; "
+"md5=712b1ffbc6f622629ee0f3f923201cc4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -739,6 +798,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-noise.png'; "
 "md5=1a3b936bdb67171168fbda06b2a67b49"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-noise.png'; "
+"md5=1a3b936bdb67171168fbda06b2a67b49"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -747,16 +808,18 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-scratch.png'; "
 "md5=9cec4ba3ae3fce0e66de206154140137"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-scratch.png'; "
+"md5=9cec4ba3ae3fce0e66de206154140137"
 
 #: src/filters/blur/median-blur.xml:8(title)
 #: src/filters/blur/median-blur.xml:13(tertiary)
 #: src/filters/blur/median-blur.xml:16(primary)
 msgid "Median Blur"
-msgstr ""
+msgstr "Median Bulanıklığı"
 
 #: src/filters/blur/median-blur.xml:26(title)
 msgid "Calculating Median"
-msgstr ""
+msgstr "Medyan Hesaplama"
 
 #: src/filters/blur/median-blur.xml:33(para)
 msgid ""
@@ -961,42 +1024,67 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/mean-curvature-blur.xml:52(None)
+#| msgid ""
+#| "@@image: 'images/filters/blur/median-dialog.png'; "
+#| "md5=24b0b0c8e3da7cdf198bf4a1eb7e1b71"
 msgid ""
 "@@image: 'images/filters/blur/mean_curvature-dialog.png'; "
 "md5=aa745b283613b087662a99e28ee345e1"
 msgstr ""
+"@@image: 'images/filters/blur/mean_curvature-dialog.png'; "
+"md5=aa745b283613b087662a99e28ee345e1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/mean-curvature-blur.xml:87(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/blur/median-scratch.png'; "
+#| "md5=9cec4ba3ae3fce0e66de206154140137"
 msgid ""
 "@@image: 'images/filters/examples/blur/mean_curvature-ex-1.jpg'; "
 "md5=2b8c26de40adfe06e07011ab005d787b"
 msgstr ""
+"@@image: 'images/filters/examples/blur/mean_curvature-ex-1.jpg'; "
+"md5=2b8c26de40adfe06e07011ab005d787b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/mean-curvature-blur.xml:98(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/blur/median-scratch.png'; "
+#| "md5=9cec4ba3ae3fce0e66de206154140137"
 msgid ""
 "@@image: 'images/filters/examples/blur/mean_curvature-ex-2.jpg'; "
 "md5=1edf290abe20dea44255534483067e05"
 msgstr ""
+"@@image: 'images/filters/examples/blur/mean_curvature-ex-2.jpg'; "
+"md5=1edf290abe20dea44255534483067e05"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/mean-curvature-blur.xml:114(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/blur/median-noise.png'; "
+#| "md5=1a3b936bdb67171168fbda06b2a67b49"
 msgid ""
 "@@image: 'images/filters/examples/enhance/noise-reduction-ex1.png'; "
 "md5=67cda93dfb4a5635f2b2c1e280fe2b9e"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/noise-reduction-ex1.png'; "
+"md5=67cda93dfb4a5635f2b2c1e280fe2b9e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/mean-curvature-blur.xml:125(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/blur/median-noise.png'; "
+#| "md5=1a3b936bdb67171168fbda06b2a67b49"
 msgid ""
 "@@image: 'images/filters/examples/blur/mean_curvature-denoise.jpg'; "
 "md5=d634104e0b7b92eb42e00d44abeff28b"
 msgstr ""
+"@@image: 'images/filters/examples/blur/mean_curvature-denoise.jpg'; "
+"md5=d634104e0b7b92eb42e00d44abeff28b"
 
 #: src/filters/blur/mean-curvature-blur.xml:9(title)
 #: src/filters/blur/mean-curvature-blur.xml:14(tertiary)
@@ -1029,8 +1117,10 @@ msgid "<quote>Mean Curvature Blur</quote> filter parameters"
 msgstr ""
 
 #: src/filters/blur/mean-curvature-blur.xml:71(term)
+#, fuzzy
+#| msgid "Introduction"
 msgid "Iterations"
-msgstr ""
+msgstr "Giriş"
 
 #: src/filters/blur/mean-curvature-blur.xml:73(para)
 msgid "Increasing Iterations increases blur."
@@ -1038,7 +1128,7 @@ msgstr ""
 
 #: src/filters/blur/mean-curvature-blur.xml:82(title)
 msgid "Examples"
-msgstr ""
+msgstr "Örnekler"
 
 #: src/filters/blur/mean-curvature-blur.xml:90(para)
 #: src/filters/blur/mean-curvature-blur.xml:117(para)
@@ -1068,14 +1158,21 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-linear.jpg'; "
 "md5=48702b7c3c7d20d10a3d252323eec89b"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-linear.jpg'; "
+"md5=48702b7c3c7d20d10a3d252323eec89b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/linear-motion.xml:56(None)
+#| msgid ""
+#| "@@image: 'images/filters/blur/linear-options.png'; "
+#| "md5=54fac55f745d6b5ae14bfd91eff7d124"
 msgid ""
 "@@image: 'images/filters/blur/linear-options.png'; "
 "md5=92110ac567a4292a1e8a084da6d68104"
 msgstr ""
+"@@image: 'images/filters/blur/linear-options.png'; "
+"md5=92110ac567a4292a1e8a084da6d68104"
 
 #: src/filters/blur/linear-motion.xml:9(title)
 #: src/filters/blur/linear-motion.xml:16(primary)
@@ -1137,18 +1234,28 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/lens-blur.xml:33(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/blur-taj-zoom.jpg'; "
+#| "md5=4f26c42fd44cfac2701fa51272bfa8d7"
 msgid ""
 "@@image: 'images/filters/examples/blur-taj-lens.jpg'; "
 "md5=467ce588a9604dfdcaa9c57f670d7c2b"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-lens.jpg'; "
+"md5=467ce588a9604dfdcaa9c57f670d7c2b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/lens-blur.xml:54(None)
+#| msgid ""
+#| "@@image: 'images/filters/blur/median-dialog.png'; "
+#| "md5=24b0b0c8e3da7cdf198bf4a1eb7e1b71"
 msgid ""
 "@@image: 'images/filters/blur/lens-blur-dialog.png'; "
 "md5=1742be03ff780476a10e01ef2eb8e705"
 msgstr ""
+"@@image: 'images/filters/blur/lens-blur-dialog.png'; "
+"md5=1742be03ff780476a10e01ef2eb8e705"
 
 #: src/filters/blur/lens-blur.xml:6(title)
 #: src/filters/blur/lens-blur.xml:11(tertiary)
@@ -1225,6 +1332,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-orig.png'; "
 "md5=e1ece9c9822c9504a872adbd723df8ca"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-orig.png'; "
+"md5=e1ece9c9822c9504a872adbd723df8ca"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1233,6 +1342,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-gauss10.png'; "
 "md5=eab465ad7182d587c9a3c80383a36407"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-gauss10.png'; "
+"md5=eab465ad7182d587c9a3c80383a36407"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1241,6 +1352,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-selective.png'; "
 "md5=8c79b757174b828c9232535c2849101a"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-selective.png'; "
+"md5=8c79b757174b828c9232535c2849101a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1249,6 +1362,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-pixelize.png'; "
 "md5=5500784f034a6792505f8e2df2d4613e"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-pixelize.png'; "
+"md5=5500784f034a6792505f8e2df2d4613e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1257,6 +1372,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-circular.png'; "
 "md5=8838c9411723cbaad7b4c0e4103fda42"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-circular.png'; "
+"md5=8838c9411723cbaad7b4c0e4103fda42"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1265,6 +1382,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-linear.png'; "
 "md5=ac87b6cd27a88e65f574ce590a1e500c"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-linear.png'; "
+"md5=ac87b6cd27a88e65f574ce590a1e500c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1273,10 +1392,12 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-zoom.png'; "
 "md5=312b769d6f6db99d7962bb7871986c7a"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-zoom.png'; "
+"md5=312b769d6f6db99d7962bb7871986c7a"
 
 #: src/filters/blur/introduction.xml:8(title)
 msgid "Introduction"
-msgstr ""
+msgstr "Giriş"
 
 #: src/filters/blur/introduction.xml:16(title)
 msgid "Original for demo"
@@ -1387,14 +1508,21 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-gauss.jpg'; "
 "md5=2dcbafec4e011abd8d1d5c4c6066ffcd"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-gauss.jpg'; "
+"md5=2dcbafec4e011abd8d1d5c4c6066ffcd"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/gauss.xml:75(None)
+#| msgid ""
+#| "@@image: 'images/filters/blur/gauss-options.png'; "
+#| "md5=1db8c2e8cdcdd2c943ccaf24cef3fddb"
 msgid ""
 "@@image: 'images/filters/blur/gauss-options.png'; "
 "md5=2eadbb1606d5f561bba60029fdbf57a1"
 msgstr ""
+"@@image: 'images/filters/blur/gauss-options.png'; "
+"md5=2eadbb1606d5f561bba60029fdbf57a1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1403,6 +1531,8 @@ msgid ""
 "@@image: 'images/filters/blur/clip-orig.png'; "
 "md5=47165984fcc205290ef2986fc207ae8a"
 msgstr ""
+"@@image: 'images/filters/blur/clip-orig.png'; "
+"md5=47165984fcc205290ef2986fc207ae8a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1411,6 +1541,8 @@ msgid ""
 "@@image: 'images/filters/blur/clip-0.png'; "
 "md5=791b84325a5e2832deb23633d9f36f15"
 msgstr ""
+"@@image: 'images/filters/blur/clip-0.png'; "
+"md5=791b84325a5e2832deb23633d9f36f15"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1419,6 +1551,8 @@ msgid ""
 "@@image: 'images/filters/blur/clip-1.png'; "
 "md5=b6301b561b57cbf3a134739711567fa9"
 msgstr ""
+"@@image: 'images/filters/blur/clip-1.png'; "
+"md5=b6301b561b57cbf3a134739711567fa9"
 
 #: src/filters/blur/gauss.xml:9(title) src/filters/blur/gauss.xml:14(tertiary)
 #: src/filters/blur/gauss.xml:17(primary)
@@ -1469,7 +1603,7 @@ msgstr ""
 
 #: src/filters/blur/gauss.xml:106(term)
 msgid "Filter"
-msgstr ""
+msgstr "Süzgeç"
 
 #: src/filters/blur/gauss.xml:108(para)
 msgid ""
@@ -1500,7 +1634,7 @@ msgstr ""
 
 #: src/filters/blur/gauss.xml:141(title)
 msgid "Example"
-msgstr ""
+msgstr "Örnek"
 
 #: src/filters/blur/gauss.xml:148(para)
 msgid "Right-up corner of the image, zoom x800"
@@ -1527,14 +1661,21 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-selective.jpg'; "
 "md5=4523a312059a7a79b2f409a8a2fcec89"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-selective.jpg'; "
+"md5=4523a312059a7a79b2f409a8a2fcec89"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/gauss_select.xml:75(None)
+#| msgid ""
+#| "@@image: 'images/filters/blur/gaussian-selective-options.png'; "
+#| "md5=2bd3f037fab237df132098ab3788a4b2"
 msgid ""
 "@@image: 'images/filters/blur/gaussian-selective-options.png'; "
 "md5=e22d22d65c602f3e3d852bcdaff0a5fe"
 msgstr ""
+"@@image: 'images/filters/blur/gaussian-selective-options.png'; "
+"md5=e22d22d65c602f3e3d852bcdaff0a5fe"
 
 #: src/filters/blur/gauss_select.xml:9(title)
 #: src/filters/blur/gauss_select.xml:17(primary)
@@ -1599,18 +1740,28 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/focus-blur.xml:33(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/blur-taj-zoom.jpg'; "
+#| "md5=4f26c42fd44cfac2701fa51272bfa8d7"
 msgid ""
 "@@image: 'images/filters/examples/blur-taj-focus.jpg'; "
 "md5=f9ec78a32fd6d7e79a36e92d6a8dc958"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-focus.jpg'; "
+"md5=f9ec78a32fd6d7e79a36e92d6a8dc958"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/focus-blur.xml:58(None)
+#| msgid ""
+#| "@@image: 'images/filters/blur/median-dialog.png'; "
+#| "md5=24b0b0c8e3da7cdf198bf4a1eb7e1b71"
 msgid ""
 "@@image: 'images/filters/blur/focus-blur-dialog.png'; "
 "md5=f9e93deb8abd1b7bfc2c799eb6db8917"
 msgstr ""
+"@@image: 'images/filters/blur/focus-blur-dialog.png'; "
+"md5=f9e93deb8abd1b7bfc2c799eb6db8917"
 
 #: src/filters/blur/focus-blur.xml:6(title)
 #: src/filters/blur/focus-blur.xml:11(tertiary)
@@ -1747,14 +1898,21 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-circular.jpg'; "
 "md5=221b5cce7d3f3b9f5ecb9b36750242f5"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-circular.jpg'; "
+"md5=221b5cce7d3f3b9f5ecb9b36750242f5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/circular-motion.xml:58(None)
+#| msgid ""
+#| "@@image: 'images/filters/blur/circular-options.png'; "
+#| "md5=623d036982df53d53d872081fa0cdbb4"
 msgid ""
 "@@image: 'images/filters/blur/circular-options.png'; "
 "md5=ae1893c3714f55bbeaaa65a251178080"
 msgstr ""
+"@@image: 'images/filters/blur/circular-options.png'; "
+"md5=ae1893c3714f55bbeaaa65a251178080"
 
 #: src/filters/blur/circular-motion.xml:9(title)
 #: src/filters/blur/circular-motion.xml:17(primary)
@@ -1813,3 +1971,5 @@ msgstr ""
 #: src/filters/blur/circular-motion.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025"
