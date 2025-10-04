@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
-"POT-Creation-Date: 2025-07-15 08:41+0000\n"
-"PO-Revision-Date: 2023-08-11 12:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: GIMP-Help master\n"
+"POT-Creation-Date: 2025-07-15 08:40+0000\n"
+"PO-Revision-Date: 2025-09-23 22:54+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -18,6 +26,8 @@ msgid ""
 "@@image: 'images/menus/filters/script-fu-console.png'; "
 "md5=fed5a5c913fa6f648cbc10fd4bb5b84b"
 msgstr ""
+"@@image: 'images/menus/filters/script-fu-console.png'; "
+"md5=fed5a5c913fa6f648cbc10fd4bb5b84b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -26,19 +36,21 @@ msgid ""
 "@@image: 'images/menus/filters/script-fu-server.png'; "
 "md5=820f2b5b9993843433daef9e8b19415c"
 msgstr ""
+"@@image: 'images/menus/filters/script-fu-server.png'; "
+"md5=820f2b5b9993843433daef9e8b19415c"
 
 #: src/menus/filters/script-fu.xml:10(title)
 msgid "The <quote>Script-Fu</quote> Submenu"
-msgstr ""
+msgstr "<quote>Script-Fu</quote> Alt Menüsü"
 
 #: src/menus/filters/script-fu.xml:13(primary)
 msgid "Script-Fu"
-msgstr ""
+msgstr "Script-Fu"
 
 #: src/menus/filters/script-fu.xml:14(secondary)
 #: src/menus/filters/python-fu.xml:12(secondary)
 msgid "Sub-menu"
-msgstr ""
+msgstr "Alt menü"
 
 #: src/menus/filters/script-fu.xml:17(para)
 msgid ""
@@ -47,12 +59,16 @@ msgid ""
 "language for writing scripts, which allow you to run a series of "
 "<acronym>GIMP</acronym> commands automatically."
 msgstr ""
+"Bu alt menü bazı Script-Fu komutlarını, özellikle Script-Fu uçbirimini "
+"içerir. <link linkend=\"gimp-concepts-script-fu\">Script-Fu</link> bir dizi "
+"<acronym>GIMP</acronym> komutunu kendiliğinden çalıştırmanızı sağlayan betik "
+"dilidir."
 
 #: src/menus/filters/script-fu.xml:29(title)
 #: src/menus/filters/python-fu.xml:27(title)
 #: src/menus/filters/development.xml:20(title)
 msgid "Activating the Submenu"
-msgstr ""
+msgstr "Alt Menüyü Etkinleştirmek"
 
 #: src/menus/filters/script-fu.xml:30(para)
 msgid ""
@@ -60,16 +76,21 @@ msgid ""
 "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</"
 "guisubmenu><guimenuitem>Script-Fu</guimenuitem></menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Geliştirme</guisubmenu><guimenuitem>Script-Fu</"
+"guimenuitem></menuchoice> yoluyla ulaşabilirsiniz."
 
 #: src/menus/filters/script-fu.xml:41(title)
 msgid "Script-Fu Console"
-msgstr ""
+msgstr "Script-Fu Uçbirimi"
 
 #: src/menus/filters/script-fu.xml:42(para)
 msgid ""
 "The Script-Fu console is a dialog window where you can interactively test "
 "Scheme commands."
 msgstr ""
+"Script-Fu uçbirimi, Scheme komutlarını etkileşimli olarak sınayabileceğiniz "
+"iletişim penceresidir."
 
 #: src/menus/filters/script-fu.xml:46(para)
 msgid ""
@@ -78,10 +99,14 @@ msgid ""
 "and then press the <keycap>Enter</keycap> key, the command and its return "
 "value will be displayed in the main window."
 msgstr ""
+"Konsol, çıktı için kaydırılabilir büyük ana pencereden ve Scheme komutlarını "
+"girmek için altta metin kutusundan oluşur. Bir Scheme ifadesi yazıp "
+"<keycap>Enter</keycap> tuşuna bastığınızda, komut ve dönüş değeri ana "
+"pencerede görüntülenir."
 
 #: src/menus/filters/script-fu.xml:53(title)
 msgid "The Script-Fu Console"
-msgstr ""
+msgstr "Script-Fu Uçbirimi"
 
 #: src/menus/filters/script-fu.xml:61(para)
 msgid ""
@@ -90,15 +115,20 @@ msgid ""
 "linkend=\"gimp-using-script-fu-tutorial-console\">Script-Fu console</link> "
 "in <xref linkend=\"gimp-using-script-fu-tutorial\"/>."
 msgstr ""
+"<link linkend=\"gimp-using-script-fu-tutorial-scheme\">Scheme</link> ve "
+"<link linkend=\"gimp-using-script-fu-tutorial-console\">Script-Fu uçbirimi</"
+"link> hakkında daha çok bilgi ve örnekler için lütfen bakınız: <xref "
+"linkend=\"gimp-using-script-fu-tutorial\"/>."
 
 #: src/menus/filters/script-fu.xml:69(title)
 msgid "The Script-Fu Console Buttons"
-msgstr ""
+msgstr "Script-Fu Uçbirim Düğmeleri"
 
+# Arayüzdeki şeklinde üç nokta var
 #: src/menus/filters/script-fu.xml:71(term)
 #: src/menus/filters/python-fu.xml:89(term)
 msgid "Browse"
-msgstr ""
+msgstr "Göz At…"
 
 #: src/menus/filters/script-fu.xml:73(para)
 msgid ""
@@ -107,6 +137,10 @@ msgid ""
 "browser</link> window opens with an additional <guibutton>Apply</guibutton> "
 "button."
 msgstr ""
+"<guibutton>Göz At…</guibutton> düğmesi Şema komutları metin kutusunun "
+"yanındadır. Tıklandığında, <link linkend=\"plug-in-dbbrowser\">yordam "
+"tarayıcı</link> penceresi ek <guibutton>Uygula</guibutton> düğmesiyle "
+"birlikte açılır."
 
 #: src/menus/filters/script-fu.xml:79(para)
 msgid ""
@@ -115,6 +149,10 @@ msgid ""
 "The selected procedure and its parameter names will be pasted into the text "
 "box of the Script Console."
 msgstr ""
+"<link linkend=\"glossary-pdb\"><acronym>Yordam Tarayıcı</acronym></link> "
+"listesinden bir yordam seçip <guibutton>Uygula</guibutton> düğmesine "
+"tıklayın. Seçilen yordam ve parametre adları Betik Uçbirimi metin kutusuna "
+"yapıştırılır."
 
 #: src/menus/filters/script-fu.xml:85(para)
 msgid ""
@@ -122,20 +160,23 @@ msgid ""
 "with actual values. Then you can call the procedure by pressing "
 "<keycap>Enter</keycap>."
 msgstr ""
+"Şimdi yordam adından sonraki parametre adlarını gerçek değerlerle "
+"değiştirmeniz yeterlidir. Daha sonra <keycap>Enter</keycap> tuşuna basarak "
+"yordamı çağırabilirsiniz."
 
 #: src/menus/filters/script-fu.xml:93(term)
 #: src/menus/filters/python-fu.xml:168(term)
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
 #: src/menus/filters/script-fu.xml:95(para)
 msgid "Pressing this button closes the Script-Fu console."
-msgstr ""
+msgstr "Bu düğmeye tıklamanız Script-Fu uçbirimini kapatır."
 
 #: src/menus/filters/script-fu.xml:101(term)
 #: src/menus/filters/python-fu.xml:79(term)
 msgid "Clear"
-msgstr ""
+msgstr "Temizle"
 
 #: src/menus/filters/script-fu.xml:103(para)
 #: src/menus/filters/python-fu.xml:81(para)
@@ -144,11 +185,14 @@ msgid ""
 "removed. Note that you can't get back the removed content using the "
 "<guilabel>Save</guilabel> command."
 msgstr ""
+"Bu düğmeye tıkladığınızda, ana pencerenin içeriği temizlenir. "
+"<guilabel>Kaydet</guilabel> düğmesini kullanarak kaldırılan içeriği geri "
+"alamayacağınızı unutmayın."
 
 #: src/menus/filters/script-fu.xml:111(term)
 #: src/menus/filters/python-fu.xml:69(term)
 msgid "Save"
-msgstr ""
+msgstr "Kaydet"
 
 #: src/menus/filters/script-fu.xml:113(para)
 msgid ""
@@ -156,24 +200,28 @@ msgid ""
 "Script-Fu console output (including the <quote><code>&gt;</code></quote>-"
 "characters)."
 msgstr ""
+"Bu komut, Script-Fu uçbirim ana penceresinin çıktılarını (<quote><code>&gt;</"
+"code></quote> karakterleri dahil) kaydetmenizi sağlar."
 
 #: src/menus/filters/script-fu.xml:124(title)
 msgid "Start Server"
-msgstr ""
+msgstr "Sunucuyu Başlat"
 
 #: src/menus/filters/script-fu.xml:125(para)
 msgid ""
 "This command will start a server, which reads and executes Script-Fu "
 "(Scheme) statements you send it via a specified port."
 msgstr ""
+"Bu komut, belirttiğiniz bağlantı noktasından gönderdiğiniz Script-Fu "
+"(Scheme) ifadelerini okuyan ve çalıştıran bir sunucu başlatır."
 
 #: src/menus/filters/script-fu.xml:130(title)
 msgid "The Script-Fu Server Options"
-msgstr ""
+msgstr "Script-Fu Sunucu Seçenekleri"
 
 #: src/menus/filters/script-fu.xml:140(term)
 msgid "Listen on IP"
-msgstr ""
+msgstr "IPʼyi dinle:"
 
 #: src/menus/filters/script-fu.xml:142(para)
 msgid ""
@@ -181,20 +229,26 @@ msgid ""
 "127.0.0.1 (also known as localhost). Only change this if you know what you "
 "are doing."
 msgstr ""
+"Script-Fu sunucusunun dinleyeceği IP adresi. Bu genellikle 127.0.0.1ʼdir "
+"(localhost olarak da bilinir). Bunu sadece ne yaptığınızı biliyorsanız "
+"değiştirin."
 
 #: src/menus/filters/script-fu.xml:150(term)
 msgid "Server Port"
-msgstr ""
+msgstr "Sunucu Bağlantı Noktası"
 
 #: src/menus/filters/script-fu.xml:152(para)
 msgid ""
 "The port number where the Script-Fu server will listen. It is possible to "
 "start more than one server, specifying different port numbers, of course."
 msgstr ""
+"Script-Fu sunucusunun dinleyeceği bağlantı noktası numarası. Elbette farklı "
+"bağlantı noktası numaraları belirterek birden fazla sunucu başlatmak "
+"mümkündür."
 
 #: src/menus/filters/script-fu.xml:160(term)
 msgid "Server Logfile"
-msgstr ""
+msgstr "Sunucu Günlük Dosyası"
 
 #: src/menus/filters/script-fu.xml:162(para)
 msgid ""
@@ -202,107 +256,116 @@ msgid ""
 "informational and error messages. If no file is specified, messages will be "
 "written to stdout."
 msgstr ""
+"İsteğe bağlı olarak, sunucunun hata ve bilgi iletilerini kaydetmek için "
+"kullanacağı dosyanın adını belirtebilirsiniz. Hiçbir dosya adı "
+"belirtilmezse, iletiler stdout'a yazılır."
 
 #: src/menus/filters/script-fu.xml:171(title)
 msgid "The Script-Fu Server Protocol"
-msgstr ""
+msgstr "Script-Fu Sunucu İletişim Kuralı"
 
 #: src/menus/filters/script-fu.xml:172(para)
 msgid ""
 "The protocol used to communicate with the Script-Fu server is very simple:"
 msgstr ""
+"Script-Fu sunucusuyla iletişim kurmak için kullanılan iletişim kuralı çok "
+"basittir:"
 
 #: src/menus/filters/script-fu.xml:177(para)
 msgid ""
 "Every message (Script-Fu statement) of length <code>L</code> sent to the "
 "server has to be preceded with the following 3 bytes:"
 msgstr ""
+"Sunucuya gönderilen <code>L</code> uzunluğundaki her ileti (Script-Fu "
+"ifadesi) aşağıdaki 3 baytı öncesinde taşımalıdır:"
 
 #: src/menus/filters/script-fu.xml:182(title)
 msgid "Header format for commands"
-msgstr ""
+msgstr "Komutlar için başlık biçimi"
 
 #: src/menus/filters/script-fu.xml:186(entry)
 #: src/menus/filters/script-fu.xml:221(entry)
 msgid "Byte #"
-msgstr ""
+msgstr "Byte #"
 
 #: src/menus/filters/script-fu.xml:187(entry)
 #: src/menus/filters/script-fu.xml:222(entry)
 msgid "Content"
-msgstr ""
+msgstr "İçerik"
 
 #: src/menus/filters/script-fu.xml:188(entry)
 #: src/menus/filters/script-fu.xml:223(entry)
 msgid "Description"
-msgstr ""
+msgstr "Açıklama"
 
 #: src/menus/filters/script-fu.xml:193(entry)
 #: src/menus/filters/script-fu.xml:228(entry)
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: src/menus/filters/script-fu.xml:194(entry)
 #: src/menus/filters/script-fu.xml:229(entry)
 msgid "0x47"
-msgstr ""
+msgstr "0x47"
 
 #: src/menus/filters/script-fu.xml:195(entry)
 #: src/menus/filters/script-fu.xml:230(entry)
 msgid "Magic byte ('G')"
-msgstr ""
+msgstr "Sihirli bayt ('G')"
 
 #: src/menus/filters/script-fu.xml:198(entry)
 #: src/menus/filters/script-fu.xml:233(entry)
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: src/menus/filters/script-fu.xml:199(entry)
 #: src/menus/filters/script-fu.xml:239(entry)
 msgid "L div 256"
-msgstr ""
+msgstr "L div 256"
 
 #: src/menus/filters/script-fu.xml:200(entry)
 #: src/menus/filters/script-fu.xml:240(entry)
 msgid "High byte of <code>L</code>"
-msgstr ""
+msgstr "Yüksek bayt <code>L</code>"
 
 #: src/menus/filters/script-fu.xml:203(entry)
 #: src/menus/filters/script-fu.xml:238(entry)
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: src/menus/filters/script-fu.xml:204(entry)
 #: src/menus/filters/script-fu.xml:244(entry)
 msgid "L mod 256"
-msgstr ""
+msgstr "L mod 256"
 
 #: src/menus/filters/script-fu.xml:205(entry)
 #: src/menus/filters/script-fu.xml:245(entry)
 msgid "Low byte of <code>L</code>"
-msgstr ""
+msgstr "Düşük bayt <code>L</code>"
 
 #: src/menus/filters/script-fu.xml:212(para)
 msgid ""
 "Every response from the server (return value or error message) of length "
 "<code>L</code> will be preceded with the following 4 bytes:"
 msgstr ""
+"<code>L</code> uzunluğundaki sunucudan gelen her yanıt (dönüş değeri veya "
+"hata iletisi) aşağıdaki 4 baytı öncesinde taşımalıdır:"
 
 #: src/menus/filters/script-fu.xml:217(title)
 msgid "Header format for responses"
-msgstr ""
+msgstr "Yanıtlar için başlık biçimi"
 
 #: src/menus/filters/script-fu.xml:234(entry)
 msgid "error code"
-msgstr ""
+msgstr "hata kodu"
 
 #: src/menus/filters/script-fu.xml:235(entry)
 msgid "0 on success, 1 on error"
-msgstr ""
+msgstr "0 başarılı, 1 hatalı"
 
 #: src/menus/filters/script-fu.xml:243(entry)
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: src/menus/filters/script-fu.xml:253(para)
 msgid ""
@@ -311,11 +374,15 @@ msgid ""
 "acronym> source code, which you can use as a simple command line shell for "
 "the Script-Fu server."
 msgstr ""
+"Çok uğraşmak istemiyorsanız: Script-Fu sunucusu için basit bir komut satırı "
+"kabuğu olarak kullanabileceğiniz <acronym>GIMP</acronym> kaynak koduyla "
+"birlikte gelen <application>servertest.py</application> isimli bir Python "
+"betiği de bulunmaktadır."
 
 #: src/menus/filters/reshow.xml:9(title)
 #: src/menus/filters/reshow.xml:16(primary)
 msgid "Re-Show Last"
-msgstr ""
+msgstr "Sonuncuyu Yeniden Göster"
 
 #: src/menus/filters/reshow.xml:11(primary)
 #: src/menus/filters/reset-all.xml:12(primary)
@@ -324,18 +391,18 @@ msgstr ""
 #: src/menus/filters/introduction.xml:16(primary)
 #: src/menus/filters/development.xml:10(secondary)
 msgid "Filters"
-msgstr ""
+msgstr "Süzgeçler"
 
 #: src/menus/filters/reshow.xml:12(secondary)
 #: src/menus/filters/reset-all.xml:13(secondary)
 #: src/menus/filters/repeat.xml:13(secondary)
 #: src/menus/filters/introduction.xml:17(secondary)
 msgid "Common functions"
-msgstr ""
+msgstr "Ortak işlevler"
 
 #: src/menus/filters/reshow.xml:13(tertiary)
 msgid "Re-Show last"
-msgstr ""
+msgstr "Sonuncuyu yeniden göster"
 
 #: src/menus/filters/reshow.xml:18(para)
 msgid ""
@@ -346,6 +413,13 @@ msgid ""
 "with the settings you used the last time you ran the plug-in (assuming that "
 "the plug-in follows the <acronym>GIMP</acronym> programming conventions)."
 msgstr ""
+"<guimenuitem>Sonuncuyu Yeniden Göster</guimenuitem> komutu, en son "
+"çalıştırılan eklentinin iletişim kutusunu gösterir. İletişim kutusu "
+"göstermeyen <quote>Sonuncuyu Yinele</quote> komutunun aksine, "
+"<guimenuitem>Sonuncuyu Yeniden Göster</guimenuitem> komutu, eklentiye ait "
+"iletişim penceresini yeniden görüntüler. Eklenti, en son çalıştırdığınızda "
+"kullandığınız ayarlarla görüntülenir (eklentinin <acronym>GIMP</acronym> "
+"programlama kurallarına uyduğu varsayılarak)."
 
 #: src/menus/filters/reshow.xml:28(para) src/menus/filters/repeat.xml:27(para)
 msgid ""
@@ -353,6 +427,8 @@ msgid ""
 "<emphasis>plug-in</emphasis>, regardless of whether it is in the "
 "<guimenu>Filters</guimenu> menu or not."
 msgstr ""
+"Bu komut, son çalıştırılan <emphasis>eklentiyi</emphasis>, <guimenu>Süzgeç</"
+"guimenu> menüsünde olup olmadığına bakmaksızın çalıştırır."
 
 #: src/menus/filters/reshow.xml:36(para)
 msgid ""
@@ -364,12 +440,19 @@ msgid ""
 "keycap><keycap>Z</keycap></keycombo> followed by <keycombo><keycap>Ctrl</"
 "keycap><keycap>Shift</keycap><keycap>F</keycap></keycombo>."
 msgstr ""
+"Özellikle bir önizleme penceresi olmayan bir eklenti kullanırken, "
+"sonuçlardan memnun kalmadan önce parametreleri birkaç kez ayarlamanız "
+"gerekebilir. Bunu en verimli şekilde yapabilmek için, <guimenuitem>Geri Al</"
+"guimenuitem> ve <guimenuitem>Sonuncuyu Yeniden Göster</guimenuitem> "
+"kısayollarını ezberlemelisiniz: <keycombo><keycap>Ctrl</keycap><keycap>Z</"
+"keycap></keycombo> devamında <keycombo><keycap>Ctrl</keycap><keycap>Shift</"
+"keycap><keycap>F</keycap></keycombo>."
 
 #: src/menus/filters/reshow.xml:54(title)
 #: src/menus/filters/reset-all.xml:34(title)
 #: src/menus/filters/repeat.xml:35(title)
 msgid "Activating the Command"
-msgstr ""
+msgstr "Komutu Etkinleştirmek"
 
 #: src/menus/filters/reshow.xml:57(para)
 msgid ""
@@ -377,24 +460,29 @@ msgid ""
 "<menuchoice><guimenu>Filters</guimenu><guimenuitem> Re-Show "
 "<replaceable>filter</replaceable></guimenuitem></menuchoice>,"
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guimenuitem>Yeniden Göster <replaceable>süzgeç adı</replaceable></"
+"guimenuitem></menuchoice> yoluyla ulaşabilirsiniz"
 
 #: src/menus/filters/reshow.xml:68(para)
 msgid ""
 "or by using the keyboard shortcut <keycombo><keycap>Ctrl</"
 "keycap><keycap>Shift</keycap><keycap>F</keycap></keycombo>."
 msgstr ""
+"ya da <keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap><keycap>F</"
+"keycap></keycombo> klavye kısayolunu kullanabilirsiniz."
 
 #: src/menus/filters/reset-all.xml:9(title)
 msgid "Reset All Filters"
-msgstr ""
+msgstr "Tüm Süzgeçleri Sıfırla"
 
 #: src/menus/filters/reset-all.xml:14(tertiary)
 msgid "Reset all"
-msgstr ""
+msgstr "Tümünü sıfırla"
 
 #: src/menus/filters/reset-all.xml:17(primary)
 msgid "Reset All"
-msgstr ""
+msgstr "Tümünü Sıfırla"
 
 #: src/menus/filters/reset-all.xml:20(para)
 msgid ""
@@ -408,6 +496,14 @@ msgid ""
 "it is a dramatic step, it asks you to confirm that you really want to do it. "
 "Be careful: you cannot undo this command."
 msgstr ""
+"Normalde, etkileşimli bir eklentiyi çalıştırdığınızda, iletişim kutusu, en "
+"son kullandıklarınız ayarlar ile birlikte görüntülenir. Değerleri ayarlarken "
+"hata yaptıysanız ve başlangıç değerlerini hatırlayamıyorsanız, bu bir sorun "
+"olabilir. Bu durumdan bir çıkış yolu <acronym>GIMP</acronym>'i yeniden "
+"başlatmaktır, ancak <guimenuitem>Tüm Süzgeçleri Sıfırla</guimenuitem> komutu "
+"biraz daha basit bir çıkış yoludur: tüm eklenti değerleri varsayılan "
+"değerlerine sıfırlanır. Kalıcı bir işlem olduğu için, gerçekten yapmak "
+"istediğinizi onaylamanız gerekir. Dikkatli olun: bu komut geri alınamaz."
 
 #: src/menus/filters/reset-all.xml:37(para)
 msgid ""
@@ -415,12 +511,15 @@ msgid ""
 "<menuchoice><guimenu>Filters</guimenu><guimenuitem>Reset all Filters</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guimenuitem>Tüm Süzgeçleri Sıfırla</guimenuitem></menuchoice> "
+"yoluyla ulaşabilirsiniz."
 
 #: src/menus/filters/repeat.xml:9(title)
 #: src/menus/filters/repeat.xml:14(tertiary)
 #: src/menus/filters/repeat.xml:17(primary)
 msgid "Repeat Last"
-msgstr ""
+msgstr "Sonuncuyu Yinele"
 
 #: src/menus/filters/repeat.xml:20(para)
 msgid ""
@@ -428,6 +527,10 @@ msgid ""
 "the most recently executed plug-in again, using the same settings as the "
 "last time it was run. It does not show a dialog or request confirmation."
 msgstr ""
+"<guimenuitem>Sonuncuyu Yinele</guimenuitem> komutu, en son çalıştırılan "
+"eklentinin eylemini, en son çalıştırıldığı zamankiyle aynı ayarları "
+"kullanarak tekrar gerçekleştirir. Bir iletişim kutusu göstermez veya onay "
+"isteğinde bulunmaz."
 
 #: src/menus/filters/repeat.xml:38(para)
 msgid ""
@@ -435,12 +538,17 @@ msgid ""
 "<menuchoice><guimenu>Filters</guimenu><guimenuitem>Repeat "
 "<replaceable>filter</replaceable></guimenuitem></menuchoice>,"
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guimenuitem>Yinele <quote><replaceable>Süzgeç Adı</replaceable></"
+"quote></guimenuitem></menuchoice> yoluyla erişebilirsiniz,"
 
 #: src/menus/filters/repeat.xml:48(para)
 msgid ""
 "or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>F</"
 "keycap></keycombo>."
 msgstr ""
+"veya <keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> klavye "
+"kısayolunu kullanabilirsiniz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -449,6 +557,8 @@ msgid ""
 "@@image: 'images/menus/filters/python-fu-console.png'; "
 "md5=9d0c4b506f3d53820a47bfee7a7e2c66"
 msgstr ""
+"@@image: 'images/menus/filters/python-fu-console.png'; "
+"md5=9d0c4b506f3d53820a47bfee7a7e2c66"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -457,18 +567,20 @@ msgid ""
 "@@image: 'images/menus/filters/python-fu-console-browse-applied.png'; "
 "md5=d7147bde3c51996ac3a0abb1f91f516e"
 msgstr ""
+"@@image: 'images/menus/filters/python-fu-console-browse-applied.png'; "
+"md5=d7147bde3c51996ac3a0abb1f91f516e"
 
 #: src/menus/filters/python-fu.xml:8(title)
 msgid "The <quote>Python-Fu</quote> Submenu"
-msgstr ""
+msgstr "<quote>Python-Fu</quote> Alt Menüsü"
 
 #: src/menus/filters/python-fu.xml:11(primary)
 msgid "Python-Fu"
-msgstr ""
+msgstr "Python-Fu"
 
 #: src/menus/filters/python-fu.xml:15(para)
 msgid "By default this submenu just contains the Python-Fu console."
-msgstr ""
+msgstr "Varsayılan olarak bu menü sadece Python-Fu uçbirim girdisini içerir."
 
 #. cf. plug-ins/pygimp/doc/pygimp.html
 #: src/menus/filters/python-fu.xml:19(para)
@@ -477,6 +589,9 @@ msgid ""
 "link> modules that act as a wrapper to <emphasis>libgimp</emphasis> allowing "
 "the writing of plug-ins for <acronym>GIMP</acronym>."
 msgstr ""
+"Python-Fu, <acronym>GIMP</acronym> için eklenti yazılmasına izin veren "
+"<emphasis>libgimp</emphasis> için wrapper/sarmalayıcı görevi gören bir <link "
+"linkend=\"bibliography-online-python\">Python</link> modül grubudur."
 
 #: src/menus/filters/python-fu.xml:28(para)
 msgid ""
@@ -484,11 +599,14 @@ msgid ""
 "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</"
 "guisubmenu><guimenuitem>Python-Fu</guimenuitem></menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Geliştirme</guisubmenu><guimenuitem>Python-Fu</"
+"guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/filters/python-fu.xml:39(title)
 #: src/menus/filters/python-fu.xml:58(title)
 msgid "The Python-Fu Console"
-msgstr ""
+msgstr "Python-Fu Uçbirimi"
 
 #: src/menus/filters/python-fu.xml:40(para)
 msgid ""
@@ -497,11 +615,17 @@ msgid ""
 "make use of the internal <acronym>GIMP</acronym> library routines of "
 "<emphasis>libgimp</emphasis>."
 msgstr ""
+"Python-Fu uçbirimi <quote>Python kabuğu</quote> (etkileşimli kipte bir "
+"Python yorumlayıcı) çalıştıran bir iletişim penceresidir. Bu uçbirim, "
+"<emphasis>libgimp</emphasis>'in dahili <acronym>GIMP</acronym> kütüphanesi "
+"yordamlarından faydalanmak için ayarlanmıştır."
 
 #: src/menus/filters/python-fu.xml:46(para)
 msgid ""
 "You can use the Python-Fu console to interactively test Python commands."
 msgstr ""
+"Python komutlarını etkileşimli olarak test etmek için Python-Fu uçbirimini "
+"kullanabilirsiniz."
 
 #: src/menus/filters/python-fu.xml:49(para)
 msgid ""
@@ -511,10 +635,15 @@ msgid ""
 "Python interpreter. The command's output as well as its return value (and "
 "its error message, if any) will be displayed in the main window."
 msgstr ""
+"Uçbirim, girdi ve çıktı için Python komutlarını yazabileceğiniz geniş, "
+"kaydırılabilir bir ana penceredir. Bir Python komutu yazıp <keycap>Enter</"
+"keycap> tuşuna bastığınızda, komut Python yorumlayıcı tarafından "
+"çalıştırılır. Komutun çıktısının yanı sıra dönüş değeri (ve varsa hata "
+"iletisi ile birlikte) ana pencerede gösterilir."
 
 #: src/menus/filters/python-fu.xml:67(title)
 msgid "The Python-Fu Console Buttons"
-msgstr ""
+msgstr "Python-Fu Uçbirim Düğmeleri"
 
 #: src/menus/filters/python-fu.xml:71(para)
 msgid ""
@@ -522,6 +651,8 @@ msgid ""
 "Python-Fu console input and output (including the <quote><code>&gt;&gt;&gt;</"
 "code></quote> prompt)."
 msgstr ""
+"Bu komut, Python-Fu uçbirim ana penceresinin girdi ve çıktılarını "
+"(<quote><code>&gt;&gt;&gt;</code></quote> istemi dahil) kaydetmenizi sağlar."
 
 #. TODO check: With or without image?
 #: src/menus/filters/python-fu.xml:110(para)
@@ -529,6 +660,9 @@ msgid ""
 "When clicked, the <link linkend=\"plug-in-dbbrowser\">procedure browser</"
 "link> pops up, with an additional button <guibutton>Apply</guibutton>."
 msgstr ""
+"Tıkladığınızda, <link linkend=\"plug-in-dbbrowser\">Yordam Tarayıcı</link> "
+"iletişim kutusu, ilave <guibutton>Uygula</guibutton> düğmesiyle birlikte "
+"açılır."
 
 #: src/menus/filters/python-fu.xml:115(para)
 msgid ""
@@ -536,10 +670,13 @@ msgid ""
 "browser, a call to the selected procedure will be pasted into the console "
 "window as a Python command:"
 msgstr ""
+"Yordam tarayıcısında <guibutton>Apply/Uygula</guibutton> düğmesine "
+"bastığınızda, seçilen yordama ait bir çağrı, Python komutu olarak uçbirim "
+"penceresine yapıştırılır:"
 
 #: src/menus/filters/python-fu.xml:126(para)
 msgid "Applied <acronym>PDB</acronym> procedure"
-msgstr ""
+msgstr "<acronym>PDB</acronym> yordamı uygulanmış"
 
 #: src/menus/filters/python-fu.xml:129(para)
 msgid ""
@@ -547,26 +684,30 @@ msgid ""
 "quote>, <quote>height</quote>, and <quote>type</quote>) with actual values, "
 "e.g."
 msgstr ""
+"Geriye parametre değerlerini gerçek değerlerle değiştirmeniz kalır, (bu "
+"örnekte: <quote>width</quote>, <quote>height</quote>, ve <quote>type</"
+"quote>) değerleri."
 
 #. Don't wrap the following line (without testing)!
 #: src/menus/filters/python-fu.xml:135(programlisting)
 #, no-wrap
 msgid "config.set_property('width', 400)"
-msgstr ""
+msgstr "config.set_property('width', 400)"
 
 #: src/menus/filters/python-fu.xml:136(programlisting)
 #, no-wrap
 msgid "config.set_property('height', 300)"
-msgstr ""
+msgstr "config.set_property('height', 300)"
 
 #: src/menus/filters/python-fu.xml:137(programlisting)
 #, no-wrap
 msgid "config.set_property('type', Gimp.ImageBaseType.RGB)"
-msgstr ""
+msgstr "config.set_property('type', Gimp.ImageBaseType.RGB)"
 
 #: src/menus/filters/python-fu.xml:138(para)
 msgid "Then press <keycap>Enter</keycap> to execute the command."
 msgstr ""
+"Sonrasında, komutunu çalıştırmak için <keycap>Enter</keycap> tuşuna basın."
 
 #: src/menus/filters/python-fu.xml:141(para)
 msgid ""
@@ -576,6 +717,11 @@ msgid ""
 "(<quote>-</quote>) with underscores (<quote>_</quote>): <code>RGB_IMAGE</"
 "code>, <code>OVERLAY_MODE</code>."
 msgstr ""
+"Yordam parametrelerinin tanımında bulduğunuz sabitleri kullanabilirsiniz (ve "
+"kullanmalısınız!), Örneğin <quote>RGB-IMAGE</quote> veya <quote>OVERLAY-"
+"MODE</quote>. Ancak kısa çizgileri ((<quote>-</quote>)) alt çizgi (<quote>_</"
+"quote>) ile değiştirmeniz gerektiğini unutmayın: <code>RGB_IMAGE</code>, "
+"<code>OVERLAY_MODE</code>."
 
 #. cf. plug-ins/pygimp/doc/pygimp.html
 #: src/menus/filters/python-fu.xml:151(para)
@@ -585,6 +731,10 @@ msgid ""
 "acronym> procedural database). To create a new image object like in the "
 "example above, you can also type"
 msgstr ""
+"Python-Fu, <link linkend=\"glossary-pdb\"><acronym>PDB</acronym></link>'den "
+"(<acronym>GIMP</acronym> yordam veritabanı) yordam çağırmakla sınırlı "
+"değildir. Yukarıdaki örnekte olduğu gibi, yeni bir görüntü nesnesi "
+"oluşturmak için aşağıdaki şekilde bir girdi de oluşturabilirsiniz:"
 
 #: src/menus/filters/python-fu.xml:157(programlisting)
 #, no-wrap
@@ -593,16 +743,21 @@ msgid ""
 "              image = gimp.Image(width, height, type)\n"
 "            "
 msgstr ""
+"\n"
+"              image = gimp.Image(width, height, type)\n"
+"            "
 
 #: src/menus/filters/python-fu.xml:160(para)
 msgid ""
 "(with actual values for <quote>width</quote>, <quote>height</quote>, and "
 "<quote>type</quote>)."
 msgstr ""
+"(<quote>width</quote>, <quote>height</quote>, ve <quote>type</quote> "
+"parametreleri için gerçek değer girmeyi unutmayın) ."
 
 #: src/menus/filters/python-fu.xml:170(para)
 msgid "Pressing this button closes the console."
-msgstr ""
+msgstr "Bu düğmeye tıklamanız uçbirimi kapatır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -610,22 +765,23 @@ msgstr ""
 msgid ""
 "@@image: 'images/menus/filters.png'; md5=da3cc7b88ca287031613962b72023269"
 msgstr ""
+"@@image: 'images/menus/filters.png'; md5=da3cc7b88ca287031613962b72023269"
 
 #: src/menus/filters/introduction.xml:9(title)
 msgid "Introduction to the <quote>Filters</quote> Menu"
-msgstr ""
+msgstr "<quote>Süzgeçler</quote> Menüsüne Giriş"
 
 #: src/menus/filters/introduction.xml:13(secondary)
 msgid "Menu"
-msgstr ""
+msgstr "Menü"
 
 #: src/menus/filters/introduction.xml:18(tertiary)
 msgid "Introduction to filters"
-msgstr ""
+msgstr "Süzgeçlere Giriş"
 
 #: src/menus/filters/introduction.xml:22(title)
 msgid "The <quote>Filters</quote> menu"
-msgstr ""
+msgstr "<quote>Süzgeçler</quote> Menüsü"
 
 #: src/menus/filters/introduction.xml:29(para)
 msgid ""
@@ -636,6 +792,12 @@ msgid ""
 "mean any plug-in, regardless of what it does. Indeed, some of the entries in "
 "this menu do not modify images at all."
 msgstr ""
+"<acronym>GIMP</acronym> terminolojisinde, <emphasis>süzgeç</emphasis> "
+"görüntünün görünümünü değiştiren, çoğu durumda görüntünün yalnızca etkin "
+"katmanını değiştiren eklentidir. Ancak bu menüdeki girdilerin tümü bu tanıma "
+"tamamen uymaz. Herhangi bir eklenti için <quote>süzgeç</quote> kelimesinin "
+"kullanılması genellikle yanlış olacaktır. Aslında, bu menüdeki girdilerin "
+"bazıları görüntüleri hiç değiştirmez."
 
 #: src/menus/filters/introduction.xml:38(para)
 msgid ""
@@ -647,6 +809,12 @@ msgid ""
 "ins come with <acronym>GIMP</acronym> when it is installed, and of course "
 "they are always in the same places in the menu."
 msgstr ""
+"<guimenu>Süzgeçler</guimenu> menüsünün ilk üç ögesi hariç, tüm girdiler "
+"eklentiler tarafından sağlanır. Her eklenti, menü girdisinin nereye "
+"yerleştirileceğini kendisi belirler. Bu nedenle, bu menünün görünümü her "
+"kullanıcı için tamamen farklı olabilir. Uygulamada ise görünüm çok fazla "
+"değişmiyor, çünkü çoğu eklenti <acronym>GIMP</acronym> ile birlikte geliyor "
+"ve menüde her zaman aynı yerde bulunuyorlar."
 
 #: src/menus/filters/introduction.xml:48(para)
 msgid ""
@@ -657,6 +825,12 @@ msgid ""
 "ins. But the <guimenu>Filters</guimenu> menu is the default place for a plug-"
 "in to place its menu entries."
 msgstr ""
+"Eklentiler sadece <guimenu>Süzgeçler</guimenu> menüsüyle sınırlı değildir: "
+"bir eklenti herhangi bir menüye girdi ekleyebilir. Aslında, <acronym>GIMP</"
+"acronym>'in temel işlevlerinden bazıları (örneğin <guimenu>Katman</guimenu> "
+"menüsünde <guimenuitem>Yarı Düzleştir</guimenuitem> işlevi) eklentiler "
+"tarafından gerçekleştirilir. Ancak, <guimenu>Süzgeçler</guimenu> menüsü, bir "
+"eklentinin menü girdilerinin yerleştirmesi için öntanımlı konumdur."
 
 #: src/menus/filters/introduction.xml:57(para)
 msgid ""
@@ -666,24 +840,32 @@ msgid ""
 "the <link linkend=\"filters\">Filters</link> chapter. For filters you "
 "install yourself, please refer to the information which came with them."
 msgstr ""
+"Eklentiler ve bunların nasıl kullanılacağı hakkında genel bilgi için "
+"bakınız: <link linkend=\"gimp-concepts-plugins\">Eklentiler</link>. "
+"<acronym>GIMP</acronym> ile gelen süzgeçler hakkındaki bilgileri <link "
+"linkend=\"filters\">Süzgeçler</link> bölümünde bulabilirsiniz. Kendi "
+"yüklediğiniz süzgeçler için, lütfen ilgili süzgeçle birlikte sunulan "
+"bilgilere bakın."
 
 #: src/menus/filters/development.xml:6(title)
 msgid "The <quote>Development</quote> Submenu"
-msgstr ""
+msgstr "<quote>Geliştirme</quote> Alt Menüsü"
 
 #: src/menus/filters/development.xml:9(primary)
 msgid "Menus"
-msgstr ""
+msgstr "Menüler"
 
 #: src/menus/filters/development.xml:11(tertiary)
 msgid "Development"
-msgstr ""
+msgstr "Geliştirme"
 
 #: src/menus/filters/development.xml:14(para)
 msgid ""
 "This submenu contains development related items. Useful when you are "
 "developing plug-ins."
 msgstr ""
+"Bu alt menü geliştirmeyle ilgili ögeleri içerir. Eklenti geliştirirken "
+"kullanışlıdır."
 
 #: src/menus/filters/development.xml:21(para)
 msgid ""
@@ -691,10 +873,13 @@ msgid ""
 "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</guisubmenu></"
 "menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Geliştirme</guisubmenu></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/filters/development.xml:31(title)
 msgid "Categories"
-msgstr ""
+msgstr "Kategoriler"
 
 #: src/menus/filters/development.xml:40(para)
 msgid ""
@@ -702,6 +887,9 @@ msgid ""
 "start example plug-ins in several programming languages. They can be used as "
 "a starting point when you want to develop your own plug-in."
 msgstr ""
+"<guisubmenu>Eklenti Örnekleri</guisubmenu>: bu alt menüdeki komutlar çeşitli "
+"programlama dillerinde örnek eklentiler başlatır. Kendi eklentinizi "
+"geliştirmek istediğinizde başlangıç noktası olarak kullanılabilirler."
 
 #: src/menus/filters/development.xml:46(para)
 msgid ""
@@ -709,8 +897,6 @@ msgid ""
 "Script-Fu (Scheme) and JavaScript. Note that JavaScript plug-ins are "
 "currently not available on Windows."
 msgstr ""
-
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/menus/filters/development.xml:0(None)
-msgid "translator-credits"
-msgstr ""
+"Şu anda C, Lua, Python, Vala, Script-Fu (Scheme) ve JavaScript için örnek "
+"eklentiler vardır. JavaScript eklentilerinin şimdilik Windows'ta olmadığını "
+"unutmayın."

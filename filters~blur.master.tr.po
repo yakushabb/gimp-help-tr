@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
+"Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-07-15 08:40+0000\n"
-"PO-Revision-Date: 2023-08-11 12:30-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-09-24 22:55+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -26,6 +34,8 @@ msgid ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
 msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -34,6 +44,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-zoom.jpg'; "
 "md5=4f26c42fd44cfac2701fa51272bfa8d7"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-zoom.jpg'; "
+"md5=4f26c42fd44cfac2701fa51272bfa8d7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -42,11 +54,13 @@ msgid ""
 "@@image: 'images/filters/blur/zoom-options.png'; "
 "md5=601ec890d68a67a9753a073cf5328403"
 msgstr ""
+"@@image: 'images/filters/blur/zoom-options.png'; "
+"md5=601ec890d68a67a9753a073cf5328403"
 
 #: src/filters/blur/zoom-motion.xml:9(title)
 #: src/filters/blur/zoom-motion.xml:17(primary)
 msgid "Zoom Motion Blur"
-msgstr ""
+msgstr "Odaktan Dışa Doğru Hareket Bulanıklığı"
 
 #: src/filters/blur/zoom-motion.xml:12(primary)
 #: src/filters/blur/variable-blur.xml:9(primary)
@@ -62,7 +76,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:9(primary)
 #: src/filters/blur/circular-motion.xml:12(primary)
 msgid "Filters"
-msgstr ""
+msgstr "Süzgeçler"
 
 #: src/filters/blur/zoom-motion.xml:13(secondary)
 #: src/filters/blur/variable-blur.xml:10(secondary)
@@ -78,11 +92,11 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:10(secondary)
 #: src/filters/blur/circular-motion.xml:13(secondary)
 msgid "Blur"
-msgstr ""
+msgstr "Bulanıklık"
 
 #: src/filters/blur/zoom-motion.xml:14(tertiary)
 msgid "Zoom Motion"
-msgstr ""
+msgstr "Odaktan Dışa Doğru Hareket"
 
 #: src/filters/blur/zoom-motion.xml:21(title)
 #: src/filters/blur/variable-blur.xml:18(title)
@@ -97,11 +111,11 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:18(title)
 #: src/filters/blur/circular-motion.xml:21(title)
 msgid "Overview"
-msgstr ""
+msgstr "Genel Görünüm"
 
 #: src/filters/blur/zoom-motion.xml:23(title)
 msgid "The Zoom Motion Blur filter"
-msgstr ""
+msgstr "Odaktan Dışa Doğru Hareket süzgeci"
 
 #: src/filters/blur/zoom-motion.xml:30(para)
 #: src/filters/blur/variable-blur.xml:27(para)
@@ -113,7 +127,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:27(para)
 #: src/filters/blur/circular-motion.xml:30(para)
 msgid "Original"
-msgstr ""
+msgstr "Özgün"
 
 #: src/filters/blur/zoom-motion.xml:39(para)
 #: src/filters/blur/linear-motion.xml:38(para)
@@ -121,7 +135,7 @@ msgstr ""
 #: src/filters/blur/gauss_select.xml:39(para)
 #: src/filters/blur/circular-motion.xml:39(para)
 msgid "Blur applied"
-msgstr ""
+msgstr "Bulanıklık uygulandı"
 
 #: src/filters/blur/zoom-motion.xml:43(para)
 msgid ""
@@ -144,11 +158,11 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:50(title)
 #: src/filters/blur/circular-motion.xml:52(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/filters/blur/zoom-motion.xml:55(title)
 msgid "<quote>Zoom Motion Blur</quote> filter options"
-msgstr ""
+msgstr "<quote>Odaktan Dışa Doğru Hareket</quote> süzgeci seçenekleri"
 
 #: src/filters/blur/zoom-motion.xml:66(term)
 #: src/filters/blur/variable-blur.xml:63(term)
@@ -161,7 +175,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:65(term)
 #: src/filters/blur/circular-motion.xml:65(term)
 msgid "Presets"
-msgstr ""
+msgstr "Önayarlar"
 
 #: src/filters/blur/zoom-motion.xml:67(quote)
 #: src/filters/blur/variable-blur.xml:64(quote)
@@ -175,7 +189,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:66(quote)
 #: src/filters/blur/circular-motion.xml:66(quote)
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 #: src/filters/blur/zoom-motion.xml:68(term)
 #: src/filters/blur/variable-blur.xml:65(term)
@@ -188,7 +202,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:67(term)
 #: src/filters/blur/circular-motion.xml:67(term)
 msgid "Clipping"
-msgstr ""
+msgstr "Kırpma"
 
 #: src/filters/blur/zoom-motion.xml:69(term)
 #: src/filters/blur/variable-blur.xml:66(term)
@@ -201,7 +215,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:68(term)
 #: src/filters/blur/circular-motion.xml:68(term)
 msgid "Blending Options"
-msgstr ""
+msgstr "Harmanlama Seçenekleri"
 
 #: src/filters/blur/zoom-motion.xml:70(term)
 #: src/filters/blur/variable-blur.xml:67(term)
@@ -214,7 +228,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:69(term)
 #: src/filters/blur/circular-motion.xml:69(term)
 msgid "Preview"
-msgstr ""
+msgstr "Ön izleme"
 
 #: src/filters/blur/zoom-motion.xml:71(term)
 #: src/filters/blur/variable-blur.xml:68(term)
@@ -227,7 +241,7 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:70(term)
 #: src/filters/blur/circular-motion.xml:70(term)
 msgid "Merge filter"
-msgstr ""
+msgstr "Süzgeci birleştir"
 
 #: src/filters/blur/zoom-motion.xml:72(term)
 #: src/filters/blur/variable-blur.xml:69(term)
@@ -240,19 +254,19 @@ msgstr ""
 #: src/filters/blur/focus-blur.xml:71(term)
 #: src/filters/blur/circular-motion.xml:71(term)
 msgid "Split view"
-msgstr ""
+msgstr "Bölünmüş görünüm"
 
 #: src/filters/blur/zoom-motion.xml:79(term)
 #: src/filters/blur/focus-blur.xml:150(term)
 #: src/filters/blur/circular-motion.xml:78(term)
 msgid "Center X"
-msgstr ""
+msgstr "X Merkezi"
 
 #: src/filters/blur/zoom-motion.xml:80(term)
 #: src/filters/blur/focus-blur.xml:151(term)
 #: src/filters/blur/circular-motion.xml:79(term)
 msgid "Center Y"
-msgstr ""
+msgstr "Y Merkezi"
 
 #: src/filters/blur/zoom-motion.xml:82(para)
 msgid ""
@@ -264,19 +278,21 @@ msgstr ""
 
 #: src/filters/blur/zoom-motion.xml:92(term)
 msgid "Blurring factor"
-msgstr ""
+msgstr "Bulanıklık katsayısı"
 
 #: src/filters/blur/zoom-motion.xml:94(para)
 msgid ""
 "Increasing factor will result in more blurring in all directions of zoom."
 msgstr ""
+"Katsayının artırılması, yakınlaştırmanın her yönünde daha çok bulanıklığa "
+"neden olur."
 
 #: src/filters/blur/zoom-motion.xml:102(term)
 #: src/filters/blur/linear-motion.xml:97(term)
 #: src/filters/blur/focus-blur.xml:208(term)
 #: src/filters/blur/circular-motion.xml:100(term)
 msgid "On-canvas controls"
-msgstr ""
+msgstr "Tuvalde denetimler"
 
 #: src/filters/blur/zoom-motion.xml:104(para)
 msgid ""
@@ -287,11 +303,13 @@ msgstr ""
 
 #: src/filters/blur/zoom-motion.xml:109(para)
 msgid "Press <keycap>Alt</keycap> key to vary center only."
-msgstr ""
+msgstr "Yalnızca merkezi değiştirmek için <keycap>Alt</keycap> tuşuna basın."
 
 #: src/filters/blur/zoom-motion.xml:112(para)
 msgid "Press <keycap>Ctrl</keycap> key to vary blurring factor only."
 msgstr ""
+"Yalnızca bulanıklık katsayısını değiştirmek için <keycap>Ctrl</keycap> "
+"tuşuna basın."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -300,6 +318,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-variable.jpg'; "
 "md5=44f9573f87159d48433e5f3c3a104d27"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-variable.jpg'; "
+"md5=44f9573f87159d48433e5f3c3a104d27"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -308,20 +328,22 @@ msgid ""
 "@@image: 'images/filters/blur/variable-blur-dialog.png'; "
 "md5=ab7df1f9ba23a0a8dec70f29a90d8f8e"
 msgstr ""
+"@@image: 'images/filters/blur/variable-blur-dialog.png'; "
+"md5=ab7df1f9ba23a0a8dec70f29a90d8f8e"
 
 #: src/filters/blur/variable-blur.xml:6(title)
 #: src/filters/blur/variable-blur.xml:11(tertiary)
 #: src/filters/blur/variable-blur.xml:14(primary)
 msgid "Variable Blur"
-msgstr ""
+msgstr "Değişken Bulanıklık"
 
 #: src/filters/blur/variable-blur.xml:20(title)
 msgid "The Variable Blur filter"
-msgstr ""
+msgstr "Değişken Bulanıklık süzgeci"
 
 #: src/filters/blur/variable-blur.xml:36(para)
 msgid "Variable Blur applied"
-msgstr ""
+msgstr "Değişken Bulanıklık uygulandı"
 
 #: src/filters/blur/variable-blur.xml:40(para)
 msgid ""
@@ -332,11 +354,11 @@ msgstr ""
 
 #: src/filters/blur/variable-blur.xml:50(title)
 msgid "Variable Blur filter dialog options"
-msgstr ""
+msgstr "Değişken Bulanıklık süzgeci iletişim kutusu seçenekleri"
 
 #: src/filters/blur/variable-blur.xml:76(term)
 msgid "Input"
-msgstr ""
+msgstr "Girdi"
 
 #: src/filters/blur/variable-blur.xml:78(para)
 msgid ""
@@ -351,31 +373,32 @@ msgstr ""
 #: src/filters/blur/lens-blur.xml:87(term)
 #: src/filters/blur/focus-blur.xml:159(term)
 msgid "Radius"
-msgstr ""
+msgstr "Yarıçap"
 
 #: src/filters/blur/variable-blur.xml:90(para)
 msgid "Maximal blur radius."
-msgstr ""
+msgstr "Azami bulanıklık yarıçapı"
 
 #: src/filters/blur/variable-blur.xml:97(term)
 #: src/filters/blur/lens-blur.xml:125(term)
 msgid "Linear mask"
-msgstr ""
+msgstr "Doğrusal maske"
 
 #: src/filters/blur/variable-blur.xml:99(para)
 #: src/filters/blur/lens-blur.xml:127(para)
 msgid "If enabled, use linear mask values."
-msgstr ""
+msgstr "Etkinleştirilmişse, doğrusal maske değerlerini kullan."
 
 #: src/filters/blur/variable-blur.xml:106(term)
 msgid "High quality"
-msgstr ""
+msgstr "Yüksek kalite"
 
 #: src/filters/blur/variable-blur.xml:108(para)
 msgid ""
 "If enabled, generates more accurate and consistent output, at the cost of "
 "being slower."
 msgstr ""
+"Etkinleştirilirse, daha yavaş olsa da daha doğru ve tutarlı çıktı üretir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -384,6 +407,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-tblur.jpg'; "
 "md5=f29dc0106640ba234b0d21ac3a6faa19"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-tblur.jpg'; "
+"md5=f29dc0106640ba234b0d21ac3a6faa19"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -392,20 +417,22 @@ msgid ""
 "@@image: 'images/filters/blur/tileable-options.png'; "
 "md5=66e5de1a6a3a497903cb90a757619e21"
 msgstr ""
+"@@image: 'images/filters/blur/tileable-options.png'; "
+"md5=66e5de1a6a3a497903cb90a757619e21"
 
 #: src/filters/blur/tileable.xml:8(title)
 #: src/filters/blur/tileable.xml:13(tertiary)
 #: src/filters/blur/tileable.xml:16(primary)
 msgid "Tileable Blur"
-msgstr ""
+msgstr "Döşenebilir Bulanıklık"
 
 #: src/filters/blur/tileable.xml:22(title)
 msgid "Example for the <quote>Tileable</quote> filter"
-msgstr ""
+msgstr "<quote>Döşenebilir Bulanıklık</quote> süzgeci örneği"
 
 #: src/filters/blur/tileable.xml:38(para)
 msgid "Filter <quote>Tileable Blur</quote> applied"
-msgstr ""
+msgstr "<quote>Döşenebilir Bulanıklık</quote> süzgeci uygulandı"
 
 #: src/filters/blur/tileable.xml:42(para)
 msgid ""
@@ -437,7 +464,10 @@ msgid ""
 "Apply <quote>Tileable Blur</quote> filter with a 20 pixels radius to this "
 "layer."
 msgstr ""
+"Bu katmana <quote>Döşenebilir Bulanıklaştırma</quote> süzgecini 20 piksel "
+"yarıçap ile uygula."
 
+# Küçült menü ögesinde üç nokta var.
 #: src/filters/blur/tileable.xml:75(para)
 msgid ""
 "Select all (<keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo>) "
@@ -445,6 +475,10 @@ msgid ""
 "guimenu><guimenuitem>Shrink</guimenuitem></menuchoice>) to create a border "
 "with the wanted width."
 msgstr ""
+"Tümünü seç (<keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo>) ve "
+"istenen genişlikte kenarlık oluşturmak için seçimi azalt "
+"(<menuchoice><guimenu>Seçim</guimenu><guimenuitem>Küçült…</guimenuitem></"
+"menuchoice>)"
 
 #: src/filters/blur/tileable.xml:87(para)
 msgid ""
@@ -464,6 +498,8 @@ msgid ""
 "Merge layers with <menuchoice><guimenu>Layer</guimenu><guimenuitem>Merge "
 "down</guimenuitem></menuchoice>."
 msgstr ""
+"Katmanları birleştir: <menuchoice><guimenu>Katmanlar</"
+"guimenu><guimenuitem>Aşağı birleştir</guimenuitem></menuchoice>."
 
 #: src/filters/blur/tileable.xml:115(title)
 #: src/filters/blur/pixelize.xml:51(title)
@@ -472,7 +508,7 @@ msgstr ""
 #: src/filters/blur/gauss.xml:57(title)
 #: src/filters/blur/gauss_select.xml:55(title)
 msgid "Activating the Filter"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/blur/tileable.xml:116(para)
 msgid ""
@@ -480,10 +516,13 @@ msgid ""
 "guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Tileable Blur…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bulanıklık</guisubmenu><guimenuitem>Döşenebilir "
+"Bulanıklık…</guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/blur/tileable.xml:129(title)
 msgid "<quote>Tileable Blur</quote> filter options"
-msgstr ""
+msgstr "<quote>Döşenebilir Bulanıklık</quote> süzgeci seçenekleri"
 
 #: src/filters/blur/tileable.xml:141(para)
 msgid ""
@@ -494,40 +533,40 @@ msgstr ""
 
 #: src/filters/blur/tileable.xml:149(term)
 msgid "Blur vertically"
-msgstr ""
+msgstr "Dikey bulanıklık"
 
 #: src/filters/blur/tileable.xml:150(term)
 msgid "Blur horizontally"
-msgstr ""
+msgstr "Yatay bulanıklık"
 
 #: src/filters/blur/tileable.xml:152(para)
 msgid "These options are self-explanatory."
-msgstr ""
+msgstr "Bu seçenekler kendi kendini açıklar."
 
 #: src/filters/blur/tileable.xml:158(term)
 #: src/filters/blur/focus-blur.xml:92(term)
 msgid "Blur type"
-msgstr ""
+msgstr "Bulanıklık türü"
 
 #: src/filters/blur/tileable.xml:160(para)
 msgid "Choose the algorithm to be applied:"
-msgstr ""
+msgstr "Uygulanacak algoritmayı seçin:"
 
 #: src/filters/blur/tileable.xml:163(term)
 msgid "IIR"
-msgstr ""
+msgstr "IIR"
 
 #: src/filters/blur/tileable.xml:165(para)
 msgid "for photographic or scanned images."
-msgstr ""
+msgstr "fotoğrafik ya da taranmış görüntüler için."
 
 #: src/filters/blur/tileable.xml:169(term)
 msgid "RLE"
-msgstr ""
+msgstr "RLE"
 
 #: src/filters/blur/tileable.xml:171(para)
 msgid "for computer-generated images."
-msgstr ""
+msgstr "bilgisayarca oluşturulan görüntüler için."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -536,6 +575,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-pixelise.jpg'; "
 "md5=3a624ae1bcb7fa3ac25649f5b931e91e"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-pixelise.jpg'; "
+"md5=3a624ae1bcb7fa3ac25649f5b931e91e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -544,6 +585,8 @@ msgid ""
 "@@image: 'images/filters/blur/pixelize-options.png'; "
 "md5=347c82c52b694df0a6a99e9164ff0b97"
 msgstr ""
+"@@image: 'images/filters/blur/pixelize-options.png'; "
+"md5=347c82c52b694df0a6a99e9164ff0b97"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -552,21 +595,23 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-vchain.svg'; "
 "md5=d47eea1ce790b9e3211d223704a1e9de"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
 
 #: src/filters/blur/pixelize.xml:8(title)
 #: src/filters/blur/pixelize.xml:13(tertiary)
 #: src/filters/blur/pixelize.xml:16(primary)
 #: src/filters/blur/introduction.xml:115(title)
 msgid "Pixelize"
-msgstr ""
+msgstr "Pikselleştir"
 
 #: src/filters/blur/pixelize.xml:22(title)
 msgid "Example for the <quote>Pixelize</quote> filter"
-msgstr ""
+msgstr "<quote>Pikselleştir</quote> süzgeci örneği"
 
 #: src/filters/blur/pixelize.xml:38(para)
 msgid "<quote>Pixelize</quote> applied"
-msgstr ""
+msgstr "<quote>Pikselleştir</quote> uygulandı"
 
 #: src/filters/blur/pixelize.xml:42(para)
 msgid ""
@@ -582,15 +627,18 @@ msgid ""
 "guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Pixelize…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bulanıklık</guisubmenu><guimenuitem>Pikselleştir…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/blur/pixelize.xml:65(title)
 msgid "<quote>Pixelize</quote> filter options"
-msgstr ""
+msgstr "<quote>Pikselleştir</quote> süzgeci seçenekleri"
 
 #: src/filters/blur/pixelize.xml:87(term)
 #: src/filters/blur/focus-blur.xml:78(term)
 msgid "Shape"
-msgstr ""
+msgstr "Şekil"
 
 #: src/filters/blur/pixelize.xml:89(para)
 msgid ""
@@ -599,14 +647,18 @@ msgid ""
 "Diamond and Round shapes will only be visible when you lower <guilabel>Size "
 "Ratio X/Y</guilabel> to about 0.6 (Diamond) or 0.5 (Round)."
 msgstr ""
+"Üç tip Şekil seçeneği vardır: <guilabel>Karo</guilabel>, <guilabel>Yuvarlak</"
+"guilabel> ve <guilabel>Kare</guilabel> (öntanımlı). Karo ve Yuvarlak "
+"şekilleri yalnızca <guilabel>X/Y Boyut Oranını</guilabel> yaklaşık 0,6 "
+"(Karo) ya da 0,5 (Yuvarlak) değerine düşürdüğünüzde görünür olur."
 
 #: src/filters/blur/pixelize.xml:99(term)
 msgid "Block width"
-msgstr ""
+msgstr "Blok genişliği"
 
 #: src/filters/blur/pixelize.xml:100(term)
 msgid "Block height"
-msgstr ""
+msgstr "Blok yüksekliği"
 
 #: src/filters/blur/pixelize.xml:102(para)
 msgid "Here you can set the desired width and height of the blocks, in pixels."
@@ -621,11 +673,11 @@ msgstr ""
 
 #: src/filters/blur/pixelize.xml:121(term)
 msgid "Size ratio X"
-msgstr ""
+msgstr "X boyut oranı"
 
 #: src/filters/blur/pixelize.xml:122(term)
 msgid "Size ratio Y"
-msgstr ""
+msgstr "Y boyut oranı"
 
 #: src/filters/blur/pixelize.xml:124(para)
 msgid ""
@@ -637,11 +689,11 @@ msgstr ""
 
 #: src/filters/blur/pixelize.xml:133(term)
 msgid "Offset X"
-msgstr ""
+msgstr "X Konumu"
 
 #: src/filters/blur/pixelize.xml:134(term)
 msgid "Offset Y"
-msgstr ""
+msgstr "Y Konumu"
 
 #: src/filters/blur/pixelize.xml:136(para)
 msgid "Horizontal/Vertical offset of the shapes in pixels inside a block."
@@ -649,7 +701,7 @@ msgstr ""
 
 #: src/filters/blur/pixelize.xml:143(term)
 msgid "Background color"
-msgstr ""
+msgstr "Arka plan rengi"
 
 #: src/filters/blur/pixelize.xml:145(para)
 msgid ""
@@ -674,6 +726,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-calcul.png'; "
 "md5=f5e2b47c7758b44c5d81fe937deb25d6"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-calcul.png'; "
+"md5=f5e2b47c7758b44c5d81fe937deb25d6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -682,6 +736,8 @@ msgid ""
 "@@image: 'images/filters/blur/median-dialog.png'; "
 "md5=51dcc89ab7526d9fe2722fef84c9778b"
 msgstr ""
+"@@image: 'images/filters/blur/median-dialog.png'; "
+"md5=51dcc89ab7526d9fe2722fef84c9778b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -690,6 +746,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-neighbor.png'; "
 "md5=ff44eb4042764539b24b950fe5d36ada"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-neighbor.png'; "
+"md5=ff44eb4042764539b24b950fe5d36ada"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -699,6 +757,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-vs-gaussian.png'; "
 "md5=7d04e8df3a762c55743b5602f9cae1a6"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-vs-gaussian.png'; "
+"md5=7d04e8df3a762c55743b5602f9cae1a6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -707,6 +767,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-radius-100.png'; "
 "md5=fc79e1dc5614ac197b642d5feba62889"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-radius-100.png'; "
+"md5=fc79e1dc5614ac197b642d5feba62889"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -715,6 +777,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-percent.jpg'; "
 "md5=78f9a017ca9d77c8e210b0e156d8a014"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-percent.jpg'; "
+"md5=78f9a017ca9d77c8e210b0e156d8a014"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -723,6 +787,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-alpha-percent-bw.png'; "
 "md5=9374ef330b817307a6665be93e3fd311"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-alpha-percent-bw.png'; "
+"md5=9374ef330b817307a6665be93e3fd311"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -731,6 +797,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-alpha-percent.png'; "
 "md5=712b1ffbc6f622629ee0f3f923201cc4"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-alpha-percent.png'; "
+"md5=712b1ffbc6f622629ee0f3f923201cc4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -739,6 +807,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-noise.png'; "
 "md5=1a3b936bdb67171168fbda06b2a67b49"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-noise.png'; "
+"md5=1a3b936bdb67171168fbda06b2a67b49"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -747,21 +817,25 @@ msgid ""
 "@@image: 'images/filters/examples/blur/median-scratch.png'; "
 "md5=9cec4ba3ae3fce0e66de206154140137"
 msgstr ""
+"@@image: 'images/filters/examples/blur/median-scratch.png'; "
+"md5=9cec4ba3ae3fce0e66de206154140137"
 
 #: src/filters/blur/median-blur.xml:8(title)
 #: src/filters/blur/median-blur.xml:13(tertiary)
 #: src/filters/blur/median-blur.xml:16(primary)
 msgid "Median Blur"
-msgstr ""
+msgstr "Ortanca Bulanıklığı"
 
 #: src/filters/blur/median-blur.xml:26(title)
 msgid "Calculating Median"
-msgstr ""
+msgstr "Ortanca Hesaplama"
 
 #: src/filters/blur/median-blur.xml:33(para)
 msgid ""
 "A 3×3 neighborhood. Values in ascending order. Median surrounded in red."
 msgstr ""
+"3×3'lük bir komşuluk. Değerler artan sırada. Ortanca kırmızı ile "
+"çevrelenmiştir."
 
 #: src/filters/blur/median-blur.xml:21(para)
 msgid ""
@@ -779,14 +853,17 @@ msgid ""
 "guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Median Blur…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bulanıklık</guisubmenu><guimenuitem>Ortanca Bulanıklığı…"
+"</guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/blur/median-blur.xml:61(title)
 msgid "<quote>Median</quote> filter parameters"
-msgstr ""
+msgstr "<quote>Ortanca Bulanıklığı</quote> süzgeç parametreleri"
 
 #: src/filters/blur/median-blur.xml:84(term)
 msgid "Neighborhood"
-msgstr ""
+msgstr "Komşuluk"
 
 #: src/filters/blur/median-blur.xml:86(para)
 msgid ""
@@ -795,18 +872,22 @@ msgid ""
 "Differences are subtle and not predictable: experiment, on-canvas editing "
 "makes this easy."
 msgstr ""
+"Komşuluk şekli. Üç seçenek şunlardır: <guilabel>Kare</guilabel>, "
+"<guilabel>Daire</guilabel> (öntanımlı), <guilabel>Karo</guilabel>. Farkları "
+"çok hassastır ve tahmin edilemez: deneyebilirsiniz, tuvalde denetimler bunu "
+"kolaylaştırır."
 
 #: src/filters/blur/median-blur.xml:93(title)
 msgid "<quote>Median</quote> Neighborhood"
-msgstr ""
+msgstr "<quote>Ortanca</quote> Komşuluk"
 
 #: src/filters/blur/median-blur.xml:100(para)
 msgid "Radius=3. Left: Square."
-msgstr ""
+msgstr "Yarıçap=3. Sol: Kare."
 
 #: src/filters/blur/median-blur.xml:103(para)
 msgid "Middle: Circle. Right: Diamond."
-msgstr ""
+msgstr "Orta: Daire. Sağ: Karo."
 
 #: src/filters/blur/median-blur.xml:115(para)
 msgid ""
@@ -818,11 +899,13 @@ msgstr ""
 #: src/filters/blur/median-blur.xml:121(title)
 msgid "<quote>Median</quote> blur vs <quote>Gaussian</quote> blur"
 msgstr ""
+"<quote>Ortanca</quote> bulanıklığı ile <quote>Gaussian</quote> bulanıklığı "
+"karşılaştırması"
 
 #: src/filters/blur/median-blur.xml:129(para)
 #: src/filters/blur/gauss.xml:187(para)
 msgid "Left: Original image"
-msgstr ""
+msgstr "Sol: Özgün görüntü"
 
 #: src/filters/blur/median-blur.xml:132(para)
 #: src/filters/blur/gauss.xml:190(para)
@@ -830,6 +913,8 @@ msgid ""
 "Middle: <link linkend=\"gimp-filter-median-blur\">Median Blur</link> filter "
 "applied"
 msgstr ""
+"Orta: <link linkend=\"gimp-filter-median-blur\">Ortanca Bulanıklığı</link> "
+"süzgeci uygulandı"
 
 #: src/filters/blur/median-blur.xml:135(para)
 #: src/filters/blur/gauss.xml:193(para)
@@ -837,23 +922,25 @@ msgid ""
 "Right: <link linkend=\"gimp-filter-gaussian-blur\">Gaussian Blur</link> "
 "filter applied"
 msgstr ""
+"Sağ: <link linkend=\"gimp-filter-gaussian-blur\">Gaussian Bulanıklığı</link> "
+"süzgeci uygulandı"
 
 #: src/filters/blur/median-blur.xml:141(para)
 msgid "Increasing radius too much can create unwanted effects:"
-msgstr ""
+msgstr "Yarıçapı çok artırmak istenmeyen etkiler oluşturabilir:"
 
 #: src/filters/blur/median-blur.xml:150(para)
 #: src/filters/blur/median-blur.xml:179(para)
 msgid "Left: Origin"
-msgstr ""
+msgstr "Sol: Köken"
 
 #: src/filters/blur/median-blur.xml:153(para)
 msgid "Right: Radius=100"
-msgstr ""
+msgstr "Sağ: Yarıçap=100"
 
 #: src/filters/blur/median-blur.xml:162(term)
 msgid "Percentile"
-msgstr ""
+msgstr "Yüzde"
 
 #: src/filters/blur/median-blur.xml:164(para)
 msgid ""
@@ -875,7 +962,7 @@ msgstr ""
 
 #: src/filters/blur/median-blur.xml:195(term)
 msgid "Alpha Percentile"
-msgstr ""
+msgstr "Alfa yüzde"
 
 #: src/filters/blur/median-blur.xml:197(para)
 msgid ""
@@ -899,16 +986,16 @@ msgstr ""
 
 #: src/filters/blur/median-blur.xml:226(para)
 msgid "Middle: Percentile=0%. Transparent circle is enlarged."
-msgstr ""
+msgstr "Orta: Yüzde=%0. Saydam daire büyütülmüştür."
 
 #: src/filters/blur/median-blur.xml:229(para)
 msgid "Right: Alpha percentile=100%. Transparent circle is reduced."
-msgstr ""
+msgstr "Sağ: Alfa yüzde=%100. Saydam daire küçültülmüştür."
 
 #: src/filters/blur/median-blur.xml:237(term)
 #: src/filters/blur/gauss.xml:124(term)
 msgid "Abyss policy"
-msgstr ""
+msgstr "Uçurum ilkesi"
 
 #: src/filters/blur/median-blur.xml:239(para)
 #: src/filters/blur/gauss.xml:126(para)
@@ -916,10 +1003,12 @@ msgid ""
 "Abyss policy (border management) is treated with <xref linkend=\"abyss-"
 "policy\"/>."
 msgstr ""
+"Uçurum ilkesi (sınır yönetimi) şurada ele alınmıştır: <xref linkend=\"abyss-"
+"policy\"/>."
 
 #: src/filters/blur/median-blur.xml:246(term)
 msgid "High precision"
-msgstr ""
+msgstr "Yüksek hassasiyet"
 
 #: src/filters/blur/median-blur.xml:248(para)
 msgid "This option avoids clipping and quantization but is slower."
@@ -927,36 +1016,36 @@ msgstr ""
 
 #: src/filters/blur/median-blur.xml:257(title)
 msgid "Using Median Blur"
-msgstr ""
+msgstr "Ortanca Bulanıklığı Kullanma"
 
 #: src/filters/blur/median-blur.xml:260(term)
 msgid "Reducing salt and pepper noise"
-msgstr ""
+msgstr "Tuz ve biber gürültüsünü azaltma"
 
 #: src/filters/blur/median-blur.xml:268(para)
 #: src/filters/blur/median-blur.xml:291(para)
 msgid "Left: origin"
-msgstr ""
+msgstr "Sol: özgün"
 
 #: src/filters/blur/median-blur.xml:271(para)
 msgid "Middle: radius = 1 applied twice"
-msgstr ""
+msgstr "Orta: yarıçap = 1 iki defa uygulandı"
 
 #: src/filters/blur/median-blur.xml:274(para)
 msgid "Right: radius = 1 applied three times"
-msgstr ""
+msgstr "Sağ: yarıçap = 1 üç defa uygulandı"
 
 #: src/filters/blur/median-blur.xml:283(term)
 msgid "Reducing scratches"
-msgstr ""
+msgstr "Çizikleri azaltılma"
 
 #: src/filters/blur/median-blur.xml:294(para)
 msgid "Middle: radius = 2"
-msgstr ""
+msgstr "Orta: yarıçap = 2"
 
 #: src/filters/blur/median-blur.xml:297(para)
 msgid "Right: radius = 1 applied twice. The image is less blurred."
-msgstr ""
+msgstr "Sağ: yarıçap = 1 iki defa uygulandı. Görüntü daha az bulanık."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -965,6 +1054,8 @@ msgid ""
 "@@image: 'images/filters/blur/mean_curvature-dialog.png'; "
 "md5=aa745b283613b087662a99e28ee345e1"
 msgstr ""
+"@@image: 'images/filters/blur/mean_curvature-dialog.png'; "
+"md5=aa745b283613b087662a99e28ee345e1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -973,6 +1064,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/mean_curvature-ex-1.jpg'; "
 "md5=2b8c26de40adfe06e07011ab005d787b"
 msgstr ""
+"@@image: 'images/filters/examples/blur/mean_curvature-ex-1.jpg'; "
+"md5=2b8c26de40adfe06e07011ab005d787b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -981,6 +1074,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur/mean_curvature-ex-2.jpg'; "
 "md5=1edf290abe20dea44255534483067e05"
 msgstr ""
+"@@image: 'images/filters/examples/blur/mean_curvature-ex-2.jpg'; "
+"md5=1edf290abe20dea44255534483067e05"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -989,6 +1084,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/noise-reduction-ex1.png'; "
 "md5=67cda93dfb4a5635f2b2c1e280fe2b9e"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/noise-reduction-ex1.png'; "
+"md5=67cda93dfb4a5635f2b2c1e280fe2b9e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -997,12 +1094,14 @@ msgid ""
 "@@image: 'images/filters/examples/blur/mean_curvature-denoise.jpg'; "
 "md5=d634104e0b7b92eb42e00d44abeff28b"
 msgstr ""
+"@@image: 'images/filters/examples/blur/mean_curvature-denoise.jpg'; "
+"md5=d634104e0b7b92eb42e00d44abeff28b"
 
 #: src/filters/blur/mean-curvature-blur.xml:9(title)
 #: src/filters/blur/mean-curvature-blur.xml:14(tertiary)
 #: src/filters/blur/mean-curvature-blur.xml:17(primary)
 msgid "Mean Curvature Blur"
-msgstr ""
+msgstr "Ortalama Eğrilik Bulanıklığı"
 
 #: src/filters/blur/mean-curvature-blur.xml:22(para)
 msgid ""
@@ -1023,43 +1122,48 @@ msgid ""
 "guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Mean Curvature Blur…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bulanıklık</guisubmenu><guimenuitem>Ortalama Eğrilik "
+"Bulanıklığı…</guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/blur/mean-curvature-blur.xml:48(title)
 msgid "<quote>Mean Curvature Blur</quote> filter parameters"
-msgstr ""
+msgstr "<quote>Ortalama Eğrilik Bulanıklığı</quote> süzgeç parametreleri"
 
 #: src/filters/blur/mean-curvature-blur.xml:71(term)
 msgid "Iterations"
-msgstr ""
+msgstr "Yinelemeler"
 
 #: src/filters/blur/mean-curvature-blur.xml:73(para)
 msgid "Increasing Iterations increases blur."
-msgstr ""
+msgstr "Yinelemeleri artırmak bulanıklığı artırır."
 
 #: src/filters/blur/mean-curvature-blur.xml:82(title)
 msgid "Examples"
-msgstr ""
+msgstr "Örnekler"
 
 #: src/filters/blur/mean-curvature-blur.xml:90(para)
 #: src/filters/blur/mean-curvature-blur.xml:117(para)
 msgid "Original image"
-msgstr ""
+msgstr "Özgün görüntü"
 
 #: src/filters/blur/mean-curvature-blur.xml:101(para)
 msgid "Iterations = 4"
-msgstr ""
+msgstr "Yineleme = 4"
 
 #: src/filters/blur/mean-curvature-blur.xml:110(title)
 msgid "Mean Curvature Blur to denoise"
-msgstr ""
+msgstr "Gürültü Kaldırma için Ortalama Eğrilik Bulanıklığı"
 
 #: src/filters/blur/mean-curvature-blur.xml:128(para)
 msgid "Iterations = 9"
-msgstr ""
+msgstr "Yineleme = 9"
 
 #: src/filters/blur/mean-curvature-blur.xml:107(para)
 msgid "Mean Curvature Blur can be used to denoise an image: <placeholder-1/>"
 msgstr ""
+"Ortalama Eğrilik Bulanıklığı görüntüdeki gürültüyü kaldırmak için "
+"kullanılabilir: <placeholder-1/>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1068,6 +1172,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-linear.jpg'; "
 "md5=48702b7c3c7d20d10a3d252323eec89b"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-linear.jpg'; "
+"md5=48702b7c3c7d20d10a3d252323eec89b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1076,19 +1182,21 @@ msgid ""
 "@@image: 'images/filters/blur/linear-options.png'; "
 "md5=92110ac567a4292a1e8a084da6d68104"
 msgstr ""
+"@@image: 'images/filters/blur/linear-options.png'; "
+"md5=92110ac567a4292a1e8a084da6d68104"
 
 #: src/filters/blur/linear-motion.xml:9(title)
 #: src/filters/blur/linear-motion.xml:16(primary)
 msgid "Linear Motion Blur"
-msgstr ""
+msgstr "Doğrusal Hareket Bulanıklığı"
 
 #: src/filters/blur/linear-motion.xml:13(tertiary)
 msgid "Linear Motion"
-msgstr ""
+msgstr "Doğrusal Hareket"
 
 #: src/filters/blur/linear-motion.xml:22(title)
 msgid "The Linear Motion Blur filter"
-msgstr ""
+msgstr "Doğrusal Hareket Bulanıklığı süzgeci"
 
 #: src/filters/blur/linear-motion.xml:42(para)
 msgid ""
@@ -1099,22 +1207,24 @@ msgstr ""
 
 #: src/filters/blur/linear-motion.xml:52(title)
 msgid "<quote>Linear Motion Blur</quote> filter options"
-msgstr ""
+msgstr "<quote>Doğrusal Hareket Bulanıklığı</quote> süzgeci seçenekleri"
 
 #: src/filters/blur/linear-motion.xml:76(term)
 msgid "Length"
-msgstr ""
+msgstr "Uzunluk"
 
 #: src/filters/blur/linear-motion.xml:78(para)
 msgid ""
 "In this case, <quote>Length</quote> represents the blur intensity. More "
 "Length will result in more blurring."
 msgstr ""
+"Bu süzgeçte <quote>Uzunluk</quote> bulanıklık yoğunluğunu temsil eder. Daha "
+"çok Uzunluk daha çok bulanıklık ile sonuçlanır."
 
 #: src/filters/blur/linear-motion.xml:86(term)
 #: src/filters/blur/circular-motion.xml:91(term)
 msgid "Angle"
-msgstr ""
+msgstr "Açı"
 
 #: src/filters/blur/linear-motion.xml:88(para)
 msgid ""
@@ -1122,6 +1232,8 @@ msgid ""
 "setting of 90 will produce a vertical blur, and a setting of 0 will produce "
 "a horizontal blur."
 msgstr ""
+"<quote>Açı</quote>, hareketin yönünü tanımlar. Bu nedenle, 90 ayarı dikey "
+"bulanıklık üretirken, 0 ayarı yatay bulanıklık üretir."
 
 #: src/filters/blur/linear-motion.xml:99(para)
 msgid ""
@@ -1129,10 +1241,15 @@ msgid ""
 "for easier visual tweaking of blur settings. It displays a line with handle "
 "on both ends to vary direction and transform."
 msgstr ""
+"Bu seçenek (öntanımlı), bulanıklaştırma ayarlarının görsel olarak daha kolay "
+"değiştirilebilmesi için bulanıklaştırma ayarlarını doğrudan tuval üzerinde "
+"değiştirmenizi sağlar. Yönü ve dönüşümü değiştirmek için her iki ucunda "
+"tutamaç olan çizgi görüntüler."
 
 #: src/filters/blur/linear-motion.xml:104(para)
 msgid "Press <keycap>Ctrl</keycap> key to change direction by 15° steps."
 msgstr ""
+"Yönü 15°'lik adımlarla değiştirmek için <keycap>Ctrl</keycap> tuşuna basın."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1141,6 +1258,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-lens.jpg'; "
 "md5=467ce588a9604dfdcaa9c57f670d7c2b"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-lens.jpg'; "
+"md5=467ce588a9604dfdcaa9c57f670d7c2b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1149,33 +1268,36 @@ msgid ""
 "@@image: 'images/filters/blur/lens-blur-dialog.png'; "
 "md5=1742be03ff780476a10e01ef2eb8e705"
 msgstr ""
+"@@image: 'images/filters/blur/lens-blur-dialog.png'; "
+"md5=1742be03ff780476a10e01ef2eb8e705"
 
 #: src/filters/blur/lens-blur.xml:6(title)
 #: src/filters/blur/lens-blur.xml:11(tertiary)
 #: src/filters/blur/lens-blur.xml:14(primary)
 msgid "Lens Blur"
-msgstr ""
+msgstr "Mercek Bulanıklığı"
 
 #: src/filters/blur/lens-blur.xml:20(title)
 msgid "The Lens Blur filter"
-msgstr ""
+msgstr "Mercek Bulanıklığı süzgeci"
 
 #: src/filters/blur/lens-blur.xml:36(para)
 msgid "Lens Blur applied"
-msgstr ""
+msgstr "Mercek Bulanıklığı uygulandı"
 
 #: src/filters/blur/lens-blur.xml:40(para)
 msgid "Lens blur simulates an out-of-focus camera picture."
-msgstr ""
+msgstr "Mercek Bulanıklığı, odak dışı kamera görüntüsüne öykünür."
 
 #: src/filters/blur/lens-blur.xml:48(title)
 msgid "Lens Blur filter dialog options"
-msgstr ""
+msgstr "Mercek Bulanıklığı süzgeci iletişim kutusu seçenekleri"
 
+# Arayüzde çevrilmeden bırakılmış
 #: src/filters/blur/lens-blur.xml:74(term)
 #: src/filters/blur/gauss_select.xml:93(term)
 msgid "Aux"
-msgstr ""
+msgstr "Aux"
 
 #: src/filters/blur/lens-blur.xml:76(para)
 msgid ""
@@ -1187,20 +1309,20 @@ msgstr ""
 
 #: src/filters/blur/lens-blur.xml:89(para)
 msgid "The size of the blur radius."
-msgstr ""
+msgstr "Bulanıklaştırma yarıçapının boyutu."
 
 #: src/filters/blur/lens-blur.xml:96(term)
 msgid "Highlight factor"
-msgstr ""
+msgstr "Vurgu katsayısı"
 
 #: src/filters/blur/lens-blur.xml:98(para)
 #: src/filters/blur/focus-blur.xml:123(para)
 msgid "Relative highlight strength."
-msgstr ""
+msgstr "Göreceli vurgu gücü."
 
 #: src/filters/blur/lens-blur.xml:105(term)
 msgid "Highlight threshold"
-msgstr ""
+msgstr "Vurgu eşiği"
 
 #: src/filters/blur/lens-blur.xml:107(para)
 #: src/filters/blur/focus-blur.xml:132(para)
@@ -1212,11 +1334,11 @@ msgstr ""
 
 #: src/filters/blur/lens-blur.xml:116(term)
 msgid "Clip to input extents"
-msgstr ""
+msgstr "Girdi ölçülerine kırp"
 
 #: src/filters/blur/lens-blur.xml:118(para)
 msgid "If enabled, this limits the output to the input extents."
-msgstr ""
+msgstr "Etkinleştirilirse, çıktıyı girdi uzantılarıyla sınırlar."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1225,6 +1347,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-orig.png'; "
 "md5=e1ece9c9822c9504a872adbd723df8ca"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-orig.png'; "
+"md5=e1ece9c9822c9504a872adbd723df8ca"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1233,6 +1357,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-gauss10.png'; "
 "md5=eab465ad7182d587c9a3c80383a36407"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-gauss10.png'; "
+"md5=eab465ad7182d587c9a3c80383a36407"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1241,6 +1367,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-selective.png'; "
 "md5=8c79b757174b828c9232535c2849101a"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-selective.png'; "
+"md5=8c79b757174b828c9232535c2849101a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1249,6 +1377,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-pixelize.png'; "
 "md5=5500784f034a6792505f8e2df2d4613e"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-pixelize.png'; "
+"md5=5500784f034a6792505f8e2df2d4613e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1257,6 +1387,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-circular.png'; "
 "md5=8838c9411723cbaad7b4c0e4103fda42"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-circular.png'; "
+"md5=8838c9411723cbaad7b4c0e4103fda42"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1265,6 +1397,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-linear.png'; "
 "md5=ac87b6cd27a88e65f574ce590a1e500c"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-linear.png'; "
+"md5=ac87b6cd27a88e65f574ce590a1e500c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1273,14 +1407,16 @@ msgid ""
 "@@image: 'images/filters/examples/blur-demo-zoom.png'; "
 "md5=312b769d6f6db99d7962bb7871986c7a"
 msgstr ""
+"@@image: 'images/filters/examples/blur-demo-zoom.png'; "
+"md5=312b769d6f6db99d7962bb7871986c7a"
 
 #: src/filters/blur/introduction.xml:8(title)
 msgid "Introduction"
-msgstr ""
+msgstr "Giriş"
 
 #: src/filters/blur/introduction.xml:16(title)
 msgid "Original for demo"
-msgstr ""
+msgstr "Demo için özgün"
 
 #: src/filters/blur/introduction.xml:24(para)
 msgid ""
@@ -1295,11 +1431,11 @@ msgstr ""
 
 #: src/filters/blur/introduction.xml:35(para)
 msgid "This category describes the following filters:"
-msgstr ""
+msgstr "Bu kategori aşağıdaki süzgeçleri açıklar:"
 
 #: src/filters/blur/introduction.xml:78(title)
 msgid "Gaussian blur (radius 10)"
-msgstr ""
+msgstr "Gaussian bulanıklığı (yarıçap 10)"
 
 #: src/filters/blur/introduction.xml:86(para)
 msgid ""
@@ -1311,7 +1447,7 @@ msgstr ""
 
 #: src/filters/blur/introduction.xml:95(title)
 msgid "Selective blur"
-msgstr ""
+msgstr "Seçmeli bulanıklık"
 
 #: src/filters/blur/introduction.xml:103(para)
 msgid ""
@@ -1343,10 +1479,12 @@ msgstr ""
 #: src/filters/blur/introduction.xml:140(para)
 msgid "The Motion Blur filter is divided in Circular, Linear, and Zoom."
 msgstr ""
+"Hareket Bulanıklığı süzgeci Dairesel, Doğrusal ve Odaktan Dışa Doğru olarak "
+"ayrılır."
 
 #: src/filters/blur/introduction.xml:145(title)
 msgid "Circular Motion Blur filter"
-msgstr ""
+msgstr "Dairesel Hareket Bulanıklığı süzgeci"
 
 #: src/filters/blur/introduction.xml:153(para)
 msgid ""
@@ -1356,7 +1494,7 @@ msgstr ""
 
 #: src/filters/blur/introduction.xml:159(title)
 msgid "Linear Motion Blur filter"
-msgstr ""
+msgstr "Doğrusal Hareket Bulanıklığı süzgeci"
 
 #: src/filters/blur/introduction.xml:167(para)
 msgid "The Linear Motion Blur filter blurs in a direction that you can set."
@@ -1364,13 +1502,15 @@ msgstr ""
 
 #: src/filters/blur/introduction.xml:172(title)
 msgid "Zoom Motion Blur filter"
-msgstr ""
+msgstr "Odaktan Dışa Doğru Hareket Bulanıklığı süzgeci"
 
 #: src/filters/blur/introduction.xml:180(para)
 msgid ""
 "The Zoom Motion Blur filter blurs in a radial direction around a center that "
 "you can set."
 msgstr ""
+"Odaktan Dışa Doğru Hareket Bulanıklığı süzgeci, ayarlayabileceğiniz merkez "
+"etrafında radyal yönde bulanıklaştırır."
 
 #: src/filters/blur/introduction.xml:185(para)
 msgid ""
@@ -1379,6 +1519,10 @@ msgid ""
 "edge effects when you create a pattern by tiling multiple copies of the "
 "image side by side."
 msgstr ""
+"Döşenebilir Bulanıklaştırma süzgeci aslında Gaussian bulanıklaştırmasıyla "
+"aynı şeydir, ancak görüntünün birden çok kopyasını yan yana döşeyerek desen "
+"oluşturduğunuzda kenar etkilerini azaltmanıza yardımcı olmak için görüntünün "
+"kenarlarını sarar."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1387,6 +1531,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-gauss.jpg'; "
 "md5=2dcbafec4e011abd8d1d5c4c6066ffcd"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-gauss.jpg'; "
+"md5=2dcbafec4e011abd8d1d5c4c6066ffcd"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1395,6 +1541,8 @@ msgid ""
 "@@image: 'images/filters/blur/gauss-options.png'; "
 "md5=2eadbb1606d5f561bba60029fdbf57a1"
 msgstr ""
+"@@image: 'images/filters/blur/gauss-options.png'; "
+"md5=2eadbb1606d5f561bba60029fdbf57a1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1403,6 +1551,8 @@ msgid ""
 "@@image: 'images/filters/blur/clip-orig.png'; "
 "md5=47165984fcc205290ef2986fc207ae8a"
 msgstr ""
+"@@image: 'images/filters/blur/clip-orig.png'; "
+"md5=47165984fcc205290ef2986fc207ae8a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1411,6 +1561,8 @@ msgid ""
 "@@image: 'images/filters/blur/clip-0.png'; "
 "md5=791b84325a5e2832deb23633d9f36f15"
 msgstr ""
+"@@image: 'images/filters/blur/clip-0.png'; "
+"md5=791b84325a5e2832deb23633d9f36f15"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1419,15 +1571,17 @@ msgid ""
 "@@image: 'images/filters/blur/clip-1.png'; "
 "md5=b6301b561b57cbf3a134739711567fa9"
 msgstr ""
+"@@image: 'images/filters/blur/clip-1.png'; "
+"md5=b6301b561b57cbf3a134739711567fa9"
 
 #: src/filters/blur/gauss.xml:9(title) src/filters/blur/gauss.xml:14(tertiary)
 #: src/filters/blur/gauss.xml:17(primary)
 msgid "Gaussian Blur"
-msgstr ""
+msgstr "Gaussian Bulanıklığı"
 
 #: src/filters/blur/gauss.xml:23(title)
 msgid "Example for the <quote>Gaussian Blur</quote> filter"
-msgstr ""
+msgstr "<quote>Gaussian Bulanıklığı</quote> süzgeci örneği"
 
 #: src/filters/blur/gauss.xml:43(para)
 msgid ""
@@ -1448,77 +1602,91 @@ msgid ""
 "guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Gaussian Blur…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bulanıklık</guisubmenu><guimenuitem>Gaussian Bulanıklığı…"
+"</guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/blur/gauss.xml:71(title)
 msgid "<quote>Gaussian</quote> filter parameters settings"
-msgstr ""
+msgstr "<quote>Gaussian Bulanıklığı</quote> süzgeç parametreleri seçenekleri"
 
 #: src/filters/blur/gauss.xml:94(term)
 msgid "Size X"
-msgstr ""
+msgstr "X Boyutu"
 
 #: src/filters/blur/gauss.xml:95(term)
 msgid "Size Y"
-msgstr ""
+msgstr "Y Boyutu"
 
 #: src/filters/blur/gauss.xml:97(para)
 msgid ""
 "Here you can set the blur intensity. By altering the ratio of horizontal to "
 "vertical blur, you can give the effect of a motion blur."
 msgstr ""
+"Burada bulanıklık yoğunluğunu ayarlayabilirsiniz. Yatay ve dikey bulanıklık "
+"oranını değiştirerek hareket bulanıklığı etkisi verebilirsiniz."
 
 #: src/filters/blur/gauss.xml:106(term)
 msgid "Filter"
-msgstr ""
+msgstr "Süzgeç"
 
 #: src/filters/blur/gauss.xml:108(para)
 msgid ""
 "<guilabel>Auto</guilabel>: Try to select the best filter automatically. In "
 "most cases this default is best left alone."
 msgstr ""
+"<guilabel>Kendiliğinden</guilabel>: En iyi süzgeci kendiliğinden seçmeye "
+"çalışır. Çoğu durumda bu öntanımlı değeri değiştirmeden bırakmak en iyisidir."
 
 #: src/filters/blur/gauss.xml:112(para)
 msgid ""
 "<guilabel>FIR</guilabel>: stands for <quote>Finite Impulse Response</quote>."
 msgstr ""
+"<guilabel>FIR</guilabel>: <quote>Finite Impulse Response (Sonlu Darbe "
+"Yanıtı)</quote> anlamına gelir."
 
 #: src/filters/blur/gauss.xml:116(para)
 msgid ""
 "<guilabel>IIR</guilabel>: stands for <quote>Infinite Impulse Response</"
 "quote>."
 msgstr ""
+"<guilabel>IIR</guilabel>: <quote>Infinite Impulse Response (Sonsuz Darbe "
+"Yanıtı</quote>) anlamına gelir."
 
 #: src/filters/blur/gauss.xml:134(term)
 msgid "Clip to the input extent"
-msgstr ""
+msgstr "Girdi ölçüsüne kırp"
 
 #: src/filters/blur/gauss.xml:136(para)
 msgid ""
 "Should the output extent be clipped to the input extent: this option removes "
 "unwanted pixels created on borders by blurring."
 msgstr ""
+"Çıktı kapsamı girdi kapsamına kırpılsın mı? Bu seçenek bulanıklaştırma ile "
+"sınırlarda oluşan istenmeyen pikselleri kaldırır."
 
 #: src/filters/blur/gauss.xml:141(title)
 msgid "Example"
-msgstr ""
+msgstr "Örnek"
 
 #: src/filters/blur/gauss.xml:148(para)
 msgid "Right-up corner of the image, zoom x800"
-msgstr ""
+msgstr "Görüntünün sağ üst köşesi, x800 yakınlaştırma"
 
 #: src/filters/blur/gauss.xml:159(para)
 msgid "<quote>Clip to the input extent</quote> unchecked"
-msgstr ""
+msgstr "<quote>Girdi ölçüsüne kırp</quote> işaretsiz"
 
 #: src/filters/blur/gauss.xml:170(para)
 msgid "<quote>Clip to the input extent</quote> checked"
-msgstr ""
+msgstr "<quote>Girdi ölçüsüne kırp</quote> işaretli"
 
 #: src/filters/blur/gauss.xml:179(para)
 msgid ""
 "The Gaussian Blur filter doesn't preserve edges in the image: <placeholder-1/"
 ">"
 msgstr ""
+"Gaussian Bulanıklığı süzgeci görüntüdeki kenarları korumaz: <placeholder-1/>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1527,6 +1695,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-selective.jpg'; "
 "md5=4523a312059a7a79b2f409a8a2fcec89"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-selective.jpg'; "
+"md5=4523a312059a7a79b2f409a8a2fcec89"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1535,19 +1705,21 @@ msgid ""
 "@@image: 'images/filters/blur/gaussian-selective-options.png'; "
 "md5=e22d22d65c602f3e3d852bcdaff0a5fe"
 msgstr ""
+"@@image: 'images/filters/blur/gaussian-selective-options.png'; "
+"md5=e22d22d65c602f3e3d852bcdaff0a5fe"
 
 #: src/filters/blur/gauss_select.xml:9(title)
 #: src/filters/blur/gauss_select.xml:17(primary)
 msgid "Selective Gaussian Blur"
-msgstr ""
+msgstr "Selective Gaussian Bulanıklığı"
 
 #: src/filters/blur/gauss_select.xml:14(tertiary)
 msgid "Selective Gaussian"
-msgstr ""
+msgstr "Seçmeli Gaussian"
 
 #: src/filters/blur/gauss_select.xml:23(title)
 msgid "The Selective Gaussian Blur filter"
-msgstr ""
+msgstr "Selective Gaussian Bulanıklığı süzgeci"
 
 #: src/filters/blur/gauss_select.xml:43(para)
 msgid ""
@@ -1566,28 +1738,33 @@ msgid ""
 "guimenu><guisubmenu>Blur</guisubmenu><guimenuitem>Selective Gaussian Blur…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bulanıklık</guisubmenu><guimenuitem>Seçmeli Gaussian "
+"Bulanıklığı…</guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/blur/gauss_select.xml:69(title)
 msgid "<quote>Selective Gaussian</quote> filter parameters settings"
 msgstr ""
+"<quote>Selective Gaussian Bulanıklığı</quote> süzgeci parametre ayarları"
 
 #: src/filters/blur/gauss_select.xml:95(para)
 msgid ""
 "If there is another image on screen, you can select it as auxiliary input."
 msgstr ""
+"Ekranda başka görüntü varsa, bunu yardımcı girdi olarak seçebilirsiniz."
 
 #: src/filters/blur/gauss_select.xml:102(term)
 #: src/filters/blur/focus-blur.xml:103(term)
 msgid "Blur radius"
-msgstr ""
+msgstr "Bulanıklık yarıçapı"
 
 #: src/filters/blur/gauss_select.xml:104(para)
 msgid "Here you can set the blur intensity, in pixels."
-msgstr ""
+msgstr "Burada bulanıklık yoğunluğunu piksel türünden ayarlayabilirsiniz."
 
 #: src/filters/blur/gauss_select.xml:110(term)
 msgid "Max. delta"
-msgstr ""
+msgstr "En çok delta"
 
 #: src/filters/blur/gauss_select.xml:112(para)
 msgid ""
@@ -1595,6 +1772,9 @@ msgid ""
 "blurred and its surrounding pixels. When the value is above this delta, the "
 "blur will not be applied to that pixel."
 msgstr ""
+"En çok delta, bulanıklaştırılacak piksel ile çevresindeki pikseller "
+"arasındaki azami farkı (0.0-1.0) ayarlar. Değer bu deltanın üzerindeyse "
+"bulanıklaştırma o piksele uygulanmaz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1603,6 +1783,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-focus.jpg'; "
 "md5=f9ec78a32fd6d7e79a36e92d6a8dc958"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-focus.jpg'; "
+"md5=f9ec78a32fd6d7e79a36e92d6a8dc958"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1611,20 +1793,22 @@ msgid ""
 "@@image: 'images/filters/blur/focus-blur-dialog.png'; "
 "md5=f9e93deb8abd1b7bfc2c799eb6db8917"
 msgstr ""
+"@@image: 'images/filters/blur/focus-blur-dialog.png'; "
+"md5=f9e93deb8abd1b7bfc2c799eb6db8917"
 
 #: src/filters/blur/focus-blur.xml:6(title)
 #: src/filters/blur/focus-blur.xml:11(tertiary)
 #: src/filters/blur/focus-blur.xml:14(primary)
 msgid "Focus Blur"
-msgstr ""
+msgstr "Odak Bulanıklığı"
 
 #: src/filters/blur/focus-blur.xml:20(title)
 msgid "The Focus Blur filter"
-msgstr ""
+msgstr "Odak Bulanıklığı süzgeci"
 
 #: src/filters/blur/focus-blur.xml:36(para)
 msgid "Focus Blur applied"
-msgstr ""
+msgstr "Odak Bulanıklığı uygulandı"
 
 #: src/filters/blur/focus-blur.xml:40(para)
 msgid ""
@@ -1645,12 +1829,18 @@ msgid ""
 "<guilabel>Diamond</guilabel>, <guilabel>Horizontal</guilabel> and "
 "<guilabel>Vertical</guilabel>."
 msgstr ""
+"Burada, odak bulanıklığı oluşturmak için kullanılan şekli seçebilirsiniz. "
+"Seçenekler şunlardır: <guilabel>Daire</guilabel>, <guilabel>Kare</guilabel>, "
+"<guilabel>Karo</guilabel>, <guilabel>Yatay</guilabel> ve <guilabel>Dikey</"
+"guilabel>"
 
 #: src/filters/blur/focus-blur.xml:94(para)
 msgid ""
 "The type of blur to use. The choices are <guilabel>Gaussian Blur</guilabel> "
 "and <guilabel>Lens Blur</guilabel>."
 msgstr ""
+"Kullanılacak bulanıklaştırma türü. Seçenekler şunlardır: <guilabel>Gaussian "
+"Bulanıklığı</guilabel> ve <guilabel>Mercek Bulanıklığı</guilabel>."
 
 #: src/filters/blur/focus-blur.xml:105(para)
 msgid "The size of the out-of-blur radius."
@@ -1658,23 +1848,23 @@ msgstr ""
 
 #: src/filters/blur/focus-blur.xml:112(term)
 msgid "High quality (only available for Gaussian Blur)"
-msgstr ""
+msgstr "Yüksek kalite (yalnızca Gaussian Bulanıklığı için kullanılabilir)"
 
 #: src/filters/blur/focus-blur.xml:114(para)
 msgid "Generate more accurate and consistent output. This is slower."
-msgstr ""
+msgstr "Daha doğru ve tutarlı çıktılar üretir. Daha yavaştır."
 
 #: src/filters/blur/focus-blur.xml:121(term)
 msgid "Highlight factor (only available for Lens Blur)"
-msgstr ""
+msgstr "Vurgulama katsayısı (yalnızca Mercek Bulanıklığı için kullanılabilir)"
 
 #: src/filters/blur/focus-blur.xml:130(term)
 msgid "Highlight threshold (only available for Lens Blur)"
-msgstr ""
+msgstr "Vurgu eşiği (yalnızca Lens Bulanıklığı için kullanılabilir)"
 
 #: src/filters/blur/focus-blur.xml:141(term)
 msgid "Geometry Options"
-msgstr ""
+msgstr "Geometri Seçenekleri"
 
 #: src/filters/blur/focus-blur.xml:143(para)
 msgid ""
@@ -1682,10 +1872,13 @@ msgid ""
 "canvas controls. In case you need more fine-grained control, they can be set "
 "manually here."
 msgstr ""
+"Geometriyle ilgili bu seçenekler tuvalde denetimler kullanılarak "
+"değiştirilebilir. Daha ayrıntılı denetime ihtiyaç duymanız halinde, buradan "
+"elle ayarlanabilir."
 
 #: src/filters/blur/focus-blur.xml:153(para)
 msgid "Specifies the center X and Y position of the focus blur."
-msgstr ""
+msgstr "Odak bulanıklığının X merkez ve Y merkez konumunu belirler."
 
 #: src/filters/blur/focus-blur.xml:161(para)
 msgid ""
@@ -1694,7 +1887,7 @@ msgstr ""
 
 #: src/filters/blur/focus-blur.xml:168(term)
 msgid "Sharpness"
-msgstr ""
+msgstr "Keskinlik"
 
 #: src/filters/blur/focus-blur.xml:170(para)
 msgid ""
@@ -1703,7 +1896,7 @@ msgstr ""
 
 #: src/filters/blur/focus-blur.xml:177(term)
 msgid "Midpoint"
-msgstr ""
+msgstr "Orta nokta"
 
 #: src/filters/blur/focus-blur.xml:179(para)
 msgid ""
@@ -1714,21 +1907,23 @@ msgstr ""
 
 #: src/filters/blur/focus-blur.xml:187(term)
 msgid "Aspect ratio"
-msgstr ""
+msgstr "En boy oranı"
 
 #: src/filters/blur/focus-blur.xml:189(para)
 msgid "This controls the aspect ratio."
-msgstr ""
+msgstr "En boy oranını denetler."
 
 #: src/filters/blur/focus-blur.xml:195(term)
 msgid "Rotation"
-msgstr ""
+msgstr "Döndürme"
 
 #: src/filters/blur/focus-blur.xml:197(para)
 msgid ""
 "This controls the rotation in degrees. You can either use the circular "
 "control or enter numbers."
 msgstr ""
+"Bu, döndürmeyi derece olarak denetler. Dairesel denetimi kullanabilir ya da "
+"sayı girebilirsiniz."
 
 #: src/filters/blur/focus-blur.xml:210(para)
 msgid ""
@@ -1747,6 +1942,8 @@ msgid ""
 "@@image: 'images/filters/examples/blur-taj-circular.jpg'; "
 "md5=221b5cce7d3f3b9f5ecb9b36750242f5"
 msgstr ""
+"@@image: 'images/filters/examples/blur-taj-circular.jpg'; "
+"md5=221b5cce7d3f3b9f5ecb9b36750242f5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1755,19 +1952,21 @@ msgid ""
 "@@image: 'images/filters/blur/circular-options.png'; "
 "md5=ae1893c3714f55bbeaaa65a251178080"
 msgstr ""
+"@@image: 'images/filters/blur/circular-options.png'; "
+"md5=ae1893c3714f55bbeaaa65a251178080"
 
 #: src/filters/blur/circular-motion.xml:9(title)
 #: src/filters/blur/circular-motion.xml:17(primary)
 msgid "Circular Motion Blur"
-msgstr ""
+msgstr "Dairesel Hareket Bulanıklığı"
 
 #: src/filters/blur/circular-motion.xml:14(tertiary)
 msgid "Circular Motion"
-msgstr ""
+msgstr "Dairesel Hareket"
 
 #: src/filters/blur/circular-motion.xml:23(title)
 msgid "The Circular Motion Blur filter"
-msgstr ""
+msgstr "Dairesel Hareket Bulanıklığı süzgeci"
 
 #: src/filters/blur/circular-motion.xml:43(para)
 msgid ""
@@ -1778,7 +1977,7 @@ msgstr ""
 
 #: src/filters/blur/circular-motion.xml:54(title)
 msgid "<quote>Circular Motion Blur</quote> filter options"
-msgstr ""
+msgstr "<quote>Dairesel Hareket Bulanıklığı </quote> süzgeci seçenekleri"
 
 #: src/filters/blur/circular-motion.xml:81(para)
 msgid ""
@@ -1804,12 +2003,16 @@ msgid ""
 "Press <keycap>Alt</keycap> key to only move rotation center without "
 "transforming."
 msgstr ""
+"Dönüştürmeden yalnızca dönüş merkezini taşımak için <keycap>Alt</keycap> "
+"tuşuna basın."
 
 #: src/filters/blur/circular-motion.xml:112(para)
 msgid "Press <keycap>Ctrl</keycap> key to rotate by 15° steps."
-msgstr ""
+msgstr "15°'lik adımlarla döndürmek için <keycap>Ctrl</keycap> tuşuna basın."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/blur/circular-motion.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025"

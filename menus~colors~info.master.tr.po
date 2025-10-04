@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
+"Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-07-15 08:41+0000\n"
-"PO-Revision-Date: 2023-08-11 12:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-09-19 21:30+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -18,6 +26,8 @@ msgid ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
 msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -26,46 +36,53 @@ msgid ""
 "@@image: 'images/filters/examples/color-taj-smoothpalette.jpg'; "
 "md5=d5bbed65e7d000b93a374fccbbae0511"
 msgstr ""
+"@@image: 'images/filters/examples/color-taj-smoothpalette.jpg'; "
+"md5=d5bbed65e7d000b93a374fccbbae0511"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/info/smooth_palette.xml:78(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/info/smoothpalette.png'; "
+#| "md5=807f4e29f253dc7568b04142a03f890a"
 msgid ""
 "@@image: 'images/menus/colors/info/smoothpalette.png'; "
 "md5=1b5be1636a75d9231da4bbcf22093a47"
 msgstr ""
+"@@image: 'images/menus/colors/info/smoothpalette.png'; "
+"md5=1b5be1636a75d9231da4bbcf22093a47"
 
 #: src/menus/colors/info/smooth_palette.xml:13(title)
 #: src/menus/colors/info/smooth_palette.xml:17(secondary)
 #: src/menus/colors/info/smooth_palette.xml:20(primary)
 msgid "Smooth Palette"
-msgstr ""
+msgstr "Pürüzsüz Palet"
 
 #: src/menus/colors/info/smooth_palette.xml:16(primary)
 #: src/menus/colors/info/export-histogram.xml:13(primary)
 #: src/menus/colors/info/borderaverage.xml:23(primary)
 msgid "Colors"
-msgstr ""
+msgstr "Renkler"
 
 #: src/menus/colors/info/smooth_palette.xml:24(title)
 #: src/menus/colors/info/export-histogram.xml:21(title)
 #: src/menus/colors/info/borderaverage.xml:31(title)
 msgid "Overview"
-msgstr ""
+msgstr "Genel Görünüm"
 
 #: src/menus/colors/info/smooth_palette.xml:26(title)
 msgid "Example for the <quote>Smooth Palette</quote> filter"
-msgstr ""
+msgstr "<quote>Pürüzsüz Palet</quote> süzgeci örneği"
 
 #: src/menus/colors/info/smooth_palette.xml:33(para)
 #: src/menus/colors/info/borderaverage.xml:40(para)
 #: src/menus/colors/info/borderaverage.xml:128(title)
 msgid "Original image"
-msgstr ""
+msgstr "Özgün görüntü"
 
 #: src/menus/colors/info/smooth_palette.xml:42(para)
 msgid "Filter <quote>Smooth Palette</quote> applied"
-msgstr ""
+msgstr "<quote>Pürüzsüz Palet</quote> süzgeci uygulandı"
 
 #: src/menus/colors/info/smooth_palette.xml:46(para)
 msgid ""
@@ -85,7 +102,7 @@ msgstr ""
 #: src/menus/colors/info/export-histogram.xml:62(title)
 #: src/menus/colors/info/borderaverage.xml:76(title)
 msgid "Activating the Filter"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/menus/colors/info/smooth_palette.xml:61(para)
 msgid ""
@@ -93,24 +110,27 @@ msgid ""
 "guimenu><guisubmenu>Info</guisubmenu><guimenuitem>Smooth Palette…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Bilgi</guisubmenu><guimenuitem>Pürüzsüz Palet…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/menus/colors/info/smooth_palette.xml:72(title)
 #: src/menus/colors/info/export-histogram.xml:74(title)
 #: src/menus/colors/info/borderaverage.xml:88(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/menus/colors/info/smooth_palette.xml:74(title)
 msgid "<quote>Smooth Palette</quote> options"
-msgstr ""
+msgstr "<quote>Pürüzsüz Palet</quote> seçenekleri"
 
 #: src/menus/colors/info/smooth_palette.xml:84(term)
 msgid "Width"
-msgstr ""
+msgstr "Genişlik"
 
 #: src/menus/colors/info/smooth_palette.xml:85(term)
 msgid "Height"
-msgstr ""
+msgstr "Yükseklik"
 
 #: src/menus/colors/info/smooth_palette.xml:87(para)
 msgid ""
@@ -121,7 +141,7 @@ msgstr ""
 
 #: src/menus/colors/info/smooth_palette.xml:95(term)
 msgid "Search depth"
-msgstr ""
+msgstr "Arama derinliği"
 
 #: src/menus/colors/info/smooth_palette.xml:97(para)
 msgid ""
@@ -130,27 +150,34 @@ msgstr ""
 
 #: src/menus/colors/info/histogram.xml:9(title)
 msgid "Histogram"
-msgstr ""
+msgstr "Histogram"
 
 #: src/menus/colors/info/histogram.xml:11(para)
 msgid ""
 "The Histogram dialog is documented in <xref linkend=\"gimp-histogram-"
 "dialog\"/>."
 msgstr ""
+"Histogram iletişim kutusu şu adreste belgelendirilmiştir: <xref "
+"linkend=\"gimp-histogram-dialog\"/>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/info/export-histogram.xml:80(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/info/borderaverage.png'; "
+#| "md5=a8846cd122c6a2511135d2f0417d6104"
 msgid ""
 "@@image: 'images/menus/colors/info/histogram-export-dialog.png'; "
 "md5=e3620029e86b6d11f7ac0f06722eab94"
 msgstr ""
+"@@image: 'images/menus/colors/info/histogram-export-dialog.png'; "
+"md5=e3620029e86b6d11f7ac0f06722eab94"
 
 #: src/menus/colors/info/export-histogram.xml:10(title)
 #: src/menus/colors/info/export-histogram.xml:14(secondary)
 #: src/menus/colors/info/export-histogram.xml:17(primary)
 msgid "Export Histogram"
-msgstr ""
+msgstr "Histogramı Dışa Aktar"
 
 #: src/menus/colors/info/export-histogram.xml:22(para)
 msgid ""
@@ -211,14 +238,17 @@ msgid ""
 "guimenu><guisubmenu>Info</guisubmenu><guimenuitem>Export histogram…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Bilgi</guisubmenu><guimenuitem>Histogramı Dışa Aktar…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/menus/colors/info/export-histogram.xml:76(title)
 msgid "<quote>Export Histogram</quote> options"
-msgstr ""
+msgstr "<quote>Histogramı Dışa Aktar</quote> seçenekleri"
 
 #: src/menus/colors/info/export-histogram.xml:86(term)
 msgid "Histogram File"
-msgstr ""
+msgstr "Histogram Dosyası"
 
 #: src/menus/colors/info/export-histogram.xml:88(para)
 msgid "The file into which the histogram will be exported."
@@ -226,7 +256,7 @@ msgstr ""
 
 #: src/menus/colors/info/export-histogram.xml:94(term)
 msgid "Bucket Size"
-msgstr ""
+msgstr "Kova Boyutu"
 
 #: src/menus/colors/info/export-histogram.xml:96(para)
 msgid ""
@@ -239,7 +269,7 @@ msgstr ""
 
 #: src/menus/colors/info/export-histogram.xml:106(term)
 msgid "Sample Average"
-msgstr ""
+msgstr "Örnek Ortalama"
 
 #: src/menus/colors/info/export-histogram.xml:108(para)
 msgid ""
@@ -250,7 +280,7 @@ msgstr ""
 
 #: src/menus/colors/info/export-histogram.xml:116(term)
 msgid "Output format"
-msgstr ""
+msgstr "Çıktı biçimi"
 
 #: src/menus/colors/info/export-histogram.xml:118(para)
 msgid ""
@@ -269,6 +299,8 @@ msgid ""
 "@@image: 'images/filters/examples/taj_orig.png'; "
 "md5=6d55b998009a6ba13b039ee2c2b39e93"
 msgstr ""
+"@@image: 'images/filters/examples/taj_orig.png'; "
+"md5=6d55b998009a6ba13b039ee2c2b39e93"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -277,14 +309,21 @@ msgid ""
 "@@image: 'images/filters/examples/color-taj-borderaverage.png'; "
 "md5=41f56a97061a52364009dd2675ba097d"
 msgstr ""
+"@@image: 'images/filters/examples/color-taj-borderaverage.png'; "
+"md5=41f56a97061a52364009dd2675ba097d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/info/borderaverage.xml:94(None)
+#| msgid ""
+#| "@@image: 'images/menus/colors/info/borderaverage.png'; "
+#| "md5=a8846cd122c6a2511135d2f0417d6104"
 msgid ""
 "@@image: 'images/menus/colors/info/borderaverage.png'; "
 "md5=20aab0bbd6453ab2b5faf86a7f6c1e95"
 msgstr ""
+"@@image: 'images/menus/colors/info/borderaverage.png'; "
+"md5=20aab0bbd6453ab2b5faf86a7f6c1e95"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -293,6 +332,8 @@ msgid ""
 "@@image: 'images/filters/examples/borderaverage.png'; "
 "md5=2eb0a1cef18e12bed37e5cbb8f4a3170"
 msgstr ""
+"@@image: 'images/filters/examples/borderaverage.png'; "
+"md5=2eb0a1cef18e12bed37e5cbb8f4a3170"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -301,6 +342,8 @@ msgid ""
 "@@image: 'images/filters/examples/borderaverage08.png'; "
 "md5=90e67186fe6c2871cea1a8db10841d8a"
 msgstr ""
+"@@image: 'images/filters/examples/borderaverage08.png'; "
+"md5=90e67186fe6c2871cea1a8db10841d8a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -309,16 +352,18 @@ msgid ""
 "@@image: 'images/filters/examples/borderaverage64.png'; "
 "md5=b06841e5e6629b6950bbe8aa0adb7d2b"
 msgstr ""
+"@@image: 'images/filters/examples/borderaverage64.png'; "
+"md5=b06841e5e6629b6950bbe8aa0adb7d2b"
 
 #: src/menus/colors/info/borderaverage.xml:20(title)
 #: src/menus/colors/info/borderaverage.xml:24(secondary)
 #: src/menus/colors/info/borderaverage.xml:27(primary)
 msgid "Border Average"
-msgstr ""
+msgstr "Kenarlık Ortalaması"
 
 #: src/menus/colors/info/borderaverage.xml:33(title)
 msgid "Example for the <quote>Border Average</quote> filter"
-msgstr ""
+msgstr "<quote>Kenarlık Ortalaması</quote> süzgeci örneği"
 
 #: src/menus/colors/info/borderaverage.xml:49(para)
 msgid ""
@@ -345,6 +390,9 @@ msgid ""
 "guimenu><guisubmenu>Info</guisubmenu><guimenuitem>Border Average…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Bilgi</guisubmenu><guimenuitem>Kenarlık Ortalaması…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/menus/colors/info/borderaverage.xml:90(title)
 msgid "Options of the <quote>Border Average</quote> filter"
@@ -352,15 +400,15 @@ msgstr ""
 
 #: src/menus/colors/info/borderaverage.xml:100(term)
 msgid "Border Size"
-msgstr ""
+msgstr "Kenarlık Boyutu"
 
 #: src/menus/colors/info/borderaverage.xml:102(para)
 msgid "The border <guilabel>Thickness</guilabel> in pixels."
-msgstr ""
+msgstr "Piksel cinsinden kenarlık <guilabel>Kalınlığı</guilabel>."
 
 #: src/menus/colors/info/borderaverage.xml:108(term)
 msgid "Number of Colors"
-msgstr ""
+msgstr "Renk Sayısı"
 
 #: src/menus/colors/info/borderaverage.xml:110(para)
 msgid ""
@@ -373,7 +421,7 @@ msgstr ""
 
 #: src/menus/colors/info/borderaverage.xml:124(title)
 msgid "Examples illustrating the <quote>Border Average</quote> filter"
-msgstr ""
+msgstr "<quote>Kenarlık Ortalaması</quote> süzgecini gösteren örnekler"
 
 #: src/menus/colors/info/borderaverage.xml:135(para)
 msgid ""
@@ -384,11 +432,11 @@ msgstr ""
 
 #: src/menus/colors/info/borderaverage.xml:144(title)
 msgid "<quote>Number of Colors</quote> is set to 8:"
-msgstr ""
+msgstr "<quote>Renk Sayısı</quote> 8 olarak ayarlanmıştır:"
 
 #: src/menus/colors/info/borderaverage.xml:151(para)
 msgid "The resulting color is a Red (254,2,2)."
-msgstr ""
+msgstr "Elde edilen renk Kırmızı olur (254,2,2)."
 
 #: src/menus/colors/info/borderaverage.xml:157(para)
 msgid ""
@@ -404,7 +452,7 @@ msgstr ""
 
 #: src/menus/colors/info/borderaverage.xml:171(para)
 msgid "The resulting color is Green (32,224,32)."
-msgstr ""
+msgstr "Elde edilen renk Yeşil olur (32,224,32)."
 
 #: src/menus/colors/info/borderaverage.xml:177(para)
 msgid ""
@@ -422,4 +470,4 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/colors/info/borderaverage.xml:0(None)
 msgid "translator-credits"
-msgstr ""
+msgstr "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025."

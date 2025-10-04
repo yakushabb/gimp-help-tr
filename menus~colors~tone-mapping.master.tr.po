@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
-"POT-Creation-Date: 2025-07-15 08:41+0000\n"
-"PO-Revision-Date: 2023-08-11 12:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: GIMP-Help master\n"
+"POT-Creation-Date: 2025-02-26 21:19+0000\n"
+"PO-Revision-Date: 2025-09-21 00:41+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -22,6 +30,8 @@ msgid ""
 "@@image: 'images/filters/examples/colors-retinex1.png'; "
 "md5=25f4bc072d9614e58d5cb74fd9a7f70e"
 msgstr ""
+"@@image: 'images/filters/examples/colors-retinex1.png'; "
+"md5=25f4bc072d9614e58d5cb74fd9a7f70e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -30,6 +40,8 @@ msgid ""
 "@@image: 'images/filters/examples/tone-mapping-stress.jpg'; "
 "md5=ddc8658f27cf076cbf2fdb05bdf1a102"
 msgstr ""
+"@@image: 'images/filters/examples/tone-mapping-stress.jpg'; "
+"md5=ddc8658f27cf076cbf2fdb05bdf1a102"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -38,6 +50,8 @@ msgid ""
 "@@image: 'images/filters/examples/tone-mapping-stress-2.jpg'; "
 "md5=2dc578ec1670eb2f954e7eed44f5e802"
 msgstr ""
+"@@image: 'images/filters/examples/tone-mapping-stress-2.jpg'; "
+"md5=2dc578ec1670eb2f954e7eed44f5e802"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -46,13 +60,16 @@ msgid ""
 "@@image: 'images/menus/colors/tone-mapping/stress-dialog.png'; "
 "md5=71bb134b45eed5c6e7f16e033db0486d"
 msgstr ""
+"@@image: 'images/menus/colors/tone-mapping/stress-dialog.png'; "
+"md5=71bb134b45eed5c6e7f16e033db0486d"
 
+# Stress burada kısaltma, çevirmiyoruz.
 #: src/menus/colors/tone-mapping/stress.xml:6(title)
 #: src/menus/colors/tone-mapping/stress.xml:10(secondary)
 #: src/menus/colors/tone-mapping/stress.xml:13(primary)
 #: src/menus/colors/tone-mapping/stress.xml:17(secondary)
 msgid "Stress"
-msgstr ""
+msgstr "Stress"
 
 #: src/menus/colors/tone-mapping/stress.xml:9(primary)
 #: src/menus/colors/tone-mapping/retinex.xml:17(primary)
@@ -61,7 +78,7 @@ msgstr ""
 #: src/menus/colors/tone-mapping/fattal.xml:12(primary)
 #: src/menus/colors/tone-mapping/destripe.xml:9(primary)
 msgid "Colors"
-msgstr ""
+msgstr "Renkler"
 
 #: src/menus/colors/tone-mapping/stress.xml:16(primary)
 #: src/menus/colors/tone-mapping/retinex.xml:18(secondary)
@@ -71,7 +88,7 @@ msgstr ""
 #: src/menus/colors/tone-mapping/fattal.xml:19(primary)
 #: src/menus/colors/tone-mapping/destripe.xml:16(primary)
 msgid "Tone Mapping"
-msgstr ""
+msgstr "Ton Eşlem"
 
 #: src/menus/colors/tone-mapping/stress.xml:21(title)
 #: src/menus/colors/tone-mapping/retinex.xml:30(title)
@@ -80,11 +97,12 @@ msgstr ""
 #: src/menus/colors/tone-mapping/fattal.xml:24(title)
 #: src/menus/colors/tone-mapping/destripe.xml:22(title)
 msgid "Overview"
-msgstr ""
+msgstr "Genel Görünüm"
 
+# Stress burada kısaltma, çevirmiyoruz.
 #: src/menus/colors/tone-mapping/stress.xml:23(title)
 msgid "<quote>Stress</quote> tone mapping example"
-msgstr ""
+msgstr "<quote>Stress</quote> ton eşlem örneği"
 
 #: src/menus/colors/tone-mapping/stress.xml:30(para)
 #: src/menus/colors/tone-mapping/retinex.xml:39(para)
@@ -92,7 +110,7 @@ msgstr ""
 #: src/menus/colors/tone-mapping/mantiuk.xml:31(para)
 #: src/menus/colors/tone-mapping/fattal.xml:33(para)
 msgid "Original image"
-msgstr ""
+msgstr "Özgün görüntü"
 
 #: src/menus/colors/tone-mapping/stress.xml:41(para)
 #: src/menus/colors/tone-mapping/reinhard.xml:40(para)
@@ -142,7 +160,7 @@ msgstr ""
 #: src/menus/colors/tone-mapping/fattal.xml:71(title)
 #: src/menus/colors/tone-mapping/destripe.xml:40(title)
 msgid "Activating the Filter"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/menus/colors/tone-mapping/stress.xml:86(para)
 msgid ""
@@ -150,6 +168,9 @@ msgid ""
 "guimenu><guisubmenu>Tone Mapping</guisubmenu><guimenuitem>Stress</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</guimenu><guisubmenu>Ton "
+"Eşlem</guisubmenu><guimenuitem>Stress…</guimenuitem></menuchoice> altında "
+"bulunur."
 
 #: src/menus/colors/tone-mapping/stress.xml:97(title)
 #: src/menus/colors/tone-mapping/retinex.xml:89(title)
@@ -158,18 +179,18 @@ msgstr ""
 #: src/menus/colors/tone-mapping/fattal.xml:83(title)
 #: src/menus/colors/tone-mapping/destripe.xml:52(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/menus/colors/tone-mapping/stress.xml:99(title)
 msgid "The <quote>Stress</quote> filter Dialog"
-msgstr ""
+msgstr "<quote>Stress</quote> süzgeci İletişim Kutusu"
 
 #: src/menus/colors/tone-mapping/stress.xml:109(term)
 #: src/menus/colors/tone-mapping/reinhard.xml:94(term)
 #: src/menus/colors/tone-mapping/mantiuk.xml:96(term)
 #: src/menus/colors/tone-mapping/fattal.xml:95(term)
 msgid "Presets"
-msgstr ""
+msgstr "Önayarlar"
 
 #: src/menus/colors/tone-mapping/stress.xml:111(para)
 #: src/menus/colors/tone-mapping/reinhard.xml:96(para)
@@ -179,10 +200,12 @@ msgid ""
 "<quote>Presets</quote> are a common feature for several Colors commands. You "
 "can find its description in <xref linkend=\"colors-common-features\"/>."
 msgstr ""
+"<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
+"Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"
 
 #: src/menus/colors/tone-mapping/stress.xml:119(term)
 msgid "Radius"
-msgstr ""
+msgstr "Yarıçap"
 
 #: src/menus/colors/tone-mapping/stress.xml:121(para)
 msgid ""
@@ -193,15 +216,15 @@ msgstr ""
 
 #: src/menus/colors/tone-mapping/stress.xml:129(term)
 msgid "Samples"
-msgstr ""
+msgstr "Örnekler"
 
 #: src/menus/colors/tone-mapping/stress.xml:131(para)
 msgid "Number of samples to do per iteration looking for the range of colors."
-msgstr ""
+msgstr "Renk aralığını arayan her yineleme için yapılacak örnekleme sayısı."
 
 #: src/menus/colors/tone-mapping/stress.xml:138(term)
 msgid "Iterations"
-msgstr ""
+msgstr "Yinelemeler"
 
 #: src/menus/colors/tone-mapping/stress.xml:140(para)
 msgid ""
@@ -211,7 +234,7 @@ msgstr ""
 
 #: src/menus/colors/tone-mapping/stress.xml:147(term)
 msgid "Enhance Shadows"
-msgstr ""
+msgstr "Gölgeleri İyileştir"
 
 #: src/menus/colors/tone-mapping/stress.xml:149(para)
 msgid ""
@@ -224,21 +247,21 @@ msgstr ""
 #: src/menus/colors/tone-mapping/mantiuk.xml:131(term)
 #: src/menus/colors/tone-mapping/fattal.xml:137(term)
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 #: src/menus/colors/tone-mapping/stress.xml:157(term)
 #: src/menus/colors/tone-mapping/reinhard.xml:129(term)
 #: src/menus/colors/tone-mapping/mantiuk.xml:132(term)
 #: src/menus/colors/tone-mapping/fattal.xml:138(term)
 msgid "Clipping"
-msgstr ""
+msgstr "Kırpma"
 
 #: src/menus/colors/tone-mapping/stress.xml:158(term)
 #: src/menus/colors/tone-mapping/reinhard.xml:130(term)
 #: src/menus/colors/tone-mapping/mantiuk.xml:133(term)
 #: src/menus/colors/tone-mapping/fattal.xml:139(term)
 msgid "Blending Options"
-msgstr ""
+msgstr "Harmanlama Seçenekleri"
 
 #: src/menus/colors/tone-mapping/stress.xml:159(term)
 #: src/menus/colors/tone-mapping/reinhard.xml:131(term)
@@ -246,21 +269,21 @@ msgstr ""
 #: src/menus/colors/tone-mapping/fattal.xml:140(term)
 #: src/menus/colors/tone-mapping/destripe.xml:64(term)
 msgid "Preview"
-msgstr ""
+msgstr "Ön İzleme"
 
 #: src/menus/colors/tone-mapping/stress.xml:160(term)
 #: src/menus/colors/tone-mapping/reinhard.xml:132(term)
 #: src/menus/colors/tone-mapping/mantiuk.xml:135(term)
 #: src/menus/colors/tone-mapping/fattal.xml:141(term)
 msgid "Merge filter"
-msgstr ""
+msgstr "Süzgeci birleştir"
 
 #: src/menus/colors/tone-mapping/stress.xml:161(term)
 #: src/menus/colors/tone-mapping/reinhard.xml:133(term)
 #: src/menus/colors/tone-mapping/mantiuk.xml:136(term)
 #: src/menus/colors/tone-mapping/fattal.xml:142(term)
 msgid "Split view"
-msgstr ""
+msgstr "Bölünmüş görünüm"
 
 #: src/menus/colors/tone-mapping/stress.xml:163(para)
 #: src/menus/colors/tone-mapping/reinhard.xml:135(para)
@@ -270,6 +293,8 @@ msgid ""
 "These are common features described in <xref linkend=\"colors-common-"
 "features\"/>."
 msgstr ""
+"Bunlar <xref linkend=\"colors-common-features\"/> adresinde açıklanan ortak "
+"özelliklerdir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -278,6 +303,8 @@ msgid ""
 "@@image: 'images/filters/examples/colors-retinex2.png'; "
 "md5=239358a7b963e67f1eac7fbebb89fb73"
 msgstr ""
+"@@image: 'images/filters/examples/colors-retinex2.png'; "
+"md5=239358a7b963e67f1eac7fbebb89fb73"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -286,23 +313,27 @@ msgid ""
 "@@image: 'images/menus/colors/retinex.png'; "
 "md5=cf528e97860e6a967d38055d92c68a9b"
 msgstr ""
+"@@image: 'images/menus/colors/retinex.png'; "
+"md5=cf528e97860e6a967d38055d92c68a9b"
 
 #: src/menus/colors/tone-mapping/retinex.xml:14(title)
 #: src/menus/colors/tone-mapping/retinex.xml:19(tertiary)
 #: src/menus/colors/tone-mapping/retinex.xml:22(primary)
 #: src/menus/colors/tone-mapping/retinex.xml:26(secondary)
 msgid "Retinex"
-msgstr ""
+msgstr "Retinex"
 
 #: src/menus/colors/tone-mapping/retinex.xml:32(title)
 msgid "<quote>Retinex</quote> example"
-msgstr ""
+msgstr "<quote>Retinex</quote> örneği"
 
 #: src/menus/colors/tone-mapping/retinex.xml:48(para)
 msgid ""
 "<quote>Retinex</quote> filter applied. Note new details in the upper right "
 "corner."
 msgstr ""
+"<quote>Retinex</quote> süzgeci uygulandı. Sağ üst köşedeki yeni ayrıntılara "
+"dikkat edin."
 
 #: src/menus/colors/tone-mapping/retinex.xml:55(para)
 msgid ""
@@ -333,10 +364,13 @@ msgid ""
 "guimenu><guisubmenu>Tone Mapping</guisubmenu><guimenuitem>Retinex…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</guimenu><guisubmenu>Ton "
+"Eşlem</guisubmenu><guimenuitem>Retinex…</guimenuitem></menuchoice> altında "
+"bulunur."
 
 #: src/menus/colors/tone-mapping/retinex.xml:91(title)
 msgid "<quote>Retinex</quote> filter options"
-msgstr ""
+msgstr "<quote>Retinex</quote> süzgeci seçenekleri"
 
 #: src/menus/colors/tone-mapping/retinex.xml:99(para)
 msgid ""
@@ -348,7 +382,7 @@ msgstr ""
 
 #: src/menus/colors/tone-mapping/retinex.xml:107(term)
 msgid "Level"
-msgstr ""
+msgstr "Düzey"
 
 #: src/menus/colors/tone-mapping/retinex.xml:109(para)
 msgid ""
@@ -363,7 +397,7 @@ msgstr ""
 
 #: src/menus/colors/tone-mapping/retinex.xml:120(term)
 msgid "Uniform"
-msgstr ""
+msgstr "Birörnek"
 
 #: src/menus/colors/tone-mapping/retinex.xml:122(para)
 msgid "Uniform tends to treat both low and high intensity areas equally."
@@ -371,7 +405,7 @@ msgstr ""
 
 #: src/menus/colors/tone-mapping/retinex.xml:129(term)
 msgid "Low"
-msgstr ""
+msgstr "Düşük"
 
 #: src/menus/colors/tone-mapping/retinex.xml:131(para)
 msgid ""
@@ -381,7 +415,7 @@ msgstr ""
 
 #: src/menus/colors/tone-mapping/retinex.xml:138(term)
 msgid "High"
-msgstr ""
+msgstr "Yüksek"
 
 #: src/menus/colors/tone-mapping/retinex.xml:140(para)
 msgid ""
@@ -391,7 +425,7 @@ msgstr ""
 
 #: src/menus/colors/tone-mapping/retinex.xml:151(term)
 msgid "Scale"
-msgstr ""
+msgstr "Ölçekle"
 
 #: src/menus/colors/tone-mapping/retinex.xml:153(para)
 msgid ""
@@ -402,7 +436,7 @@ msgstr ""
 
 #: src/menus/colors/tone-mapping/retinex.xml:161(term)
 msgid "Scale division"
-msgstr ""
+msgstr "Ölçek bölümü"
 
 #: src/menus/colors/tone-mapping/retinex.xml:163(para)
 msgid ""
@@ -415,7 +449,7 @@ msgstr ""
 
 #: src/menus/colors/tone-mapping/retinex.xml:173(term)
 msgid "Dynamic"
-msgstr ""
+msgstr "Dinamik"
 
 #: src/menus/colors/tone-mapping/retinex.xml:175(para)
 msgid ""
@@ -433,6 +467,8 @@ msgid ""
 "@@image: 'images/filters/examples/tone-mapping-reinhard.jpg'; "
 "md5=cd4fb2d4d0b699d5f6a204f8afe52a10"
 msgstr ""
+"@@image: 'images/filters/examples/tone-mapping-reinhard.jpg'; "
+"md5=cd4fb2d4d0b699d5f6a204f8afe52a10"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -441,17 +477,19 @@ msgid ""
 "@@image: 'images/menus/colors/tone-mapping/reinhard-dialog.png'; "
 "md5=3a2829d36a4fdc5f484fb1d55194d826"
 msgstr ""
+"@@image: 'images/menus/colors/tone-mapping/reinhard-dialog.png'; "
+"md5=3a2829d36a4fdc5f484fb1d55194d826"
 
 #: src/menus/colors/tone-mapping/reinhard.xml:6(title)
 #: src/menus/colors/tone-mapping/reinhard.xml:9(secondary)
 #: src/menus/colors/tone-mapping/reinhard.xml:12(primary)
 #: src/menus/colors/tone-mapping/reinhard.xml:16(secondary)
 msgid "Reinhard 2005"
-msgstr ""
+msgstr "Reinhard 2005"
 
 #: src/menus/colors/tone-mapping/reinhard.xml:22(title)
 msgid "<quote>Reinhard 2005</quote> tone mapping example"
-msgstr ""
+msgstr "<quote>Reinhard 2005</quote> ton eşlem örneği"
 
 #: src/menus/colors/tone-mapping/reinhard.xml:47(para)
 msgid ""
@@ -483,34 +521,37 @@ msgid ""
 "guimenu><guisubmenu>Tone Mapping</guisubmenu><guimenuitem>Reinhard 2005</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</guimenu><guisubmenu>Ton "
+"Eşlem</guisubmenu><guimenuitem>Reinhard 2005…</guimenuitem></menuchoice> "
+"altında bulunur."
 
 #: src/menus/colors/tone-mapping/reinhard.xml:84(title)
 msgid "The <quote>Reinhard 2005</quote> filter Dialog"
-msgstr ""
+msgstr "<quote>Reinhard 2005</quote> süzgeci İletişim Kutusu"
 
 #: src/menus/colors/tone-mapping/reinhard.xml:104(term)
 msgid "Brightness"
-msgstr ""
+msgstr "Parlaklık"
 
 #: src/menus/colors/tone-mapping/reinhard.xml:106(para)
 msgid "Overall brightness of the image."
-msgstr ""
+msgstr "Görüntünün genel parlaklığı."
 
 #: src/menus/colors/tone-mapping/reinhard.xml:112(term)
 msgid "Chromatic adaptation"
-msgstr ""
+msgstr "Kromatik uyarlama"
 
 #: src/menus/colors/tone-mapping/reinhard.xml:114(para)
 msgid "Adaptation to color variation across the image."
-msgstr ""
+msgstr "Görüntü üzerindeki renk çeşitliliğine uyarlama."
 
 #: src/menus/colors/tone-mapping/reinhard.xml:120(term)
 msgid "Light adaptation"
-msgstr ""
+msgstr "Işık uyarlaması"
 
 #: src/menus/colors/tone-mapping/reinhard.xml:122(para)
 msgid "Adaptation to light variation across the image."
-msgstr ""
+msgstr "Görüntü üzerindeki ışık çeşitliliğine uyarlama."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -519,6 +560,8 @@ msgid ""
 "@@image: 'images/filters/examples/tone-mapping-mantiuk.jpg'; "
 "md5=d9a0bd17992ef1763323def878a149ea"
 msgstr ""
+"@@image: 'images/filters/examples/tone-mapping-mantiuk.jpg'; "
+"md5=d9a0bd17992ef1763323def878a149ea"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -527,17 +570,19 @@ msgid ""
 "@@image: 'images/menus/colors/tone-mapping/mantiuk-dialog.png'; "
 "md5=56a69bff642332a0e52e63daa47a3071"
 msgstr ""
+"@@image: 'images/menus/colors/tone-mapping/mantiuk-dialog.png'; "
+"md5=56a69bff642332a0e52e63daa47a3071"
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:6(title)
 #: src/menus/colors/tone-mapping/mantiuk.xml:10(secondary)
 #: src/menus/colors/tone-mapping/mantiuk.xml:13(primary)
 #: src/menus/colors/tone-mapping/mantiuk.xml:17(secondary)
 msgid "Mantiuk 2006"
-msgstr ""
+msgstr "Mantiuk 2006"
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:24(title)
 msgid "<quote>Mantiuk 2006</quote> tone mapping example"
-msgstr ""
+msgstr "<quote>Mantiuk 2006</quote> ton eşlem örneği"
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:49(para)
 msgid ""
@@ -561,32 +606,35 @@ msgid ""
 "guimenu><guisubmenu>Tone Mapping</guisubmenu><guimenuitem>Mantiuk 2006</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</guimenu><guisubmenu>Ton "
+"Eşlem</guisubmenu><guimenuitem>Mantiuk 2006…</guimenuitem></menuchoice> "
+"altında bulunur."
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:86(title)
 msgid "The <quote>Mantiuk 2006</quote> filter Dialog"
-msgstr ""
+msgstr "<quote>Mantiuk 2006</quote> süzgeci İletişim Kutusu"
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:106(term)
 msgid "Contrast"
-msgstr ""
+msgstr "Karşıtlık"
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:108(para)
 msgid "The amount of contrast compression."
-msgstr ""
+msgstr "Karşıtlık sıkıştırma miktarı."
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:114(term)
 #: src/menus/colors/tone-mapping/fattal.xml:121(term)
 msgid "Saturation"
-msgstr ""
+msgstr "Doygunluk"
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:116(para)
 #: src/menus/colors/tone-mapping/fattal.xml:123(para)
 msgid "Global color saturation factor."
-msgstr ""
+msgstr "Küresel renk doygunluğu katsayısı."
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:122(term)
 msgid "Detail"
-msgstr ""
+msgstr "Ayrıntı"
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:124(para)
 msgid ""
@@ -601,6 +649,8 @@ msgid ""
 "@@image: 'images/filters/examples/tone-mapping-fattal.jpg'; "
 "md5=0816f39d6985f6af2aa67dda37839547"
 msgstr ""
+"@@image: 'images/filters/examples/tone-mapping-fattal.jpg'; "
+"md5=0816f39d6985f6af2aa67dda37839547"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -609,17 +659,19 @@ msgid ""
 "@@image: 'images/menus/colors/tone-mapping/fattal-dialog.png'; "
 "md5=9980e25ae1c81efac6ff59024b171e3a"
 msgstr ""
+"@@image: 'images/menus/colors/tone-mapping/fattal-dialog.png'; "
+"md5=9980e25ae1c81efac6ff59024b171e3a"
 
 #: src/menus/colors/tone-mapping/fattal.xml:9(title)
 #: src/menus/colors/tone-mapping/fattal.xml:13(secondary)
 #: src/menus/colors/tone-mapping/fattal.xml:16(primary)
 #: src/menus/colors/tone-mapping/fattal.xml:20(secondary)
 msgid "Fattal et al. 2002"
-msgstr ""
+msgstr "Fattal et al. 2002"
 
 #: src/menus/colors/tone-mapping/fattal.xml:26(title)
 msgid "<quote>Fattal et al. 2002</quote> tone mapping example"
-msgstr ""
+msgstr "<quote>Fattal et al. 2002</quote> ton eşlem örneği"
 
 #: src/menus/colors/tone-mapping/fattal.xml:51(para)
 msgid ""
@@ -641,30 +693,33 @@ msgid ""
 "guimenu><guisubmenu>Tone Mapping</guisubmenu><guimenuitem>Fattal et al. "
 "2002</guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</guimenu><guisubmenu>Ton "
+"Eşlem</guisubmenu><guimenuitem>Fattal et al. 2002…</guimenuitem></"
+"menuchoice> altında bulunur."
 
 #: src/menus/colors/tone-mapping/fattal.xml:85(title)
 msgid "The <quote>Fattal et al. 2002</quote> filter Dialog"
-msgstr ""
+msgstr "<quote>Fattal et al. 2002</quote> süzgeci İletişim Kutusu"
 
 #: src/menus/colors/tone-mapping/fattal.xml:105(term)
 msgid "Alpha"
-msgstr ""
+msgstr "Alfa"
 
 #: src/menus/colors/tone-mapping/fattal.xml:107(para)
 msgid "Gradient threshold for detail enhancement."
-msgstr ""
+msgstr "Ayrıntı iyileştirme için renk geçişi eşiği."
 
 #: src/menus/colors/tone-mapping/fattal.xml:113(term)
 msgid "Beta"
-msgstr ""
+msgstr "Beta"
 
 #: src/menus/colors/tone-mapping/fattal.xml:115(para)
 msgid "Strength of local detail enhancement."
-msgstr ""
+msgstr "Yerel ayrıntı iyileştirmenin kuvveti."
 
 #: src/menus/colors/tone-mapping/fattal.xml:129(term)
 msgid "Noise"
-msgstr ""
+msgstr "Gürültü"
 
 #: src/menus/colors/tone-mapping/fattal.xml:131(para)
 msgid "Gradient threshold for lowering detail enhancement."
@@ -677,13 +732,15 @@ msgid ""
 "@@image: 'images/menus/colors/tone-mapping/destripe.png'; "
 "md5=0dc5067600580431a911ae0f0be8d6f1"
 msgstr ""
+"@@image: 'images/menus/colors/tone-mapping/destripe.png'; "
+"md5=0dc5067600580431a911ae0f0be8d6f1"
 
 #: src/menus/colors/tone-mapping/destripe.xml:6(title)
 #: src/menus/colors/tone-mapping/destripe.xml:10(secondary)
 #: src/menus/colors/tone-mapping/destripe.xml:13(primary)
 #: src/menus/colors/tone-mapping/destripe.xml:17(secondary)
 msgid "Destripe"
-msgstr ""
+msgstr "Çizgisizleştir"
 
 #: src/menus/colors/tone-mapping/destripe.xml:23(para)
 msgid ""
@@ -707,10 +764,13 @@ msgid ""
 "guimenu><guisubmenu>Tone Mapping</guisubmenu><guimenuitem>Destripe…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</guimenu><guisubmenu>Ton "
+"Eşlem</guisubmenu><guimenuitem>Çizgisizleştir…</guimenuitem></menuchoice> "
+"altında bulunur."
 
 #: src/menus/colors/tone-mapping/destripe.xml:54(title)
 msgid "<quote>Destripe</quote> filter options"
-msgstr ""
+msgstr "<quote>Çizgisizleştir</quote> süzgeci seçenekleri"
 
 #: src/menus/colors/tone-mapping/destripe.xml:66(para)
 msgid ""
@@ -720,7 +780,7 @@ msgstr ""
 
 #: src/menus/colors/tone-mapping/destripe.xml:73(term)
 msgid "Create histogram"
-msgstr ""
+msgstr "Histogram oluştur"
 
 #: src/menus/colors/tone-mapping/destripe.xml:75(para)
 msgid ""
@@ -730,7 +790,7 @@ msgstr ""
 
 #: src/menus/colors/tone-mapping/destripe.xml:82(term)
 msgid "Width"
-msgstr ""
+msgstr "Genişlik"
 
 #: src/menus/colors/tone-mapping/destripe.xml:84(para)
 msgid ""
@@ -742,3 +802,5 @@ msgstr ""
 #: src/menus/colors/tone-mapping/destripe.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."

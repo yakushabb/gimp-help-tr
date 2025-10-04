@@ -1,27 +1,28 @@
 # Turkish translation for gimp-help.
-# Copyright (C) 2019 gimp-help's COPYRIGHT HOLDER
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gimp-help package.
 #
-# Sabri Ünal <libreajans@gmail.com>, 2019.
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.10.0\n"
+"Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-07-15 08:41+0000\n"
-"PO-Revision-Date: 2024-02-25 06:33+0300\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
-"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"PO-Revision-Date: 2025-09-19 20:20+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.7\n"
 
 #: src/menus/file/show-in-file-manager.xml:6(title)
 #: src/menus/file/show-in-file-manager.xml:8(primary)
 msgid "Show in File Manager"
-msgstr ""
+msgstr "Dosya Yöneticisinde Göster"
 
 #: src/menus/file/show-in-file-manager.xml:11(para)
 msgid ""
@@ -82,8 +83,6 @@ msgstr ""
 "md5=147bcd9ccc96af74120d238c36a1014f"
 
 #: src/menus/file/save-as.xml:12(title)
-#, fuzzy
-#| msgid "Save as…"
 msgid "Save As…"
 msgstr "Farklı Kaydet…"
 
@@ -107,8 +106,6 @@ msgstr "Görüntü kaydet"
 
 #: src/menus/file/save-as.xml:17(tertiary)
 #: src/menus/file/save-as.xml:20(primary)
-#, fuzzy
-#| msgid "Save as"
 msgid "Save As"
 msgstr "Farklı Kaydet"
 
@@ -262,18 +259,16 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/revert.xml:9(title)
-#, fuzzy
 msgid "Revert"
-msgstr "Eskiye dön"
+msgstr "Geriye Döndür"
 
 #: src/menus/file/revert.xml:13(secondary)
 msgid "Reload the image"
 msgstr "Görüntüyü yeniden yükle"
 
 #: src/menus/file/revert.xml:16(primary)
-#, fuzzy
 msgid "Revert (command)"
-msgstr "Eskiye dön (komut)"
+msgstr "Geriye döndür (komut)"
 
 #: src/menus/file/revert.xml:19(para)
 msgid ""
@@ -376,6 +371,9 @@ msgid ""
 "<acronym>GIMP</acronym> has its own printing module. You can set page and "
 "image up. A preview button allows you to verify the result before printing."
 msgstr ""
+"<acronym>GIMP</acronym>ʼin kendi yazdırma modülü vardır. Sayfayı ve "
+"görüntüyü ayarlayabilirsiniz. Ön izleme düğmesi, yazdırmadan önce sonucu "
+"doğrulamanızı sağlar."
 
 #: src/menus/file/print.xml:25(title)
 msgid "The <quote>Print</quote> dialog"
@@ -402,7 +400,7 @@ msgstr ""
 
 #: src/menus/file/open.xml:13(title)
 msgid "Open…"
-msgstr "Aç..."
+msgstr "Aç…"
 
 #: src/menus/file/open.xml:17(secondary) src/menus/file/open.xml:19(primary)
 #: src/menus/file/open-recent.xml:13(secondary)
@@ -477,7 +475,7 @@ msgstr ""
 
 #: src/menus/file/open-location.xml:45(title)
 msgid "Description of the dialog window"
-msgstr ""
+msgstr "İletişim penceresinin açıklaması"
 
 #: src/menus/file/open-location.xml:46(para)
 msgid "The most typical schemes to open images with are:"
@@ -588,30 +586,22 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/new.xml:62(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/menus/file/new/advanced-dialog.png'; "
-#| "md5=2e080b538a8e2e058695e68ba1acfcfe"
 msgid ""
 "@@image: 'images/menus/file/new/advanced-dialog.png'; "
 "md5=feb164b2744f288b72b901f5283248a6"
 msgstr ""
 "@@image: 'images/menus/file/new/advanced-dialog.png'; "
-"md5=2e080b538a8e2e058695e68ba1acfcfe"
+"md5=feb164b2744f288b72b901f5283248a6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/new.xml:294(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/menus/file/new/precision.png'; "
-#| "md5=92fcbfaf8ba7e13d07b638a351aee645"
 msgid ""
 "@@image: 'images/menus/file/new/precision.png'; "
 "md5=bc1cda74763f2a80b2969e9f4b35e3ff"
 msgstr ""
 "@@image: 'images/menus/file/new/precision.png'; "
-"md5=92fcbfaf8ba7e13d07b638a351aee645"
+"md5=bc1cda74763f2a80b2969e9f4b35e3ff"
 
 #: src/menus/file/new.xml:13(title)
 msgid "New…"
@@ -646,10 +636,8 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/new.xml:56(title)
-#, fuzzy
-#| msgid "Open location"
 msgid "Options"
-msgstr "Konum aç"
+msgstr "Seçenekler"
 
 #: src/menus/file/new.xml:58(title)
 msgid "The <quote>Create a New Image</quote> dialog"
@@ -670,7 +658,7 @@ msgstr "Görüntü boyutu"
 
 #: src/menus/file/new.xml:74(tertiary)
 msgid "When creating"
-msgstr ""
+msgstr "Oluştururken"
 
 #: src/menus/file/new.xml:82(para)
 msgid ""
@@ -723,7 +711,7 @@ msgstr ""
 
 #: src/menus/file/new.xml:135(title)
 msgid "Advanced Options"
-msgstr ""
+msgstr "Gelişmiş Seçenekler"
 
 #: src/menus/file/new.xml:137(primary) src/menus/file/new.xml:237(term)
 msgid "Precision"
@@ -751,7 +739,7 @@ msgstr ""
 
 #: src/menus/file/new.xml:160(term)
 msgid "X and Y resolution"
-msgstr ""
+msgstr "X ve Y çözünürlüğü"
 
 #: src/menus/file/new.xml:162(para)
 msgid ""
@@ -776,7 +764,7 @@ msgstr ""
 
 #: src/menus/file/new.xml:192(term)
 msgid "Color space"
-msgstr ""
+msgstr "Renk uzayı"
 
 #: src/menus/file/new.xml:194(para)
 msgid ""
@@ -797,7 +785,7 @@ msgstr ""
 
 #: src/menus/file/new.xml:211(term)
 msgid "Grayscale"
-msgstr ""
+msgstr "Gri tonlama"
 
 #: src/menus/file/new.xml:213(para)
 msgid ""
@@ -873,7 +861,7 @@ msgstr ""
 
 #: src/menus/file/new.xml:309(term)
 msgid "Gamma"
-msgstr ""
+msgstr "Gama"
 
 #: src/menus/file/new.xml:311(para)
 msgid ""
@@ -887,7 +875,7 @@ msgstr ""
 
 #: src/menus/file/new.xml:326(term)
 msgid "Color profile"
-msgstr ""
+msgstr "Renk profili"
 
 #: src/menus/file/new.xml:328(para)
 msgid ""
@@ -901,7 +889,7 @@ msgstr ""
 
 #: src/menus/file/new.xml:341(term)
 msgid "Soft-proofing color profile"
-msgstr ""
+msgstr "Ekran provası renk profili"
 
 #: src/menus/file/new.xml:343(para)
 msgid ""
@@ -916,7 +904,7 @@ msgstr ""
 
 #: src/menus/file/new.xml:357(term)
 msgid "Soft-proofing rendering intent"
-msgstr ""
+msgstr "Ekran provası görselleştirme amacı"
 
 #: src/menus/file/new.xml:359(para)
 msgid ""
@@ -932,7 +920,7 @@ msgstr ""
 
 #: src/menus/file/new.xml:378(term)
 msgid "Use Black Point Compensation"
-msgstr ""
+msgstr "Siyah Nokta Dengelemesi Kullan"
 
 #: src/menus/file/new.xml:380(para)
 msgid ""
@@ -941,9 +929,10 @@ msgid ""
 "enabled in the <guilabel>View</guilabel> menu."
 msgstr ""
 
+# Arayüz çevirisine uyuldu.
 #: src/menus/file/new.xml:389(term)
 msgid "Fill with"
-msgstr ""
+msgstr "Doldur"
 
 #: src/menus/file/new.xml:391(para)
 msgid ""
@@ -1006,7 +995,7 @@ msgstr ""
 #: src/menus/file/new.xml:449(term) src/menus/file/new.xml:453(secondary)
 #: src/menus/file/new.xml:456(primary)
 msgid "Comment"
-msgstr ""
+msgstr "Yorum"
 
 #: src/menus/file/new.xml:458(para)
 msgid ""
@@ -1023,15 +1012,15 @@ msgstr ""
 
 #: src/menus/file/export.xml:8(title)
 msgid "Export… and Overwrite…"
-msgstr ""
+msgstr "Dışa Aktar… ve Üzerine Yaz.."
 
 #: src/menus/file/export.xml:11(primary)
 msgid "Export"
-msgstr ""
+msgstr "Dışa Aktar"
 
 #: src/menus/file/export.xml:14(primary)
 msgid "Overwrite"
-msgstr ""
+msgstr "Üzerine Yaz"
 
 #: src/menus/file/export.xml:17(para)
 msgid ""
@@ -1051,16 +1040,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/export-as.xml:26(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/dialogs/export-image-dialog.png'; "
-#| "md5=66b13a524ccadfb6d5547e7e571ba563"
 msgid ""
 "@@image: 'images/dialogs/export-image-dialog.png'; "
 "md5=cace03c797782eb4780233cbebb59497"
 msgstr ""
 "@@image: 'images/dialogs/export-image-dialog.png'; "
-"md5=66b13a524ccadfb6d5547e7e571ba563"
+"md5=cace03c797782eb4780233cbebb59497"
 
 #: src/menus/file/export-as.xml:9(title)
 msgid "Export As…"
@@ -1101,16 +1086,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/create.xml:79(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/menus/file/create/screenshot.png'; "
-#| "md5=ac289e5657c5aba2888f75c54632e524"
 msgid ""
 "@@image: 'images/menus/file/create/screenshot.png'; "
 "md5=d58b71a3db272770ec0e9534367bb57f"
 msgstr ""
 "@@image: 'images/menus/file/create/screenshot.png'; "
-"md5=ac289e5657c5aba2888f75c54632e524"
+"md5=d58b71a3db272770ec0e9534367bb57f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1128,17 +1109,19 @@ msgstr "Oluştur"
 
 #: src/menus/file/create.xml:15(secondary)
 msgid "Acquire an image"
-msgstr ""
+msgstr "Görüntü oluştur"
 
 #: src/menus/file/create.xml:18(primary)
 msgid "Acquire"
-msgstr ""
+msgstr "Al"
 
 #: src/menus/file/create.xml:21(para)
 msgid ""
 "The commands in this submenu vary somewhat, depending upon your system, "
 "since <acronym>GIMP</acronym> makes calls to system functions."
 msgstr ""
+"<acronym>GIMP</acronym> sistem fonksiyonlarına çağrı yaptığından, bu alt "
+"menüdeki komutlar sisteminize bağlı olarak biraz değişir."
 
 #. id="gimp-file-create-activate"
 #: src/menus/file/create.xml:28(title)
@@ -1151,10 +1134,13 @@ msgid ""
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Create</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu alt menüye ana menüden <menuchoice><guimenu>Dosya</"
+"guimenu><guimenuitem>Oluştur</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/file/create.xml:39(title)
 msgid "From Clipboard"
-msgstr ""
+msgstr "Panodan"
 
 #: src/menus/file/create.xml:40(para)
 msgid ""
@@ -1207,11 +1193,11 @@ msgstr ""
 
 #: src/menus/file/create.xml:102(term)
 msgid "Shoot area"
-msgstr ""
+msgstr "Çekim alanı"
 
 #: src/menus/file/create.xml:106(term)
 msgid "Take a screenshot of a single window"
-msgstr ""
+msgstr "Tek pencerenin ekran görüntüsünü al"
 
 #: src/menus/file/create.xml:108(para)
 msgid ""
@@ -1221,7 +1207,7 @@ msgstr ""
 
 #: src/menus/file/create.xml:115(term)
 msgid "Take a screenshot of the entire screen"
-msgstr ""
+msgstr "Tüm ekranın görüntüsünü al"
 
 #: src/menus/file/create.xml:117(para)
 msgid ""
@@ -1231,7 +1217,7 @@ msgstr ""
 
 #: src/menus/file/create.xml:125(term)
 msgid "Select a region to grab"
-msgstr ""
+msgstr "Yakalanacak bölge seç"
 
 #: src/menus/file/create.xml:127(para)
 msgid ""
@@ -1243,11 +1229,11 @@ msgstr ""
 
 #: src/menus/file/create.xml:141(term)
 msgid "Contents"
-msgstr ""
+msgstr "İçerik"
 
 #: src/menus/file/create.xml:145(term)
 msgid "Include window decoration"
-msgstr ""
+msgstr "Pencere süslemesini kapsa"
 
 #: src/menus/file/create.xml:147(para)
 msgid ""
@@ -1257,7 +1243,7 @@ msgstr ""
 
 #: src/menus/file/create.xml:156(term)
 msgid "Include mouse pointer"
-msgstr ""
+msgstr "Fare imlecini kapsa"
 
 #: src/menus/file/create.xml:158(para)
 msgid ""
@@ -1273,17 +1259,15 @@ msgstr "Gecikme"
 
 #: src/menus/file/create.xml:175(term)
 msgid "Selection delay"
-msgstr ""
+msgstr "Seçim gecikmesi"
 
 #: src/menus/file/create.xml:177(para)
 msgid "The seconds to let pass until you select the shoot area."
 msgstr ""
 
 #: src/menus/file/create.xml:183(term)
-#, fuzzy
-#| msgid "Screenshot"
 msgid "Screenshot delay"
-msgstr "Ekran Görüntüsü"
+msgstr "Ekran görüntüsü gecikmesi"
 
 #: src/menus/file/create.xml:185(para)
 msgid ""
@@ -1294,7 +1278,7 @@ msgstr ""
 
 #: src/menus/file/create.xml:197(term)
 msgid "Color Profile"
-msgstr ""
+msgstr "Renk Profili"
 
 #: src/menus/file/create.xml:199(para)
 msgid ""
@@ -1310,6 +1294,9 @@ msgid ""
 "2457\">software bug</ulink>, <acronym>GIMP</acronym> may assign an incorrect "
 "color profile to screenshots."
 msgstr ""
+"Bilinen bir <ulink url=\"https://gitlab.gnome.org/GNOME/gimp/-/issues/"
+"2457\">yazılım hatası</ulink> nedeniyle, <acronym>GIMP</acronym> ekran "
+"görüntülerine yanlış renk profili atayabilir."
 
 #: src/menus/file/create.xml:222(title)
 msgid "Scanner/Camera"
@@ -1341,12 +1328,12 @@ msgstr ""
 #. TO TRANSLATORS: this file comes from the old save-as-template xml file
 #: src/menus/file/create-template.xml:9(title)
 msgid "Create Template…"
-msgstr ""
+msgstr "Şablon Oluştur…"
 
 #: src/menus/file/create-template.xml:12(primary)
 #: src/menus/file/create-template.xml:16(secondary)
 msgid "Create Template"
-msgstr ""
+msgstr "Şablon Oluştur"
 
 #: src/menus/file/create-template.xml:21(para)
 msgid ""
@@ -1374,7 +1361,7 @@ msgstr ""
 #: src/menus/file/copy-location.xml:6(title)
 #: src/menus/file/copy-location.xml:8(primary)
 msgid "Copy Image Location"
-msgstr ""
+msgstr "Görüntü Konumunu Kopyala"
 
 #: src/menus/file/copy-location.xml:11(para)
 msgid ""
@@ -1390,14 +1377,12 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/close.xml:9(title) src/menus/file/close.xml:17(primary)
-#, fuzzy
-#| msgid "Close all"
 msgid "Close View"
-msgstr "Tümünü Kapat"
+msgstr "Görünümü Kapat"
 
 #: src/menus/file/close.xml:14(secondary)
 msgid "Close image"
-msgstr ""
+msgstr "Görüntüyü kapat"
 
 #: src/menus/file/close.xml:20(para)
 msgid ""
@@ -1421,18 +1406,13 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/close.xml:42(para)
-#, fuzzy
-#| msgid ""
-#| "You can access this command from the main menu through "
-#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Close</guimenuitem></"
-#| "menuchoice>,"
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Close View</guimenuitem></"
 "menuchoice>,"
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Dosya</"
-"guimenu><guimenuitem>Kapat</guimenuitem></menuchoice> yoluyla "
+"guimenu><guimenuitem>Görünümü Kapat</guimenuitem></menuchoice> yoluyla "
 "erişebilirsiniz,"
 
 #: src/menus/file/close.xml:51(para)
@@ -1456,8 +1436,6 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/close-all.xml:8(title)
-#, fuzzy
-#| msgid "Close all"
 msgid "Close All"
 msgstr "Tümünü Kapat"
 
@@ -1484,79 +1462,4 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/file/close-all.xml:0(None)
 msgid "translator-credits"
-msgstr "Sabri Ünal <libreajans@gmail.com>, 2019."
-
-#~| msgid ""
-#~| "@@image: 'images/menus/file/new.png'; "
-#~| "md5=91c33dbb59296722126cb68b4e9060b1"
-#~ msgid ""
-#~ "@@image: 'images/menus/file/new.png'; md5=01b72ccfad4ce256e9986b555e261892"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/new.png'; md5=01b72ccfad4ce256e9986b555e261892"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/new/templates.png'; "
-#~ "md5=13f6ba75446ccb2dc74dfb737e9c216e"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/new/templates.png'; "
-#~ "md5=13f6ba75446ccb2dc74dfb737e9c216e"
-
-#~ msgid "The <quote>Template</quote> dialog"
-#~ msgstr "<quote>Şablon</quote> kutusu"
-
-#~ msgid "New Image dialog (Advanced Options)"
-#~ msgstr "Yeni Görüntü iletişim kutusu (Gelişmiş Seçenekler)"
-
-#~ msgid "Activate Command"
-#~ msgstr "Komutu Etkinleştir"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/create.png'; "
-#~ "md5=b89d2c4186b64dc1912278d349c11abe"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/create.png'; "
-#~ "md5=b89d2c4186b64dc1912278d349c11abe"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/create_win.png'; "
-#~ "md5=7e2d2412fa796e3d4235778381aa855f"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/create_win.png'; "
-#~ "md5=7e2d2412fa796e3d4235778381aa855f"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/create/webpage.png'; "
-#~ "md5=edd99ea00a48aa420c9b25915497bfb4"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/create/webpage.png'; "
-#~ "md5=edd99ea00a48aa420c9b25915497bfb4"
-
-#~ msgid "Activate the command"
-#~ msgstr "Komutu etkinleştir"
-
-#~ msgid "Activate the Command"
-#~ msgstr "Komutu Etkinleştir"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/open-location.png'; "
-#~ "md5=5a91b60af69b2bb16217d745ac73dceb"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/open-location.png'; "
-#~ "md5=5a91b60af69b2bb16217d745ac73dceb"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/open.png'; "
-#~ "md5=4ac9517a39693c68dae342386b894c42"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/open.png'; "
-#~ "md5=4ac9517a39693c68dae342386b894c42"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file/open/folder-context-menu.png'; "
-#~ "md5=176c8f89fdbffbc3735b34b18e810c5c"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file/open/folder-context-menu.png'; "
-#~ "md5=176c8f89fdbffbc3735b34b18e810c5c"
-
-#~ msgid "Activate Dialog"
-#~ msgstr "İletişim Kutusunu Etkinleştir"
+msgstr "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025."

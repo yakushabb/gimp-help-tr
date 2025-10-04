@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
+"Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-07-15 08:40+0000\n"
-"PO-Revision-Date: 2023-08-11 12:30-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-09-19 15:45+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -28,6 +36,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/wavelet-ex-1.png'; "
 "md5=a4a4bea9b2a6ca006cf6c4e41f76c583"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/wavelet-ex-1.png'; "
+"md5=a4a4bea9b2a6ca006cf6c4e41f76c583"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -36,6 +46,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/wavelet-ex-2.png'; "
 "md5=40a1f5c5055fe2ca69a5025f5bdea3ce"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/wavelet-ex-2.png'; "
+"md5=40a1f5c5055fe2ca69a5025f5bdea3ce"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -44,6 +56,8 @@ msgid ""
 "@@image: 'images/filters/enhance/wavelets-options.png'; "
 "md5=1bcf06dc65b88690228486dee9a235a9"
 msgstr ""
+"@@image: 'images/filters/enhance/wavelets-options.png'; "
+"md5=1bcf06dc65b88690228486dee9a235a9"
 
 #: src/filters/enhance/wavelet-decompose.xml:9(title)
 msgid "Wavelet Decompose"
@@ -61,7 +75,7 @@ msgstr ""
 #: src/filters/enhance/deinterlace.xml:9(primary)
 #: src/filters/enhance/antialias.xml:9(primary)
 msgid "Filters"
-msgstr ""
+msgstr "Süzgeçler"
 
 #: src/filters/enhance/wavelet-decompose.xml:13(secondary)
 #: src/filters/enhance/unsharp_mask.xml:13(secondary)
@@ -93,7 +107,7 @@ msgstr ""
 #: src/filters/enhance/deinterlace.xml:18(title)
 #: src/filters/enhance/antialias.xml:18(title)
 msgid "Overview"
-msgstr ""
+msgstr "Genel Görünüm"
 
 #: src/filters/enhance/wavelet-decompose.xml:21(para)
 msgid ""
@@ -112,7 +126,7 @@ msgstr ""
 #: src/filters/enhance/red-eye-removal.xml:30(para)
 #: src/filters/enhance/nl-filter.xml:37(para)
 msgid "Original image"
-msgstr ""
+msgstr "Özgün görüntü"
 
 #: src/filters/enhance/wavelet-decompose.xml:46(para)
 msgid ""
@@ -168,7 +182,7 @@ msgstr ""
 #: src/filters/enhance/deinterlace.xml:42(title)
 #: src/filters/enhance/antialias.xml:71(title)
 msgid "Activating the Filter"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/enhance/wavelet-decompose.xml:93(para)
 msgid ""
@@ -187,7 +201,7 @@ msgstr ""
 #: src/filters/enhance/despeckle.xml:42(title)
 #: src/filters/enhance/deinterlace.xml:54(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/filters/enhance/wavelet-decompose.xml:106(title)
 msgid "<quote>Wavelet decompose</quote> options"
@@ -218,6 +232,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance-taj-unsharp-mask.jpg'; "
 "md5=989354ca429259f2fb4aeedf01ac1f7e"
 msgstr ""
+"@@image: 'images/filters/examples/enhance-taj-unsharp-mask.jpg'; "
+"md5=989354ca429259f2fb4aeedf01ac1f7e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -226,6 +242,8 @@ msgid ""
 "@@image: 'images/filters/enhance/sharpen-dialog.png'; "
 "md5=75a1dc35c2034f5d17107b2c95cf32c3"
 msgstr ""
+"@@image: 'images/filters/enhance/sharpen-dialog.png'; "
+"md5=75a1dc35c2034f5d17107b2c95cf32c3"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -234,6 +252,8 @@ msgid ""
 "@@image: 'images/filters/examples/unsharp-mask-1.png'; "
 "md5=76c484b8bb5526888bde646dff85ae0b"
 msgstr ""
+"@@image: 'images/filters/examples/unsharp-mask-1.png'; "
+"md5=76c484b8bb5526888bde646dff85ae0b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -242,6 +262,8 @@ msgid ""
 "@@image: 'images/filters/examples/unsharp-mask-2.png'; "
 "md5=63ce5c1688ed119bf43fe9f1c152eb7b"
 msgstr ""
+"@@image: 'images/filters/examples/unsharp-mask-2.png'; "
+"md5=63ce5c1688ed119bf43fe9f1c152eb7b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -250,6 +272,8 @@ msgid ""
 "@@image: 'images/filters/examples/unsharp-mask-3.png'; "
 "md5=c4a27741e6d1e3142f8de152a2f1fc19"
 msgstr ""
+"@@image: 'images/filters/examples/unsharp-mask-3.png'; "
+"md5=c4a27741e6d1e3142f8de152a2f1fc19"
 
 #: src/filters/enhance/unsharp_mask.xml:9(title)
 #: src/filters/enhance/unsharp_mask.xml:14(tertiary)
@@ -329,7 +353,7 @@ msgstr ""
 #: src/filters/enhance/high-pass.xml:59(term)
 #: src/filters/enhance/deinterlace.xml:66(term)
 msgid "Presets"
-msgstr ""
+msgstr "Önayarlar"
 
 #: src/filters/enhance/unsharp_mask.xml:117(quote)
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:73(quote)
@@ -338,7 +362,7 @@ msgstr ""
 #: src/filters/enhance/high-pass.xml:60(quote)
 #: src/filters/enhance/deinterlace.xml:67(quote)
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 #: src/filters/enhance/unsharp_mask.xml:118(term)
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:74(term)
@@ -347,7 +371,7 @@ msgstr ""
 #: src/filters/enhance/high-pass.xml:61(term)
 #: src/filters/enhance/deinterlace.xml:68(term)
 msgid "Clipping"
-msgstr ""
+msgstr "Kırpma"
 
 #: src/filters/enhance/unsharp_mask.xml:119(term)
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:75(term)
@@ -356,7 +380,7 @@ msgstr ""
 #: src/filters/enhance/high-pass.xml:62(term)
 #: src/filters/enhance/deinterlace.xml:69(term)
 msgid "Blending Options"
-msgstr ""
+msgstr "Harmanlama Seçenekleri"
 
 #: src/filters/enhance/unsharp_mask.xml:120(term)
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:76(term)
@@ -367,7 +391,7 @@ msgstr ""
 #: src/filters/enhance/despeckle.xml:54(term)
 #: src/filters/enhance/deinterlace.xml:70(term)
 msgid "Preview"
-msgstr ""
+msgstr "Ön izleme"
 
 #: src/filters/enhance/unsharp_mask.xml:121(term)
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:77(term)
@@ -376,7 +400,7 @@ msgstr ""
 #: src/filters/enhance/high-pass.xml:64(term)
 #: src/filters/enhance/deinterlace.xml:71(term)
 msgid "Merge filter"
-msgstr ""
+msgstr "Süzgeci birleştir"
 
 #: src/filters/enhance/unsharp_mask.xml:122(term)
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:78(term)
@@ -385,14 +409,14 @@ msgstr ""
 #: src/filters/enhance/high-pass.xml:65(term)
 #: src/filters/enhance/deinterlace.xml:72(term)
 msgid "Split view"
-msgstr ""
+msgstr "Bölünmüş görünüm"
 
 #: src/filters/enhance/unsharp_mask.xml:128(term)
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:85(term)
 #: src/filters/enhance/nl-filter.xml:124(term)
 #: src/filters/enhance/despeckle.xml:89(term)
 msgid "Radius"
-msgstr ""
+msgstr "Yarıçap"
 
 #: src/filters/enhance/unsharp_mask.xml:130(para)
 msgid ""
@@ -403,7 +427,7 @@ msgstr ""
 
 #: src/filters/enhance/unsharp_mask.xml:138(term)
 msgid "Amount"
-msgstr ""
+msgstr "Miktar"
 
 #: src/filters/enhance/unsharp_mask.xml:140(para)
 msgid ""
@@ -414,7 +438,7 @@ msgstr ""
 #: src/filters/enhance/unsharp_mask.xml:147(term)
 #: src/filters/enhance/red-eye-removal.xml:92(term)
 msgid "Threshold"
-msgstr ""
+msgstr "Eşik"
 
 #: src/filters/enhance/unsharp_mask.xml:149(para)
 msgid ""
@@ -529,6 +553,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/snn-pairs.jpg'; "
 "md5=d36ce87ad8551c383d8ad52303fe7585"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/snn-pairs.jpg'; "
+"md5=d36ce87ad8551c383d8ad52303fe7585"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -537,6 +563,8 @@ msgid ""
 "@@image: 'images/filters/enhance/snn-dialog.png'; "
 "md5=8e75ee71e7a48b7d7324e33f3994b02a"
 msgstr ""
+"@@image: 'images/filters/enhance/snn-dialog.png'; "
+"md5=8e75ee71e7a48b7d7324e33f3994b02a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -545,6 +573,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/snn-radius.jpg'; "
 "md5=2cb2fba742f7c2854b26487d680c2c87"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/snn-radius.jpg'; "
+"md5=2cb2fba742f7c2854b26487d680c2c87"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -553,6 +583,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/snn-ex-denoise.jpg'; "
 "md5=30b42aab5dde1c7889ea423dcfb10a0b"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/snn-ex-denoise.jpg'; "
+"md5=30b42aab5dde1c7889ea423dcfb10a0b"
 
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:10(title)
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:15(tertiary)
@@ -607,7 +639,7 @@ msgstr ""
 #: src/filters/enhance/noise-reduction.xml:76(title)
 #: src/filters/enhance/deinterlace.xml:115(title)
 msgid "Example"
-msgstr ""
+msgstr "Örnek"
 
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:123(para)
 msgid "Left: original. Right: filter applied."
@@ -620,6 +652,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance-red-eye-before.jpg'; "
 "md5=5693536ac3651a6548efce4e018eeba4"
 msgstr ""
+"@@image: 'images/filters/examples/enhance-red-eye-before.jpg'; "
+"md5=5693536ac3651a6548efce4e018eeba4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -628,6 +662,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance-red-eye-after.jpg'; "
 "md5=01c4aad780b51f7c111b74194cb18ea2"
 msgstr ""
+"@@image: 'images/filters/examples/enhance-red-eye-after.jpg'; "
+"md5=01c4aad780b51f7c111b74194cb18ea2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -636,6 +672,8 @@ msgid ""
 "@@image: 'images/filters/enhance/red-eye-removal-dialog.png'; "
 "md5=40f1a97f29d08bc0a1c0dd68463a3f42"
 msgstr ""
+"@@image: 'images/filters/enhance/red-eye-removal-dialog.png'; "
+"md5=40f1a97f29d08bc0a1c0dd68463a3f42"
 
 #: src/filters/enhance/red-eye-removal.xml:9(title)
 #: src/filters/enhance/red-eye-removal.xml:14(tertiary)
@@ -685,6 +723,8 @@ msgid ""
 "@@image: 'images/filters/enhance/noise-reduction-dialog.png'; "
 "md5=f9cc81e2b19e8fcd3db12b5af47df693"
 msgstr ""
+"@@image: 'images/filters/enhance/noise-reduction-dialog.png'; "
+"md5=f9cc81e2b19e8fcd3db12b5af47df693"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -693,6 +733,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/noise-reduction-ex1.png'; "
 "md5=67cda93dfb4a5635f2b2c1e280fe2b9e"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/noise-reduction-ex1.png'; "
+"md5=67cda93dfb4a5635f2b2c1e280fe2b9e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -701,12 +743,14 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/noise-reduction-ex2.png'; "
 "md5=84b49fd408014b0750846819cb4c81f0"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/noise-reduction-ex2.png'; "
+"md5=84b49fd408014b0750846819cb4c81f0"
 
 #: src/filters/enhance/noise-reduction.xml:6(title)
 #: src/filters/enhance/noise-reduction.xml:11(tertiary)
 #: src/filters/enhance/noise-reduction.xml:14(primary)
 msgid "Noise Reduction"
-msgstr ""
+msgstr "Gürültü Azaltma"
 
 #: src/filters/enhance/noise-reduction.xml:19(para)
 msgid "A simple GEGL filter to reduce noise."
@@ -748,6 +792,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance-taj-nl-filter.jpg'; "
 "md5=6fcab2e46ddc01efa76bd1398d7e0a72"
 msgstr ""
+"@@image: 'images/filters/examples/enhance-taj-nl-filter.jpg'; "
+"md5=6fcab2e46ddc01efa76bd1398d7e0a72"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -756,6 +802,8 @@ msgid ""
 "@@image: 'images/filters/enhance/nl-filter.png'; "
 "md5=49903056a34914cc11770504e7229e04"
 msgstr ""
+"@@image: 'images/filters/enhance/nl-filter.png'; "
+"md5=49903056a34914cc11770504e7229e04"
 
 #: src/filters/enhance/nl-filter.xml:13(title)
 msgid "NL Filter"
@@ -983,6 +1031,8 @@ msgid ""
 "@@image: 'images/filters/enhance/high-pass-dialog.png'; "
 "md5=84593252bbd424c9d3d4267cbb6752cf"
 msgstr ""
+"@@image: 'images/filters/enhance/high-pass-dialog.png'; "
+"md5=84593252bbd424c9d3d4267cbb6752cf"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -991,6 +1041,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-origin.png'; "
 "md5=7666d1933165da4eb9edbbb01e004e76"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/high-pass-origin.png'; "
+"md5=7666d1933165da4eb9edbbb01e004e76"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -999,6 +1051,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-duplicate.png'; "
 "md5=ab6f16d3e4737f72b9365778f65af544"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/high-pass-duplicate.png'; "
+"md5=ab6f16d3e4737f72b9365778f65af544"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1007,6 +1061,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-open.png'; "
 "md5=d8aafe7d21a8a9d5cf53ad809c62b164"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/high-pass-open.png'; "
+"md5=d8aafe7d21a8a9d5cf53ad809c62b164"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1015,6 +1071,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-mode.png'; "
 "md5=1fe6fc5c54ba11f1cee6b2b4559f20c6"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/high-pass-mode.png'; "
+"md5=1fe6fc5c54ba11f1cee6b2b4559f20c6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1023,6 +1081,8 @@ msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-setting.png'; "
 "md5=36b0b9649348077e89644dd5f89371ac"
 msgstr ""
+"@@image: 'images/filters/examples/enhance/high-pass-setting.png'; "
+"md5=36b0b9649348077e89644dd5f89371ac"
 
 #: src/filters/enhance/high-pass.xml:10(title)
 #: src/filters/enhance/high-pass.xml:15(tertiary)
@@ -1107,6 +1167,8 @@ msgid ""
 "@@image: 'images/filters/enhance/despeckle.png'; "
 "md5=2277f0b7c57ae9a9560182ec770b8780"
 msgstr ""
+"@@image: 'images/filters/enhance/despeckle.png'; "
+"md5=2277f0b7c57ae9a9560182ec770b8780"
 
 #: src/filters/enhance/despeckle.xml:6(title)
 #: src/filters/enhance/despeckle.xml:11(tertiary)
@@ -1193,6 +1255,8 @@ msgid ""
 "@@image: 'images/filters/enhance/deinterlace-dialog.png'; "
 "md5=2976e8a23f6a960e888e48003e20e508"
 msgstr ""
+"@@image: 'images/filters/enhance/deinterlace-dialog.png'; "
+"md5=2976e8a23f6a960e888e48003e20e508"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1201,6 +1265,8 @@ msgid ""
 "@@image: 'images/filters/examples/interlaced.png'; "
 "md5=897e555315620edc0b42d47fe8abe103"
 msgstr ""
+"@@image: 'images/filters/examples/interlaced.png'; "
+"md5=897e555315620edc0b42d47fe8abe103"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1209,6 +1275,8 @@ msgid ""
 "@@image: 'images/filters/examples/deinterlaced-1.png'; "
 "md5=a980b68f7fa9731d709cce755ef17595"
 msgstr ""
+"@@image: 'images/filters/examples/deinterlaced-1.png'; "
+"md5=a980b68f7fa9731d709cce755ef17595"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1217,6 +1285,8 @@ msgid ""
 "@@image: 'images/filters/examples/deinterlaced-2.png'; "
 "md5=968d2a10f51b22eaa4cb6336b6c98491"
 msgstr ""
+"@@image: 'images/filters/examples/deinterlaced-2.png'; "
+"md5=968d2a10f51b22eaa4cb6336b6c98491"
 
 #: src/filters/enhance/deinterlace.xml:6(title)
 #: src/filters/enhance/deinterlace.xml:11(tertiary)
@@ -1321,6 +1391,8 @@ msgid ""
 "@@image: 'images/filters/enhance/antialias-orig.png'; "
 "md5=f689b9ee7fda4ef31c86eca64ad2db90"
 msgstr ""
+"@@image: 'images/filters/enhance/antialias-orig.png'; "
+"md5=f689b9ee7fda4ef31c86eca64ad2db90"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1329,6 +1401,8 @@ msgid ""
 "@@image: 'images/filters/enhance/antialias-applied.png'; "
 "md5=fe250d798a78a29d5f87118a13dde56a"
 msgstr ""
+"@@image: 'images/filters/enhance/antialias-applied.png'; "
+"md5=fe250d798a78a29d5f87118a13dde56a"
 
 #: src/filters/enhance/antialias.xml:6(title)
 #: src/filters/enhance/antialias.xml:11(tertiary)
@@ -1411,3 +1485,5 @@ msgstr ""
 #: src/filters/enhance/antialias.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."

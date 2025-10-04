@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
-"POT-Creation-Date: 2025-07-15 08:40+0000\n"
-"PO-Revision-Date: 2023-08-11 12:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: GIMP-Help master\n"
+"POT-Creation-Date: 2025-02-26 21:19+0000\n"
+"PO-Revision-Date: 2025-09-20 22:20+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -21,6 +29,8 @@ msgid ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
 msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -29,6 +39,8 @@ msgid ""
 "@@image: 'images/filters/examples/noise-taj-spread.jpg'; "
 "md5=e3bcdeb1587b15db96470a1dfacbf99e"
 msgstr ""
+"@@image: 'images/filters/examples/noise-taj-spread.jpg'; "
+"md5=e3bcdeb1587b15db96470a1dfacbf99e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -37,12 +49,14 @@ msgid ""
 "@@image: 'images/filters/noise/spread-dialog.png'; "
 "md5=a93a1a99569c98ab405a2a46987ca7f4"
 msgstr ""
+"@@image: 'images/filters/noise/spread-dialog.png'; "
+"md5=a93a1a99569c98ab405a2a46987ca7f4"
 
 #: src/filters/noise/spread.xml:9(title)
 #: src/filters/noise/spread.xml:14(tertiary)
 #: src/filters/noise/spread.xml:17(primary)
 msgid "Spread"
-msgstr ""
+msgstr "Yay"
 
 #: src/filters/noise/spread.xml:12(primary)
 #: src/filters/noise/slur.xml:11(primary)
@@ -53,7 +67,7 @@ msgstr ""
 #: src/filters/noise/hsv-noise.xml:12(primary)
 #: src/filters/noise/cie-lch-noise.xml:11(primary)
 msgid "Filters"
-msgstr ""
+msgstr "Süzgeçler"
 
 #: src/filters/noise/spread.xml:13(secondary)
 #: src/filters/noise/slur.xml:12(secondary)
@@ -64,7 +78,7 @@ msgstr ""
 #: src/filters/noise/hsv-noise.xml:13(secondary)
 #: src/filters/noise/cie-lch-noise.xml:12(secondary)
 msgid "Noise"
-msgstr ""
+msgstr "Gürültü"
 
 #: src/filters/noise/spread.xml:21(title) src/filters/noise/slur.xml:20(title)
 #: src/filters/noise/rgb-noise.xml:20(title)
@@ -72,22 +86,22 @@ msgstr ""
 #: src/filters/noise/hsv-noise.xml:21(title)
 #: src/filters/noise/cie-lch-noise.xml:20(title)
 msgid "Overview"
-msgstr ""
+msgstr "Genel Görünüm"
 
 #: src/filters/noise/spread.xml:23(title)
 msgid "Example of applying the Spread filter"
-msgstr ""
+msgstr "Yay süzgeci uygulama örneği"
 
 #: src/filters/noise/spread.xml:30(para) src/filters/noise/slur.xml:29(para)
 #: src/filters/noise/rgb-noise.xml:29(para) src/filters/noise/pick.xml:29(para)
 #: src/filters/noise/hurl.xml:29(para) src/filters/noise/hsv-noise.xml:30(para)
 #: src/filters/noise/cie-lch-noise.xml:29(para)
 msgid "Original image"
-msgstr ""
+msgstr "Özgün görüntü"
 
 #: src/filters/noise/spread.xml:39(para)
 msgid "Filter <quote>Spread</quote> applied"
-msgstr ""
+msgstr "<quote>Yay</quote> süzgeci uygulandı"
 
 #: src/filters/noise/spread.xml:43(para)
 msgid ""
@@ -102,7 +116,7 @@ msgstr ""
 #: src/filters/noise/hsv-noise.xml:50(title)
 #: src/filters/noise/cie-lch-noise.xml:50(title)
 msgid "Activating the Filter"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/noise/spread.xml:52(para)
 msgid ""
@@ -110,6 +124,9 @@ msgid ""
 "guimenu><guisubmenu>Noise</guisubmenu><guimenuitem>Spread…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Gürültü</guisubmenu><guimenuitem>Yay…</guimenuitem></"
+"menuchoice> altında bulunur."
 
 #: src/filters/noise/spread.xml:63(title) src/filters/noise/slur.xml:66(title)
 #: src/filters/noise/rgb-noise.xml:70(title)
@@ -117,18 +134,18 @@ msgstr ""
 #: src/filters/noise/hsv-noise.xml:62(title)
 #: src/filters/noise/cie-lch-noise.xml:62(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/filters/noise/spread.xml:65(title)
 msgid "<quote>Spread</quote> filter options"
-msgstr ""
+msgstr "<quote>Yay</quote> süzgeci seçenekleri"
 
 #: src/filters/noise/spread.xml:75(term) src/filters/noise/slur.xml:77(term)
 #: src/filters/noise/rgb-noise.xml:82(term) src/filters/noise/pick.xml:75(term)
 #: src/filters/noise/hurl.xml:73(term) src/filters/noise/hsv-noise.xml:74(term)
 #: src/filters/noise/cie-lch-noise.xml:74(term)
 msgid "Presets"
-msgstr ""
+msgstr "Önayarlar"
 
 #: src/filters/noise/spread.xml:76(quote) src/filters/noise/slur.xml:78(quote)
 #: src/filters/noise/rgb-noise.xml:83(quote)
@@ -136,50 +153,50 @@ msgstr ""
 #: src/filters/noise/hsv-noise.xml:75(quote)
 #: src/filters/noise/cie-lch-noise.xml:75(quote)
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 #: src/filters/noise/spread.xml:77(term) src/filters/noise/slur.xml:79(term)
 #: src/filters/noise/rgb-noise.xml:84(term) src/filters/noise/pick.xml:77(term)
 #: src/filters/noise/hurl.xml:75(term) src/filters/noise/hsv-noise.xml:76(term)
 #: src/filters/noise/cie-lch-noise.xml:76(term)
 msgid "Clipping"
-msgstr ""
+msgstr "Kırpma"
 
 #: src/filters/noise/spread.xml:78(term) src/filters/noise/slur.xml:80(term)
 #: src/filters/noise/rgb-noise.xml:85(term) src/filters/noise/pick.xml:78(term)
 #: src/filters/noise/hurl.xml:76(term) src/filters/noise/hsv-noise.xml:77(term)
 #: src/filters/noise/cie-lch-noise.xml:77(term)
 msgid "Blending Options"
-msgstr ""
+msgstr "Harmanlama Seçenekleri"
 
 #: src/filters/noise/spread.xml:79(term) src/filters/noise/slur.xml:81(term)
 #: src/filters/noise/rgb-noise.xml:86(term) src/filters/noise/pick.xml:79(term)
 #: src/filters/noise/hurl.xml:77(term) src/filters/noise/hsv-noise.xml:78(term)
 #: src/filters/noise/cie-lch-noise.xml:78(term)
 msgid "Preview"
-msgstr ""
+msgstr "Ön İzleme"
 
 #: src/filters/noise/spread.xml:80(term) src/filters/noise/slur.xml:82(term)
 #: src/filters/noise/rgb-noise.xml:87(term) src/filters/noise/pick.xml:80(term)
 #: src/filters/noise/hurl.xml:78(term) src/filters/noise/hsv-noise.xml:79(term)
 #: src/filters/noise/cie-lch-noise.xml:79(term)
 msgid "Merge filter"
-msgstr ""
+msgstr "Süzgeci birleştir"
 
 #: src/filters/noise/spread.xml:81(term) src/filters/noise/slur.xml:83(term)
 #: src/filters/noise/rgb-noise.xml:88(term) src/filters/noise/pick.xml:81(term)
 #: src/filters/noise/hurl.xml:79(term) src/filters/noise/hsv-noise.xml:80(term)
 #: src/filters/noise/cie-lch-noise.xml:80(term)
 msgid "Split view"
-msgstr ""
+msgstr "Bölünmüş görünüm"
 
 #: src/filters/noise/spread.xml:87(term)
 msgid "Horizontal"
-msgstr ""
+msgstr "Yatay"
 
 #: src/filters/noise/spread.xml:88(term)
 msgid "Vertical"
-msgstr ""
+msgstr "Dikey"
 
 #: src/filters/noise/spread.xml:90(para)
 msgid ""
@@ -194,7 +211,7 @@ msgstr ""
 #: src/filters/noise/hsv-noise.xml:123(term)
 #: src/filters/noise/cie-lch-noise.xml:122(term)
 msgid "Random seed"
-msgstr ""
+msgstr "Rastgele parçacık"
 
 #: src/filters/noise/spread.xml:100(term) src/filters/noise/slur.xml:113(term)
 #: src/filters/noise/rgb-noise.xml:155(term)
@@ -202,7 +219,7 @@ msgstr ""
 #: src/filters/noise/hsv-noise.xml:124(term)
 #: src/filters/noise/cie-lch-noise.xml:123(term)
 msgid "New Seed"
-msgstr ""
+msgstr "Yeni Parçacık"
 
 #: src/filters/noise/spread.xml:102(para) src/filters/noise/slur.xml:115(para)
 #: src/filters/noise/rgb-noise.xml:157(para)
@@ -225,6 +242,8 @@ msgid ""
 "@@image: 'images/filters/examples/noise-taj-slur.jpg'; "
 "md5=b4c15799c030cd00c16d72e919af16e6"
 msgstr ""
+"@@image: 'images/filters/examples/noise-taj-slur.jpg'; "
+"md5=b4c15799c030cd00c16d72e919af16e6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -233,19 +252,21 @@ msgid ""
 "@@image: 'images/filters/noise/slur-dialog.png'; "
 "md5=26494cfdb68dad1037948dff57d2ce46"
 msgstr ""
+"@@image: 'images/filters/noise/slur-dialog.png'; "
+"md5=26494cfdb68dad1037948dff57d2ce46"
 
 #: src/filters/noise/slur.xml:9(title) src/filters/noise/slur.xml:13(tertiary)
 #: src/filters/noise/slur.xml:16(primary)
 msgid "Slur"
-msgstr ""
+msgstr "Savrulma"
 
 #: src/filters/noise/slur.xml:22(title)
 msgid "Example of applying the Slur filter"
-msgstr ""
+msgstr "Savrulma süzgeci uygulama örneği"
 
 #: src/filters/noise/slur.xml:38(para)
 msgid "Filter <quote>Slur</quote> applied"
-msgstr ""
+msgstr "<quote>Savrulma</quote> süzgeci uygulandı"
 
 #: src/filters/noise/slur.xml:42(para)
 msgid ""
@@ -266,12 +287,12 @@ msgstr ""
 
 #: src/filters/noise/slur.xml:68(title)
 msgid "Slur filter options"
-msgstr ""
+msgstr "Savrulma süzgeci seçenekleri"
 
 #: src/filters/noise/slur.xml:89(term) src/filters/noise/pick.xml:87(term)
 #: src/filters/noise/hurl.xml:85(term)
 msgid "Randomization (%)"
-msgstr ""
+msgstr "Rastgeleleştirme (%)"
 
 #: src/filters/noise/slur.xml:91(para)
 msgid ""
@@ -285,7 +306,7 @@ msgstr ""
 #: src/filters/noise/slur.xml:102(term) src/filters/noise/pick.xml:97(term)
 #: src/filters/noise/hurl.xml:95(term)
 msgid "Repeat"
-msgstr ""
+msgstr "Yinele"
 
 #: src/filters/noise/slur.xml:104(para)
 msgid ""
@@ -301,6 +322,8 @@ msgid ""
 "@@image: 'images/filters/examples/noise/taj-rgb-noise.jpg'; "
 "md5=ae5db172b91f941bb8d54597640fa265"
 msgstr ""
+"@@image: 'images/filters/examples/noise/taj-rgb-noise.jpg'; "
+"md5=ae5db172b91f941bb8d54597640fa265"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -309,20 +332,22 @@ msgid ""
 "@@image: 'images/filters/noise/RGB_Noise-dialog.png'; "
 "md5=3dda495bed6dc0fce3d1a1a380e0d1b5"
 msgstr ""
+"@@image: 'images/filters/noise/RGB_Noise-dialog.png'; "
+"md5=3dda495bed6dc0fce3d1a1a380e0d1b5"
 
 #: src/filters/noise/rgb-noise.xml:8(title)
 #: src/filters/noise/rgb-noise.xml:13(tertiary)
 #: src/filters/noise/rgb-noise.xml:16(primary)
 msgid "RGB Noise"
-msgstr ""
+msgstr "RGB Gürültüsü"
 
 #: src/filters/noise/rgb-noise.xml:22(title)
 msgid "Example of applying the <quote>RGB Noise</quote> filter"
-msgstr ""
+msgstr "<quote>RGB Gürültüsü</quote> süzgeci uygulama örneği"
 
 #: src/filters/noise/rgb-noise.xml:38(para)
 msgid "Filter <quote>RGB Noise</quote> applied"
-msgstr ""
+msgstr "<quote>RGB Gürültüsü</quote> süzgeci uygulandı"
 
 #: src/filters/noise/rgb-noise.xml:42(para)
 msgid ""
@@ -348,11 +373,11 @@ msgstr ""
 
 #: src/filters/noise/rgb-noise.xml:72(title)
 msgid "<quote>RGB Noise</quote> filter options"
-msgstr ""
+msgstr "<quote>RGB Gürültüsü</quote> süzgeci seçenekleri"
 
 #: src/filters/noise/rgb-noise.xml:94(term)
 msgid "Correlated noise"
-msgstr ""
+msgstr "İlişkili gürültü"
 
 #: src/filters/noise/rgb-noise.xml:96(para)
 msgid ""
@@ -365,7 +390,7 @@ msgstr ""
 
 #: src/filters/noise/rgb-noise.xml:106(term)
 msgid "Independent RGB"
-msgstr ""
+msgstr "Bağımsız RGB"
 
 #: src/filters/noise/rgb-noise.xml:108(para)
 msgid ""
@@ -377,7 +402,7 @@ msgstr ""
 
 #: src/filters/noise/rgb-noise.xml:118(term)
 msgid "Linear RGB"
-msgstr ""
+msgstr "Doğrusal RGB"
 
 #: src/filters/noise/rgb-noise.xml:120(para)
 msgid "Operate on linearized RGB color data."
@@ -385,7 +410,7 @@ msgstr ""
 
 #: src/filters/noise/rgb-noise.xml:126(term)
 msgid "Gaussian distribution"
-msgstr ""
+msgstr "Gaussian dağılımı"
 
 #: src/filters/noise/rgb-noise.xml:128(para)
 msgid ""
@@ -395,19 +420,19 @@ msgstr ""
 
 #: src/filters/noise/rgb-noise.xml:135(term)
 msgid "Red"
-msgstr ""
+msgstr "Kırmızı"
 
 #: src/filters/noise/rgb-noise.xml:136(term)
 msgid "Green"
-msgstr ""
+msgstr "Yeşil"
 
 #: src/filters/noise/rgb-noise.xml:137(term)
 msgid "Blue"
-msgstr ""
+msgstr "Mavi"
 
 #: src/filters/noise/rgb-noise.xml:138(term)
 msgid "Alpha"
-msgstr ""
+msgstr "Alfa"
 
 #: src/filters/noise/rgb-noise.xml:140(para)
 msgid ""
@@ -430,6 +455,8 @@ msgid ""
 "@@image: 'images/filters/examples/noise-taj-pick.jpg'; "
 "md5=06d20006954cfe7eb0dc2b6a16cea14d"
 msgstr ""
+"@@image: 'images/filters/examples/noise-taj-pick.jpg'; "
+"md5=06d20006954cfe7eb0dc2b6a16cea14d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -438,19 +465,21 @@ msgid ""
 "@@image: 'images/filters/noise/pick-dialog.png'; "
 "md5=825a110cdebcad737b066897a9b2ca49"
 msgstr ""
+"@@image: 'images/filters/noise/pick-dialog.png'; "
+"md5=825a110cdebcad737b066897a9b2ca49"
 
 #: src/filters/noise/pick.xml:8(title) src/filters/noise/pick.xml:13(tertiary)
 #: src/filters/noise/pick.xml:16(primary)
 msgid "Pick"
-msgstr ""
+msgstr "Seç"
 
 #: src/filters/noise/pick.xml:22(title)
 msgid "Example of applying the <quote>Pick</quote> filter"
-msgstr ""
+msgstr "<quote>Seç</quote> süzgeci uygulama örneği"
 
 #: src/filters/noise/pick.xml:38(para)
 msgid "Filter <quote>Pick</quote> applied"
-msgstr ""
+msgstr "<quote>Seç</quote> süzgeci uygulandı"
 
 #: src/filters/noise/pick.xml:42(para)
 msgid ""
@@ -470,7 +499,7 @@ msgstr ""
 
 #: src/filters/noise/pick.xml:66(title)
 msgid "<quote>Pick</quote> filter options"
-msgstr ""
+msgstr "<quote>Seç</quote> süzgeci seçenekleri"
 
 #: src/filters/noise/pick.xml:89(para)
 msgid ""
@@ -488,7 +517,7 @@ msgstr ""
 #: src/filters/noise/introduction.xml:10(title)
 #: src/filters/noise/introduction.xml:15(tertiary)
 msgid "Introduction"
-msgstr ""
+msgstr "Giriş"
 
 #: src/filters/noise/introduction.xml:17(para)
 msgid ""
@@ -501,7 +530,7 @@ msgstr ""
 
 #: src/filters/noise/introduction.xml:25(para)
 msgid "This category describes the following filters:"
-msgstr ""
+msgstr "Bu kategori aşağıdaki süzgeçleri açıklar:"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -510,6 +539,8 @@ msgid ""
 "@@image: 'images/filters/examples/noise-taj-hurl.jpg'; "
 "md5=ce9eef9af105c57cdfb2bb5c4c7ae6ff"
 msgstr ""
+"@@image: 'images/filters/examples/noise-taj-hurl.jpg'; "
+"md5=ce9eef9af105c57cdfb2bb5c4c7ae6ff"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -518,19 +549,21 @@ msgid ""
 "@@image: 'images/filters/noise/hurl-dialog.png'; "
 "md5=7c14de6c2e16a6753c3d42a803709859"
 msgstr ""
+"@@image: 'images/filters/noise/hurl-dialog.png'; "
+"md5=7c14de6c2e16a6753c3d42a803709859"
 
 #: src/filters/noise/hurl.xml:8(title) src/filters/noise/hurl.xml:13(tertiary)
 #: src/filters/noise/hurl.xml:16(primary)
 msgid "Hurl"
-msgstr ""
+msgstr "Savrulma"
 
 #: src/filters/noise/hurl.xml:22(title)
 msgid "Example for the <quote>Hurl</quote> filter"
-msgstr ""
+msgstr "<quote>Savrulma</quote> süzgeci örneği"
 
 #: src/filters/noise/hurl.xml:38(para)
 msgid "Filter <quote>Hurl</quote> applied"
-msgstr ""
+msgstr "<quote>Savrulma</quote> süzgeci uygulandı"
 
 #: src/filters/noise/hurl.xml:42(para)
 msgid ""
@@ -538,6 +571,9 @@ msgid ""
 "guimenu><guisubmenu>Noise</guisubmenu><guimenuitem>Hurl…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgece ana menüden <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Gürültü</guisubmenu><guimenuitem>Savrulma…</"
+"guimenuitem></menuchoice> yoluyla ulaşabilirsiniz."
 
 #: src/filters/noise/hurl.xml:50(para)
 msgid ""
@@ -552,7 +588,7 @@ msgstr ""
 
 #: src/filters/noise/hurl.xml:64(title)
 msgid "<quote>Hurl</quote> options"
-msgstr ""
+msgstr "<quote>Savrulma</quote> seçenekleri"
 
 #: src/filters/noise/hurl.xml:87(para)
 msgid ""
@@ -575,6 +611,8 @@ msgid ""
 "@@image: 'images/filters/examples/noise/taj-hsv-noise.jpg'; "
 "md5=2343ab05b1ff22d638bff6dd485d51f8"
 msgstr ""
+"@@image: 'images/filters/examples/noise/taj-hsv-noise.jpg'; "
+"md5=2343ab05b1ff22d638bff6dd485d51f8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -583,20 +621,22 @@ msgid ""
 "@@image: 'images/filters/noise/hsv-noise-dialog.png'; "
 "md5=f062fb4ea037760566b261d405f096c2"
 msgstr ""
+"@@image: 'images/filters/noise/hsv-noise-dialog.png'; "
+"md5=f062fb4ea037760566b261d405f096c2"
 
 #: src/filters/noise/hsv-noise.xml:9(title)
 #: src/filters/noise/hsv-noise.xml:14(tertiary)
 #: src/filters/noise/hsv-noise.xml:17(primary)
 msgid "HSV Noise"
-msgstr ""
+msgstr "HSV Gürültüsü"
 
 #: src/filters/noise/hsv-noise.xml:23(title)
 msgid "Example of applying the <quote>HSV Noise</quote> filter"
-msgstr ""
+msgstr "<quote>HSV Gürültüsü</quote> süzgeci uygulama örneği"
 
 #: src/filters/noise/hsv-noise.xml:39(para)
 msgid "Filter <quote>HSV Noise</quote> applied"
-msgstr ""
+msgstr "<quote>HSV Gürültüsü</quote> süzgeci uygulandı"
 
 #: src/filters/noise/hsv-noise.xml:43(para)
 msgid ""
@@ -613,12 +653,12 @@ msgstr ""
 
 #: src/filters/noise/hsv-noise.xml:64(title)
 msgid "<quote>HSV Noise</quote> filter options"
-msgstr ""
+msgstr "<quote>HSV Gürültüsü</quote> süzgeci seçenekleri"
 
 #: src/filters/noise/hsv-noise.xml:86(term)
 #: src/filters/noise/cie-lch-noise.xml:86(term)
 msgid "Dulling"
-msgstr ""
+msgstr "Matlaşma"
 
 #: src/filters/noise/hsv-noise.xml:88(para)
 msgid ""
@@ -630,7 +670,7 @@ msgstr ""
 #: src/filters/noise/hsv-noise.xml:97(term)
 #: src/filters/noise/cie-lch-noise.xml:112(term)
 msgid "Hue"
-msgstr ""
+msgstr "Renk tonu"
 
 #: src/filters/noise/hsv-noise.xml:99(para)
 #: src/filters/noise/cie-lch-noise.xml:114(para)
@@ -641,7 +681,7 @@ msgstr ""
 
 #: src/filters/noise/hsv-noise.xml:107(term)
 msgid "Saturation"
-msgstr ""
+msgstr "Doygunluk"
 
 #: src/filters/noise/hsv-noise.xml:109(para)
 msgid "This slider increases saturation of scattered pixels."
@@ -649,7 +689,7 @@ msgstr ""
 
 #: src/filters/noise/hsv-noise.xml:115(term)
 msgid "Value"
-msgstr ""
+msgstr "Değer"
 
 #: src/filters/noise/hsv-noise.xml:117(para)
 msgid "This slider increases brightness of scattered pixels."
@@ -662,6 +702,8 @@ msgid ""
 "@@image: 'images/filters/examples/noise/CIE_lch_noise-default.jpg'; "
 "md5=175317fa51a649a63723ba9f543d7b68"
 msgstr ""
+"@@image: 'images/filters/examples/noise/CIE_lch_noise-default.jpg'; "
+"md5=175317fa51a649a63723ba9f543d7b68"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -670,23 +712,25 @@ msgid ""
 "@@image: 'images/filters/noise/CIE_lch_noise-dialog.png'; "
 "md5=05915ab8c8e614bd10ad4c4ee3e1dffa"
 msgstr ""
+"@@image: 'images/filters/noise/CIE_lch_noise-dialog.png'; "
+"md5=05915ab8c8e614bd10ad4c4ee3e1dffa"
 
 #: src/filters/noise/cie-lch-noise.xml:8(title)
 #: src/filters/noise/cie-lch-noise.xml:16(primary)
 msgid "CIE lch Noise"
-msgstr ""
+msgstr "CIE lch Gürültüsü"
 
 #: src/filters/noise/cie-lch-noise.xml:13(tertiary)
 msgid "CIE lch"
-msgstr ""
+msgstr "CIE LCh"
 
 #: src/filters/noise/cie-lch-noise.xml:22(title)
 msgid "Example of applying the <quote>CIE lch Noise</quote> filter"
-msgstr ""
+msgstr "<quote>CIE lch Gürültüsü</quote> süzgeci uygulama örneği"
 
 #: src/filters/noise/cie-lch-noise.xml:38(para)
 msgid "Filter <quote>CIE lch Noise</quote> applied"
-msgstr ""
+msgstr "<quote>CIE lch Gürültüsü</quote> süzgeci uygulandı"
 
 #: src/filters/noise/cie-lch-noise.xml:42(para)
 msgid ""
@@ -701,10 +745,13 @@ msgid ""
 "guimenu><guisubmenu>Noise</guisubmenu><guimenuitem>CIE lch Noise…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Gürültü</guisubmenu><guimenuitem>CIE lch Gürültüsü…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/noise/cie-lch-noise.xml:64(title)
 msgid "<quote>CIE lch Noise</quote> filter options"
-msgstr ""
+msgstr "<quote>CIE lch Gürültüsü</quote> süzgeci seçenekleri"
 
 #: src/filters/noise/cie-lch-noise.xml:88(para)
 msgid ""
@@ -714,7 +761,7 @@ msgstr ""
 
 #: src/filters/noise/cie-lch-noise.xml:95(term)
 msgid "Lightness"
-msgstr ""
+msgstr "Aydınlık"
 
 #: src/filters/noise/cie-lch-noise.xml:97(para)
 msgid "This slider changes the lightness of the noise."
@@ -722,7 +769,7 @@ msgstr ""
 
 #: src/filters/noise/cie-lch-noise.xml:103(term)
 msgid "Chroma"
-msgstr ""
+msgstr "Renk parlaklığı"
 
 #: src/filters/noise/cie-lch-noise.xml:105(para)
 msgid ""
@@ -734,3 +781,5 @@ msgstr ""
 #: src/filters/noise/cie-lch-noise.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."

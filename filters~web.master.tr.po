@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
-"POT-Creation-Date: 2025-07-15 08:40+0000\n"
-"PO-Revision-Date: 2023-08-11 12:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: GIMP-Help master\n"
+"POT-Creation-Date: 2025-02-26 21:19+0000\n"
+"PO-Revision-Date: 2025-09-20 23:03+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -18,6 +26,8 @@ msgid ""
 "@@image: 'images/filters/web/semi-flatten-dialog.png'; "
 "md5=beb25606c49f95c0cb98e4d2dec03775"
 msgstr ""
+"@@image: 'images/filters/web/semi-flatten-dialog.png'; "
+"md5=beb25606c49f95c0cb98e4d2dec03775"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -26,6 +36,8 @@ msgid ""
 "@@image: 'images/filters/examples/logo-semi-BGcolor.png'; "
 "md5=1077d10cca3a3da7c4c802db52c003c3"
 msgstr ""
+"@@image: 'images/filters/examples/logo-semi-BGcolor.png'; "
+"md5=1077d10cca3a3da7c4c802db52c003c3"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -34,6 +46,8 @@ msgid ""
 "@@image: 'images/filters/examples/logo-semi-transp.png'; "
 "md5=62ce09ee7fbfefee6e425c7caf765b03"
 msgstr ""
+"@@image: 'images/filters/examples/logo-semi-transp.png'; "
+"md5=62ce09ee7fbfefee6e425c7caf765b03"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -42,27 +56,29 @@ msgid ""
 "@@image: 'images/filters/examples/logo-semi-flatten.png'; "
 "md5=28544a262be300ef4a0cdfda63dc693d"
 msgstr ""
+"@@image: 'images/filters/examples/logo-semi-flatten.png'; "
+"md5=28544a262be300ef4a0cdfda63dc693d"
 
 #: src/filters/web/semiflatten.xml:13(title)
 #: src/filters/web/semiflatten.xml:18(tertiary)
 #: src/filters/web/semiflatten.xml:21(primary)
 msgid "Semi-Flatten"
-msgstr ""
+msgstr "Yarı Düzleştir"
 
 #: src/filters/web/semiflatten.xml:16(primary)
 #: src/filters/web/imagemap.xml:18(primary)
 msgid "Filters"
-msgstr ""
+msgstr "Süzgeçler"
 
 #: src/filters/web/semiflatten.xml:17(secondary)
 #: src/filters/web/imagemap.xml:19(secondary)
 msgid "Web"
-msgstr ""
+msgstr "Web"
 
 #: src/filters/web/semiflatten.xml:25(title)
 #: src/filters/web/imagemap.xml:37(title)
 msgid "Overview"
-msgstr ""
+msgstr "Genel Görünüm"
 
 #: src/filters/web/semiflatten.xml:26(para)
 msgid ""
@@ -94,7 +110,7 @@ msgstr ""
 #: src/filters/web/semiflatten.xml:52(title)
 #: src/filters/web/imagemap.xml:55(title)
 msgid "Activating the Filter"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/web/semiflatten.xml:53(para)
 msgid ""
@@ -103,48 +119,53 @@ msgid ""
 "menuchoice>. It is available if your image holds an Alpha channel (see <xref "
 "linkend=\"gimp-layer-alpha-add\"/>). Otherwise, it is disabled."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Web</guisubmenu><guimenuitem>Yarı Düzleştir…</"
+"guimenuitem></menuchoice> altında bulunur. Görüntünün Alfa kanalı varsa "
+"kullanılabilir (bkz. <xref linkend=\"gimp-layer-alpha-add\"/>). Diğer "
+"durumda devre dışı bırakılır."
 
 #: src/filters/web/semiflatten.xml:67(title)
 #: src/filters/web/imagemap.xml:100(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/filters/web/semiflatten.xml:69(title)
 msgid "<quote>Semi-Flatten</quote> filter options dialog"
-msgstr ""
+msgstr "<quote>Yarı Düzleştir</quote> süzgeci seçenekleri iletişim kutusu"
 
 #: src/filters/web/semiflatten.xml:79(term)
 msgid "Presets"
-msgstr ""
+msgstr "Önayarlar"
 
 #: src/filters/web/semiflatten.xml:80(quote)
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 #: src/filters/web/semiflatten.xml:81(term)
 msgid "Clipping"
-msgstr ""
+msgstr "Kırpma"
 
 #: src/filters/web/semiflatten.xml:82(term)
 msgid "Blending Options"
-msgstr ""
+msgstr "Harmanlama Seçenekleri"
 
 #: src/filters/web/semiflatten.xml:83(term)
 msgid "Preview"
-msgstr ""
+msgstr "Ön İzleme"
 
 #: src/filters/web/semiflatten.xml:84(term)
 msgid "Merge filter"
-msgstr ""
+msgstr "Süzgeci birleştir"
 
 #: src/filters/web/semiflatten.xml:85(term)
 msgid "Split view"
-msgstr ""
+msgstr "Bölünmüş görünüm"
 
 #: src/filters/web/semiflatten.xml:91(term)
 #: src/filters/web/imagemap.xml:218(term)
 msgid "Color"
-msgstr ""
+msgstr "Renk"
 
 #: src/filters/web/semiflatten.xml:93(para)
 msgid ""
@@ -155,7 +176,7 @@ msgstr ""
 
 #: src/filters/web/semiflatten.xml:105(title)
 msgid "Example"
-msgstr ""
+msgstr "Örnek"
 
 #: src/filters/web/semiflatten.xml:106(para)
 msgid ""
@@ -165,15 +186,15 @@ msgstr ""
 
 #: src/filters/web/semiflatten.xml:111(title)
 msgid "Semi-Flatten example"
-msgstr ""
+msgstr "Yarı Düzleştir örneği"
 
 #: src/filters/web/semiflatten.xml:117(para)
 msgid "Active background color"
-msgstr ""
+msgstr "Etkin arka plan rengi"
 
 #: src/filters/web/semiflatten.xml:126(para)
 msgid "At 800% zoom level"
-msgstr ""
+msgstr "%800 yakınlaştırma düzeyinde"
 
 #: src/filters/web/semiflatten.xml:130(para)
 msgid ""
@@ -184,11 +205,11 @@ msgstr ""
 
 #: src/filters/web/semiflatten.xml:136(title)
 msgid "Semi-Flatten filter applied"
-msgstr ""
+msgstr "Yarı Düzleştir süzgeci uygulanmış"
 
 #: src/filters/web/semiflatten.xml:143(para)
 msgid "Result, in GIF format, after applying Semi-flatten filter."
-msgstr ""
+msgstr "Sonuç, GIF biçiminde, Yarı Düzleştir süzgeci uygulandıktan sonra"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -197,6 +218,8 @@ msgid ""
 "@@image: 'images/filters/web/imagemap.png'; "
 "md5=e92454bec43d9aad118450e511d58692"
 msgstr ""
+"@@image: 'images/filters/web/imagemap.png'; "
+"md5=e92454bec43d9aad118450e511d58692"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -205,6 +228,8 @@ msgid ""
 "@@image: 'images/filters/web/imagemap-area.png'; "
 "md5=f419c1c2a0dfae8e559115d2b92dd6eb"
 msgstr ""
+"@@image: 'images/filters/web/imagemap-area.png'; "
+"md5=f419c1c2a0dfae8e559115d2b92dd6eb"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -213,6 +238,8 @@ msgid ""
 "@@image: 'images/filters/web/imagemap-info.png'; "
 "md5=007ccd6a12de06c32ae831b3c81659dd"
 msgstr ""
+"@@image: 'images/filters/web/imagemap-info.png'; "
+"md5=007ccd6a12de06c32ae831b3c81659dd"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -221,6 +248,8 @@ msgid ""
 "@@image: 'images/filters/web/imagemap-grid.png'; "
 "md5=7daba16e4f55605aaf10bd82129281f3"
 msgstr ""
+"@@image: 'images/filters/web/imagemap-grid.png'; "
+"md5=7daba16e4f55605aaf10bd82129281f3"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -229,6 +258,8 @@ msgid ""
 "@@image: 'images/filters/web/imagemap-guides-options.png'; "
 "md5=6e65d7eaf8032c2e37d91d7f6c050ff1"
 msgstr ""
+"@@image: 'images/filters/web/imagemap-guides-options.png'; "
+"md5=6e65d7eaf8032c2e37d91d7f6c050ff1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -237,15 +268,17 @@ msgid ""
 "@@image: 'images/filters/web/imagemap-draw.png'; "
 "md5=b3c500d1350e9a5a6f43d59564777179"
 msgstr ""
+"@@image: 'images/filters/web/imagemap-draw.png'; "
+"md5=b3c500d1350e9a5a6f43d59564777179"
 
 #: src/filters/web/imagemap.xml:15(title)
 #: src/filters/web/imagemap.xml:23(primary)
 msgid "Image Map"
-msgstr ""
+msgstr "Görüntü Eşlemi"
 
 #: src/filters/web/imagemap.xml:20(tertiary)
 msgid "Clickable image"
-msgstr ""
+msgstr "Tıklanabilir görüntü"
 
 #: src/filters/web/imagemap.xml:26(para)
 msgid ""
@@ -315,15 +348,15 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:102(title)
 msgid "Image Map filter options"
-msgstr ""
+msgstr "Görüntü Eşlemi süzgeci seçenekleri"
 
 #: src/filters/web/imagemap.xml:109(para)
 msgid "Image map window"
-msgstr ""
+msgstr "Görüntü eşlemi penceresi"
 
 #: src/filters/web/imagemap.xml:115(title)
 msgid "The Menu Bar"
-msgstr ""
+msgstr "Menü Çubuğu"
 
 #: src/filters/web/imagemap.xml:116(para)
 msgid ""
@@ -333,15 +366,15 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:122(term)
 msgid "File"
-msgstr ""
+msgstr "Dosya"
 
 #: src/filters/web/imagemap.xml:126(term)
 msgid "Save"
-msgstr ""
+msgstr "Kaydet"
 
 #: src/filters/web/imagemap.xml:127(term)
 msgid "Save As"
-msgstr ""
+msgstr "Farklı Kaydet"
 
 #: src/filters/web/imagemap.xml:129(para)
 msgid ""
@@ -354,14 +387,16 @@ msgid ""
 "With <menuchoice><guimenu>View</guimenu><guimenuitem>Source</guimenuitem></"
 "menuchoice> you can preview this text file content."
 msgstr ""
+"<menuchoice><guimenu>Görünüm</guimenu><guimenuitem>Kaynak…</guimenuitem></"
+"menuchoice> yoluyla bu metin dosyası içeriğini ön izleyebilirsiniz."
 
 #: src/filters/web/imagemap.xml:147(term)
 msgid "Open"
-msgstr ""
+msgstr "Aç"
 
 #: src/filters/web/imagemap.xml:148(term)
 msgid "Open recent"
-msgstr ""
+msgstr "Son kullanılanları aç"
 
 #: src/filters/web/imagemap.xml:150(para)
 msgid ""
@@ -373,15 +408,15 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:164(term)
 msgid "Edit"
-msgstr ""
+msgstr "Düzenle"
 
 #: src/filters/web/imagemap.xml:168(term)
 msgid "Edit area info"
-msgstr ""
+msgstr "Alan bilgisini düzenle"
 
 #: src/filters/web/imagemap.xml:171(title)
 msgid "Editing an image map area"
-msgstr ""
+msgstr "Görüntü eşlemi alanını düzenleme"
 
 #: src/filters/web/imagemap.xml:179(para)
 msgid ""
@@ -391,7 +426,7 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:194(term)
 msgid "View"
-msgstr ""
+msgstr "Görünüm"
 
 #: src/filters/web/imagemap.xml:196(para)
 msgid "This menu offers you special functions:"
@@ -399,7 +434,7 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:201(term)
 msgid "Area List"
-msgstr ""
+msgstr "Alan Listesi"
 
 #: src/filters/web/imagemap.xml:203(para)
 msgid "Here you can hide or show the selection area."
@@ -407,7 +442,7 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:209(term)
 msgid "Source…"
-msgstr ""
+msgstr "Kaynak…"
 
 #: src/filters/web/imagemap.xml:211(para)
 msgid ""
@@ -416,7 +451,7 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:219(term)
 msgid "Gray"
-msgstr ""
+msgstr "Gri"
 
 #: src/filters/web/imagemap.xml:221(para)
 msgid "You can select the image mode here and work with a Grayscale display."
@@ -424,7 +459,7 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:231(term)
 msgid "Mappings"
-msgstr ""
+msgstr "Eşlemeler"
 
 #: src/filters/web/imagemap.xml:233(para)
 msgid ""
@@ -434,7 +469,7 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:240(term)
 msgid "Arrow"
-msgstr ""
+msgstr "Ok"
 
 #: src/filters/web/imagemap.xml:242(para)
 msgid ""
@@ -452,15 +487,15 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:257(term)
 msgid "Rectangle"
-msgstr ""
+msgstr "Dörtgen"
 
 #: src/filters/web/imagemap.xml:258(term)
 msgid "Circle"
-msgstr ""
+msgstr "Daire"
 
 #: src/filters/web/imagemap.xml:259(term)
 msgid "Polygon"
-msgstr ""
+msgstr "Çokgen"
 
 #: src/filters/web/imagemap.xml:261(para)
 msgid ""
@@ -470,11 +505,11 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:268(term)
 msgid "Edit Map Info…"
-msgstr ""
+msgstr "Eşlem Bilgisini Düzenle…"
 
 #: src/filters/web/imagemap.xml:271(title)
 msgid "Editing the image map data"
-msgstr ""
+msgstr "Görüntü eşlemi verisini düzenleme"
 
 #: src/filters/web/imagemap.xml:279(para)
 msgid ""
@@ -487,25 +522,27 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:295(term)
 msgid "Tools"
-msgstr ""
+msgstr "Araçlar"
 
 #: src/filters/web/imagemap.xml:297(para)
 msgid ""
 "With the <quote>Tools</quote> menu you can create guides and even regularly "
 "spaced rectangular areas."
 msgstr ""
+"<quote>Araçlar</quote> menüsü ile kılavuzlar ve hatta düzenli aralıklı "
+"dikdörtgen alanlar oluşturabilirsiniz."
 
 #: src/filters/web/imagemap.xml:302(term)
 msgid "Grid"
-msgstr ""
+msgstr "Izgara"
 
 #: src/filters/web/imagemap.xml:303(term)
 msgid "Grid Settings…"
-msgstr ""
+msgstr "Izgara Ayarları…"
 
 #: src/filters/web/imagemap.xml:306(title)
 msgid "Grid options"
-msgstr ""
+msgstr "Izgara seçenekleri"
 
 #: src/filters/web/imagemap.xml:314(para)
 msgid ""
@@ -515,11 +552,11 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:321(term)
 msgid "Use GIMP Guides…"
-msgstr ""
+msgstr "GIMP Kılavuzlarını Kullan…"
 
 #: src/filters/web/imagemap.xml:322(term)
 msgid "Create Guides…"
-msgstr ""
+msgstr "Kılavuz Oluştur…"
 
 #: src/filters/web/imagemap.xml:324(para)
 msgid ""
@@ -531,15 +568,15 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:334(term)
 msgid "Create guides"
-msgstr ""
+msgstr "Kılavuz oluştur"
 
 #: src/filters/web/imagemap.xml:337(title)
 msgid "Guide options"
-msgstr ""
+msgstr "Kılavuz seçenekleri"
 
 #: src/filters/web/imagemap.xml:344(para)
 msgid "The guide options"
-msgstr ""
+msgstr "Kılavuz seçenekleri"
 
 #: src/filters/web/imagemap.xml:348(para)
 msgid ""
@@ -554,7 +591,7 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:369(title)
 msgid "The Tool Bar"
-msgstr ""
+msgstr "Araç Çubuğu"
 
 #: src/filters/web/imagemap.xml:370(para)
 msgid ""
@@ -564,11 +601,11 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:376(term)
 msgid "Move Area to Front"
-msgstr ""
+msgstr "Ön Bölgeye Taşı"
 
 #: src/filters/web/imagemap.xml:377(term)
 msgid "Move Area to Bottom"
-msgstr ""
+msgstr "En Alt Bölgeye Taşı"
 
 #: src/filters/web/imagemap.xml:379(para)
 msgid "Here you can move an area entry to the bottom or top of the area list."
@@ -577,7 +614,7 @@ msgstr ""
 #: src/filters/web/imagemap.xml:389(title)
 #: src/filters/web/imagemap.xml:391(title)
 msgid "The Working Area"
-msgstr ""
+msgstr "Çalışma Alanı"
 
 #: src/filters/web/imagemap.xml:399(para)
 msgid ""
@@ -600,7 +637,7 @@ msgstr ""
 
 #: src/filters/web/imagemap.xml:418(title)
 msgid "The selection area"
-msgstr ""
+msgstr "Seçim alanı"
 
 #: src/filters/web/imagemap.xml:419(para)
 msgid ""
@@ -626,3 +663,5 @@ msgstr ""
 #: src/filters/web/imagemap.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."

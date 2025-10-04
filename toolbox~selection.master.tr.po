@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
-"POT-Creation-Date: 2025-07-15 08:41+0000\n"
-"PO-Revision-Date: 2023-08-11 12:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: GIMP-Help master\n"
+"POT-Creation-Date: 2025-03-18 09:22+0000\n"
+"PO-Revision-Date: 2025-09-19 16:29+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -18,6 +26,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-rect-select.svg'; "
 "md5=d095dd2f493fea9687f65dc4e8c68cb4"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-rect-select.svg'; "
+"md5=d095dd2f493fea9687f65dc4e8c68cb4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -26,6 +36,8 @@ msgid ""
 "@@image: 'images/toolbox/cursor-rect-select-modifier-minus.png'; "
 "md5=786b51ac74304b2f5dfdef254e18b43e"
 msgstr ""
+"@@image: 'images/toolbox/cursor-rect-select-modifier-minus.png'; "
+"md5=786b51ac74304b2f5dfdef254e18b43e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -34,6 +46,8 @@ msgid ""
 "@@image: 'images/toolbox/cursor-rect-select-modifier-plus.png'; "
 "md5=9fa72291ea03efd9f96b43c10bacc5c1"
 msgstr ""
+"@@image: 'images/toolbox/cursor-rect-select-modifier-plus.png'; "
+"md5=9fa72291ea03efd9f96b43c10bacc5c1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -42,6 +56,8 @@ msgid ""
 "@@image: 'images/toolbox/cursor-rect-select-modifier-intersect.png'; "
 "md5=65fd46e4aa8d6ad161cd5da7d467f920"
 msgstr ""
+"@@image: 'images/toolbox/cursor-rect-select-modifier-intersect.png'; "
+"md5=65fd46e4aa8d6ad161cd5da7d467f920"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -50,6 +66,8 @@ msgid ""
 "@@image: 'images/toolbox/rectangle-selection.png'; "
 "md5=5cfe7c80b1cb6812c0078bfcf8727188"
 msgstr ""
+"@@image: 'images/toolbox/rectangle-selection.png'; "
+"md5=5cfe7c80b1cb6812c0078bfcf8727188"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -58,6 +76,8 @@ msgid ""
 "@@image: 'images/toolbox/cursor-rect-select-mode-tool-crosshair.png'; "
 "md5=9438bed8be62399d257ecdfb8cac675d"
 msgstr ""
+"@@image: 'images/toolbox/cursor-rect-select-mode-tool-crosshair.png'; "
+"md5=9438bed8be62399d257ecdfb8cac675d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -66,6 +86,8 @@ msgid ""
 "@@image: 'images/toolbox/cursor-rect-select-corner-bottom-right.png'; "
 "md5=e42a9eabf78ecc6b605a7db00b0b0910"
 msgstr ""
+"@@image: 'images/toolbox/cursor-rect-select-corner-bottom-right.png'; "
+"md5=e42a9eabf78ecc6b605a7db00b0b0910"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -74,6 +96,8 @@ msgid ""
 "@@image: 'images/toolbox/cursor-rect-select-side-right.png'; "
 "md5=e2c3b44c625e62db8f59e1cebb44041e"
 msgstr ""
+"@@image: 'images/toolbox/cursor-rect-select-side-right.png'; "
+"md5=e2c3b44c625e62db8f59e1cebb44041e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -82,6 +106,8 @@ msgid ""
 "@@image: 'images/toolbox/cursor-rect-select-modifier-move.png'; "
 "md5=7c35724d1c3eb5295cfb4f0d688cc61f"
 msgstr ""
+"@@image: 'images/toolbox/cursor-rect-select-modifier-move.png'; "
+"md5=7c35724d1c3eb5295cfb4f0d688cc61f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -90,6 +116,8 @@ msgid ""
 "@@image: 'images/toolbox/select-area.png'; "
 "md5=ad947e3b1c72250539b254f366679a22"
 msgstr ""
+"@@image: 'images/toolbox/select-area.png'; "
+"md5=ad947e3b1c72250539b254f366679a22"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -98,6 +126,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-rectangle-select.png'; "
 "md5=1b5ee1e913a177306ffd6f8cbefc80c5"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-rectangle-select.png'; "
+"md5=1b5ee1e913a177306ffd6f8cbefc80c5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -106,6 +136,8 @@ msgid ""
 "@@image: 'images/toolbox/autoshrink-1.png'; "
 "md5=cc29775273b20b2170470cfa44470e66"
 msgstr ""
+"@@image: 'images/toolbox/autoshrink-1.png'; "
+"md5=cc29775273b20b2170470cfa44470e66"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -114,11 +146,13 @@ msgid ""
 "@@image: 'images/toolbox/autoshrink-2.png'; "
 "md5=1e740fca7353d5ab2c979ead2315550a"
 msgstr ""
+"@@image: 'images/toolbox/autoshrink-2.png'; "
+"md5=1e740fca7353d5ab2c979ead2315550a"
 
 #: src/toolbox/selection/rectangle.xml:12(title)
 #: src/toolbox/selection/rectangle.xml:15(secondary)
 msgid "Rectangle Selection"
-msgstr ""
+msgstr "Dikdörtgen Seçim"
 
 #: src/toolbox/selection/rectangle.xml:14(primary)
 #: src/toolbox/selection/iscissors.xml:11(primary)
@@ -139,11 +173,11 @@ msgstr ""
 #: src/toolbox/selection/common-features.xml:246(primary)
 #: src/toolbox/selection/by-color.xml:13(primary)
 msgid "Selection"
-msgstr ""
+msgstr "Seçim"
 
 #: src/toolbox/selection/rectangle.xml:19(secondary)
 msgid "Rectangle selection"
-msgstr ""
+msgstr "Dikdörtgen seçim"
 
 #: src/toolbox/selection/rectangle.xml:22(para)
 msgid ""
@@ -204,7 +238,7 @@ msgstr ""
 
 #: src/toolbox/selection/rectangle.xml:70(para)
 msgid "By pressing the <keycap>R</keycap> keyboard shortcut."
-msgstr ""
+msgstr "<keycap>R</keycap> klavye kısayoluna basarak."
 
 #: src/toolbox/selection/rectangle.xml:78(title)
 #: src/toolbox/selection/iscissors.xml:81(title)
@@ -368,7 +402,7 @@ msgstr ""
 #: src/toolbox/selection/common-features.xml:228(title)
 #: src/toolbox/selection/by-color.xml:107(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/toolbox/selection/rectangle.xml:284(title)
 #: src/toolbox/selection/iscissors.xml:199(title)
@@ -389,7 +423,7 @@ msgstr ""
 #: src/toolbox/selection/common-features.xml:243(term)
 #: src/toolbox/selection/by-color.xml:121(term)
 msgid "Mode"
-msgstr ""
+msgstr "Kip"
 
 #: src/toolbox/selection/rectangle.xml:298(term)
 #: src/toolbox/selection/iscissors.xml:213(term)
@@ -457,7 +491,7 @@ msgstr ""
 
 #: src/toolbox/selection/rectangle.xml:347(term)
 msgid "Width"
-msgstr ""
+msgstr "Genişlik"
 
 #: src/toolbox/selection/rectangle.xml:349(para)
 msgid "With this choice you can fix the width of the selection."
@@ -475,7 +509,7 @@ msgstr ""
 #: src/toolbox/selection/rectangle.xml:387(term)
 #: src/toolbox/selection/ellipse.xml:197(term)
 msgid "Size"
-msgstr ""
+msgstr "Boyut"
 
 #: src/toolbox/selection/rectangle.xml:365(para)
 msgid "With this choice you can fix the width and height of the selection."
@@ -484,7 +518,7 @@ msgstr ""
 #: src/toolbox/selection/rectangle.xml:376(term)
 #: src/toolbox/selection/ellipse.xml:196(term)
 msgid "Position"
-msgstr ""
+msgstr "Konum"
 
 #: src/toolbox/selection/rectangle.xml:378(para)
 msgid ""
@@ -533,7 +567,7 @@ msgstr ""
 
 #: src/toolbox/selection/rectangle.xml:426(para)
 msgid "No Guides"
-msgstr ""
+msgstr "Kılavuz Yok"
 
 #: src/toolbox/selection/rectangle.xml:429(para)
 msgid "Center lines"
@@ -541,11 +575,11 @@ msgstr ""
 
 #: src/toolbox/selection/rectangle.xml:432(para)
 msgid "Rule of thirds"
-msgstr ""
+msgstr "Üçlü kuralı"
 
 #: src/toolbox/selection/rectangle.xml:435(para)
 msgid "Rule of fifths"
-msgstr ""
+msgstr "Beşli kuralı"
 
 #: src/toolbox/selection/rectangle.xml:438(para)
 msgid "Golden sections"
@@ -616,6 +650,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-iscissors.svg'; "
 "md5=ba3631fff3b2280cb863bbda1beaba0c"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-iscissors.svg'; "
+"md5=ba3631fff3b2280cb863bbda1beaba0c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -624,6 +660,8 @@ msgid ""
 "@@image: 'images/toolbox/iscissors-selection.png'; "
 "md5=ad72f4eff3f14895fde4cdaf3c5f2c03"
 msgstr ""
+"@@image: 'images/toolbox/iscissors-selection.png'; "
+"md5=ad72f4eff3f14895fde4cdaf3c5f2c03"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -632,6 +670,8 @@ msgid ""
 "@@image: 'images/toolbox/cursor-iscissors.png'; "
 "md5=d5e3bee8fe0be9bbc5cf6272bbb079b3"
 msgstr ""
+"@@image: 'images/toolbox/cursor-iscissors.png'; "
+"md5=d5e3bee8fe0be9bbc5cf6272bbb079b3"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -640,6 +680,8 @@ msgid ""
 "@@image: 'images/toolbox/cursor-iscissors-modifier-plus.png'; "
 "md5=c1b20bb8056fe84a07caf779f48cb572"
 msgstr ""
+"@@image: 'images/toolbox/cursor-iscissors-modifier-plus.png'; "
+"md5=c1b20bb8056fe84a07caf779f48cb572"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -648,6 +690,8 @@ msgid ""
 "@@image: 'images/toolbox/cursor-iscissors-modifier-bad.png'; "
 "md5=209b8391b6298625462ff6e702d7f01f"
 msgstr ""
+"@@image: 'images/toolbox/cursor-iscissors-modifier-bad.png'; "
+"md5=209b8391b6298625462ff6e702d7f01f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -656,18 +700,20 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-scissors-select.png'; "
 "md5=44f6de02b0c57952ee3eb9cc0aa6519e"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-scissors-select.png'; "
+"md5=44f6de02b0c57952ee3eb9cc0aa6519e"
 
 #: src/toolbox/selection/iscissors.xml:8(title)
 msgid "Scissors Select"
-msgstr ""
+msgstr "Makas Seçimi"
 
 #: src/toolbox/selection/iscissors.xml:12(secondary)
 msgid "Scissors"
-msgstr ""
+msgstr "Makas"
 
 #: src/toolbox/selection/iscissors.xml:15(primary)
 msgid "Scissors tool"
-msgstr ""
+msgstr "Makas alaracıeti"
 
 #: src/toolbox/selection/iscissors.xml:18(para)
 msgid ""
@@ -704,7 +750,7 @@ msgstr ""
 
 #: src/toolbox/selection/iscissors.xml:73(para)
 msgid "By pressing the <keycap>I</keycap> keyboard shortcut."
-msgstr ""
+msgstr "<keycap>I</keycap> klavye kısayoluna basarak."
 
 #: src/toolbox/selection/iscissors.xml:82(para)
 msgid ""
@@ -821,6 +867,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-fuzzy-select.svg'; "
 "md5=532fe0c3a47f00140bb79f9c5fdc557f"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-fuzzy-select.svg'; "
+"md5=532fe0c3a47f00140bb79f9c5fdc557f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -829,6 +877,8 @@ msgid ""
 "@@image: 'images/toolbox/fuzzy-selection.png'; "
 "md5=ec2c61fdd6f0823d924f878aa48caf48"
 msgstr ""
+"@@image: 'images/toolbox/fuzzy-selection.png'; "
+"md5=ec2c61fdd6f0823d924f878aa48caf48"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -837,6 +887,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-fuzzy-select.png'; "
 "md5=088b172fc86d0b7a194b37691c3bd99b"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-fuzzy-select.png'; "
+"md5=088b172fc86d0b7a194b37691c3bd99b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -845,6 +897,8 @@ msgid ""
 "@@image: 'images/toolbox/diagonal-neighbors-1.png'; "
 "md5=43ae5e94864f7f9ba22a351ee71f4c6d"
 msgstr ""
+"@@image: 'images/toolbox/diagonal-neighbors-1.png'; "
+"md5=43ae5e94864f7f9ba22a351ee71f4c6d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -853,6 +907,8 @@ msgid ""
 "@@image: 'images/toolbox/diagonal-neighbors-2.png'; "
 "md5=8fc3609b9d56e85a0c593a6ac98cc48d"
 msgstr ""
+"@@image: 'images/toolbox/diagonal-neighbors-2.png'; "
+"md5=8fc3609b9d56e85a0c593a6ac98cc48d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -861,6 +917,8 @@ msgid ""
 "@@image: 'images/toolbox/diagonal-neighbors-3.png'; "
 "md5=02a9ff8d777ce12bd62d26bcd665544c"
 msgstr ""
+"@@image: 'images/toolbox/diagonal-neighbors-3.png'; "
+"md5=02a9ff8d777ce12bd62d26bcd665544c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -869,6 +927,8 @@ msgid ""
 "@@image: 'images/toolbox/diagonal-neighbors-wand-1.png'; "
 "md5=d5216a3d99f46e955c9a9a8479096151"
 msgstr ""
+"@@image: 'images/toolbox/diagonal-neighbors-wand-1.png'; "
+"md5=d5216a3d99f46e955c9a9a8479096151"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -877,6 +937,8 @@ msgid ""
 "@@image: 'images/toolbox/diagonal-neighbors-wand-2.png'; "
 "md5=51347b46c6821d5d3103566360fc7270"
 msgstr ""
+"@@image: 'images/toolbox/diagonal-neighbors-wand-2.png'; "
+"md5=51347b46c6821d5d3103566360fc7270"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -885,6 +947,8 @@ msgid ""
 "@@image: 'images/tool-options/draw-mask-ex1.png'; "
 "md5=785ff7420d966e4bbba109b971d39bd3"
 msgstr ""
+"@@image: 'images/tool-options/draw-mask-ex1.png'; "
+"md5=785ff7420d966e4bbba109b971d39bd3"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -893,6 +957,8 @@ msgid ""
 "@@image: 'images/tool-options/draw-mask-ex2.png'; "
 "md5=c047a74b21c95ccfb56c1901fac49c09"
 msgstr ""
+"@@image: 'images/tool-options/draw-mask-ex2.png'; "
+"md5=c047a74b21c95ccfb56c1901fac49c09"
 
 #: src/toolbox/selection/fuzzy.xml:8(title)
 msgid "Fuzzy Selection (Magic wand)"
@@ -962,7 +1028,7 @@ msgstr ""
 
 #: src/toolbox/selection/fuzzy.xml:89(para)
 msgid "By pressing the <keycap>U</keycap> keyboard shortcut."
-msgstr ""
+msgstr "<keycap>U</keycap> klavye kısayoluna basarak."
 
 #: src/toolbox/selection/fuzzy.xml:98(para)
 msgid ""
@@ -1077,7 +1143,7 @@ msgstr ""
 #: src/toolbox/selection/fuzzy.xml:280(term)
 #: src/toolbox/selection/by-color.xml:132(term)
 msgid "Select by"
-msgstr ""
+msgstr "Seçim ölçütü"
 
 #: src/toolbox/selection/fuzzy.xml:282(para)
 msgid ""
@@ -1131,6 +1197,8 @@ msgid ""
 "@@image: 'images/using/new-free-select-tool.png'; "
 "md5=aa8198be85c517579c54c33bb268a16f"
 msgstr ""
+"@@image: 'images/using/new-free-select-tool.png'; "
+"md5=aa8198be85c517579c54c33bb268a16f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1139,6 +1207,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-free-select.svg'; "
 "md5=a00419d6c3d0e1b1296e2bdaeeba2651"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-free-select.svg'; "
+"md5=a00419d6c3d0e1b1296e2bdaeeba2651"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1147,6 +1217,8 @@ msgid ""
 "@@image: 'images/toolbox/free-selection.png'; "
 "md5=aa9538464e1da8ed8c7d5c2944f4f640"
 msgstr ""
+"@@image: 'images/toolbox/free-selection.png'; "
+"md5=aa9538464e1da8ed8c7d5c2944f4f640"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1155,6 +1227,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-free-select.png'; "
 "md5=5e5bb8521265c90b4aa0577f84fde155"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-free-select.png'; "
+"md5=5e5bb8521265c90b4aa0577f84fde155"
 
 #: src/toolbox/selection/free.xml:9(title)
 msgid "Free Selection (Lasso)"
@@ -1273,7 +1347,7 @@ msgstr ""
 
 #: src/toolbox/selection/free.xml:139(para)
 msgid "By pressing the <keycap>F</keycap> keyboard shortcut."
-msgstr ""
+msgstr "<keycap>F</keycap> klavye kısayoluna basarak."
 
 #: src/toolbox/selection/free.xml:148(para)
 msgid ""
@@ -1313,6 +1387,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-foreground-select.svg'; "
 "md5=786808ec17ef1eb76014ce81fa87b297"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-foreground-select.svg'; "
+"md5=786808ec17ef1eb76014ce81fa87b297"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1321,6 +1397,8 @@ msgid ""
 "@@image: 'images/toolbox/FG-select-pop-up.png'; "
 "md5=73050211b57d468711915b2967cec9b0"
 msgstr ""
+"@@image: 'images/toolbox/FG-select-pop-up.png'; "
+"md5=73050211b57d468711915b2967cec9b0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1329,6 +1407,8 @@ msgid ""
 "@@image: 'images/toolbox/FG-select-select.png'; "
 "md5=f437953aa3ace557c0fe39fd481de4b9"
 msgstr ""
+"@@image: 'images/toolbox/FG-select-select.png'; "
+"md5=f437953aa3ace557c0fe39fd481de4b9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1337,6 +1417,8 @@ msgid ""
 "@@image: 'images/toolbox/FG-select-mask.png'; "
 "md5=193b5cef144e62528a1a6f357eb3efc5"
 msgstr ""
+"@@image: 'images/toolbox/FG-select-mask.png'; "
+"md5=193b5cef144e62528a1a6f357eb3efc5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1345,6 +1427,8 @@ msgid ""
 "@@image: 'images/toolbox/FG-select-draw.png'; "
 "md5=a424136be55aed7b45e4fc78813f1d43"
 msgstr ""
+"@@image: 'images/toolbox/FG-select-draw.png'; "
+"md5=a424136be55aed7b45e4fc78813f1d43"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1353,6 +1437,8 @@ msgid ""
 "@@image: 'images/toolbox/FG-select-result.png'; "
 "md5=f3b00319592e5fe439c659865a5f4ef6"
 msgstr ""
+"@@image: 'images/toolbox/FG-select-result.png'; "
+"md5=f3b00319592e5fe439c659865a5f4ef6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1361,6 +1447,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-foreground-select.png'; "
 "md5=43556a12eb46dabb1948d13b1e2edb93"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-foreground-select.png'; "
+"md5=43556a12eb46dabb1948d13b1e2edb93"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1369,6 +1457,8 @@ msgid ""
 "@@image: 'images/toolbox/FG-select-draw-bg.png'; "
 "md5=c172baafd4ab27ae34a2e30c85a32379"
 msgstr ""
+"@@image: 'images/toolbox/FG-select-draw-bg.png'; "
+"md5=c172baafd4ab27ae34a2e30c85a32379"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1377,6 +1467,8 @@ msgid ""
 "@@image: 'images/toolbox/FG-select-unknown.png'; "
 "md5=6d548df2a8877e8135e14a16fd8a44ca"
 msgstr ""
+"@@image: 'images/toolbox/FG-select-unknown.png'; "
+"md5=6d548df2a8877e8135e14a16fd8a44ca"
 
 #: src/toolbox/selection/foreground.xml:9(title)
 #: src/toolbox/selection/foreground.xml:13(secondary)
@@ -1571,7 +1663,7 @@ msgstr ""
 
 #: src/toolbox/selection/foreground.xml:280(term)
 msgid "Preview mode"
-msgstr ""
+msgstr "Ön izleme kipi"
 
 #: src/toolbox/selection/foreground.xml:284(para)
 msgid ""
@@ -1692,6 +1784,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-ellipse-select.svg'; "
 "md5=8385d2818af8e5686b28857b79735fab"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-ellipse-select.svg'; "
+"md5=8385d2818af8e5686b28857b79735fab"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1700,6 +1794,8 @@ msgid ""
 "@@image: 'images/toolbox/ellipse-selection.png'; "
 "md5=536f10c1a37e270c69453fc30a431d86"
 msgstr ""
+"@@image: 'images/toolbox/ellipse-selection.png'; "
+"md5=536f10c1a37e270c69453fc30a431d86"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1708,6 +1804,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-ellipse-select.png'; "
 "md5=b0ddf802811bd1585c8dab61370e7123"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-ellipse-select.png'; "
+"md5=b0ddf802811bd1585c8dab61370e7123"
 
 #: src/toolbox/selection/ellipse.xml:14(title)
 #: src/toolbox/selection/ellipse.xml:18(secondary)
@@ -1756,7 +1854,7 @@ msgstr ""
 
 #: src/toolbox/selection/ellipse.xml:84(para)
 msgid "By pressing the <keycap>E</keycap> keyboard shortcut."
-msgstr ""
+msgstr "<keycap>E</keycap> klavye kısayoluna basarak."
 
 #: src/toolbox/selection/ellipse.xml:100(para)
 msgid ""
@@ -1818,6 +1916,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-selection-replace.svg'; "
 "md5=5d7d40f29c8b77f3991a2ef31582e7c1"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-selection-replace.svg'; "
+"md5=5d7d40f29c8b77f3991a2ef31582e7c1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1826,6 +1926,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-selection-add.svg'; "
 "md5=7a37871e249cb1804ddf7c64badf914e"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-selection-add.svg'; "
+"md5=7a37871e249cb1804ddf7c64badf914e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1834,6 +1936,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-selection-subtract.svg'; "
 "md5=fab3603b8bae6ff6ee2921287bedfa8c"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-selection-subtract.svg'; "
+"md5=fab3603b8bae6ff6ee2921287bedfa8c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1842,15 +1946,17 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-selection-intersect.svg'; "
 "md5=6daf5e7fd3bdcb5d4ea955a7c339c197"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-selection-intersect.svg'; "
+"md5=6daf5e7fd3bdcb5d4ea955a7c339c197"
 
 #: src/toolbox/selection/common-features.xml:8(title)
 #: src/toolbox/selection/common-features.xml:12(secondary)
 msgid "Common Features"
-msgstr ""
+msgstr "Ortak Özellikler"
 
 #: src/toolbox/selection/common-features.xml:11(primary)
 msgid "Selections"
-msgstr ""
+msgstr "Seçimler"
 
 #: src/toolbox/selection/common-features.xml:15(para)
 msgid ""
@@ -2034,7 +2140,7 @@ msgstr ""
 
 #: src/toolbox/selection/common-features.xml:247(secondary)
 msgid "Modes"
-msgstr ""
+msgstr "Kipler"
 
 #: src/toolbox/selection/common-features.xml:249(para)
 msgid ""
@@ -2057,7 +2163,7 @@ msgstr ""
 
 #: src/toolbox/selection/common-features.xml:286(phrase)
 msgid "Add"
-msgstr ""
+msgstr "Ekle"
 
 #: src/toolbox/selection/common-features.xml:289(para)
 msgid ""
@@ -2120,6 +2226,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-by-color-select.svg'; "
 "md5=3b8f6c3e5c2d93ba169e31e40ae686a5"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-by-color-select.svg'; "
+"md5=3b8f6c3e5c2d93ba169e31e40ae686a5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2128,6 +2236,8 @@ msgid ""
 "@@image: 'images/toolbox/by-color-selection.png'; "
 "md5=98846a19fcbc0b856890b87db1d65125"
 msgstr ""
+"@@image: 'images/toolbox/by-color-selection.png'; "
+"md5=98846a19fcbc0b856890b87db1d65125"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2136,10 +2246,12 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-select-by-color.png'; "
 "md5=09c18d4e297492d5174677b11c7d0cae"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-select-by-color.png'; "
+"md5=09c18d4e297492d5174677b11c7d0cae"
 
 #: src/toolbox/selection/by-color.xml:7(title)
 msgid "Select By Color"
-msgstr ""
+msgstr "Renge Göre Seçim"
 
 #: src/toolbox/selection/by-color.xml:10(secondary)
 #: src/toolbox/selection/by-color.xml:14(secondary)
@@ -2149,7 +2261,7 @@ msgstr ""
 
 #: src/toolbox/selection/by-color.xml:17(primary)
 msgid "Color"
-msgstr ""
+msgstr "Renk"
 
 #: src/toolbox/selection/by-color.xml:21(para)
 msgid ""
@@ -2175,6 +2287,8 @@ msgid ""
 "By pressing the <keycombo><keycap>Shift</keycap><keycap>O</keycap></"
 "keycombo> keyboard shortcut."
 msgstr ""
+"<keycombo><keycap>Shift</keycap><keycap>O</keycap></keycombo> klavye "
+"kısayoluna basarak."
 
 #: src/toolbox/selection/by-color.xml:74(para)
 msgid ""
@@ -2235,4 +2349,4 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/toolbox/selection/about-common-select-modifiers.xml:0(None)
 msgid "translator-credits"
-msgstr ""
+msgstr "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help 2.10.0\n"
 "POT-Creation-Date: 2025-07-15 08:40+0000\n"
-"PO-Revision-Date: 2025-09-19 15:53+0300\n"
+"PO-Revision-Date: 2025-09-19 19:31+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -106,7 +106,7 @@ msgstr "Genel Süzgeçler"
 
 #: src/filters/enhance.xml:6(title)
 msgid "Enhance Filters"
-msgstr "İyileştirme Süzgeçleri"
+msgstr "İyileştir Süzgeçleri"
 
 #: src/filters/edge-detect.xml:10(title)
 msgid "Edge-Detect Filters"
@@ -210,10 +210,13 @@ msgid ""
 "(Note that <guilabel>Strength</guilabel> is not a common option but an "
 "option of the depicted <guilabel>Noise Reduction</guilabel> filter.)"
 msgstr ""
+"(<guilabel>Kuvvet</guilabel>'in genel bir seçenek değil, tasvir edilen "
+"<guilabel>Gürültü Azaltma</guilabel> süzgecinin bir seçeneği olduğunu "
+"unutmayın)"
 
 #: src/filters/common-features.xml:35(para)
 msgid "When the active layer has an alpha channel and no selection is active"
-msgstr ""
+msgstr "Etkin katmanın alfa kanalı olduğunda ve hiçbir seçim etkin olmadığında"
 
 #: src/filters/common-features.xml:44(term)
 msgid "Presets"
@@ -224,6 +227,8 @@ msgid ""
 "Filter presets are similar to tool presets, in that you can save your "
 "favorite settings and recall them when needed. They consist of:"
 msgstr ""
+"Süzgeç önayarları, gözde ayarlarınızı kaydedebilmeniz ve gerektiğinde geri "
+"çağırabilmeniz açısından araç önayarlarına benzer. Bunlar şunlardan oluşur:"
 
 #: src/filters/common-features.xml:53(para)
 msgid ""
@@ -237,12 +242,16 @@ msgstr ""
 msgid ""
 "<placeholder-1/> An icon to save the current settings as a named preset."
 msgstr ""
+"<placeholder-1/> Geçerli ayarları adlandırılmış önayar olarak kaydetmek için "
+"simge."
 
 #: src/filters/common-features.xml:72(para)
 msgid ""
 "<placeholder-1/> An icon that opens a menu with options to import presets "
 "from a file, export the current presets to a file, and manage presets."
 msgstr ""
+"<placeholder-1/> Önayarları dosyadan içe aktarma, geçerli önayarları dosyaya "
+"dışa aktarma ve önayarları yönetme seçeneklerini içeren bir menü açan simge."
 
 #: src/filters/common-features.xml:90(term)
 msgid "Input Type"
@@ -251,7 +260,7 @@ msgstr "Girdi Türü"
 #: src/filters/common-features.xml:93(para)
 msgid ""
 "The input type drop-down list is only visible when a selection is active."
-msgstr ""
+msgstr "Girdi türü açılır listesi yalnızca seçim etkin ise görünür."
 
 #: src/filters/common-features.xml:100(para)
 msgid ""
@@ -267,6 +276,9 @@ msgid ""
 "selected, the input of the filter is the entire layer. The output will only "
 "affect the selection. The layer outside the selection remains unchanged."
 msgstr ""
+"<guilabel>Tüm katmanı girdi olarak kullan</guilabel> Bu seçenek seçilirse, "
+"süzgecin girdisi tüm katmandır. Çıktı yalnızca seçimi etkiler. Seçimin "
+"dışındaki katman değişmeden kalır."
 
 #: src/filters/common-features.xml:131(term)
 msgid "Clipping"
@@ -277,28 +289,35 @@ msgid ""
 "The clipping drop-down list is only visible when the current layer has an "
 "alpha channel, and no selection is active."
 msgstr ""
+"Kırpma açılır listesi yalnızca geçerli katmanın alfa kanalı olduğunda ve "
+"hiçbir seçim etkin olmadığında görünür."
 
 #: src/filters/common-features.xml:139(para)
 msgid ""
 "This setting determines what to do when the result of this filter is larger "
 "than the original layer."
 msgstr ""
+"Bu ayar, bu süzgecin sonucu özgün katmandan daha büyük olduğunda ne "
+"yapılacağını belirler."
 
 #: src/filters/common-features.xml:145(para)
 msgid ""
 "<guilabel>Adjust</guilabel> The layer will be automatically resized as "
 "necessary when the filter is applied. This is the default."
 msgstr ""
+"<guilabel>Ayarla</guilabel> Süzgeç uygulandığında katman gerektiği şekilde "
+"kendiliğinden yeniden boyutlandırılır. Bu öntanımlıdır."
 
 #: src/filters/common-features.xml:152(para)
 msgid ""
 "<guilabel>Clip</guilabel> The result will be clipped to the layer boundary."
-msgstr ""
+msgstr "<guilabel>Kırp</guilabel> Sonuç katman sınırına kırpılır."
 
 #: src/filters/common-features.xml:162(term)
 msgid "Blending Options"
 msgstr "Harmanlama Seçenekleri"
 
+# Hata: Artı işareti bende > ve V simgesi şeklinde görünüyor. Eski tasarımı muhtemelen esas almış.
 #: src/filters/common-features.xml:164(para)
 msgid ""
 "When you expand this option by clicking the +, you can choose the blend "
@@ -306,6 +325,10 @@ msgid ""
 "<guilabel>Opacity</guilabel>. These work the same as the Layer <xref "
 "linkend=\"gimp-layer-dialog-paint-mode-menu\"/> blending options."
 msgstr ""
+"Bu seçeneği genişlettiğinizde, süzgeci uygularken kullanılacak harmanlama "
+"<guilabel>Kipini</guilabel> ve <guilabel>Matlığını</guilabel> "
+"seçebilirsiniz. Bunlar Katman <xref linkend=\"gimp-layer-dialog-paint-mode-"
+"menu\"/> harmanlama seçenekleriyle aynı şekilde çalışır."
 
 #: src/filters/common-features.xml:177(para)
 msgid ""
@@ -330,14 +353,16 @@ msgid ""
 msgstr ""
 "Öntanımlı olarak, <acronym>GEGL</acronym> süzgeçleri <link linkend=\"gimp-"
 "layer-effects\">katman süzgeçleri</link> olarak tahribatsız uygulanır; bu da "
-"daha sonra değiştirilebilmelerini sağlar. Süzgeci hemen katmanın kendisine "
-"uygulamak istediğinizde, bu seçeneği etkinleştirebilirsiniz."
+"daha sonra değiştirilebilmelerini sağlar. Süzgeci hemen katmana uygulamak "
+"istediğinizde, bu seçeneği etkinleştirebilirsiniz."
 
 #: src/filters/common-features.xml:196(para)
 msgid ""
 "This option is remembered, so you only need to change it once if you prefer "
 "to always use filters destructively."
 msgstr ""
+"Bu seçenek hatırlanır, bu nedenle süzgeçleri her zaman yıkıcı olarak "
+"kullanmayı yeğliyorsanız yalnızca bir kez değiştirmeniz gerekir."
 
 #: src/filters/common-features.xml:204(term)
 msgid "Split view"
@@ -409,4 +434,6 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/about-common-features.xml:0(None)
 msgid "translator-credits"
-msgstr "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025."
+msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."

@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
-"POT-Creation-Date: 2025-07-15 08:41+0000\n"
-"PO-Revision-Date: 2023-08-11 12:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: GIMP-Help master\n"
+"POT-Creation-Date: 2025-03-18 09:22+0000\n"
+"PO-Revision-Date: 2025-09-19 16:47+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -18,6 +26,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-smudge.svg'; "
 "md5=6f6cbf72e6298d147e7ef84ab2c04404"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-smudge.svg'; "
+"md5=6f6cbf72e6298d147e7ef84ab2c04404"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -26,6 +36,8 @@ msgid ""
 "@@image: 'images/toolbox/smudge-ex-line.png'; "
 "md5=f88d708c448fc448cf908fe0c72d7ef1"
 msgstr ""
+"@@image: 'images/toolbox/smudge-ex-line.png'; "
+"md5=f88d708c448fc448cf908fe0c72d7ef1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -34,6 +46,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-smudge.png'; "
 "md5=f2cbd0c44314b14a58d174b31ba5abef"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-smudge.png'; "
+"md5=f2cbd0c44314b14a58d174b31ba5abef"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -42,6 +56,8 @@ msgid ""
 "@@image: 'images/toolbox/smudge-ex-noerasing-without-effect.jpg'; "
 "md5=e804122750e74abf479547d4a5da6990"
 msgstr ""
+"@@image: 'images/toolbox/smudge-ex-noerasing-without-effect.jpg'; "
+"md5=e804122750e74abf479547d4a5da6990"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -50,6 +66,8 @@ msgid ""
 "@@image: 'images/toolbox/smudge-ex-noerasing-with-effect.jpg'; "
 "md5=75d59f564fa18a68d95bf15cb1419a86"
 msgstr ""
+"@@image: 'images/toolbox/smudge-ex-noerasing-with-effect.jpg'; "
+"md5=75d59f564fa18a68d95bf15cb1419a86"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -58,6 +76,8 @@ msgid ""
 "@@image: 'images/toolbox/smudge-ex-rate.png'; "
 "md5=1ca5fc996ba752bf1539576f59e3a239"
 msgstr ""
+"@@image: 'images/toolbox/smudge-ex-rate.png'; "
+"md5=1ca5fc996ba752bf1539576f59e3a239"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -66,6 +86,8 @@ msgid ""
 "@@image: 'images/toolbox/smudge-simpletest.jpg'; "
 "md5=d68bf1688ee41cb3a9a6e9cee2b148ac"
 msgstr ""
+"@@image: 'images/toolbox/smudge-simpletest.jpg'; "
+"md5=d68bf1688ee41cb3a9a6e9cee2b148ac"
 
 #: src/toolbox/paint/smudge.xml:8(title)
 #: src/toolbox/paint/smudge.xml:11(secondary)
@@ -92,7 +114,7 @@ msgstr ""
 #: src/toolbox/paint/blur-sharpen.xml:15(primary)
 #: src/toolbox/paint/airbrush.xml:22(primary)
 msgid "Tools"
-msgstr ""
+msgstr "Araçlar"
 
 #: src/toolbox/paint/smudge.xml:21(para)
 msgid ""
@@ -234,7 +256,7 @@ msgstr ""
 #: src/toolbox/paint/blur-sharpen.xml:110(keycap)
 #: src/toolbox/paint/airbrush.xml:74(keycap)
 msgid "Ctrl"
-msgstr ""
+msgstr "Ctrl"
 
 #: src/toolbox/paint/smudge.xml:112(para)
 msgid ""
@@ -257,7 +279,7 @@ msgstr ""
 #: src/toolbox/paint/blur-sharpen.xml:123(title)
 #: src/toolbox/paint/airbrush.xml:99(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/toolbox/paint/smudge.xml:125(title)
 #: src/toolbox/paint/perspective-clone.xml:92(title)
@@ -274,7 +296,7 @@ msgstr ""
 #: src/toolbox/paint/blur-sharpen.xml:125(title)
 #: src/toolbox/paint/airbrush.xml:101(title)
 msgid "Tool Options Dialog"
-msgstr ""
+msgstr "Araç Seçenekleri İletişim Kutusu"
 
 #: src/toolbox/paint/smudge.xml:138(term)
 #: src/toolbox/paint/perspective-clone.xml:119(term)
@@ -294,7 +316,7 @@ msgstr ""
 #: src/toolbox/paint/blur-sharpen.xml:139(term)
 #: src/toolbox/paint/airbrush.xml:115(term)
 msgid "Opacity"
-msgstr ""
+msgstr "Matlık"
 
 #: src/toolbox/paint/smudge.xml:139(term)
 #: src/toolbox/paint/perspective-clone.xml:120(term)
@@ -358,7 +380,7 @@ msgstr ""
 #: src/toolbox/paint/blur-sharpen.xml:144(term)
 #: src/toolbox/paint/airbrush.xml:120(term)
 msgid "Spacing"
-msgstr ""
+msgstr "Aralık"
 
 #: src/toolbox/paint/smudge.xml:144(term)
 #: src/toolbox/paint/perspective-clone.xml:125(term)
@@ -373,7 +395,7 @@ msgstr ""
 #: src/toolbox/paint/blur-sharpen.xml:145(term)
 #: src/toolbox/paint/airbrush.xml:121(term)
 msgid "Hardness"
-msgstr ""
+msgstr "Sertlik"
 
 #: src/toolbox/paint/smudge.xml:145(term)
 #: src/toolbox/paint/perspective-clone.xml:126(term)
@@ -472,7 +494,7 @@ msgstr ""
 #: src/toolbox/paint/clone.xml:407(term)
 #: src/toolbox/paint/blur-sharpen.xml:158(term)
 msgid "Hard edge"
-msgstr ""
+msgstr "Sert kenar"
 
 #: src/toolbox/paint/smudge.xml:160(para)
 msgid "This option gives a hard contour to the smudged area."
@@ -548,7 +570,7 @@ msgstr ""
 #: src/toolbox/paint/dynamics.xml:580(term)
 #: src/toolbox/paint/airbrush.xml:153(term)
 msgid "Flow"
-msgstr ""
+msgstr "Akış"
 
 #: src/toolbox/paint/smudge.xml:239(para)
 msgid ""
@@ -571,6 +593,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-perspective-clone.svg'; "
 "md5=35987211240dd7e43efecb73da0bd003"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-perspective-clone.svg'; "
+"md5=35987211240dd7e43efecb73da0bd003"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -579,6 +603,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-perspective-clone.png'; "
 "md5=e2ff7ed0fd8cd31935d39af0a5c4203a"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-perspective-clone.png'; "
+"md5=e2ff7ed0fd8cd31935d39af0a5c4203a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -587,6 +613,8 @@ msgid ""
 "@@image: 'images/toolbox/perspective-clone-ex1.png'; "
 "md5=8764d98c5508868130e7ffb4d03c35db"
 msgstr ""
+"@@image: 'images/toolbox/perspective-clone-ex1.png'; "
+"md5=8764d98c5508868130e7ffb4d03c35db"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -595,12 +623,14 @@ msgid ""
 "@@image: 'images/toolbox/perspective-clone-ex2.png'; "
 "md5=cc40688b038715f2ae6a39ecc2c6c58b"
 msgstr ""
+"@@image: 'images/toolbox/perspective-clone-ex2.png'; "
+"md5=cc40688b038715f2ae6a39ecc2c6c58b"
 
 #: src/toolbox/paint/perspective-clone.xml:9(title)
 #: src/toolbox/paint/perspective-clone.xml:12(secondary)
 #: src/toolbox/paint/perspective-clone.xml:15(primary)
 msgid "Perspective Clone"
-msgstr ""
+msgstr "Perspektif Kopyala"
 
 #: src/toolbox/paint/perspective-clone.xml:18(para)
 msgid ""
@@ -656,7 +686,7 @@ msgstr ""
 #: src/toolbox/paint/blur-sharpen.xml:138(term)
 #: src/toolbox/paint/airbrush.xml:114(term)
 msgid "Mode"
-msgstr ""
+msgstr "Kip"
 
 #: src/toolbox/paint/perspective-clone.xml:122(term)
 #: src/toolbox/paint/pencil.xml:131(term)
@@ -686,7 +716,7 @@ msgstr ""
 #: src/toolbox/paint/perspective-clone.xml:137(term)
 #: src/toolbox/paint/clone.xml:189(term)
 msgid "Source"
-msgstr ""
+msgstr "Kaynak"
 
 #: src/toolbox/paint/perspective-clone.xml:138(term)
 #: src/toolbox/paint/heal.xml:170(term) src/toolbox/paint/clone.xml:247(term)
@@ -706,7 +736,7 @@ msgstr ""
 
 #: src/toolbox/paint/perspective-clone.xml:158(title)
 msgid "Example"
-msgstr ""
+msgstr "Örnek"
 
 #: src/toolbox/paint/perspective-clone.xml:160(title)
 msgid "<quote>Perspective Clone</quote> example"
@@ -731,6 +761,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-pencil.svg'; "
 "md5=2e019941c558e001826c804c9da41a55"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-pencil.svg'; "
+"md5=2e019941c558e001826c804c9da41a55"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -739,12 +771,14 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-pencil.png'; "
 "md5=907e5d329584d82e750a4d519ac4775d"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-pencil.png'; "
+"md5=907e5d329584d82e750a4d519ac4775d"
 
 #: src/toolbox/paint/pencil.xml:12(title)
 #: src/toolbox/paint/pencil.xml:15(secondary)
 #: src/toolbox/paint/pencil.xml:18(primary)
 msgid "Pencil"
-msgstr ""
+msgstr "Kalem"
 
 #: src/toolbox/paint/pencil.xml:21(para)
 msgid ""
@@ -811,6 +845,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-paintbrush.svg'; "
 "md5=65b9252af33ff10d5623ebf969403f11"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-paintbrush.svg'; "
+"md5=65b9252af33ff10d5623ebf969403f11"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -820,12 +856,14 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-paintbrush.png'; "
 "md5=bb378ffe8d76def675478e7b72698ffa"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-paintbrush.png'; "
+"md5=bb378ffe8d76def675478e7b72698ffa"
 
 #: src/toolbox/paint/paintbrush.xml:10(title)
 #: src/toolbox/paint/paintbrush.xml:13(secondary)
 #: src/toolbox/paint/paintbrush.xml:16(primary)
 msgid "Paintbrush"
-msgstr ""
+msgstr "Boya Fırçası"
 
 #: src/toolbox/paint/paintbrush.xml:19(para)
 msgid ""
@@ -864,6 +902,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-mypaint-brush.svg'; "
 "md5=e93b87816a8d4cbb44cf6e8f85c258ed"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-mypaint-brush.svg'; "
+"md5=e93b87816a8d4cbb44cf6e8f85c258ed"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -872,6 +912,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-mypaint-brush.png'; "
 "md5=7edc5222b2b0ba5731eb7c81f3866df5"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-mypaint-brush.png'; "
+"md5=7edc5222b2b0ba5731eb7c81f3866df5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -880,6 +922,8 @@ msgid ""
 "@@image: 'images/dialogs/mypaint-brushes-dialog-simple.png'; "
 "md5=e62d3be1c19ec7f943e5f55ab5654008"
 msgstr ""
+"@@image: 'images/dialogs/mypaint-brushes-dialog-simple.png'; "
+"md5=e62d3be1c19ec7f943e5f55ab5654008"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -890,6 +934,8 @@ msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-1000.png'; "
 "md5=703821c459b91de1d3a194de0e5d6e21"
 msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-1000.png'; "
+"md5=703821c459b91de1d3a194de0e5d6e21"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -900,6 +946,8 @@ msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-500.png'; "
 "md5=b28956a3eadf0fc2649d919c6eae1d72"
 msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-500.png'; "
+"md5=b28956a3eadf0fc2649d919c6eae1d72"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -909,6 +957,8 @@ msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-250.png'; "
 "md5=6c2c886426ba0efd970ab7f8ebce586a"
 msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-250.png'; "
+"md5=6c2c886426ba0efd970ab7f8ebce586a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -917,6 +967,8 @@ msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-125.png'; "
 "md5=fa0aff14952153a69006378f255b0d7b"
 msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-125.png'; "
+"md5=fa0aff14952153a69006378f255b0d7b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -925,6 +977,8 @@ msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-hardness-example-100.png'; "
 "md5=a8cf390177a52b7899b37ec84e4ed0a0"
 msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-hardness-example-100.png'; "
+"md5=a8cf390177a52b7899b37ec84e4ed0a0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -933,6 +987,8 @@ msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-hardness-example-090.png'; "
 "md5=74beaa54e6e9acc0bf2897926fa7803e"
 msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-hardness-example-090.png'; "
+"md5=74beaa54e6e9acc0bf2897926fa7803e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -941,6 +997,8 @@ msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-hardness-example-080.png'; "
 "md5=75c6a30043307b7e8a75ef92035760e1"
 msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-hardness-example-080.png'; "
+"md5=75c6a30043307b7e8a75ef92035760e1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -949,6 +1007,8 @@ msgid ""
 "@@image: 'images/toolbox/MyPaint-brush-hardness-example-070.png'; "
 "md5=ba6ef3ad1f12938265033297d75e1904"
 msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-hardness-example-070.png'; "
+"md5=ba6ef3ad1f12938265033297d75e1904"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -957,6 +1017,8 @@ msgid ""
 "@@image: 'images/toolbox/mypaint-brush-ex-noerasing-without.jpg'; "
 "md5=ac394ec9eae922d106f13cc976982d8c"
 msgstr ""
+"@@image: 'images/toolbox/mypaint-brush-ex-noerasing-without.jpg'; "
+"md5=ac394ec9eae922d106f13cc976982d8c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -965,12 +1027,14 @@ msgid ""
 "@@image: 'images/toolbox/mypaint-brush-ex-noerasing-with.jpg'; "
 "md5=2a4dceea592cbe0e23fffa9f7716f384"
 msgstr ""
+"@@image: 'images/toolbox/mypaint-brush-ex-noerasing-with.jpg'; "
+"md5=2a4dceea592cbe0e23fffa9f7716f384"
 
 #: src/toolbox/paint/MyPaint-brush.xml:6(title)
 #: src/toolbox/paint/MyPaint-brush.xml:10(secondary)
 #: src/toolbox/paint/MyPaint-brush.xml:12(primary)
 msgid "MyPaint Brush"
-msgstr ""
+msgstr "MyPaint Fırçası"
 
 #: src/toolbox/paint/MyPaint-brush.xml:14(para)
 msgid ""
@@ -1100,49 +1164,49 @@ msgstr ""
 
 #: src/toolbox/paint/MyPaint-brush.xml:204(entry)
 msgid "100"
-msgstr ""
+msgstr "100"
 
 #: src/toolbox/paint/MyPaint-brush.xml:205(entry)
 msgid "50"
-msgstr ""
+msgstr "50"
 
 #: src/toolbox/paint/MyPaint-brush.xml:206(entry)
 msgid "25"
-msgstr ""
+msgstr "25"
 
 #: src/toolbox/paint/MyPaint-brush.xml:211(entry)
 #: src/toolbox/paint/MyPaint-brush.xml:347(para)
 msgid "1.00"
-msgstr ""
+msgstr "1.00"
 
 #: src/toolbox/paint/MyPaint-brush.xml:219(para)
 #: src/toolbox/paint/MyPaint-brush.xml:291(para)
 #: src/toolbox/paint/MyPaint-brush.xml:302(para)
 msgid "=100"
-msgstr ""
+msgstr "=100"
 
 #: src/toolbox/paint/MyPaint-brush.xml:230(para)
 #: src/toolbox/paint/MyPaint-brush.xml:255(para)
 #: src/toolbox/paint/MyPaint-brush.xml:313(para)
 msgid "=50"
-msgstr ""
+msgstr "=50"
 
 #: src/toolbox/paint/MyPaint-brush.xml:241(para)
 #: src/toolbox/paint/MyPaint-brush.xml:266(para)
 msgid "=25"
-msgstr ""
+msgstr "=25"
 
 #: src/toolbox/paint/MyPaint-brush.xml:247(entry)
 msgid "0.50"
-msgstr ""
+msgstr "0.50"
 
 #: src/toolbox/paint/MyPaint-brush.xml:277(para)
 msgid "=12.5"
-msgstr ""
+msgstr "=12.5"
 
 #: src/toolbox/paint/MyPaint-brush.xml:283(entry)
 msgid "2.00"
-msgstr ""
+msgstr "2.00"
 
 #: src/toolbox/paint/MyPaint-brush.xml:321(para)
 msgid ""
@@ -1161,19 +1225,19 @@ msgstr ""
 
 #: src/toolbox/paint/MyPaint-brush.xml:340(title)
 msgid "Hardness example"
-msgstr ""
+msgstr "Sertlik örneği"
 
 #: src/toolbox/paint/MyPaint-brush.xml:358(para)
 msgid "0.90"
-msgstr ""
+msgstr "0.90"
 
 #: src/toolbox/paint/MyPaint-brush.xml:369(para)
 msgid "0.80"
-msgstr ""
+msgstr "0.80"
 
 #: src/toolbox/paint/MyPaint-brush.xml:380(para)
 msgid "0.70"
-msgstr ""
+msgstr "0.70"
 
 #: src/toolbox/paint/MyPaint-brush.xml:392(para)
 msgid ""
@@ -1214,6 +1278,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-ink.svg'; "
 "md5=2efa55def3bb116bd00a35a65a60f290"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-ink.svg'; "
+"md5=2efa55def3bb116bd00a35a65a60f290"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1222,6 +1288,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-ink.png'; "
 "md5=a2c1345d00c710e57f6655bb21813daa"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-ink.png'; "
+"md5=a2c1345d00c710e57f6655bb21813daa"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1230,11 +1298,13 @@ msgid ""
 "@@image: 'images/tool-options/ink-type-circle.png'; "
 "md5=5202847e3689a90aed988d8ab963ad8a"
 msgstr ""
+"@@image: 'images/tool-options/ink-type-circle.png'; "
+"md5=5202847e3689a90aed988d8ab963ad8a"
 
 #: src/toolbox/paint/ink.xml:16(title) src/toolbox/paint/ink.xml:20(secondary)
 #: src/toolbox/paint/ink.xml:23(primary)
 msgid "Ink"
-msgstr ""
+msgstr "Mürekkep"
 
 #: src/toolbox/paint/ink.xml:26(para)
 msgid ""
@@ -1297,7 +1367,7 @@ msgstr ""
 
 #: src/toolbox/paint/ink.xml:160(term)
 msgid "Speed"
-msgstr ""
+msgstr "Hız"
 
 #: src/toolbox/paint/ink.xml:162(para)
 msgid ""
@@ -1312,7 +1382,7 @@ msgstr ""
 #: src/toolbox/paint/ink.xml:177(term)
 #: src/toolbox/paint/dodge-burn.xml:137(term)
 msgid "Type"
-msgstr ""
+msgstr "Tür"
 
 #: src/toolbox/paint/ink.xml:179(para)
 msgid "There are three nib shapes to choose from: circle, square, and diamond."
@@ -1336,6 +1406,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-heal.svg'; "
 "md5=ad484c81f5596da4834d2f6fb395606e"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-heal.svg'; "
+"md5=ad484c81f5596da4834d2f6fb395606e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1344,6 +1416,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-heal.png'; "
 "md5=1c20335c902e3879487e03712cdc42f9"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-heal.png'; "
+"md5=1c20335c902e3879487e03712cdc42f9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1352,11 +1426,13 @@ msgid ""
 "@@image: 'images/toolbox/heal-compar.png'; "
 "md5=44e17c6f494c975f075af6d8a4b43540"
 msgstr ""
+"@@image: 'images/toolbox/heal-compar.png'; "
+"md5=44e17c6f494c975f075af6d8a4b43540"
 
 #: src/toolbox/paint/heal.xml:8(title) src/toolbox/paint/heal.xml:11(secondary)
 #: src/toolbox/paint/heal.xml:14(primary)
 msgid "Heal"
-msgstr ""
+msgstr "İyileşme"
 
 #: src/toolbox/paint/heal.xml:17(para)
 msgid ""
@@ -1451,6 +1527,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-gradient.svg'; "
 "md5=91d7ff01be9efc40d546fda996ce6464"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-gradient.svg'; "
+"md5=91d7ff01be9efc40d546fda996ce6464"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1459,6 +1537,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-gradient.png'; "
 "md5=243840953de7f9bac99f70af6c68b9bd"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-gradient.png'; "
+"md5=243840953de7f9bac99f70af6c68b9bd"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1467,6 +1547,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-linear.png'; "
 "md5=b0c82f501780b3f35d2f581718dea7ed"
 msgstr ""
+"@@image: 'images/tool-options/gradient-linear.png'; "
+"md5=b0c82f501780b3f35d2f581718dea7ed"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1475,6 +1557,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-bilinear.png'; "
 "md5=d6b5c1539e1c5dbed33ba533c648abba"
 msgstr ""
+"@@image: 'images/tool-options/gradient-bilinear.png'; "
+"md5=d6b5c1539e1c5dbed33ba533c648abba"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1483,6 +1567,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-radial.png'; "
 "md5=75bd5b06a9b9d8ba26ae053dcda4f2ff"
 msgstr ""
+"@@image: 'images/tool-options/gradient-radial.png'; "
+"md5=75bd5b06a9b9d8ba26ae053dcda4f2ff"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1491,6 +1577,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-square.png'; "
 "md5=f21d51d813744151193c733039f50938"
 msgstr ""
+"@@image: 'images/tool-options/gradient-square.png'; "
+"md5=f21d51d813744151193c733039f50938"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1499,6 +1587,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-ang-shapeburst.png'; "
 "md5=4ec1139b49560da41c1efb1f0504d31c"
 msgstr ""
+"@@image: 'images/tool-options/gradient-ang-shapeburst.png'; "
+"md5=4ec1139b49560da41c1efb1f0504d31c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1507,6 +1597,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-spher-shapeburst.png'; "
 "md5=22f449b03112bd3611ae15d2e0e2d58c"
 msgstr ""
+"@@image: 'images/tool-options/gradient-spher-shapeburst.png'; "
+"md5=22f449b03112bd3611ae15d2e0e2d58c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1515,6 +1607,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-dim-shapeburst.png'; "
 "md5=5f5b5a4f60cc3f711572b78c5f2b8e7f"
 msgstr ""
+"@@image: 'images/tool-options/gradient-dim-shapeburst.png'; "
+"md5=5f5b5a4f60cc3f711572b78c5f2b8e7f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1523,6 +1617,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-sym-conical.png'; "
 "md5=a10a1c0811096646af23317840b27bdb"
 msgstr ""
+"@@image: 'images/tool-options/gradient-sym-conical.png'; "
+"md5=a10a1c0811096646af23317840b27bdb"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1531,6 +1627,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-asym-conical.png'; "
 "md5=78f538d4fdf2de930a848ad4f56affba"
 msgstr ""
+"@@image: 'images/tool-options/gradient-asym-conical.png'; "
+"md5=78f538d4fdf2de930a848ad4f56affba"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1539,6 +1637,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-clock-spiral.png'; "
 "md5=f0c3b7be5b2890d1001254a99ad22d7f"
 msgstr ""
+"@@image: 'images/tool-options/gradient-clock-spiral.png'; "
+"md5=f0c3b7be5b2890d1001254a99ad22d7f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1547,6 +1647,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-anticlock-spiral.png'; "
 "md5=035ecbf2cb318f2da0ce329ebf1c0ee2"
 msgstr ""
+"@@image: 'images/tool-options/gradient-anticlock-spiral.png'; "
+"md5=035ecbf2cb318f2da0ce329ebf1c0ee2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1555,6 +1657,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-repeat-none.png'; "
 "md5=3efe0129b4aa07efd401cd05a4ea3f55"
 msgstr ""
+"@@image: 'images/tool-options/gradient-repeat-none.png'; "
+"md5=3efe0129b4aa07efd401cd05a4ea3f55"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1563,6 +1667,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-repeat-truncate.png'; "
 "md5=f327539f5d1052a2890fb5daf8745b18"
 msgstr ""
+"@@image: 'images/tool-options/gradient-repeat-truncate.png'; "
+"md5=f327539f5d1052a2890fb5daf8745b18"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1571,6 +1677,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-repeat-sawtooth.png'; "
 "md5=82fb202c0ff19981c945d9873df4b277"
 msgstr ""
+"@@image: 'images/tool-options/gradient-repeat-sawtooth.png'; "
+"md5=82fb202c0ff19981c945d9873df4b277"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1579,6 +1687,8 @@ msgid ""
 "@@image: 'images/tool-options/gradient-repeat-triangular.png'; "
 "md5=4236c28e4a101c917beedecaae133eb0"
 msgstr ""
+"@@image: 'images/tool-options/gradient-repeat-triangular.png'; "
+"md5=4236c28e4a101c917beedecaae133eb0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1587,6 +1697,8 @@ msgid ""
 "@@image: 'images/toolbox/gradient-tool-offset.png'; "
 "md5=db72ac2d72ac2104759dd45635b6631d"
 msgstr ""
+"@@image: 'images/toolbox/gradient-tool-offset.png'; "
+"md5=db72ac2d72ac2104759dd45635b6631d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1595,6 +1707,8 @@ msgid ""
 "@@image: 'images/toolbox/gradient-endpoint.png'; "
 "md5=34b149e5103398d533531c1f1b1244c9"
 msgstr ""
+"@@image: 'images/toolbox/gradient-endpoint.png'; "
+"md5=34b149e5103398d533531c1f1b1244c9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1603,6 +1717,8 @@ msgid ""
 "@@image: 'images/toolbox/gradient-endpoint-move.png'; "
 "md5=2a4b00fdb0d7aae2ed2908c90eda9a3c"
 msgstr ""
+"@@image: 'images/toolbox/gradient-endpoint-move.png'; "
+"md5=2a4b00fdb0d7aae2ed2908c90eda9a3c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1611,6 +1727,8 @@ msgid ""
 "@@image: 'images/toolbox/gradient-stop.png'; "
 "md5=fd3a87253e5562146d5f1f578ffa3157"
 msgstr ""
+"@@image: 'images/toolbox/gradient-stop.png'; "
+"md5=fd3a87253e5562146d5f1f578ffa3157"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1620,6 +1738,8 @@ msgid ""
 "@@image: 'images/stock-icons/document-new.svg'; "
 "md5=06940851b3c5b383f3a345703f51728e"
 msgstr ""
+"@@image: 'images/stock-icons/document-new.svg'; "
+"md5=06940851b3c5b383f3a345703f51728e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1628,6 +1748,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-hcenter.svg'; "
 "md5=12e778eb0ed171ee97779ad6c0ba7246"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-hcenter.svg'; "
+"md5=12e778eb0ed171ee97779ad6c0ba7246"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1636,6 +1758,8 @@ msgid ""
 "@@image: 'images/toolbox/gradient-midpoint.png'; "
 "md5=51e437782be219770dc237adb70f3cb4"
 msgstr ""
+"@@image: 'images/toolbox/gradient-midpoint.png'; "
+"md5=51e437782be219770dc237adb70f3cb4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1644,6 +1768,8 @@ msgid ""
 "@@image: 'images/toolbox/gradient-step-orig.jpg'; "
 "md5=9c959c96fe4b6ad97007f4158fb09eb9"
 msgstr ""
+"@@image: 'images/toolbox/gradient-step-orig.jpg'; "
+"md5=9c959c96fe4b6ad97007f4158fb09eb9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1652,6 +1778,8 @@ msgid ""
 "@@image: 'images/toolbox/gradient-step.jpg'; "
 "md5=aa7d1bd29075e8e2b324aa3c5cd8f4f7"
 msgstr ""
+"@@image: 'images/toolbox/gradient-step.jpg'; "
+"md5=aa7d1bd29075e8e2b324aa3c5cd8f4f7"
 
 #: src/toolbox/paint/gradient.xml:8(title)
 #: src/toolbox/paint/gradient.xml:10(primary)
@@ -1663,7 +1791,7 @@ msgstr ""
 
 #: src/toolbox/paint/gradient.xml:14(secondary)
 msgid "Tool"
-msgstr ""
+msgstr "Araç"
 
 #: src/toolbox/paint/gradient.xml:21(para)
 msgid ""
@@ -1815,7 +1943,7 @@ msgstr ""
 #: src/toolbox/paint/gradient.xml:245(term)
 #: src/toolbox/paint/gradient.xml:256(para)
 msgid "Square"
-msgstr ""
+msgstr "Kare"
 
 #: src/toolbox/paint/gradient.xml:246(term)
 msgid "Shaped"
@@ -1954,7 +2082,7 @@ msgstr ""
 
 #: src/toolbox/paint/gradient.xml:470(term)
 msgid "Dithering"
-msgstr ""
+msgstr "Titreme"
 
 #: src/toolbox/paint/gradient.xml:472(para)
 msgid ""
@@ -2085,7 +2213,7 @@ msgstr ""
 
 #: src/toolbox/paint/gradient.xml:646(para)
 msgid "Original gradient"
-msgstr ""
+msgstr "Özgün renk geçişi"
 
 #: src/toolbox/paint/gradient.xml:657(para)
 msgid "Step applied at Midpoint2"
@@ -2135,6 +2263,8 @@ msgid ""
 "@@image: 'images/toolbox/eraser-ex1.png'; "
 "md5=171238f57248215d31679005777c354b"
 msgstr ""
+"@@image: 'images/toolbox/eraser-ex1.png'; "
+"md5=171238f57248215d31679005777c354b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2143,6 +2273,8 @@ msgid ""
 "@@image: 'images/toolbox/eraser-ex2.png'; "
 "md5=8204a324ca11c64d70b5c1749a1a3c5e"
 msgstr ""
+"@@image: 'images/toolbox/eraser-ex2.png'; "
+"md5=8204a324ca11c64d70b5c1749a1a3c5e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2151,6 +2283,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-eraser.svg'; "
 "md5=3141358f2c84d56ca20b0ade614d5ee4"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-eraser.svg'; "
+"md5=3141358f2c84d56ca20b0ade614d5ee4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2159,18 +2293,20 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-eraser.png'; "
 "md5=fa834975aa12c542f9a59c91b733a697"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-eraser.png'; "
+"md5=fa834975aa12c542f9a59c91b733a697"
 
 #: src/toolbox/paint/eraser.xml:14(title)
 #: src/toolbox/paint/eraser.xml:17(secondary)
 #: src/toolbox/paint/eraser.xml:20(primary)
 msgid "Eraser"
-msgstr ""
+msgstr "Silgi"
 
 #: src/toolbox/paint/eraser.xml:23(primary)
 #: src/toolbox/paint/common-features.xml:272(primary)
 #: src/toolbox/paint/clone.xml:421(term)
 msgid "Transparency"
-msgstr ""
+msgstr "Saydamlık"
 
 #: src/toolbox/paint/eraser.xml:24(secondary)
 msgid "Eraser tool"
@@ -2191,7 +2327,7 @@ msgstr ""
 
 #: src/toolbox/paint/eraser.xml:40(title)
 msgid "Eraser and Alpha channel"
-msgstr ""
+msgstr "Silgi ve Alfa kanalı"
 
 #: src/toolbox/paint/eraser.xml:46(para)
 msgid ""
@@ -2280,7 +2416,7 @@ msgstr ""
 
 #: src/toolbox/paint/eraser.xml:214(term)
 msgid "Hard Edge"
-msgstr ""
+msgstr "Sert Kenar"
 
 #: src/toolbox/paint/eraser.xml:216(para)
 msgid ""
@@ -2334,6 +2470,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-dynamics.svg'; "
 "md5=8963738dacd80bebeeebd8d6d709bf92"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-dynamics.svg'; "
+"md5=8963738dacd80bebeeebd8d6d709bf92"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2342,6 +2480,8 @@ msgid ""
 "@@image: 'images/toolbox/paint-dynamics-select.png'; "
 "md5=e86c2f5e974a8ab57118c969916798c4"
 msgstr ""
+"@@image: 'images/toolbox/paint-dynamics-select.png'; "
+"md5=e86c2f5e974a8ab57118c969916798c4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2350,6 +2490,8 @@ msgid ""
 "@@image: 'images/stock-icons/gtk-edit.svg'; "
 "md5=a670b8d29920613079df3241d5e8e3bb"
 msgstr ""
+"@@image: 'images/stock-icons/gtk-edit.svg'; "
+"md5=a670b8d29920613079df3241d5e8e3bb"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2358,6 +2500,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-duplicate.svg'; "
 "md5=c4e41353df046752fe30ac926eac91f1"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-duplicate.svg'; "
+"md5=c4e41353df046752fe30ac926eac91f1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2366,6 +2510,8 @@ msgid ""
 "@@image: 'images/stock-icons/edit-delete.svg'; "
 "md5=45f8be6623096f6f25175b048c82a721"
 msgstr ""
+"@@image: 'images/stock-icons/edit-delete.svg'; "
+"md5=45f8be6623096f6f25175b048c82a721"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2374,6 +2520,8 @@ msgid ""
 "@@image: 'images/stock-icons/view-refresh.svg'; "
 "md5=e30a124eb8dd881de92ab4b2dd6c0550"
 msgstr ""
+"@@image: 'images/stock-icons/view-refresh.svg'; "
+"md5=e30a124eb8dd881de92ab4b2dd6c0550"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2382,6 +2530,8 @@ msgid ""
 "@@image: 'images/toolbox/paint-dynamics-edit.png'; "
 "md5=6ab13b42edad501ec61db2690cecd6d1"
 msgstr ""
+"@@image: 'images/toolbox/paint-dynamics-edit.png'; "
+"md5=6ab13b42edad501ec61db2690cecd6d1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2390,6 +2540,8 @@ msgid ""
 "@@image: 'images/toolbox/paint-dynamics-tuning.png'; "
 "md5=028d26600229bd7fe018e72938c3cbb7"
 msgstr ""
+"@@image: 'images/toolbox/paint-dynamics-tuning.png'; "
+"md5=028d26600229bd7fe018e72938c3cbb7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2398,6 +2550,8 @@ msgid ""
 "@@image: 'images/toolbox/paint-dynamics-tuning-color.png'; "
 "md5=2e1da6bce3bafc7b5830bba5bc92566d"
 msgstr ""
+"@@image: 'images/toolbox/paint-dynamics-tuning-color.png'; "
+"md5=2e1da6bce3bafc7b5830bba5bc92566d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2406,6 +2560,8 @@ msgid ""
 "@@image: 'images/toolbox/paint-dynamics-fade-example-1.png'; "
 "md5=a98c2031c98978036828397fd3625987"
 msgstr ""
+"@@image: 'images/toolbox/paint-dynamics-fade-example-1.png'; "
+"md5=a98c2031c98978036828397fd3625987"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2414,6 +2570,8 @@ msgid ""
 "@@image: 'images/toolbox/paint-dynamics-fade-example-2.png'; "
 "md5=0dc9feb8aa767329cd01f75cdab2dd40"
 msgstr ""
+"@@image: 'images/toolbox/paint-dynamics-fade-example-2.png'; "
+"md5=0dc9feb8aa767329cd01f75cdab2dd40"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2422,6 +2580,8 @@ msgid ""
 "@@image: 'images/toolbox/paint-dynamics-fade-example-3.png'; "
 "md5=ba6a8930e66c2787ae28bf756606d8ef"
 msgstr ""
+"@@image: 'images/toolbox/paint-dynamics-fade-example-3.png'; "
+"md5=ba6a8930e66c2787ae28bf756606d8ef"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2430,6 +2590,8 @@ msgid ""
 "@@image: 'images/toolbox/paint-dynamics-options.png'; "
 "md5=6ad2d908a299dc3a4c118ebc62a180b0"
 msgstr ""
+"@@image: 'images/toolbox/paint-dynamics-options.png'; "
+"md5=6ad2d908a299dc3a4c118ebc62a180b0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2438,6 +2600,8 @@ msgid ""
 "@@image: 'images/tool-options/brush-gradient-normal.png'; "
 "md5=df197bc06691283d2b779673bbe451b6"
 msgstr ""
+"@@image: 'images/tool-options/brush-gradient-normal.png'; "
+"md5=df197bc06691283d2b779673bbe451b6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2446,6 +2610,8 @@ msgid ""
 "@@image: 'images/tool-options/brush-gradient-none.png'; "
 "md5=418008a792aef7556664c8ddf7c2094d"
 msgstr ""
+"@@image: 'images/tool-options/brush-gradient-none.png'; "
+"md5=418008a792aef7556664c8ddf7c2094d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2454,6 +2620,8 @@ msgid ""
 "@@image: 'images/tool-options/brush-gradient-sawtooth.png'; "
 "md5=efdcc25a545271f79509108933d43a17"
 msgstr ""
+"@@image: 'images/tool-options/brush-gradient-sawtooth.png'; "
+"md5=efdcc25a545271f79509108933d43a17"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2462,6 +2630,8 @@ msgid ""
 "@@image: 'images/tool-options/brush-gradient-triangular.png'; "
 "md5=11146d05d5b0796f86d0eba36c5d6fc4"
 msgstr ""
+"@@image: 'images/tool-options/brush-gradient-triangular.png'; "
+"md5=11146d05d5b0796f86d0eba36c5d6fc4"
 
 #: src/toolbox/paint/dynamics.xml:17(para)
 msgid ""
@@ -2565,7 +2735,7 @@ msgstr ""
 
 #: src/toolbox/paint/dynamics.xml:173(secondary)
 msgid "Menu"
-msgstr ""
+msgstr "Menü"
 
 #: src/toolbox/paint/dynamics.xml:178(term)
 msgid "Overview"
@@ -2811,7 +2981,7 @@ msgstr ""
 
 #: src/toolbox/paint/dynamics.xml:431(term)
 msgid "Color"
-msgstr ""
+msgstr "Renk"
 
 #: src/toolbox/paint/dynamics.xml:433(para)
 msgid ""
@@ -2961,7 +3131,7 @@ msgstr ""
 #: src/toolbox/paint/dynamics.xml:591(term)
 #: src/toolbox/paint/common-features.xml:459(primary)
 msgid "Jitter"
-msgstr ""
+msgstr "Kararsızlık"
 
 #: src/toolbox/paint/dynamics.xml:593(para)
 msgid ""
@@ -3109,7 +3279,7 @@ msgstr ""
 
 #: src/toolbox/paint/dynamics.xml:786(term)
 msgid "Fade Options"
-msgstr ""
+msgstr "Solma Seçenekleri"
 
 #: src/toolbox/paint/dynamics.xml:788(para)
 msgid ""
@@ -3137,7 +3307,7 @@ msgstr ""
 #: src/toolbox/paint/dynamics.xml:819(para)
 #: src/toolbox/paint/clone.xml:288(term)
 msgid "None"
-msgstr ""
+msgstr "Hiçbiri"
 
 #: src/toolbox/paint/dynamics.xml:828(para)
 msgid "Sawtooth"
@@ -3145,7 +3315,7 @@ msgstr ""
 
 #: src/toolbox/paint/dynamics.xml:837(para)
 msgid "Triangular"
-msgstr ""
+msgstr "Üçgen"
 
 #: src/toolbox/paint/dynamics.xml:841(para)
 msgid ""
@@ -3174,7 +3344,7 @@ msgstr ""
 
 #: src/toolbox/paint/dynamics.xml:872(term)
 msgid "Color Options"
-msgstr ""
+msgstr "Renk Seçenekleri"
 
 #: src/toolbox/paint/dynamics.xml:874(para)
 msgid ""
@@ -3196,6 +3366,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-dodge.svg'; "
 "md5=2617180a2313cefba5c5274962a07bfc"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-dodge.svg'; "
+"md5=2617180a2313cefba5c5274962a07bfc"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3204,12 +3376,14 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-dodge-burn.png'; "
 "md5=aef64ba4e5f9b799f7be180a4b1be24b"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-dodge-burn.png'; "
+"md5=aef64ba4e5f9b799f7be180a4b1be24b"
 
 #: src/toolbox/paint/dodge-burn.xml:7(title)
 #: src/toolbox/paint/dodge-burn.xml:10(secondary)
 #: src/toolbox/paint/dodge-burn.xml:13(primary)
 msgid "Dodge/Burn"
-msgstr ""
+msgstr "Soldurma/Yakma"
 
 #: src/toolbox/paint/dodge-burn.xml:16(para)
 msgid ""
@@ -3296,6 +3470,8 @@ msgid ""
 "@@image: 'images/toolbox/toolbox-paint-tools-grouped.png'; "
 "md5=621e8a8710c9ee3a142fdf2ea8f7c062"
 msgstr ""
+"@@image: 'images/toolbox/toolbox-paint-tools-grouped.png'; "
+"md5=621e8a8710c9ee3a142fdf2ea8f7c062"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3304,6 +3480,8 @@ msgid ""
 "@@image: 'images/toolbox/toolbox-paint-tools-ungrouped.png'; "
 "md5=3c4bad35b92c134e0c7768e665c96b70"
 msgstr ""
+"@@image: 'images/toolbox/toolbox-paint-tools-ungrouped.png'; "
+"md5=3c4bad35b92c134e0c7768e665c96b70"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3312,6 +3490,8 @@ msgid ""
 "@@image: 'images/tool-options/brush-option-spacing-ex.png'; "
 "md5=a37246020a7345ce6cb7e1b6f6eb58b1"
 msgstr ""
+"@@image: 'images/tool-options/brush-option-spacing-ex.png'; "
+"md5=a37246020a7345ce6cb7e1b6f6eb58b1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3320,6 +3500,8 @@ msgid ""
 "@@image: 'images/tool-options/brush-option-hardness-ex.png'; "
 "md5=a30c807db8a2cc65027ab663ae854134"
 msgstr ""
+"@@image: 'images/tool-options/brush-option-hardness-ex.png'; "
+"md5=a30c807db8a2cc65027ab663ae854134"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3328,6 +3510,8 @@ msgid ""
 "@@image: 'images/tool-options/brush-option-force-ex.png'; "
 "md5=c1047ab1e0c07031d088af9bacea9950"
 msgstr ""
+"@@image: 'images/tool-options/brush-option-force-ex.png'; "
+"md5=c1047ab1e0c07031d088af9bacea9950"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3336,6 +3520,8 @@ msgid ""
 "@@image: 'images/tool-options/jitter.png'; "
 "md5=c63e4ebfcb928b5fe8bb2d1b0f04c7d7"
 msgstr ""
+"@@image: 'images/tool-options/jitter.png'; "
+"md5=c63e4ebfcb928b5fe8bb2d1b0f04c7d7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3344,6 +3530,8 @@ msgid ""
 "@@image: 'images/tool-options/smooth-stroke-example-straight-unchecked.png'; "
 "md5=923286ecd125d166e0f4b0456ee8384f"
 msgstr ""
+"@@image: 'images/tool-options/smooth-stroke-example-straight-unchecked.png'; "
+"md5=923286ecd125d166e0f4b0456ee8384f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3352,6 +3540,8 @@ msgid ""
 "@@image: 'images/tool-options/smooth-stroke-example-curve-unchecked.png'; "
 "md5=6712afdf9d416d01e2579ee0ee6a451c"
 msgstr ""
+"@@image: 'images/tool-options/smooth-stroke-example-curve-unchecked.png'; "
+"md5=6712afdf9d416d01e2579ee0ee6a451c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3360,6 +3550,8 @@ msgid ""
 "@@image: 'images/tool-options/smooth-stroke-example-straight-default.png'; "
 "md5=2a29891fb3246ad7e2fe43b6619a018e"
 msgstr ""
+"@@image: 'images/tool-options/smooth-stroke-example-straight-default.png'; "
+"md5=2a29891fb3246ad7e2fe43b6619a018e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3368,6 +3560,8 @@ msgid ""
 "@@image: 'images/tool-options/smooth-stroke-example-curve-default.png'; "
 "md5=51debb3368db4f2f718ef165a83ae8aa"
 msgstr ""
+"@@image: 'images/tool-options/smooth-stroke-example-curve-default.png'; "
+"md5=51debb3368db4f2f718ef165a83ae8aa"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3376,6 +3570,8 @@ msgid ""
 "@@image: 'images/tool-options/smooth-stroke-example-straight-maximum.png'; "
 "md5=f04dd673ee059ab2f47f91629577eaad"
 msgstr ""
+"@@image: 'images/tool-options/smooth-stroke-example-straight-maximum.png'; "
+"md5=f04dd673ee059ab2f47f91629577eaad"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3384,6 +3580,8 @@ msgid ""
 "@@image: 'images/tool-options/smooth-stroke-example-curve-maximum.png'; "
 "md5=7e1e0c911aab874878b10995df5af89a"
 msgstr ""
+"@@image: 'images/tool-options/smooth-stroke-example-curve-maximum.png'; "
+"md5=7e1e0c911aab874878b10995df5af89a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3392,6 +3590,8 @@ msgid ""
 "@@image: 'images/tool-options/lockbrush-orig.png'; "
 "md5=f08eb153db29bbd7c89474c987e403e9"
 msgstr ""
+"@@image: 'images/tool-options/lockbrush-orig.png'; "
+"md5=f08eb153db29bbd7c89474c987e403e9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3400,6 +3600,8 @@ msgid ""
 "@@image: 'images/tool-options/lockbrush-zoom200-nolock.png'; "
 "md5=d2b2e11cf0bd6dd25028da3072aba174"
 msgstr ""
+"@@image: 'images/tool-options/lockbrush-zoom200-nolock.png'; "
+"md5=d2b2e11cf0bd6dd25028da3072aba174"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3408,6 +3610,8 @@ msgid ""
 "@@image: 'images/tool-options/lockbrush-zoom200-lock.png'; "
 "md5=e2dd8c9ac164a606ae3fda627469f6cc"
 msgstr ""
+"@@image: 'images/tool-options/lockbrush-zoom200-lock.png'; "
+"md5=e2dd8c9ac164a606ae3fda627469f6cc"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3416,6 +3620,8 @@ msgid ""
 "@@image: 'images/tool-options/lockbrush-rotation-nolock.png'; "
 "md5=22b61d9b206fbee9fa2ad2a0563e7bde"
 msgstr ""
+"@@image: 'images/tool-options/lockbrush-rotation-nolock.png'; "
+"md5=22b61d9b206fbee9fa2ad2a0563e7bde"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3424,6 +3630,8 @@ msgid ""
 "@@image: 'images/tool-options/lockbrush-rotation-lock.png'; "
 "md5=b4a4a2fb8d75bbdd71f8d4754afe2ac0"
 msgstr ""
+"@@image: 'images/tool-options/lockbrush-rotation-lock.png'; "
+"md5=b4a4a2fb8d75bbdd71f8d4754afe2ac0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3432,6 +3640,8 @@ msgid ""
 "@@image: 'images/toolbox/dissolve-mode-example.png'; "
 "md5=74357b38818c9559a0e087f9ef98f7d2"
 msgstr ""
+"@@image: 'images/toolbox/dissolve-mode-example.png'; "
+"md5=74357b38818c9559a0e087f9ef98f7d2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3440,6 +3650,8 @@ msgid ""
 "@@image: 'images/toolbox/mode-dissolve.png'; "
 "md5=4d0cc7ad35249623981c040171445a73"
 msgstr ""
+"@@image: 'images/toolbox/mode-dissolve.png'; "
+"md5=4d0cc7ad35249623981c040171445a73"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3449,6 +3661,8 @@ msgid ""
 "@@image: 'images/glossary/modes-normal2.png'; "
 "md5=e3226ffc5fa2ac181def6582bbb51932"
 msgstr ""
+"@@image: 'images/glossary/modes-normal2.png'; "
+"md5=e3226ffc5fa2ac181def6582bbb51932"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3457,6 +3671,8 @@ msgid ""
 "@@image: 'images/using/wilber-layers.png'; "
 "md5=e6dce9bc28eaf6e5278cf29a77fc4f26"
 msgstr ""
+"@@image: 'images/using/wilber-layers.png'; "
+"md5=e6dce9bc28eaf6e5278cf29a77fc4f26"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3465,6 +3681,8 @@ msgid ""
 "@@image: 'images/glossary/modes-behind.png'; "
 "md5=8d67547c4b2f6a6542efc970cb35e5a7"
 msgstr ""
+"@@image: 'images/glossary/modes-behind.png'; "
+"md5=8d67547c4b2f6a6542efc970cb35e5a7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3473,6 +3691,8 @@ msgid ""
 "@@image: 'images/toolbox/mode-behind.png'; "
 "md5=b9fc37e9327358d765d4dfce17c7def0"
 msgstr ""
+"@@image: 'images/toolbox/mode-behind.png'; "
+"md5=b9fc37e9327358d765d4dfce17c7def0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3481,6 +3701,8 @@ msgid ""
 "@@image: 'images/glossary/modes-colorerase.png'; "
 "md5=552302f1194c41205bfd11fba30eebd1"
 msgstr ""
+"@@image: 'images/glossary/modes-colorerase.png'; "
+"md5=552302f1194c41205bfd11fba30eebd1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3489,10 +3711,12 @@ msgid ""
 "@@image: 'images/toolbox/mode-erase.png'; "
 "md5=adcbbbf4adef19bbabbc0244bdaa261e"
 msgstr ""
+"@@image: 'images/toolbox/mode-erase.png'; "
+"md5=adcbbbf4adef19bbabbc0244bdaa261e"
 
 #: src/toolbox/paint/common-features.xml:11(title)
 msgid "Common Features"
-msgstr ""
+msgstr "Ortak Özellikler"
 
 #: src/toolbox/paint/common-features.xml:13(para)
 msgid ""
@@ -3671,7 +3895,7 @@ msgstr ""
 
 #: src/toolbox/paint/common-features.xml:244(variablelist:xreflabel)
 msgid "Painting Modes"
-msgstr ""
+msgstr "Boyama Kipleri"
 
 #: src/toolbox/paint/common-features.xml:248(para)
 msgid ""
@@ -3765,7 +3989,7 @@ msgstr ""
 
 #: src/toolbox/paint/common-features.xml:380(title)
 msgid "Hardness option"
-msgstr ""
+msgstr "Sertlik seçeneği"
 
 #: src/toolbox/paint/common-features.xml:387(para)
 msgid "On the left: hardness=50 On the right: hardness=100."
@@ -4006,7 +4230,7 @@ msgstr ""
 
 #: src/toolbox/paint/common-features.xml:737(term)
 msgid "Fill with"
-msgstr ""
+msgstr "Şununla doldur"
 
 #: src/toolbox/paint/common-features.xml:741(para)
 msgid ""
@@ -4017,7 +4241,7 @@ msgstr ""
 
 #: src/toolbox/paint/common-features.xml:749(term)
 msgid "Fill Layer Mask With"
-msgstr ""
+msgstr "Katman Maskesini Şununla Doldur"
 
 #: src/toolbox/paint/common-features.xml:753(para)
 msgid ""
@@ -4078,7 +4302,7 @@ msgstr ""
 #: src/toolbox/paint/common-features.xml:827(primary)
 #: src/toolbox/paint/common-features.xml:904(primary)
 msgid "Paint Modes"
-msgstr ""
+msgstr "Boya Kipleri"
 
 #: src/toolbox/paint/common-features.xml:831(primary)
 msgid "Behind (paint mode)"
@@ -4134,7 +4358,7 @@ msgstr ""
 #: src/toolbox/paint/common-features.xml:901(term)
 #: src/toolbox/paint/common-features.xml:905(secondary)
 msgid "Color Erase"
-msgstr ""
+msgstr "Renk Silme"
 
 #: src/toolbox/paint/common-features.xml:908(primary)
 msgid "Color Erase (paint mode)"
@@ -4224,6 +4448,8 @@ msgid ""
 "@@image: 'images/toolbox/cursor-clone-modifier-bad.png'; "
 "md5=0ee23133ec43f38bca5c49d6060024bf"
 msgstr ""
+"@@image: 'images/toolbox/cursor-clone-modifier-bad.png'; "
+"md5=0ee23133ec43f38bca5c49d6060024bf"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4232,6 +4458,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-clone.svg'; "
 "md5=5248aa1998e3447d58b6a6c524aba337"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-clone.svg'; "
+"md5=5248aa1998e3447d58b6a6c524aba337"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4240,6 +4468,8 @@ msgid ""
 "@@image: 'images/toolbox/cursor-clone-modifier-select.png'; "
 "md5=5c7fd6bcfa0c664c1649c6bc84f78c77"
 msgstr ""
+"@@image: 'images/toolbox/cursor-clone-modifier-select.png'; "
+"md5=5c7fd6bcfa0c664c1649c6bc84f78c77"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4248,6 +4478,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-clone.png'; "
 "md5=34dca1ed5d582ec0eff29941ee4daf4d"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-clone.png'; "
+"md5=34dca1ed5d582ec0eff29941ee4daf4d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4256,6 +4488,8 @@ msgid ""
 "@@image: 'images/toolbox/clone-ex-sample-merged.png'; "
 "md5=50be64737ec5716fdd7e3faf34f5a749"
 msgstr ""
+"@@image: 'images/toolbox/clone-ex-sample-merged.png'; "
+"md5=50be64737ec5716fdd7e3faf34f5a749"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4264,6 +4498,8 @@ msgid ""
 "@@image: 'images/toolbox/clone-source.png'; "
 "md5=7e0efff48d732caaf8520fdf87dd1e79"
 msgstr ""
+"@@image: 'images/toolbox/clone-source.png'; "
+"md5=7e0efff48d732caaf8520fdf87dd1e79"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4272,6 +4508,8 @@ msgid ""
 "@@image: 'images/toolbox/clone-dest.png'; "
 "md5=3e3d54e0a5c0f294a083ab47c23ba021"
 msgstr ""
+"@@image: 'images/toolbox/clone-dest.png'; "
+"md5=3e3d54e0a5c0f294a083ab47c23ba021"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4280,6 +4518,8 @@ msgid ""
 "@@image: 'images/toolbox/clone-none.png'; "
 "md5=a33aaa4e72c54efe1c06c94792965068"
 msgstr ""
+"@@image: 'images/toolbox/clone-none.png'; "
+"md5=a33aaa4e72c54efe1c06c94792965068"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4288,6 +4528,8 @@ msgid ""
 "@@image: 'images/toolbox/clone-aligned.png'; "
 "md5=4a45ef2c6883b44b606086e9f249b157"
 msgstr ""
+"@@image: 'images/toolbox/clone-aligned.png'; "
+"md5=4a45ef2c6883b44b606086e9f249b157"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4296,6 +4538,8 @@ msgid ""
 "@@image: 'images/toolbox/clone-registered.png'; "
 "md5=7aa1c5e8e7c4c6e7f953db4963639ef6"
 msgstr ""
+"@@image: 'images/toolbox/clone-registered.png'; "
+"md5=7aa1c5e8e7c4c6e7f953db4963639ef6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4304,13 +4548,15 @@ msgid ""
 "@@image: 'images/toolbox/clone-fixed.png'; "
 "md5=4d25a9340f2d901e607b998d3f63e53c"
 msgstr ""
+"@@image: 'images/toolbox/clone-fixed.png'; "
+"md5=4d25a9340f2d901e607b998d3f63e53c"
 
 #: src/toolbox/paint/clone.xml:16(title)
 #: src/toolbox/paint/clone.xml:20(secondary)
 #: src/toolbox/paint/clone.xml:23(primary)
 #: src/toolbox/paint/clone.xml:193(secondary)
 msgid "Clone"
-msgstr ""
+msgstr "Kopyala"
 
 #: src/toolbox/paint/clone.xml:26(para)
 msgid ""
@@ -4394,7 +4640,7 @@ msgstr ""
 
 #: src/toolbox/paint/clone.xml:192(primary)
 msgid "Patterns"
-msgstr ""
+msgstr "Örüntüler"
 
 #: src/toolbox/paint/clone.xml:195(para)
 msgid ""
@@ -4404,7 +4650,7 @@ msgstr ""
 
 #: src/toolbox/paint/clone.xml:202(term)
 msgid "Image"
-msgstr ""
+msgstr "Görüntü"
 
 #: src/toolbox/paint/clone.xml:204(para)
 msgid ""
@@ -4427,7 +4673,7 @@ msgstr ""
 
 #: src/toolbox/paint/clone.xml:233(term)
 msgid "Pattern"
-msgstr ""
+msgstr "Örüntü"
 
 #: src/toolbox/paint/clone.xml:235(para)
 msgid ""
@@ -4541,7 +4787,7 @@ msgstr ""
 
 #: src/toolbox/paint/clone.xml:380(term)
 msgid "Fixed"
-msgstr ""
+msgstr "Sabit"
 
 #: src/toolbox/paint/clone.xml:382(para)
 msgid ""
@@ -4646,6 +4892,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-bucket-fill.svg'; "
 "md5=9b07f3d23b8ca2cdc2daef297a0d8196"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-bucket-fill.svg'; "
+"md5=9b07f3d23b8ca2cdc2daef297a0d8196"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4654,6 +4902,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-bucket-fill.png'; "
 "md5=c3fe55f76590be4d07751accd45470fd"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-bucket-fill.png'; "
+"md5=c3fe55f76590be4d07751accd45470fd"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4661,6 +4911,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/toolbox/fill-by-0.png'; md5=862ef4e91c1c2cf45afc81102b17c19e"
 msgstr ""
+"@@image: 'images/toolbox/fill-by-0.png'; md5=862ef4e91c1c2cf45afc81102b17c19e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4668,6 +4919,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/toolbox/fill-by-1.png'; md5=b18f42594d58534e9479f34bf7f06fce"
 msgstr ""
+"@@image: 'images/toolbox/fill-by-1.png'; md5=b18f42594d58534e9479f34bf7f06fce"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4675,6 +4927,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/toolbox/fill-by-2.png'; md5=dfe53f20d3932514da5b1896127969de"
 msgstr ""
+"@@image: 'images/toolbox/fill-by-2.png'; md5=dfe53f20d3932514da5b1896127969de"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4682,6 +4935,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/toolbox/fill-by-3.png'; md5=1e4b3e1d866da92623c2293d42b2ab0f"
 msgstr ""
+"@@image: 'images/toolbox/fill-by-3.png'; md5=1e4b3e1d866da92623c2293d42b2ab0f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4690,6 +4944,8 @@ msgid ""
 "@@image: 'images/toolbox/bucket-fill-ex-origin.png'; "
 "md5=ca2f63286d1c341979447b993d7b49e8"
 msgstr ""
+"@@image: 'images/toolbox/bucket-fill-ex-origin.png'; "
+"md5=ca2f63286d1c341979447b993d7b49e8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4698,6 +4954,8 @@ msgid ""
 "@@image: 'images/toolbox/bucket-fill-ex-default.png'; "
 "md5=141eaf6568ba3a982187a7261629a579"
 msgstr ""
+"@@image: 'images/toolbox/bucket-fill-ex-default.png'; "
+"md5=141eaf6568ba3a982187a7261629a579"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4706,6 +4964,8 @@ msgid ""
 "@@image: 'images/toolbox/bucket-fill-ex-grow.png'; "
 "md5=a9ca81698b3c219c75a43a38e6a50a5e"
 msgstr ""
+"@@image: 'images/toolbox/bucket-fill-ex-grow.png'; "
+"md5=a9ca81698b3c219c75a43a38e6a50a5e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4714,6 +4974,8 @@ msgid ""
 "@@image: 'images/toolbox/bucket-fill-ex-feather.png'; "
 "md5=333936445c85afd1e4a4e595f9e845c4"
 msgstr ""
+"@@image: 'images/toolbox/bucket-fill-ex-feather.png'; "
+"md5=333936445c85afd1e4a4e595f9e845c4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4722,6 +4984,8 @@ msgid ""
 "@@image: 'images/toolbox/fill-feathered-1.png'; "
 "md5=0ee8f909a4c317295f0b04f497047619"
 msgstr ""
+"@@image: 'images/toolbox/fill-feathered-1.png'; "
+"md5=0ee8f909a4c317295f0b04f497047619"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4730,6 +4994,8 @@ msgid ""
 "@@image: 'images/toolbox/fill-feathered-2.png'; "
 "md5=62c33a0b6ac20b0ac73032aeaa2ac4f0"
 msgstr ""
+"@@image: 'images/toolbox/fill-feathered-2.png'; "
+"md5=62c33a0b6ac20b0ac73032aeaa2ac4f0"
 
 #: src/toolbox/paint/bucket-fill.xml:9(title)
 #: src/toolbox/paint/bucket-fill.xml:12(secondary)
@@ -4812,7 +5078,7 @@ msgstr ""
 
 #: src/toolbox/paint/bucket-fill.xml:140(term)
 msgid "Fill Type"
-msgstr ""
+msgstr "Doldurma Türü"
 
 #: src/toolbox/paint/bucket-fill.xml:142(para)
 msgid "<acronym>GIMP</acronym> provides three fill types:"
@@ -4820,7 +5086,7 @@ msgstr ""
 
 #: src/toolbox/paint/bucket-fill.xml:146(term)
 msgid "FG Color Fill"
-msgstr ""
+msgstr "ÖP renk doldurma"
 
 #: src/toolbox/paint/bucket-fill.xml:148(para)
 msgid "sets the fill color to the currently selected foreground color."
@@ -4985,19 +5251,19 @@ msgstr ""
 #: src/toolbox/paint/bucket-fill.xml:332(para)
 #: src/toolbox/paint/bucket-fill.xml:534(para)
 msgid "Original image"
-msgstr ""
+msgstr "Özgün görüntü"
 
 #: src/toolbox/paint/bucket-fill.xml:341(para)
 msgid "Image 1"
-msgstr ""
+msgstr "Görüntü 1"
 
 #: src/toolbox/paint/bucket-fill.xml:350(para)
 msgid "Image 2"
-msgstr ""
+msgstr "Görüntü 2"
 
 #: src/toolbox/paint/bucket-fill.xml:359(para)
 msgid "Image 3"
-msgstr ""
+msgstr "Görüntü 3"
 
 #: src/toolbox/paint/bucket-fill.xml:369(term)
 msgid "Line Art Detection"
@@ -5134,6 +5400,8 @@ msgid ""
 "@@image: 'images/toolbox/painting-examples.png'; "
 "md5=69fd6f09fc8fcb9d939fbc60e5314ab6"
 msgstr ""
+"@@image: 'images/toolbox/painting-examples.png'; "
+"md5=69fd6f09fc8fcb9d939fbc60e5314ab6"
 
 #. "Painting tools" would be confused with "Paint tools" (tools menu)
 #: src/toolbox/paint/brush-tools.xml:17(title)
@@ -5142,11 +5410,11 @@ msgstr ""
 
 #: src/toolbox/paint/brush-tools.xml:21(secondary)
 msgid "Paint"
-msgstr ""
+msgstr "Boya"
 
 #: src/toolbox/paint/brush-tools.xml:29(title)
 msgid "Painting example"
-msgstr ""
+msgstr "Boyama örneği"
 
 #: src/toolbox/paint/brush-tools.xml:36(para)
 msgid ""
@@ -5205,6 +5473,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-blur.svg'; "
 "md5=a88b212beec37e54f7bd8a2440b9d4e2"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-blur.svg'; "
+"md5=a88b212beec37e54f7bd8a2440b9d4e2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5213,6 +5483,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-blur-sharpen.png'; "
 "md5=6972e18c3629c1a413be1413687f2de4"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-blur-sharpen.png'; "
+"md5=6972e18c3629c1a413be1413687f2de4"
 
 #: src/toolbox/paint/blur-sharpen.xml:12(title)
 #: src/toolbox/paint/blur-sharpen.xml:16(secondary)
@@ -5295,7 +5567,7 @@ msgstr ""
 
 #: src/toolbox/paint/blur-sharpen.xml:166(term)
 msgid "Convolve Type"
-msgstr ""
+msgstr "Evriştime Türü"
 
 #: src/toolbox/paint/blur-sharpen.xml:168(para)
 msgid ""
@@ -5325,6 +5597,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-airbrush.svg'; "
 "md5=65ceb19cbca910d94b419e5c9f941280"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-airbrush.svg'; "
+"md5=65ceb19cbca910d94b419e5c9f941280"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5333,6 +5607,8 @@ msgid ""
 "@@image: 'images/toolbox/tool-options-airbrush.png'; "
 "md5=294f960f8b450b714a921b538d6cb660"
 msgstr ""
+"@@image: 'images/toolbox/tool-options-airbrush.png'; "
+"md5=294f960f8b450b714a921b538d6cb660"
 
 #: src/toolbox/paint/airbrush.xml:16(title)
 #: src/toolbox/paint/airbrush.xml:19(primary)
@@ -5405,4 +5681,4 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/toolbox/paint/about-common-paint-options.xml:0(None)
 msgid "translator-credits"
-msgstr ""
+msgstr "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025."

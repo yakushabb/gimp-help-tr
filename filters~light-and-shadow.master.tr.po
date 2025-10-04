@@ -1,22 +1,23 @@
 # Turkish translation for gimp-help.
-# Copyright (C) 2019 gimp-help's COPYRIGHT HOLDER
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gimp-help package.
 #
-# Sabri Ünal <libreajans@gmail.com>, 2019.
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2023, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.10.0\n"
-"POT-Creation-Date: 2025-07-15 08:40+0000\n"
-"PO-Revision-Date: 2023-08-09 08:59+0300\n"
-"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
-"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Project-Id-Version: GIMP-Help master\n"
+"POT-Creation-Date: 2025-02-26 21:19+0000\n"
+"PO-Revision-Date: 2025-09-20 23:03+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3436,72 +3437,6 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/light-and-shadow/bloom.xml:0(None)
 msgid "translator-credits"
-msgstr "Sabri Ünal <libreajans@gmail.com>, 2019, 2023."
-
-#~| msgid ""
-#~| "@@image: 'images/filters/light-and-shadow/lighting3.png'; "
-#~| "md5=0f2817478299207e0d93a830520a9a0b"
-#~ msgid ""
-#~ "@@image: 'images/filters/light-and-shadow/lighting3.png'; "
-#~ "md5=9ba9fcc6657791cf0ac6172baf0b8b2b"
-#~ msgstr ""
-#~ "@@image: 'images/filters/light-and-shadow/lighting3.png'; "
-#~ "md5=9ba9fcc6657791cf0ac6172baf0b8b2b"
-
-#~| msgid ""
-#~| "@@image: 'images/filters/light-and-shadow/lighting1.png'; "
-#~| "md5=b6385cba42f2baa74e2721880c11ccdf"
-#~ msgid ""
-#~ "@@image: 'images/filters/light-and-shadow/lighting4.png'; "
-#~ "md5=568e66ac5c6094e3f0929b8c41007dfc"
-#~ msgstr ""
-#~ "@@image: 'images/filters/light-and-shadow/lighting4.png'; "
-#~ "md5=568e66ac5c6094e3f0929b8c41007dfc"
-
-#~| msgid ""
-#~| "@@image: 'images/filters/light-and-shadow/lighting3.png'; "
-#~| "md5=0f2817478299207e0d93a830520a9a0b"
-#~ msgid ""
-#~ "@@image: 'images/filters/light-and-shadow/lighting5.png'; "
-#~ "md5=d627064760ce63c40dd4359701472877"
-#~ msgstr ""
-#~ "@@image: 'images/filters/light-and-shadow/lighting5.png'; "
-#~ "md5=d627064760ce63c40dd4359701472877"
-
-#~| msgid ""
-#~| "@@image: 'images/filters/light-and-shadow/gflare-editor-1.png'; "
-#~| "md5=9a8a62d5d62baac2709e527ad9190564"
-#~ msgid ""
-#~ "@@image: 'images/filters/light-and-shadow/gflare-editor-4.png'; "
-#~ "md5=379b490d50785fdcbc7d063028486d95"
-#~ msgstr ""
-#~ "@@image: 'images/filters/light-and-shadow/gflare-editor-4.png'; "
-#~ "md5=379b490d50785fdcbc7d063028486d95"
-
-#~ msgid ""
-#~ "@@image: 'images/filters/light-and-shadow/drop-shadow.png'; "
-#~ "md5=e9adbc210f29fc4fc38c77fdeecb8b89"
-#~ msgstr ""
-#~ "@@image: 'images/filters/light-and-shadow/drop-shadow.png'; "
-#~ "md5=e9adbc210f29fc4fc38c77fdeecb8b89"
-
-#~ msgid ""
-#~ "@@image: 'images/filters/light-and-shadow/gflare-editor-4.png'; "
-#~ "md5=01fbf1ba6eed7c573e6454b41e7d19cb"
-#~ msgstr ""
-#~ "@@image: 'images/filters/light-and-shadow/gflare-editor-4.png'; "
-#~ "md5=01fbf1ba6eed7c573e6454b41e7d19cb"
-
-#~ msgid ""
-#~ "@@image: 'images/filters/light-and-shadow/lighting2.png'; "
-#~ "md5=8bb8bebb4f766dea071ef31600f00dca"
-#~ msgstr ""
-#~ "@@image: 'images/filters/light-and-shadow/lighting2.png'; "
-#~ "md5=8bb8bebb4f766dea071ef31600f00dca"
-
-#~ msgid ""
-#~ "@@image: 'images/filters/light-and-shadow/lighting4.png'; "
-#~ "md5=0678a768cb74a0eef74c5c522a090063"
-#~ msgstr ""
-#~ "@@image: 'images/filters/light-and-shadow/lighting4.png'; "
-#~ "md5=0678a768cb74a0eef74c5c522a090063"
+msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2023, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
