@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-02-26 21:19+0000\n"
-"PO-Revision-Date: 2025-09-20 23:03+0300\n"
+"PO-Revision-Date: 2025-10-05 20:41+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -191,7 +191,7 @@ msgstr ""
 #: src/filters/light-and-shadow/drop-shadow-legacy.xml:62(title)
 #: src/filters/light-and-shadow/bloom.xml:45(title)
 msgid "Activating the Filter"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/light-and-shadow/xach-effect.xml:89(para)
 msgid ""
@@ -212,7 +212,7 @@ msgstr ""
 #: src/filters/light-and-shadow/drop-shadow-legacy.xml:74(title)
 #: src/filters/light-and-shadow/bloom.xml:57(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/filters/light-and-shadow/xach-effect.xml:101(para)
 msgid ""
@@ -354,11 +354,11 @@ msgstr ""
 #| "@@image: 'images/filters/examples/light-and-shadow/vignette-ex-orig.jpg'; "
 #| "md5=b625f7deb7da277819ebf8ead97c1ec2"
 msgid ""
-"@@image: 'images/filters/examples/light-and-shadow/vignette-ex-oncanvas."
-"jpg'; md5=b2d3208577d24768b85d8a5837060723"
+"@@image: 'images/filters/examples/light-and-shadow/vignette-ex-"
+"oncanvas.jpg'; md5=b2d3208577d24768b85d8a5837060723"
 msgstr ""
-"@@image: 'images/filters/examples/light-and-shadow/vignette-ex-oncanvas."
-"jpg'; md5=b2d3208577d24768b85d8a5837060723"
+"@@image: 'images/filters/examples/light-and-shadow/vignette-ex-"
+"oncanvas.jpg'; md5=b2d3208577d24768b85d8a5837060723"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -387,11 +387,11 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/vignette.xml:198(None)
 msgid ""
-"@@image: 'images/filters/examples/light-and-shadow/vignette-ex-softness."
-"jpg'; md5=ed41b4e9813a8106ce9b8db8a8689ebf"
+"@@image: 'images/filters/examples/light-and-shadow/vignette-ex-"
+"softness.jpg'; md5=ed41b4e9813a8106ce9b8db8a8689ebf"
 msgstr ""
-"@@image: 'images/filters/examples/light-and-shadow/vignette-ex-softness."
-"jpg'; md5=ed41b4e9813a8106ce9b8db8a8689ebf"
+"@@image: 'images/filters/examples/light-and-shadow/vignette-ex-"
+"softness.jpg'; md5=ed41b4e9813a8106ce9b8db8a8689ebf"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -407,11 +407,11 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/vignette.xml:256(None)
 msgid ""
-"@@image: 'images/filters/examples/light-and-shadow/vignette-ex-squeeze05."
-"jpg'; md5=c8d74e172ca2940bc1c0ff80e50a2b82"
+"@@image: 'images/filters/examples/light-and-shadow/vignette-ex-"
+"squeeze05.jpg'; md5=c8d74e172ca2940bc1c0ff80e50a2b82"
 msgstr ""
-"@@image: 'images/filters/examples/light-and-shadow/vignette-ex-squeeze05."
-"jpg'; md5=c8d74e172ca2940bc1c0ff80e50a2b82"
+"@@image: 'images/filters/examples/light-and-shadow/vignette-ex-"
+"squeeze05.jpg'; md5=c8d74e172ca2940bc1c0ff80e50a2b82"
 
 #: src/filters/light-and-shadow/vignette.xml:9(title)
 #: src/filters/light-and-shadow/vignette.xml:13(secondary)
@@ -856,7 +856,7 @@ msgstr ""
 #: src/filters/light-and-shadow/lighting.xml:74(term)
 #: src/filters/light-and-shadow/gflare.xml:71(term)
 msgid "Preview"
-msgstr ""
+msgstr "Ön izleme"
 
 #: src/filters/light-and-shadow/sparkle.xml:80(para)
 msgid ""
@@ -1154,7 +1154,7 @@ msgstr ""
 #: src/filters/light-and-shadow/perspective-shadow.xml:81(term)
 #: src/filters/light-and-shadow/long-shadow.xml:126(term)
 msgid "Angle"
-msgstr ""
+msgstr "Açı"
 
 #: src/filters/light-and-shadow/perspective-shadow.xml:83(para)
 msgid ""
@@ -1253,7 +1253,7 @@ msgstr ""
 #: src/filters/light-and-shadow/drop-shadow.xml:112(term)
 #: src/filters/light-and-shadow/drop-shadow-legacy.xml:109(term)
 msgid "Blur radius"
-msgstr ""
+msgstr "Bulanıklık yarıçapı"
 
 #: src/filters/light-and-shadow/perspective-shadow.xml:202(para)
 msgid ""
@@ -1285,7 +1285,7 @@ msgstr ""
 #: src/filters/light-and-shadow/drop-shadow.xml:153(term)
 #: src/filters/light-and-shadow/drop-shadow-legacy.xml:140(term)
 msgid "Opacity"
-msgstr ""
+msgstr "Matlık"
 
 #: src/filters/light-and-shadow/perspective-shadow.xml:244(para)
 msgid ""
@@ -1364,81 +1364,81 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/long-shadow.xml:88(None)
 msgid ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-default."
-"png'; md5=393104e68d37008a95db2195a40da85a"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"default.png'; md5=393104e68d37008a95db2195a40da85a"
 msgstr ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-default."
-"png'; md5=393104e68d37008a95db2195a40da85a"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"default.png'; md5=393104e68d37008a95db2195a40da85a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/long-shadow.xml:97(None)
 msgid ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-infinite."
-"png'; md5=b0596ab493b5b1872662e69b894819e4"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"infinite.png'; md5=b0596ab493b5b1872662e69b894819e4"
 msgstr ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-infinite."
-"png'; md5=b0596ab493b5b1872662e69b894819e4"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"infinite.png'; md5=b0596ab493b5b1872662e69b894819e4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/long-shadow.xml:107(None)
 msgid ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-fading."
-"png'; md5=560272f1a31110bd0a9dccc9dfc833f6"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"fading.png'; md5=560272f1a31110bd0a9dccc9dfc833f6"
 msgstr ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-fading."
-"png'; md5=560272f1a31110bd0a9dccc9dfc833f6"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"fading.png'; md5=560272f1a31110bd0a9dccc9dfc833f6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/long-shadow.xml:116(None)
 msgid ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-fixlength."
-"png'; md5=5035134e19645f84a523c2132398ec04"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"fixlength.png'; md5=5035134e19645f84a523c2132398ec04"
 msgstr ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-fixlength."
-"png'; md5=5035134e19645f84a523c2132398ec04"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"fixlength.png'; md5=5035134e19645f84a523c2132398ec04"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/long-shadow.xml:134(None)
 msgid ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-angle."
-"png'; md5=dac7514843cbcfbbdb9b87870b0d80a8"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"angle.png'; md5=dac7514843cbcfbbdb9b87870b0d80a8"
 msgstr ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-angle."
-"png'; md5=dac7514843cbcfbbdb9b87870b0d80a8"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"angle.png'; md5=dac7514843cbcfbbdb9b87870b0d80a8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/long-shadow.xml:154(None)
 msgid ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-length."
-"png'; md5=2171f2703ef98d297ae7aa4fcd706af2"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"length.png'; md5=2171f2703ef98d297ae7aa4fcd706af2"
 msgstr ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-length."
-"png'; md5=2171f2703ef98d297ae7aa4fcd706af2"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"length.png'; md5=2171f2703ef98d297ae7aa4fcd706af2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/long-shadow.xml:215(None)
 msgid ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-shadonly."
-"png'; md5=6f28a9b7177e05289e9ad9f00ce2de30"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"shadonly.png'; md5=6f28a9b7177e05289e9ad9f00ce2de30"
 msgstr ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-shadonly."
-"png'; md5=6f28a9b7177e05289e9ad9f00ce2de30"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"shadonly.png'; md5=6f28a9b7177e05289e9ad9f00ce2de30"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/long-shadow.xml:226(None)
 msgid ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-shadminus."
-"png'; md5=72cc28c95a786da33c66f86268ca9e91"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"shadminus.png'; md5=72cc28c95a786da33c66f86268ca9e91"
 msgstr ""
-"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-shadminus."
-"png'; md5=72cc28c95a786da33c66f86268ca9e91"
+"@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
+"shadminus.png'; md5=72cc28c95a786da33c66f86268ca9e91"
 
 #: src/filters/light-and-shadow/long-shadow.xml:8(title)
 #: src/filters/light-and-shadow/long-shadow.xml:12(secondary)
