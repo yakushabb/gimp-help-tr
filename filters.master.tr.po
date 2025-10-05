@@ -77,7 +77,7 @@ msgstr "Işık ve Gölge Süzgeçleri"
 #: src/filters/introduction.xml:22(primary)
 #: src/filters/common-features.xml:175(term)
 msgid "Preview"
-msgstr "Önizleme"
+msgstr "Ön İzleme"
 
 #: src/filters/introduction.xml:22(secondary)
 msgid "Filter"
@@ -361,7 +361,7 @@ msgid ""
 "This option is remembered, so you only need to change it once if you prefer "
 "to always use filters destructively."
 msgstr ""
-"Bu seçenek hatırlanır, bu nedenle süzgeçleri her zaman yıkıcı olarak "
+"Bu seçenek anımsanır, bu nedenle süzgeçleri her zaman yıkıcı olarak "
 "kullanmayı yeğliyorsanız yalnızca bir kez değiştirmeniz gerekir."
 
 #: src/filters/common-features.xml:204(term)
@@ -384,9 +384,9 @@ msgid ""
 "<keycap>Ctrl</keycap>-click to make the line horizontal, or to switch it "
 "back to vertical."
 msgstr ""
-"Önizlemeyi bölen çizgiyi tıklayıp sürükleyerek taşıyabilir ve <keycap>Ctrl</"
-"keycap> tuşuna basarak çizgiyi yatay hale getirebilir ya da tekrar dikey "
-"hale getirebilirsiniz."
+"Ön izlemeyi bölen çizgiyi tıklayıp sürükleyerek taşıyabilir ve <keycap>Ctrl</"
+"keycap> tuşuna basarak çizgiyi yatay duruma getirebilir ya da yeniden dikey "
+"duruma getirebilirsiniz."
 
 #: src/filters/combine.xml:10(title)
 msgid "Combine Filters"
@@ -434,6 +434,4 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/about-common-features.xml:0(None)
 msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+msgstr "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025."

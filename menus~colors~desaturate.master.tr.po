@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-07-15 08:40+0000\n"
+"POT-Creation-Date: 2025-07-15 08:41+0000\n"
 "PO-Revision-Date: 2025-09-24 00:16+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -42,9 +42,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/desaturate/sepia.xml:64(None)
-#| msgid ""
-#| "@@image: 'images/menus/colors/desaturate/sepia.png'; "
-#| "md5=bb9910bb30683246f40eefb3c831be89"
 msgid ""
 "@@image: 'images/menus/colors/desaturate/sepia.png'; "
 "md5=a877e6eadded4d3ede450783bc390066"
@@ -133,8 +130,8 @@ msgid ""
 "image. 0.000 is no effect at all, 1.000 is completely replacing the image "
 "with its sepia-toned version."
 msgstr ""
-"Bu kaydırıcı, etkinin özgün görüntüye ne kadar karışacağını denetlemenizi "
-"sağlar. 0.000 hiç etki yok, 1.000 ise görüntüyü tamamen sepya tonlu sürümle "
+"Bu kaydırıcı, etkinin özgün görüntüye ne denli karışacağını denetlemenizi "
+"sağlar. 0.000 hiç etki yok, 1.000 ise görüntüyü tümüyle sepya tonlu sürümle "
 "değiştirir."
 
 #: src/menus/colors/desaturate/sepia.xml:80(term)
@@ -166,9 +163,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/desaturate/desaturate.xml:55(None)
-#| msgid ""
-#| "@@image: 'images/menus/colors/desaturate/desaturate.png'; "
-#| "md5=7c93eb531c72f2b7437658e25f6a2c7d"
 msgid ""
 "@@image: 'images/menus/colors/desaturate/desaturate.png'; "
 "md5=394eb629dc244a094595c5a8c63655a3"
@@ -342,7 +336,7 @@ msgid ""
 "color to black and white:"
 msgstr ""
 "<guilabel>Kip:</guilabel> Renkliden siyah beyaza dönüştürme için beş seçenek "
-"mevcuttur:"
+"vardır:"
 
 #: src/menus/colors/desaturate/desaturate.xml:63(link)
 msgid "Luminance"
@@ -355,7 +349,7 @@ msgid ""
 "as"
 msgstr ""
 "Gri tonları <ulink url=\"http://brucelindbloom.com/index.html?"
-"Eqn_RGB_to_XYZ.html\"> doğrusal sRGB</ulink> kullanılarak şu şekilde "
+"Eqn_RGB_to_XYZ.html\"> doğrusal sRGB</ulink> kullanılarak şöyle "
 "hesaplanır"
 
 #: src/menus/colors/desaturate/desaturate.xml:73(phrase)
@@ -383,7 +377,7 @@ msgstr "Açıklık (HSL)"
 #: src/menus/colors/desaturate/desaturate.xml:122(para)
 #: src/menus/colors/desaturate/desaturate.xml:138(para)
 msgid "The shades of gray will be calculated as"
-msgstr "Gri tonları şu şekilde hesaplanır"
+msgstr "Gri tonları şöyle hesaplanır"
 
 #: src/menus/colors/desaturate/desaturate.xml:109(phrase)
 msgid "Lightness (HSL) = &frac12;&times; (max(R,G,B) + min(R,G,B))"
@@ -410,7 +404,7 @@ msgid ""
 "Using the five modes to convert two very different color images to black and "
 "white"
 msgstr ""
-"İki çok farklı renkli görüntüyü siyah beyaza dönüştürmek için beş kipi "
+"İki çok başka renkli görüntüyü siyah beyaza dönüştürmek için beş kipi "
 "kullanma"
 
 #: src/menus/colors/desaturate/desaturate.xml:179(para)
@@ -509,11 +503,11 @@ msgid ""
 "More information about the five options for converting from color to black "
 "and white:"
 msgstr ""
-"Renkliden siyah beyaza dönüştürme için beş seçenek hakkında daha çok bilgi:"
+"Renkliden siyah beyaza dönüştürme için beş seçenekle ilgili daha çok bilgi:"
 
 #: src/menus/colors/desaturate/desaturate.xml:361(emphasis)
 msgid "More information about Luminance:"
-msgstr "Renk Parlaklığı hakkında daha çok bilgi:"
+msgstr "Renk Parlaklığı ile ilgili daha çok bilgi:"
 
 #: src/menus/colors/desaturate/desaturate.xml:364(para)
 msgid ""
@@ -549,7 +543,7 @@ msgstr ""
 
 #: src/menus/colors/desaturate/desaturate.xml:398(emphasis)
 msgid "More information about Luma:"
-msgstr "Luma hakkında daha çok bilgi:"
+msgstr "Luma ile ilgili daha çok bilgi:"
 
 #: src/menus/colors/desaturate/desaturate.xml:402(para)
 msgid ""
@@ -574,7 +568,7 @@ msgstr ""
 
 #: src/menus/colors/desaturate/desaturate.xml:427(emphasis)
 msgid "More information about Lightness, Average, and Value:"
-msgstr "Açıklık, Ortalama ve Değer hakkında daha çok bilgi:"
+msgstr "Açıklık, Ortalama ve Değer ile ilgili daha çok bilgi:"
 
 #: src/menus/colors/desaturate/desaturate.xml:430(para)
 msgid ""
@@ -621,9 +615,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/desaturate/color-to-gray.xml:52(None)
-#| msgid ""
-#| "@@image: 'images/menus/colors/desaturate/colors-desaturate-value-red-"
-#| "globe.png'; md5=97487f0a6c3f7398dc68e770968b58a5"
 msgid ""
 "@@image: 'images/menus/colors/desaturate/color-to-gray-dialog.png'; "
 "md5=e083897034397f5a3fb51039c5035053"

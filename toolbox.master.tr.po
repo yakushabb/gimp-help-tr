@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-03-18 09:22+0000\n"
-"PO-Revision-Date: 2025-09-19 16:59+0300\n"
+"POT-Creation-Date: 2025-07-15 08:41+0000\n"
+"PO-Revision-Date: 2025-09-28 22:38+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -2474,7 +2474,7 @@ msgstr ""
 
 #: src/toolbox/gegl-operation.xml:125(term)
 msgid "Preview"
-msgstr "Ön İzleme"
+msgstr "Ön izleme"
 
 #: src/toolbox/gegl-operation.xml:127(para)
 msgid ""

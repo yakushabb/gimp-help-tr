@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-07-15 08:41+0000\n"
+"POT-Creation-Date: 2025-07-15 08:40+0000\n"
 "PO-Revision-Date: 2025-09-22 11:32+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -39,7 +39,7 @@ msgstr "Birleştir"
 #: src/filters/combine/introduction.xml:18(para)
 msgid "Combine filters associate two or more images into a single image."
 msgstr ""
-"Birleştir süzgeçleri iki ya da daha fazla görüntüyü tek görüntüyle "
+"Birleştir süzgeçleri iki ya da daha çok görüntüyü tek görüntüyle "
 "ilişkilendirir."
 
 #: src/filters/combine/introduction.xml:22(para)
@@ -127,7 +127,7 @@ msgid ""
 msgstr ""
 "Bu süzgeç renkleri ters çevirmez, bu nedenle baskı üretmek için "
 "kullanılanlar gibi negatif filme öykünmez. Sonucu slayt filmi ya da sinema "
-"filminin taklidi gibi düşünebilirsiniz."
+"filminin benzeri gibi düşünebilirsiniz."
 
 #: src/filters/combine/filmstrip.xml:60(title)
 #: src/filters/combine/depthmerge.xml:73(title)
@@ -175,7 +175,7 @@ msgid ""
 "originals have different sizes, they will be scaled to this size."
 msgstr ""
 "Bu seçenek, sonuç görüntüsünün yüksekliğini belirlemenizi sağlar. Özgünler "
-"farklı boyutlara sahipse, bu boyuta ölçeklendirilirler."
+"başka boyutlardaysa, bu boyuta ölçeklendirilirler."
 
 #: src/filters/combine/filmstrip.xml:106(term)
 msgid "Film color"
@@ -187,7 +187,7 @@ msgid ""
 "and between pictures)."
 msgstr ""
 "Renk düğmesine tıklayarak filmin rengini tanımlayabilirsiniz (görüntülerin "
-"etrafında ve arasında)."
+"çevresinde ve arasında)."
 
 #: src/filters/combine/filmstrip.xml:116(title)
 msgid "Numbering"
@@ -309,7 +309,7 @@ msgid ""
 "Defines the space between the pictures as they will be inserted in the "
 "future image."
 msgstr ""
-"Görüntüler arasındaki boşluğu, gelecekteki görüntüye eklenecekleri şekilde "
+"Görüntüler arasındaki boşluğu, gelecekteki görüntüye eklenecekleri biçimde "
 "belirler."
 
 #: src/filters/combine/filmstrip.xml:218(term)
@@ -469,8 +469,8 @@ msgid ""
 "pictures or layers. You can decide which part of every image or layer will "
 "stay visible."
 msgstr ""
-"Derin Birleştirme, iki farklı resim veya katmanı birleştirmek için yararlı "
-"olan bir Birleştirme Filtresidir. Her resmin veya katmanın hangi kısmının "
+"Derin Birleştirme, iki başka resim ya da katmanı birleştirmek için yararlı "
+"olan bir Birleştirme Süzgecidir. Her resmin veya katmanın hangi kısmının "
 "görünür kalacağına karar verebilirsiniz."
 
 #: src/filters/combine/depthmerge.xml:33(title)
@@ -506,7 +506,7 @@ msgid ""
 "will appear in the drop-down lists used to select images. These layers must "
 "have the same size."
 msgstr ""
-"Bu süzgeci birkaç katmana sahip görüntü üzerinde de kullanabilirsiniz. "
+"Bu süzgeci birkaç katmanlı görüntü üzerinde de kullanabilirsiniz. "
 "Görüntüleri seçmek için kullanılan açılır listelerde tüm katmanlar "
 "görünecektir. Bu katmanlar aynı boyutta olmalıdır."
 
@@ -567,7 +567,7 @@ msgid ""
 "image against the other."
 msgstr ""
 "Bu seçenek birleştirme sınırını kaydırarak görüntüye diğerine göre daha "
-"fazla ya da daha az önem verir."
+"çok ya da daha az önem verir."
 
 #: src/filters/combine/depthmerge.xml:130(term)
 msgid "Scale 1"
@@ -645,7 +645,7 @@ msgid ""
 "the image-2 area is increased."
 msgstr ""
 "<emphasis>Konum</emphasis> = 0.980 : sınır, keskin, görüntü 2 alanını "
-"artıracak şekilde kaydırılır."
+"artıracak biçimde kaydırılır."
 
 #: src/filters/combine/depthmerge.xml:230(para)
 msgid "<emphasis>Overlap</emphasis> = 0.520 : the limit is blurred."

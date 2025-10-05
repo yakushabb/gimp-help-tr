@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-02-26 21:19+0000\n"
-"PO-Revision-Date: 2025-09-20 23:03+0300\n"
+"POT-Creation-Date: 2025-07-15 08:40+0000\n"
+"PO-Revision-Date: 2025-09-22 23:48+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -18,7 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.7\n"
-
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1100,9 +1099,9 @@ msgid ""
 "important, because you can't change it later and have to undo and repeat the "
 "filter if the result doesn't fit your desire."
 msgstr ""
-"Süzgeç seçenekleri arasında sadece <quote>Türbülans</quote> biraz önemlidir, "
+"Süzgeç seçenekleri arasında yalnızca <quote>Türbülans</quote> biraz önemlidir, "
 "çünkü daha sonra değiştiremezsiniz ve sonuç isteğinize uymazsa süzgeci geri "
-"alıp tekrarlamanız gerekir."
+"alıp yinelemeniz gerekir."
 
 #: src/filters/decor/fog.xml:82(term)
 msgid "Layer name"
@@ -1667,7 +1666,7 @@ msgid ""
 "Information about the many layers created by this filter can be found in "
 "<xref linkend=\"bibliography-books-grokking\"/>."
 msgstr ""
-"Bu süzgeç tarafından oluşturulan birçok katman hakkında bilgi <xref "
+"Bu süzgeççe oluşturulan birçok katmanla ilgili bilgi <xref "
 "linkend=\"bibliography-books-grokking\"/> adresinde bulunabilir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1968,7 +1967,7 @@ msgid ""
 "You can specify the thickness of the bevel, in pixels. Maximal thickness is "
 "30 pixels."
 msgstr ""
-"Eğim kalınlığını piksel cinsinden belirtebilirsiniz. Azami kalınlık 30 "
+"Eğim kalınlığını piksel türünden belirtebilirsiniz. Azami kalınlık 30 "
 "pikseldir."
 
 #: src/filters/decor/add-bevel.xml:128(term)

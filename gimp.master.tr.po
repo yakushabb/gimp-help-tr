@@ -596,7 +596,7 @@ msgstr "<keycap function=\"control\">Ctrl</keycap>+ fare tekerleği"
 
 #: src/key-reference.xml:496(title)
 msgid "Flip and Rotate (0°)"
-msgstr "Flip and Rotate (0°)"
+msgstr "Çevir ve Döndür (0°)"
 
 #: src/key-reference.xml:498(term)
 msgid "!"
@@ -608,7 +608,7 @@ msgstr "Çevir ve Döndürü Sıfırla"
 
 #: src/key-reference.xml:506(title)
 msgid "Scrolling (panning)"
-msgstr "Kaydırma"
+msgstr "Kaydırma (panlama)"
 
 #: src/key-reference.xml:508(keycap)
 msgid "arrows"
@@ -1447,7 +1447,7 @@ msgid ""
 msgstr ""
 "<acronym>GIMP</acronym>, her türlü görüntüyü oluşturmak ve düzenlemek için "
 "çok platformlu bir araçtır. <acronym>GIMP</acronym>, <acronym>GNU</acronym> "
-"Image Manipulation Program cümlesinin kısaltmasıdır."
+"Image Manipulation Program tümcesinin kısaltmasıdır."
 
 #: src/introduction.xml:26(para)
 msgid ""
@@ -1457,7 +1457,7 @@ msgid ""
 "renderer, an image format converter, etc."
 msgstr ""
 "<acronym>GIMP</acronym> çok yeteneklidir. Basit boya programı, uzman "
-"kalitede fotoğraf düzenleme programı, sayısal sanat oluşturma aracı, çevrim "
+"nitelikte fotoğraf düzenleme programı, sayısal sanat oluşturma aracı, çevrim "
 "içi toplu işleme sistemi, seri üretim görüntü oluşturucu, görüntü biçimi "
 "dönüştürücü vb. olarak kullanılabilir."
 
@@ -1471,7 +1471,7 @@ msgstr ""
 "<acronym>GIMP</acronym> genişletilebilir. Hemen hemen her şeyi yapmak için "
 "eklentiler ve özel verilerle zenginleştirilmek üzere tasarlanmıştır. "
 "Gelişmiş betik arayüzü, en basit görevlerden en karmaşık görüntü işleme "
-"süreçlerine kadar her şeyin betik haline getirilmesini sağlar."
+"süreçlerine dek her şeyi betikleştirmeyi sağlar."
 
 #: src/introduction.xml:38(para)
 msgid ""
@@ -1500,12 +1500,12 @@ msgid ""
 "(<application>Darwin</application>). The platforms on which <acronym>GIMP</"
 "acronym> has been known to work include:"
 msgstr ""
-"<acronym>GIMP</acronym>ʼin güçlü yönlerinden biri, çok çeşitli işletim "
-"sistemleri ve mimarilerde ücretsiz olarak kullanılabilir olmasıdır. Çoğu "
+"<acronym>GIMP</acronym>ʼin güçlü yönlerinden biri, çok türlü işletim "
+"sistemleri ve mimarilerde özgürce kullanılabilmesidir. Çoğu "
 "<acronym>GNU</acronym> / <application>Linux</application> dağıtımı "
 "<acronym>GIMP</acronym>ʼi standart bir uygulama olarak içerir. "
-"<acronym>GIMP</acronym> ayrıca <productname>Microsoft Windows</productname> "
-"ya da Appleʼın <productname>macOS</productname><application>(Darwin</"
+"<acronym>GIMP</acronym>, <productname>Microsoft Windows</productname> "
+"ya da Appleʼın <productname>macOS</productname>(<application>Darwin</"
 "application>) gibi diğer işletim sistemleri için de kullanılabilir. "
 "<acronym>GIMP</acronym>ʼin çalıştığı bilinen platformlar şunlardır:"
 
@@ -1531,7 +1531,7 @@ msgstr ""
 "<productname>Digital UNIX</productname>, <productname>OSF/1</productname>, "
 "<productname>IRIX</productname>, <productname><acronym>GNU</acronym>/Hurd</"
 "productname>, <productname>OS/2</productname>, <productname>BeOS</"
-"productname>, ve halefi <productname>Haiku</productname>."
+"productname>, ve ardılı <productname>Haiku</productname>."
 
 #: src/introduction.xml:72(para)
 msgid ""
@@ -1542,7 +1542,7 @@ msgid ""
 msgstr ""
 "<acronym>GIMP</acronym>, kaynak kodu kullanılabilirliği nedeniyle diğer "
 "işletim sistemlerine kolayca taşınabilir. Daha çok bilgi için <acronym>GIMP</"
-"acronym> geliştiricileri sayfasını ziyaret edin. <xref "
+"acronym> geliştiricileri sayfasına bakın. <xref "
 "linkend=\"bibliography-online-gimp-dev\"/>."
 
 #: src/introduction.xml:81(title)
@@ -1560,7 +1560,7 @@ msgid ""
 msgstr ""
 "<acronym>GIMP</acronym>ʼin ilk sürümü 1995 yılında Peter Mattis ve Spencer "
 "Kimball tarafından yazılmıştır. Yıllar boyunca <ulink url=\"https://"
-"www.gimp.org/about/authors.html\">pekçok kişi</ulink> geliştirme, sınama, "
+"www.gimp.org/about/authors.html\">pek çok kişi</ulink> geliştirme, sınama, "
 "destek, çeviri ve belgelendirme konularında yardımcı olarak katkıda "
 "bulunmuştur. <acronym>GIMP</acronym>ʼin kısa tarihçesi <ulink url=\"https://"
 "www.gimp.org/about/#gimp-history\">çevrim içi olarak</ulink> vardır."
@@ -1582,7 +1582,7 @@ msgid ""
 "can use to access the relevant part of the manual."
 msgstr ""
 "<acronym>GIMP</acronym> Belgelendirme Takımı, <acronym>GIMP</acronym>ʼi "
-"nasıl kullanacağınızı anlamanıza yardımcı olmaya çalışan bilgileri sağlar. "
+"nasıl kullanacağınızı anlamanıza yardımcı olacak bilgileri sağlar. "
 "Kullanıcı Kılavuzu bu yardımın önemli bir parçasıdır. En son sürüm her zaman "
 "Belgelendirme Takımının web sitesinde <xref linkend=\"bibliography-online-"
 "gimp-docs\"/> HTML biçiminde vardır. <acronym>GIMP</acronym>ʼi kullanırken, "
@@ -1628,7 +1628,7 @@ msgid ""
 "A full suite of painting tools including brushes, a pencil, an airbrush, "
 "cloning, etc."
 msgstr ""
-"Fırçalar, kalem, hava fırçası, kopyalama vb. dahil olmak üzere eksiksiz "
+"Fırçalar, kalem, hava fırçası, kopyalama vb. olmak üzere eksiksiz "
 "boyama araçları paketi."
 
 #: src/introduction.xml:135(para)
@@ -1636,18 +1636,18 @@ msgid ""
 "Tile-based memory management, so image size is limited only by available "
 "disk space."
 msgstr ""
-"Karo tabanlı bellek yönetimi sayesinde görüntü boyutu sadece var olan disk "
+"Karo tabanlı bellek yönetimi sayesinde görüntü boyutu yalnızca var olan disk "
 "alanı ile sınırlıdır."
 
 #: src/introduction.xml:141(para)
 msgid "Sub-pixel sampling for all paint tools for high-quality anti-aliasing."
 msgstr ""
-"Yüksek kaliteli kenar yumuşatma için tüm boya araçları için alt piksel "
+"Yüksek nitelikli kenar yumuşatma için tüm boya araçları için alt piksel "
 "örnekleme."
 
 #: src/introduction.xml:147(para)
 msgid "Full Alpha channel support for working with transparency."
-msgstr "Şeffaflıkla çalışmak için tam Alfa kanalı desteği."
+msgstr "Saydamlıkla çalışmak için tam Alfa kanalı desteği."
 
 #: src/introduction.xml:152(para)
 msgid "Layers and channels."
@@ -1658,8 +1658,8 @@ msgid ""
 "A procedural database for calling internal <acronym>GIMP</acronym> functions "
 "from external programs, such as Script-Fu."
 msgstr ""
-"Script-Fu gibi harici programlardan içsel <acronym>GIMP</acronym> "
-"işlevlerini çağırmak için prosedürel veritabanı."
+"Script-Fu gibi dış programlardan iç <acronym>GIMP</acronym> "
+"işlevlerini çağırmak için prosedürel veri tabanı."
 
 #: src/introduction.xml:161(para)
 msgid "Advanced scripting capabilities."
@@ -1667,7 +1667,7 @@ msgstr "Gelişmiş betikleme yetenekleri."
 
 #: src/introduction.xml:164(para)
 msgid "Multiple undo/redo (limited only by disk space)."
-msgstr "Çoklu geri alma/yineleme (sadece disk alanı ile sınırlıdır)."
+msgstr "Çoklu geri alma/yineleme (yalnızca disk alanı ile sınırlıdır)."
 
 #: src/introduction.xml:167(para)
 msgid "Transformation tools including rotate, scale, shear and flip."
@@ -1679,14 +1679,14 @@ msgid ""
 "DDS, XPM, TIFF, TGA, MPEG, PS, PDF, PCX, BMP and many others."
 msgstr ""
 "JPEG, PNG, GIF, PSD, DDS, XPM, TIFF, TGA, MPEG, PS, PDF, PCX, BMP ve "
-"diğerleri dahil olmak üzere çok çeşitli dosya biçimleri desteği."
+"diğerleri olmak üzere çok türlü dosya biçimleri desteği."
 
 #: src/introduction.xml:178(para)
 msgid ""
 "Selection tools, including rectangle, ellipse, free, fuzzy, bezier and "
 "scissors."
 msgstr ""
-"Dikdörtgen, elips, serbest, bulanık, bezier ve makas dahil seçim araçları."
+"Dikdörtgen, elips, serbest, bulanık, bezier ve makastan oluşan seçim araçları."
 
 #: src/introduction.xml:184(para)
 msgid ""
@@ -1698,7 +1698,7 @@ msgstr ""
 
 #: src/help-missing.xml:8(title)
 msgid "Eeek! There is Missing Help"
-msgstr "Malesef! Eksik Yardım"
+msgstr "Tüh! Eksik Yardım"
 
 #: src/help-missing.xml:9(para)
 msgid ""
@@ -1709,7 +1709,7 @@ msgid ""
 msgstr ""
 "Üzgünüz. Aradığınız yardım ögesi eksik. Bunu çevrim dışı okuyorsanız, <ulink "
 "url=\"https://docs.gimp.org/en\"><acronym>GIMP</acronym> belgelendirmesinin</"
-"ulink> çevrim içi sürümünde daha güncel yardım bulabilirsiniz ."
+"ulink> çevrim içi sürümünde daha güncel yardım bulabilirsiniz."
 
 #: src/help-missing.xml:16(para)
 msgid ""
@@ -1732,7 +1732,7 @@ msgid ""
 "gitlab.gnome.org/GNOME/gimp-help/issues\"> Report a documentation error </"
 "ulink> and let us know."
 msgstr ""
-"<emphasis role=\"bold\">içerik hatası</emphasis> ya da doğru görünmeyen bir "
+"<emphasis role=\"bold\">İçerik hatası</emphasis> ya da doğru görünmeyen bir "
 "şey mi buldunuz? <ulink id=\"reportbug\" url=\"https://gitlab.gnome.org/"
 "GNOME/gimp-help/issues\">Belgelendirme hatası</ulink> bildirerek haberimiz "
 "olmasını sağlayın."
@@ -1778,7 +1778,7 @@ msgstr ""
 
 #: src/gimp.xml:51(title)
 msgid "Preface"
-msgstr "Ön söz"
+msgstr "Ön Söz"
 
 #: src/gimp.xml:55(title)
 msgid "Getting Started"

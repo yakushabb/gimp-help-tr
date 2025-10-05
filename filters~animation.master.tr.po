@@ -221,7 +221,7 @@ msgstr "Soldan sağa dön"
 
 #: src/filters/animation/spinning-globe.xml:108(term)
 msgid "Transparent background"
-msgstr "Saydam artalan"
+msgstr "Saydam arka plan"
 
 #: src/filters/animation/spinning-globe.xml:117(term)
 msgid "Index to n colors"

@@ -272,7 +272,8 @@ msgid ""
 "This works the same as “Copy” the selection followed by “Clear” the "
 "selection."
 msgstr ""
-"Bu, seçimi “Kopyala” ve ardından seçimi “Temizle” ile aynı şekilde çalışır."
+"Bu, seçimi “Kopyala” ve ardından seçimi “Temizle” ile aynı şekilde "
+"çalışır."
 
 #: gimp-keys.xml:116(key)
 msgid "<ctrl/>V"
