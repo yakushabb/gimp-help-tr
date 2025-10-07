@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-07-15 08:40+0000\n"
-"PO-Revision-Date: 2025-10-05 23:29+0300\n"
+"PO-Revision-Date: 2025-10-08 01:19+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -94,7 +94,7 @@ msgstr "Süzgeçler"
 #: src/filters/artistic/cartoon.xml:12(secondary)
 #: src/filters/artistic/applycanvas.xml:12(secondary)
 msgid "Artistic"
-msgstr ""
+msgstr "Sanatsal"
 
 #: src/filters/artistic/weave.xml:20(title)
 #: src/filters/artistic/waterpixels.xml:22(title)
@@ -2942,3 +2942,10 @@ msgid ""
 "The Depth slider controls the apparent depth of the rendered canvas effect "
 "from 1 (very flat) to 50 (very deep)."
 msgstr ""
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/light-and-shadow/bloom.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
