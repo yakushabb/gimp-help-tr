@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-02-26 21:19+0000\n"
-"PO-Revision-Date: 2025-09-20 23:03+0300\n"
+"PO-Revision-Date: 2025-10-10 01:22+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -19,82 +19,125 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.7\n"
 
-
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/warp.xml:41(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/example-map-bumpmap.png'; "
+#| "md5=733bca01ddf5dd736ab1b031ee4cf0d6"
 msgid ""
 "@@image: 'images/filters/examples/example-map-warp1.png'; "
 "md5=f702179c31bf51b2f1bb9b1d97934412"
 msgstr ""
+"@@image: 'images/filters/examples/example-map-warp1.png'; "
+"md5=f702179c31bf51b2f1bb9b1d97934412"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/warp.xml:58(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/example-map-bumpmap.png'; "
+#| "md5=733bca01ddf5dd736ab1b031ee4cf0d6"
 msgid ""
 "@@image: 'images/filters/examples/example-map-warp2.png'; "
 "md5=640a7bafcd6678efbf202d71d3846466"
 msgstr ""
+"@@image: 'images/filters/examples/example-map-warp2.png'; "
+"md5=640a7bafcd6678efbf202d71d3846466"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/warp.xml:70(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/example-map-bumpmap.png'; "
+#| "md5=733bca01ddf5dd736ab1b031ee4cf0d6"
 msgid ""
 "@@image: 'images/filters/examples/example-map-warp3.png'; "
 "md5=78def67065c427da5b779fa127ec9fe2"
 msgstr ""
+"@@image: 'images/filters/examples/example-map-warp3.png'; "
+"md5=78def67065c427da5b779fa127ec9fe2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/warp.xml:107(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/displace-dialog.png'; "
+#| "md5=3194b3a2b736950c1305d3fd32af5590"
 msgid ""
 "@@image: 'images/filters/map/warp.png'; md5=7665060c044309c3b3eea7589259fff5"
 msgstr ""
+"@@image: 'images/filters/map/warp.png'; md5=7665060c044309c3b3eea7589259fff5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/warp.xml:207(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/example-map-bumpmap.png'; "
+#| "md5=733bca01ddf5dd736ab1b031ee4cf0d6"
 msgid ""
 "@@image: 'images/filters/examples/example-map-warp4.png'; "
 "md5=93f3ccc39623531cda98c592c4657d6a"
 msgstr ""
+"@@image: 'images/filters/examples/example-map-warp4.png'; "
+"md5=93f3ccc39623531cda98c592c4657d6a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/warp.xml:228(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/example-map-bumpmap.png'; "
+#| "md5=733bca01ddf5dd736ab1b031ee4cf0d6"
 msgid ""
 "@@image: 'images/filters/examples/example-map-warp5.png'; "
 "md5=89cd8fb33bf518caf6638446aeb5f3f3"
 msgstr ""
+"@@image: 'images/filters/examples/example-map-warp5.png'; "
+"md5=89cd8fb33bf518caf6638446aeb5f3f3"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/warp.xml:276(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/example-map-bumpmap.png'; "
+#| "md5=733bca01ddf5dd736ab1b031ee4cf0d6"
 msgid ""
 "@@image: 'images/filters/examples/example-map-warp6.png'; "
 "md5=5b3c3385df3cb4cd283f4cc3696e7535"
 msgstr ""
+"@@image: 'images/filters/examples/example-map-warp6.png'; "
+"md5=5b3c3385df3cb4cd283f4cc3696e7535"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/warp.xml:320(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/example-map-bumpmap.png'; "
+#| "md5=733bca01ddf5dd736ab1b031ee4cf0d6"
 msgid ""
 "@@image: 'images/filters/examples/example-map-warp7.png'; "
 "md5=bbdc3e2bc0052d7cbc564d1681db06bf"
 msgstr ""
+"@@image: 'images/filters/examples/example-map-warp7.png'; "
+"md5=bbdc3e2bc0052d7cbc564d1681db06bf"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/warp.xml:354(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/example-map-bumpmap.png'; "
+#| "md5=733bca01ddf5dd736ab1b031ee4cf0d6"
 msgid ""
 "@@image: 'images/filters/examples/example-map-warp8.png'; "
 "md5=87930f06e1b0713deb47c0b70b2de32a"
 msgstr ""
+"@@image: 'images/filters/examples/example-map-warp8.png'; "
+"md5=87930f06e1b0713deb47c0b70b2de32a"
 
 #: src/filters/map/warp.xml:15(title) src/filters/map/warp.xml:19(tertiary)
 #: src/filters/map/warp.xml:22(primary)
 msgid "Warp"
-msgstr ""
+msgstr "Bük"
 
 #: src/filters/map/warp.xml:17(primary) src/filters/map/tile.xml:11(primary)
 #: src/filters/map/tile-seamless.xml:11(primary)
@@ -110,7 +153,7 @@ msgstr ""
 #: src/filters/map/displace.xml:15(primary)
 #: src/filters/map/bumpmap.xml:12(primary)
 msgid "Filters"
-msgstr ""
+msgstr "Süzgeçler"
 
 #: src/filters/map/warp.xml:18(secondary)
 #: src/filters/map/tile.xml:12(secondary)
@@ -128,7 +171,7 @@ msgstr ""
 #: src/filters/map/displace.xml:441(para)
 #: src/filters/map/bumpmap.xml:13(secondary)
 msgid "Map"
-msgstr ""
+msgstr "Eşlem"
 
 #: src/filters/map/warp.xml:26(title) src/filters/map/tile.xml:19(title)
 #: src/filters/map/tile-seamless.xml:19(title)
@@ -142,7 +185,7 @@ msgstr ""
 #: src/filters/map/fractal-trace.xml:23(title)
 #: src/filters/map/displace.xml:24(title) src/filters/map/bumpmap.xml:21(title)
 msgid "Overview"
-msgstr ""
+msgstr "Genel Görünüm"
 
 #: src/filters/map/warp.xml:27(para)
 msgid ""
@@ -191,7 +234,7 @@ msgstr ""
 
 #: src/filters/map/warp.xml:88(title) src/filters/map/smalltiles.xml:51(title)
 msgid "Activating the filter"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/map/warp.xml:89(para)
 msgid ""
@@ -199,6 +242,9 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Warp…</guimenuitem></"
 "menuchoice>. This filter has no Preview."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Bük…</guimenuitem></"
+"menuchoice> altında bulunur. Bu süzgeç ön izleme sunmaz."
 
 #: src/filters/map/warp.xml:101(title) src/filters/map/tile.xml:60(title)
 #: src/filters/map/tile-seamless.xml:61(title)
@@ -214,19 +260,19 @@ msgstr ""
 #: src/filters/map/fractal-trace.xml:75(title)
 #: src/filters/map/displace.xml:89(title) src/filters/map/bumpmap.xml:63(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/filters/map/warp.xml:103(title)
 msgid "Warp filter options"
-msgstr ""
+msgstr "Bük süzgeci seçenekleri"
 
 #: src/filters/map/warp.xml:112(title)
 msgid "Basic Options"
-msgstr ""
+msgstr "Temel Seçenekler"
 
 #: src/filters/map/warp.xml:114(term)
 msgid "Step size"
-msgstr ""
+msgstr "Adım boyutu"
 
 #: src/filters/map/warp.xml:116(para)
 msgid ""
@@ -238,7 +284,7 @@ msgstr ""
 #: src/filters/map/warp.xml:125(term)
 #: src/filters/map/recursive-transform.xml:227(term)
 msgid "Iterations"
-msgstr ""
+msgstr "Yinelemeler"
 
 #: src/filters/map/warp.xml:127(para)
 msgid "The number of repetitions of effect when applying filter."
@@ -246,7 +292,7 @@ msgstr ""
 
 #: src/filters/map/warp.xml:133(term)
 msgid "On edges"
-msgstr ""
+msgstr "Kenarlarda"
 
 #: src/filters/map/warp.xml:135(para)
 msgid ""
@@ -257,7 +303,7 @@ msgstr ""
 
 #: src/filters/map/warp.xml:143(guilabel)
 msgid "Wrap"
-msgstr ""
+msgstr "Sar"
 
 #: src/filters/map/warp.xml:145(para)
 msgid ""
@@ -267,7 +313,7 @@ msgstr ""
 
 #: src/filters/map/warp.xml:152(guilabel)
 msgid "Smear"
-msgstr ""
+msgstr "Yay"
 
 #: src/filters/map/warp.xml:154(para)
 msgid ""
@@ -276,15 +322,16 @@ msgstr ""
 
 #: src/filters/map/warp.xml:161(guilabel)
 msgid "Black"
-msgstr ""
+msgstr "Siyah"
 
 #: src/filters/map/warp.xml:163(para)
 msgid "Emptying places are filled with black color."
 msgstr ""
 
+# Arayüzde bu şekilde kullanılmış.
 #: src/filters/map/warp.xml:169(guilabel)
 msgid "Foreground color"
-msgstr ""
+msgstr "Ön Plan Rengi"
 
 #: src/filters/map/warp.xml:171(para)
 msgid ""
@@ -292,9 +339,10 @@ msgid ""
 "Toolbox."
 msgstr ""
 
+# Arayüzdeki hali kullanıldı.
 #: src/filters/map/warp.xml:181(term)
 msgid "Displacement map"
-msgstr ""
+msgstr "Yer Değiştirme Eşlemi"
 
 #: src/filters/map/warp.xml:183(para)
 msgid ""
@@ -305,11 +353,11 @@ msgstr ""
 
 #: src/filters/map/warp.xml:193(title)
 msgid "Advanced Options"
-msgstr ""
+msgstr "Gelişmiş Seçenekler"
 
 #: src/filters/map/warp.xml:195(term)
 msgid "Dither size"
-msgstr ""
+msgstr "Titreme boyutu"
 
 #: src/filters/map/warp.xml:197(para)
 msgid ""
@@ -324,7 +372,7 @@ msgstr ""
 
 #: src/filters/map/warp.xml:214(term)
 msgid "Rotation angle"
-msgstr ""
+msgstr "Döndürme açısı"
 
 #: src/filters/map/warp.xml:216(para)
 msgid ""
@@ -348,7 +396,7 @@ msgstr ""
 
 #: src/filters/map/warp.xml:243(term)
 msgid "Substeps"
-msgstr ""
+msgstr "Alt basamaklar"
 
 #. CHECK: I'm unsure whether this is (a) makes senses, and
 #.                (b) is correct... :-| (ude, 2010-07-19)
@@ -358,9 +406,10 @@ msgid ""
 "several substeps, giving you a finer control to the displace process."
 msgstr ""
 
+# Arayüzdeki hali kullanıldı.
 #: src/filters/map/warp.xml:255(term)
 msgid "Magnitude map"
-msgstr ""
+msgstr "Büyüklük Eşlemi"
 
 #: src/filters/map/warp.xml:257(para)
 msgid ""
@@ -378,7 +427,7 @@ msgstr ""
 
 #: src/filters/map/warp.xml:272(title)
 msgid "Magnitude Map example:"
-msgstr ""
+msgstr "Büyüklük Eşlemi örneği:"
 
 #: src/filters/map/warp.xml:279(para)
 msgid ""
@@ -389,7 +438,7 @@ msgstr ""
 
 #: src/filters/map/warp.xml:292(title)
 msgid "More Advanced Options"
-msgstr ""
+msgstr "Daha Çok Gelişmiş Seçenekler"
 
 #: src/filters/map/warp.xml:293(para)
 msgid ""
@@ -405,7 +454,7 @@ msgstr ""
 
 #: src/filters/map/warp.xml:304(term)
 msgid "Gradient scale"
-msgstr ""
+msgstr "Renk geçişi ölçeği"
 
 #: src/filters/map/warp.xml:306(para)
 msgid ""
@@ -419,11 +468,11 @@ msgstr ""
 
 #: src/filters/map/warp.xml:316(title)
 msgid "Gradient scale example"
-msgstr ""
+msgstr "Renk geçişi ölçeği örneği"
 
 #: src/filters/map/warp.xml:323(para)
 msgid "From left to right: original image, Gradient map, filter applied."
-msgstr ""
+msgstr "Soldan sağa: özgün görüntü, renk geçişi eşlemi, uygulanan süzgeç."
 
 #: src/filters/map/warp.xml:330(para)
 msgid ""
@@ -435,7 +484,7 @@ msgstr ""
 
 #: src/filters/map/warp.xml:340(term)
 msgid "Vector magnitude"
-msgstr ""
+msgstr "Vektör büyüklüğü"
 
 #: src/filters/map/warp.xml:342(para)
 msgid ""
@@ -447,11 +496,11 @@ msgstr ""
 
 #: src/filters/map/warp.xml:350(title)
 msgid "Vector magnitude example"
-msgstr ""
+msgstr "Vektör büyüklüğü örneği"
 
 #: src/filters/map/warp.xml:357(para)
 msgid "From left to right: original image, displacement map, filter applied."
-msgstr ""
+msgstr "Soldan sağa: özgün görüntü, yer değiştirme eşlemi, uygulanan süzgeç."
 
 #: src/filters/map/warp.xml:364(para)
 msgid ""
@@ -464,11 +513,11 @@ msgstr ""
 
 #: src/filters/map/warp.xml:374(term)
 msgid "Angle"
-msgstr ""
+msgstr "Açı"
 
 #: src/filters/map/warp.xml:376(para)
 msgid "Angle for fixed vector map (see above)."
-msgstr ""
+msgstr "Sabit vektör eşlemi için açı (yukarıya bakın)."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -477,6 +526,8 @@ msgid ""
 "@@image: 'images/filters/examples/2zinnias.png'; "
 "md5=dc3e637cb565db0384f9d87817159c48"
 msgstr ""
+"@@image: 'images/filters/examples/2zinnias.png'; "
+"md5=dc3e637cb565db0384f9d87817159c48"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -485,18 +536,24 @@ msgid ""
 "@@image: 'images/filters/examples/map-tile.png'; "
 "md5=b2375fa615372e62bb9c0d29775c16fe"
 msgstr ""
+"@@image: 'images/filters/examples/map-tile.png'; "
+"md5=b2375fa615372e62bb9c0d29775c16fe"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/tile.xml:66(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/tile.png'; "
+#| "md5=c8529471fbe0f8c99c6f1a963b6249d3"
 msgid ""
 "@@image: 'images/filters/map/tile.png'; md5=d82880e355ace6b39b64ed356254669f"
 msgstr ""
+"@@image: 'images/filters/map/tile.png'; md5=d82880e355ace6b39b64ed356254669f"
 
 #: src/filters/map/tile.xml:9(title) src/filters/map/tile.xml:13(tertiary)
 #: src/filters/map/tile.xml:16(primary)
 msgid "Tile"
-msgstr ""
+msgstr "Döşe"
 
 #: src/filters/map/tile.xml:21(title)
 msgid "The same image, before and after applying Tile filter"
@@ -507,11 +564,11 @@ msgstr ""
 #: src/filters/map/fractal-trace.xml:32(para)
 #: src/filters/map/displace.xml:33(para)
 msgid "Original image"
-msgstr ""
+msgstr "Özgün görüntü"
 
 #: src/filters/map/tile.xml:37(para)
 msgid "(We have reduced image size intentionally)"
-msgstr ""
+msgstr "(Görüntü boyutunu kasıtlı olarak küçültüldü)"
 
 #: src/filters/map/tile.xml:41(para)
 msgid ""
@@ -529,7 +586,7 @@ msgstr ""
 #: src/filters/map/fractal-trace.xml:52(title)
 #: src/filters/map/displace.xml:77(title) src/filters/map/bumpmap.xml:51(title)
 msgid "Activating the Filter"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/map/tile.xml:49(para)
 msgid ""
@@ -537,22 +594,25 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Tile…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Döşe…</guimenuitem></"
+"menuchoice> altında bulunur."
 
 #: src/filters/map/tile.xml:62(title)
 msgid "<quote>Tile</quote> filter options"
-msgstr ""
+msgstr "<quote>Döşe</quote> süzgeci seçenekleri"
 
 #: src/filters/map/tile.xml:71(title)
 msgid "Tile to New Size"
-msgstr ""
+msgstr "Yeni Boyuta Döşe"
 
 #: src/filters/map/tile.xml:73(term)
 msgid "New width"
-msgstr ""
+msgstr "Yeni genişlik"
 
 #: src/filters/map/tile.xml:74(term)
 msgid "New height"
-msgstr ""
+msgstr "Yeni yükseklik"
 
 #: src/filters/map/tile.xml:76(para)
 msgid ""
@@ -569,11 +629,12 @@ msgstr ""
 
 #: src/filters/map/tile.xml:89(term)
 msgid "New image"
-msgstr ""
+msgstr "Yeni görüntü"
 
 #: src/filters/map/tile.xml:91(para)
 msgid "Keep this option checked to avoid modifying your original image."
 msgstr ""
+"Özgün görüntünün değiştirilmesini önlemek için bu seçeneği işaretli tutun."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -585,6 +646,8 @@ msgid ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
 msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -593,33 +656,40 @@ msgid ""
 "@@image: 'images/filters/examples/map-taj-seamless.jpg'; "
 "md5=9aa90bd50842d393c54ae9f6b80305b1"
 msgstr ""
+"@@image: 'images/filters/examples/map-taj-seamless.jpg'; "
+"md5=9aa90bd50842d393c54ae9f6b80305b1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/tile-seamless.xml:67(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/tile_seamless-dialog.png'; "
+#| "md5=1404cd4c0b7ea90e6509c223089f03b5"
 msgid ""
 "@@image: 'images/filters/map/tile_seamless-dialog.png'; "
 "md5=f5d944667a89ba00d89373f5849bfa31"
 msgstr ""
+"@@image: 'images/filters/map/tile_seamless-dialog.png'; "
+"md5=f5d944667a89ba00d89373f5849bfa31"
 
 #: src/filters/map/tile-seamless.xml:9(title)
 #: src/filters/map/tile-seamless.xml:13(tertiary)
 #: src/filters/map/tile-seamless.xml:16(primary)
 msgid "Tile Seamless"
-msgstr ""
+msgstr "Dikişsiz Döşeme"
 
 #: src/filters/map/tile-seamless.xml:21(title)
 msgid "An example of Tile Seamless."
-msgstr ""
+msgstr "Dikişsiz Döşeme örneği"
 
 #: src/filters/map/tile-seamless.xml:28(para)
 #: src/filters/map/map-object.xml:33(para)
 msgid "Original"
-msgstr ""
+msgstr "Özgün"
 
 #: src/filters/map/tile-seamless.xml:37(para)
 msgid "Tile Seamless applied"
-msgstr ""
+msgstr "Dikişsiz Döşeme süzgeci uygulandı"
 
 #: src/filters/map/tile-seamless.xml:41(para)
 msgid ""
@@ -630,7 +700,7 @@ msgstr ""
 
 #: src/filters/map/tile-seamless.xml:49(title)
 msgid "Activation"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/map/tile-seamless.xml:50(para)
 msgid ""
@@ -638,10 +708,13 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Tile Seamless…</"
 "guimenuitem></menuchoice>"
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Dikişsiz Döşeme…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/map/tile-seamless.xml:63(title)
 msgid "<quote>Tile Seamless</quote> filter options"
-msgstr ""
+msgstr "<quote>Dikişsiz Döşeme</quote> süzgeci seçenekleri"
 
 #: src/filters/map/tile-seamless.xml:73(term)
 #: src/filters/map/recursive-transform.xml:180(term)
@@ -651,7 +724,7 @@ msgstr ""
 #: src/filters/map/fractal-trace.xml:77(term)
 #: src/filters/map/displace.xml:101(term) src/filters/map/bumpmap.xml:75(term)
 msgid "Presets"
-msgstr ""
+msgstr "Önayarlar"
 
 #: src/filters/map/tile-seamless.xml:74(quote)
 #: src/filters/map/recursive-transform.xml:181(quote)
@@ -662,7 +735,7 @@ msgstr ""
 #: src/filters/map/displace.xml:102(quote)
 #: src/filters/map/bumpmap.xml:76(quote)
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 #: src/filters/map/tile-seamless.xml:75(term)
 #: src/filters/map/recursive-transform.xml:182(term)
@@ -672,7 +745,7 @@ msgstr ""
 #: src/filters/map/fractal-trace.xml:79(term)
 #: src/filters/map/displace.xml:103(term) src/filters/map/bumpmap.xml:77(term)
 msgid "Clipping"
-msgstr ""
+msgstr "Kırpma"
 
 #: src/filters/map/tile-seamless.xml:76(term)
 #: src/filters/map/recursive-transform.xml:183(term)
@@ -682,7 +755,7 @@ msgstr ""
 #: src/filters/map/fractal-trace.xml:80(term)
 #: src/filters/map/displace.xml:104(term) src/filters/map/bumpmap.xml:78(term)
 msgid "Blending Options"
-msgstr ""
+msgstr "Harmanlama Seçenekleri"
 
 #: src/filters/map/tile-seamless.xml:77(term)
 #: src/filters/map/recursive-transform.xml:184(term)
@@ -693,7 +766,7 @@ msgstr ""
 #: src/filters/map/fractal-trace.xml:81(term)
 #: src/filters/map/displace.xml:105(term) src/filters/map/bumpmap.xml:79(term)
 msgid "Preview"
-msgstr ""
+msgstr "Ön izleme"
 
 #: src/filters/map/tile-seamless.xml:78(term)
 #: src/filters/map/recursive-transform.xml:185(term)
@@ -703,7 +776,7 @@ msgstr ""
 #: src/filters/map/fractal-trace.xml:82(term)
 #: src/filters/map/displace.xml:106(term) src/filters/map/bumpmap.xml:80(term)
 msgid "Merge filter"
-msgstr ""
+msgstr "Süzgeci birleştir"
 
 #: src/filters/map/tile-seamless.xml:79(term)
 #: src/filters/map/recursive-transform.xml:186(term)
@@ -713,37 +786,47 @@ msgstr ""
 #: src/filters/map/fractal-trace.xml:83(term)
 #: src/filters/map/displace.xml:107(term) src/filters/map/bumpmap.xml:81(term)
 msgid "Split view"
-msgstr ""
+msgstr "Bölünmüş görünüm"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/smalltiles.xml:37(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/map-taj-papertile.jpg'; "
+#| "md5=44c610b1ddbe773859f234364ca60ac4"
 msgid ""
 "@@image: 'images/filters/examples/map-taj-smalltile.jpg'; "
 "md5=c51650cd503d6d7fbe886aae34a55d10"
 msgstr ""
+"@@image: 'images/filters/examples/map-taj-smalltile.jpg'; "
+"md5=c51650cd503d6d7fbe886aae34a55d10"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/smalltiles.xml:69(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/tile.png'; "
+#| "md5=c8529471fbe0f8c99c6f1a963b6249d3"
 msgid ""
 "@@image: 'images/filters/map/smalltiles.png'; "
 "md5=b3ed0b180d829f3e39d42bfc1c1347f2"
 msgstr ""
+"@@image: 'images/filters/map/smalltiles.png'; "
+"md5=b3ed0b180d829f3e39d42bfc1c1347f2"
 
 #: src/filters/map/smalltiles.xml:10(title)
 #: src/filters/map/smalltiles.xml:15(tertiary)
 #: src/filters/map/smalltiles.xml:18(primary)
 msgid "Small Tiles"
-msgstr ""
+msgstr "Küçük Döşemeler"
 
 #: src/filters/map/smalltiles.xml:24(title)
 msgid "Example for the <quote>Small Tiles</quote> filter"
-msgstr ""
+msgstr "<quote>Küçük Döşemeler</quote> süzgeci örneği"
 
 #: src/filters/map/smalltiles.xml:40(para)
 msgid "<quote>Small Tiles</quote> applied"
-msgstr ""
+msgstr "<quote>Küçük Döşemeler</quote> süzgeci uygulandı"
 
 #: src/filters/map/smalltiles.xml:44(para)
 msgid ""
@@ -757,14 +840,17 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Small Tiles…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Küçük Döşemeler…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/map/smalltiles.xml:65(title)
 msgid "<quote>Small Tiles</quote> filter options"
-msgstr ""
+msgstr "<quote>Küçük Döşemeler</quote> süzgeci seçenekleri"
 
 #: src/filters/map/smalltiles.xml:75(term)
 msgid "Flip"
-msgstr ""
+msgstr "Çevir"
 
 #: src/filters/map/smalltiles.xml:77(para)
 msgid ""
@@ -794,7 +880,7 @@ msgstr ""
 
 #: src/filters/map/smalltiles.xml:120(term)
 msgid "Opacity"
-msgstr ""
+msgstr "Matlık"
 
 #: src/filters/map/smalltiles.xml:122(para)
 msgid ""
@@ -804,7 +890,7 @@ msgstr ""
 
 #: src/filters/map/smalltiles.xml:130(term)
 msgid "Number of Segments"
-msgstr ""
+msgstr "Parçaların Sayısı"
 
 #: src/filters/map/smalltiles.xml:132(para)
 msgid ""
@@ -820,14 +906,21 @@ msgid ""
 "@@image: 'images/filters/examples/map/recursive_transform-origin.png'; "
 "md5=fc0b20dc957ba0a8f7cf43c26d4bf5fa"
 msgstr ""
+"@@image: 'images/filters/examples/map/recursive_transform-origin.png'; "
+"md5=fc0b20dc957ba0a8f7cf43c26d4bf5fa"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/recursive-transform.xml:42(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/mapobject-options-2.png'; "
+#| "md5=a680f95efc7b0c1ea67bff60c7956157"
 msgid ""
 "@@image: 'images/toolbox/shear-icon.png'; "
 "md5=0f7f7acd88eab471c8bfbf89ec981d5c"
 msgstr ""
+"@@image: 'images/toolbox/shear-icon.png'; "
+"md5=0f7f7acd88eab471c8bfbf89ec981d5c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -836,6 +929,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/recursive_transform-shear.png'; "
 "md5=3c4fca26e1ab61651798de68fca28653"
 msgstr ""
+"@@image: 'images/filters/examples/map/recursive_transform-shear.png'; "
+"md5=3c4fca26e1ab61651798de68fca28653"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -844,6 +939,8 @@ msgid ""
 "@@image: 'images/toolbox/scale-icon.png'; "
 "md5=0b9dcf03a5cd97efc62a4f1bbdbda613"
 msgstr ""
+"@@image: 'images/toolbox/scale-icon.png'; "
+"md5=0b9dcf03a5cd97efc62a4f1bbdbda613"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -852,6 +949,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/recursive_transform-scale.png'; "
 "md5=1f69db237a66b8074a3fbd1a052645ed"
 msgstr ""
+"@@image: 'images/filters/examples/map/recursive_transform-scale.png'; "
+"md5=1f69db237a66b8074a3fbd1a052645ed"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -860,6 +959,8 @@ msgid ""
 "@@image: 'images/toolbox/perspective-icon.png'; "
 "md5=3618b1c87a03901ee5c25f6a383cf9a9"
 msgstr ""
+"@@image: 'images/toolbox/perspective-icon.png'; "
+"md5=3618b1c87a03901ee5c25f6a383cf9a9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -868,6 +969,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/recursive_transform-perspect.png'; "
 "md5=145e529c7043a3a61b51fd527187af55"
 msgstr ""
+"@@image: 'images/filters/examples/map/recursive_transform-perspect.png'; "
+"md5=145e529c7043a3a61b51fd527187af55"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -876,6 +979,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/recursive_transform-perspect-"
 "ctrl.png'; md5=83766821cde6ffc441356d93af4456e9"
 msgstr ""
+"@@image: 'images/filters/examples/map/recursive_transform-perspect-"
+"ctrl.png'; md5=83766821cde6ffc441356d93af4456e9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -884,6 +989,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/recursive_transform-scale-no.png'; "
 "md5=4097eb2f382fd1f85ae4970017339395"
 msgstr ""
+"@@image: 'images/filters/examples/map/recursive_transform-scale-no.png'; "
+"md5=4097eb2f382fd1f85ae4970017339395"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -892,14 +999,21 @@ msgid ""
 "@@image: 'images/filters/examples/map/recursive_transform-scale-ctrl.png'; "
 "md5=0be9a60e78f8ca9f1d736d97159242c8"
 msgstr ""
+"@@image: 'images/filters/examples/map/recursive_transform-scale-ctrl.png'; "
+"md5=0be9a60e78f8ca9f1d736d97159242c8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/recursive-transform.xml:174(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/recursive-transform-dialog.png'; "
+#| "md5=345612b69e96c355b703a63900a4838b"
 msgid ""
 "@@image: 'images/filters/map/recursive-transform-dialog.png'; "
 "md5=596b05c96ed6f2e4fbe3e5f928895622"
 msgstr ""
+"@@image: 'images/filters/map/recursive-transform-dialog.png'; "
+"md5=596b05c96ed6f2e4fbe3e5f928895622"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -908,6 +1022,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/recursive_transform-first-orig.png'; "
 "md5=91b5b32d69c16fed7c6d6f6eec9974e9"
 msgstr ""
+"@@image: 'images/filters/examples/map/recursive_transform-first-orig.png'; "
+"md5=91b5b32d69c16fed7c6d6f6eec9974e9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -916,46 +1032,50 @@ msgid ""
 "@@image: 'images/filters/examples/map/recursive_transform-first2.png'; "
 "md5=89a1f335f5320b4e4bd847affe02bbea"
 msgstr ""
+"@@image: 'images/filters/examples/map/recursive_transform-first2.png'; "
+"md5=89a1f335f5320b4e4bd847affe02bbea"
 
 #: src/filters/map/recursive-transform.xml:10(title)
 #: src/filters/map/recursive-transform.xml:15(tertiary)
 #: src/filters/map/recursive-transform.xml:18(primary)
 msgid "Recursive Transform"
-msgstr ""
+msgstr "Özyinelemeli Dönüştürme"
 
 #: src/filters/map/recursive-transform.xml:23(para)
 msgid "This filter applies a transformation recursively."
-msgstr ""
+msgstr "Bu süzgeç dönüşümü özyinelemeli olarak uygular."
 
 #: src/filters/map/recursive-transform.xml:37(para)
 msgid "<placeholder-1/> Diamonds for shearing"
-msgstr ""
+msgstr "<placeholder-1/> Eğme için karolar"
 
 #: src/filters/map/recursive-transform.xml:54(para)
 msgid "Shear"
-msgstr ""
+msgstr "Eğ"
 
 #: src/filters/map/recursive-transform.xml:61(para)
 msgid "<placeholder-1/> Squares for scaling horizontally or vertically."
-msgstr ""
+msgstr "<placeholder-1/> Yatay ya da dikey ölçeklendirme için kareler."
 
 #: src/filters/map/recursive-transform.xml:78(para)
 msgid "Scale horizontally"
-msgstr ""
+msgstr "Yatay ölçekle"
 
 #: src/filters/map/recursive-transform.xml:85(para)
 msgid ""
 "<placeholder-1/> Small diamonds for changing perspective, in large squares "
 "for Scaling in all directions."
 msgstr ""
+"<placeholder-1/> Bakış açısını değiştirmek için küçük karolar, tüm yönlerde "
+"Ölçeklendirme için büyük kareler."
 
 #: src/filters/map/recursive-transform.xml:98(title)
 msgid "Changing perspective"
-msgstr ""
+msgstr "Bakış açısını değiştirme"
 
 #: src/filters/map/recursive-transform.xml:105(para)
 msgid "Change perspective"
-msgstr ""
+msgstr "Bakış açısını değiştir"
 
 #: src/filters/map/recursive-transform.xml:116(para)
 #: src/filters/map/recursive-transform.xml:141(para)
@@ -964,11 +1084,11 @@ msgstr ""
 
 #: src/filters/map/recursive-transform.xml:123(title)
 msgid "Scaling in all directions"
-msgstr ""
+msgstr "Tüm yönlerde ölçekleme"
 
 #: src/filters/map/recursive-transform.xml:130(para)
 msgid "Scaling"
-msgstr ""
+msgstr "Ölçekleme"
 
 #: src/filters/map/recursive-transform.xml:32(para)
 msgid ""
@@ -985,15 +1105,18 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Recursive Transform…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Özyinelemeli Dönüştürme…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/map/recursive-transform.xml:170(title)
 #: src/filters/map/recursive-transform.xml:200(title)
 msgid "<quote>Recursive Transform</quote> filter options"
-msgstr ""
+msgstr "<quote>Özyinelemeli Dönüştürme</quote> süzgeci seçenekleri"
 
 #: src/filters/map/recursive-transform.xml:192(term)
 msgid "First iteration"
-msgstr ""
+msgstr "İlk yineleme"
 
 #: src/filters/map/recursive-transform.xml:194(para)
 msgid ""
@@ -1003,19 +1126,19 @@ msgstr ""
 
 #: src/filters/map/recursive-transform.xml:207(para)
 msgid "Original image. Iterations = 3. Fade = 0.797"
-msgstr ""
+msgstr "Özgün görüntü. Yineleme = 3. Solma = 0,797"
 
 #: src/filters/map/recursive-transform.xml:218(para)
 msgid "First Iteration = 2"
-msgstr ""
+msgstr "İlk Yineleme = 2"
 
 #: src/filters/map/recursive-transform.xml:229(para)
 msgid "Number of iterations."
-msgstr ""
+msgstr "Yineleme sayısı."
 
 #: src/filters/map/recursive-transform.xml:235(term)
 msgid "Fade color"
-msgstr ""
+msgstr "Rengi soldur"
 
 #: src/filters/map/recursive-transform.xml:237(para)
 msgid ""
@@ -1026,7 +1149,7 @@ msgstr ""
 
 #: src/filters/map/recursive-transform.xml:245(term)
 msgid "Fade opacity"
-msgstr ""
+msgstr "Matlığı soldur"
 
 #: src/filters/map/recursive-transform.xml:247(para)
 msgid "Amount by which to scale opacity of each iterated image."
@@ -1034,7 +1157,7 @@ msgstr ""
 
 #: src/filters/map/recursive-transform.xml:253(term)
 msgid "Paste below"
-msgstr ""
+msgstr "Altına yapıştır"
 
 #: src/filters/map/recursive-transform.xml:255(para)
 msgid "Paste iterated images below each other."
@@ -1043,7 +1166,7 @@ msgstr ""
 #: src/filters/map/recursive-transform.xml:261(term)
 #: src/filters/map/little-planet.xml:112(term)
 msgid "Resampling method"
-msgstr ""
+msgstr "Yeniden örnekleme yöntemi"
 
 #: src/filters/map/recursive-transform.xml:263(para)
 #: src/filters/map/little-planet.xml:114(para)
@@ -1051,18 +1174,20 @@ msgid ""
 "Interpolation methods are described in <xref linkend=\"gimp-tool-"
 "interpolation-methods\"/>"
 msgstr ""
+"Ara değerleme yöntemleri şurada açıklanmıştır: <xref linkend=\"gimp-tool-"
+"interpolation-methods\"/>"
 
 #: src/filters/map/recursive-transform.xml:270(term)
 msgid "Three buttons"
-msgstr ""
+msgstr "Üç düğme"
 
 #: src/filters/map/recursive-transform.xml:272(para)
 msgid "To add, duplicate or remove transform."
-msgstr ""
+msgstr "Dönüşüm eklemek, çoğaltmak ya da kaldırmak için."
 
 #: src/filters/map/recursive-transform.xml:281(title)
 msgid "Using Recursive Transform Filter"
-msgstr ""
+msgstr "Özyinelemeli Dönüştürme Süzgecini Kullanma"
 
 #. TODO later: to much difficult to perform
 #: src/filters/map/recursive-transform.xml:283(para)
@@ -1076,28 +1201,35 @@ msgid ""
 "@@image: 'images/filters/examples/map-taj-papertile.jpg'; "
 "md5=44c610b1ddbe773859f234364ca60ac4"
 msgstr ""
+"@@image: 'images/filters/examples/map-taj-papertile.jpg'; "
+"md5=44c610b1ddbe773859f234364ca60ac4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/papertile.xml:71(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/paper_tile-dialog.png'; "
+#| "md5=aad5435e8874839a7c0b31a02717b164"
 msgid ""
 "@@image: 'images/filters/map/paper_tile-dialog.png'; "
 "md5=adf5cf7297b58d9d03f4255b97ca8265"
 msgstr ""
+"@@image: 'images/filters/map/paper_tile-dialog.png'; "
+"md5=adf5cf7297b58d9d03f4255b97ca8265"
 
 #: src/filters/map/papertile.xml:9(title)
 #: src/filters/map/papertile.xml:14(tertiary)
 #: src/filters/map/papertile.xml:17(primary)
 msgid "Paper Tile"
-msgstr ""
+msgstr "Kağıt Döşeme"
 
 #: src/filters/map/papertile.xml:23(title)
 msgid "<quote>Papertile</quote> filter example."
-msgstr ""
+msgstr "<quote>Kağıt Döşeme</quote> süzgeci örneği."
 
 #: src/filters/map/papertile.xml:39(para)
 msgid "Filter <quote>Papertile</quote> applied"
-msgstr ""
+msgstr "<quote>Kağıt Döşeme</quote> süzgeci uygulanmış"
 
 #: src/filters/map/papertile.xml:45(para)
 msgid ""
@@ -1112,18 +1244,21 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Paper Tile…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Kağıt Döşeme…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/map/papertile.xml:67(title)
 msgid "<quote>Paper Tile</quote> filter options"
-msgstr ""
+msgstr "<quote>Kağıt Döşeme</quote> süzgeci seçenekleri"
 
 #: src/filters/map/papertile.xml:89(term)
 msgid "Tile Width"
-msgstr ""
+msgstr "Döşeme Genişliği"
 
 #: src/filters/map/papertile.xml:90(term)
 msgid "Tile Height"
-msgstr ""
+msgstr "Döşeme Yüksekliği"
 
 #: src/filters/map/papertile.xml:92(para)
 msgid ""
@@ -1138,7 +1273,7 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:103(term)
 msgid "Move rate"
-msgstr ""
+msgstr "Taşıma oranı"
 
 #: src/filters/map/papertile.xml:105(para)
 msgid ""
@@ -1147,7 +1282,7 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:112(term)
 msgid "Wrap around"
-msgstr ""
+msgstr "Çevresini sar"
 
 #: src/filters/map/papertile.xml:114(para)
 msgid ""
@@ -1157,7 +1292,7 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:122(term)
 msgid "Fractional type"
-msgstr ""
+msgstr "Kısmi tür"
 
 #: src/filters/map/papertile.xml:124(para)
 msgid ""
@@ -1167,7 +1302,7 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:130(term)
 msgid "Force"
-msgstr ""
+msgstr "Zorla"
 
 #: src/filters/map/papertile.xml:132(para)
 msgid "Remaining pixels will be cut also."
@@ -1175,7 +1310,7 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:138(term)
 msgid "Ignore"
-msgstr ""
+msgstr "Yok say"
 
 #: src/filters/map/papertile.xml:140(para)
 msgid ""
@@ -1185,7 +1320,7 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:147(term)
 msgid "Background"
-msgstr ""
+msgstr "Arka plan"
 
 #: src/filters/map/papertile.xml:149(para)
 msgid ""
@@ -1195,7 +1330,7 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:159(term)
 msgid "Centering"
-msgstr ""
+msgstr "Ortalanma"
 
 #: src/filters/map/papertile.xml:161(para)
 msgid ""
@@ -1205,7 +1340,7 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:168(term)
 msgid "Background Type"
-msgstr ""
+msgstr "Arka plan türü"
 
 #: src/filters/map/papertile.xml:170(para)
 msgid ""
@@ -1215,7 +1350,7 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:177(term)
 msgid "Inverted image"
-msgstr ""
+msgstr "Tersine çevrilmiş görüntü"
 
 #: src/filters/map/papertile.xml:179(para)
 msgid "Background colors will be inverted (255-value in every color channel)."
@@ -1223,7 +1358,7 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:186(term)
 msgid "Transparent"
-msgstr ""
+msgstr "Saydam"
 
 #: src/filters/map/papertile.xml:188(para)
 msgid "Background will be transparent."
@@ -1231,7 +1366,7 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:194(term)
 msgid "Image"
-msgstr ""
+msgstr "Görüntü"
 
 #: src/filters/map/papertile.xml:196(para)
 msgid ""
@@ -1240,7 +1375,7 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:203(term)
 msgid "Color"
-msgstr ""
+msgstr "Renk"
 
 #: src/filters/map/papertile.xml:205(para)
 msgid ""
@@ -1251,11 +1386,11 @@ msgstr ""
 
 #: src/filters/map/papertile.xml:217(term)
 msgid "Random seed"
-msgstr ""
+msgstr "Rastgele parçacık"
 
 #: src/filters/map/papertile.xml:218(term)
 msgid "New Seed"
-msgstr ""
+msgstr "Yeni Parçacık"
 
 #: src/filters/map/papertile.xml:220(para)
 msgid ""
@@ -1270,10 +1405,15 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/panorama-projection.xml:46(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/pan-project-dialog.png'; "
+#| "md5=e1a3b8d1a91cdfca93226d52e9b775d4"
 msgid ""
 "@@image: 'images/filters/map/pan-project-dialog.png'; "
 "md5=cb3a367bf1067ff5020aea3c54b8a2de"
 msgstr ""
+"@@image: 'images/filters/map/pan-project-dialog.png'; "
+"md5=cb3a367bf1067ff5020aea3c54b8a2de"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1282,6 +1422,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/pan-project-origin.jpg'; "
 "md5=036769d297dad85e306887ad27760201"
 msgstr ""
+"@@image: 'images/filters/examples/map/pan-project-origin.jpg'; "
+"md5=036769d297dad85e306887ad27760201"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1290,6 +1432,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/pan-project-result-1.jpg'; "
 "md5=5dfb8e4edbc0ea9bd3e00f5a6657a0df"
 msgstr ""
+"@@image: 'images/filters/examples/map/pan-project-result-1.jpg'; "
+"md5=5dfb8e4edbc0ea9bd3e00f5a6657a0df"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1298,18 +1442,22 @@ msgid ""
 "@@image: 'images/filters/examples/map/pan-project-result-2.jpg'; "
 "md5=d1be4a3b35ff1df3d171a1b3e0459a8e"
 msgstr ""
+"@@image: 'images/filters/examples/map/pan-project-result-2.jpg'; "
+"md5=d1be4a3b35ff1df3d171a1b3e0459a8e"
 
 #: src/filters/map/panorama-projection.xml:9(title)
 #: src/filters/map/panorama-projection.xml:14(tertiary)
 #: src/filters/map/panorama-projection.xml:17(primary)
 msgid "Panorama Projection"
-msgstr ""
+msgstr "Panorama Gösterimi"
 
 #: src/filters/map/panorama-projection.xml:22(para)
 msgid ""
 "This filter converts a 360° x 180° image, also known as equirectangular "
 "image, into a panorama."
 msgstr ""
+"Bu süzgeç, eşdikdörtgensel görüntü olarak da bilinen 360° x 180° görüntüyü "
+"panoramaya dönüştürür."
 
 #: src/filters/map/panorama-projection.xml:29(para)
 msgid ""
@@ -1317,46 +1465,57 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Panorama Projection…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Panorama Gösterimi…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/map/panorama-projection.xml:42(title)
 msgid "<quote>Panorama Projection</quote> filter options"
-msgstr ""
+msgstr "<quote>Panorama Gösterimi</quote> süzgeci seçenekleri"
 
 #: src/filters/map/panorama-projection.xml:50(para)
 msgid ""
 "These options are the same as <xref linkend=\"gimp-filter-little-planet\"/> "
 "options."
 msgstr ""
+"Bu seçenekler <xref linkend=\"gimp-filter-little-planet\"/> seçenekleriyle "
+"aynıdır."
 
 #: src/filters/map/panorama-projection.xml:57(title)
 msgid "Key Modifiers"
-msgstr ""
+msgstr "Tuş Değiştiriciler"
 
 #: src/filters/map/panorama-projection.xml:58(para)
 msgid "<emphasis role=\"bold\">Click and drag</emphasis> to pan."
-msgstr ""
+msgstr "<emphasis role=\"bold\">Tıklama ve sürükleme</emphasis> kaydırma."
 
 #: src/filters/map/panorama-projection.xml:61(para)
 msgid ""
 "<emphasis role=\"bold\"><keycap>Shift</keycap> + Click and drag</emphasis> "
 "to rotate."
 msgstr ""
+"<emphasis role=\"bold\"><keycap>Shift</keycap> + Tıklama ve sürükleme</"
+"emphasis> döndürme."
 
 #: src/filters/map/panorama-projection.xml:64(para)
 msgid ""
 "<emphasis role=\"bold\"><keycap>Ctrl</keycap> + Click and drag</emphasis> to "
 "pan with a constrained axis."
 msgstr ""
+"<emphasis role=\"bold\"><keycap>Ctrl</keycap> + Tıklama ve sürükleme</"
+"emphasis> kısıtlı eksenle kaydırma."
 
 #: src/filters/map/panorama-projection.xml:68(para)
 msgid ""
 "<emphasis role=\"bold\"><keycap>Alt</keycap> + Click and drag</emphasis> to "
 "zoom."
 msgstr ""
+"<emphasis role=\"bold\"><keycap>Alt</keycap> + Tıklama ve sürükleme</"
+"emphasis> yakınlaştırma."
 
 #: src/filters/map/panorama-projection.xml:74(title)
 msgid "Using Panorama Projection filter"
-msgstr ""
+msgstr "Panorama Gösterimi süzgecini kullanma"
 
 #: src/filters/map/panorama-projection.xml:76(para)
 #: src/filters/map/little-planet.xml:128(para)
@@ -1365,6 +1524,9 @@ msgid ""
 "commons.wikimedia.org/wiki/"
 "Category:360&#xB0;_panoramas_with_equirectangular_projection\"/>."
 msgstr ""
+"Ücretsiz eşdiktörtgensel görüntüleri şurada bulabilirsiniz: <ulink "
+"url=\"https://commons.wikimedia.org/wiki/"
+"Category:360&#xB0;_panoramas_with_equirectangular_projection\"/>."
 
 #: src/filters/map/panorama-projection.xml:97(para)
 msgid ""
@@ -1388,15 +1550,15 @@ msgstr ""
 
 #: src/filters/map/panorama-projection.xml:110(title)
 msgid "<quote>Panorama Projection</quote> filter applied"
-msgstr ""
+msgstr "<quote>Panorama Gösterimi</quote> süzgeci uygulandı"
 
 #: src/filters/map/panorama-projection.xml:117(para)
 msgid "Pan = 0.00"
-msgstr ""
+msgstr "Kaydırma = 0,00"
 
 #: src/filters/map/panorama-projection.xml:128(para)
 msgid "Pan = 66.00"
-msgstr ""
+msgstr "Kaydırma = 66,00"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1405,84 +1567,126 @@ msgid ""
 "@@image: 'images/filters/examples/map-taj-map-object.jpg'; "
 "md5=d1ec5e9a571e59bd5f5c8a01f3dd2e30"
 msgstr ""
+"@@image: 'images/filters/examples/map-taj-map-object.jpg'; "
+"md5=d1ec5e9a571e59bd5f5c8a01f3dd2e30"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/map-object.xml:127(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/mapobject-options-2.png'; "
+#| "md5=a680f95efc7b0c1ea67bff60c7956157"
 msgid ""
 "@@image: 'images/filters/map/mapobject-dialog-options.png'; "
 "md5=8b1fcf9126271e5c6ea1acbe1f7bf2ec"
 msgstr ""
+"@@image: 'images/filters/map/mapobject-dialog-options.png'; "
+"md5=8b1fcf9126271e5c6ea1acbe1f7bf2ec"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/map-object.xml:218(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/pan-project-dialog.png'; "
+#| "md5=e1a3b8d1a91cdfca93226d52e9b775d4"
 msgid ""
 "@@image: 'images/filters/map/mapobject-dialog-light.png'; "
 "md5=b3e508db1cf361d090ba086c71e9d7ba"
 msgstr ""
+"@@image: 'images/filters/map/mapobject-dialog-light.png'; "
+"md5=b3e508db1cf361d090ba086c71e9d7ba"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/map-object.xml:273(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/mapobject-options-3.png'; "
+#| "md5=2c00c8b8082076778a6ac3167437da97"
 msgid ""
 "@@image: 'images/filters/map/mapobject-dialog-viewpoint.png'; "
 "md5=7d829ebcaa726a9c318299653436a90f"
 msgstr ""
+"@@image: 'images/filters/map/mapobject-dialog-viewpoint.png'; "
+"md5=7d829ebcaa726a9c318299653436a90f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/map-object.xml:313(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/mapobject-options-1.png'; "
+#| "md5=e4634e3d4fb2bb37a11153763b9c89ce"
 msgid ""
 "@@image: 'images/filters/map/mapobject-dialog-orientation.png'; "
 "md5=edb6b9655b592fa2623135607b690d87"
 msgstr ""
+"@@image: 'images/filters/map/mapobject-dialog-orientation.png'; "
+"md5=edb6b9655b592fa2623135607b690d87"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/map-object.xml:347(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/paper_tile-dialog.png'; "
+#| "md5=aad5435e8874839a7c0b31a02717b164"
 msgid ""
 "@@image: 'images/filters/map/mapobject-dialog-material.png'; "
 "md5=99db51512d8bf903848e8c01f1614bca"
 msgstr ""
+"@@image: 'images/filters/map/mapobject-dialog-material.png'; "
+"md5=99db51512d8bf903848e8c01f1614bca"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/map-object.xml:420(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/pan-project-dialog.png'; "
+#| "md5=e1a3b8d1a91cdfca93226d52e9b775d4"
 msgid ""
 "@@image: 'images/filters/map/mapobject-dialog-sphere.png'; "
 "md5=ed1b8496d9b9360f5aad72001c955dcd"
 msgstr ""
+"@@image: 'images/filters/map/mapobject-dialog-sphere.png'; "
+"md5=ed1b8496d9b9360f5aad72001c955dcd"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/map-object.xml:453(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/mapobject-options-5.png'; "
+#| "md5=e16511cc342fd1536099c808c8fb0083"
 msgid ""
 "@@image: 'images/filters/map/mapobject-dialog-box.png'; "
 "md5=65b853b83743f3e88148b670df6d062c"
 msgstr ""
+"@@image: 'images/filters/map/mapobject-dialog-box.png'; "
+"md5=65b853b83743f3e88148b670df6d062c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/map-object.xml:490(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/mapobject-options-4.png'; "
+#| "md5=cc7bc6e95f5da2fcdb79a7a8c70d92dd"
 msgid ""
 "@@image: 'images/filters/map/mapobject-dialog-cylinder.png'; "
 "md5=17735650049fb157874d3a7f03ddd2c8"
 msgstr ""
+"@@image: 'images/filters/map/mapobject-dialog-cylinder.png'; "
+"md5=17735650049fb157874d3a7f03ddd2c8"
 
 #: src/filters/map/map-object.xml:10(title)
 #: src/filters/map/map-object.xml:15(tertiary)
 #: src/filters/map/map-object.xml:18(primary)
 msgid "Map Object"
-msgstr ""
+msgstr "Nesne Eşleme"
 
 #: src/filters/map/map-object.xml:24(title)
 msgid "The <quote>Map Object</quote> filter applied to a photograph"
-msgstr ""
+msgstr "<quote>Nesneye Eşle</quote> süzgeci fotoğrafa uygulandı"
 
 #: src/filters/map/map-object.xml:42(para)
 msgid "<quote>Map Object</quote> applied"
-msgstr ""
+msgstr "<quote>Nesneye Eşle</quote> süzgeci uygulandı"
 
 #: src/filters/map/map-object.xml:46(para)
 msgid ""
@@ -1495,14 +1699,17 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Map Object…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Nesne Eşleme…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/map/map-object.xml:69(para)
 msgid "This preview has several possibilities:"
-msgstr ""
+msgstr "Bu ön izlemenin birkaç olasılığı vardır:"
 
 #: src/filters/map/map-object.xml:72(term)
 msgid "Preview!"
-msgstr ""
+msgstr "Ön izleme!"
 
 #: src/filters/map/map-object.xml:74(para)
 msgid ""
@@ -1520,11 +1727,11 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:90(term)
 msgid "Zoom out"
-msgstr ""
+msgstr "Uzaklaştır"
 
 #: src/filters/map/map-object.xml:91(term)
 msgid "Zoom in"
-msgstr ""
+msgstr "Yakınlaştır"
 
 #: src/filters/map/map-object.xml:93(para)
 msgid ""
@@ -1534,7 +1741,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:101(term)
 msgid "Show wireframe"
-msgstr ""
+msgstr "Kılavuz çizgileri göster"
 
 #: src/filters/map/map-object.xml:103(para)
 msgid ""
@@ -1544,7 +1751,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:110(term)
 msgid "Update preview live"
-msgstr ""
+msgstr "Ön izlemeyi anlık güncelle"
 
 #: src/filters/map/map-object.xml:112(para)
 msgid "To have preview working as usual."
@@ -1552,15 +1759,16 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:121(title)
 msgid "General Options"
-msgstr ""
+msgstr "Genel Seçenekler"
 
 #: src/filters/map/map-object.xml:123(title)
 msgid "<quote>Map Object</quote> options (General)"
-msgstr ""
+msgstr "<quote>Nesneye Eşle</quote> seçenekleri (Genel)"
 
+# Arayüzdeki hali kullanıldı.
 #: src/filters/map/map-object.xml:133(term)
 msgid "Map to"
-msgstr ""
+msgstr "Şuraya Eşle"
 
 #: src/filters/map/map-object.xml:135(para)
 msgid ""
@@ -1571,7 +1779,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:144(term)
 msgid "Transparent background"
-msgstr ""
+msgstr "Saydam arka plan"
 
 #: src/filters/map/map-object.xml:146(para)
 msgid ""
@@ -1581,7 +1789,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:153(term)
 msgid "Tile source image"
-msgstr ""
+msgstr "Döşeme kaynak görüntüsü"
 
 #: src/filters/map/map-object.xml:155(para)
 msgid ""
@@ -1597,7 +1805,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:170(term)
 msgid "Create new image"
-msgstr ""
+msgstr "Yeni görüntü oluştur"
 
 #: src/filters/map/map-object.xml:172(para)
 msgid ""
@@ -1607,7 +1815,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:179(term)
 msgid "Antialiasing"
-msgstr ""
+msgstr "Kenar yumuşatma"
 
 #: src/filters/map/map-object.xml:181(para)
 msgid ""
@@ -1619,7 +1827,7 @@ msgstr ""
 #: src/filters/map/fractal-trace.xml:101(term)
 #: src/filters/map/bumpmap.xml:184(term)
 msgid "Depth"
-msgstr ""
+msgstr "Derinlik"
 
 #: src/filters/map/map-object.xml:189(para)
 msgid "Defines antialiasing quality, to the detriment of execution speed."
@@ -1627,7 +1835,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:196(guilabel)
 msgid "Threshold"
-msgstr ""
+msgstr "Eşik"
 
 #: src/filters/map/map-object.xml:198(para)
 msgid ""
@@ -1637,30 +1845,33 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:212(title)
 msgid "Light"
-msgstr ""
+msgstr "Işık"
 
 #: src/filters/map/map-object.xml:214(title)
 msgid "<quote>Map Object</quote> options (Light)"
-msgstr ""
+msgstr "<quote>Nesneye Eşle</quote> seçenekleri (Işık)"
 
 #: src/filters/map/map-object.xml:224(term)
 msgid "Light Settings"
-msgstr ""
+msgstr "Işık Ayarları"
 
 #: src/filters/map/map-object.xml:228(guilabel)
 msgid "Light source type"
-msgstr ""
+msgstr "Işık kaynağı türü"
 
+# Açılır liste vurgusu eklenmedi. Açılır liste yerine açık liste kullanılmış.
 #: src/filters/map/map-object.xml:230(para)
 msgid ""
 "In this drop-down list, you can select among <emphasis>Point light</"
 "emphasis>, <emphasis>Directional light</emphasis> and <emphasis>No light</"
 "emphasis>."
 msgstr ""
+"Şu seçenekler arasında seçim yapabilirsiniz: <emphasis>Nokta Işık</"
+"emphasis>, <emphasis>Yönlü Işık</emphasis> ve <emphasis>Işık Yok</emphasis>"
 
 #: src/filters/map/map-object.xml:238(guilabel)
 msgid "Light source color"
-msgstr ""
+msgstr "Işık kaynağı rengi"
 
 #: src/filters/map/map-object.xml:240(para)
 msgid "Press this button to open the Color Selector dialog."
@@ -1669,7 +1880,7 @@ msgstr ""
 #: src/filters/map/map-object.xml:249(term)
 #: src/filters/map/map-object.xml:319(term)
 msgid "Position"
-msgstr ""
+msgstr "Konum"
 
 #: src/filters/map/map-object.xml:251(para)
 msgid ""
@@ -1686,15 +1897,15 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:267(title)
 msgid "Viewpoint"
-msgstr ""
+msgstr "Bakış Açısı"
 
 #: src/filters/map/map-object.xml:269(title)
 msgid "<quote>Map Object</quote> options (Viewpoint)"
-msgstr ""
+msgstr "<quote>Nesneye Eşle</quote> seçenekleri (Bakış Açısı)"
 
 #: src/filters/map/map-object.xml:279(term)
 msgid "Viewpoint Position"
-msgstr ""
+msgstr "Bakış Açısı Konumu"
 
 #: src/filters/map/map-object.xml:281(para)
 msgid ""
@@ -1711,11 +1922,11 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:292(term)
 msgid "First Axis"
-msgstr ""
+msgstr "Birinci Eksen"
 
 #: src/filters/map/map-object.xml:293(term)
 msgid "Second Axis"
-msgstr ""
+msgstr "İkinci Eksen"
 
 #: src/filters/map/map-object.xml:295(para)
 msgid ""
@@ -1726,11 +1937,11 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:307(title)
 msgid "Orientation"
-msgstr ""
+msgstr "Yönelim"
 
 #: src/filters/map/map-object.xml:309(title)
 msgid "<quote>Map Object</quote> options (Orientation)"
-msgstr ""
+msgstr "<quote>Nesneye Eşle</quote> seçenekleri (Yönelim)"
 
 #: src/filters/map/map-object.xml:321(para)
 msgid ""
@@ -1741,7 +1952,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:329(term)
 msgid "Rotation"
-msgstr ""
+msgstr "Döndürme"
 
 #: src/filters/map/map-object.xml:331(para)
 msgid ""
@@ -1750,19 +1961,19 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:341(title)
 msgid "Material"
-msgstr ""
+msgstr "Malzeme"
 
 #: src/filters/map/map-object.xml:343(title)
 msgid "<quote>Map Object</quote> options (Material)"
-msgstr ""
+msgstr "<quote>Nesneye Eşle</quote> seçenekleri (Malzeme)"
 
 #: src/filters/map/map-object.xml:353(term)
 msgid "Intensity Levels"
-msgstr ""
+msgstr "Yoğunluk Düzeyleri"
 
 #: src/filters/map/map-object.xml:357(guilabel)
 msgid "Ambient"
-msgstr ""
+msgstr "Ortam"
 
 #: src/filters/map/map-object.xml:359(para)
 msgid "Amount of color to show where no light falls directly."
@@ -1771,7 +1982,7 @@ msgstr ""
 #: src/filters/map/map-object.xml:365(guilabel)
 #: src/filters/map/map-object.xml:380(guilabel)
 msgid "Diffuse"
-msgstr ""
+msgstr "Yay"
 
 #: src/filters/map/map-object.xml:367(para)
 msgid "Intensity of original color when lit by a light source."
@@ -1779,7 +1990,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:376(term)
 msgid "Reflectivity"
-msgstr ""
+msgstr "Yansıtıcılık"
 
 #: src/filters/map/map-object.xml:382(para)
 msgid "Higher values make object reflect more light (looks brighter)."
@@ -1787,7 +1998,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:389(guilabel)
 msgid "Specular"
-msgstr ""
+msgstr "Yansıtıcı"
 
 #: src/filters/map/map-object.xml:391(para)
 msgid "Controls how intense the highlights will be."
@@ -1795,7 +2006,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:397(guilabel)
 msgid "Highlight"
-msgstr ""
+msgstr "Vurgu"
 
 #: src/filters/map/map-object.xml:399(para)
 msgid "Higher values make the highlights more focused."
@@ -1803,7 +2014,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:411(title)
 msgid "Sphere"
-msgstr ""
+msgstr "Küre"
 
 #: src/filters/map/map-object.xml:412(para)
 msgid "This tab appears only when you select the Sphere object."
@@ -1811,17 +2022,17 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:416(title)
 msgid "<quote>Map Object</quote> options (Sphere)"
-msgstr ""
+msgstr "<quote>Nesneye Eşle</quote> seçenekleri (Küre)"
 
 #: src/filters/map/map-object.xml:426(term)
 #: src/filters/map/map-object.xml:506(term)
 msgid "Size"
-msgstr ""
+msgstr "Boyut"
 
 #: src/filters/map/map-object.xml:430(term)
 #: src/filters/map/map-object.xml:510(guilabel)
 msgid "Radius"
-msgstr ""
+msgstr "Yarıçap"
 
 #: src/filters/map/map-object.xml:432(para)
 msgid "The radius ratio in comparison to the image size."
@@ -1829,7 +2040,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:444(title)
 msgid "Box"
-msgstr ""
+msgstr "Kutu"
 
 #: src/filters/map/map-object.xml:445(para)
 msgid "This tab appears only when you select the Box object."
@@ -1837,11 +2048,11 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:449(title)
 msgid "<quote>Map Object</quote> options (Box)"
-msgstr ""
+msgstr "<quote>Nesneye Eşle</quote> seçenekleri (Kutu)"
 
 #: src/filters/map/map-object.xml:459(term)
 msgid "Map Images to Box Faces"
-msgstr ""
+msgstr "Görüntüleri Kutu Yüzeylerine Eşle"
 
 #: src/filters/map/map-object.xml:461(para)
 msgid ""
@@ -1851,7 +2062,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:469(term)
 msgid "Scale"
-msgstr ""
+msgstr "Ölçek"
 
 #: src/filters/map/map-object.xml:471(para)
 msgid ""
@@ -1861,7 +2072,7 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:481(title)
 msgid "Cylinder"
-msgstr ""
+msgstr "Silindir"
 
 #: src/filters/map/map-object.xml:482(para)
 msgid "This tab appears only when you select the Cylinder object."
@@ -1869,11 +2080,11 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:486(title)
 msgid "<quote>Map Object</quote> options (Cylinder)"
-msgstr ""
+msgstr "<quote>Nesneye Eşle</quote> seçenekleri (Silindir)"
 
 #: src/filters/map/map-object.xml:496(term)
 msgid "Images for the Cap Faces"
-msgstr ""
+msgstr "Kapak Yüzeyleri için görüntüler"
 
 #: src/filters/map/map-object.xml:498(para)
 msgid ""
@@ -1892,19 +2103,24 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:523(guilabel)
 msgid "Length"
-msgstr ""
+msgstr "Uzunluk"
 
 #: src/filters/map/map-object.xml:525(para)
 msgid "Controls cylinder length."
-msgstr ""
+msgstr "Silindir uzunluğunu denetler."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/little-planet.xml:49(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/little_planet-dialog.png'; "
+#| "md5=d5fb79df44ce79b1b99eeb0fcc0e7c8d"
 msgid ""
 "@@image: 'images/filters/map/little_planet-dialog.png'; "
 "md5=0a173868d2a341b9dba6745db1724075"
 msgstr ""
+"@@image: 'images/filters/map/little_planet-dialog.png'; "
+"md5=0a173868d2a341b9dba6745db1724075"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1913,6 +2129,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/little_planet-equirect.jpg'; "
 "md5=96c2457ea119db4ed1c25cf87ebd2c8e"
 msgstr ""
+"@@image: 'images/filters/examples/map/little_planet-equirect.jpg'; "
+"md5=96c2457ea119db4ed1c25cf87ebd2c8e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1921,6 +2139,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/little_planet-applied.jpg'; "
 "md5=f096f5bb84fe2cf525a3344e3f7be109"
 msgstr ""
+"@@image: 'images/filters/examples/map/little_planet-applied.jpg'; "
+"md5=f096f5bb84fe2cf525a3344e3f7be109"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1929,6 +2149,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/little_planet-origin.jpg'; "
 "md5=7c1cc732db0be802ee3ae738bb2c0709"
 msgstr ""
+"@@image: 'images/filters/examples/map/little_planet-origin.jpg'; "
+"md5=7c1cc732db0be802ee3ae738bb2c0709"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1937,6 +2159,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/little_planet-default.jpg'; "
 "md5=12a98b2c2687dc8f7faa9025fd5b48cb"
 msgstr ""
+"@@image: 'images/filters/examples/map/little_planet-default.jpg'; "
+"md5=12a98b2c2687dc8f7faa9025fd5b48cb"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1945,6 +2169,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/little_planet-flip.jpg'; "
 "md5=124ddb54bd1af7dc9f77c520f715ee2a"
 msgstr ""
+"@@image: 'images/filters/examples/map/little_planet-flip.jpg'; "
+"md5=124ddb54bd1af7dc9f77c520f715ee2a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1953,6 +2179,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/little_planet-equal.jpg'; "
 "md5=6d5b2d1851338b937d06d1b9aeeed787"
 msgstr ""
+"@@image: 'images/filters/examples/map/little_planet-equal.jpg'; "
+"md5=6d5b2d1851338b937d06d1b9aeeed787"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1961,12 +2189,14 @@ msgid ""
 "@@image: 'images/filters/examples/map/little_planet-result.jpg'; "
 "md5=68e933c9c7e96957eae58561dd6dd99a"
 msgstr ""
+"@@image: 'images/filters/examples/map/little_planet-result.jpg'; "
+"md5=68e933c9c7e96957eae58561dd6dd99a"
 
 #: src/filters/map/little-planet.xml:9(title)
 #: src/filters/map/little-planet.xml:14(tertiary)
 #: src/filters/map/little-planet.xml:17(primary)
 msgid "Little Planet"
-msgstr ""
+msgstr "Küçük Gezegen"
 
 #: src/filters/map/little-planet.xml:22(para)
 msgid ""
@@ -1982,14 +2212,18 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Little Planet…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Küçük Gezegen…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/map/little-planet.xml:45(title)
 msgid "<quote>Little Planet</quote> filter options"
-msgstr ""
+msgstr "<quote>Küçük Gezegen</quote> süzgeci seçenekleri"
 
+# Arayüzde bu şekilde kullanılmış.
 #: src/filters/map/little-planet.xml:68(term)
 msgid "Pan"
-msgstr ""
+msgstr "Kaydırma"
 
 #: src/filters/map/little-planet.xml:70(para)
 msgid ""
@@ -2000,7 +2234,7 @@ msgstr ""
 
 #: src/filters/map/little-planet.xml:78(term)
 msgid "Tilt"
-msgstr ""
+msgstr "Eğim"
 
 #: src/filters/map/little-planet.xml:80(para)
 msgid "Vertical camera panning. Moves line of sight upwards/downwards."
@@ -2008,15 +2242,16 @@ msgstr ""
 
 #: src/filters/map/little-planet.xml:86(term)
 msgid "Spin"
-msgstr ""
+msgstr "Dönüş"
 
 #: src/filters/map/little-planet.xml:88(para)
 msgid "Spin angle around camera axis. Rotates planet around line of sight."
 msgstr ""
 
+# Arayüzde bu şekilde kullanılmış.
 #: src/filters/map/little-planet.xml:94(term)
 msgid "Zoom"
-msgstr ""
+msgstr "Yakınlaştır"
 
 #: src/filters/map/little-planet.xml:96(para)
 msgid "Zoom level. Zooms planet in/out."
@@ -2025,7 +2260,7 @@ msgstr ""
 #. I don't understand this option; simply copied the UI pop up help
 #: src/filters/map/little-planet.xml:103(term)
 msgid "Inverse transform"
-msgstr ""
+msgstr "Ters dönüşüm"
 
 #: src/filters/map/little-planet.xml:105(para)
 msgid ""
@@ -2035,17 +2270,20 @@ msgstr ""
 
 #: src/filters/map/little-planet.xml:118(para)
 msgid "<quote>Cubic</quote> may give better result."
-msgstr ""
+msgstr "<quote>Kübik</quote> daha iyi sonuç verebilir."
 
 #: src/filters/map/little-planet.xml:126(title)
 msgid "Using Little Planet filter with an equirectangular image"
-msgstr ""
+msgstr "Küçük Gezegen süzgecini eşdikdörtgensel görüntü ile kullanma"
 
 #: src/filters/map/little-planet.xml:140(subscript)
 msgid ""
 "Ettling_Isar_panorama.jpg by © Simon Waldherr under <ulink url=\"https://"
 "creativecommons.org/licenses/by-sa/4.0\"> CC by-sa 4.0</ulink>"
 msgstr ""
+"Ettling_Isar_panorama.jpg © Simon Waldherr, <ulink url=\"https://"
+"creativecommons.org/licenses/by-sa/4.0\"> CC by-sa 4.0</ulink> ile "
+"lisanslanmıştır."
 
 #: src/filters/map/little-planet.xml:145(para)
 msgid ""
@@ -2057,7 +2295,7 @@ msgstr ""
 #: src/filters/map/little-planet.xml:158(para)
 #: src/filters/map/little-planet.xml:288(para)
 msgid "Filter applied"
-msgstr ""
+msgstr "Süzgeç uygulandı."
 
 #: src/filters/map/little-planet.xml:166(title)
 msgid "Using Little Planet filter with a normal image"
@@ -2075,11 +2313,11 @@ msgstr ""
 
 #: src/filters/map/little-planet.xml:177(title)
 msgid "Original Images"
-msgstr ""
+msgstr "Özgün görüntüler"
 
 #: src/filters/map/little-planet.xml:184(para)
 msgid "Original panorama"
-msgstr ""
+msgstr "Özgün panorama"
 
 #: src/filters/map/little-planet.xml:195(para)
 msgid "Filter applied directly with default options"
@@ -2116,7 +2354,7 @@ msgstr ""
 
 #: src/filters/map/little-planet.xml:237(para)
 msgid "Flip new layer horizontally."
-msgstr ""
+msgstr "Yeni katmanı yatay çevir."
 
 #: src/filters/map/little-planet.xml:246(para)
 msgid ""
@@ -2134,20 +2372,20 @@ msgstr ""
 
 #: src/filters/map/little-planet.xml:264(para)
 msgid "Apply Little planet filter."
-msgstr ""
+msgstr "Küçük Gezegen süzgecini uygulayın."
 
 #: src/filters/map/little-planet.xml:270(title)
 msgid "Results"
-msgstr ""
+msgstr "Sonuçlar"
 
 #: src/filters/map/little-planet.xml:277(para)
 msgid "Prepared image"
-msgstr ""
+msgstr "Hazırlanan görüntü"
 
 #: src/filters/map/introduction.xml:10(title)
 #: src/filters/map/introduction.xml:14(tertiary)
 msgid "Introduction"
-msgstr ""
+msgstr "Giriş"
 
 #: src/filters/map/introduction.xml:16(para)
 msgid ""
@@ -2162,7 +2400,7 @@ msgstr ""
 
 #: src/filters/map/introduction.xml:26(para)
 msgid "This category describes the following filters:"
-msgstr ""
+msgstr "Bu kategori aşağıdaki süzgeçleri açıklar:"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2172,6 +2410,8 @@ msgid ""
 "@@image: 'images/filters/examples/kvitveis-orig.png'; "
 "md5=b7f1042ff77937e9155254e446fdac74"
 msgstr ""
+"@@image: 'images/filters/examples/kvitveis-orig.png'; "
+"md5=b7f1042ff77937e9155254e446fdac74"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2180,14 +2420,21 @@ msgid ""
 "@@image: 'images/filters/examples/kvitveis-illusion.png'; "
 "md5=ca31aee1ee969f91ee4a06507cae20cd"
 msgstr ""
+"@@image: 'images/filters/examples/kvitveis-illusion.png'; "
+"md5=ca31aee1ee969f91ee4a06507cae20cd"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/illusion.xml:71(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/illusion-dialog.png'; "
+#| "md5=2a704a450515ef0929a758ce0e346e40"
 msgid ""
 "@@image: 'images/filters/map/illusion-dialog.png'; "
 "md5=3fa206763db8647b556326e063b95551"
 msgstr ""
+"@@image: 'images/filters/map/illusion-dialog.png'; "
+"md5=3fa206763db8647b556326e063b95551"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2196,6 +2443,8 @@ msgid ""
 "@@image: 'images/filters/examples/map-illusiona.png'; "
 "md5=8caa0699b625d092d1c01deeac970f83"
 msgstr ""
+"@@image: 'images/filters/examples/map-illusiona.png'; "
+"md5=8caa0699b625d092d1c01deeac970f83"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2204,6 +2453,8 @@ msgid ""
 "@@image: 'images/filters/examples/map-illusionb.png'; "
 "md5=2a2e504097103a4fb8b1109ad917ebc5"
 msgstr ""
+"@@image: 'images/filters/examples/map-illusionb.png'; "
+"md5=2a2e504097103a4fb8b1109ad917ebc5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2212,17 +2463,19 @@ msgid ""
 "@@image: 'images/filters/examples/map-illusionc.png'; "
 "md5=9935d0561a0a2bf9bde9015acfd5f80a"
 msgstr ""
+"@@image: 'images/filters/examples/map-illusionc.png'; "
+"md5=9935d0561a0a2bf9bde9015acfd5f80a"
 
 #: src/filters/map/illusion.xml:11(title)
 #: src/filters/map/illusion.xml:16(tertiary)
 #: src/filters/map/illusion.xml:19(primary)
 #: src/filters/map/illusion.xml:25(title)
 msgid "Illusion"
-msgstr ""
+msgstr "Yanılsama"
 
 #: src/filters/map/illusion.xml:41(para)
 msgid "Filter <quote>Illusion</quote> applied"
-msgstr ""
+msgstr "<quote>Yanılsama</quote> süzgeci uygulandı"
 
 #: src/filters/map/illusion.xml:45(para)
 msgid ""
@@ -2230,6 +2483,9 @@ msgid ""
 "kaleidoscope. This filter duplicates your image in many copies, more or less "
 "dimmed and split, and puts them around the center of the image."
 msgstr ""
+"Bu süzgeçle görüntünüz (etkin katman ya da seçim) çiçek dürbünü gibi "
+"görünür. Bu süzgeç görüntünüzü az ya da çok karartılmış ve bölünmüş birçok "
+"kopya olarak çoğaltır ve bunları görüntü merkezinin etrafına yerleştirir."
 
 #: src/filters/map/illusion.xml:54(para)
 msgid ""
@@ -2237,32 +2493,37 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Illusion…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Yanılsama…</guimenuitem></"
+"menuchoice> altında bulunur."
 
 #: src/filters/map/illusion.xml:67(title)
 msgid "<quote>Illusion</quote> filter options"
-msgstr ""
+msgstr "<quote>Yanılsama</quote> süzgeci seçenekleri"
 
 #: src/filters/map/illusion.xml:89(term)
 msgid "Division"
-msgstr ""
+msgstr "Bölüm"
 
 #: src/filters/map/illusion.xml:91(para)
 msgid ""
 "That's the number of copies you want to apply to image. This value varies "
 "from -32 to 64. Negative values invert kaleidoscope rotation."
 msgstr ""
+"Bu, görüntüye uygulamak istediğiniz kopya sayısıdır. Bu değer -32 ila 64 "
+"arasında değişir. Negatif değerler çiçek dürbünü dönüşünü tersine çevirir."
 
 #: src/filters/map/illusion.xml:99(term)
 msgid "Illusion type"
-msgstr ""
+msgstr "Yanılsama türü"
 
 #: src/filters/map/illusion.xml:101(para)
 msgid "You have two arrangement types for copies in image:"
-msgstr ""
+msgstr "Görüntüdeki kopyalar için iki düzenleme türü vardır:"
 
 #: src/filters/map/illusion.xml:105(title)
 msgid "From left to right: original image, Type 1, Type 2, with Divisions=4"
-msgstr ""
+msgstr "Soldan sağa: özgün görüntü, Tip 1, Tip 2, Bölüm=4 ile"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2271,28 +2532,35 @@ msgid ""
 "@@image: 'images/filters/examples/kvitveis-fractal.png'; "
 "md5=92ccf2d1b6ee02fcd2d75bf2051d7bd3"
 msgstr ""
+"@@image: 'images/filters/examples/kvitveis-fractal.png'; "
+"md5=92ccf2d1b6ee02fcd2d75bf2051d7bd3"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/fractal-trace.xml:70(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/fractal_trace-dialog.png'; "
+#| "md5=f31e1e992377f5a3bedf91fda083f005"
 msgid ""
 "@@image: 'images/filters/map/fractal_trace-dialog.png'; "
 "md5=bc6ad3f488dc7d3e314526f92da7f247"
 msgstr ""
+"@@image: 'images/filters/map/fractal_trace-dialog.png'; "
+"md5=bc6ad3f488dc7d3e314526f92da7f247"
 
 #: src/filters/map/fractal-trace.xml:11(title)
 #: src/filters/map/fractal-trace.xml:16(tertiary)
 #: src/filters/map/fractal-trace.xml:25(title)
 msgid "Fractal Trace"
-msgstr ""
+msgstr "Fraktal İzi"
 
 #: src/filters/map/fractal-trace.xml:19(primary)
 msgid "Fractal trace"
-msgstr ""
+msgstr "Fraktal izi"
 
 #: src/filters/map/fractal-trace.xml:41(para)
 msgid "Filter <quote>Fractal Trace</quote> applied"
-msgstr ""
+msgstr "<quote>Fraktal İzi</quote> süzgeci uygulandı"
 
 #: src/filters/map/fractal-trace.xml:45(para)
 msgid ""
@@ -2306,34 +2574,38 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Fractal trace…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Fraktal İzi…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/map/fractal-trace.xml:66(title)
 msgid "<quote>Fractal trace</quote> filter options"
-msgstr ""
+msgstr "<quote>Fraktal iz</quote> süzgeç seçenekleri"
 
 #: src/filters/map/fractal-trace.xml:89(term)
 msgid "Fractal type"
-msgstr ""
+msgstr "Fraktal türü"
 
 #: src/filters/map/fractal-trace.xml:91(para)
 msgid "You choose between <quote>Mandelbrot</quote> and <quote>Julia</quote>."
 msgstr ""
+"<quote>Mandelbrot</quote> ve <quote>Julia</quote> arasında seçim yaparsınız."
 
 #: src/filters/map/fractal-trace.xml:97(term)
 msgid "X1"
-msgstr ""
+msgstr "X1"
 
 #: src/filters/map/fractal-trace.xml:98(term)
 msgid "X2"
-msgstr ""
+msgstr "X2"
 
 #: src/filters/map/fractal-trace.xml:99(term)
 msgid "Y1"
-msgstr ""
+msgstr "Y1"
 
 #: src/filters/map/fractal-trace.xml:100(term)
 msgid "Y2"
-msgstr ""
+msgstr "Y2"
 
 #: src/filters/map/fractal-trace.xml:103(para)
 msgid ""
@@ -2345,25 +2617,27 @@ msgstr ""
 
 #: src/filters/map/fractal-trace.xml:113(term)
 msgid "JX"
-msgstr ""
+msgstr "JX"
 
 #: src/filters/map/fractal-trace.xml:114(term)
 msgid "JY"
-msgstr ""
+msgstr "JY"
 
 #: src/filters/map/fractal-trace.xml:116(para)
 msgid ""
 "Julia seed X and Y value positions. Only shown when fractal type is Julia."
 msgstr ""
+"Julia parçacığı ve ilintili X-Y değer konumları. Yalnızca fraktal türü Julia "
+"olduğunda gösterilir."
 
 #: src/filters/map/fractal-trace.xml:123(term)
 msgid "Bailout length"
-msgstr ""
+msgstr "Kurtarma uzunluğu"
 
 #: src/filters/map/fractal-trace.xml:131(term)
 #: src/filters/map/displace.xml:156(term)
 msgid "Abyss policy"
-msgstr ""
+msgstr "Uçurum ilkesi"
 
 #: src/filters/map/fractal-trace.xml:133(para)
 msgid ""
@@ -2379,6 +2653,8 @@ msgid ""
 "@@image: 'images/filters/examples/map-displace7a.png'; "
 "md5=8b1eea7060eeeb5bc83cfd580806009d"
 msgstr ""
+"@@image: 'images/filters/examples/map-displace7a.png'; "
+"md5=8b1eea7060eeeb5bc83cfd580806009d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2387,6 +2663,8 @@ msgid ""
 "@@image: 'images/filters/examples/map-displace7b.png'; "
 "md5=50e5834798ce4a6e8ff5e7e8291bc68d"
 msgstr ""
+"@@image: 'images/filters/examples/map-displace7b.png'; "
+"md5=50e5834798ce4a6e8ff5e7e8291bc68d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2395,14 +2673,21 @@ msgid ""
 "@@image: 'images/filters/examples/map-displace7c.png'; "
 "md5=378d94451b6010c2293dc36beae0fe6d"
 msgstr ""
+"@@image: 'images/filters/examples/map-displace7c.png'; "
+"md5=378d94451b6010c2293dc36beae0fe6d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/displace.xml:95(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/displace-dialog.png'; "
+#| "md5=3194b3a2b736950c1305d3fd32af5590"
 msgid ""
 "@@image: 'images/filters/map/displace-dialog.png'; "
 "md5=43e2f9e7dcd406e4f1d62c62ac66bd21"
 msgstr ""
+"@@image: 'images/filters/map/displace-dialog.png'; "
+"md5=43e2f9e7dcd406e4f1d62c62ac66bd21"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2411,6 +2696,8 @@ msgid ""
 "@@image: 'images/filters/map/displace-cartesian.png'; "
 "md5=d9d85d393ebe954d88ad7ddca96eb560"
 msgstr ""
+"@@image: 'images/filters/map/displace-cartesian.png'; "
+"md5=d9d85d393ebe954d88ad7ddca96eb560"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2419,6 +2706,8 @@ msgid ""
 "@@image: 'images/filters/map/displace-polar.png'; "
 "md5=b0d4c2d1983488615ef9d1720d4c9d62"
 msgstr ""
+"@@image: 'images/filters/map/displace-polar.png'; "
+"md5=b0d4c2d1983488615ef9d1720d4c9d62"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2427,6 +2716,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-vchain.svg'; "
 "md5=d47eea1ce790b9e3211d223704a1e9de"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2435,6 +2726,8 @@ msgid ""
 "@@image: 'images/filters/examples/map-displace-pinch.png'; "
 "md5=c9b3409281682751687f55da9f5058db"
 msgstr ""
+"@@image: 'images/filters/examples/map-displace-pinch.png'; "
+"md5=c9b3409281682751687f55da9f5058db"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2443,6 +2736,8 @@ msgid ""
 "@@image: 'images/filters/examples/2zinnias-c.png'; "
 "md5=91bdd5fe285c450a9df5aa4d9a9a14d0"
 msgstr ""
+"@@image: 'images/filters/examples/2zinnias-c.png'; "
+"md5=91bdd5fe285c450a9df5aa4d9a9a14d0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2451,6 +2746,8 @@ msgid ""
 "@@image: 'images/filters/examples/2zinnias-i.png'; "
 "md5=3a1565b2053729de6248d046cd32aac8"
 msgstr ""
+"@@image: 'images/filters/examples/2zinnias-i.png'; "
+"md5=3a1565b2053729de6248d046cd32aac8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2459,6 +2756,8 @@ msgid ""
 "@@image: 'images/filters/examples/map-displace5.png'; "
 "md5=391ebe52eac1190b60c774fd1acab261"
 msgstr ""
+"@@image: 'images/filters/examples/map-displace5.png'; "
+"md5=391ebe52eac1190b60c774fd1acab261"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2467,14 +2766,21 @@ msgid ""
 "@@image: 'images/filters/examples/map-displace6.png'; "
 "md5=fe21cfaca63b48351329a412630b08bb"
 msgstr ""
+"@@image: 'images/filters/examples/map-displace6.png'; "
+"md5=fe21cfaca63b48351329a412630b08bb"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/displace.xml:429(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/map/displace-ex-1.png'; "
+#| "md5=78fd7edcc822ca3df4d93885044bc22e"
 msgid ""
 "@@image: 'images/filters/examples/map/displace-ex-1.png'; "
 "md5=35cd34b5521b2a46b196a037bea822ce"
 msgstr ""
+"@@image: 'images/filters/examples/map/displace-ex-1.png'; "
+"md5=35cd34b5521b2a46b196a037bea822ce"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2483,6 +2789,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/displace-ex-2.png'; "
 "md5=2efbebbc3fabad42e981e8d0ad8eaf14"
 msgstr ""
+"@@image: 'images/filters/examples/map/displace-ex-2.png'; "
+"md5=2efbebbc3fabad42e981e8d0ad8eaf14"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2491,6 +2799,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/displace-ex-3.png'; "
 "md5=ac9c228cc8d71c64e5c67612b0ef8f72"
 msgstr ""
+"@@image: 'images/filters/examples/map/displace-ex-3.png'; "
+"md5=ac9c228cc8d71c64e5c67612b0ef8f72"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2499,16 +2809,18 @@ msgid ""
 "@@image: 'images/filters/examples/map-displace8.png'; "
 "md5=bcbdf325a5e9f8ea501716beb28d4e9c"
 msgstr ""
+"@@image: 'images/filters/examples/map-displace8.png'; "
+"md5=bcbdf325a5e9f8ea501716beb28d4e9c"
 
 #: src/filters/map/displace.xml:13(title)
 #: src/filters/map/displace.xml:17(tertiary)
 #: src/filters/map/displace.xml:20(primary)
 msgid "Displace"
-msgstr ""
+msgstr "Yer Değiştir"
 
 #: src/filters/map/displace.xml:26(title)
 msgid "Displacement examples"
-msgstr ""
+msgstr "Yer değiştirme örnekleri"
 
 #: src/filters/map/displace.xml:42(para)
 msgid ""
@@ -2542,18 +2854,21 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Displace…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Yer Değiştir…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/map/displace.xml:91(title)
 msgid "Displace filter options"
-msgstr ""
+msgstr "Yer Değiştir süzgeci seçenekleri"
 
 #: src/filters/map/displace.xml:113(term)
 msgid "Aux"
-msgstr ""
+msgstr "Yatay/Radyal"
 
 #: src/filters/map/displace.xml:114(term)
 msgid "Aux2"
-msgstr ""
+msgstr "Dikey/Açısal"
 
 #: src/filters/map/displace.xml:116(para)
 msgid ""
@@ -2570,8 +2885,9 @@ msgstr ""
 
 #: src/filters/map/displace.xml:129(term)
 msgid "Displacement Mode"
-msgstr ""
+msgstr "Yer değiştirme kipi"
 
+# Tek ve çok uzun çeviri yerine bölünmüş ve özgün metinden ilham alan bir çeviri yeğlendi.
 #: src/filters/map/displace.xml:131(para)
 msgid ""
 "You can choose working in <link linkend=\"gimp-filter-displace-"
@@ -2580,34 +2896,44 @@ msgid ""
 "displace-polar\">Polar</link> coordinates, where the image is pinched and "
 "whirled by displacing pixels in radial or tangent direction."
 msgstr ""
+"İki koordinat seçeneği sunulmaktadır: Piksellerin Yatay veya Dikey yer "
+"değiştirdiği <link linkend=\"gimp-filter-displace-cartesian\">Kartezyen</"
+"link> koordinatlar. Piksellerin radyal veya tanjant yönde yer değiştirerek "
+"görüntünün sıkıştırıldığı ve döndürüldüğü <link linkend=\"gimp-filter-"
+"displace-polar\">Kutup</link> koordinatlar."
 
 #: src/filters/map/displace.xml:140(para)
 msgid "Please see the next sections for details about these options."
-msgstr ""
+msgstr "Bu seçeneklerle ilgili ayrıntılar için sonraki bölümlere bakın."
 
 #: src/filters/map/displace.xml:146(term)
 msgid "Sampler"
-msgstr ""
+msgstr "Örnekleyici"
 
 #: src/filters/map/displace.xml:148(para)
 msgid ""
 "Interpolation methods are described in <link linkend=\"gimp-tool-"
 "interpolation-methods\">Transform tools</link>"
 msgstr ""
+"Ara değerleme yöntemleri <link linkend=\"gimp-tool-interpolation-"
+"methods\">Dönüşüm araçları</link> bölümünde açıklanmıştır"
 
 #: src/filters/map/displace.xml:158(para)
 msgid ""
 "These options allows you to set displacement behavior on active layer or "
 "selection edges. They are described in <xref linkend=\"abyss-policy\"/>"
 msgstr ""
+"Bu seçenekler, etkin katman veya seçim kenarlarında yer değiştirme "
+"davranışını ayarlamanıza olanak tanır. Bunlar şurada açıklanmıştır <xref "
+"linkend=\"abyss-policy\"/>"
 
 #: src/filters/map/displace.xml:168(title)
 msgid "Cartesian Displacement Mode"
-msgstr ""
+msgstr "Kartezyen Yer Değiştirme Kipi"
 
 #: src/filters/map/displace.xml:170(title)
 msgid "Displace filter options (Cartesian)"
-msgstr ""
+msgstr "Yer Değiştir süzgeci seçenekleri (Kartezyen)"
 
 #: src/filters/map/displace.xml:177(para)
 msgid "Horizontal and vertical displacements are 20 pixels"
@@ -2630,11 +2956,11 @@ msgstr ""
 
 #: src/filters/map/displace.xml:196(term)
 msgid "Horizontal displacement"
-msgstr ""
+msgstr "Yatay yer değiştirme"
 
 #: src/filters/map/displace.xml:197(term)
 msgid "Vertical displacement"
-msgstr ""
+msgstr "Dikey yer değiştirme"
 
 #: src/filters/map/displace.xml:199(para)
 msgid ""
@@ -2685,19 +3011,19 @@ msgstr ""
 
 #: src/filters/map/displace.xml:250(title)
 msgid "Polar Displacement Mode"
-msgstr ""
+msgstr "Kutup Yer Değiştirme Kipi"
 
 #: src/filters/map/displace.xml:252(title)
 msgid "Displace filter options (Polar)"
-msgstr ""
+msgstr "Yer Değiştir süzgeci seçenekleri (Kutup)"
 
 #: src/filters/map/displace.xml:259(para)
 msgid "Polar mode: Pinch only (<placeholder-1/> chain broken)"
-msgstr ""
+msgstr "Kutup kipi: Kıstırma sadece (<placeholder-1/> zincir kırık)"
 
 #: src/filters/map/displace.xml:275(term)
 msgid "Pinch"
-msgstr ""
+msgstr "Kıstırma"
 
 #: src/filters/map/displace.xml:277(para)
 msgid ""
@@ -2723,7 +3049,7 @@ msgstr ""
 
 #: src/filters/map/displace.xml:301(para)
 msgid "Image distortion by Pinch option"
-msgstr ""
+msgstr "Kıstırma seçeneğiyle görüntü bozulması"
 
 #: src/filters/map/displace.xml:304(para)
 msgid ""
@@ -2735,7 +3061,7 @@ msgstr ""
 
 #: src/filters/map/displace.xml:314(term)
 msgid "Whirl"
-msgstr ""
+msgstr "Sarmal"
 
 #: src/filters/map/displace.xml:316(para)
 msgid ""
@@ -2765,22 +3091,24 @@ msgstr ""
 
 #: src/filters/map/displace.xml:342(title)
 msgid "Center displacement"
-msgstr ""
+msgstr "Merkez yer değiştirme"
 
 #: src/filters/map/displace.xml:343(para)
 msgid ""
 "This option is used with Polar displacement: you can fix the displacement "
 "center."
 msgstr ""
+"Bu seçenek Kutup yer değiştirme ile kullanılır: yer değiştirme merkezini "
+"sabitleyebilirsiniz."
 
 #: src/filters/map/displace.xml:351(title)
 msgid "Using gradient to bend a text"
-msgstr ""
+msgstr "Metni bükmek için renk geçişi kullanma"
 
 #: src/filters/map/displace.xml:352(para)
 #: src/filters/map/displace.xml:445(para)
 msgid "Follow following steps:"
-msgstr ""
+msgstr "Aşağıdaki adımları izleyin:"
 
 #: src/filters/map/displace.xml:355(para)
 msgid "Start with opening your image."
@@ -2825,14 +3153,15 @@ msgstr ""
 #: src/filters/map/displace.xml:423(title)
 msgid "Using Displace filter to fit a text to an uneven surface"
 msgstr ""
+"Metni düz olmayan yüzeye sığdırmak için Yer Değiştir süzgecini kullanma"
 
 #: src/filters/map/displace.xml:425(title)
 msgid "Images example"
-msgstr ""
+msgstr "Örnek görüntüler"
 
 #: src/filters/map/displace.xml:432(para)
 msgid "Texture and Text"
-msgstr ""
+msgstr "Doku ve Metin"
 
 #: src/filters/map/displace.xml:448(para)
 msgid "Open the image with an uneven texture."
@@ -2854,7 +3183,7 @@ msgstr ""
 
 #: src/filters/map/displace.xml:480(para)
 msgid "Displace filter applied."
-msgstr ""
+msgstr "Yer değiştir süzgeci uygulandı."
 
 #: src/filters/map/displace.xml:470(para)
 msgid ""
@@ -2865,7 +3194,7 @@ msgstr ""
 
 #: src/filters/map/displace.xml:490(title)
 msgid "Displacement Calculation"
-msgstr ""
+msgstr "Yer Değiştirme Hesaplaması"
 
 #: src/filters/map/displace.xml:491(para)
 msgid ""
@@ -2885,25 +3214,30 @@ msgstr ""
 msgid "Why just these amounts? That's easy:"
 msgstr ""
 
+# Denklem, çevirmiyoruz.
 #: src/filters/map/displace.xml:504(alt)
 msgid "$30.0 * \\frac{I - 127.5}{127.5} = D$"
-msgstr ""
+msgstr "$30.0 * \\frac{I - 127.5}{127.5} = D$"
 
+# Denklem, çevirmiyoruz.
 #: src/filters/map/displace.xml:510(alt)
 msgid "$30.0 * \\frac{210 - 127.5}{127.5} = 19$"
-msgstr ""
+msgstr "$30.0 * \\frac{210 - 127.5}{127.5} = 19$"
 
+# Denklem, çevirmiyoruz.
 #: src/filters/map/displace.xml:516(alt)
 msgid "$30.0 * \\frac{(160 - 127.5)}{127.5} = 8$"
-msgstr ""
+msgstr "$30.0 * \\frac{(160 - 127.5)}{127.5} = 8$"
 
+# Denklem, çevirmiyoruz.
 #: src/filters/map/displace.xml:522(alt)
 msgid "$30.0 * \\frac{(110 - 127.5)}{127.5} = -4$"
-msgstr ""
+msgstr "$30.0 * \\frac{(110 - 127.5)}{127.5} = -4$"
 
+# Denklem, çevirmiyoruz.
 #: src/filters/map/displace.xml:528(alt)
 msgid "$30.0 * \\frac{(60 - 127.5)}{127.5} = -15$"
-msgstr ""
+msgstr "$30.0 * \\frac{(60 - 127.5)}{127.5} = -15$"
 
 #: src/filters/map/displace.xml:532(para)
 msgid ""
@@ -2918,7 +3252,7 @@ msgstr ""
 
 #: src/filters/map/displace.xml:543(title)
 msgid "A closer look at the displacement example"
-msgstr ""
+msgstr "Yer değiştirme örneğine daha yakından bakış"
 
 #: src/filters/map/displace.xml:550(para)
 msgid "A small area zoomed in by 800 percent."
@@ -2946,14 +3280,21 @@ msgid ""
 "@@image: 'images/filters/examples/example-map-bumpmap.png'; "
 "md5=733bca01ddf5dd736ab1b031ee4cf0d6"
 msgstr ""
+"@@image: 'images/filters/examples/example-map-bumpmap.png'; "
+"md5=733bca01ddf5dd736ab1b031ee4cf0d6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/bumpmap.xml:69(None)
+#| msgid ""
+#| "@@image: 'images/filters/map/bumpmap-dialog.png'; "
+#| "md5=34ac2d5b2a1f334d882f57751de10c14"
 msgid ""
 "@@image: 'images/filters/map/bumpmap-dialog.png'; "
 "md5=aecf2f6dde8e7a4927d043047b250de6"
 msgstr ""
+"@@image: 'images/filters/map/bumpmap-dialog.png'; "
+"md5=aecf2f6dde8e7a4927d043047b250de6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2962,6 +3303,8 @@ msgid ""
 "@@image: 'images/filters/examples/map/bumpmap-ex-1.png'; "
 "md5=5803d9f509eebc7d25e2f1ccc09d7920"
 msgstr ""
+"@@image: 'images/filters/examples/map/bumpmap-ex-1.png'; "
+"md5=5803d9f509eebc7d25e2f1ccc09d7920"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2970,18 +3313,20 @@ msgid ""
 "@@image: 'images/filters/examples/map/bumpmap-ex-2.png'; "
 "md5=716cead23381ad55ebe0445528b87c7e"
 msgstr ""
+"@@image: 'images/filters/examples/map/bumpmap-ex-2.png'; "
+"md5=716cead23381ad55ebe0445528b87c7e"
 
 #: src/filters/map/bumpmap.xml:9(title) src/filters/map/bumpmap.xml:17(primary)
 msgid "Bump Map"
-msgstr ""
+msgstr "Derinlik Etkisi Eşlemi"
 
 #: src/filters/map/bumpmap.xml:14(tertiary)
 msgid "bump-map"
-msgstr ""
+msgstr "derinlik etkisi eşlemi"
 
 #: src/filters/map/bumpmap.xml:23(title)
 msgid "<quote>bump-map</quote> example"
-msgstr ""
+msgstr "<quote>Derinlik Etkisi Eşlemi</quote> örneği"
 
 #: src/filters/map/bumpmap.xml:30(para)
 msgid ""
@@ -3006,14 +3351,17 @@ msgid ""
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Bump Map…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Derinlik Etkisi Eşlemi…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/map/bumpmap.xml:65(title)
 msgid "<quote>Bump Map</quote> filter options"
-msgstr ""
+msgstr "<quote>Derinlik Etkisi Eşlemi</quote> süzgeci seçenekleri"
 
 #: src/filters/map/bumpmap.xml:87(term)
 msgid "Height Map"
-msgstr ""
+msgstr "Yükseklik Haritası"
 
 #: src/filters/map/bumpmap.xml:89(para)
 msgid ""
@@ -3030,41 +3378,43 @@ msgstr ""
 
 #: src/filters/map/bumpmap.xml:103(term)
 msgid "Type"
-msgstr ""
+msgstr "Tür"
 
 #: src/filters/map/bumpmap.xml:105(para)
 msgid ""
 "This option allows you to define the method that will be used when creating "
 "the map image:"
 msgstr ""
+"Bu seçenek, harita görüntüsü oluşturulurken kullanılacak yöntemi "
+"belirlemenizi sağlar:"
 
 #: src/filters/map/bumpmap.xml:111(term)
 msgid "Linear"
-msgstr ""
+msgstr "Doğrusal"
 
 #: src/filters/map/bumpmap.xml:113(para)
 msgid "Bump height is a direct function of luminosity."
-msgstr ""
+msgstr "Derinlik Etkisi yüksekliği renk parlaklığının doğrusal işlevidir"
 
 #: src/filters/map/bumpmap.xml:119(term)
 msgid "Spherical"
-msgstr ""
+msgstr "Küresel"
 
 #: src/filters/map/bumpmap.xml:121(para)
 msgid "Bump height is a spherical function of luminosity."
-msgstr ""
+msgstr "Derinlik Etkisi yüksekliği renk parlaklığının küresel işlevidir"
 
 #: src/filters/map/bumpmap.xml:127(term)
 msgid "Sinusoidal"
-msgstr ""
+msgstr "Sinüs biçimli"
 
 #: src/filters/map/bumpmap.xml:129(para)
 msgid "Bump height is a sinusoidal function of luminosity."
-msgstr ""
+msgstr "Derinlik Etkisi yüksekliği renk parlaklığının sinüs biçimli işlevidir"
 
 #: src/filters/map/bumpmap.xml:138(term)
 msgid "Compensate"
-msgstr ""
+msgstr "Dengele"
 
 #: src/filters/map/bumpmap.xml:140(para)
 msgid ""
@@ -3074,7 +3424,7 @@ msgstr ""
 
 #: src/filters/map/bumpmap.xml:147(term)
 msgid "Invert"
-msgstr ""
+msgstr "Tersine Çevir"
 
 #: src/filters/map/bumpmap.xml:149(para)
 msgid ""
@@ -3084,7 +3434,7 @@ msgstr ""
 
 #: src/filters/map/bumpmap.xml:156(term)
 msgid "Tiled"
-msgstr ""
+msgstr "Döşenmiş"
 
 #: src/filters/map/bumpmap.xml:158(para)
 msgid ""
@@ -3095,7 +3445,7 @@ msgstr ""
 
 #: src/filters/map/bumpmap.xml:166(term)
 msgid "Azimuth"
-msgstr ""
+msgstr "Azimut"
 
 #: src/filters/map/bumpmap.xml:168(para)
 msgid ""
@@ -3105,7 +3455,7 @@ msgstr ""
 
 #: src/filters/map/bumpmap.xml:176(term)
 msgid "Elevation"
-msgstr ""
+msgstr "Yükselme"
 
 #: src/filters/map/bumpmap.xml:178(para)
 msgid "That's height from horizon (0.50°), up to zenith (90°)."
@@ -3119,11 +3469,11 @@ msgstr ""
 
 #: src/filters/map/bumpmap.xml:194(term)
 msgid "Offset X"
-msgstr ""
+msgstr "X Konumu"
 
 #: src/filters/map/bumpmap.xml:195(term)
 msgid "Offset Y"
-msgstr ""
+msgstr "Y Konumu"
 
 #: src/filters/map/bumpmap.xml:197(para)
 msgid ""
@@ -3133,7 +3483,7 @@ msgstr ""
 
 #: src/filters/map/bumpmap.xml:205(term)
 msgid "Waterlevel"
-msgstr ""
+msgstr "Su düzeyi"
 
 #: src/filters/map/bumpmap.xml:207(para)
 msgid ""
@@ -3147,7 +3497,7 @@ msgstr ""
 
 #: src/filters/map/bumpmap.xml:219(term)
 msgid "Ambient lighting factor"
-msgstr ""
+msgstr "Ortam ışıklandırma katsayısı"
 
 #: src/filters/map/bumpmap.xml:221(para)
 msgid ""
@@ -3157,23 +3507,25 @@ msgstr ""
 
 #: src/filters/map/bumpmap.xml:231(title)
 msgid "Using Bumpmap filter"
-msgstr ""
+msgstr "Derinlik Etkisi süzgecini kullanma"
 
 #: src/filters/map/bumpmap.xml:232(para)
 msgid "We shall emboss an image with a text."
-msgstr ""
+msgstr "Metin ile görüntüyü kabartacağız."
 
 #: src/filters/map/bumpmap.xml:237(para)
 msgid "Open your main image."
-msgstr ""
+msgstr "Ana görüntünüzü açın."
 
 #: src/filters/map/bumpmap.xml:250(para)
 msgid "The image and the map"
-msgstr ""
+msgstr "Görüntü ve eşlem"
 
 #: src/filters/map/bumpmap.xml:242(para)
 msgid "Create the map: here a white text on black background. <placeholder-1/>"
 msgstr ""
+"Eşlemi oluşturun: burada siyah arka plan üzerine beyaz metin oluşturduk. "
+"<placeholder-1/>"
 
 #: src/filters/map/bumpmap.xml:258(para)
 msgid ""
@@ -3184,22 +3536,33 @@ msgid ""
 "<guimenuitem>Layers to Image Size</guimenuitem> to make the layer the same "
 "size as the image."
 msgstr ""
+"<menuchoice><guimenu>Düzenle</guimenu><guimenuitem>Kopyala</guimenuitem></"
+"menuchoice> yoluyla eşlemi kopyalayın. Görüntüyü etkinleştirin ve "
+"<menuchoice><guimenu>Düzenle</guimenu><guisubmenu>Farklı Yapıştır</"
+"guisubmenu><guimenuitem>Tek Katman Olarak Yapıştır</guimenuitem></"
+"menuchoice>. Yeni katman üzerine sağ tıklayın ve katmanı görüntüyle aynı "
+"boyuta getirmek için <guimenuitem>Katmanlardan Görüntü Boyutuna</"
+"guimenuitem> komutunu uygulayın."
 
 #: src/filters/map/bumpmap.xml:269(para)
 msgid ""
 "The map layer being active, apply a Gaussian Blur. Here, the default 1.5 "
 "pixels is used."
 msgstr ""
+"Eşlem katmanı etkinken Gaussian Bulanıklığı uygulayın. Burada öntanımlı 1,5 "
+"piksel kullanılmıştır."
 
 #: src/filters/map/bumpmap.xml:275(para)
 msgid "Make the map layer invisible and activate the image layer."
-msgstr ""
+msgstr "Eşlem katmanını görünmez yapın ve görüntü katmanını etkinleştirin."
 
 #: src/filters/map/bumpmap.xml:290(para)
 msgid ""
 "Bump Map filter applied. Depth = 3. Ambient lighting "
 "factor&nbsp;=&nbsp;0.326."
 msgstr ""
+"Derinlik Etkisi Eşlemi süzgeci uygulandı. Derinlik = 3. Ortam ışıklandırma "
+"katsayısı = 0,326."
 
 #: src/filters/map/bumpmap.xml:280(para)
 msgid ""
@@ -3207,6 +3570,9 @@ msgid ""
 "guibutton> button and double-click on the text layer in the right panel. "
 "<placeholder-1/>"
 msgstr ""
+"<quote>Derinlik Etkisi Eşlemi</quote> süzgecini açın. <guibutton>Yükseklik "
+"Haritası</guibutton> düğmesine tıklayın ve sağ paneldeki metin katmanına "
+"çift tıklayın. <placeholder-1/>"
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/map/bumpmap.xml:0(None)

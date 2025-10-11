@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-02-26 21:19+0000\n"
-"PO-Revision-Date: 2025-09-20 23:03+0300\n"
+"PO-Revision-Date: 2025-10-11 00:20+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -18,7 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.7\n"
-
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -44,6 +43,8 @@ msgid ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
 msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -52,14 +53,21 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-wind.jpg'; "
 "md5=6007bc46c302b12a2f6f0bb3bcd79b14"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-wind.jpg'; "
+"md5=6007bc46c302b12a2f6f0bb3bcd79b14"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/wind.xml:72(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/wind-dialog.png'; "
+#| "md5=405494a0833517374b5d650c4b437467"
 msgid ""
 "@@image: 'images/filters/distort/wind-dialog.png'; "
 "md5=fd66ab6b981188e3bb1b0a9c45cfe74b"
 msgstr ""
+"@@image: 'images/filters/distort/wind-dialog.png'; "
+"md5=fd66ab6b981188e3bb1b0a9c45cfe74b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -68,6 +76,8 @@ msgid ""
 "@@image: 'images/filters/examples/wind0.png'; "
 "md5=052f88dc4dddb400ba8df58dd9efbee2"
 msgstr ""
+"@@image: 'images/filters/examples/wind0.png'; "
+"md5=052f88dc4dddb400ba8df58dd9efbee2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -76,6 +86,8 @@ msgid ""
 "@@image: 'images/filters/examples/blast1.png'; "
 "md5=0d62117b62fb2221ada59b6962a6c25f"
 msgstr ""
+"@@image: 'images/filters/examples/blast1.png'; "
+"md5=0d62117b62fb2221ada59b6962a6c25f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -84,6 +96,8 @@ msgid ""
 "@@image: 'images/filters/examples/wind2.png'; "
 "md5=b7b46293f65edcb55adc962a94430d34"
 msgstr ""
+"@@image: 'images/filters/examples/wind2.png'; "
+"md5=b7b46293f65edcb55adc962a94430d34"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -92,6 +106,8 @@ msgid ""
 "@@image: 'images/filters/examples/wind1.png'; "
 "md5=d7b5630e2346e6b1c596dd24d6cfe116"
 msgstr ""
+"@@image: 'images/filters/examples/wind1.png'; "
+"md5=d7b5630e2346e6b1c596dd24d6cfe116"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -100,13 +116,15 @@ msgid ""
 "@@image: 'images/filters/examples/wind3.png'; "
 "md5=e5fa15358372019a0b2653eff2df2f46"
 msgstr ""
+"@@image: 'images/filters/examples/wind3.png'; "
+"md5=e5fa15358372019a0b2653eff2df2f46"
 
 #: src/filters/distort/wind.xml:8(title)
 #: src/filters/distort/wind.xml:13(tertiary)
 #: src/filters/distort/wind.xml:16(primary)
 #: src/filters/distort/wind.xml:119(term)
 msgid "Wind"
-msgstr ""
+msgstr "Rüzgar"
 
 #: src/filters/distort/wind.xml:11(primary)
 #: src/filters/distort/whirlpinch.xml:11(primary)
@@ -126,7 +144,7 @@ msgstr ""
 #: src/filters/distort/blinds.xml:15(primary)
 #: src/filters/distort/apply_lens.xml:12(primary)
 msgid "Filters"
-msgstr ""
+msgstr "Süzgeçler"
 
 #: src/filters/distort/wind.xml:12(secondary)
 #: src/filters/distort/whirlpinch.xml:12(secondary)
@@ -146,7 +164,7 @@ msgstr ""
 #: src/filters/distort/curve_bend.xml:15(secondary)
 #: src/filters/distort/blinds.xml:16(secondary)
 msgid "Distorts"
-msgstr ""
+msgstr "Bozulma"
 
 #: src/filters/distort/wind.xml:20(title)
 #: src/filters/distort/whirlpinch.xml:20(title)
@@ -168,11 +186,11 @@ msgstr ""
 #: src/filters/distort/blinds.xml:24(title)
 #: src/filters/distort/apply_lens.xml:21(title)
 msgid "Overview"
-msgstr ""
+msgstr "Genel Görünüm"
 
 #: src/filters/distort/wind.xml:22(title)
 msgid "<quote>Wind</quote> filter example"
-msgstr ""
+msgstr "<quote>Rüzgar</quote> süzgeci örneği"
 
 #: src/filters/distort/wind.xml:29(para)
 #: src/filters/distort/whirlpinch.xml:29(para)
@@ -195,11 +213,11 @@ msgstr ""
 #: src/filters/distort/blinds.xml:33(para)
 #: src/filters/distort/apply_lens.xml:30(para)
 msgid "Original image"
-msgstr ""
+msgstr "Özgün görüntü"
 
 #: src/filters/distort/wind.xml:38(para)
 msgid "Filter <quote>Wind</quote> applied"
-msgstr ""
+msgstr "<quote>Rüzgar</quote> süzgeci uygulandı"
 
 #: src/filters/distort/wind.xml:42(para)
 msgid ""
@@ -230,7 +248,7 @@ msgstr ""
 #: src/filters/distort/curve_bend.xml:53(title)
 #: src/filters/distort/apply_lens.xml:50(title)
 msgid "Activating the Filter"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/distort/wind.xml:55(para)
 msgid ""
@@ -238,6 +256,9 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Wind…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Rüzgar…</guimenuitem></"
+"menuchoice> altında bulunur."
 
 #: src/filters/distort/wind.xml:66(title)
 #: src/filters/distort/waves.xml:57(title)
@@ -259,11 +280,11 @@ msgstr ""
 #: src/filters/distort/blinds.xml:65(title)
 #: src/filters/distort/apply_lens.xml:62(title)
 msgid "Options"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/filters/distort/wind.xml:68(title)
 msgid "<quote>Wind</quote> filter options"
-msgstr ""
+msgstr "<quote>Rüzgar</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/wind.xml:76(para)
 msgid ""
@@ -286,7 +307,7 @@ msgstr ""
 
 #: src/filters/distort/wind.xml:93(para)
 msgid "The following illustrations are based on this image:"
-msgstr ""
+msgstr "Takip eden örnekler aşağıdaki görüntü temellidir:"
 
 #: src/filters/distort/wind.xml:103(term)
 #: src/filters/distort/whirlpinch.xml:124(term)
@@ -305,7 +326,7 @@ msgstr ""
 #: src/filters/distort/emboss.xml:74(term)
 #: src/filters/distort/apply_lens.xml:74(term)
 msgid "Presets"
-msgstr ""
+msgstr "Önayarlar"
 
 #: src/filters/distort/wind.xml:104(quote)
 #: src/filters/distort/whirlpinch.xml:125(quote)
@@ -324,7 +345,7 @@ msgstr ""
 #: src/filters/distort/emboss.xml:75(quote)
 #: src/filters/distort/apply_lens.xml:75(quote)
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 #: src/filters/distort/wind.xml:105(term)
 #: src/filters/distort/whirlpinch.xml:126(term)
@@ -343,7 +364,7 @@ msgstr ""
 #: src/filters/distort/emboss.xml:76(term)
 #: src/filters/distort/apply_lens.xml:76(term)
 msgid "Clipping"
-msgstr ""
+msgstr "Kırpma"
 
 #: src/filters/distort/wind.xml:106(term)
 #: src/filters/distort/whirlpinch.xml:127(term)
@@ -362,7 +383,7 @@ msgstr ""
 #: src/filters/distort/emboss.xml:77(term)
 #: src/filters/distort/apply_lens.xml:77(term)
 msgid "Blending Options"
-msgstr ""
+msgstr "Harmanlama Seçenekleri"
 
 #: src/filters/distort/wind.xml:107(term)
 #: src/filters/distort/whirlpinch.xml:128(term)
@@ -383,7 +404,7 @@ msgstr ""
 #: src/filters/distort/blinds.xml:77(term)
 #: src/filters/distort/apply_lens.xml:78(term)
 msgid "Preview"
-msgstr ""
+msgstr "Ön izleme"
 
 #: src/filters/distort/wind.xml:108(term)
 #: src/filters/distort/whirlpinch.xml:129(term)
@@ -402,7 +423,7 @@ msgstr ""
 #: src/filters/distort/emboss.xml:79(term)
 #: src/filters/distort/apply_lens.xml:79(term)
 msgid "Merge filter"
-msgstr ""
+msgstr "Süzgeci birleştir"
 
 #: src/filters/distort/wind.xml:109(term)
 #: src/filters/distort/whirlpinch.xml:130(term)
@@ -421,11 +442,11 @@ msgstr ""
 #: src/filters/distort/emboss.xml:80(term)
 #: src/filters/distort/apply_lens.xml:80(term)
 msgid "Split view"
-msgstr ""
+msgstr "Bölünmüş görünüm"
 
 #: src/filters/distort/wind.xml:115(term)
 msgid "Style"
-msgstr ""
+msgstr "Biçem"
 
 #: src/filters/distort/wind.xml:121(para)
 msgid "This option is the most suggestive of a moving effect. Trails are thin."
@@ -433,7 +454,7 @@ msgstr ""
 
 #: src/filters/distort/wind.xml:128(term)
 msgid "Blast"
-msgstr ""
+msgstr "Patlama"
 
 #: src/filters/distort/wind.xml:130(para)
 msgid ""
@@ -442,7 +463,7 @@ msgstr ""
 
 #: src/filters/distort/wind.xml:146(term)
 msgid "Direction"
-msgstr ""
+msgstr "Yön"
 
 #: src/filters/distort/wind.xml:148(para)
 msgid ""
@@ -452,11 +473,11 @@ msgstr ""
 
 #: src/filters/distort/wind.xml:155(term)
 msgid "Edge Affected"
-msgstr ""
+msgstr "Etkilenen Kenar"
 
 #: src/filters/distort/wind.xml:159(term)
 msgid "Leading"
-msgstr ""
+msgstr "Önde olan"
 
 #: src/filters/distort/wind.xml:161(para)
 msgid ""
@@ -466,7 +487,7 @@ msgstr ""
 
 #: src/filters/distort/wind.xml:175(term)
 msgid "Trailing"
-msgstr ""
+msgstr "Ardından gelen"
 
 #: src/filters/distort/wind.xml:177(para)
 msgid "Trails start from the back border of the object."
@@ -474,15 +495,15 @@ msgstr ""
 
 #: src/filters/distort/wind.xml:189(term)
 msgid "Both"
-msgstr ""
+msgstr "Her ikisi"
 
 #: src/filters/distort/wind.xml:191(para)
 msgid "Combines both effects."
-msgstr ""
+msgstr "İki etkiyi birleştirir."
 
 #: src/filters/distort/wind.xml:204(term)
 msgid "Threshold"
-msgstr ""
+msgstr "Eşik"
 
 #: src/filters/distort/wind.xml:206(para)
 msgid ""
@@ -492,23 +513,23 @@ msgstr ""
 
 #: src/filters/distort/wind.xml:213(term)
 msgid "Strength"
-msgstr ""
+msgstr "Kuvvet"
 
 #: src/filters/distort/wind.xml:215(para)
 msgid "Higher values increase the strength of the effect."
-msgstr ""
+msgstr "Yüksek değerler etkinin kuvvetini artırır."
 
 #: src/filters/distort/wind.xml:221(term)
 #: src/filters/distort/shift.xml:113(term)
 #: src/filters/distort/mosaic.xml:223(term)
 msgid "Random seed"
-msgstr ""
+msgstr "Rastgele parçacık"
 
 #: src/filters/distort/wind.xml:222(term)
 #: src/filters/distort/shift.xml:114(term)
 #: src/filters/distort/mosaic.xml:224(term)
 msgid "New Seed"
-msgstr ""
+msgstr "Yeni Parçacık"
 
 #: src/filters/distort/wind.xml:224(para)
 #: src/filters/distort/shift.xml:116(para)
@@ -529,6 +550,8 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-whirlpinch.jpg'; "
 "md5=dae1613759bb405d44b3b196b91a924e"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-whirlpinch.jpg'; "
+"md5=dae1613759bb405d44b3b196b91a924e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -537,6 +560,8 @@ msgid ""
 "@@image: 'images/filters/examples/whirlpinch-orig.png'; "
 "md5=5e3fd97a98917e8cfba90a8a5a73694e"
 msgstr ""
+"@@image: 'images/filters/examples/whirlpinch-orig.png'; "
+"md5=5e3fd97a98917e8cfba90a8a5a73694e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -545,6 +570,8 @@ msgid ""
 "@@image: 'images/filters/examples/whirlpinch-whirl.png'; "
 "md5=812a7545ee68cdbdc80d4a39b73edbee"
 msgstr ""
+"@@image: 'images/filters/examples/whirlpinch-whirl.png'; "
+"md5=812a7545ee68cdbdc80d4a39b73edbee"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -553,28 +580,35 @@ msgid ""
 "@@image: 'images/filters/examples/whirlpinch-pinch.png'; "
 "md5=64ef6f0a3d31894340b16addaaba2baa"
 msgstr ""
+"@@image: 'images/filters/examples/whirlpinch-pinch.png'; "
+"md5=64ef6f0a3d31894340b16addaaba2baa"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/whirlpinch.xml:118(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/whirlpinch-dialog.png'; "
+#| "md5=8722a006ffcef86864218f3cadd79632"
 msgid ""
 "@@image: 'images/filters/distort/whirlpinch-dialog.png'; "
 "md5=7961a81c518a8b8c75ed9011c4032027"
 msgstr ""
+"@@image: 'images/filters/distort/whirlpinch-dialog.png'; "
+"md5=7961a81c518a8b8c75ed9011c4032027"
 
 #: src/filters/distort/whirlpinch.xml:8(title)
 #: src/filters/distort/whirlpinch.xml:13(tertiary)
 #: src/filters/distort/whirlpinch.xml:16(primary)
 msgid "Whirl and Pinch"
-msgstr ""
+msgstr "Sarmal ve Kıstırma"
 
 #: src/filters/distort/whirlpinch.xml:22(title)
 msgid "Example for the Whirl and Pinch filter"
-msgstr ""
+msgstr "\"Sarmal ve Kıstırma\" süzgeci örneği"
 
 #: src/filters/distort/whirlpinch.xml:38(para)
 msgid "Filter applied"
-msgstr ""
+msgstr "\"Sarmal ve Kıstırma\" süzgeci uygulandı"
 
 #: src/filters/distort/whirlpinch.xml:42(para)
 msgid "<quote>Whirl and Pinch</quote> distorts your image in a concentric way."
@@ -606,19 +640,19 @@ msgstr ""
 
 #: src/filters/distort/whirlpinch.xml:68(title)
 msgid "Illustration"
-msgstr ""
+msgstr "Örnekleme"
 
 #: src/filters/distort/whirlpinch.xml:75(para)
 msgid "Original"
-msgstr ""
+msgstr "Özgün"
 
 #: src/filters/distort/whirlpinch.xml:84(para)
 msgid "Whirled"
-msgstr ""
+msgstr "Sarmal"
 
 #: src/filters/distort/whirlpinch.xml:93(para)
 msgid "Pinched"
-msgstr ""
+msgstr "Kıstırma"
 
 #: src/filters/distort/whirlpinch.xml:101(para)
 msgid ""
@@ -626,18 +660,21 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Whirl and Pinch…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Sarmal ve Kıstırma…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/whirlpinch.xml:112(title)
 msgid "Parameter Settings"
-msgstr ""
+msgstr "Seçenekler"
 
 #: src/filters/distort/whirlpinch.xml:114(title)
 msgid "<quote>Whirl and Pinch</quote> filter options"
-msgstr ""
+msgstr "<quote>Sarmal ve Kıstırma</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/whirlpinch.xml:136(term)
 msgid "Whirl"
-msgstr ""
+msgstr "Sarmal"
 
 #: src/filters/distort/whirlpinch.xml:138(para)
 msgid ""
@@ -647,7 +684,7 @@ msgstr ""
 
 #: src/filters/distort/whirlpinch.xml:145(term)
 msgid "Pinch"
-msgstr ""
+msgstr "Kıstırma"
 
 #: src/filters/distort/whirlpinch.xml:147(para)
 msgid ""
@@ -657,7 +694,7 @@ msgstr ""
 
 #: src/filters/distort/whirlpinch.xml:154(term)
 msgid "Radius"
-msgstr ""
+msgstr "Yarıçap"
 
 #: src/filters/distort/whirlpinch.xml:156(para)
 msgid ""
@@ -676,28 +713,37 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-waves.jpg'; "
 "md5=aa2a7e08557dfc9963424072af1f5664"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-waves.jpg'; "
+"md5=aa2a7e08557dfc9963424072af1f5664"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/waves.xml:62(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/waves-dialog.png'; "
+#| "md5=3528f2742e4c92b76e80323b8e34f5ec"
 msgid ""
 "@@image: 'images/filters/distort/waves-dialog.png'; "
 "md5=9548c60e5a782b481ac5eee02daecb58"
 msgstr ""
+"@@image: 'images/filters/distort/waves-dialog.png'; "
+"md5=9548c60e5a782b481ac5eee02daecb58"
 
 #: src/filters/distort/waves.xml:8(title)
 #: src/filters/distort/waves.xml:11(primary)
 msgid "Waves"
-msgstr ""
+msgstr "Dalgalar"
 
 #: src/filters/distort/waves.xml:17(title)
 msgid "Example for the Waves filter"
-msgstr ""
+msgstr "\"Dalgalar\" süzgeci örneği"
 
 #: src/filters/distort/waves.xml:33(para)
 msgid ""
 "Filter <quote>Waves</quote> applied with default options and period = 20.0"
 msgstr ""
+"<quote>Dalgalar</quote> süzgeci öntanımlı seçenekler ve sıklık = 20,0 olarak "
+"uygulandı"
 
 #: src/filters/distort/waves.xml:38(para)
 msgid ""
@@ -711,29 +757,32 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Waves…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Dalgalar…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/waves.xml:59(title)
 msgid "<quote>Waves</quote> filter options"
-msgstr ""
+msgstr "<quote>Dalgalar</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/waves.xml:80(term)
 #: src/filters/distort/kaleidoscope.xml:130(term)
 msgid "Center X"
-msgstr ""
+msgstr "X Merkezi"
 
 #: src/filters/distort/waves.xml:81(term)
 #: src/filters/distort/kaleidoscope.xml:131(term)
 msgid "Center Y"
-msgstr ""
+msgstr "Y Merkezi"
 
 #: src/filters/distort/waves.xml:83(para)
 msgid "Move the center of the waves"
-msgstr ""
+msgstr "Dalga merkezini taşı"
 
 #: src/filters/distort/waves.xml:89(term)
 #: src/filters/distort/ripple.xml:110(term)
 msgid "Amplitude"
-msgstr ""
+msgstr "Boyut"
 
 #: src/filters/distort/waves.xml:91(para)
 msgid "Varies the height of the waves."
@@ -743,7 +792,7 @@ msgstr ""
 #: src/filters/distort/ripple.xml:129(term)
 #: src/filters/distort/newsprint.xml:153(term)
 msgid "Period"
-msgstr ""
+msgstr "Sıklık"
 
 #: src/filters/distort/waves.xml:97(para)
 msgid "That is wavelength. Varies the distance between the top of waves."
@@ -758,15 +807,15 @@ msgstr ""
 #: src/filters/distort/waves.xml:108(term)
 #: src/filters/distort/ripple.xml:148(term)
 msgid "Phase shift"
-msgstr ""
+msgstr "Faz kayması"
 
 #: src/filters/distort/waves.xml:110(para)
 msgid "This command shifts the top of the ripple."
-msgstr ""
+msgstr "Bu komut dalganın ucunu yer değiştirir."
 
 #: src/filters/distort/waves.xml:114(term)
 msgid "Aspect ratio"
-msgstr ""
+msgstr "En boy oranı"
 
 #: src/filters/distort/waves.xml:116(para)
 msgid ""
@@ -776,7 +825,7 @@ msgstr ""
 
 #: src/filters/distort/waves.xml:123(term)
 msgid "Resampling method"
-msgstr ""
+msgstr "Yeniden örnekleme yöntemi"
 
 #: src/filters/distort/waves.xml:125(para)
 #: src/filters/distort/spherize.xml:165(para)
@@ -785,10 +834,12 @@ msgid ""
 "These interpolation methods are described in <xref linkend=\"gimp-tool-"
 "interpolation-methods\"/>."
 msgstr ""
+"Ara değerleme yöntemleri şurada açıklanmıştır: <xref linkend=\"gimp-tool-"
+"interpolation-methods\"/>"
 
 #: src/filters/distort/waves.xml:132(term)
 msgid "Clamp deformation"
-msgstr ""
+msgstr "Deformasyonu kelepçele"
 
 #: src/filters/distort/waves.xml:134(para)
 msgid ""
@@ -805,14 +856,21 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-vpropagate.jpg'; "
 "md5=c22c8d6ec33d367d105e32ee1000085f"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-vpropagate.jpg'; "
+"md5=c22c8d6ec33d367d105e32ee1000085f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/vpropagate.xml:64(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/value_propagate-dialog.png'; "
+#| "md5=99a0aa72d87e604a0e4dc5f1787da5be"
 msgid ""
 "@@image: 'images/filters/distort/value_propagate-dialog.png'; "
 "md5=77425d1948c6792ee47154a2b390c4ad"
 msgstr ""
+"@@image: 'images/filters/distort/value_propagate-dialog.png'; "
+"md5=77425d1948c6792ee47154a2b390c4ad"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -821,6 +879,8 @@ msgid ""
 "@@image: 'images/filters/examples/vpropag-base.png'; "
 "md5=e1c8a152b0b487d937dc9c78d60eed7c"
 msgstr ""
+"@@image: 'images/filters/examples/vpropag-base.png'; "
+"md5=e1c8a152b0b487d937dc9c78d60eed7c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -829,6 +889,8 @@ msgid ""
 "@@image: 'images/filters/examples/vpropag1.png'; "
 "md5=b794880ea72a8030a003b0b6965767af"
 msgstr ""
+"@@image: 'images/filters/examples/vpropag1.png'; "
+"md5=b794880ea72a8030a003b0b6965767af"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -837,6 +899,8 @@ msgid ""
 "@@image: 'images/filters/examples/vpropag2.png'; "
 "md5=b583c122ea2b77a18212a673ea0e259a"
 msgstr ""
+"@@image: 'images/filters/examples/vpropag2.png'; "
+"md5=b583c122ea2b77a18212a673ea0e259a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -845,6 +909,8 @@ msgid ""
 "@@image: 'images/filters/examples/vpropag2-bis.png'; "
 "md5=1b96db949915ff8828e713fbb895caab"
 msgstr ""
+"@@image: 'images/filters/examples/vpropag2-bis.png'; "
+"md5=1b96db949915ff8828e713fbb895caab"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -853,6 +919,8 @@ msgid ""
 "@@image: 'images/filters/examples/vpropag3.png'; "
 "md5=58145eb46e93f825b9fe803d74cdc1f6"
 msgstr ""
+"@@image: 'images/filters/examples/vpropag3.png'; "
+"md5=58145eb46e93f825b9fe803d74cdc1f6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -861,6 +929,8 @@ msgid ""
 "@@image: 'images/filters/examples/vpropag3-zoom.png'; "
 "md5=01de4566b180d9d63177c24bd89afd59"
 msgstr ""
+"@@image: 'images/filters/examples/vpropag3-zoom.png'; "
+"md5=01de4566b180d9d63177c24bd89afd59"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -869,6 +939,8 @@ msgid ""
 "@@image: 'images/filters/examples/vpropag4.png'; "
 "md5=da0e03502b30eb02712f66a06aa0bff3"
 msgstr ""
+"@@image: 'images/filters/examples/vpropag4.png'; "
+"md5=da0e03502b30eb02712f66a06aa0bff3"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -877,6 +949,8 @@ msgid ""
 "@@image: 'images/filters/examples/vpropag5.png'; "
 "md5=f13a6655e8a42eea61883ee606cc1818"
 msgstr ""
+"@@image: 'images/filters/examples/vpropag5.png'; "
+"md5=f13a6655e8a42eea61883ee606cc1818"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -885,6 +959,8 @@ msgid ""
 "@@image: 'images/filters/examples/vpropag6a.png'; "
 "md5=de2eeb8d73fda55676b10be2eb26f273"
 msgstr ""
+"@@image: 'images/filters/examples/vpropag6a.png'; "
+"md5=de2eeb8d73fda55676b10be2eb26f273"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -893,6 +969,8 @@ msgid ""
 "@@image: 'images/filters/examples/vpropag6b.png'; "
 "md5=601fc7d4ce918e897e0a804d1bababa8"
 msgstr ""
+"@@image: 'images/filters/examples/vpropag6b.png'; "
+"md5=601fc7d4ce918e897e0a804d1bababa8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -901,19 +979,21 @@ msgid ""
 "@@image: 'images/filters/examples/distort/vpropag-ex-b-w.jpg'; "
 "md5=e5a0061da388a4b1050aa9c97b7d5f50"
 msgstr ""
+"@@image: 'images/filters/examples/distort/vpropag-ex-b-w.jpg'; "
+"md5=e5a0061da388a4b1050aa9c97b7d5f50"
 
 #: src/filters/distort/vpropagate.xml:10(title)
 #: src/filters/distort/vpropagate.xml:13(primary)
 msgid "Value Propagate"
-msgstr ""
+msgstr "Değer Yayılımı"
 
 #: src/filters/distort/vpropagate.xml:19(title)
 msgid "Example for the Value Propagate filter"
-msgstr ""
+msgstr "\"Değer Yayılımı\" süzgeci örneği"
 
 #: src/filters/distort/vpropagate.xml:35(para)
 msgid "Filter <quote>Value Propagate</quote> applied"
-msgstr ""
+msgstr "<quote>Değer Yayılımı</quote> süzgeci uygulandı"
 
 #: src/filters/distort/vpropagate.xml:39(para)
 msgid ""
@@ -927,23 +1007,26 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Value Propagate…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Değer Yayılımı…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/vpropagate.xml:60(title)
 msgid "<quote>Value propagate</quote> filter options"
-msgstr ""
+msgstr "<quote>Değer Yayılımı</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/vpropagate.xml:82(term)
 #: src/filters/distort/spherize.xml:85(term)
 msgid "Mode"
-msgstr ""
+msgstr "Kip"
 
 #: src/filters/distort/vpropagate.xml:85(para)
 msgid "The examples will be about the following image:"
-msgstr ""
+msgstr "Örnekler aşağıdaki görüntü hakkında olacaktır:"
 
 #: src/filters/distort/vpropagate.xml:95(term)
 msgid "More white (larger value)"
-msgstr ""
+msgstr "Daha çok beyaz (daha büyük değer)"
 
 #: src/filters/distort/vpropagate.xml:97(para)
 msgid ""
@@ -953,7 +1036,7 @@ msgstr ""
 
 #: src/filters/distort/vpropagate.xml:102(title)
 msgid "More white"
-msgstr ""
+msgstr "Daha çok beyaz"
 
 #: src/filters/distort/vpropagate.xml:108(para)
 msgid ""
@@ -963,7 +1046,7 @@ msgstr ""
 
 #: src/filters/distort/vpropagate.xml:119(term)
 msgid "More black (smaller value)"
-msgstr ""
+msgstr "Daha çok siyah (daha az değer)"
 
 #: src/filters/distort/vpropagate.xml:121(para)
 msgid ""
@@ -973,21 +1056,22 @@ msgstr ""
 
 #: src/filters/distort/vpropagate.xml:126(title)
 msgid "More black"
-msgstr ""
+msgstr "Daha çok siyah"
 
 #: src/filters/distort/vpropagate.xml:135(title)
 msgid "To bottom only"
-msgstr ""
+msgstr "Yalnızca alta"
 
 #: src/filters/distort/vpropagate.xml:142(para)
 msgid ""
 "The same as above with <guilabel>To bottom</guilabel> direction only checked."
 msgstr ""
+"Üstteki ile aynı olup yalnızca <guilabel>Alta</guilabel> yönü işaretlidir."
 
 #: src/filters/distort/vpropagate.xml:152(term)
 #: src/filters/distort/vpropagate.xml:159(title)
 msgid "Middle value to peaks"
-msgstr ""
+msgstr "Orta değer en yüksek değere"
 
 #: src/filters/distort/vpropagate.xml:154(para)
 msgid ""
@@ -1010,7 +1094,7 @@ msgstr ""
 #: src/filters/distort/vpropagate.xml:190(term)
 #: src/filters/distort/vpropagate.xml:200(title)
 msgid "Color to peaks"
-msgstr ""
+msgstr "En yüksek değerlere renk"
 
 #: src/filters/distort/vpropagate.xml:192(para)
 msgid ""
@@ -1033,7 +1117,7 @@ msgstr ""
 #: src/filters/distort/vpropagate.xml:222(term)
 #: src/filters/distort/vpropagate.xml:229(title)
 msgid "Only color"
-msgstr ""
+msgstr "Yalnızca renk"
 
 #: src/filters/distort/vpropagate.xml:224(para)
 msgid ""
@@ -1050,11 +1134,11 @@ msgstr ""
 #: src/filters/distort/vpropagate.xml:247(term)
 #: src/filters/distort/vpropagate.xml:257(title)
 msgid "More opaque"
-msgstr ""
+msgstr "Daha mat"
 
 #: src/filters/distort/vpropagate.xml:248(term)
 msgid "More transparent"
-msgstr ""
+msgstr "Daha saydam"
 
 #: src/filters/distort/vpropagate.xml:250(para)
 msgid ""
@@ -1065,7 +1149,7 @@ msgstr ""
 
 #: src/filters/distort/vpropagate.xml:264(para)
 msgid "Original layer, with a transparent background."
-msgstr ""
+msgstr "Özgün katman, saydam arka plan ile."
 
 #: src/filters/distort/vpropagate.xml:275(para)
 msgid "Filter applied several times: the green, opaque, area got increased."
@@ -1073,11 +1157,11 @@ msgstr ""
 
 #: src/filters/distort/vpropagate.xml:289(term)
 msgid "Lower threshold"
-msgstr ""
+msgstr "Alt eşik"
 
 #: src/filters/distort/vpropagate.xml:290(term)
 msgid "Upper threshold"
-msgstr ""
+msgstr "Üst eşik"
 
 #: src/filters/distort/vpropagate.xml:292(para)
 msgid ""
@@ -1088,7 +1172,7 @@ msgstr ""
 
 #: src/filters/distort/vpropagate.xml:300(term)
 msgid "Propagating rate"
-msgstr ""
+msgstr "Yayılma oranı"
 
 #: src/filters/distort/vpropagate.xml:302(para)
 msgid ""
@@ -1099,27 +1183,27 @@ msgstr ""
 #. Propagating direction
 #: src/filters/distort/vpropagate.xml:310(term)
 msgid "To top"
-msgstr ""
+msgstr "Üste"
 
 #: src/filters/distort/vpropagate.xml:311(term)
 msgid "To left"
-msgstr ""
+msgstr "Sola"
 
 #: src/filters/distort/vpropagate.xml:312(term)
 msgid "To right"
-msgstr ""
+msgstr "Sağa"
 
 #: src/filters/distort/vpropagate.xml:313(term)
 msgid "To bottom"
-msgstr ""
+msgstr "Alta"
 
 #: src/filters/distort/vpropagate.xml:315(para)
 msgid "You can select one or more directions."
-msgstr ""
+msgstr "Bir ya da daha çok yön seçebilirsiniz."
 
 #: src/filters/distort/vpropagate.xml:321(term)
 msgid "Propagating value channel"
-msgstr ""
+msgstr "Değer kanalı yayılımı"
 
 #: src/filters/distort/vpropagate.xml:323(para)
 msgid ""
@@ -1129,7 +1213,7 @@ msgstr ""
 
 #: src/filters/distort/vpropagate.xml:331(term)
 msgid "Propagating alpha channel"
-msgstr ""
+msgstr "Alfa kanalı yayılımı"
 
 #: src/filters/distort/vpropagate.xml:333(para)
 msgid ""
@@ -1139,45 +1223,55 @@ msgstr ""
 
 #: src/filters/distort/vpropagate.xml:343(title)
 msgid "Using Value Propagate"
-msgstr ""
+msgstr "\"Değer Yayılımı\" Süzgeci Kullanımı"
 
 #: src/filters/distort/vpropagate.xml:350(para)
 msgid "Left: Original. Middle: More white. Right: More black."
-msgstr ""
+msgstr "Sol: Özgün. Orta: Daha çok beyaz. Sağ: Daha çok siyah."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/video-degradation.xml:36(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/distort-taj-video.jpg'; "
+#| "md5=8008a59836c39bbe3b430ff1531e0a9e"
 msgid ""
 "@@image: 'images/filters/examples/distort-taj-video-degradation.jpg'; "
 "md5=8008a59836c39bbe3b430ff1531e0a9e"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-video-degradation.jpg'; "
+"md5=8008a59836c39bbe3b430ff1531e0a9e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/video-degradation.xml:67(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/lens_distortion-dialog.png'; "
+#| "md5=2e92d648796f9b67b6355d6e6820792d"
 msgid ""
 "@@image: 'images/filters/distort/video_degradation-dialog.png'; "
 "md5=be1dce1ff46e640f34c55dbfa8cb2056"
 msgstr ""
+"@@image: 'images/filters/distort/video_degradation-dialog.png'; "
+"md5=be1dce1ff46e640f34c55dbfa8cb2056"
 
 #: src/filters/distort/video-degradation.xml:9(title)
 #: src/filters/distort/video-degradation.xml:13(tertiary)
 #: src/filters/distort/video-degradation.xml:16(primary)
 msgid "Video Degradation"
-msgstr ""
+msgstr "Video Bozulması"
 
 #: src/filters/distort/video-degradation.xml:22(title)
 msgid "Applying example for the <quote>Video Degradation</quote> filter"
-msgstr ""
+msgstr "<quote>Vidyo Bozulması</quote> süzgeci örneği"
 
 #: src/filters/distort/video-degradation.xml:39(para)
 msgid "Filter <quote>Video Degradation</quote> applied"
-msgstr ""
+msgstr "<quote>Video Bozulması</quote> süzgeci uygulandı"
 
 #: src/filters/distort/video-degradation.xml:43(para)
 msgid "Apply low dot-pitch RGB simulation to the specified drawable."
-msgstr ""
+msgstr "Belirtilen çizilebilire düşük nokta aralığı RGB benzetirimi uygular."
 
 #: src/filters/distort/video-degradation.xml:50(para)
 msgid ""
@@ -1185,37 +1279,42 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Video Degradation…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Vidyo Bozulması…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/video-degradation.xml:63(title)
 msgid "<quote>Video Degradation</quote> filter options"
-msgstr ""
+msgstr "<quote>Video Bozulması</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/video-degradation.xml:85(term)
 #: src/filters/distort/newsprint.xml:141(term)
 msgid "Pattern"
-msgstr ""
+msgstr "Örüntü"
 
 #: src/filters/distort/video-degradation.xml:87(para)
 msgid ""
 "It would be rather difficult to describe what each pattern will render. It's "
 "best to see what they render in the Preview."
 msgstr ""
+"Her örüntünün nasıl görüneceğini tanımlamak oldukça zor olduğundan ön izleme "
+"ekranından nasıl göründüklerini bakmak en iyisidir."
 
 #: src/filters/distort/video-degradation.xml:94(term)
 msgid "Additive"
-msgstr ""
+msgstr "Eklenmiş"
 
 #: src/filters/distort/video-degradation.xml:96(para)
 msgid "Set whether the function adds the result to the original image."
-msgstr ""
+msgstr "İşlev sonucunun özgün görüntüye eklenme durumunu belirler."
 
 #: src/filters/distort/video-degradation.xml:102(term)
 msgid "Rotated"
-msgstr ""
+msgstr "Döndürülmüş"
 
 #: src/filters/distort/video-degradation.xml:104(para)
 msgid "Rotate the result by 90°."
-msgstr ""
+msgstr "Sonucu 90° döndür."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1224,6 +1323,8 @@ msgid ""
 "@@image: 'images/filters/examples/distort/spherize-ex-orig.jpg'; "
 "md5=86d282e74b3e18e8b27c8d5108cf6770"
 msgstr ""
+"@@image: 'images/filters/examples/distort/spherize-ex-orig.jpg'; "
+"md5=86d282e74b3e18e8b27c8d5108cf6770"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1232,14 +1333,21 @@ msgid ""
 "@@image: 'images/filters/examples/distort/spherize-defaults.jpg'; "
 "md5=6279aa0adf653b9031166399a5a83294"
 msgstr ""
+"@@image: 'images/filters/examples/distort/spherize-defaults.jpg'; "
+"md5=6279aa0adf653b9031166399a5a83294"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/spherize.xml:66(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/spherize-dialog.png'; "
+#| "md5=34abbfc4531d24b341b12ee6b9c95490"
 msgid ""
 "@@image: 'images/filters/distort/spherize-dialog.png'; "
 "md5=8b5ac5259b715e793142ee1b0a0f128c"
 msgstr ""
+"@@image: 'images/filters/distort/spherize-dialog.png'; "
+"md5=8b5ac5259b715e793142ee1b0a0f128c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1248,6 +1356,8 @@ msgid ""
 "@@image: 'images/filters/examples/distort/spherize-ex-horizontal.jpg'; "
 "md5=5d19af27f9d94d617f1cde8fb55ed8c2"
 msgstr ""
+"@@image: 'images/filters/examples/distort/spherize-ex-horizontal.jpg'; "
+"md5=5d19af27f9d94d617f1cde8fb55ed8c2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1256,6 +1366,8 @@ msgid ""
 "@@image: 'images/filters/examples/distort/spherize-ex-angle.jpg'; "
 "md5=6966591152fc2229632a2aaadca9735b"
 msgstr ""
+"@@image: 'images/filters/examples/distort/spherize-ex-angle.jpg'; "
+"md5=6966591152fc2229632a2aaadca9735b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1264,6 +1376,8 @@ msgid ""
 "@@image: 'images/filters/examples/distort/spherize-ex-curvature.jpg'; "
 "md5=ee5843d7a1cd52c20a44f0e3277fc551"
 msgstr ""
+"@@image: 'images/filters/examples/distort/spherize-ex-curvature.jpg'; "
+"md5=ee5843d7a1cd52c20a44f0e3277fc551"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1272,6 +1386,8 @@ msgid ""
 "@@image: 'images/filters/examples/distort/spherize-ex-amount.jpg'; "
 "md5=3286ef781fe3ba6864133d54bea9ff0b"
 msgstr ""
+"@@image: 'images/filters/examples/distort/spherize-ex-amount.jpg'; "
+"md5=3286ef781fe3ba6864133d54bea9ff0b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1280,15 +1396,17 @@ msgid ""
 "@@image: 'images/filters/examples/distort/spherize-ex-sphere.jpg'; "
 "md5=bf2c2478c408e9859f3579747753c591"
 msgstr ""
+"@@image: 'images/filters/examples/distort/spherize-ex-sphere.jpg'; "
+"md5=bf2c2478c408e9859f3579747753c591"
 
 #: src/filters/distort/spherize.xml:9(title)
 #: src/filters/distort/spherize.xml:15(primary)
 msgid "Spherize"
-msgstr ""
+msgstr "Küreleştir"
 
 #: src/filters/distort/spherize.xml:11(primary)
 msgid "filters"
-msgstr ""
+msgstr "süzgeçler"
 
 #: src/filters/distort/spherize.xml:20(para)
 msgid ""
@@ -1298,11 +1416,11 @@ msgstr ""
 
 #: src/filters/distort/spherize.xml:25(title)
 msgid "Spherize filter example, with default values"
-msgstr ""
+msgstr "\"Küreselleştir\" süzgeci örneği, öntanımlı değerlerle"
 
 #: src/filters/distort/spherize.xml:41(para)
 msgid "<quote>Spherize</quote> filter applied"
-msgstr ""
+msgstr "<quote>Küreselleştir</quote> süzgeci uygulandı"
 
 #: src/filters/distort/spherize.xml:49(para)
 msgid ""
@@ -1310,40 +1428,49 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Spherize…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Küreselleştir…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/spherize.xml:62(title)
 msgid "<quote>Spherize</quote> filter options"
-msgstr ""
+msgstr "<quote>Küreselleştir</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/spherize.xml:89(para)
 msgid ""
 "<emphasis role=\"bold\">Radial</emphasis> is the default mode. See example "
 "above."
 msgstr ""
+"<emphasis role=\"bold\">Radyal</emphasis> öntanımlı kiptir. Yukarıdaki "
+"örneğe bakın."
 
 #: src/filters/distort/spherize.xml:95(para)
 msgid ""
 "<emphasis role=\"bold\">Horizontal</emphasis>: as if image was mapped on a "
 "<emphasis role=\"underline\">vertical</emphasis> cylinder."
 msgstr ""
+"<emphasis role=\"bold\">Yatay</emphasis>: görüntü <emphasis "
+"role=\"underline\">dikey</emphasis> silindir üzerine eşlenmiş gibi."
 
 #: src/filters/distort/spherize.xml:108(para)
 msgid ""
 "<emphasis role=\"bold\">Vertical</emphasis>: as if image was mapped on a "
 "<emphasis role=\"underline\">horizontal</emphasis> cylinder."
 msgstr ""
+"<emphasis role=\"bold\">Dikey</emphasis>: görüntü <emphasis "
+"role=\"underline\">yatay</emphasis> silindir üzerine eşlenmiş gibi."
 
 #: src/filters/distort/spherize.xml:118(term)
 msgid "Angle of view"
-msgstr ""
+msgstr "Bakış açısı"
 
 #: src/filters/distort/spherize.xml:120(para)
 msgid "Camera angle of view (0 - 180°)"
-msgstr ""
+msgstr "Kamera bakış açısı (0 - 180°)"
 
 #: src/filters/distort/spherize.xml:132(term)
 msgid "Curvature"
-msgstr ""
+msgstr "Eğrilik"
 
 #: src/filters/distort/spherize.xml:134(para)
 msgid ""
@@ -1353,7 +1480,7 @@ msgstr ""
 
 #: src/filters/distort/spherize.xml:148(term)
 msgid "Amount"
-msgstr ""
+msgstr "Miktar"
 
 #: src/filters/distort/spherize.xml:150(para)
 msgid ""
@@ -1364,11 +1491,11 @@ msgstr ""
 #: src/filters/distort/spherize.xml:163(term)
 #: src/filters/distort/ripple.xml:186(term)
 msgid "Resampling methods"
-msgstr ""
+msgstr "Yeniden örnekleme yöntemi"
 
 #: src/filters/distort/spherize.xml:174(title)
 msgid "Using Spherize filter"
-msgstr ""
+msgstr "Küreleştir süzgecini kullanma"
 
 #: src/filters/distort/spherize.xml:175(para)
 msgid ""
@@ -1386,14 +1513,21 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-shift.jpg'; "
 "md5=454eec50f383e78cba1229f503be27ab"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-shift.jpg'; "
+"md5=454eec50f383e78cba1229f503be27ab"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/shift.xml:67(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/shift-dialog.png'; "
+#| "md5=20f6b8813d33fb2663b339d1543ece8c"
 msgid ""
 "@@image: 'images/filters/distort/shift-dialog.png'; "
 "md5=1127d0510a4af978743b494ef6ecdff8"
 msgstr ""
+"@@image: 'images/filters/distort/shift-dialog.png'; "
+"md5=1127d0510a4af978743b494ef6ecdff8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1402,21 +1536,23 @@ msgid ""
 "@@image: 'images/filters/examples/distort/shift-ex-100.png'; "
 "md5=cb26b929f15c61a203111d033bb329ea"
 msgstr ""
+"@@image: 'images/filters/examples/distort/shift-ex-100.png'; "
+"md5=cb26b929f15c61a203111d033bb329ea"
 
 #: src/filters/distort/shift.xml:8(title)
 #: src/filters/distort/shift.xml:13(tertiary)
 #: src/filters/distort/shift.xml:16(primary)
 #: src/filters/distort/shift.xml:85(term)
 msgid "Shift"
-msgstr ""
+msgstr "Yer Değiştir"
 
 #: src/filters/distort/shift.xml:22(title)
 msgid "Example for the Shift filter"
-msgstr ""
+msgstr "\"Yer Değiştir\" süzgeci örneği"
 
 #: src/filters/distort/shift.xml:38(para)
 msgid "Filter <quote>Shift</quote> applied"
-msgstr ""
+msgstr "<quote>Yer Değiştir</quote> süzgeci uygulandı"
 
 #: src/filters/distort/shift.xml:42(para)
 msgid ""
@@ -1430,27 +1566,32 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Shift…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Yer Değiştir…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/shift.xml:63(title)
 msgid "<quote>Shift</quote> filter options"
-msgstr ""
+msgstr "<quote>Yer Değiştir</quote> süzgeci uygulandı"
 
 #: src/filters/distort/shift.xml:87(para)
 msgid ""
 "With this option, you can set the maximum shift, between 1 and 200 pixels."
 msgstr ""
+"Bu seçenekle en çok yer değiştirmeyi 1 ila 200 piksel arasında "
+"ayarlayabilirsiniz."
 
 #: src/filters/distort/shift.xml:97(para)
 msgid "Left: original. Right: shift = 100 horizontally."
-msgstr ""
+msgstr "Sol: özgün. Sağ: yer değiştirme = 100 dikey."
 
 #: src/filters/distort/shift.xml:105(term)
 msgid "Shift direction"
-msgstr ""
+msgstr "Yer değiştirme yönü"
 
 #: src/filters/distort/shift.xml:107(para)
 msgid "This option sets the direction horizontally or vertically."
-msgstr ""
+msgstr "Bu seçenek yönü yataş ya da dikey olarak ayarlar."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1459,14 +1600,21 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-ripple.jpg'; "
 "md5=6663bbe13465af845f8fa8707faad745"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-ripple.jpg'; "
+"md5=6663bbe13465af845f8fa8707faad745"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/ripple.xml:67(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/ripple-dialog.png'; "
+#| "md5=f5c019db12a9c14d42b96181874d347b"
 msgid ""
 "@@image: 'images/filters/distort/ripple-dialog.png'; "
 "md5=d726d04a5cce9dd1e1d912294e289c30"
 msgstr ""
+"@@image: 'images/filters/distort/ripple-dialog.png'; "
+"md5=d726d04a5cce9dd1e1d912294e289c30"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1475,6 +1623,8 @@ msgid ""
 "@@image: 'images/filters/examples/distort/ripple-ex-orig.png'; "
 "md5=a748f6d786bcf70914f50ba8b8f2309f"
 msgstr ""
+"@@image: 'images/filters/examples/distort/ripple-ex-orig.png'; "
+"md5=a748f6d786bcf70914f50ba8b8f2309f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1483,6 +1633,8 @@ msgid ""
 "@@image: 'images/filters/examples/distort/ripple-ex-default.png'; "
 "md5=eae6bb4ee62d881a6ec12fb6ae8fb029"
 msgstr ""
+"@@image: 'images/filters/examples/distort/ripple-ex-default.png'; "
+"md5=eae6bb4ee62d881a6ec12fb6ae8fb029"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1491,6 +1643,8 @@ msgid ""
 "@@image: 'images/filters/examples/distort/ripple-ex-ampl.png'; "
 "md5=a09b98c4ad6236f61f4e7a528bc63829"
 msgstr ""
+"@@image: 'images/filters/examples/distort/ripple-ex-ampl.png'; "
+"md5=a09b98c4ad6236f61f4e7a528bc63829"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1499,6 +1653,8 @@ msgid ""
 "@@image: 'images/filters/examples/distort/ripple-ex-periode.png'; "
 "md5=bf3f0d9e4b0c59fcaefe2bc46039afa6"
 msgstr ""
+"@@image: 'images/filters/examples/distort/ripple-ex-periode.png'; "
+"md5=bf3f0d9e4b0c59fcaefe2bc46039afa6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1507,6 +1663,8 @@ msgid ""
 "@@image: 'images/filters/examples/distort/ripple-ex-phase.png'; "
 "md5=a64f96bfce9943a394b9ac5b83afb01d"
 msgstr ""
+"@@image: 'images/filters/examples/distort/ripple-ex-phase.png'; "
+"md5=a64f96bfce9943a394b9ac5b83afb01d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1515,6 +1673,8 @@ msgid ""
 "@@image: 'images/filters/examples/distort/ripple-ex-angle.png'; "
 "md5=2cc80f88f2d1fb4963ae46f9a69cbf93"
 msgstr ""
+"@@image: 'images/filters/examples/distort/ripple-ex-angle.png'; "
+"md5=2cc80f88f2d1fb4963ae46f9a69cbf93"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1523,23 +1683,25 @@ msgid ""
 "@@image: 'images/filters/examples/distort/ripple-ex-black.png'; "
 "md5=383c49a31353f9e7cb51308daab9ee5f"
 msgstr ""
+"@@image: 'images/filters/examples/distort/ripple-ex-black.png'; "
+"md5=383c49a31353f9e7cb51308daab9ee5f"
 
 #: src/filters/distort/ripple.xml:8(title)
 #: src/filters/distort/ripple.xml:13(tertiary)
 msgid "Ripple"
-msgstr ""
+msgstr "Dalgıcık"
 
 #: src/filters/distort/ripple.xml:16(primary)
 msgid "Ripple filter"
-msgstr ""
+msgstr "Dalgıcık süzgeci"
 
 #: src/filters/distort/ripple.xml:22(title)
 msgid "<quote>Ripple</quote> filter example"
-msgstr ""
+msgstr "<quote>Dalgacık</quote> süzgeci örneği"
 
 #: src/filters/distort/ripple.xml:38(para)
 msgid "Filter <quote>Ripple</quote> applied"
-msgstr ""
+msgstr "<quote>Dalgacık</quote> süzgeci uygulandı"
 
 #: src/filters/distort/ripple.xml:42(para)
 msgid ""
@@ -1553,83 +1715,86 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Ripple…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Dalgacık…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/ripple.xml:63(title)
 msgid "<quote>Ripple</quote> filter options"
-msgstr ""
+msgstr "<quote>Dalgacık</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/ripple.xml:85(term)
 msgid "Original images for examples"
-msgstr ""
+msgstr "Örnekler için özgün görseller"
 
 #: src/filters/distort/ripple.xml:92(caption)
 msgid "Origin"
-msgstr ""
+msgstr "Özgün"
 
 #: src/filters/distort/ripple.xml:102(para)
 msgid "Ripple applied with default options"
-msgstr ""
+msgstr "Öntanımlı seçeneklerle Dalgacık eklendi"
 
 #: src/filters/distort/ripple.xml:112(para)
 msgid "It is related to wave height (0-200 pixels)."
-msgstr ""
+msgstr "Dalga yüksekliğiyle ilişkilidir (0-200 piksel)."
 
 #: src/filters/distort/ripple.xml:121(para)
 msgid "Amplitude = 25"
-msgstr ""
+msgstr "Boyut = 25"
 
 #: src/filters/distort/ripple.xml:131(para)
 msgid "It is related to wavelength (0-200 pixels)"
-msgstr ""
+msgstr "Dalga uzunluğuyla ilişkilidir (0-200 piksel)."
 
 #: src/filters/distort/ripple.xml:140(para)
 msgid "Period = 110"
-msgstr ""
+msgstr "Sıklık = 110"
 
 #: src/filters/distort/ripple.xml:150(para)
 msgid "Wave is moved"
-msgstr ""
+msgstr "Dalga taşındı"
 
 #: src/filters/distort/ripple.xml:159(para)
 msgid "Phase shift = 0.400"
-msgstr ""
+msgstr "Faz kayması = 0,400"
 
 #: src/filters/distort/ripple.xml:167(term)
 #: src/filters/distort/newsprint.xml:162(term)
 msgid "Angle"
-msgstr ""
+msgstr "Açı"
 
 #: src/filters/distort/ripple.xml:169(para)
 msgid "Warps wave"
-msgstr ""
+msgstr "Dalgayı büker"
 
 #: src/filters/distort/ripple.xml:178(para)
 msgid "Angle = -40°"
-msgstr ""
+msgstr "Açı = -40°"
 
 #: src/filters/distort/ripple.xml:195(term)
 msgid "Wave type"
-msgstr ""
+msgstr "Dalga türü"
 
 #: src/filters/distort/ripple.xml:197(para)
 msgid "Choose how the wave should look like:"
-msgstr ""
+msgstr "Dalganın nasıl görüneceğini seçin:"
 
 #: src/filters/distort/ripple.xml:203(guilabel)
 msgid "Sawtooth"
-msgstr ""
+msgstr "Testere"
 
 #: src/filters/distort/ripple.xml:208(guilabel)
 msgid "Triangle"
-msgstr ""
+msgstr "Üçgen"
 
 #: src/filters/distort/ripple.xml:213(guilabel)
 msgid "Sine"
-msgstr ""
+msgstr "Sinüs"
 
 #: src/filters/distort/ripple.xml:220(term)
 msgid "Abyss policy"
-msgstr ""
+msgstr "Uçurum ilkesi"
 
 #: src/filters/distort/ripple.xml:222(para)
 msgid ""
@@ -1639,7 +1804,7 @@ msgstr ""
 
 #: src/filters/distort/ripple.xml:232(para)
 msgid "Abyss policy = Black"
-msgstr ""
+msgstr "Uçurum ilkesi = Siyah"
 
 #: src/filters/distort/ripple.xml:237(para)
 msgid ""
@@ -1649,7 +1814,7 @@ msgstr ""
 
 #: src/filters/distort/ripple.xml:244(term)
 msgid "Tileable"
-msgstr ""
+msgstr "Döşenebilir"
 
 #: src/filters/distort/ripple.xml:246(para)
 msgid "This preserves the seamless properties if your image is a tile pattern."
@@ -1662,14 +1827,21 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-polarcoords.jpg'; "
 "md5=ea9fd703e45f80874591839686535d17"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-polarcoords.jpg'; "
+"md5=ea9fd703e45f80874591839686535d17"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/polarcoords.xml:68(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/polar_coords-dialog.png'; "
+#| "md5=3cb42eea6c296e39e13690ea69479380"
 msgid ""
 "@@image: 'images/filters/distort/polar_coords-dialog.png'; "
 "md5=529640afac34512920941b70a4918d22"
 msgstr ""
+"@@image: 'images/filters/distort/polar_coords-dialog.png'; "
+"md5=529640afac34512920941b70a4918d22"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1678,6 +1850,8 @@ msgid ""
 "@@image: 'images/filters/examples/polcoords1.png'; "
 "md5=fc4b6fad4b99eaaab5911b4b6de5086b"
 msgstr ""
+"@@image: 'images/filters/examples/polcoords1.png'; "
+"md5=fc4b6fad4b99eaaab5911b4b6de5086b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1686,20 +1860,22 @@ msgid ""
 "@@image: 'images/filters/examples/polcoords2.png'; "
 "md5=c7ff6b5b59ab146ea1df4098e3a549d1"
 msgstr ""
+"@@image: 'images/filters/examples/polcoords2.png'; "
+"md5=c7ff6b5b59ab146ea1df4098e3a549d1"
 
 #: src/filters/distort/polarcoords.xml:9(title)
 #: src/filters/distort/polarcoords.xml:14(tertiary)
 #: src/filters/distort/polarcoords.xml:17(primary)
 msgid "Polar Coordinates"
-msgstr ""
+msgstr "Kutup Koordinatları"
 
 #: src/filters/distort/polarcoords.xml:23(title)
 msgid "Example for Polar Coordinates filter"
-msgstr ""
+msgstr "\"Kutup Koordinatları\" süzgeci örneği"
 
 #: src/filters/distort/polarcoords.xml:39(para)
 msgid "<quote>Polar Coordinates</quote> filter applied"
-msgstr ""
+msgstr "<quote>Kutup Koordinatları</quote> süzgeci uygulandı"
 
 #: src/filters/distort/polarcoords.xml:43(para)
 msgid ""
@@ -1713,14 +1889,17 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Polar Coordinates…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Kutup Koordinatları…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/polarcoords.xml:64(title)
 msgid "<quote>Polar Coordinates</quote> filter options"
-msgstr ""
+msgstr "<quote>Kutup Koordinatları</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/polarcoords.xml:86(term)
 msgid "Circle depth in percent"
-msgstr ""
+msgstr "Daire derinliği yüzdesi"
 
 #: src/filters/distort/polarcoords.xml:88(para)
 msgid ""
@@ -1730,7 +1909,7 @@ msgstr ""
 
 #: src/filters/distort/polarcoords.xml:95(term)
 msgid "Offset angle"
-msgstr ""
+msgstr "Konum açısı"
 
 #: src/filters/distort/polarcoords.xml:97(para)
 msgid ""
@@ -1740,7 +1919,7 @@ msgstr ""
 
 #: src/filters/distort/polarcoords.xml:104(term)
 msgid "Map backwards"
-msgstr ""
+msgstr "Tersine eşle"
 
 #: src/filters/distort/polarcoords.xml:106(para)
 msgid ""
@@ -1750,7 +1929,7 @@ msgstr ""
 
 #: src/filters/distort/polarcoords.xml:113(term)
 msgid "Map from top"
-msgstr ""
+msgstr "Üstten eşle"
 
 #: src/filters/distort/polarcoords.xml:115(para)
 msgid ""
@@ -1760,7 +1939,7 @@ msgstr ""
 
 #: src/filters/distort/polarcoords.xml:123(term)
 msgid "To polar"
-msgstr ""
+msgstr "Kutuplara"
 
 #: src/filters/distort/polarcoords.xml:125(para)
 msgid ""
@@ -1770,11 +1949,11 @@ msgstr ""
 
 #: src/filters/distort/polarcoords.xml:132(term)
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: src/filters/distort/polarcoords.xml:133(term)
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: src/filters/distort/polarcoords.xml:135(para)
 msgid ""
@@ -1784,7 +1963,7 @@ msgstr ""
 
 #: src/filters/distort/polarcoords.xml:142(term)
 msgid "Choose middle"
-msgstr ""
+msgstr "Orta noktayı seç"
 
 #: src/filters/distort/polarcoords.xml:144(para)
 msgid ""
@@ -1794,11 +1973,11 @@ msgstr ""
 
 #: src/filters/distort/polarcoords.xml:155(title)
 msgid "Examples"
-msgstr ""
+msgstr "Örnekler"
 
 #: src/filters/distort/polarcoords.xml:157(title)
 msgid "With text"
-msgstr ""
+msgstr "Metin ile"
 
 #: src/filters/distort/polarcoords.xml:164(para)
 msgid ""
@@ -1808,7 +1987,7 @@ msgstr ""
 
 #: src/filters/distort/polarcoords.xml:172(title)
 msgid "With two horizontal bars"
-msgstr ""
+msgstr "İki yatay çubuk ile"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1817,28 +1996,35 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-pagecurl.jpg'; "
 "md5=72fd86158fb1c0f453594d13593795db"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-pagecurl.jpg'; "
+"md5=72fd86158fb1c0f453594d13593795db"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/pagecurl.xml:72(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/pagecurl.png'; "
+#| "md5=d29cb09619baee9552740d7a9482d83a"
 msgid ""
 "@@image: 'images/filters/distort/pagecurl.png'; "
 "md5=149fe89b33cc7af348de4c6bc95f1499"
 msgstr ""
+"@@image: 'images/filters/distort/pagecurl.png'; "
+"md5=149fe89b33cc7af348de4c6bc95f1499"
 
 #: src/filters/distort/pagecurl.xml:10(title)
 #: src/filters/distort/pagecurl.xml:15(tertiary)
 #: src/filters/distort/pagecurl.xml:18(primary)
 msgid "Page Curl"
-msgstr ""
+msgstr "Sayfa Kıvırma"
 
 #: src/filters/distort/pagecurl.xml:24(title)
 msgid "Example for the Page Curl filter"
-msgstr ""
+msgstr "\"Sayfa Kıvırma\" süzgeci örneği"
 
 #: src/filters/distort/pagecurl.xml:40(para)
 msgid "Filter <quote>Page Curl</quote> applied"
-msgstr ""
+msgstr "<quote>Sayfa Kıvırma</quote> süzgeci uygulandı"
 
 #: src/filters/distort/pagecurl.xml:44(para)
 msgid ""
@@ -1854,41 +2040,46 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Page Curl…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Sayfa Kıvırma…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/pagecurl.xml:68(title)
 msgid "<quote>Page Curl</quote> filter options"
-msgstr ""
+msgstr "<quote>Sayfa Kıvırma</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/pagecurl.xml:78(term)
 msgid "Location"
-msgstr ""
+msgstr "Konum"
 
 #: src/filters/distort/pagecurl.xml:80(para)
 msgid "You have four options to select the corner you want to raise."
-msgstr ""
+msgstr "Yükseltmek istediğiniz köşeyi seçmek için dört seçenek vardır."
 
 #: src/filters/distort/pagecurl.xml:86(term)
 #: src/filters/distort/blinds.xml:86(term)
 msgid "Orientation"
-msgstr ""
+msgstr "Yönelim"
 
 #: src/filters/distort/pagecurl.xml:88(para)
 msgid ""
 "<emphasis>Horizontal</emphasis> and <emphasis>Vertical</emphasis> refer to "
 "the border you want raise."
 msgstr ""
+"<emphasis>Yatay</emphasis> ve <emphasis>Dikey</emphasis>, kıvırmak "
+"istediğiniz kenarı ifade eder."
 
 #: src/filters/distort/pagecurl.xml:95(term)
 msgid "Shade"
-msgstr ""
+msgstr "Gölge"
 
 #: src/filters/distort/pagecurl.xml:97(para)
 msgid "This is the shadow inside the cornet."
-msgstr ""
+msgstr "Bu kıvrılmış köşenin içindeki gölgedir."
 
 #: src/filters/distort/pagecurl.xml:103(term)
 msgid "Colors"
-msgstr ""
+msgstr "Renkler"
 
 #: src/filters/distort/pagecurl.xml:105(para)
 msgid ""
@@ -1896,42 +2087,58 @@ msgid ""
 "<guilabel>Foreground / background colors</guilabel>, <guilabel>Current "
 "gradient</guilabel>, and <guilabel>Current gradient (reversed)</guilabel>."
 msgstr ""
+"Bu, kıvrılmış köşenin dış yüzeyini ifade eder. Var olan seçenekler "
+"şunlardır: <guilabel>Ön plan / arka plan renkleri</guilabel>, "
+"<guilabel>Geçerli renk geçişi</guilabel> ve <guilabel>Geçerli renk geçişi "
+"(ters çevrilmiş)</guilabel>."
 
 #: src/filters/distort/pagecurl.xml:114(term)
 msgid "Opacity"
-msgstr ""
+msgstr "Matlık"
 
 #: src/filters/distort/pagecurl.xml:116(para)
 msgid ""
 "Refers to the visibility of the layer part underlying the cornet. It may be "
 "set also in the Layers dialog."
 msgstr ""
+"Kıvrılmış köşenin altındaki katman kısmının görünürlüğünü ifade eder. "
+"Katmanlar iletişim kutusundan da ayarlanabilir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/newsprint.xml:38(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/distort-taj-newsprint.jpg'; "
+#| "md5=611aa4a3f9a8c2bc8696b50f24dd866b"
 msgid ""
 "@@image: 'images/filters/examples/distort-taj-newsprint.jpg'; "
 "md5=195ca891940cc14fbb318c432e33bbdf"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-newsprint.jpg'; "
+"md5=195ca891940cc14fbb318c432e33bbdf"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/newsprint.xml:95(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/newsprint.png'; "
+#| "md5=be0b9221db701271f42e00898805966a"
 msgid ""
 "@@image: 'images/filters/distort/newsprint.png'; "
 "md5=805160648c45d318351417107f171fe7"
 msgstr ""
+"@@image: 'images/filters/distort/newsprint.png'; "
+"md5=805160648c45d318351417107f171fe7"
 
 #: src/filters/distort/newsprint.xml:11(title)
 #: src/filters/distort/newsprint.xml:16(tertiary)
 #: src/filters/distort/newsprint.xml:19(primary)
 msgid "Newsprint"
-msgstr ""
+msgstr "Gazete Kağıdı"
 
 #: src/filters/distort/newsprint.xml:25(title)
 msgid "Applying example for the Newsprint filter"
-msgstr ""
+msgstr "<quote>Gazete Kağıdı</quote> süzgeci örneği"
 
 #: src/filters/distort/newsprint.xml:41(para)
 msgid ""
@@ -1979,14 +2186,17 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Newsprint…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Gazete Kağıdı…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/newsprint.xml:91(title)
 msgid "<quote>Newsprint</quote> filter options"
-msgstr ""
+msgstr "<quote>Gazete Kağıdı</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/newsprint.xml:113(term)
 msgid "Channels"
-msgstr ""
+msgstr "Kanallar"
 
 #: src/filters/distort/newsprint.xml:115(para)
 msgid ""
@@ -1995,7 +2205,7 @@ msgstr ""
 
 #: src/filters/distort/newsprint.xml:121(term)
 msgid "Color Model"
-msgstr ""
+msgstr "Renk Modeli"
 
 #: src/filters/distort/newsprint.xml:123(para)
 msgid ""
@@ -2003,10 +2213,13 @@ msgid ""
 "<guilabel>Black on White</guilabel>, <guilabel>RGB</guilabel>, or "
 "<guilabel>CMYK</guilabel>."
 msgstr ""
+"Hangi renk mürekkeplerin kullanılacağını seçin: <guilabel>Siyah Üstü Beyaz</"
+"guilabel>, <guilabel>Beyaz Üstü Siyah</guilabel>, <guilabel>RGB</guilabel> "
+"ya da <guilabel>CMYK</guilabel>."
 
 #: src/filters/distort/newsprint.xml:133(term)
 msgid "For each color ink or channel"
-msgstr ""
+msgstr "Her renk mürekkebi ya da kanal için"
 
 #: src/filters/distort/newsprint.xml:135(para)
 msgid ""
@@ -2020,6 +2233,10 @@ msgid ""
 "<guilabel>PSSquare (or Euclidean) dot</guilabel>, <guilabel>Crossing Lines</"
 "guilabel>."
 msgstr ""
+"Kullanılacak yarı tonlama örüntüsünü seçin. Seçenekler şunlardır: "
+"<guilabel>Satır</guilabel>, <guilabel>Daire</guilabel>, <guilabel>Karo,</"
+"guilabel>, <guilabel>PSSquare (veya Öklid) nokta</guilabel>, "
+"<guilabel>Çapraz Satırlar</guilabel>."
 
 #: src/filters/distort/newsprint.xml:155(para)
 msgid ""
@@ -2036,7 +2253,7 @@ msgstr ""
 
 #: src/filters/distort/newsprint.xml:172(term)
 msgid "Black pullout"
-msgstr ""
+msgstr "Siyah çekilme"
 
 #: src/filters/distort/newsprint.xml:174(para)
 msgid ""
@@ -2047,15 +2264,15 @@ msgstr ""
 
 #: src/filters/distort/newsprint.xml:187(term)
 msgid "Lock patterns"
-msgstr ""
+msgstr "Örüntüleri kilitle"
 
 #: src/filters/distort/newsprint.xml:188(term)
 msgid "Lock periods"
-msgstr ""
+msgstr "Düzenleri kilitle"
 
 #: src/filters/distort/newsprint.xml:189(term)
 msgid "Lock angles"
-msgstr ""
+msgstr "Açıları kilitle"
 
 #: src/filters/distort/newsprint.xml:191(para)
 msgid ""
@@ -2066,13 +2283,15 @@ msgstr ""
 
 #: src/filters/distort/newsprint.xml:203(term)
 msgid "Quality"
-msgstr ""
+msgstr "Nitelik"
 
 #: src/filters/distort/newsprint.xml:205(para)
 msgid ""
 "<guilabel>Anti-alias oversampling factor</guilabel> This sets the number of "
 "samples that are averaged for anti-aliasing the result."
 msgstr ""
+"<guilabel>Kenar yumuşatma yüksek hızda örnekleme faktörü</guilabel> Bu "
+"sonucun kenar yumuşatma için ortalaması alınmış örnek sayısını belirler."
 
 #: src/filters/distort/newsprint.xml:209(para)
 msgid ""
@@ -2086,11 +2305,11 @@ msgstr ""
 
 #: src/filters/distort/newsprint.xml:221(term)
 msgid "Effects"
-msgstr ""
+msgstr "Etkiler"
 
 #: src/filters/distort/newsprint.xml:225(term)
 msgid "Turbulence"
-msgstr ""
+msgstr "Türbülans"
 
 #: src/filters/distort/newsprint.xml:227(para)
 msgid "Color saturation dependent compression of period."
@@ -2098,17 +2317,19 @@ msgstr ""
 
 #: src/filters/distort/newsprint.xml:233(term)
 msgid "Blocksize"
-msgstr ""
+msgstr "Blok Boyutu"
 
 #: src/filters/distort/newsprint.xml:235(para)
 msgid ""
 "Number of periods per tile. This tiling avoids high frequency anomalies that "
 "angle boost causes."
 msgstr ""
+"Döşeme başına sıklık sayısı. Bu döşeme, açı artmanın neden olduğu yüksek "
+"frekanslı düzensizliklerden kaçınır."
 
 #: src/filters/distort/newsprint.xml:242(term)
 msgid "Angle Boost"
-msgstr ""
+msgstr "Açı Artır"
 
 #: src/filters/distort/newsprint.xml:244(para)
 msgid ""
@@ -2124,28 +2345,35 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-mosaic.jpg'; "
 "md5=cf4f1873f0028f620834c4eab019fe87"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-mosaic.jpg'; "
+"md5=cf4f1873f0028f620834c4eab019fe87"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/mosaic.xml:68(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/mosaic-dialog.png'; "
+#| "md5=b6b253e570698ab02ec88edc8a29202d"
 msgid ""
 "@@image: 'images/filters/distort/mosaic-dialog.png'; "
 "md5=bcb64bca68e1673cfff0379fd250b8c8"
 msgstr ""
+"@@image: 'images/filters/distort/mosaic-dialog.png'; "
+"md5=bcb64bca68e1673cfff0379fd250b8c8"
 
 #: src/filters/distort/mosaic.xml:8(title)
 #: src/filters/distort/mosaic.xml:13(tertiary)
 #: src/filters/distort/mosaic.xml:16(primary)
 msgid "Mosaic"
-msgstr ""
+msgstr "Mozaik"
 
 #: src/filters/distort/mosaic.xml:22(title)
 msgid "Applying example for the <quote>Mosaic</quote> filter"
-msgstr ""
+msgstr "<quote>Mozaik</quote> süzgeci örneği"
 
 #: src/filters/distort/mosaic.xml:38(para)
 msgid "Filter <quote>Mosaic</quote> applied"
-msgstr ""
+msgstr "<quote>Mozaik</quote> süzgeci uygulandı"
 
 #: src/filters/distort/mosaic.xml:42(para)
 msgid ""
@@ -2159,54 +2387,57 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Mosaic…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Mozaik…</guimenuitem></"
+"menuchoice> altında bulunur."
 
 #: src/filters/distort/mosaic.xml:64(title)
 msgid "<quote>Mosaic</quote> filter options"
-msgstr ""
+msgstr "<quote>Mozaik</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/mosaic.xml:86(term)
 msgid "Tile geometry"
-msgstr ""
+msgstr "Döşeme şekli"
 
 #: src/filters/distort/mosaic.xml:88(para)
 msgid "This option is self-understanding:"
-msgstr ""
+msgstr "Bu seçenek kendisini anlatıyor:"
 
 #: src/filters/distort/mosaic.xml:93(term)
 msgid "Squares"
-msgstr ""
+msgstr "Kare"
 
 #: src/filters/distort/mosaic.xml:95(para)
 msgid "Not exactly squares, but 4 edges"
-msgstr ""
+msgstr "Tam kare değil ama 4 kenarlı"
 
 #: src/filters/distort/mosaic.xml:99(term)
 msgid "Hexagons"
-msgstr ""
+msgstr "Altıgen"
 
 #: src/filters/distort/mosaic.xml:101(para)
 msgid "6 edges (hexa = 6)"
-msgstr ""
+msgstr "6 kenar (hexa = 6)"
 
 #: src/filters/distort/mosaic.xml:105(term)
 msgid "Octagons"
-msgstr ""
+msgstr "Sekizgen"
 
 #: src/filters/distort/mosaic.xml:107(para)
 msgid "8 edges (octa = 8)"
-msgstr ""
+msgstr "8 kenar (octa = 8)"
 
 #: src/filters/distort/mosaic.xml:111(term)
 msgid "Triangles"
-msgstr ""
+msgstr "Üçgen"
 
 #: src/filters/distort/mosaic.xml:113(para)
 msgid "3 edges (tri = 3)"
-msgstr ""
+msgstr "3 kenar (tri = 3)"
 
 #: src/filters/distort/mosaic.xml:120(term)
 msgid "Tile size"
-msgstr ""
+msgstr "Döşeme boyutu"
 
 #: src/filters/distort/mosaic.xml:122(para)
 msgid ""
@@ -2216,7 +2447,7 @@ msgstr ""
 
 #: src/filters/distort/mosaic.xml:129(term)
 msgid "Tile height"
-msgstr ""
+msgstr "Döşeme yüksekliği"
 
 #: src/filters/distort/mosaic.xml:131(para)
 msgid ""
@@ -2225,7 +2456,7 @@ msgstr ""
 
 #: src/filters/distort/mosaic.xml:138(term)
 msgid "Tile neatness"
-msgstr ""
+msgstr "Döşeme keskinliği"
 
 #: src/filters/distort/mosaic.xml:140(para)
 msgid ""
@@ -2235,7 +2466,7 @@ msgstr ""
 
 #: src/filters/distort/mosaic.xml:148(term)
 msgid "Tile color variation"
-msgstr ""
+msgstr "Döşeme renk çeşitliliği"
 
 #: src/filters/distort/mosaic.xml:150(para)
 msgid ""
@@ -2245,7 +2476,7 @@ msgstr ""
 
 #: src/filters/distort/mosaic.xml:158(term)
 msgid "Color averaging"
-msgstr ""
+msgstr "Renk ortalaması"
 
 #: src/filters/distort/mosaic.xml:160(para)
 msgid ""
@@ -2256,15 +2487,15 @@ msgstr ""
 
 #: src/filters/distort/mosaic.xml:168(term)
 msgid "Rough tile surface"
-msgstr ""
+msgstr "Pürüzlü döşeme yüzeyi"
 
 #: src/filters/distort/mosaic.xml:170(para)
 msgid "With this option tile surface looks pitted."
-msgstr ""
+msgstr "Bu seçenekte döşeme yüzeyi çukurlu görünür."
 
 #: src/filters/distort/mosaic.xml:176(term)
 msgid "Allow splitting tiles"
-msgstr ""
+msgstr "Döşemeleri ayırmaya izin ver"
 
 #: src/filters/distort/mosaic.xml:178(para)
 msgid ""
@@ -2274,15 +2505,15 @@ msgstr ""
 
 #: src/filters/distort/mosaic.xml:186(term)
 msgid "Tile spacing"
-msgstr ""
+msgstr "Döşeme boşluğu"
 
 #: src/filters/distort/mosaic.xml:188(para)
 msgid "That's width of the join between tiles."
-msgstr ""
+msgstr "Bu, döşemeler arasındaki eklem genişliğidir."
 
 #: src/filters/distort/mosaic.xml:194(term)
 msgid "Joints/Light color"
-msgstr ""
+msgstr "Eklem/Işık rengi"
 
 #: src/filters/distort/mosaic.xml:196(para)
 msgid ""
@@ -2294,7 +2525,7 @@ msgstr ""
 
 #: src/filters/distort/mosaic.xml:205(term)
 msgid "Light direction"
-msgstr ""
+msgstr "Işık yönü"
 
 #: src/filters/distort/mosaic.xml:207(para)
 msgid ""
@@ -2305,7 +2536,7 @@ msgstr ""
 #: src/filters/distort/mosaic.xml:214(term)
 #: src/filters/distort/curve_bend.xml:124(term)
 msgid "Antialiasing"
-msgstr ""
+msgstr "Kenar yumuşatma"
 
 #: src/filters/distort/mosaic.xml:216(para)
 msgid "This option reduces the stepped aspect that may have borders."
@@ -2318,14 +2549,21 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-lens-distortion.jpg'; "
 "md5=e369d330dbe8e7434bee22fd38e42e01"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-lens-distortion.jpg'; "
+"md5=e369d330dbe8e7434bee22fd38e42e01"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/lens-distortion.xml:70(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/lens_distortion-dialog.png'; "
+#| "md5=2e92d648796f9b67b6355d6e6820792d"
 msgid ""
 "@@image: 'images/filters/distort/lens_distortion-dialog.png'; "
 "md5=693280160dc1ca7c26bffaabb7cf3cba"
 msgstr ""
+"@@image: 'images/filters/distort/lens_distortion-dialog.png'; "
+"md5=693280160dc1ca7c26bffaabb7cf3cba"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2334,6 +2572,8 @@ msgid ""
 "@@image: 'images/filters/examples/lensdistortion-main-low.png'; "
 "md5=5e6d8d7d5f045e48805ad4d3d3314fde"
 msgstr ""
+"@@image: 'images/filters/examples/lensdistortion-main-low.png'; "
+"md5=5e6d8d7d5f045e48805ad4d3d3314fde"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2346,6 +2586,8 @@ msgid ""
 "@@image: 'images/filters/examples/lensdistortion-original.png'; "
 "md5=fed8940204dd300f6edcc395e4f11a95"
 msgstr ""
+"@@image: 'images/filters/examples/lensdistortion-original.png'; "
+"md5=fed8940204dd300f6edcc395e4f11a95"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2354,6 +2596,8 @@ msgid ""
 "@@image: 'images/filters/examples/lensdistortion-main-high.png'; "
 "md5=813fd81c3dff8b560d389ba7fb0de863"
 msgstr ""
+"@@image: 'images/filters/examples/lensdistortion-main-high.png'; "
+"md5=813fd81c3dff8b560d389ba7fb0de863"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2362,6 +2606,8 @@ msgid ""
 "@@image: 'images/filters/examples/lensdistortion-edge-low.png'; "
 "md5=e4dde390af84ce8d5df8c5bbd76f4f43"
 msgstr ""
+"@@image: 'images/filters/examples/lensdistortion-edge-low.png'; "
+"md5=e4dde390af84ce8d5df8c5bbd76f4f43"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2370,6 +2616,8 @@ msgid ""
 "@@image: 'images/filters/examples/lensdistortion-edge-high.png'; "
 "md5=88257182a9e29874dd6abc58e3b8aa23"
 msgstr ""
+"@@image: 'images/filters/examples/lensdistortion-edge-high.png'; "
+"md5=88257182a9e29874dd6abc58e3b8aa23"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2378,6 +2626,8 @@ msgid ""
 "@@image: 'images/filters/examples/lensdistortion-zoom-low.png'; "
 "md5=86f9d28a775249574533a3f3eb1f03c6"
 msgstr ""
+"@@image: 'images/filters/examples/lensdistortion-zoom-low.png'; "
+"md5=86f9d28a775249574533a3f3eb1f03c6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2386,6 +2636,8 @@ msgid ""
 "@@image: 'images/filters/examples/lensdistortion-zoom-high.png'; "
 "md5=2cbedf15ebb546c6fe01da899d31d299"
 msgstr ""
+"@@image: 'images/filters/examples/lensdistortion-zoom-high.png'; "
+"md5=2cbedf15ebb546c6fe01da899d31d299"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2394,6 +2646,8 @@ msgid ""
 "@@image: 'images/filters/examples/lensdistortion-xshift-low.png'; "
 "md5=2a4a7345dd570e010292b1a6f83528e3"
 msgstr ""
+"@@image: 'images/filters/examples/lensdistortion-xshift-low.png'; "
+"md5=2a4a7345dd570e010292b1a6f83528e3"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2402,6 +2656,8 @@ msgid ""
 "@@image: 'images/filters/examples/lensdistortion-xshift-high.png'; "
 "md5=9326df50bda68af20f917deafe753cdd"
 msgstr ""
+"@@image: 'images/filters/examples/lensdistortion-xshift-high.png'; "
+"md5=9326df50bda68af20f917deafe753cdd"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2410,6 +2666,8 @@ msgid ""
 "@@image: 'images/filters/examples/lensdistortion-brighten-low.png'; "
 "md5=e86a176e4130e9deceea41715e9a27bb"
 msgstr ""
+"@@image: 'images/filters/examples/lensdistortion-brighten-low.png'; "
+"md5=e86a176e4130e9deceea41715e9a27bb"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2418,20 +2676,22 @@ msgid ""
 "@@image: 'images/filters/examples/lensdistortion-brighten-high.png'; "
 "md5=0eab13cdc42bccd3a109a8eea0c9c4b0"
 msgstr ""
+"@@image: 'images/filters/examples/lensdistortion-brighten-high.png'; "
+"md5=0eab13cdc42bccd3a109a8eea0c9c4b0"
 
 #: src/filters/distort/lens-distortion.xml:10(title)
 #: src/filters/distort/lens-distortion.xml:15(tertiary)
 #: src/filters/distort/lens-distortion.xml:18(primary)
 msgid "Lens Distortion"
-msgstr ""
+msgstr "Mercek Bozulması"
 
 #: src/filters/distort/lens-distortion.xml:24(title)
 msgid "Example for the <quote>Lens Distortion</quote> filter"
-msgstr ""
+msgstr "<quote>Mercek Bozulması</quote> süzgeci örneği"
 
 #: src/filters/distort/lens-distortion.xml:40(para)
 msgid "<quote>Lens Distortion</quote> applied"
-msgstr ""
+msgstr "<quote>Mercek Bozulması</quote> uygulandı"
 
 #: src/filters/distort/lens-distortion.xml:44(para)
 msgid ""
@@ -2445,10 +2705,13 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Lens Distortion…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Mercek Bozulması…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/lens-distortion.xml:66(title)
 msgid "<quote>Lens Distortion</quote> options"
-msgstr ""
+msgstr "<quote>Mercek Bozulması</quote> seçenekleri"
 
 #: src/filters/distort/lens-distortion.xml:74(para)
 msgid "The allowed range of all options is from -100.0 to 100.0."
@@ -2456,7 +2719,7 @@ msgstr ""
 
 #: src/filters/distort/lens-distortion.xml:91(term)
 msgid "Main"
-msgstr ""
+msgstr "Ana"
 
 #: src/filters/distort/lens-distortion.xml:93(para)
 msgid ""
@@ -2467,13 +2730,13 @@ msgstr ""
 
 #: src/filters/distort/lens-distortion.xml:100(title)
 msgid "Example result of Main option"
-msgstr ""
+msgstr "\"Ana\" seçeneğin örnek sonucu"
 
 #: src/filters/distort/lens-distortion.xml:107(para)
 #: src/filters/distort/lens-distortion.xml:185(para)
 #: src/filters/distort/lens-distortion.xml:230(para)
 msgid "-100.0"
-msgstr ""
+msgstr "-100,0"
 
 #: src/filters/distort/lens-distortion.xml:116(para)
 #: src/filters/distort/lens-distortion.xml:155(para)
@@ -2481,17 +2744,17 @@ msgstr ""
 #: src/filters/distort/lens-distortion.xml:239(para)
 #: src/filters/distort/lens-distortion.xml:283(para)
 msgid "0.0"
-msgstr ""
+msgstr "0,0"
 
 #: src/filters/distort/lens-distortion.xml:125(para)
 #: src/filters/distort/lens-distortion.xml:203(para)
 #: src/filters/distort/lens-distortion.xml:248(para)
 msgid "+100.0"
-msgstr ""
+msgstr "+100,0"
 
 #: src/filters/distort/lens-distortion.xml:132(term)
 msgid "Edge"
-msgstr ""
+msgstr "Kenar"
 
 #: src/filters/distort/lens-distortion.xml:134(para)
 msgid "Specifies the amount of additional spherical correction at image edges."
@@ -2499,20 +2762,20 @@ msgstr ""
 
 #: src/filters/distort/lens-distortion.xml:139(title)
 msgid "Example result of Edge option (Main set to 50.0)"
-msgstr ""
+msgstr "\"Kenar\" seçeneğinin örnek sonucu (\"Ana\" 50,0 olarak ayarlandı)"
 
 #: src/filters/distort/lens-distortion.xml:146(para)
 msgid "-60.0"
-msgstr ""
+msgstr "-60,0"
 
 #: src/filters/distort/lens-distortion.xml:164(para)
 msgid "+60.0"
-msgstr ""
+msgstr "+60,0"
 
 #: src/filters/distort/lens-distortion.xml:171(term)
 #: src/filters/distort/kaleidoscope.xml:148(term)
 msgid "Zoom"
-msgstr ""
+msgstr "Yakınlaştır"
 
 #: src/filters/distort/lens-distortion.xml:173(para)
 msgid ""
@@ -2522,35 +2785,40 @@ msgstr ""
 
 #: src/filters/distort/lens-distortion.xml:178(title)
 msgid "Example result of Zoom option"
-msgstr ""
+msgstr "\"Yakınlaştır\" seçeneğinin örnek sonucu"
 
 #: src/filters/distort/lens-distortion.xml:210(term)
 msgid "Shift X"
-msgstr ""
+msgstr "X Değiştir"
 
 #: src/filters/distort/lens-distortion.xml:211(term)
 msgid "Shift Y"
-msgstr ""
+msgstr "Y Değiştir"
 
 #: src/filters/distort/lens-distortion.xml:213(para)
 msgid ""
 "These two options specify the shift of the image produced by not perfectly "
 "centered pairs of lenses."
 msgstr ""
+"Bu iki seçenek, doğru ortalanmamış mercekler tarafından üretilen görüntü "
+"kaymasını belirler."
 
 #: src/filters/distort/lens-distortion.xml:217(para)
 msgid ""
 "As above this option produces visible results only if the <guilabel>Main</"
 "guilabel> or <guilabel>Edge</guilabel> options are non zero."
 msgstr ""
+"Yukarıda olduğu gibi, bu seçenek de yalnızca <guilabel>Ana</guilabel> ya da "
+"<guilabel>Kenar</guilabel> seçenekleri sıfırdan büyükse görünür sonuçlar "
+"üretir."
 
 #: src/filters/distort/lens-distortion.xml:223(title)
 msgid "Example result of Shift X option (Main set to 70.0)"
-msgstr ""
+msgstr "\"Shift X\" seçeneğinin örnek sonucu (\"Ana\" 70,0 olarak ayarlandı)"
 
 #: src/filters/distort/lens-distortion.xml:255(term)
 msgid "Brighten"
-msgstr ""
+msgstr "Parlat"
 
 #: src/filters/distort/lens-distortion.xml:257(para)
 msgid ""
@@ -2564,23 +2832,26 @@ msgid ""
 "The <guilabel>Main</guilabel> or <guilabel>Edge</guilabel> options must be "
 "non zero for this option to produce noticeable results."
 msgstr ""
+"Bu seçeneğin fark edilebilir sonuçlar üretebilmesi için <guilabel>Ana</"
+"guilabel> ya da <guilabel>Kenar</guilabel> seçeneklerinin sıfırdan büyük "
+"olması gerekir."
 
 #: src/filters/distort/lens-distortion.xml:267(title)
 msgid "Example result of the Brighten option (Main set to 75.0)"
-msgstr ""
+msgstr "\"Parlat\" seçeneğinin örnek sonucu (\"Ana\" 75,0 olarak ayarlandı)"
 
 #: src/filters/distort/lens-distortion.xml:274(para)
 msgid "-25.0"
-msgstr ""
+msgstr "-25,0"
 
 #: src/filters/distort/lens-distortion.xml:292(para)
 msgid "+25.0"
-msgstr ""
+msgstr "+25,0"
 
 #: src/filters/distort/lens-distortion.xml:299(term)
 #: src/filters/distort/apply_lens.xml:98(term)
 msgid "Background color"
-msgstr ""
+msgstr "Arka plan rengi"
 
 #: src/filters/distort/lens-distortion.xml:301(para)
 msgid ""
@@ -2591,7 +2862,7 @@ msgstr ""
 #: src/filters/distort/lens-distortion.xml:309(para)
 #: src/filters/distort/apply_lens.xml:108(para)
 msgid "Click on the color button to open the color selector dialog."
-msgstr ""
+msgstr "Renk seçici iletişim kutusunu açmak için renk düğmesine tıklayın."
 
 #: src/filters/distort/lens-distortion.xml:314(para)
 msgid ""
@@ -2601,23 +2872,33 @@ msgstr ""
 #: src/filters/distort/lens-distortion.xml:305(para)
 #: src/filters/distort/apply_lens.xml:104(para)
 msgid "You can select the color: <placeholder-1/>"
-msgstr ""
+msgstr "Rengi seçebilirsiniz: <placeholder-1/>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/kaleidoscope.xml:32(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/distort-taj-video.jpg'; "
+#| "md5=8008a59836c39bbe3b430ff1531e0a9e"
 msgid ""
 "@@image: 'images/filters/examples/distort-taj-kaleidoscope.jpg'; "
 "md5=5802aefc985d59693660cdbc8ce2c0b0"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-kaleidoscope.jpg'; "
+"md5=5802aefc985d59693660cdbc8ce2c0b0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/kaleidoscope.xml:67(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/wind-dialog.png'; "
+#| "md5=405494a0833517374b5d650c4b437467"
 msgid ""
 "@@image: 'images/filters/distort/kaleidoscope-dialog.png'; "
 "md5=a036c907a13835560cf7a7fb6b8ca374"
 msgstr ""
+"@@image: 'images/filters/distort/kaleidoscope-dialog.png'; "
+"md5=a036c907a13835560cf7a7fb6b8ca374"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2626,22 +2907,26 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-vchain.svg'; "
 "md5=d47eea1ce790b9e3211d223704a1e9de"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
 
 #: src/filters/distort/kaleidoscope.xml:5(title)
 #: src/filters/distort/kaleidoscope.xml:10(tertiary)
 #: src/filters/distort/kaleidoscope.xml:13(primary)
 msgid "Kaleidoscope"
-msgstr ""
+msgstr "Çiçek Dürbünü"
 
 #: src/filters/distort/kaleidoscope.xml:19(title)
 msgid "Example for the <quote>Kaleidoscope</quote> filter"
-msgstr ""
+msgstr "<quote>Çiçek Dürbünü</quote> süzgeci örneği"
 
 #: src/filters/distort/kaleidoscope.xml:35(para)
 msgid ""
 "Filter <quote>Kaleidoscope</quote> applied with the following adjusted "
 "settings: mirror rotation 25.0, Zoom 20.0."
 msgstr ""
+"<quote>Çiçek Dürbünü</quote> süzgeci aşağıdaki ayarlarla uygulandı: Ayna "
+"döndürme: 25,0. Yakınlaştır: 20,0."
 
 #: src/filters/distort/kaleidoscope.xml:42(para)
 msgid ""
@@ -2655,42 +2940,45 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Kaleidoscope…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Çiçek Dürbünü…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/kaleidoscope.xml:63(title)
 msgid "<quote>Kaleidoscope</quote> filter options"
-msgstr ""
+msgstr "<quote>Çiçek Dürbünü</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/kaleidoscope.xml:85(term)
 msgid "Mirror rotation"
-msgstr ""
+msgstr "Ayna döndürme"
 
 #: src/filters/distort/kaleidoscope.xml:87(para)
 msgid "The rotation applied to the mirrored copies of the image."
-msgstr ""
+msgstr "Görüntünün yansıtılmış kopyalarına uygulanacak döndürme."
 
 #: src/filters/distort/kaleidoscope.xml:93(term)
 msgid "Result rotation"
-msgstr ""
+msgstr "Sonuç döndürme"
 
 #: src/filters/distort/kaleidoscope.xml:95(para)
 msgid "The rotation applied to the output image."
-msgstr ""
+msgstr "Çıktı görüntüsüne uygulacak döndürme."
 
 #: src/filters/distort/kaleidoscope.xml:101(term)
 msgid "Mirrors"
-msgstr ""
+msgstr "Aynalar"
 
 #: src/filters/distort/kaleidoscope.xml:103(para)
 msgid "The number of mirrored copies of the image to use."
-msgstr ""
+msgstr "Görüntünün yansıtılmış kopyalarının kullanım sayısı."
 
 #: src/filters/distort/kaleidoscope.xml:109(term)
 msgid "Offset X"
-msgstr ""
+msgstr "X Konumu"
 
 #: src/filters/distort/kaleidoscope.xml:110(term)
 msgid "Offset Y"
-msgstr ""
+msgstr "Y Konumu"
 
 #: src/filters/distort/kaleidoscope.xml:112(para)
 msgid ""
@@ -2703,27 +2991,27 @@ msgstr ""
 
 #: src/filters/distort/kaleidoscope.xml:133(para)
 msgid "X axis and Y axis ratio for the center of mirroring."
-msgstr ""
+msgstr "Yansıtma merkezi için X ekseni ve Y ekseni oranı."
 
 #: src/filters/distort/kaleidoscope.xml:139(term)
 msgid "Trim X"
-msgstr ""
+msgstr "X Kırpım"
 
 #: src/filters/distort/kaleidoscope.xml:140(term)
 msgid "Trim Y"
-msgstr ""
+msgstr "Y Kırpım"
 
 #: src/filters/distort/kaleidoscope.xml:142(para)
 msgid "X axis and Y axis ratio for trimming mirror expanse."
-msgstr ""
+msgstr "Ayna genişliğini kırpmak için X ekseni ve Y ekseni oranı."
 
 #: src/filters/distort/kaleidoscope.xml:150(para)
 msgid "Scale factor to adjust the rendering size."
-msgstr ""
+msgstr "Görselleştirme boyutunu ayarlamak için ölçek katsayısı."
 
 #: src/filters/distort/kaleidoscope.xml:156(term)
 msgid "Expand"
-msgstr ""
+msgstr "Genişlet"
 
 #: src/filters/distort/kaleidoscope.xml:158(para)
 msgid ""
@@ -2733,32 +3021,32 @@ msgstr ""
 
 #: src/filters/distort/kaleidoscope.xml:165(term)
 msgid "Clip result to input size"
-msgstr ""
+msgstr "Sonucu girdi boyutuna kırp"
 
 #: src/filters/distort/kaleidoscope.xml:167(para)
 msgid "If enabled, clips the mirrored result to the input size."
-msgstr ""
+msgstr "Etkinse, yansıtılan sonucu girdi boyutuna kırpar."
 
 #: src/filters/distort/kaleidoscope.xml:173(term)
 msgid "Wrap input"
-msgstr ""
+msgstr "Girdiyi sar"
 
 #: src/filters/distort/kaleidoscope.xml:175(para)
 msgid "If enabled, fills the entire output area."
-msgstr ""
+msgstr "Etkinse tüm çıktı alanını doldurur."
 
 #: src/filters/distort/introduction.xml:9(title)
 #: src/filters/distort/introduction.xml:13(tertiary)
 msgid "Introduction"
-msgstr ""
+msgstr "Giriş"
 
 #: src/filters/distort/introduction.xml:15(para)
 msgid "Distort filters transform your image in many different ways."
-msgstr ""
+msgstr "Bozulma süzgeçleri görüntünüzü birçok şekilde dönüştürür."
 
 #: src/filters/distort/introduction.xml:19(para)
 msgid "This category describes the following filters:"
-msgstr ""
+msgstr "Bu kategori aşağıdaki süzgeçleri açıklar:"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2767,14 +3055,21 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-engrave.png'; "
 "md5=37c46a294b98828c118183e820ab2bd0"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-engrave.png'; "
+"md5=37c46a294b98828c118183e820ab2bd0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/engrave.xml:78(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/engrave-dialog.png'; "
+#| "md5=38bf5a71a09a15aa56529482b50dfde1"
 msgid ""
 "@@image: 'images/filters/distort/engrave-dialog.png'; "
 "md5=d9315abac23896d86c7f99860a82f85e"
 msgstr ""
+"@@image: 'images/filters/distort/engrave-dialog.png'; "
+"md5=d9315abac23896d86c7f99860a82f85e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2783,6 +3078,8 @@ msgid ""
 "@@image: 'images/filters/examples/engrave_width_limit_original.png'; "
 "md5=980815818bfcec3241e29a298bb9fdf0"
 msgstr ""
+"@@image: 'images/filters/examples/engrave_width_limit_original.png'; "
+"md5=980815818bfcec3241e29a298bb9fdf0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2791,6 +3088,8 @@ msgid ""
 "@@image: 'images/filters/examples/engrave_width_limit_yes.png'; "
 "md5=067f7a25dc3e6f567bb3dbe4164bae3c"
 msgstr ""
+"@@image: 'images/filters/examples/engrave_width_limit_yes.png'; "
+"md5=067f7a25dc3e6f567bb3dbe4164bae3c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2799,20 +3098,22 @@ msgid ""
 "@@image: 'images/filters/examples/engrave_width_limit_no.png'; "
 "md5=cde87886d8ddfeb4cb1b4dc642c87d2b"
 msgstr ""
+"@@image: 'images/filters/examples/engrave_width_limit_no.png'; "
+"md5=cde87886d8ddfeb4cb1b4dc642c87d2b"
 
 #: src/filters/distort/engrave.xml:9(title)
 #: src/filters/distort/engrave.xml:14(tertiary)
 #: src/filters/distort/engrave.xml:17(primary)
 msgid "Engrave"
-msgstr ""
+msgstr "Oyma"
 
 #: src/filters/distort/engrave.xml:23(title)
 msgid "Example for the <quote>Engrave</quote> filter"
-msgstr ""
+msgstr "<quote>Oyma</quote> süzgeci örneği"
 
 #: src/filters/distort/engrave.xml:39(para)
 msgid "<quote>Engrave</quote> applied"
-msgstr ""
+msgstr "<quote>Oyma</quote> uygulanmış"
 
 #: src/filters/distort/engrave.xml:43(para)
 msgid ""
@@ -2835,42 +3136,50 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Engrave…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Oyma…</guimenuitem></"
+"menuchoice> altında bulunur."
 
 #: src/filters/distort/engrave.xml:74(title)
 msgid "<quote>Engrave</quote> options"
-msgstr ""
+msgstr "<quote>Oyma</quote> seçenekleri"
 
 #: src/filters/distort/engrave.xml:96(term)
 msgid "Height"
-msgstr ""
+msgstr "Yükseklik"
 
 #: src/filters/distort/engrave.xml:98(para)
 msgid ""
 "This option specifies the height of the engraving lines. The value goes from "
 "2 to 16."
 msgstr ""
+"Bu seçenek oyma çizgilerinin yüksekliğini belirler. Değer 2 ila 16 arasında "
+"değişir."
 
 #: src/filters/distort/engrave.xml:105(term)
 msgid "Limit line width"
-msgstr ""
+msgstr "Çizgi genişliğini sınırla"
 
 #: src/filters/distort/engrave.xml:107(para)
 msgid ""
 "If this option is enabled thin lines are not drawn on contiguous color "
 "areas. See the figure below for an example of this option result."
 msgstr ""
+"Bu seçenek etkinleştirilirse, bitişik renk alanlarına ince çizgiler "
+"çizilmez. Bu seçeneğin ürettiği sonucun bir örneği için aşağıdaki şekle "
+"bakın."
 
 #: src/filters/distort/engrave.xml:113(title)
 msgid "Example result of Limit line width option"
-msgstr ""
+msgstr "Çizgi genişliğini sınırla seçeneğinin örnek sonucu"
 
 #: src/filters/distort/engrave.xml:129(para)
 msgid "Limit line width option enabled"
-msgstr ""
+msgstr "\"Çizgi genişliğini sınırla\" etkin"
 
 #: src/filters/distort/engrave.xml:138(para)
 msgid "Limit line width option disabled"
-msgstr ""
+msgstr "\"Çizgi genişliğini sınırla\" devre dışı"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2879,29 +3188,36 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-emboss.jpg'; "
 "md5=b8c8720324ce308588aa81f9d283a143"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-emboss.jpg'; "
+"md5=b8c8720324ce308588aa81f9d283a143"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/emboss.xml:68(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/emboss-dialog.png'; "
+#| "md5=7db60146470d8cc11c07750e0dee7949"
 msgid ""
 "@@image: 'images/filters/distort/emboss-dialog.png'; "
 "md5=19b6304fc95403849985dbbdd473d98f"
 msgstr ""
+"@@image: 'images/filters/distort/emboss-dialog.png'; "
+"md5=19b6304fc95403849985dbbdd473d98f"
 
 #: src/filters/distort/emboss.xml:8(title)
 #: src/filters/distort/emboss.xml:13(tertiary)
 #: src/filters/distort/emboss.xml:16(primary)
 #: src/filters/distort/emboss.xml:90(term)
 msgid "Emboss"
-msgstr ""
+msgstr "Kabartma"
 
 #: src/filters/distort/emboss.xml:22(title)
 msgid "Applying example for the Emboss filter"
-msgstr ""
+msgstr "\"Kabartma\" süzgeci uygulama örneği"
 
 #: src/filters/distort/emboss.xml:38(para)
 msgid "Filter <quote>Emboss</quote> applied"
-msgstr ""
+msgstr "<quote>Kabartma</quote> süzgeci uygulandı"
 
 #: src/filters/distort/emboss.xml:42(para)
 msgid ""
@@ -2916,14 +3232,17 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Emboss…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Kabartma…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/emboss.xml:64(title)
 msgid "<quote>Emboss</quote> filter options"
-msgstr ""
+msgstr "<quote>Kabartma</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/emboss.xml:86(term)
 msgid "Emboss Type"
-msgstr ""
+msgstr "Kabartma Türü"
 
 #: src/filters/distort/emboss.xml:92(para)
 msgid ""
@@ -2935,7 +3254,7 @@ msgstr ""
 
 #: src/filters/distort/emboss.xml:102(term)
 msgid "Bumpmap (preserve original colors)"
-msgstr ""
+msgstr "Derinlik etkisi eşlemi (özgün renkleri koru)"
 
 #: src/filters/distort/emboss.xml:104(para)
 msgid "Relief is smooth and colors are preserved."
@@ -2943,7 +3262,7 @@ msgstr ""
 
 #: src/filters/distort/emboss.xml:113(term)
 msgid "Azimuth"
-msgstr ""
+msgstr "Azimut"
 
 #: src/filters/distort/emboss.xml:115(para)
 msgid ""
@@ -2954,7 +3273,7 @@ msgstr ""
 
 #: src/filters/distort/emboss.xml:123(term)
 msgid "Elevation"
-msgstr ""
+msgstr "Yükselme"
 
 #: src/filters/distort/emboss.xml:125(para)
 msgid ""
@@ -2965,13 +3284,15 @@ msgstr ""
 
 #: src/filters/distort/emboss.xml:133(term)
 msgid "Depth"
-msgstr ""
+msgstr "Derinlik"
 
 #: src/filters/distort/emboss.xml:135(para)
 msgid ""
 "Bumps are higher and hollows deeper when <guilabel>Depth</guilabel> "
 "increases."
 msgstr ""
+"<guilabel>Derinlik</guilabel> arttığında Derinlik Etkisi daha yüksek ve "
+"çukurlar daha derindir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2980,28 +3301,35 @@ msgid ""
 "@@image: 'images/filters/examples/distort-taj-curve-bend.jpg'; "
 "md5=34102fe19517bf10f89ef2e48f1fd141"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-curve-bend.jpg'; "
+"md5=34102fe19517bf10f89ef2e48f1fd141"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/curve_bend.xml:71(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/curvebend.png'; "
+#| "md5=7201ddf6edd4d67a104cc74466792797"
 msgid ""
 "@@image: 'images/filters/distort/curvebend.png'; "
 "md5=d0cc8da782730bfbda7f2c154d328156"
 msgstr ""
+"@@image: 'images/filters/distort/curvebend.png'; "
+"md5=d0cc8da782730bfbda7f2c154d328156"
 
 #: src/filters/distort/curve_bend.xml:11(title)
 #: src/filters/distort/curve_bend.xml:16(tertiary)
 #: src/filters/distort/curve_bend.xml:19(primary)
 msgid "Curve Bend"
-msgstr ""
+msgstr "Eğri Bükümü"
 
 #: src/filters/distort/curve_bend.xml:25(title)
 msgid "Applying example for the Curve Bend filter"
-msgstr ""
+msgstr "<quote>Eğri Bükümü</quote> süzgeci örneği"
 
 #: src/filters/distort/curve_bend.xml:41(para)
 msgid "Filter <quote>Curve Bend</quote> applied"
-msgstr ""
+msgstr "<quote>Eğri Bükümü</quote> süzgeci uygulandı"
 
 #: src/filters/distort/curve_bend.xml:45(para)
 msgid ""
@@ -3016,10 +3344,13 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Curve Bend…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Eğri Bükümü…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/curve_bend.xml:67(title)
 msgid "<quote>Curve bend</quote> filter options"
-msgstr ""
+msgstr "<quote>Eğri Bükümü</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/curve_bend.xml:79(para)
 msgid ""
@@ -3029,7 +3360,7 @@ msgstr ""
 
 #: src/filters/distort/curve_bend.xml:85(term)
 msgid "Preview once"
-msgstr ""
+msgstr "Hemen Ön İzle"
 
 #: src/filters/distort/curve_bend.xml:87(para)
 msgid "This button allows you to update the preview each time you need it."
@@ -3037,7 +3368,7 @@ msgstr ""
 
 #: src/filters/distort/curve_bend.xml:94(term)
 msgid "Automatic Preview"
-msgstr ""
+msgstr "Kendiliğinden ön izle"
 
 #: src/filters/distort/curve_bend.xml:96(para)
 msgid ""
@@ -3048,7 +3379,7 @@ msgstr ""
 
 #: src/filters/distort/curve_bend.xml:111(term)
 msgid "Rotate"
-msgstr ""
+msgstr "Döndür"
 
 #: src/filters/distort/curve_bend.xml:113(para)
 msgid ""
@@ -3060,7 +3391,7 @@ msgstr ""
 
 #: src/filters/distort/curve_bend.xml:123(term)
 msgid "Smoothing"
-msgstr ""
+msgstr "Pürüzsüzleştir"
 
 #: src/filters/distort/curve_bend.xml:126(para)
 msgid ""
@@ -3070,7 +3401,7 @@ msgstr ""
 
 #: src/filters/distort/curve_bend.xml:133(term)
 msgid "Work on copy"
-msgstr ""
+msgstr "Kopya üzerinde çalış"
 
 #: src/filters/distort/curve_bend.xml:135(para)
 msgid ""
@@ -3082,7 +3413,7 @@ msgstr ""
 
 #: src/filters/distort/curve_bend.xml:148(term)
 msgid "Modify Curves"
-msgstr ""
+msgstr "Eğrileri Düzenle"
 
 #: src/filters/distort/curve_bend.xml:150(para)
 msgid ""
@@ -3105,10 +3436,12 @@ msgid ""
 "If you use the <guilabel>Free</guilabel><emphasis>Curve Type</emphasis> "
 "option, the curve you draw will replace the active curve."
 msgstr ""
+"<guilabel>Serbest Çizim</guilabel><emphasis>Eğri Türü</emphasis> seçeneğini "
+"kullanırsanız, çizdiğiniz eğri etkin eğriyi değiştirir."
 
 #: src/filters/distort/curve_bend.xml:172(term)
 msgid "Curve for Border"
-msgstr ""
+msgstr "Kenarlık için Eğ"
 
 #: src/filters/distort/curve_bend.xml:174(para)
 msgid ""
@@ -3116,6 +3449,8 @@ msgid ""
 "<guilabel>Upper</guilabel> or the <guilabel>Lower</guilabel> border, "
 "according to the rotation."
 msgstr ""
+"Burada, döndürmeye göre etkin eğrinin <guilabel>Üst</guilabel> ya da "
+"<guilabel>Alt</guilabel> kenara uygulanma durumunu seçebilirsiniz."
 
 #: src/filters/distort/curve_bend.xml:181(para)
 msgid ""
@@ -3123,115 +3458,136 @@ msgid ""
 "<guilabel>Rotate</guilabel> = 90° the upper curve will actually be applied "
 "to the left border."
 msgstr ""
+"Eğri kenarlığının döndürmeye bağlı olduğunu unutmayın. Örneğin, "
+"<guilabel>Döndür</guilabel> = 90° ile üst eğri aslında sol kenara "
+"uygulanacaktır."
 
 #: src/filters/distort/curve_bend.xml:190(term)
 msgid "Curve Type"
-msgstr ""
+msgstr "Eğri Türü"
 
 #: src/filters/distort/curve_bend.xml:192(para)
 msgid ""
 "With the <guilabel>Smooth</guilabel> option, you get automatically a well "
 "rounded curve when you drag a node."
 msgstr ""
+"<guilabel>Pürüzsüz</guilabel> seçeneğiyle, düğümü sürüklediğinizde "
+"kendiliğinden iyi yuvarlatılmış eğri elde edersiniz."
 
 #: src/filters/distort/curve_bend.xml:196(para)
 msgid ""
 "The <guilabel>Free</guilabel> option allows you to draw a curve freely. It "
 "will replace the active curve."
 msgstr ""
+"<guilabel>Serbest çizim</guilabel> seçeneği, eğriyi serbestçe çizmenizi "
+"sağlar. Etkin eğriyi değiştirir."
 
 #: src/filters/distort/curve_bend.xml:203(term)
 msgid "Buttons"
-msgstr ""
+msgstr "Düğmeler"
 
 #: src/filters/distort/curve_bend.xml:207(term)
 msgid "Copy"
-msgstr ""
+msgstr "Kopyala"
 
 #: src/filters/distort/curve_bend.xml:209(para)
 msgid "Copy the active curve to the other border."
-msgstr ""
+msgstr "Etkin eğriyi diğer kenara kopyala."
 
 #: src/filters/distort/curve_bend.xml:213(term)
 msgid "Mirror"
-msgstr ""
+msgstr "Aynala"
 
 #: src/filters/distort/curve_bend.xml:215(para)
 msgid "Mirror the active curve to the other border."
-msgstr ""
+msgstr "Etkin eğriyi diğer kenara aynala."
 
 #: src/filters/distort/curve_bend.xml:219(term)
 msgid "Swap"
-msgstr ""
+msgstr "Değiştir"
 
 #: src/filters/distort/curve_bend.xml:221(para)
 msgid ""
 "Swap the <guilabel>Upper</guilabel> and <guilabel>Lower</guilabel> curves."
 msgstr ""
+"Swap the <guilabel>Üst</guilabel> ve <guilabel>Alt</guilabel> eğrileri yer "
+"değiştir."
 
 #: src/filters/distort/curve_bend.xml:228(term)
 msgid "Reset"
-msgstr ""
+msgstr "Sıfırla"
 
 #: src/filters/distort/curve_bend.xml:230(para)
 msgid "Reset the active curve."
-msgstr ""
+msgstr "Etkin eğriyi sıfırla."
 
 #: src/filters/distort/curve_bend.xml:234(term)
 msgid "Open"
-msgstr ""
+msgstr "Aç"
 
 #: src/filters/distort/curve_bend.xml:236(para)
 msgid "Load the curve from a file."
-msgstr ""
+msgstr "Eğriyi dosyadan yükle."
 
 #: src/filters/distort/curve_bend.xml:240(term)
 msgid "Save"
-msgstr ""
+msgstr "Kaydet"
 
 #: src/filters/distort/curve_bend.xml:242(para)
 msgid "Save the curve to a file."
-msgstr ""
+msgstr "Geçerli eğriyi dosyaya kaydet."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/blinds.xml:39(None)
+#| msgid ""
+#| "@@image: 'images/filters/examples/distort-taj-wind.jpg'; "
+#| "md5=6007bc46c302b12a2f6f0bb3bcd79b14"
 msgid ""
 "@@image: 'images/filters/examples/distort-taj-blinds.jpg'; "
 "md5=4b0640713952d04cbe8f896782267c67"
 msgstr ""
+"@@image: 'images/filters/examples/distort-taj-blinds.jpg'; "
+"md5=4b0640713952d04cbe8f896782267c67"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/blinds.xml:71(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/wind-dialog.png'; "
+#| "md5=405494a0833517374b5d650c4b437467"
 msgid ""
 "@@image: 'images/filters/distort/blinds.png'; "
 "md5=59eed6235353b558b8d60936f4aa4c2f"
 msgstr ""
+"@@image: 'images/filters/distort/blinds.png'; "
+"md5=59eed6235353b558b8d60936f4aa4c2f"
 
 #: src/filters/distort/blinds.xml:12(title)
 #: src/filters/distort/blinds.xml:17(tertiary)
 #: src/filters/distort/blinds.xml:20(primary)
 msgid "Blinds"
-msgstr ""
+msgstr "Kesitler"
 
 #: src/filters/distort/blinds.xml:26(title)
 msgid "Applying example for the Blinds filter"
-msgstr ""
+msgstr "<quote>Kesitler</quote> süzgeci örneği"
 
 #: src/filters/distort/blinds.xml:42(para)
 msgid "Filter <quote>Blinds</quote> applied"
-msgstr ""
+msgstr "<quote>Kesitler</quote> süzgeci uygulandı"
 
 #: src/filters/distort/blinds.xml:46(para)
 msgid ""
 "It generates a blind effect with horizontal or vertical battens. You can "
 "lift or close these battens, but not lift the whole blind up."
 msgstr ""
+"Yatay ya da dikey çıtalarla perde etkisi oluşturur. Bu çıtaları kaldırabilir "
+"ya da kapatabilirsiniz, ancak tüm perdeyi kaldıramazsınız."
 
 #: src/filters/distort/blinds.xml:53(title)
 msgid "Activating the filter"
-msgstr ""
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/distort/blinds.xml:54(para)
 msgid ""
@@ -3239,24 +3595,29 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Blinds…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Kesitler…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/blinds.xml:67(title)
 msgid "<quote>Blinds</quote> filter options"
-msgstr ""
+msgstr "<quote>Kesitler</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/blinds.xml:79(para)
 msgid ""
 "All your setting changes will appear in the Preview without affecting the "
 "image until you click on <guilabel>OK</guilabel>."
 msgstr ""
+"Tüm ayar değişiklikleriniz <guilabel>Tamam</guilabel> düğmesine "
+"tıklamadığınız sürece görüntüyü etkilemeden Ön izle ekranında görünür."
 
 #: src/filters/distort/blinds.xml:88(para)
 msgid "Allows you to decide whether battens will be horizontal or vertical."
-msgstr ""
+msgstr "Çıtaların yatay ya da dikey olma durumunu belirlemenizi sağlar."
 
 #: src/filters/distort/blinds.xml:95(term)
 msgid "Background"
-msgstr ""
+msgstr "Arka plan"
 
 #: src/filters/distort/blinds.xml:97(para)
 msgid ""
@@ -3264,10 +3625,12 @@ msgid ""
 "<emphasis>Transparent</emphasis> option, your image must have an Alpha "
 "channel."
 msgstr ""
+"Çıta rengi, Araç Kutusundaki Arka Plan rengidir. <emphasis>Saydam</emphasis> "
+"seçeneğini kullanabilmek için görüntünün Alfa kanalı olmalıdır."
 
 #: src/filters/distort/blinds.xml:105(term)
 msgid "Displacement"
-msgstr ""
+msgstr "Yer değiştirme"
 
 #: src/filters/distort/blinds.xml:107(para)
 msgid ""
@@ -3278,11 +3641,11 @@ msgstr ""
 
 #: src/filters/distort/blinds.xml:115(term)
 msgid "Number of segments"
-msgstr ""
+msgstr "Kesimlerin sayısı"
 
 #: src/filters/distort/blinds.xml:117(para)
 msgid "It's the number of battens."
-msgstr ""
+msgstr "Bu çıta sayısıdır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3291,38 +3654,47 @@ msgid ""
 "@@image: 'images/filters/examples/glass-taj-apply-lens.jpg'; "
 "md5=eb495838f0262da10313849acd358865"
 msgstr ""
+"@@image: 'images/filters/examples/glass-taj-apply-lens.jpg'; "
+"md5=eb495838f0262da10313849acd358865"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/distort/apply_lens.xml:68(None)
+#| msgid ""
+#| "@@image: 'images/filters/distort/apply-lens-dialog.png'; "
+#| "md5=5ec45b99181368f3f8ba961ae8dd9af6"
 msgid ""
 "@@image: 'images/filters/distort/apply-lens-dialog.png'; "
 "md5=3cd9ca42ff7149fdc37a4fce0e82237a"
 msgstr ""
+"@@image: 'images/filters/distort/apply-lens-dialog.png'; "
+"md5=3cd9ca42ff7149fdc37a4fce0e82237a"
 
 #: src/filters/distort/apply_lens.xml:9(title)
 #: src/filters/distort/apply_lens.xml:14(tertiary)
 #: src/filters/distort/apply_lens.xml:17(primary)
 msgid "Apply Lens"
-msgstr ""
+msgstr "Mercek Uygula"
 
 #: src/filters/distort/apply_lens.xml:13(secondary)
 msgid "Light and Shadow"
-msgstr ""
+msgstr "Işık ve Gölge"
 
 #: src/filters/distort/apply_lens.xml:23(title)
 msgid "The same image, before and after applying lens effect."
-msgstr ""
+msgstr "Aynı görüntü, Mercek Uygula etkisi uygulanmadan önce ve sonra."
 
 #: src/filters/distort/apply_lens.xml:39(para)
 msgid "Filter <quote>Apply lens</quote> applied"
-msgstr ""
+msgstr "<quote>Mercek Uygula</quote>süzgeci uygulandı"
 
 #: src/filters/distort/apply_lens.xml:43(para)
 msgid ""
 "After applying this filter, a part of the active layer is rendered as "
 "through a spherical lens."
 msgstr ""
+"Bu sügeç uygulandıktan sonra, etkin katmanın bir kısmı küresel mercekten "
+"geçer gibi görünür."
 
 #: src/filters/distort/apply_lens.xml:51(para)
 msgid ""
@@ -3330,14 +3702,17 @@ msgid ""
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Apply Lens…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Mercek Uygula…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/apply_lens.xml:64(title)
 msgid "<quote>Apply Lens</quote> filter options"
-msgstr ""
+msgstr "<quote>Mercek Uygula</quote> süzgeci seçenekleri"
 
 #: src/filters/distort/apply_lens.xml:86(term)
 msgid "Lens refraction index"
-msgstr ""
+msgstr "Mercek kırılım indeksi"
 
 #: src/filters/distort/apply_lens.xml:88(para)
 msgid "Lens will be more or less convergent (1-100)."
@@ -3345,7 +3720,7 @@ msgstr ""
 
 #: src/filters/distort/apply_lens.xml:92(term)
 msgid "Keep original surroundings"
-msgstr ""
+msgstr "Özgün çevreyi koru"
 
 #: src/filters/distort/apply_lens.xml:94(para)
 msgid "The lens seems to be put on the active layer."
@@ -3359,7 +3734,7 @@ msgstr ""
 
 #: src/filters/distort/apply_lens.xml:113(para)
 msgid "Click on the eye-drop button on the right to pick color from the image."
-msgstr ""
+msgstr "Görüntüden renk seçmek için sağdaki damlalık düğmesine tıklayın."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/distort/apply_lens.xml:0(None)
