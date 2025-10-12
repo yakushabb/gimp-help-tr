@@ -32,9 +32,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/weave.xml:69(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/weave.png'; "
-#| "md5=443f44424ee43f45b838990b7ca9a353"
 msgid ""
 "@@image: 'images/filters/artistic/weave.png'; "
 "md5=e1a716445d951de35ff056f53233de37"
@@ -310,9 +307,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/waterpixels.xml:55(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/waterpixels-dialog.png'; "
-#| "md5=eccbc5a97fc72bdc220c716dd28c157d"
 msgid ""
 "@@image: 'images/filters/artistic/waterpixels-dialog.png'; "
 "md5=bf8e54c442cdb4154bc1b17f81c5ce80"
@@ -493,9 +487,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/vangogh-lic.xml:81(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/vangogh.png'; "
-#| "md5=6f96bc56ff76fcc3130ec6fd112dd495"
 msgid ""
 "@@image: 'images/filters/artistic/vangogh.png'; "
 "md5=b2b8d478836be54371b5e2592e96fa9f"
@@ -890,9 +881,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/softglow.xml:68(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/softglow-dialog.png'; "
-#| "md5=16e959ffd26feb7a6f69d447dc18f357"
 msgid ""
 "@@image: 'images/filters/artistic/softglow-dialog.png'; "
 "md5=8c6d091a7cc6f408a5f3794d48bfb433"
@@ -986,9 +974,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/simple-linear-clustering.xml:58(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/slic-dialog.png'; "
-#| "md5=308ef671bb3591e3d52f96892bd5a39a"
 msgid ""
 "@@image: 'images/filters/artistic/slic-dialog.png'; "
 "md5=f8e1a260842f35ee5f29fe650a51a241"
@@ -1147,7 +1132,7 @@ msgstr "Yinelemeler"
 msgid ""
 "How many times filter is repeated. Increasing this value gives more details."
 msgstr ""
-"Süzgeci kaç kez yineleneceği. Bu değeri artırmak daha fazla ayrıntı verir."
+"Süzgeci kaç kez yineleneceği. Bu değeri artırmak daha çok ayrıntı verir."
 
 #: src/filters/artistic/simple-linear-clustering.xml:158(para)
 msgid "Iterations = 1 (default)"
@@ -1170,9 +1155,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/photocopy.xml:79(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/photocopy-dialog.png'; "
-#| "md5=53687793e97ab5b6f60e4464063fa4bd"
 msgid ""
 "@@image: 'images/filters/artistic/photocopy-dialog.png'; "
 "md5=824a542bb5c5a5190f61cbb881a50494"
@@ -1285,9 +1267,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/oilify.xml:74(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/oilify-dialog.png'; "
-#| "md5=036b18145ef406f43aa3dc5913b52796"
 msgid ""
 "@@image: 'images/filters/artistic/oilify-dialog.png'; "
 "md5=2049b6e29184ce5e6187ea2388fce115"
@@ -1315,7 +1294,7 @@ msgid ""
 "size</guilabel> controls the outcome: a high value gives the image less "
 "detail, as if you had used a larger brush."
 msgstr ""
-"Bu filtre görüntünün yağlı boya tablo gibi görünmesini sağlar. "
+"Bu süzgeç görüntünün yağlı boya tablo gibi görünmesini sağlar. "
 "<guilabel>Maske yarıçapı</guilabel> sonucu denetler: yüksek değer, daha "
 "büyük fırça kullanmışsınız gibi görüntüye daha az ayrıntı verir."
 
@@ -1379,7 +1358,7 @@ msgid ""
 "results in a loss of details."
 msgstr ""
 "Histogramın boyutu: öntanımlı değer 128'dir. Yoğunluk sayısının azaltılması "
-"ayrıntı kaybına neden olur."
+"ayrıntı yitimine neden olur."
 
 #: src/filters/artistic/oilify.xml:129(term)
 msgid "Intensity mode"
@@ -1418,9 +1397,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/glasstile.xml:70(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/glass_tile-dialog.png'; "
-#| "md5=ee5c1e7c4947684cd804e25e63b1868c"
 msgid ""
 "@@image: 'images/filters/artistic/glass_tile-dialog.png'; "
 "md5=dc5112a75c637e01455d9260d82e6b8c"
@@ -1457,7 +1433,7 @@ msgid ""
 "After applying this filter, the active layer or selection is rendered as "
 "through a glass brick wall."
 msgstr ""
-"Bu filtre uygulandıktan sonra, etkin katman ya da seçim cam tuğla duvarın "
+"Bu süzgeç uygulandıktan sonra, etkin katman ya da seçim cam tuğla duvarın "
 "içinden geçiyormuş gibi görünür."
 
 #: src/filters/artistic/glasstile.xml:53(para)
@@ -1513,9 +1489,6 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/GIMPressionist.xml:75(None)
 #: src/filters/artistic/GIMPressionist.xml:103(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/gimpressionist1.png'; "
-#| "md5=b863dafad245b7a4c30bc0f89d058144"
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist1.png'; "
 "md5=a16424e38abdfaace59c000e0282401a"
@@ -1526,9 +1499,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/GIMPressionist.xml:160(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/gimpressionist4.png'; "
-#| "md5=3613cd8adbab9e9b0c18c233b5c3f497"
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist2.png'; "
 "md5=d30acad4abab21feedeeacceadc330f7"
@@ -1539,9 +1509,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/GIMPressionist.xml:217(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/gimpressionist.png'; "
-#| "md5=853ab72d20803757544b1484ab0ad1a1"
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist3.png'; "
 "md5=dab245d891dff8be7a17e137faf6f11f"
@@ -1552,9 +1519,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/GIMPressionist.xml:286(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/gimpressionist6.png'; "
-#| "md5=e37b6a2e34d72d1778136a908d770470"
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist4.png'; "
 "md5=4ae40b5e76618e777e17b4d687a30c90"
@@ -1565,9 +1529,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/GIMPressionist.xml:414(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/gimpressionist5.png'; "
-#| "md5=ae3381ba04bdf6fc345f418038e5dbaf"
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist5.png'; "
 "md5=c246238ecb96974eec3a7a7194d8d08e"
@@ -1578,9 +1539,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/GIMPressionist.xml:536(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/gimpressionist2.png'; "
-#| "md5=f7ad9216300fb05700efe0923e998da0"
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist6.png'; "
 "md5=c9130382f09000761c2360d866184c2f"
@@ -1591,9 +1549,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/GIMPressionist.xml:600(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/gimpressionist.png'; "
-#| "md5=853ab72d20803757544b1484ab0ad1a1"
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist7.png'; "
 "md5=eee0fde2b1d04e715de718cab8445de9"
@@ -1604,9 +1559,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/GIMPressionist.xml:656(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/gimpressionist4.png'; "
-#| "md5=3613cd8adbab9e9b0c18c233b5c3f497"
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist8.png'; "
 "md5=38a65c5133ceb3df76c8c432bdb2d0b9"
@@ -1642,7 +1594,7 @@ msgid ""
 msgstr ""
 "Bu süzgeç <link linkend=\"gimp-filter-cubism\">Kübizm</link> ve <link "
 "linkend=\"gimp-filter-apply-canvas\">Tuval Uygula</link> süzgeçlerinin "
-"yaptıklarını ve daha fazlasını yapabilir. Görüntünüze tablo görünümü verir. "
+"yaptıklarını ve daha çoğunu yapabilir. Görüntünüze tablo görünümü verir. "
 "Görüntünüz kağıt üzerine ve sizin seçtiğiniz fırçayla yeniden boyanmış gibi "
 "olur. Etkin katman ya da seçim üzerinde çalışır."
 
@@ -2341,9 +2293,6 @@ msgstr "Fırça boyutunun uyarlanabilir seçimleri için kurtarma değeri."
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/GIMPressionist-sizemap.xml:44(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/gimpressionist-sizemap-editor.png'; "
-#| "md5=eaf34c00e64d9a7567fbcf39b8b98a7a"
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist-sizemap-editor.png'; "
 "md5=efaf7117f4329ba98d00a8e776d89640"
@@ -2367,7 +2316,7 @@ msgstr ""
 "gimpressionist\">GIMPressionist</link> süzgecinin ekidir. <link "
 "linkend=\"gimpressionist-size-options\">Boyut</link> sekmesindeki "
 "<guibutton>Düzenle</guibutton> düğmesine tıklayarak ulaşabilirsiniz. Bu "
-"düzenleyici ile, süzgeç tarafından sağlanan fırça darbelerinin boyutunu "
+"düzenleyici ile, süzgeççe sağlanan fırça darbelerinin boyutunu "
 "ayarlayabilirsiniz."
 
 #: src/filters/artistic/GIMPressionist-sizemap.xml:40(title)
@@ -2477,9 +2426,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/GIMPressionist-orientmap.xml:48(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/gimpressionist-orientmap-editor.png'; "
-#| "md5=9c7fb1e51ebfe3fe5adf1e4d1b23134d"
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist-orientmap-editor.png'; "
 "md5=f7f4d63193c22209f400f9654993c1d7"
@@ -2514,7 +2460,7 @@ msgstr ""
 "gimpressionist\">GIMPressionist</link> süzgecinin ekidir. <link "
 "linkend=\"gimpressionist-orientation-options\">Yönelim</link> sekmesindeki "
 "<guibutton>Düzenle</guibutton> düğmesine tıklayarak ulaşabilirsiniz. Bu "
-"düzenleyici ile, süzgeç tarafından sağlanan fırça darbelerinin yönünü "
+"düzenleyici ile, süzgeççe sağlanan fırça darbelerinin yönünü "
 "ayarlayabilirsiniz."
 
 #: src/filters/artistic/GIMPressionist-orientmap.xml:42(title)
@@ -2630,9 +2576,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/cubism.xml:74(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/cubism-dialog.png'; "
-#| "md5=2d569a292c37acb5e24a73cf7c0bd955"
 msgid ""
 "@@image: 'images/filters/artistic/cubism-dialog.png'; "
 "md5=3081f418a3351c2b4c98da243f3b28df"
@@ -2720,7 +2663,7 @@ msgid ""
 "You can click the color bar to select a color, or use the color picker to "
 "pick a color from your image."
 msgstr ""
-"Süzgeç tarafından kullanılan arka plan rengini değiştirmenizi sağlar. Renk "
+"Süzgeççe kullanılan arka plan rengini değiştirmenizi sağlar. Renk "
 "seçmek için renk çubuğuna tıklayabilir ya da göründen renk seçmek için renk "
 "seçiciyi kullanabilirsiniz."
 
@@ -2764,9 +2707,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/clothify.xml:104(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/clothify.png'; "
-#| "md5=d864ba89bac273364ffa2776eca7a647"
 msgid ""
 "@@image: 'images/filters/artistic/clothify.png'; "
 "md5=f3979174f53982c9f7cbc81708db14bb"
@@ -2925,9 +2865,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/cartoon.xml:69(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/cartoon-dialog.png'; "
-#| "md5=c911179c6f3b0e26b5a01f721b4dc43a"
 msgid ""
 "@@image: 'images/filters/artistic/cartoon-dialog.png'; "
 "md5=27e4fe3e24ee30107cf002810715476c"
@@ -3002,9 +2939,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/applycanvas.xml:71(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/apply_canvas-dialog.png'; "
-#| "md5=2b49d7cc72c2720dca90a23319037aed"
 msgid ""
 "@@image: 'images/filters/artistic/apply_canvas-dialog.png'; "
 "md5=d1334b4d70029f6bb5ed632352d6ff98"
@@ -3077,7 +3011,7 @@ msgstr ""
 "düz) ile 50 (çok derin) arasında denetler."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/filters/light-and-shadow/bloom.xml:0(None)
+#: src/filters/artistic/applycanvas.xml:0(None)
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"

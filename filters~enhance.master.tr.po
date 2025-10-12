@@ -140,7 +140,7 @@ msgid ""
 "the layer group."
 msgstr ""
 "<quote>Wavelet Ayrıştırma</quote> uygulandı. Katman kümelerinde yalnızca "
-"ölçek 2 görünür hale getirilmiştir."
+"ölçek 2 görünürleştirilmiştir."
 
 #: src/filters/enhance/wavelet-decompose.xml:58(para)
 msgid ""
@@ -633,7 +633,7 @@ msgid ""
 "<emphasis>pairs</emphasis> of symmetric pixels around the center. "
 "<placeholder-1/>"
 msgstr ""
-"Her pikseli komşu piksellerle ve merkezin etrafındaki 1 ya da 2 "
+"Her pikseli komşu piksellerle ve merkezin çevresindeki 1 ya da 2 "
 "<emphasis>çift</emphasis> simetrik pikselle karşılaştırarak çalışır. "
 "<placeholder-1/>"
 
@@ -753,7 +753,7 @@ msgid ""
 "If you move the cursor of threshold the amount of red color to eliminate "
 "will vary."
 msgstr ""
-"Eşik imlecini hareket ettirdiğinizde elenecek kırmızı renk miktarı değişir."
+"Eşik imlecini oynattığınızda elenecek kırmızı renk miktarı değişir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -814,13 +814,12 @@ msgid "Strength"
 msgstr "Kuvvet"
 
 #: src/filters/enhance/noise-reduction.xml:65(para)
-#, fuzzy
 msgid ""
 "Increasing Strength lessens noise, and increases blur: find compromise using "
 "the on-canvas preview."
 msgstr ""
-"Kuvvet değerini artırmak gürültüyü azaltır ve bulanıklığı artırır: tuval "
-"üzerindeki ön izlemeyi kullanarak farkları bulabilirsiniz."
+"Kuvvet değerini artırmak gürültüyü azaltır ve bulanıklığı artırır: arasını "
+"tuval üstü ön izlemeyi kullanarak bulabilirsiniz."
 
 #: src/filters/enhance/noise-reduction.xml:84(para)
 msgid "Original"
@@ -1212,7 +1211,7 @@ msgid ""
 msgstr ""
 "Görüntünün kopyasını oluşturmak için <link linkend=\"gimp-layer-"
 "duplicate\">Katmanları Çoğalt</link> komutunu kullanın: <placeholder-1/>. "
-"Çoğaltılan bu katman etkin katman haline gelir."
+"Çoğaltılan bu katman etkin katman olur."
 
 #: src/filters/enhance/high-pass.xml:125(para)
 msgid "Open High Pass filter. <placeholder-1/>"
