@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-07-15 08:40+0000\n"
-"PO-Revision-Date: 2025-09-19 15:45+0300\n"
+"PO-Revision-Date: 2025-10-13 16:01+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -140,7 +140,7 @@ msgstr "Seçenekler"
 
 #: src/filters/animation/waves.xml:71(title)
 msgid "<quote>Waves</quote> options"
-msgstr "<quote>Dalgalar</quote> seçenekleri"
+msgstr "<quote>Dalgalar</quote> süzgeci seçenekleri"
 
 #: src/filters/animation/waves.xml:82(term)
 msgid "Amplitude"
@@ -209,7 +209,7 @@ msgstr ""
 
 #: src/filters/animation/spinning-globe.xml:81(title)
 msgid "<quote>Spinning Globe</quote> options"
-msgstr "<quote>Dönen Küre</quote> seçenekleri"
+msgstr "<quote>Dönen Küre</quote> süzgeci seçenekleri"
 
 #: src/filters/animation/spinning-globe.xml:92(term)
 msgid "Frames"
@@ -277,7 +277,7 @@ msgstr ""
 
 #: src/filters/animation/rippling.xml:71(title)
 msgid "<quote>Rippling</quote> options"
-msgstr "<quote>Dalgalanma</quote> seçenekleri"
+msgstr "<quote>Dalgalanma</quote> süzgeci seçenekleri"
 
 #: src/filters/animation/rippling.xml:82(term)
 msgid "Rippling strength"
@@ -649,7 +649,7 @@ msgstr ""
 
 #: src/filters/animation/burn-in.xml:82(title)
 msgid "<quote>Burn-In</quote> options"
-msgstr "<quote>Burn-In</quote> seçenekleri"
+msgstr "<quote>Burn-In</quote> süzgeci seçenekleri"
 
 #: src/filters/animation/burn-in.xml:93(term)
 msgid "Glow color"
@@ -747,7 +747,7 @@ msgstr ""
 
 #: src/filters/animation/blend.xml:78(title)
 msgid "<quote>Blend</quote> options"
-msgstr "<quote>Kaynaşım</quote> seçenekleri"
+msgstr "<quote>Kaynaşım</quote> süzgeci seçenekleri"
 
 #: src/filters/animation/blend.xml:89(term)
 msgid "Intermediate frames"

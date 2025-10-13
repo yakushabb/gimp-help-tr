@@ -132,7 +132,7 @@ msgstr "Seçenekler"
 
 #: src/filters/web/semiflatten.xml:69(title)
 msgid "<quote>Semi-Flatten</quote> filter options dialog"
-msgstr "<quote>Yarı Düzleştir</quote> süzgeci seçenekleri iletişim kutusu"
+msgstr "<quote>Yarı Düzleştir</quote> süzgeci seçenekleri"
 
 #: src/filters/web/semiflatten.xml:79(term)
 msgid "Presets"

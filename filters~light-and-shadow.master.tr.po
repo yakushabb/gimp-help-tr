@@ -51,9 +51,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/xach-effect.xml:60(None)
-#| msgid ""
-#| "@@image: 'images/filters/examples/xach-effect-layers.png'; "
-#| "md5=31b453c04756c1f25e60d840db1d2201"
 msgid ""
 "@@image: 'images/filters/examples/xach-effect-layers.png'; "
 "md5=6bd8d9eb468c07f9534c702a8b8ef3fd"
@@ -64,9 +61,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/xach-effect.xml:110(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/xach-effect.png'; "
-#| "md5=36747cf1960446d096cdd9fa22315be3"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/xach-effect.png'; "
 "md5=7e2c0b2bb72aef5a46675a902a913c5f"
@@ -379,9 +373,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/vignette.xml:127(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/vignette-dialog.png'; "
-#| "md5=97cd93a7fa827b44dd3f8d091e41aef7"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/vignette-dialog.png'; "
 "md5=2d186e32a38b1341cd0aed5dd6b89107"
@@ -762,9 +753,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/supernova.xml:68(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/supernova-dialog.png'; "
-#| "md5=3693404a79097586169e320995a70e7d"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/supernova-dialog.png'; "
 "md5=5012eff29ca9fb10dabde7a2a07d38e5"
@@ -878,7 +866,7 @@ msgstr "Rastgele parçacık"
 #: src/filters/light-and-shadow/supernova.xml:146(term)
 #: src/filters/light-and-shadow/gflare.xml:512(term)
 msgid "New Seed"
-msgstr ""
+msgstr "Yeni Parçacık"
 
 #: src/filters/light-and-shadow/supernova.xml:148(para)
 #: src/filters/light-and-shadow/gflare.xml:514(para)
@@ -904,9 +892,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/sparkle.xml:69(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/sparkle.png'; "
-#| "md5=64560465b8a03e3d79b19a0fe7649198"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/sparkle.png'; "
 "md5=b888a29190954b300a4787f10279b0ec"
@@ -1123,9 +1108,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/perspective-shadow.xml:75(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/perspective-shadow.png'; "
-#| "md5=08e22187929daaa78fefe07fd8e75183"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/perspective-shadow.png'; "
 "md5=4972c86ea8230004888286c559b43e56"
@@ -1446,9 +1428,6 @@ msgstr "Yeniden boyutlandırmaya izin verme"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/long-shadow.xml:51(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/long-shadow-dialog.png'; "
-#| "md5=e31526b28c186a858cd7a2af01ef9ef2"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/long-shadow-dialog.png'; "
 "md5=2d602ff9c4561c21f4b8923398293fa8"
@@ -1459,9 +1438,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/long-shadow.xml:74(None)
-#| msgid ""
-#| "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
-#| "orig.png'; md5=78879f00de2c025dfdd670ef57844fac"
 msgid ""
 "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-orig.png'; "
 "md5=31b7613f446237e3a303b8c4b14a6741"
@@ -1560,7 +1536,7 @@ msgid ""
 "This GEGL-based filter simplifies creating long shadows in several visual "
 "styles."
 msgstr ""
-"Bu GEGL tabanlı süzgeç çeşitli görsel biçemlerde uzun gölgeler oluşturmayı "
+"Bu GEGL tabanlı süzgeç türlü görsel biçemlerde uzun gölgeler oluşturmayı "
 "kolaylaştırır."
 
 #: src/filters/light-and-shadow/long-shadow.xml:28(para)
@@ -1733,9 +1709,6 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/lighting.xml:68(None)
 #: src/filters/light-and-shadow/lighting.xml:104(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/lighting3.png'; "
-#| "md5=9ba9fcc6657791cf0ac6172baf0b8b2b"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/lighting1.png'; "
 "md5=c8b7aafe155028a586e0763a1beb5f27"
@@ -1746,9 +1719,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/lighting.xml:149(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/lighting2.png'; "
-#| "md5=8c0994a9476cf26f3ec1debe4c927233"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/lighting2.png'; "
 "md5=28a8952bcc331821e98d0ad2f4ef1512"
@@ -1759,9 +1729,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/lighting.xml:277(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/lighting2.png'; "
-#| "md5=8c0994a9476cf26f3ec1debe4c927233"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/lighting3.png'; "
 "md5=aab880230b8fd24989a08242e170def7"
@@ -1772,9 +1739,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/lighting.xml:355(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/lighting1.png'; "
-#| "md5=321de06f940c2edbfdbdacbd9f63a958"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/lighting4.png'; "
 "md5=a7a1dfb4c04b999b3ac3a339aaa51a0e"
@@ -1785,9 +1749,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/lighting.xml:419(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/lighting5.png'; "
-#| "md5=d627064760ce63c40dd4359701472877"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/lighting5.png'; "
 "md5=ff6137c384fe3474eec61a37502b3134"
@@ -2195,9 +2156,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/lens-flare.xml:67(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/lens_flare-dialog.png'; "
-#| "md5=406018580bcb17460488d9c294f877e6"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/lens_flare-dialog.png'; "
 "md5=d0b4a637b4cb450849901636e6921ef2"
@@ -2263,11 +2221,11 @@ msgstr "Giriş"
 #: src/filters/light-and-shadow/introduction.xml:15(para)
 msgid "Light effect filters render several illumination effects of the image."
 msgstr ""
-"Işık etkisi süzgeçleri görüntünün çeşitli aydınlatma etkilerini oluşturur."
+"Işık etkisi süzgeçleri görüntünün türlü aydınlatma etkilerini oluşturur."
 
 #: src/filters/light-and-shadow/introduction.xml:18(para)
 msgid "Shadow effect filters create various kinds of shadows."
-msgstr "Gölge etkisi süzgeçleri çeşitli türlerde gölgeler oluşturur."
+msgstr "Gölge etkisi süzgeçleri birçok türde gölgeler oluşturur."
 
 #: src/filters/light-and-shadow/introduction.xml:22(para)
 msgid "This category describes the following filters:"
@@ -2286,9 +2244,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/gflare.xml:90(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/gflare-options-1.png'; "
-#| "md5=84e2ee91f694849c032d4b77d8b141e8"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/gflare-options-1.png'; "
 "md5=3be5e220ec86e4b74b2bf8fc49985de3"
@@ -2299,9 +2254,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/gflare.xml:166(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/gflare-options-2.png'; "
-#| "md5=f1f582b4895d54a32c9b963f60e00c77"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/gflare-options-2.png'; "
 "md5=c4099d14b29c3be82a0a0163d55729c1"
@@ -2312,9 +2264,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/gflare.xml:228(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/gflare-editor-1.png'; "
-#| "md5=7f3a4e9b2e9736c05925fbfa179b01d4"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/gflare-editor-1.png'; "
 "md5=fe2e51c9e03de3e58cbcba3040348b74"
@@ -2325,9 +2274,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/gflare.xml:323(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/gflare-editor-2.png'; "
-#| "md5=87f0349baf740e93890e8612b2fcc0b3"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/gflare-editor-2.png'; "
 "md5=f5425029cb3f2b6bf8e0839ec250cf28"
@@ -2338,9 +2284,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/gflare.xml:419(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/gflare-editor-3.png'; "
-#| "md5=73812a3ddf7f1116e1feff2205a682e3"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/gflare-editor-3.png'; "
 "md5=3a814300db86f3bf68e55b1af3a647f8"
@@ -2351,9 +2294,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/gflare.xml:475(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/gflare-editor-1.png'; "
-#| "md5=7f3a4e9b2e9736c05925fbfa179b01d4"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/gflare-editor-4.png'; "
 "md5=adcdfaf76856c95f1113fb85c9aa79bf"
@@ -2412,7 +2352,7 @@ msgid ""
 msgstr ""
 "<guilabel>Ön izlemeyi kendiliğinden güncelle</guilabel> işaretlendiğinde, "
 "parametre ayar sonuçları ön izlemede etkileşimli olarak görüntüde değişiklik "
-"yapılmadan, siz <guilabel>Tamam</guilabel> düğmesine tıklayana kadar "
+"yapılmadan, siz <guilabel>Tamam</guilabel> düğmesine tıklayana dek "
 "görüntülenir."
 
 #: src/filters/light-and-shadow/gflare.xml:84(title)
@@ -2894,7 +2834,7 @@ msgstr ""
 
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:125(para)
 msgid "This determines how transparent or solid the inner glow will be."
-msgstr "Bu, iç parıltının ne kadar saydam ya da düz olacağını belirler."
+msgstr "Bu, iç parıltının ne denli saydam ya da düz olacağını belirler."
 
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:133(para)
 msgid ""
@@ -2956,7 +2896,7 @@ msgid ""
 "This filter adds a bevel to the layer. This filter works best when there are "
 "transparent areas around a colored shape."
 msgstr ""
-"Bu süzgeç katmana eğim ekler. Bu süzgeç, renkli şeklin etrafında saydam "
+"Bu süzgeç katmana eğim ekler. Bu süzgeç, renkli şeklin çevresinde saydam "
 "alanlar olduğunda en iyi sonucu verir."
 
 #: src/filters/light-and-shadow/gegl-bevel.xml:41(para)
@@ -3065,9 +3005,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/drop-shadow.xml:73(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/drop-shadow-dialog.png'; "
-#| "md5=0487d9bf6226edf03e63de06f7c4c081"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/drop-shadow-dialog.png'; "
 "md5=48a2bd895c9be2a478544c75c7072698"
@@ -3311,9 +3248,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/drop-shadow-legacy.xml:80(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/drop-shadow-legacy.png'; "
-#| "md5=379f49a5911b1174d4c97ff40d8fdf7e"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/drop-shadow-legacy.png'; "
 "md5=84f5d0cf13a8d7341aee607fc7db2662"
@@ -3444,9 +3378,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/light-and-shadow/bloom.xml:63(None)
-#| msgid ""
-#| "@@image: 'images/filters/light-and-shadow/bloom-dialog.png'; "
-#| "md5=ddb4c58d2ee231773769b1cea8f8b246"
 msgid ""
 "@@image: 'images/filters/light-and-shadow/bloom-dialog.png'; "
 "md5=c04eee509ae2df592449695073fa9424"
@@ -3466,11 +3397,11 @@ msgstr "Bahar süzgeci için uygulama örneği"
 
 #: src/filters/light-and-shadow/bloom.xml:35(para)
 msgid "Filter <quote>Bloom</quote> applied"
-msgstr "<quote>Bloom</quote> süzgeci uygulandı"
+msgstr "<quote>Bahar</quote> süzgeci uygulandı"
 
 #: src/filters/light-and-shadow/bloom.xml:39(para)
 msgid "This filter adds a glow around bright areas."
-msgstr "Bu süzgeç parlak alanların etrafına parıltı ekler."
+msgstr "Bu süzgeç parlak alanların çevresine parıltı ekler."
 
 #: src/filters/light-and-shadow/bloom.xml:46(para)
 msgid ""

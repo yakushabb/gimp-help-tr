@@ -155,7 +155,7 @@ msgstr "Seçim"
 
 #: src/filters/combine/filmstrip.xml:77(title)
 msgid "<quote>Filmstrip</quote> filter options (Selection)"
-msgstr "<quote>Film şeridi</quote> süzgeci seçenekleri (Seçim)"
+msgstr "<quote>Film Şeridi</quote> süzgeci seçenekleri (Seçim)"
 
 #: src/filters/combine/filmstrip.xml:88(term)
 msgid "Fit height to images"
@@ -290,7 +290,7 @@ msgstr "Gelişmiş"
 
 #: src/filters/combine/filmstrip.xml:191(title)
 msgid "<quote>Filmstrip</quote> filter options (Advanced)"
-msgstr "<quote>Film şeridi</quote> süzgeci seçenekleri (Gelişmiş)"
+msgstr "<quote>Film Şeridi</quote> süzgeci seçenekleri (Gelişmiş)"
 
 #: src/filters/combine/filmstrip.xml:201(term)
 msgid "Image height"

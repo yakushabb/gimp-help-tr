@@ -1977,7 +1977,7 @@ msgstr ""
 
 #: src/filters/blur/circular-motion.xml:54(title)
 msgid "<quote>Circular Motion Blur</quote> filter options"
-msgstr "<quote>Dairesel Hareket Bulanıklığı </quote> süzgeci seçenekleri"
+msgstr "<quote>Dairesel Hareket Bulanıklığı</quote> süzgeci seçenekleri"
 
 #: src/filters/blur/circular-motion.xml:81(para)
 msgid ""

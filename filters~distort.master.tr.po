@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-02-26 21:19+0000\n"
-"PO-Revision-Date: 2025-10-11 00:20+0300\n"
+"PO-Revision-Date: 2025-10-13 15:58+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -604,11 +604,12 @@ msgstr "Sarmal ve Kıstırma"
 
 #: src/filters/distort/whirlpinch.xml:22(title)
 msgid "Example for the Whirl and Pinch filter"
-msgstr "\"Sarmal ve Kıstırma\" süzgeci örneği"
+msgstr "“Sarmal ve Kıstırma” süzgeci örneği"
 
+# Değerle uyumsuz olsa da başlıklar uyumlu görünsün.
 #: src/filters/distort/whirlpinch.xml:38(para)
 msgid "Filter applied"
-msgstr "\"Sarmal ve Kıstırma\" süzgeci uygulandı"
+msgstr "“Sarmal ve Kıstırma“ süzgeci uygulandı"
 
 #: src/filters/distort/whirlpinch.xml:42(para)
 msgid "<quote>Whirl and Pinch</quote> distorts your image in a concentric way."
@@ -736,7 +737,7 @@ msgstr "Dalgalar"
 
 #: src/filters/distort/waves.xml:17(title)
 msgid "Example for the Waves filter"
-msgstr "\"Dalgalar\" süzgeci örneği"
+msgstr "“Dalgalar” süzgeci örneği"
 
 #: src/filters/distort/waves.xml:33(para)
 msgid ""
@@ -989,7 +990,7 @@ msgstr "Değer Yayılımı"
 
 #: src/filters/distort/vpropagate.xml:19(title)
 msgid "Example for the Value Propagate filter"
-msgstr "\"Değer Yayılımı\" süzgeci örneği"
+msgstr "“Değer Yayılımı” süzgeci örneği"
 
 #: src/filters/distort/vpropagate.xml:35(para)
 msgid "Filter <quote>Value Propagate</quote> applied"
@@ -1223,7 +1224,7 @@ msgstr ""
 
 #: src/filters/distort/vpropagate.xml:343(title)
 msgid "Using Value Propagate"
-msgstr "\"Değer Yayılımı\" Süzgeci Kullanımı"
+msgstr "“Değer Yayılımı” Süzgeci Kullanımı"
 
 #: src/filters/distort/vpropagate.xml:350(para)
 msgid "Left: Original. Middle: More white. Right: More black."
@@ -1416,7 +1417,7 @@ msgstr ""
 
 #: src/filters/distort/spherize.xml:25(title)
 msgid "Spherize filter example, with default values"
-msgstr "\"Küreselleştir\" süzgeci örneği, öntanımlı değerlerle"
+msgstr "“Küreselleştir” süzgeci örneği, öntanımlı değerlerle"
 
 #: src/filters/distort/spherize.xml:41(para)
 msgid "<quote>Spherize</quote> filter applied"
@@ -1445,6 +1446,7 @@ msgstr ""
 "örneğe bakın."
 
 #: src/filters/distort/spherize.xml:95(para)
+#, fuzzy
 msgid ""
 "<emphasis role=\"bold\">Horizontal</emphasis>: as if image was mapped on a "
 "<emphasis role=\"underline\">vertical</emphasis> cylinder."
@@ -1453,6 +1455,7 @@ msgstr ""
 "role=\"underline\">dikey</emphasis> silindir üzerine eşlenmiş gibi."
 
 #: src/filters/distort/spherize.xml:108(para)
+#, fuzzy
 msgid ""
 "<emphasis role=\"bold\">Vertical</emphasis>: as if image was mapped on a "
 "<emphasis role=\"underline\">horizontal</emphasis> cylinder."
@@ -1548,7 +1551,7 @@ msgstr "Yer Değiştir"
 
 #: src/filters/distort/shift.xml:22(title)
 msgid "Example for the Shift filter"
-msgstr "\"Yer Değiştir\" süzgeci örneği"
+msgstr "“Yer Değiştir” süzgeci örneği"
 
 #: src/filters/distort/shift.xml:38(para)
 msgid "Filter <quote>Shift</quote> applied"
@@ -1871,7 +1874,7 @@ msgstr "Kutup Koordinatları"
 
 #: src/filters/distort/polarcoords.xml:23(title)
 msgid "Example for Polar Coordinates filter"
-msgstr "\"Kutup Koordinatları\" süzgeci örneği"
+msgstr "“Kutup Koordinatları” süzgeci örneği"
 
 #: src/filters/distort/polarcoords.xml:39(para)
 msgid "<quote>Polar Coordinates</quote> filter applied"
@@ -2020,7 +2023,7 @@ msgstr "Sayfa Kıvırma"
 
 #: src/filters/distort/pagecurl.xml:24(title)
 msgid "Example for the Page Curl filter"
-msgstr "\"Sayfa Kıvırma\" süzgeci örneği"
+msgstr "“Sayfa Kıvırma” süzgeci örneği"
 
 #: src/filters/distort/pagecurl.xml:40(para)
 msgid "Filter <quote>Page Curl</quote> applied"
@@ -2138,7 +2141,7 @@ msgstr "Gazete Kağıdı"
 
 #: src/filters/distort/newsprint.xml:25(title)
 msgid "Applying example for the Newsprint filter"
-msgstr "<quote>Gazete Kağıdı</quote> süzgeci örneği"
+msgstr "“Gazete Kağıdı“ süzgeci örneği"
 
 #: src/filters/distort/newsprint.xml:41(para)
 msgid ""
@@ -2730,7 +2733,7 @@ msgstr ""
 
 #: src/filters/distort/lens-distortion.xml:100(title)
 msgid "Example result of Main option"
-msgstr "\"Ana\" seçeneğin örnek sonucu"
+msgstr "“Ana“ seçeneğin örnek sonucu"
 
 #: src/filters/distort/lens-distortion.xml:107(para)
 #: src/filters/distort/lens-distortion.xml:185(para)
@@ -2762,7 +2765,7 @@ msgstr ""
 
 #: src/filters/distort/lens-distortion.xml:139(title)
 msgid "Example result of Edge option (Main set to 50.0)"
-msgstr "\"Kenar\" seçeneğinin örnek sonucu (\"Ana\" 50,0 olarak ayarlandı)"
+msgstr "“Kenar” seçeneğinin örnek sonucu (“Ana” 50,0 olarak ayarlandı)"
 
 #: src/filters/distort/lens-distortion.xml:146(para)
 msgid "-60.0"
@@ -2785,7 +2788,7 @@ msgstr ""
 
 #: src/filters/distort/lens-distortion.xml:178(title)
 msgid "Example result of Zoom option"
-msgstr "\"Yakınlaştır\" seçeneğinin örnek sonucu"
+msgstr "“Yakınlaştır“ seçeneğinin örnek sonucu"
 
 #: src/filters/distort/lens-distortion.xml:210(term)
 msgid "Shift X"
@@ -2814,7 +2817,7 @@ msgstr ""
 
 #: src/filters/distort/lens-distortion.xml:223(title)
 msgid "Example result of Shift X option (Main set to 70.0)"
-msgstr "\"Shift X\" seçeneğinin örnek sonucu (\"Ana\" 70,0 olarak ayarlandı)"
+msgstr "“Shift X“ seçeneğinin örnek sonucu (“Ana“ 70,0 olarak ayarlandı)"
 
 #: src/filters/distort/lens-distortion.xml:255(term)
 msgid "Brighten"
@@ -2838,7 +2841,7 @@ msgstr ""
 
 #: src/filters/distort/lens-distortion.xml:267(title)
 msgid "Example result of the Brighten option (Main set to 75.0)"
-msgstr "\"Parlat\" seçeneğinin örnek sonucu (\"Ana\" 75,0 olarak ayarlandı)"
+msgstr "“Parlat“ seçeneğinin örnek sonucu (“Ana“ 75,0 olarak ayarlandı)"
 
 #: src/filters/distort/lens-distortion.xml:274(para)
 msgid "-25.0"
@@ -3175,11 +3178,11 @@ msgstr "Çizgi genişliğini sınırla seçeneğinin örnek sonucu"
 
 #: src/filters/distort/engrave.xml:129(para)
 msgid "Limit line width option enabled"
-msgstr "\"Çizgi genişliğini sınırla\" etkin"
+msgstr "“Çizgi genişliğini sınırla“ etkin"
 
 #: src/filters/distort/engrave.xml:138(para)
 msgid "Limit line width option disabled"
-msgstr "\"Çizgi genişliğini sınırla\" devre dışı"
+msgstr "“Çizgi genişliğini sınırla“ devre dışı"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3213,7 +3216,7 @@ msgstr "Kabartma"
 
 #: src/filters/distort/emboss.xml:22(title)
 msgid "Applying example for the Emboss filter"
-msgstr "\"Kabartma\" süzgeci uygulama örneği"
+msgstr "“Kabartma“ süzgeci örneği"
 
 #: src/filters/distort/emboss.xml:38(para)
 msgid "Filter <quote>Emboss</quote> applied"
@@ -3325,7 +3328,7 @@ msgstr "Eğri Bükümü"
 
 #: src/filters/distort/curve_bend.xml:25(title)
 msgid "Applying example for the Curve Bend filter"
-msgstr "<quote>Eğri Bükümü</quote> süzgeci örneği"
+msgstr "“Eğri Bükümü“ süzgeci örneği"
 
 #: src/filters/distort/curve_bend.xml:41(para)
 msgid "Filter <quote>Curve Bend</quote> applied"
@@ -3571,7 +3574,7 @@ msgstr "Kesitler"
 
 #: src/filters/distort/blinds.xml:26(title)
 msgid "Applying example for the Blinds filter"
-msgstr "<quote>Kesitler</quote> süzgeci örneği"
+msgstr "“Kesitler“ süzgeci örneği"
 
 #: src/filters/distort/blinds.xml:42(para)
 msgid "Filter <quote>Blinds</quote> applied"

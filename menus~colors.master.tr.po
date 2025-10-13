@@ -2477,7 +2477,7 @@ msgstr ""
 
 #: src/menus/colors/dither.xml:151(term)
 msgid "New Seed"
-msgstr ""
+msgstr "Yeni Parçacık"
 
 #: src/menus/colors/dither.xml:153(para)
 msgid ""
