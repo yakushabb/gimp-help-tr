@@ -1218,8 +1218,8 @@ msgid ""
 "In this case, <quote>Length</quote> represents the blur intensity. More "
 "Length will result in more blurring."
 msgstr ""
-"Bu süzgeçte <quote>Uzunluk</quote> bulanıklık yoğunluğunu yansıtır. Daha "
-"çok Uzunluk daha çok bulanıklık ile sonuçlanır."
+"Bu süzgeçte <quote>Uzunluk</quote> bulanıklık yoğunluğunu yansıtır. Daha çok "
+"Uzunluk daha çok bulanıklık ile sonuçlanır."
 
 #: src/filters/blur/linear-motion.xml:86(term)
 #: src/filters/blur/circular-motion.xml:91(term)
@@ -1711,7 +1711,7 @@ msgstr ""
 #: src/filters/blur/gauss_select.xml:9(title)
 #: src/filters/blur/gauss_select.xml:17(primary)
 msgid "Selective Gaussian Blur"
-msgstr "Selective Gaussian Bulanıklığı"
+msgstr "Seçmeli Gaussian Bulanıklığı"
 
 #: src/filters/blur/gauss_select.xml:14(tertiary)
 msgid "Selective Gaussian"
@@ -1719,7 +1719,7 @@ msgstr "Seçmeli Gaussian"
 
 #: src/filters/blur/gauss_select.xml:23(title)
 msgid "The Selective Gaussian Blur filter"
-msgstr "Selective Gaussian Bulanıklığı süzgeci"
+msgstr "Seçmeli Gaussian Bulanıklığı süzgeci"
 
 #: src/filters/blur/gauss_select.xml:43(para)
 msgid ""
@@ -1745,7 +1745,7 @@ msgstr ""
 #: src/filters/blur/gauss_select.xml:69(title)
 msgid "<quote>Selective Gaussian</quote> filter parameters settings"
 msgstr ""
-"<quote>Selective Gaussian Bulanıklığı</quote> süzgeci parametre ayarları"
+"<quote>Seçmeli Gaussian Bulanıklığı</quote> süzgeci parametre ayarları"
 
 #: src/filters/blur/gauss_select.xml:95(para)
 msgid ""
@@ -1873,8 +1873,8 @@ msgid ""
 "manually here."
 msgstr ""
 "Geometriyle ilgili bu seçenekler tuvalde denetimler kullanılarak "
-"değiştirilebilir. Daha ayrıntılı denetime gereksinirseniz, buradan "
-"elle ayarlanabilir."
+"değiştirilebilir. Daha ayrıntılı denetime gereksinirseniz, buradan elle "
+"ayarlanabilir."
 
 #: src/filters/blur/focus-blur.xml:153(para)
 msgid "Specifies the center X and Y position of the focus blur."
@@ -1977,7 +1977,7 @@ msgstr ""
 
 #: src/filters/blur/circular-motion.xml:54(title)
 msgid "<quote>Circular Motion Blur</quote> filter options"
-msgstr "<quote>Dairesel Hareket Bulanıklığı</quote> süzgeci seçenekleri"
+msgstr "<quote>Dairesel Hareket Bulanıklığı </quote> süzgeci seçenekleri"
 
 #: src/filters/blur/circular-motion.xml:81(para)
 msgid ""
