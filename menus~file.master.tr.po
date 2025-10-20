@@ -1462,4 +1462,9 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/file/close-all.xml:0(None)
 msgid "translator-credits"
-msgstr "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025."
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/gimp.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."

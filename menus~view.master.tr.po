@@ -1,19 +1,27 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
-"POT-Creation-Date: 2025-07-15 08:41+0000\n"
-"PO-Revision-Date: 2023-08-11 12:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: GIMP-Help master\n"
+"POT-Creation-Date: 2025-02-26 21:19+0000\n"
+"PO-Revision-Date: 2025-10-20 12:30+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
 
 #: src/menus/view/zoom.xml:11(title) src/menus/view/zoom.xml:14(primary)
 msgid "Zoom"
-msgstr ""
+msgstr "Yakınlaştır"
 
 #: src/menus/view/zoom.xml:17(para)
 msgid ""
@@ -49,7 +57,7 @@ msgstr ""
 #: src/menus/view/padding-color.xml:39(title)
 #: src/menus/view/movetoscreen.xml:21(title)
 msgid "Activating the Submenu"
-msgstr ""
+msgstr "Alt Menüyü Etkinleştirmek"
 
 #: src/menus/view/zoom.xml:45(para)
 msgid ""
@@ -85,7 +93,7 @@ msgstr ""
 
 #: src/menus/view/zoom.xml:79(term)
 msgid "Zoom Out"
-msgstr ""
+msgstr "Uzaklaştır"
 
 #: src/menus/view/zoom.xml:82(para)
 msgid ""
@@ -96,7 +104,7 @@ msgstr ""
 
 #: src/menus/view/zoom.xml:90(term)
 msgid "Zoom In"
-msgstr ""
+msgstr "Yankınlaştır"
 
 #: src/menus/view/zoom.xml:93(para)
 msgid ""
@@ -255,7 +263,7 @@ msgstr ""
 #: src/menus/view/dot-for-dot.xml:43(title)
 #: src/menus/view/display-filters.xml:30(title)
 msgid "Activating the Command"
-msgstr ""
+msgstr "Komutu Etkinleştirmek"
 
 #: src/menus/view/view-soft-proof.xml:30(para)
 msgid ""
@@ -312,10 +320,15 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/view-mark-out-of-gamut.xml:38(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/view-color-management.png'; "
+#| "md5=83f1588fb7739398033942ffd6132e43"
 msgid ""
 "@@image: 'images/menus/view/view-out-of-gamut.png'; "
 "md5=701cc36e00ebdd950d9f7755f02feea8"
 msgstr ""
+"@@image: 'images/menus/view/view-out-of-gamut.png'; "
+"md5=701cc36e00ebdd950d9f7755f02feea8"
 
 #: src/menus/view/view-mark-out-of-gamut.xml:6(title)
 #: src/menus/view/view-mark-out-of-gamut.xml:11(tertiary)
@@ -336,7 +349,7 @@ msgstr ""
 #: src/menus/view/view-mark-out-of-gamut.xml:32(para)
 #: src/menus/view/display-filters.xml:326(para)
 msgid "Original image"
-msgstr ""
+msgstr "Özgün görüntü"
 
 #: src/menus/view/view-mark-out-of-gamut.xml:41(para)
 msgid ""
@@ -577,10 +590,15 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/snap-to-equidistance.xml:30(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/display-filters/contrast.png'; "
+#| "md5=f6aff093a7afb42ae9fd47e155a0870f"
 msgid ""
 "@@image: 'images/menus/view/example-snap-equidistance.png'; "
 "md5=dc0450f30af53f80d31bbeded818f0f1"
 msgstr ""
+"@@image: 'images/menus/view/example-snap-equidistance.png'; "
+"md5=dc0450f30af53f80d31bbeded818f0f1"
 
 #: src/menus/view/snap-to-equidistance.xml:6(title)
 msgid "Snap to Equidistance"
@@ -658,10 +676,15 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/snap-to-bounding-boxes.xml:27(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/display-filters.png'; "
+#| "md5=11f1864162de4a77f014d0e9a4f2769c"
 msgid ""
 "@@image: 'images/menus/view/example-snap-bbox.png'; "
 "md5=42f90e28e5697466eacf37f4d22b9472"
 msgstr ""
+"@@image: 'images/menus/view/example-snap-bbox.png'; "
+"md5=42f90e28e5697466eacf37f4d22b9472"
 
 #: src/menus/view/snap-to-bounding-boxes.xml:6(title)
 msgid "Snap to Bounding Boxes"
@@ -879,11 +902,11 @@ msgstr ""
 #: src/menus/view/show-rulers.xml:10(title)
 #: src/menus/view/show-rulers.xml:17(primary)
 msgid "Show Rulers"
-msgstr ""
+msgstr "Cetvelleri göster"
 
 #: src/menus/view/show-rulers.xml:13(primary)
 msgid "Rulers"
-msgstr ""
+msgstr "Cetvel"
 
 #: src/menus/view/show-rulers.xml:14(secondary)
 msgid "Show/Mask rulers"
@@ -1091,39 +1114,59 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/show-all.xml:51(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/display-filters.png'; "
+#| "md5=11f1864162de4a77f014d0e9a4f2769c"
 msgid ""
 "@@image: 'images/menus/view/show_all-ex-no.jpg'; "
 "md5=8c11b580e1d8f79573eaf0ba19524f0a"
 msgstr ""
+"@@image: 'images/menus/view/show_all-ex-no.jpg'; "
+"md5=8c11b580e1d8f79573eaf0ba19524f0a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/show-all.xml:62(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/display-filters.png'; "
+#| "md5=11f1864162de4a77f014d0e9a4f2769c"
 msgid ""
 "@@image: 'images/menus/view/show_all-ex-with.jpg'; "
 "md5=42e67ab90f6b624ab19850a7d8955956"
 msgstr ""
+"@@image: 'images/menus/view/show_all-ex-with.jpg'; "
+"md5=42e67ab90f6b624ab19850a7d8955956"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/show-all.xml:128(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/zoom.png'; "
+#| "md5=65d9608b03ed5ab0165f579368187ed3"
 msgid ""
 "@@image: 'images/menus/view/show_all-ex-newimg.jpg'; "
 "md5=189435d6a273a7c123962bc9e39af811"
 msgstr ""
+"@@image: 'images/menus/view/show_all-ex-newimg.jpg'; "
+"md5=189435d6a273a7c123962bc9e39af811"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/show-all.xml:150(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/padding-color.png'; "
+#| "md5=f6127445a8397ef5f36a5614a8689198"
 msgid ""
 "@@image: 'images/menus/view/show_all-ex-clone.jpg'; "
 "md5=27e2d1c5463c97a001bde9765da8aa18"
 msgstr ""
+"@@image: 'images/menus/view/show_all-ex-clone.jpg'; "
+"md5=27e2d1c5463c97a001bde9765da8aa18"
 
 #: src/menus/view/show-all.xml:8(title) src/menus/view/show-all.xml:11(primary)
 #: src/menus/view/show-all.xml:47(title)
 msgid "Show All"
-msgstr ""
+msgstr "Tümünü Göster"
 
 #: src/menus/view/show-all.xml:14(para)
 msgid ""
@@ -1276,7 +1319,7 @@ msgstr ""
 #: src/menus/view/display-filters.xml:15(primary)
 #: src/menus/view/display-filters.xml:228(primary)
 msgid "Color"
-msgstr ""
+msgstr "Renk"
 
 #: src/menus/view/padding-color.xml:28(para)
 msgid ""
@@ -1384,18 +1427,20 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-navigation.svg'; "
 "md5=fbefb2954072993307dd38b6fd54016d"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-navigation.svg'; "
+"md5=fbefb2954072993307dd38b6fd54016d"
 
 #: src/menus/view/navigwindow.xml:10(title)
 msgid "Navigation Window"
-msgstr ""
+msgstr "Gezinme Penceresi"
 
 #: src/menus/view/navigwindow.xml:13(primary)
 msgid "Navigation"
-msgstr ""
+msgstr "Gezinim"
 
 #: src/menus/view/navigwindow.xml:14(secondary)
 msgid "View Navigation window"
-msgstr ""
+msgstr "Gezinme Penceresi"
 
 #: src/menus/view/navigwindow.xml:17(para)
 msgid ""
@@ -1479,19 +1524,19 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/introduction.xml:20(None)
 msgid "@@image: 'images/menus/view.png'; md5=f0c389f2562d00da8e0483c1a1e20478"
-msgstr ""
+msgstr "@@image: 'images/menus/view.png'; md5=f0c389f2562d00da8e0483c1a1e20478"
 
 #: src/menus/view/introduction.xml:10(title)
 msgid "Introduction to the <quote>View</quote> Menu"
-msgstr ""
+msgstr "<quote>Görünüm</quote> Menüsüne Giriş"
 
 #: src/menus/view/introduction.xml:14(secondary)
 msgid "Introduction"
-msgstr ""
+msgstr "Giriş"
 
 #: src/menus/view/introduction.xml:17(title)
 msgid "Contents of the View menu"
-msgstr ""
+msgstr "Görünüm Menüsü İçerikleri"
 
 #: src/menus/view/introduction.xml:24(para)
 msgid ""
@@ -1499,6 +1544,8 @@ msgid ""
 "commands that affect the visibility or appearance of the image and various "
 "elements of the interface."
 msgstr ""
+"Bu bölüm, görüntünün görünümünü ve arayüzün çeşitli nesnelerini etkileyen "
+"komutları içeren, <guimenu>Görünüm</guimenu> menüsünü açıklamaktadır."
 
 #: src/menus/view/fullscreen.xml:11(title)
 #: src/menus/view/fullscreen.xml:14(secondary)
@@ -1551,10 +1598,15 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/flip-rotate.xml:224(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/select-rotation-angle.png'; "
+#| "md5=f21450f7586dc5cf52f49192b71ac20e"
 msgid ""
 "@@image: 'images/menus/view/select-rotation-angle.png'; "
 "md5=b4028453eec550bcbe1b0fe30ce6d13b"
 msgstr ""
+"@@image: 'images/menus/view/select-rotation-angle.png'; "
+"md5=b4028453eec550bcbe1b0fe30ce6d13b"
 
 #: src/menus/view/flip-rotate.xml:8(title)
 msgid "Flip &amp; Rotate (0°)"
@@ -1730,7 +1782,7 @@ msgstr ""
 #: src/menus/view/dot-for-dot.xml:14(secondary)
 #: src/menus/view/dot-for-dot.xml:17(primary)
 msgid "Dot for Dot"
-msgstr ""
+msgstr "Bire bir"
 
 #: src/menus/view/dot-for-dot.xml:20(para)
 msgid ""
@@ -1792,7 +1844,7 @@ msgstr ""
 
 #: src/menus/view/dot-for-dot.xml:73(para)
 msgid "100×100 pixels"
-msgstr ""
+msgstr "100×100 piksel"
 
 #: src/menus/view/dot-for-dot.xml:76(para)
 msgid ""
@@ -1811,14 +1863,21 @@ msgid ""
 "@@image: 'images/menus/view/display-filters.png'; "
 "md5=8b491105cf7795beba12ec37fa03efed"
 msgstr ""
+"@@image: 'images/menus/view/display-filters.png'; "
+"md5=8b491105cf7795beba12ec37fa03efed"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/display-filters.xml:98(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/display-filters/clip-warning.png'; "
+#| "md5=c54391ed644260ca921e70a67daaa827"
 msgid ""
 "@@image: 'images/menus/view/display-filters/aces-rrt.png'; "
 "md5=b1289adc52cd91e16e47a8ec296e5de5"
 msgstr ""
+"@@image: 'images/menus/view/display-filters/aces-rrt.png'; "
+"md5=b1289adc52cd91e16e47a8ec296e5de5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1827,6 +1886,8 @@ msgid ""
 "@@image: 'images/menus/view/display-filters/clip-warning.png'; "
 "md5=c54391ed644260ca921e70a67daaa827"
 msgstr ""
+"@@image: 'images/menus/view/display-filters/clip-warning.png'; "
+"md5=c54391ed644260ca921e70a67daaa827"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1835,6 +1896,8 @@ msgid ""
 "@@image: 'images/menus/view/display-filters/color-deficient-vision.png'; "
 "md5=2e24e753e4996b2dcb8ed94b2409bc00"
 msgstr ""
+"@@image: 'images/menus/view/display-filters/color-deficient-vision.png'; "
+"md5=2e24e753e4996b2dcb8ed94b2409bc00"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1843,6 +1906,8 @@ msgid ""
 "@@image: 'images/menus/view/display-filters/protanopia-normal.png'; "
 "md5=7a74f89c8d582059b6ac62c362c1efce"
 msgstr ""
+"@@image: 'images/menus/view/display-filters/protanopia-normal.png'; "
+"md5=7a74f89c8d582059b6ac62c362c1efce"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1851,6 +1916,8 @@ msgid ""
 "@@image: 'images/menus/view/display-filters/protanopia-filtered.png'; "
 "md5=3333eb4cb13e28d5765c4c8f106b7516"
 msgstr ""
+"@@image: 'images/menus/view/display-filters/protanopia-filtered.png'; "
+"md5=3333eb4cb13e28d5765c4c8f106b7516"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1859,6 +1926,8 @@ msgid ""
 "@@image: 'images/menus/view/display-filters/sight-defects_normal-view.png'; "
 "md5=d27cd811b508c5bb1cb47bb6e4fb5822"
 msgstr ""
+"@@image: 'images/menus/view/display-filters/sight-defects_normal-view.png'; "
+"md5=d27cd811b508c5bb1cb47bb6e4fb5822"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1867,6 +1936,8 @@ msgid ""
 "@@image: 'images/menus/view/display-filters/sight-defects_protanopia.png'; "
 "md5=39a67703e8f3054c17f385b456e2caab"
 msgstr ""
+"@@image: 'images/menus/view/display-filters/sight-defects_protanopia.png'; "
+"md5=39a67703e8f3054c17f385b456e2caab"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1875,6 +1946,8 @@ msgid ""
 "@@image: 'images/menus/view/display-filters/sight-defects_deuteranopia.png'; "
 "md5=5588c44964bbb5af53c5294252e9d62d"
 msgstr ""
+"@@image: 'images/menus/view/display-filters/sight-defects_deuteranopia.png'; "
+"md5=5588c44964bbb5af53c5294252e9d62d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1883,6 +1956,8 @@ msgid ""
 "@@image: 'images/menus/view/display-filters/sight-defects_tritanopia.png'; "
 "md5=a87acfce1e2aaa0c0537e4a1b845854f"
 msgstr ""
+"@@image: 'images/menus/view/display-filters/sight-defects_tritanopia.png'; "
+"md5=a87acfce1e2aaa0c0537e4a1b845854f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1891,6 +1966,8 @@ msgid ""
 "@@image: 'images/menus/view/display-filters/contrast.png'; "
 "md5=f6aff093a7afb42ae9fd47e155a0870f"
 msgstr ""
+"@@image: 'images/menus/view/display-filters/contrast.png'; "
+"md5=f6aff093a7afb42ae9fd47e155a0870f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1899,6 +1976,8 @@ msgid ""
 "@@image: 'images/menus/view/display-filters/gamma.png'; "
 "md5=0e35b99e43eb8b79fa972241bb146ac7"
 msgstr ""
+"@@image: 'images/menus/view/display-filters/gamma.png'; "
+"md5=0e35b99e43eb8b79fa972241bb146ac7"
 
 #: src/menus/view/display-filters.xml:12(title)
 msgid "Display Filters"
@@ -1967,7 +2046,7 @@ msgstr ""
 #: src/menus/view/display-filters.xml:88(title)
 #: src/menus/view/display-filters.xml:90(primary)
 msgid "Aces RRT"
-msgstr ""
+msgstr "Aces RRT"
 
 #: src/menus/view/display-filters.xml:94(title)
 msgid "The <quote>Aces RRT</quote> dialog"
@@ -2272,4 +2351,9 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/view/display-filters.xml:0(None)
 msgid "translator-credits"
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/gimp.xml:0(None)
+msgid "translator-credits"
 msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."

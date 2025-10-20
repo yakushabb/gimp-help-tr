@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
-"POT-Creation-Date: 2025-07-15 08:40+0000\n"
-"PO-Revision-Date: 2023-08-11 12:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: GIMP-Help master\n"
+"POT-Creation-Date: 2025-02-26 21:19+0000\n"
+"PO-Revision-Date: 2025-10-20 15:36+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -17,6 +25,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/glossary/alias.png'; md5=fd1573da4400e93a34b6afa1a0444587"
 msgstr ""
+"@@image: 'images/glossary/alias.png'; md5=fd1573da4400e93a34b6afa1a0444587"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -25,6 +34,8 @@ msgid ""
 "@@image: 'images/glossary/antialias.png'; "
 "md5=9fd24e3f5be6ee0a73b530fec9fcb107"
 msgstr ""
+"@@image: 'images/glossary/antialias.png'; "
+"md5=9fd24e3f5be6ee0a73b530fec9fcb107"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -33,6 +44,8 @@ msgid ""
 "@@image: 'images/glossary/bezier-curve.png'; "
 "md5=3ea3ced43dcef398114c493a037aae6b"
 msgstr ""
+"@@image: 'images/glossary/bezier-curve.png'; "
+"md5=3ea3ced43dcef398114c493a037aae6b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -41,6 +54,8 @@ msgid ""
 "@@image: 'images/glossary/companding-curves-compared.png'; "
 "md5=7fad396012927c666acccf4a5b79bde1"
 msgstr ""
+"@@image: 'images/glossary/companding-curves-compared.png'; "
+"md5=7fad396012927c666acccf4a5b79bde1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -49,6 +64,8 @@ msgid ""
 "@@image: 'images/glossary/color-model-subtractive.png'; "
 "md5=b28a8bfbda939acb39b82883b8be422b"
 msgstr ""
+"@@image: 'images/glossary/color-model-subtractive.png'; "
+"md5=b28a8bfbda939acb39b82883b8be422b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -56,6 +73,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/glossary/feather.png'; md5=5d5183c1292e6e5f69308c85df8e062d"
 msgstr ""
+"@@image: 'images/glossary/feather.png'; md5=5d5183c1292e6e5f69308c85df8e062d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -64,6 +82,8 @@ msgid ""
 "@@image: 'images/glossary/tool-opt-increment.png'; "
 "md5=4c547067fff4381c7235bb57d01052fe"
 msgstr ""
+"@@image: 'images/glossary/tool-opt-increment.png'; "
+"md5=4c547067fff4381c7235bb57d01052fe"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -72,6 +92,8 @@ msgid ""
 "@@image: 'images/glossary/tool-opt-nonincrement.png'; "
 "md5=3c9e1fc6a3ebe89e93d52a083dc133ed"
 msgstr ""
+"@@image: 'images/glossary/tool-opt-nonincrement.png'; "
+"md5=3c9e1fc6a3ebe89e93d52a083dc133ed"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -80,6 +102,8 @@ msgid ""
 "@@image: 'images/dialogs/layers_overview.png'; "
 "md5=cefd0cd52b7eadcc36aeabc98d5710b8"
 msgstr ""
+"@@image: 'images/dialogs/layers_overview.png'; "
+"md5=cefd0cd52b7eadcc36aeabc98d5710b8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -88,54 +112,86 @@ msgid ""
 "@@image: 'images/dialogs/layers_example.png'; "
 "md5=854b75800e7991d8d68cda14e25d02a4"
 msgstr ""
+"@@image: 'images/dialogs/layers_example.png'; "
+"md5=854b75800e7991d8d68cda14e25d02a4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/glossary/glossary.xml:1683(None)
+#| msgid ""
+#| "@@image: 'images/dialogs/examples/layer-groups-pass-through-ex4.png'; "
+#| "md5=bab6726b16d73ff8dc29eea063f635c5"
 msgid ""
 "@@image: 'images/dialogs/examples/layer-groups-pass-through-ex1.png'; "
 "md5=be75c9fc527c3966de6f587d1ea73108"
 msgstr ""
+"@@image: 'images/dialogs/examples/layer-groups-pass-through-ex1.png'; "
+"md5=be75c9fc527c3966de6f587d1ea73108"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/glossary/glossary.xml:1703(None)
+#| msgid ""
+#| "@@image: 'images/dialogs/examples/layer-groups-pass-through-ex4.png'; "
+#| "md5=bab6726b16d73ff8dc29eea063f635c5"
 msgid ""
 "@@image: 'images/dialogs/examples/layer-groups-pass-through-ex2.png'; "
 "md5=b9d721ae647dec13d28e8117a1716c03"
 msgstr ""
+"@@image: 'images/dialogs/examples/layer-groups-pass-through-ex2.png'; "
+"md5=b9d721ae647dec13d28e8117a1716c03"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/glossary/glossary.xml:1722(None)
+#| msgid ""
+#| "@@image: 'images/dialogs/examples/layer-groups-pass-through-ex1.png'; "
+#| "md5=512fd99290e1143138d71d9c3d4bfdd0"
 msgid ""
 "@@image: 'images/dialogs/examples/layer-groups-pass-through-ex3.png'; "
 "md5=3f929143b3ddf81d48c12c8e69b35840"
 msgstr ""
+"@@image: 'images/dialogs/examples/layer-groups-pass-through-ex3.png'; "
+"md5=3f929143b3ddf81d48c12c8e69b35840"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/glossary/glossary.xml:1749(None)
+#| msgid ""
+#| "@@image: 'images/dialogs/examples/layer-groups-pass-through-ex2.png'; "
+#| "md5=64213693bfa1079817f92865089a5ebb"
 msgid ""
 "@@image: 'images/dialogs/examples/layer-groups-pass-through-ex4.png'; "
 "md5=903691207c707e7f8f8b5d5bdcc3a47e"
 msgstr ""
+"@@image: 'images/dialogs/examples/layer-groups-pass-through-ex4.png'; "
+"md5=903691207c707e7f8f8b5d5bdcc3a47e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/glossary/glossary.xml:1755(None)
+#| msgid ""
+#| "@@image: 'images/dialogs/examples/layer-groups-pass-through-ex5.png'; "
+#| "md5=d10a0f9b670b5545f89b3751fd01af9c"
 msgid ""
 "@@image: 'images/dialogs/examples/layer-groups-pass-through-ex5.png'; "
 "md5=24045da666f754e887ed446c17dc3239"
 msgstr ""
+"@@image: 'images/dialogs/examples/layer-groups-pass-through-ex5.png'; "
+"md5=24045da666f754e887ed446c17dc3239"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/glossary/glossary.xml:1761(None)
+#| msgid ""
+#| "@@image: 'images/dialogs/examples/layer-groups-pass-through-ex5.png'; "
+#| "md5=d10a0f9b670b5545f89b3751fd01af9c"
 msgid ""
 "@@image: 'images/dialogs/examples/layer-groups-pass-through-ex6.png'; "
 "md5=bc8a9592a68570543438f89df2849245"
 msgstr ""
+"@@image: 'images/dialogs/examples/layer-groups-pass-through-ex6.png'; "
+"md5=bc8a9592a68570543438f89df2849245"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -144,6 +200,8 @@ msgid ""
 "@@image: 'images/glossary/color-model-additive.png'; "
 "md5=768bb4d50d1b49aaf5ec7ce7af7ac693"
 msgstr ""
+"@@image: 'images/glossary/color-model-additive.png'; "
+"md5=768bb4d50d1b49aaf5ec7ce7af7ac693"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -152,14 +210,16 @@ msgid ""
 "@@image: 'images/glossary/colorcircle.png'; "
 "md5=ba1114612c901d79309ddb908c5640d0"
 msgstr ""
+"@@image: 'images/glossary/colorcircle.png'; "
+"md5=ba1114612c901d79309ddb908c5640d0"
 
 #: src/glossary/glossary.xml:5(title) src/glossary/glossary.xml:8(primary)
 msgid "Glossary"
-msgstr ""
+msgstr "Sözlük"
 
 #: src/glossary/glossary.xml:13(phrase) src/glossary/glossary.xml:16(primary)
 msgid "Alpha"
-msgstr ""
+msgstr "Alfa"
 
 #: src/glossary/glossary.xml:19(para)
 msgid ""
@@ -179,16 +239,16 @@ msgstr ""
 
 #: src/glossary/glossary.xml:37(phrase)
 msgid "Alpha Channel"
-msgstr ""
+msgstr "Alfa Kanalı"
 
 #: src/glossary/glossary.xml:41(primary)
 msgid "Transparency"
-msgstr ""
+msgstr "Saydamlık"
 
 #: src/glossary/glossary.xml:42(secondary)
 #: src/glossary/glossary.xml:45(primary)
 msgid "Alpha channel"
-msgstr ""
+msgstr "Alfa kanalı"
 
 #: src/glossary/glossary.xml:47(para)
 msgid ""
@@ -213,11 +273,11 @@ msgstr ""
 
 #: src/glossary/glossary.xml:69(phrase) src/glossary/glossary.xml:72(primary)
 msgid "Antialiasing"
-msgstr ""
+msgstr "Kenar Yumuşatma"
 
 #: src/glossary/glossary.xml:73(secondary)
 msgid "Explanation"
-msgstr ""
+msgstr "Açıklama"
 
 #: src/glossary/glossary.xml:76(para)
 msgid ""
@@ -275,7 +335,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:150(phrase)
 msgid "Bitmap"
-msgstr ""
+msgstr "Biteşlem"
 
 #: src/glossary/glossary.xml:158(para)
 msgid ""
@@ -303,7 +363,7 @@ msgstr ""
 #: src/glossary/glossary.xml:180(phrase) src/glossary/glossary.xml:183(primary)
 #: src/glossary/glossary.xml:187(secondary)
 msgid "BMP"
-msgstr ""
+msgstr "BMP"
 
 #: src/glossary/glossary.xml:186(primary)
 #: src/glossary/glossary.xml:1825(primary)
@@ -313,7 +373,7 @@ msgstr ""
 #: src/glossary/glossary.xml:2305(primary)
 #: src/glossary/glossary.xml:2465(primary)
 msgid "Formats"
-msgstr ""
+msgstr "Biçimler"
 
 #: src/glossary/glossary.xml:190(para)
 msgid ""
@@ -345,7 +405,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:223(phrase)
 msgid "Channel Mask"
-msgstr ""
+msgstr "Kanal Maskesi"
 
 #: src/glossary/glossary.xml:226(para)
 msgid ""
@@ -462,7 +522,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:309(phrase) src/glossary/glossary.xml:312(primary)
 msgid "Channel"
-msgstr ""
+msgstr "Kanal"
 
 #. TRANSLATORS: this is the modified text from concepts.xml, so
 #.       you should check po/LANG/concepts.po for an old translation
@@ -489,7 +549,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:341(phrase)
 msgid "Clipboard"
-msgstr ""
+msgstr "Pano"
 
 #: src/glossary/glossary.xml:344(para)
 msgid ""
@@ -530,7 +590,7 @@ msgstr ""
 #: src/glossary/glossary.xml:2198(primary)
 #: src/glossary/glossary.xml:2422(primary)
 msgid "Color"
-msgstr ""
+msgstr "Renk"
 
 #: src/glossary/glossary.xml:381(para)
 msgid ""
@@ -586,11 +646,11 @@ msgstr ""
 
 #: src/glossary/glossary.xml:426(phrase)
 msgid "CMY, CMYK"
-msgstr ""
+msgstr "CMY, CMYK"
 
 #: src/glossary/glossary.xml:429(primary)
 msgid "CMYK"
-msgstr ""
+msgstr "CMYK"
 
 #: src/glossary/glossary.xml:433(secondary)
 msgid "Subtractive color synthesis"
@@ -660,7 +720,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:502(primary)
 msgid "bpp"
-msgstr ""
+msgstr "bpp"
 
 #: src/glossary/glossary.xml:505(para)
 msgid ""
@@ -675,7 +735,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:520(phrase) src/glossary/glossary.xml:523(primary)
 msgid "Color model"
-msgstr ""
+msgstr "Renk modeli"
 
 #: src/glossary/glossary.xml:526(para)
 msgid ""
@@ -700,25 +760,25 @@ msgstr ""
 #: src/glossary/glossary.xml:547(link) src/glossary/glossary.xml:2049(phrase)
 #: src/glossary/glossary.xml:2052(primary)
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: src/glossary/glossary.xml:552(link) src/glossary/glossary.xml:1166(phrase)
 msgid "HSV"
-msgstr ""
+msgstr "HSV"
 
 #: src/glossary/glossary.xml:557(link)
 msgid "CMY(K)"
-msgstr ""
+msgstr "CMY(K)"
 
 #: src/glossary/glossary.xml:562(link) src/glossary/glossary.xml:2585(phrase)
 #: src/glossary/glossary.xml:2588(primary)
 msgid "YUV"
-msgstr ""
+msgstr "YUV"
 
 #: src/glossary/glossary.xml:567(link) src/glossary/glossary.xml:2531(phrase)
 #: src/glossary/glossary.xml:2534(primary)
 msgid "YCbCr"
-msgstr ""
+msgstr "YCbCr"
 
 #: src/glossary/glossary.xml:576(phrase) src/glossary/glossary.xml:579(primary)
 msgid "Display-referred"
@@ -789,7 +849,7 @@ msgstr ""
 #: src/glossary/glossary.xml:664(phrase) src/glossary/glossary.xml:667(primary)
 #: src/glossary/glossary.xml:671(secondary)
 msgid "Dithering"
-msgstr ""
+msgstr "Titreme"
 
 #: src/glossary/glossary.xml:674(para)
 msgid ""
@@ -836,7 +896,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:713(phrase) src/glossary/glossary.xml:716(primary)
 msgid "EXIF"
-msgstr ""
+msgstr "EXIF"
 
 #: src/glossary/glossary.xml:719(para)
 msgid ""
@@ -857,7 +917,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:739(phrase) src/glossary/glossary.xml:742(primary)
 msgid "Feathering"
-msgstr ""
+msgstr "Tüyleme"
 
 #: src/glossary/glossary.xml:745(para)
 msgid ""
@@ -873,11 +933,11 @@ msgstr ""
 
 #: src/glossary/glossary.xml:765(phrase)
 msgid "File Format"
-msgstr ""
+msgstr "Dosya Biçimi"
 
 #: src/glossary/glossary.xml:768(primary)
 msgid "File format"
-msgstr ""
+msgstr "Dosya biçimi"
 
 #: src/glossary/glossary.xml:771(para)
 msgid ""
@@ -905,11 +965,11 @@ msgstr ""
 
 #: src/glossary/glossary.xml:795(primary)
 msgid "Selection"
-msgstr ""
+msgstr "Seçim"
 
 #: src/glossary/glossary.xml:796(secondary)
 msgid "Floating selection"
-msgstr ""
+msgstr "Yüzen seçim"
 
 #: src/glossary/glossary.xml:799(para)
 msgid ""
@@ -936,11 +996,11 @@ msgstr ""
 
 #: src/glossary/glossary.xml:821(phrase)
 msgid "Floyd-Steinberg Dithering"
-msgstr ""
+msgstr "Floyd-Steinberg Titreme"
 
 #: src/glossary/glossary.xml:824(primary)
 msgid "Floyd-Steinberg"
-msgstr ""
+msgstr "Floyd-Steinberg"
 
 #: src/glossary/glossary.xml:827(para)
 msgid ""
@@ -965,7 +1025,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:851(phrase) src/glossary/glossary.xml:854(primary)
 msgid "Gamma"
-msgstr ""
+msgstr "Gama"
 
 #: src/glossary/glossary.xml:857(para)
 msgid ""
@@ -1029,7 +1089,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:923(phrase) src/glossary/glossary.xml:926(primary)
 msgid "GIF"
-msgstr ""
+msgstr "GIF"
 
 #: src/glossary/glossary.xml:929(para)
 msgid ""
@@ -1088,7 +1148,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:984(phrase)
 msgid "GNU"
-msgstr ""
+msgstr "GNU"
 
 #: src/glossary/glossary.xml:987(para)
 msgid ""
@@ -1128,12 +1188,12 @@ msgstr ""
 #: src/glossary/glossary.xml:1025(phrase)
 #: src/glossary/glossary.xml:1028(primary)
 msgid "Grayscale"
-msgstr ""
+msgstr "Gri Tonlamalı"
 
 #: src/glossary/glossary.xml:1029(secondary)
 #: src/glossary/glossary.xml:1547(secondary)
 msgid "Overview"
-msgstr ""
+msgstr "Genel Görünüm"
 
 #: src/glossary/glossary.xml:1032(para)
 msgid ""
@@ -1169,7 +1229,7 @@ msgstr ""
 #: src/glossary/glossary.xml:1063(phrase)
 #: src/glossary/glossary.xml:1066(primary)
 msgid "Guides"
-msgstr ""
+msgstr "Kılavuzlar"
 
 #: src/glossary/glossary.xml:1067(secondary)
 msgid "Using"
@@ -1192,7 +1252,7 @@ msgstr ""
 #: src/glossary/glossary.xml:1086(phrase)
 #: src/glossary/glossary.xml:1089(primary)
 msgid "High Dynamic Range"
-msgstr ""
+msgstr "HDR (Yüksek Dinamik Aralık)"
 
 #: src/glossary/glossary.xml:1092(para)
 msgid ""
@@ -1264,7 +1324,7 @@ msgstr ""
 #: src/glossary/glossary.xml:1144(phrase)
 #: src/glossary/glossary.xml:1147(primary)
 msgid "Histogram"
-msgstr ""
+msgstr "Historgram"
 
 #: src/glossary/glossary.xml:1150(para)
 msgid ""
@@ -1302,7 +1362,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:1188(term)
 msgid "Hue"
-msgstr ""
+msgstr "Hue"
 
 #: src/glossary/glossary.xml:1190(para)
 msgid ""
@@ -1320,7 +1380,7 @@ msgstr ""
 #: src/glossary/glossary.xml:2195(primary)
 #: src/glossary/glossary.xml:2199(secondary)
 msgid "Saturation"
-msgstr ""
+msgstr "Renk Doygunluğu"
 
 #: src/glossary/glossary.xml:1205(para)
 msgid ""
@@ -1334,7 +1394,7 @@ msgstr ""
 #: src/glossary/glossary.xml:2419(primary)
 #: src/glossary/glossary.xml:2423(secondary)
 msgid "Value"
-msgstr ""
+msgstr "Değer"
 
 #: src/glossary/glossary.xml:1217(para)
 msgid ""
@@ -1351,7 +1411,7 @@ msgstr ""
 #: src/glossary/glossary.xml:1238(primary)
 #: src/glossary/glossary.xml:1242(secondary)
 msgid "HTML notation"
-msgstr ""
+msgstr "HTML gösterimi:"
 
 #: src/glossary/glossary.xml:1245(para)
 msgid ""
@@ -1395,11 +1455,11 @@ msgstr ""
 
 #: src/glossary/glossary.xml:1289(phrase)
 msgid "Incremental, paint mode"
-msgstr ""
+msgstr "Artımlı, boyama kipi"
 
 #: src/glossary/glossary.xml:1292(primary)
 msgid "Incremental"
-msgstr ""
+msgstr "Artımlı"
 
 #: src/glossary/glossary.xml:1295(para)
 msgid ""
@@ -1435,11 +1495,11 @@ msgstr ""
 #: src/glossary/glossary.xml:1338(phrase)
 #: src/glossary/glossary.xml:1341(primary)
 msgid "Indexed Colors"
-msgstr ""
+msgstr "İndekli Renkler"
 
 #: src/glossary/glossary.xml:1345(secondary)
 msgid "Indexed colors"
-msgstr ""
+msgstr "İndekli renkler"
 
 #: src/glossary/glossary.xml:1348(para)
 msgid ""
@@ -1461,7 +1521,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:1369(phrase)
 msgid "Interpolation"
-msgstr ""
+msgstr "Aradeğerleme"
 
 #: src/glossary/glossary.xml:1372(para)
 msgid ""
@@ -1486,7 +1546,7 @@ msgstr ""
 #: src/glossary/glossary.xml:1395(phrase)
 #: src/glossary/glossary.xml:1398(primary)
 msgid "IPTC"
-msgstr ""
+msgstr "IPTC"
 
 #: src/glossary/glossary.xml:1401(para)
 msgid ""
@@ -1499,7 +1559,7 @@ msgstr ""
 #: src/glossary/glossary.xml:1412(phrase)
 #: src/glossary/glossary.xml:1415(primary)
 msgid "JPEG"
-msgstr ""
+msgstr "JPEG"
 
 #: src/glossary/glossary.xml:1418(para)
 msgid ""
@@ -1546,7 +1606,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:1463(phrase)
 msgid "L*a*b*"
-msgstr ""
+msgstr "L*a*b*"
 
 #: src/glossary/glossary.xml:1466(para)
 msgid ""
@@ -1570,7 +1630,7 @@ msgstr ""
 #: src/glossary/glossary.xml:1489(phrase)
 #: src/glossary/glossary.xml:1492(primary)
 msgid "Layer"
-msgstr ""
+msgstr "Katman"
 
 #: src/glossary/glossary.xml:1495(para)
 msgid ""
@@ -1596,11 +1656,11 @@ msgstr ""
 
 #: src/glossary/glossary.xml:1522(para)
 msgid "The final image"
-msgstr ""
+msgstr "Son görüntü"
 
 #: src/glossary/glossary.xml:1530(phrase)
 msgid "Marching Ants"
-msgstr ""
+msgstr "Yürüyen Karıncalar"
 
 #: src/glossary/glossary.xml:1533(para)
 msgid ""
@@ -1612,7 +1672,7 @@ msgstr ""
 #: src/glossary/glossary.xml:1543(phrase)
 #: src/glossary/glossary.xml:1546(primary)
 msgid "Masks"
-msgstr ""
+msgstr "Maskeler"
 
 #: src/glossary/glossary.xml:1550(para)
 msgid ""
@@ -1694,19 +1754,19 @@ msgstr ""
 #: src/glossary/glossary.xml:1635(phrase)
 #: src/glossary/glossary.xml:1644(primary)
 msgid "Parasite"
-msgstr ""
+msgstr "Parazit"
 
 #: src/glossary/glossary.xml:1638(primary)
 #: src/glossary/glossary.xml:2451(phrase)
 #: src/glossary/glossary.xml:2456(primary)
 #: src/glossary/glossary.xml:2466(secondary)
 msgid "XCF"
-msgstr ""
+msgstr "XCF"
 
 #: src/glossary/glossary.xml:1641(primary)
 #: src/glossary/glossary.xml:2459(primary)
 msgid ".xcf"
-msgstr ""
+msgstr ".xcf"
 
 #: src/glossary/glossary.xml:1647(para)
 msgid ""
@@ -1809,7 +1869,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:1779(phrase)
 msgid "Path"
-msgstr ""
+msgstr "Yol"
 
 #: src/glossary/glossary.xml:1782(para)
 msgid ""
@@ -1832,7 +1892,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:1804(phrase)
 msgid "PDB"
-msgstr ""
+msgstr "PDB"
 
 #: src/glossary/glossary.xml:1807(para)
 msgid ""
@@ -1846,7 +1906,7 @@ msgstr ""
 #: src/glossary/glossary.xml:1822(primary)
 #: src/glossary/glossary.xml:1826(secondary)
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: src/glossary/glossary.xml:1829(para)
 msgid ""
@@ -1861,7 +1921,7 @@ msgstr ""
 #: src/glossary/glossary.xml:1843(phrase)
 #: src/glossary/glossary.xml:1846(primary)
 msgid "Pixel"
-msgstr ""
+msgstr "Piksel"
 
 #: src/glossary/glossary.xml:1849(para)
 msgid ""
@@ -1876,11 +1936,11 @@ msgstr ""
 #: src/glossary/glossary.xml:1863(anchor:xreflabel)
 #: src/glossary/glossary.xml:1864(phrase)
 msgid "Plug-in"
-msgstr ""
+msgstr "Eklenti"
 
 #: src/glossary/glossary.xml:1867(primary)
 msgid "Plug-ins"
-msgstr ""
+msgstr "Eklentiler"
 
 #: src/glossary/glossary.xml:1868(secondary)
 msgid "Definition"
@@ -1896,11 +1956,11 @@ msgstr ""
 #: src/glossary/glossary.xml:1882(phrase)
 #: src/glossary/glossary.xml:1885(primary)
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 #: src/glossary/glossary.xml:1888(primary)
 msgid ".png"
-msgstr ""
+msgstr ".png"
 
 #: src/glossary/glossary.xml:1891(para)
 msgid ""
@@ -1916,7 +1976,7 @@ msgstr ""
 #: src/glossary/glossary.xml:1905(glossterm)
 #: src/glossary/glossary.xml:1908(secondary)
 msgid "PostScript"
-msgstr ""
+msgstr "PostScript"
 
 #: src/glossary/glossary.xml:1911(para)
 msgid ""
@@ -1940,11 +2000,11 @@ msgstr ""
 #: src/glossary/glossary.xml:1934(primary)
 #: src/glossary/glossary.xml:1941(secondary)
 msgid "PSD"
-msgstr ""
+msgstr "PSD"
 
 #: src/glossary/glossary.xml:1937(primary)
 msgid ".psd"
-msgstr ""
+msgstr ".psd"
 
 #: src/glossary/glossary.xml:1944(para)
 msgid ""
@@ -1960,7 +2020,7 @@ msgstr ""
 #: src/glossary/glossary.xml:1959(phrase)
 #: src/glossary/glossary.xml:1962(primary)
 msgid "Quantization"
-msgstr ""
+msgstr "Niceleme"
 
 #: src/glossary/glossary.xml:1965(para)
 msgid ""
@@ -1991,7 +2051,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:1994(primary)
 msgid "Color Management"
-msgstr ""
+msgstr "Renk Yönetimi"
 
 #: src/glossary/glossary.xml:1997(para)
 msgid ""
@@ -2003,7 +2063,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:2005(term)
 msgid "Perceptual"
-msgstr ""
+msgstr "Algısal"
 
 #: src/glossary/glossary.xml:2007(para)
 msgid ""
@@ -2126,7 +2186,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:2167(phrase)
 msgid "Sample Merged"
-msgstr ""
+msgstr "Birleştirilmiş Örnek"
 
 #: src/glossary/glossary.xml:2170(para)
 msgid ""
@@ -2186,7 +2246,7 @@ msgstr ""
 #: src/glossary/glossary.xml:2237(phrase)
 #: src/glossary/glossary.xml:2240(primary)
 msgid "Supersampling"
-msgstr ""
+msgstr "Süperörneklem"
 
 #: src/glossary/glossary.xml:2243(para)
 msgid ""
@@ -2224,7 +2284,7 @@ msgstr ""
 #: src/glossary/glossary.xml:2278(primary)
 #: src/glossary/glossary.xml:2282(secondary)
 msgid "SVG"
-msgstr ""
+msgstr "SVG"
 
 #: src/glossary/glossary.xml:2285(para)
 msgid ""
@@ -2238,11 +2298,11 @@ msgstr ""
 #: src/glossary/glossary.xml:2299(primary)
 #: src/glossary/glossary.xml:2306(secondary)
 msgid "TGA"
-msgstr ""
+msgstr "TGA"
 
 #: src/glossary/glossary.xml:2302(primary)
 msgid "TARGA"
-msgstr ""
+msgstr "TARGA"
 
 #: src/glossary/glossary.xml:2309(para)
 msgid ""
@@ -2256,7 +2316,7 @@ msgstr ""
 #: src/glossary/glossary.xml:2323(phrase)
 #: src/glossary/glossary.xml:2326(primary)
 msgid "TIFF"
-msgstr ""
+msgstr "TIFF"
 
 #: src/glossary/glossary.xml:2329(para)
 msgid ""
@@ -2274,7 +2334,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:2347(phrase)
 msgid "Tile"
-msgstr ""
+msgstr "Döşeme"
 
 #: src/glossary/glossary.xml:2350(para)
 msgid ""
@@ -2304,7 +2364,7 @@ msgstr ""
 #: src/glossary/glossary.xml:2375(phrase)
 #: src/glossary/glossary.xml:2378(primary)
 msgid "URI"
-msgstr ""
+msgstr "URI"
 
 #: src/glossary/glossary.xml:2381(para)
 msgid ""
@@ -2318,7 +2378,7 @@ msgstr ""
 #: src/glossary/glossary.xml:2393(phrase)
 #: src/glossary/glossary.xml:2396(primary)
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: src/glossary/glossary.xml:2399(para)
 msgid ""
@@ -2344,7 +2404,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:2434(glossterm)
 msgid "XDG"
-msgstr ""
+msgstr "XDG"
 
 #: src/glossary/glossary.xml:2436(para)
 msgid ""
@@ -2362,7 +2422,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:2462(primary)
 msgid ".xcf.gz"
-msgstr ""
+msgstr ".xcf.gz"
 
 #: src/glossary/glossary.xml:2469(para)
 msgid ""
@@ -2413,8 +2473,9 @@ msgstr ""
 
 #: src/glossary/glossary.xml:2513(phrase)
 #: src/glossary/glossary.xml:2518(primary)
+#| msgid "BMP"
 msgid "XMP"
-msgstr ""
+msgstr "XMP"
 
 #: src/glossary/glossary.xml:2521(para)
 msgid ""
@@ -2497,7 +2558,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:2617(para)
 msgid "Y=R+G+B"
-msgstr ""
+msgstr "Y=R+G+B"
 
 #: src/glossary/glossary.xml:2618(para)
 msgid ""
@@ -2521,7 +2582,7 @@ msgstr ""
 
 #: src/glossary/glossary.xml:2631(para)
 msgid "V=R-Y"
-msgstr ""
+msgstr "V=R-Y"
 
 #: src/glossary/glossary.xml:2632(para)
 msgid ""
@@ -2531,15 +2592,15 @@ msgstr ""
 
 #: src/glossary/glossary.xml:2636(para)
 msgid "Y + U = Y + ( B - Y ) = Y - Y + B = B"
-msgstr ""
+msgstr "Y + U = Y + ( B - Y ) = Y - Y + B = B"
 
 #: src/glossary/glossary.xml:2637(para)
 msgid "Y + V = Y + ( R - Y ) = Y - Y + R = R"
-msgstr ""
+msgstr "Y + V = Y + ( R - Y ) = Y - Y + R = R"
 
 #: src/glossary/glossary.xml:2638(para)
 msgid "Y - B - R = ( R + G + B ) - B - R = G"
-msgstr ""
+msgstr "Y - B - R = ( R + G + B ) - B - R = G"
 
 #: src/glossary/glossary.xml:2639(para)
 msgid ""
@@ -2550,6 +2611,8 @@ msgid ""
 msgstr ""
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/glossary/glossary.xml:0(None)
+#: src/gimp.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."

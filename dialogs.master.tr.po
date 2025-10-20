@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
-"POT-Creation-Date: 2025-07-15 08:40+0000\n"
-"PO-Revision-Date: 2023-08-11 12:30-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: GIMP-Help master\n"
+"POT-Creation-Date: 2025-02-26 21:19+0000\n"
+"PO-Revision-Date: 2025-10-20 02:41+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -18,6 +26,8 @@ msgid ""
 "@@image: 'images/dialogs/welcome-dialog.png'; "
 "md5=78cc55fc0a7c8431d563d5296f791a96"
 msgstr ""
+"@@image: 'images/dialogs/welcome-dialog.png'; "
+"md5=78cc55fc0a7c8431d563d5296f791a96"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -26,6 +36,8 @@ msgid ""
 "@@image: 'images/dialogs/welcome-dialog-personalize.png'; "
 "md5=94a34752128563045e2364bf71b5ab52"
 msgstr ""
+"@@image: 'images/dialogs/welcome-dialog-personalize.png'; "
+"md5=94a34752128563045e2364bf71b5ab52"
 
 #: src/dialogs/welcome-dialog.xml:8(title)
 #: src/dialogs/welcome-dialog.xml:15(primary)
@@ -69,7 +81,7 @@ msgstr ""
 #: src/dialogs/buffers-dialog.xml:17(primary)
 #: src/dialogs/brushes-dialog.xml:14(primary)
 msgid "Dialogs"
-msgstr ""
+msgstr "İletişim Kutuları"
 
 #: src/dialogs/welcome-dialog.xml:12(secondary)
 #: src/dialogs/welcome-dialog.xml:67(term)
@@ -491,6 +503,8 @@ msgid ""
 "@@image: 'images/dialogs/undo-history-dialog.png'; "
 "md5=9a5820058addb65c7d3396c89450b318"
 msgstr ""
+"@@image: 'images/dialogs/undo-history-dialog.png'; "
+"md5=9a5820058addb65c7d3396c89450b318"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -528,6 +542,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-menu-left.svg'; "
 "md5=bcd8b1befe4e36f3afb9c7850e702752"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-menu-left.svg'; "
+"md5=bcd8b1befe4e36f3afb9c7850e702752"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -536,6 +552,8 @@ msgid ""
 "@@image: 'images/stock-icons/edit-undo.svg'; "
 "md5=524801e2f3ee88b6cef9e0275ca165d1"
 msgstr ""
+"@@image: 'images/stock-icons/edit-undo.svg'; "
+"md5=524801e2f3ee88b6cef9e0275ca165d1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -544,6 +562,8 @@ msgid ""
 "@@image: 'images/stock-icons/edit-redo.svg'; "
 "md5=4f0a24065345b2fd75a76883d0a98698"
 msgstr ""
+"@@image: 'images/stock-icons/edit-redo.svg'; "
+"md5=4f0a24065345b2fd75a76883d0a98698"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -553,6 +573,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-shred.svg'; "
 "md5=962b4ced0ac509571886eef16ecf83f7"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-shred.svg'; "
+"md5=962b4ced0ac509571886eef16ecf83f7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -561,6 +583,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-undo-history.svg'; "
 "md5=382c62e976a204089286e4ac80b706f2"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-undo-history.svg'; "
+"md5=382c62e976a204089286e4ac80b706f2"
 
 #: src/dialogs/undo-history-dialog.xml:13(title)
 msgid "Undo History Dialog"
@@ -722,6 +746,8 @@ msgid ""
 "@@image: 'images/dialogs/tool-presets-dialog.png'; "
 "md5=a1f1fa8732c346f5509ce90100372d29"
 msgstr ""
+"@@image: 'images/dialogs/tool-presets-dialog.png'; "
+"md5=a1f1fa8732c346f5509ce90100372d29"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -742,6 +768,8 @@ msgid ""
 "@@image: 'images/stock-icons/gtk-edit.svg'; "
 "md5=a670b8d29920613079df3241d5e8e3bb"
 msgstr ""
+"@@image: 'images/stock-icons/gtk-edit.svg'; "
+"md5=a670b8d29920613079df3241d5e8e3bb"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -761,6 +789,8 @@ msgid ""
 "@@image: 'images/stock-icons/document-new.svg'; "
 "md5=06940851b3c5b383f3a345703f51728e"
 msgstr ""
+"@@image: 'images/stock-icons/document-new.svg'; "
+"md5=06940851b3c5b383f3a345703f51728e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -770,6 +800,8 @@ msgid ""
 "@@image: 'images/stock-icons/document-save.svg'; "
 "md5=f65c1be6d9d8460cb7cdfd16719a3361"
 msgstr ""
+"@@image: 'images/stock-icons/document-save.svg'; "
+"md5=f65c1be6d9d8460cb7cdfd16719a3361"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -779,6 +811,8 @@ msgid ""
 "@@image: 'images/stock-icons/document-revert.svg'; "
 "md5=fc119971a1bfe5e3565da91fd8c357d0"
 msgstr ""
+"@@image: 'images/stock-icons/document-revert.svg'; "
+"md5=fc119971a1bfe5e3565da91fd8c357d0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -802,6 +836,8 @@ msgid ""
 "@@image: 'images/stock-icons/edit-delete.svg'; "
 "md5=45f8be6623096f6f25175b048c82a721"
 msgstr ""
+"@@image: 'images/stock-icons/edit-delete.svg'; "
+"md5=45f8be6623096f6f25175b048c82a721"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -817,6 +853,8 @@ msgid ""
 "@@image: 'images/stock-icons/view-refresh.svg'; "
 "md5=e30a124eb8dd881de92ab4b2dd6c0550"
 msgstr ""
+"@@image: 'images/stock-icons/view-refresh.svg'; "
+"md5=e30a124eb8dd881de92ab4b2dd6c0550"
 
 #: src/dialogs/tool-presets-dialog.xml:9(title)
 msgid "Tool Presets Dialog"
@@ -994,6 +1032,8 @@ msgid ""
 "@@image: 'images/dialogs/tool-preset-editor.png'; "
 "md5=c2f0f9ee72f7ca6a1e34a078a42e6656"
 msgstr ""
+"@@image: 'images/dialogs/tool-preset-editor.png'; "
+"md5=c2f0f9ee72f7ca6a1e34a078a42e6656"
 
 #: src/dialogs/tool-preset-editor.xml:9(title)
 #: src/dialogs/tool-preset-editor.xml:13(secondary)
@@ -1102,6 +1142,8 @@ msgid ""
 "@@image: 'images/dialogs/templates-dialog.png'; "
 "md5=c7c3f814c3638317faea498c7117ee9c"
 msgstr ""
+"@@image: 'images/dialogs/templates-dialog.png'; "
+"md5=c7c3f814c3638317faea498c7117ee9c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1110,6 +1152,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-image.svg'; "
 "md5=fc9cc7697a1ce97428c44598a6a07e83"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-image.svg'; "
+"md5=fc9cc7697a1ce97428c44598a6a07e83"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1126,6 +1170,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-duplicate.svg'; "
 "md5=c4e41353df046752fe30ac926eac91f1"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-duplicate.svg'; "
+"md5=c4e41353df046752fe30ac926eac91f1"
 
 #: src/dialogs/templates-dialog.xml:15(title)
 msgid "Templates Dialog"
@@ -1279,6 +1325,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/using/tagging1.png'; md5=f08f3aab1d738a5400c006af3b287791"
 msgstr ""
+"@@image: 'images/using/tagging1.png'; md5=f08f3aab1d738a5400c006af3b287791"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1286,6 +1333,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/using/tagging2.png'; md5=d8010465497c38154a23d71f19a93811"
 msgstr ""
+"@@image: 'images/using/tagging2.png'; md5=d8010465497c38154a23d71f19a93811"
 
 #: src/dialogs/tagging.xml:10(title) src/dialogs/tagging.xml:25(title)
 #: src/dialogs/patterns-dialog.xml:369(title)
@@ -1294,7 +1342,7 @@ msgstr ""
 #: src/dialogs/gradient-dialog.xml:387(title)
 #: src/dialogs/brushes-dialog.xml:305(title)
 msgid "Tagging"
-msgstr ""
+msgstr "Etiketleme"
 
 #: src/dialogs/tagging.xml:13(primary)
 msgid "Tags"
@@ -1385,6 +1433,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/dialogs/symmetry.png'; md5=613671b9f3e82198914fb748043ea938"
 msgstr ""
+"@@image: 'images/dialogs/symmetry.png'; md5=613671b9f3e82198914fb748043ea938"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1393,6 +1442,8 @@ msgid ""
 "@@image: 'images/dialogs/symmetry-painting.png'; "
 "md5=8e5dd4785e254751f9f1d47adef1d346"
 msgstr ""
+"@@image: 'images/dialogs/symmetry-painting.png'; "
+"md5=8e5dd4785e254751f9f1d47adef1d346"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1401,6 +1452,8 @@ msgid ""
 "@@image: 'images/dialogs/symmetry-mirror.png'; "
 "md5=ec20b01c7587b996a0fe82bd58010b35"
 msgstr ""
+"@@image: 'images/dialogs/symmetry-mirror.png'; "
+"md5=ec20b01c7587b996a0fe82bd58010b35"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1409,6 +1462,8 @@ msgid ""
 "@@image: 'images/dialogs/symmetry-tiling.png'; "
 "md5=b8060793bb48e3cc47abb7e06c6650f6"
 msgstr ""
+"@@image: 'images/dialogs/symmetry-tiling.png'; "
+"md5=b8060793bb48e3cc47abb7e06c6650f6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1417,6 +1472,8 @@ msgid ""
 "@@image: 'images/dialogs/symmetry-mandala.png'; "
 "md5=06809db2d32dc8888f2ebe89c588091a"
 msgstr ""
+"@@image: 'images/dialogs/symmetry-mandala.png'; "
+"md5=06809db2d32dc8888f2ebe89c588091a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1425,6 +1482,8 @@ msgid ""
 "@@image: 'images/dialogs/symmetry-mirror-ex1.png'; "
 "md5=1f77b2cf9815d68a0b76fb98b995f677"
 msgstr ""
+"@@image: 'images/dialogs/symmetry-mirror-ex1.png'; "
+"md5=1f77b2cf9815d68a0b76fb98b995f677"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1433,6 +1492,8 @@ msgid ""
 "@@image: 'images/dialogs/symmetry-mirror-ex2.png'; "
 "md5=e0d44d8884e4baf10564004bc82a4d58"
 msgstr ""
+"@@image: 'images/dialogs/symmetry-mirror-ex2.png'; "
+"md5=e0d44d8884e4baf10564004bc82a4d58"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1441,6 +1502,8 @@ msgid ""
 "@@image: 'images/dialogs/symmetry-tiling-ex1.png'; "
 "md5=e77e54a1418e884921a248b4ec9b3192"
 msgstr ""
+"@@image: 'images/dialogs/symmetry-tiling-ex1.png'; "
+"md5=e77e54a1418e884921a248b4ec9b3192"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1449,6 +1512,8 @@ msgid ""
 "@@image: 'images/dialogs/symmetry-tiling-ex2.png'; "
 "md5=3fa82d242d27b0e1846661ad83338028"
 msgstr ""
+"@@image: 'images/dialogs/symmetry-tiling-ex2.png'; "
+"md5=3fa82d242d27b0e1846661ad83338028"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1457,6 +1522,8 @@ msgid ""
 "@@image: 'images/dialogs/symmetry-mandala-ex1.png'; "
 "md5=5df03728bc91ccae49e4b7b0f676e689"
 msgstr ""
+"@@image: 'images/dialogs/symmetry-mandala-ex1.png'; "
+"md5=5df03728bc91ccae49e4b7b0f676e689"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1465,6 +1532,8 @@ msgid ""
 "@@image: 'images/dialogs/symmetry-mandala-ex2.png'; "
 "md5=66f44d55b479e83974b771c4a995acd2"
 msgstr ""
+"@@image: 'images/dialogs/symmetry-mandala-ex2.png'; "
+"md5=66f44d55b479e83974b771c4a995acd2"
 
 #: src/dialogs/symmetry-painting.xml:6(title)
 msgid "Symmetry Painting Dialog"
@@ -1722,6 +1791,8 @@ msgid ""
 "@@image: 'images/dialogs/save-image-dialog.png'; "
 "md5=51bc70c8b2fc2e286933d996460fbea5"
 msgstr ""
+"@@image: 'images/dialogs/save-image-dialog.png'; "
+"md5=51bc70c8b2fc2e286933d996460fbea5"
 
 #: src/dialogs/save-file-dialog.xml:6(title)
 msgid "Save File"
@@ -1822,6 +1893,8 @@ msgid ""
 "@@image: 'images/using/sample-points-example.png'; "
 "md5=463925780890ef7408898c9a44db6391"
 msgstr ""
+"@@image: 'images/using/sample-points-example.png'; "
+"md5=463925780890ef7408898c9a44db6391"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1830,6 +1903,8 @@ msgid ""
 "@@image: 'images/dialogs/sample-points-dialog.png'; "
 "md5=d9b091451018cb58b94f7670c5656521"
 msgstr ""
+"@@image: 'images/dialogs/sample-points-dialog.png'; "
+"md5=d9b091451018cb58b94f7670c5656521"
 
 #: src/dialogs/sample-points.xml:12(title)
 msgid "Sample Points Dialog"
@@ -1984,7 +2059,7 @@ msgstr ""
 #: src/dialogs/sample-points.xml:199(term)
 #: src/dialogs/pointer-dialog.xml:158(term)
 msgid "HSV"
-msgstr ""
+msgstr "HSV"
 
 #: src/dialogs/sample-points.xml:201(para)
 msgid ""
@@ -2013,7 +2088,7 @@ msgstr ""
 #: src/dialogs/pointer-dialog.xml:170(term)
 #: src/dialogs/color-dialog.xml:120(term)
 msgid "CMYK"
-msgstr ""
+msgstr "CMYK"
 
 #: src/dialogs/sample-points.xml:244(para)
 msgid ""
@@ -2042,6 +2117,8 @@ msgid ""
 "@@image: 'images/dialogs/channel-quickmask.png'; "
 "md5=589ca22c4cc2ab262dabeeb1f29afdb2"
 msgstr ""
+"@@image: 'images/dialogs/channel-quickmask.png'; "
+"md5=589ca22c4cc2ab262dabeeb1f29afdb2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2051,6 +2128,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-quick-mask-off-symbolic.svg'; "
 "md5=94ff9ea6e134cd60da58d4b44bcd05f0"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-quick-mask-off-symbolic.svg'; "
+"md5=94ff9ea6e134cd60da58d4b44bcd05f0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2062,6 +2141,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-visible.svg'; "
 "md5=604690bf5f3c33f04262d9d6e959fc64"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-visible.svg'; "
+"md5=604690bf5f3c33f04262d9d6e959fc64"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2070,6 +2151,8 @@ msgid ""
 "@@image: 'images/dialogs/channel-masks-gradient-1.png'; "
 "md5=99885c31e62ba476c720031fbda66e30"
 msgstr ""
+"@@image: 'images/dialogs/channel-masks-gradient-1.png'; "
+"md5=99885c31e62ba476c720031fbda66e30"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2078,6 +2161,8 @@ msgid ""
 "@@image: 'images/dialogs/channel-masks-gradient-2.png'; "
 "md5=4ade689c89b5bc841b255236d947d907"
 msgstr ""
+"@@image: 'images/dialogs/channel-masks-gradient-2.png'; "
+"md5=4ade689c89b5bc841b255236d947d907"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2086,6 +2171,8 @@ msgid ""
 "@@image: 'images/dialogs/channel-masks-gradient-3.png'; "
 "md5=e56cfba0ed7413fcb9b0a7c57638a078"
 msgstr ""
+"@@image: 'images/dialogs/channel-masks-gradient-3.png'; "
+"md5=e56cfba0ed7413fcb9b0a7c57638a078"
 
 #: src/dialogs/qmask.xml:14(title)
 msgid "Quick Mask"
@@ -2252,6 +2339,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-window-management.png'; "
 "md5=06e311fc06a2102e91dd0bf1d21709c2"
 msgstr ""
+"@@image: 'images/preferences/prefs-window-management.png'; "
+"md5=06e311fc06a2102e91dd0bf1d21709c2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2260,6 +2349,8 @@ msgid ""
 "@@image: 'images/preferences/normal-title-bar.png'; "
 "md5=fa077cce338c9825cb19e35431fdb280"
 msgstr ""
+"@@image: 'images/preferences/normal-title-bar.png'; "
+"md5=fa077cce338c9825cb19e35431fdb280"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2268,6 +2359,8 @@ msgid ""
 "@@image: 'images/preferences/utility-title-bar.png'; "
 "md5=2cf469aa031c4a87fa2ebf9a81b84856"
 msgstr ""
+"@@image: 'images/preferences/utility-title-bar.png'; "
+"md5=2cf469aa031c4a87fa2ebf9a81b84856"
 
 #: src/dialogs/prefs-window-management.xml:13(title)
 msgid "Window Management"
@@ -2506,6 +2599,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-tool-options.png'; "
 "md5=78015198c757e17bf40709914f67899e"
 msgstr ""
+"@@image: 'images/preferences/prefs-tool-options.png'; "
+"md5=78015198c757e17bf40709914f67899e"
 
 #: src/dialogs/prefs-tool-options.xml:8(title)
 #: src/dialogs/prefs-tool-options.xml:13(tertiary)
@@ -2649,6 +2744,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-toolbox.png'; "
 "md5=e5d541e23d486aa3fa8ff9b2ae1a63b7"
 msgstr ""
+"@@image: 'images/preferences/prefs-toolbox.png'; "
+"md5=e5d541e23d486aa3fa8ff9b2ae1a63b7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2657,6 +2754,8 @@ msgid ""
 "@@image: 'images/using/toolbox-description.png'; "
 "md5=1070ece808d17af8e0fabb449b8b858e"
 msgstr ""
+"@@image: 'images/using/toolbox-description.png'; "
+"md5=1070ece808d17af8e0fabb449b8b858e"
 
 #: src/dialogs/prefs-toolbox.xml:8(title)
 #: src/dialogs/prefs-toolbox.xml:13(tertiary)
@@ -2786,6 +2885,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-theme.png'; "
 "md5=83dd2498a5a125a9b4ab334bcee24df0"
 msgstr ""
+"@@image: 'images/preferences/prefs-theme.png'; "
+"md5=83dd2498a5a125a9b4ab334bcee24df0"
 
 #: src/dialogs/prefs-theme.xml:18(title)
 msgid "Theme Preferences"
@@ -2853,6 +2954,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-system-resources.png'; "
 "md5=fa2787b722ef25aa457933bfb753a3da"
 msgstr ""
+"@@image: 'images/preferences/prefs-system-resources.png'; "
+"md5=fa2787b722ef25aa457933bfb753a3da"
 
 #: src/dialogs/prefs-system-resources.xml:8(title)
 #: src/dialogs/prefs-system-resources.xml:12(tertiary)
@@ -3030,6 +3133,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-playground.png'; "
 "md5=a774f06abde8a80d705f5e7fc60d3ac9"
 msgstr ""
+"@@image: 'images/preferences/prefs-playground.png'; "
+"md5=a774f06abde8a80d705f5e7fc60d3ac9"
 
 #: src/dialogs/prefs-playground.xml:5(title)
 msgid "Experimental Playground"
@@ -3120,6 +3225,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-interface.png'; "
 "md5=fa0997d952271eafda33d4ddda84c08f"
 msgstr ""
+"@@image: 'images/preferences/prefs-interface.png'; "
+"md5=fa0997d952271eafda33d4ddda84c08f"
 
 #: src/dialogs/prefs-interface.xml:8(title)
 #: src/dialogs/prefs-interface.xml:13(tertiary)
@@ -3322,6 +3429,8 @@ msgid ""
 "@@image: 'images/preferences/input-devices.png'; "
 "md5=975d56a89d42072914404f79c40e666e"
 msgstr ""
+"@@image: 'images/preferences/input-devices.png'; "
+"md5=975d56a89d42072914404f79c40e666e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3330,6 +3439,8 @@ msgid ""
 "@@image: 'images/preferences/input-devices-tablet.png'; "
 "md5=585175e32ef8aea517652e324080508d"
 msgstr ""
+"@@image: 'images/preferences/input-devices-tablet.png'; "
+"md5=585175e32ef8aea517652e324080508d"
 
 #: src/dialogs/prefs-input-devices.xml:8(title)
 #: src/dialogs/prefs-input-devices.xml:11(secondary)
@@ -3506,6 +3617,8 @@ msgid ""
 "@@image: 'images/preferences/input-controllers.png'; "
 "md5=8ff184d1ce22063c2612dc8d08051347"
 msgstr ""
+"@@image: 'images/preferences/input-controllers.png'; "
+"md5=8ff184d1ce22063c2612dc8d08051347"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3514,6 +3627,8 @@ msgid ""
 "@@image: 'images/preferences/input-controllers-wheel.png'; "
 "md5=28f0da8924ee0434a8ce7e7ac6f8952e"
 msgstr ""
+"@@image: 'images/preferences/input-controllers-wheel.png'; "
+"md5=28f0da8924ee0434a8ce7e7ac6f8952e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3522,6 +3637,8 @@ msgid ""
 "@@image: 'images/preferences/input-controllers-action.png'; "
 "md5=7da2227706cb0c269ec39b8f81debd76"
 msgstr ""
+"@@image: 'images/preferences/input-controllers-action.png'; "
+"md5=7da2227706cb0c269ec39b8f81debd76"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3530,6 +3647,8 @@ msgid ""
 "@@image: 'images/preferences/input-controllers-keyboard.png'; "
 "md5=a86ad0ca74a247670c4d564412b65129"
 msgstr ""
+"@@image: 'images/preferences/input-controllers-keyboard.png'; "
+"md5=a86ad0ca74a247670c4d564412b65129"
 
 #: src/dialogs/prefs-input-controllers.xml:8(title)
 #: src/dialogs/prefs-input-controllers.xml:11(secondary)
@@ -3669,6 +3788,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-import-export.png'; "
 "md5=63a8a0ddfee4cf500ea91cb740e87213"
 msgstr ""
+"@@image: 'images/preferences/prefs-import-export.png'; "
+"md5=63a8a0ddfee4cf500ea91cb740e87213"
 
 #: src/dialogs/prefs-import-export.xml:8(title)
 #: src/dialogs/prefs-import-export.xml:12(tertiary)
@@ -3898,6 +4019,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-image-window.png'; "
 "md5=e518342defe0c5cfbb3e9785a4340e26"
 msgstr ""
+"@@image: 'images/preferences/prefs-image-window.png'; "
+"md5=e518342defe0c5cfbb3e9785a4340e26"
 
 #: src/dialogs/prefs-image-window.xml:21(title)
 msgid "Image Windows Preferences"
@@ -3922,7 +4045,7 @@ msgstr ""
 #: src/dialogs/prefs-canvas-interaction.xml:67(title)
 #: src/dialogs/prefs-canvas-interaction.xml:69(primary)
 msgid "Zoom"
-msgstr ""
+msgstr "Yakınlaştır"
 
 #: src/dialogs/prefs-image-window.xml:59(primary)
 #: src/dialogs/import-file-formats.xml:84(term)
@@ -3965,7 +4088,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window.xml:112(title)
 msgid "Zoom and Resize Behavior"
-msgstr ""
+msgstr "Yakınlaştırma ve Yeniden Boyutlandırma Davranışı"
 
 #: src/dialogs/prefs-image-window.xml:115(secondary)
 msgid "Resize after zooming or scaling"
@@ -4020,6 +4143,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-image-window-title.png'; "
 "md5=1b61b843dbae002b0c634c8c0d2bb0ec"
 msgstr ""
+"@@image: 'images/preferences/prefs-image-window-title.png'; "
+"md5=1b61b843dbae002b0c634c8c0d2bb0ec"
 
 #: src/dialogs/prefs-image-window-title.xml:8(title)
 msgid "Image Title and Statusbar Format"
@@ -4075,7 +4200,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:67(seg)
 msgid "%f"
-msgstr ""
+msgstr "%f"
 
 #: src/dialogs/prefs-image-window-title.xml:68(seg)
 msgid "Bare filename of the image, or <quote>Untitled</quote>"
@@ -4083,7 +4208,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:71(seg)
 msgid "%F"
-msgstr ""
+msgstr "%F"
 
 #: src/dialogs/prefs-image-window-title.xml:72(seg)
 msgid "Full path to file, or <quote>Untitled</quote>"
@@ -4091,7 +4216,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:75(seg)
 msgid "%p"
-msgstr ""
+msgstr "%p"
 
 #: src/dialogs/prefs-image-window-title.xml:76(seg)
 msgid "Image id number (this is unique)"
@@ -4099,7 +4224,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:79(seg)
 msgid "%i"
-msgstr ""
+msgstr "%i"
 
 #: src/dialogs/prefs-image-window-title.xml:80(seg)
 msgid "View number, if an image has more than one display"
@@ -4107,7 +4232,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:85(seg)
 msgid "%t"
-msgstr ""
+msgstr "%t"
 
 #: src/dialogs/prefs-image-window-title.xml:86(seg)
 msgid "Image type (RGB, grayscale, indexed)"
@@ -4115,7 +4240,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:89(seg)
 msgid "%z"
-msgstr ""
+msgstr "%z"
 
 #: src/dialogs/prefs-image-window-title.xml:90(seg)
 msgid "Zoom factor as a percentage"
@@ -4123,7 +4248,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:93(seg)
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: src/dialogs/prefs-image-window-title.xml:94(seg)
 msgid "Source scale factor (zoom level = %d/%s)"
@@ -4131,7 +4256,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:97(seg)
 msgid "%d"
-msgstr ""
+msgstr "%d"
 
 #: src/dialogs/prefs-image-window-title.xml:98(seg)
 msgid "Destination scale factor (zoom level = %d/%s)"
@@ -4139,7 +4264,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:101(seg)
 msgid "%Dx"
-msgstr ""
+msgstr "%Dx"
 
 #: src/dialogs/prefs-image-window-title.xml:102(seg)
 msgid "Expands to x if the image is dirty, nothing otherwise"
@@ -4147,7 +4272,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:107(seg)
 msgid "%Cx"
-msgstr ""
+msgstr "%Cx"
 
 #: src/dialogs/prefs-image-window-title.xml:108(seg)
 msgid "Expands to x if the image is clean, nothing otherwise"
@@ -4155,7 +4280,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:113(seg)
 msgid "%l"
-msgstr ""
+msgstr "%l"
 
 #: src/dialogs/prefs-image-window-title.xml:114(seg)
 msgid "The number of layers"
@@ -4163,7 +4288,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:117(seg)
 msgid "%L"
-msgstr ""
+msgstr "%L"
 
 #: src/dialogs/prefs-image-window-title.xml:118(seg)
 msgid "Number of layers (long form)"
@@ -4171,7 +4296,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:121(seg)
 msgid "%m"
-msgstr ""
+msgstr "%m"
 
 #: src/dialogs/prefs-image-window-title.xml:122(seg)
 msgid "Memory used by the image"
@@ -4179,7 +4304,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:125(seg)
 msgid "%n"
-msgstr ""
+msgstr "%n"
 
 #: src/dialogs/prefs-image-window-title.xml:126(seg)
 msgid "Name of the active layer/channel"
@@ -4187,7 +4312,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:129(seg)
 msgid "%o"
-msgstr ""
+msgstr "%o"
 
 #: src/dialogs/prefs-image-window-title.xml:130(seg)
 msgid "Name of the color profile"
@@ -4195,7 +4320,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:133(seg)
 msgid "%P"
-msgstr ""
+msgstr "%P"
 
 #: src/dialogs/prefs-image-window-title.xml:134(seg)
 msgid "id of the active layer/channel"
@@ -4203,7 +4328,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:137(seg)
 msgid "%w"
-msgstr ""
+msgstr "%w"
 
 #: src/dialogs/prefs-image-window-title.xml:138(seg)
 msgid "Image width in pixels"
@@ -4211,7 +4336,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:141(seg)
 msgid "%W"
-msgstr ""
+msgstr "%W"
 
 #: src/dialogs/prefs-image-window-title.xml:142(seg)
 msgid "Image width in real-world units"
@@ -4219,7 +4344,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:145(seg)
 msgid "%h"
-msgstr ""
+msgstr "%h"
 
 #: src/dialogs/prefs-image-window-title.xml:146(seg)
 msgid "Image height in pixels"
@@ -4227,7 +4352,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:149(seg)
 msgid "%H"
-msgstr ""
+msgstr "%H"
 
 #: src/dialogs/prefs-image-window-title.xml:150(seg)
 msgid "Image height in real-world units"
@@ -4235,7 +4360,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:153(seg)
 msgid "%u"
-msgstr ""
+msgstr "%u"
 
 #: src/dialogs/prefs-image-window-title.xml:154(seg)
 msgid "Unit symbol (eg. px for Pixel)"
@@ -4243,7 +4368,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:157(seg)
 msgid "%U"
-msgstr ""
+msgstr "%U"
 
 #: src/dialogs/prefs-image-window-title.xml:158(seg)
 msgid "Unit abbreviation"
@@ -4251,7 +4376,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:161(seg)
 msgid "%x"
-msgstr ""
+msgstr "%x"
 
 #: src/dialogs/prefs-image-window-title.xml:162(seg)
 msgid "Active layer width in pixels"
@@ -4259,7 +4384,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:165(seg)
 msgid "%X"
-msgstr ""
+msgstr "%X"
 
 #: src/dialogs/prefs-image-window-title.xml:166(seg)
 msgid "Active layer width in real-world units"
@@ -4267,7 +4392,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:169(seg)
 msgid "%y"
-msgstr ""
+msgstr "%y"
 
 #: src/dialogs/prefs-image-window-title.xml:170(seg)
 msgid "Active layer height in pixels"
@@ -4275,7 +4400,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:173(seg)
 msgid "%Y"
-msgstr ""
+msgstr "%Y"
 
 #: src/dialogs/prefs-image-window-title.xml:174(seg)
 msgid "Active layer height in real-world units"
@@ -4283,7 +4408,7 @@ msgstr ""
 
 #: src/dialogs/prefs-image-window-title.xml:177(seg)
 msgid "%%"
-msgstr ""
+msgstr "%%"
 
 #: src/dialogs/prefs-image-window-title.xml:178(seg)
 msgid "A literal <quote>%</quote> symbol"
@@ -4296,6 +4421,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-image-window-appearance.png'; "
 "md5=a237cb2da763f15ce2e82532ad4da70e"
 msgstr ""
+"@@image: 'images/preferences/prefs-image-window-appearance.png'; "
+"md5=a237cb2da763f15ce2e82532ad4da70e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4304,6 +4431,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-padding-none.jpg'; "
 "md5=dcb57dd8477495174618d72a69248e60"
 msgstr ""
+"@@image: 'images/preferences/prefs-padding-none.jpg'; "
+"md5=dcb57dd8477495174618d72a69248e60"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4312,6 +4441,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-padding-with.jpg'; "
 "md5=8693c450f894776fad7dd2856c8339ad"
 msgstr ""
+"@@image: 'images/preferences/prefs-padding-with.jpg'; "
+"md5=8693c450f894776fad7dd2856c8339ad"
 
 #: src/dialogs/prefs-image-window-appearance.xml:8(title)
 msgid "Image Window Appearance"
@@ -4371,6 +4502,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-icon-theme.png'; "
 "md5=06231d4c9e58d0a2473bcb6563a479e0"
 msgstr ""
+"@@image: 'images/preferences/prefs-icon-theme.png'; "
+"md5=06231d4c9e58d0a2473bcb6563a479e0"
 
 #: src/dialogs/prefs-icon-theme.xml:18(title)
 msgid "Icon Theme Preferences"
@@ -4415,6 +4548,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-help.png'; "
 "md5=b912b79a22193781ed8367b130b09703"
 msgstr ""
+"@@image: 'images/preferences/prefs-help.png'; "
+"md5=b912b79a22193781ed8367b130b09703"
 
 #: src/dialogs/prefs-help.xml:8(title) src/dialogs/prefs-help.xml:12(tertiary)
 msgid "Help System"
@@ -4508,6 +4643,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-folders.png'; "
 "md5=bdb3f777019a55cc34f954f1d7675883"
 msgstr ""
+"@@image: 'images/preferences/prefs-folders.png'; "
+"md5=bdb3f777019a55cc34f954f1d7675883"
 
 #: src/dialogs/prefs-folders.xml:11(title)
 #: src/dialogs/prefs-folders.xml:15(tertiary)
@@ -4570,6 +4707,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-folders-brush.png'; "
 "md5=dfcc02864e93503812086a4863147970"
 msgstr ""
+"@@image: 'images/preferences/prefs-folders-brush.png'; "
+"md5=dfcc02864e93503812086a4863147970"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4581,6 +4720,8 @@ msgid ""
 "@@image: 'images/stock-icons/document-open.svg'; "
 "md5=e35e3b1ca16709ed519491bf898802f6"
 msgstr ""
+"@@image: 'images/stock-icons/document-open.svg'; "
+"md5=e35e3b1ca16709ed519491bf898802f6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4589,6 +4730,8 @@ msgid ""
 "@@image: 'images/stock-icons/gtk-yes.svg'; "
 "md5=8650167d7af2392c97a7a5d92c632b24"
 msgstr ""
+"@@image: 'images/stock-icons/gtk-yes.svg'; "
+"md5=8650167d7af2392c97a7a5d92c632b24"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4597,6 +4740,8 @@ msgid ""
 "@@image: 'images/stock-icons/gtk-no.svg'; "
 "md5=334091b3c094a3e129547cb9f1b4fad0"
 msgstr ""
+"@@image: 'images/stock-icons/gtk-no.svg'; "
+"md5=334091b3c094a3e129547cb9f1b4fad0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4607,6 +4752,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/stock-icons/go-up.svg'; md5=8bb07d0cec2dee4f0ca7fdec241c2a71"
 msgstr ""
+"@@image: 'images/stock-icons/go-up.svg'; md5=8bb07d0cec2dee4f0ca7fdec241c2a71"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4618,6 +4764,8 @@ msgid ""
 "@@image: 'images/stock-icons/go-down.svg'; "
 "md5=af293e1c584e1f7682600ac7acc1738d"
 msgstr ""
+"@@image: 'images/stock-icons/go-down.svg'; "
+"md5=af293e1c584e1f7682600ac7acc1738d"
 
 #: src/dialogs/prefs-folders-data.xml:10(title)
 msgid "Data Folders"
@@ -4738,6 +4886,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-display.png'; "
 "md5=c2570c04a6181af7ba791d0d059d4d61"
 msgstr ""
+"@@image: 'images/preferences/prefs-display.png'; "
+"md5=c2570c04a6181af7ba791d0d059d4d61"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4746,6 +4896,8 @@ msgid ""
 "@@image: 'images/using/ui-calibrate.png'; "
 "md5=d97dd5b33212afa220e3d3a84742ff80"
 msgstr ""
+"@@image: 'images/using/ui-calibrate.png'; "
+"md5=d97dd5b33212afa220e3d3a84742ff80"
 
 #: src/dialogs/prefs-display.xml:9(title)
 #: src/dialogs/prefs-display.xml:14(tertiary)
@@ -4811,7 +4963,7 @@ msgstr ""
 #: src/dialogs/prefs-display.xml:84(title)
 #: src/dialogs/prefs-display.xml:86(term)
 msgid "Zoom Quality"
-msgstr ""
+msgstr "Yakınlaştırma Kalitesi"
 
 #: src/dialogs/prefs-display.xml:88(para)
 msgid ""
@@ -4878,6 +5030,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-dialog-defaults.png'; "
 "md5=aa5150af5d0e73e25ef4d53fc1a310a5"
 msgstr ""
+"@@image: 'images/preferences/prefs-dialog-defaults.png'; "
+"md5=aa5150af5d0e73e25ef4d53fc1a310a5"
 
 #: src/dialogs/prefs-dialog-defaults.xml:8(title)
 msgid "Dialog Defaults"
@@ -4902,6 +5056,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-default-new-image.png'; "
 "md5=c7e125c4b20c84348103d23706419f65"
 msgstr ""
+"@@image: 'images/preferences/prefs-default-new-image.png'; "
+"md5=c7e125c4b20c84348103d23706419f65"
 
 #: src/dialogs/prefs-default-image.xml:8(title)
 msgid "Default Image Preferences"
@@ -4967,6 +5123,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-default-grid.png'; "
 "md5=4573c5dd564b40c96c72d7607fb36440"
 msgstr ""
+"@@image: 'images/preferences/prefs-default-grid.png'; "
+"md5=4573c5dd564b40c96c72d7607fb36440"
 
 #: src/dialogs/prefs-default-grid.xml:8(title)
 msgid "Default Image Grid"
@@ -5008,6 +5166,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-debugging.png'; "
 "md5=2f8b2b167ed78f1afa077177763ff25c"
 msgstr ""
+"@@image: 'images/preferences/prefs-debugging.png'; "
+"md5=2f8b2b167ed78f1afa077177763ff25c"
 
 #: src/dialogs/prefs-debugging.xml:5(title)
 #: src/dialogs/prefs-debugging.xml:9(tertiary)
@@ -5079,6 +5239,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-color-management.png'; "
 "md5=aa620d69a14771785c804d6da92e1c40"
 msgstr ""
+"@@image: 'images/preferences/prefs-color-management.png'; "
+"md5=aa620d69a14771785c804d6da92e1c40"
 
 #: src/dialogs/prefs-color-management.xml:7(title)
 #: src/dialogs/prefs-color-management.xml:23(tertiary)
@@ -5370,6 +5532,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-canvas-interaction.png'; "
 "md5=41443d37565f3e9693a5cc3a561e4412"
 msgstr ""
+"@@image: 'images/preferences/prefs-canvas-interaction.png'; "
+"md5=41443d37565f3e9693a5cc3a561e4412"
 
 #: src/dialogs/prefs-canvas-interaction.xml:5(title)
 #: src/dialogs/prefs-canvas-interaction.xml:10(tertiary)
@@ -5447,6 +5611,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-canvas-interaction-snapping.png'; "
 "md5=a0126e641decc9ee527b426d82e8138b"
 msgstr ""
+"@@image: 'images/preferences/prefs-canvas-interaction-snapping.png'; "
+"md5=a0126e641decc9ee527b426d82e8138b"
 
 #: src/dialogs/prefs-canvas-interaction-snapping.xml:8(title)
 msgid "Canvas Interaction Snapping Behavior"
@@ -5516,6 +5682,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-canvas-interaction-modifiers.png'; "
 "md5=2d4b98c12c5961cfb48d69d32d4939fc"
 msgstr ""
+"@@image: 'images/preferences/prefs-canvas-interaction-modifiers.png'; "
+"md5=2d4b98c12c5961cfb48d69d32d4939fc"
 
 #: src/dialogs/prefs-canvas-interaction-modifiers.xml:5(title)
 msgid "Canvas Interaction Modifiers"
@@ -5586,6 +5754,8 @@ msgid ""
 "@@image: 'images/dialogs/pointer-dialog.png'; "
 "md5=f09326f5dea78d4992a02d5a00a20dd0"
 msgstr ""
+"@@image: 'images/dialogs/pointer-dialog.png'; "
+"md5=f09326f5dea78d4992a02d5a00a20dd0"
 
 #: src/dialogs/pointer-dialog.xml:11(title)
 msgid "Pointer Dialog"
@@ -5594,11 +5764,11 @@ msgstr ""
 #: src/dialogs/pointer-dialog.xml:14(secondary)
 #: src/dialogs/pointer-dialog.xml:17(primary)
 msgid "Pointer"
-msgstr ""
+msgstr "İmleç"
 
 #: src/dialogs/pointer-dialog.xml:21(title)
 msgid "Pointer dialog"
-msgstr ""
+msgstr "İmleç iletişim kutusu"
 
 #: src/dialogs/pointer-dialog.xml:29(para)
 msgid ""
@@ -5624,7 +5794,7 @@ msgstr ""
 
 #: src/dialogs/pointer-dialog.xml:78(title)
 msgid "<quote>Pointer</quote> dialog options"
-msgstr ""
+msgstr "<quote>İmleç</quote> iletişim kutusu seçenekleri"
 
 #: src/dialogs/pointer-dialog.xml:81(term)
 msgid "Pixels"
@@ -5639,7 +5809,7 @@ msgstr ""
 
 #: src/dialogs/pointer-dialog.xml:91(term)
 msgid "Units"
-msgstr ""
+msgstr "Birimler"
 
 #: src/dialogs/pointer-dialog.xml:93(para)
 msgid "Shows the distance from the origin, in inches."
@@ -5697,7 +5867,7 @@ msgstr ""
 #: src/dialogs/gradient-editor-dialog.xml:513(term)
 #: src/dialogs/gradient-editor-dialog.xml:515(para)
 msgid "RGB"
-msgstr ""
+msgstr "RGB"
 
 #: src/dialogs/pointer-dialog.xml:147(para)
 msgid ""
@@ -5748,6 +5918,8 @@ msgid ""
 "@@image: 'images/dialogs/patterns-dialog-list.png'; "
 "md5=81cc1fd9dbead5223cfc3fccbdc71c92"
 msgstr ""
+"@@image: 'images/dialogs/patterns-dialog-list.png'; "
+"md5=81cc1fd9dbead5223cfc3fccbdc71c92"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5756,6 +5928,8 @@ msgid ""
 "@@image: 'images/dialogs/patterns-dialog-grid.png'; "
 "md5=c715f953ac4597684b264af99f70e6e2"
 msgstr ""
+"@@image: 'images/dialogs/patterns-dialog-grid.png'; "
+"md5=c715f953ac4597684b264af99f70e6e2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5764,6 +5938,8 @@ msgid ""
 "@@image: 'images/dialogs/patterns-dialog-clipboard.png'; "
 "md5=c26245492c1fd0a09c6a7a3b69297708"
 msgstr ""
+"@@image: 'images/dialogs/patterns-dialog-clipboard.png'; "
+"md5=c26245492c1fd0a09c6a7a3b69297708"
 
 #: src/dialogs/patterns-dialog.xml:14(title)
 msgid "Patterns Dialog"
@@ -6079,6 +6255,8 @@ msgid ""
 "@@image: 'images/dialogs/paths-dialog.png'; "
 "md5=a02f59731e2983460b265c44cd98f315"
 msgstr ""
+"@@image: 'images/dialogs/paths-dialog.png'; "
+"md5=a02f59731e2983460b265c44cd98f315"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6088,6 +6266,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-lock.svg'; "
 "md5=635df597e5a09c6051e902ee538e7bc0"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-lock.svg'; "
+"md5=635df597e5a09c6051e902ee538e7bc0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6096,6 +6276,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-lock-path.svg'; "
 "md5=85e481189b9b37fdb716b03e08c46d54"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-lock-path.svg'; "
+"md5=85e481189b9b37fdb716b03e08c46d54"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6105,6 +6287,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-lock-position.svg'; "
 "md5=590cb38d8f938e69cd89d6d1264303dc"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-lock-position.svg'; "
+"md5=590cb38d8f938e69cd89d6d1264303dc"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6114,6 +6298,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-lock-visibility.svg'; "
 "md5=512ed0d8fe68cb7c406a154af15d5229"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-lock-visibility.svg'; "
+"md5=512ed0d8fe68cb7c406a154af15d5229"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6125,6 +6311,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-selection.svg'; "
 "md5=037e0db3cd91b6fa7d98ad87dc8896b7"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-selection.svg'; "
+"md5=037e0db3cd91b6fa7d98ad87dc8896b7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6134,6 +6322,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-selection-to-path.svg'; "
 "md5=20984d5c7ad3815897db2f106c3d8a1a"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-selection-to-path.svg'; "
+"md5=20984d5c7ad3815897db2f106c3d8a1a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6142,6 +6332,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-path-stroke.svg'; "
 "md5=122673cf8beb0bfd8c749a749a427191"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-path-stroke.svg'; "
+"md5=122673cf8beb0bfd8c749a749a427191"
 
 #: src/dialogs/path-dialog.xml:13(title)
 msgid "Paths Dialog"
@@ -6784,6 +6976,8 @@ msgid ""
 "@@image: 'images/dialogs/palettes-grid-dialog.png'; "
 "md5=c19fb337e45071f2affb5750cbad522d"
 msgstr ""
+"@@image: 'images/dialogs/palettes-grid-dialog.png'; "
+"md5=c19fb337e45071f2affb5750cbad522d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6792,6 +6986,8 @@ msgid ""
 "@@image: 'images/dialogs/palettes-list-dialog.png'; "
 "md5=0e8af96206a8d1b15084f83992477125"
 msgstr ""
+"@@image: 'images/dialogs/palettes-list-dialog.png'; "
+"md5=0e8af96206a8d1b15084f83992477125"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6800,6 +6996,8 @@ msgid ""
 "@@image: 'images/dialogs/palette-import-dialog.png'; "
 "md5=34dafa38573b1a663dac2b1f9bd6e7dd"
 msgstr ""
+"@@image: 'images/dialogs/palette-import-dialog.png'; "
+"md5=34dafa38573b1a663dac2b1f9bd6e7dd"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6808,6 +7006,8 @@ msgid ""
 "@@image: 'images/dialogs/examples/palettes-offset.png'; "
 "md5=1f0be94be450fa788998fc5b06680801"
 msgstr ""
+"@@image: 'images/dialogs/examples/palettes-offset.png'; "
+"md5=1f0be94be450fa788998fc5b06680801"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6816,6 +7016,8 @@ msgid ""
 "@@image: 'images/dialogs/examples/palettes-repeat-gradient.png'; "
 "md5=47d531e4dedec269ba1aca8ca0a32ab1"
 msgstr ""
+"@@image: 'images/dialogs/examples/palettes-repeat-gradient.png'; "
+"md5=47d531e4dedec269ba1aca8ca0a32ab1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6824,6 +7026,8 @@ msgid ""
 "@@image: 'images/dialogs/palettes-sort.png'; "
 "md5=d3652ed9537bb21126911bbbf9c7f76f"
 msgstr ""
+"@@image: 'images/dialogs/palettes-sort.png'; "
+"md5=d3652ed9537bb21126911bbbf9c7f76f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6832,6 +7036,8 @@ msgid ""
 "@@image: 'images/dialogs/palette-editor-dialog.png'; "
 "md5=df73871e2e1d24bf6fcb430bf9322381"
 msgstr ""
+"@@image: 'images/dialogs/palette-editor-dialog.png'; "
+"md5=df73871e2e1d24bf6fcb430bf9322381"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6844,6 +7050,8 @@ msgid ""
 "@@image: 'images/stock-icons/zoom-out.svg'; "
 "md5=406aaf83df4dc1623cdbeee04c13623e"
 msgstr ""
+"@@image: 'images/stock-icons/zoom-out.svg'; "
+"md5=406aaf83df4dc1623cdbeee04c13623e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6856,6 +7064,8 @@ msgid ""
 "@@image: 'images/stock-icons/zoom-in.svg'; "
 "md5=a162ef7b7b884fbdfd72291a3e2a8847"
 msgstr ""
+"@@image: 'images/stock-icons/zoom-in.svg'; "
+"md5=a162ef7b7b884fbdfd72291a3e2a8847"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6866,6 +7076,8 @@ msgid ""
 "@@image: 'images/stock-icons/zoom-fit-best.svg'; "
 "md5=017ed6b0b39360f4811d875515861e66"
 msgstr ""
+"@@image: 'images/stock-icons/zoom-fit-best.svg'; "
+"md5=017ed6b0b39360f4811d875515861e66"
 
 #: src/dialogs/palettes-dialog.xml:14(title)
 msgid "Palettes Dialog"
@@ -6890,7 +7102,7 @@ msgstr ""
 
 #: src/dialogs/palettes-dialog.xml:25(primary)
 msgid "Color"
-msgstr ""
+msgstr "Renk"
 
 #: src/dialogs/palettes-dialog.xml:29(para)
 msgid ""
@@ -7652,7 +7864,7 @@ msgstr ""
 #: src/dialogs/palettes-dialog.xml:1046(term)
 #: src/dialogs/gradient-editor-dialog.xml:194(phrase)
 msgid "Zoom Out"
-msgstr ""
+msgstr "Uzaklaştır"
 
 #: src/dialogs/palettes-dialog.xml:954(para)
 msgid ""
@@ -7664,7 +7876,7 @@ msgstr ""
 #: src/dialogs/palettes-dialog.xml:1055(term)
 #: src/dialogs/gradient-editor-dialog.xml:213(phrase)
 msgid "Zoom In"
-msgstr ""
+msgstr "Yankınlaştır"
 
 #: src/dialogs/palettes-dialog.xml:972(para)
 msgid ""
@@ -7676,7 +7888,7 @@ msgstr ""
 #: src/dialogs/palettes-dialog.xml:1064(term)
 #: src/dialogs/gradient-editor-dialog.xml:234(phrase)
 msgid "Zoom All"
-msgstr ""
+msgstr "Tümüne Yakınlaştır"
 
 #: src/dialogs/palettes-dialog.xml:991(para)
 msgid ""
@@ -7757,6 +7969,8 @@ msgid ""
 "@@image: 'images/dialogs/open-image-dialog.png'; "
 "md5=5357f5b539d8352a738831f266cc3d0f"
 msgstr ""
+"@@image: 'images/dialogs/open-image-dialog.png'; "
+"md5=5357f5b539d8352a738831f266cc3d0f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -7765,6 +7979,8 @@ msgid ""
 "@@image: 'images/dialogs/folder-context-menu.png'; "
 "md5=9c41b6424ae26c71ec07528e39f59247"
 msgstr ""
+"@@image: 'images/dialogs/folder-context-menu.png'; "
+"md5=9c41b6424ae26c71ec07528e39f59247"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -7773,6 +7989,8 @@ msgid ""
 "@@image: 'images/dialogs/file-context-menu.png'; "
 "md5=34c587c19907bab1bd2c26d36ce675a4"
 msgstr ""
+"@@image: 'images/dialogs/file-context-menu.png'; "
+"md5=34c587c19907bab1bd2c26d36ce675a4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -7781,6 +7999,8 @@ msgid ""
 "@@image: 'images/dialogs/open-image-search.png'; "
 "md5=f8db53423e44c8fdd7431a541f29a740"
 msgstr ""
+"@@image: 'images/dialogs/open-image-search.png'; "
+"md5=f8db53423e44c8fdd7431a541f29a740"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -7789,6 +8009,8 @@ msgid ""
 "@@image: 'images/using/icc-apply-dialog.png'; "
 "md5=06491a2857d2f373144bee40f2b1a40c"
 msgstr ""
+"@@image: 'images/using/icc-apply-dialog.png'; "
+"md5=06491a2857d2f373144bee40f2b1a40c"
 
 #: src/dialogs/open-file-dialog.xml:6(title)
 msgid "Open Image"
@@ -8199,6 +8421,8 @@ msgid ""
 "@@image: 'images/dialogs/navigation.png'; "
 "md5=595d2ae1a7c54d2a4951a92b0ee6c233"
 msgstr ""
+"@@image: 'images/dialogs/navigation.png'; "
+"md5=595d2ae1a7c54d2a4951a92b0ee6c233"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8207,6 +8431,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-navigation.svg'; "
 "md5=fbefb2954072993307dd38b6fd54016d"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-navigation.svg'; "
+"md5=fbefb2954072993307dd38b6fd54016d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8215,6 +8441,8 @@ msgid ""
 "@@image: 'images/stock-icons/zoom-original.svg'; "
 "md5=3ef83799e953ea1177122adad95b52ce"
 msgstr ""
+"@@image: 'images/stock-icons/zoom-original.svg'; "
+"md5=3ef83799e953ea1177122adad95b52ce"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8223,6 +8451,8 @@ msgid ""
 "@@image: 'images/stock-icons/view-zoom-fill-symbolic.svg'; "
 "md5=509e79d6148a7f0c11c3cafb80e959f5"
 msgstr ""
+"@@image: 'images/stock-icons/view-zoom-fill-symbolic.svg'; "
+"md5=509e79d6148a7f0c11c3cafb80e959f5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8231,6 +8461,8 @@ msgid ""
 "@@image: 'images/stock-icons/view-shrink-wrap-symbolic.svg'; "
 "md5=fc7f0624b1be4ae237efdf4afb4067e2"
 msgstr ""
+"@@image: 'images/stock-icons/view-shrink-wrap-symbolic.svg'; "
+"md5=fc7f0624b1be4ae237efdf4afb4067e2"
 
 #: src/dialogs/navigation-dialog.xml:8(title)
 #: src/dialogs/navigation-dialog.xml:15(title)
@@ -8360,6 +8592,8 @@ msgid ""
 "@@image: 'images/dialogs/mypaint-brushes-dialog.png'; "
 "md5=89290a395572ecde904f04e8b50c8716"
 msgstr ""
+"@@image: 'images/dialogs/mypaint-brushes-dialog.png'; "
+"md5=89290a395572ecde904f04e8b50c8716"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8368,6 +8602,8 @@ msgid ""
 "@@image: 'images/dialogs/mypaint-brushes-dialog-simple.png'; "
 "md5=e62d3be1c19ec7f943e5f55ab5654008"
 msgstr ""
+"@@image: 'images/dialogs/mypaint-brushes-dialog-simple.png'; "
+"md5=e62d3be1c19ec7f943e5f55ab5654008"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8377,6 +8613,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-list-symbolic.svg'; "
 "md5=70e21560c8e3675876f0ed1dd39ba34e"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-list-symbolic.svg'; "
+"md5=70e21560c8e3675876f0ed1dd39ba34e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8386,6 +8624,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-grid-symbolic.svg'; "
 "md5=614ed6660c1785b5595b60d34e307801"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-grid-symbolic.svg'; "
+"md5=614ed6660c1785b5595b60d34e307801"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8394,6 +8634,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-paintbrush.svg'; "
 "md5=65b9252af33ff10d5623ebf969403f11"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-paintbrush.svg'; "
+"md5=65b9252af33ff10d5623ebf969403f11"
 
 #: src/dialogs/mypaint-brushes-dialog.xml:5(title)
 msgid "MyPaint Brushes Dialog"
@@ -8633,6 +8875,8 @@ msgid ""
 "@@image: 'images/dialogs/layer-mask-add.png'; "
 "md5=be74d19950c57deba0fce4683ea52323"
 msgstr ""
+"@@image: 'images/dialogs/layer-mask-add.png'; "
+"md5=be74d19950c57deba0fce4683ea52323"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8641,6 +8885,8 @@ msgid ""
 "@@image: 'images/dialogs/examples/layer-mask-1.png'; "
 "md5=ec58a8ed79aadafe8bc5a3cbc7807e9f"
 msgstr ""
+"@@image: 'images/dialogs/examples/layer-mask-1.png'; "
+"md5=ec58a8ed79aadafe8bc5a3cbc7807e9f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8649,6 +8895,8 @@ msgid ""
 "@@image: 'images/dialogs/examples/layer-mask-2.png'; "
 "md5=5a37aed15a5a90295407983aee472800"
 msgstr ""
+"@@image: 'images/dialogs/examples/layer-mask-2.png'; "
+"md5=5a37aed15a5a90295407983aee472800"
 
 #: src/dialogs/layer-mask.xml:11(title)
 msgid "Layer masks"
@@ -8802,6 +9050,8 @@ msgid ""
 "@@image: 'images/dialogs/layer-dialog.png'; "
 "md5=2815384dafe6ca6fe9b8cdfd4419e546"
 msgstr ""
+"@@image: 'images/dialogs/layer-dialog.png'; "
+"md5=2815384dafe6ca6fe9b8cdfd4419e546"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8810,6 +9060,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-zoom.svg'; "
 "md5=3b7ae2e90580ab0fd7ed39bb54aaa68a"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-zoom.svg'; "
+"md5=3b7ae2e90580ab0fd7ed39bb54aaa68a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8819,6 +9071,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-lock-content.svg'; "
 "md5=ce54ed3f858a637f8cdc547d9b454d67"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-lock-content.svg'; "
+"md5=ce54ed3f858a637f8cdc547d9b454d67"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8827,6 +9081,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-lock-alpha.svg'; "
 "md5=5da016100d62c3ef97bb07ae4efac960"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-lock-alpha.svg'; "
+"md5=5da016100d62c3ef97bb07ae4efac960"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8835,6 +9091,8 @@ msgid ""
 "@@image: 'images/dialogs/examples/layer-lock-1.png'; "
 "md5=347819596645eea7026c3e7678fa7fa7"
 msgstr ""
+"@@image: 'images/dialogs/examples/layer-lock-1.png'; "
+"md5=347819596645eea7026c3e7678fa7fa7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8843,6 +9101,8 @@ msgid ""
 "@@image: 'images/dialogs/examples/layer-lock-2.png'; "
 "md5=cb055c9fe1a0cd64917396b70eea5c56"
 msgstr ""
+"@@image: 'images/dialogs/examples/layer-lock-2.png'; "
+"md5=cb055c9fe1a0cd64917396b70eea5c56"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8851,6 +9111,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-effects.svg'; "
 "md5=a3cc86b54156fba96ad6fad4effb6fc1"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-effects.svg'; "
+"md5=a3cc86b54156fba96ad6fad4effb6fc1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8861,6 +9123,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-merge-down.svg'; "
 "md5=bb05f514074f3277374e17160d4b9def"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-merge-down.svg'; "
+"md5=bb05f514074f3277374e17160d4b9def"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8869,6 +9133,8 @@ msgid ""
 "@@image: 'images/stock-icons/folder-new.svg'; "
 "md5=a2dce97d57bafd8f8471e969146f33f2"
 msgstr ""
+"@@image: 'images/stock-icons/folder-new.svg'; "
+"md5=a2dce97d57bafd8f8471e969146f33f2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8877,6 +9143,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-anchor.svg'; "
 "md5=103e738c35821502338ebf78eb3ba7ca"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-anchor.svg'; "
+"md5=103e738c35821502338ebf78eb3ba7ca"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8885,6 +9153,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-layer-mask.svg'; "
 "md5=6a258b8141ba3594e284fe5c6a80fd40"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-layer-mask.svg'; "
+"md5=6a258b8141ba3594e284fe5c6a80fd40"
 
 #: src/dialogs/layer-dialog.xml:11(title)
 #: src/dialogs/layer-dialog.xml:23(title)
@@ -9705,6 +9975,8 @@ msgid ""
 "@@image: 'images/dialogs/keyboard-shortcuts-dialog.png'; "
 "md5=45e5b4c6f4e13ecfef7081a5509a4e27"
 msgstr ""
+"@@image: 'images/dialogs/keyboard-shortcuts-dialog.png'; "
+"md5=45e5b4c6f4e13ecfef7081a5509a4e27"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -9713,6 +9985,8 @@ msgid ""
 "@@image: 'images/stock-icons/pan-end-symbolic.svg'; "
 "md5=de3d0977e621d2ac837318eb702b9a0f"
 msgstr ""
+"@@image: 'images/stock-icons/pan-end-symbolic.svg'; "
+"md5=de3d0977e621d2ac837318eb702b9a0f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -9721,6 +9995,8 @@ msgid ""
 "@@image: 'images/dialogs/keyboard-shortcuts-assign.png'; "
 "md5=6ecb2ef365147d6cf0ee79af3f6c4ef5"
 msgstr ""
+"@@image: 'images/dialogs/keyboard-shortcuts-assign.png'; "
+"md5=6ecb2ef365147d6cf0ee79af3f6c4ef5"
 
 #: src/dialogs/keyboard-shortcuts-dialog.xml:6(title)
 msgid "Keyboard Shortcuts Dialog"
@@ -9868,6 +10144,8 @@ msgid ""
 "@@image: 'images/dialogs/examples/cosmos-6.png'; "
 "md5=746397292355e7564a640b86e0b3aa5a"
 msgstr ""
+"@@image: 'images/dialogs/examples/cosmos-6.png'; "
+"md5=746397292355e7564a640b86e0b3aa5a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -9876,6 +10154,8 @@ msgid ""
 "@@image: 'images/dialogs/colormap-dialog.png'; "
 "md5=270df7e4b47f31dcf5f1ddbb1b449a27"
 msgstr ""
+"@@image: 'images/dialogs/colormap-dialog.png'; "
+"md5=270df7e4b47f31dcf5f1ddbb1b449a27"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -9884,6 +10164,8 @@ msgid ""
 "@@image: 'images/stock-icons/list-add.svg'; "
 "md5=a6b02423b2bdb765e759b91c2ee4f304"
 msgstr ""
+"@@image: 'images/stock-icons/list-add.svg'; "
+"md5=a6b02423b2bdb765e759b91c2ee4f304"
 
 #: src/dialogs/indexed-palette-dialog.xml:11(title)
 msgid "Colormap Dialog"
@@ -10199,6 +10481,8 @@ msgid ""
 "@@image: 'images/dialogs/import-pdf-dialog.png'; "
 "md5=be53da605e558c3463eb84287e02fd56"
 msgstr ""
+"@@image: 'images/dialogs/import-pdf-dialog.png'; "
+"md5=be53da605e558c3463eb84287e02fd56"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -10207,6 +10491,8 @@ msgid ""
 "@@image: 'images/dialogs/import-ps-dialog.png'; "
 "md5=072059863b794c6d96d2b02f5bc968ad"
 msgstr ""
+"@@image: 'images/dialogs/import-ps-dialog.png'; "
+"md5=072059863b794c6d96d2b02f5bc968ad"
 
 #: src/dialogs/import-file-formats.xml:6(title)
 #: src/dialogs/import-file-formats.xml:9(primary)
@@ -10232,7 +10518,7 @@ msgstr ""
 
 #: src/dialogs/import-file-formats.xml:26(primary)
 msgid ".pdf"
-msgstr ""
+msgstr ".pdf"
 
 #: src/dialogs/import-file-formats.xml:29(primary)
 msgid "Import PDF Image"
@@ -10335,11 +10621,11 @@ msgstr ""
 
 #: src/dialogs/import-file-formats.xml:127(primary)
 msgid ".ps"
-msgstr ""
+msgstr ".ps"
 
 #: src/dialogs/import-file-formats.xml:130(primary)
 msgid ".eps"
-msgstr ""
+msgstr ".eps"
 
 #: src/dialogs/import-file-formats.xml:133(primary)
 msgid "Import Postscript Image"
@@ -10445,6 +10731,8 @@ msgid ""
 "@@image: 'images/dialogs/images-dialog.png'; "
 "md5=a78a6269a1b1df8777f55d2f21db1c2e"
 msgstr ""
+"@@image: 'images/dialogs/images-dialog.png'; "
+"md5=a78a6269a1b1df8777f55d2f21db1c2e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -10453,6 +10741,8 @@ msgid ""
 "@@image: 'images/stock-icons/go-top-symbolic.svg'; "
 "md5=03be7d2c281b0a8326fa0446a4b0c635"
 msgstr ""
+"@@image: 'images/stock-icons/go-top-symbolic.svg'; "
+"md5=03be7d2c281b0a8326fa0446a4b0c635"
 
 #: src/dialogs/images-dialog.xml:13(title)
 msgid "Images Dialog"
@@ -10585,6 +10875,8 @@ msgid ""
 "@@image: 'images/dialogs/histogram-basic-dialog.png'; "
 "md5=8e0088c56bf83f86f34214fef44bf0f1"
 msgstr ""
+"@@image: 'images/dialogs/histogram-basic-dialog.png'; "
+"md5=8e0088c56bf83f86f34214fef44bf0f1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -10593,6 +10885,8 @@ msgid ""
 "@@image: 'images/dialogs/histogram-rgb.png'; "
 "md5=cba28744de86f1d651f398cdbaab35a0"
 msgstr ""
+"@@image: 'images/dialogs/histogram-rgb.png'; "
+"md5=cba28744de86f1d651f398cdbaab35a0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -10601,6 +10895,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-color-space-linear-symbolic.svg'; "
 "md5=a04790ad39814aee1a2300a094d87855"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-color-space-linear-symbolic.svg'; "
+"md5=a04790ad39814aee1a2300a094d87855"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -10609,6 +10905,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-color-space-non-linear-symbolic.svg'; "
 "md5=78323d0f1819a802fbac35f7330c9ad6"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-color-space-non-linear-symbolic.svg'; "
+"md5=78323d0f1819a802fbac35f7330c9ad6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -10617,6 +10915,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-color-space-perceptual-symbolic.svg'; "
 "md5=443c4bae3fe223d262c5b03c9d74a684"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-color-space-perceptual-symbolic.svg'; "
+"md5=443c4bae3fe223d262c5b03c9d74a684"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -10625,6 +10925,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-histogram-linear.svg'; "
 "md5=58e63c2f5e72a05ef82c11af93689f16"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-histogram-linear.svg'; "
+"md5=58e63c2f5e72a05ef82c11af93689f16"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -10633,6 +10935,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-histogram-logarithmic.svg'; "
 "md5=3be73e2db317eecfa88858f92dacd7d1"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-histogram-logarithmic.svg'; "
+"md5=3be73e2db317eecfa88858f92dacd7d1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -10641,19 +10945,21 @@ msgid ""
 "@@image: 'images/dialogs/histogram-range.png'; "
 "md5=4a0870d3d77a89bccbd85507388dba5c"
 msgstr ""
+"@@image: 'images/dialogs/histogram-range.png'; "
+"md5=4a0870d3d77a89bccbd85507388dba5c"
 
 #: src/dialogs/histogram-dialog.xml:12(title)
 msgid "Histogram Dialog"
-msgstr ""
+msgstr "Histogram İletişim Kutusu"
 
 #: src/dialogs/histogram-dialog.xml:15(secondary)
 #: src/dialogs/histogram-dialog.xml:18(primary)
 msgid "Histogram"
-msgstr ""
+msgstr "Historgram"
 
 #: src/dialogs/histogram-dialog.xml:21(title)
 msgid "The Histogram dialog"
-msgstr ""
+msgstr "Histogram iletişim kutusu"
 
 #: src/dialogs/histogram-dialog.xml:29(para)
 msgid ""
@@ -10699,7 +11005,7 @@ msgstr ""
 
 #: src/dialogs/histogram-dialog.xml:102(title)
 msgid "About Histograms"
-msgstr ""
+msgstr "Histogramlar Hakkında"
 
 #: src/dialogs/histogram-dialog.xml:103(para)
 msgid ""
@@ -10945,6 +11251,8 @@ msgid ""
 "@@image: 'images/dialogs/gradient-editor-dialog.png'; "
 "md5=e065c43e9e46f1c2a2891737b1105a0d"
 msgstr ""
+"@@image: 'images/dialogs/gradient-editor-dialog.png'; "
+"md5=e065c43e9e46f1c2a2891737b1105a0d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -10953,6 +11261,8 @@ msgid ""
 "@@image: 'images/dialogs/examples/new-gradient-1.png'; "
 "md5=017dcf3e6bf2f9852aa55df2a69fd7a6"
 msgstr ""
+"@@image: 'images/dialogs/examples/new-gradient-1.png'; "
+"md5=017dcf3e6bf2f9852aa55df2a69fd7a6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -10961,6 +11271,8 @@ msgid ""
 "@@image: 'images/dialogs/examples/new-gradient-2.png'; "
 "md5=4a7e9a97b91f0a7ae1b3648140d35f69"
 msgstr ""
+"@@image: 'images/dialogs/examples/new-gradient-2.png'; "
+"md5=4a7e9a97b91f0a7ae1b3648140d35f69"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -10969,6 +11281,8 @@ msgid ""
 "@@image: 'images/dialogs/examples/new-gradient-3.png'; "
 "md5=19c2c7362744a520dc6f6532a610a462"
 msgstr ""
+"@@image: 'images/dialogs/examples/new-gradient-3.png'; "
+"md5=19c2c7362744a520dc6f6532a610a462"
 
 #: src/dialogs/gradient-editor-dialog.xml:10(title)
 msgid "The Gradient Editor"
@@ -11578,6 +11892,8 @@ msgid ""
 "@@image: 'images/dialogs/gradient-dialog.png'; "
 "md5=7ee4d5d814c67d8341446809b541758a"
 msgstr ""
+"@@image: 'images/dialogs/gradient-dialog.png'; "
+"md5=7ee4d5d814c67d8341446809b541758a"
 
 #: src/dialogs/gradient-dialog.xml:14(title)
 msgid "Gradients Dialog"
@@ -11869,6 +12185,10 @@ msgid ""
 "     rgb(0,255,161) 100%);\n"
 "              "
 msgstr ""
+"\n"
+"background-image: linear-gradient(top, rgb(0,123,255) 0%, rgb(72,226,255) 56%,\n"
+"     rgb(0,255,161) 100%);\n"
+"              "
 
 #: src/dialogs/gradient-dialog.xml:388(para)
 msgid ""
@@ -11883,6 +12203,8 @@ msgid ""
 "@@image: 'images/dialogs/fonts-dialog.png'; "
 "md5=1cd7fb2772ea218aee5312ba0dbe0d48"
 msgstr ""
+"@@image: 'images/dialogs/fonts-dialog.png'; "
+"md5=1cd7fb2772ea218aee5312ba0dbe0d48"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -11891,6 +12213,8 @@ msgid ""
 "@@image: 'images/dialogs/fonts-grid-dialog.png'; "
 "md5=6dbfe4109bd187f80f9c818e7e06051d"
 msgstr ""
+"@@image: 'images/dialogs/fonts-grid-dialog.png'; "
+"md5=6dbfe4109bd187f80f9c818e7e06051d"
 
 #: src/dialogs/fonts-dialog.xml:10(title)
 msgid "Fonts Dialog"
@@ -12004,6 +12328,8 @@ msgid ""
 "@@image: 'images/dialogs/export-webp-dialog.png'; "
 "md5=c211b159b22043868a6efff9871309b1"
 msgstr ""
+"@@image: 'images/dialogs/export-webp-dialog.png'; "
+"md5=c211b159b22043868a6efff9871309b1"
 
 #: src/dialogs/file-webp-export.xml:5(title)
 #: src/dialogs/file-webp-export.xml:8(primary)
@@ -12171,6 +12497,8 @@ msgid ""
 "@@image: 'images/dialogs/export-tiff-dialog.png'; "
 "md5=8a0484ac1f73290a55b78324ff78861f"
 msgstr ""
+"@@image: 'images/dialogs/export-tiff-dialog.png'; "
+"md5=8a0484ac1f73290a55b78324ff78861f"
 
 #: src/dialogs/file-tiff-export.xml:5(title)
 #: src/dialogs/file-tiff-export.xml:8(primary)
@@ -12355,6 +12683,8 @@ msgid ""
 "@@image: 'images/dialogs/export-png-dialog.png'; "
 "md5=3ed14aca3ed58827b5e500ee67ca8d71"
 msgstr ""
+"@@image: 'images/dialogs/export-png-dialog.png'; "
+"md5=3ed14aca3ed58827b5e500ee67ca8d71"
 
 #: src/dialogs/file-png-export.xml:5(title)
 #: src/dialogs/file-png-export.xml:10(primary)
@@ -12517,6 +12847,8 @@ msgid ""
 "@@image: 'images/dialogs/export-mng-dialog.png'; "
 "md5=0a707ab2e51e065d396a0f09252b6088"
 msgstr ""
+"@@image: 'images/dialogs/export-mng-dialog.png'; "
+"md5=0a707ab2e51e065d396a0f09252b6088"
 
 #: src/dialogs/file-mng-export.xml:5(title)
 #: src/dialogs/file-mng-export.xml:8(primary)
@@ -12549,6 +12881,8 @@ msgid ""
 "@@image: 'images/dialogs/export-jpeg-dialog.png'; "
 "md5=700b623b68ba0afca2e181ff7f7846ce"
 msgstr ""
+"@@image: 'images/dialogs/export-jpeg-dialog.png'; "
+"md5=700b623b68ba0afca2e181ff7f7846ce"
 
 #: src/dialogs/file-jpeg-export.xml:5(title)
 #: src/dialogs/file-jpeg-export.xml:18(primary)
@@ -12563,11 +12897,11 @@ msgstr ""
 
 #: src/dialogs/file-jpeg-export.xml:12(primary)
 msgid ".jpg"
-msgstr ""
+msgstr ".jpg"
 
 #: src/dialogs/file-jpeg-export.xml:15(primary)
 msgid ".jpeg"
-msgstr ""
+msgstr ".jpeg"
 
 #: src/dialogs/file-jpeg-export.xml:25(para)
 msgid ""
@@ -12819,6 +13153,8 @@ msgid ""
 "@@image: 'images/dialogs/export-heif-dialog.png'; "
 "md5=a3d4186ea78650386bd50cb888426c5f"
 msgstr ""
+"@@image: 'images/dialogs/export-heif-dialog.png'; "
+"md5=a3d4186ea78650386bd50cb888426c5f"
 
 #: src/dialogs/file-heif-export.xml:5(title)
 msgid "Export Image as HEIF/HEIC"
@@ -12941,6 +13277,8 @@ msgid ""
 "@@image: 'images/dialogs/export-gif-dialog.png'; "
 "md5=0b4f0c57ea817609c7f5052b1e6ee4b8"
 msgstr ""
+"@@image: 'images/dialogs/export-gif-dialog.png'; "
+"md5=0b4f0c57ea817609c7f5052b1e6ee4b8"
 
 #: src/dialogs/file-gif-export.xml:5(title)
 #: src/dialogs/file-gif-export.xml:15(primary)
@@ -12955,7 +13293,7 @@ msgstr ""
 
 #: src/dialogs/file-gif-export.xml:12(primary)
 msgid ".gif"
-msgstr ""
+msgstr ".gif"
 
 #: src/dialogs/file-gif-export.xml:23(title)
 msgid "The GIF Export dialog"
@@ -13220,6 +13558,8 @@ msgid ""
 "@@image: 'images/dialogs/export-image-dialog.png'; "
 "md5=cace03c797782eb4780233cbebb59497"
 msgstr ""
+"@@image: 'images/dialogs/export-image-dialog.png'; "
+"md5=cace03c797782eb4780233cbebb59497"
 
 #: src/dialogs/export-file-dialog.xml:8(title)
 #: src/dialogs/export-file-dialog.xml:11(primary)
@@ -13316,6 +13656,8 @@ msgid ""
 "@@image: 'images/dialogs/error-console.png'; "
 "md5=2624fff687db649ac35efc23c63bdabd"
 msgstr ""
+"@@image: 'images/dialogs/error-console.png'; "
+"md5=2624fff687db649ac35efc23c63bdabd"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -13324,6 +13666,8 @@ msgid ""
 "@@image: 'images/stock-icons/edit-clear.svg'; "
 "md5=add7f95b57385788d43d3125ac2d61b1"
 msgstr ""
+"@@image: 'images/stock-icons/edit-clear.svg'; "
+"md5=add7f95b57385788d43d3125ac2d61b1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -13333,6 +13677,8 @@ msgid ""
 "@@image: 'images/stock-icons/document-save-as.svg'; "
 "md5=d2e7c2fba3ebb3171e1a15bac14a13ee"
 msgstr ""
+"@@image: 'images/stock-icons/document-save-as.svg'; "
+"md5=d2e7c2fba3ebb3171e1a15bac14a13ee"
 
 #: src/dialogs/error-console.xml:10(title)
 msgid "Error Console"
@@ -13448,6 +13794,8 @@ msgid ""
 "@@image: 'images/dialogs/dialogs-templates-edit-advanced.png'; "
 "md5=0d0fd0cc39d3e317dbad8115b2fd86ee"
 msgstr ""
+"@@image: 'images/dialogs/dialogs-templates-edit-advanced.png'; "
+"md5=0d0fd0cc39d3e317dbad8115b2fd86ee"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -13456,6 +13804,8 @@ msgid ""
 "@@image: 'images/menus/file/new/precision.png'; "
 "md5=bc1cda74763f2a80b2969e9f4b35e3ff"
 msgstr ""
+"@@image: 'images/menus/file/new/precision.png'; "
+"md5=bc1cda74763f2a80b2969e9f4b35e3ff"
 
 #: src/dialogs/edit-template-dialog.xml:13(title)
 #: src/dialogs/edit-template-dialog.xml:20(primary)
@@ -13487,7 +13837,7 @@ msgstr ""
 
 #: src/dialogs/edit-template-dialog.xml:53(term)
 msgid "Icon"
-msgstr ""
+msgstr "Simge"
 
 #: src/dialogs/edit-template-dialog.xml:55(para)
 msgid ""
@@ -13604,23 +13954,23 @@ msgstr ""
 
 #: src/dialogs/edit-template-dialog.xml:189(para)
 msgid "8-bit integer"
-msgstr ""
+msgstr "8-bit tamsayı"
 
 #: src/dialogs/edit-template-dialog.xml:194(para)
 msgid "16-bit integer"
-msgstr ""
+msgstr "16-bit tamsayı"
 
 #: src/dialogs/edit-template-dialog.xml:199(para)
 msgid "32-bit integer"
-msgstr ""
+msgstr "32-bit tamsayı"
 
 #: src/dialogs/edit-template-dialog.xml:204(para)
 msgid "16-bit floating point"
-msgstr ""
+msgstr "16-bit kayan noktalı sayı"
 
 #: src/dialogs/edit-template-dialog.xml:209(para)
 msgid "32-bit floating point"
-msgstr ""
+msgstr "32-bit kayan noktalı sayı"
 
 #: src/dialogs/edit-template-dialog.xml:185(para)
 msgid "Five options are available: <placeholder-1/>"
@@ -13805,6 +14155,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/dialogs/history.png'; md5=1c75791f5cdc2423c7204fb4e448ca70"
 msgstr ""
+"@@image: 'images/dialogs/history.png'; md5=1c75791f5cdc2423c7204fb4e448ca70"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -13813,6 +14164,8 @@ msgid ""
 "@@image: 'images/stock-icons/list-remove.svg'; "
 "md5=261f60f13410f4114a5d9b26fcdf4471"
 msgstr ""
+"@@image: 'images/stock-icons/list-remove.svg'; "
+"md5=261f60f13410f4114a5d9b26fcdf4471"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -13821,6 +14174,8 @@ msgid ""
 "@@image: 'images/dialogs/document-history-context-menu.png'; "
 "md5=3580a706fe64030bc6616ee1f215c95d"
 msgstr ""
+"@@image: 'images/dialogs/document-history-context-menu.png'; "
+"md5=3580a706fe64030bc6616ee1f215c95d"
 
 #: src/dialogs/document-dialog.xml:11(title)
 msgid "Document History Dialog"
@@ -13959,6 +14314,8 @@ msgid ""
 "@@image: 'images/preferences/prefs-list.png'; "
 "md5=d41c2f674da8938c5f85e53d3850a395"
 msgstr ""
+"@@image: 'images/preferences/prefs-list.png'; "
+"md5=d41c2f674da8938c5f85e53d3850a395"
 
 #: src/dialogs/dialogs-preferences.xml:7(title)
 msgid "Preferences Dialog"
@@ -14034,6 +14391,8 @@ msgid ""
 "@@image: 'images/dialogs/device-status.png'; "
 "md5=e46f8762ff3cb4c79ea6712768efc15c"
 msgstr ""
+"@@image: 'images/dialogs/device-status.png'; "
+"md5=e46f8762ff3cb4c79ea6712768efc15c"
 
 #: src/dialogs/device-status-dialog.xml:10(title)
 msgid "Device Status Dialog"
@@ -14087,6 +14446,8 @@ msgid ""
 "@@image: 'images/dialogs/dashboard-dialog.png'; "
 "md5=2aafb674a8c62ce316efde4571adc658"
 msgstr ""
+"@@image: 'images/dialogs/dashboard-dialog.png'; "
+"md5=2aafb674a8c62ce316efde4571adc658"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -14095,6 +14456,8 @@ msgid ""
 "@@image: 'images/dialogs/dashboard-context-menu.png'; "
 "md5=87ed26e32aa8402ff1f21a02ff092952"
 msgstr ""
+"@@image: 'images/dialogs/dashboard-context-menu.png'; "
+"md5=87ed26e32aa8402ff1f21a02ff092952"
 
 #: src/dialogs/dashboard.xml:8(title) src/dialogs/dashboard.xml:11(primary)
 msgid "Dashboard"
@@ -14383,6 +14746,8 @@ msgid ""
 "@@image: 'images/dialogs/color-dialog.png'; "
 "md5=4e5423e829b54c02c7b1597b1530f22c"
 msgstr ""
+"@@image: 'images/dialogs/color-dialog.png'; "
+"md5=4e5423e829b54c02c7b1597b1530f22c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -14391,6 +14756,8 @@ msgid ""
 "@@image: 'images/dialogs/color-CMYK.png'; "
 "md5=f61e10e91fdb5778c3f55e9164caab79"
 msgstr ""
+"@@image: 'images/dialogs/color-CMYK.png'; "
+"md5=f61e10e91fdb5778c3f55e9164caab79"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -14399,6 +14766,8 @@ msgid ""
 "@@image: 'images/dialogs/color-watercolor.png'; "
 "md5=4f301f876ea5269eeca28c5a225405fd"
 msgstr ""
+"@@image: 'images/dialogs/color-watercolor.png'; "
+"md5=4f301f876ea5269eeca28c5a225405fd"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -14407,6 +14776,8 @@ msgid ""
 "@@image: 'images/dialogs/color-triangle.png'; "
 "md5=e38e62d9d4731c070479a3562244e079"
 msgstr ""
+"@@image: 'images/dialogs/color-triangle.png'; "
+"md5=e38e62d9d4731c070479a3562244e079"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -14415,6 +14786,8 @@ msgid ""
 "@@image: 'images/dialogs/color-palette.png'; "
 "md5=19c3641873468265a4047d75f91085a9"
 msgstr ""
+"@@image: 'images/dialogs/color-palette.png'; "
+"md5=19c3641873468265a4047d75f91085a9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -14423,6 +14796,8 @@ msgid ""
 "@@image: 'images/dialogs/color-scale.png'; "
 "md5=6523fcf47315ca44aa9dabecc67ab6ff"
 msgstr ""
+"@@image: 'images/dialogs/color-scale.png'; "
+"md5=6523fcf47315ca44aa9dabecc67ab6ff"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -14431,6 +14806,8 @@ msgid ""
 "@@image: 'images/dialogs/css-keywords.png'; "
 "md5=8342326af8f1c04102441beba5a1fffd"
 msgstr ""
+"@@image: 'images/dialogs/css-keywords.png'; "
+"md5=8342326af8f1c04102441beba5a1fffd"
 
 #: src/dialogs/color-dialog.xml:13(title)
 msgid "FG/BG Color Dialog"
@@ -14689,6 +15066,8 @@ msgid ""
 "@@image: 'images/dialogs/channel-masks-example.png'; "
 "md5=7215786652dc2ee34142672900a5856a"
 msgstr ""
+"@@image: 'images/dialogs/channel-masks-example.png'; "
+"md5=7215786652dc2ee34142672900a5856a"
 
 #: src/dialogs/channel-selection-mask.xml:10(title)
 #: src/dialogs/channel-selection-mask.xml:11(anchor:xreflabel)
@@ -14796,7 +15175,7 @@ msgstr ""
 
 #: src/dialogs/channel-menu.xml:10(title)
 msgid "Channels Context Menu"
-msgstr ""
+msgstr "Kanallar İçerik Menüsü"
 
 #: src/dialogs/channel-menu.xml:13(primary)
 #: src/dialogs/channel-dialog.xml:15(secondary)
@@ -14916,6 +15295,8 @@ msgid ""
 "@@image: 'images/dialogs/channels-dialog.png'; "
 "md5=48a2674f4fba6480366037fef7884e3e"
 msgstr ""
+"@@image: 'images/dialogs/channels-dialog.png'; "
+"md5=48a2674f4fba6480366037fef7884e3e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -14924,6 +15305,8 @@ msgid ""
 "@@image: 'images/dialogs/wilber-channels-red.png'; "
 "md5=06757160d5b8ec5228bf80f2374b685b"
 msgstr ""
+"@@image: 'images/dialogs/wilber-channels-red.png'; "
+"md5=06757160d5b8ec5228bf80f2374b685b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -14932,6 +15315,8 @@ msgid ""
 "@@image: 'images/dialogs/wilber-channels-green.png'; "
 "md5=9cb0a78a7d3db6fc0e14138bbbd8ff69"
 msgstr ""
+"@@image: 'images/dialogs/wilber-channels-green.png'; "
+"md5=9cb0a78a7d3db6fc0e14138bbbd8ff69"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -14940,6 +15325,8 @@ msgid ""
 "@@image: 'images/dialogs/wilber-channels-blue.png'; "
 "md5=3a04441a2721eab40f0eda1a22803cd6"
 msgstr ""
+"@@image: 'images/dialogs/wilber-channels-blue.png'; "
+"md5=3a04441a2721eab40f0eda1a22803cd6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -14948,6 +15335,8 @@ msgid ""
 "@@image: 'images/dialogs/wilber-channels-alpha.png'; "
 "md5=4408a37d5cda31f94508d16d42671725"
 msgstr ""
+"@@image: 'images/dialogs/wilber-channels-alpha.png'; "
+"md5=4408a37d5cda31f94508d16d42671725"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -14956,6 +15345,8 @@ msgid ""
 "@@image: 'images/dialogs/wilber-channels-combined.png'; "
 "md5=8eabd21a9f0cf299dfc3670ec5fb4a74"
 msgstr ""
+"@@image: 'images/dialogs/wilber-channels-combined.png'; "
+"md5=8eabd21a9f0cf299dfc3670ec5fb4a74"
 
 #: src/dialogs/channel-dialog.xml:11(title)
 msgid "Channels Dialog"
@@ -15346,6 +15737,8 @@ msgid ""
 "@@image: 'images/dialogs/buffers-dialog.png'; "
 "md5=34a41d78abdffdb8cb526369c494fa55"
 msgstr ""
+"@@image: 'images/dialogs/buffers-dialog.png'; "
+"md5=34a41d78abdffdb8cb526369c494fa55"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -15354,6 +15747,8 @@ msgid ""
 "@@image: 'images/dialogs/buffers-dialog-grid.png'; "
 "md5=ad164d769ec749cdc64a6513ef80c7b1"
 msgstr ""
+"@@image: 'images/dialogs/buffers-dialog-grid.png'; "
+"md5=ad164d769ec749cdc64a6513ef80c7b1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -15362,6 +15757,8 @@ msgid ""
 "@@image: 'images/stock-icons/edit-paste-symbolic.svg'; "
 "md5=adb0f58685fb73c4dab942f1613afe6d"
 msgstr ""
+"@@image: 'images/stock-icons/edit-paste-symbolic.svg'; "
+"md5=adb0f58685fb73c4dab942f1613afe6d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -15370,6 +15767,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-paste-into-symbolic.svg'; "
 "md5=c185e24ff80bca4d9f1feed2f90d89f7"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-paste-into-symbolic.svg'; "
+"md5=c185e24ff80bca4d9f1feed2f90d89f7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -15379,6 +15778,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-paste-as-new-symbolic.svg'; "
 "md5=ddb73fcaeb5ed1ad39a45d57a4dec704"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-paste-as-new-symbolic.svg'; "
+"md5=ddb73fcaeb5ed1ad39a45d57a4dec704"
 
 #: src/dialogs/buffers-dialog.xml:14(title)
 msgid "Buffers Dialog"
@@ -15680,6 +16081,8 @@ msgid ""
 "@@image: 'images/dialogs/brushes-dialog-grid-view.png'; "
 "md5=8ab60c10ef4126ff5e4bae540e36cce1"
 msgstr ""
+"@@image: 'images/dialogs/brushes-dialog-grid-view.png'; "
+"md5=8ab60c10ef4126ff5e4bae540e36cce1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -15688,6 +16091,8 @@ msgid ""
 "@@image: 'images/dialogs/brushes-dialog-simple.png'; "
 "md5=24768376a6b45e8cfc54522a4134a869"
 msgstr ""
+"@@image: 'images/dialogs/brushes-dialog-simple.png'; "
+"md5=24768376a6b45e8cfc54522a4134a869"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -15696,6 +16101,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-paintbrush-symbolic.svg'; "
 "md5=af081afc7b96a6c39ac1abfa64851549"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-paintbrush-symbolic.svg'; "
+"md5=af081afc7b96a6c39ac1abfa64851549"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -15704,6 +16111,8 @@ msgid ""
 "@@image: 'images/dialogs/brushes-dialog-list-view.png'; "
 "md5=72ab661a92ed65662ee9ab5f26cae395"
 msgstr ""
+"@@image: 'images/dialogs/brushes-dialog-list-view.png'; "
+"md5=72ab661a92ed65662ee9ab5f26cae395"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -15712,6 +16121,8 @@ msgid ""
 "@@image: 'images/dialogs/brushes-editor-dialog.png'; "
 "md5=a62b37b8a18141e79b588068d9f8548a"
 msgstr ""
+"@@image: 'images/dialogs/brushes-editor-dialog.png'; "
+"md5=a62b37b8a18141e79b588068d9f8548a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -15720,6 +16131,8 @@ msgid ""
 "@@image: 'images/dialogs/brushes-dialog-clipboard.png'; "
 "md5=1c6c2dea8007a93146dd80016c5a73f2"
 msgstr ""
+"@@image: 'images/dialogs/brushes-dialog-clipboard.png'; "
+"md5=1c6c2dea8007a93146dd80016c5a73f2"
 
 #: src/dialogs/brushes-dialog.xml:8(title)
 msgid "Brushes Dialog"
@@ -16173,4 +16586,5 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/dialogs/brushes-dialog.xml:0(None)
 msgid "translator-credits"
-msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."

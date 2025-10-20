@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
-"POT-Creation-Date: 2025-07-15 08:41+0000\n"
-"PO-Revision-Date: 2023-08-11 12:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"Project-Id-Version: GIMP-Help master\n"
+"POT-Creation-Date: 2025-02-26 21:19+0000\n"
+"PO-Revision-Date: 2025-10-20 15:14+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -18,6 +26,8 @@ msgid ""
 "@@image: 'images/using/preparing_for_web1.png'; "
 "md5=11d5c27af559069d9b21880736e85160"
 msgstr ""
+"@@image: 'images/using/preparing_for_web1.png'; "
+"md5=11d5c27af559069d9b21880736e85160"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -26,6 +36,8 @@ msgid ""
 "@@image: 'images/using/preparing_for_web2.png'; "
 "md5=bdb201b090a081a6d325c249a5086d29"
 msgstr ""
+"@@image: 'images/using/preparing_for_web2.png'; "
+"md5=bdb201b090a081a6d325c249a5086d29"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -34,32 +46,46 @@ msgid ""
 "@@image: 'images/using/preparing_for_web-alphatransparency.png'; "
 "md5=78b0d6bf6995eeaec2b2d0e41878dd05"
 msgstr ""
+"@@image: 'images/using/preparing_for_web-alphatransparency.png'; "
+"md5=78b0d6bf6995eeaec2b2d0e41878dd05"
 
 #: src/using/web.xml:14(title)
 msgid "Preparing your Images for the Web"
-msgstr ""
+msgstr "Görüntüleri Web için hazırlamak"
 
 #: src/using/web.xml:17(primary)
 msgid "Web"
-msgstr ""
+msgstr "Web"
 
 #: src/using/web.xml:18(secondary)
 msgid "Images for the web"
-msgstr ""
+msgstr "Web için görüntüler"
 
 #: src/using/web.xml:21(para)
+#, fuzzy
 msgid ""
 "One of the most common uses for <acronym>GIMP</acronym>, is to prepare "
 "images for web sites. This means that images should look as nice as possible "
 "while keeping the file size as small as possible. This step-by-step guide "
 "demonstrates how to create small files with minimal loss of image quality."
 msgstr ""
+"GIMP'in en yaygın kullanım alanlarından biri, görüntüleri web siteleri için "
+"hazırlamaktır. Bunun anlamı, dosya boyutunu olabildiğince küçük tutulması ve "
+"görüntülerin olabildiğince hoş görünmesidir. Bu kılavuz, en az görüntü "
+"kalitesi kaybıyla küçük dosyaların nasıl oluşturulacağını gösterir."
 
 #: src/using/web.xml:31(title)
 msgid "Images with an Optimal Size/Quality Ratio"
-msgstr ""
+msgstr "En uygun Boyut/Kalite Oranına sahip görüntüler"
 
 #: src/using/web.xml:32(para)
+#, fuzzy
+#| msgid ""
+#| "An optimal image for the web depends upon the image type and the file "
+#| "format. Use <link linkend=\"file-jpeg-save\">JPEG</link> for Photographs "
+#| "because they usually have many colors and great detail. An image with "
+#| "fewer colors, such as a button, icon, or screenshot, is better suited to "
+#| "the <link linkend=\"file-png-load\">PNG</link> format."
 msgid ""
 "An optimal image for the web depends upon the image type and the file "
 "format. Use <link linkend=\"file-jpeg-export\">JPEG</link> for Photographs "
@@ -67,30 +93,53 @@ msgid ""
 "colors, such as a button, icon, or screenshot, is better suited to the <link "
 "linkend=\"file-png-load\">PNG</link> format."
 msgstr ""
+"Web için en uygun görüntü, görüntü türüne ve dosya biçimine bağlıdır. "
+"Genellikle çok sayıda renk ve ayrıntı içermeleri sebebiyle Fotoğraflar için "
+"<link linkend=\"file-jpeg-save\">JPEG</link> biçimini kullanın. Düğme, simge "
+"veya ekran görüntüsü gibi daha az renkli görüntüler için <link "
+"linkend=\"file-png-load\">PNG</link> biçimi daha uygundur."
 
 #: src/using/web.xml:43(para)
 msgid "First, open the image as usual."
 msgstr ""
 
 #: src/using/web.xml:47(title)
+#, fuzzy
+#| msgid "The Wilber image opened in RGBA mode"
 msgid "Image of Wilber (the GIMP mascot) opened in RGBA mode"
-msgstr ""
+msgstr "Wilber görüntüsü RGBA kipinde açılmış olarak"
 
 #: src/using/web.xml:56(para)
+#, fuzzy
 msgid ""
 "The image is now in RGB mode, with an additional <link linkend=\"glossary-"
 "alpha\">Alpha channel</link> (RGBA). There is usually no need to have an "
 "alpha channel for your web image. You can remove the alpha channel by <link "
 "linkend=\"gimp-image-flatten\">flattening the image</link>."
 msgstr ""
+"Görüntü şu an RGB kipinde, <link linkend=\"glossary-alpha\">Alfa kanal</"
+"link> ilavesiyle (RGBA) olarak da isimlendirilir. Web görüntülerinin "
+"genellikle alfa kanalıa ihtiyacı yoktur. Alfa kanalını <link linkend=\"gimp-"
+"image-flatten\">görüntüyü düzleştirerek</link> kaldırabilirsiniz."
 
 #: src/using/web.xml:63(para)
+#, fuzzy
 msgid ""
 "A photograph rarely has an alpha channel, so the image will open in RGB mode "
 "rather than RGBA mode; and you won't have to remove the alpha channel."
 msgstr ""
+"Bir görüntü nadiren alfa kanalına sahiptir. Alfa kanalı olmayan bir görüntü "
+"RGBA kipi yerine RGB kipinde açılır ve böylece alfa kanalını kaldırmak "
+"zorunda kalmazsınız."
 
 #: src/using/web.xml:69(para)
+#, fuzzy
+#| msgid ""
+#| "If the image has a soft transition into the transparent areas, you should "
+#| "not remove the alpha channel, since the information used for the "
+#| "transition is not be saved in the file. To export an image with "
+#| "transparent areas that do not have a soft transition, (similar to <link "
+#| "linkend=\"file-gif-save\">GIF</link>), remove the alpha channel."
 msgid ""
 "If the image has a soft transition into the transparent areas, you should "
 "not remove the alpha channel, since the information used for the transition "
@@ -98,15 +147,37 @@ msgid ""
 "that do not have a soft transition, (similar to <link linkend=\"file-gif-"
 "export\">GIF</link>), remove the alpha channel."
 msgstr ""
+"Görüntü, saydam alanlara yumuşak geçiş içeriyorsa alfa kanalını çıkarmamanız "
+"önerilmez. Yumuşak geçiş içermeyen (GIF benzeri) saydam alanları olan bir "
+"görüntüyü dışa aktarmak için alfa kanalını kaldırın."
 
 #: src/using/web.xml:81(para)
+#, fuzzy
+#| msgid ""
+#| "After you have flattened the image, <link linkend=\"gimp-file-"
+#| "export\">export the image</link> in the <link linkend=\"file-png-save-"
+#| "defaults\">PNG format</link> for your web site."
 msgid ""
 "After you have flattened the image, <link linkend=\"gimp-file-"
 "export\">export the image</link> in the <link linkend=\"file-png-export-"
 "defaults\">PNG format</link> for your web site."
 msgstr ""
+"Görüntüyü düzleştirdikten sonra görüntüyü <link linkend=\"gimp-file-"
+"export\">dışa aktar</link> komutuyla <link linkend=\"file-png-save-"
+"defaults\">PNG biçiminde</link> aktarabilirsiniz."
 
 #: src/using/web.xml:88(para)
+#, fuzzy
+#| msgid ""
+#| "You can export your image in the PNG format with the default settings. "
+#| "Always using maximum compression when creating the image. Maximum "
+#| "compression has no affect on image quality or the time required to "
+#| "display the image, but it does take longer to export. A <link "
+#| "linkend=\"file-jpeg-save\">JPEG</link> image, however, loses quality as "
+#| "the compression is increased. If your image is a photograph with lots of "
+#| "colors, you should use jpeg. The main thing is to find the best tradeoff "
+#| "between quality and compression. You can find more information about this "
+#| "topic in <xref linkend=\"file-jpeg-save\"/>."
 msgid ""
 "You can export your image in the PNG format with the default settings. "
 "Always using maximum compression when creating the image. Maximum "
@@ -118,12 +189,22 @@ msgid ""
 "compression. You can find more information about this topic in <xref "
 "linkend=\"file-jpeg-export\"/>."
 msgstr ""
+"Görüntüyü PNG biçiminde varsayılan ayarlarla dışa aktarabilirsiniz. "
+"Görüntüyü oluştururken her zaman en yüksek sıkıştırma seviyesini kullanın. "
+"Bu işlem görüntü kalitesini veya görüntünün görüntülemesi için gereken "
+"süreyi etkilemez, sadece dışa aktarım süreci biraz uzun sürer. Bu durum "
+"<link linkend=\"file-jpeg-save\">JPEG</link> görüntü biçimi için geçerli "
+"değildir, JPEG görüntü, sıkıştırma arttıkça kalitesini kaybeder. Görüntünüz "
+"renkli bir fotoğrafsa, JPEG biçimini kullanın. Önemli olan kalite ve "
+"sıkıştırma arasındaki en uygun dengeyi bulmak. Detaylı bilgi için bkz: <xref "
+"linkend=\"file-jpeg-save\"/>."
 
 #: src/using/web.xml:106(title)
 msgid "Reducing the File Size Even More"
-msgstr ""
+msgstr "Dosya Boyutunu Daha Fazla Azaltmak"
 
 #: src/using/web.xml:107(para)
+#, fuzzy
 msgid ""
 "If you want to reduce the size of your image a bit more, you could convert "
 "your image to Indexed mode. That means that all of the colors will be "
@@ -133,43 +214,74 @@ msgid ""
 "not recommended for photographs because after the conversion, they typically "
 "look coarse and grainy."
 msgstr ""
+"Görüntü boyutunu biraz daha azaltmak istiyorsanız,görüntüyü İndeksli kipe "
+"dönüştürebilirsiniz. Bu, tüm renklerin yalnızca 256 değere düşürüleceği "
+"anlamına gelir. Yumuşak renk geçişleri veya renk geçişi içeren görüntüleri "
+"indeksli kipe dönüştürmeyin, çünkü özgün yumuşak geçişler genellikle bir "
+"dizi çizgiye dönüştürülür. İndeksli kip fotoğraflar için önerilmez, çünkü "
+"dönüşümden sonra genellikle kaba ve taneli görünürler."
 
 #: src/using/web.xml:118(title)
 msgid "The indexed image"
-msgstr ""
+msgstr "İndeksli görüntü"
 
 #: src/using/web.xml:125(para)
+#, fuzzy
 msgid ""
 "An indexed image can look a bit grainy. The left image is Wilber in its "
 "original size, the right image is zoomed in by 300 percent."
 msgstr ""
+"İndeksli görüntü biraz taneli görünebilir. Soldaki görüntüde Wilber özgün "
+"boyutunda, sağdaki görüntüdeyse %300 oranında yakınlaştırılmış olarak "
+"gösterilmiştir."
 
 #: src/using/web.xml:134(para)
+#, fuzzy
 msgid ""
 "Use the command described in <xref linkend=\"gimp-image-mode\"/> to convert "
 "an RGB image to indexed mode."
 msgstr ""
+"RGB görüntüyü İndeksli kipe dönüştürmek için <xref linkend=\"gimp-image-"
+"mode\"/> içinde anlatılan komutu kullanın."
 
 #: src/using/web.xml:140(para)
+#, fuzzy
+#| msgid ""
+#| "After you convert an image to indexed mode, you are once again able to "
+#| "<link linkend=\"gimp-file-export\">export</link> the image in <link "
+#| "linkend=\"file-png-save-defaults\">PNG format</link>."
 msgid ""
 "After you convert an image to indexed mode, you are once again able to <link "
 "linkend=\"gimp-file-export\">export</link> the image in <link linkend=\"file-"
 "png-export-defaults\">PNG format</link>."
 msgstr ""
+"Görüntüyü indeksli kipe dönüştürdükten sonra, tekrar <link linkend=\"file-"
+"png-save-defaults\">PNG</link> biçiminde <link linkend=\"gimp-file-"
+"export\">dışa aktarabilirsiniz</link>."
 
 #: src/using/web.xml:151(title)
 msgid "Saving Images with Transparency"
-msgstr ""
+msgstr "Görüntüyü Saydam Artalanla Kaydetmek"
 
 #: src/using/web.xml:153(primary)
 msgid "Transparency"
-msgstr ""
+msgstr "Saydamlık"
 
 #: src/using/web.xml:154(secondary)
 msgid "Exporting images with transparency"
-msgstr ""
+msgstr "Görüntüyü saydam artalanla dışa aktarmak"
 
 #: src/using/web.xml:156(para)
+#, fuzzy
+#| msgid ""
+#| "There are two different approaches used by graphic file formats for "
+#| "supporting transparent image areas: simple binary transparency and alpha "
+#| "transparency. Simple binary transparency is supported in the <link "
+#| "linkend=\"file-gif-save\">GIF</link> format; one color from the indexed "
+#| "color palette is marked as the transparent color. Alpha transparency is "
+#| "supported in the <link linkend=\"file-png-save-defaults\">PNG</link> "
+#| "format; the transparency information is stored in a separate channel, the "
+#| "<link linkend=\"glossary-alpha\">Alpha channel</link>."
 msgid ""
 "There are two different approaches used by graphic file formats for "
 "supporting transparent image areas: simple binary transparency and alpha "
@@ -180,29 +292,54 @@ msgid ""
 "format; the transparency information is stored in a separate channel, the "
 "<link linkend=\"glossary-alpha\">Alpha channel</link>."
 msgstr ""
+"Saydam görüntü alanlarını desteklemek konusunda grafik dosya biçimleri "
+"tarafından iki farklı yaklaşım kullanılmaktadır: basit ikili (binary) "
+"saydamlık ve alfa saydamlığı. Basit ikili saydamlık, <link linkend=\"file-"
+"gif-save\">GIF</link> biçimi tarafından desteklenir; indeksli renk "
+"paletinden bir renk saydam renk olarak işaretlenir. Alfa saydamlığı <link "
+"linkend=\"file-png-save-defaults\">PNG</link> biçimi tarafından desteklenir; "
+"şeffaflık bilgisi ayrı bir kanalda, <link linkend=\"glossary-alpha\">Alfa "
+"kanalı</link> içinde saklanır."
 
 #: src/using/web.xml:168(para)
+#, fuzzy
 msgid ""
 "The GIF format is rarely used because PNG supports all the features of GIF "
 "with additional features (e.g., alpha transparency). Nevertheless, GIF is "
 "still used for animations."
 msgstr ""
+"GIF biçimi nadiren kullanılır, çünkü PNG, GIF'in tüm özelliklerini ve çok "
+"daha fazlasını (örneğin, alfa saydamlığını) desteklemektedir. Bununla "
+"birlikte, GIF hala animasyonlar için kullanılmaktadır."
 
 #: src/using/web.xml:176(title)
 msgid "Creating an Image with Transparent Areas (Alpha Transparency)"
-msgstr ""
+msgstr "Saydam Alanlı Görüntü Oluşturmak (Alfa Saydamlığı)"
 
 #: src/using/web.xml:180(para)
+#, fuzzy
 msgid ""
 "First of all, we will use the same image as in the previous tutorials, "
 "Wilber the GIMP mascot."
 msgstr ""
+"Öncelikli olarak, önceki örneğimizdeki görseli, GIMP'in maskotu Wilber'ı "
+"kullanabiliriz."
 
 #: src/using/web.xml:185(title)
 msgid "The Wilber image opened in RGBA mode"
-msgstr ""
+msgstr "Wilber görüntüsü RGBA kipinde açılmış olarak"
 
 #: src/using/web.xml:195(para)
+#, fuzzy
+#| msgid ""
+#| "To export an image with alpha transparency, you must have an alpha "
+#| "channel. To check if the image has an alpha channel, go to the <link "
+#| "linkend=\"gimp-channel-dialog\">channel dialog</link> and verify that an "
+#| "entry for <quote>Alpha</quote> exists, besides Red, Green and Blue. If "
+#| "this is not the case, <link linkend=\"gimp-layer-alpha-add\">add a new "
+#| "alpha channel</link> from the layers menu; <menuchoice><guimenu>Layer</"
+#| "guimenu><guimenu>Transparency</guimenu><guimenuitem>Add Alpha Channel</"
+#| "guimenuitem></menuchoice>."
 msgid ""
 "To export an image with alpha transparency, you must have an alpha channel. "
 "To check if the image has an alpha channel, go to the <link linkend=\"gimp-"
@@ -213,8 +350,16 @@ msgid ""
 "guimenu><guimenu>Transparency</guimenu><guimenuitem>Add Alpha Channel</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Görüntüyü Alfa saydamlığıyla dışarı aktarabilmek için görüntü bir alfa "
+"kanalı içermelidir. Görüntünün alfa kanalı içerip içermediğini kontrol etmek "
+"için, <link linkend=\"gimp-channel-dialog\">kanal ileşitim kutusunda</link> "
+"Kırmızı, Yeşil ve Mavi dışında <quote>Alfa</quote> girişinin de olduğunu "
+"doğrulayın. Eğer ki yoksa, görüntü menüsünden <menuchoice><guimenu>Katman</"
+"guimenu><guimenu>Saydamlık</guimenu><guimenuitem>Alfa Kanalı Ekle</"
+"guimenuitem> yoluyla ekleyin."
 
 #: src/using/web.xml:208(para)
+#, fuzzy
 msgid ""
 "The original XCF file contains background layers that you can remove. "
 "<acronym>GIMP</acronym> comes with standard filters that supports creating "
@@ -223,23 +368,41 @@ msgid ""
 "To demonstrate the capabilities of alpha transparency, a soft glow in the "
 "background around Wilber is shown."
 msgstr ""
+"Özgün XCF dosyası, kaldırabileceğiniz arka plan katmanları içerir. "
+"<acronym>GIMP</acronym>, renk geçişi oluşturmayı destekleyen standart "
+"filtrelerle birlikte gelir; <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guimenu>Işık ve Gölge</guimenu></menuchoice> altına bakın. Sadece "
+"hayal gücünüzle sınırlısınız. Alfa saydamlığını göstermek için, Wilber "
+"etrafındaki arka planda yumuşak bir parıltı gösterilmiştir."
 
 #: src/using/web.xml:220(para)
+#, fuzzy
+#| msgid ""
+#| "After you're done with your image, you can <link linkend=\"gimp-file-"
+#| "export\">export</link> it in <link linkend=\"file-png-save-defaults\">PNG "
+#| "format</link>."
 msgid ""
 "After you're done with your image, you can <link linkend=\"gimp-file-"
 "export\">export</link> it in <link linkend=\"file-png-export-defaults\">PNG "
 "format</link>."
 msgstr ""
+"İşiniz bitince görüntüyü <link linkend=\"file-png-save-defaults\">PNG "
+"biçiminde</link> <link linkend=\"gimp-file-export\">dışa aktarabilirsiniz</"
+"link>."
 
 #: src/using/web.xml:228(title)
 msgid "The Wilber image with transparency"
-msgstr ""
+msgstr "Wilber görüntüsü saydamlık ile"
 
+# Biraz serbest çevirildi
 #: src/using/web.xml:235(para)
+#, fuzzy
 msgid ""
 "Mid-Tone Checks in the background layer represent the transparent region of "
 "the exported image while you are working on it in <acronym>GIMP</acronym>."
 msgstr ""
+"<acronym>GIMP</acronym>'de çalışırken tuvalde görüntülenen kare kare "
+"oluşumlar görüntünün saydam bölgelerini temsil eder."
 
 #: src/using/variable-size-brush.xml:11(title)
 #: src/using/variable-size-brush.xml:14(secondary)
@@ -436,6 +599,8 @@ msgid ""
 "@@image: 'images/using/straightline1.png'; "
 "md5=f55de3d8bd9271198a5c97d8f5667bca"
 msgstr ""
+"@@image: 'images/using/straightline1.png'; "
+"md5=f55de3d8bd9271198a5c97d8f5667bca"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -444,6 +609,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-pencil.svg'; "
 "md5=2e019941c558e001826c804c9da41a55"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-pencil.svg'; "
+"md5=2e019941c558e001826c804c9da41a55"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -452,6 +619,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-paintbrush.svg'; "
 "md5=65b9252af33ff10d5623ebf969403f11"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-paintbrush.svg'; "
+"md5=65b9252af33ff10d5623ebf969403f11"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -460,6 +629,8 @@ msgid ""
 "@@image: 'images/using/straightline2.png'; "
 "md5=d16513799d6cfe0a53eb1d361bdc51de"
 msgstr ""
+"@@image: 'images/using/straightline2.png'; "
+"md5=d16513799d6cfe0a53eb1d361bdc51de"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -468,6 +639,8 @@ msgid ""
 "@@image: 'images/using/straightline3.png'; "
 "md5=74cdc5107704abdf95edce13e83fb0af"
 msgstr ""
+"@@image: 'images/using/straightline3.png'; "
+"md5=74cdc5107704abdf95edce13e83fb0af"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -476,6 +649,8 @@ msgid ""
 "@@image: 'images/stock-icons/keyboard-shift-symbolic.svg'; "
 "md5=01d32a992b414aee55253d9f0c742599"
 msgstr ""
+"@@image: 'images/stock-icons/keyboard-shift-symbolic.svg'; "
+"md5=01d32a992b414aee55253d9f0c742599"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -484,60 +659,95 @@ msgid ""
 "@@image: 'images/using/straightline4.png'; "
 "md5=b1ebe0b7121ad37ea477f27b88cfcf1b"
 msgstr ""
+"@@image: 'images/using/straightline4.png'; "
+"md5=b1ebe0b7121ad37ea477f27b88cfcf1b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:192(None)
+#| msgid ""
+#| "@@image: 'images/using/straightline1.png'; "
+#| "md5=f55de3d8bd9271198a5c97d8f5667bca"
 msgid ""
 "@@image: 'images/tutorials/straight-lines-example1.png'; "
 "md5=c2f6fc5221a1bc0cd8972b7f86c5945b"
 msgstr ""
+"@@image: 'images/tutorials/straight-lines-example1.png'; "
+"md5=c2f6fc5221a1bc0cd8972b7f86c5945b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:206(None)
+#| msgid ""
+#| "@@image: 'images/using/straightline3.png'; "
+#| "md5=74cdc5107704abdf95edce13e83fb0af"
 msgid ""
 "@@image: 'images/tutorials/straight-lines-example3.png'; "
 "md5=31baded6d15c1bf15ef05a713cf0fdb7"
 msgstr ""
+"@@image: 'images/tutorials/straight-lines-example3.png'; "
+"md5=31baded6d15c1bf15ef05a713cf0fdb7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:221(None)
+#| msgid ""
+#| "@@image: 'images/using/straightline4.png'; "
+#| "md5=b1ebe0b7121ad37ea477f27b88cfcf1b"
 msgid ""
 "@@image: 'images/tutorials/straight-lines-example2.png'; "
 "md5=e8e7c32ad05e6021d1b9094f79aebf10"
 msgstr ""
+"@@image: 'images/tutorials/straight-lines-example2.png'; "
+"md5=e8e7c32ad05e6021d1b9094f79aebf10"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:240(None)
+#| msgid ""
+#| "@@image: 'images/using/straightline2.png'; "
+#| "md5=d16513799d6cfe0a53eb1d361bdc51de"
 msgid ""
 "@@image: 'images/tutorials/straight-lines-example4.png'; "
 "md5=ea48a5637c7a84fed31131becd0dd765"
 msgstr ""
+"@@image: 'images/tutorials/straight-lines-example4.png'; "
+"md5=ea48a5637c7a84fed31131becd0dd765"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:262(None)
+#| msgid ""
+#| "@@image: 'images/using/straightline1.png'; "
+#| "md5=f55de3d8bd9271198a5c97d8f5667bca"
 msgid ""
 "@@image: 'images/tutorials/straight-lines-example5.png'; "
 "md5=ab5509684e99f8c008334bcc1d711ca9"
 msgstr ""
+"@@image: 'images/tutorials/straight-lines-example5.png'; "
+"md5=ab5509684e99f8c008334bcc1d711ca9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:304(None)
+#| msgid ""
+#| "@@image: 'images/using/basicshape2.png'; "
+#| "md5=4d938c41bc323718adedc209f5c6649c"
 msgid ""
 "@@image: 'images/using/basicshape1.png'; md5=1d1cc38fc203ac5105dadb6869501ad6"
 msgstr ""
+"@@image: 'images/using/basicshape1.png'; md5=1d1cc38fc203ac5105dadb6869501ad6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:335(None)
+#| msgid ""
+#| "@@image: 'images/using/basicshape2.png'; "
+#| "md5=4d938c41bc323718adedc209f5c6649c"
 msgid ""
 "@@image: 'images/using/basicshape2.png'; md5=2be6b828d63230d3fccd538116a859ec"
 msgstr ""
+"@@image: 'images/using/basicshape2.png'; md5=2be6b828d63230d3fccd538116a859ec"
 
 #: src/using/simpleobjects.xml:13(title)
 msgid "Drawing Simple Objects"
@@ -613,8 +823,10 @@ msgid ""
 msgstr ""
 
 #: src/using/simpleobjects.xml:92(title)
+#, fuzzy
+#| msgid "Selection"
 msgid "Select a Color"
-msgstr ""
+msgstr "Seçim"
 
 #: src/using/simpleobjects.xml:93(para)
 msgid ""
@@ -695,11 +907,11 @@ msgstr ""
 #: src/using/simpleobjects.xml:186(title)
 #: src/using/animated-brushes.xml:239(title)
 msgid "Examples"
-msgstr ""
+msgstr "Örnekler"
 
 #: src/using/simpleobjects.xml:188(title)
 msgid "Examples I"
-msgstr ""
+msgstr "Örnek 1"
 
 #: src/using/simpleobjects.xml:195(para)
 msgid ""
@@ -717,7 +929,7 @@ msgstr ""
 
 #: src/using/simpleobjects.xml:217(title)
 msgid "Examples II"
-msgstr ""
+msgstr "Örnek 2"
 
 #: src/using/simpleobjects.xml:224(para)
 msgid ""
@@ -737,7 +949,7 @@ msgstr ""
 
 #: src/using/simpleobjects.xml:258(title)
 msgid "Example III"
-msgstr ""
+msgstr "Örnek 3"
 
 #: src/using/simpleobjects.xml:265(para)
 msgid ""
@@ -1057,6 +1269,8 @@ msgid ""
 "@@image: 'images/using/select-move-1.png'; "
 "md5=59f92c5d042d8a9a664edc3d2f15f974"
 msgstr ""
+"@@image: 'images/using/select-move-1.png'; "
+"md5=59f92c5d042d8a9a664edc3d2f15f974"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1065,6 +1279,8 @@ msgid ""
 "@@image: 'images/using/select-move-2.png'; "
 "md5=8128e7f4c88a2b28c75c85cffff221ba"
 msgstr ""
+"@@image: 'images/using/select-move-2.png'; "
+"md5=8128e7f4c88a2b28c75c85cffff221ba"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1073,45 +1289,63 @@ msgid ""
 "@@image: 'images/using/select-move-3.png'; "
 "md5=8e2856e4acb1cdf711f696040a45b008"
 msgstr ""
+"@@image: 'images/using/select-move-3.png'; "
+"md5=8e2856e4acb1cdf711f696040a45b008"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/selections.xml:239(None)
+#| msgid ""
+#| "@@image: 'images/using/rect+lasso-ex.png'; "
+#| "md5=10d41167eeb361f36cac967e39a9d443"
 msgid ""
 "@@image: 'images/using/rectangular+free-select-example.png'; "
 "md5=10d41167eeb361f36cac967e39a9d443"
 msgstr ""
+"@@image: 'images/using/rectangular+free-select-example.png'; "
+"md5=10d41167eeb361f36cac967e39a9d443"
 
 #: src/using/selections.xml:18(title)
 msgid "Creating and Using Selections"
-msgstr ""
+msgstr "Seçim Oluşturmak ve Taşımak"
 
 #: src/using/selections.xml:21(primary)
 msgid "Selections"
-msgstr ""
+msgstr "Seçim"
 
 #: src/using/selections.xml:22(secondary) src/using/paths.xml:20(secondary)
 msgid "Using"
-msgstr ""
+msgstr "Kullanımı"
 
 #: src/using/selections.xml:26(title)
+#, fuzzy
+#| msgid "Moving a Selection"
 msgid "Moving or Resizing a Selection"
-msgstr ""
+msgstr "Seçimi taşımak"
 
 #: src/using/selections.xml:28(primary) src/using/selections.xml:32(primary)
 #: src/using/selections.xml:201(primary)
 msgid "Selection"
-msgstr ""
+msgstr "Seçim"
 
 #: src/using/selections.xml:29(secondary)
 msgid "Move selection"
-msgstr ""
+msgstr "Seçimi taşı"
 
 #: src/using/selections.xml:33(secondary)
+#, fuzzy
+#| msgid "Move selection"
 msgid "Resize selection"
-msgstr ""
+msgstr "Seçimi taşı"
 
 #: src/using/selections.xml:36(para)
+#, fuzzy
+#| msgid ""
+#| "Rectangular and elliptical selections have two modes. The default mode "
+#| "has handles on the selection. If you click the selection or press the "
+#| "<keycap>Enter</keycap> key,the handles disappear leaving only the dotted "
+#| "outline (marching ants). The other selection tools have different "
+#| "behaviour."
 msgid ""
 "Rectangular and elliptical selections have two modes. The default mode has "
 "handles on the selection. These handles can be used to resize the selection. "
@@ -1121,12 +1355,23 @@ msgid ""
 "linkend=\"glossary-marching-ants\">marching ants</link>). You can return to "
 "the mode with handles by clicking inside the selection again."
 msgstr ""
+"Dikdörtgen ve elips seçimin iki kipi bulunmaktadır. Varsayılan kip seçimde "
+"tutamaçlara sahiptir. Seçime tıklatırsanız veya <keycap>Enter</keycap> "
+"tuşuna basarsanız, tutamaçlar yalnızca noktalı anahattı (yürüyen "
+"karıncaları) bırakarak kaybolur. Diğer seçim araçlarının farklı davranışları "
+"vardır."
 
 #: src/using/selections.xml:45(para)
+#, fuzzy
+#| msgid ""
+#| "If you click-and-drag the selection without handles, you create a new "
+#| "selection! To move the selection contents, you have to"
 msgid ""
 "If you click-and-drag the selection without handles, you create a new "
 "selection. The other selection tools do not have this division in two modes."
 msgstr ""
+"Seçimi tutamaçsız tıklayıp sürüklerseniz, yeni bir seçim oluşturursunuz! "
+"Seçim içeriğini taşımak için şunu yapın:"
 
 #: src/using/selections.xml:52(title)
 msgid "Moving selections using the Rectangle and Ellipse Select tools"
@@ -1141,12 +1386,16 @@ msgid ""
 msgstr ""
 
 #: src/using/selections.xml:64(title)
+#, fuzzy
+#| msgid "Moving selection outline"
 msgid "Moving and resizing the selection outline"
-msgstr ""
+msgstr "Seçim anahattını taşımak"
 
 #: src/using/selections.xml:66(title)
+#, fuzzy
+#| msgid "Moving selection outline"
 msgid "Moving the selection outline"
-msgstr ""
+msgstr "Seçim anahattını taşımak"
 
 #: src/using/selections.xml:73(para)
 msgid ""
@@ -1186,12 +1435,16 @@ msgid ""
 msgstr ""
 
 #: src/using/selections.xml:105(title)
+#, fuzzy
+#| msgid "Moving selection outline"
 msgid "Moving the selection with the image contents"
-msgstr ""
+msgstr "Seçim anahattını taşımak"
 
 #: src/using/selections.xml:107(title)
+#, fuzzy
+#| msgid "Moving a selection and its content, emptying the original place"
 msgid "Moving a selection and its contents, emptying the original location"
-msgstr ""
+msgstr "Özgün alanı boşaltarak seçimi ve içeriğini taşımak"
 
 #: src/using/selections.xml:117(para)
 msgid ""
@@ -1210,18 +1463,35 @@ msgid ""
 msgstr ""
 
 #: src/using/selections.xml:132(title)
+#, fuzzy
+#| msgid "Moving a selection and its content, emptying the original place"
 msgid "Moving a selection with a copy of the layer contents"
-msgstr ""
+msgstr "Özgün alanı boşaltarak seçimi ve içeriğini taşımak"
 
 #: src/using/selections.xml:142(para)
+#, fuzzy
+#| msgid ""
+#| "hold down <keycombo><keycap>Shift</keycap><keycap>Alt</keycap></keycombo> "
+#| "keys and click-and-drag the selection to move without emptying the "
+#| "original place. A floating selection is created."
 msgid ""
 "To move the selection contents without changing the original, use "
 "<keycombo><keycap>Shift</keycap><keycap>Alt</keycap></keycombo> and click-"
 "and-drag the selection. The original location of the selected part of the "
 "layer will stay the same while you move a copy."
 msgstr ""
+"<keycombo><keycap>Shift</keycap><keycap>Alt</keycap></keycombo> tuşlarını "
+"basılı tutun ve seçimi tıklayıp sürükleyin. Bu özgün alanı boşaltmadan yeni "
+"bir yüzen seçim oluşturacaktır."
 
 #: src/using/selections.xml:156(para)
+#, fuzzy
+#| msgid ""
+#| "On some systems, you must push <keycap>Alt</keycap> before <keycap>Shift</"
+#| "keycap> or <keycap>Ctrl</keycap>. On these systems, pressing "
+#| "<keycap>Shift</keycap> or <keycap>Ctrl</keycap> first, causes GIMP to "
+#| "enter a mode that adds or subtract from the current selection &mdash; "
+#| "after that, the <keycap>Alt</keycap> key is ineffective!"
 msgid ""
 "On some systems, you must push <keycap>Alt</keycap> before <keycap>Shift</"
 "keycap> or <keycap>Ctrl</keycap>. On these systems, pressing <keycap>Shift</"
@@ -1229,12 +1499,28 @@ msgid ""
 "adds or subtracts from the current selection. After doing that, the "
 "<keycap>Alt</keycap> key is ineffective!"
 msgstr ""
+"Kimi işletim sistemlerinde <keycap>Shift</keycap> veya <keycap>Ctrl</keycap> "
+"tuşundan önce <keycap>Alt</keycap> tuşuna basmanız gerekebilir. Bu işletim "
+"sistemlerinde <keycap>Shift</keycap> veya <keycap>Ctrl</keycap> tuşlarına "
+"önce basılması, GIMP'in geçerli seçime ekle veya geçerli seçimden çıkar "
+"kiplerine girmesine neden olabilir. Bu işlemden sonra <keycap>Alt</keycap> "
+"tuşu etkisiz olacaktır!"
 
 #: src/using/selections.xml:169(title)
+#, fuzzy
+#| msgid "Moving the other selections"
 msgid "Moving using other Selection Tools"
-msgstr ""
+msgstr "Diğer seçimleri taşımak"
 
 #: src/using/selections.xml:170(para)
+#, fuzzy
+#| msgid ""
+#| "The other selections (Lasso, Magic wand, By Color) have no handle. Click-"
+#| "and dragging them doesn't move them. To move their contents, as with "
+#| "rectangular and elliptical selections, you have to hold down "
+#| "<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo> keys or "
+#| "<keycombo><keycap>Shift</keycap><keycap>Alt</keycap></keycombo> and click-"
+#| "and-drag."
 msgid ""
 "The other selection tools (Free Select, Fuzzy Select, By Color Select, etc.) "
 "have no handles. Using click-and-drag doesn't move these selections. To move "
@@ -1243,18 +1529,35 @@ msgid ""
 "<keycombo><keycap>Shift</keycap><keycap>Alt</keycap></keycombo> keys and "
 "then use click-and-drag."
 msgstr ""
+"Diğer seçimlerde (Serbest Seçim, Bulanık Seçim, Renge Göre Seçim) tutamaç "
+"bulunmaz. Tıklayıp sürüklemek seçimleri taşımaz. Bunların içeriklerini "
+"taşımak için, dikdörtgen seçim ve elips seçimdeki gibi "
+"<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo>tuşlarını veya "
+"<keycombo><keycap>Shift</keycap><keycap>Alt</keycap></keycombo> tuşlarını "
+"basılıyken sürükleyip bırakmalısınız."
 
 #: src/using/selections.xml:180(para)
+#, fuzzy
+#| msgid ""
+#| "If you use keyboard arrow keys instead of click-and-drag, you move the "
+#| "outline."
 msgid ""
 "If you use keyboard arrow keys instead of click-and-drag, you move only the "
 "selection outline."
 msgstr ""
+"Sürükleyip bırakmak yerine klavye ok tuşlarını kullanırsanız, anahat taşınır."
 
 #: src/using/selections.xml:187(title)
 msgid "A different method of moving a selection"
 msgstr ""
 
 #: src/using/selections.xml:188(para)
+#, fuzzy
+#| msgid ""
+#| "You can also use a more roundabout method to move a selection. Make it "
+#| "floating. Then you can move its content, emptying the origin, by click-"
+#| "and-dragging or keyboard arrow keys. To move without emptying, use copy-"
+#| "paste."
 msgid ""
 "You can also use a more roundabout method to move a selection. Make the "
 "<link linkend=\"gimp-selection-float\">selection floating</link>. Then you "
@@ -1262,55 +1565,86 @@ msgid ""
 "tool, emptying the original location, by click-and-dragging or keyboard "
 "arrow keys."
 msgstr ""
+"Seçimi taşımak için daha dolambaçlı bir yöntem de kullanabilirsiniz. Önce "
+"seçimi yüzdürün. Ardından tıklatıp sürükleyerek veya klavye ok tuşlarını "
+"kullanarak özgün içeriği taşıyabilirsiniz. Boşaltmadan taşımak için kopyala "
+"yapıştır yöntemini kullanın."
 
 #: src/using/selections.xml:199(title)
 msgid "Adding or subtracting selections"
-msgstr ""
+msgstr "Seçime ekleme veya seçimden çıkarma"
 
 #: src/using/selections.xml:202(secondary)
 msgid "Add / Subtract selections"
-msgstr ""
+msgstr "Seçime ekle, seçimden çıkar"
 
 #: src/using/selections.xml:210(para)
+#, fuzzy
 msgid ""
 "Replace is the most used selection mode. In replace mode, a selection "
 "replaces any existing selection."
 msgstr ""
+"Değiştir, en çok kullanılan seçim kipidir. Değiştirme kipinde, seçim mevcut "
+"seçimin yerine geçer."
 
 #: src/using/selections.xml:214(para)
+#, fuzzy
 msgid ""
 "Add mode, causes new selections to be added to any existing selection. Press "
 "and hold the <keycap>Shift</keycap> key while making a selection to "
 "temporarily enter add mode."
 msgstr ""
+"Ekleme kipi, yeni seçimlerin mevcut seçime eklenmesini sağlar. Geçici olarak "
+"ekleme kipine geçmek için seçim yaparken <keycap>Shift</keycap> tuşunu "
+"basılı tutun."
 
 #: src/using/selections.xml:219(para)
+#, fuzzy
 msgid ""
 "Subtract mode, causes new selections to be removed from any existing "
 "selection. Press and hold the <keycap>Ctrl</keycap> key while making a "
 "selection to temporarily enter subtract mode."
 msgstr ""
+"Çıkar kipi, yeni seçimlerin mevcut seçimden çıkartılmasını sağlar. Geçici "
+"olarak çıkar kipine geçmek için seçim yaparken <keycap>Ctrl</keycap> tuşunu "
+"basılı tutun."
 
 #: src/using/selections.xml:224(para)
+#, fuzzy
 msgid ""
 "Intersect mode, causes areas in both the new and existing selection to "
 "become the new selection. Press and hold both the <keycap>Shift</keycap> and "
 "<keycap>Ctrl</keycap> key while making a selection to temporarily enter "
 "intersect mode."
 msgstr ""
+"Kesişim kipi, hem yeni hem de mevcut seçimdeki alanların yeni seçim olmasını "
+"sağlar. Geçici olarak kesişim kipine geçmek için seçim yaparken, "
+"<keycap>Shift</keycap> ve <keycap>Ctrl</keycap> tuşlarınu basılı tutun."
 
 #: src/using/selections.xml:205(para)
+#, fuzzy
 msgid ""
 "Tools have options that you can configure. Each selection tool allows you to "
 "set the selection mode. The following selection modes are supported: "
 "<placeholder-1/>"
 msgstr ""
+"Araçlar, yapılandırabileceğiniz seçeneklere sahiptir. Her seçim aracı seçim "
+"kipini ayarlamanıza izin verir. Aşağıdaki seçim kipleri desteklenmektedir: "
+"<placeholder-1/>"
 
 #: src/using/selections.xml:235(title)
+#, fuzzy
+#| msgid "Enlarging a rectangular selection with the Lasso"
 msgid "Enlarging a rectangular selection with Free Select"
-msgstr ""
+msgstr "Dikdörtgen bir seçimin serbest seçim aracıyla genişletilmesi"
 
 #: src/using/selections.xml:243(para)
+#, fuzzy
+#| msgid ""
+#| "The figure shows an existing rectangular selection. Select the Lasso. "
+#| "While pressing the <keycap>Shift</keycap> key, make a free hand selection "
+#| "that includes the existing selection. Release the mouse button and areas "
+#| "are included in the selection."
 msgid ""
 "The figure shows an existing rectangular selection. Select <link "
 "linkend=\"gimp-tool-free-select\">Free Select</link>. While pressing the "
@@ -1318,49 +1652,71 @@ msgid ""
 "existing selection. Release the mouse button and areas are included in the "
 "selection."
 msgstr ""
+"Önce dikdörtgen seçim aracıyla bir seçim oluşturun. Ardından serbest seçim "
+"aracını seçin. <keycap>Shift</keycap> tuşunu basılı tutarken mevcut seçimi "
+"içerecek şekilde serbest bir daire çizin. Fare düğmesini serbest "
+"bıraktığınızda işaretlediğiniz alanlar seçime dahil edilecektir."
 
 #: src/using/selections.xml:251(para)
+#, fuzzy
 msgid ""
 "To correct selection defects precisely, use the <link linkend=\"gimp-using-"
 "quickmask\">Quick Mask</link>."
 msgstr ""
+"Seçim hatalarını tam olarak düzeltmek için <link linkend=\"gimp-using-"
+"quickmask\">Hızlı Maske</link>'yi kullanabilirsiniz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/script-fu-tutorial.xml:140(None)
+#| msgid ""
+#| "@@image: 'images/using/script-fu-console.png'; "
+#| "md5=329cadfd55a68e60cb6936529869a85e"
 msgid ""
 "@@image: 'images/using/script-fu-console.png'; "
 "md5=0433e241726570d07a67ee62cfbb06e9"
 msgstr ""
+"@@image: 'images/using/script-fu-console.png'; "
+"md5=0433e241726570d07a67ee62cfbb06e9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/script-fu-tutorial.xml:1488(None)
+#| msgid ""
+#| "@@image: 'images/using/script-fu-menu.png'; "
+#| "md5=29cddb5794c7d4fb988e6fa9b0141f52"
 msgid ""
 "@@image: 'images/using/script-fu-example-dialog.png'; "
 "md5=55cc97b623ba14ed31251e3e1be7b5fb"
 msgstr ""
+"@@image: 'images/using/script-fu-example-dialog.png'; "
+"md5=55cc97b623ba14ed31251e3e1be7b5fb"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/script-fu-tutorial.xml:1497(None)
+#| msgid ""
+#| "@@image: 'images/using/script-fu-menu.png'; "
+#| "md5=29cddb5794c7d4fb988e6fa9b0141f52"
 msgid ""
 "@@image: 'images/using/script-fu-example-result.png'; "
 "md5=494b221e5019e3ea9bf133f22f607d23"
 msgstr ""
+"@@image: 'images/using/script-fu-example-result.png'; "
+"md5=494b221e5019e3ea9bf133f22f607d23"
 
 #: src/using/script-fu-tutorial.xml:11(title)
 msgid "A Script-Fu Tutorial"
-msgstr ""
+msgstr "Script-Fu Eğitimi"
 
 #: src/using/script-fu-tutorial.xml:13(primary)
 msgid "Script-Fu"
-msgstr ""
+msgstr "Script-Fu"
 
 #: src/using/script-fu-tutorial.xml:14(secondary)
 #: src/using/python-plug-in-tutorial.xml:8(secondary)
 msgid "Tutorial"
-msgstr ""
+msgstr "Eğitim"
 
 #: src/using/script-fu-tutorial.xml:16(para)
 msgid ""
@@ -1490,9 +1846,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:130(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(+ 3 5)"
-msgstr ""
+msgstr "(+ 3 5)"
 
 #: src/using/script-fu-tutorial.xml:131(para)
 msgid ""
@@ -1511,9 +1867,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:148(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(+ 3 5 6)"
-msgstr ""
+msgstr "(+ 3 5 6)"
 
 #: src/using/script-fu-tutorial.xml:149(para)
 msgid "This also yields the expected answer of 14."
@@ -1541,9 +1897,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:168(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "3 + (5 + 6) + 7 = ?"
-msgstr ""
+msgstr "3 + (5 + 6) + 7 = ?"
 
 #: src/using/script-fu-tutorial.xml:169(para)
 msgid ""
@@ -1552,9 +1908,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:173(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(+ 3 (5 6) 7)"
-msgstr ""
+msgstr "(+ 3 (5 6) 7)"
 
 #: src/using/script-fu-tutorial.xml:174(para)
 msgid ""
@@ -1569,9 +1925,9 @@ msgid "The correct way to write the above statement would be:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:182(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(+ 3 (+ 5 6) 7)"
-msgstr ""
+msgstr "(+ 3 (+ 5 6) 7)"
 
 #: src/using/script-fu-tutorial.xml:186(title)
 msgid "Make Sure You Have The Proper Spacing, Too"
@@ -1585,8 +1941,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:193(literal)
+#, fuzzy
 msgid "3+5, 3 +5, 3+ 5"
-msgstr ""
+msgstr "3+5, 3 +5, 3+ 5"
 
 #: src/using/script-fu-tutorial.xml:195(para)
 msgid ""
@@ -1629,7 +1986,7 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:228(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (let*\n"
@@ -1641,15 +1998,24 @@ msgid ""
 "        )\n"
 "      "
 msgstr ""
+"\n"
+"        (let*\n"
+"           (\n"
+"              (a 1)\n"
+"              (b 2)\n"
+"           )\n"
+"           (+ a b)\n"
+"        )\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:237(para)
 msgid "or, as one line:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:238(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(let* ( (a 1) (b 2) ) (+ a b) )"
-msgstr ""
+msgstr "(let* ( (a 1) (b 2) ) (+ a b) )"
 
 #: src/using/script-fu-tutorial.xml:240(para)
 msgid ""
@@ -1694,13 +2060,17 @@ msgid "The general form of a <code>let*</code> statement is:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:273(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (let* ( <replaceable>variables</replaceable> )\n"
 "          <replaceable>expressions</replaceable> )\n"
 "      "
 msgstr ""
+"\n"
+"        (let* ( <replaceable>variables</replaceable> )\n"
+"          <replaceable>expressions</replaceable> )\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:277(para)
 msgid ""
@@ -1738,12 +2108,15 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:308(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (let* ( (theNum 10) ) (set! theNum (+ theNum theNum)) )\n"
 "      "
 msgstr ""
+"\n"
+"        (let* ( (theNum 10) ) (set! theNum (+ theNum theNum)) )\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:311(para)
 msgid ""
@@ -1752,8 +2125,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:318(title)
+#, fuzzy
 msgid "Functions"
-msgstr ""
+msgstr "İşlevler"
 
 #: src/using/script-fu-tutorial.xml:319(para)
 msgid ""
@@ -1762,7 +2136,7 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:323(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (define\n"
@@ -1774,6 +2148,15 @@ msgid ""
 "        )\n"
 "      "
 msgstr ""
+"\n"
+"        (define\n"
+"           (\n"
+"              <replaceable>name</replaceable>\n"
+"              <replaceable>param-list</replaceable>\n"
+"           )\n"
+"           <replaceable>expressions</replaceable>\n"
+"        )\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:332(para)
 msgid ""
@@ -1784,9 +2167,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:339(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(define (AddXY inX inY) (+ inX inY) )"
-msgstr ""
+msgstr "(define (AddXY inX inY) (+ inX inY) )"
 
 #: src/using/script-fu-tutorial.xml:340(para)
 msgid ""
@@ -1818,9 +2201,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:369(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(AddXY (AddXY 5 6) 4)"
-msgstr ""
+msgstr "(AddXY (AddXY 5 6) 4)"
 
 #: src/using/script-fu-tutorial.xml:376(title)
 msgid "Lists, Lists And More Lists"
@@ -1851,9 +2234,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:395(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(let* ( (x 8) ) x)"
-msgstr ""
+msgstr "(let* ( (x 8) ) x)"
 
 #: src/using/script-fu-tutorial.xml:396(para)
 msgid ""
@@ -1871,9 +2254,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:407(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(let* ( (x '(1 3 5))) x)"
-msgstr ""
+msgstr "(let* ( (x '(1 3 5))) x)"
 
 #: src/using/script-fu-tutorial.xml:408(para)
 msgid ""
@@ -1883,9 +2266,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:413(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: src/using/script-fu-tutorial.xml:414(para)
 msgid ""
@@ -1894,9 +2277,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:418(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(1 3 5)"
-msgstr ""
+msgstr "(1 3 5)"
 
 #: src/using/script-fu-tutorial.xml:419(para)
 msgid ""
@@ -1913,9 +2296,9 @@ msgid "The syntax to define a list is:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:429(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "'(a b c)"
-msgstr ""
+msgstr "'(a b c)"
 
 #: src/using/script-fu-tutorial.xml:430(para)
 msgid ""
@@ -1930,9 +2313,9 @@ msgid "An empty list can be defined as such:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:438(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "'()"
-msgstr ""
+msgstr "'()"
 
 #: src/using/script-fu-tutorial.xml:439(para)
 msgid "or simply:"
@@ -1940,16 +2323,16 @@ msgstr ""
 
 #: src/using/script-fu-tutorial.xml:440(programlisting)
 #: src/using/script-fu-tutorial.xml:559(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "()"
-msgstr ""
+msgstr "()"
 
 #: src/using/script-fu-tutorial.xml:441(para)
 msgid "Lists can contain atomic values, as well as other lists:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:442(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "(let*\n"
@@ -1962,6 +2345,16 @@ msgid ""
 ")\n"
 "      "
 msgstr ""
+"\n"
+"(let*\n"
+"   (\n"
+"        (x\n"
+"           '(\"GIMP\" (1 2 3) (\"is\" (\"great\" () ) ) )\n"
+"        )\n"
+"    )\n"
+"    x\n"
+")\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:452(para)
 msgid ""
@@ -2004,9 +2397,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:486(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(cons 1 '(2 3 4) )"
-msgstr ""
+msgstr "(cons 1 '(2 3 4) )"
 
 #: src/using/script-fu-tutorial.xml:487(para)
 msgid "The result is the list <code>(1 2 3 4)</code>."
@@ -2017,9 +2410,9 @@ msgid "You could also create a list with one element:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:489(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(cons 1 () )"
-msgstr ""
+msgstr "(cons 1 () )"
 
 #: src/using/script-fu-tutorial.xml:490(para)
 msgid ""
@@ -2038,9 +2431,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:502(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(list 5 4 3 a b c)"
-msgstr ""
+msgstr "(list 5 4 3 a b c)"
 
 #: src/using/script-fu-tutorial.xml:503(para)
 msgid ""
@@ -2050,7 +2443,7 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:508(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (let*  (\n"
@@ -2063,6 +2456,16 @@ msgid ""
 "        )\n"
 "      "
 msgstr ""
+"\n"
+"        (let*  (\n"
+"                  (a 1)\n"
+"                  (b 2)\n"
+"                  (c 3)\n"
+"               )\n"
+"\n"
+"               (list 5 4 3 a b c)\n"
+"        )\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:518(para)
 msgid "This code creates the list <code>(5 4 3 1 2 3)</code>."
@@ -2092,18 +2495,18 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:541(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(car '(\"first\" 2 \"third\"))"
-msgstr ""
+msgstr "(car '(\"first\" 2 \"third\"))"
 
 #: src/using/script-fu-tutorial.xml:542(para)
 msgid "which is:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:543(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "\"first\""
-msgstr ""
+msgstr "\"first\""
 
 #: src/using/script-fu-tutorial.xml:547(title)
 msgid "The <function>cdr</function> function"
@@ -2117,9 +2520,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:553(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(cdr '(\"first\" 2 \"third\"))"
-msgstr ""
+msgstr "(cdr '(\"first\" 2 \"third\"))"
 
 #: src/using/script-fu-tutorial.xml:554(para)
 #: src/using/script-fu-tutorial.xml:558(para)
@@ -2127,18 +2530,18 @@ msgid "returns:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:555(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(2 \"third\")"
-msgstr ""
+msgstr "(2 \"third\")"
 
 #: src/using/script-fu-tutorial.xml:556(para)
 msgid "whereas the following:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:557(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(cdr '(\"one and only\"))"
-msgstr ""
+msgstr "(cdr '(\"one and only\"))"
 
 #: src/using/script-fu-tutorial.xml:563(title)
 msgid "Accessing Other Elements In A List"
@@ -2160,18 +2563,18 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:576(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(car (cdr (car x) ) )"
-msgstr ""
+msgstr "(car (cdr (car x) ) )"
 
 #: src/using/script-fu-tutorial.xml:577(para)
 msgid "could be written as:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:578(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(cadar x)"
-msgstr ""
+msgstr "(cadar x)"
 
 #: src/using/script-fu-tutorial.xml:579(para)
 msgid ""
@@ -2182,7 +2585,7 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:585(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (let* (\n"
@@ -2193,6 +2596,14 @@ msgid ""
 "        )\n"
 "      "
 msgstr ""
+"\n"
+"        (let* (\n"
+"                 (x  '( (1 2 (3 4 5) 6)  7  8  (9 10) )\n"
+"                 )\n"
+"              )\n"
+"              ; place your car/cdr code here\n"
+"        )\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:593(para)
 msgid ""
@@ -2286,12 +2697,15 @@ msgid "We'll define the main function first:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:670(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (define (script-fu-text-box inText inFont inFontSize inTextColor))\n"
 "      "
 msgstr ""
+"\n"
+"        (define (script-fu-text-box inText inFont inFontSize inTextColor))\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:673(para)
 msgid ""
@@ -2463,7 +2877,7 @@ msgstr ""
 
 #: src/using/script-fu-tutorial.xml:849(para)
 msgid "Example"
-msgstr ""
+msgstr "Örnek"
 
 #: src/using/script-fu-tutorial.xml:856(constant)
 msgid "SF-IMAGE"
@@ -2478,7 +2892,7 @@ msgstr ""
 
 #: src/using/script-fu-tutorial.xml:867(para)
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: src/using/script-fu-tutorial.xml:872(constant)
 msgid "SF-DRAWABLE"
@@ -2494,7 +2908,7 @@ msgstr ""
 
 #: src/using/script-fu-tutorial.xml:884(para)
 msgid "17"
-msgstr ""
+msgstr "17"
 
 #: src/using/script-fu-tutorial.xml:889(constant)
 msgid "SF-STRING"
@@ -2505,8 +2919,9 @@ msgid "Accepts strings."
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:895(para)
+#, fuzzy
 msgid "\"Some text\""
-msgstr ""
+msgstr "\"Some text\""
 
 #: src/using/script-fu-tutorial.xml:900(constant)
 #: src/using/script-fu-gui-api.xml:88(constant)
@@ -2518,8 +2933,9 @@ msgid "Indicates that a color is requested in this parameter."
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:908(para)
+#, fuzzy
 msgid "'(0 102 255)"
-msgstr ""
+msgstr "'(0 102 255)"
 
 #: src/using/script-fu-tutorial.xml:913(constant)
 msgid "SF-TOGGLE"
@@ -2614,7 +3030,7 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1003(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (define (script-fu-text-box inText inFont inFontSize inTextColor)\n"
@@ -2636,6 +3052,25 @@ msgid ""
 "                               ;we create later\n"
 "      "
 msgstr ""
+"\n"
+"        (define (script-fu-text-box inText inFont inFontSize inTextColor)\n"
+"        (let*\n"
+"              (\n"
+"                 ; define our local variables\n"
+"                 ; create a new image:\n"
+"                 (theImageWidth  10)\n"
+"                 (theImageHeight 10)\n"
+"                 (theImage (car\n"
+"                                (gimp-image-new\n"
+"                                 theImageWidth\n"
+"                                 theImageHeight\n"
+"                                 RGB\n"
+"                                )\n"
+"                           )\n"
+"                 )\n"
+"                 (theText)     ;a declaration for the text\n"
+"                               ;we create later\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1022(para)
 msgid ""
@@ -2670,7 +3105,25 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1052(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "        ;create a new layer for the image:\n"
+#| "           (theLayer\n"
+#| "                     (car\n"
+#| "                          (gimp-layer-new\n"
+#| "                           theImage\n"
+#| "                           theImageWidth\n"
+#| "                           theImageHeight\n"
+#| "                           RGB-IMAGE\n"
+#| "                           \"layer 1\"\n"
+#| "                           100\n"
+#| "                           NORMAL\n"
+#| "                          )\n"
+#| "                      )\n"
+#| "            )\n"
+#| "         ) ;end of our local variables\n"
+#| "      "
 msgid ""
 "\n"
 "        ;create a new layer for the image:\n"
@@ -2690,18 +3143,42 @@ msgid ""
 "         ) ;end of our local variables\n"
 "      "
 msgstr ""
+"\n"
+"        ;create a new layer for the image:\n"
+"           (theLayer\n"
+"                     (car\n"
+"                          (gimp-layer-new\n"
+"                           theImage\n"
+"                           theImageWidth\n"
+"                           theImageHeight\n"
+"                           RGB-IMAGE\n"
+"                           \"layer 1\"\n"
+"                           100\n"
+"                           NORMAL\n"
+"                          )\n"
+"                      )\n"
+"            )\n"
+"         ) ;end of our local variables\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1069(para)
 msgid "Once we have the new layer, we need to add it to the image:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1070(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "        (gimp-image-add-layer theImage theLayer 0)\n"
+#| "      "
 msgid ""
 "\n"
 "        (gimp-image-insert-layer theImage theLayer 0 0)\n"
 "      "
 msgstr ""
+"\n"
+"        (gimp-image-add-layer theImage theLayer 0)\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1073(para)
 msgid ""
@@ -2710,9 +3187,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1077(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(gimp-display-new theImage)"
-msgstr ""
+msgstr "(gimp-display-new theImage)"
 
 #: src/using/script-fu-tutorial.xml:1078(para)
 msgid ""
@@ -2739,13 +3216,17 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1098(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (gimp-context-set-background '(255 255 255) )\n"
 "        (gimp-context-set-foreground inTextColor)\n"
 "      "
 msgstr ""
+"\n"
+"        (gimp-context-set-background '(255 255 255) )\n"
+"        (gimp-context-set-foreground inTextColor)\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1102(para)
 msgid ""
@@ -2754,19 +3235,41 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1107(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "        (gimp-drawable-fill theLayer BACKGROUND-FILL)\n"
+#| "      "
 msgid ""
 "\n"
 "        (gimp-drawable-fill theLayer FILL-BACKGROUND)\n"
 "      "
 msgstr ""
+"\n"
+"        (gimp-drawable-fill theLayer BACKGROUND-FILL)\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1110(para)
 msgid "With the image cleared, we're ready to add some text:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1111(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "        (set! theText\n"
+#| "                      (car\n"
+#| "                           (gimp-text-fontname\n"
+#| "                            theImage theLayer\n"
+#| "                            0 0\n"
+#| "                            inText\n"
+#| "                            0\n"
+#| "                            TRUE\n"
+#| "                            inFontSize PIXELS\n"
+#| "                            \"Sans\")\n"
+#| "                       )\n"
+#| "        )\n"
+#| "      "
 msgid ""
 "\n"
 "        (set! theText\n"
@@ -2783,6 +3286,20 @@ msgid ""
 "        )\n"
 "      "
 msgstr ""
+"\n"
+"        (set! theText\n"
+"                      (car\n"
+"                           (gimp-text-fontname\n"
+"                            theImage theLayer\n"
+"                            0 0\n"
+"                            inText\n"
+"                            0\n"
+"                            TRUE\n"
+"                            inFontSize PIXELS\n"
+"                            \"Sans\")\n"
+"                       )\n"
+"        )\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1125(para)
 msgid ""
@@ -2799,7 +3316,16 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1136(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "        (set! theImageWidth   (car (gimp-drawable-width  theText) ) )\n"
+#| "        (set! theImageHeight  (car (gimp-drawable-height theText) ) )\n"
+#| "\n"
+#| "        (gimp-image-resize theImage theImageWidth theImageHeight 0 0)\n"
+#| "\n"
+#| "        (gimp-layer-resize theLayer theImageWidth theImageHeight 0 0)\n"
+#| "      "
 msgid ""
 "\n"
 "        (set! theImageWidth   (car (gimp-drawable-get-width  theText) ) )\n"
@@ -2810,6 +3336,14 @@ msgid ""
 "        (gimp-layer-resize theLayer theImageWidth theImageHeight 0 0)\n"
 "      "
 msgstr ""
+"\n"
+"        (set! theImageWidth   (car (gimp-drawable-width  theText) ) )\n"
+"        (set! theImageHeight  (car (gimp-drawable-height theText) ) )\n"
+"\n"
+"        (gimp-image-resize theImage theImageWidth theImageHeight 0 0)\n"
+"\n"
+"        (gimp-layer-resize theLayer theImageWidth theImageHeight 0 0)\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1144(para)
 msgid ""
@@ -2825,12 +3359,15 @@ msgid "With the image ready to go, we can now re-add our display line:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1155(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (gimp-display-new theImage)\n"
 "      "
 msgstr ""
+"\n"
+"        (gimp-display-new theImage)\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1158(para)
 msgid ""
@@ -2858,12 +3395,15 @@ msgid "To do this, we can clear the dirty flag after displaying the image:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1179(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (gimp-image-clean-all theImage)\n"
 "      "
 msgstr ""
+"\n"
+"        (gimp-image-clean-all theImage)\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1182(para)
 msgid ""
@@ -2946,7 +3486,47 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1257(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
+#| msgid ""
+#| "\n"
+#| "  (define (script-fu-text-box inTest inFont inFontSize inTextColor inBufferAmount)\n"
+#| "  (let*\n"
+#| "        (\n"
+#| "           ; define our local variables\n"
+#| "           ; create a new image:\n"
+#| "           (theImageWidth  10)\n"
+#| "           (theImageHeight 10)\n"
+#| "           (theImage (car\n"
+#| "                          (gimp-image-new\n"
+#| "                           theImageWidth\n"
+#| "                           theImageHeight\n"
+#| "                           RGB\n"
+#| "                          )\n"
+#| "                     )\n"
+#| "           )\n"
+#| "           (theText)          ;a declaration for the text\n"
+#| "                              ;we create later\n"
+#| "\n"
+#| "           (theBuffer)        ;<emphasis>added</emphasis>\n"
+#| "\n"
+#| "           (theLayer\n"
+#| "                     (car\n"
+#| "                         (gimp-layer-new\n"
+#| "                          theImage\n"
+#| "                          theImageWidth\n"
+#| "                          theImageHeight\n"
+#| "                          RGB-IMAGE\n"
+#| "                          \"layer 1\"\n"
+#| "                          100\n"
+#| "                          NORMAL\n"
+#| "                         )\n"
+#| "                     )\n"
+#| "           )\n"
+#| "        ) ;end of our local variables\n"
+#| "\n"
+#| "   <replaceable>[Code here]</replaceable>\n"
+#| " )\n"
+#| "      "
 msgid ""
 "\n"
 "  (define (script-fu-text-box inTest inFont inFontSize inTextColor inBufferAmount)\n"
@@ -2988,6 +3568,45 @@ msgid ""
 " )\n"
 "      "
 msgstr ""
+"\n"
+"  (define (script-fu-text-box inTest inFont inFontSize inTextColor inBufferAmount)\n"
+"  (let*\n"
+"        (\n"
+"           ; define our local variables\n"
+"           ; create a new image:\n"
+"           (theImageWidth  10)\n"
+"           (theImageHeight 10)\n"
+"           (theImage (car\n"
+"                          (gimp-image-new\n"
+"                           theImageWidth\n"
+"                           theImageHeight\n"
+"                           RGB\n"
+"                          )\n"
+"                     )\n"
+"           )\n"
+"           (theText)          ;a declaration for the text\n"
+"                              ;we create later\n"
+"\n"
+"           (theBuffer)        ;<emphasis>added</emphasis>\n"
+"\n"
+"           (theLayer\n"
+"                     (car\n"
+"                         (gimp-layer-new\n"
+"                          theImage\n"
+"                          theImageWidth\n"
+"                          theImageHeight\n"
+"                          RGB-IMAGE\n"
+"                          \"layer 1\"\n"
+"                          100\n"
+"                          NORMAL\n"
+"                         )\n"
+"                     )\n"
+"           )\n"
+"        ) ;end of our local variables\n"
+"\n"
+"   <replaceable>[Code here]</replaceable>\n"
+" )\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1321(title)
 msgid "Adding The New Code"
@@ -3009,7 +3628,7 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1335(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (set! theBuffer (* theImageHeight (/ inBufferAmount 100) ) )\n"
@@ -3018,6 +3637,12 @@ msgid ""
 "        (set! theImageWidth  (+ theImageWidth  theBuffer theBuffer) )\n"
 "      "
 msgstr ""
+"\n"
+"        (set! theBuffer (* theImageHeight (/ inBufferAmount 100) ) )\n"
+"\n"
+"        (set! theImageHeight (+ theImageHeight theBuffer theBuffer) )\n"
+"        (set! theImageWidth  (+ theImageWidth  theBuffer theBuffer) )\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1341(para)
 msgid ""
@@ -3036,12 +3661,15 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1354(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (gimp-layer-set-offsets theText theBuffer theBuffer)\n"
 "      "
 msgstr ""
+"\n"
+"        (gimp-layer-set-offsets theText theBuffer theBuffer)\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1357(para)
 msgid ""
@@ -3056,9 +3684,9 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1365(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "(list theImage theLayer theText)"
-msgstr ""
+msgstr "(list theImage theLayer theText)"
 
 #: src/using/script-fu-tutorial.xml:1366(para)
 msgid ""
@@ -3073,7 +3701,7 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1374(programlisting)
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "\n"
 "        (set! theResult (script-fu-text-box\n"
@@ -3086,6 +3714,16 @@ msgid ""
 "        (gimp-image-flatten (car theResult))\n"
 "      "
 msgstr ""
+"\n"
+"        (set! theResult (script-fu-text-box\n"
+"                         \"Some text\"\n"
+"                         \"Charter\" \"30\"\n"
+"                         '(0 0 0)\n"
+"                         \"35\"\n"
+"                        )\n"
+"        )\n"
+"        (gimp-image-flatten (car theResult))\n"
+"      "
 
 #: src/using/script-fu-tutorial.xml:1384(para)
 msgid "Congratulations, you are on your way to your Black Belt of Script-Fu!"
@@ -3108,12 +3746,16 @@ msgid "What you obtain"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1484(title)
+#, fuzzy
+#| msgid "The GIF Export dialog"
 msgid "The dialog"
-msgstr ""
+msgstr "GIF Dışa Aktarma iletişim kutusu"
 
 #: src/using/script-fu-tutorial.xml:1493(title)
+#, fuzzy
+#| msgid "The indexed image"
 msgid "The resulting image"
-msgstr ""
+msgstr "İndeksli görüntü"
 
 #: src/using/script-fu-gui-api.xml:10(para)
 msgid "This section is not part of the original tutorial."
@@ -3160,8 +3802,9 @@ msgstr ""
 #: src/using/script-fu-gui-api.xml:56(seg)
 #: src/using/script-fu-gui-api.xml:100(seg)
 #: src/using/script-fu-gui-api.xml:145(seg)
+#, fuzzy
 msgid "\"label\""
-msgstr ""
+msgstr "\"label\""
 
 #: src/using/script-fu-gui-api.xml:57(seg)
 #: src/using/script-fu-gui-api.xml:101(seg)
@@ -3211,7 +3854,7 @@ msgstr ""
 
 #: src/using/script-fu-gui-api.xml:80(seg)
 msgid "type"
-msgstr ""
+msgstr "tür"
 
 #: src/using/script-fu-gui-api.xml:81(seg)
 msgid "One of: SF-SLIDER or 0, SF-SPINNER or 1"
@@ -3234,16 +3877,18 @@ msgid "SF-COLOR \"label\" \"color\""
 msgstr ""
 
 #: src/using/script-fu-gui-api.xml:104(seg)
+#, fuzzy
 msgid "'(red green blue)"
-msgstr ""
+msgstr "'(red green blue)"
 
 #: src/using/script-fu-gui-api.xml:105(seg)
 msgid "List of three values for the red, green and blue components."
 msgstr ""
 
 #: src/using/script-fu-gui-api.xml:110(seg)
+#, fuzzy
 msgid "\"color\""
-msgstr ""
+msgstr "\"color\""
 
 #: src/using/script-fu-gui-api.xml:111(seg)
 msgid "Color name in CSS notation."
@@ -3265,10 +3910,12 @@ msgid ""
 "(gimp-text-fontname image drawable x-pos y-pos text border antialias size "
 "unit font)"
 msgstr ""
+"(gimp-text-fontname image drawable x-pos y-pos text border antialias size "
+"unit font)"
 
 #: src/using/script-fu-gui-api.xml:130(para)
 msgid "(gimp-text-get-extents-fontname text size unit font)"
-msgstr ""
+msgstr "(gimp-text-get-extents-fontname text size unit font)"
 
 #: src/using/script-fu-gui-api.xml:133(para)
 msgid ""
@@ -3282,8 +3929,9 @@ msgid "SF-FONT \"label\" \"fontname\""
 msgstr ""
 
 #: src/using/script-fu-gui-api.xml:149(seg)
+#, fuzzy
 msgid "\"fontname\""
-msgstr ""
+msgstr "\"fontname\""
 
 #: src/using/script-fu-gui-api.xml:150(seg)
 msgid "Name of the default font."
@@ -3483,20 +4131,22 @@ msgid ""
 msgstr ""
 
 #: src/using/qmask.xml:11(title)
+#, fuzzy
+#| msgid "Using QuickMask Mode"
 msgid "Using Quick Mask Mode"
-msgstr ""
+msgstr "Hızlı Maske Kipini Kullanmak"
 
 #: src/using/qmask.xml:14(primary)
 msgid "Masks"
-msgstr ""
+msgstr "Maskeler"
 
 #: src/using/qmask.xml:15(secondary)
 msgid "Quick Mask"
-msgstr ""
+msgstr "Hızlı Maske"
 
 #: src/using/qmask.xml:16(tertiary)
 msgid "Using Quick Mask"
-msgstr ""
+msgstr "Hızlı Maskeyi Kullanmak"
 
 #: src/using/qmask.xml:21(para)
 msgid "Open an image or begin a new document."
@@ -3862,6 +4512,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-rotate.svg'; "
 "md5=1f4544cf89e6c5c28c3e2f1cb1743aa8"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-rotate.svg'; "
+"md5=1f4544cf89e6c5c28c3e2f1cb1743aa8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3870,6 +4522,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-clone.svg'; "
 "md5=5248aa1998e3447d58b6a6c524aba337"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-clone.svg'; "
+"md5=5248aa1998e3447d58b6a6c524aba337"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3878,6 +4532,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-vchain.svg'; "
 "md5=d47eea1ce790b9e3211d223704a1e9de"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
 
 #: src/using/photography.xml:11(title)
 msgid "Working with Digital Camera Photos"
@@ -3890,7 +4546,7 @@ msgstr ""
 #: src/using/photography.xml:17(title)
 #: src/using/getting-unstuck-intro.xml:5(title)
 msgid "Introduction"
-msgstr ""
+msgstr "Giriş"
 
 #: src/using/photography.xml:18(para)
 msgid ""
@@ -4531,7 +5187,7 @@ msgstr ""
 #: src/using/photography.xml:663(title) src/using/fileformats.xml:12(title)
 #: src/using/fileformats.xml:15(primary)
 msgid "Files"
-msgstr ""
+msgstr "Dosyalar"
 
 #: src/using/photography.xml:664(para)
 msgid ""
@@ -4665,7 +5321,7 @@ msgstr ""
 
 #: src/using/photography.xml:813(title)
 msgid "EXIF Data"
-msgstr ""
+msgstr "EXIF Verisi"
 
 #: src/using/photography.xml:814(para)
 msgid ""
@@ -4702,6 +5358,8 @@ msgid ""
 "@@image: 'images/using/path-examples.png'; "
 "md5=a481b9ce8ff98222e260a0df7b971ed6"
 msgstr ""
+"@@image: 'images/using/path-examples.png'; "
+"md5=a481b9ce8ff98222e260a0df7b971ed6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4710,6 +5368,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-path.svg'; "
 "md5=68394962c5d96e08f40532802836e6eb"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-path.svg'; "
+"md5=68394962c5d96e08f40532802836e6eb"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4718,22 +5378,34 @@ msgid ""
 "@@image: 'images/using/path-with-anchors.png'; "
 "md5=9e168dc103f8be62c3b04a6852528337"
 msgstr ""
+"@@image: 'images/using/path-with-anchors.png'; "
+"md5=9e168dc103f8be62c3b04a6852528337"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/paths.xml:297(None)
+#| msgid ""
+#| "@@image: 'images/using/gih-array2D.png'; "
+#| "md5=c15b84ef6a337006a1f39b307847a573"
 msgid ""
 "@@image: 'images/stock-icons/gimp-layer.svg'; "
 "md5=945d0361b811ae318f690032f3cb105e"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-layer.svg'; "
+"md5=945d0361b811ae318f690032f3cb105e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/paths.xml:306(None)
+#| msgid ""
+#| "@@image: 'images/using/gih-correlation.png'; "
+#| "md5=f0421f134c5e4534ac1b1dff89a7ab05"
 msgid ""
 "@@image: 'images/stock-icons/gimp-selection.svg'; "
 "md5=037e0db3cd91b6fa7d98ad87dc8896b7"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-selection.svg'; "
+"md5=037e0db3cd91b6fa7d98ad87dc8896b7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4742,6 +5414,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-path.svg'; "
 "md5=45f8d04a403dce33d85a04d6a27e234f"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-path.svg'; "
+"md5=45f8d04a403dce33d85a04d6a27e234f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4750,14 +5424,21 @@ msgid ""
 "@@image: 'images/using/path-stroking-examples.png'; "
 "md5=c49284748ddac775cc702987fec34e06"
 msgstr ""
+"@@image: 'images/using/path-stroking-examples.png'; "
+"md5=c49284748ddac775cc702987fec34e06"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/paths.xml:379(None)
+#| msgid ""
+#| "@@image: 'images/menus/edit/stroke-path.png'; "
+#| "md5=3631e41d419fef447d65fa928093f3d5"
 msgid ""
 "@@image: 'images/menus/edit/stroke-path.png'; "
 "md5=ee63fcbc800d5f8d3867b9dc5d66ca9d"
 msgstr ""
+"@@image: 'images/menus/edit/stroke-path.png'; "
+"md5=ee63fcbc800d5f8d3867b9dc5d66ca9d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4766,6 +5447,8 @@ msgid ""
 "@@image: 'images/using/path-from-text.png'; "
 "md5=7bf70fcbfd90eb571bdff45c229e1a3d"
 msgstr ""
+"@@image: 'images/using/path-from-text.png'; "
+"md5=7bf70fcbfd90eb571bdff45c229e1a3d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4774,6 +5457,8 @@ msgid ""
 "@@image: 'images/using/path-text-stroked.png'; "
 "md5=1fe33d8a8a4f73e8b6fe5c3f1c889223"
 msgstr ""
+"@@image: 'images/using/path-text-stroked.png'; "
+"md5=1fe33d8a8a4f73e8b6fe5c3f1c889223"
 
 #: src/using/paths.xml:14(anchor:xreflabel) src/using/paths.xml:15(phrase)
 #: src/using/paths.xml:19(primary) src/using/paths.xml:24(secondary)
@@ -4782,7 +5467,7 @@ msgstr ""
 
 #: src/using/paths.xml:23(primary) src/using/fonts-and-text.xml:15(primary)
 msgid "Image"
-msgstr ""
+msgstr "Görüntü"
 
 #: src/using/paths.xml:27(para)
 msgid ""
@@ -5021,11 +5706,18 @@ msgid ""
 "minimal resources in comparison to a typical layer or channel."
 msgstr ""
 
+# Az biraz detay ekleyelim.
 #: src/using/paths.xml:258(para)
+#, fuzzy
+#| msgid ""
+#| "You can read this comment in the <link linkend=\"gimp-image-"
+#| "properties\">Image Properties</link>."
 msgid ""
 "Paths can be created and manipulated using the <link linkend=\"gimp-tool-"
 "path\">Paths tool</link>."
 msgstr ""
+"Bu yorumu <link linkend=\"gimp-image-properties\">Görüntü Özellikleri</link> "
+"iletişim kutusundan okuyup düzenleyebilirsiniz."
 
 #: src/using/paths.xml:265(title)
 msgid "Paths and Selections"
@@ -5226,7 +5918,7 @@ msgstr ""
 
 #: src/using/layers.xml:10(primary)
 msgid "Layer"
-msgstr ""
+msgstr "Katman"
 
 #: src/using/layers.xml:11(secondary)
 msgid "Creating new layers"
@@ -5268,41 +5960,65 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck.xml:24(None)
+#| msgid ""
+#| "@@image: 'images/using/unstuck-floating-sel.png'; "
+#| "md5=226cb89c97cd03443c3f90c1f0fcc762"
 msgid ""
 "@@image: 'images/using/unstuck-floating-sel.png'; "
 "md5=d921e1f7f79b8839be37c298d69ea37b"
 msgstr ""
+"@@image: 'images/using/unstuck-floating-sel.png'; "
+"md5=d921e1f7f79b8839be37c298d69ea37b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck.xml:90(None)
+#| msgid ""
+#| "@@image: 'images/using/select-to-brush.png'; "
+#| "md5=ee2f4dd55ec8221baacb5184f952efdc"
 msgid ""
 "@@image: 'images/menus/select.png'; md5=89a5e323df519dd23c10970dced0b66c"
 msgstr ""
+"@@image: 'images/menus/select.png'; md5=89a5e323df519dd23c10970dced0b66c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck.xml:162(None)
+#| msgid ""
+#| "@@image: 'images/using/unstuck-layers-dialog-invislayer.png'; "
+#| "md5=a02e72b17f6b8e8d2c078967d727d3b9"
 msgid ""
 "@@image: 'images/using/unstuck-layers-dialog-invislayer.png'; "
 "md5=50c301b2317c50a9a747810a45b35dce"
 msgstr ""
+"@@image: 'images/using/unstuck-layers-dialog-invislayer.png'; "
+"md5=50c301b2317c50a9a747810a45b35dce"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck.xml:201(None)
+#| msgid ""
+#| "@@image: 'images/using/unstuck-layers-dialog-transparentlayer.png'; "
+#| "md5=998bcb5034da0bd1b196913e073cbf89"
 msgid ""
 "@@image: 'images/using/unstuck-layers-dialog-transparentlayer.png'; "
 "md5=c12fa9bc50573fd6164a99f3960114c2"
 msgstr ""
+"@@image: 'images/using/unstuck-layers-dialog-transparentlayer.png'; "
+"md5=c12fa9bc50573fd6164a99f3960114c2"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck.xml:252(None)
+#| msgid ""
+#| "@@image: 'images/using/select-to-brush.png'; "
+#| "md5=ee2f4dd55ec8221baacb5184f952efdc"
 msgid ""
 "@@image: 'images/dialogs/layer-group.png'; "
 "md5=eb0eaecbae44ae00b52853c7e55ecbad"
 msgstr ""
+"@@image: 'images/dialogs/layer-group.png'; "
+"md5=eb0eaecbae44ae00b52853c7e55ecbad"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5311,6 +6027,8 @@ msgid ""
 "@@image: 'images/stock-icons/pan-end-symbolic.svg'; "
 "md5=de3d0977e621d2ac837318eb702b9a0f"
 msgstr ""
+"@@image: 'images/stock-icons/pan-end-symbolic.svg'; "
+"md5=de3d0977e621d2ac837318eb702b9a0f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5319,26 +6037,33 @@ msgid ""
 "@@image: 'images/stock-icons/pan-down-symbolic.svg'; "
 "md5=11bcbe79827c5a5ad010b99f8dbdacba"
 msgstr ""
+"@@image: 'images/stock-icons/pan-down-symbolic.svg'; "
+"md5=11bcbe79827c5a5ad010b99f8dbdacba"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck.xml:361(None)
+#| msgid ""
+#| "@@image: 'images/using/empty-clipboard-brush.png'; "
+#| "md5=281f0278816467ec06a87c26592d1d39"
 msgid ""
 "@@image: 'images/using/brushes-dialog-empty-clipboard.png'; "
 "md5=71826a80632f0a77d9be37d5cebfad4d"
 msgstr ""
+"@@image: 'images/using/brushes-dialog-empty-clipboard.png'; "
+"md5=71826a80632f0a77d9be37d5cebfad4d"
 
 #: src/using/getting-unstuck.xml:14(title)
 msgid "Common Causes of GIMP Non-Responsiveness"
-msgstr ""
+msgstr "GIMP'in Cevap Vermemesinin Yaygın Nedenleri"
 
 #: src/using/getting-unstuck.xml:16(title)
 msgid "There is a floating selection"
-msgstr ""
+msgstr "Yüzen bir seçimin olması"
 
 #: src/using/getting-unstuck.xml:18(title)
 msgid "Layers dialog showing a floating selection."
-msgstr ""
+msgstr "Katmanlar iletişim kutusu yüzen seçimi gösteriyor."
 
 #: src/using/getting-unstuck.xml:27(para)
 msgid ""
@@ -5349,6 +6074,13 @@ msgid ""
 msgstr ""
 
 #: src/using/getting-unstuck.xml:37(para)
+#, fuzzy
+#| msgid ""
+#| "<emphasis>How to tell:</emphasis> If there is a floating selection, many "
+#| "actions are impossible until the floating section is anchored. To check, "
+#| "look at the Layers dialog (making sure it's set to the image you're "
+#| "working on) and see whether the top layer is called <quote>Floating "
+#| "Selection</quote>."
 msgid ""
 "<emphasis>How to tell:</emphasis> If there is a floating selection, many "
 "actions are impossible until the floating section is anchored. To check, "
@@ -5357,6 +6089,11 @@ msgid ""
 "(making sure it's set to the image you're working on) and see whether the "
 "top layer is called <quote>Floating Selection</quote>."
 msgstr ""
+"<emphasis>Nasıl Anlaşılır:</emphasis> Yüzen seçim varsa, yüzen bölüm "
+"sabitleninceye kadar birçok işlem gerçekleştirilemez. Kontrol etmek için, "
+"Katmanlar iletişim kutusuna bakın (üzerinde çalıştığınız görüntüye "
+"ayarlandığından emin olun) ve üst katmanın <quote>Yüzen Seçim</quote> olup "
+"olmadığını görün."
 
 #: src/using/getting-unstuck.xml:47(para)
 msgid ""
@@ -5373,9 +6110,10 @@ msgstr ""
 
 #: src/using/getting-unstuck.xml:62(title)
 msgid "The selection is hidden"
-msgstr ""
+msgstr "Seçim gizli"
 
 #: src/using/getting-unstuck.xml:63(para)
+#, fuzzy
 msgid ""
 "<emphasis>How to tell:</emphasis> If this is the problem, merely reading "
 "this will already have made you realize it, probably, but to explain in any "
@@ -5385,17 +6123,36 @@ msgid ""
 "unchecking <guimenuitem>Show Selection</guimenuitem> in the <guimenu>View</"
 "guimenu> menu. It is easy to forget that you have done this, though."
 msgstr ""
+"<emphasis>Nasıl anlaşılır:</emphasis> sorun buysa, yalnızca başlığı okumak "
+"bile zaten farkına varmanızı sağlamış olabilir. Yine de belirtmek isteriz "
+"ki: bazen seçimi gösteren titrek çizgi rahatsız edici olup önemli "
+"ayrıntılarını görmeyi zorlaştırabilir; bu nedenle <acronym>GIMP</acronym>, "
+"<guimenu>Görünüm</guimenu> menüsündeki <guimenuitem>Seçimi Göster</"
+"guimenuitem> seçeneğinin işaretini kaldırarak seçimi gizleme imkanı sunar. "
+"Bunu yaptığınızı unutmak kolaydır."
 
 #: src/using/getting-unstuck.xml:75(para)
+#, fuzzy
+#| msgid ""
+#| "<emphasis>How to fix:</emphasis> If this hasn't rung any bells, it isn't "
+#| "the problem, and if it has, you probably know how to fix it, because it "
+#| "doesn't happen unless you explicitly tell it to; but anyway: just go to "
+#| "the <guimenu>View</guimenu> menu for the image and, if <guimenuitem>Show "
+#| "Selection</guimenuitem> is unchecked, click on it.."
 msgid ""
 "<emphasis>How to fix:</emphasis> Go to the <guimenu>View</guimenu> menu for "
 "the image and, if <guimenuitem>Show Selection</guimenuitem> is unchecked, "
 "click on it."
 msgstr ""
+"<emphasis>Nasıl düzeltilir:</emphasis> görüntünün <guimenu>Görünüm</guimenu> "
+"menüsünen <guimenuitem>Seçimi Göster</guimenuitem> seçeneğini etkin hale "
+"getirmeniz yeterlidir."
 
 #: src/using/getting-unstuck.xml:84(title)
+#, fuzzy
+#| msgid "You are acting outside of the selection"
 msgid "You are acting outside the selection"
-msgstr ""
+msgstr "Seçim dışında hareket ediyorsun"
 
 #: src/using/getting-unstuck.xml:86(title)
 msgid "Fix selection using the \"Select\" menu"
@@ -5416,9 +6173,14 @@ msgid ""
 "where you want it to be."
 msgstr ""
 
+# Daha serbest ve detaylı çeviri yapıldı.
 #: src/using/getting-unstuck.xml:108(para)
+#, fuzzy
+#| msgid "<emphasis>How to fix:</emphasis> Move the slider."
 msgid "<emphasis>How to fix:</emphasis> There are a couple of possibilities."
 msgstr ""
+"<emphasis>Nasıl düzeltilir:</emphasis> Kaydırıcıyı sağa kaydırarak ışık "
+"geçirmezlik değerini yükseltin."
 
 #: src/using/getting-unstuck.xml:114(para)
 msgid ""
@@ -5454,7 +6216,7 @@ msgstr ""
 
 #: src/using/getting-unstuck.xml:156(title)
 msgid "The active drawable is not visible"
-msgstr ""
+msgstr "Etkin çizilebilir görünür değil"
 
 #: src/using/getting-unstuck.xml:158(title)
 msgid "Layer is invisible"
@@ -5462,9 +6224,16 @@ msgstr ""
 
 #: src/using/getting-unstuck.xml:165(para)
 msgid "Layers dialog with visibility off for the active layer."
-msgstr ""
+msgstr "Etkin katman görünürlüğü kapalı olarak katmanlar iletişim kutusu."
 
+# Son cümle Türkçede anlamsız olduğu için çevirilmedi.
 #: src/using/getting-unstuck.xml:171(para)
+#, fuzzy
+#| msgid ""
+#| "<emphasis>How to tell:</emphasis> The Layers dialog gives you ability to "
+#| "toggle the visibility of each layer on or off. Look at the Layers dialog, "
+#| "and see if the layer you are trying to act on is active (i.e., darkened) "
+#| "and has an eye symbol to the left of it. If not, this is your problem."
 msgid ""
 "<emphasis>How to tell:</emphasis> The Layers dialog gives you ability to "
 "toggle the visibility of each layer on or off. Look at the <link "
@@ -5472,8 +6241,22 @@ msgid ""
 "are trying to work on is active (i.e., darkened) and has an eye symbol to "
 "the left of it. If not, this is your problem."
 msgstr ""
+"<emphasis>Nasıl anlaşılır:</emphasis> Katmanlar iletişim kutusu, her "
+"katmanın görünürlüğünü açıp kapatmanıza izin verir. Katmanlar iletişim "
+"kutusuna bakın ve üzerinde işlem yapmaya çalıştığınız katmanın etkin olup "
+"olmadığını (örn. seçilmiş) ve solunda bir göz simgesi olup olmadığına bakın."
 
 #: src/using/getting-unstuck.xml:179(para)
+#, fuzzy
+#| msgid ""
+#| "<emphasis>How to fix:</emphasis> If your intended target layer is not "
+#| "active, click on it in the Layers dialog to activate it. (If none of the "
+#| "layers are active, the active drawable might be a channel -- you can look "
+#| "at the Channels tab in the Layers dialog to see. This does not change the "
+#| "solution, though.) If the eye symbol does not appear, click in the Layers "
+#| "dialog at the left edge to toggle it: this should make the layer visible. "
+#| "See the Help section for the <link linkend=\"gimp-layer-dialog\">Layers "
+#| "Dialog</link> if you need more help."
 msgid ""
 "<emphasis>How to fix:</emphasis> If your intended target layer is not "
 "active, click on it in the Layers dialog to activate it. If none of the "
@@ -5484,20 +6267,38 @@ msgid ""
 "the layer visible. See the Help section for the <link linkend=\"gimp-layer-"
 "dialog\">Layers Dialog</link> if you need more help."
 msgstr ""
+"<emphasis>Nasıl düzeltilir:</emphasis> Üstünde çalışmak istediğiniz katman "
+"etkin değilse, Katmanlar iletişim kutusundan üzerine tıklayın. (Hiçbir "
+"katman etkin değilse, etkin çizilebilir bir kanal olabilir, Katmanlar "
+"sekmesine bakınız. Bu çözümü değiştirmez.) Göz simgesi görünmüyorsa, "
+"Katmanlar iletişim kutusunda, katmanın sol kenarınına tıklayıp katmanı "
+"görünür yapın. Daha detaylı bilgi için yardım bölümündeki <link "
+"linkend=\"gimp-layer-dialog\">Katmanlar İletişim Kutusu</link> maddesine "
+"bakın."
 
 #: src/using/getting-unstuck.xml:195(title)
 msgid "The active drawable is transparent"
-msgstr ""
+msgstr "Etkin çizilebilir saydam"
 
 #: src/using/getting-unstuck.xml:197(title)
 msgid "Layer opacity set to zero"
 msgstr ""
 
 #: src/using/getting-unstuck.xml:204(para)
+#, fuzzy
 msgid "Layers dialog with opacity set to zero for the active layer."
 msgstr ""
+"Katmanlar iletişim kutusu, etkin katman için ışık geçirmezliği sıfır olarak "
+"ayarlanmış şekilde."
 
+# Son cümle daha serbest çevirildi.
 #: src/using/getting-unstuck.xml:210(para)
+#, fuzzy
+#| msgid ""
+#| "<emphasis>How to tell:</emphasis> When the opacity is set 0 on the layer, "
+#| "you cannot see anything which you draw on it. Look the <guilabel>Opacity</"
+#| "guilabel> slider, and see which side the slider placed at. If it is at "
+#| "the leftmost side, that is your problem."
 msgid ""
 "<emphasis>How to tell:</emphasis> When the opacity of a layer is 0, you "
 "cannot see anything you draw on it. Look at the <guilabel>Opacity</guilabel> "
@@ -5505,18 +6306,35 @@ msgid ""
 "link> and check the value next to it. If it is 0 or another very low value, "
 "that is your problem."
 msgstr ""
+"<emphasis>Nasıl anlaşılır:</emphasis> Matlık, katman üzerinde 0 olarak "
+"ayarlandığında, üzerine çizdiğiniz hiçbir şeyi göremezsiniz. "
+"<guilabel>Matlık</guilabel> kaydırıcısına bakın ve kaydırıcının hangi "
+"tarafta olduğunu ve değerini kontrol edin. En sol tarafta ise, ışık "
+"geçirmezlik sıfıra ayarlanmış demektir."
 
+# Daha serbest ve detaylı çeviri yapıldı.
 #: src/using/getting-unstuck.xml:218(para)
+#, fuzzy
+#| msgid "<emphasis>How to fix:</emphasis> Move the slider."
 msgid ""
 "<emphasis>How to fix:</emphasis> Move or click on the slider to change it to "
 "the desired value."
 msgstr ""
+"<emphasis>Nasıl düzeltilir:</emphasis> Kaydırıcıyı sağa kaydırarak ışık "
+"geçirmezlik değerini yükseltin."
 
 #: src/using/getting-unstuck.xml:225(title)
 msgid "You are trying to act outside the layer"
-msgstr ""
+msgstr "Katmanın dışında çalışmayı deniyorsun"
 
 #: src/using/getting-unstuck.xml:226(para)
+#, fuzzy
+#| msgid ""
+#| "<emphasis>How to tell:</emphasis> In <acronym>GIMP</acronym>, layers "
+#| "don't need to have the same dimensions as the image: they can be larger "
+#| "or smaller. If you try to paint outside the borders of a layer, nothing "
+#| "happens. To see if this is happening, look for a black-and-yellow dashed "
+#| "rectangle that does not enclose the area you're trying to draw at."
 msgid ""
 "<emphasis>How to tell:</emphasis> In <acronym>GIMP</acronym>, layers don't "
 "need to have the same dimensions as the image: they can be larger or "
@@ -5524,8 +6342,20 @@ msgid ""
 "happens. To see if this is the case, look for a black-and-yellow dashed "
 "rectangle that does not enclose the area you're trying to draw at."
 msgstr ""
+"<emphasis>Nasıl anlaşılır:</emphasis> <acronym>GIMP</acronym>'de katmanların "
+"görüntü ile aynı boyutta olması gerekmez: daha büyük veya daha küçük "
+"olabilirler. Bir katmanın sınırlarını dışını boyamaya çalışırsanız, hiçbir "
+"işlem gerçekleşmez. Bunun olup olmadığını anlamak için, çizmeye çalıştığınız "
+"alanı kuşatan siyah ve sarı kesikli çizgili bir dikdörtgen arayın."
 
 #: src/using/getting-unstuck.xml:234(para)
+#, fuzzy
+#| msgid ""
+#| "<emphasis>How to fix:</emphasis> You need to enlarge the layer. There are "
+#| "two commands at the bottom of the Layer menu that will let you do this: "
+#| "Layer to Image Size, which sets the layer bounds to match the image "
+#| "borders; and Layer Boundary Size, which brings up a dialog that allows "
+#| "you to set the layer dimensions to whatever you please."
 msgid ""
 "<emphasis>How to fix:</emphasis> You need to enlarge the layer. There are "
 "two commands near the bottom of the <guimenu>Layer</guimenu> menu that will "
@@ -5534,18 +6364,27 @@ msgid ""
 "Size</guimenuitem>, which brings up a dialog that allows you to set the "
 "layer dimensions to whatever you please."
 msgstr ""
+"<emphasis>Nasıl düzeltilir:</emphasis> Katmanı büyütmeniz gerekir. Katman "
+"menüsünün altında, bunu yapmanıza yarayacak iki komut bulunmaktadır. "
+"Katmandan Görüntü Boyutuna: Katman sınırlarını Görüntü sınırlarına uyacak "
+"şekilde eşleştirir. Katman Sınır Boyutu: katman boyutlarını istediğiniz "
+"şekilde ayarlamaya izin veren bir iletişim kutusu açar."
 
 #: src/using/getting-unstuck.xml:246(title)
+#, fuzzy
+#| msgid "You are trying to act outside the layer"
 msgid "You are trying to act on a layer group"
-msgstr ""
+msgstr "Katmanın dışında çalışmayı deniyorsun"
 
 #: src/using/getting-unstuck.xml:248(title)
 msgid "Layer group selected"
 msgstr ""
 
 #: src/using/getting-unstuck.xml:255(para)
+#, fuzzy
+#| msgid "Layers dialog showing a floating selection."
 msgid "Layers dialog where a layer group is selected."
-msgstr ""
+msgstr "Katmanlar iletişim kutusu yüzen seçimi gösteriyor."
 
 #: src/using/getting-unstuck.xml:261(para)
 msgid ""
@@ -5569,9 +6408,20 @@ msgstr ""
 
 #: src/using/getting-unstuck.xml:296(title)
 msgid "The image is in indexed color mode."
-msgstr ""
+msgstr "Görüntü indeksli renk kipinde."
 
 #: src/using/getting-unstuck.xml:297(para)
+#, fuzzy
+#| msgid ""
+#| "<emphasis>How to tell:</emphasis><acronym>GIMP</acronym> can handle three "
+#| "different color modes: <link linkend=\"glossary-colormodel\">RGB(A), "
+#| "Indexed and Grayscale</link>. The indexed colormode uses a colormap, "
+#| "where all used colors on the image are indexed. The <link linkend=\"gimp-"
+#| "tool-color-picker\">color picker</link> in <acronym>GIMP</acronym> "
+#| "however, let you choose RGB colors. That means, if you try to paint with "
+#| "a different color than it is indexed in the colormap, you end up in very "
+#| "undetermined results (e.g. it paints with the wrong color or you can't "
+#| "paint)."
 msgid ""
 "<emphasis>How to tell:</emphasis><acronym>GIMP</acronym> can handle three "
 "different color modes: <link linkend=\"glossary-colormodel\">RGB(A), "
@@ -5581,8 +6431,22 @@ msgid ""
 "you choose RGB colors. That means, if you try to paint with a different "
 "color than is indexed in the colormap, you can end up with the wrong color."
 msgstr ""
+"<emphasis>Nasıl anlaşılır:</emphasis> <acronym>GIMP</acronym> 3 farklı renk "
+"kipini destekler: <link linkend=\"glossary-colormodel\">RGB(A), İndeksli ve "
+"Gri Tonlamalı</link>. İndeksli renk kipi, tüm kullanılan renklerin "
+"indekslenmiş olduğu bir renk eşlemi kullanır. GIMP'in <link linkend=\"gimp-"
+"tool-color-picker\">Renk Seçici</link> aracı ise RGB renkleri seçmenize izin "
+"verir. Bunun anlamı, renk eşleminde indeksli renklerden başka bir renk ile "
+"boyamaya çalıştığınızda sonuçlarla karşılaşabilirsiniz. Örn: yanlış renk ile "
+"boyayabilir veya boyama işleminiz hiç gerçekleşmeyebilir."
 
 #: src/using/getting-unstuck.xml:308(para)
+#, fuzzy
+#| msgid ""
+#| "<emphasis>How to fix:</emphasis> Always use the RGB Color mode to paint "
+#| "on images. You can verify and select another color mode from the <link "
+#| "linkend=\"gimp-image-mode\">Mode</link> menuitem in the <guimenu>Image</"
+#| "guimenu> menu."
 msgid ""
 "<emphasis>How to fix:</emphasis> If possible, use the RGB color mode to "
 "paint on images. You can verify and select another color mode from the <link "
@@ -5591,6 +6455,10 @@ msgid ""
 "want to use from the <link linkend=\"gimp-indexed-palette-dialog\">Colormap "
 "Dialog</link>."
 msgstr ""
+"<emphasis>Nasıl düzeltilir:</emphasis> Görüntüyü boyamak için daima RGB Renk "
+"kipini kullanın. <guimenu>Görüntü</guimenu> menüsündeki <link linkend=\"gimp-"
+"image-mode\">Kip</link> seçeneğinden renk kipini doğrulayabilir ve "
+"değiştirebilirsiniz."
 
 #: src/using/getting-unstuck.xml:319(title)
 msgid "No visible effect when trying to use a brush, eraser or other tool"
@@ -5635,15 +6503,19 @@ msgstr ""
 #. Bug #742256 2015-08-30
 #: src/using/getting-unstuck.xml:352(title)
 msgid "Eraser and brushes no longer work"
-msgstr ""
+msgstr "Silgi ve fırçalar çalışmıyor"
 
+# Parantez içi vurgu eklendi.
 #: src/using/getting-unstuck.xml:353(para)
+#, fuzzy
 msgid "You have selected the clipboard brush and the clipboard is empty."
 msgstr ""
+"Fırçalar iletişim kutusundan Pano Görüntüsü (veya Pano Maskesi) fırçasını "
+"seçmiş olabilirsiniz ve pano boş olabilir."
 
 #: src/using/getting-unstuck.xml:357(title)
 msgid "Empty Clipboard Brush"
-msgstr ""
+msgstr "Boş Pano Fırçası"
 
 #: src/using/getting-unstuck.xml:365(para)
 msgid ""
@@ -5809,13 +6681,14 @@ msgstr ""
 
 #: src/using/getting-unstuck-intro.xml:8(primary)
 msgid "GIMP"
-msgstr ""
+msgstr "GIMP"
 
 #: src/using/getting-unstuck-intro.xml:9(secondary)
 msgid "Getting Unstuck"
-msgstr ""
+msgstr "Sıkışıp Kalmamak"
 
 #: src/using/getting-unstuck-intro.xml:12(para)
+#, fuzzy
 msgid ""
 "All right, okay: you're stuck. You're trying to use one of the tools on an "
 "image, and nothing is happening, and nothing you try makes any difference. "
@@ -5823,8 +6696,19 @@ msgid ""
 "Are you going to have to kill the program, and lose all your work? This "
 "sucks!"
 msgstr ""
+"Tamam, tamam: sıkıştın. Araçlardan birini kullanmaya çalışıyorsun ve hiçbir "
+"şey olmuyor ve denediğin hiçbir şey fark yaratmıyor. Yumruklarını sıkmaya "
+"başladın bile. Programı sonlardırmak ve tüm işini kaybetmek zorunda kalacak "
+"mısın? Bu berbat!"
 
 #: src/using/getting-unstuck-intro.xml:19(para)
+#, fuzzy
+#| msgid ""
+#| "Well, hold on a second. This happens pretty frequently, even to people "
+#| "who've used <acronym>GIMP</acronym> for a long time, but generally the "
+#| "cause is not so hard to figure out (and fix) if you know where to look. "
+#| "Lets be calm, and go through a checklist that will probably get you "
+#| "GIMPing happily again."
 msgid ""
 "Well, hold on a second. This happens pretty frequently, even to people "
 "who've used <acronym>GIMP</acronym> for a long time, but generally the cause "
@@ -5832,22 +6716,37 @@ msgid ""
 "calm, and go through a checklist that will probably get you GIMPing happily "
 "again."
 msgstr ""
+"Bir saniye lütfen. Bu, deneyimli <acronym>GIMP</acronym> kullanıcıların "
+"başına da gelebiliyor, ancak genellikle nereye bakacağınızı biliyorsanız, "
+"bunun nedenini bulmak (ve düzeltmek) zor değil. Sakin olup muhtemelen tekrar "
+"<acronym>GIMP</acronym>lemenize yardımcı olacak kontrol listesinine bir göz "
+"atalım."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck-gui.xml:15(None)
+#| msgid ""
+#| "@@image: 'images/using/select-move-1.png'; "
+#| "md5=59f92c5d042d8a9a664edc3d2f15f974"
 msgid ""
 "@@image: 'images/using/empty-image-window.png'; "
 "md5=25437c95e45d89c5d8960d40c7189396"
 msgstr ""
+"@@image: 'images/using/empty-image-window.png'; "
+"md5=25437c95e45d89c5d8960d40c7189396"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck-gui.xml:55(None)
+#| msgid ""
+#| "@@image: 'images/using/straightline1.png'; "
+#| "md5=f55de3d8bd9271198a5c97d8f5667bca"
 msgid ""
 "@@image: 'images/using/missing-tool-options.png'; "
 "md5=66ed8bb69a602ec9cb7c19ff43e6f0ec"
 msgstr ""
+"@@image: 'images/using/missing-tool-options.png'; "
+"md5=66ed8bb69a602ec9cb7c19ff43e6f0ec"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5857,6 +6756,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-menu-left.svg'; "
 "md5=bcd8b1befe4e36f3afb9c7850e702752"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-menu-left.svg'; "
+"md5=bcd8b1befe4e36f3afb9c7850e702752"
 
 #: src/using/getting-unstuck-gui.xml:6(title)
 msgid "How to fix missing windows and dialogs"
@@ -6032,6 +6933,8 @@ msgid ""
 "@@image: 'images/stock-icons/view-refresh.svg'; "
 "md5=e30a124eb8dd881de92ab4b2dd6c0550"
 msgstr ""
+"@@image: 'images/stock-icons/view-refresh.svg'; "
+"md5=e30a124eb8dd881de92ab4b2dd6c0550"
 
 #: src/using/fonts-and-text.xml:12(title)
 #: src/using/fonts-and-text.xml:16(secondary)
@@ -6047,11 +6950,11 @@ msgstr ""
 #: src/using/fonts-and-text.xml:26(primary)
 #: src/using/fonts-and-text.xml:135(primary)
 msgid "Fonts"
-msgstr ""
+msgstr "Yazı Tipleri"
 
 #: src/using/fonts-and-text.xml:27(secondary)
 msgid "Add"
-msgstr ""
+msgstr "Ekle"
 
 #: src/using/fonts-and-text.xml:29(para)
 msgid ""
@@ -6079,7 +6982,7 @@ msgstr ""
 
 #: src/using/fonts-and-text.xml:50(title)
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: src/using/fonts-and-text.xml:51(para)
 msgid "There are several ways to install a font:"
@@ -6177,6 +7080,12 @@ msgid ""
 msgstr ""
 
 #: src/using/fileformats.xml:18(para)
+#| msgid ""
+#| "<acronym>GIMP</acronym> is capable of reading and writing a large variety "
+#| "of graphics file formats. With the exception of <acronym>GIMP</acronym>'s "
+#| "native XCF file type, file handling is done by Plugins. Thus, it is "
+#| "relatively easy to extend <acronym>GIMP</acronym> to support new file "
+#| "types when the need arises."
 msgid ""
 "<acronym>GIMP</acronym> is capable of reading and writing a large variety of "
 "graphics file formats. With the exception of <acronym>GIMP</acronym>'s "
@@ -6187,15 +7096,15 @@ msgstr ""
 
 #: src/using/fileformats.xml:27(title)
 msgid "Save / Export Images"
-msgstr ""
+msgstr "Görüntüleri Kaydet / Dışa Aktar"
 
 #: src/using/fileformats.xml:29(primary)
 msgid "Save/Export Images"
-msgstr ""
+msgstr "Görüntüleri Kaydet/Dışa Aktar"
 
 #: src/using/fileformats.xml:32(primary)
 msgid "Export Images"
-msgstr ""
+msgstr "Görüntüleri Dışa Aktar"
 
 #: src/using/fileformats.xml:35(para)
 msgid ""
@@ -6204,6 +7113,18 @@ msgid ""
 msgstr ""
 
 #: src/using/fileformats.xml:39(para)
+#, fuzzy
+#| msgid ""
+#| "In former <acronym>GIMP</acronym> releases, when you loaded an image in "
+#| "some format, let us say JPG or PNG, the image kept its format and was "
+#| "saved in the same format by <command>Save</command>. With <acronym>GIMP</"
+#| "acronym>-2.8, images are loaded, imported, in the XCF format as a new "
+#| "project. For example, a <quote>sunflower.png</quote> image will be loaded "
+#| "as <quote>*[sunflower] (imported)-1.0 (indexed color, 1 layer)</quote>. "
+#| "The leading asterisk indicates that this file has been changed. This "
+#| "image will be saved as <quote>sunflower.xcf</quote> by <command>Save</"
+#| "command>. To save this image in a format other than XCF, you must use "
+#| "<command>Export</command>."
 msgid ""
 "For example, a <quote>sunflower.png</quote> image will be loaded as "
 "<quote>*[sunflower] (imported)-1.0 (indexed color, 1 layer)</quote>. The "
@@ -6212,6 +7133,17 @@ msgid ""
 "command> command. If you need your image in another format, you should use "
 "the <command>Export</command> command."
 msgstr ""
+"Eski <acronym>GIMP</acronym> sürümlerinde, görüntüyü bir biçimde (JPG veya "
+"PNG diyelim) yüklediğinizde, görüntü biçimini korur ve aynı biçimde "
+"<command>Kaydet</command> işlemi tarafından kaydedilirdi. <acronym>GIMP</"
+"acronym>-2.8 ile bu değişti. Görüntüler artık XCF biçiminde yeni proje "
+"olarak yüklenip, içe aktarılıyor. Örneğin, <quote>cicek.png</quote> "
+"görüntüsü <quote>* [cicek] (içe aktarılmış)-1.0 (Çeşitli bilgiler, 1 "
+"katman)</quote> olarak yükleniyor. Baştaki yıldız işareti, dosyanın "
+"değiştirildiğini gösteyir. Bu görüntü <command>Kaydet</command> işlemi "
+"tarafından <quote>cicek.xcf</quote> olarak kaydedilir. Görüntüyü XCF dışında "
+"bir biçimde kaydetmek için <command>Dışa Aktar</command> işlemini kullanmak "
+"gerekir."
 
 #: src/using/fileformats.xml:48(para)
 msgid ""
@@ -6241,17 +7173,26 @@ msgstr ""
 
 #: src/using/fileformats.xml:73(title)
 msgid "File Formats"
-msgstr ""
+msgstr "Dosya Biçimleri"
 
 #: src/using/fileformats.xml:74(para)
+#, fuzzy
+#| msgid ""
+#| "There are several commands for <emphasis>saving</emphasis> images. A "
+#| "list, and information on how to use them, can be found in the section "
+#| "covering the <link linkend=\"gimp-file-menu\">File Menu</link>."
 msgid ""
 "There are several commands for <emphasis>saving</emphasis> and <emphasis> "
 "exporting</emphasis> images. They are listed in the section covering the "
 "<link linkend=\"gimp-file-menu\">File Menu</link>. More information on how "
 "to use them can be found there."
 msgstr ""
+"Görüntüleri <emphasis>kaydetmek</emphasis> için çeşitli komutlar "
+"bulunmaktadır. Bunların listesini nasıl kullanılacağına dair bilgileri, "
+"<link linkend=\"gimp-file-menu\">Dosya Menüsü</link> bölümde bulabilirsiniz."
 
 #: src/using/fileformats.xml:80(para)
+#, fuzzy
 msgid ""
 "<acronym>GIMP</acronym> allows you to <emphasis>export</emphasis> the images "
 "you create in a wide variety of formats. It is important to realize that the "
@@ -6260,29 +7201,49 @@ msgid ""
 "Every other format preserves some image properties and loses others. It is "
 "up to you to understand the capabilities of the format you choose."
 msgstr ""
+"<acronym>GIMP</acronym>, oluşturduğunuz görüntüleri çok çeşitli biçimlerde "
+"<emphasis>dışa aktarmanıza</emphasis> olanak sağlar. Katman, saydamlık, vb. "
+"dahil olmak üzere görüntüdeki <emphasis>tüm</emphasis> bilgileri görüntüde "
+"kaydedebilen tek biçimin <acronym>GIMP</acronym>'in yerel XCF biçimi "
+"olduğunu unutmayın. Diğer biçimler kimi görüntü özelliklerini korurken "
+"diğerlerini kaybeder. Seçtiğiniz biçimin özelliklerini anlamak size "
+"kalmıştır."
 
 #: src/using/fileformats.xml:88(para)
+#, fuzzy
 msgid ""
 "Exporting an image does not modify the image itself, so you do not lose "
 "anything by exporting. See <link linkend=\"gimp-export-dialog\">Export file</"
 "link>."
 msgstr ""
+"Görüntünün dışa aktarılması görüntünün kendisini (dosyanın üzerine "
+"yazmadığınız sürece) değiştirmez, bu nedenle dışa aktarırken hiçbir veri "
+"kaybetmezsiniz. Bkz: <link linkend=\"gimp-export-dialog\">Dosya Dışa Aktar</"
+"link>."
 
 #: src/using/fileformats.xml:94(para)
+#, fuzzy
+#| msgid ""
+#| "When you close an image (possibly by quitting GIMP), you are warned if "
+#| "the image is \"dirty\"; that is, if it has been changed without "
+#| "subsequently being saved (an asterisk is in front of the image name)."
 msgid ""
 "When you close an image (possibly by quitting GIMP), you are warned if the "
 "image has been changed without subsequently being saved (an asterisk is in "
 "front of the image name in the title bar of the main window)."
 msgstr ""
+"Görüntüyü kapattığınızda (muhtemelen GIMP'den çıkılarak), görüntü \"kirli\" "
+"ise, yani son kaydedişinizden sonra üstünde değişiklik yapılmışsa "
+"uyarılırsınız. (Görüntü adının önünde * işareti bulunur)."
 
 #: src/using/customize-splashscreen.xml:16(title)
 msgid "Customize Splash-Screen"
-msgstr ""
+msgstr "Açılış Ekranını Özelleştir"
 
 #: src/using/customize-splashscreen.xml:20(secondary)
 #: src/using/customize-splashscreen.xml:23(primary)
 msgid "Splash-screen"
-msgstr ""
+msgstr "Açılış Ekranı"
 
 #: src/using/customize-splashscreen.xml:26(para)
 msgid ""
@@ -6292,8 +7253,10 @@ msgid ""
 msgstr ""
 
 #: src/using/customize-splashscreen.xml:31(para)
+#, fuzzy
+#| msgid "Customize Splash-Screen"
 msgid "You can customize the splash-screen:"
-msgstr ""
+msgstr "Açılış Ekranını Özelleştir"
 
 #: src/using/customize-splashscreen.xml:36(para)
 msgid ""
@@ -6321,10 +7284,15 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/creating-brush-quickly.xml:33(None)
+#| msgid ""
+#| "@@image: 'images/using/select-to-brush.png'; "
+#| "md5=ee2f4dd55ec8221baacb5184f952efdc"
 msgid ""
 "@@image: 'images/using/select-to-brush.png'; "
 "md5=3001d87eb4d7df1fea509023cf34f62d"
 msgstr ""
+"@@image: 'images/using/select-to-brush.png'; "
+"md5=3001d87eb4d7df1fea509023cf34f62d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6333,14 +7301,21 @@ msgid ""
 "@@image: 'images/using/create-brush1.png'; "
 "md5=04bdf0569fe27c94aac81cedd2fe7a1c"
 msgstr ""
+"@@image: 'images/using/create-brush1.png'; "
+"md5=04bdf0569fe27c94aac81cedd2fe7a1c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/creating-brush-quickly.xml:101(None)
+#| msgid ""
+#| "@@image: 'images/using/create-brush2.png'; "
+#| "md5=937190f69002ba6542c178388fdd171a"
 msgid ""
 "@@image: 'images/using/create-brush2.png'; "
 "md5=682a5bac1488ef9b884c8a5ab77f294b"
 msgstr ""
+"@@image: 'images/using/create-brush2.png'; "
+"md5=682a5bac1488ef9b884c8a5ab77f294b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6349,6 +7324,8 @@ msgid ""
 "@@image: 'images/using/create-brush3.png'; "
 "md5=aac61f023cbd31e279920995eadbbbdf"
 msgstr ""
+"@@image: 'images/using/create-brush3.png'; "
+"md5=aac61f023cbd31e279920995eadbbbdf"
 
 #: src/using/creating-brush-quickly.xml:9(title)
 msgid "Creating a brush quickly"
@@ -6458,10 +7435,15 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/brushes.xml:67(None)
+#| msgid ""
+#| "@@image: 'images/using/file-gbr-save.png'; "
+#| "md5=9dc83346c647c95e74234f0d30fdd263"
 msgid ""
 "@@image: 'images/using/file-gbr-export.png'; "
 "md5=891289a728a1d5f9c911a80864a69851"
 msgstr ""
+"@@image: 'images/using/file-gbr-export.png'; "
+"md5=891289a728a1d5f9c911a80864a69851"
 
 #: src/using/brushes.xml:8(title)
 msgid "Adding New Brushes"
@@ -6469,7 +7451,7 @@ msgstr ""
 
 #: src/using/brushes.xml:11(secondary)
 msgid "Add New"
-msgstr ""
+msgstr "Yeni Ekle"
 
 #: src/using/brushes.xml:15(para)
 msgid ""
@@ -6494,12 +7476,12 @@ msgstr ""
 #: src/using/brushes.xml:36(term) src/using/brushes.xml:39(primary)
 #: src/using/brushes.xml:43(secondary)
 msgid "GBR"
-msgstr ""
+msgstr "GBR"
 
 #: src/using/brushes.xml:42(primary) src/using/brushes.xml:80(primary)
 #: src/using/brushes.xml:108(primary) src/using/brushes.xml:126(primary)
 msgid "Formats"
-msgstr ""
+msgstr "Biçimler"
 
 #: src/using/brushes.xml:45(para)
 msgid ""
@@ -6549,7 +7531,7 @@ msgstr ""
 #: src/using/brushes.xml:102(term) src/using/brushes.xml:105(primary)
 #: src/using/brushes.xml:109(secondary)
 msgid "VBR"
-msgstr ""
+msgstr "VBR"
 
 #: src/using/brushes.xml:111(para)
 msgid ""
@@ -6561,7 +7543,7 @@ msgstr ""
 #: src/using/brushes.xml:120(term) src/using/brushes.xml:123(primary)
 #: src/using/brushes.xml:127(secondary)
 msgid "MYB"
-msgstr ""
+msgstr "MYB"
 
 #: src/using/brushes.xml:129(para)
 msgid ""
@@ -6605,10 +7587,15 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:45(None)
+#| msgid ""
+#| "@@image: 'images/using/gih-array2D.png'; "
+#| "md5=c15b84ef6a337006a1f39b307847a573"
 msgid ""
 "@@image: 'images/using/file-gih-export.png'; "
 "md5=415655efe67003a049e817d5d8569710"
 msgstr ""
+"@@image: 'images/using/file-gih-export.png'; "
+"md5=415655efe67003a049e817d5d8569710"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6616,6 +7603,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/using/gih-array2D.png'; md5=c15b84ef6a337006a1f39b307847a573"
 msgstr ""
+"@@image: 'images/using/gih-array2D.png'; md5=c15b84ef6a337006a1f39b307847a573"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6623,6 +7611,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/using/gih-array3D.png'; md5=9feefe655bf2c5034f05b9faaafc82b6"
 msgstr ""
+"@@image: 'images/using/gih-array3D.png'; md5=9feefe655bf2c5034f05b9faaafc82b6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6630,6 +7619,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/using/gih-array1D.png'; md5=68095ff8ef85b22e5a9f104026505900"
 msgstr ""
+"@@image: 'images/using/gih-array1D.png'; md5=68095ff8ef85b22e5a9f104026505900"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6637,6 +7627,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/using/gih1234incr.png'; md5=916ee26278465b6f392b47d3441e6316"
 msgstr ""
+"@@image: 'images/using/gih1234incr.png'; md5=916ee26278465b6f392b47d3441e6316"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6644,6 +7635,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/using/gih1234rand.png'; md5=8d8cb33c9bcf1271675c898c3e80edda"
 msgstr ""
+"@@image: 'images/using/gih1234rand.png'; md5=8d8cb33c9bcf1271675c898c3e80edda"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6651,6 +7643,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/using/gih1234angl.png'; md5=61d5f4b2f9828f9f838601a663a4e2e1"
 msgstr ""
+"@@image: 'images/using/gih1234angl.png'; md5=61d5f4b2f9828f9f838601a663a4e2e1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6658,6 +7651,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/using/gih-3Dnum.png'; md5=fc2b9899af4d83c132c50ebe6c61bd1e"
 msgstr ""
+"@@image: 'images/using/gih-3Dnum.png'; md5=fc2b9899af4d83c132c50ebe6c61bd1e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6666,14 +7660,21 @@ msgid ""
 "@@image: 'images/using/gih-correlation.png'; "
 "md5=f0421f134c5e4534ac1b1dff89a7ab05"
 msgstr ""
+"@@image: 'images/using/gih-correlation.png'; "
+"md5=f0421f134c5e4534ac1b1dff89a7ab05"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:532(None)
+#| msgid ""
+#| "@@image: 'images/using/gih-hands-layers.png'; "
+#| "md5=aeecc0dc6089d90f578aaded7a68b988"
 msgid ""
 "@@image: 'images/using/gih-hands-layers.png'; "
 "md5=92a1c9476be90d72aa078597d99923a4"
 msgstr ""
+"@@image: 'images/using/gih-hands-layers.png'; "
+"md5=92a1c9476be90d72aa078597d99923a4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6682,6 +7683,8 @@ msgid ""
 "@@image: 'images/using/gih-hands-stroke.png'; "
 "md5=3032494d8893f9cb754b05b12af748ec"
 msgstr ""
+"@@image: 'images/using/gih-hands-stroke.png'; "
+"md5=3032494d8893f9cb754b05b12af748ec"
 
 #: src/using/animated-brushes.xml:13(title)
 msgid "Creating animated brushes"
@@ -6752,7 +7755,7 @@ msgstr ""
 
 #: src/using/animated-brushes.xml:86(term)
 msgid "Cell Size"
-msgstr ""
+msgstr "Hücre Boyutu"
 
 #: src/using/animated-brushes.xml:88(para)
 msgid ""
@@ -6798,15 +7801,17 @@ msgstr ""
 
 #: src/using/animated-brushes.xml:126(term)
 msgid "Dimension"
-msgstr ""
+msgstr "Boyutlar"
 
 #: src/using/animated-brushes.xml:127(term)
 msgid "Ranks"
 msgstr ""
 
 #: src/using/animated-brushes.xml:128(term)
+#, fuzzy
+#| msgid "Selection"
 msgid "Selection dropdown"
-msgstr ""
+msgstr "Seçim"
 
 #: src/using/animated-brushes.xml:130(para)
 msgid ""
@@ -6906,8 +7911,10 @@ msgid "Velocity"
 msgstr ""
 
 #: src/using/animated-brushes.xml:224(term)
+#, fuzzy
+#| msgid "Progressive"
 msgid "Pressure"
-msgstr ""
+msgstr "İlerlemeli"
 
 #: src/using/animated-brushes.xml:225(term)
 msgid "X tilt"
@@ -7194,7 +8201,7 @@ msgstr ""
 
 #: src/using/animated-brushes.xml:552(para)
 msgid "Cell Size: 30×30"
-msgstr ""
+msgstr "Hücre Boytu: 30x30"
 
 #: src/using/animated-brushes.xml:555(para)
 msgid "Number of cells: 16"
@@ -7202,7 +8209,7 @@ msgstr ""
 
 #: src/using/animated-brushes.xml:558(para)
 msgid "Dimensions: 3"
-msgstr ""
+msgstr "Boyutlar: 3"
 
 #: src/using/animated-brushes.xml:561(para)
 msgid "Dimension 1: 4 ranks Selection: Angular"
@@ -7237,3 +8244,5 @@ msgstr ""
 #: src/using/animated-brushes.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
