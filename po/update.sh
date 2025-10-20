@@ -74,3 +74,6 @@ msgmerge --previous --update toolbox/transform.po ../pot/toolbox/transform.pot
 printf '\n\n\n'
 echo '### ✅ Pot dosyalarının güncellenmesi bitti. Eline sağlık!'
 printf '\n\n\n'
+
+# Güncelleme işleminin oluşturduğu artık dosyaları sil
+find ./ -type f -name '*~' -delete
