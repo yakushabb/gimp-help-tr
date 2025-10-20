@@ -1,0 +1,55 @@
+.
+├── aa.txt
+├── appendix.po
+├── concepts.po
+├── dialogs.po
+├── filters
+│   ├── animation.po
+│   ├── artistic.po
+│   ├── blur.po
+│   ├── combine.po
+│   ├── decor.po
+│   ├── distort.po
+│   ├── edge-detect.po
+│   ├── enhance.po
+│   ├── generic.po
+│   ├── light-and-shadow.po
+│   ├── map.po
+│   ├── noise.po
+│   ├── render.po
+│   └── web.po
+├── filters.po
+├── gimp.po
+├── glossary.po
+├── introduction.po
+├── menus
+│   ├── colors
+│   │   ├── auto.po
+│   │   ├── components.po
+│   │   ├── desaturate.po
+│   │   ├── info.po
+│   │   ├── map.po
+│   │   └── tone-mapping.po
+│   ├── colors.po
+│   ├── edit.po
+│   ├── file.po
+│   ├── filters.po
+│   ├── help.po
+│   ├── image.po
+│   ├── layer.po
+│   ├── select.po
+│   └── view.po
+├── menus.po
+├── output.txt
+├── preface.po
+├── toolbox
+│   ├── toolbox~paint.master.tr.po
+│   ├── toolbox~selection.master.tr.po
+│   └── toolbox~transform.master.tr.po
+├── toolbox.po
+├── tutorial.po
+├── update.sh
+├── using.po
+└── zzz-gimp-keys.po
+
+5 directories, 48 files

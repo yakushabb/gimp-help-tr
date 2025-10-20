@@ -1,0 +1,15 @@
+aa.txt
+animation.po
+artistic.po
+blur.po
+combine.po
+decor.po
+distort.po
+edge-detect.po
+enhance.po
+generic.po
+light-and-shadow.po
+map.po
+noise.po
+render.po
+web.po
