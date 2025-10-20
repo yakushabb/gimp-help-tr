@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-help master\n"
-"POT-Creation-Date: 2025-07-15 08:40+0000\n"
+"POT-Creation-Date: 2025-10-20 15:22+0000\n"
 "PO-Revision-Date: 2025-09-19 13:51+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -314,8 +314,9 @@ msgid "Paste clipboard"
 msgstr "Panodan yapıştır"
 
 #: src/key-reference.xml:243(para)
-msgid "This places the clipboard objects as a floating selection."
-msgstr "Bu, pano nesnelerini yüzen seçim olarak yerleştirir."
+msgid ""
+"This creates a new layer that contains a copy of the clipboard's contents."
+msgstr ""
 
 #: src/key-reference.xml:250(term)
 msgid ""
@@ -740,7 +741,7 @@ msgstr "Katman"
 msgid "Key reference for <guimenuitem>Layer</guimenuitem> menu"
 msgstr "<guimenuitem>Katman</guimenuitem> menüsü için tuş referansları"
 
-#: src/key-reference.xml:630(term) src/key-reference.xml:687(term)
+#: src/key-reference.xml:630(term)
 msgid ""
 "<keycap function=\"shift\">Shift</keycap> + <keycap "
 "function=\"control\">Ctrl</keycap> + N"
@@ -765,7 +766,9 @@ msgid "Duplicate layers"
 msgstr "Katmanları çoğalt"
 
 #: src/key-reference.xml:648(keycap)
-msgid "Page&nbsp;Up"
+#, fuzzy
+#| msgid "Page&nbsp;Up"
+msgid "PageUp"
 msgstr "Page&nbsp;Up"
 
 #: src/key-reference.xml:651(para)
@@ -773,7 +776,9 @@ msgid "Select the layers above"
 msgstr "Üstteki katmanı seç"
 
 #: src/key-reference.xml:656(keycap)
-msgid "Page&nbsp;Down"
+#, fuzzy
+#| msgid "Page&nbsp;Down"
+msgid "PageDown"
 msgstr "Page&nbsp;Down"
 
 #: src/key-reference.xml:659(para)
@@ -805,6 +810,18 @@ msgstr "<keycap function=\"control\">Ctrl</keycap> + H"
 #: src/key-reference.xml:683(para)
 msgid "Anchor layer"
 msgstr "Katmanı çıpala"
+
+#: src/key-reference.xml:687(term)
+#, fuzzy
+#| msgid ""
+#| "<keycap function=\"shift\">Shift</keycap> + <keycap "
+#| "function=\"control\">Ctrl</keycap> + V"
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap "
+"function=\"control\">Ctrl</keycap> + O"
+msgstr ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap "
+"function=\"control\">Ctrl</keycap> + V"
 
 # Bu bilgi hatalı, raporlandı: https://gitlab.gnome.org/GNOME/gimp-help/-/issues/607
 #: src/key-reference.xml:692(para)
@@ -1295,9 +1312,13 @@ msgid "Within a multi-tab dialog"
 msgstr "Çok sekmeli iletişim kutusu içinde"
 
 #: src/key-reference.xml:1092(term)
+#, fuzzy
+#| msgid ""
+#| "<keycap function=\"control\">Ctrl</keycap> + <keycap "
+#| "function=\"alt\">Alt</keycap> + Page&nbsp;Up"
 msgid ""
 "<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
-"keycap> + Page&nbsp;Up"
+"keycap> + PageUp"
 msgstr ""
 "<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
 "keycap> + Page&nbsp;Up"
@@ -1307,9 +1328,13 @@ msgid "Switch tabs up"
 msgstr "Yukarıdaki sekmeye geç"
 
 #: src/key-reference.xml:1103(term)
+#, fuzzy
+#| msgid ""
+#| "<keycap function=\"control\">Ctrl</keycap> + <keycap "
+#| "function=\"alt\">Alt</keycap> + Page&nbsp;Down"
 msgid ""
 "<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
-"keycap> + Page&nbsp;Down"
+"keycap> + PageDown"
 msgstr ""
 "<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
 "keycap> + Page&nbsp;Down"
@@ -1501,13 +1526,13 @@ msgid ""
 "acronym> has been known to work include:"
 msgstr ""
 "<acronym>GIMP</acronym>ʼin güçlü yönlerinden biri, çok türlü işletim "
-"sistemleri ve mimarilerde özgürce kullanılabilmesidir. Çoğu "
-"<acronym>GNU</acronym> / <application>Linux</application> dağıtımı "
-"<acronym>GIMP</acronym>ʼi standart bir uygulama olarak içerir. "
-"<acronym>GIMP</acronym>, <productname>Microsoft Windows</productname> "
-"ya da Appleʼın <productname>macOS</productname>(<application>Darwin</"
-"application>) gibi diğer işletim sistemleri için de kullanılabilir. "
-"<acronym>GIMP</acronym>ʼin çalıştığı bilinen platformlar şunlardır:"
+"sistemleri ve mimarilerde özgürce kullanılabilmesidir. Çoğu <acronym>GNU</"
+"acronym> / <application>Linux</application> dağıtımı <acronym>GIMP</"
+"acronym>ʼi standart bir uygulama olarak içerir. <acronym>GIMP</acronym>, "
+"<productname>Microsoft Windows</productname> ya da Appleʼın "
+"<productname>macOS</productname>(<application>Darwin</application>) gibi "
+"diğer işletim sistemleri için de kullanılabilir. <acronym>GIMP</acronym>ʼin "
+"çalıştığı bilinen platformlar şunlardır:"
 
 #: src/introduction.xml:58(para)
 msgid ""
@@ -1542,8 +1567,8 @@ msgid ""
 msgstr ""
 "<acronym>GIMP</acronym>, kaynak kodu kullanılabilirliği nedeniyle diğer "
 "işletim sistemlerine kolayca taşınabilir. Daha çok bilgi için <acronym>GIMP</"
-"acronym> geliştiricileri sayfasına bakın. <xref "
-"linkend=\"bibliography-online-gimp-dev\"/>."
+"acronym> geliştiricileri sayfasına bakın. <xref linkend=\"bibliography-"
+"online-gimp-dev\"/>."
 
 #: src/introduction.xml:81(title)
 msgid "History of GIMP"
@@ -1582,8 +1607,8 @@ msgid ""
 "can use to access the relevant part of the manual."
 msgstr ""
 "<acronym>GIMP</acronym> Belgelendirme Takımı, <acronym>GIMP</acronym>ʼi "
-"nasıl kullanacağınızı anlamanıza yardımcı olacak bilgileri sağlar. "
-"Kullanıcı Kılavuzu bu yardımın önemli bir parçasıdır. En son sürüm her zaman "
+"nasıl kullanacağınızı anlamanıza yardımcı olacak bilgileri sağlar. Kullanıcı "
+"Kılavuzu bu yardımın önemli bir parçasıdır. En son sürüm her zaman "
 "Belgelendirme Takımının web sitesinde <xref linkend=\"bibliography-online-"
 "gimp-docs\"/> HTML biçiminde vardır. <acronym>GIMP</acronym>ʼi kullanırken, "
 "fare bir menü ögesinin ya da GIMP arayüzünün başka bir bölümünün "
@@ -1628,8 +1653,8 @@ msgid ""
 "A full suite of painting tools including brushes, a pencil, an airbrush, "
 "cloning, etc."
 msgstr ""
-"Fırçalar, kalem, hava fırçası, kopyalama vb. olmak üzere eksiksiz "
-"boyama araçları paketi."
+"Fırçalar, kalem, hava fırçası, kopyalama vb. olmak üzere eksiksiz boyama "
+"araçları paketi."
 
 #: src/introduction.xml:135(para)
 msgid ""
@@ -1658,8 +1683,8 @@ msgid ""
 "A procedural database for calling internal <acronym>GIMP</acronym> functions "
 "from external programs, such as Script-Fu."
 msgstr ""
-"Script-Fu gibi dış programlardan iç <acronym>GIMP</acronym> "
-"işlevlerini çağırmak için prosedürel veri tabanı."
+"Script-Fu gibi dış programlardan iç <acronym>GIMP</acronym> işlevlerini "
+"çağırmak için prosedürel veri tabanı."
 
 #: src/introduction.xml:161(para)
 msgid "Advanced scripting capabilities."
@@ -1686,7 +1711,8 @@ msgid ""
 "Selection tools, including rectangle, ellipse, free, fuzzy, bezier and "
 "scissors."
 msgstr ""
-"Dikdörtgen, elips, serbest, bulanık, bezier ve makastan oluşan seçim araçları."
+"Dikdörtgen, elips, serbest, bulanık, bezier ve makastan oluşan seçim "
+"araçları."
 
 #: src/introduction.xml:184(para)
 msgid ""
@@ -1743,7 +1769,9 @@ msgstr "GNU Görüntü İşleme Programı"
 
 #. TRANSLATORS: do not translate &gimp.app.version; and <?dbtimestamp?>
 #: src/gimp.xml:31(subtitle)
-msgid "GIMP &gimp.app.version; User Manual, <?dbtimestamp?>"
+#, fuzzy
+#| msgid "GIMP &gimp.app.version; User Manual, <?dbtimestamp?>"
+msgid "GIMP User Manual, <?dbtimestamp?>"
 msgstr "GIMP &gimp.app.version; Kullanıcı Kılavuzu, <?dbtimestamp?>"
 
 #. TRANSLATORS: do not translate <?dbtimestamp format="Y"?>
@@ -1875,3 +1903,6 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
+#~ msgid "This places the clipboard objects as a floating selection."
+#~ msgstr "Bu, pano nesnelerini yüzen seçim olarak yerleştirir."

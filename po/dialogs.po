@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-02-26 21:19+0000\n"
-"PO-Revision-Date: 2025-10-20 02:41+0300\n"
+"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"PO-Revision-Date: 2025-10-20 20:29+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -22,9 +22,13 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/welcome-dialog.xml:30(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/dialogs/welcome-dialog.png'; "
+#| "md5=78cc55fc0a7c8431d563d5296f791a96"
 msgid ""
 "@@image: 'images/dialogs/welcome-dialog.png'; "
-"md5=78cc55fc0a7c8431d563d5296f791a96"
+"md5=95cd1eef3a711c60485e400aff6880a2"
 msgstr ""
 "@@image: 'images/dialogs/welcome-dialog.png'; "
 "md5=78cc55fc0a7c8431d563d5296f791a96"
@@ -48,8 +52,8 @@ msgstr ""
 #: src/dialogs/undo-history-dialog.xml:15(primary)
 #: src/dialogs/templates-dialog.xml:18(primary)
 #: src/dialogs/prefs-window-management.xml:15(primary)
-#: src/dialogs/prefs-tool-options.xml:11(primary)
 #: src/dialogs/prefs-toolbox.xml:11(primary)
+#: src/dialogs/prefs-tool-options.xml:11(primary)
 #: src/dialogs/prefs-interface.xml:11(primary)
 #: src/dialogs/prefs-image-window.xml:11(primary)
 #: src/dialogs/prefs-image-window-title.xml:10(primary)
@@ -73,8 +77,8 @@ msgstr ""
 #: src/dialogs/gradient-dialog.xml:17(primary)
 #: src/dialogs/fonts-dialog.xml:13(primary)
 #: src/dialogs/document-dialog.xml:14(primary)
-#: src/dialogs/dialogs-preferences.xml:9(primary)
 #: src/dialogs/dialogs_introduction.xml:10(primary)
+#: src/dialogs/dialogs-preferences.xml:9(primary)
 #: src/dialogs/device-status-dialog.xml:12(primary)
 #: src/dialogs/color-dialog.xml:16(primary)
 #: src/dialogs/channel-dialog.xml:14(primary)
@@ -110,8 +114,8 @@ msgstr ""
 #: src/dialogs/save-file-dialog.xml:47(title)
 #: src/dialogs/sample-points.xml:29(title) src/dialogs/qmask.xml:37(title)
 #: src/dialogs/prefs-window-management.xml:45(title)
-#: src/dialogs/prefs-tool-options.xml:35(title)
 #: src/dialogs/prefs-toolbox.xml:35(title)
+#: src/dialogs/prefs-tool-options.xml:35(title)
 #: src/dialogs/prefs-theme.xml:27(title)
 #: src/dialogs/prefs-system-resources.xml:34(title)
 #: src/dialogs/prefs-playground.xml:26(title)
@@ -151,7 +155,7 @@ msgstr ""
 #: src/dialogs/export-file-dialog.xml:29(title)
 #: src/dialogs/error-console.xml:24(title)
 #: src/dialogs/document-dialog.xml:36(title)
-#: src/dialogs/device-status-dialog.xml:51(title)
+#: src/dialogs/device-status-dialog.xml:69(title)
 #: src/dialogs/dashboard.xml:33(title) src/dialogs/color-dialog.xml:34(title)
 #: src/dialogs/channel-dialog.xml:129(title)
 #: src/dialogs/buffers-dialog.xml:144(title)
@@ -403,24 +407,30 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:255(para)
 msgid ""
+"This setting is not available when <acronym>GIMP</acronym> is installed as a "
+"package that is automatically updated."
+msgstr ""
+
+#: src/dialogs/welcome-dialog.xml:259(para)
+msgid ""
 "This requires a working internet connection. When enabled <acronym>GIMP</"
 "acronym> will regularly check its website to see if a new version is "
 "available. If there is, you will be notified, and can decide whether you "
 "want to update or not. No personal info is shared with our website."
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:263(para)
+#: src/dialogs/welcome-dialog.xml:267(para)
 msgid ""
 "See also <link linkend=\"gimp-prefs-system-resources\">System Resources</"
 "link>, <guilabel>Network Access</guilabel> preferences."
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:271(term)
+#: src/dialogs/welcome-dialog.xml:275(term)
 #: src/dialogs/prefs-toolbox.xml:106(term)
 msgid "Use tool groups"
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:273(para)
+#: src/dialogs/welcome-dialog.xml:277(para)
 msgid ""
 "By default, tools in the toolbox are grouped together to save space. A "
 "different tool in a group can be selected by hovering or long-clicking on a "
@@ -428,40 +438,40 @@ msgid ""
 "groups, you can disable this setting here."
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:280(para)
+#: src/dialogs/welcome-dialog.xml:284(para)
 msgid ""
 "See also <link linkend=\"gimp-prefs-toolbox\">Toolbox</link> preferences."
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:294(term)
+#: src/dialogs/welcome-dialog.xml:298(term)
 msgid "Contribute"
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:296(para)
+#: src/dialogs/welcome-dialog.xml:300(para)
 msgid ""
 "The contribute page has helpful links if you want to report bugs, help "
 "improving GIMP's code, translate the interface of GIMP, or if you want to "
 "donate money to help with the development of GIMP."
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:316(term)
+#: src/dialogs/welcome-dialog.xml:320(term)
 msgid "Create"
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:318(para)
+#: src/dialogs/welcome-dialog.xml:322(para)
 msgid ""
 "The Create page allows you to quickly open one or more of your last used "
 "images, to continue where you left off."
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:322(para)
+#: src/dialogs/welcome-dialog.xml:326(para)
 msgid ""
 "From this page you can also choose to <guibutton>Create</guibutton> a new "
 "image, or <guibutton>Open</guibutton> the file dialog to look for a "
 "different image."
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:327(para)
+#: src/dialogs/welcome-dialog.xml:331(para)
 msgid ""
 "If you just want to open one of your recently used images, you can double-"
 "click the image in the list. To open multiple images, select the ones you "
@@ -469,7 +479,7 @@ msgid ""
 "button below the list."
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:334(para)
+#: src/dialogs/welcome-dialog.xml:338(para)
 msgid ""
 "At the bottom of this page you will see the <guilabel>Show On Start</"
 "guilabel> setting. By default this page is shown every time you start "
@@ -478,17 +488,17 @@ msgid ""
 "Help menu and going to the Create page."
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:357(term)
+#: src/dialogs/welcome-dialog.xml:361(term)
 msgid "Release Notes"
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:359(para)
+#: src/dialogs/welcome-dialog.xml:363(para)
 msgid ""
 "This page shows a list of the most important changes in the latest version "
 "of <acronym>GIMP</acronym>."
 msgstr ""
 
-#: src/dialogs/welcome-dialog.xml:363(para)
+#: src/dialogs/welcome-dialog.xml:367(para)
 msgid ""
 "The changes that have a triangle icon in front of them can be clicked to "
 "show where these changes can be found. Clicking the triangle starts a short "
@@ -626,7 +636,7 @@ msgstr ""
 #: src/dialogs/gradient-dialog.xml:83(para)
 #: src/dialogs/fonts-dialog.xml:39(para) src/dialogs/error-console.xml:25(para)
 #: src/dialogs/document-dialog.xml:37(para)
-#: src/dialogs/device-status-dialog.xml:52(para)
+#: src/dialogs/device-status-dialog.xml:70(para)
 #: src/dialogs/dashboard.xml:34(para) src/dialogs/color-dialog.xml:35(para)
 #: src/dialogs/channel-dialog.xml:130(para)
 #: src/dialogs/buffers-dialog.xml:145(para)
@@ -1315,8 +1325,8 @@ msgid ""
 "personal <acronym>GIMP</acronym> directory. If you want to restore some "
 "deleted templates, you can copy or append template entries to your file from "
 "the master <filename>templaterc</filename> file in the <filename "
-"class=\"directory\">etc/gimp/&gimp.api.version;</filename> directory of "
-"<acronym>GIMP</acronym>'s system folder."
+"class=\"directory\">etc/gimp/</filename> directory of <acronym>GIMP</"
+"acronym>'s system folder."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1416,7 +1426,7 @@ msgstr ""
 #: src/dialogs/tagging.xml:92(para)
 msgid ""
 "To give several brushes the same tag at once, display brushes in List Mode, "
-"and use <keycombo><keycap>Ctrl</keycap><mousebutton>Mouse Left&nbsp;Button</"
+"and use <keycombo><keycap>Ctrl</keycap><mousebutton>Mouse LeftButton</"
 "mousebutton></keycombo> on the brushes you want to select."
 msgstr ""
 
@@ -1600,8 +1610,8 @@ msgstr ""
 
 #: src/dialogs/symmetry-painting.xml:69(title)
 #: src/dialogs/prefs-window-management.xml:56(title)
-#: src/dialogs/prefs-tool-options.xml:46(title)
 #: src/dialogs/prefs-toolbox.xml:46(title)
+#: src/dialogs/prefs-tool-options.xml:46(title)
 #: src/dialogs/prefs-theme.xml:38(title)
 #: src/dialogs/prefs-system-resources.xml:45(title)
 #: src/dialogs/prefs-playground.xml:37(title)
@@ -2123,7 +2133,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/qmask.xml:57(None) src/dialogs/qmask.xml:84(None)
-#: src/dialogs/channel-selection-mask.xml:78(None)
+#: src/dialogs/channel-selection-mask.xml:84(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-quick-mask-off-symbolic.svg'; "
 "md5=94ff9ea6e134cd60da58d4b44bcd05f0"
@@ -2367,12 +2377,12 @@ msgid "Window Management"
 msgstr ""
 
 #: src/dialogs/prefs-window-management.xml:16(secondary)
-#: src/dialogs/prefs-tool-options.xml:12(secondary)
-#: src/dialogs/prefs-tool-options.xml:17(secondary)
 #: src/dialogs/prefs-toolbox.xml:12(secondary)
 #: src/dialogs/prefs-toolbox.xml:17(secondary)
 #: src/dialogs/prefs-toolbox.xml:59(secondary)
 #: src/dialogs/prefs-toolbox.xml:63(secondary)
+#: src/dialogs/prefs-tool-options.xml:12(secondary)
+#: src/dialogs/prefs-tool-options.xml:17(secondary)
 #: src/dialogs/prefs-theme.xml:10(primary)
 #: src/dialogs/prefs-system-resources.xml:11(secondary)
 #: src/dialogs/prefs-playground.xml:8(secondary)
@@ -2444,8 +2454,9 @@ msgid ""
 msgstr ""
 
 #: src/dialogs/prefs-window-management.xml:46(para)
+#: src/dialogs/prefs-toolbox.xml:36(para)
 #: src/dialogs/prefs-tool-options.xml:36(para)
-#: src/dialogs/prefs-toolbox.xml:36(para) src/dialogs/prefs-theme.xml:28(para)
+#: src/dialogs/prefs-theme.xml:28(para)
 #: src/dialogs/prefs-system-resources.xml:35(para)
 #: src/dialogs/prefs-playground.xml:27(para)
 #: src/dialogs/prefs-interface.xml:44(para)
@@ -2594,6 +2605,147 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
+#: src/dialogs/prefs-toolbox.xml:24(None)
+msgid ""
+"@@image: 'images/preferences/prefs-toolbox.png'; "
+"md5=e5d541e23d486aa3fa8ff9b2ae1a63b7"
+msgstr ""
+"@@image: 'images/preferences/prefs-toolbox.png'; "
+"md5=e5d541e23d486aa3fa8ff9b2ae1a63b7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/dialogs/prefs-toolbox.xml:51(None)
+msgid ""
+"@@image: 'images/using/toolbox-description.png'; "
+"md5=1070ece808d17af8e0fabb449b8b858e"
+msgstr ""
+"@@image: 'images/using/toolbox-description.png'; "
+"md5=1070ece808d17af8e0fabb449b8b858e"
+
+#: src/dialogs/prefs-toolbox.xml:8(title)
+#: src/dialogs/prefs-toolbox.xml:13(tertiary)
+#: src/dialogs/prefs-toolbox.xml:16(primary)
+#: src/dialogs/prefs-toolbox.xml:125(primary)
+msgid "Toolbox"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:21(title)
+msgid "Toolbox Preferences"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:28(para)
+msgid ""
+"This page lets you customize the appearance of the Toolbox, by deciding "
+"whether the three <quote>context information</quote> areas should be shown "
+"at the bottom."
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:48(title)
+msgid "Default Toolbox appearance"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:56(title)
+msgid "Appearance"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:58(primary)
+msgid "Color area"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:62(primary)
+msgid "Brush, Pattern, Gradient area"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:67(secondary)
+msgid "Active Image Thumbnail"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:70(term)
+msgid "Show GIMP logo (drag-and-drop target)"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:72(para)
+msgid ""
+"You can click-drag-and-drop an image from a file browser into this area (1) "
+"or into the tool icons (2) to open it."
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:79(term)
+msgid "Show foreground &amp; background color"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:81(para)
+msgid "Controls whether the color area on the left (3) appears in the Toolbox."
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:88(term)
+msgid "Show active brush, pattern &amp; gradient"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:90(para)
+msgid ""
+"Controls whether the area in the center (4), with the brush, pattern, and "
+"gradient icons, appears in the Toolbox."
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:97(term)
+msgid "Show active image"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:99(para)
+msgid ""
+"Controls whether a preview of the currently active image appears on the "
+"right (5)."
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:108(para)
+msgid ""
+"By default, tools (2) in the toolbox are grouped together to save space. A "
+"different tool in a group can be selected by hovering or long-clicking on a "
+"group. When you prefer to have all tools available directly, instead of in "
+"groups, disable this setting."
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:115(para)
+msgid "See also <xref linkend=\"gimp-toolbox-icons\"/>."
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:123(title)
+msgid "Tools configuration"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:126(secondary)
+msgid "Configuration"
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:131(para)
+msgid ""
+"In this list, tools with an eye are present in the Toolbox. Tools that have "
+"no eye can be added to the Toolbox by clicking the corresponding checkbox."
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:140(para)
+msgid ""
+"<emphasis role=\"bold\">Move groups</emphasis> by using drag-and-drop or the "
+"arrow buttons at the bottom of the dialog."
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:147(para)
+msgid ""
+"<emphasis role=\"bold\">Create a new group</emphasis> by using the "
+"<guibutton>Create a new tool group</guibutton> at the bottom of the dialog. "
+"This tool group is created empty."
+msgstr ""
+
+#: src/dialogs/prefs-toolbox.xml:136(para)
+msgid ""
+"By default, tools are grouped. You can: <placeholder-1/> Changes take effect "
+"immediately."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/prefs-tool-options.xml:25(None)
 msgid ""
 "@@image: 'images/preferences/prefs-tool-options.png'; "
@@ -2735,147 +2887,6 @@ msgid ""
 "By default, the <link linkend=\"gimp-tool-move\">Move Tool</link> does not "
 "change which layers or paths are selected. When you enable this setting, the "
 "layer or path you are moving is set as the active layer or path."
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/prefs-toolbox.xml:24(None)
-msgid ""
-"@@image: 'images/preferences/prefs-toolbox.png'; "
-"md5=e5d541e23d486aa3fa8ff9b2ae1a63b7"
-msgstr ""
-"@@image: 'images/preferences/prefs-toolbox.png'; "
-"md5=e5d541e23d486aa3fa8ff9b2ae1a63b7"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/prefs-toolbox.xml:51(None)
-msgid ""
-"@@image: 'images/using/toolbox-description.png'; "
-"md5=1070ece808d17af8e0fabb449b8b858e"
-msgstr ""
-"@@image: 'images/using/toolbox-description.png'; "
-"md5=1070ece808d17af8e0fabb449b8b858e"
-
-#: src/dialogs/prefs-toolbox.xml:8(title)
-#: src/dialogs/prefs-toolbox.xml:13(tertiary)
-#: src/dialogs/prefs-toolbox.xml:16(primary)
-#: src/dialogs/prefs-toolbox.xml:125(primary)
-msgid "Toolbox"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:21(title)
-msgid "Toolbox Preferences"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:28(para)
-msgid ""
-"This page lets you customize the appearance of the Toolbox, by deciding "
-"whether the three <quote>context information</quote> areas should be shown "
-"at the bottom."
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:48(title)
-msgid "Default Toolbox appearance"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:56(title)
-msgid "Appearance"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:58(primary)
-msgid "Color area"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:62(primary)
-msgid "Brush, Pattern, Gradient area"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:67(secondary)
-msgid "Active Image Thumbnail"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:70(term)
-msgid "Show GIMP logo (drag-and-drop target)"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:72(para)
-msgid ""
-"You can click-drag-and-drop an image from a file browser into this area (1) "
-"or into the tool icons (2) to open it."
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:79(term)
-msgid "Show foreground &amp; background color"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:81(para)
-msgid "Controls whether the color area on the left (3) appears in the Toolbox."
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:88(term)
-msgid "Show active brush, pattern &amp; gradient"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:90(para)
-msgid ""
-"Controls whether the area in the center (4), with the brush, pattern, and "
-"gradient icons, appears in the Toolbox."
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:97(term)
-msgid "Show active image"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:99(para)
-msgid ""
-"Controls whether a preview of the currently active image appears on the "
-"right (5)."
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:108(para)
-msgid ""
-"By default, tools (2) in the toolbox are grouped together to save space. A "
-"different tool in a group can be selected by hovering or long-clicking on a "
-"group. When you prefer to have all tools available directly, instead of in "
-"groups, disable this setting."
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:115(para)
-msgid "See also <xref linkend=\"gimp-toolbox-icons\"/>."
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:123(title)
-msgid "Tools configuration"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:126(secondary)
-msgid "Configuration"
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:131(para)
-msgid ""
-"In this list, tools with an eye are present in the Toolbox. Tools that have "
-"no eye can be added to the Toolbox by clicking the corresponding checkbox."
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:140(para)
-msgid ""
-"<emphasis role=\"bold\">Move groups</emphasis> by using drag-and-drop or the "
-"arrow buttons at the bottom of the dialog."
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:147(para)
-msgid ""
-"<emphasis role=\"bold\">Create a new group</emphasis> by using the "
-"<guibutton>Create a new tool group</guibutton> at the bottom of the dialog. "
-"This tool group is created empty."
-msgstr ""
-
-#: src/dialogs/prefs-toolbox.xml:136(para)
-msgid ""
-"By default, tools are grouped. You can: <placeholder-1/> Changes take effect "
-"immediately."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -4048,7 +4059,6 @@ msgid "Zoom"
 msgstr "Yakınlaştır"
 
 #: src/dialogs/prefs-image-window.xml:59(primary)
-#: src/dialogs/import-file-formats.xml:84(term)
 #: src/dialogs/edit-template-dialog.xml:64(term)
 msgid "Image size"
 msgstr ""
@@ -6305,7 +6315,7 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/path-dialog.xml:416(None)
 #: src/dialogs/indexed-palette-dialog.xml:270(None)
-#: src/dialogs/channel-selection-mask.xml:117(None)
+#: src/dialogs/channel-selection-mask.xml:123(None)
 #: src/dialogs/channel-dialog.xml:574(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-selection.svg'; "
@@ -8881,19 +8891,55 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/layer-mask.xml:136(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/dialogs/examples/layer-mask-1.png'; "
+#| "md5=ec58a8ed79aadafe8bc5a3cbc7807e9f"
 msgid ""
-"@@image: 'images/dialogs/examples/layer-mask-1.png'; "
-"md5=ec58a8ed79aadafe8bc5a3cbc7807e9f"
+"@@image: 'images/dialogs/examples/layer-mask-1-example.png'; "
+"md5=2b19e28eccebf3802acdd4c921577270"
 msgstr ""
 "@@image: 'images/dialogs/examples/layer-mask-1.png'; "
 "md5=ec58a8ed79aadafe8bc5a3cbc7807e9f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/layer-mask.xml:153(None)
+#: src/dialogs/layer-mask.xml:147(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/dialogs/examples/layer-mask-1.png'; "
+#| "md5=ec58a8ed79aadafe8bc5a3cbc7807e9f"
 msgid ""
+"@@image: 'images/dialogs/examples/layer-mask-1-dialog.png'; "
+"md5=81706fc39bf84c5586a3169dc6ad871e"
+msgstr ""
+"@@image: 'images/dialogs/examples/layer-mask-1.png'; "
+"md5=ec58a8ed79aadafe8bc5a3cbc7807e9f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/dialogs/layer-mask.xml:164(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/dialogs/examples/layer-mask-2.png'; "
+#| "md5=5a37aed15a5a90295407983aee472800"
+msgid ""
+"@@image: 'images/dialogs/examples/layer-mask-2-example.png'; "
+"md5=6d911566f222ab3e02d71701896df9f7"
+msgstr ""
 "@@image: 'images/dialogs/examples/layer-mask-2.png'; "
 "md5=5a37aed15a5a90295407983aee472800"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/dialogs/layer-mask.xml:175(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/dialogs/examples/layer-mask-2.png'; "
+#| "md5=5a37aed15a5a90295407983aee472800"
+msgid ""
+"@@image: 'images/dialogs/examples/layer-mask-2-dialog.png'; "
+"md5=ae9a95fcdfb5ba8e9ba69226d9684a65"
 msgstr ""
 "@@image: 'images/dialogs/examples/layer-mask-2.png'; "
 "md5=5a37aed15a5a90295407983aee472800"
@@ -9026,21 +9072,28 @@ msgid "A layer with layer mask"
 msgstr ""
 
 #: src/dialogs/layer-mask.xml:139(para)
-msgid ""
-"This image has a background layer with a flower and another blue layer, "
-"fully opaque. A white layer mask has been added to the blue layer. In the "
-"image window, the blue layer remains visible because a white mask makes "
-"layer pixels visible."
+msgid "Original image."
 msgstr ""
 
-#: src/dialogs/layer-mask.xml:149(title)
+#: src/dialogs/layer-mask.xml:150(para)
+msgid ""
+"This image has a background layer with a flower and another blue layer, "
+"fully opaque. A white layer mask has been added to the blue layer. The blue "
+"layer remains visible because a white mask makes layer pixels visible."
+msgstr ""
+
+#: src/dialogs/layer-mask.xml:160(title)
 msgid "Painting the layer mask"
 msgstr ""
 
-#: src/dialogs/layer-mask.xml:156(para)
+#: src/dialogs/layer-mask.xml:167(para)
+msgid "Foreground color set to black; Resulting image."
+msgstr ""
+
+#: src/dialogs/layer-mask.xml:178(para)
 msgid ""
-"The layer mask is active. You paint with black color, which makes the layer "
-"transparent: the underlying layer becomes visible."
+"The layer mask is active. Painting with black makes the layer transparent: "
+"the underlying layer becomes visible."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -10477,22 +10530,30 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/import-file-formats.xml:41(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/dialogs/import-pdf-dialog.png'; "
+#| "md5=be53da605e558c3463eb84287e02fd56"
 msgid ""
 "@@image: 'images/dialogs/import-pdf-dialog.png'; "
-"md5=be53da605e558c3463eb84287e02fd56"
+"md5=e05be4b73e9320db1aba545c107d7acd"
 msgstr ""
 "@@image: 'images/dialogs/import-pdf-dialog.png'; "
 "md5=be53da605e558c3463eb84287e02fd56"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/import-file-formats.xml:145(None)
+#: src/dialogs/import-file-formats.xml:159(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/dialogs/import-pdf-dialog.png'; "
+#| "md5=be53da605e558c3463eb84287e02fd56"
 msgid ""
 "@@image: 'images/dialogs/import-ps-dialog.png'; "
-"md5=072059863b794c6d96d2b02f5bc968ad"
+"md5=3354cf21a74655d40ef464a8830f857b"
 msgstr ""
-"@@image: 'images/dialogs/import-ps-dialog.png'; "
-"md5=072059863b794c6d96d2b02f5bc968ad"
+"@@image: 'images/dialogs/import-pdf-dialog.png'; "
+"md5=be53da605e558c3463eb84287e02fd56"
 
 #: src/dialogs/import-file-formats.xml:6(title)
 #: src/dialogs/import-file-formats.xml:9(primary)
@@ -10525,7 +10586,8 @@ msgid "Import PDF Image"
 msgstr ""
 
 #: src/dialogs/import-file-formats.xml:32(primary)
-#: src/dialogs/import-file-formats.xml:136(primary)
+#: src/dialogs/import-file-formats.xml:146(primary)
+#: src/dialogs/import-file-formats.xml:150(primary)
 #: src/dialogs/file-webp-export.xml:14(primary)
 #: src/dialogs/file-tiff-export.xml:14(primary)
 #: src/dialogs/file-png-export.xml:16(primary)
@@ -10541,27 +10603,17 @@ msgstr ""
 
 #: src/dialogs/import-file-formats.xml:46(para)
 msgid ""
-"If you select a PDF file to open, GIMP will show an extra dialog with "
-"options specific to this file type."
+"If you open a PDF file in <acronym>GIMP</acronym>, a dialog opens where you "
+"can set how the PDF should be loaded."
 msgstr ""
 
 #: src/dialogs/import-file-formats.xml:52(term)
-msgid "Page selection"
-msgstr ""
-
-#: src/dialogs/import-file-formats.xml:54(para)
-msgid ""
-"You can select pages by typing one or more page numbers or ranges, separated "
-"by commas. For example, <userinput>4-7,9</userinput> selects pages 4, 5, 6, "
-"7, and 9 of the document. The default is to select all of the pages in the "
-"document."
-msgstr ""
-
-#: src/dialogs/import-file-formats.xml:63(term)
+#: src/dialogs/import-file-formats.xml:171(term)
 msgid "Open pages as"
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:65(para)
+#: src/dialogs/import-file-formats.xml:54(para)
+#: src/dialogs/import-file-formats.xml:173(para)
 msgid ""
 "If this is set to <guilabel>Images</guilabel>, then GIMP will open each of "
 "the selected pages as a separate image. If it is set to <guilabel>Layers</"
@@ -10569,22 +10621,52 @@ msgid ""
 "in its own layer."
 msgstr ""
 
+#: src/dialogs/import-file-formats.xml:63(term)
+#: src/dialogs/import-file-formats.xml:182(term)
+msgid "Select range"
+msgstr ""
+
+#: src/dialogs/import-file-formats.xml:65(para)
+#: src/dialogs/import-file-formats.xml:184(para)
+msgid ""
+"You can select pages by typing one or more page numbers or ranges, separated "
+"by commas. For example, <userinput>4-7,9</userinput> selects pages 4, 5, 6, "
+"7, and 9 of the document. The default is to select all of the pages in the "
+"document."
+msgstr ""
+
 #: src/dialogs/import-file-formats.xml:74(term)
-msgid "Load in reverse order"
+#: src/dialogs/import-file-formats.xml:193(term)
+#: src/dialogs/error-console.xml:156(term)
+msgid "Select All"
 msgstr ""
 
 #: src/dialogs/import-file-formats.xml:76(para)
-msgid ""
-"By default the first page is loaded first, meaning it will become the bottom "
-"layer. If you check this option, the first page will be loaded last and "
-"become the top-most layer."
+#: src/dialogs/import-file-formats.xml:195(para)
+msgid "Use this button to select all pages in the document."
+msgstr ""
+
+#: src/dialogs/import-file-formats.xml:82(term)
+#: src/dialogs/import-file-formats.xml:201(term)
+msgid "Width"
+msgstr ""
+
+#: src/dialogs/import-file-formats.xml:83(term)
+#: src/dialogs/import-file-formats.xml:202(term)
+msgid "Height"
+msgstr ""
+
+#: src/dialogs/import-file-formats.xml:84(term)
+#: src/dialogs/import-file-formats.xml:203(term)
+msgid "Resolution"
 msgstr ""
 
 #: src/dialogs/import-file-formats.xml:86(para)
+#: src/dialogs/import-file-formats.xml:205(para)
 msgid ""
 "The size of the image created is controlled by the <guilabel>Width</"
 "guilabel>, <guilabel>Height</guilabel>, and <guilabel>Resolution</guilabel> "
-"settings. A PDF document contains information about its width and height in "
+"settings. Each document contains information about its width and height in "
 "units of physical length so it is meaningful to set the width or height of "
 "the image in pixels or its resolution in pixels per physical unit of length: "
 "as you set any of these three parameters, the other two will automatically "
@@ -10592,79 +10674,93 @@ msgid ""
 msgstr ""
 
 #: src/dialogs/import-file-formats.xml:99(term)
-msgid "Use Anti-aliasing"
+msgid "Load in reverse order"
 msgstr ""
 
 #: src/dialogs/import-file-formats.xml:101(para)
 msgid ""
-"Check this box to apply <link linkend=\"glossary-"
-"antialiasing\">antialiasing</link> to text in the image."
+"By default the first page is loaded first, meaning it will become the bottom "
+"layer. If you check this option, the first page will be loaded last and "
+"become the top-most layer."
 msgstr ""
 
 #: src/dialogs/import-file-formats.xml:109(term)
-msgid "Fill transparent areas with white"
+msgid "Use Anti-aliasing"
 msgstr ""
 
 #: src/dialogs/import-file-formats.xml:111(para)
+msgid ""
+"Check this box to apply <link linkend=\"glossary-antialiasing\">anti-"
+"aliasing</link> to text in the image."
+msgstr ""
+
+#: src/dialogs/import-file-formats.xml:119(term)
+msgid "Fill transparent areas with white"
+msgstr ""
+
+#: src/dialogs/import-file-formats.xml:121(para)
 msgid ""
 "When checked, all transparent areas in PDF pages will be filled with white. "
 "When unchecked, transparent areas will stay transparent."
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:121(title)
+#: src/dialogs/import-file-formats.xml:131(title)
 msgid "Import from PostScript"
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:124(primary)
+#: src/dialogs/import-file-formats.xml:134(primary)
 msgid "Postscript"
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:127(primary)
+#: src/dialogs/import-file-formats.xml:137(primary)
 msgid ".ps"
 msgstr ".ps"
 
-#: src/dialogs/import-file-formats.xml:130(primary)
+#: src/dialogs/import-file-formats.xml:140(primary)
 msgid ".eps"
 msgstr ".eps"
 
-#: src/dialogs/import-file-formats.xml:133(primary)
+#: src/dialogs/import-file-formats.xml:143(primary)
 msgid "Import Postscript Image"
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:137(secondary)
+#: src/dialogs/import-file-formats.xml:147(secondary)
 msgid "PS"
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:141(title)
+#: src/dialogs/import-file-formats.xml:151(secondary)
+msgid "EPS"
+msgstr ""
+
+#: src/dialogs/import-file-formats.xml:155(title)
 msgid "The Postscript Import dialog"
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:150(para)
+#: src/dialogs/import-file-formats.xml:164(para)
 msgid ""
-"If you select a PostScript file to open, GIMP will show an extra dialog with "
-"options specific to this file type."
+"If you open a PostScript file in <acronym>GIMP</acronym>, a dialog opens "
+"where you can set how the file should be loaded. Note: the page selection "
+"settings only appear when there are at least two pages in the document."
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:156(term)
-msgid "Rendering"
+#: src/dialogs/import-file-formats.xml:218(term)
+msgid "Try Bounding Box"
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:158(para)
+#: src/dialogs/import-file-formats.xml:220(para)
 msgid ""
-"The size of the image created is controlled by the <guilabel>Width</"
-"guilabel>, <guilabel>Height</guilabel>, and <guilabel>Resolution</guilabel> "
-"settings. A PostScript document contains information about its width and "
-"height in units of physical length so it is meaningful to set the width or "
-"height of the image in pixels or its resolution in pixels per physical unit "
-"of length: as you set any of these three parameters, the other two will "
-"automatically adjust to match."
+"If this is checked, GIMP will use the bounding box information in the "
+"PostScript file to determine how much of the page to use: effectively, this "
+"is equivalent to cropping whitespace from the edges of the image. It is "
+"possible for a PostScript file to contain no bounding box information, in "
+"which case this option will be ignored."
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:171(term)
+#: src/dialogs/import-file-formats.xml:231(term)
 msgid "Coloring"
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:173(para)
+#: src/dialogs/import-file-formats.xml:233(para)
 msgid ""
 "Select <guilabel>B/W</guilabel> to have GIMP create the image as a 2-color "
 "indexed image, <guilabel>Gray</guilabel> for a grayscale image, or "
@@ -10674,54 +10770,21 @@ msgid ""
 "determine the most suitable mode from the contents of the file."
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:186(term)
-msgid "Try Bounding Box"
+#: src/dialogs/import-file-formats.xml:246(term)
+msgid "Text anti-aliasing"
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:188(para)
-msgid ""
-"If this is checked, GIMP will use the bounding box information in the "
-"PostScript file to determine how much of the page to use: effectively, this "
-"is equivalent to cropping whitespace from the edges of the image. It is "
-"possible for a PostScript file to contain no bounding box information, in "
-"which case this option will be ignored."
+#: src/dialogs/import-file-formats.xml:247(term)
+msgid "Graphic anti-aliasing"
 msgstr ""
 
-#: src/dialogs/import-file-formats.xml:199(term)
-msgid "Pages"
-msgstr ""
-
-#: src/dialogs/import-file-formats.xml:201(para)
-msgid ""
-"You can select pages by typing one or more page numbers or ranges, separated "
-"by commas. For example, <userinput>4-7,9</userinput> selects pages 4, 5, 6, "
-"7, and 9 of the document. The default is to select all of the pages in the "
-"document. Note: this is only visible if there is more than one page."
-msgstr ""
-
-#: src/dialogs/import-file-formats.xml:211(term)
-msgid "Open as"
-msgstr ""
-
-#: src/dialogs/import-file-formats.xml:213(para)
-msgid ""
-"If this is set to <guilabel>Images</guilabel>, then GIMP will open each of "
-"the selected pages as a separate image. If it is set to <guilabel>Layers</"
-"guilabel>, then GIMP will create one image with each of the selected pages "
-"in its own layer. Note: this is only visible if there is more than one page."
-msgstr ""
-
-#: src/dialogs/import-file-formats.xml:223(term)
-msgid "Antialiasing"
-msgstr ""
-
-#: src/dialogs/import-file-formats.xml:225(para)
+#: src/dialogs/import-file-formats.xml:249(para)
 msgid ""
 "You can choose to have GIMP apply <link linkend=\"glossary-"
-"antialiasing\">antialiasing</link> separately for text and for graphics in "
-"the imported image. Either <guilabel>Weak</guilabel> or <guilabel>Strong</"
-"guilabel> antialiasing may be applied: usually you should select <guilabel> "
-"Strong</guilabel>."
+"antialiasing\">anti-aliasing</link> separately for text and for graphics in "
+"the imported image. Choices are <guilabel>None</guilabel>, <guilabel>Weak</"
+"guilabel> and <guilabel>Strong</guilabel>. It determines how much anti-"
+"aliasing is applied: usually you should select <guilabel>Strong</guilabel>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -11106,9 +11169,8 @@ msgstr ""
 #: src/dialogs/histogram-dialog.xml:174(para)
 msgid ""
 "This shows the distribution of opacity levels. If the layer is completely "
-"transparent (alpha&nbsp;=&nbsp;0) or completely opaque "
-"(alpha&nbsp;=&nbsp;255), the histogram will consist of a single bar on the "
-"left or right edge."
+"transparent (alpha=0) or completely opaque (alpha=255), the histogram will "
+"consist of a single bar on the left or right edge."
 msgstr ""
 
 #: src/dialogs/histogram-dialog.xml:183(term)
@@ -11910,15 +11972,15 @@ msgstr ""
 #: src/dialogs/gradient-dialog.xml:33(para)
 msgid ""
 "The <quote>Gradients</quote> dialog offers a gradient palette which is used "
-"to select a gradient &mdash; a set of colors arranged in a linear scale "
-"&mdash; for use with the <link linkend=\"gimp-tool-gradient\">Gradient tool</"
-"link> and numerous other operations. It also gives you access to several "
-"functions for manipulating gradients. You can select a gradient by clicking "
-"on it in the list: it will then be shown in the Brush/Pattern/Gradient area "
-"of the Toolbox. A few dozen nice gradients come pre-installed with GIMP. You "
-"can create more using the <link linkend=\"gimp-gradient-editor-"
-"dialog\">Gradient Editor</link>. General information about gradients and how "
-"they are used in GIMP can be found in the <link linkend=\"gimp-concepts-"
+"to select a gradient a set of colors arranged in a linear scale for use with "
+"the <link linkend=\"gimp-tool-gradient\">Gradient tool</link> and numerous "
+"other operations. It also gives you access to several functions for "
+"manipulating gradients. You can select a gradient by clicking on it in the "
+"list: it will then be shown in the Brush/Pattern/Gradient area of the "
+"Toolbox. A few dozen nice gradients come pre-installed with GIMP. You can "
+"create more using the <link linkend=\"gimp-gradient-editor-dialog\">Gradient "
+"Editor</link>. General information about gradients and how they are used in "
+"GIMP can be found in the <link linkend=\"gimp-concepts-"
 "gradients\">Gradients</link> section."
 msgstr ""
 
@@ -12877,9 +12939,13 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/file-jpeg-export.xml:37(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/dialogs/export-jpeg-dialog.png'; "
+#| "md5=700b623b68ba0afca2e181ff7f7846ce"
 msgid ""
 "@@image: 'images/dialogs/export-jpeg-dialog.png'; "
-"md5=700b623b68ba0afca2e181ff7f7846ce"
+"md5=1faf9f0bb7a36a97d23121c77024b284"
 msgstr ""
 "@@image: 'images/dialogs/export-jpeg-dialog.png'; "
 "md5=700b623b68ba0afca2e181ff7f7846ce"
@@ -13672,7 +13738,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/error-console.xml:104(None)
-#: src/dialogs/device-status-dialog.xml:40(None)
+#: src/dialogs/device-status-dialog.xml:58(None)
 msgid ""
 "@@image: 'images/stock-icons/document-save-as.svg'; "
 "md5=d2e7c2fba3ebb3171e1a15bac14a13ee"
@@ -13765,10 +13831,6 @@ msgid ""
 "Besides the functions mentioned above using the buttons, the context menu "
 "has the following additional actions. You can access the context menu by "
 "right clicking in the error console."
-msgstr ""
-
-#: src/dialogs/error-console.xml:156(term)
-msgid "Select All"
 msgstr ""
 
 #: src/dialogs/error-console.xml:159(para)
@@ -14120,7 +14182,7 @@ msgstr ""
 msgid ""
 "Fill the image with <guilabel>Transparency</guilabel>. If you choose this "
 "option, the image is created with an <link linkend=\"glossary-alpha-"
-"channel\">alpha&nbsp;channel</link> and the background is transparent. The "
+"channel\">alphachannel</link> and the background is transparent. The "
 "transparent parts of the image are then displayed with a checkered pattern, "
 "to indicate the transparency."
 msgstr ""
@@ -14295,6 +14357,22 @@ msgid ""
 "the default File Manager on your system."
 msgstr ""
 
+#: src/dialogs/dialogs_introduction.xml:8(title)
+msgid "Dialog Introduction"
+msgstr ""
+
+#: src/dialogs/dialogs_introduction.xml:11(secondary)
+#: src/dialogs/dialogs-preferences.xml:17(title)
+msgid "Introduction"
+msgstr ""
+
+#: src/dialogs/dialogs_introduction.xml:13(para)
+msgid ""
+"Dialogs are the most common means of setting options and controls in "
+"<acronym>GIMP</acronym>. The most important dialogs are explained in this "
+"section."
+msgstr ""
+
 #: src/dialogs/dialogs-structure.xml:8(title)
 msgid "Image Structure Related Dialogs"
 msgstr ""
@@ -14319,11 +14397,6 @@ msgstr ""
 
 #: src/dialogs/dialogs-preferences.xml:7(title)
 msgid "Preferences Dialog"
-msgstr ""
-
-#: src/dialogs/dialogs-preferences.xml:17(title)
-#: src/dialogs/dialogs_introduction.xml:11(secondary)
-msgid "Introduction"
 msgstr ""
 
 #: src/dialogs/dialogs-preferences.xml:19(title)
@@ -14359,17 +14432,6 @@ msgstr ""
 msgid "Image Management Related Dialogs"
 msgstr ""
 
-#: src/dialogs/dialogs_introduction.xml:8(title)
-msgid "Dialog Introduction"
-msgstr ""
-
-#: src/dialogs/dialogs_introduction.xml:13(para)
-msgid ""
-"Dialogs are the most common means of setting options and controls in "
-"<acronym>GIMP</acronym>. The most important dialogs are explained in this "
-"section."
-msgstr ""
-
 #: src/dialogs/dialogs-file.xml:5(title)
 msgid "File related Dialogs"
 msgstr ""
@@ -14387,9 +14449,13 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/device-status-dialog.xml:22(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/dialogs/device-status.png'; "
+#| "md5=e46f8762ff3cb4c79ea6712768efc15c"
 msgid ""
 "@@image: 'images/dialogs/device-status.png'; "
-"md5=e46f8762ff3cb4c79ea6712768efc15c"
+"md5=6c3266b0068286b8aa8c3922ecf2f493"
 msgstr ""
 "@@image: 'images/dialogs/device-status.png'; "
 "md5=e46f8762ff3cb4c79ea6712768efc15c"
@@ -14409,16 +14475,37 @@ msgstr ""
 
 #: src/dialogs/device-status-dialog.xml:26(para)
 msgid ""
-"This window gathers together the current options of Toolbox, for each of "
-"your input devices: the mouse (named <quote>Core pointer</quote>) or either "
-"the tablet, if you have one. These options are represented by icons: "
-"foreground and background colors, brush, pattern and gradient. Excepted for "
-"colors, clicking on an icon opens the window which lets you select another "
-"option; the tool-box will be updated when changing. You can drag and drop "
-"items to this dialog."
+"This window gathers together the current tool settings for each of your "
+"input devices: the mouse (named <quote>Virtual Core pointer</quote>), "
+"drawing tablets (usually shown as two devices: a pen and an eraser), or "
+"other pointing devices."
 msgstr ""
 
-#: src/dialogs/device-status-dialog.xml:35(para)
+#: src/dialogs/device-status-dialog.xml:32(para)
+msgid ""
+"For each device several icons are shown that represent the current settings: "
+"the active tool, the foreground and background colors, and the active brush, "
+"pattern and gradient for that device. By clicking on an icon of one of the "
+"resources its dialog will open, which lets you change the active resource. "
+"You can drag and drop items from this dialog to the image window."
+msgstr ""
+
+#: src/dialogs/device-status-dialog.xml:39(para)
+msgid ""
+"Some users prefer to have all devices share the same tool settings. This is "
+"possible by changing the <guilabel>Share tool and tool options between input "
+"devices</guilabel> setting in the <link linkend=\"gimp-prefs-input-"
+"devices\">Input devices</link> tab of the Preferences dialog."
+msgstr ""
+
+#: src/dialogs/device-status-dialog.xml:47(para)
+msgid ""
+"There is a known issue on Windows that causes switching between devices not "
+"to work. This means that all setting changes are shown on the "
+"<guilabel>Virtual Core Pointer</guilabel> device settings."
+msgstr ""
+
+#: src/dialogs/device-status-dialog.xml:53(para)
 msgid ""
 "The <guibutton>Save device status</guibutton> button <placeholder-1/> at the "
 "bottom of the window performs the same action as the <guibutton>Save Input "
@@ -14426,14 +14513,14 @@ msgid ""
 "input-devices\">Input Devices</link> section of the preferences."
 msgstr ""
 
-#: src/dialogs/device-status-dialog.xml:59(para)
+#: src/dialogs/device-status-dialog.xml:77(para)
 msgid ""
 "From the main menu: <menuchoice><guimenu>Windows</"
 "guimenu><guisubmenu>Dockable Dialogs</guisubmenu><guimenuitem>Device Status</"
 "guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/dialogs/device-status-dialog.xml:69(para)
+#: src/dialogs/device-status-dialog.xml:87(para)
 msgid ""
 "From the Tab menu in any dialog: <menuchoice><guimenu>Add a Dock</"
 "guimenu><guimenuitem>Device Status</guimenuitem></menuchoice>"
@@ -15062,9 +15149,27 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/channel-selection-mask.xml:39(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/dialogs/channel-masks-example.png'; "
+#| "md5=7215786652dc2ee34142672900a5856a"
 msgid ""
+"@@image: 'images/dialogs/channel-masks-example-dialog.png'; "
+"md5=ae105f73a24f3694275e889a120940fa"
+msgstr ""
 "@@image: 'images/dialogs/channel-masks-example.png'; "
 "md5=7215786652dc2ee34142672900a5856a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/dialogs/channel-selection-mask.xml:45(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/dialogs/channel-masks-example.png'; "
+#| "md5=7215786652dc2ee34142672900a5856a"
+msgid ""
+"@@image: 'images/dialogs/channel-masks-example-example.png'; "
+"md5=cc5335ba2ed5c4ff2ba0216316ce02b3"
 msgstr ""
 "@@image: 'images/dialogs/channel-masks-example.png'; "
 "md5=7215786652dc2ee34142672900a5856a"
@@ -15096,7 +15201,7 @@ msgstr ""
 msgid "A selection composed out of channels."
 msgstr ""
 
-#: src/dialogs/channel-selection-mask.xml:43(para)
+#: src/dialogs/channel-selection-mask.xml:49(para)
 msgid ""
 "Channels can be used to save and restore your selections. In the Channels "
 "dialog you can see a thumbnail representing the selection. Selection Masks "
@@ -15108,24 +15213,24 @@ msgid ""
 "or when you erase its content after isolating a subject from background."
 msgstr ""
 
-#: src/dialogs/channel-selection-mask.xml:57(term)
+#: src/dialogs/channel-selection-mask.xml:63(term)
 msgid "Creating Selection Masks"
 msgstr ""
 
-#: src/dialogs/channel-selection-mask.xml:63(para)
+#: src/dialogs/channel-selection-mask.xml:69(para)
 msgid ""
 "From the main menu <menuchoice><guimenu>Select</guimenu><guimenuitem>Save to "
 "Channel</guimenuitem></menuchoice> if there is an active selection."
 msgstr ""
 
-#: src/dialogs/channel-selection-mask.xml:73(para)
+#: src/dialogs/channel-selection-mask.xml:79(para)
 msgid ""
 "In the image window the bottom-left <placeholder-1/> button creates a <link "
 "linkend=\"gimp-quick-mask\">Quick Mask</link>; the content will be "
 "initialized with the active selection."
 msgstr ""
 
-#: src/dialogs/channel-selection-mask.xml:88(para)
+#: src/dialogs/channel-selection-mask.xml:94(para)
 msgid ""
 "From the Channels dialog, when you click on the <guilabel>New channel</"
 "guilabel> button or from the context menu. When created, this Selection mask "
@@ -15134,15 +15239,15 @@ msgid ""
 "by right-clicking on the channel."
 msgstr ""
 
-#: src/dialogs/channel-selection-mask.xml:59(para)
+#: src/dialogs/channel-selection-mask.xml:65(para)
 msgid "There are several ways to initialize a selection mask. <placeholder-1/>"
 msgstr ""
 
-#: src/dialogs/channel-selection-mask.xml:104(title)
+#: src/dialogs/channel-selection-mask.xml:110(title)
 msgid "Using Selection Masks"
 msgstr ""
 
-#: src/dialogs/channel-selection-mask.xml:105(para)
+#: src/dialogs/channel-selection-mask.xml:111(para)
 msgid ""
 "Once the channel is initialized, selected (highlighted in blue), visible "
 "(eye-icon in the dialog), and displayed as you want (color and opacity "
@@ -15155,7 +15260,7 @@ msgid ""
 "linkend=\"gimp-channel-menu\">context menu</link>."
 msgstr ""
 
-#: src/dialogs/channel-selection-mask.xml:125(para)
+#: src/dialogs/channel-selection-mask.xml:131(para)
 msgid ""
 "You can work in selection masks not only with the paint tool but also with "
 "other tools. For instance, you can use the selection tools to fill areas "
@@ -15164,7 +15269,7 @@ msgid ""
 "selection mask is to a selection as a layer is to an image."
 msgstr ""
 
-#: src/dialogs/channel-selection-mask.xml:134(para)
+#: src/dialogs/channel-selection-mask.xml:140(para)
 msgid ""
 "As long as a selection mask is activated you are working in the mask and not "
 "in the image. To work in the image you have to deactivate all selection "
@@ -16586,5 +16691,11 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/dialogs/brushes-dialog.xml:0(None)
 msgid "translator-credits"
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+msgstr ""
+
+#~ msgid ""
+#~ "@@image: 'images/dialogs/import-ps-dialog.png'; "
+#~ "md5=072059863b794c6d96d2b02f5bc968ad"
+#~ msgstr ""
+#~ "@@image: 'images/dialogs/import-ps-dialog.png'; "
+#~ "md5=072059863b794c6d96d2b02f5bc968ad"
