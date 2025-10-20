@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-07-15 08:40+0000\n"
 "PO-Revision-Date: 2025-10-06 23:30+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -432,9 +432,7 @@ msgid ""
 msgstr ""
 
 #: src/filters/generic/gegl-styles.xml:98(term)
-#, fuzzy
-#| msgid "Color, Outline, Shadow"
-msgid "Color, Outline and Shadow"
+msgid "Color, Outline, Shadow"
 msgstr "Renk, Ana Hat ve Gölge"
 
 #: src/filters/generic/gegl-styles.xml:100(para)
@@ -549,9 +547,7 @@ msgid "This determines the size of the outline."
 msgstr "Bu, anahat boyutunu belirler."
 
 #: src/filters/generic/gegl-styles.xml:204(term)
-#, fuzzy
-#| msgid "Outline's Color"
-msgid "Outline's color"
+msgid "Outline's Color"
 msgstr "Anahat rengi"
 
 #: src/filters/generic/gegl-styles.xml:206(para)
@@ -583,9 +579,7 @@ msgid "These control the location where the shadow glow starts."
 msgstr "Bunlar gölge parıltısının başladığı konumu denetler."
 
 #: src/filters/generic/gegl-styles.xml:237(term)
-#, fuzzy
-#| msgid "Shadow/Glow's Color"
-msgid "Shadow/Glow's color"
+msgid "Shadow/Glow's Color"
 msgstr "Gölge/Parıltı rengi"
 
 #: src/filters/generic/gegl-styles.xml:239(para)
@@ -683,11 +677,10 @@ msgid ""
 "Chamfered edges are sloped edges between two faces of an object."
 msgstr "<guilabel>Kubbe Eğimi</guilabel>"
 
+# Hata raporlandı
 #: src/filters/generic/gegl-styles.xml:325(term)
-#, fuzzy
-#| msgid "Outline Bevel Depth"
-msgid "Bevel depth"
-msgstr "Anahat Eğim Derinliği"
+msgid "Emboss Depth"
+msgstr ""
 
 #: src/filters/generic/gegl-styles.xml:327(para)
 #: src/filters/generic/gegl-styles.xml:560(para)
@@ -695,22 +688,20 @@ msgid ""
 "This controls the emboss depth; i.e. how deep and detailed the bevel will be."
 msgstr ""
 
+# Hata raporlandı.
 #: src/filters/generic/gegl-styles.xml:334(term)
-#, fuzzy
-#| msgid "Outline Bevel elevation"
-msgid "Bevel elevation"
-msgstr "Anahat Eğim yüksekliği"
+msgid "Emboss elevation"
+msgstr ""
 
 #: src/filters/generic/gegl-styles.xml:336(para)
 #: src/filters/generic/gegl-styles.xml:569(para)
 msgid "This controls the elevation angle of the bevel."
 msgstr "Bu, eğimin yükselme açısını denetler."
 
+# Hata raporlandı
 #: src/filters/generic/gegl-styles.xml:342(term)
-#, fuzzy
-#| msgid "Outline Bevel azimuth"
-msgid "Bevel azimuth"
-msgstr "Anahat Eğim azimut"
+msgid "Emboss azimuth"
+msgstr ""
 
 #: src/filters/generic/gegl-styles.xml:344(para)
 #: src/filters/generic/gegl-styles.xml:577(para)
@@ -935,9 +926,7 @@ msgid ""
 msgstr ""
 
 #: src/filters/generic/gegl-styles.xml:558(term)
-#, fuzzy
-#| msgid "Outline Bevel Depth"
-msgid "Outline Bevel depth"
+msgid "Outline Bevel Depth"
 msgstr "Anahat Eğim Derinliği"
 
 #: src/filters/generic/gegl-styles.xml:567(term)
@@ -1816,7 +1805,7 @@ msgid "<guilabel>Loop</guilabel> border"
 msgstr "<guilabel>Döngü</guilabel> kenar"
 
 # Arayüzde bu şekilde çevrilmiş.
-#: src/filters/generic/convol-matrix.xml:232(term)
+#: src/filters/generic/convol-matrix.xml:232(guilabel)
 msgid "None"
 msgstr "Hiçbiri"
 
@@ -1824,7 +1813,7 @@ msgstr "Hiçbiri"
 msgid "This part of the kernel is not taken into account."
 msgstr "Çekirdeğin bu kısmı dikkate alınmaz."
 
-#: src/filters/generic/convol-matrix.xml:238(term)
+#: src/filters/generic/convol-matrix.xml:238(guilabel)
 msgid "Clamp"
 msgstr "Kelepçe"
 
@@ -1832,7 +1821,7 @@ msgstr "Kelepçe"
 msgid "Pixels on borders are not modified, but they are cropped."
 msgstr "Kenarlıklardaki pikseller değiştirilmez, ancak kırpılır."
 
-#: src/filters/generic/convol-matrix.xml:246(term)
+#: src/filters/generic/convol-matrix.xml:246(guilabel)
 msgid "Loop"
 msgstr "Döngü"
 
@@ -1842,7 +1831,7 @@ msgid ""
 "so pixels disappearing from one side reappear on the other side."
 msgstr ""
 
-#: src/filters/generic/convol-matrix.xml:256(term)
+#: src/filters/generic/convol-matrix.xml:256(guilabel)
 msgid "Black"
 msgstr "Siyah"
 
@@ -1850,7 +1839,7 @@ msgstr "Siyah"
 msgid "Pixels on borders are changed to black."
 msgstr "Kenarlıklardaki pikseller siyah olarak değiştirilir."
 
-#: src/filters/generic/convol-matrix.xml:264(term)
+#: src/filters/generic/convol-matrix.xml:264(guilabel)
 msgid "White"
 msgstr "Beyaz"
 

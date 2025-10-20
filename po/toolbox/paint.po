@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-03-18 09:22+0000\n"
-"PO-Revision-Date: 2025-09-19 16:47+0300\n"
+"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"PO-Revision-Date: 2025-10-20 20:59+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -99,7 +99,6 @@ msgstr ""
 #: src/toolbox/paint/perspective-clone.xml:11(primary)
 #: src/toolbox/paint/pencil.xml:14(primary)
 #: src/toolbox/paint/paintbrush.xml:12(primary)
-#: src/toolbox/paint/MyPaint-brush.xml:9(primary)
 #: src/toolbox/paint/ink.xml:19(primary) src/toolbox/paint/heal.xml:10(primary)
 #: src/toolbox/paint/gradient.xml:17(primary)
 #: src/toolbox/paint/eraser.xml:16(primary)
@@ -113,6 +112,7 @@ msgstr ""
 #: src/toolbox/paint/brush-tools.xml:24(primary)
 #: src/toolbox/paint/blur-sharpen.xml:15(primary)
 #: src/toolbox/paint/airbrush.xml:22(primary)
+#: src/toolbox/paint/MyPaint-brush.xml:9(primary)
 msgid "Tools"
 msgstr "Araçlar"
 
@@ -141,7 +141,6 @@ msgstr ""
 #: src/toolbox/paint/perspective-clone.xml:27(title)
 #: src/toolbox/paint/pencil.xml:45(title)
 #: src/toolbox/paint/paintbrush.xml:25(title)
-#: src/toolbox/paint/MyPaint-brush.xml:78(title)
 #: src/toolbox/paint/ink.xml:33(title) src/toolbox/paint/heal.xml:38(title)
 #: src/toolbox/paint/gradient.xml:65(title)
 #: src/toolbox/paint/eraser.xml:88(title)
@@ -150,22 +149,22 @@ msgstr ""
 #: src/toolbox/paint/bucket-fill.xml:50(title)
 #: src/toolbox/paint/blur-sharpen.xml:64(title)
 #: src/toolbox/paint/airbrush.xml:32(title)
+#: src/toolbox/paint/MyPaint-brush.xml:78(title)
 msgid "Activating the Tool"
 msgstr ""
 
 #: src/toolbox/paint/smudge.xml:40(para)
 #: src/toolbox/paint/perspective-clone.xml:28(para)
 #: src/toolbox/paint/pencil.xml:46(para)
-#: src/toolbox/paint/paintbrush.xml:26(para)
-#: src/toolbox/paint/MyPaint-brush.xml:80(para)
-#: src/toolbox/paint/ink.xml:34(para) src/toolbox/paint/heal.xml:39(para)
-#: src/toolbox/paint/gradient.xml:66(para)
+#: src/toolbox/paint/paintbrush.xml:26(para) src/toolbox/paint/ink.xml:34(para)
+#: src/toolbox/paint/heal.xml:39(para) src/toolbox/paint/gradient.xml:66(para)
 #: src/toolbox/paint/eraser.xml:89(para)
 #: src/toolbox/paint/dodge-burn.xml:24(para)
 #: src/toolbox/paint/clone.xml:68(para)
 #: src/toolbox/paint/bucket-fill.xml:51(para)
 #: src/toolbox/paint/blur-sharpen.xml:65(para)
 #: src/toolbox/paint/airbrush.xml:33(para)
+#: src/toolbox/paint/MyPaint-brush.xml:80(para)
 msgid "There are different possibilities to activate the tool:"
 msgstr ""
 
@@ -178,16 +177,15 @@ msgstr ""
 #: src/toolbox/paint/smudge.xml:55(para)
 #: src/toolbox/paint/perspective-clone.xml:43(para)
 #: src/toolbox/paint/pencil.xml:61(para)
-#: src/toolbox/paint/paintbrush.xml:41(para)
-#: src/toolbox/paint/MyPaint-brush.xml:97(para)
-#: src/toolbox/paint/ink.xml:49(para) src/toolbox/paint/heal.xml:54(para)
-#: src/toolbox/paint/gradient.xml:81(para)
+#: src/toolbox/paint/paintbrush.xml:41(para) src/toolbox/paint/ink.xml:49(para)
+#: src/toolbox/paint/heal.xml:54(para) src/toolbox/paint/gradient.xml:81(para)
 #: src/toolbox/paint/eraser.xml:104(para)
 #: src/toolbox/paint/dodge-burn.xml:39(para)
 #: src/toolbox/paint/clone.xml:83(para)
 #: src/toolbox/paint/bucket-fill.xml:66(para)
 #: src/toolbox/paint/blur-sharpen.xml:79(para)
 #: src/toolbox/paint/airbrush.xml:48(para)
+#: src/toolbox/paint/MyPaint-brush.xml:97(para)
 msgid "By clicking the tool icon <placeholder-1/> in the Toolbox."
 msgstr ""
 
@@ -229,7 +227,7 @@ msgstr ""
 msgid ""
 "The <keycap>Shift</keycap> key places the smudge tool into straight line "
 "mode. Holding <keycap>Shift</keycap> while clicking the mouse "
-"<mousebutton>Left&nbsp;Button</mousebutton> will smudge in a straight line. "
+"<mousebutton>LeftButton</mousebutton> will smudge in a straight line. "
 "Consecutive clicks will continue smudging in straight lines that originate "
 "from the end of the last line."
 msgstr ""
@@ -268,7 +266,6 @@ msgstr ""
 #: src/toolbox/paint/perspective-clone.xml:90(title)
 #: src/toolbox/paint/pencil.xml:113(title)
 #: src/toolbox/paint/paintbrush.xml:94(title)
-#: src/toolbox/paint/MyPaint-brush.xml:119(title)
 #: src/toolbox/paint/ink.xml:88(title) src/toolbox/paint/heal.xml:114(title)
 #: src/toolbox/paint/gradient.xml:103(title)
 #: src/toolbox/paint/eraser.xml:169(title)
@@ -278,6 +275,7 @@ msgstr ""
 #: src/toolbox/paint/bucket-fill.xml:112(title)
 #: src/toolbox/paint/blur-sharpen.xml:123(title)
 #: src/toolbox/paint/airbrush.xml:99(title)
+#: src/toolbox/paint/MyPaint-brush.xml:119(title)
 msgid "Options"
 msgstr "Seçenekler"
 
@@ -285,7 +283,6 @@ msgstr "Seçenekler"
 #: src/toolbox/paint/perspective-clone.xml:92(title)
 #: src/toolbox/paint/pencil.xml:115(title)
 #: src/toolbox/paint/paintbrush.xml:96(title)
-#: src/toolbox/paint/MyPaint-brush.xml:122(title)
 #: src/toolbox/paint/ink.xml:90(title) src/toolbox/paint/heal.xml:116(title)
 #: src/toolbox/paint/gradient.xml:105(title)
 #: src/toolbox/paint/eraser.xml:171(title)
@@ -295,6 +292,7 @@ msgstr "Seçenekler"
 #: src/toolbox/paint/bucket-fill.xml:114(title)
 #: src/toolbox/paint/blur-sharpen.xml:125(title)
 #: src/toolbox/paint/airbrush.xml:101(title)
+#: src/toolbox/paint/MyPaint-brush.xml:122(title)
 msgid "Tool Options Dialog"
 msgstr "Araç Seçenekleri İletişim Kutusu"
 
@@ -302,8 +300,6 @@ msgstr "Araç Seçenekleri İletişim Kutusu"
 #: src/toolbox/paint/perspective-clone.xml:119(term)
 #: src/toolbox/paint/pencil.xml:128(term)
 #: src/toolbox/paint/paintbrush.xml:110(term)
-#: src/toolbox/paint/MyPaint-brush.xml:140(term)
-#: src/toolbox/paint/MyPaint-brush.xml:201(entry)
 #: src/toolbox/paint/ink.xml:103(term) src/toolbox/paint/heal.xml:130(term)
 #: src/toolbox/paint/gradient.xml:118(term)
 #: src/toolbox/paint/eraser.xml:203(term)
@@ -315,6 +311,8 @@ msgstr "Araç Seçenekleri İletişim Kutusu"
 #: src/toolbox/paint/bucket-fill.xml:128(term)
 #: src/toolbox/paint/blur-sharpen.xml:139(term)
 #: src/toolbox/paint/airbrush.xml:115(term)
+#: src/toolbox/paint/MyPaint-brush.xml:140(term)
+#: src/toolbox/paint/MyPaint-brush.xml:201(entry)
 msgid "Opacity"
 msgstr "Matlık"
 
@@ -322,7 +320,6 @@ msgstr "Matlık"
 #: src/toolbox/paint/perspective-clone.xml:120(term)
 #: src/toolbox/paint/pencil.xml:129(term)
 #: src/toolbox/paint/paintbrush.xml:111(term)
-#: src/toolbox/paint/MyPaint-brush.xml:150(term)
 #: src/toolbox/paint/heal.xml:131(term) src/toolbox/paint/eraser.xml:185(term)
 #: src/toolbox/paint/dodge-burn.xml:111(term)
 #: src/toolbox/paint/common-features.xml:277(secondary)
@@ -331,6 +328,7 @@ msgstr "Matlık"
 #: src/toolbox/paint/brush-tools.xml:25(secondary)
 #: src/toolbox/paint/blur-sharpen.xml:140(term)
 #: src/toolbox/paint/airbrush.xml:116(term)
+#: src/toolbox/paint/MyPaint-brush.xml:150(term)
 msgid "Brush"
 msgstr ""
 
@@ -386,7 +384,6 @@ msgstr "Aralık"
 #: src/toolbox/paint/perspective-clone.xml:125(term)
 #: src/toolbox/paint/pencil.xml:134(term)
 #: src/toolbox/paint/paintbrush.xml:116(term)
-#: src/toolbox/paint/MyPaint-brush.xml:332(term)
 #: src/toolbox/paint/heal.xml:136(term) src/toolbox/paint/eraser.xml:190(term)
 #: src/toolbox/paint/dynamics.xml:464(term)
 #: src/toolbox/paint/dodge-burn.xml:116(term)
@@ -394,6 +391,7 @@ msgstr "Aralık"
 #: src/toolbox/paint/clone.xml:176(term)
 #: src/toolbox/paint/blur-sharpen.xml:145(term)
 #: src/toolbox/paint/airbrush.xml:121(term)
+#: src/toolbox/paint/MyPaint-brush.xml:332(term)
 msgid "Hardness"
 msgstr "Sertlik"
 
@@ -478,12 +476,12 @@ msgstr ""
 #: src/toolbox/paint/smudge.xml:151(term)
 #: src/toolbox/paint/pencil.xml:141(term)
 #: src/toolbox/paint/paintbrush.xml:124(term)
-#: src/toolbox/paint/MyPaint-brush.xml:456(term)
 #: src/toolbox/paint/ink.xml:104(term) src/toolbox/paint/heal.xml:143(term)
 #: src/toolbox/paint/common-features.xml:712(term)
 #: src/toolbox/paint/clone.xml:183(term)
 #: src/toolbox/paint/blur-sharpen.xml:152(term)
 #: src/toolbox/paint/airbrush.xml:128(term)
+#: src/toolbox/paint/MyPaint-brush.xml:456(term)
 msgid "Expand Layers"
 msgstr ""
 
@@ -491,7 +489,7 @@ msgstr ""
 #: src/toolbox/paint/perspective-clone.xml:147(term)
 #: src/toolbox/paint/heal.xml:149(term)
 #: src/toolbox/paint/dodge-burn.xml:129(term)
-#: src/toolbox/paint/clone.xml:407(term)
+#: src/toolbox/paint/clone.xml:419(term)
 #: src/toolbox/paint/blur-sharpen.xml:158(term)
 msgid "Hard edge"
 msgstr "Sert kenar"
@@ -719,7 +717,7 @@ msgid "Source"
 msgstr "Kaynak"
 
 #: src/toolbox/paint/perspective-clone.xml:138(term)
-#: src/toolbox/paint/heal.xml:170(term) src/toolbox/paint/clone.xml:247(term)
+#: src/toolbox/paint/heal.xml:170(term) src/toolbox/paint/clone.xml:259(term)
 msgid "Alignment"
 msgstr ""
 
@@ -730,7 +728,7 @@ msgid ""
 msgstr ""
 
 #: src/toolbox/paint/perspective-clone.xml:149(para)
-#: src/toolbox/paint/clone.xml:409(para)
+#: src/toolbox/paint/clone.xml:421(para)
 msgid "This option gives a hard contour to the cloned area."
 msgstr ""
 
@@ -824,10 +822,9 @@ msgstr ""
 #: src/toolbox/paint/pencil.xml:100(para)
 msgid ""
 "This key places the pencil tool into straight line mode. Holding "
-"<keycap>Shift</keycap> while clicking the mouse "
-"<mousebutton>Left&nbsp;Button</mousebutton> will generate a straight line. "
-"Consecutive clicks will continue drawing straight lines that originate from "
-"the end of the last line."
+"<keycap>Shift</keycap> while clicking the mouse <mousebutton>LeftButton</"
+"mousebutton> will generate a straight line. Consecutive clicks will continue "
+"drawing straight lines that originate from the end of the last line."
 msgstr ""
 
 #: src/toolbox/paint/pencil.xml:140(term)
@@ -897,382 +894,6 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:102(None)
-msgid ""
-"@@image: 'images/stock-icons/gimp-tool-mypaint-brush.svg'; "
-"md5=e93b87816a8d4cbb44cf6e8f85c258ed"
-msgstr ""
-"@@image: 'images/stock-icons/gimp-tool-mypaint-brush.svg'; "
-"md5=e93b87816a8d4cbb44cf6e8f85c258ed"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:126(None)
-msgid ""
-"@@image: 'images/toolbox/tool-options-mypaint-brush.png'; "
-"md5=7edc5222b2b0ba5731eb7c81f3866df5"
-msgstr ""
-"@@image: 'images/toolbox/tool-options-mypaint-brush.png'; "
-"md5=7edc5222b2b0ba5731eb7c81f3866df5"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:161(None)
-msgid ""
-"@@image: 'images/dialogs/mypaint-brushes-dialog-simple.png'; "
-"md5=e62d3be1c19ec7f943e5f55ab5654008"
-msgstr ""
-"@@image: 'images/dialogs/mypaint-brushes-dialog-simple.png'; "
-"md5=e62d3be1c19ec7f943e5f55ab5654008"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:216(None)
-#: src/toolbox/paint/MyPaint-brush.xml:288(None)
-#: src/toolbox/paint/MyPaint-brush.xml:299(None)
-msgid ""
-"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-1000.png'; "
-"md5=703821c459b91de1d3a194de0e5d6e21"
-msgstr ""
-"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-1000.png'; "
-"md5=703821c459b91de1d3a194de0e5d6e21"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:227(None)
-#: src/toolbox/paint/MyPaint-brush.xml:252(None)
-#: src/toolbox/paint/MyPaint-brush.xml:310(None)
-msgid ""
-"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-500.png'; "
-"md5=b28956a3eadf0fc2649d919c6eae1d72"
-msgstr ""
-"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-500.png'; "
-"md5=b28956a3eadf0fc2649d919c6eae1d72"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:238(None)
-#: src/toolbox/paint/MyPaint-brush.xml:263(None)
-msgid ""
-"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-250.png'; "
-"md5=6c2c886426ba0efd970ab7f8ebce586a"
-msgstr ""
-"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-250.png'; "
-"md5=6c2c886426ba0efd970ab7f8ebce586a"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:274(None)
-msgid ""
-"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-125.png'; "
-"md5=fa0aff14952153a69006378f255b0d7b"
-msgstr ""
-"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-125.png'; "
-"md5=fa0aff14952153a69006378f255b0d7b"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:344(None)
-msgid ""
-"@@image: 'images/toolbox/MyPaint-brush-hardness-example-100.png'; "
-"md5=a8cf390177a52b7899b37ec84e4ed0a0"
-msgstr ""
-"@@image: 'images/toolbox/MyPaint-brush-hardness-example-100.png'; "
-"md5=a8cf390177a52b7899b37ec84e4ed0a0"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:355(None)
-msgid ""
-"@@image: 'images/toolbox/MyPaint-brush-hardness-example-090.png'; "
-"md5=74beaa54e6e9acc0bf2897926fa7803e"
-msgstr ""
-"@@image: 'images/toolbox/MyPaint-brush-hardness-example-090.png'; "
-"md5=74beaa54e6e9acc0bf2897926fa7803e"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:366(None)
-msgid ""
-"@@image: 'images/toolbox/MyPaint-brush-hardness-example-080.png'; "
-"md5=75c6a30043307b7e8a75ef92035760e1"
-msgstr ""
-"@@image: 'images/toolbox/MyPaint-brush-hardness-example-080.png'; "
-"md5=75c6a30043307b7e8a75ef92035760e1"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:377(None)
-msgid ""
-"@@image: 'images/toolbox/MyPaint-brush-hardness-example-070.png'; "
-"md5=ba6ef3ad1f12938265033297d75e1904"
-msgstr ""
-"@@image: 'images/toolbox/MyPaint-brush-hardness-example-070.png'; "
-"md5=ba6ef3ad1f12938265033297d75e1904"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:436(None)
-msgid ""
-"@@image: 'images/toolbox/mypaint-brush-ex-noerasing-without.jpg'; "
-"md5=ac394ec9eae922d106f13cc976982d8c"
-msgstr ""
-"@@image: 'images/toolbox/mypaint-brush-ex-noerasing-without.jpg'; "
-"md5=ac394ec9eae922d106f13cc976982d8c"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/MyPaint-brush.xml:445(None)
-msgid ""
-"@@image: 'images/toolbox/mypaint-brush-ex-noerasing-with.jpg'; "
-"md5=2a4dceea592cbe0e23fffa9f7716f384"
-msgstr ""
-"@@image: 'images/toolbox/mypaint-brush-ex-noerasing-with.jpg'; "
-"md5=2a4dceea592cbe0e23fffa9f7716f384"
-
-#: src/toolbox/paint/MyPaint-brush.xml:6(title)
-#: src/toolbox/paint/MyPaint-brush.xml:10(secondary)
-#: src/toolbox/paint/MyPaint-brush.xml:12(primary)
-msgid "MyPaint Brush"
-msgstr "MyPaint Fırçası"
-
-#: src/toolbox/paint/MyPaint-brush.xml:14(para)
-msgid ""
-"MyPaint is a free painting program that comes with a lot of brushes. "
-"Libmypaint has been modified in 2016 in a form that can be used by other "
-"programs. <acronym>GIMP</acronym> can use these brushes."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:21(para)
-msgid ""
-"You can find many collections of MyPaint brushes throughout the Web, in a "
-"compressed format, often in a .zip file. Unzip this file into a temp folder."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:28(title)
-msgid "Installing MyPaint Brushes"
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:39(para)
-msgid ""
-"<emphasis>Under Linux</emphasis>: <filename>/home/YourUserName/.mypaint/"
-"brushes</filename>. Take good note it is a hidden directory."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:44(para)
-msgid ""
-"Open your file browser. Check the option <quote>Show hidden files</quote>. "
-"Go to your personal MyPaint folder. If it does not exist yet, you have to "
-"create it, with the brushes directory inside."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:49(para)
-msgid ""
-"Copy-paste all the unzipped files from your temp folder to <filename>home/"
-"YourUserName/.mypaint/brushes</filename>."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:55(para)
-msgid ""
-"<emphasis>Under Windows 10</emphasis>: <filename>C:\\Users\\your-user-"
-"name\\.mypaint\\brushes</filename>. Click on this item to select it and "
-"click on the icon that opens a file browser. In the root of your home "
-"folder, create a new folder \"mypaint\". The MyPaint path in Preferences "
-"becomes <filename>C:\\Users\\your-user-name\\mypaint</filename>."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:63(para)
-msgid ""
-"Copy-paste all the unzipped files from your temp folder to <filename>C:"
-"\\Users\\your-user-name\\mypaint</filename>."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:29(para)
-msgid ""
-"First go to <menuchoice><guimenu>Preferences</guimenu><guisubmenu>Folders</"
-"guisubmenu><guimenuitem>MyPaint Brushes</guimenuitem></menuchoice>. There, "
-"you will find the path to your personal Mypaint folder. <placeholder-1/>"
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:70(para)
-msgid ""
-"Activate the tool as below: you should have got a MyPaint brush icon in the "
-"tool options dialog. Click on this icon to display all MyPaint brushes."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:86(para)
-msgid ""
-"From the main menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint "
-"Tools</guisubmenu><guimenuitem>MyPaint Brush</guimenuitem></menuchoice>."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:111(para)
-msgid "By pressing the <keycap>Y</keycap> keyboard shortcut."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:133(para)
-msgid ""
-"Options may act somewhat differently according to the MyPaint brush you use."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:142(para)
-msgid ""
-"To set the opacity of the brush (0.0 - 100.0). Opacity depends on a base: "
-"please see below."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:152(para)
-msgid ""
-"The icon of the active brush is displayed. If you click on it, the MyPaint "
-"brushes list is displayed and you can select another brush"
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:157(title)
-msgid "A collection of MyPaint brushes"
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:165(para)
-msgid ""
-"In the bottom bar of the dialog, you have buttons for smaller or larger "
-"icons, and view as list or as grid. The right most button opens the <link "
-"linkend=\"gimp-mypaint-brush-dialog\">MyPaint Brushes Dialog</link>."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:175(term)
-msgid "Radius"
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:177(para)
-msgid "To set the radius of the brush."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:184(term)
-#: src/toolbox/paint/MyPaint-brush.xml:200(para)
-msgid "Base Opacity"
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:186(para)
-msgid ""
-"These values (0.00 - 2.00) are multiplying factors: if, for example, you set "
-"this option to 0.50, the maximal opacity becomes 100 * 0.50 = 50, although "
-"it is still 100.0 in the Opacity option."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:192(title)
-msgid "Base opacity example"
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:204(entry)
-msgid "100"
-msgstr "100"
-
-#: src/toolbox/paint/MyPaint-brush.xml:205(entry)
-msgid "50"
-msgstr "50"
-
-#: src/toolbox/paint/MyPaint-brush.xml:206(entry)
-msgid "25"
-msgstr "25"
-
-#: src/toolbox/paint/MyPaint-brush.xml:211(entry)
-#: src/toolbox/paint/MyPaint-brush.xml:347(para)
-msgid "1.00"
-msgstr "1.00"
-
-#: src/toolbox/paint/MyPaint-brush.xml:219(para)
-#: src/toolbox/paint/MyPaint-brush.xml:291(para)
-#: src/toolbox/paint/MyPaint-brush.xml:302(para)
-msgid "=100"
-msgstr "=100"
-
-#: src/toolbox/paint/MyPaint-brush.xml:230(para)
-#: src/toolbox/paint/MyPaint-brush.xml:255(para)
-#: src/toolbox/paint/MyPaint-brush.xml:313(para)
-msgid "=50"
-msgstr "=50"
-
-#: src/toolbox/paint/MyPaint-brush.xml:241(para)
-#: src/toolbox/paint/MyPaint-brush.xml:266(para)
-msgid "=25"
-msgstr "=25"
-
-#: src/toolbox/paint/MyPaint-brush.xml:247(entry)
-msgid "0.50"
-msgstr "0.50"
-
-#: src/toolbox/paint/MyPaint-brush.xml:277(para)
-msgid "=12.5"
-msgstr "=12.5"
-
-#: src/toolbox/paint/MyPaint-brush.xml:283(entry)
-msgid "2.00"
-msgstr "2.00"
-
-#: src/toolbox/paint/MyPaint-brush.xml:321(para)
-msgid ""
-"Base opacity can exceed 1.00 up to 2.00. Of course, opacity can not exceed "
-"100. In the example, you can see that an opacity option above 50 (100 * 2.00 "
-"= 200) is actually an opacity at 100, and 25 * 200 = 50 is equivalent to 50 "
-"* 1.00 = 50. But this possibility is useful when your Mypaint brush has a "
-"default opacity less than 100."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:334(para)
-msgid ""
-"The harder the brush the sharper the brush. When you reduce hardness, the "
-"Mypaint brush may not act if the brush size is too small."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:340(title)
-msgid "Hardness example"
-msgstr "Sertlik örneği"
-
-#: src/toolbox/paint/MyPaint-brush.xml:358(para)
-msgid "0.90"
-msgstr "0.90"
-
-#: src/toolbox/paint/MyPaint-brush.xml:369(para)
-msgid "0.80"
-msgstr "0.80"
-
-#: src/toolbox/paint/MyPaint-brush.xml:380(para)
-msgid "0.70"
-msgstr "0.70"
-
-#: src/toolbox/paint/MyPaint-brush.xml:392(para)
-msgid ""
-"If this option is checked, strokes are smoother. Two options are available:"
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:398(para)
-msgid "<guilabel>Quality</guilabel>: Depth of smoothing."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:403(para)
-msgid "<guilabel>Weight</guilabel>: Gravity of the pen."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:412(term)
-msgid "Erase with this brush"
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:414(para)
-msgid ""
-"If this option is checked, the brush acts as an eraser. As with the Eraser "
-"tool, erased areas are transparent if there is an alpha layer, or the "
-"background color if there is no alpha layer."
-msgstr ""
-
-#: src/toolbox/paint/MyPaint-brush.xml:425(para)
-msgid ""
-"If this option is checked, the brush will not decrease the alpha of pixels. "
-"For example, if you blur an edge between opaque and transparent pixels, the "
-"alpha of the transparent pixels will increase but the alpha of the opaque "
-"pixels will not decrease."
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/ink.xml:55(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-tool-ink.svg'; "
@@ -1309,7 +930,7 @@ msgstr "Mürekkep"
 #: src/toolbox/paint/ink.xml:26(para)
 msgid ""
 "The Ink tool uses a simulation of an ink pen with a controllable nib to "
-"paint solid brush strokes with an antialiased edge. The size, shape and "
+"paint solid brush strokes with an anti-aliased edge. The size, shape and "
 "angle of the nib can be set to determine how the strokes will be rendered."
 msgstr ""
 
@@ -2304,7 +1925,7 @@ msgstr "Silgi"
 
 #: src/toolbox/paint/eraser.xml:23(primary)
 #: src/toolbox/paint/common-features.xml:272(primary)
-#: src/toolbox/paint/clone.xml:421(term)
+#: src/toolbox/paint/clone.xml:433(term)
 msgid "Transparency"
 msgstr "Saydamlık"
 
@@ -3305,7 +2926,7 @@ msgid "Abstract2 Gradient"
 msgstr ""
 
 #: src/toolbox/paint/dynamics.xml:819(para)
-#: src/toolbox/paint/clone.xml:288(term)
+#: src/toolbox/paint/clone.xml:300(term)
 msgid "None"
 msgstr "Hiçbiri"
 
@@ -3414,8 +3035,8 @@ msgstr ""
 msgid ""
 "<keycap>Shift</keycap> places the Dodge or Burn tool into straight line "
 "mode. Holding <keycap>Shift</keycap> while clicking the mouse "
-"<mousebutton>Left&nbsp;Button</mousebutton> will Dodge or Burn in a straight "
-"line. Consecutive clicks will continue Dodge or Burn in straight lines that "
+"<mousebutton>LeftButton</mousebutton> will Dodge or Burn in a straight line. "
+"Consecutive clicks will continue Dodge or Burn in straight lines that "
 "originate from the end of the last line."
 msgstr ""
 
@@ -3656,7 +3277,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:838(None)
-#: src/toolbox/paint/common-features.xml:915(None)
+#: src/toolbox/paint/common-features.xml:926(None)
 msgid ""
 "@@image: 'images/glossary/modes-normal2.png'; "
 "md5=e3226ffc5fa2ac181def6582bbb51932"
@@ -3687,16 +3308,34 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:885(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/toolbox/mode-behind.png'; "
+#| "md5=b9fc37e9327358d765d4dfce17c7def0"
 msgid ""
-"@@image: 'images/toolbox/mode-behind.png'; "
-"md5=b9fc37e9327358d765d4dfce17c7def0"
+"@@image: 'images/toolbox/mode-behind-dialog.png'; "
+"md5=cd65f1cb86044035896854bd9a2167af"
 msgstr ""
 "@@image: 'images/toolbox/mode-behind.png'; "
 "md5=b9fc37e9327358d765d4dfce17c7def0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/common-features.xml:924(None)
+#: src/toolbox/paint/common-features.xml:900(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/toolbox/mode-behind.png'; "
+#| "md5=b9fc37e9327358d765d4dfce17c7def0"
+msgid ""
+"@@image: 'images/toolbox/mode-behind-example.png'; "
+"md5=ec9c56afa0de6244721f658acc76a066"
+msgstr ""
+"@@image: 'images/toolbox/mode-behind.png'; "
+"md5=b9fc37e9327358d765d4dfce17c7def0"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/common-features.xml:935(None)
 msgid ""
 "@@image: 'images/glossary/modes-colorerase.png'; "
 "md5=552302f1194c41205bfd11fba30eebd1"
@@ -3706,7 +3345,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/common-features.xml:975(None)
+#: src/toolbox/paint/common-features.xml:986(None)
 msgid ""
 "@@image: 'images/toolbox/mode-erase.png'; "
 "md5=adcbbbf4adef19bbabbc0244bdaa261e"
@@ -3746,8 +3385,8 @@ msgid ""
 "the pointer across the image display, creating brush-strokes. Five of them "
 "behave like the intuitive notion of <quote>painting</quote> with a brush. "
 "Pencil, Paintbrush, Airbrush, and MyPaint brush are called <quote>basic "
-"painting tools</quote> or <link linkend=\"gimp-tools-"
-"brush\">brush&nbsp;tools</link>."
+"painting tools</quote> or <link linkend=\"gimp-tools-brush\">brushtools</"
+"link>."
 msgstr ""
 
 #: src/toolbox/paint/common-features.xml:55(para)
@@ -4300,7 +3939,7 @@ msgid "Behind"
 msgstr ""
 
 #: src/toolbox/paint/common-features.xml:827(primary)
-#: src/toolbox/paint/common-features.xml:904(primary)
+#: src/toolbox/paint/common-features.xml:915(primary)
 msgid "Paint Modes"
 msgstr "Boya Kipleri"
 
@@ -4313,7 +3952,7 @@ msgid "Example for layer mode <quote>Behind</quote>"
 msgstr ""
 
 #: src/toolbox/paint/common-features.xml:841(para)
-#: src/toolbox/paint/common-features.xml:918(para)
+#: src/toolbox/paint/common-features.xml:929(para)
 msgid "Wilber over a blue background layer"
 msgstr ""
 
@@ -4355,24 +3994,28 @@ msgid ""
 "transparent pixels of the layer are painted."
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:901(term)
-#: src/toolbox/paint/common-features.xml:905(secondary)
+#: src/toolbox/paint/common-features.xml:903(para)
+msgid "Resulting image."
+msgstr ""
+
+#: src/toolbox/paint/common-features.xml:912(term)
+#: src/toolbox/paint/common-features.xml:916(secondary)
 msgid "Color Erase"
 msgstr "Renk Silme"
 
-#: src/toolbox/paint/common-features.xml:908(primary)
+#: src/toolbox/paint/common-features.xml:919(primary)
 msgid "Color Erase (paint mode)"
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:911(title)
+#: src/toolbox/paint/common-features.xml:922(title)
 msgid "Example for layer mode <quote>Color erase</quote>"
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:927(para)
+#: src/toolbox/paint/common-features.xml:938(para)
 msgid "White foreground color erased"
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:931(para)
+#: src/toolbox/paint/common-features.xml:942(para)
 msgid ""
 "This mode erases the foreground color, replacing it with partial "
 "transparency. It acts like the <link linkend=\"gimp-filter-color-to-"
@@ -4381,54 +4024,54 @@ msgid ""
 "channel; otherwise, this mode is identical to Normal."
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:939(para)
+#: src/toolbox/paint/common-features.xml:950(para)
 msgid ""
 "In the above example image, the color of the Bucket Fill tool was white, so "
 "white parts of Wilber were erased and the blue background shows through."
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:944(para)
+#: src/toolbox/paint/common-features.xml:955(para)
 msgid ""
 "This image below has three horizontal stripes and has only one layer, the "
 "background layer. Background color is sky blue. We add three vertical brush "
 "strokes with the pencil tool:"
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:951(para)
+#: src/toolbox/paint/common-features.xml:962(para)
 msgid ""
 "On the left, a vertical brush stroke with the exact color of the blue "
 "stripe: only this blue color is erased."
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:957(para)
+#: src/toolbox/paint/common-features.xml:968(para)
 msgid ""
 "In the middle, a vertical brush stroke with the exact color of the red area: "
 "only this red color is erased, whatever its transparency. Erased areas are "
 "made transparent."
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:964(para)
+#: src/toolbox/paint/common-features.xml:975(para)
 msgid ""
 "On the right, a vertical brush stroke with the sky blue color of the layer "
 "background: only this color is erased."
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:971(title)
+#: src/toolbox/paint/common-features.xml:982(title)
 msgid "Painting in <quote>Color Erase</quote> mode"
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:978(para)
+#: src/toolbox/paint/common-features.xml:989(para)
 msgid ""
 "Vertical brush strokes painted in blue (on the left), in red (in the "
 "middle), in the background color (on the right)."
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:991(title)
-#: src/toolbox/paint/clone.xml:418(title)
+#: src/toolbox/paint/common-features.xml:1002(title)
+#: src/toolbox/paint/clone.xml:430(title)
 msgid "Further Information"
 msgstr ""
 
-#: src/toolbox/paint/common-features.xml:992(para)
+#: src/toolbox/paint/common-features.xml:1003(para)
 msgid ""
 "Advanced users may be interested to know that paint tools actually operate "
 "at a sub-pixel level, in order to avoid producing jagged-looking results. "
@@ -4484,27 +4127,45 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/clone.xml:222(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/toolbox/clone-ex-sample-merged.png'; "
+#| "md5=50be64737ec5716fdd7e3faf34f5a749"
 msgid ""
-"@@image: 'images/toolbox/clone-ex-sample-merged.png'; "
-"md5=50be64737ec5716fdd7e3faf34f5a749"
+"@@image: 'images/toolbox/clone-ex-sample-merged-example.png'; "
+"md5=75110a6f58ca5485afa866a55a6f466c"
 msgstr ""
 "@@image: 'images/toolbox/clone-ex-sample-merged.png'; "
 "md5=50be64737ec5716fdd7e3faf34f5a749"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/clone.xml:264(None)
+#: src/toolbox/paint/clone.xml:234(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/toolbox/clone-ex-sample-merged.png'; "
+#| "md5=50be64737ec5716fdd7e3faf34f5a749"
 msgid ""
-"@@image: 'images/toolbox/clone-source.png'; "
-"md5=7e0efff48d732caaf8520fdf87dd1e79"
+"@@image: 'images/toolbox/clone-ex-sample-merged-dialog.png'; "
+"md5=b96a593238ffcd569dbe2a68b02fa971"
 msgstr ""
-"@@image: 'images/toolbox/clone-source.png'; "
-"md5=7e0efff48d732caaf8520fdf87dd1e79"
+"@@image: 'images/toolbox/clone-ex-sample-merged.png'; "
+"md5=50be64737ec5716fdd7e3faf34f5a749"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/clone.xml:276(None)
 msgid ""
+"@@image: 'images/toolbox/clone-source.png'; "
+"md5=7e0efff48d732caaf8520fdf87dd1e79"
+msgstr ""
+"@@image: 'images/toolbox/clone-source.png'; "
+"md5=7e0efff48d732caaf8520fdf87dd1e79"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/clone.xml:288(None)
+msgid ""
 "@@image: 'images/toolbox/clone-dest.png'; "
 "md5=3e3d54e0a5c0f294a083ab47c23ba021"
 msgstr ""
@@ -4513,7 +4174,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/clone.xml:308(None)
+#: src/toolbox/paint/clone.xml:320(None)
 msgid ""
 "@@image: 'images/toolbox/clone-none.png'; "
 "md5=a33aaa4e72c54efe1c06c94792965068"
@@ -4523,7 +4184,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/clone.xml:340(None)
+#: src/toolbox/paint/clone.xml:352(None)
 msgid ""
 "@@image: 'images/toolbox/clone-aligned.png'; "
 "md5=4a45ef2c6883b44b606086e9f249b157"
@@ -4533,7 +4194,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/clone.xml:371(None)
+#: src/toolbox/paint/clone.xml:383(None)
 msgid ""
 "@@image: 'images/toolbox/clone-registered.png'; "
 "md5=7aa1c5e8e7c4c6e7f953db4963639ef6"
@@ -4543,7 +4204,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/clone.xml:397(None)
+#: src/toolbox/paint/clone.xml:409(None)
 msgid ""
 "@@image: 'images/toolbox/clone-fixed.png'; "
 "md5=4d25a9340f2d901e607b998d3f63e53c"
@@ -4668,50 +4329,54 @@ msgid ""
 msgstr ""
 
 #: src/toolbox/paint/clone.xml:225(para)
-msgid "Cloned pixels are in the new layer."
+msgid "Example image showing the cloned pixels in the upper left corner."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:233(term)
+#: src/toolbox/paint/clone.xml:237(para)
+msgid "Layers dialog showing the new layer with the cloned pixels."
+msgstr ""
+
+#: src/toolbox/paint/clone.xml:245(term)
 msgid "Pattern"
 msgstr "Örüntü"
 
-#: src/toolbox/paint/clone.xml:235(para)
+#: src/toolbox/paint/clone.xml:247(para)
 msgid ""
 "Clicking on the pattern symbol brings up the Patterns dialog, which you can "
 "use to select the pattern to paint with. This option is only relevant if you "
 "are cloning from a Pattern source."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:249(para)
+#: src/toolbox/paint/clone.xml:261(para)
 msgid ""
 "The Alignment mode defines the relation between the brush position and the "
 "source position."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:253(para)
+#: src/toolbox/paint/clone.xml:265(para)
 msgid ""
 "In the following examples, we will use a source image where the sample to be "
 "cloned will be taken, and a destination image where the sample will be "
 "cloned (it could be a layer in the source image)"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:260(title)
+#: src/toolbox/paint/clone.xml:272(title)
 msgid "Original images for clone alignment"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:267(para)
+#: src/toolbox/paint/clone.xml:279(para)
 msgid ""
 "We will use the largest brush with the Pencil tool. The source is "
 "represented here with a ringed cross."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:279(para)
+#: src/toolbox/paint/clone.xml:291(para)
 msgid ""
 "An image with a solid background only. We shall draw three cloning strokes "
 "successively."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:290(para)
+#: src/toolbox/paint/clone.xml:302(para)
 msgid ""
 "In this mode, each brushstroke is treated separately. For each stroke, the "
 "point where you first click is copied from the source origin; there is no "
@@ -4719,21 +4384,21 @@ msgid ""
 "different brush strokes will usually clash if they intersect each other."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:298(para)
+#: src/toolbox/paint/clone.xml:310(para)
 msgid ""
 "Example below: At every new brush stroke, the source goes back to its first "
 "position. The same sample is always cloned."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:304(title)
+#: src/toolbox/paint/clone.xml:316(title)
 msgid "<quote>None</quote> clone alignment"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:315(term)
+#: src/toolbox/paint/clone.xml:327(term)
 msgid "Aligned"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:317(para)
+#: src/toolbox/paint/clone.xml:329(para)
 msgid ""
 "In this mode, the first click you make when painting sets the offset between "
 "the source origin and the cloned result, and all subsequent brushstrokes use "
@@ -4741,13 +4406,13 @@ msgid ""
 "they will all mesh smoothly with one another."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:324(para)
+#: src/toolbox/paint/clone.xml:336(para)
 msgid ""
 "If you want to change the offset, select a new source origin by clicking "
 "with the <keycap>Ctrl</keycap> key pressed."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:328(para)
+#: src/toolbox/paint/clone.xml:340(para)
 msgid ""
 "In the example below, at every new brush stroke, the source keeps the same "
 "offset it had with the previous brush stroke. So, there is no cloning offset "
@@ -4755,15 +4420,15 @@ msgid ""
 "up out of the source image canvas; hence the truncated aspect."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:336(title)
+#: src/toolbox/paint/clone.xml:348(title)
 msgid "<quote>Aligned</quote> clone alignment"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:347(term)
+#: src/toolbox/paint/clone.xml:359(term)
 msgid "Registered"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:349(para)
+#: src/toolbox/paint/clone.xml:361(para)
 msgid ""
 "The <quote>Registered</quote> mode is different from the other alignment "
 "modes. When you copy from an image, a <keycap>Ctrl</keycap>-click will "
@@ -4774,39 +4439,39 @@ msgid ""
 "image to another image.)"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:360(para)
+#: src/toolbox/paint/clone.xml:372(para)
 msgid ""
 "At every brush stroke, the source adopts the position of the mouse pointer "
 "in the destination layer. In the following example, the destination layer is "
 "smaller than the source layer; so, there is no truncated aspect."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:367(title)
+#: src/toolbox/paint/clone.xml:379(title)
 msgid "<quote>Registered</quote> clone alignment"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:380(term)
+#: src/toolbox/paint/clone.xml:392(term)
 msgid "Fixed"
 msgstr "Sabit"
 
-#: src/toolbox/paint/clone.xml:382(para)
+#: src/toolbox/paint/clone.xml:394(para)
 msgid ""
 "Using this mode you will paint with the source origin, unlike the modes "
 "<guilabel>None</guilabel> or <guilabel>Aligned</guilabel> even when drawing "
 "a line. The source will not be moved."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:388(para)
+#: src/toolbox/paint/clone.xml:400(para)
 msgid ""
 "See that the source remains fixed. The same small sample is reproduced "
 "identically in a tightened way:"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:393(title)
+#: src/toolbox/paint/clone.xml:405(title)
 msgid "<quote>Fixed</quote> clone alignment"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:423(para)
+#: src/toolbox/paint/clone.xml:435(para)
 msgid ""
 "The effects of the Clone tool on transparency are a bit complicated. You "
 "cannot clone transparency: if you try to clone from a transparent source, "
@@ -4815,23 +4480,23 @@ msgid ""
 "100% opacity and a hard brush:"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:433(para)
+#: src/toolbox/paint/clone.xml:445(para)
 msgid "Cloning translucent black onto white produces gray."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:438(para)
+#: src/toolbox/paint/clone.xml:450(para)
 msgid "Cloning translucent black onto black produces black."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:443(para)
+#: src/toolbox/paint/clone.xml:455(para)
 msgid "Cloning translucent white onto white produces white."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:448(para)
+#: src/toolbox/paint/clone.xml:460(para)
 msgid "Cloning translucent white onto black produces gray."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:453(para)
+#: src/toolbox/paint/clone.xml:465(para)
 msgid ""
 "Cloning can never increase transparency, but, unless <quote>keep "
 "transparency</quote> is turned on for the layer, it can reduce it. Cloning "
@@ -4839,20 +4504,20 @@ msgid ""
 "translucent area onto another translucent area causes an increase in opacity."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:464(term)
+#: src/toolbox/paint/clone.xml:476(term)
 msgid "<quote>Filter</quote> brushes"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:467(primary)
-#: src/toolbox/paint/clone.xml:488(primary)
+#: src/toolbox/paint/clone.xml:479(primary)
+#: src/toolbox/paint/clone.xml:500(primary)
 msgid "Brushes"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:468(secondary)
+#: src/toolbox/paint/clone.xml:480(secondary)
 msgid "Filter brush"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:470(para)
+#: src/toolbox/paint/clone.xml:482(para)
 msgid ""
 "There are a few non-obvious ways to use the Clone tool to obtain powerful "
 "effects. One thing you can do is to create <quote>Filter brushes</quote>, "
@@ -4865,12 +4530,12 @@ msgid ""
 "original layer."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:485(term)
-#: src/toolbox/paint/clone.xml:489(secondary)
+#: src/toolbox/paint/clone.xml:497(term)
+#: src/toolbox/paint/clone.xml:501(secondary)
 msgid "History brush"
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:491(para)
+#: src/toolbox/paint/clone.xml:503(para)
 msgid ""
 "You can use a similar approach to imitate Photoshop's <quote>History brush</"
 "quote>, which allows you to selectively undo or redo changes using a brush. "
@@ -5177,7 +4842,7 @@ msgstr ""
 
 #: src/toolbox/paint/bucket-fill.xml:256(para)
 msgid ""
-"Please refer to <link linkend=\"glossary-antialiasing\">Antialiasing</link> "
+"Please refer to <link linkend=\"glossary-antialiasing\">Anti-aliasing</link> "
 "in Glossary."
 msgstr ""
 
@@ -5461,9 +5126,9 @@ msgstr ""
 #: src/toolbox/paint/brush-tools.xml:90(para)
 msgid ""
 "This key places these tools into straight line mode. Holding <keycap>Shift</"
-"keycap> while clicking the mouse <mousebutton>left&nbsp;Button</mousebutton> "
-"will generate a straight line. Consecutive clicks will continue drawing "
-"straight lines that originate from the end of the last line."
+"keycap> while clicking the mouse <mousebutton>leftButton</mousebutton> will "
+"generate a straight line. Consecutive clicks will continue drawing straight "
+"lines that originate from the end of the last line."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -5642,10 +5307,9 @@ msgstr ""
 #: src/toolbox/paint/airbrush.xml:87(para)
 msgid ""
 "<keycap>Shift</keycap> places the airbrush into straight line mode. Holding "
-"<keycap>Shift</keycap> while clicking the mouse "
-"<mousebutton>Left&nbsp;Button</mousebutton> will generate a straight line. "
-"Consecutive clicks will continue drawing straight lines that originate from "
-"the end of the last line."
+"<keycap>Shift</keycap> while clicking the mouse <mousebutton>LeftButton</"
+"mousebutton> will generate a straight line. Consecutive clicks will continue "
+"drawing straight lines that originate from the end of the last line."
 msgstr ""
 
 #: src/toolbox/paint/airbrush.xml:134(term)
@@ -5678,11 +5342,384 @@ msgid ""
 "paint tools."
 msgstr ""
 
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:102(None)
+msgid ""
+"@@image: 'images/stock-icons/gimp-tool-mypaint-brush.svg'; "
+"md5=e93b87816a8d4cbb44cf6e8f85c258ed"
+msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-mypaint-brush.svg'; "
+"md5=e93b87816a8d4cbb44cf6e8f85c258ed"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:126(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-mypaint-brush.png'; "
+"md5=7edc5222b2b0ba5731eb7c81f3866df5"
+msgstr ""
+"@@image: 'images/toolbox/tool-options-mypaint-brush.png'; "
+"md5=7edc5222b2b0ba5731eb7c81f3866df5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:161(None)
+msgid ""
+"@@image: 'images/dialogs/mypaint-brushes-dialog-simple.png'; "
+"md5=e62d3be1c19ec7f943e5f55ab5654008"
+msgstr ""
+"@@image: 'images/dialogs/mypaint-brushes-dialog-simple.png'; "
+"md5=e62d3be1c19ec7f943e5f55ab5654008"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:216(None)
+#: src/toolbox/paint/MyPaint-brush.xml:288(None)
+#: src/toolbox/paint/MyPaint-brush.xml:299(None)
+msgid ""
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-1000.png'; "
+"md5=703821c459b91de1d3a194de0e5d6e21"
+msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-1000.png'; "
+"md5=703821c459b91de1d3a194de0e5d6e21"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:227(None)
+#: src/toolbox/paint/MyPaint-brush.xml:252(None)
+#: src/toolbox/paint/MyPaint-brush.xml:310(None)
+msgid ""
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-500.png'; "
+"md5=b28956a3eadf0fc2649d919c6eae1d72"
+msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-500.png'; "
+"md5=b28956a3eadf0fc2649d919c6eae1d72"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:238(None)
+#: src/toolbox/paint/MyPaint-brush.xml:263(None)
+msgid ""
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-250.png'; "
+"md5=6c2c886426ba0efd970ab7f8ebce586a"
+msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-250.png'; "
+"md5=6c2c886426ba0efd970ab7f8ebce586a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:274(None)
+msgid ""
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-125.png'; "
+"md5=fa0aff14952153a69006378f255b0d7b"
+msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-ex-base-opacity-125.png'; "
+"md5=fa0aff14952153a69006378f255b0d7b"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:344(None)
+msgid ""
+"@@image: 'images/toolbox/MyPaint-brush-hardness-example-100.png'; "
+"md5=a8cf390177a52b7899b37ec84e4ed0a0"
+msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-hardness-example-100.png'; "
+"md5=a8cf390177a52b7899b37ec84e4ed0a0"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:355(None)
+msgid ""
+"@@image: 'images/toolbox/MyPaint-brush-hardness-example-090.png'; "
+"md5=74beaa54e6e9acc0bf2897926fa7803e"
+msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-hardness-example-090.png'; "
+"md5=74beaa54e6e9acc0bf2897926fa7803e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:366(None)
+msgid ""
+"@@image: 'images/toolbox/MyPaint-brush-hardness-example-080.png'; "
+"md5=75c6a30043307b7e8a75ef92035760e1"
+msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-hardness-example-080.png'; "
+"md5=75c6a30043307b7e8a75ef92035760e1"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:377(None)
+msgid ""
+"@@image: 'images/toolbox/MyPaint-brush-hardness-example-070.png'; "
+"md5=ba6ef3ad1f12938265033297d75e1904"
+msgstr ""
+"@@image: 'images/toolbox/MyPaint-brush-hardness-example-070.png'; "
+"md5=ba6ef3ad1f12938265033297d75e1904"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:436(None)
+msgid ""
+"@@image: 'images/toolbox/mypaint-brush-ex-noerasing-without.jpg'; "
+"md5=ac394ec9eae922d106f13cc976982d8c"
+msgstr ""
+"@@image: 'images/toolbox/mypaint-brush-ex-noerasing-without.jpg'; "
+"md5=ac394ec9eae922d106f13cc976982d8c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/MyPaint-brush.xml:445(None)
+msgid ""
+"@@image: 'images/toolbox/mypaint-brush-ex-noerasing-with.jpg'; "
+"md5=2a4dceea592cbe0e23fffa9f7716f384"
+msgstr ""
+"@@image: 'images/toolbox/mypaint-brush-ex-noerasing-with.jpg'; "
+"md5=2a4dceea592cbe0e23fffa9f7716f384"
+
+#: src/toolbox/paint/MyPaint-brush.xml:6(title)
+#: src/toolbox/paint/MyPaint-brush.xml:10(secondary)
+#: src/toolbox/paint/MyPaint-brush.xml:12(primary)
+msgid "MyPaint Brush"
+msgstr "MyPaint Fırçası"
+
+#: src/toolbox/paint/MyPaint-brush.xml:14(para)
+msgid ""
+"MyPaint is a free painting program that comes with a lot of brushes. "
+"Libmypaint has been modified in 2016 in a form that can be used by other "
+"programs. <acronym>GIMP</acronym> can use these brushes."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:21(para)
+msgid ""
+"You can find many collections of MyPaint brushes throughout the Web, in a "
+"compressed format, often in a .zip file. Unzip this file into a temp folder."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:28(title)
+msgid "Installing MyPaint Brushes"
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:39(para)
+msgid ""
+"<emphasis>Under Linux</emphasis>: <filename>/home/YourUserName/.mypaint/"
+"brushes</filename>. Take good note it is a hidden directory."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:44(para)
+msgid ""
+"Open your file browser. Check the option <quote>Show hidden files</quote>. "
+"Go to your personal MyPaint folder. If it does not exist yet, you have to "
+"create it, with the brushes directory inside."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:49(para)
+msgid ""
+"Copy-paste all the unzipped files from your temp folder to <filename>home/"
+"YourUserName/.mypaint/brushes</filename>."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:55(para)
+msgid ""
+"<emphasis>Under Windows 10</emphasis>: <filename>C:\\Users\\your-user-"
+"name\\.mypaint\\brushes</filename>. Click on this item to select it and "
+"click on the icon that opens a file browser. In the root of your home "
+"folder, create a new folder \"mypaint\". The MyPaint path in Preferences "
+"becomes <filename>C:\\Users\\your-user-name\\mypaint</filename>."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:63(para)
+msgid ""
+"Copy-paste all the unzipped files from your temp folder to <filename>C:"
+"\\Users\\your-user-name\\mypaint</filename>."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:29(para)
+msgid ""
+"First go to <menuchoice><guimenu>Preferences</guimenu><guisubmenu>Folders</"
+"guisubmenu><guimenuitem>MyPaint Brushes</guimenuitem></menuchoice>. There, "
+"you will find the path to your personal Mypaint folder. <placeholder-1/>"
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:70(para)
+msgid ""
+"Activate the tool as below: you should have got a MyPaint brush icon in the "
+"tool options dialog. Click on this icon to display all MyPaint brushes."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:86(para)
+msgid ""
+"From the main menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint "
+"Tools</guisubmenu><guimenuitem>MyPaint Brush</guimenuitem></menuchoice>."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:111(para)
+msgid "By pressing the <keycap>Y</keycap> keyboard shortcut."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:133(para)
+msgid ""
+"Options may act somewhat differently according to the MyPaint brush you use."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:142(para)
+msgid ""
+"To set the opacity of the brush (0.0 - 100.0). Opacity depends on a base: "
+"please see below."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:152(para)
+msgid ""
+"The icon of the active brush is displayed. If you click on it, the MyPaint "
+"brushes list is displayed and you can select another brush"
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:157(title)
+msgid "A collection of MyPaint brushes"
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:165(para)
+msgid ""
+"In the bottom bar of the dialog, you have buttons for smaller or larger "
+"icons, and view as list or as grid. The right most button opens the <link "
+"linkend=\"gimp-mypaint-brush-dialog\">MyPaint Brushes Dialog</link>."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:175(term)
+msgid "Radius"
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:177(para)
+msgid "To set the radius of the brush."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:184(term)
+#: src/toolbox/paint/MyPaint-brush.xml:200(para)
+msgid "Base Opacity"
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:186(para)
+msgid ""
+"These values (0.00 - 2.00) are multiplying factors: if, for example, you set "
+"this option to 0.50, the maximal opacity becomes 100 * 0.50 = 50, although "
+"it is still 100.0 in the Opacity option."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:192(title)
+msgid "Base opacity example"
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:204(entry)
+msgid "100"
+msgstr "100"
+
+#: src/toolbox/paint/MyPaint-brush.xml:205(entry)
+msgid "50"
+msgstr "50"
+
+#: src/toolbox/paint/MyPaint-brush.xml:206(entry)
+msgid "25"
+msgstr "25"
+
+#: src/toolbox/paint/MyPaint-brush.xml:211(entry)
+#: src/toolbox/paint/MyPaint-brush.xml:347(para)
+msgid "1.00"
+msgstr "1.00"
+
+#: src/toolbox/paint/MyPaint-brush.xml:219(para)
+#: src/toolbox/paint/MyPaint-brush.xml:291(para)
+#: src/toolbox/paint/MyPaint-brush.xml:302(para)
+msgid "=100"
+msgstr "=100"
+
+#: src/toolbox/paint/MyPaint-brush.xml:230(para)
+#: src/toolbox/paint/MyPaint-brush.xml:255(para)
+#: src/toolbox/paint/MyPaint-brush.xml:313(para)
+msgid "=50"
+msgstr "=50"
+
+#: src/toolbox/paint/MyPaint-brush.xml:241(para)
+#: src/toolbox/paint/MyPaint-brush.xml:266(para)
+msgid "=25"
+msgstr "=25"
+
+#: src/toolbox/paint/MyPaint-brush.xml:247(entry)
+msgid "0.50"
+msgstr "0.50"
+
+#: src/toolbox/paint/MyPaint-brush.xml:277(para)
+msgid "=12.5"
+msgstr "=12.5"
+
+#: src/toolbox/paint/MyPaint-brush.xml:283(entry)
+msgid "2.00"
+msgstr "2.00"
+
+#: src/toolbox/paint/MyPaint-brush.xml:321(para)
+msgid ""
+"Base opacity can exceed 1.00 up to 2.00. Of course, opacity can not exceed "
+"100. In the example, you can see that an opacity option above 50 (100 * 2.00 "
+"= 200) is actually an opacity at 100, and 25 * 200 = 50 is equivalent to 50 "
+"* 1.00 = 50. But this possibility is useful when your Mypaint brush has a "
+"default opacity less than 100."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:334(para)
+msgid ""
+"The harder the brush the sharper the brush. When you reduce hardness, the "
+"Mypaint brush may not act if the brush size is too small."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:340(title)
+msgid "Hardness example"
+msgstr "Sertlik örneği"
+
+#: src/toolbox/paint/MyPaint-brush.xml:358(para)
+msgid "0.90"
+msgstr "0.90"
+
+#: src/toolbox/paint/MyPaint-brush.xml:369(para)
+msgid "0.80"
+msgstr "0.80"
+
+#: src/toolbox/paint/MyPaint-brush.xml:380(para)
+msgid "0.70"
+msgstr "0.70"
+
+#: src/toolbox/paint/MyPaint-brush.xml:392(para)
+msgid ""
+"If this option is checked, strokes are smoother. Two options are available:"
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:398(para)
+msgid "<guilabel>Quality</guilabel>: Depth of smoothing."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:403(para)
+msgid "<guilabel>Weight</guilabel>: Gravity of the pen."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:412(term)
+msgid "Erase with this brush"
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:414(para)
+msgid ""
+"If this option is checked, the brush acts as an eraser. As with the Eraser "
+"tool, erased areas are transparent if there is an alpha layer, or the "
+"background color if there is no alpha layer."
+msgstr ""
+
+#: src/toolbox/paint/MyPaint-brush.xml:425(para)
+msgid ""
+"If this option is checked, the brush will not decrease the alpha of pixels. "
+"For example, if you blur an edge between opaque and transparent pixels, the "
+"alpha of the transparent pixels will increase but the alpha of the opaque "
+"pixels will not decrease."
+msgstr ""
+
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/toolbox/paint/about-common-paint-options.xml:0(None)
-msgid "translator-credits"
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/gimp.xml:0(None)
+#: src/toolbox/paint/MyPaint-brush.xml:0(None)
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2025.\n"

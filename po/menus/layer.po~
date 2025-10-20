@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-02-26 21:19+0000\n"
 "PO-Revision-Date: 2025-10-20 15:18+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -210,7 +210,7 @@ msgstr ""
 #: src/menus/layer/raise.xml:26(title)
 #: src/menus/layer/raise-to-top.xml:24(title)
 #: src/menus/layer/previous.xml:39(title) src/menus/layer/offset.xml:33(title)
-#: src/menus/layer/next.xml:27(title) src/menus/layer/new.xml:39(title)
+#: src/menus/layer/next.xml:27(title) src/menus/layer/new.xml:35(title)
 #: src/menus/layer/new-layer-group.xml:22(title)
 #: src/menus/layer/new-from-visible.xml:29(title)
 #: src/menus/layer/merge-layer-group.xml:38(title)
@@ -229,7 +229,7 @@ msgstr ""
 #: src/menus/layer/flip-vertical.xml:31(title)
 #: src/menus/layer/flip-horizontal.xml:31(title)
 #: src/menus/layer/duplicate.xml:36(title) src/menus/layer/delete.xml:27(title)
-#: src/menus/layer/crop-to-content.xml:88(title)
+#: src/menus/layer/crop-to-content.xml:67(title)
 #: src/menus/layer/color-to-alpha.xml:34(title)
 #: src/menus/layer/bottom.xml:29(title) src/menus/layer/anchor.xml:40(title)
 #: src/menus/layer/alpha-semi-flatten.xml:36(title)
@@ -257,7 +257,7 @@ msgstr "Komutu Etkinleştirmek"
 #: src/menus/layer/resize-to-image.xml:25(para)
 #: src/menus/layer/raise.xml:27(para) src/menus/layer/raise-to-top.xml:25(para)
 #: src/menus/layer/previous.xml:40(para) src/menus/layer/offset.xml:34(para)
-#: src/menus/layer/next.xml:28(para) src/menus/layer/new.xml:40(para)
+#: src/menus/layer/next.xml:28(para) src/menus/layer/new.xml:36(para)
 #: src/menus/layer/new-layer-group.xml:23(para)
 #: src/menus/layer/new-from-visible.xml:30(para)
 #: src/menus/layer/merge-layer-group.xml:39(para)
@@ -276,7 +276,7 @@ msgstr "Komutu Etkinleştirmek"
 #: src/menus/layer/flip-vertical.xml:32(para)
 #: src/menus/layer/flip-horizontal.xml:32(para)
 #: src/menus/layer/duplicate.xml:37(para) src/menus/layer/delete.xml:28(para)
-#: src/menus/layer/crop-to-content.xml:89(para)
+#: src/menus/layer/crop-to-content.xml:68(para)
 #: src/menus/layer/color-to-alpha.xml:35(para)
 #: src/menus/layer/bottom.xml:30(para) src/menus/layer/anchor.xml:41(para)
 #: src/menus/layer/alpha-semi-flatten.xml:37(para)
@@ -303,6 +303,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/threshold-alpha.xml:62(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/threshold-alpha.png'; "
+#| "md5=683a41c67551450c1129951da3535c7e"
 msgid ""
 "@@image: 'images/menus/layer/threshold-alpha.png'; "
 "md5=a2f958e4588c7b2897555177b6acdc8a"
@@ -636,6 +639,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/scale.xml:70(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/scale.png'; "
+#| "md5=1dc8a4455df0655ed81745bf2e112f4f"
 msgid ""
 "@@image: 'images/menus/layer/scale.png'; md5=1d82beb03977c6f6a4694b5b8bde8ebe"
 msgstr ""
@@ -725,12 +731,12 @@ msgid ""
 msgstr ""
 
 #: src/menus/layer/scale.xml:92(term) src/menus/layer/resize.xml:104(term)
-#: src/menus/layer/new.xml:322(term)
+#: src/menus/layer/new.xml:318(term)
 msgid "Width"
 msgstr ""
 
 #: src/menus/layer/scale.xml:93(term) src/menus/layer/resize.xml:105(term)
-#: src/menus/layer/new.xml:323(term)
+#: src/menus/layer/new.xml:319(term)
 msgid "Height"
 msgstr ""
 
@@ -1008,6 +1014,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/resize.xml:72(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/boundary-size-ex-5.png'; "
+#| "md5=c8b83cddb59e530a91b1fda622ef2e24"
 msgid ""
 "@@image: 'images/menus/layer/boundary-size.png'; "
 "md5=77f7c18d6d79b189dc57717a376f21a2"
@@ -1028,6 +1037,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/resize.xml:238(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/boundary-size-ex-2.png'; "
+#| "md5=a48cfdc122b9cf6adde0c6c44e4139ef"
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-2.png'; "
 "md5=c99ff96d2dcba27ce5d32cc80f6e324e"
@@ -1038,6 +1050,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/resize.xml:253(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/boundary-size-ex-3.png'; "
+#| "md5=8fb5137046b93acc86b2d4b6e0c1feb5"
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-3.png'; "
 "md5=cd6b43c44a14ff331734f2619516eedc"
@@ -1048,6 +1063,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/resize.xml:264(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/boundary-size-ex-1.png'; "
+#| "md5=1b797526eb18b86f8dad63e9d80937c1"
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-4.png'; "
 "md5=b7f61fe0edec0d466847c71f6820e95d"
@@ -1202,7 +1220,7 @@ msgid ""
 "the center of the layer."
 msgstr ""
 
-#: src/menus/layer/resize.xml:182(term) src/menus/layer/new.xml:348(term)
+#: src/menus/layer/resize.xml:182(term) src/menus/layer/new.xml:344(term)
 msgid "Fill With"
 msgstr ""
 
@@ -1441,6 +1459,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/offset.xml:66(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/offset-dialog.png'; "
+#| "md5=258030cf82c27cce3576017bc9633cf8"
 msgid ""
 "@@image: 'images/menus/layer/offset-dialog.png'; "
 "md5=d4ed9fcb50a0982e72a537a5dc4d769a"
@@ -1491,27 +1512,22 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/offset.xml:230(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
 #| "md5=9cb83ce72fc4a911ee680af457c4ece4"
 msgid ""
-"@@image: 'images/menus/layer/offset-ex-heart-orig-example.png'; "
-"md5=b6e3c8d7b5b676e614971c95597b5541"
+"@@image: 'images/menus/layer/offset-ex-heart-orig.png'; "
+"md5=db9bc99991e2b72f527b32ca13ebd26e"
 msgstr ""
-"@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
-"md5=9cb83ce72fc4a911ee680af457c4ece4"
+"@@image: 'images/menus/layer/offset-ex-heart-orig.png'; "
+"md5=db9bc99991e2b72f527b32ca13ebd26e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/offset.xml:241(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
-#| "md5=9cb83ce72fc4a911ee680af457c4ece4"
+#: src/menus/layer/offset.xml:242(None)
 msgid ""
-"@@image: 'images/menus/layer/offset-ex-heart-orig-dialog.png'; "
-"md5=459620c173741415581ec98e3c959df9"
+"@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
+"md5=9cb83ce72fc4a911ee680af457c4ece4"
 msgstr ""
 "@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
 "md5=9cb83ce72fc4a911ee680af457c4ece4"
@@ -1519,16 +1535,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/offset.xml:253(None)
-msgid ""
-"@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
-"md5=9cb83ce72fc4a911ee680af457c4ece4"
-msgstr ""
-"@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
-"md5=9cb83ce72fc4a911ee680af457c4ece4"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/offset.xml:264(None)
 msgid ""
 "@@image: 'images/menus/layer/offset-ex-result.png'; "
 "md5=a47c2ba3bfaf525e0081823bd4bc94f2"
@@ -1662,7 +1668,7 @@ msgstr "Örnekler"
 msgid "Using <quote>Offset</quote> together with <quote>Edge Behavior</quote>"
 msgstr ""
 
-#: src/menus/layer/offset.xml:186(para) src/menus/layer/offset.xml:233(para)
+#: src/menus/layer/offset.xml:186(para)
 msgid "Original image"
 msgstr ""
 
@@ -1682,17 +1688,17 @@ msgstr ""
 msgid "Repeatable pattern"
 msgstr ""
 
-#: src/menus/layer/offset.xml:244(para)
+#: src/menus/layer/offset.xml:233(para)
 msgid ""
-"The <link linkend=\"gimp-layer-dialog\">Layers Dialog</link> of the original "
-"image"
+"Original image; the corresponding <link linkend=\"gimp-layer-dialog\">Layers "
+"Dialog</link>"
 msgstr ""
 
-#: src/menus/layer/offset.xml:256(para)
+#: src/menus/layer/offset.xml:245(para)
 msgid "Edge Behavior = Wrap around, Offset = By width/2, height/2"
 msgstr ""
 
-#: src/menus/layer/offset.xml:267(para)
+#: src/menus/layer/offset.xml:256(para)
 msgid ""
 "Create a repeated pattern via the <link linkend=\"plug-in-tile\">Tile</link> "
 "filter"
@@ -1728,7 +1734,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new.xml:73(None)
+#: src/menus/layer/new.xml:69(None)
 msgid ""
 "@@image: 'images/stock-icons/document-new.svg'; "
 "md5=06940851b3c5b383f3a345703f51728e"
@@ -1738,7 +1744,10 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new.xml:92(None)
+#: src/menus/layer/new.xml:88(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/new.png'; "
+#| "md5=e95181801f1f8a0b3e1260744adafadf"
 msgid ""
 "@@image: 'images/menus/layer/new.png'; md5=48af23ec8d94fd134ed42f310755c5fa"
 msgstr ""
@@ -1746,7 +1755,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new.xml:241(None)
+#: src/menus/layer/new.xml:237(None)
 msgid ""
 "@@image: 'images/menus/layer/composite-mode-union.png'; "
 "md5=2c48ecc913e59c23a518782096756742"
@@ -1756,7 +1765,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new.xml:258(None)
+#: src/menus/layer/new.xml:254(None)
 msgid ""
 "@@image: 'images/menus/layer/composite-mode-clip-to-backdrop.png'; "
 "md5=125e2c6afee616b4d2dfdd930244e134"
@@ -1766,7 +1775,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new.xml:275(None)
+#: src/menus/layer/new.xml:271(None)
 msgid ""
 "@@image: 'images/menus/layer/composite-mode-clip-to-layer.png'; "
 "md5=fdb28ffc27096824f5d392f9ba9fbb00"
@@ -1776,7 +1785,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new.xml:291(None)
+#: src/menus/layer/new.xml:287(None)
 msgid ""
 "@@image: 'images/menus/layer/composite-mode-intersection.png'; "
 "md5=07d866e2918f5bfa8e71bd109cbf77db"
@@ -1795,17 +1804,11 @@ msgstr ""
 #: src/menus/layer/new.xml:19(para)
 msgid ""
 "The <guimenuitem>New Layer…</guimenuitem> command opens the <quote>Create a "
-"New Layer</quote> dialog that allows you to add one or more new, empty "
-"layers to the layer stack of the image, just above the selected layer(s)."
+"New Layer</quote> dialog that allows you to add a new, empty layer to the "
+"layer stack of the image, just above the active layer."
 msgstr ""
 
-#: src/menus/layer/new.xml:24(para)
-msgid ""
-"If multiple layers are selected, a new layer will be created above each of "
-"them."
-msgstr ""
-
-#: src/menus/layer/new.xml:29(para)
+#: src/menus/layer/new.xml:25(para)
 msgid ""
 "When a <link linkend=\"gimp-selection-float\">floating selection</link> is "
 "present, this command will show up as <guimenuitem>To New Layer</"
@@ -1813,19 +1816,19 @@ msgid ""
 "layer without opening the New Layer dialog."
 msgstr ""
 
-#: src/menus/layer/new.xml:45(para)
+#: src/menus/layer/new.xml:41(para)
 msgid ""
 "From the main menu through <menuchoice><guimenu>Layer</"
 "guimenu><guimenuitem>New Layer…</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/new.xml:54(para)
+#: src/menus/layer/new.xml:50(para)
 msgid ""
 "By using the keyboard shortcut <keycombo><keycap>Shift</keycap><keycap>Ctrl</"
 "keycap><keycap>N</keycap></keycombo>."
 msgstr ""
 
-#: src/menus/layer/new.xml:64(para)
+#: src/menus/layer/new.xml:60(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>New Layer</guimenuitem> command of its "
@@ -1833,15 +1836,15 @@ msgid ""
 "bottom of that dialog."
 msgstr ""
 
-#: src/menus/layer/new.xml:87(title)
+#: src/menus/layer/new.xml:83(title)
 msgid "Description of the <quote>New Layer</quote> Dialog"
 msgstr ""
 
-#: src/menus/layer/new.xml:89(title)
+#: src/menus/layer/new.xml:85(title)
 msgid "The <quote>New Layer</quote> dialog"
 msgstr ""
 
-#: src/menus/layer/new.xml:96(para)
+#: src/menus/layer/new.xml:92(para)
 msgid ""
 "Below the title <quote>Create a new layer</quote>, the name of the image "
 "that this new layer will belong to, is displayed. To the right of the title "
@@ -1850,11 +1853,11 @@ msgid ""
 "open."
 msgstr ""
 
-#: src/menus/layer/new.xml:105(term)
+#: src/menus/layer/new.xml:101(term)
 msgid "Layer Name"
 msgstr ""
 
-#: src/menus/layer/new.xml:107(para)
+#: src/menus/layer/new.xml:103(para)
 msgid ""
 "The name of the new layer. It does not have any functional significance; it "
 "is simply a convenient way for you to remember the purpose of the layer. The "
@@ -1864,11 +1867,11 @@ msgid ""
 "quote>) when you click <guibutton>OK</guibutton> to create the layer."
 msgstr ""
 
-#: src/menus/layer/new.xml:120(term)
+#: src/menus/layer/new.xml:116(term)
 msgid "<anchor id=\"gimp-layer-color-tag\"/> Color tag"
 msgstr "<anchor id=\"gimp-layer-color-tag\"/> Renk etiketi"
 
-#: src/menus/layer/new.xml:125(para)
+#: src/menus/layer/new.xml:121(para)
 msgid ""
 "If you click on one of these color buttons, the \"Eye\" icon box of the "
 "created layer will have this color. This can help you identify or group "
@@ -1876,11 +1879,11 @@ msgid ""
 "image."
 msgstr ""
 
-#: src/menus/layer/new.xml:135(term)
+#: src/menus/layer/new.xml:131(term)
 msgid "Mode"
 msgstr "Kip"
 
-#: src/menus/layer/new.xml:137(para)
+#: src/menus/layer/new.xml:133(para)
 msgid ""
 "A layer's mode determines how the layer is combined with the layers below "
 "it. The default is <quote>Normal</quote>. The drop-down list offers a wide "
@@ -1889,22 +1892,22 @@ msgid ""
 "<quote>Legacy</quote> layer modes."
 msgstr ""
 
-#: src/menus/layer/new.xml:144(para)
+#: src/menus/layer/new.xml:140(para)
 msgid ""
 "Layer modes are described in more detail in <link linkend=\"gimp-concepts-"
 "layer-modes\">Layer Modes</link> and <link linkend=\"gimp-concepts-layer-"
 "modes-legacy\">Legacy Layer Modes</link>."
 msgstr ""
 
-#: src/menus/layer/new.xml:154(term)
+#: src/menus/layer/new.xml:150(term)
 msgid "Blend space"
 msgstr ""
 
-#: src/menus/layer/new.xml:155(term)
+#: src/menus/layer/new.xml:151(term)
 msgid "<anchor id=\"gimp-layer-composite-space\"/> Composite space"
 msgstr ""
 
-#: src/menus/layer/new.xml:160(para)
+#: src/menus/layer/new.xml:156(para)
 msgid ""
 "The color space used for blending or compositing the layer with the layers "
 "below it. <quote>Blending</quote> determines how the colors of the upper and "
@@ -1913,7 +1916,7 @@ msgid ""
 "pixel."
 msgstr ""
 
-#: src/menus/layer/new.xml:167(para)
+#: src/menus/layer/new.xml:163(para)
 msgid ""
 "Depending on the layer mode (see above) one or both of these settings may be "
 "disabled. It is only enabled for layer modes where setting this has any "
@@ -1924,7 +1927,7 @@ msgid ""
 "use linear, others use perceptual."
 msgstr ""
 
-#: src/menus/layer/new.xml:177(para)
+#: src/menus/layer/new.xml:173(para)
 msgid ""
 "The linear and perceptual (non-linear) encodings are described in <link "
 "linkend=\"gimp-image-choosing-precision-encoding\">choosing precision and "
@@ -1932,7 +1935,7 @@ msgid ""
 "encoding\">Glossary</link>."
 msgstr ""
 
-#: src/menus/layer/new.xml:184(para)
+#: src/menus/layer/new.xml:180(para)
 msgid ""
 "When changing the layer mode, both <guilabel>Blend space</guilabel> and "
 "<guilabel>Composite space</guilabel> are always reset to <guilabel>Auto</"
@@ -1940,11 +1943,11 @@ msgid ""
 "mode."
 msgstr ""
 
-#: src/menus/layer/new.xml:195(term)
+#: src/menus/layer/new.xml:191(term)
 msgid "Composite mode"
 msgstr ""
 
-#: src/menus/layer/new.xml:197(para)
+#: src/menus/layer/new.xml:193(para)
 msgid ""
 "The layer <guilabel>Mode</guilabel>, sometimes referred to as its "
 "<quote>blend mode</quote> (Normal, Multiply, etc.), determines how the "
@@ -1957,7 +1960,7 @@ msgid ""
 "namely, it's the combination of the layers below it."
 msgstr ""
 
-#: src/menus/layer/new.xml:210(para)
+#: src/menus/layer/new.xml:206(para)
 msgid ""
 "There are two regions of interest when compositing the layer against its "
 "backdrop: the opaque region of the backdrop, and the opaque region of the "
@@ -1969,57 +1972,57 @@ msgid ""
 "these regions to keep, and which to discard."
 msgstr ""
 
-#: src/menus/layer/new.xml:221(para)
+#: src/menus/layer/new.xml:217(para)
 msgid ""
-"The example images below show the composition of two layers the bottom layer "
-"containing a red feathered circle, and the top layer containing a green "
-"feathered circle using <quote>Addition</quote> mode, and different composite "
-"modes (applied to the top layer)."
+"The example images below show the composition of two layers &mdash; the "
+"bottom layer containing a red feathered circle, and the top layer containing "
+"a green feathered circle &mdash; using <quote>Addition</quote> mode, and "
+"different composite modes (applied to the top layer)."
 msgstr ""
 
-#: src/menus/layer/new.xml:231(para)
+#: src/menus/layer/new.xml:227(para)
 msgid ""
 "<guilabel>Union</guilabel>: keeps the opaque regions of both the layer and "
 "its backdrop, i.e their union."
 msgstr ""
 
-#: src/menus/layer/new.xml:237(title)
+#: src/menus/layer/new.xml:233(title)
 msgid "<quote>Union</quote> option example"
 msgstr ""
 
-#: src/menus/layer/new.xml:247(para)
+#: src/menus/layer/new.xml:243(para)
 msgid ""
 "<guilabel>Clip to backdrop</guilabel>: keeps only the opaque regions of the "
 "backdrop (this includes the common opaque region to both the backdrop and "
 "the layer i.e their intersection)."
 msgstr ""
 
-#: src/menus/layer/new.xml:254(title)
+#: src/menus/layer/new.xml:250(title)
 msgid "<quote>Clip to backdrop</quote> option example"
 msgstr ""
 
-#: src/menus/layer/new.xml:264(para)
+#: src/menus/layer/new.xml:260(para)
 msgid ""
 "<guilabel>Clip to layer</guilabel>: keeps only the opaque region of the "
 "layer (this includes the common opaque region to both the backdrop and the "
 "layer, i.e their intersection)."
 msgstr ""
 
-#: src/menus/layer/new.xml:271(title)
+#: src/menus/layer/new.xml:267(title)
 msgid "<quote>Clip to layer</quote> option example"
 msgstr ""
 
-#: src/menus/layer/new.xml:281(para)
+#: src/menus/layer/new.xml:277(para)
 msgid ""
 "<guilabel>Intersection</guilabel>: keeps only the opaque region to both the "
 "backdrop and the layer, i.e their intersection."
 msgstr ""
 
-#: src/menus/layer/new.xml:287(title)
+#: src/menus/layer/new.xml:283(title)
 msgid "<quote>Intersection</quote> option example"
 msgstr ""
 
-#: src/menus/layer/new.xml:297(para)
+#: src/menus/layer/new.xml:293(para)
 msgid ""
 "<guilabel>Auto</guilabel>: <quote>Auto</quote> mode is not a separate "
 "composite mode, but rather corresponds to one of the other composite modes, "
@@ -2029,15 +2032,15 @@ msgid ""
 "composite modes) it corresponds to <quote>Clip to Backdrop</quote>."
 msgstr ""
 
-#: src/menus/layer/new.xml:313(term)
+#: src/menus/layer/new.xml:309(term)
 msgid "Opacity"
 msgstr ""
 
-#: src/menus/layer/new.xml:315(para)
+#: src/menus/layer/new.xml:311(para)
 msgid "Sets the opacity of painting on the layer. Default is 100%."
 msgstr ""
 
-#: src/menus/layer/new.xml:325(para)
+#: src/menus/layer/new.xml:321(para)
 msgid ""
 "The dimensions of the new layer. When the dialog appears, the values are "
 "initialized to the dimensions of the image. You can change them by using the "
@@ -2045,15 +2048,15 @@ msgid ""
 "right."
 msgstr ""
 
-#: src/menus/layer/new.xml:335(term)
+#: src/menus/layer/new.xml:331(term)
 msgid "Offset X"
 msgstr ""
 
-#: src/menus/layer/new.xml:336(term)
+#: src/menus/layer/new.xml:332(term)
 msgid "Offset Y"
 msgstr ""
 
-#: src/menus/layer/new.xml:338(para)
+#: src/menus/layer/new.xml:334(para)
 msgid ""
 "The default origin of the new layer is the upper left corner of the image "
 "canvas. Here, you can set the exact position of the layer. By choosing a "
@@ -2061,7 +2064,7 @@ msgid ""
 "canvas."
 msgstr ""
 
-#: src/menus/layer/new.xml:350(para)
+#: src/menus/layer/new.xml:346(para)
 msgid ""
 "There are numerous options for filling the new layer: the current "
 "<guilabel>Foreground color</guilabel>, the current <guilabel>Background "
@@ -2070,11 +2073,11 @@ msgid ""
 "current <guilabel>Pattern</guilabel>."
 msgstr ""
 
-#: src/menus/layer/new.xml:363(term)
+#: src/menus/layer/new.xml:359(term)
 msgid "Switches"
 msgstr ""
 
-#: src/menus/layer/new.xml:365(para)
+#: src/menus/layer/new.xml:361(para)
 msgid ""
 "The switches <guilabel>Visible</guilabel>, <guilabel>Lock pixels</guilabel>, "
 "<guilabel>Lock position and size</guilabel>, <guilabel>Lock visibility</"
@@ -2394,37 +2397,22 @@ msgstr ""
 #: src/menus/layer/mask-selection-replace.xml:70(None)
 #: src/menus/layer/mask-selection-intersect.xml:67(None)
 #: src/menus/layer/mask-selection-add.xml:66(None)
-#, fuzzy
 #| msgid ""
-#| "@@image: 'images/menus/layer/add-mask-example.png'; "
-#| "md5=ba6782eba5ff06be43f3a7b2c0048d7c"
+#| "@@image: 'images/menus/layer/intersect-mask-example.png'; "
+#| "md5=8cb8282f34ea6bf23eab0ec8b18a5ba4"
 msgid ""
-"@@image: 'images/menus/layer/mask-example-example.png'; "
-"md5=fac93b5d3a6ded083bf337b92c77cacb"
-msgstr ""
-"@@image: 'images/menus/layer/add-mask-example.png'; "
-"md5=ba6782eba5ff06be43f3a7b2c0048d7c"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/mask-selection-subtract.xml:73(None)
-#: src/menus/layer/mask-selection-replace.xml:81(None)
-#: src/menus/layer/mask-selection-intersect.xml:78(None)
-#: src/menus/layer/mask-selection-add.xml:77(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/menus/layer/mask-example.png'; "
-#| "md5=8aa43efc3f24bead3caf3f14ae39113a"
-msgid ""
-"@@image: 'images/menus/layer/mask-example-dialog.png'; "
-"md5=d42cd0829d6b8f038d801890171bea81"
+"@@image: 'images/menus/layer/mask-example.png'; "
+"md5=8aa43efc3f24bead3caf3f14ae39113a"
 msgstr ""
 "@@image: 'images/menus/layer/mask-example.png'; "
 "md5=8aa43efc3f24bead3caf3f14ae39113a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/mask-selection-subtract.xml:87(None)
+#: src/menus/layer/mask-selection-subtract.xml:77(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/subtract-mask-example.png'; "
+#| "md5=b2c58ff9166f8c5203e8ef211157ebb3"
 msgid ""
 "@@image: 'images/menus/layer/subtract-mask-example.png'; "
 "md5=45e3b31d8b91f09cc3f684b1272cb520"
@@ -2487,20 +2475,14 @@ msgstr ""
 #: src/menus/layer/mask-selection-replace.xml:73(para)
 #: src/menus/layer/mask-selection-intersect.xml:70(para)
 #: src/menus/layer/mask-selection-add.xml:69(para)
-msgid "The original image with a selection."
-msgstr ""
-
-#: src/menus/layer/mask-selection-subtract.xml:76(para)
-#: src/menus/layer/mask-selection-replace.xml:84(para)
-#: src/menus/layer/mask-selection-intersect.xml:81(para)
-#: src/menus/layer/mask-selection-add.xml:80(para)
 msgid ""
-"The <link linkend=\"gimp-layer-dialog\">Layers Dialog</link> with a layer "
-"mask created via <link linkend=\"gimp-layer-mask-add\">Add Layer Masks…</"
-"link> with the <quote>Layer's alpha channel</quote> option enabled."
+"The original image with a selection and the <link linkend=\"gimp-layer-"
+"dialog\">Layers Dialog</link> with a layer mask created via <link "
+"linkend=\"gimp-layer-mask-add\">Add Layer Masks…</link> with the "
+"<quote>Layer's alpha channel</quote> option enabled."
 msgstr ""
 
-#: src/menus/layer/mask-selection-subtract.xml:90(para)
+#: src/menus/layer/mask-selection-subtract.xml:80(para)
 msgid ""
 "The result after applying <quote>Subtract Masks from Selection</quote>: the "
 "selection of the non-transparent pixels of the active layer is subtracted "
@@ -2509,7 +2491,10 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/mask-selection-replace.xml:95(None)
+#: src/menus/layer/mask-selection-replace.xml:85(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/replace-mask-example.png'; "
+#| "md5=58b110c8fd104b740ad1eee2bd56eaa1"
 msgid ""
 "@@image: 'images/menus/layer/replace-mask-example.png'; "
 "md5=f81b57f80fb14786ac4cb289b42f4fdf"
@@ -2557,7 +2542,7 @@ msgstr ""
 msgid "Illustration of <quote>Masks to Selection</quote>"
 msgstr ""
 
-#: src/menus/layer/mask-selection-replace.xml:98(para)
+#: src/menus/layer/mask-selection-replace.xml:88(para)
 msgid ""
 "The result after applying <quote>Masks to Selection</quote>: the selection "
 "of the non-transparent pixels of the selected layer replaces the initial "
@@ -2566,7 +2551,10 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/mask-selection-intersect.xml:92(None)
+#: src/menus/layer/mask-selection-intersect.xml:82(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/intersect-mask-example.png'; "
+#| "md5=8cb8282f34ea6bf23eab0ec8b18a5ba4"
 msgid ""
 "@@image: 'images/menus/layer/intersect-mask-example.png'; "
 "md5=bcdaf35c9ce29f48a8eceb2de4d26673"
@@ -2606,7 +2594,7 @@ msgstr ""
 msgid "Illustration of Intersect Masks with the Selection"
 msgstr ""
 
-#: src/menus/layer/mask-selection-intersect.xml:95(para)
+#: src/menus/layer/mask-selection-intersect.xml:85(para)
 msgid ""
 "The result after applying <quote>Intersect Masks with Selection</quote>: the "
 "selection of the non-transparent pixels of the active layer is the common "
@@ -2615,7 +2603,10 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/mask-selection-add.xml:91(None)
+#: src/menus/layer/mask-selection-add.xml:81(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/add-mask-example.png'; "
+#| "md5=0933373e6bbe5e5ea26a63264c7584ad"
 msgid ""
 "@@image: 'images/menus/layer/add-mask-example.png'; "
 "md5=ba6782eba5ff06be43f3a7b2c0048d7c"
@@ -2668,7 +2659,7 @@ msgstr ""
 msgid "Illustration of Add Masks to Selection"
 msgstr ""
 
-#: src/menus/layer/mask-selection-add.xml:94(para)
+#: src/menus/layer/mask-selection-add.xml:84(para)
 msgid ""
 "The result after applying <quote>Add Masks to Selection</quote>: the "
 "selection of the non-transparent pixels of the selected layer is added to "
@@ -2794,6 +2785,9 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/mask-apply.xml:72(None)
 #: src/menus/layer/mask-add.xml:65(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer/mask.png'; "
+#| "md5=a243a9096e25e611c1575e75d5fdf558"
 msgid ""
 "@@image: 'images/stock-icons/gimp-layer-mask.svg'; "
 "md5=6a258b8141ba3594e284fe5c6a80fd40"
@@ -2858,6 +2852,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/mask-add.xml:84(None)
+#| msgid ""
+#| "@@image: 'images/dialogs/layer-mask-add.png'; "
+#| "md5=d36f79002d05972c9171aebd11b2ee66"
 msgid ""
 "@@image: 'images/dialogs/layer-mask-add.png'; "
 "md5=be74d19950c57deba0fce4683ea52323"
@@ -3086,6 +3083,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/introduction.xml:22(None)
+#| msgid ""
+#| "@@image: 'images/menus/layer.png'; md5=4bfbb89261f38ef0e9a7bce8be51b918"
 msgid "@@image: 'images/menus/layer.png'; md5=b8e50326f36dcb3dbe78d937612270f0"
 msgstr ""
 "@@image: 'images/menus/layer.png'; md5=b8e50326f36dcb3dbe78d937612270f0"
@@ -3228,6 +3227,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/duplicate.xml:70(None)
+#| msgid ""
+#| "@@image: 'images/dialogs/stock-duplicate-16.png'; "
+#| "md5=63e3f16710edcb66ac9046d7bd13533e"
 msgid ""
 "@@image: 'images/stock-icons/gimp-duplicate.svg'; "
 "md5=c4e41353df046752fe30ac926eac91f1"
@@ -3323,57 +3325,28 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/crop-to-content.xml:41(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/menus/layer/mask-example.png'; "
-#| "md5=8aa43efc3f24bead3caf3f14ae39113a"
-msgid ""
-"@@image: 'images/menus/layer/autocrop-1-example.png'; "
-"md5=e6198a44ec5f5d2ab0120187aa5aadde"
-msgstr ""
-"@@image: 'images/menus/layer/mask-example.png'; "
-"md5=8aa43efc3f24bead3caf3f14ae39113a"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/crop-to-content.xml:52(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/autocrop-1.png'; "
-#| "md5=2c3f4034b2f784759d8254c8195b1fb5"
+#| "md5=793239d9e31b65014ea1e4684a0bc84d"
 msgid ""
-"@@image: 'images/menus/layer/autocrop-1-dialog.png'; "
-"md5=2c0a0b3eeb3c42213557b6b241f267c7"
+"@@image: 'images/menus/layer/autocrop-1.png'; "
+"md5=2c3f4034b2f784759d8254c8195b1fb5"
 msgstr ""
 "@@image: 'images/menus/layer/autocrop-1.png'; "
 "md5=2c3f4034b2f784759d8254c8195b1fb5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/crop-to-content.xml:63(None)
-#, fuzzy
+#: src/menus/layer/crop-to-content.xml:52(None)
 #| msgid ""
 #| "@@image: 'images/menus/layer/autocrop-2.png'; "
-#| "md5=a7e77c043d7328cf052879ba07829194"
+#| "md5=472abe2ebb667213befd2e87ab3a01d0"
 msgid ""
-"@@image: 'images/menus/layer/autocrop-2-example.png'; "
-"md5=325aeb7fd38d9f98dbf068e40628d778"
+"@@image: 'images/menus/layer/autocrop-2.png'; "
+"md5=a7e77c043d7328cf052879ba07829194"
 msgstr ""
 "@@image: 'images/menus/layer/autocrop-2.png'; "
 "md5=a7e77c043d7328cf052879ba07829194"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/crop-to-content.xml:74(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/menus/layer/crop.png'; "
-#| "md5=a85dcee6a55ea3e1e21bfb2a2aced52e"
-msgid ""
-"@@image: 'images/menus/layer/autocrop-2-dialog.png'; "
-"md5=698d6bbf8cd37d66045a441a2d3ad685"
-msgstr ""
-"@@image: 'images/menus/layer/crop.png'; md5=a85dcee6a55ea3e1e21bfb2a2aced52e"
 
 #: src/menus/layer/crop-to-content.xml:6(title)
 #: src/menus/layer/crop-to-content.xml:11(tertiary)
@@ -3409,33 +3382,18 @@ msgid "<quote>Crop Layers to Content</quote> example"
 msgstr ""
 
 #: src/menus/layer/crop-to-content.xml:44(para)
-#: src/menus/layer/alpha-selection-subtract.xml:66(para)
-#: src/menus/layer/alpha-selection-replace.xml:73(para)
-#: src/menus/layer/alpha-selection-intersect.xml:66(para)
-#: src/menus/layer/alpha-selection-add.xml:65(para)
-msgid "Original image."
+msgid "Before applying <quote>Crop Layers to Content</quote>"
 msgstr ""
 
 #: src/menus/layer/crop-to-content.xml:55(para)
-#: src/menus/layer/alpha-selection-subtract.xml:76(para)
-#: src/menus/layer/alpha-selection-replace.xml:83(para)
-#: src/menus/layer/alpha-selection-intersect.xml:76(para)
-#: src/menus/layer/alpha-selection-add.xml:75(para)
-msgid "Layers of the original image."
-msgstr ""
-
-#: src/menus/layer/crop-to-content.xml:66(para)
-msgid "Resulting image after applying <quote>Crop Layers to Content</quote>."
-msgstr ""
-
-#: src/menus/layer/crop-to-content.xml:77(para)
 msgid ""
-"The active layer has been cropped to the size of the circle it contains. Its "
-"size is reduced, and the unoccupied part in the canvas is transparent, "
-"revealing the yellow and green colors of the underlying layer."
+"After applying <quote>Crop Layers to Content</quote>: the active layer has "
+"been cropped to the size of the circle it contains. Its size is reduced, and "
+"the unoccupied part in the canvas is transparent, revealing the yellow and "
+"green colors of the underlying layer."
 msgstr ""
 
-#: src/menus/layer/crop-to-content.xml:94(para)
+#: src/menus/layer/crop-to-content.xml:73(para)
 msgid ""
 "From the main menu through <menuchoice><guimenu>Layer</"
 "guimenu><guimenuitem>Crop Layers to Content</guimenuitem></menuchoice>."
@@ -3580,7 +3538,7 @@ msgid "Preserve anti-aliasing"
 msgstr ""
 
 #: src/menus/layer/alpha-semi-flatten.xml:21(primary)
-msgid "Anti-aliasing"
+msgid "Antialiasing"
 msgstr ""
 
 #: src/menus/layer/alpha-semi-flatten.xml:25(para)
@@ -3611,37 +3569,19 @@ msgstr ""
 #: src/menus/layer/alpha-selection-replace.xml:70(None)
 #: src/menus/layer/alpha-selection-intersect.xml:63(None)
 #: src/menus/layer/alpha-selection-add.xml:62(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/alpha-replace.png'; "
 #| "md5=0fa909ce05be3061a37297f03d2fe348"
 msgid ""
-"@@image: 'images/menus/layer/alpha-example-example.png'; "
-"md5=a1971ab1238f0e0040e2652669be38da"
-msgstr ""
-"@@image: 'images/menus/layer/alpha-replace.png'; "
-"md5=0fa909ce05be3061a37297f03d2fe348"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/alpha-selection-subtract.xml:73(None)
-#: src/menus/layer/alpha-selection-replace.xml:80(None)
-#: src/menus/layer/alpha-selection-intersect.xml:73(None)
-#: src/menus/layer/alpha-selection-add.xml:72(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/menus/layer/alpha-example.png'; "
-#| "md5=fff3be24f2f5b630c9790def466f4fd3"
-msgid ""
-"@@image: 'images/menus/layer/alpha-example-dialog.png'; "
-"md5=d19eeb05c02df4cf064381a41def3d9e"
+"@@image: 'images/menus/layer/alpha-example.png'; "
+"md5=fff3be24f2f5b630c9790def466f4fd3"
 msgstr ""
 "@@image: 'images/menus/layer/alpha-example.png'; "
 "md5=fff3be24f2f5b630c9790def466f4fd3"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/alpha-selection-subtract.xml:83(None)
+#: src/menus/layer/alpha-selection-subtract.xml:73(None)
 msgid ""
 "@@image: 'images/menus/layer/alpha-sub.png'; "
 "md5=c787351999f88f1601baa7c810c81b6c"
@@ -3689,15 +3629,22 @@ msgstr ""
 msgid "Applying <quote>Subtract Alpha from Selection</quote>"
 msgstr ""
 
-#: src/menus/layer/alpha-selection-subtract.xml:86(para)
+#: src/menus/layer/alpha-selection-subtract.xml:66(para)
+#: src/menus/layer/alpha-selection-replace.xml:73(para)
+#: src/menus/layer/alpha-selection-intersect.xml:66(para)
+#: src/menus/layer/alpha-selection-add.xml:65(para)
+msgid "Example image and its layers."
+msgstr ""
+
+#: src/menus/layer/alpha-selection-subtract.xml:76(para)
 msgid ""
-"Resulting image: Non-transparent pixels of the active layer have been "
-"subtracted from the existing rectangular selection."
+"Non-transparent pixels of the active layer have been subtracted from the "
+"existing rectangular selection."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/alpha-selection-replace.xml:91(None)
+#: src/menus/layer/alpha-selection-replace.xml:81(None)
 msgid ""
 "@@image: 'images/menus/layer/alpha-replace.png'; "
 "md5=0fa909ce05be3061a37297f03d2fe348"
@@ -3742,15 +3689,15 @@ msgstr ""
 msgid "Applying <quote>Alpha to Selection</quote>"
 msgstr ""
 
-#: src/menus/layer/alpha-selection-replace.xml:94(para)
+#: src/menus/layer/alpha-selection-replace.xml:84(para)
 msgid ""
-"Resulting image: Non-transparent pixels of the active layer have replaced "
-"the existing rectangular selection."
+"Non-transparent pixels of the active layer have replaced the existing "
+"rectangular selection."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/alpha-selection-intersect.xml:84(None)
+#: src/menus/layer/alpha-selection-intersect.xml:74(None)
 msgid ""
 "@@image: 'images/menus/layer/alpha-intersect.png'; "
 "md5=02e5b2822586530042af49aad964e6f0"
@@ -3789,15 +3736,15 @@ msgstr ""
 msgid "Applying <quote>Intersect Alpha with Selection</quote>"
 msgstr ""
 
-#: src/menus/layer/alpha-selection-intersect.xml:87(para)
+#: src/menus/layer/alpha-selection-intersect.xml:77(para)
 msgid ""
-"Resulting image: Non-transparent pixels of the active layer have been "
-"intersected with the existing rectangular selection."
+"Non-transparent pixels of the active layer have been intersected with the "
+"existing rectangular selection."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/alpha-selection-add.xml:82(None)
+#: src/menus/layer/alpha-selection-add.xml:72(None)
 msgid ""
 "@@image: 'images/menus/layer/alpha-add.png'; "
 "md5=7a03cf6614be3bd23f39f701cb659fc5"
@@ -3837,10 +3784,10 @@ msgstr ""
 msgid "Applying <quote>Add Alpha to Selection</quote>"
 msgstr ""
 
-#: src/menus/layer/alpha-selection-add.xml:85(para)
+#: src/menus/layer/alpha-selection-add.xml:75(para)
 msgid ""
-"Resulting image: Non-transparent pixels of the active layer have been added "
-"to the existing selection."
+"Non-transparent pixels of the active layer have been added to the existing "
+"selection."
 msgstr ""
 
 #: src/menus/layer/alpha-remove.xml:12(title)
@@ -3930,13 +3877,3 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
-
-#~| msgid ""
-#~| "@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
-#~| "md5=9cb83ce72fc4a911ee680af457c4ece4"
-#~ msgid ""
-#~ "@@image: 'images/menus/layer/offset-ex-heart-orig.png'; "
-#~ "md5=db9bc99991e2b72f527b32ca13ebd26e"
-#~ msgstr ""
-#~ "@@image: 'images/menus/layer/offset-ex-heart-orig.png'; "
-#~ "md5=db9bc99991e2b72f527b32ca13ebd26e"

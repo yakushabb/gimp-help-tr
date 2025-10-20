@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-03-18 09:22+0000\n"
 "PO-Revision-Date: 2025-10-20 21:00+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -693,10 +693,10 @@ msgstr ""
 #: src/toolbox/transform/common-features.xml:94(term)
 #: src/toolbox/transform/common-features.xml:356(primary)
 #: src/toolbox/transform/common-features.xml:361(secondary)
-#: src/toolbox/transform/common-features.xml:629(primary)
-#: src/toolbox/transform/common-features.xml:634(secondary)
-#: src/toolbox/transform/common-features.xml:726(primary)
-#: src/toolbox/transform/common-features.xml:731(secondary)
+#: src/toolbox/transform/common-features.xml:620(primary)
+#: src/toolbox/transform/common-features.xml:625(secondary)
+#: src/toolbox/transform/common-features.xml:717(primary)
+#: src/toolbox/transform/common-features.xml:722(secondary)
 msgid "Transform"
 msgstr ""
 
@@ -744,9 +744,9 @@ msgstr ""
 #: src/toolbox/transform/perspective.xml:99(term)
 #: src/toolbox/transform/handle-transform.xml:204(term)
 #: src/toolbox/transform/crop.xml:289(term)
-#: src/toolbox/transform/common-features.xml:626(term)
-#: src/toolbox/transform/common-features.xml:630(secondary)
-#: src/toolbox/transform/common-features.xml:633(primary)
+#: src/toolbox/transform/common-features.xml:617(term)
+#: src/toolbox/transform/common-features.xml:621(secondary)
+#: src/toolbox/transform/common-features.xml:624(primary)
 msgid "Guides"
 msgstr ""
 
@@ -2431,27 +2431,27 @@ msgid "No Guides"
 msgstr ""
 
 #: src/toolbox/transform/crop.xml:303(para)
-#: src/toolbox/transform/common-features.xml:652(term)
+#: src/toolbox/transform/common-features.xml:643(term)
 msgid "Center lines"
 msgstr ""
 
 #: src/toolbox/transform/crop.xml:306(para)
-#: src/toolbox/transform/common-features.xml:661(term)
+#: src/toolbox/transform/common-features.xml:652(term)
 msgid "Rule of thirds"
 msgstr ""
 
 #: src/toolbox/transform/crop.xml:309(para)
-#: src/toolbox/transform/common-features.xml:672(term)
+#: src/toolbox/transform/common-features.xml:663(term)
 msgid "Rule of fifths"
 msgstr ""
 
 #: src/toolbox/transform/crop.xml:312(para)
-#: src/toolbox/transform/common-features.xml:681(term)
+#: src/toolbox/transform/common-features.xml:672(term)
 msgid "Golden sections"
 msgstr ""
 
 #: src/toolbox/transform/crop.xml:315(para)
-#: src/toolbox/transform/common-features.xml:692(term)
+#: src/toolbox/transform/common-features.xml:683(term)
 msgid "Diagonal lines"
 msgstr ""
 
@@ -2604,34 +2604,16 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/common-features.xml:559(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/toolbox/3DTransf-orig.jpg'; "
-#| "md5=127fc6d443f17dc79dff010fa6cca550"
 msgid ""
-"@@image: 'images/toolbox/3DTransf-orig-example.png'; "
-"md5=4c5a80687cbdd808be0e5813f22adca1"
+"@@image: 'images/toolbox/3DTransf-orig.jpg'; "
+"md5=127fc6d443f17dc79dff010fa6cca550"
 msgstr ""
 "@@image: 'images/toolbox/3DTransf-orig.jpg'; "
 "md5=127fc6d443f17dc79dff010fa6cca550"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/common-features.xml:568(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/toolbox/3DTransf-orig.jpg'; "
-#| "md5=127fc6d443f17dc79dff010fa6cca550"
-msgid ""
-"@@image: 'images/toolbox/3DTransf-orig-dialog.png'; "
-"md5=cec1fab7ca04595072ea3915942f8ab8"
-msgstr ""
-"@@image: 'images/toolbox/3DTransf-orig.jpg'; "
-"md5=127fc6d443f17dc79dff010fa6cca550"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/common-features.xml:579(None)
+#: src/toolbox/transform/common-features.xml:570(None)
 msgid ""
 "@@image: 'images/toolbox/3DTransf-no.jpg'; "
 "md5=d863b639b802531493dfa3245184b9a8"
@@ -2641,7 +2623,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/common-features.xml:591(None)
+#: src/toolbox/transform/common-features.xml:582(None)
 msgid ""
 "@@image: 'images/toolbox/3DTransf-with.jpg'; "
 "md5=dc96e132a453e789ff07d3f9f3f99ad6"
@@ -2651,7 +2633,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/common-features.xml:741(None)
+#: src/toolbox/transform/common-features.xml:732(None)
 msgid ""
 "@@image: 'images/toolbox/paths-transform-1.png'; "
 "md5=c8e3d16a2561038a87e21f79083de42a"
@@ -2661,7 +2643,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/common-features.xml:749(None)
+#: src/toolbox/transform/common-features.xml:740(None)
 msgid ""
 "@@image: 'images/toolbox/paths-transform-2.png'; "
 "md5=6ac1f8facb698ec364834296e4d5c489"
@@ -3072,33 +3054,25 @@ msgid ""
 msgstr ""
 
 #: src/toolbox/transform/common-features.xml:562(para)
-#, fuzzy
-#| msgid "Original image: a text layer"
-msgid "Original image with four layers."
-msgstr "Özgün görüntü: bir metin katmanı"
-
-#: src/toolbox/transform/common-features.xml:571(para)
-#, fuzzy
-#| msgid "Original image: red layer opacity is 80%."
-msgid "The red layer opacity is 80%."
+msgid "Original image: red layer opacity is 80%."
 msgstr "Özgün görüntü: kırmızı katman matlığı %80"
 
-#: src/toolbox/transform/common-features.xml:575(title)
+#: src/toolbox/transform/common-features.xml:566(title)
 msgid "Composited Preview Example"
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:582(para)
+#: src/toolbox/transform/common-features.xml:573(para)
 msgid ""
 "Composited option unchecked: in preview, red layer is above all other layers."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:594(para)
+#: src/toolbox/transform/common-features.xml:585(para)
 msgid ""
 "Composited option checked: in preview, red layer is at its right place, like "
 "in layer stack."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:605(para)
+#: src/toolbox/transform/common-features.xml:596(para)
 msgid ""
 "<guilabel>Synchronous preview</guilabel>: this option is experimental. The "
 "idea is to render the preview as soon as you change the transform. So "
@@ -3107,111 +3081,111 @@ msgid ""
 "smoother and more instant feedback."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:613(para)
+#: src/toolbox/transform/common-features.xml:604(para)
 msgid ""
 "But this option also blocks everything until the preview is done rendering. "
 "This means, GIMP can become much less responsive, usually when the layer is "
 "very large. That's why this is disabled by default."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:601(para)
+#: src/toolbox/transform/common-features.xml:592(para)
 msgid "One sub option is available: <placeholder-1/>"
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:636(para)
+#: src/toolbox/transform/common-features.xml:627(para)
 msgid ""
 "This is a drop-down list where you select the type of guide lines which "
 "suits your transforming. All the guides use a frame to mark the image's "
 "outline in addition to the lines used by the different selections."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:644(term)
+#: src/toolbox/transform/common-features.xml:635(term)
 msgid "No guides"
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:646(para)
+#: src/toolbox/transform/common-features.xml:637(para)
 msgid "As the name tells you, there are no guides used."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:654(para)
+#: src/toolbox/transform/common-features.xml:645(para)
 msgid ""
 "Uses one vertical line and one horizontal line crossing each other in the "
 "center of the image or layer."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:663(para)
+#: src/toolbox/transform/common-features.xml:654(para)
 msgid ""
 "Divides the transforming area in nine equal parts by adding two horizontal "
 "lines and two vertical lines equally spaced. According to this rule the most "
 "interesting parts of the image should be placed at the intersection points."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:674(para)
+#: src/toolbox/transform/common-features.xml:665(para)
 msgid ""
 "Just as the <quote>Rules of thirds</quote> but divides the area in five by "
 "five parts."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:683(para)
+#: src/toolbox/transform/common-features.xml:674(para)
 msgid ""
 "Also called <quote>The Golden Ratio</quote>. This divides the transforming "
 "area in nine parts using a mathematical formula proportioning the parts to "
 "each others and to the area to be transformed."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:694(para)
+#: src/toolbox/transform/common-features.xml:685(para)
 msgid "Divide the transforming area using diagonally lines."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:700(term)
+#: src/toolbox/transform/common-features.xml:691(term)
 msgid "Number of lines"
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:702(para)
+#: src/toolbox/transform/common-features.xml:693(para)
 msgid ""
 "Puts a rectangular grid with equal numbers of vertically and horizontally "
 "lines. The number of lines is set in the slider popping up when this guide "
 "is selected."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:710(term)
+#: src/toolbox/transform/common-features.xml:701(term)
 msgid "Line spacing"
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:712(para)
+#: src/toolbox/transform/common-features.xml:703(para)
 msgid ""
 "Puts a rectangular grid on the transforming area using the spacing between "
 "the lines set in the slider."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:724(title)
+#: src/toolbox/transform/common-features.xml:715(title)
 msgid "Transforming Paths"
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:727(secondary)
-#: src/toolbox/transform/common-features.xml:730(primary)
+#: src/toolbox/transform/common-features.xml:718(secondary)
+#: src/toolbox/transform/common-features.xml:721(primary)
 msgid "Paths"
 msgstr "Yollar"
 
-#: src/toolbox/transform/common-features.xml:733(para)
+#: src/toolbox/transform/common-features.xml:724(para)
 msgid ""
 "If you for some reason want to transform paths, it is possible to do this "
 "using the transform tools."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:738(title)
+#: src/toolbox/transform/common-features.xml:729(title)
 msgid "Rotating paths"
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:744(para)
+#: src/toolbox/transform/common-features.xml:735(para)
 msgid "Paths Dialog"
 msgstr "Yollar İletişim Kutusu"
 
-#: src/toolbox/transform/common-features.xml:752(para)
+#: src/toolbox/transform/common-features.xml:743(para)
 msgid "Option modus: Path"
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:756(para)
+#: src/toolbox/transform/common-features.xml:747(para)
 msgid ""
 "When the path is drawn go to the Paths dialog and click on the first field "
 "before the path outline in the dialog window to get the eye icon visible. "
@@ -3219,14 +3193,14 @@ msgid ""
 "dialog click on the path icon to tell the tool to act on the path."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:762(para)
+#: src/toolbox/transform/common-features.xml:753(para)
 msgid ""
 "Do the transformation the usual way and confirm it when finished. It could "
 "be a good idea to set the Guides to <quote>No guides</quote> to get the path "
 "more recognizable."
 msgstr ""
 
-#: src/toolbox/transform/common-features.xml:767(para)
+#: src/toolbox/transform/common-features.xml:758(para)
 msgid ""
 "When the transformation is finished, choose the path tool and click on the "
 "changed path to activate it again for further working on it."
@@ -3421,7 +3395,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/align.xml:157(None)
-#: src/toolbox/transform/align.xml:525(None)
+#: src/toolbox/transform/align.xml:506(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-gravity-west.svg'; "
 "md5=81c25c13a3b10a501ed221f112bccef0"
@@ -3432,7 +3406,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/align.xml:170(None)
-#: src/toolbox/transform/align.xml:345(None)
+#: src/toolbox/transform/align.xml:335(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-hcenter.svg'; "
 "md5=12e778eb0ed171ee97779ad6c0ba7246"
@@ -3443,7 +3417,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/align.xml:184(None)
-#: src/toolbox/transform/align.xml:399(None)
+#: src/toolbox/transform/align.xml:389(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-gravity-east.svg'; "
 "md5=0abd3460a1a841580b763d628c2a157f"
@@ -3464,7 +3438,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/align.xml:210(None)
-#: src/toolbox/transform/align.xml:373(None)
+#: src/toolbox/transform/align.xml:363(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-vcenter.svg'; "
 "md5=ede099ab1adfb4691b5fccf4d90cae65"
@@ -3485,34 +3459,16 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/align.xml:243(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/toolbox/align-ex-orig.png'; "
-#| "md5=abadeace04d2cc8145988f50762419f8"
 msgid ""
-"@@image: 'images/toolbox/align-ex-orig-example.png'; "
-"md5=2b0a12c0a37cdf1b591ce4128080879d"
+"@@image: 'images/toolbox/align-ex-orig.png'; "
+"md5=abadeace04d2cc8145988f50762419f8"
 msgstr ""
 "@@image: 'images/toolbox/align-ex-orig.png'; "
 "md5=abadeace04d2cc8145988f50762419f8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:254(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/toolbox/align-ex-orig.png'; "
-#| "md5=abadeace04d2cc8145988f50762419f8"
-msgid ""
-"@@image: 'images/toolbox/align-ex-orig-dialog.png'; "
-"md5=8772fe2afc213bae91537c035baf8a6d"
-msgstr ""
-"@@image: 'images/toolbox/align-ex-orig.png'; "
-"md5=abadeace04d2cc8145988f50762419f8"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:266(None)
+#: src/toolbox/transform/align.xml:256(None)
 msgid ""
 "@@image: 'images/toolbox/align-ex1.png'; md5=6c78a099940d8e50adff16ec23c7d3da"
 msgstr ""
@@ -3520,7 +3476,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:280(None)
+#: src/toolbox/transform/align.xml:270(None)
 msgid ""
 "@@image: 'images/toolbox/align-ex2.png'; md5=ddb7a122ccc1b5a1a41cbbd58dcfbe0e"
 msgstr ""
@@ -3528,7 +3484,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:291(None)
+#: src/toolbox/transform/align.xml:281(None)
 msgid ""
 "@@image: 'images/toolbox/align-ex3.png'; md5=489ef1e8025a9fcc9fb597cc953f4219"
 msgstr ""
@@ -3536,8 +3492,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:331(None)
-#: src/toolbox/transform/align.xml:486(None)
+#: src/toolbox/transform/align.xml:321(None)
+#: src/toolbox/transform/align.xml:467(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-hfill.svg'; "
 "md5=a7d0f9342499293ad6271da2fddb8eea"
@@ -3547,8 +3503,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:359(None)
-#: src/toolbox/transform/align.xml:468(None)
+#: src/toolbox/transform/align.xml:349(None)
+#: src/toolbox/transform/align.xml:449(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-vfill.svg'; "
 "md5=83a3c703c9e7347b2bfe79193f49ac65"
@@ -3558,7 +3514,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:391(None)
+#: src/toolbox/transform/align.xml:381(None)
 msgid ""
 "@@image: 'images/toolbox/align-ex-distrib-orig.png'; "
 "md5=b5a04aff7d74d46a4297b43443722712"
@@ -3568,66 +3524,48 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:409(None)
+#: src/toolbox/transform/align.xml:399(None)
 msgid ""
 "@@image: 'images/toolbox/align-ex-distrib-0-yellow.png'; "
 "md5=07c7cefbd181d37451edecf39b208dc4"
 msgstr ""
 "@@image: 'images/toolbox/align-ex-distrib-0-yellow.png'; "
 "md5=07c7cefbd181d37451edecf39b208dc4"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/transform/align.xml:419(None)
+msgid ""
+"@@image: 'images/toolbox/align-ex-distrib-1.png'; "
+"md5=6263ff3dbf4c93e8bbec5b70487c400f"
+msgstr ""
+"@@image: 'images/toolbox/align-ex-distrib-1.png'; "
+"md5=6263ff3dbf4c93e8bbec5b70487c400f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/align.xml:429(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/toolbox/align-ex-distrib-0-yellow.png'; "
-#| "md5=07c7cefbd181d37451edecf39b208dc4"
-msgid ""
-"@@image: 'images/toolbox/align-ex-distrib-1-example.png'; "
-"md5=1458727c5c8a3cf0a4cda60aeb324dd5"
-msgstr ""
-"@@image: 'images/toolbox/align-ex-distrib-0-yellow.png'; "
-"md5=07c7cefbd181d37451edecf39b208dc4"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:438(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/toolbox/align-ex-distrib-0-yellow.png'; "
-#| "md5=07c7cefbd181d37451edecf39b208dc4"
-msgid ""
-"@@image: 'images/toolbox/align-ex-distrib-1-dialog.png'; "
-"md5=2910b07a430fef7c9cfe0dd92a3ca084"
-msgstr ""
-"@@image: 'images/toolbox/align-ex-distrib-0-yellow.png'; "
-"md5=07c7cefbd181d37451edecf39b208dc4"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:448(None)
 msgid ""
 "@@image: 'images/toolbox/align-ex-distrib-2.png'; "
 "md5=6a7b4d5695d3385f46038d48a3df8732"
 msgstr ""
 "@@image: 'images/toolbox/align-ex-distrib-2.png'; "
 "md5=6a7b4d5695d3385f46038d48a3df8732"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/transform/align.xml:440(None)
+msgid ""
+"@@image: 'images/toolbox/align-ex-distrib-3.png'; "
+"md5=cec2545cfe7dfa89d1520d83d90ab65f"
+msgstr ""
+"@@image: 'images/toolbox/align-ex-distrib-3.png'; "
+"md5=cec2545cfe7dfa89d1520d83d90ab65f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/align.xml:459(None)
 msgid ""
-"@@image: 'images/toolbox/align-ex-distrib-3.png'; "
-"md5=cec2545cfe7dfa89d1520d83d90ab65f"
-msgstr ""
-"@@image: 'images/toolbox/align-ex-distrib-3.png'; "
-"md5=cec2545cfe7dfa89d1520d83d90ab65f"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:478(None)
-msgid ""
 "@@image: 'images/toolbox/align-ex-distrib-4.png'; "
 "md5=38d233b6ba6fa5c60263559e192781f3"
 msgstr ""
@@ -3636,7 +3574,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:504(None)
+#: src/toolbox/transform/align.xml:485(None)
 msgid ""
 "@@image: 'images/toolbox/align-ex5a.png'; "
 "md5=f61596d6b10476ead6f0b7176a99bc72"
@@ -3646,7 +3584,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/transform/align.xml:516(None)
+#: src/toolbox/transform/align.xml:497(None)
 msgid ""
 "@@image: 'images/toolbox/align-ex5b.png'; "
 "md5=9426f047dd15389bcb61f16ab6a32ad2"
@@ -3779,45 +3717,41 @@ msgid "These buttons become active when a target is selected. <placeholder-1/>"
 msgstr ""
 
 #: src/toolbox/transform/align.xml:238(term)
-#: src/toolbox/transform/align.xml:423(title)
-#: src/toolbox/transform/align.xml:425(title)
+#: src/toolbox/transform/align.xml:413(title)
+#: src/toolbox/transform/align.xml:415(title)
 msgid "Example"
 msgstr "Örnek"
 
 #: src/toolbox/transform/align.xml:246(para)
-msgid "An image with a selection."
-msgstr ""
-
-#: src/toolbox/transform/align.xml:257(para)
 msgid ""
-"Layer #1 (background) is active, layer #2 is cropped to content, layer #3 is "
-"a text layer."
+"An image with a selection, layer #1 (background) is active, layer #2 is "
+"cropped to content, layer #3 is a text layer."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:269(para)
+#: src/toolbox/transform/align.xml:259(para)
 msgid ""
 "We click on the yellow circle: layer #2 becomes the source. We want to send "
 "this source to the middle of the selection: the <guilabel>Relative to</"
 "guilabel> option is set to <quote>Selection</quote>."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:283(para)
+#: src/toolbox/transform/align.xml:273(para)
 msgid "<guibutton>Align center of target</guibutton> clicked"
 msgstr ""
 
-#: src/toolbox/transform/align.xml:294(para)
+#: src/toolbox/transform/align.xml:284(para)
 msgid "<guibutton>Align middle of target</guibutton> clicked"
 msgstr ""
 
-#: src/toolbox/transform/align.xml:306(term)
+#: src/toolbox/transform/align.xml:296(term)
 msgid "Distribute"
 msgstr ""
 
-#: src/toolbox/transform/align.xml:310(term)
+#: src/toolbox/transform/align.xml:300(term)
 msgid "Distribute buttons"
 msgstr ""
 
-#: src/toolbox/transform/align.xml:312(para)
+#: src/toolbox/transform/align.xml:302(para)
 msgid ""
 "These options are used when you have several targets and want to arrange "
 "them. Here, layers selected with <keycap>Shift</keycap> + Click are called "
@@ -3826,92 +3760,87 @@ msgid ""
 "usually relative to <quote>Image</quote>."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:321(para)
+#: src/toolbox/transform/align.xml:311(para)
 msgid ""
 "These options work as Align options, but you can distribute sources evenly."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:327(para)
+#: src/toolbox/transform/align.xml:317(para)
 msgid ""
 "<placeholder-1/><guibutton>Distribute targets evenly in the horizontal</"
 "guibutton>: to distribute sources evenly horizontally."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:341(para)
+#: src/toolbox/transform/align.xml:331(para)
 msgid ""
 "<placeholder-1/><guibutton>Distribute horizontal centers of targets</"
 "guibutton>: to distribute centers of sources with center of the target "
 "horizontally."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:355(para)
+#: src/toolbox/transform/align.xml:345(para)
 msgid ""
 "<placeholder-1/><guibutton>Distribute targets evenly in the vertical</"
 "guibutton>: to distribute sources evenly vertically."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:369(para)
+#: src/toolbox/transform/align.xml:359(para)
 msgid ""
 "<placeholder-1/><guibutton>Distribute vertical centers of targets</"
 "guibutton>: to distribute centers of sources with center of target."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:387(title)
+#: src/toolbox/transform/align.xml:377(title)
 msgid "Example for the <quote>Distribute</quote> commands"
 msgstr ""
 
-#: src/toolbox/transform/align.xml:394(para)
+#: src/toolbox/transform/align.xml:384(para)
 msgid ""
 "Base image: three layers. <placeholder-1/> (Distribute right edges of "
 "targets) will be used."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:411(caption)
+#: src/toolbox/transform/align.xml:401(caption)
 msgid ""
 "Active layer is yellow (target). All layers are aligned on the right edge of "
 "the yellow layer."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:431(caption)
-msgid "An image with four text layers and a background color layer."
-msgstr ""
-
-#: src/toolbox/transform/align.xml:440(caption)
+#: src/toolbox/transform/align.xml:421(caption)
 msgid ""
-"The four text layers have the same vertical size. We want to align them at "
-"the vertical center of the image."
+"Four text layers, with same size. We want to align them at center of image."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:451(para)
+#: src/toolbox/transform/align.xml:432(para)
 msgid "We select them as sources with <keycap>Shift</keycap> + Click."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:462(para)
+#: src/toolbox/transform/align.xml:443(para)
 msgid ""
 "The default target (<guilabel>Relative to</guilabel>) is <quote>Image</"
 "quote>. We used the <placeholder-1/> (Distribute vertical centers of "
 "targets) command."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:481(para)
+#: src/toolbox/transform/align.xml:462(para)
 msgid ""
 "After using the <placeholder-1/> (Distribute targets evenly in the "
 "horizontal)."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:499(title)
-#: src/toolbox/transform/align.xml:501(title)
+#: src/toolbox/transform/align.xml:480(title)
+#: src/toolbox/transform/align.xml:482(title)
 msgid "Align using the rubber-band box"
 msgstr ""
 
-#: src/toolbox/transform/align.xml:507(para)
+#: src/toolbox/transform/align.xml:488(para)
 msgid ""
 "We clicked left from and above the red layer, and dragged out a region "
 "covering the red and the yellow layer by moving the pointer towards the "
 "bottom right corner."
 msgstr ""
 
-#: src/toolbox/transform/align.xml:519(para)
+#: src/toolbox/transform/align.xml:500(para)
 msgid ""
 "<quote>Selection</quote> is the reference. After a click on the "
 "<placeholder-1/> button, both layers align with the left side of the "
@@ -3925,15 +3854,10 @@ msgid ""
 msgstr ""
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/toolbox/transform/about-common-transform-options.xml:0(None)
+#: src/gimp.xml:0(None)
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
-
-#~ msgid ""
-#~ "@@image: 'images/toolbox/align-ex-distrib-1.png'; "
-#~ "md5=6263ff3dbf4c93e8bbec5b70487c400f"
-#~ msgstr ""
-#~ "@@image: 'images/toolbox/align-ex-distrib-1.png'; "
-#~ "md5=6263ff3dbf4c93e8bbec5b70487c400f"

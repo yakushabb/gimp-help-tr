@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help 2.99.0\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-07-15 08:41+0000\n"
 "PO-Revision-Date: 2023-08-11 12:31-0400\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -1513,8 +1513,8 @@ msgstr ""
 
 #: src/menus/select/border.xml:76(para)
 msgid ""
-"The original image must be created with the <guilabel>Antialiasing</"
-"guilabel> option checked in the selection tool that is used."
+"The original image must be created with the <quote>Antialiasing</quote> "
+"option checked in the selection tool that is used."
 msgstr ""
 
 #. </sect3>
@@ -1554,10 +1554,10 @@ msgstr ""
 
 #: src/menus/select/border.xml:119(para)
 msgid ""
-"<emphasis role=\"bold\">Smooth</emphasis>: this option keeps anti-aliasing. "
-"Note that <quote>Smooth</quote> does not create any anti-aliasing. That's "
-"why anti-aliasing must be added when creating the original selection. This "
-"option is the best one."
+"<emphasis role=\"bold\">Smooth</emphasis>: this option keeps antialiasing. "
+"Note that <quote>Smooth</quote> does not create any antialiasing. That's why "
+"antialiasing must be added when creating the original selection. This option "
+"is the best one."
 msgstr ""
 
 #: src/menus/select/border.xml:127(para)

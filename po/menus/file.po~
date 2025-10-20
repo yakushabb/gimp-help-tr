@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-07-15 08:41+0000\n"
 "PO-Revision-Date: 2025-10-20 20:55+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -980,7 +980,7 @@ msgstr ""
 msgid ""
 "Fill the image with <guilabel>Transparency</guilabel>. If you choose this "
 "option, the image is created with an <link linkend=\"glossary-alpha-"
-"channel\">alphachannel</link> and the background is transparent. The "
+"channel\">alpha&nbsp;channel</link> and the background is transparent. The "
 "transparent parts of the image are then displayed with a checkered pattern, "
 "to indicate the transparency."
 msgstr ""
@@ -1086,20 +1086,16 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/create.xml:79(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/menus/file/create/screenshot.png'; "
-#| "md5=d58b71a3db272770ec0e9534367bb57f"
 msgid ""
 "@@image: 'images/menus/file/create/screenshot.png'; "
-"md5=9a9431cf3d11091174fd829aa15f4294"
+"md5=d58b71a3db272770ec0e9534367bb57f"
 msgstr ""
 "@@image: 'images/menus/file/create/screenshot.png'; "
 "md5=d58b71a3db272770ec0e9534367bb57f"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/create.xml:248(None)
+#: src/menus/file/create.xml:242(None)
 msgid ""
 "@@image: 'images/menus/file/create/scanner.png'; "
 "md5=c23ab96984c2a4ef6d78874d882bdec1"
@@ -1177,18 +1173,10 @@ msgid "Screenshot"
 msgstr "Ekran Görüntüsü"
 
 #: src/menus/file/create.xml:75(title)
-#, fuzzy
-#| msgid "The <quote>Screenshot</quote> window"
-msgid "The <quote>Screenshot</quote> dialog"
+msgid "The <quote>Screenshot</quote> window"
 msgstr "<quote>Ekran Görüntüsü</quote> penceresi"
 
-#: src/menus/file/create.xml:82(para)
-msgid ""
-"The Windows version of the Screenshot Dialog, without the "
-"<guilabel>Selection delay</guilabel> setting."
-msgstr ""
-
-#: src/menus/file/create.xml:91(para)
+#: src/menus/file/create.xml:85(para)
 msgid ""
 "The Screenshot dialog may look different depending on your operating system. "
 "For example, on a Linux system which implements the <link linkend=\"glossary-"
@@ -1197,41 +1185,41 @@ msgid ""
 "built-in dialog described in this section."
 msgstr ""
 
-#: src/menus/file/create.xml:101(para)
+#: src/menus/file/create.xml:95(para)
 msgid ""
 "The <guimenuitem>Screenshot…</guimenuitem> command opens a dialog with the "
 "following options:"
 msgstr ""
 
-#: src/menus/file/create.xml:108(term)
+#: src/menus/file/create.xml:102(term)
 msgid "Shoot area"
 msgstr "Çekim alanı"
 
-#: src/menus/file/create.xml:112(term)
+#: src/menus/file/create.xml:106(term)
 msgid "Take a screenshot of a single window"
 msgstr "Tek pencerenin ekran görüntüsünü al"
 
-#: src/menus/file/create.xml:114(para)
+#: src/menus/file/create.xml:108(para)
 msgid ""
 "The mouse pointer becomes a cross. Click in the image window you want to "
 "capture. A new image is created."
 msgstr ""
 
-#: src/menus/file/create.xml:121(term)
+#: src/menus/file/create.xml:115(term)
 msgid "Take a screenshot of the entire screen"
 msgstr "Tüm ekranın görüntüsünü al"
 
-#: src/menus/file/create.xml:123(para)
+#: src/menus/file/create.xml:117(para)
 msgid ""
 "This is useful if you want to capture a pop menu. A delay is then necessary, "
 "so that you have time to pull the pop menu down."
 msgstr ""
 
-#: src/menus/file/create.xml:131(term)
+#: src/menus/file/create.xml:125(term)
 msgid "Select a region to grab"
 msgstr "Yakalanacak bölge seç"
 
-#: src/menus/file/create.xml:133(para)
+#: src/menus/file/create.xml:127(para)
 msgid ""
 "The mouse pointer becomes a cross. Click and drag to create a rectangular "
 "selection in the image window. This selection will be opened as a new image. "
@@ -1239,25 +1227,25 @@ msgid ""
 "available on Windows."
 msgstr ""
 
-#: src/menus/file/create.xml:147(term)
+#: src/menus/file/create.xml:141(term)
 msgid "Contents"
 msgstr "İçerik"
 
-#: src/menus/file/create.xml:151(term)
+#: src/menus/file/create.xml:145(term)
 msgid "Include window decoration"
 msgstr "Pencere süslemesini kapsa"
 
-#: src/menus/file/create.xml:153(para)
+#: src/menus/file/create.xml:147(para)
 msgid ""
 "If the <guilabel>Include window decoration</guilabel> option is unchecked, "
 "the title bar and the frame around the image will be removed."
 msgstr ""
 
-#: src/menus/file/create.xml:162(term)
+#: src/menus/file/create.xml:156(term)
 msgid "Include mouse pointer"
 msgstr "Fare imlecini kapsa"
 
-#: src/menus/file/create.xml:164(para)
+#: src/menus/file/create.xml:158(para)
 msgid ""
 "If the <guilabel>Include mouse pointer</guilabel> option is checked, then "
 "the mouse pointer and its coming with icon are also captured. The mouse "
@@ -1265,34 +1253,34 @@ msgid ""
 "in the image."
 msgstr ""
 
-#: src/menus/file/create.xml:177(term)
+#: src/menus/file/create.xml:171(term)
 msgid "Delay"
 msgstr "Gecikme"
 
-#: src/menus/file/create.xml:181(term)
-msgid "Selection delay (not available on Windows)"
-msgstr ""
+#: src/menus/file/create.xml:175(term)
+msgid "Selection delay"
+msgstr "Seçim gecikmesi"
 
-#: src/menus/file/create.xml:183(para)
+#: src/menus/file/create.xml:177(para)
 msgid "The seconds to let pass until you select the shoot area."
 msgstr ""
 
-#: src/menus/file/create.xml:189(term)
+#: src/menus/file/create.xml:183(term)
 msgid "Screenshot delay"
 msgstr "Ekran görüntüsü gecikmesi"
 
-#: src/menus/file/create.xml:191(para)
+#: src/menus/file/create.xml:185(para)
 msgid ""
 "When taking a screenshot of the entire screen, the screen is captured after "
 "this delay. In the other cases, the mouse pointer turns to a cross after "
 "this delay."
 msgstr ""
 
-#: src/menus/file/create.xml:203(term)
+#: src/menus/file/create.xml:197(term)
 msgid "Color Profile"
 msgstr "Renk Profili"
 
-#: src/menus/file/create.xml:205(para)
+#: src/menus/file/create.xml:199(para)
 msgid ""
 "Select whether to <guilabel>Tag image with monitor profile</guilabel> or to "
 "<guilabel>Convert image with sRGB</guilabel> to <acronym>GIMP</acronym>'s "
@@ -1300,7 +1288,7 @@ msgid ""
 "> for more information."
 msgstr ""
 
-#: src/menus/file/create.xml:214(para)
+#: src/menus/file/create.xml:208(para)
 msgid ""
 "Due to a <ulink url=\"https://gitlab.gnome.org/GNOME/gimp/-/issues/"
 "2457\">software bug</ulink>, <acronym>GIMP</acronym> may assign an incorrect "
@@ -1310,12 +1298,12 @@ msgstr ""
 "2457\">yazılım hatası</ulink> nedeniyle, <acronym>GIMP</acronym> ekran "
 "görüntülerine yanlış renk profili atayabilir."
 
-#: src/menus/file/create.xml:228(title)
+#: src/menus/file/create.xml:222(title)
 msgid "Scanner/Camera"
 msgstr "Tarayıcı/Fotoğraf Makinesi"
 
 #. <anchor id="twain-acquire"/>
-#: src/menus/file/create.xml:230(para)
+#: src/menus/file/create.xml:224(para)
 msgid ""
 "This item is present in Windows operating system, using TWAIN. Image input "
 "devices appear in the dialog, if they are plugged-in. On Linux, you need to "
@@ -1325,11 +1313,11 @@ msgid ""
 "guimenuitem></menuchoice> menu."
 msgstr ""
 
-#: src/menus/file/create.xml:244(title)
+#: src/menus/file/create.xml:238(title)
 msgid "Scanner and Camera"
 msgstr "Tarayıcı ve Fotoğraf Makinesi"
 
-#: src/menus/file/create.xml:252(para)
+#: src/menus/file/create.xml:246(para)
 msgid ""
 "The kinds of devices used to take pictures are too varied to be described "
 "here. Fortunately, their use is fairly intuitive. In the example shown "
@@ -1472,11 +1460,9 @@ msgid ""
 msgstr ""
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/menus/file/close-all.xml:0(None)
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/file/close-all.xml:0(None) src/gimp.xml:0(None)
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
-
-#~ msgid "Selection delay"
-#~ msgstr "Seçim gecikmesi"

@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-02-26 21:19+0000\n"
 "PO-Revision-Date: 2025-10-20 20:56+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -201,8 +201,8 @@ msgstr ""
 #: src/menus/view/view-soft-proof.xml:9(primary)
 #: src/menus/view/view-rendering-intent.xml:9(primary)
 #: src/menus/view/view-mark-out-of-gamut.xml:9(primary)
-#: src/menus/view/view-color-management-reset.xml:9(primary)
 #: src/menus/view/view-color-manage-view.xml:9(primary)
+#: src/menus/view/view-color-management-reset.xml:9(primary)
 #: src/menus/view/view-black-point.xml:9(primary)
 #: src/menus/view/padding-color.xml:13(primary)
 #: src/menus/view/introduction.xml:13(primary)
@@ -215,12 +215,12 @@ msgstr ""
 #: src/menus/view/view-rendering-intent.xml:14(primary)
 #: src/menus/view/view-mark-out-of-gamut.xml:10(secondary)
 #: src/menus/view/view-mark-out-of-gamut.xml:14(primary)
+#: src/menus/view/view-color-manage-view.xml:10(secondary)
+#: src/menus/view/view-color-manage-view.xml:14(primary)
 #: src/menus/view/view-color-management.xml:8(title)
 #: src/menus/view/view-color-management.xml:22(primary)
 #: src/menus/view/view-color-management-reset.xml:10(secondary)
 #: src/menus/view/view-color-management-reset.xml:14(primary)
-#: src/menus/view/view-color-manage-view.xml:10(secondary)
-#: src/menus/view/view-color-manage-view.xml:14(primary)
 #: src/menus/view/view-black-point.xml:10(secondary)
 #: src/menus/view/view-black-point.xml:14(primary)
 msgid "Color Management"
@@ -236,8 +236,8 @@ msgstr ""
 
 #: src/menus/view/view-soft-proof.xml:29(title)
 #: src/menus/view/view-mark-out-of-gamut.xml:70(title)
-#: src/menus/view/view-color-management-reset.xml:29(title)
 #: src/menus/view/view-color-manage-view.xml:35(title)
+#: src/menus/view/view-color-management-reset.xml:29(title)
 #: src/menus/view/view-black-point.xml:42(title)
 #: src/menus/view/snap-to-path.xml:31(title)
 #: src/menus/view/snap-to-guides.xml:30(title)
@@ -320,6 +320,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/view-mark-out-of-gamut.xml:38(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/view-color-management.png'; "
+#| "md5=83f1588fb7739398033942ffd6132e43"
 msgid ""
 "@@image: 'images/menus/view/view-out-of-gamut.png'; "
 "md5=701cc36e00ebdd950d9f7755f02feea8"
@@ -385,6 +388,33 @@ msgid ""
 "guisubmenu><guimenuitem>Mark Out Of Gamut Colors</guimenuitem></menuchoice>."
 msgstr ""
 
+#: src/menus/view/view-color-manage-view.xml:6(title)
+#: src/menus/view/view-color-manage-view.xml:11(tertiary)
+#: src/menus/view/view-color-manage-view.xml:15(secondary)
+#: src/menus/view/view-color-manage-view.xml:18(primary)
+#: src/menus/view/view-color-management.xml:49(link)
+msgid "Color-Manage this View"
+msgstr ""
+
+#: src/menus/view/view-color-manage-view.xml:21(para)
+msgid ""
+"<guimenuitem>Color-Manage this View</guimenuitem> is enabled by default and "
+"should usually not be changed. When enabled it will interpret the current "
+"image according to the color profile attached to it and possibly also "
+"depending on the monitor profile if set. When <link linkend=\"gimp-view-soft-"
+"proof-view\">Proof Colors</link> is enabled, that will also influence this "
+"view. Note that you can have several views of the same image with different "
+"settings to be able to compare the outcome. When this setting is disabled, "
+"your image will be interpreted as if it was sRGB."
+msgstr ""
+
+#: src/menus/view/view-color-manage-view.xml:36(para)
+msgid ""
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>View</guimenu><guisubmenu>Color Management</"
+"guisubmenu><guimenuitem>Color-Manage this View</guimenuitem></menuchoice>."
+msgstr ""
+
 #: src/menus/view/view-color-management.xml:11(para)
 msgid ""
 "For color profile related actions of an image file, see <xref linkend=\"gimp-"
@@ -414,14 +444,6 @@ msgstr ""
 
 #: src/menus/view/view-color-management.xml:45(title)
 msgid "The Contents of the <quote>Color Management</quote> Submenu"
-msgstr ""
-
-#: src/menus/view/view-color-management.xml:49(link)
-#: src/menus/view/view-color-manage-view.xml:6(title)
-#: src/menus/view/view-color-manage-view.xml:11(tertiary)
-#: src/menus/view/view-color-manage-view.xml:15(secondary)
-#: src/menus/view/view-color-manage-view.xml:18(primary)
-msgid "Color-Manage this View"
 msgstr ""
 
 #: src/menus/view/view-color-management.xml:65(link)
@@ -456,25 +478,6 @@ msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guisubmenu>Color Management</"
 "guisubmenu><guimenuitem>As in Preferences</guimenuitem></menuchoice>."
-msgstr ""
-
-#: src/menus/view/view-color-manage-view.xml:21(para)
-msgid ""
-"<guimenuitem>Color-Manage this View</guimenuitem> is enabled by default and "
-"should usually not be changed. When enabled it will interpret the current "
-"image according to the color profile attached to it and possibly also "
-"depending on the monitor profile if set. When <link linkend=\"gimp-view-soft-"
-"proof-view\">Proof Colors</link> is enabled, that will also influence this "
-"view. Note that you can have several views of the same image with different "
-"settings to be able to compare the outcome. When this setting is disabled, "
-"your image will be interpreted as if it was sRGB."
-msgstr ""
-
-#: src/menus/view/view-color-manage-view.xml:36(para)
-msgid ""
-"You can access this command from the main menu through "
-"<menuchoice><guimenu>View</guimenu><guisubmenu>Color Management</"
-"guisubmenu><guimenuitem>Color-Manage this View</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/view/view-black-point.xml:21(para)
@@ -587,6 +590,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/snap-to-equidistance.xml:30(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/display-filters/contrast.png'; "
+#| "md5=f6aff093a7afb42ae9fd47e155a0870f"
 msgid ""
 "@@image: 'images/menus/view/example-snap-equidistance.png'; "
 "md5=dc0450f30af53f80d31bbeded818f0f1"
@@ -670,6 +676,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/snap-to-bounding-boxes.xml:27(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/display-filters.png'; "
+#| "md5=11f1864162de4a77f014d0e9a4f2769c"
 msgid ""
 "@@image: 'images/menus/view/example-snap-bbox.png'; "
 "md5=42f90e28e5697466eacf37f4d22b9472"
@@ -1105,6 +1114,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/show-all.xml:51(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/display-filters.png'; "
+#| "md5=11f1864162de4a77f014d0e9a4f2769c"
 msgid ""
 "@@image: 'images/menus/view/show_all-ex-no.jpg'; "
 "md5=8c11b580e1d8f79573eaf0ba19524f0a"
@@ -1115,6 +1127,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/show-all.xml:62(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/display-filters.png'; "
+#| "md5=11f1864162de4a77f014d0e9a4f2769c"
 msgid ""
 "@@image: 'images/menus/view/show_all-ex-with.jpg'; "
 "md5=42e67ab90f6b624ab19850a7d8955956"
@@ -1125,6 +1140,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/show-all.xml:128(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/zoom.png'; "
+#| "md5=65d9608b03ed5ab0165f579368187ed3"
 msgid ""
 "@@image: 'images/menus/view/show_all-ex-newimg.jpg'; "
 "md5=189435d6a273a7c123962bc9e39af811"
@@ -1135,6 +1153,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/show-all.xml:150(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/padding-color.png'; "
+#| "md5=f6127445a8397ef5f36a5614a8689198"
 msgid ""
 "@@image: 'images/menus/view/show_all-ex-clone.jpg'; "
 "md5=27e2d1c5463c97a001bde9765da8aa18"
@@ -1577,6 +1598,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/flip-rotate.xml:224(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/select-rotation-angle.png'; "
+#| "md5=f21450f7586dc5cf52f49192b71ac20e"
 msgid ""
 "@@image: 'images/menus/view/select-rotation-angle.png'; "
 "md5=b4028453eec550bcbe1b0fe30ce6d13b"
@@ -1829,7 +1853,7 @@ msgid ""
 msgstr ""
 
 #: src/menus/view/dot-for-dot.xml:81(para)
-msgid "100 pixels 300 ppi = 1/3 inch 0.85 cm"
+msgid "100 pixels &divide; 300 ppi = 1/3 inch &cong; 0.85 cm"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1845,6 +1869,9 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/display-filters.xml:98(None)
+#| msgid ""
+#| "@@image: 'images/menus/view/display-filters/clip-warning.png'; "
+#| "md5=c54391ed644260ca921e70a67daaa827"
 msgid ""
 "@@image: 'images/menus/view/display-filters/aces-rrt.png'; "
 "md5=b1289adc52cd91e16e47a8ec296e5de5"
@@ -2322,7 +2349,8 @@ msgid ""
 msgstr ""
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/menus/view/display-filters.xml:0(None)
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/view/display-filters.xml:0(None) src/gimp.xml:0(None)
 msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2025.\n"

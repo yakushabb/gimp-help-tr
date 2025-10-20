@@ -1,55 +1,32 @@
-.
-├── aa.txt
-├── appendix.po
-├── concepts.po
-├── dialogs.po
-├── filters
-│   ├── animation.po
-│   ├── artistic.po
-│   ├── blur.po
-│   ├── combine.po
-│   ├── decor.po
-│   ├── distort.po
-│   ├── edge-detect.po
-│   ├── enhance.po
-│   ├── generic.po
-│   ├── light-and-shadow.po
-│   ├── map.po
-│   ├── noise.po
-│   ├── render.po
-│   └── web.po
-├── filters.po
-├── gimp.po
-├── glossary.po
-├── introduction.po
-├── menus
-│   ├── colors
-│   │   ├── auto.po
-│   │   ├── components.po
-│   │   ├── desaturate.po
-│   │   ├── info.po
-│   │   ├── map.po
-│   │   └── tone-mapping.po
-│   ├── colors.po
-│   ├── edit.po
-│   ├── file.po
-│   ├── filters.po
-│   ├── help.po
-│   ├── image.po
-│   ├── layer.po
-│   ├── select.po
-│   └── view.po
-├── menus.po
-├── output.txt
-├── preface.po
-├── toolbox
-│   ├── toolbox~paint.master.tr.po
-│   ├── toolbox~selection.master.tr.po
-│   └── toolbox~transform.master.tr.po
-├── toolbox.po
-├── tutorial.po
-├── update.sh
-├── using.po
-└── zzz-gimp-keys.po
-
-5 directories, 48 files
+msgmerge --previous --update /filters/animation.po ../pot/filters/animation.pot
+msgmerge --previous --update /filters/artistic.po ../pot/filters/artistic.pot
+msgmerge --previous --update /filters/blur.po ../pot/filters/blur.pot
+msgmerge --previous --update /filters/combine.po ../pot/filters/combine.po
+msgmerge --previous --update /filters/decor.po ../pot/filters/decor.pot
+msgmerge --previous --update /filters/distort.po ../pot/filters/distort.pot
+msgmerge --previous --update /filters/edge-detect.po ../pot/filters/edge-detect.pot
+msgmerge --previous --update /filters/enhance.po ../pot/filters/enhance.pot
+msgmerge --previous --update /filters/generic.po ../pot/filters/generic.po
+msgmerge --previous --update /filters/light-and-shadow.po ../pot/filters/light-and-shadow.pot
+msgmerge --previous --update /filters/map.po ../pot/filters/map.pot
+msgmerge --previous --update /filters/noise.po ../pot/filters/noise.pot
+msgmerge --previous --update /filters/render.po ../pot/filters/render.pot
+msgmerge --previous --update /filters/web.po ../pot/filters/web.pot
+msgmerge --previous --update /menus/colors/auto.po ../pot/menus/colors/auto.pot
+msgmerge --previous --update /menus/colors/components.po ../pot/menus/colors/components.pot
+msgmerge --previous --update /menus/colors/desaturate.po ../pot/menus/colors/desaturate.pot
+msgmerge --previous --update /menus/colors/info.po ../pot/menus/colors/info.pot
+msgmerge --previous --update /menus/colors/map.po ../pot/menus/colors/map.pot
+msgmerge --previous --update /menus/colors/tone-mapping.po ../pot/menus/colors/tone-mapping.pot
+msgmerge --previous --update /menus/colors.po ../pot/menus/colors.pot
+msgmerge --previous --update /menus/edit.po ../pot/menus/edit.pot
+msgmerge --previous --update /menus/file.po ../pot/menus/file.pot
+msgmerge --previous --update /menus/filters.po ../pot/menus/filters.pot
+msgmerge --previous --update /menus/help.po ../pot/menus/help.pot
+msgmerge --previous --update /menus/image.po ../pot/menus/image.pot
+msgmerge --previous --update /menus/layer.po ../pot/menus/layer.pot
+msgmerge --previous --update /menus/select.po ../pot/menus/select.pot
+msgmerge --previous --update /menus/view.po ../pot/menus/view.pot
+msgmerge --previous --update /toolbox/paint.po ../pot/toolbox/paint.pot
+msgmerge --previous --update /toolbox/selection.po ../pot/toolbox/selection.pot
+msgmerge --previous --update /toolbox/transform.po ../pot/toolbox/transform.pot

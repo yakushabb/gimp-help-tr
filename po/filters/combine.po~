@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-07-15 08:40+0000\n"
 "PO-Revision-Date: 2025-10-20 20:52+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -131,19 +131,12 @@ msgstr ""
 
 #: src/filters/combine/filmstrip.xml:60(title)
 #: src/filters/combine/depthmerge.xml:73(title)
-#, fuzzy
-#| msgid "Accessing this Filter"
-msgid "Activating the Filter"
+msgid "Accessing this Filter"
 msgstr "Bu Süzgece ulaşmak"
 
 #: src/filters/combine/filmstrip.xml:61(para)
-#, fuzzy
-#| msgid ""
-#| "You can find this filter through <menuchoice><guimenu>Filters</"
-#| "guimenu><guisubmenu>Combine</guisubmenu><guimenuitem>Filmstrip…</"
-#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+"You can find this filter through <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Combine</guisubmenu><guimenuitem>Filmstrip…</"
 "guimenuitem></menuchoice>."
 msgstr ""
@@ -345,15 +338,11 @@ msgstr "Sonuç görüntüsündeki deliklerin yüksekliğini belirler."
 
 # Arayüzde Hole Distence fakat belgelerde Hole Spacing olarak geçiyor. O sebeple arayüzdeki şekliyle çevirdim. Hata raporlandı: https://gitlab.gnome.org/GNOME/gimp-help/-/issues/609
 #: src/filters/combine/filmstrip.xml:242(term)
-#, fuzzy
-#| msgid "Hole spacing"
-msgid "Hole distance"
+msgid "Hole spacing"
 msgstr "Delik mesafesi"
 
 #: src/filters/combine/filmstrip.xml:244(para)
-#, fuzzy
-#| msgid "Defines the space between holes"
-msgid "Defines the space between holes."
+msgid "Defines the space between holes"
 msgstr "Delikler arasındaki boşluğu belirler"
 
 #: src/filters/combine/filmstrip.xml:248(term)
@@ -522,13 +511,8 @@ msgstr ""
 "görünecektir. Bu katmanlar aynı boyutta olmalıdır."
 
 #: src/filters/combine/depthmerge.xml:74(para)
-#, fuzzy
-#| msgid ""
-#| "You can find this filter through <menuchoice><guimenu>Filters</"
-#| "guimenu><guisubmenu>Combine</guisubmenu><guimenuitem>Depth Merge…</"
-#| "guimenuitem></menuchoice>"
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+"You can find this filter through <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Combine</guisubmenu><guimenuitem>Depth Merge…</"
 "guimenuitem></menuchoice>"
 msgstr ""

@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-07-15 08:41+0000\n"
 "PO-Revision-Date: 2025-09-19 16:29+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -394,7 +394,7 @@ msgid ""
 msgstr ""
 
 #: src/toolbox/selection/rectangle.xml:282(title)
-#: src/toolbox/selection/iscissors.xml:199(title)
+#: src/toolbox/selection/iscissors.xml:197(title)
 #: src/toolbox/selection/fuzzy.xml:133(title)
 #: src/toolbox/selection/free.xml:179(title)
 #: src/toolbox/selection/foreground.xml:230(title)
@@ -405,7 +405,7 @@ msgid "Options"
 msgstr "Seçenekler"
 
 #: src/toolbox/selection/rectangle.xml:284(title)
-#: src/toolbox/selection/iscissors.xml:201(title)
+#: src/toolbox/selection/iscissors.xml:199(title)
 #: src/toolbox/selection/fuzzy.xml:135(title)
 #: src/toolbox/selection/free.xml:181(title)
 #: src/toolbox/selection/foreground.xml:232(title)
@@ -415,7 +415,7 @@ msgid "Tool Options Dialog"
 msgstr ""
 
 #: src/toolbox/selection/rectangle.xml:297(term)
-#: src/toolbox/selection/iscissors.xml:214(term)
+#: src/toolbox/selection/iscissors.xml:212(term)
 #: src/toolbox/selection/fuzzy.xml:148(term)
 #: src/toolbox/selection/free.xml:193(term)
 #: src/toolbox/selection/foreground.xml:245(term)
@@ -426,7 +426,7 @@ msgid "Mode"
 msgstr "Kip"
 
 #: src/toolbox/selection/rectangle.xml:298(term)
-#: src/toolbox/selection/iscissors.xml:215(term)
+#: src/toolbox/selection/iscissors.xml:213(term)
 #: src/toolbox/selection/fuzzy.xml:149(term)
 #: src/toolbox/selection/free.xml:194(term)
 #: src/toolbox/selection/ellipse.xml:187(term)
@@ -436,7 +436,7 @@ msgid "Antialiasing"
 msgstr ""
 
 #: src/toolbox/selection/rectangle.xml:299(term)
-#: src/toolbox/selection/iscissors.xml:216(term)
+#: src/toolbox/selection/iscissors.xml:214(term)
 #: src/toolbox/selection/fuzzy.xml:150(term)
 #: src/toolbox/selection/free.xml:195(term)
 #: src/toolbox/selection/foreground.xml:246(term)
@@ -665,7 +665,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/iscissors.xml:150(None)
+#: src/toolbox/selection/iscissors.xml:148(None)
 msgid ""
 "@@image: 'images/toolbox/cursor-iscissors.png'; "
 "md5=d5e3bee8fe0be9bbc5cf6272bbb079b3"
@@ -675,7 +675,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/iscissors.xml:159(None)
+#: src/toolbox/selection/iscissors.xml:157(None)
 msgid ""
 "@@image: 'images/toolbox/cursor-iscissors-modifier-plus.png'; "
 "md5=c1b20bb8056fe84a07caf779f48cb572"
@@ -685,7 +685,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/iscissors.xml:168(None)
+#: src/toolbox/selection/iscissors.xml:166(None)
 msgid ""
 "@@image: 'images/toolbox/cursor-iscissors-modifier-bad.png'; "
 "md5=209b8391b6298625462ff6e702d7f01f"
@@ -695,7 +695,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/iscissors.xml:205(None)
+#: src/toolbox/selection/iscissors.xml:203(None)
 msgid ""
 "@@image: 'images/toolbox/tool-options-scissors-select.png'; "
 "md5=44f6de02b0c57952ee3eb9cc0aa6519e"
@@ -803,14 +803,13 @@ msgid ""
 "Each time you left-click with the mouse, you create a new control point, "
 "which is connected to the last control point by a curve that tries to follow "
 "edges in the image. To finish, click on the first point (the cursor changes "
-"to indicate when you are in the right spot) or press the <keycap>Enter</"
-"keycap> key. You can adjust the curve by dragging the control points, or by "
-"clicking on the boundary of the curve to create new control points. When you "
-"are satisfied and want to convert the curve to a selection, click anywhere "
-"inside the curve or press the <keycap>Enter</keycap> key."
+"to indicate when you are in the right spot). You can adjust the curve by "
+"dragging the control nodes, or by clicking to create new control nodes. When "
+"you are satisfied, click anywhere inside the curve to convert it into a "
+"selection."
 msgstr ""
 
-#: src/toolbox/selection/iscissors.xml:139(para)
+#: src/toolbox/selection/iscissors.xml:137(para)
 msgid ""
 "As said above when you click with this tool you drop points. The selection "
 "boundary is driven by these control points. During creation you can move "
@@ -823,13 +822,13 @@ msgid ""
 "and last point). The selection is validated when you click inside."
 msgstr ""
 
-#: src/toolbox/selection/iscissors.xml:176(para)
+#: src/toolbox/selection/iscissors.xml:174(para)
 msgid ""
 "You have to notice that you can get only one selection; if you create a "
 "second selection, the first one is erased when you validate the second one."
 msgstr ""
 
-#: src/toolbox/selection/iscissors.xml:182(para)
+#: src/toolbox/selection/iscissors.xml:180(para)
 msgid ""
 "Be sure not to click inside the curve until you are completely done "
 "adjusting it. Once you have converted it into a selection, undoing takes you "
@@ -840,18 +839,18 @@ msgid ""
 "Path tool.)"
 msgstr ""
 
-#: src/toolbox/selection/iscissors.xml:192(para)
+#: src/toolbox/selection/iscissors.xml:190(para)
 #: src/toolbox/selection/free.xml:164(para)
 msgid ""
 "To move the selection, see <link linkend=\"gimp-using-selections-"
 "moving\">Moving selections</link>."
 msgstr ""
 
-#: src/toolbox/selection/iscissors.xml:224(term)
+#: src/toolbox/selection/iscissors.xml:222(term)
 msgid "Interactive boundary"
 msgstr ""
 
-#: src/toolbox/selection/iscissors.xml:226(para)
+#: src/toolbox/selection/iscissors.xml:224(para)
 msgid ""
 "If this option is enabled, dragging a control node during placement will "
 "indicate the path that will be taken by the selection boundary. If it is not "
@@ -2098,7 +2097,7 @@ msgid ""
 "combinations available when performing selections while holding "
 "<keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap></keycombo> and "
 "releasing either both or either prior to releasing the mouse "
-"<mousebutton>LeftButton</mousebutton>."
+"<mousebutton>Left&nbsp;Button</mousebutton>."
 msgstr ""
 
 #: src/toolbox/selection/common-features.xml:192(term)

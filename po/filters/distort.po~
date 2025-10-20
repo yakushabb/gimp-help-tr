@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-07-15 08:40+0000\n"
 "PO-Revision-Date: 2025-10-13 15:58+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -243,7 +243,6 @@ msgstr ""
 #: src/filters/distort/engrave.xml:60(title)
 #: src/filters/distort/emboss.xml:50(title)
 #: src/filters/distort/curve_bend.xml:53(title)
-#: src/filters/distort/blinds.xml:53(title)
 #: src/filters/distort/apply_lens.xml:50(title)
 msgid "Activating the Filter"
 msgstr "Süzgeci Etkinleştirme"
@@ -259,7 +258,6 @@ msgstr ""
 "menuchoice> altında bulunur."
 
 #: src/filters/distort/wind.xml:66(title)
-#: src/filters/distort/whirlpinch.xml:112(title)
 #: src/filters/distort/waves.xml:57(title)
 #: src/filters/distort/vpropagate.xml:58(title)
 #: src/filters/distort/video-degradation.xml:61(title)
@@ -520,19 +518,19 @@ msgstr "Yüksek değerler etkinin kuvvetini artırır."
 
 #: src/filters/distort/wind.xml:221(term)
 #: src/filters/distort/shift.xml:113(term)
-#: src/filters/distort/mosaic.xml:224(term)
+#: src/filters/distort/mosaic.xml:223(term)
 msgid "Random seed"
 msgstr "Rastgele parçacık"
 
 #: src/filters/distort/wind.xml:222(term)
 #: src/filters/distort/shift.xml:114(term)
-#: src/filters/distort/mosaic.xml:225(term)
+#: src/filters/distort/mosaic.xml:224(term)
 msgid "New Seed"
 msgstr "Yeni Parçacık"
 
 #: src/filters/distort/wind.xml:224(para)
 #: src/filters/distort/shift.xml:116(para)
-#: src/filters/distort/mosaic.xml:227(para)
+#: src/filters/distort/mosaic.xml:226(para)
 msgid ""
 "This option controls the randomness of the filter. The <guilabel>Random "
 "seed</guilabel> box lets you manually enter a seed for the randomization "
@@ -613,9 +611,9 @@ msgstr ""
 
 #: src/filters/distort/whirlpinch.xml:45(para)
 msgid ""
-"<quote>Whirl</quote> (applying a non-zero <guilabel>Whirlangle</guilabel>) "
-"distorts the image much like the little whirlpool that appears when you "
-"empty your bath."
+"<quote>Whirl</quote> (applying a non-zero <guilabel>Whirl&nbsp;angle</"
+"guilabel>) distorts the image much like the little whirlpool that appears "
+"when you empty your bath."
 msgstr ""
 
 #: src/filters/distort/whirlpinch.xml:50(para)
@@ -660,6 +658,10 @@ msgstr ""
 "Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
 "guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Sarmal ve Kıstırma…</"
 "guimenuitem></menuchoice> altında bulunur."
+
+#: src/filters/distort/whirlpinch.xml:112(title)
+msgid "Parameter Settings"
+msgstr "Seçenekler"
 
 #: src/filters/distort/whirlpinch.xml:114(title)
 msgid "<quote>Whirl and Pinch</quote> filter options"
@@ -814,13 +816,11 @@ msgid ""
 msgstr ""
 
 #: src/filters/distort/waves.xml:123(term)
-#: src/filters/distort/spherize.xml:168(term)
-#: src/filters/distort/ripple.xml:186(term)
 msgid "Resampling method"
 msgstr "Yeniden örnekleme yöntemi"
 
 #: src/filters/distort/waves.xml:125(para)
-#: src/filters/distort/spherize.xml:170(para)
+#: src/filters/distort/spherize.xml:165(para)
 #: src/filters/distort/ripple.xml:188(para)
 msgid ""
 "These interpolation methods are described in <xref linkend=\"gimp-tool-"
@@ -1257,18 +1257,13 @@ msgid "Apply low dot-pitch RGB simulation to the specified drawable."
 msgstr "Belirtilen çizilebilire düşük nokta aralığı RGB benzetirimi uygular."
 
 #: src/filters/distort/video-degradation.xml:50(para)
-#, fuzzy
-#| msgid ""
-#| "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
-#| "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Lens Distortion…</"
-#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+"You can find this filter through <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Video Degradation…</"
 "guimenuitem></menuchoice>."
 msgstr ""
 "Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
-"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Mercek Bozulması…</"
+"guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Video Bozulması…</"
 "guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/distort/video-degradation.xml:63(title)
@@ -1336,7 +1331,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/spherize.xml:106(None)
+#: src/filters/distort/spherize.xml:103(None)
 msgid ""
 "@@image: 'images/filters/examples/distort/spherize-ex-horizontal.jpg'; "
 "md5=5d19af27f9d94d617f1cde8fb55ed8c2"
@@ -1346,7 +1341,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/spherize.xml:131(None)
+#: src/filters/distort/spherize.xml:126(None)
 msgid ""
 "@@image: 'images/filters/examples/distort/spherize-ex-angle.jpg'; "
 "md5=6966591152fc2229632a2aaadca9735b"
@@ -1356,7 +1351,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/spherize.xml:147(None)
+#: src/filters/distort/spherize.xml:142(None)
 msgid ""
 "@@image: 'images/filters/examples/distort/spherize-ex-curvature.jpg'; "
 "md5=ee5843d7a1cd52c20a44f0e3277fc551"
@@ -1366,7 +1361,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/spherize.xml:162(None)
+#: src/filters/distort/spherize.xml:157(None)
 msgid ""
 "@@image: 'images/filters/examples/distort/spherize-ex-amount.jpg'; "
 "md5=3286ef781fe3ba6864133d54bea9ff0b"
@@ -1376,7 +1371,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/spherize.xml:190(None)
+#: src/filters/distort/spherize.xml:185(None)
 msgid ""
 "@@image: 'images/filters/examples/distort/spherize-ex-sphere.jpg'; "
 "md5=bf2c2478c408e9859f3579747753c591"
@@ -1421,67 +1416,70 @@ msgstr ""
 msgid "<quote>Spherize</quote> filter options"
 msgstr "<quote>Küreselleştir</quote> süzgeci seçenekleri"
 
-#: src/filters/distort/spherize.xml:89(term)
-#, fuzzy
-#| msgid "Radius"
-msgid "Radial"
-msgstr "Yarıçap"
-
-#: src/filters/distort/spherize.xml:91(para)
+#: src/filters/distort/spherize.xml:89(para)
 msgid ""
-"Maps the image in a sphere around the center. This is the default. See the "
-"example above."
+"<emphasis role=\"bold\">Radial</emphasis> is the default mode. See example "
+"above."
 msgstr ""
+"<emphasis role=\"bold\">Radyal</emphasis> öntanımlı kiptir. Yukarıdaki "
+"örneğe bakın."
 
-#: src/filters/distort/spherize.xml:98(term)
-msgid "Horizontal"
+#: src/filters/distort/spherize.xml:95(para)
+#, fuzzy
+msgid ""
+"<emphasis role=\"bold\">Horizontal</emphasis>: as if image was mapped on a "
+"<emphasis role=\"underline\">vertical</emphasis> cylinder."
 msgstr ""
+"<emphasis role=\"bold\">Yatay</emphasis>: görüntü <emphasis "
+"role=\"underline\">dikey</emphasis> silindir üzerine eşlenmiş gibi."
 
-#: src/filters/distort/spherize.xml:100(para)
-msgid "Stretches the image horizontally around an imaginary sphere."
+#: src/filters/distort/spherize.xml:108(para)
+#, fuzzy
+msgid ""
+"<emphasis role=\"bold\">Vertical</emphasis>: as if image was mapped on a "
+"<emphasis role=\"underline\">horizontal</emphasis> cylinder."
 msgstr ""
+"<emphasis role=\"bold\">Dikey</emphasis>: görüntü <emphasis "
+"role=\"underline\">yatay</emphasis> silindir üzerine eşlenmiş gibi."
 
-#: src/filters/distort/spherize.xml:112(term)
-msgid "Vertical"
-msgstr ""
-
-#: src/filters/distort/spherize.xml:114(para)
-msgid "Stretches the image vertically around an imaginary sphere."
-msgstr ""
-
-#: src/filters/distort/spherize.xml:123(term)
+#: src/filters/distort/spherize.xml:118(term)
 msgid "Angle of view"
 msgstr "Bakış açısı"
 
-#: src/filters/distort/spherize.xml:125(para)
+#: src/filters/distort/spherize.xml:120(para)
 msgid "Camera angle of view (0 - 180°)"
 msgstr "Kamera bakış açısı (0 - 180°)"
 
-#: src/filters/distort/spherize.xml:137(term)
+#: src/filters/distort/spherize.xml:132(term)
 msgid "Curvature"
 msgstr "Eğrilik"
 
-#: src/filters/distort/spherize.xml:139(para)
+#: src/filters/distort/spherize.xml:134(para)
 msgid ""
-"The Spherical cap angle, as a fraction of the complement angle of view. The "
-"result is less domed as the curvature decreases from 1 to 0."
+"Spherical cap angle, as a fraction of the co-angle (complement angle) of "
+"view. Result is less domed as curvature decreases (100% - 0)."
 msgstr ""
 
-#: src/filters/distort/spherize.xml:153(term)
+#: src/filters/distort/spherize.xml:148(term)
 msgid "Amount"
 msgstr "Miktar"
 
-#: src/filters/distort/spherize.xml:155(para)
+#: src/filters/distort/spherize.xml:150(para)
 msgid ""
 "Interesting for negative values, which result in a hollow instead of a bump "
 "(from 1.000 to -1.000)."
 msgstr ""
 
-#: src/filters/distort/spherize.xml:179(title)
+#: src/filters/distort/spherize.xml:163(term)
+#: src/filters/distort/ripple.xml:186(term)
+msgid "Resampling methods"
+msgstr "Yeniden örnekleme yöntemi"
+
+#: src/filters/distort/spherize.xml:174(title)
 msgid "Using Spherize filter"
 msgstr "Küreleştir süzgecini kullanma"
 
-#: src/filters/distort/spherize.xml:180(para)
+#: src/filters/distort/spherize.xml:175(para)
 msgid ""
 "Drawing a selection before applying filter allows you to create another "
 "shape, such as a sphere: select Ellipse tool with the <guilabel>Fixed</"
@@ -2002,9 +2000,8 @@ msgstr "<quote>Sayfa Kıvırma</quote> süzgeci uygulandı"
 msgid ""
 "This filter curls a corner of the current layer or selection into a kind of "
 "cornet showing the underlying layer in the cleared area. A new <quote>Curl "
-"Layer</quote> is created. If the layer doesn't have an Alpha channel, one is "
-"added. The part of the initial layer corresponding to the curl, is made "
-"transparent."
+"Layer</quote> and a new Alpha channel are created. The part of the initial "
+"layer corresponding to this cleared area is also transparent."
 msgstr ""
 
 #: src/filters/distort/pagecurl.xml:55(para)
@@ -2026,64 +2023,56 @@ msgid "Location"
 msgstr "Konum"
 
 #: src/filters/distort/pagecurl.xml:80(para)
-msgid ""
-"This lets you select the corner you want to curl. The default is the "
-"<guilabel>Lower right</guilabel> corner."
-msgstr ""
+msgid "You have four options to select the corner you want to raise."
+msgstr "Yükseltmek istediğiniz köşeyi seçmek için dört seçenek vardır."
 
-#: src/filters/distort/pagecurl.xml:87(term)
+#: src/filters/distort/pagecurl.xml:86(term)
 #: src/filters/distort/blinds.xml:86(term)
 msgid "Orientation"
 msgstr "Yönelim"
 
-#: src/filters/distort/pagecurl.xml:89(para)
-#, fuzzy
-#| msgid ""
-#| "Swap the <guilabel>Upper</guilabel> and <guilabel>Lower</guilabel> curves."
+#: src/filters/distort/pagecurl.xml:88(para)
 msgid ""
-"<guilabel>Vertical</guilabel> and <guilabel>Horizontal</guilabel> refer to "
-"the border you want to raise."
+"<emphasis>Horizontal</emphasis> and <emphasis>Vertical</emphasis> refer to "
+"the border you want raise."
 msgstr ""
-"Swap the <guilabel>Üst</guilabel> ve <guilabel>Alt</guilabel> eğrileri yer "
-"değiştir."
+"<emphasis>Yatay</emphasis> ve <emphasis>Dikey</emphasis>, kıvırmak "
+"istediğiniz kenarı tanımlar."
 
-#: src/filters/distort/pagecurl.xml:96(term)
+#: src/filters/distort/pagecurl.xml:95(term)
 msgid "Shade"
 msgstr "Gölge"
 
-#: src/filters/distort/pagecurl.xml:98(para)
-#, fuzzy
-#| msgid "This is the shadow inside the cornet."
-msgid "When enabled, a shadow is added inside the cornet."
+#: src/filters/distort/pagecurl.xml:97(para)
+msgid "This is the shadow inside the cornet."
 msgstr "Bu kıvrılmış köşenin içindeki gölgedir."
 
-#: src/filters/distort/pagecurl.xml:104(term)
+#: src/filters/distort/pagecurl.xml:103(term)
 msgid "Colors"
 msgstr "Renkler"
 
-#: src/filters/distort/pagecurl.xml:106(para)
-#, fuzzy
-#| msgid ""
-#| "This refers to the outer face of the cornet. Available options are "
-#| "<guilabel>Foreground / background colors</guilabel>, <guilabel>Current "
-#| "gradient</guilabel>, and <guilabel>Current gradient (reversed)</guilabel>."
+#: src/filters/distort/pagecurl.xml:105(para)
 msgid ""
-"This determines how the outer face of the cornet is drawn. Available options "
-"are <guilabel>Foreground / background colors</guilabel>, <guilabel>Current "
+"This refers to the outer face of the cornet. Available options are "
+"<guilabel>Foreground / background colors</guilabel>, <guilabel>Current "
 "gradient</guilabel>, and <guilabel>Current gradient (reversed)</guilabel>."
 msgstr ""
-"Bu, kıvrılmış köşenin dış yüzeyini tanımlar. Var olan seçenekler şunlardır: "
-"<guilabel>Ön plan / arka plan renkleri</guilabel>, <guilabel>Geçerli renk "
-"geçişi</guilabel> ve <guilabel>Geçerli renk geçişi (ters çevrilmiş)</"
-"guilabel>."
+"Bu, kıvrılmış köşenin dış yüzeyini tanımlar. Var olan seçenekler "
+"şunlardır: <guilabel>Ön plan / arka plan renkleri</guilabel>, "
+"<guilabel>Geçerli renk geçişi</guilabel> ve <guilabel>Geçerli renk geçişi "
+"(ters çevrilmiş)</guilabel>."
 
-#: src/filters/distort/pagecurl.xml:116(term)
+#: src/filters/distort/pagecurl.xml:114(term)
 msgid "Opacity"
 msgstr "Matlık"
 
-#: src/filters/distort/pagecurl.xml:118(para)
-msgid "This sets the visibility of the original image beneath the cornet."
+#: src/filters/distort/pagecurl.xml:116(para)
+msgid ""
+"Refers to the visibility of the layer part underlying the cornet. It may be "
+"set also in the Layers dialog."
 msgstr ""
+"Kıvrılmış köşenin altındaki katman bölümünün görünürlüğünü tanımlar. "
+"Katmanlar iletişim kutusundan da ayarlanabilir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2260,49 +2249,41 @@ msgstr ""
 msgid "Quality"
 msgstr "Nitelik"
 
-#: src/filters/distort/newsprint.xml:207(term)
-msgid "Anti-alias oversampling factor"
-msgstr ""
-
-#: src/filters/distort/newsprint.xml:209(para)
-#, fuzzy
-#| msgid ""
-#| "<guilabel>Anti-alias oversampling factor</guilabel> This sets the number "
-#| "of samples that are averaged for anti-aliasing the result."
+#: src/filters/distort/newsprint.xml:205(para)
 msgid ""
-"This sets the number of samples that are averaged for anti-aliasing the "
-"result."
+"<guilabel>Anti-alias oversampling factor</guilabel> This sets the number of "
+"samples that are averaged for anti-aliasing the result."
 msgstr ""
 "<guilabel>Kenar yumuşatma yüksek hızda örnekleme faktörü</guilabel> Bu "
 "sonucun kenar yumuşatma için ortalaması alınmış örnek sayısını belirler."
 
-#: src/filters/distort/newsprint.xml:213(para)
+#: src/filters/distort/newsprint.xml:209(para)
 msgid ""
 "Proper halftoning does not need anti-aliasing: the aim is to reduce the "
 "color depth after all! However, since this plug-in is mainly for special "
 "effects, the results are displayed on screen instead of on a printer. So it "
 "is often useful to apply a little anti-aliasing to simulate ink smearing on "
-"paper. If you do want to print the resulting image then set the anti-"
-"aliasing to 1 (i.e., off)."
+"paper. If you do want to print the resulting image then set the antialiasing "
+"to 1 (i.e., off)."
 msgstr ""
 
-#: src/filters/distort/newsprint.xml:228(term)
+#: src/filters/distort/newsprint.xml:221(term)
 msgid "Effects"
 msgstr "Etkiler"
 
-#: src/filters/distort/newsprint.xml:232(term)
+#: src/filters/distort/newsprint.xml:225(term)
 msgid "Turbulence"
 msgstr "Türbülans"
 
-#: src/filters/distort/newsprint.xml:234(para)
+#: src/filters/distort/newsprint.xml:227(para)
 msgid "Color saturation dependent compression of period."
 msgstr ""
 
-#: src/filters/distort/newsprint.xml:240(term)
+#: src/filters/distort/newsprint.xml:233(term)
 msgid "Blocksize"
 msgstr "Blok Boyutu"
 
-#: src/filters/distort/newsprint.xml:242(para)
+#: src/filters/distort/newsprint.xml:235(para)
 msgid ""
 "Number of periods per tile. This tiling avoids high frequency anomalies that "
 "angle boost causes."
@@ -2310,11 +2291,11 @@ msgstr ""
 "Döşeme başına sıklık sayısı. Bu döşeme, açı artmanın neden olduğu yüksek "
 "frekanslı düzensizliklerden kaçınır."
 
-#: src/filters/distort/newsprint.xml:249(term)
+#: src/filters/distort/newsprint.xml:242(term)
 msgid "Angle Boost"
 msgstr "Açı Artır"
 
-#: src/filters/distort/newsprint.xml:251(para)
+#: src/filters/distort/newsprint.xml:244(para)
 msgid ""
 "Multiplication factor for the desired rotation of the local space for the "
 "texture. The way this is computed makes it weak for desaturated colors and "
@@ -2492,18 +2473,10 @@ msgid "That's width of the join between tiles."
 msgstr "Bu, döşemeler arasındaki eklem genişliğidir."
 
 #: src/filters/distort/mosaic.xml:194(term)
-#, fuzzy
-#| msgid "Joints/Light color"
-msgid "Joints color"
+msgid "Joints/Light color"
 msgstr "Eklem/Işık rengi"
 
-#: src/filters/distort/mosaic.xml:195(term)
-#, fuzzy
-#| msgid "Joints/Light color"
-msgid "Light color"
-msgstr "Eklem/Işık rengi"
-
-#: src/filters/distort/mosaic.xml:197(para)
+#: src/filters/distort/mosaic.xml:196(para)
 msgid ""
 "Tiles are lit with the foreground color of the toolbox, and shadow is "
 "colored with the background color. Joins have the background color. You can "
@@ -2511,22 +2484,22 @@ msgid ""
 "right."
 msgstr ""
 
-#: src/filters/distort/mosaic.xml:206(term)
+#: src/filters/distort/mosaic.xml:205(term)
 msgid "Light direction"
 msgstr "Işık yönü"
 
-#: src/filters/distort/mosaic.xml:208(para)
+#: src/filters/distort/mosaic.xml:207(para)
 msgid ""
 "By default light comes from the upper left corner (135°). You can change "
 "this direction from 0 to 360."
 msgstr ""
 
-#: src/filters/distort/mosaic.xml:215(term)
+#: src/filters/distort/mosaic.xml:214(term)
 #: src/filters/distort/curve_bend.xml:124(term)
 msgid "Antialiasing"
 msgstr "Kenar yumuşatma"
 
-#: src/filters/distort/mosaic.xml:217(para)
+#: src/filters/distort/mosaic.xml:216(para)
 msgid "This option reduces the stepped aspect that may have borders."
 msgstr ""
 
@@ -2785,8 +2758,8 @@ msgid ""
 "These two options specify the shift of the image produced by not perfectly "
 "centered pairs of lenses."
 msgstr ""
-"Bu iki seçenek, doğru ortalanmamış merceklerce üretilen görüntü kaymasını "
-"belirler."
+"Bu iki seçenek, doğru ortalanmamış merceklerce üretilen görüntü "
+"kaymasını belirler."
 
 #: src/filters/distort/lens-distortion.xml:217(para)
 msgid ""
@@ -2994,8 +2967,8 @@ msgstr "Genişlet"
 
 #: src/filters/distort/kaleidoscope.xml:158(para)
 msgid ""
-"Scale factor of the output relative to the orignal size. Values lower than 1 "
-"will only cover part of the image."
+"It is unclear what the exact effect of this is. It also seems to be relating "
+"to scaling."
 msgstr ""
 
 #: src/filters/distort/kaleidoscope.xml:165(term)
@@ -3337,9 +3310,7 @@ msgid "This button allows you to update the preview each time you need it."
 msgstr ""
 
 #: src/filters/distort/curve_bend.xml:94(term)
-#, fuzzy
-#| msgid "Automatic Preview"
-msgid "Automatic preview"
+msgid "Automatic Preview"
 msgstr "Kendiliğinden ön izle"
 
 #: src/filters/distort/curve_bend.xml:96(para)
@@ -3404,12 +3375,8 @@ msgid ""
 msgstr ""
 
 #: src/filters/distort/curve_bend.xml:164(para)
-#, fuzzy
-#| msgid ""
-#| "If you use the <guilabel>Free</guilabel><emphasis>Curve Type</emphasis> "
-#| "option, the curve you draw will replace the active curve."
 msgid ""
-"If you use the <guilabel>Freehand</guilabel><emphasis>Curve Type</emphasis> "
+"If you use the <guilabel>Free</guilabel><emphasis>Curve Type</emphasis> "
 "option, the curve you draw will replace the active curve."
 msgstr ""
 "<guilabel>Serbest Çizim</guilabel><emphasis>Eğri Türü</emphasis> seçeneğini "
@@ -3451,13 +3418,9 @@ msgstr ""
 "kendiliğinden iyi yuvarlatılmış eğri elde edersiniz."
 
 #: src/filters/distort/curve_bend.xml:196(para)
-#, fuzzy
-#| msgid ""
-#| "The <guilabel>Free</guilabel> option allows you to draw a curve freely. "
-#| "It will replace the active curve."
 msgid ""
-"The <guilabel>Freehand</guilabel> option allows you to draw a curve freely. "
-"It will replace the active curve."
+"The <guilabel>Free</guilabel> option allows you to draw a curve freely. It "
+"will replace the active curve."
 msgstr ""
 "<guilabel>Serbest çizim</guilabel> seçeneği, eğriyi serbestçe çizmenizi "
 "sağlar. Etkin eğriyi değiştirir."
@@ -3559,6 +3522,10 @@ msgstr ""
 "Yatay ya da dikey çıtalarla perde etkisi oluşturur. Bu çıtaları kaldırabilir "
 "ya da kapatabilirsiniz, ancak tüm perdeyi kaldıramazsınız."
 
+#: src/filters/distort/blinds.xml:53(title)
+msgid "Activating the filter"
+msgstr "Süzgeci Etkinleştirme"
+
 #: src/filters/distort/blinds.xml:54(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
@@ -3582,11 +3549,7 @@ msgstr ""
 "tıklamadığınız sürece görüntüyü etkilemeden Ön izle ekranında görünür."
 
 #: src/filters/distort/blinds.xml:88(para)
-#, fuzzy
-#| msgid "Allows you to decide whether battens will be horizontal or vertical."
-msgid ""
-"Allows you to decide whether battens will be <guilabel>Horizontal</guilabel> "
-"or <guilabel>Vertical</guilabel>."
+msgid "Allows you to decide whether battens will be horizontal or vertical."
 msgstr "Çıtaların yatay ya da dikey olma durumunu belirlemenizi sağlar."
 
 #: src/filters/distort/blinds.xml:95(term)
@@ -3594,14 +3557,9 @@ msgid "Background"
 msgstr "Arka plan"
 
 #: src/filters/distort/blinds.xml:97(para)
-#, fuzzy
-#| msgid ""
-#| "The batten color is that of the Toolbox Background. To be able to use the "
-#| "<emphasis>Transparent</emphasis> option, your image must have an Alpha "
-#| "channel."
 msgid ""
 "The batten color is that of the Toolbox Background. To be able to use the "
-"<guilabel>Transparent</guilabel> option, your image must have an Alpha "
+"<emphasis>Transparent</emphasis> option, your image must have an Alpha "
 "channel."
 msgstr ""
 "Çıta rengi, Araç Kutusundaki Arka Plan rengidir. <emphasis>Saydam</emphasis> "
@@ -3718,61 +3676,3 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
-
-#~ msgid "Parameter Settings"
-#~ msgstr "Seçenekler"
-
-#~ msgid ""
-#~ "You can find this filter through <menuchoice><guimenu>Filters</"
-#~ "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Video Degradation…</"
-#~ "guimenuitem></menuchoice>."
-#~ msgstr ""
-#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
-#~ "guimenu><guisubmenu>Bozulma</guisubmenu><guimenuitem>Video Bozulması…</"
-#~ "guimenuitem></menuchoice> altında bulunur."
-
-#~ msgid ""
-#~ "<emphasis role=\"bold\">Radial</emphasis> is the default mode. See "
-#~ "example above."
-#~ msgstr ""
-#~ "<emphasis role=\"bold\">Radyal</emphasis> öntanımlı kiptir. Yukarıdaki "
-#~ "örneğe bakın."
-
-#, fuzzy
-#~ msgid ""
-#~ "<emphasis role=\"bold\">Horizontal</emphasis>: as if image was mapped on "
-#~ "a <emphasis role=\"underline\">vertical</emphasis> cylinder."
-#~ msgstr ""
-#~ "<emphasis role=\"bold\">Yatay</emphasis>: görüntü <emphasis "
-#~ "role=\"underline\">dikey</emphasis> silindir üzerine eşlenmiş gibi."
-
-#, fuzzy
-#~ msgid ""
-#~ "<emphasis role=\"bold\">Vertical</emphasis>: as if image was mapped on a "
-#~ "<emphasis role=\"underline\">horizontal</emphasis> cylinder."
-#~ msgstr ""
-#~ "<emphasis role=\"bold\">Dikey</emphasis>: görüntü <emphasis "
-#~ "role=\"underline\">yatay</emphasis> silindir üzerine eşlenmiş gibi."
-
-#~ msgid "Resampling methods"
-#~ msgstr "Yeniden örnekleme yöntemi"
-
-#~ msgid "You have four options to select the corner you want to raise."
-#~ msgstr "Yükseltmek istediğiniz köşeyi seçmek için dört seçenek vardır."
-
-#~ msgid ""
-#~ "<emphasis>Horizontal</emphasis> and <emphasis>Vertical</emphasis> refer "
-#~ "to the border you want raise."
-#~ msgstr ""
-#~ "<emphasis>Yatay</emphasis> ve <emphasis>Dikey</emphasis>, kıvırmak "
-#~ "istediğiniz kenarı tanımlar."
-
-#~ msgid ""
-#~ "Refers to the visibility of the layer part underlying the cornet. It may "
-#~ "be set also in the Layers dialog."
-#~ msgstr ""
-#~ "Kıvrılmış köşenin altındaki katman bölümünün görünürlüğünü tanımlar. "
-#~ "Katmanlar iletişim kutusundan da ayarlanabilir."
-
-#~ msgid "Activating the filter"
-#~ msgstr "Süzgeci Etkinleştirme"
