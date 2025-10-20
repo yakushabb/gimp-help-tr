@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-10-20 20:52+0300\n"
+"PO-Revision-Date: 2025-10-20 22:04+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -101,7 +101,7 @@ msgstr "Genel Görünüm"
 
 #: src/filters/combine/filmstrip.xml:26(title)
 msgid "Applying example for the Filmstrip filter"
-msgstr "Film Şeridi süzgeci uygulama örneği"
+msgstr "“Film Şeridi” süzgeci örneği"
 
 #: src/filters/combine/filmstrip.xml:33(para)
 msgid "Original image"
@@ -131,25 +131,18 @@ msgstr ""
 
 #: src/filters/combine/filmstrip.xml:60(title)
 #: src/filters/combine/depthmerge.xml:73(title)
-#, fuzzy
-#| msgid "Accessing this Filter"
 msgid "Activating the Filter"
-msgstr "Bu Süzgece ulaşmak"
+msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/combine/filmstrip.xml:61(para)
-#, fuzzy
-#| msgid ""
-#| "You can find this filter through <menuchoice><guimenu>Filters</"
-#| "guimenu><guisubmenu>Combine</guisubmenu><guimenuitem>Filmstrip…</"
-#| "guimenuitem></menuchoice>."
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Combine</guisubmenu><guimenuitem>Filmstrip…</"
 "guimenuitem></menuchoice>."
 msgstr ""
-"Bu süzgece ana menüden <menuchoice><guimenu>Süzgeçler</"
+"Bu süzgeç ana menü <menuchoice><guimenu>Süzgeçler</"
 "guimenu><guisubmenu>Birleştir</guisubmenu><guimenuitem>Film Şeridi…</"
-"guimenuitem></menuchoice> yoluyla ulaşabilirsiniz."
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/combine/filmstrip.xml:72(title)
 #: src/filters/combine/depthmerge.xml:85(title)
@@ -166,7 +159,7 @@ msgstr "<quote>Film Şeridi</quote> süzgeci seçenekleri (Seçim)"
 
 #: src/filters/combine/filmstrip.xml:88(term)
 msgid "Fit height to images"
-msgstr "Yüksekliği görüntülere sığdır"
+msgstr "Yüksekliği görüntülere uydur"
 
 #: src/filters/combine/filmstrip.xml:90(para)
 msgid "Applies the height of original pictures to the resulting one."
@@ -343,18 +336,13 @@ msgstr "Delik yüksekliği"
 msgid "Defines the height of the holes in the resulting image."
 msgstr "Sonuç görüntüsündeki deliklerin yüksekliğini belirler."
 
-# Arayüzde Hole Distence fakat belgelerde Hole Spacing olarak geçiyor. O sebeple arayüzdeki şekliyle çevirdim. Hata raporlandı: https://gitlab.gnome.org/GNOME/gimp-help/-/issues/609
 #: src/filters/combine/filmstrip.xml:242(term)
-#, fuzzy
-#| msgid "Hole spacing"
 msgid "Hole distance"
 msgstr "Delik mesafesi"
 
 #: src/filters/combine/filmstrip.xml:244(para)
-#, fuzzy
-#| msgid "Defines the space between holes"
 msgid "Defines the space between holes."
-msgstr "Delikler arasındaki boşluğu belirler"
+msgstr "Delikler arasındaki boşluğu belirler."
 
 #: src/filters/combine/filmstrip.xml:248(term)
 msgid "Number height"
@@ -481,7 +469,7 @@ msgid ""
 "stay visible."
 msgstr ""
 "Derin Birleştirme, iki başka resim ya da katmanı birleştirmek için yararlı "
-"olan bir Birleştirme Süzgecidir. Her resmin veya katmanın hangi kısmının "
+"olan bir Birleştirme Süzgecidir. Her resmin ya da katmanın hangi kısmının "
 "görünür kalacağına karar verebilirsiniz."
 
 #: src/filters/combine/depthmerge.xml:33(title)
@@ -494,7 +482,7 @@ msgstr "Özgün"
 
 #: src/filters/combine/depthmerge.xml:49(para)
 msgid "Filter applied"
-msgstr "Süzgeç uygulandı."
+msgstr "Süzgeç uygulandı"
 
 #: src/filters/combine/depthmerge.xml:53(para)
 msgid ""
@@ -502,6 +490,9 @@ msgid ""
 "this map as a grayscale gradient: when applied onto the image, dark areas of "
 "the mask will show the underlying image and bright areas will mask the image."
 msgstr ""
+"Her görüntü, maske olarak çalışan eşlemle ilişkilendirilir. Bu eşlem gri "
+"tonlamalı renk geçişi olarak oluşur: görüntüye uygulandığında, maskenin koyu "
+"alanları alttaki görüntüyü gösterir ve parlak alanlar görüntüyü maskeler."
 
 #: src/filters/combine/depthmerge.xml:60(para)
 msgid ""
@@ -522,19 +513,14 @@ msgstr ""
 "görünecektir. Bu katmanlar aynı boyutta olmalıdır."
 
 #: src/filters/combine/depthmerge.xml:74(para)
-#, fuzzy
-#| msgid ""
-#| "You can find this filter through <menuchoice><guimenu>Filters</"
-#| "guimenu><guisubmenu>Combine</guisubmenu><guimenuitem>Depth Merge…</"
-#| "guimenuitem></menuchoice>"
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Combine</guisubmenu><guimenuitem>Depth Merge…</"
 "guimenuitem></menuchoice>"
 msgstr ""
-"Bu süzgece ana menüden <menuchoice><guimenu>Süzgeçler</"
+"Bu süzgeç ana menü <menuchoice><guimenu>Süzgeçler</"
 "guimenu><guisubmenu>Birleştir</guisubmenu><guimenuitem>Derin Birleştirme…</"
-"guimenuitem></menuchoice> yoluyla ulaşabilirsiniz."
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/combine/depthmerge.xml:87(title)
 msgid "<quote>Depth Merge</quote> filter options"
@@ -600,6 +586,10 @@ msgid ""
 "value, making it darker. So, black is more dominant in the merge and you "
 "will see more of the image."
 msgstr ""
+"Konum için yukarıdaki ile aynıdır, ancak daha hassastır ve her eşleme ayrı "
+"ayrı uygulanır. Daha düşük değere ölçeklendiğinde, eşlem görüntüsünün "
+"değerini etkileyerek daha koyu hale getirir. Böylece, birleştirme işleminde "
+"siyah daha baskın olur ve görüntünün daha fazlasını görürsünüz."
 
 #: src/filters/combine/depthmerge.xml:145(title)
 msgid "Using example"
@@ -642,6 +632,11 @@ msgid ""
 "by map-2: the red circle is masked and the green circle remains visible. In "
 "total, the green circle and the yellow square stay visible."
 msgstr ""
+"Neler olup bittiğini anlayabilirsiniz. Görüntü-1 Derinlik eşlemi-1 "
+"tarafından ele alınır: kırmızı kare maskelenir ve sarı kare görünür kalır. "
+"Görüntü-2 Derinlik eşlemi-2 tarafından ele alınır: kırmızı daire maskelenir "
+"ve yeşil daire görünür kalır. Sonuçta, yeşil daire ve sarı kare görünür "
+"kalır."
 
 #: src/filters/combine/depthmerge.xml:198(title)
 msgid "Results"
@@ -660,7 +655,7 @@ msgid ""
 "<emphasis>Offset</emphasis> = 0.980 : the limit, sharp, is shifted so that "
 "the image-2 area is increased."
 msgstr ""
-"<emphasis>Konum</emphasis> = 0.980 : sınır, keskin, görüntü 2 alanını "
+"<emphasis>Konum</emphasis> = 0,980 : sınır, keskin, görüntü 2 alanını "
 "artıracak biçimde kaydırılır."
 
 #: src/filters/combine/depthmerge.xml:230(para)
