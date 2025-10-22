@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-10-22 20:15+0000\n"
 "PO-Revision-Date: 2025-10-10 01:22+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -206,6 +206,7 @@ msgid ""
 msgstr ""
 
 #: src/filters/map/warp.xml:88(title) src/filters/map/tile.xml:48(title)
+#: src/filters/map/tile-seamless.xml:49(title)
 #: src/filters/map/smalltiles.xml:51(title)
 #: src/filters/map/recursive-transform.xml:156(title)
 #: src/filters/map/papertile.xml:53(title)
@@ -661,12 +662,6 @@ msgid ""
 "an image can be used as a pattern for a web-page. This filter has no option, "
 "and result may need correction."
 msgstr ""
-
-#: src/filters/map/tile-seamless.xml:49(title)
-#, fuzzy
-#| msgid "Activating the Filter"
-msgid "Activating the Filte"
-msgstr "Süzgeci Etkinleştirme"
 
 #: src/filters/map/tile-seamless.xml:50(para)
 #, fuzzy
@@ -3563,6 +3558,11 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
+#, fuzzy
+#~| msgid "Activating the Filter"
+#~ msgid "Activating the Filte"
+#~ msgstr "Süzgeci Etkinleştirme"
 
 #~ msgid "Activating the filter"
 #~ msgstr "Süzgeci Etkinleştirme"

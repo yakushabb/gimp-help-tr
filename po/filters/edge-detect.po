@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-10-22 20:15+0000\n"
 "PO-Revision-Date: 2025-10-22 00:21+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -123,7 +123,7 @@ msgstr ""
 #: src/filters/edge-detect/laplace.xml:49(title)
 #: src/filters/edge-detect/image_gradient.xml:61(title)
 #: src/filters/edge-detect/edge_detect.xml:38(title)
-#: src/filters/edge-detect/dog.xml:69(title)
+#: src/filters/edge-detect/dog.xml:62(title)
 msgid "Activating the Filter"
 msgstr "Süzgeci Etkinleştirme"
 
@@ -142,7 +142,7 @@ msgstr ""
 #: src/filters/edge-detect/laplace.xml:61(title)
 #: src/filters/edge-detect/image_gradient.xml:73(title)
 #: src/filters/edge-detect/edge_detect.xml:50(title)
-#: src/filters/edge-detect/dog.xml:81(title)
+#: src/filters/edge-detect/dog.xml:74(title)
 msgid "Options"
 msgstr "Seçenekler"
 
@@ -155,7 +155,7 @@ msgstr "“Sobel” süzgeci seçenekleri"
 #: src/filters/edge-detect/laplace.xml:73(term)
 #: src/filters/edge-detect/image_gradient.xml:85(term)
 #: src/filters/edge-detect/edge_detect.xml:62(term)
-#: src/filters/edge-detect/dog.xml:95(term)
+#: src/filters/edge-detect/dog.xml:88(term)
 msgid "Presets"
 msgstr "Önayarlar"
 
@@ -164,7 +164,7 @@ msgstr "Önayarlar"
 #: src/filters/edge-detect/laplace.xml:74(quote)
 #: src/filters/edge-detect/image_gradient.xml:86(quote)
 #: src/filters/edge-detect/edge_detect.xml:63(quote)
-#: src/filters/edge-detect/dog.xml:96(quote)
+#: src/filters/edge-detect/dog.xml:89(quote)
 msgid "Input Type"
 msgstr "Girdi Türü"
 
@@ -173,7 +173,7 @@ msgstr "Girdi Türü"
 #: src/filters/edge-detect/laplace.xml:75(term)
 #: src/filters/edge-detect/image_gradient.xml:87(term)
 #: src/filters/edge-detect/edge_detect.xml:64(term)
-#: src/filters/edge-detect/dog.xml:97(term)
+#: src/filters/edge-detect/dog.xml:90(term)
 msgid "Clipping"
 msgstr "Kırpma"
 
@@ -182,7 +182,7 @@ msgstr "Kırpma"
 #: src/filters/edge-detect/laplace.xml:76(term)
 #: src/filters/edge-detect/image_gradient.xml:88(term)
 #: src/filters/edge-detect/edge_detect.xml:65(term)
-#: src/filters/edge-detect/dog.xml:98(term)
+#: src/filters/edge-detect/dog.xml:91(term)
 msgid "Blending Options"
 msgstr "Harmanlama Seçenekleri"
 
@@ -191,7 +191,7 @@ msgstr "Harmanlama Seçenekleri"
 #: src/filters/edge-detect/laplace.xml:77(term)
 #: src/filters/edge-detect/image_gradient.xml:89(term)
 #: src/filters/edge-detect/edge_detect.xml:66(term)
-#: src/filters/edge-detect/dog.xml:99(term)
+#: src/filters/edge-detect/dog.xml:92(term)
 msgid "Preview"
 msgstr "Ön izleme"
 
@@ -200,7 +200,7 @@ msgstr "Ön izleme"
 #: src/filters/edge-detect/laplace.xml:78(term)
 #: src/filters/edge-detect/image_gradient.xml:90(term)
 #: src/filters/edge-detect/edge_detect.xml:67(term)
-#: src/filters/edge-detect/dog.xml:100(term)
+#: src/filters/edge-detect/dog.xml:93(term)
 msgid "Merge filter"
 msgstr "Süzgeci birleştir"
 
@@ -209,7 +209,7 @@ msgstr "Süzgeci birleştir"
 #: src/filters/edge-detect/laplace.xml:79(term)
 #: src/filters/edge-detect/image_gradient.xml:91(term)
 #: src/filters/edge-detect/edge_detect.xml:68(term)
-#: src/filters/edge-detect/dog.xml:101(term)
+#: src/filters/edge-detect/dog.xml:94(term)
 msgid "Split view"
 msgstr "Bölünmüş görünüm"
 
@@ -799,7 +799,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/edge-detect/dog.xml:89(None)
+#: src/filters/edge-detect/dog.xml:82(None)
 msgid ""
 "@@image: 'images/filters/edge-detect/diff_gauss-dialog.png'; "
 "md5=9844d4143063149dd37f18721833fbea"
@@ -825,41 +825,21 @@ msgstr ""
 "<quote>Gauss Farklılığı</quote> süzgeci yarıçap 1 = 1,000 ve yarıçap 2 = "
 "0,100 olarak uygulandı"
 
-# Sadeleştirme amaçlı MR oluşturuldu.
-# https://gitlab.gnome.org/GNOME/gimp-help/-/merge_requests/459/
 #: src/filters/edge-detect/dog.xml:48(para)
 msgid ""
 "This filter does edge detection using the so-called <quote>Difference of "
 "Gaussians</quote> algorithm, which works by performing two different "
 "Gaussian blurs on the image, with a different blurring radius for each, and "
-"subtracting them to yield the result. This algorithm is very widely used in "
-"artificial vision (maybe in biological vision as well!), and is pretty fast "
-"because there are very efficient methods for doing Gaussian blurs. The most "
-"important parameters are the blurring radii for the two Gaussian blurs. It "
-"is probably easiest to set them using the preview, but it may help to know "
-"that increasing the smaller radius tends to give thicker-appearing edges, "
-"and decreasing the larger radius tends to increase the <quote>threshold</"
-"quote> for recognizing something as an edge. In most cases you will get "
-"nicer results if Radius 2 is smaller than Radius 1, but nothing prevents you "
-"from reversing them, and in situations where you have a light figure on the "
-"dark background, reversing them may actually improve the result."
+"subtracting them to yield the result."
 msgstr ""
-"Bu süzgeç, görüntü üzerinde her biri için farklı bulanıklaştırma yarıçapına "
-"sahip iki farklı <quote>Gauss</quote> bulanıklaştırması gerçekleştirerek ve "
-"sonucu elde etmek için bunları çıkararak çalışan <quote>Gauss Farklılığı</"
-"quote> algoritmasını kullanarak kenar tespiti yapar. Bu algoritma yapay "
-"görmede (belki biyolojik görmede de!) çok yaygın olarak kullanılır ve "
-"oldukça hızlıdır çünkü Gauss bulanıklaştırması yapmak için çok verimli "
-"yöntemler vardır. En önemli parametreler iki Gauss bulanıklaştırması için "
-"bulanıklaştırma yarıçaplarıdır. Bunları önizlemeyi kullanarak ayarlamak "
-"muhtemelen en kolay yoldur, ancak daha küçük yarıçapı artırmanın daha kalın "
-"görünen kenarlar üretme eğiliminde olduğunu ve daha büyük yarıçapı "
-"azaltmanın kenar tanıma <quote>eşiğini</quote> artırma eğiliminde olduğunu "
-"bilmek yardımcı olabilir. Çoğu durumda Yarıçap 2, Yarıçap 1'den küçükse daha "
-"iyi sonuçlar elde edersiniz. Koyu arka plan üzerinde açık görüntü olduğu "
-"durumlarda, yarıçapı tersine çevirmek sonucu iyileştirebilir."
 
-#: src/filters/edge-detect/dog.xml:70(para)
+#: src/filters/edge-detect/dog.xml:55(para)
+msgid ""
+"This algorithm is very widely used in artificial vision, and is pretty fast "
+"because there are very efficient methods for doing Gaussian blurs."
+msgstr ""
+
+#: src/filters/edge-detect/dog.xml:63(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Edge-Detect</guisubmenu><guimenuitem>Difference of "
@@ -869,30 +849,61 @@ msgstr ""
 "guimenu><guisubmenu>Kenar Tanıma</guisubmenu><guimenuitem>Gauss Farklılığı…</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/edge-detect/dog.xml:83(title)
+#: src/filters/edge-detect/dog.xml:76(title)
 msgid "Gaussian Difference filter options"
 msgstr "“Gauss Farklılığı” süzgeci seçenekleri"
 
-#: src/filters/edge-detect/dog.xml:107(term)
+#: src/filters/edge-detect/dog.xml:100(term)
 msgid "Radius 1"
 msgstr "Yarıçap 1"
 
-#: src/filters/edge-detect/dog.xml:108(term)
+#: src/filters/edge-detect/dog.xml:101(term)
 msgid "Radius 2"
 msgstr "Yarıçap 2"
 
 # Metin değişebilir: https://gitlab.gnome.org/GNOME/gimp-help/-/merge_requests/459/
-#: src/filters/edge-detect/dog.xml:110(para)
+#: src/filters/edge-detect/dog.xml:103(para)
+#, fuzzy
+#| msgid ""
+#| "<guilabel>Radius 1</guilabel> and <guilabel>Radius 2</guilabel> are the "
+#| "blurring radii for the two Gaussian blurs. If you want to produce "
+#| "something that looks like a sketch, in most cases setting <quote>Radius2</"
+#| "quote> smaller than <quote>Radius1</quote> will give better results."
 msgid ""
 "<guilabel>Radius 1</guilabel> and <guilabel>Radius 2</guilabel> are the "
-"blurring radii for the two Gaussian blurs. If you want to produce something "
-"that looks like a sketch, in most cases setting <quote>Radius2</quote> "
-"smaller than <quote>Radius1</quote> will give better results."
+"blurring radii for the two Gaussian blurs. Increasing <quote>Radius1</quote> "
+"tends to give thicker-appearing edges, and decreasing the <quote>Radius2</"
+"quote> tends to increase the <quote>threshold</quote> for recognizing "
+"something as an edge."
 msgstr ""
 "<guilabel>Yarıçap 1</guilabel> ve <guilabel>Yarıçap 2</guilabel>, iki Gauss "
 "bulanıklaştırması için bulanıklaştırma yarıçaplarıdır. Eskiz gibi görünen "
 "bir şey üretmek istiyorsanız, çoğu durumda <quote>Yarıçap 2</quote>ʼyi "
 "<quote>Yarıçap 1</quote>ʼden daha küçük ayarlamak daha iyi sonuçlar verir."
+
+# Metin değişebilir: https://gitlab.gnome.org/GNOME/gimp-help/-/merge_requests/459/
+#: src/filters/edge-detect/dog.xml:111(para)
+#, fuzzy
+#| msgid ""
+#| "<guilabel>Radius 1</guilabel> and <guilabel>Radius 2</guilabel> are the "
+#| "blurring radii for the two Gaussian blurs. If you want to produce "
+#| "something that looks like a sketch, in most cases setting <quote>Radius2</"
+#| "quote> smaller than <quote>Radius1</quote> will give better results."
+msgid ""
+"If you want to produce something that looks like a sketch, in most cases "
+"setting <quote>Radius2</quote> smaller than <quote>Radius1</quote> will give "
+"better results."
+msgstr ""
+"<guilabel>Yarıçap 1</guilabel> ve <guilabel>Yarıçap 2</guilabel>, iki Gauss "
+"bulanıklaştırması için bulanıklaştırma yarıçaplarıdır. Eskiz gibi görünen "
+"bir şey üretmek istiyorsanız, çoğu durumda <quote>Yarıçap 2</quote>ʼyi "
+"<quote>Yarıçap 1</quote>ʼden daha küçük ayarlamak daha iyi sonuçlar verir."
+
+#: src/filters/edge-detect/dog.xml:116(para)
+msgid ""
+"In situations where you have a light figure on the dark background, "
+"reversing them may actually improve the result."
+msgstr ""
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/edge-detect/dog.xml:0(None)
@@ -900,3 +911,38 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025"
+
+# Sadeleştirme amaçlı MR oluşturuldu.
+# https://gitlab.gnome.org/GNOME/gimp-help/-/merge_requests/459/
+#~ msgid ""
+#~ "This filter does edge detection using the so-called <quote>Difference of "
+#~ "Gaussians</quote> algorithm, which works by performing two different "
+#~ "Gaussian blurs on the image, with a different blurring radius for each, "
+#~ "and subtracting them to yield the result. This algorithm is very widely "
+#~ "used in artificial vision (maybe in biological vision as well!), and is "
+#~ "pretty fast because there are very efficient methods for doing Gaussian "
+#~ "blurs. The most important parameters are the blurring radii for the two "
+#~ "Gaussian blurs. It is probably easiest to set them using the preview, but "
+#~ "it may help to know that increasing the smaller radius tends to give "
+#~ "thicker-appearing edges, and decreasing the larger radius tends to "
+#~ "increase the <quote>threshold</quote> for recognizing something as an "
+#~ "edge. In most cases you will get nicer results if Radius 2 is smaller "
+#~ "than Radius 1, but nothing prevents you from reversing them, and in "
+#~ "situations where you have a light figure on the dark background, "
+#~ "reversing them may actually improve the result."
+#~ msgstr ""
+#~ "Bu süzgeç, görüntü üzerinde her biri için farklı bulanıklaştırma "
+#~ "yarıçapına sahip iki farklı <quote>Gauss</quote> bulanıklaştırması "
+#~ "gerçekleştirerek ve sonucu elde etmek için bunları çıkararak çalışan "
+#~ "<quote>Gauss Farklılığı</quote> algoritmasını kullanarak kenar tespiti "
+#~ "yapar. Bu algoritma yapay görmede (belki biyolojik görmede de!) çok "
+#~ "yaygın olarak kullanılır ve oldukça hızlıdır çünkü Gauss "
+#~ "bulanıklaştırması yapmak için çok verimli yöntemler vardır. En önemli "
+#~ "parametreler iki Gauss bulanıklaştırması için bulanıklaştırma "
+#~ "yarıçaplarıdır. Bunları önizlemeyi kullanarak ayarlamak muhtemelen en "
+#~ "kolay yoldur, ancak daha küçük yarıçapı artırmanın daha kalın görünen "
+#~ "kenarlar üretme eğiliminde olduğunu ve daha büyük yarıçapı azaltmanın "
+#~ "kenar tanıma <quote>eşiğini</quote> artırma eğiliminde olduğunu bilmek "
+#~ "yardımcı olabilir. Çoğu durumda Yarıçap 2, Yarıçap 1'den küçükse daha iyi "
+#~ "sonuçlar elde edersiniz. Koyu arka plan üzerinde açık görüntü olduğu "
+#~ "durumlarda, yarıçapı tersine çevirmek sonucu iyileştirebilir."
