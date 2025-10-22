@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-10-22 20:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,6 +179,7 @@ msgid ""
 msgstr ""
 
 #: src/filters/map/warp.xml:88(title) src/filters/map/tile.xml:48(title)
+#: src/filters/map/tile-seamless.xml:49(title)
 #: src/filters/map/smalltiles.xml:51(title)
 #: src/filters/map/recursive-transform.xml:156(title)
 #: src/filters/map/papertile.xml:53(title)
@@ -612,10 +613,6 @@ msgid ""
 "This filter modifies the image for tiling by creating seamless edges. Such "
 "an image can be used as a pattern for a web-page. This filter has no option, "
 "and result may need correction."
-msgstr ""
-
-#: src/filters/map/tile-seamless.xml:49(title)
-msgid "Activating the Filte"
 msgstr ""
 
 #: src/filters/map/tile-seamless.xml:50(para)
