@@ -7,7 +7,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.10.0\n"
+"Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-07-15 08:41+0000\n"
 "PO-Revision-Date: 2025-09-28 22:42+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"

@@ -7,9 +7,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.10.0\n"
+"Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-09-19 13:55+0300\n"
+"PO-Revision-Date: 2025-10-20 21:15+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #: src/preface/authors.xml:8(title)
 msgid "<acronym>GIMP</acronym> User Manual Authors and Contributors"
@@ -171,7 +171,7 @@ msgstr "(Yeni Norveççe)"
 
 #: src/preface/authors.xml:940(phrase)
 msgid "(Esperanto)"
-msgstr ""
+msgstr "(Esperanto)"
 
 #: src/preface/authors.xml:1012(phrase)
 msgid "(Slovenian)"
@@ -201,5 +201,5 @@ msgstr "İnşa Sistemi, Teknik Katkılar"
 #: src/preface/authors.xml:0(None)
 msgid "translator-credits"
 msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2023.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2023."
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2023, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2023, 2025."

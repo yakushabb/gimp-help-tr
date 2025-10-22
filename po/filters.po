@@ -7,9 +7,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.10.0\n"
+"Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-10-20 20:29+0300\n"
+"PO-Revision-Date: 2025-10-20 21:40+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -58,9 +58,10 @@ msgstr ""
 msgid "This category describes the following filters:"
 msgstr "Bu kategori aşağıdaki süzgeçleri açıklar:"
 
+# Menü ögesi olduğu için biraz anlam bozukluğu var gibi dursa da, doğru çeviri.
 #: src/filters/render.xml:6(title)
 msgid "Rendering Filters"
-msgstr "Görselleştirme Süzgeçleri"
+msgstr "Görselleştir Süzgeçleri"
 
 #: src/filters/noise.xml:6(title)
 msgid "Noise Filters"
@@ -435,3 +436,5 @@ msgstr ""
 #: src/filters/about-common-features.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
