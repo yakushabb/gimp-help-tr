@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-10-25 19:12+0000\n"
 "PO-Revision-Date: 2025-10-20 20:56+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -1594,8 +1594,9 @@ msgstr ""
 
 #: src/menus/view/flip-rotate.xml:14(para)
 msgid ""
-"You can access this submenu from the menu: <menuchoice><guimenu>View</"
-"guimenu><guimenuitem>Flip &amp; Rotate (0°)</guimenuitem></menuchoice>,"
+"You can access this submenu from the main menu through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Flip &amp; Rotate (0°)</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/view/flip-rotate.xml:22(para)

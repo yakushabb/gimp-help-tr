@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-10-20 15:31+0300\n"
+"POT-Creation-Date: 2025-10-25 19:12+0000\n"
+"PO-Revision-Date: 2025-10-23 01:07+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -192,24 +192,27 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/tone-mapping.xml:44(title)
-#: src/menus/colors/shadows-highlights.xml:27(title)
-#: src/menus/colors/saturation.xml:32(title) src/menus/colors/map.xml:55(title)
-#: src/menus/colors/linear-invert.xml:33(title)
-#: src/menus/colors/invert.xml:39(title)
-#: src/menus/colors/hue-saturation.xml:27(title)
-#: src/menus/colors/hue-chroma.xml:26(title)
-#: src/menus/colors/exposure.xml:26(title)
+#: src/menus/colors/map.xml:55(title) src/menus/colors/info.xml:22(title)
 #: src/menus/colors/desaturate.xml:44(title)
 #: src/menus/colors/components.xml:58(title)
-msgid "Activating the Command"
-msgstr "Komutu Etkinleştirmek"
+#: src/menus/colors/auto.xml:57(title)
+msgid "Activating the Submenu"
+msgstr "Alt Menüyü Etkinleştirme"
 
 #: src/menus/colors/tone-mapping.xml:45(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Tone Mapping</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"You can access this command from the main menu through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Tone Mapping</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu alt menüye ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Ton Eşlem</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -711,12 +714,25 @@ msgid ""
 "\">Shadows and Highlights</ulink>."
 msgstr ""
 
+#: src/menus/colors/shadows-highlights.xml:27(title)
+#: src/menus/colors/saturation.xml:32(title)
+#: src/menus/colors/linear-invert.xml:33(title)
+#: src/menus/colors/invert.xml:39(title)
+#: src/menus/colors/hue-saturation.xml:27(title)
+#: src/menus/colors/hue-chroma.xml:26(title)
+#: src/menus/colors/exposure.xml:26(title)
+msgid "Activating the Command"
+msgstr "Komutu Etkinleştirmek"
+
 #: src/menus/colors/shadows-highlights.xml:28(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Shadows-Highlights…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Gölgeler-Vurgular…</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/colors/shadows-highlights.xml:40(title)
 msgid "Shadows-Highlights Options"
@@ -843,6 +859,9 @@ msgid ""
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Saturation…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Doygunluk…</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/colors/saturation.xml:45(title)
 msgid "Saturation Options"
@@ -1042,11 +1061,19 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/map.xml:56(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this submenu from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Info</guimenuitem></"
+#| "menuchoice>."
 msgid ""
-"You can access this command from the main menu through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Map</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu alt menüye ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Bilgi</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1098,6 +1125,9 @@ msgid ""
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Linear Invert</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Doğrusal Tersine Çevir</guimenuitem></menuchoice> "
+"yoluyla erişebilirsiniz."
 
 #: src/menus/colors/linear-invert.xml:44(title)
 #: src/menus/colors/invert.xml:50(title)
@@ -1812,6 +1842,9 @@ msgid ""
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Invert</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Tersine Çevir</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/colors/invert.xml:52(title)
 msgid "Applying <quote>Invert colors</quote>"
@@ -2029,16 +2062,15 @@ msgid ""
 "you color related information about your image."
 msgstr ""
 
-#: src/menus/colors/info.xml:22(title) src/menus/colors/auto.xml:57(title)
-msgid "Activating the Submenu"
-msgstr "Alt Menüyü Etkinleştirme"
-
 #: src/menus/colors/info.xml:23(para)
 msgid ""
 "You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Info</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu alt menüye ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Bilgi</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/colors/info.xml:33(title)
 #, fuzzy
@@ -2107,6 +2139,9 @@ msgid ""
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Hue-Saturation…</"
 "guimenuitem></menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Renk Tonu-Doygunluk…</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/colors/hue-saturation.xml:40(title)
 msgid "Hue-Saturation Options"
@@ -2236,6 +2271,9 @@ msgid ""
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Hue-Chroma…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Renk Tonu-Renk Saflığı…</guimenuitem></menuchoice> "
+"yoluyla erişebilirsiniz."
 
 #: src/menus/colors/hue-chroma.xml:39(title)
 msgid "Hue-Chroma Options"
@@ -2438,6 +2476,9 @@ msgid ""
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Exposure…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Pozlama…</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/colors/exposure.xml:39(title)
 msgid "Exposure Options"
@@ -2642,11 +2683,19 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/desaturate.xml:45(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Desaturate</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"You can access this command from the main menu through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Desaturate</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu alt menüye ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Solgunlaştır</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3156,11 +3205,19 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/components.xml:59(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Components</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"You can access this command from the main menu through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Components</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu alt menüye ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Bileşenler</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3857,11 +3914,19 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/auto.xml:58(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this submenu from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Info</guimenuitem></"
+#| "menuchoice>."
 msgid ""
-"You can access this submenu from the image window through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Auto</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu alt menüye ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Bilgi</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/colors/auto.xml:68(title)
 msgid "Automatic Color-Stretching"
@@ -3966,6 +4031,24 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
+#~ msgid ""
+#~ "You can access this command from the main menu through "
+#~ "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Map</guimenuitem></"
+#~ "menuchoice>."
+#~ msgstr ""
+#~ "Bu alt menüye ana menüden <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>Eşlem</guimenuitem></menuchoice> yoluyla "
+#~ "erişebilirsiniz."
+
+#~ msgid ""
+#~ "You can access this submenu from the image window through "
+#~ "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Auto</guimenuitem></"
+#~ "menuchoice>."
+#~ msgstr ""
+#~ "Bu alt menüye ana menüden <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>Kendiliğinden</guimenuitem></menuchoice> yoluyla "
+#~ "erişebilirsiniz."
 
 #~| msgid ""
 #~| "@@image: 'images/menus/colors/color-temperature.png'; "

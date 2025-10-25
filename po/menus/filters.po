@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-07-15 08:41+0000\n"
+"POT-Creation-Date: 2025-10-25 19:12+0000\n"
 "PO-Revision-Date: 2025-10-20 21:46+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -593,8 +593,13 @@ msgstr ""
 "linkend=\"bibliography-online-python\">Python</link> modül grubudur."
 
 #: src/menus/filters/python-fu.xml:28(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</"
+#| "guisubmenu><guimenuitem>Python-Fu</guimenuitem></menuchoice>."
 msgid ""
-"You can access this command from the main menu through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</"
 "guisubmenu><guimenuitem>Python-Fu</guimenuitem></menuchoice>."
 msgstr ""

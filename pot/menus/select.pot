@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-22 20:15+0000\n"
+"POT-Creation-Date: 2025-10-25 19:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -963,7 +963,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/select/float.xml:217(None)
+#: src/menus/select/float.xml:213(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-anchor.svg'; "
 "md5=103e738c35821502338ebf78eb3ba7ca"
@@ -977,12 +977,12 @@ msgstr ""
 msgid "Floating selection (command)"
 msgstr ""
 
-#: src/menus/select/float.xml:16(secondary) src/menus/select/float.xml:79(term)
+#: src/menus/select/float.xml:16(secondary) src/menus/select/float.xml:75(term)
 msgid "Cut and Float"
 msgstr ""
 
 #: src/menus/select/float.xml:20(secondary)
-#: src/menus/select/float.xml:111(term)
+#: src/menus/select/float.xml:107(term)
 msgid "Copy and Float"
 msgstr ""
 
@@ -1028,66 +1028,66 @@ msgstr ""
 msgid "Activating the Submenu"
 msgstr ""
 
-#: src/menus/select/float.xml:61(para)
+#: src/menus/select/float.xml:59(para)
 msgid ""
 "You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Select</guimenu><guimenuitem>Float</guimenuitem></"
 "menuchoice>."
 msgstr ""
 
-#: src/menus/select/float.xml:73(title)
+#: src/menus/select/float.xml:69(title)
 msgid "Contents of the <quote>Float</quote> submenu"
 msgstr ""
 
-#: src/menus/select/float.xml:74(para)
+#: src/menus/select/float.xml:70(para)
 msgid "The <quote>Float</quote> submenu commands are described below."
 msgstr ""
 
-#: src/menus/select/float.xml:81(para)
+#: src/menus/select/float.xml:77(para)
 msgid ""
 "The <quote>Cut and Float</quote> command cuts the image selection from the "
 "layer and converts it into a floating selection."
 msgstr ""
 
-#: src/menus/select/float.xml:86(title) src/menus/select/float.xml:118(title)
+#: src/menus/select/float.xml:82(title) src/menus/select/float.xml:114(title)
 msgid "Activating the command"
 msgstr ""
 
-#: src/menus/select/float.xml:90(para)
+#: src/menus/select/float.xml:86(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Select</guimenu><guisubmenu>Float</"
 "guisubmenu><guimenuitem>Cut and Float</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/select/float.xml:100(para)
+#: src/menus/select/float.xml:96(para)
 msgid ""
 "By using the keyboard shortcut <keycombo><keycap>Shift</keycap><keycap>Ctrl</"
 "keycap><keycap>L</keycap></keycombo>."
 msgstr ""
 
-#: src/menus/select/float.xml:113(para)
+#: src/menus/select/float.xml:109(para)
 msgid ""
 "The <quote>Copy and Float</quote> command copies the image selection from "
 "the layer and converts it into a floating selection."
 msgstr ""
 
-#: src/menus/select/float.xml:122(para)
+#: src/menus/select/float.xml:118(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Select</guimenu><guisubmenu>Float</"
 "guisubmenu><guimenuitem>Copy and Float</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/select/float.xml:138(title)
+#: src/menus/select/float.xml:134(title)
 msgid "Creating a Floating Selection Automatically"
 msgstr ""
 
-#: src/menus/select/float.xml:139(para)
+#: src/menus/select/float.xml:135(para)
 msgid "Some image operations create a floating selection automatically:"
 msgstr ""
 
-#: src/menus/select/float.xml:144(para)
+#: src/menus/select/float.xml:140(para)
 msgid ""
 "The <quote>paste</quote> operations <link linkend=\"gimp-buffer-"
 "paste\">Paste Buffer</link>, <link linkend=\"gimp-buffer-paste-in-"
@@ -1102,7 +1102,7 @@ msgid ""
 "selection."
 msgstr ""
 
-#: src/menus/select/float.xml:158(para)
+#: src/menus/select/float.xml:154(para)
 msgid ""
 "In addition, all the Transform tools: <link linkend=\"gimp-tool-unified-"
 "transform\">Unified Transform</link>, <link linkend=\"gimp-tool-"
@@ -1121,7 +1121,7 @@ msgid ""
 "selection.)"
 msgstr ""
 
-#: src/menus/select/float.xml:180(para)
+#: src/menus/select/float.xml:176(para)
 msgid ""
 "By click-and-dragging a selection while pressing the <keycombo><keycap>Ctrl</"
 "keycap><keycap>Alt</keycap></keycombo>, or <keycombo><keycap>Shift</"
@@ -1129,15 +1129,15 @@ msgid ""
 "selections-moving\"/>) you also automatically create a floating selection."
 msgstr ""
 
-#: src/menus/select/float.xml:192(title)
+#: src/menus/select/float.xml:188(title)
 msgid "Anchor a Floating Selection"
 msgstr ""
 
-#: src/menus/select/float.xml:193(para)
+#: src/menus/select/float.xml:189(para)
 msgid "You can anchor a floating selection in various ways:"
 msgstr ""
 
-#: src/menus/select/float.xml:196(para)
+#: src/menus/select/float.xml:192(para)
 msgid ""
 "You can anchor the floating selection to the current layer the selection is "
 "originating from. To do this, click anywhere on the image except on the "
@@ -1145,20 +1145,20 @@ msgid ""
 "layer."
 msgstr ""
 
-#: src/menus/select/float.xml:204(para)
+#: src/menus/select/float.xml:200(para)
 msgid ""
 "Use the <link linkend=\"gimp-layer-anchor\">Anchor layer</link> command "
 "(<keycombo><keycap>Ctrl</keycap><keycap>H</keycap></keycombo>)."
 msgstr ""
 
-#: src/menus/select/float.xml:211(para)
+#: src/menus/select/float.xml:207(para)
 msgid ""
 "By clicking on the anchor button <placeholder-1/> of the <link "
 "linkend=\"gimp-layer-dialog\">Layers Dialog</link>, that appears when the "
 "floating selection is created, instead of the default Merge layers icon."
 msgstr ""
 
-#: src/menus/select/float.xml:230(para)
+#: src/menus/select/float.xml:226(para)
 msgid ""
 "Use the <link linkend=\"gimp-layer-new\">To New Layer</link> command "
 "( <keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>N</keycap></"
@@ -1282,7 +1282,7 @@ msgstr ""
 #: src/menus/select/distort.xml:66(None)
 msgid ""
 "@@image: 'images/menus/select/distort.png'; "
-"md5=cc277a2d8b7f85f40bd592660afcdcf7"
+"md5=99557d647deeedb2242282c2f93c0c2a"
 msgstr ""
 
 #: src/menus/select/distort.xml:8(title)
@@ -1369,7 +1369,15 @@ msgstr ""
 msgid "A higher <quote>Smooth</quote> decreases the deformation."
 msgstr ""
 
-#: src/menus/select/distort.xml:114(para)
+#: src/menus/select/distort.xml:117(term)
+msgid "Smooth horizontally"
+msgstr ""
+
+#: src/menus/select/distort.xml:118(term)
+msgid "Smooth vertically"
+msgstr ""
+
+#: src/menus/select/distort.xml:120(para)
 msgid ""
 "Deactivating <guilabel>Smooth horizontally</guilabel> or <guilabel>Smooth "
 "vertically</guilabel> increases the deformation."

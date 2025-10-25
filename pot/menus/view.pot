@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-22 20:15+0000\n"
+"POT-Creation-Date: 2025-10-25 19:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1564,8 +1564,9 @@ msgstr ""
 
 #: src/menus/view/flip-rotate.xml:14(para)
 msgid ""
-"You can access this submenu from the menu: <menuchoice><guimenu>View</"
-"guimenu><guimenuitem>Flip &amp; Rotate (0°)</guimenuitem></menuchoice>,"
+"You can access this submenu from the main menu through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Flip &amp; Rotate (0°)</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/view/flip-rotate.xml:22(para)

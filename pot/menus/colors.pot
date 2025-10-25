@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-22 20:15+0000\n"
+"POT-Creation-Date: 2025-10-25 19:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -172,21 +172,16 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/tone-mapping.xml:44(title)
-#: src/menus/colors/shadows-highlights.xml:27(title)
-#: src/menus/colors/saturation.xml:32(title) src/menus/colors/map.xml:55(title)
-#: src/menus/colors/linear-invert.xml:33(title)
-#: src/menus/colors/invert.xml:39(title)
-#: src/menus/colors/hue-saturation.xml:27(title)
-#: src/menus/colors/hue-chroma.xml:26(title)
-#: src/menus/colors/exposure.xml:26(title)
+#: src/menus/colors/map.xml:55(title) src/menus/colors/info.xml:22(title)
 #: src/menus/colors/desaturate.xml:44(title)
 #: src/menus/colors/components.xml:58(title)
-msgid "Activating the Command"
+#: src/menus/colors/auto.xml:57(title)
+msgid "Activating the Submenu"
 msgstr ""
 
 #: src/menus/colors/tone-mapping.xml:45(para)
 msgid ""
-"You can access this command from the main menu through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Tone Mapping</"
 "guimenuitem></menuchoice>."
 msgstr ""
@@ -667,6 +662,16 @@ msgid ""
 "\">Shadows and Highlights</ulink>."
 msgstr ""
 
+#: src/menus/colors/shadows-highlights.xml:27(title)
+#: src/menus/colors/saturation.xml:32(title)
+#: src/menus/colors/linear-invert.xml:33(title)
+#: src/menus/colors/invert.xml:39(title)
+#: src/menus/colors/hue-saturation.xml:27(title)
+#: src/menus/colors/hue-chroma.xml:26(title)
+#: src/menus/colors/exposure.xml:26(title)
+msgid "Activating the Command"
+msgstr ""
+
 #: src/menus/colors/shadows-highlights.xml:28(para)
 msgid ""
 "You can access this command from the main menu through "
@@ -987,7 +992,7 @@ msgstr ""
 
 #: src/menus/colors/map.xml:56(para)
 msgid ""
-"You can access this command from the main menu through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Map</guimenuitem></"
 "menuchoice>."
 msgstr ""
@@ -1908,10 +1913,6 @@ msgid ""
 "you color related information about your image."
 msgstr ""
 
-#: src/menus/colors/info.xml:22(title) src/menus/colors/auto.xml:57(title)
-msgid "Activating the Submenu"
-msgstr ""
-
 #: src/menus/colors/info.xml:23(para)
 msgid ""
 "You can access this submenu from the main menu through "
@@ -2503,7 +2504,7 @@ msgstr ""
 
 #: src/menus/colors/desaturate.xml:45(para)
 msgid ""
-"You can access this command from the main menu through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Desaturate</guimenuitem></"
 "menuchoice>."
 msgstr ""
@@ -2995,7 +2996,7 @@ msgstr ""
 
 #: src/menus/colors/components.xml:59(para)
 msgid ""
-"You can access this command from the main menu through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Components</guimenuitem></"
 "menuchoice>."
 msgstr ""
@@ -3646,7 +3647,7 @@ msgstr ""
 
 #: src/menus/colors/auto.xml:58(para)
 msgid ""
-"You can access this submenu from the image window through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Auto</guimenuitem></"
 "menuchoice>."
 msgstr ""
