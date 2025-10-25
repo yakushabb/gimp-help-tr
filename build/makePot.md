@@ -34,6 +34,12 @@ podman build -t gimp-help .
 podman run --name gimp-help gimp-help
 ```
 
+**Varsa çalışan sürümle değiştirmek:**
+
+```
+podman run --replace --name gimp-help gimp-help
+```
+
 **Çalışıyor mu bakalım**
 
 ```
