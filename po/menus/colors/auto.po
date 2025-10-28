@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-10-20 20:59+0300\n"
+"PO-Revision-Date: 2025-10-27 23:31+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -93,7 +93,7 @@ msgstr ""
 #: src/menus/colors/auto/equalize.xml:36(title)
 #: src/menus/colors/auto/color-enhance.xml:33(title)
 msgid "Activating the Command"
-msgstr "Komutun Etkinleştirilmesi"
+msgstr "Komutu Etkinleştirmek"
 
 #: src/menus/colors/auto/white-balance.xml:50(para)
 msgid ""
@@ -226,7 +226,6 @@ msgstr ""
 "<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
 "Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"
 
-# Arayüzde başlık düzeni yeğlenmemiş.
 #: src/menus/colors/auto/stretch-contrast.xml:83(term)
 msgid "Keep Colors"
 msgstr "Renkleri koru"
