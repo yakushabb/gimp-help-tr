@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-25 19:12+0000\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -342,14 +342,14 @@ msgstr ""
 #: src/menus/colors/map/rearrange-colormap.xml:47(para)
 msgid ""
 "from the main menu: <menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-"guisubmenu><guimenuitem>Rearrange Colormap</guimenuitem></menuchoice>."
+"guisubmenu><guimenuitem>Rearrange Colormap…</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/map/rearrange-colormap.xml:57(para)
 msgid ""
 "from the <link linkend=\"gimp-indexed-palette-dialog\">Colormap Dialog</"
 "link> using the right-click context menu <menuchoice><guimenuitem>Rearrange "
-"Colormap</guimenuitem></menuchoice>."
+"Colormap…</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/map/rearrange-colormap.xml:69(title)
@@ -902,7 +902,7 @@ msgid "The <quote>Alien Map</quote> Dialog"
 msgstr ""
 
 #: src/menus/colors/map/alien-map.xml:79(term)
-msgid "Color Model"
+msgid "Color model"
 msgstr ""
 
 #: src/menus/colors/map/alien-map.xml:81(para)

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-25 19:12+0000\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,11 +11,11 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/auto/white-balance.xml:69(None)
-#: src/menus/colors/auto/stretch-contrast.xml:123(None)
-#: src/menus/colors/auto/stretch-contrast-hsv.xml:54(None)
+#: src/menus/colors/auto/white-balance.xml:65(None)
+#: src/menus/colors/auto/stretch-contrast.xml:119(None)
+#: src/menus/colors/auto/stretch-contrast-hsv.xml:50(None)
 #: src/menus/colors/auto/equalize.xml:54(None)
-#: src/menus/colors/auto/color-enhance.xml:55(None)
+#: src/menus/colors/auto/color-enhance.xml:51(None)
 msgid ""
 "@@image: 'images/menus/colors/auto/alice.png'; "
 "md5=a33d190d14dbff2cc22559afe586614b"
@@ -23,7 +23,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/auto/white-balance.xml:84(None)
+#: src/menus/colors/auto/white-balance.xml:80(None)
 msgid ""
 "@@image: 'images/menus/colors/auto/white-balance.png'; "
 "md5=047e4fec700babd6f8a2f9a3be6b8c6f"
@@ -81,46 +81,46 @@ msgstr ""
 msgid "Activating the Command"
 msgstr ""
 
-#: src/menus/colors/auto/white-balance.xml:50(para)
+#: src/menus/colors/auto/white-balance.xml:48(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
 "guisubmenu><guimenuitem>White Balance</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/colors/auto/white-balance.xml:63(title)
+#: src/menus/colors/auto/white-balance.xml:59(title)
 msgid "<quote>White Balance</quote> example"
 msgstr ""
 
-#: src/menus/colors/auto/white-balance.xml:65(title)
-#: src/menus/colors/auto/stretch-contrast.xml:119(title)
-#: src/menus/colors/auto/stretch-contrast-hsv.xml:50(title)
+#: src/menus/colors/auto/white-balance.xml:61(title)
+#: src/menus/colors/auto/stretch-contrast.xml:115(title)
+#: src/menus/colors/auto/stretch-contrast-hsv.xml:46(title)
 #: src/menus/colors/auto/equalize.xml:50(title)
-#: src/menus/colors/auto/color-enhance.xml:51(title)
+#: src/menus/colors/auto/color-enhance.xml:47(title)
 msgid "Original image"
 msgstr ""
 
-#: src/menus/colors/auto/white-balance.xml:72(para)
+#: src/menus/colors/auto/white-balance.xml:68(para)
 msgid ""
 "The active layer and its Red, Green and Blue histograms before <quote>White "
 "Balance</quote>."
 msgstr ""
 
-#: src/menus/colors/auto/white-balance.xml:80(title)
-#: src/menus/colors/auto/stretch-contrast.xml:134(title)
-#: src/menus/colors/auto/stretch-contrast-hsv.xml:65(title)
+#: src/menus/colors/auto/white-balance.xml:76(title)
+#: src/menus/colors/auto/stretch-contrast.xml:130(title)
+#: src/menus/colors/auto/stretch-contrast-hsv.xml:61(title)
 #: src/menus/colors/auto/equalize.xml:65(title)
 msgid "Image after the command"
 msgstr ""
 
-#: src/menus/colors/auto/white-balance.xml:87(para)
+#: src/menus/colors/auto/white-balance.xml:83(para)
 msgid ""
 "The active layer and its Red, Green and Blue histograms after <quote>White "
 "Balance</quote>. Poor white areas in the image became pure white."
 msgstr ""
 
-#: src/menus/colors/auto/white-balance.xml:92(para)
-#: src/menus/colors/auto/stretch-contrast.xml:148(para)
+#: src/menus/colors/auto/white-balance.xml:88(para)
+#: src/menus/colors/auto/stretch-contrast.xml:144(para)
 msgid ""
 "Histogram stretching creates gaps between the pixel columns, giving it a "
 "striped look."
@@ -128,7 +128,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/auto/stretch-contrast.xml:66(None)
+#: src/menus/colors/auto/stretch-contrast.xml:62(None)
 msgid ""
 "@@image: 'images/menus/colors/auto/stretch_contrast-dialog.png'; "
 "md5=89d88fbe7f88f9eba463d18c19bec4c1"
@@ -136,7 +136,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/auto/stretch-contrast.xml:138(None)
+#: src/menus/colors/auto/stretch-contrast.xml:134(None)
 msgid ""
 "@@image: 'images/menus/colors/auto/c-stretch.png'; "
 "md5=7af9a55590071580eef4731b51cef312"
@@ -175,82 +175,82 @@ msgid ""
 "very dark or very bright pixels, so the white might be impure."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:47(para)
+#: src/menus/colors/auto/stretch-contrast.xml:45(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
 "guisubmenu><guimenuitem>Stretch Contrast</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:60(title)
+#: src/menus/colors/auto/stretch-contrast.xml:56(title)
 msgid "Options"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:62(title)
+#: src/menus/colors/auto/stretch-contrast.xml:58(title)
 msgid "<quote>Stretch Contrast</quote> settings"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:72(term)
+#: src/menus/colors/auto/stretch-contrast.xml:68(term)
 msgid "Presets"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:74(para)
+#: src/menus/colors/auto/stretch-contrast.xml:70(para)
 msgid ""
 "<quote>Presets</quote> are a common feature for several Colors commands. You "
 "can find its description in <xref linkend=\"colors-common-features\"/>."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:83(term)
-msgid "Keep Colors"
+#: src/menus/colors/auto/stretch-contrast.xml:79(term)
+msgid "Keep colors"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:85(para)
+#: src/menus/colors/auto/stretch-contrast.xml:81(para)
 msgid "Impact each color channel with the same amount."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:92(term)
-msgid "Non-Linear Components"
+#: src/menus/colors/auto/stretch-contrast.xml:88(term)
+msgid "Non-linear components"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:94(para)
+#: src/menus/colors/auto/stretch-contrast.xml:90(para)
 msgid ""
 "When set, this option operates on gamma corrected values instead of linear "
 "RGB."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:102(term)
+#: src/menus/colors/auto/stretch-contrast.xml:98(term)
 msgid "Blending Options"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:103(term)
+#: src/menus/colors/auto/stretch-contrast.xml:99(term)
 msgid "Preview"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:104(term)
+#: src/menus/colors/auto/stretch-contrast.xml:100(term)
 msgid "Merge filter"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:105(term)
+#: src/menus/colors/auto/stretch-contrast.xml:101(term)
 msgid "Split view"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:107(para)
+#: src/menus/colors/auto/stretch-contrast.xml:103(para)
 msgid ""
 "These are common features described in <xref linkend=\"colors-common-"
 "features\"/>."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:117(title)
+#: src/menus/colors/auto/stretch-contrast.xml:113(title)
 msgid "<quote>Stretch Contrast</quote> Example"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:126(para)
+#: src/menus/colors/auto/stretch-contrast.xml:122(para)
 msgid ""
 "The layer and its Red, Green and Blue histograms before <quote>Stretch "
 "Contrast</quote>."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:141(para)
+#: src/menus/colors/auto/stretch-contrast.xml:137(para)
 msgid ""
 "The layer and its Red and Green and Blue histograms after <quote>Stretch "
 "Contrast</quote>. The pixel columns do not reach the right end of the "
@@ -260,7 +260,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/auto/stretch-contrast-hsv.xml:69(None)
+#: src/menus/colors/auto/stretch-contrast-hsv.xml:65(None)
 msgid ""
 "@@image: 'images/menus/colors/auto/stretch-hsv.png'; "
 "md5=fb016a380256c6bbf3a302281a432904"
@@ -287,24 +287,24 @@ msgid ""
 "images. If the image is Grayscale, the menu entry is disabled."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast-hsv.xml:35(para)
+#: src/menus/colors/auto/stretch-contrast-hsv.xml:33(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
 "guisubmenu><guimenuitem>Stretch Contrast HSV</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast-hsv.xml:48(title)
+#: src/menus/colors/auto/stretch-contrast-hsv.xml:44(title)
 msgid "<quote>Stretch Contrast HSV</quote> example"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast-hsv.xml:57(para)
+#: src/menus/colors/auto/stretch-contrast-hsv.xml:53(para)
 msgid ""
 "The active layer and its Red, Green and Blue histograms before "
 "<quote>Stretch Contrast HSV</quote>."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast-hsv.xml:72(para)
+#: src/menus/colors/auto/stretch-contrast-hsv.xml:68(para)
 msgid ""
 "The active layer and its Red, Green and Blue histograms after <quote>Stretch "
 "Contrast HSV</quote>. Contrast, luminosity and hues are enhanced."
@@ -370,7 +370,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/auto/color-enhance.xml:72(None)
+#: src/menus/colors/auto/color-enhance.xml:68(None)
 msgid ""
 "@@image: 'images/menus/colors/auto/color-enhance.png'; "
 "md5=2f419878c979c9438078646bd21d8f53"
@@ -402,28 +402,28 @@ msgid ""
 "the menu entry is disabled."
 msgstr ""
 
-#: src/menus/colors/auto/color-enhance.xml:36(para)
+#: src/menus/colors/auto/color-enhance.xml:34(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
 "guisubmenu><guimenuitem>Color Enhance</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/colors/auto/color-enhance.xml:49(title)
+#: src/menus/colors/auto/color-enhance.xml:45(title)
 msgid "<quote>Color Enhance</quote> example"
 msgstr ""
 
-#: src/menus/colors/auto/color-enhance.xml:58(para)
+#: src/menus/colors/auto/color-enhance.xml:54(para)
 msgid ""
 "The active layer and its Red, Green and Blue histograms before <quote>Color "
 "Enhance</quote>."
 msgstr ""
 
-#: src/menus/colors/auto/color-enhance.xml:66(title)
+#: src/menus/colors/auto/color-enhance.xml:62(title)
 msgid "Command applied"
 msgstr ""
 
-#: src/menus/colors/auto/color-enhance.xml:75(para)
+#: src/menus/colors/auto/color-enhance.xml:71(para)
 msgid ""
 "The active layer and its Red, Green and Blue histograms after <quote>Color "
 "Enhance</quote>. The result may not always be what you expect."

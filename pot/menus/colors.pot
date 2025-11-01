@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-25 19:12+0000\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,6 +66,7 @@ msgstr ""
 #: src/menus/colors/map.xml:16(primary)
 #: src/menus/colors/linear-invert.xml:12(primary)
 #: src/menus/colors/invert.xml:15(primary)
+#: src/menus/colors/introduction.xml:11(secondary)
 #: src/menus/colors/info.xml:12(primary)
 #: src/menus/colors/hue-chroma.xml:12(primary)
 #: src/menus/colors/hot.xml:16(primary)
@@ -82,7 +83,9 @@ msgid "Colors"
 msgstr ""
 
 #: src/menus/colors/value-invert.xml:19(title)
-#: src/menus/colors/posterize.xml:21(title) src/menus/colors/hot.xml:24(title)
+#: src/menus/colors/posterize.xml:21(title)
+#: src/menus/colors/introduction.xml:8(title)
+#: src/menus/colors/hot.xml:24(title)
 #: src/menus/colors/colortoalpha.xml:22(title)
 #: src/menus/colors/color-temperature.xml:17(title)
 msgid "Overview"
@@ -336,7 +339,7 @@ msgstr ""
 #: src/menus/colors/posterize.xml:68(title)
 #: src/menus/colors/levels.xml:77(title)
 #: src/menus/colors/hue-saturation.xml:38(title)
-#: src/menus/colors/hue-chroma.xml:37(title) src/menus/colors/hot.xml:48(title)
+#: src/menus/colors/hue-chroma.xml:37(title) src/menus/colors/hot.xml:50(title)
 #: src/menus/colors/gegl-local-threshold.xml:27(title)
 #: src/menus/colors/exposure.xml:37(title)
 #: src/menus/colors/dither.xml:34(title)
@@ -357,7 +360,7 @@ msgstr ""
 #: src/menus/colors/saturation.xml:55(term)
 #: src/menus/colors/rgb-clip.xml:47(term)
 #: src/menus/colors/posterize.xml:80(term) src/menus/colors/levels.xml:89(term)
-#: src/menus/colors/introduction.xml:34(term)
+#: src/menus/colors/introduction.xml:216(term)
 #: src/menus/colors/hue-saturation.xml:50(term)
 #: src/menus/colors/hue-chroma.xml:49(term)
 #: src/menus/colors/gegl-local-threshold.xml:39(term)
@@ -445,7 +448,7 @@ msgstr ""
 #: src/menus/colors/rgb-clip.xml:96(term)
 #: src/menus/colors/posterize.xml:106(term)
 #: src/menus/colors/levels.xml:582(term)
-#: src/menus/colors/introduction.xml:147(term)
+#: src/menus/colors/introduction.xml:329(term)
 #: src/menus/colors/hue-saturation.xml:175(term)
 #: src/menus/colors/hue-chroma.xml:86(term)
 #: src/menus/colors/gegl-local-threshold.xml:79(term)
@@ -454,7 +457,7 @@ msgstr ""
 #: src/menus/colors/colortoalpha.xml:199(term)
 #: src/menus/colors/colorize.xml:102(term)
 #: src/menus/colors/color-temperature.xml:112(term)
-#: src/menus/colors/color-balance.xml:109(term)
+#: src/menus/colors/color-balance.xml:112(term)
 #: src/menus/colors/brightness-contrast.xml:123(term)
 msgid "Blending Options"
 msgstr ""
@@ -465,7 +468,7 @@ msgstr ""
 #: src/menus/colors/rgb-clip.xml:97(term)
 #: src/menus/colors/posterize.xml:107(term)
 #: src/menus/colors/levels.xml:583(term)
-#: src/menus/colors/introduction.xml:168(term)
+#: src/menus/colors/introduction.xml:350(term)
 #: src/menus/colors/hue-saturation.xml:176(term)
 #: src/menus/colors/hue-chroma.xml:87(term)
 #: src/menus/colors/gegl-local-threshold.xml:80(term)
@@ -474,7 +477,7 @@ msgstr ""
 #: src/menus/colors/colortoalpha.xml:200(term)
 #: src/menus/colors/colorize.xml:103(term)
 #: src/menus/colors/color-temperature.xml:113(term)
-#: src/menus/colors/color-balance.xml:110(term)
+#: src/menus/colors/color-balance.xml:113(term)
 #: src/menus/colors/brightness-contrast.xml:124(term)
 msgid "Preview"
 msgstr ""
@@ -485,7 +488,7 @@ msgstr ""
 #: src/menus/colors/rgb-clip.xml:98(term)
 #: src/menus/colors/posterize.xml:108(term)
 #: src/menus/colors/levels.xml:584(term)
-#: src/menus/colors/introduction.xml:178(term)
+#: src/menus/colors/introduction.xml:361(term)
 #: src/menus/colors/hue-saturation.xml:177(term)
 #: src/menus/colors/hue-chroma.xml:88(term)
 #: src/menus/colors/gegl-local-threshold.xml:81(term)
@@ -494,7 +497,7 @@ msgstr ""
 #: src/menus/colors/colortoalpha.xml:201(term)
 #: src/menus/colors/colorize.xml:104(term)
 #: src/menus/colors/color-temperature.xml:114(term)
-#: src/menus/colors/color-balance.xml:111(term)
+#: src/menus/colors/color-balance.xml:114(term)
 #: src/menus/colors/brightness-contrast.xml:125(term)
 msgid "Merge filter"
 msgstr ""
@@ -505,7 +508,7 @@ msgstr ""
 #: src/menus/colors/rgb-clip.xml:99(term)
 #: src/menus/colors/posterize.xml:109(term)
 #: src/menus/colors/levels.xml:585(term)
-#: src/menus/colors/introduction.xml:196(term)
+#: src/menus/colors/introduction.xml:379(term)
 #: src/menus/colors/hue-saturation.xml:178(term)
 #: src/menus/colors/hue-chroma.xml:89(term)
 #: src/menus/colors/gegl-local-threshold.xml:82(term)
@@ -514,7 +517,7 @@ msgstr ""
 #: src/menus/colors/colortoalpha.xml:202(term)
 #: src/menus/colors/colorize.xml:105(term)
 #: src/menus/colors/color-temperature.xml:115(term)
-#: src/menus/colors/color-balance.xml:112(term)
+#: src/menus/colors/color-balance.xml:115(term)
 #: src/menus/colors/brightness-contrast.xml:126(term)
 msgid "Split view"
 msgstr ""
@@ -533,7 +536,7 @@ msgstr ""
 #: src/menus/colors/colortoalpha.xml:204(para)
 #: src/menus/colors/colorize.xml:107(para)
 #: src/menus/colors/color-temperature.xml:117(para)
-#: src/menus/colors/color-balance.xml:114(para)
+#: src/menus/colors/color-balance.xml:117(para)
 #: src/menus/colors/brightness-contrast.xml:128(para)
 msgid ""
 "These are common features described in <xref linkend=\"colors-common-"
@@ -892,13 +895,13 @@ msgid "Pixel values higher than this limit will be set to it."
 msgstr ""
 
 #: src/menus/colors/rgb-clip.xml:94(term)
-#: src/menus/colors/introduction.xml:74(term)
+#: src/menus/colors/introduction.xml:256(term)
 #: src/menus/colors/dither.xml:166(term)
 msgid "Input Type"
 msgstr ""
 
 #: src/menus/colors/rgb-clip.xml:95(term)
-#: src/menus/colors/introduction.xml:115(term)
+#: src/menus/colors/introduction.xml:297(term)
 #: src/menus/colors/dither.xml:167(term)
 msgid "Clipping"
 msgstr ""
@@ -1552,7 +1555,9 @@ msgid "All Channels"
 msgstr ""
 
 #: src/menus/colors/levels.xml:468(para)
-msgid "<guilabel>Auto</guilabel>: Performs an automatic setting of the levels."
+msgid ""
+"<guilabel>Auto Input Levels</guilabel>: Performs an automatic setting of the "
+"levels."
 msgstr ""
 
 #: src/menus/colors/levels.xml:473(title)
@@ -1607,7 +1612,7 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/levels.xml:617(term)
-msgid "Sample Average"
+msgid "Sample average"
 msgstr ""
 
 #: src/menus/colors/levels.xml:619(para)
@@ -1720,14 +1725,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/introduction.xml:14(None)
-msgid ""
-"@@image: 'images/menus/colors.png'; md5=c7a2c3312e731e3d8bfa742f6b8273dd"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/introduction.xml:39(None)
+#: src/menus/colors/introduction.xml:221(None)
 msgid ""
 "@@image: 'images/menus/colors/preset-widget.png'; "
 "md5=c23ab42f488e90fb3a68b97dbb5c6997"
@@ -1735,7 +1733,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/introduction.xml:50(None)
+#: src/menus/colors/introduction.xml:232(None)
 msgid ""
 "@@image: 'images/stock-icons/list-add.svg'; "
 "md5=a6b02423b2bdb765e759b91c2ee4f304"
@@ -1743,7 +1741,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/introduction.xml:61(None)
+#: src/menus/colors/introduction.xml:243(None)
 #: src/menus/colors/color-temperature.xml:131(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-menu-left.svg'; "
@@ -1752,7 +1750,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/introduction.xml:92(None)
+#: src/menus/colors/introduction.xml:274(None)
 msgid ""
 "@@image: 'images/filters/use_selection_only.jpg'; "
 "md5=1169bd72569d30d1005c03fe3821b908"
@@ -1760,7 +1758,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/introduction.xml:106(None)
+#: src/menus/colors/introduction.xml:288(None)
 msgid ""
 "@@image: 'images/filters/use_entire_layer.jpg'; "
 "md5=1251cb22b4609bd1ce8570f79dd81c1e"
@@ -1768,38 +1766,39 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/introduction.xml:154(None)
+#: src/menus/colors/introduction.xml:336(None)
 msgid ""
 "@@image: 'images/stock-icons/pan-end-symbolic.svg'; "
 "md5=de3d0977e621d2ac837318eb702b9a0f"
 msgstr ""
 
-#: src/menus/colors/introduction.xml:8(title)
-msgid "Introduction to the <quote>Colors</quote> Menu"
+#: src/menus/colors/introduction.xml:10(primary)
+msgid "Menu"
 msgstr ""
 
-#: src/menus/colors/introduction.xml:11(title)
-msgid "Contents of the <quote>Colors</quote> Menu"
-msgstr ""
-
-#: src/menus/colors/introduction.xml:18(para)
+#: src/menus/colors/introduction.xml:14(para)
 msgid ""
-"This section describes the <menuchoice><guimenu>Colors</guimenu></"
-"menuchoice> menu, which contains commands that affect the color of the image."
+"In this section, you will find help for commands in the "
+"<menuchoice><guimenu>Colors</guimenu></menuchoice> menu, which contains "
+"commands that affect the color of the image."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:26(title)
+#: src/menus/colors/introduction.xml:22(title)
+msgid "The Contents of the <quote>Colors</quote> Menu"
+msgstr ""
+
+#: src/menus/colors/introduction.xml:208(title)
 msgid "Colors Common Features"
 msgstr ""
 
-#: src/menus/colors/introduction.xml:27(para)
+#: src/menus/colors/introduction.xml:209(para)
 msgid ""
 "The GEGL based filters in the <guimenu>Colors</guimenu> menu have several "
 "options in common. Some of these options are only shown under certain "
 "conditions."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:42(para)
+#: src/menus/colors/introduction.xml:224(para)
 msgid ""
 "Presets give you a quick way to select previously saved settings for the "
 "filter you are using. If you have saved presets before, you can select them "
@@ -1807,7 +1806,7 @@ msgid ""
 "<placeholder-1/> button."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:56(para)
+#: src/menus/colors/introduction.xml:238(para)
 msgid ""
 "The <placeholder-1/> button opens the Preset menu which lets you "
 "<guilabel>Import Current Settings from File</guilabel> or <guilabel>Export "
@@ -1815,50 +1814,50 @@ msgid ""
 "<guilabel>Manage Saved Presets</guilabel>."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:77(para)
+#: src/menus/colors/introduction.xml:259(para)
 msgid ""
 "The input type drop-down list is only visible when a selection is active, "
 "and the filter allows choosing the input."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:84(para)
+#: src/menus/colors/introduction.xml:266(para)
 msgid ""
 "<guilabel>Use the selection as input</guilabel> If this option is selected, "
 "the filter only uses pixels inside the selection as input for the filter."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:97(para)
+#: src/menus/colors/introduction.xml:279(para)
 msgid ""
 "<guilabel>Use the entire layer as input</guilabel> If this option is "
 "selected, the input of the filter is the entire layer. The output will only "
 "affect the selection. The layer outside the selection remains unchanged."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:118(para)
+#: src/menus/colors/introduction.xml:300(para)
 msgid ""
 "The clipping drop-down list is only visible when the current layer has an "
 "alpha channel, no selection is active, and the filter operation can change "
 "the layer size."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:124(para)
+#: src/menus/colors/introduction.xml:306(para)
 msgid ""
 "This setting determines what to do when the result of this filter is larger "
 "than the original layer."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:130(para)
+#: src/menus/colors/introduction.xml:312(para)
 msgid ""
 "<guilabel>Adjust</guilabel> The layer will be automatically resized as "
 "necessary when the filter is applied. This is the default."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:137(para)
+#: src/menus/colors/introduction.xml:319(para)
 msgid ""
 "<guilabel>Clip</guilabel> The result will be clipped to the layer boundary."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:149(para)
+#: src/menus/colors/introduction.xml:331(para)
 msgid ""
 "When you expand this option by clicking <placeholder-1/>, you can choose the "
 "blend <guilabel>Mode</guilabel> to be used when applying the filter, and the "
@@ -1866,12 +1865,14 @@ msgid ""
 "linkend=\"gimp-layer-dialog-paint-mode-menu\">layer blending options</link>."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:170(para)
+#: src/menus/colors/introduction.xml:352(para)
 msgid ""
-"This option is checked by default and displays changes directly on canvas."
+"When this option is enabled (default), changes in the filter settings are "
+"directly displayed on canvas. They are not applied to the image until you "
+"click the <guibutton>OK</guibutton> button."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:180(para)
+#: src/menus/colors/introduction.xml:363(para)
 msgid ""
 "By default, <acronym>GEGL</acronym> filters are applied non-destructively as "
 "<link linkend=\"gimp-layer-effects\">layer effects</link>, which means they "
@@ -1879,20 +1880,20 @@ msgid ""
 "immediately to the layer itself, you can enable this option."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:188(para)
+#: src/menus/colors/introduction.xml:371(para)
 msgid ""
 "This option is remembered, so you only need to change it once if you prefer "
 "to always use filters destructively."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:198(para)
+#: src/menus/colors/introduction.xml:381(para)
 msgid ""
-"If this option is checked, the image window is divided in two parts. On the "
-"left side it shows the effect of the filter applied, and on the right side "
-"it shows the image without filter."
+"When this option is enabled, the view of the image is divided in two parts. "
+"On the left side it shows the effect of the filter applied, and on the right "
+"side it shows the image without filter."
 msgstr ""
 
-#: src/menus/colors/introduction.xml:205(para)
+#: src/menus/colors/introduction.xml:387(para)
 msgid ""
 "You can click-and-drag the line that divides the preview to move it, and "
 "<keycap>Ctrl</keycap>-click to make the line horizontal, or to switch it "
@@ -2143,7 +2144,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/hot.xml:53(None)
+#: src/menus/colors/hot.xml:55(None)
 msgid ""
 "@@image: 'images/menus/colors/hot.png'; md5=9ec1fa3513c4fabfbbad037573301a31"
 msgstr ""
@@ -2168,49 +2169,55 @@ msgid ""
 "guimenu><guimenuitem>Hot…</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/colors/hot.xml:40(para)
+#: src/menus/colors/hot.xml:41(para)
 msgid ""
 "This command only works on images in RGB mode, and only if the active layer "
 "does not have an alpha channel. Otherwise the command is disabled."
 msgstr ""
 
-#: src/menus/colors/hot.xml:50(title)
+#: src/menus/colors/hot.xml:52(title)
 msgid "<quote>Hot</quote> options"
 msgstr ""
 
-#: src/menus/colors/hot.xml:59(term)
+#: src/menus/colors/hot.xml:62(term)
 msgid "Mode"
 msgstr ""
 
-#: src/menus/colors/hot.xml:61(para)
-msgid "You have to select the TV mode: PAL or NTSC."
+#: src/menus/colors/hot.xml:64(para)
+msgid ""
+"You have to select the TV mode: <guilabel>PAL</guilabel> or <guilabel>NTSC</"
+"guilabel>."
 msgstr ""
 
-#: src/menus/colors/hot.xml:67(term)
+#: src/menus/colors/hot.xml:71(term)
 msgid "Action"
 msgstr ""
 
-#: src/menus/colors/hot.xml:69(para)
+#: src/menus/colors/hot.xml:73(para)
 msgid "Here you can select the method used to remove hot pixels."
 msgstr ""
 
-#: src/menus/colors/hot.xml:75(guilabel)
+#: src/menus/colors/hot.xml:78(term)
 msgid "Reduce Luminance"
 msgstr ""
 
-#: src/menus/colors/hot.xml:80(guilabel)
+#: src/menus/colors/hot.xml:79(term)
 msgid "Reduce Saturation"
 msgstr ""
 
-#: src/menus/colors/hot.xml:84(para)
-msgid "<guilabel>Blacken</guilabel>: this changes hot pixels to black."
+#: src/menus/colors/hot.xml:87(term)
+msgid "Blacken"
 msgstr ""
 
-#: src/menus/colors/hot.xml:93(term)
+#: src/menus/colors/hot.xml:89(para)
+msgid "This changes hot pixels to black."
+msgstr ""
+
+#: src/menus/colors/hot.xml:98(term)
 msgid "Create new layer"
 msgstr ""
 
-#: src/menus/colors/hot.xml:95(para)
+#: src/menus/colors/hot.xml:100(para)
 msgid ""
 "When this option is checked, work is performed on a new layer instead of the "
 "active layer."
@@ -3464,43 +3471,46 @@ msgid "Color Balance options"
 msgstr ""
 
 #: src/menus/colors/color-balance.xml:67(term)
-msgid "Select range to adjust"
+msgid "Select Range to Adjust"
 msgstr ""
 
 #: src/menus/colors/color-balance.xml:69(para)
 msgid ""
 "Selecting one of these options restricts the range of colors which are "
-"changed with the sliders or input boxes for Shadows (darkest pixels), "
-"Midtones (medium pixels) and Highlights (brightest pixels)."
+"changed with the sliders or input boxes for <guilabel>Shadows</guilabel> "
+"(darkest pixels), <guilabel>Midtones</guilabel> (medium pixels) and "
+"<guilabel>Highlights</guilabel> (brightest pixels)."
 msgstr ""
 
-#: src/menus/colors/color-balance.xml:78(term)
-msgid "Adjust color levels"
+#: src/menus/colors/color-balance.xml:79(term)
+msgid "Adjust Color Levels"
 msgstr ""
 
-#: src/menus/colors/color-balance.xml:80(para)
+#: src/menus/colors/color-balance.xml:81(para)
 msgid ""
 "Sliders and range from the three RGB colors to their complementary colors "
 "(CMY). The zero position corresponds to the current level value of pixels in "
-"the original image. You can change the pixel color either towards Red or "
-"Cyan, Green or Magenta, Blue or Yellow."
+"the original image. You can change the pixel color either towards "
+"<guilabel>Red</guilabel> or <guilabel>Cyan</guilabel>, <guilabel>Green</"
+"guilabel> or <guilabel>Magenta</guilabel>, <guilabel>Blue</guilabel> or "
+"<guilabel>Yellow</guilabel>."
 msgstr ""
 
-#: src/menus/colors/color-balance.xml:90(term)
+#: src/menus/colors/color-balance.xml:93(term)
 msgid "Reset Range"
 msgstr ""
 
-#: src/menus/colors/color-balance.xml:92(para)
+#: src/menus/colors/color-balance.xml:95(para)
 msgid ""
 "This button sets color levels of the selected range back to the zero "
 "position (original values)."
 msgstr ""
 
-#: src/menus/colors/color-balance.xml:99(term)
-msgid "Preserve Luminosity"
+#: src/menus/colors/color-balance.xml:102(term)
+msgid "Preserve luminosity"
 msgstr ""
 
-#: src/menus/colors/color-balance.xml:101(para)
+#: src/menus/colors/color-balance.xml:104(para)
 msgid ""
 "This option ensures that brightness of the active layer or selection is "
 "maintained. The Value of brightest pixels is not changed."

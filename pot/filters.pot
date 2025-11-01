@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-25 19:12+0000\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,7 @@ msgid "Light and Shadow Filters"
 msgstr ""
 
 #: src/filters/introduction.xml:22(primary)
-#: src/filters/common-features.xml:175(term)
+#: src/filters/common-features.xml:183(term)
 msgid "Preview"
 msgstr ""
 
@@ -145,6 +145,14 @@ msgstr ""
 msgid ""
 "@@image: 'images/filters/use_entire_layer.jpg'; "
 "md5=1251cb22b4609bd1ce8570f79dd81c1e"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/common-features.xml:169(None)
+msgid ""
+"@@image: 'images/stock-icons/pan-end-symbolic.svg'; "
+"md5=de3d0977e621d2ac837318eb702b9a0f"
 msgstr ""
 
 #: src/filters/common-features.xml:8(title)
@@ -260,24 +268,24 @@ msgstr ""
 
 #: src/filters/common-features.xml:164(para)
 msgid ""
-"When you expand this option by clicking the +, you can choose the blend "
-"<guilabel>Mode</guilabel> to be used when applying the filter, and the "
-"<guilabel>Opacity</guilabel>. These work the same as the Layer <xref "
-"linkend=\"gimp-layer-dialog-paint-mode-menu\"/> blending options."
+"When you expand this option by clicking <placeholder-1/>, you can choose the "
+"blend <guilabel>Mode</guilabel> to be used when applying the filter, and the "
+"<guilabel>Opacity</guilabel>. These work the same as the <link "
+"linkend=\"gimp-layer-dialog-paint-mode-menu\">layer blending options</link>."
 msgstr ""
 
-#: src/filters/common-features.xml:177(para)
+#: src/filters/common-features.xml:185(para)
 msgid ""
 "When this option is enabled (default), changes in the filter settings are "
 "directly displayed on canvas. They are not applied to the image until you "
 "click the <guibutton>OK</guibutton> button."
 msgstr ""
 
-#: src/filters/common-features.xml:186(term)
+#: src/filters/common-features.xml:194(term)
 msgid "Merge Filter"
 msgstr ""
 
-#: src/filters/common-features.xml:188(para)
+#: src/filters/common-features.xml:196(para)
 msgid ""
 "By default, <acronym>GEGL</acronym> filters are applied non-destructively as "
 "<link linkend=\"gimp-layer-effects\">layer effects</link>, which means they "
@@ -285,24 +293,24 @@ msgid ""
 "immediately to the layer itself, you can enable this option."
 msgstr ""
 
-#: src/filters/common-features.xml:196(para)
+#: src/filters/common-features.xml:204(para)
 msgid ""
 "This option is remembered, so you only need to change it once if you prefer "
 "to always use filters destructively."
 msgstr ""
 
-#: src/filters/common-features.xml:204(term)
+#: src/filters/common-features.xml:212(term)
 msgid "Split view"
 msgstr ""
 
-#: src/filters/common-features.xml:206(para)
+#: src/filters/common-features.xml:214(para)
 msgid ""
 "When this option is enabled, the view of the image is divided in two parts. "
 "On the left side it shows the effect of the filter applied, and on the right "
 "side it shows the image without filter."
 msgstr ""
 
-#: src/filters/common-features.xml:212(para)
+#: src/filters/common-features.xml:220(para)
 msgid ""
 "You can click-and-drag the line that divides the preview to move it, and "
 "<keycap>Ctrl</keycap>-click to make the line horizontal, or to switch it "
@@ -335,7 +343,7 @@ msgid ""
 "their size)."
 msgstr ""
 
-#: src/filters/animation.xml:38(para)
+#: src/filters/animation.xml:50(para)
 msgid ""
 "<quote>Optimize (Difference)</quote>, <quote>Optimize (for GIF)</quote> and "
 "<quote>Unoptimize</quote> filters are gathered together because they are not "

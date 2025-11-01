@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-25 19:12+0000\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2224,23 +2224,23 @@ msgid ""
 "documented <link linkend=\"gimp-dynamics-dialog\">there</link>."
 msgstr ""
 
-#: src/toolbox/paint/dynamics.xml:189(guilabel)
+#: src/toolbox/paint/dynamics.xml:189(term)
 msgid "Edit Dynamics…"
 msgstr ""
 
-#: src/toolbox/paint/dynamics.xml:190(guilabel)
+#: src/toolbox/paint/dynamics.xml:190(term)
 msgid "New Dynamics"
 msgstr ""
 
-#: src/toolbox/paint/dynamics.xml:191(guilabel)
+#: src/toolbox/paint/dynamics.xml:191(term)
 msgid "Duplicate Dynamics"
 msgstr ""
 
-#: src/toolbox/paint/dynamics.xml:192(guilabel)
+#: src/toolbox/paint/dynamics.xml:192(term)
 msgid "Delete Dynamics"
 msgstr ""
 
-#: src/toolbox/paint/dynamics.xml:193(guilabel)
+#: src/toolbox/paint/dynamics.xml:193(term)
 msgid "Refresh Dynamics"
 msgstr ""
 

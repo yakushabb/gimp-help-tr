@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-25 19:12+0000\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -239,7 +239,7 @@ msgid ""
 "interruption."
 msgstr ""
 
-#: src/menus/file/save-as-copy.xml:40(para)
+#: src/menus/file/save-as-copy.xml:38(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Save a Copy…</guimenuitem></"
@@ -275,7 +275,7 @@ msgid ""
 "way by asking you to confirm that you really want to revert the image."
 msgstr ""
 
-#: src/menus/file/revert.xml:42(para)
+#: src/menus/file/revert.xml:40(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Revert</guimenuitem></"
@@ -423,7 +423,7 @@ msgid ""
 "submenu if you cannot find your image."
 msgstr ""
 
-#: src/menus/file/open-recent.xml:32(para)
+#: src/menus/file/open-recent.xml:30(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Open Recent</guimenuitem></"
@@ -449,36 +449,36 @@ msgid ""
 "of the formats that <acronym>GIMP</acronym> supports."
 msgstr ""
 
-#: src/menus/file/open-location.xml:33(para)
+#: src/menus/file/open-location.xml:31(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Open Location…</"
 "guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/file/open-location.xml:45(title)
+#: src/menus/file/open-location.xml:41(title)
 msgid "Description of the dialog window"
 msgstr ""
 
-#: src/menus/file/open-location.xml:46(para)
+#: src/menus/file/open-location.xml:42(para)
 msgid "The most typical schemes to open images with are:"
 msgstr ""
 
-#: src/menus/file/open-location.xml:49(term)
+#: src/menus/file/open-location.xml:45(term)
 msgid "file://"
 msgstr ""
 
-#: src/menus/file/open-location.xml:51(para)
+#: src/menus/file/open-location.xml:47(para)
 msgid "to open an image from a local drive"
 msgstr ""
 
-#: src/menus/file/open-location.xml:52(para)
+#: src/menus/file/open-location.xml:48(para)
 msgid ""
 "You can omit the <quote>file://</quote> prefix and open images simply by "
 "putting an absolute or relative path and filename in here."
 msgstr ""
 
-#: src/menus/file/open-location.xml:57(para)
+#: src/menus/file/open-location.xml:53(para)
 msgid ""
 "The default base directory for relative paths depends on your operating "
 "system. It is typically <filename>/home/&lt;username&gt;/</filename> on "
@@ -488,34 +488,34 @@ msgid ""
 "on Windows and <filename>/Users/&lt;username&gt;/</filename> on Mac OS X."
 msgstr ""
 
-#: src/menus/file/open-location.xml:71(term)
+#: src/menus/file/open-location.xml:67(term)
 msgid "ftp://"
 msgstr ""
 
-#: src/menus/file/open-location.xml:73(para)
+#: src/menus/file/open-location.xml:69(para)
 msgid "to open an image from a ftp server"
 msgstr ""
 
-#: src/menus/file/open-location.xml:77(term)
+#: src/menus/file/open-location.xml:73(term)
 msgid "https://"
 msgstr ""
 
-#: src/menus/file/open-location.xml:78(term)
+#: src/menus/file/open-location.xml:74(term)
 msgid "http://"
 msgstr ""
 
-#: src/menus/file/open-location.xml:80(para)
+#: src/menus/file/open-location.xml:76(para)
 msgid "to load an image from a website"
 msgstr ""
 
-#: src/menus/file/open-location.xml:82(para)
+#: src/menus/file/open-location.xml:78(para)
 msgid ""
 "When you are visiting an Internet site, you can right-click on an image and "
 "choose <quote>Copy link address</quote> in the drop-down menu. Then paste it "
 "in the <quote>Open Location</quote> dialog to open it in GIMP."
 msgstr ""
 
-#: src/menus/file/open-location.xml:88(para)
+#: src/menus/file/open-location.xml:84(para)
 msgid ""
 "Even if this command makes it very easy to grab images from web sites: "
 "<emphasis> Please respect the copyright! Images, even if published on the "
@@ -556,7 +556,7 @@ msgstr ""
 #: src/menus/file/open-as-layer.xml:38(para)
 msgid ""
 "You can access this command from the main menu through "
-"<menuchoice><guimenu>File</guimenu><guimenuitem>Open as layers…</"
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Open as Layers…</"
 "guimenuitem></menuchoice>,"
 msgstr ""
 
@@ -628,6 +628,7 @@ msgid "Template"
 msgstr ""
 
 #: src/menus/file/new.xml:69(secondary)
+#: src/menus/file/introduction.xml:7(primary)
 msgid "Menu"
 msgstr ""
 
@@ -988,6 +989,24 @@ msgid ""
 "properties\">Image Properties</link> dialog."
 msgstr ""
 
+#: src/menus/file/introduction.xml:5(title)
+msgid "Overview"
+msgstr ""
+
+#: src/menus/file/introduction.xml:8(secondary)
+msgid "File"
+msgstr ""
+
+#: src/menus/file/introduction.xml:11(para)
+msgid ""
+"In this section, you will find help for commands in the "
+"<menuchoice><guimenu>File</guimenu></menuchoice> menu."
+msgstr ""
+
+#: src/menus/file/introduction.xml:18(title)
+msgid "The Contents of the <quote>File</quote> Menu"
+msgstr ""
+
 #: src/menus/file/export.xml:8(title)
 msgid "Export… and Overwrite…"
 msgstr ""
@@ -1316,7 +1335,7 @@ msgid ""
 "or delete templates."
 msgstr ""
 
-#: src/menus/file/create-template.xml:39(para)
+#: src/menus/file/create-template.xml:37(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Create Template…</"
@@ -1409,13 +1428,14 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Close All</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
-#: src/menus/file/close-all.xml:23(para)
+#: src/menus/file/close-all.xml:26(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
-"keycap><keycap>Ctrl</keycap><keycap>W</keycap></keycombo>."
+"You can also access it by using the keyboard shortcut "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>W</keycap></"
+"keycombo>."
 msgstr ""
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2

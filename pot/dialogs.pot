@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-25 19:12+0000\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -5951,7 +5951,7 @@ msgid ""
 msgstr ""
 
 #: src/dialogs/patterns-dialog.xml:244(phrase)
-#: src/dialogs/patterns-dialog.xml:330(guilabel)
+#: src/dialogs/patterns-dialog.xml:330(term)
 msgid "Delete Pattern"
 msgstr ""
 
@@ -5965,7 +5965,7 @@ msgid ""
 msgstr ""
 
 #: src/dialogs/patterns-dialog.xml:267(phrase)
-#: src/dialogs/patterns-dialog.xml:331(guilabel)
+#: src/dialogs/patterns-dialog.xml:331(term)
 msgid "Refresh Patterns"
 msgstr ""
 
@@ -6018,7 +6018,7 @@ msgid ""
 "linkend=\"gimp-pattern-dialog\">there</link>."
 msgstr ""
 
-#: src/dialogs/patterns-dialog.xml:329(guilabel)
+#: src/dialogs/patterns-dialog.xml:329(term)
 msgid "Open Pattern as Image"
 msgstr ""
 
@@ -6527,8 +6527,7 @@ msgid ""
 "clicking on the name in the list in the Paths dialog."
 msgstr ""
 
-#: src/dialogs/path-dialog.xml:559(term)
-#: src/dialogs/channel-menu.xml:49(guilabel)
+#: src/dialogs/path-dialog.xml:559(term) src/dialogs/channel-menu.xml:49(term)
 msgid "Color Tags"
 msgstr ""
 
@@ -12120,14 +12119,14 @@ msgid ""
 msgstr ""
 
 #: src/dialogs/file-webp-export.xml:101(term)
-#: src/dialogs/file-tiff-export.xml:146(term)
+#: src/dialogs/file-tiff-export.xml:155(term)
 #: src/dialogs/file-png-export.xml:82(term)
 #: src/dialogs/file-jpeg-export.xml:301(term)
 msgid "Metadata (edit)"
 msgstr ""
 
 #: src/dialogs/file-webp-export.xml:103(para)
-#: src/dialogs/file-tiff-export.xml:148(para)
+#: src/dialogs/file-tiff-export.xml:157(para)
 #: src/dialogs/file-png-export.xml:84(para)
 #: src/dialogs/file-jpeg-export.xml:303(para)
 msgid ""
@@ -12138,7 +12137,7 @@ msgid ""
 msgstr ""
 
 #: src/dialogs/file-webp-export.xml:112(term)
-#: src/dialogs/file-tiff-export.xml:157(term)
+#: src/dialogs/file-tiff-export.xml:166(term)
 msgid "Save Exif data"
 msgstr ""
 
@@ -12149,7 +12148,7 @@ msgid ""
 msgstr ""
 
 #: src/dialogs/file-webp-export.xml:121(term)
-#: src/dialogs/file-tiff-export.xml:166(term)
+#: src/dialogs/file-tiff-export.xml:175(term)
 msgid "Save IPTC data"
 msgstr ""
 
@@ -12160,7 +12159,7 @@ msgid ""
 msgstr ""
 
 #: src/dialogs/file-webp-export.xml:130(term)
-#: src/dialogs/file-tiff-export.xml:175(term)
+#: src/dialogs/file-tiff-export.xml:184(term)
 msgid "Save XMP data"
 msgstr ""
 
@@ -12171,7 +12170,7 @@ msgid ""
 msgstr ""
 
 #: src/dialogs/file-webp-export.xml:139(term)
-#: src/dialogs/file-tiff-export.xml:184(term)
+#: src/dialogs/file-tiff-export.xml:193(term)
 #: src/dialogs/file-heif-export.xml:110(term)
 msgid "Save color profile"
 msgstr ""
@@ -12183,7 +12182,7 @@ msgid ""
 msgstr ""
 
 #: src/dialogs/file-webp-export.xml:148(term)
-#: src/dialogs/file-tiff-export.xml:193(term)
+#: src/dialogs/file-tiff-export.xml:202(term)
 msgid "Save thumbnail"
 msgstr ""
 
@@ -12283,15 +12282,23 @@ msgstr ""
 
 #: src/dialogs/file-tiff-export.xml:108(para)
 msgid ""
-"You can save layers when exporting to TIFF. Each layer will be a separate "
-"page in the TIFF image."
+"When enabled, each layer will be stored as a separate page in the TIFF "
+"image, starting from the bottom. When disabled, only the merged result will "
+"be stored."
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:115(term)
+#: src/dialogs/file-tiff-export.xml:114(para)
+msgid ""
+"Not all image viewers support loading more than the first page of a TIFF "
+"image. Since the background layer is what we store first, it may be better "
+"to disable this setting if other programs you work with can't handle that."
+msgstr ""
+
+#: src/dialogs/file-tiff-export.xml:124(term)
 msgid "Crop layers"
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:117(para)
+#: src/dialogs/file-tiff-export.xml:126(para)
 msgid ""
 "When <guilabel>Save layers</guilabel> is checked, this option, which is "
 "enabled by default, will resize all layers to the size of the image. TIFF "
@@ -12300,77 +12307,77 @@ msgid ""
 "different size as the image in the original."
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:128(term)
+#: src/dialogs/file-tiff-export.xml:137(term)
 #: src/dialogs/file-png-export.xml:69(term)
 msgid "Save color values from transparent pixels"
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:130(para)
+#: src/dialogs/file-tiff-export.xml:139(para)
 msgid ""
 "When this is enabled the color values are saved even if the pixels are "
 "completely transparent."
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:137(term)
+#: src/dialogs/file-tiff-export.xml:146(term)
 #: src/dialogs/file-jpeg-export.xml:155(term)
 msgid "Export as CMYK"
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:139(para)
+#: src/dialogs/file-tiff-export.xml:148(para)
 #: src/dialogs/file-jpeg-export.xml:157(para)
 msgid ""
 "Whether to export using a CMYK <link linkend=\"gimp-concepts-color-"
 "management\">Color Profile</link>."
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:159(para)
+#: src/dialogs/file-tiff-export.xml:168(para)
 msgid ""
 "When this option is enabled existing EXIF metadata will be saved in the "
 "exported TIFF image."
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:168(para)
+#: src/dialogs/file-tiff-export.xml:177(para)
 msgid ""
 "When this option is enabled existing IPTC metadata will be saved in the "
 "exported TIFF image."
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:177(para)
+#: src/dialogs/file-tiff-export.xml:186(para)
 msgid ""
 "When this option is enabled existing XMP metadata will be saved in the "
 "exported TIFF image."
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:186(para)
+#: src/dialogs/file-tiff-export.xml:195(para)
 msgid ""
 "When this option is enabled the color profile will be saved in the exported "
 "TIFF image."
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:195(para)
+#: src/dialogs/file-tiff-export.xml:204(para)
 msgid ""
 "When this option is enabled a thumbnail will be saved as the second page in "
 "the exported TIFF image. This will also cause certain EXIF tags to be saved "
 "even if you have disabled saving EXIF metadata."
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:204(term)
+#: src/dialogs/file-tiff-export.xml:213(term)
 msgid "Save GeoTIFF data"
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:206(para)
+#: src/dialogs/file-tiff-export.xml:215(para)
 msgid ""
 "When this option is enabled GeoTIFF metadata that was present in the "
 "original image will be saved in the exported TIFF image."
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:213(term)
+#: src/dialogs/file-tiff-export.xml:222(term)
 #: src/dialogs/file-png-export.xml:132(term)
 #: src/dialogs/file-gif-export.xml:66(term)
 msgid "Save comment"
 msgstr ""
 
-#: src/dialogs/file-tiff-export.xml:215(para)
+#: src/dialogs/file-tiff-export.xml:224(para)
 msgid ""
 "Here you can enable saving a comment that is associated with the image. The "
 "comment can be entered in the text box below this option."
@@ -14870,7 +14877,7 @@ msgid ""
 "work when multiple channels are selected."
 msgstr ""
 
-#: src/dialogs/channel-menu.xml:33(guilabel)
+#: src/dialogs/channel-menu.xml:33(term)
 msgid "Edit Channel Attributes…"
 msgstr ""
 
@@ -14893,26 +14900,26 @@ msgid ""
 "remove the color tag choose <guilabel>None</guilabel>."
 msgstr ""
 
-#: src/dialogs/channel-menu.xml:61(guilabel)
+#: src/dialogs/channel-menu.xml:61(term)
 msgid "New Channel…"
 msgstr ""
 
-#: src/dialogs/channel-menu.xml:62(guilabel)
+#: src/dialogs/channel-menu.xml:62(term)
 #: src/dialogs/channel-dialog.xml:511(phrase)
 msgid "Raise Channels"
 msgstr ""
 
-#: src/dialogs/channel-menu.xml:63(guilabel)
+#: src/dialogs/channel-menu.xml:63(term)
 #: src/dialogs/channel-dialog.xml:531(phrase)
 msgid "Lower Channels"
 msgstr ""
 
-#: src/dialogs/channel-menu.xml:64(guilabel)
+#: src/dialogs/channel-menu.xml:64(term)
 #: src/dialogs/channel-dialog.xml:551(phrase)
 msgid "Duplicate Channels"
 msgstr ""
 
-#: src/dialogs/channel-menu.xml:65(guilabel)
+#: src/dialogs/channel-menu.xml:65(term)
 #: src/dialogs/channel-dialog.xml:626(phrase)
 msgid "Delete Channels"
 msgstr ""
@@ -14921,7 +14928,7 @@ msgstr ""
 msgid "See <link linkend=\"gimp-channel-edit\">Managing channels</link>."
 msgstr ""
 
-#: src/dialogs/channel-menu.xml:74(guilabel)
+#: src/dialogs/channel-menu.xml:74(term)
 msgid "Channels to Selection"
 msgstr ""
 
@@ -14931,7 +14938,7 @@ msgid ""
 "active selection."
 msgstr ""
 
-#: src/dialogs/channel-menu.xml:83(guilabel)
+#: src/dialogs/channel-menu.xml:83(term)
 msgid "Add Channels to Selection"
 msgstr ""
 
@@ -14941,7 +14948,7 @@ msgid ""
 "selection. The final selection is merged from both."
 msgstr ""
 
-#: src/dialogs/channel-menu.xml:92(guilabel)
+#: src/dialogs/channel-menu.xml:92(term)
 msgid "Subtract Channels from Selection"
 msgstr ""
 
@@ -14951,7 +14958,7 @@ msgid ""
 "selected channels from the active selection."
 msgstr ""
 
-#: src/dialogs/channel-menu.xml:101(guilabel)
+#: src/dialogs/channel-menu.xml:101(term)
 msgid "Intersect Channels with Selection"
 msgstr ""
 

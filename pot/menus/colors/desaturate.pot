@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-25 19:12+0000\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -91,7 +91,7 @@ msgstr ""
 
 #: src/menus/colors/desaturate/sepia.xml:59(title)
 #: src/menus/colors/desaturate/desaturate.xml:49(title)
-#: src/menus/colors/desaturate/color-to-gray.xml:46(title)
+#: src/menus/colors/desaturate/color-to-gray.xml:42(title)
 msgid "Options"
 msgstr ""
 
@@ -541,7 +541,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/color-to-gray.xml:52(None)
+#: src/menus/colors/desaturate/color-to-gray.xml:48(None)
 msgid ""
 "@@image: 'images/menus/colors/desaturate/color-to-gray-dialog.png'; "
 "md5=e083897034397f5a3fb51039c5035053"
@@ -562,80 +562,80 @@ msgid ""
 "difference preserving grayscale generation."
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:33(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:31(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
 "guisubmenu><guimenuitem>Color to Gray</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:48(title)
+#: src/menus/colors/desaturate/color-to-gray.xml:44(title)
 msgid "<quote>Color to Gray</quote> settings"
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:58(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:54(term)
 msgid "Presets"
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:60(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:56(para)
 msgid ""
 "<quote>Presets</quote> are a common feature for several Colors commands. You "
 "can find its description in <xref linkend=\"colors-common-features\"/>."
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:69(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:65(term)
 msgid "Radius"
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:71(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:67(para)
 msgid ""
 "Neighborhood taken into account, this is the radius in pixels taken into "
 "account when deciding which colors map to which gray values."
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:79(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:75(term)
 msgid "Samples"
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:81(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:77(para)
 msgid "Number of samples to do per iteration looking for the range of colors."
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:89(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:85(term)
 msgid "Iterations"
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:91(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:87(para)
 msgid ""
 "Number of iterations, a higher number of iterations provides less noisy "
 "results at a computational cost."
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:99(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:95(term)
 msgid "Enhance Shadows"
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:101(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:97(para)
 msgid "When enabled details in shadows are boosted at the expense of noise."
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:108(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:104(term)
 msgid "Blending Options"
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:109(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:105(term)
 msgid "Preview"
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:110(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:106(term)
 msgid "Merge filter"
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:111(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:107(term)
 msgid "Split view"
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:113(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:109(para)
 msgid ""
 "These are common features described in <xref linkend=\"colors-common-"
 "features\"/>."

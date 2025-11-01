@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-25 19:12+0000\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,26 +9,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/windows.xml:33(None)
-msgid ""
-"@@image: 'images/menus/windows.png'; md5=317a4ebcbc347681d865f1eccff901d1"
+#: src/menus/windows.xml:11(title)
+msgid "The <quote>Windows</quote> Menu"
 msgstr ""
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/windows.xml:42(None)
-msgid ""
-"@@image: 'images/menus/windows/expanded-menu.png'; "
-"md5=bf9ed79b3e266dd8e7ea3fdb6582a82f"
-msgstr ""
-
-#: src/menus/windows.xml:12(title)
-msgid "<quote>Windows</quote> Menu"
-msgstr ""
-
-#: src/menus/windows.xml:15(primary) src/menus/view.xml:14(secondary)
+#: src/menus/windows.xml:14(primary) src/menus/view.xml:14(secondary)
 #: src/menus/tools.xml:14(primary) src/menus/select.xml:12(primary)
 #: src/menus/introduction.xml:14(primary)
 #: src/menus/introduction.xml:33(primary)
@@ -39,109 +24,146 @@ msgstr ""
 msgid "Menus"
 msgstr ""
 
-#: src/menus/windows.xml:16(secondary)
+#: src/menus/windows.xml:15(secondary)
 msgid "Windows"
 msgstr ""
 
-#: src/menus/windows.xml:19(para)
-msgid "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs:"
+#: src/menus/windows.xml:19(title) src/menus/tools.xml:19(title)
+msgid "Overview"
 msgstr ""
 
-#: src/menus/windows.xml:22(para)
+#: src/menus/windows.xml:20(para)
 msgid ""
-"The <quote>Windows</quote> menu name is not well adapted to the new single-"
-"window mode. Nevertheless, its functions concern multi and single modes. Its "
-"display may vary according presence or absence of images and docks:"
+"In this section, you will find help for commands in the "
+"<menuchoice><guimenu>Windows</guimenu></menuchoice> menu, which allows you "
+"to manage <acronym>GIMP</acronym>'s windows and docks."
 msgstr ""
 
-#: src/menus/windows.xml:30(title)
-msgid "Contents of the <quote>Windows</quote> Menu"
-msgstr ""
-
-#: src/menus/windows.xml:36(para)
-msgid "Without open images"
-msgstr ""
-
-#: src/menus/windows.xml:45(para)
-msgid "With open images"
-msgstr ""
-
-#: src/menus/windows.xml:52(para)
+#: src/menus/windows.xml:26(para)
 msgid ""
-"<command>Recently Closed Docks</command>: this command opens the list of the "
-"docks you have closed recently. You can reopen them by clicking on their "
-"name. Please note that isolated windows are not concerned."
+"The available commands of this menu may vary according presence or absence "
+"of images and docks."
 msgstr ""
 
-#: src/menus/windows.xml:58(para)
+#: src/menus/windows.xml:33(title)
+msgid "The Contents of the <quote>Windows</quote> Menu"
+msgstr ""
+
+#: src/menus/windows.xml:36(term)
+msgid "Recently Closed Docks"
+msgstr ""
+
+#: src/menus/windows.xml:38(para)
+#: src/menus/windows-open-recent-docks.xml:16(para)
+msgid ""
+"This command opens the list of the docks you have closed recently. You can "
+"reopen them by clicking on their name. Please note that isolated windows are "
+"not concerned."
+msgstr ""
+
+#: src/menus/windows.xml:43(para)
 msgid ""
 "For more information about docks, please see <link linkend=\"gimp-concepts-"
 "docks\">Dialogs and Docking</link>."
 msgstr ""
 
-#: src/menus/windows.xml:65(para)
-msgid ""
-"<command>Dockable Dialogs</command>: this command opens the list of dockable "
-"dialogs. Please refer to <xref linkend=\"gimp-concepts-docks\"/>."
+#: src/menus/windows.xml:50(term)
+msgid "Dockable Dialogs"
 msgstr ""
 
-#: src/menus/windows.xml:72(para)
+#: src/menus/windows.xml:52(para)
 msgid ""
-"<command>Toolbox</command>: clicking on this command or using the "
-"<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> shortcut, "
-"raises the toolbox usually together with the tool options dock. Note that in "
-"single-window mode this usually doesn't have any effect since the toolbox is "
-"part of the main window."
+"This command opens the list of dockable dialogs. Please refer to <xref "
+"linkend=\"gimp-concepts-docks\"/>."
 msgstr ""
 
-#: src/menus/windows.xml:82(para)
-msgid ""
-"The list of open image windows: clicking on an image name, or using the "
-"<keycombo><keycap>Alt</keycap><keycap>Number of the image</keycap></"
-"keycombo> shortcut, makes the image active."
+#: src/menus/windows.xml:60(term)
+msgid "Toolbox"
 msgstr ""
 
-#: src/menus/windows.xml:90(para)
+#: src/menus/windows.xml:62(para)
 msgid ""
-"The list of open docks: in this list, docks are named with the name of the "
-"active dialog in this dock. Clicking on a dock name raises this dock. Note "
-"that in single-window mode only docks that are not part of the main window "
-"will be shown here."
+"Clicking on this command or using the <keycombo><keycap>Ctrl</"
+"keycap><keycap>B</keycap></keycombo> shortcut, raises the toolbox usually "
+"together with the tool options dock."
 msgstr ""
 
-#: src/menus/windows.xml:99(para)
+#: src/menus/windows.xml:70(para)
 msgid ""
-"<command>Hide Docks</command> (<keycap>Tab</keycap>): this command hides all "
-"docks (usually to the left and right of the image), leaving the image window "
-"alone. The command status is kept on quitting GIMP and will be in the same "
-"state when GIMP starts."
+"Note that in single-window mode this usually doesn't have any effect since "
+"the toolbox is part of the main window."
 msgstr ""
 
-#: src/menus/windows.xml:108(para)
-msgid ""
-"<command>Show Tabs</command>: in single-window mode this command changes "
-"whether or not to show the tabs with all opened images. By default the tab "
-"bar is shown, but you can hide it if you don't need it and want to use the "
-"extra screen space."
+#: src/menus/windows.xml:78(term)
+msgid "The list of open image windows"
 msgstr ""
 
-#: src/menus/windows.xml:114(para) src/menus/windows.xml:128(para)
+#: src/menus/windows.xml:80(para)
+msgid ""
+"Clicking on an image name, or using the <keycombo><keycap>Alt</"
+"keycap><keycap>Number of the image</keycap></keycombo> shortcut, makes the "
+"image active."
+msgstr ""
+
+#: src/menus/windows.xml:90(term)
+msgid "The list of open docks"
+msgstr ""
+
+#: src/menus/windows.xml:92(para)
+msgid ""
+"In this list, docks are named with the name of the active dialog in this "
+"dock. Clicking on a dock name raises this dock. Note that in single-window "
+"mode only docks that are not part of the main window will be shown here."
+msgstr ""
+
+#: src/menus/windows.xml:101(term)
+msgid "Hide Docks"
+msgstr ""
+
+#: src/menus/windows.xml:103(para)
+msgid ""
+"Clicking on this command or using the (<keycap>Tab</keycap>) shortcut hides "
+"all docks (usually to the left and right of the image), leaving the image "
+"window alone. The command status is kept on quitting <acronym>GIMP</acronym> "
+"and will be in the same state when <acronym>GIMP</acronym> starts."
+msgstr ""
+
+#: src/menus/windows.xml:113(term)
+msgid "Show Tabs"
+msgstr ""
+
+#: src/menus/windows.xml:115(para)
+msgid ""
+"In single-window mode this command changes whether or not to show the tabs "
+"with all opened images. By default the tab bar is shown, but you can hide it "
+"if you don't need it and want to use the extra screen space."
+msgstr ""
+
+#: src/menus/windows.xml:121(para) src/menus/windows.xml:137(para)
 msgid "In multi-window mode this command is disabled."
 msgstr ""
 
-#: src/menus/windows.xml:120(para)
-msgid ""
-"<command>Tabs Position</command>: In single-window mode you can use this "
-"command to choose the position of the tab bar that shows the loaded images. "
-"By default the tab bar is located at the <guilabel>Top</guilabel>, but you "
-"can change this to show it at the <guilabel>Bottom</guilabel>, "
-"<guilabel>Left</guilabel>, or <guilabel>Right</guilabel>."
+#: src/menus/windows.xml:127(term)
+msgid "Tabs Position"
 msgstr ""
 
-#: src/menus/windows.xml:134(para)
+#: src/menus/windows.xml:129(para)
 msgid ""
-"<command>Single Window Mode</command>: when enabled, GIMP is in a single "
-"window mode. Please see <xref linkend=\"single-window-mode\"/>."
+"In single-window mode you can use this command to choose the position of the "
+"tab bar that shows the loaded images. By default the tab bar is located at "
+"the <guilabel>Top</guilabel>, but you can change this to show it at the "
+"<guilabel>Bottom</guilabel>, <guilabel>Left</guilabel>, or <guilabel>Right</"
+"guilabel>."
+msgstr ""
+
+#: src/menus/windows.xml:143(term)
+msgid "Single Window Mode"
+msgstr ""
+
+#: src/menus/windows.xml:145(para)
+msgid ""
+"When enabled, <acronym>GIMP</acronym> is in a single window mode. Please see "
+"<xref linkend=\"single-window-mode\"/>."
 msgstr ""
 
 #: src/menus/windows-open-recent-docks.xml:9(title)
@@ -154,13 +176,6 @@ msgstr ""
 
 #: src/menus/windows-open-recent-docks.xml:13(secondary)
 msgid "Recently closed"
-msgstr ""
-
-#: src/menus/windows-open-recent-docks.xml:16(para)
-msgid ""
-"This command opens the list of the docks you have closed recently. You can "
-"reopen them by clicking on their name. Please note that isolated windows are "
-"not concerned."
 msgstr ""
 
 #: src/menus/windows-open-recent-docks.xml:23(title)
@@ -183,12 +198,6 @@ msgstr ""
 msgid "Image window"
 msgstr ""
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/tools.xml:24(None)
-msgid "@@image: 'images/menus/tools.png'; md5=9023fa11c3eee104e192c5d2920d5f56"
-msgstr ""
-
 #: src/menus/tools.xml:11(title)
 msgid "The <quote>Tools</quote> Menu"
 msgstr ""
@@ -197,27 +206,10 @@ msgstr ""
 msgid "Tools"
 msgstr ""
 
-#: src/menus/tools.xml:19(title)
-msgid "Introduction to the <quote>Tools</quote> Menu"
-msgstr ""
-
-#: src/menus/tools.xml:21(title)
-msgid "Contents of the <quote>Tools</quote> menu"
-msgstr ""
-
-#: src/menus/tools.xml:28(para)
+#: src/menus/tools.xml:21(para)
 msgid ""
-"The menu entries on the <guimenu>Tools</guimenu> menu access the "
-"<acronym>GIMP</acronym> tools. All of the tools available in <acronym>GIMP</"
-"acronym> are extensively described in the <link linkend=\"gimp-"
-"tools\">Tools</link> section."
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/select.xml:22(None)
-msgid ""
-"@@image: 'images/menus/select.png'; md5=89a5e323df519dd23c10970dced0b66c"
+"All of the tools available in <acronym>GIMP</acronym> are extensively "
+"described in the <link linkend=\"gimp-tools\">Tools</link> section."
 msgstr ""
 
 #: src/menus/select.xml:9(title)
@@ -226,20 +218,6 @@ msgstr ""
 
 #: src/menus/select.xml:13(secondary)
 msgid "Selection"
-msgstr ""
-
-#: src/menus/select.xml:17(title)
-msgid "Introduction to the <quote>Select</quote> Menu"
-msgstr ""
-
-#: src/menus/select.xml:19(title)
-msgid "The Contents of the <quote>Select</quote> menu"
-msgstr ""
-
-#: src/menus/select.xml:26(para)
-msgid ""
-"This section explains the commands on the <guimenu>Select</guimenu> menu of "
-"the main menu."
 msgstr ""
 
 #: src/menus/layer.xml:12(title)
@@ -395,37 +373,8 @@ msgstr ""
 msgid "The <quote>Image</quote> Menu"
 msgstr ""
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/help.xml:28(None)
-msgid "@@image: 'images/menus/help.png'; md5=4610f6d79d785b6cf5e3ed78b640154f"
-msgstr ""
-
 #: src/menus/help.xml:10(title)
 msgid "The <quote>Help</quote> Menu"
-msgstr ""
-
-#: src/menus/help.xml:13(title)
-msgid "Introduction to the <quote>Help</quote> Menu"
-msgstr ""
-
-#: src/menus/help.xml:16(primary) src/menus/help.xml:21(secondary)
-#: src/menus/file.xml:26(primary)
-msgid "Menu"
-msgstr ""
-
-#: src/menus/help.xml:17(secondary) src/menus/help.xml:20(primary)
-msgid "Help"
-msgstr ""
-
-#: src/menus/help.xml:25(title)
-msgid "Contents of the <quote>Help</quote> menu"
-msgstr ""
-
-#: src/menus/help.xml:33(para)
-msgid ""
-"The <guimenu>Help</guimenu> menu contains commands that assist you while you "
-"are working with <application>GIMP</application>."
 msgstr ""
 
 #: src/menus/filters.xml:12(title)
@@ -436,30 +385,12 @@ msgstr ""
 msgid "Filters"
 msgstr ""
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file.xml:33(None)
-msgid "@@image: 'images/menus/file.png'; md5=5ec86dbba88bbe0ead73bebd1a5288cd"
-msgstr ""
-
 #: src/menus/file.xml:16(title)
 msgid "The <quote>File</quote> Menu"
 msgstr ""
 
 #: src/menus/file.xml:20(secondary)
 msgid "File menu"
-msgstr ""
-
-#: src/menus/file.xml:24(title)
-msgid "Overview"
-msgstr ""
-
-#: src/menus/file.xml:27(secondary)
-msgid "File"
-msgstr ""
-
-#: src/menus/file.xml:30(title)
-msgid "The File menu"
 msgstr ""
 
 #: src/menus/edit.xml:14(title)

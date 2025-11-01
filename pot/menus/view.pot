@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-10-25 19:12+0000\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -196,6 +196,7 @@ msgstr ""
 #: src/menus/view/view-black-point.xml:9(primary)
 #: src/menus/view/padding-color.xml:13(primary)
 #: src/menus/view/introduction.xml:13(primary)
+#: src/menus/view/introduction.xml:18(secondary)
 msgid "View"
 msgstr ""
 
@@ -324,6 +325,7 @@ msgid "Mark Out Of Gamut Colors"
 msgstr ""
 
 #: src/menus/view/view-mark-out-of-gamut.xml:22(title)
+#: src/menus/view/introduction.xml:11(title)
 msgid "Overview"
 msgstr ""
 
@@ -509,7 +511,7 @@ msgid ""
 "is useful for accurate placement of image elements."
 msgstr ""
 
-#: src/menus/view/snap-to-path.xml:34(para)
+#: src/menus/view/snap-to-path.xml:32(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Active Path</"
@@ -537,7 +539,7 @@ msgid ""
 "image elements."
 msgstr ""
 
-#: src/menus/view/snap-to-guides.xml:33(para)
+#: src/menus/view/snap-to-guides.xml:31(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Guides</"
@@ -565,7 +567,7 @@ msgid ""
 "image elements."
 msgstr ""
 
-#: src/menus/view/snap-to-grid.xml:33(para)
+#: src/menus/view/snap-to-grid.xml:31(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Grid</guimenuitem></"
@@ -610,7 +612,7 @@ msgid ""
 "green layer (19 pixels) as the distance between the green and blue layer."
 msgstr ""
 
-#: src/menus/view/snap-to-equidistance.xml:46(para)
+#: src/menus/view/snap-to-equidistance.xml:44(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Equidistance</"
@@ -646,7 +648,7 @@ msgid ""
 "menuchoice>."
 msgstr ""
 
-#: src/menus/view/snap-to-canvas.xml:41(para)
+#: src/menus/view/snap-to-canvas.xml:39(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Canvas</"
@@ -688,7 +690,7 @@ msgid ""
 "green layer and vertically to the right edge of the blue layer."
 msgstr ""
 
-#: src/menus/view/snap-to-bounding-boxes.xml:42(para)
+#: src/menus/view/snap-to-bounding-boxes.xml:40(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Snap to Bounding Boxes</"
@@ -725,13 +727,13 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Shrink Wrap</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/view/shrink-wrap.xml:49(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>J</"
-"keycap></keycombo>."
+"You can also access it by using the keyboard shortcut "
+"<keycombo><keycap>Ctrl</keycap><keycap>J</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/view/show-statusbar.xml:10(title)
@@ -760,7 +762,7 @@ msgid ""
 "image-window-appearance\">Image Window Appearance Preferences</link>."
 msgstr ""
 
-#: src/menus/view/show-statusbar.xml:35(para)
+#: src/menus/view/show-statusbar.xml:33(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Statusbar</"
@@ -803,13 +805,13 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Selection</"
-"guimenuitem></menuchoice>,"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/view/show-selection.xml:45(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>T</"
-"keycap></keycombo>."
+"You can also access it by using the keyboard shortcut "
+"<keycombo><keycap>Ctrl</keycap><keycap>T</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/view/show-scrollbars.xml:10(title)
@@ -838,7 +840,7 @@ msgid ""
 "image-window-appearance\">Image Window Appearance Preferences</link>."
 msgstr ""
 
-#: src/menus/view/show-scrollbars.xml:35(para)
+#: src/menus/view/show-scrollbars.xml:33(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Scrollbars</"
@@ -867,7 +869,7 @@ msgid ""
 "Preferences</link>."
 msgstr ""
 
-#: src/menus/view/show-sample-points.xml:30(para)
+#: src/menus/view/show-sample-points.xml:28(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Sample Points</"
@@ -904,13 +906,14 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Rulers</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/view/show-rulers.xml:43(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
-"keycap><keycap>Ctrl</keycap><keycap>R</keycap></keycombo>."
+"You can also access it by using the keyboard shortcut "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>R</keycap></"
+"keycombo>."
 msgstr ""
 
 #: src/menus/view/show-menubar.xml:10(title)
@@ -941,7 +944,7 @@ msgid ""
 "image-window-appearance\">Image Window Appearance Preferences</link>."
 msgstr ""
 
-#: src/menus/view/show-menubar.xml:36(para)
+#: src/menus/view/show-menubar.xml:34(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Menubar</guimenuitem></"
@@ -976,7 +979,7 @@ msgid ""
 "prefs-image-window-appearance\">Image Window Appearance Preferences</link>."
 msgstr ""
 
-#: src/menus/view/show-layer-boundary.xml:36(para)
+#: src/menus/view/show-layer-boundary.xml:34(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Layer Boundary</"
@@ -1009,13 +1012,14 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Guides</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/view/show-guides.xml:43(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
-"keycap><keycap>Ctrl</keycap><keycap>T</keycap></keycombo>."
+"You can also access it by using the keyboard shortcut "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>T</keycap></"
+"keycombo>."
 msgstr ""
 
 #: src/menus/view/show-grid.xml:10(title)
@@ -1047,7 +1051,7 @@ msgid ""
 "link> command."
 msgstr ""
 
-#: src/menus/view/show-grid.xml:43(para)
+#: src/menus/view/show-grid.xml:41(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Grid</guimenuitem></"
@@ -1079,7 +1083,7 @@ msgid ""
 "prefs-image-window-appearance\">Image Window Appearance Preferences</link>."
 msgstr ""
 
-#: src/menus/view/show-canvas-boundary.xml:28(para)
+#: src/menus/view/show-canvas-boundary.xml:26(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Show Canvas Boundary</"
@@ -1247,13 +1251,13 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Center Image in Window</"
-"guimenuitem></menuchoice>,"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/view/scroll-center.xml:28(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</keycap><keycap>J</"
-"keycap></keycombo>."
+"You can also access it by using the keyboard shortcut "
+"<keycombo><keycap>Shift</keycap><keycap>J</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/view/padding-color.xml:10(title)
@@ -1368,7 +1372,7 @@ msgid ""
 "your changes would have on the image at a normal size."
 msgstr ""
 
-#: src/menus/view/new.xml:41(para)
+#: src/menus/view/new.xml:39(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>New View</guimenuitem></"
@@ -1437,65 +1441,60 @@ msgid ""
 "on a different screen connected to your device."
 msgstr ""
 
-#: src/menus/view/movetoscreen.xml:24(para)
+#: src/menus/view/movetoscreen.xml:22(para)
 msgid ""
 "You can access this submenu from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guisubmenu>Move to Screen</guisubmenu></"
 "menuchoice>."
 msgstr ""
 
-#: src/menus/view/movetoscreen.xml:36(title)
+#: src/menus/view/movetoscreen.xml:32(title)
 msgid "Contents of the <quote>Move to Screen</quote> submenu"
 msgstr ""
 
-#: src/menus/view/movetoscreen.xml:39(term)
+#: src/menus/view/movetoscreen.xml:35(term)
 msgid "Open Display…"
 msgstr ""
 
-#: src/menus/view/movetoscreen.xml:41(para)
+#: src/menus/view/movetoscreen.xml:37(para)
 msgid "This is an experimental functionality to choose a different display."
 msgstr ""
 
-#: src/menus/view/movetoscreen.xml:48(term)
+#: src/menus/view/movetoscreen.xml:44(term)
 msgid "Available screen(s)"
 msgstr ""
 
-#: src/menus/view/movetoscreen.xml:50(para)
+#: src/menus/view/movetoscreen.xml:46(para)
 msgid ""
 "The exact name of the menu entry depends on the display server software of "
 "your operating system (for example <guimenuitem>Screen wayland-0</"
 "guimenuitem> on a Linux system running Wayland)."
 msgstr ""
 
-#: src/menus/view/movetoscreen.xml:56(para)
+#: src/menus/view/movetoscreen.xml:52(para)
 msgid ""
 "If more than one screen is listed, you can select a different screen on "
 "which you want GIMP to be shown."
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/view/introduction.xml:20(None)
-msgid "@@image: 'images/menus/view.png'; md5=f0c389f2562d00da8e0483c1a1e20478"
-msgstr ""
-
-#: src/menus/view/introduction.xml:10(title)
-msgid "Introduction to the <quote>View</quote> Menu"
 msgstr ""
 
 #: src/menus/view/introduction.xml:14(secondary)
 msgid "Introduction"
 msgstr ""
 
-#: src/menus/view/introduction.xml:17(title)
-msgid "Contents of the View menu"
+#: src/menus/view/introduction.xml:17(primary)
+msgid "Menu"
 msgstr ""
 
-#: src/menus/view/introduction.xml:24(para)
+#: src/menus/view/introduction.xml:20(para)
 msgid ""
-"This section describes the <guimenu>View</guimenu> menu, which contains "
+"In this section, you will find help for commands in the "
+"<menuchoice><guimenu>View</guimenu></menuchoice> menu, which contains "
 "commands that affect the visibility or appearance of the image and various "
 "elements of the interface."
+msgstr ""
+
+#: src/menus/view/introduction.xml:29(title)
+msgid "The Contents of the <quote>View</quote> Menu"
 msgstr ""
 
 #: src/menus/view/fullscreen.xml:11(title)
@@ -1533,14 +1532,15 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Full Screen</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/view/fullscreen.xml:58(para)
-msgid "or by using the keyboard shortcut <keycap>F11</keycap>."
+msgid ""
+"You can also access it by using the keyboard shortcut <keycap>F11</keycap>."
 msgstr ""
 
-#: src/menus/view/fullscreen.xml:63(para)
+#: src/menus/view/fullscreen.xml:64(para)
 msgid ""
 "In multi-window mode, you can also get it by double-clicking on the title "
 "bar of the image window."
@@ -1760,46 +1760,46 @@ msgid ""
 "prefs-image-window-appearance\">Image Window Appearance Preferences</link>."
 msgstr ""
 
-#: src/menus/view/dot-for-dot.xml:46(para)
+#: src/menus/view/dot-for-dot.xml:44(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>View</guimenu><guimenuitem>Dot for Dot</guimenuitem></"
 "menuchoice>."
 msgstr ""
 
-#: src/menus/view/dot-for-dot.xml:57(title)
+#: src/menus/view/dot-for-dot.xml:53(title)
 msgid "Example"
 msgstr ""
 
-#: src/menus/view/dot-for-dot.xml:58(para)
+#: src/menus/view/dot-for-dot.xml:54(para)
 msgid "Imagine the following image properties:"
 msgstr ""
 
-#: src/menus/view/dot-for-dot.xml:63(para)
+#: src/menus/view/dot-for-dot.xml:59(para)
 msgid "Image size: 100×100 pixels"
 msgstr ""
 
-#: src/menus/view/dot-for-dot.xml:66(para)
+#: src/menus/view/dot-for-dot.xml:62(para)
 msgid "Image resolution: 300 ppi (pixels per inch)"
 msgstr ""
 
-#: src/menus/view/dot-for-dot.xml:69(para)
+#: src/menus/view/dot-for-dot.xml:65(para)
 msgid ""
 "Image displayed with Zoom=100%, <quote>Dot for Dot</quote><emphasis>enabled</"
 "emphasis>:"
 msgstr ""
 
-#: src/menus/view/dot-for-dot.xml:73(para)
+#: src/menus/view/dot-for-dot.xml:69(para)
 msgid "100×100 pixels"
 msgstr ""
 
-#: src/menus/view/dot-for-dot.xml:76(para)
+#: src/menus/view/dot-for-dot.xml:72(para)
 msgid ""
 "Image displayed with Zoom=100%, <quote>Dot for Dot</"
 "quote><emphasis>disabled</emphasis>:"
 msgstr ""
 
-#: src/menus/view/dot-for-dot.xml:81(para)
+#: src/menus/view/dot-for-dot.xml:77(para)
 msgid "100 pixels 300 ppi = 1/3 inch 0.85 cm"
 msgstr ""
 

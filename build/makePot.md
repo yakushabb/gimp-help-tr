@@ -28,13 +28,8 @@ Sonrasında aşağıdaki talimatları izliyoruz.
 ```
 podman build -t gimp-help .
 ```
-**Adlandırarak çalıştır:**
 
-```
-podman run --name gimp-help gimp-help
-```
-
-**Varsa çalışan sürümle değiştirmek:**
+**Varsa çalışan sürümle değiştirerek adlandırıp çalışmak:**
 
 ```
 podman run --replace --name gimp-help gimp-help
@@ -49,10 +44,10 @@ podman ps -a
 **Dosyaları yerele alalım**
 
 ```
-podman cp gimp-help:/workspace/_html1 ./build-dir/_html1
-podman cp gimp-help:/workspace/_pdf1 ./build-dir/_pdf1
-podman cp gimp-help:/workspace/_install ./build-dir/_install
-podman cp gimp-help:/workspace/_pot ./build-dir/_pot
+podman cp gimp-help:/workspace/_html1 ./html/
+podman cp gimp-help:/workspace/_pot ./html/
+podman cp gimp-help:/workspace/_pdf1 ./html/
+podman cp gimp-help:/workspace/_install ./html/
 ```
 
 **İmajı silmek istersen:**
