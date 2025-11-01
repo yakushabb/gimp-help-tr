@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-10-31 18:10+0000\n"
 "PO-Revision-Date: 2025-10-28 19:18+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: src/menus/colors/desaturate/sepia.xml:59(title)
 #: src/menus/colors/desaturate/desaturate.xml:49(title)
-#: src/menus/colors/desaturate/color-to-gray.xml:46(title)
+#: src/menus/colors/desaturate/color-to-gray.xml:42(title)
 msgid "Options"
 msgstr "Seçenekler"
 
@@ -353,7 +353,6 @@ msgstr ""
 
 # Pot dosyası çarpı işaretlerini atlamış.
 #: src/menus/colors/desaturate/desaturate.xml:73(phrase)
-#| msgid "Luminance = (0.22 &times; R) + (0.72 &times; G) + (0.06 &times; B)"
 msgid "Luminance = (0.22 R) + (0.72 G) + (0.06 B)"
 msgstr "Renk Parlaklığı = (0.22 × R) + (0.72 × G) + (0.06 × B)"
 
@@ -367,7 +366,6 @@ msgstr "Gri tonları doğrusal olmayan sRGB kullanılarak hesaplanır"
 
 # Pot dosyası çarpı işaretlerini atlamış.
 #: src/menus/colors/desaturate/desaturate.xml:92(phrase)
-#| msgid "Luma = (0.22 &times; R) + (0.72 &times; G) + (0.06 &times; B)"
 msgid "Luma = (0.22 R) + (0.72 G) + (0.06 B)"
 msgstr "Luma = (0.22 × R) + (0.72 × G) + (0.06 × B)"
 
@@ -383,7 +381,6 @@ msgstr "Gri tonları şöyle hesaplanır"
 
 # Pot dosyası çarpı işaretlerini atlamış.
 #: src/menus/colors/desaturate/desaturate.xml:109(phrase)
-#| msgid "Lightness (HSL) = &frac12;&times; (max(R,G,B) + min(R,G,B))"
 msgid "Lightness (HSL) = (max(R,G,B) + min(R,G,B))"
 msgstr "Açıklık (HSL) = ½ × (en büyük(R,G,B) + en küçük(R,G,B))"
 
@@ -619,7 +616,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/desaturate/color-to-gray.xml:52(None)
+#: src/menus/colors/desaturate/color-to-gray.xml:48(None)
 msgid ""
 "@@image: 'images/menus/colors/desaturate/color-to-gray-dialog.png'; "
 "md5=e083897034397f5a3fb51039c5035053"
@@ -642,7 +639,7 @@ msgid ""
 "difference preserving grayscale generation."
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:33(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:31(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
@@ -652,15 +649,15 @@ msgstr ""
 "guimenu><guisubmenu>Solgunlaştır</guisubmenu><guimenuitem>Renkten Griye…</"
 "guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
-#: src/menus/colors/desaturate/color-to-gray.xml:48(title)
+#: src/menus/colors/desaturate/color-to-gray.xml:44(title)
 msgid "<quote>Color to Gray</quote> settings"
 msgstr "<quote>Renkten Griye</quote> ayarları"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:58(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:54(term)
 msgid "Presets"
 msgstr "Önayarlar"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:60(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:56(para)
 msgid ""
 "<quote>Presets</quote> are a common feature for several Colors commands. You "
 "can find its description in <xref linkend=\"colors-common-features\"/>."
@@ -668,59 +665,59 @@ msgstr ""
 "<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
 "Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:69(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:65(term)
 msgid "Radius"
 msgstr "Yarıçap"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:71(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:67(para)
 msgid ""
 "Neighborhood taken into account, this is the radius in pixels taken into "
 "account when deciding which colors map to which gray values."
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:79(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:75(term)
 msgid "Samples"
 msgstr "Örnekler"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:81(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:77(para)
 msgid "Number of samples to do per iteration looking for the range of colors."
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:89(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:85(term)
 msgid "Iterations"
 msgstr "Yinelemeler"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:91(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:87(para)
 msgid ""
 "Number of iterations, a higher number of iterations provides less noisy "
 "results at a computational cost."
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:99(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:95(term)
 msgid "Enhance Shadows"
 msgstr "Gölgeleri iyileştir"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:101(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:97(para)
 msgid "When enabled details in shadows are boosted at the expense of noise."
 msgstr ""
 
-#: src/menus/colors/desaturate/color-to-gray.xml:108(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:104(term)
 msgid "Blending Options"
 msgstr "Harmanlama Seçenekleri"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:109(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:105(term)
 msgid "Preview"
 msgstr "Ön izleme"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:110(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:106(term)
 msgid "Merge filter"
 msgstr "Süzgeci birleştir"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:111(term)
+#: src/menus/colors/desaturate/color-to-gray.xml:107(term)
 msgid "Split view"
 msgstr "Bölünmüş görünüm"
 
-#: src/menus/colors/desaturate/color-to-gray.xml:113(para)
+#: src/menus/colors/desaturate/color-to-gray.xml:109(para)
 msgid ""
 "These are common features described in <xref linkend=\"colors-common-"
 "features\"/>."

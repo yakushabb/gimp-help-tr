@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-10-31 18:10+0000\n"
 "PO-Revision-Date: 2025-10-20 20:59+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -2370,23 +2370,23 @@ msgid ""
 "documented <link linkend=\"gimp-dynamics-dialog\">there</link>."
 msgstr ""
 
-#: src/toolbox/paint/dynamics.xml:189(guilabel)
+#: src/toolbox/paint/dynamics.xml:189(term)
 msgid "Edit Dynamics…"
 msgstr ""
 
-#: src/toolbox/paint/dynamics.xml:190(guilabel)
+#: src/toolbox/paint/dynamics.xml:190(term)
 msgid "New Dynamics"
 msgstr ""
 
-#: src/toolbox/paint/dynamics.xml:191(guilabel)
+#: src/toolbox/paint/dynamics.xml:191(term)
 msgid "Duplicate Dynamics"
 msgstr ""
 
-#: src/toolbox/paint/dynamics.xml:192(guilabel)
+#: src/toolbox/paint/dynamics.xml:192(term)
 msgid "Delete Dynamics"
 msgstr ""
 
-#: src/toolbox/paint/dynamics.xml:193(guilabel)
+#: src/toolbox/paint/dynamics.xml:193(term)
 msgid "Refresh Dynamics"
 msgstr ""
 

@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-10-05 22:55+0300\n"
+"POT-Creation-Date: 2025-10-31 18:10+0000\n"
+"PO-Revision-Date: 2025-10-31 01:46+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -143,6 +143,7 @@ msgstr ""
 "ölçek 2 görünürleştirilmiştir."
 
 #: src/filters/enhance/wavelet-decompose.xml:58(para)
+#, fuzzy
 msgid ""
 "This filter decomposes the active layer or selection into several layers, "
 "named <quote>scales</quote>, each of them containing a particular set of "
@@ -152,16 +153,28 @@ msgid ""
 "layers have been removed; it represents the global contrast and colors of "
 "the image."
 msgstr ""
+"Bu filtre, etkin katmanı veya seçimi, her biri belirli bir ayrıntı kümesi "
+"içeren <quote>ölçekler</quote> olarak adlandırılan birkaç katmana ayırır. En "
+"ince ayrıntılar ilk katmandadır, altındaki her katman en alttaki son katmana "
+"gelene kadar daha az ayrıntıya sahiptir. Bu son katman <quote>artık</quote> "
+"olarak adlandırılır ve tüm ayrıntı katmanları kaldırıldıktan sonra geriye "
+"kalanları tutar; görüntünün genel kontrastını ve renklerini temsil eder."
 
 #: src/filters/enhance/wavelet-decompose.xml:67(para)
+#, fuzzy
 msgid ""
 "Each of the scale layers are set to be combined using the Grain Merge layer "
 "mode. This means that pixels that have a 50% value will not affect the final "
 "result. So, painting a wavelet scale with neutral gray (R:50% G:50% B:50%) "
 "will erase details."
 msgstr ""
+"Ölçek katmanlarının her biri Tahıl Birleştirme katman modu kullanılarak "
+"birleştirilecek şekilde ayarlanmıştır. Bu, %50 değere sahip piksellerin "
+"nihai sonucu etkilemeyeceği anlamına gelir. Yani, nötr gri (R:50% G:50% "
+"B:50%) ile bir dalgacık ölçeği boyamak ayrıntıları silecektir."
 
 #: src/filters/enhance/wavelet-decompose.xml:73(para)
+#, fuzzy
 msgid ""
 "Note that for images using integer <link linkend=\"gimp-image-"
 "precision\">precision</link>, the <link linkend=\"gimp-concepts-layer-modes-"
@@ -169,8 +182,15 @@ msgid ""
 "reconstruction of the image when using integer precision. When using "
 "floating point precision, the regular grain merge mode is used."
 msgstr ""
+"Tamsayı <link linkend=\"gimp-image-precision\">hassasiyeti</link> kullanan "
+"görüntüler için <link linkend=\"gimp-concepts-layer-modes-legacy\">eski</"
+"link> gren birleştirme modunun kullanıldığını unutmayın. Bu, tamsayı "
+"hassasiyeti kullanılırken görüntünün kusurlu bir şekilde yeniden "
+"oluşturulmasını önler. Kayan nokta hassasiyeti kullanıldığında, normal gren "
+"birleştirme modu kullanılır."
 
 #: src/filters/enhance/wavelet-decompose.xml:81(para)
+#, fuzzy
 msgid ""
 "Wavelet-decompose is a wonderful filter for skin smoothing and retouching, "
 "removing blemishes, wrinkles, or spots from your photos. It can also be used "
@@ -178,6 +198,11 @@ msgid ""
 "colors, or tones. All this is well explained in the tutorials mentioned "
 "above."
 msgstr ""
+"Wavelet-decompose, cilt yumuşatma ve rötuşlama, fotoğraflarınızdaki "
+"lekeleri, kırışıklıkları veya lekeleri gidermek için harika bir filtredir. "
+"Ayrıca keskinleştirme ve yerel kontrast geliştirme ve lekeleri, renkleri "
+"veya tonları kaldırmak için de kullanılabilir. Tüm bunlar yukarıda "
+"belirtilen eğitimlerde iyi bir şekilde açıklanmıştır."
 
 #: src/filters/enhance/wavelet-decompose.xml:91(title)
 #: src/filters/enhance/unsharp_mask.xml:92(title)
@@ -220,46 +245,34 @@ msgstr "<quote>Wavelet ayrıştırma</quote> seçenekleri"
 
 #: src/filters/enhance/wavelet-decompose.xml:116(term)
 msgid "Scales"
-msgstr ""
+msgstr "Ölçekler"
 
 #: src/filters/enhance/wavelet-decompose.xml:118(para)
-#, fuzzy
-#| msgid ""
-#| "<guilabel>Scales</guilabel>: Default scales number is 5. You can increase "
-#| "it to increase scale fineness."
 msgid ""
 "Default scales number is 5. You can increase it to increase scale fineness."
 msgstr ""
-"<guilabel>Ölçekler</guilabel>: Öntanımlı ölçek sayısı 5ʼtir. Ölçek "
-"inceliğini artırmak için artırabilirsiniz."
+"Öntanımlı ölçek sayısı 5ʼtir. Ölçek inceliğini artırmak için "
+"artırabilirsiniz."
 
 #: src/filters/enhance/wavelet-decompose.xml:125(term)
+#, fuzzy
 msgid "Create a layer group to store the decomposition"
-msgstr ""
+msgstr "Ayrıştırmayı depolamak için bir katman kümesi oluştur"
 
 #: src/filters/enhance/wavelet-decompose.xml:127(para)
-#, fuzzy
-#| msgid ""
-#| "<guilabel>Create a layer group to store the decomposition</guilabel>: "
-#| "layer groups are treated in <xref linkend=\"gimp-layer-groups\"/>."
 msgid "Layer groups are treated in <xref linkend=\"gimp-layer-groups\"/>."
 msgstr ""
-"<guilabel>Ayrıştırmayı depolamak için bir katman kümesi oluştur</guilabel>: "
-"katman kümeleri şurada işlenmiştir: <xref linkend=\"gimp-layer-groups\"/>."
+"Katman kümeleri şurada işlenmiştir: <xref linkend=\"gimp-layer-groups\"/>."
 
 #: src/filters/enhance/wavelet-decompose.xml:133(term)
+#, fuzzy
 msgid "Add a layer mask to each scale layer"
-msgstr ""
+msgstr "Her ölçek katmanına bir katman maskesi ekleyin"
 
 #: src/filters/enhance/wavelet-decompose.xml:135(para)
-#, fuzzy
-#| msgid ""
-#| "<guilabel>Add a layer mask to each scale layer</guilabel>: layer masks "
-#| "are treated in <xref linkend=\"gimp-layer-mask\"/>."
 msgid "Layer masks are treated in <xref linkend=\"gimp-layer-mask\"/>."
 msgstr ""
-"<guilabel>Her ölçek katmanına bir katman maskesi ekle</guilabel>: katman "
-"maskeleri şurada işlenmiştir: <xref linkend=\"gimp-layer-mask\"/>."
+"Katman maskeleri şurada işlenmiştir: <xref linkend=\"gimp-layer-mask\"/>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -329,6 +342,7 @@ msgid "Filter <quote>Sharpen</quote> applied"
 msgstr "<quote>Sharpen</quote> süzgeci uygulandı"
 
 #: src/filters/enhance/unsharp_mask.xml:43(para)
+#, fuzzy
 msgid ""
 "Out-of-focus photographs and most digitized images often need a sharpness "
 "correction. This is due to the digitizing process that has to divide a color "
@@ -337,6 +351,12 @@ msgid ""
 "borders will be rendered a little blurred. The same phenomenon appears when "
 "printing color dots on paper."
 msgstr ""
+"Odak dışı fotoğraflar ve dijitalleştirilmiş görüntülerin çoğu genellikle "
+"keskinlik düzeltmesine ihtiyaç duyar. Bunun nedeni, bir renk sürekliliğini "
+"biraz farklı renklere sahip noktalara bölmek zorunda olan sayısallaştırma "
+"işlemidir. Örnekleme frekansından daha küçük öğelerin ortalaması alınarak "
+"tek tip bir renk elde edilir. Böylece keskin sınırlar biraz bulanık hale "
+"gelecektir. Aynı olgu renkli noktalar kağıda basılırken de ortaya çıkar."
 
 #: src/filters/enhance/unsharp_mask.xml:51(para)
 msgid ""
@@ -348,20 +368,28 @@ msgstr ""
 "keskinleştirir."
 
 #: src/filters/enhance/unsharp_mask.xml:56(para)
+#, fuzzy
 msgid ""
 "Some imaging devices like digital cameras or scanners offer to sharpen the "
 "created images for you. We strongly recommend you disable this means of "
 "sharpening and use <acronym>GIMP</acronym> filters instead. This way you "
 "regain the full control over the sharpening of your images."
 msgstr ""
+"Dijital kameralar veya tarayıcılar gibi bazı görüntüleme cihazları, "
+"oluşturulan görüntüleri sizin için keskinleştirmeyi teklif eder. Bu "
+"keskinleştirme yöntemini devre dışı bırakmanızı ve bunun yerine "
+"<acronym>GIMP</acronym> filtrelerini kullanmanızı şiddetle tavsiye ederiz. "
+"Bu şekilde resimlerinizin keskinleştirilmesi üzerinde tam kontrol sahibi "
+"olursunuz."
 
 #: src/filters/enhance/unsharp_mask.xml:63(para)
+#, fuzzy
 msgid ""
 "To prevent color distortion while sharpening, you can <link linkend=\"plug-"
 "in-decompose\">Decompose</link> your image to <guilabel>HSV</guilabel> and "
 "work only on <guilabel>Value</guilabel>. Go to <menuchoice><guimenu>Colors</"
 "guimenu><guisubmenu>Components</guisubmenu><guimenuitem>Decompose…</"
-"guimenuitem></menuchoice>. Make sure the <guilabel>Decompose to Layers</"
+"guimenuitem></menuchoice>. Make sure the <guilabel>Decompose to layers</"
 "guilabel> box is checked. Choose HSV and click OK. You will get a new gray-"
 "level image with three layers, one for Hue, one for Saturation, and one for "
 "Value. (Close the original image so you won't get confused). Select the "
@@ -373,6 +401,23 @@ msgid ""
 "your original image except that it will have been sharpened in the Value "
 "component."
 msgstr ""
+"Keskinleştirme sırasında renk bozulmasını önlemek için görüntünüzü "
+"<guilabel>HSV</guilabel> 'ye <link linkend=\"plug-in-"
+"decompose\">ayrıştırabilir</link> ve yalnızca <guilabel>Değer</guilabel> "
+"üzerinde çalışabilirsiniz. Gitmek <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Bileşenler</guisubmenu><guimenuitem>Ayrıştırın..</"
+"guimenuitem></menuchoice>. <guilabel>Katmanlara Ayrıştır</guilabel> "
+"kutusunun işaretli olduğundan emin olun. HSV'yi seçin ve Tamam'a tıklayın. "
+"Biri Ton, biri Doygunluk ve biri de Değer için olmak üzere üç katmanlı yeni "
+"bir gri seviye görüntü elde edeceksiniz. (Kafanızın karışmaması için "
+"orijinal görüntüyü kapatın). Değer katmanını seçin ve keskinleştirme "
+"işleminizi uygulayın. İşiniz bittiğinde, aynı katman seçiliyken, <link "
+"linkend=\"plug-in-compose\">Oluştur</link>'u kullanarak işlemi tersine "
+"çevirin. Gitmek <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Bileşenler</guisubmenu><guimenuitem>Beste..</"
+"guimenuitem></menuchoice>. Tekrar HSV'yi seçin ve Tamam'a tıklayın. Değer "
+"bileşeninde keskinleştirilmiş olması dışında orijinal görüntünüzü geri "
+"alacaksınız."
 
 #: src/filters/enhance/unsharp_mask.xml:93(para)
 msgid ""
@@ -461,21 +506,28 @@ msgid "Radius"
 msgstr "Yarıçap"
 
 #: src/filters/enhance/unsharp_mask.xml:130(para)
+#, fuzzy
 msgid ""
 "The slider and input boxes (0.0-1500.0) allow you to set how many pixels on "
 "either side of an edge will be affected by sharpening. It is better to "
 "always sharpen an image at its final resolution."
 msgstr ""
+"Kaydırıcı ve giriş kutuları (0.0-1500.0) bir kenarın her iki tarafında kaç "
+"pikselin keskinleştirmeden etkileneceğini ayarlamanıza olanak tanır. Bir "
+"görüntüyü her zaman son çözünürlüğünde keskinleştirmek daha iyidir."
 
 #: src/filters/enhance/unsharp_mask.xml:138(term)
 msgid "Amount"
 msgstr "Miktar"
 
 #: src/filters/enhance/unsharp_mask.xml:140(para)
+#, fuzzy
 msgid ""
 "This slider and input boxes (0.0-300.0) allow you to set the strength of "
 "sharpening."
 msgstr ""
+"Bu kaydırıcı ve giriş kutuları (0,0-300,0) keskinleştirme gücünü "
+"ayarlamanıza olanak tanır."
 
 #: src/filters/enhance/unsharp_mask.xml:147(term)
 #: src/filters/enhance/red-eye-removal.xml:92(term)
@@ -483,47 +535,71 @@ msgid "Threshold"
 msgstr "Eşik"
 
 #: src/filters/enhance/unsharp_mask.xml:149(para)
+#, fuzzy
 msgid ""
 "This slider and input boxes (0.0-1.0) allow you to set the minimum "
 "difference in pixel values that indicates an edge where sharpen must be "
 "applied. So you can protect areas of smooth tonal transition from "
 "sharpening, and avoid creation of blemishes in face, sky or water surface."
 msgstr ""
+"Bu kaydırıcı ve giriş kutuları (0.0-1.0), keskinleştirmenin uygulanması "
+"gereken bir kenarı gösteren piksel değerlerindeki minimum farkı ayarlamanıza "
+"olanak tanır. Böylece yumuşak ton geçişli alanları keskinleştirmeden "
+"koruyabilir ve yüz, gökyüzü veya su yüzeyinde leke oluşmasını "
+"önleyebilirsiniz."
 
 #: src/filters/enhance/unsharp_mask.xml:162(title)
 msgid "How does an unsharp mask work?"
 msgstr "Keskinliği azalt maskesi nasıl çalışır?"
 
 #: src/filters/enhance/unsharp_mask.xml:163(para)
+#, fuzzy
 msgid ""
 "Using an unsharp mask to sharpen an image can seem rather weird. Here is the "
 "explanation:"
 msgstr ""
+"Bir görüntüyü keskinleştirmek için keskin olmayan maske kullanmak oldukça "
+"garip görünebilir. İşte açıklaması:"
 
 #: src/filters/enhance/unsharp_mask.xml:167(para)
+#, fuzzy
 msgid ""
 "Think of an image with a contrast in some place. The intensity curve of the "
 "pixels on a line going through this contrast will show an abrupt increase of "
 "intensity: like a stair if contrast is perfectly sharp (blue), like an S if "
 "there is some blur (yellow)."
 msgstr ""
+"Bir yerde kontrast olan bir görüntü düşünün. Bu kontrasttan geçen bir çizgi "
+"üzerindeki piksellerin yoğunluk eğrisi ani bir yoğunluk artışı "
+"gösterecektir: kontrast tamamen keskinse bir merdiven gibi (mavi), biraz "
+"bulanıklık varsa bir S gibi (sarı)."
 
 #: src/filters/enhance/unsharp_mask.xml:178(para)
+#, fuzzy
 msgid ""
 "Now, we have an original image with some blur (black curve) we want to "
 "sharpen. We apply some more blur: the intensity variation will be more "
 "gradual (green curve)."
 msgstr ""
+"Şimdi, keskinleştirmek istediğimiz bir miktar bulanıklığa (siyah eğri) sahip "
+"orijinal bir görüntümüz var. Biraz daha bulanıklık uyguluyoruz: yoğunluk "
+"değişimi daha kademeli olacak (yeşil eğri)."
 
 #: src/filters/enhance/unsharp_mask.xml:183(para)
+#, fuzzy
 msgid ""
 "Let us subtract the difference between blurredness intensity (green curve) "
 "and the intensity of the original image (black curve) to the intensity of "
 "the original image (black curve). We get the red curve, which is more "
 "abrupt: contrast and sharpness are increased. QED."
 msgstr ""
+"Bulanıklık yoğunluğu (yeşil eğri) ile orijinal görüntünün yoğunluğu (siyah "
+"eğri) arasındaki farkı orijinal görüntünün yoğunluğuna (siyah eğri) "
+"çıkaralım. Daha ani olan kırmızı eğriyi elde ederiz: kontrast ve keskinlik "
+"artar. QED."
 
 #: src/filters/enhance/unsharp_mask.xml:195(para)
+#, fuzzy
 msgid ""
 "Unsharp mask was first used in silver photography. The photographer first "
 "creates a copy of the original negative by contact, on a film, placing a "
@@ -534,19 +610,32 @@ msgid ""
 "through and so will be subtracted from the light going through the original "
 "film."
 msgstr ""
+"Keskin olmayan maske ilk olarak gümüş fotoğrafçılıkta kullanılmıştır. "
+"Fotoğrafçı önce orijinal negatifin bir kopyasını temas yoluyla bir film "
+"üzerinde oluşturur ve her ikisinin arasına ince bir cam plaka yerleştirir; "
+"bu, ışık yayılımı nedeniyle bulanık bir kopya üretecektir. Daha sonra her "
+"iki film de bir fotoğraf büyütücüsüne yerleştirilerek kağıt üzerinde "
+"çoğaltılır. Pozitif bulanık filmin karanlık alanları, orijinal negatifin net "
+"alanlarının aksine, ışığın geçmesini engelleyecek ve böylece orijinal "
+"filmden geçen ışıktan çıkarılacaktır."
 
 #: src/filters/enhance/unsharp_mask.xml:207(para)
+#, fuzzy
 msgid ""
 "In digital photography, with GIMP, you will go through the following steps:"
-msgstr ""
+msgstr "Dijital fotoğrafçılıkta GIMP ile aşağıdaki adımlardan geçeceksiniz:"
 
 #: src/filters/enhance/unsharp_mask.xml:212(para)
+#, fuzzy
 msgid ""
 "Open your image and duplicate it <menuchoice><guimenu>Image</"
 "guimenu><guimenuitem>Duplicate</guimenuitem></menuchoice>"
 msgstr ""
+"Resminizi açın ve çoğaltın <menuchoice><guimenu>Resim</"
+"guimenu><guimenuitem>Yinelenen</guimenuitem></menuchoice>"
 
 #: src/filters/enhance/unsharp_mask.xml:221(para)
+#, fuzzy
 msgid ""
 "In the copy, duplicate the layer <menuchoice><guimenu>Layer</"
 "guimenu><guimenuitem>Duplicate layers</guimenuitem></menuchoice>, then from "
@@ -554,35 +643,57 @@ msgid ""
 "guimenu><guimenuitem>Gaussian Blur</guimenuitem></menuchoice> to the "
 "duplicated layer with the default IIR option and radius 5."
 msgstr ""
+"Kopyada, katmanı çoğaltın <menuchoice><guimenu>Katman</"
+"guimenu><guimenuitem>Katmanları çoğaltma</guimenuitem></menuchoice>ardından "
+"Filtreler menüsünden şunları uygulayın <menuchoice><guimenu>Bulanıklık</"
+"guimenu><guimenuitem>Gauss Bulanıklığı</guimenuitem></menuchoice> varsayılan "
+"IIR seçeneği ve yarıçap 5 ile çoğaltılmış katmana aktarın."
 
 #: src/filters/enhance/unsharp_mask.xml:235(para)
+#, fuzzy
 msgid ""
 "In the Layers dialog of the duplicated image, change Mode to "
 "<quote>Subtract</quote>, and in the right-click menu, select <quote>Merge "
 "down</quote>."
 msgstr ""
+"Çoğaltılan görüntünün Katmanlar iletişim kutusunda Mod'u <quote>Çıkar</"
+"quote> olarak değiştirin ve sağ tıklama menüsünde <quote>Aşağı birleştir</"
+"quote>'i seçin."
 
 #: src/filters/enhance/unsharp_mask.xml:242(para)
+#, fuzzy
 msgid ""
 "Click and drag the only layer you got into the original image, where it "
 "appears as a new layer."
 msgstr ""
+"Elinizdeki tek katmanı tıklayın ve yeni bir katman olarak görüneceği "
+"orijinal görüntünün içine sürükleyin."
 
 #: src/filters/enhance/unsharp_mask.xml:248(para)
+#, fuzzy
 msgid "Change the Mode in this Layers dialog to <quote>Addition</quote>."
 msgstr ""
+"Bu Katmanlar iletişim kutusundaki Modu <quote>Ekleme</quote> olarak "
+"değiştirin."
 
 #: src/filters/enhance/unsharp_mask.xml:254(para)
+#, fuzzy
 msgid "Voilà. The <quote>Unsharp Mask</quote> plug-in does the same for you."
 msgstr ""
+"İşte. <quote>Unsharp Mask</quote> eklentisi de sizin için aynı şeyi yapar."
 
 #: src/filters/enhance/unsharp_mask.xml:257(para)
+#, fuzzy
 msgid ""
 "At the beginning of the curve, you can see a dip. If blurring is important, "
 "this dip is very deep; the result of the subtraction can be negative, and a "
 "complementary color stripe will appear along the contrast, or a black halo "
 "around a star on the light background of a nebula (black eye effect)."
 msgstr ""
+"Eğrinin başlangıcında bir çukur görebilirsiniz. Bulanıklaştırma önemliyse, "
+"bu çukur çok derindir; çıkarma işleminin sonucu negatif olabilir ve kontrast "
+"boyunca tamamlayıcı bir renk şeridi veya bir nebulanın açık arka planındaki "
+"bir yıldızın etrafında siyah bir hale (siyah göz etkisi) görünecektir."
 
 #: src/filters/enhance/unsharp_mask.xml:265(title)
 msgid "Black eye effect"
@@ -744,6 +855,7 @@ msgid "<quote>Red Eye Removal</quote> applied"
 msgstr "<quote>Kırmızı Göz Düzeltme</quote> uygulandı"
 
 #: src/filters/enhance/red-eye-removal.xml:43(para)
+#, fuzzy
 msgid ""
 "The aim of this filter is - guess what - to remove red eyes from an image. "
 "Before applying the <quote>Red Eye Removal</quote> you must do a selection "
@@ -752,6 +864,13 @@ msgid ""
 "make this selection, the filter inform you that: <quote>Manually selecting "
 "the eyes may improve the results</quote>."
 msgstr ""
+"Bu filtrenin amacı - tahmin edin ne - bir görüntüden kırmızı gözleri "
+"kaldırmaktır. <quote>Kırmızı Göz Giderme</quote> 'yi uygulamadan önce "
+"kırmızı gözbebeğine sahip göz(ler)in iris sınırında bir seçim (kement veya "
+"eliptik) yapmanız gerekir. Ancak bundan sonra filtreyi bu seçime "
+"uygulayabilirsiniz. Eğer bu seçimi yapmazsanız, filtre size bunu "
+"bildirecektir: <quote>Gözleri manuel olarak seçmek sonuçları "
+"iyileştirebilir</quote>."
 
 #: src/filters/enhance/red-eye-removal.xml:56(para)
 msgid ""
@@ -901,6 +1020,7 @@ msgstr ""
 "tüm katman üzerinde çalışır."
 
 #: src/filters/enhance/nl-filter.xml:56(para)
+#, fuzzy
 msgid ""
 "This is something of a swiss army knife filter. It has 3 distinct operating "
 "modes. In all of the modes each pixel in the image is examined and processed "
@@ -908,6 +1028,10 @@ msgid ""
 "pixels in a 3×3 block, it uses a hexagonal block whose size can be set with "
 "the Radius option."
 msgstr ""
+"Bu İsviçre çakısı gibi bir filtredir. 3 farklı çalışma moduna sahiptir. Tüm "
+"modlarda görüntüdeki her piksel incelenir ve kendisine ve çevresindeki "
+"piksel değerlerine göre işlenir. 3×3 blokta 9 piksel kullanmak yerine, "
+"boyutu Yarıçap seçeneği ile ayarlanabilen altıgen bir blok kullanır."
 
 #: src/filters/enhance/nl-filter.xml:67(para)
 msgid ""
@@ -956,20 +1080,30 @@ msgid "Alpha"
 msgstr "Alfa"
 
 #: src/filters/enhance/nl-filter.xml:114(para)
+#, fuzzy
 msgid ""
 "Controls the amount of the filter to apply. Valid range is 0.00-1.00. The "
 "exact meaning of this value depends on the selected operating mode. Note "
 "that this parameter is related to but not the same as the <parameter>alpha</"
 "parameter> parameter used in the <command>pnmnlfilt</command> program."
 msgstr ""
+"Uygulanacak filtre miktarını kontrol eder. Geçerli aralık 0.00-1.00'dır. Bu "
+"değerin tam anlamı seçilen çalışma moduna bağlıdır. Bu parametrenin "
+"<command>pnmnlfilt</command> programında kullanılan <parameter>alfa</"
+"parameter> parametresiyle ilişkili olduğunu ancak aynı olmadığını unutmayın."
 
 #: src/filters/enhance/nl-filter.xml:126(para)
+#, fuzzy
 msgid ""
 "Controls the size of the effective sampling region around each pixel. The "
 "range of this value is 0.33-1.00, where 0.33 means just the pixel itself "
 "(and thus the filter will have no effect), and 1.00 means all pixels in the "
 "3×3 grid are sampled."
 msgstr ""
+"Her pikselin etrafındaki etkili örnekleme bölgesinin boyutunu kontrol eder. "
+"Bu değerin aralığı 0,33-1,00'dır; burada 0,33 sadece pikselin kendisi "
+"anlamına gelir (ve dolayısıyla filtrenin hiçbir etkisi olmayacaktır) ve 1,00 "
+"3×3 ızgaradaki tüm piksellerin örneklendiği anlamına gelir."
 
 #: src/filters/enhance/nl-filter.xml:138(title)
 msgid "Operating Modes"
@@ -984,6 +1118,7 @@ msgid "Alpha trimmed mean"
 msgstr "Alfa düzenlenmiş ortalama"
 
 #: src/filters/enhance/nl-filter.xml:146(para)
+#, fuzzy
 msgid ""
 "The value of the center pixel will be replaced by the mean of the 7 hexagon "
 "values, but the 7 values are sorted by size and the top and bottom "
@@ -996,8 +1131,19 @@ msgid ""
 "parameter> = 0.55. For a more blatant effect, try <parameter>Alpha</"
 "parameter> = 0.0 and <parameter>Radius</parameter> = 1.0."
 msgstr ""
+"Merkez pikselin değeri 7 altıgen değerinin ortalamasıyla değiştirilir, ancak "
+"7 değer boyuta göre sıralanır ve 7'nin üst ve alt <parameter>Alfa</"
+"parameter> kısmı ortalamadan çıkarılır. Bu, 0,0'lık bir <parameter>Alfa</"
+"parameter> değerinin normal bir konvolüsyon (yani ortalama veya yumuşatma "
+"filtresi) ile aynı türde çıktı verdiği anlamına gelir; burada "
+"<parameter>Yarıçap</parameter> filtrenin <quote>gücünü</quote> "
+"belirleyecektir. İnce filtreleme için başlamak için iyi bir değer "
+"<parameter>Alpha</parameter> = 0.0, <parameter>Radius</parameter> = "
+"0.55'tir. Daha bariz bir etki için <parameter>Alpha</parameter> = 0.0 ve "
+"<parameter>Radius</parameter> = 1.0 değerlerini deneyin."
 
 #: src/filters/enhance/nl-filter.xml:162(para)
+#, fuzzy
 msgid ""
 "An <parameter>Alpha</parameter> value of 1.0 will cause the median value of "
 "the 7 hexagons to be used to replace the center pixel value. This sort of "
@@ -1006,8 +1152,15 @@ msgid ""
 "Judicious use of the <parameter>Radius</parameter> parameter will fine tune "
 "the filtering."
 msgstr ""
+"<parameter>Alfa</parameter> değerinin 1.0 olması, merkez piksel değerinin "
+"yerine 7 altıgenin medyan değerinin kullanılmasına neden olur. Bu tür bir "
+"filtre, gürültüyü yaymadan veya görüntüdeki özellikleri lekelemeden "
+"görüntüdeki <quote>pop</quote> veya tek piksel gürültüsünü ortadan kaldırmak "
+"için iyidir. <parameter>Yarıçap</parameter> parametresinin dikkatli "
+"kullanımı filtrelemeye ince ayar yapacaktır."
 
 #: src/filters/enhance/nl-filter.xml:171(para)
+#, fuzzy
 msgid ""
 "Intermediate values of <parameter>Alpha</parameter> give effects somewhere "
 "between smoothing and \"pop\" noise reduction. For subtle filtering try "
@@ -1015,12 +1168,19 @@ msgid ""
 "<parameter>Radius</parameter> = 0.6. For a more blatant effect try "
 "<parameter>Alpha</parameter> = 1.0, <parameter>Radius</parameter> = 1.0 ."
 msgstr ""
+"<parameter>Alfa</parameter> 'nın ara değerleri yumuşatma ve \"pop\" gürültü "
+"azaltma arasında bir yerde efektler verir. İnce filtreleme için "
+"<parameter>Alpha</parameter> = 0.8, <parameter>Radius</parameter> = 0.6 "
+"değerleriyle başlamayı deneyin. Daha belirgin bir etki için "
+"<parameter>Alpha</parameter> = 1.0, <parameter>Radius</parameter> = 1.0 "
+"değerlerini deneyin."
 
 #: src/filters/enhance/nl-filter.xml:184(term)
 msgid "Optimal estimation"
 msgstr "En iyi öngörü"
 
 #: src/filters/enhance/nl-filter.xml:186(para)
+#, fuzzy
 msgid ""
 "This type of filter applies a smoothing filter adaptively over the image. "
 "For each pixel the variance of the surrounding hexagon values is calculated, "
@@ -1039,12 +1199,30 @@ msgid ""
 "get the desired effect. This type of filter is best for filtering out "
 "dithering noise in both bitmap and color images."
 msgstr ""
+"Bu filtre türü, görüntü üzerinde uyarlamalı olarak bir yumuşatma filtresi "
+"uygular. Her piksel için çevredeki altıgen değerlerin varyansı hesaplanır ve "
+"yumuşatma miktarı bununla ters orantılı hale getirilir. Buradaki fikir, "
+"varyans küçükse bunun görüntüdeki gürültüden kaynaklandığı, varyans büyükse "
+"bunun <quote>istenen</quote> görüntü özelliklerinden kaynaklandığıdır. Her "
+"zamanki gibi <parameter>Radius</parameter> parametresi etkin yarıçapı "
+"kontrol eder, ancak varyans hesaplamasının anlamlı olması için yarıçapı 0,8 "
+"ile 1,0 arasında bırakmak muhtemelen tavsiye edilir. <parameter>Alfa</"
+"parameter> parametresi, üzerinde daha az yumuşatma yapılacak olan gürültü "
+"eşiğini ayarlar. Bu, <parameter>Alpha</parameter> 'nın küçük değerlerinin en "
+"ince filtreleme etkisini vereceği, büyük değerlerin ise görüntünün tüm "
+"kısımlarını yumuşatma eğiliminde olacağı anlamına gelir. <parameter>Alpha</"
+"parameter> = 0.2, <parameter>Radius</parameter> = 1.0 gibi değerlerle "
+"başlayabilir ve istediğiniz etkiyi elde etmek için <parameter>Alpha</"
+"parameter> parametresini artırmayı veya azaltmayı deneyebilirsiniz. Bu "
+"filtre türü, hem bitmap hem de renkli görüntülerdeki titreme gürültüsünü "
+"filtrelemek için en iyisidir."
 
 #: src/filters/enhance/nl-filter.xml:213(term)
 msgid "Edge enhancement"
 msgstr "Kenar iyileştirmesi"
 
 #: src/filters/enhance/nl-filter.xml:215(para)
+#, fuzzy
 msgid ""
 "This is the opposite type of filter to the smoothing filter. It enhances "
 "edges. The <parameter>Alpha</parameter> parameter controls the amount of "
@@ -1053,12 +1231,19 @@ msgid ""
 "values are between 0.5 and 0.9. Try starting with values of "
 "<parameter>Alpha</parameter> = 0.3, <parameter>Radius</parameter> = 0.8."
 msgstr ""
+"Bu, yumuşatma filtresinin tam tersi bir filtre türüdür. Kenarları "
+"geliştirir. <parameter>Alfa</parameter> parametresi, ince (0,1) ile bariz "
+"(0,9) arasında kenar geliştirme miktarını kontrol eder. <parameter>Yarıçap</"
+"parameter> parametresi her zamanki gibi etkili yarıçapı kontrol eder, ancak "
+"kullanışlı değerler 0,5 ile 0,9 arasındadır. <parameter>Alpha</parameter> = "
+"0.3, <parameter>Radius</parameter> = 0.8 değerleriyle başlamayı deneyin."
 
 #: src/filters/enhance/nl-filter.xml:230(title)
 msgid "Combination use"
 msgstr "Birlikte kullanım"
 
 #: src/filters/enhance/nl-filter.xml:231(para)
+#, fuzzy
 msgid ""
 "The various operating modes can be used one after the other to get the "
 "desired result. For instance to turn a monochrome dithered image into "
@@ -1068,8 +1253,17 @@ msgid ""
 "after one of the non-linear filters (alpha trimmed mean or optimal "
 "estimation filter), as edge enhancement is the direct opposite of smoothing."
 msgstr ""
+"İstenen sonucu elde etmek için çeşitli çalışma modları birbiri ardına "
+"kullanılabilir. Örneğin tek renkli bir görüntüyü gri tonlamalı görüntüye "
+"dönüştürmek için yumuşatma filtresinin bir veya iki geçişini deneyebilir, "
+"ardından optimum tahmin filtresinin bir geçişini yapabilir ve ardından bazı "
+"ince kenar geliştirmeleri yapabilirsiniz. Kenar iyileştirme yumuşatmanın tam "
+"tersi olduğundan, kenar iyileştirme kullanmanın yalnızca doğrusal olmayan "
+"filtrelerden (alfa kırpılmış ortalama veya optimum tahmin filtresi) birinden "
+"sonra yararlı olabileceğini unutmayın."
 
 #: src/filters/enhance/nl-filter.xml:241(para)
+#, fuzzy
 msgid ""
 "For reducing color quantization noise in images (i.e. turning .gif files "
 "back into 24 bit files) you could try a pass of the optimal estimation "
@@ -1082,6 +1276,17 @@ msgid ""
 "is a trade-off between filtering effectiveness and losing detail. "
 "Experimentation is encouraged."
 msgstr ""
+"Görüntülerdeki renk niceleme gürültüsünü azaltmak için (yani .gif "
+"dosyalarını tekrar 24 bit dosyalara dönüştürmek için) optimal tahmin "
+"filtresinin bir geçişini<parameter>(Alpha</parameter> = 0.2, "
+"<parameter>Radius</parameter> = 1.0), medyan filtresinin bir "
+"geçişini<parameter>(Alpha</parameter> = 1.0, <parameter>Radius</parameter> = "
+"0.55) ve muhtemelen kenar geliştirme filtresinin bir geçişini "
+"deneyebilirsiniz. Azalan <parameter>Alfa</parameter> değerlerine sahip "
+"optimum tahmin filtresinin birkaç geçişi, büyük bir <parameter>Alfa</"
+"parameter> değerine sahip tek bir geçişten daha etkilidir. Her zaman olduğu "
+"gibi, filtreleme etkinliği ile ayrıntı kaybı arasında bir denge vardır. "
+"Deneme yapılması teşvik edilir."
 
 #: src/filters/enhance/introduction.xml:9(title)
 #: src/filters/enhance/introduction.xml:13(tertiary)
@@ -1089,11 +1294,15 @@ msgid "Introduction"
 msgstr "Giriş"
 
 #: src/filters/enhance/introduction.xml:15(para)
+#, fuzzy
 msgid ""
 "Enhance filters compensate for image imperfections. Such imperfections "
 "include dust particles, noise, interlaced frames (coming usually from a TV "
 "frame-grabber) and insufficient sharpness."
 msgstr ""
+"İyileştirme filtreleri görüntü kusurlarını telafi eder. Bu kusurlar arasında "
+"toz parçacıkları, gürültü, geçmeli kareler (genellikle bir TV kare "
+"yakalayıcısından gelir) ve yetersiz netlik bulunur."
 
 #: src/filters/enhance/introduction.xml:21(para)
 msgid "This category describes the following filters:"
@@ -1142,58 +1351,42 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/enhance/high-pass.xml:143(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/filters/examples/enhance/high-pass-mode.png'; "
-#| "md5=1fe6fc5c54ba11f1cee6b2b4559f20c6"
 msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-mode-example.png'; "
 "md5=64905ea849761f8b2fd5ba4f10162b65"
 msgstr ""
-"@@image: 'images/filters/examples/enhance/high-pass-mode.png'; "
-"md5=1fe6fc5c54ba11f1cee6b2b4559f20c6"
+"@@image: 'images/filters/examples/enhance/high-pass-mode-example.png'; "
+"md5=64905ea849761f8b2fd5ba4f10162b65"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/enhance/high-pass.xml:150(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/filters/examples/enhance/high-pass-duplicate.png'; "
-#| "md5=ab6f16d3e4737f72b9365778f65af544"
 msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-mode-dialog.png'; "
 "md5=2ba6737b4942d59b1e54fbb548a9d9dd"
 msgstr ""
-"@@image: 'images/filters/examples/enhance/high-pass-duplicate.png'; "
-"md5=ab6f16d3e4737f72b9365778f65af544"
+"@@image: 'images/filters/examples/enhance/high-pass-mode-dialog.png'; "
+"md5=2ba6737b4942d59b1e54fbb548a9d9dd"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/enhance/high-pass.xml:162(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/filters/examples/enhance/high-pass-setting.png'; "
-#| "md5=36b0b9649348077e89644dd5f89371ac"
 msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-setting-example.png'; "
 "md5=8c513765d1e495403c3106c47b27144c"
 msgstr ""
-"@@image: 'images/filters/examples/enhance/high-pass-setting.png'; "
-"md5=36b0b9649348077e89644dd5f89371ac"
+"@@image: 'images/filters/examples/enhance/high-pass-setting-example.png'; "
+"md5=8c513765d1e495403c3106c47b27144c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/enhance/high-pass.xml:169(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/filters/examples/enhance/high-pass-setting.png'; "
-#| "md5=36b0b9649348077e89644dd5f89371ac"
 msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-setting-dialog.png'; "
 "md5=c3db6590b439a91f14da6705da44a193"
 msgstr ""
-"@@image: 'images/filters/examples/enhance/high-pass-setting.png'; "
-"md5=36b0b9649348077e89644dd5f89371ac"
+"@@image: 'images/filters/examples/enhance/high-pass-setting-dialog.png'; "
+"md5=c3db6590b439a91f14da6705da44a193"
 
 #: src/filters/enhance/high-pass.xml:10(title)
 #: src/filters/enhance/high-pass.xml:15(tertiary)
@@ -1202,6 +1395,7 @@ msgid "High Pass"
 msgstr "Yüksek Geçiş"
 
 #: src/filters/enhance/high-pass.xml:23(para)
+#, fuzzy
 msgid ""
 "In sound processing, a high-pass filter filters high frequencies above a "
 "threshold. In digital images, frequency refers to sudden changes in "
@@ -1210,6 +1404,13 @@ msgid ""
 "combined with the original image and \"Soft Light\" or \"Hard Light\" merge "
 "mode, is used to sharpen images. It enhances fine details."
 msgstr ""
+"Ses işlemede, yüksek geçiren filtre bir eşiğin üzerindeki yüksek frekansları "
+"filtreler. Dijital görüntülerde frekans, komşu piksellerdeki parlaklık veya "
+"renkteki ani değişiklikleri ifade eder. Yüksek Geçiş filtresi yüksek önemli "
+"ayrıntıları filtreler ve daha büyük ölçekli gradyanlar kaldırılır. Bu sonuç, "
+"orijinal görüntü ve \"Yumuşak Işık\" veya \"Sert Işık\" birleştirme modu ile "
+"birleştirilerek görüntüleri keskinleştirmek için kullanılır. İnce "
+"ayrıntıları geliştirir."
 
 #: src/filters/enhance/high-pass.xml:35(para)
 msgid ""
@@ -1272,20 +1473,16 @@ msgid "Open High Pass filter. <placeholder-1/>"
 msgstr "Yüksek Karşıtlık süzgecini açın. <placeholder-1/>"
 
 #: src/filters/enhance/high-pass.xml:137(para)
-#, fuzzy
-#| msgid "Change mode to Soft light (try Hard light also). <placeholder-1/>"
 msgid ""
 "Change mode to Soft light (try Hard light also). <placeholder-1/"
 "><placeholder-2/>"
 msgstr ""
 "Kipi Yumuşak Işık olarak değiştirin (Sert Işık seçeneğini de deneyin). "
-"<placeholder-1/>"
+"<placeholder-1/><placeholder-2/>"
 
 #: src/filters/enhance/high-pass.xml:156(para)
-#, fuzzy
-#| msgid "Settings and on-canvas view <placeholder-1/>"
 msgid "Settings and on-canvas view <placeholder-1/><placeholder-2/>"
-msgstr "Ayarlar ve tuvalde görünüm <placeholder-1/>"
+msgstr "Ayarlar ve tuvalde görünüm <placeholder-1/><placeholder-2/>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1304,6 +1501,7 @@ msgid "Despeckle"
 msgstr "Beneksizleştir"
 
 #: src/filters/enhance/despeckle.xml:19(para)
+#, fuzzy
 msgid ""
 "This filter is used to remove small defects due to dust, or scratches, on a "
 "scanned image, and also moiré effects on image scanned from a magazine. You "
@@ -1311,6 +1509,12 @@ msgid ""
 "avoid unwanted changes in other areas of your image. The filter replaces "
 "each pixel with the median value of the pixels within the specified radius."
 msgstr ""
+"Bu filtre, taranan bir görüntüdeki toz veya çiziklerden kaynaklanan küçük "
+"kusurları ve ayrıca bir dergiden taranan görüntüdeki hareli efektleri "
+"gidermek için kullanılır. Görüntünüzün diğer alanlarında istenmeyen "
+"değişiklikleri önlemek için bu filtreyi uygulamadan önce izole kusurları "
+"seçmelisiniz. Filtre, her pikseli belirtilen yarıçap içindeki piksellerin "
+"medyan değeriyle değiştirir."
 
 #: src/filters/enhance/despeckle.xml:31(para)
 msgid ""
@@ -1334,75 +1538,89 @@ msgstr ""
 "görüntülenir."
 
 #: src/filters/enhance/despeckle.xml:63(term)
-#, fuzzy
-#| msgid "Filter"
 msgid "Filter Type"
-msgstr "Süzgeç"
+msgstr "Süzgeç türü"
 
 #: src/filters/enhance/despeckle.xml:67(term)
 msgid "Median"
 msgstr "Ortanca"
 
 #: src/filters/enhance/despeckle.xml:69(para)
+#, fuzzy
 msgid ""
 "The median value of the pixels within the set <guilabel>Radius</guilabel> "
 "around the target pixel is used to replace the target pixel value."
 msgstr ""
+"Hedef piksel değerini değiştirmek için hedef pikselin etrafında ayarlanan "
+"<guilabel>Yarıçap</guilabel> içindeki piksellerin medyan değeri kullanılır."
 
 #: src/filters/enhance/despeckle.xml:77(term)
 msgid "Adaptive"
 msgstr "Uyarlamalı"
 
 #: src/filters/enhance/despeckle.xml:79(para)
+#, fuzzy
 msgid ""
 "Adapts the radius to image or selection content by analyzing the histogram "
 "of the region around the target pixel. The adapted radius will always be "
 "equal to or smaller than the specified radius."
 msgstr ""
+"Hedef pikselin etrafındaki bölgenin histogramını analiz ederek yarıçapı "
+"görüntü veya seçim içeriğine uyarlar. Uyarlanan yarıçap her zaman belirtilen "
+"yarıçapa eşit veya daha küçük olacaktır."
 
 #: src/filters/enhance/despeckle.xml:88(term)
-#, fuzzy
-#| msgid "Recursive"
 msgid "Recursive-Median"
-msgstr "Özyineli"
+msgstr "Özyineli Ortanca"
 
 #: src/filters/enhance/despeckle.xml:90(para)
+#, fuzzy
 msgid "Repeats the Median filter action to get a stronger effect."
-msgstr ""
+msgstr "Daha güçlü bir etki elde etmek için Medyan filtre işlemini tekrarlar."
 
 #: src/filters/enhance/despeckle.xml:96(term)
-#, fuzzy
-#| msgid "Recursive"
 msgid "Recursive-Adaptive"
-msgstr "Özyineli"
+msgstr "Özyineli Uyarlamalı"
 
 #: src/filters/enhance/despeckle.xml:98(para)
+#, fuzzy
 msgid "Repeats the Adaptive filter action to get a stronger effect."
 msgstr ""
+"Daha güçlü bir etki elde etmek için Uyarlanabilir filtre eylemini tekrarlar."
 
 #: src/filters/enhance/despeckle.xml:109(para)
+#, fuzzy
 msgid ""
 "Sets size of action window from 1 (3×3 pixels) to 20 (41×41). This window "
 "moves over the image, and the color in it is smoothed, so imperfections are "
 "removed."
 msgstr ""
+"Eylem penceresinin boyutunu 1 (3×3 piksel) ile 20 (41×41) arasında ayarlar. "
+"Bu pencere görüntünün üzerinde hareket eder ve içindeki renk yumuşatılır, "
+"böylece kusurlar giderilir."
 
 #: src/filters/enhance/despeckle.xml:117(term)
 msgid "Black level"
 msgstr "Kara düzey"
 
 #: src/filters/enhance/despeckle.xml:119(para)
+#, fuzzy
 msgid ""
 "Only include pixels brighter than the set value in the histogram (-1-255)."
 msgstr ""
+"Yalnızca histogramda ayarlanan değerden (-1-255) daha parlak pikselleri "
+"dahil edin."
 
 #: src/filters/enhance/despeckle.xml:125(term)
 msgid "White level"
 msgstr "Beyaz düzey"
 
 #: src/filters/enhance/despeckle.xml:127(para)
+#, fuzzy
 msgid "Only include pixels darker than the set value in the histogram (0-256)."
 msgstr ""
+"Yalnızca histogramda (0-256) ayarlanan değerden daha koyu pikselleri dahil "
+"edin."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1451,6 +1669,7 @@ msgid "Deinterlace"
 msgstr "Ayrıştır"
 
 #: src/filters/enhance/deinterlace.xml:19(para)
+#, fuzzy
 msgid ""
 "Images captured by videocards, especially when fast movement is recorded, "
 "may look blurred and stripped, with split objects. This is due to how "
@@ -1460,14 +1679,27 @@ msgid ""
 "second line of first image, etc. So, if there have been an important move "
 "between the two images, objects will appear split, shifted, stripped."
 msgstr ""
+"Video kartları tarafından yakalanan görüntüler, özellikle hızlı hareket "
+"kaydedildiğinde, bulanık ve soyulmuş, bölünmüş nesnelerle birlikte "
+"görünebilir. Bu kameraların çalışma şeklinden kaynaklanmaktadır. Saniyede 25 "
+"görüntü değil, yarı dikey çözünürlükle 50 görüntü kaydederler. Bir karede "
+"iki taramalı görüntü vardır. İlk görüntünün ilk satırını ikinci görüntünün "
+"ilk satırı, onu da ilk görüntünün ikinci satırı takip eder, vs. Dolayısıyla, "
+"iki görüntü arasında önemli bir hareket olduysa, nesneler bölünmüş, "
+"kaydırılmış, sıyrılmış görünecektir."
 
 #: src/filters/enhance/deinterlace.xml:29(para)
+#, fuzzy
 msgid ""
 "The Deinterlace filter keeps only one of both images and replaces missing "
 "lines by a gradient between previous and following lines. The resulting "
 "image, or selection, will be somewhat blurred, but can be improved by "
 "enhance filters."
 msgstr ""
+"Deinterlace filtresi her iki görüntüden yalnızca birini tutar ve eksik "
+"satırları önceki ve sonraki satırlar arasında bir gradyanla değiştirir. "
+"Ortaya çıkan görüntü veya seçim biraz bulanık olacaktır, ancak geliştirme "
+"filtreleriyle iyileştirilebilir."
 
 #: src/filters/enhance/deinterlace.xml:35(para)
 msgid ""
@@ -1534,24 +1766,36 @@ msgid "Simple applying example for the Deinterlace filter"
 msgstr "Ayrıştır süzgeci için basit uygulama örneği"
 
 #: src/filters/enhance/deinterlace.xml:124(para)
+#, fuzzy
 msgid ""
 "Top: even lines pixels are shifted by one pixel to the right. Bottom: one "
 "line is missing. These images are zoomed to show pixels."
 msgstr ""
+"Üst: çift çizgi pikselleri bir piksel sağa kaydırılmıştır. Alt: bir çizgi "
+"eksik. Bu görüntüler pikselleri göstermek için yakınlaştırılmıştır."
 
 #: src/filters/enhance/deinterlace.xml:137(para)
+#, fuzzy
 msgid ""
 "<quote>Keep even fields</quote> checked. Top: odd lines have been shifted to "
 "the right, to align themselves with the even lines. Bottom: the empty line "
 "has been filled with red."
 msgstr ""
+"<quote>Çift alanları</quote> işaretli <quote>tutun</quote>. Üst: tek "
+"satırlar, çift satırlarla aynı hizaya gelmeleri için sağa kaydırılmıştır. "
+"Alt: boş satır kırmızı ile doldurulmuştur."
 
 #: src/filters/enhance/deinterlace.xml:151(para)
+#, fuzzy
 msgid ""
 "<quote>Keep odd fields</quote> checked. Top: even lines have been shifted to "
 "the left, to align themselves with the odd lines. Bottom: the empty line "
 "persists, but joins up and down through a gradient."
 msgstr ""
+"<quote>Tek alanları</quote> işaretli <quote>tutun</quote>. Üst: çift "
+"çizgiler, tek çizgilerle hizalanmak üzere sola kaydırılmıştır. Alt: boş "
+"çizgi devam ediyor, ancak bir gradyan aracılığıyla yukarı ve aşağı "
+"birleşiyor."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1579,17 +1823,19 @@ msgstr "Kenar Yumuşatma"
 
 #: src/filters/enhance/antialias.xml:11(tertiary)
 #: src/filters/enhance/antialias.xml:14(primary)
-#, fuzzy
-#| msgid "Antialias"
 msgid "Anti-alias"
-msgstr "Kenar Yumuşatma"
+msgstr "Kenar yumuşatma"
 
 #: src/filters/enhance/antialias.xml:19(para)
+#, fuzzy
 msgid ""
 "This filter reduces alias effects (see <link linkend=\"glossary-"
 "antialiasing\">Anti-aliasing</link>) using the Scale3X edge-extrapolation "
 "algorithm."
 msgstr ""
+"Bu filtre, Scale3X <link linkend=\"glossary-antialiasing\">edge-"
+"extrapolation</link> algoritmasını kullanarak kenar yumuşatma etkilerini "
+"azaltır (bkz. Kenar yumuşatma)."
 
 #: src/filters/enhance/antialias.xml:27(para)
 msgid "<xref linkend=\"bibliography-online-scale2x\"/>."
@@ -1600,6 +1846,7 @@ msgid "<xref linkend=\"bibliography-online-advancemame\"/>."
 msgstr "<xref linkend=\"bibliography-online-advancemame\"/>."
 
 #: src/filters/enhance/antialias.xml:24(para)
+#, fuzzy
 msgid ""
 "Scale3X is derived from Scale2X, which is a graphics effect to increase the "
 "size of small bitmaps guessing the missing pixels without interpolating "
@@ -1608,6 +1855,13 @@ msgid ""
 "resolution played with video hardware like TVs, Arcade monitors, PC monitors "
 "and LCD screens.<placeholder-2/>"
 msgstr ""
+"Scale3X, pikseller arasında enterpolasyon yapmadan ve görüntüleri "
+"bulanıklaştırmadan eksik pikselleri tahmin ederek küçük bitmaplerin boyutunu "
+"artıran bir grafik efekti olan Scale2X'ten türetilmiştir.<placeholder-1/> "
+"Scale2X başlangıçta TV'ler, Arcade monitörleri, PC monitörleri ve LCD "
+"ekranlar gibi video donanımlarıyla oynanan düşük video çözünürlüğüne sahip "
+"eski Arcade ve PC oyunlarının kalitesini artırmak için geliştirilmiştir."
+"<placeholder-2/>"
 
 #. XXX: merge the following snippets if the <procedure> makes translating
 #.         too hard.
@@ -1620,15 +1874,21 @@ msgid "For every pixel,"
 msgstr "Her piksel için,"
 
 #: src/filters/enhance/antialias.xml:46(para)
+#, fuzzy
 msgid ""
 "the filter expands the original pixel in 9 (3×3) new pixels according to the "
 "Scale3X algorithm, using the colors of the pixel and its 8 adjacent pixels "
 "(extrapolation);"
 msgstr ""
+"filtre, pikselin ve 8 komşu pikselin renklerini kullanarak (ekstrapolasyon) "
+"Scale3X algoritmasına göre orijinal pikseli 9 (3×3) yeni piksele genişletir;"
 
 #: src/filters/enhance/antialias.xml:53(para)
+#, fuzzy
 msgid "then the filter subsamples the new pixels to a weighted average pixel."
 msgstr ""
+"daha sonra filtre yeni pikselleri ağırlıklı ortalama piksele alt "
+"örneklemektedir."
 
 # Kenar Yumuşatma süzgecinin iletişim kutusu olmadığı için üç nokta içermiyor.
 #: src/filters/enhance/antialias.xml:72(para)

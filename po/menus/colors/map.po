@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-07-15 08:41+0000\n"
+"POT-Creation-Date: 2025-10-31 18:10+0000\n"
 "PO-Revision-Date: 2025-10-28 20:44+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -378,19 +378,28 @@ msgid "You can access this command in two ways:"
 msgstr "Bu komuta iki şekilde erişebilirsiniz:"
 
 #: src/menus/colors/map/rearrange-colormap.xml:47(para)
+#, fuzzy
+#| msgid ""
+#| "from the main menu: <menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+#| "guisubmenu><guimenuitem>Rearrange Colormap</guimenuitem></menuchoice>."
 msgid ""
 "from the main menu: <menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-"guisubmenu><guimenuitem>Rearrange Colormap</guimenuitem></menuchoice>."
+"guisubmenu><guimenuitem>Rearrange Colormap…</guimenuitem></menuchoice>."
 msgstr ""
 "Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guisubmenu>Eşlem</"
 "guisubmenu><guimenuitem>Renk Eşlemini Yeniden Düzenle…</guimenuitem></"
 "menuchoice> yoluyla."
 
 #: src/menus/colors/map/rearrange-colormap.xml:57(para)
+#, fuzzy
+#| msgid ""
+#| "from the <link linkend=\"gimp-indexed-palette-dialog\">Colormap Dialog</"
+#| "link> using the right-click context menu "
+#| "<menuchoice><guimenuitem>Rearrange Colormap</guimenuitem></menuchoice>."
 msgid ""
 "from the <link linkend=\"gimp-indexed-palette-dialog\">Colormap Dialog</"
 "link> using the right-click context menu <menuchoice><guimenuitem>Rearrange "
-"Colormap</guimenuitem></menuchoice>."
+"Colormap…</guimenuitem></menuchoice>."
 msgstr ""
 "<link linkend=\"gimp-indexed-palette-dialog\">Renk Eşlemi</link>rıhtımında "
 "sağ tıklayıp açılan içerik menüsünden <menuchoice><guimenuitem>Renk Eşlemini "
@@ -997,7 +1006,9 @@ msgid "The <quote>Alien Map</quote> Dialog"
 msgstr "<quote>Uzaylı Eşlemi</quote> İletişim Kutusu"
 
 #: src/menus/colors/map/alien-map.xml:79(term)
-msgid "Color Model"
+#, fuzzy
+#| msgid "Color Model"
+msgid "Color model"
 msgstr "Renk modeli"
 
 #: src/menus/colors/map/alien-map.xml:81(para)

@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-22 20:15+0000\n"
+"POT-Creation-Date: 2025-10-28 17:58+0000\n"
 "PO-Revision-Date: 2025-10-10 01:22+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -1003,6 +1003,48 @@ msgstr ""
 "@@image: 'images/filters/examples/map/recursive_transform-first2.png'; "
 "md5=89a1f335f5320b4e4bd847affe02bbea"
 
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/map/recursive-transform.xml:276(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/stock-icons/gimp-vchain.svg'; "
+#| "md5=d47eea1ce790b9e3211d223704a1e9de"
+msgid ""
+"@@image: 'images/stock-icons/list-add.svg'; "
+"md5=a6b02423b2bdb765e759b91c2ee4f304"
+msgstr ""
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/map/recursive-transform.xml:288(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/stock-icons/gimp-vchain.svg'; "
+#| "md5=d47eea1ce790b9e3211d223704a1e9de"
+msgid ""
+"@@image: 'images/stock-icons/gimp-duplicate.svg'; "
+"md5=c4e41353df046752fe30ac926eac91f1"
+msgstr ""
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/map/recursive-transform.xml:300(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/stock-icons/gimp-vchain.svg'; "
+#| "md5=d47eea1ce790b9e3211d223704a1e9de"
+msgid ""
+"@@image: 'images/stock-icons/list-remove.svg'; "
+"md5=261f60f13410f4114a5d9b26fcdf4471"
+msgstr ""
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
+
 #: src/filters/map/recursive-transform.xml:10(title)
 #: src/filters/map/recursive-transform.xml:15(tertiary)
 #: src/filters/map/recursive-transform.xml:18(primary)
@@ -1146,19 +1188,33 @@ msgstr ""
 "interpolation-methods\"/>"
 
 #: src/filters/map/recursive-transform.xml:270(term)
-msgid "Three buttons"
-msgstr "Üç düğme"
+#, fuzzy
+#| msgid "<placeholder-1/> Diamonds for shearing"
+msgid "<placeholder-1/> Add transform"
+msgstr "<placeholder-1/> Eğme için karolar"
 
-#: src/filters/map/recursive-transform.xml:272(para)
+#: src/filters/map/recursive-transform.xml:282(term)
+#, fuzzy
+#| msgid "<placeholder-1/> Diamonds for shearing"
+msgid "<placeholder-1/> Duplicate transform"
+msgstr "<placeholder-1/> Eğme için karolar"
+
+#: src/filters/map/recursive-transform.xml:294(term)
+#, fuzzy
+#| msgid "<placeholder-1/> Diamonds for shearing"
+msgid "<placeholder-1/> Remove transform"
+msgstr "<placeholder-1/> Eğme için karolar"
+
+#: src/filters/map/recursive-transform.xml:307(para)
 msgid "To add, duplicate or remove transform."
 msgstr "Dönüşüm eklemek, çoğaltmak ya da kaldırmak için."
 
-#: src/filters/map/recursive-transform.xml:281(title)
+#: src/filters/map/recursive-transform.xml:316(title)
 msgid "Using Recursive Transform Filter"
 msgstr "Özyinelemeli Dönüştürme Süzgecini Kullanma"
 
 #. TODO later: to much difficult to perform
-#: src/filters/map/recursive-transform.xml:283(para)
+#: src/filters/map/recursive-transform.xml:318(para)
 msgid "You can use this filter to create a Droste effect, 3D effects, trees."
 msgstr ""
 
@@ -3558,6 +3614,9 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
+#~ msgid "Three buttons"
+#~ msgstr "Üç düğme"
 
 #, fuzzy
 #~| msgid "Activating the Filter"

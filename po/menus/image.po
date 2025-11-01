@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
 "PO-Revision-Date: 2025-10-20 20:55+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -61,7 +61,7 @@ msgstr "İstekli Kırpım"
 #: src/menus/image/print-size.xml:22(primary)
 #: src/menus/image/mode.xml:18(primary)
 #: src/menus/image/metadata.xml:11(primary)
-#: src/menus/image/introduction.xml:14(secondary)
+#: src/menus/image/introduction.xml:15(secondary)
 #: src/menus/image/guides.xml:15(primary)
 #: src/menus/image/encoding.xml:8(primary)
 #: src/menus/image/encoding.xml:15(primary)
@@ -104,7 +104,7 @@ msgid ""
 msgstr ""
 
 #: src/menus/image/zealous-crop.xml:39(title)
-#: src/menus/image/canvas-size.xml:258(title)
+#: src/menus/image/canvas-size.xml:254(title)
 msgid "Example"
 msgstr "Örnek"
 
@@ -113,7 +113,7 @@ msgid "<quote>Zealous Crop</quote> Example"
 msgstr ""
 
 #: src/menus/image/zealous-crop.xml:47(para)
-#: src/menus/image/canvas-size.xml:260(title)
+#: src/menus/image/canvas-size.xml:256(title)
 #: src/menus/image/align-layers.xml:160(para)
 #: src/menus/image/align-layers.xml:193(para)
 #: src/menus/image/align-layers.xml:261(para)
@@ -161,7 +161,7 @@ msgstr ""
 msgid "Activating the Command"
 msgstr "Komutu Etkinleştirmek"
 
-#: src/menus/image/zealous-crop.xml:75(para)
+#: src/menus/image/zealous-crop.xml:73(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Zealous Crop</guimenuitem></"
@@ -699,7 +699,7 @@ msgid ""
 "guides, see <xref linkend=\"gimp-concepts-image-guides\"/>."
 msgstr ""
 
-#: src/menus/image/slice-using-guides.xml:31(para)
+#: src/menus/image/slice-using-guides.xml:29(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Slice Using Guides</"
@@ -708,7 +708,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/scale.xml:71(None)
+#: src/menus/image/scale.xml:67(None)
 msgid ""
 "@@image: 'images/menus/image/scale-image.png'; "
 "md5=8f5399408f4dd96d59375045459e7a60"
@@ -718,10 +718,10 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/scale.xml:137(None) src/menus/image/print-size.xml:104(None)
-#: src/menus/image/print-size.xml:127(None)
-#: src/menus/image/canvas-size.xml:81(None)
-#: src/menus/image/canvas-size.xml:368(None)
+#: src/menus/image/scale.xml:133(None) src/menus/image/print-size.xml:100(None)
+#: src/menus/image/print-size.xml:123(None)
+#: src/menus/image/canvas-size.xml:77(None)
+#: src/menus/image/canvas-size.xml:364(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-vchain.svg'; "
 "md5=d47eea1ce790b9e3211d223704a1e9de"
@@ -767,26 +767,26 @@ msgid ""
 "<acronym>GIMP</acronym> to crash or not perform well."
 msgstr ""
 
-#: src/menus/image/scale.xml:53(para)
+#: src/menus/image/scale.xml:51(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Scale Image…</guimenuitem></"
 "menuchoice>."
 msgstr ""
 
-#: src/menus/image/scale.xml:65(title)
+#: src/menus/image/scale.xml:61(title)
 msgid "The <quote>Scale Image</quote> Dialog"
 msgstr ""
 
-#: src/menus/image/scale.xml:67(title)
+#: src/menus/image/scale.xml:63(title)
 msgid "The <quote>Scale Image</quote> dialog"
 msgstr ""
 
-#: src/menus/image/scale.xml:78(term)
+#: src/menus/image/scale.xml:74(term)
 msgid "Image Size"
 msgstr ""
 
-#: src/menus/image/scale.xml:80(para)
+#: src/menus/image/scale.xml:76(para)
 msgid ""
 "You should keep in mind that an image can be located in one of four places: "
 "in the image file, in RAM after it has been loaded, on your screen when it "
@@ -796,7 +796,7 @@ msgid ""
 "file)."
 msgstr ""
 
-#: src/menus/image/scale.xml:88(para)
+#: src/menus/image/scale.xml:84(para)
 msgid ""
 "However printing size also depends upon the resolution of the image, which "
 "essentially determines how many pixels there will be on each inch of paper. "
@@ -808,7 +808,7 @@ msgid ""
 "for Dot</link> option."
 msgstr ""
 
-#: src/menus/image/scale.xml:100(para)
+#: src/menus/image/scale.xml:96(para)
 msgid ""
 "If you enlarge an image beyond its original size, <acronym>GIMP</acronym> "
 "calculates the missing pixels by interpolation, but it does not add any new "
@@ -821,28 +821,28 @@ msgid ""
 "inherently do not scale up well."
 msgstr ""
 
-#: src/menus/image/scale.xml:113(para)
+#: src/menus/image/scale.xml:109(para)
 msgid ""
 "You may need to reduce your image if you intend to use it on a web page. You "
 "have to consider that most internet users have relatively small screens "
 "which cannot completely display a large image, for example on mobile devices."
 msgstr ""
 
-#: src/menus/image/scale.xml:119(para)
+#: src/menus/image/scale.xml:115(para)
 msgid "Adding or removing pixels is called <quote>Resampling</quote>."
 msgstr ""
 
-#: src/menus/image/scale.xml:124(term) src/menus/image/print-size.xml:86(term)
-#: src/menus/image/canvas-size.xml:69(term)
+#: src/menus/image/scale.xml:120(term) src/menus/image/print-size.xml:82(term)
+#: src/menus/image/canvas-size.xml:65(term)
 msgid "Width"
 msgstr ""
 
-#: src/menus/image/scale.xml:125(term) src/menus/image/print-size.xml:87(term)
-#: src/menus/image/canvas-size.xml:70(term)
+#: src/menus/image/scale.xml:121(term) src/menus/image/print-size.xml:83(term)
+#: src/menus/image/canvas-size.xml:66(term)
 msgid "Height"
 msgstr ""
 
-#: src/menus/image/scale.xml:127(para)
+#: src/menus/image/scale.xml:123(para)
 msgid ""
 "When you click on the <guimenuitem>Scale</guimenuitem> command, the dialog "
 "displays the dimensions of the original image in pixels. You can set the "
@@ -854,7 +854,7 @@ msgid ""
 "distort the image."
 msgstr ""
 
-#: src/menus/image/scale.xml:147(para)
+#: src/menus/image/scale.xml:143(para)
 msgid ""
 "However, you do not have to set the dimensions in pixels. You can choose "
 "different units from the drop-down menu. If you choose percent as the units, "
@@ -865,26 +865,26 @@ msgid ""
 "between physical units and image dimensions in pixels."
 msgstr ""
 
-#: src/menus/image/scale.xml:161(term) src/menus/image/print-size.xml:113(term)
+#: src/menus/image/scale.xml:157(term) src/menus/image/print-size.xml:109(term)
 msgid "X resolution"
 msgstr ""
 
-#: src/menus/image/scale.xml:162(term) src/menus/image/print-size.xml:114(term)
+#: src/menus/image/scale.xml:158(term) src/menus/image/print-size.xml:110(term)
 msgid "Y resolution"
 msgstr ""
 
-#: src/menus/image/scale.xml:164(para)
+#: src/menus/image/scale.xml:160(para)
 msgid ""
 "You can set the printing resolution for the image in the <guilabel>X "
 "resolution</guilabel> and <guilabel>Y resolution</guilabel> fields. You can "
 "also change the units of measurement by using the drop-down menu."
 msgstr ""
 
-#: src/menus/image/scale.xml:177(term)
+#: src/menus/image/scale.xml:173(term)
 msgid "Quality"
 msgstr ""
 
-#: src/menus/image/scale.xml:179(para)
+#: src/menus/image/scale.xml:175(para)
 msgid ""
 "To change the image size, either some pixels have to be removed or new "
 "pixels must be added. The process you use determines the quality of the "
@@ -893,13 +893,13 @@ msgid ""
 "scaled image:"
 msgstr ""
 
-#: src/menus/image/scale.xml:186(para)
+#: src/menus/image/scale.xml:182(para)
 msgid ""
 "Interpolation methods are described in <xref linkend=\"gimp-tool-"
 "interpolation-methods\"/>."
 msgstr ""
 
-#: src/menus/image/scale.xml:194(para)
+#: src/menus/image/scale.xml:190(para)
 msgid ""
 "See also the <link linkend=\"gimp-tool-scale\">Scale tool</link>, which lets "
 "you scale a layer, a selection or a path."
@@ -1211,7 +1211,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/print-size.xml:61(None)
+#: src/menus/image/print-size.xml:57(None)
 msgid ""
 "@@image: 'images/menus/image/print-size.png'; "
 "md5=9ca1e04e6a6c5b1ed5c695f56c1c6b3f"
@@ -1247,22 +1247,22 @@ msgstr ""
 msgid "Activating the Dialog"
 msgstr ""
 
-#: src/menus/image/print-size.xml:43(para)
+#: src/menus/image/print-size.xml:41(para)
 msgid ""
 "You can access this dialog from the main menu through "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Print Size…</guimenuitem></"
 "menuchoice>."
 msgstr ""
 
-#: src/menus/image/print-size.xml:55(title)
+#: src/menus/image/print-size.xml:51(title)
 msgid "Options in the <quote>Print Size</quote> Dialog"
 msgstr ""
 
-#: src/menus/image/print-size.xml:57(title)
+#: src/menus/image/print-size.xml:53(title)
 msgid "The <quote>Set Image Print Resolution</quote> dialog"
 msgstr ""
 
-#: src/menus/image/print-size.xml:65(para)
+#: src/menus/image/print-size.xml:61(para)
 msgid ""
 "The output resolution determines the number of pixels used per unit length "
 "for the printed image. Do not confuse the output resolution with the "
@@ -1270,7 +1270,7 @@ msgid ""
 "per inch); several dots are used to print a pixel."
 msgstr ""
 
-#: src/menus/image/print-size.xml:71(para)
+#: src/menus/image/print-size.xml:67(para)
 msgid ""
 "When the dialog is displayed, the resolution shown in the boxes is the "
 "resolution of the original image. If you increase the output resolution, the "
@@ -1279,20 +1279,20 @@ msgid ""
 "resolution."
 msgstr ""
 
-#: src/menus/image/print-size.xml:78(para)
+#: src/menus/image/print-size.xml:74(para)
 msgid ""
 "Increasing the resolution results in increasing the sharpness of the printed "
 "page. This is quite different from simply reducing the image size by scaling "
 "it, since no pixels (and no image information) are removed."
 msgstr ""
 
-#: src/menus/image/print-size.xml:89(para)
+#: src/menus/image/print-size.xml:85(para)
 msgid ""
 "You can set the printing Width and Height by using the text boxes. You can "
 "also choose the units for these values from the drop-down list."
 msgstr ""
 
-#: src/menus/image/print-size.xml:94(para)
+#: src/menus/image/print-size.xml:90(para)
 msgid ""
 "As soon as you change the Width or the Height, the X and/or Y resolution "
 "values automatically change accordingly. If the two resolution values remain "
@@ -1302,13 +1302,13 @@ msgid ""
 "break the link."
 msgstr ""
 
-#: src/menus/image/print-size.xml:116(para)
+#: src/menus/image/print-size.xml:112(para)
 msgid ""
 "You can set the resolution used to calculate the printed width and height "
 "from the physical size of the image, that is, the number of pixels in it."
 msgstr ""
 
-#: src/menus/image/print-size.xml:121(para)
+#: src/menus/image/print-size.xml:117(para)
 msgid ""
 "Use the text boxes to change these resolution values. They can be linked to "
 "keep their relationship constant. The <placeholder-1/> closed chain symbol "
@@ -1317,7 +1317,7 @@ msgid ""
 "values independently of each other."
 msgstr ""
 
-#: src/menus/image/print-size.xml:137(para)
+#: src/menus/image/print-size.xml:133(para)
 msgid ""
 "The default resolution unit used for the X and Y resolution may depend on "
 "the type of image you imported. PNG images that have a resolution set, are "
@@ -1325,7 +1325,7 @@ msgid ""
 "pixels/mm here in that case."
 msgstr ""
 
-#: src/menus/image/print-size.xml:144(para)
+#: src/menus/image/print-size.xml:140(para)
 msgid ""
 "GIMP currently does not have a preference that overrides the unit set in the "
 "image. However, if you change it here (and press OK to exit the dialog), it "
@@ -2936,13 +2936,6 @@ msgid ""
 "invisible layers</quote> checked"
 msgstr ""
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/introduction.xml:21(None)
-msgid "@@image: 'images/menus/image.png'; md5=1f75f80b783ca213aac5cbdd580d700c"
-msgstr ""
-"@@image: 'images/menus/image.png'; md5=1f75f80b783ca213aac5cbdd580d700c"
-
 #: src/menus/image/introduction.xml:11(title)
 msgid "Overview"
 msgstr "Genel Görünüm"
@@ -2951,19 +2944,25 @@ msgstr "Genel Görünüm"
 msgid "Menus"
 msgstr "Menüler"
 
-#: src/menus/image/introduction.xml:18(title)
-msgid "The Contents of the <quote>Image</quote> Menu"
-msgstr "<quote>Görüntü</quote> Menüsü İçerikleri"
-
-#: src/menus/image/introduction.xml:25(para)
+#: src/menus/image/introduction.xml:18(para)
+#, fuzzy
+#| msgid ""
+#| "The <guimenuitem>Image</guimenuitem> menu contains commands which use or "
+#| "affect the entire image in some way, not just the active layer or some "
+#| "other specific part of the image."
 msgid ""
-"The <guimenuitem>Image</guimenuitem> menu contains commands which use or "
-"affect the entire image in some way, not just the active layer or some other "
-"specific part of the image."
+"In this section, you will find help for commands in the "
+"<menuchoice><guimenu>Image</guimenu></menuchoice> menu, which includes "
+"commands that use or affect the entire image in some way, not just the "
+"active layer or a specific part of the image."
 msgstr ""
 "<guimenuitem>Görüntü</guimenuitem> menüsü, sadece etkin katmanı ya da "
 "görüntünün diğer kısmını değil, görüntünün tamamını kullanan ya da etkileyen "
 "komutları içerir."
+
+#: src/menus/image/introduction.xml:27(title)
+msgid "The Contents of the <quote>Image</quote> Menu"
+msgstr "<quote>Görüntü</quote> Menüsü İçerikleri"
 
 #: src/menus/image/guides.xml:9(title)
 msgid "<quote>Guides</quote> Submenu"
@@ -3198,7 +3197,7 @@ msgid "Flatten Image"
 msgstr "Görüntüyü Düzleştir"
 
 #: src/menus/image/flatten.xml:14(primary)
-#: src/menus/image/canvas-size.xml:156(term)
+#: src/menus/image/canvas-size.xml:152(term)
 msgid "Layers"
 msgstr "Katmanlar"
 
@@ -3258,7 +3257,7 @@ msgid ""
 "canvas size to the size of the selection, in both width and height."
 msgstr ""
 
-#: src/menus/image/fit-canvas-to-selection.xml:27(para)
+#: src/menus/image/fit-canvas-to-selection.xml:25(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Fit Canvas to Selection</"
@@ -3292,7 +3291,7 @@ msgid ""
 "show the whole layer, use this command."
 msgstr ""
 
-#: src/menus/image/fit-canvas-to-layers.xml:36(para)
+#: src/menus/image/fit-canvas-to-layers.xml:34(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Fit Canvas to Layers</"
@@ -4257,7 +4256,7 @@ msgid ""
 "your image."
 msgstr ""
 
-#: src/menus/image/convert-rgb.xml:39(para)
+#: src/menus/image/convert-rgb.xml:37(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Image</guimenu><guisubmenu>Mode</"
@@ -4266,7 +4265,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/convert-indexed.xml:59(None)
+#: src/menus/image/convert-indexed.xml:55(None)
 msgid ""
 "@@image: 'images/dialogs/image-mode-indexed.png'; "
 "md5=e488cb3bac99f86b639d76cf2f066a25"
@@ -4276,7 +4275,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/convert-indexed.xml:146(None)
+#: src/menus/image/convert-indexed.xml:142(None)
 msgid ""
 "@@image: 'images/dialogs/examples/dither1.png'; "
 "md5=2f9724ebd26cb514ca5fc5ea7a3b06ca"
@@ -4286,7 +4285,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/convert-indexed.xml:160(None)
+#: src/menus/image/convert-indexed.xml:156(None)
 msgid ""
 "@@image: 'images/dialogs/examples/dither2.png'; "
 "md5=e4f5d8acba92a791ef5c1a8088c011f5"
@@ -4296,7 +4295,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/convert-indexed.xml:174(None)
+#: src/menus/image/convert-indexed.xml:170(None)
 msgid ""
 "@@image: 'images/dialogs/examples/dither3.png'; "
 "md5=e796995173674f5ecbd068d395d8c470"
@@ -4306,7 +4305,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/convert-indexed.xml:188(None)
+#: src/menus/image/convert-indexed.xml:184(None)
 msgid ""
 "@@image: 'images/dialogs/examples/dither4.png'; "
 "md5=a7d7aa5679b470ce9ec1c3fc2cc9b806"
@@ -4333,29 +4332,29 @@ msgid ""
 "link> in the Glossary for more information about Indexed Color Mode."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:37(para)
+#: src/menus/image/convert-indexed.xml:35(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Image</guimenu><guisubmenu>Mode</"
 "guisubmenu><guimenuitem>Indexed…</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:50(title)
-#: src/menus/image/convert-indexed.xml:56(title)
+#: src/menus/image/convert-indexed.xml:46(title)
+#: src/menus/image/convert-indexed.xml:52(title)
 msgid "The <quote>Convert Image to Indexed Colors</quote> dialog"
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:51(para)
+#: src/menus/image/convert-indexed.xml:47(para)
 msgid ""
 "The <guimenuitem>Indexed</guimenuitem> command opens the <guilabel>Convert "
 "Image to Indexed Colors</guilabel> dialog."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:65(term)
+#: src/menus/image/convert-indexed.xml:61(term)
 msgid "Colormap Options"
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:69(para)
+#: src/menus/image/convert-indexed.xml:65(para)
 msgid ""
 "<guilabel>Generate optimum palette</guilabel>: This option generates the "
 "best possible palette with a default maximum number of 256 colors (classic "
@@ -4365,19 +4364,19 @@ msgid ""
 "dithering, however."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:80(para)
+#: src/menus/image/convert-indexed.xml:76(para)
 msgid ""
 "<guilabel>Use web-optimized palette</guilabel>: use a palette that is "
 "optimized for the web."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:85(para)
+#: src/menus/image/convert-indexed.xml:81(para)
 msgid ""
 "<guilabel>Use black and white (1-bit) palette</guilabel>: This option "
 "generates an image which uses only two colors, black and white."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:91(para)
+#: src/menus/image/convert-indexed.xml:87(para)
 msgid ""
 "<guilabel>Use custom palette</guilabel>: This button lets you select a "
 "custom palette from a list. The number of colors is indicated for each "
@@ -4391,18 +4390,18 @@ msgid ""
 "a light background, and never rely on color to convey information."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:106(para)
+#: src/menus/image/convert-indexed.xml:102(para)
 msgid ""
 "Some colors in the palette may not be used if your image does not have many "
 "colors. They will be removed from the palette if the <guilabel>Remove unused "
 "colors from final palette</guilabel> option is checked."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:117(term)
+#: src/menus/image/convert-indexed.xml:113(term)
 msgid "Dithering Options"
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:119(para)
+#: src/menus/image/convert-indexed.xml:115(para)
 msgid ""
 "Since an indexed image contains 256 colors or less, some colors in the "
 "original image may not be available in the palette. This may result in some "
@@ -4411,7 +4410,7 @@ msgid ""
 "Palette Options."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:126(para)
+#: src/menus/image/convert-indexed.xml:122(para)
 msgid ""
 "A dithering filter tries to approximate a color which is missing from the "
 "palette by instead using clusters of pixels of similar colors which are in "
@@ -4420,7 +4419,7 @@ msgid ""
 "linkend=\"glossary-dithering\">dithering</link>."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:134(para)
+#: src/menus/image/convert-indexed.xml:130(para)
 msgid ""
 "Three filters (plus <quote>None</quote>) are available. It is not possible "
 "to predict what the result of a particular filter will be on your image, so "
@@ -4429,45 +4428,45 @@ msgid ""
 "animations."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:143(title)
+#: src/menus/image/convert-indexed.xml:139(title)
 msgid "Example: full color, with no dithering"
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:149(para)
+#: src/menus/image/convert-indexed.xml:145(para)
 msgid "This is an example image with a smooth transition in RGB Mode."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:157(title)
+#: src/menus/image/convert-indexed.xml:153(title)
 msgid "Example: four colors, with no dithering"
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:163(para)
+#: src/menus/image/convert-indexed.xml:159(para)
 msgid ""
 "The same image, after being transformed to four indexed colors, without "
 "dithering."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:171(title)
+#: src/menus/image/convert-indexed.xml:167(title)
 msgid "Example: Floyd-Steinberg (normal)"
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:177(para)
+#: src/menus/image/convert-indexed.xml:173(para)
 msgid ""
 "The same image, with four indexed colors and <quote>Floyd-Steinberg "
 "(normal)</quote> dithering."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:185(title)
+#: src/menus/image/convert-indexed.xml:181(title)
 msgid "Example: Floyd-Steinberg (reduced color bleeding)"
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:191(para)
+#: src/menus/image/convert-indexed.xml:187(para)
 msgid ""
 "The same image, with four indexed colors and <quote>Floyd-Steinberg (reduced "
 "color bleeding)</quote> dithering."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:199(para)
+#: src/menus/image/convert-indexed.xml:195(para)
 #, fuzzy
 msgid ""
 "In a GIF image, transparency is encoded in 1 bit: transparent or not "
@@ -4477,13 +4476,13 @@ msgid ""
 "give you better results."
 msgstr "Yarı Düzleştir"
 
-#: src/menus/image/convert-indexed.xml:207(para)
+#: src/menus/image/convert-indexed.xml:203(para)
 msgid ""
 "<guilabel>Enable dithering of text layers</guilabel>: dithering text layers "
 "will make them uneditable."
 msgstr ""
 
-#: src/menus/image/convert-indexed.xml:215(para)
+#: src/menus/image/convert-indexed.xml:211(para)
 msgid ""
 "You can edit the color palette of an indexed image by using the <link "
 "linkend=\"gimp-indexed-palette-dialog\">Colormap Dialog</link>."
@@ -4557,7 +4556,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/configure-grid.xml:56(None)
+#: src/menus/image/configure-grid.xml:52(None)
 msgid ""
 "@@image: 'images/menus/image/configure-grid.png'; "
 "md5=079a595828266497997177af33110577"
@@ -4588,115 +4587,115 @@ msgid ""
 "lines. You can choose one of five different grid styles."
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:36(para)
+#: src/menus/image/configure-grid.xml:34(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Configure Grid…</"
 "guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:48(title)
+#: src/menus/image/configure-grid.xml:44(title)
 msgid "Description of the <quote>Configure Image Grid</quote> dialog"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:52(title)
+#: src/menus/image/configure-grid.xml:48(title)
 msgid "The <quote>Configure Grid</quote> dialog"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:61(title)
+#: src/menus/image/configure-grid.xml:57(title)
 msgid "Appearance"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:62(para)
+#: src/menus/image/configure-grid.xml:58(para)
 msgid ""
 "In the <guimenu>Configure Grid</guimenu> dialog, you can set the properties "
 "of the grid which is shown when you turn on the image grid."
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:68(term)
+#: src/menus/image/configure-grid.xml:64(term)
 msgid "Line style"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:72(term)
+#: src/menus/image/configure-grid.xml:68(term)
 msgid "Intersections (dots)"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:74(para)
+#: src/menus/image/configure-grid.xml:70(para)
 msgid ""
 "This style, the least conspicuous, shows a simple dot at each intersection "
 "of the grid lines."
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:81(term)
+#: src/menus/image/configure-grid.xml:77(term)
 msgid "Intersections (crosshairs)"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:83(para)
+#: src/menus/image/configure-grid.xml:79(para)
 msgid ""
 "This style, the default, shows a plus-shaped crosshair at each intersection "
 "of the grid lines."
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:90(term)
+#: src/menus/image/configure-grid.xml:86(term)
 msgid "Dashed"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:92(para)
+#: src/menus/image/configure-grid.xml:88(para)
 msgid ""
 "This style shows dashed lines in the foreground color of the grid. If the "
 "lines are too close together, the grid won't look good."
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:100(term)
+#: src/menus/image/configure-grid.xml:96(term)
 msgid "Double dashed"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:102(para)
+#: src/menus/image/configure-grid.xml:98(para)
 msgid ""
 "This style shows dashed lines, where the foreground and background colors of "
 "the grid alternate."
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:109(term)
+#: src/menus/image/configure-grid.xml:105(term)
 msgid "Solid"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:111(para)
+#: src/menus/image/configure-grid.xml:107(para)
 msgid "This style shows solid grid lines in the foreground color of the grid."
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:121(term)
+#: src/menus/image/configure-grid.xml:117(term)
 msgid "Foreground and Background colors"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:123(para)
+#: src/menus/image/configure-grid.xml:119(para)
 msgid "Click on the color button to select a new color for the grid."
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:130(title)
+#: src/menus/image/configure-grid.xml:126(title)
 msgid "Spacing"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:132(term)
-#: src/menus/image/configure-grid.xml:145(term)
+#: src/menus/image/configure-grid.xml:128(term)
+#: src/menus/image/configure-grid.xml:141(term)
 msgid "Horizontal"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:133(term)
-#: src/menus/image/configure-grid.xml:146(term)
+#: src/menus/image/configure-grid.xml:129(term)
+#: src/menus/image/configure-grid.xml:142(term)
 msgid "Vertical"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:135(para)
+#: src/menus/image/configure-grid.xml:131(para)
 msgid "You can select the cell size of the grid and the unit of measurement."
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:143(title)
-#: src/menus/image/canvas-size.xml:105(title)
+#: src/menus/image/configure-grid.xml:139(title)
+#: src/menus/image/canvas-size.xml:101(title)
 msgid "Offset"
 msgstr ""
 
-#: src/menus/image/configure-grid.xml:148(para)
+#: src/menus/image/configure-grid.xml:144(para)
 msgid ""
 "You can set the offset of the first cell. The coordinate origin is the upper "
 "left corner of the image. By default, the grid begins at the coordinate "
@@ -4753,7 +4752,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:62(None)
+#: src/menus/image/canvas-size.xml:58(None)
 msgid ""
 "@@image: 'images/menus/image/canvas-size.png'; "
 "md5=2a1ed1eba4f386a9f3973819d05cedc3"
@@ -4763,7 +4762,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:189(None)
+#: src/menus/image/canvas-size.xml:185(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-visible.svg'; "
 "md5=604690bf5f3c33f04262d9d6e959fc64"
@@ -4773,7 +4772,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:264(None)
+#: src/menus/image/canvas-size.xml:260(None)
 #, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/image/canvas-size-ex2.png'; "
@@ -4787,7 +4786,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:278(None)
+#: src/menus/image/canvas-size.xml:274(None)
 #, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/image/canvas-size-ex5.png'; "
@@ -4801,7 +4800,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:295(None)
+#: src/menus/image/canvas-size.xml:291(None)
 #, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/image/canvas-size-ex2.png'; "
@@ -4815,7 +4814,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:307(None)
+#: src/menus/image/canvas-size.xml:303(None)
 #, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/image/canvas-size-ex2.png'; "
@@ -4829,7 +4828,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:321(None)
+#: src/menus/image/canvas-size.xml:317(None)
 #, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/image/canvas-size-ex3.png'; "
@@ -4843,7 +4842,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:334(None)
+#: src/menus/image/canvas-size.xml:330(None)
 #, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/image/canvas-size-ex5.png'; "
@@ -4857,7 +4856,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:359(None)
+#: src/menus/image/canvas-size.xml:355(None)
 msgid ""
 "@@image: 'images/menus/image/canvas-size-ex4.png'; "
 "md5=9f6d98883e41848510ad04b284999c26"
@@ -4867,7 +4866,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:382(None)
+#: src/menus/image/canvas-size.xml:378(None)
 msgid ""
 "@@image: 'images/menus/image/canvas-size-ex5.png'; "
 "md5=ea89ab944513d03214f85e750ded5334"
@@ -4876,7 +4875,7 @@ msgstr ""
 "md5=ea89ab944513d03214f85e750ded5334"
 
 #: src/menus/image/canvas-size.xml:13(title)
-#: src/menus/image/canvas-size.xml:67(title)
+#: src/menus/image/canvas-size.xml:63(title)
 msgid "Canvas Size"
 msgstr ""
 
@@ -4907,22 +4906,22 @@ msgid ""
 "click and drag to move the image against this frame."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:44(para)
+#: src/menus/image/canvas-size.xml:42(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Canvas Size…</guimenuitem></"
 "menuchoice>."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:56(title)
+#: src/menus/image/canvas-size.xml:52(title)
 msgid "Description of the <quote>Set Image Canvas Size</quote> dialog"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:58(title)
+#: src/menus/image/canvas-size.xml:54(title)
 msgid "The <quote>Set Image Canvas Size</quote> dialog"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:72(para)
+#: src/menus/image/canvas-size.xml:68(para)
 msgid ""
 "You can set the <guilabel>Width</guilabel> and the <guilabel>Height</"
 "guilabel> of the canvas. The default units are pixels but you can choose "
@@ -4934,7 +4933,7 @@ msgid ""
 "clicking on it, you can set Width and Height separately."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:92(para)
+#: src/menus/image/canvas-size.xml:88(para)
 msgid ""
 "Whatever units you use, information about the size in pixels and the current "
 "resolution are always displayed below the <emphasis>Width</emphasis> and "
@@ -4943,7 +4942,7 @@ msgid ""
 "linkend=\"gimp-image-print-size\">Print Size dialog</link>."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:106(para)
+#: src/menus/image/canvas-size.xml:102(para)
 msgid ""
 "The <guilabel>Offset</guilabel> values are used to place the image (the "
 "image, not the active layer) on the canvas. You can see the size and the "
@@ -4952,31 +4951,31 @@ msgid ""
 "thin negative border."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:114(term)
+#: src/menus/image/canvas-size.xml:110(term)
 msgid "X"
 msgstr "X"
 
-#: src/menus/image/canvas-size.xml:115(term)
+#: src/menus/image/canvas-size.xml:111(term)
 msgid "Y"
 msgstr "Y"
 
-#: src/menus/image/canvas-size.xml:126(para)
+#: src/menus/image/canvas-size.xml:122(para)
 msgid "by click-and-dragging the image,"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:131(para)
+#: src/menus/image/canvas-size.xml:127(para)
 msgid ""
 "by entering values in the <guilabel>X</guilabel> and <guilabel>Y</guilabel> "
 "text boxes,"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:137(para)
+#: src/menus/image/canvas-size.xml:133(para)
 msgid ""
 "by clicking on the small arrow-heads. This increments the value by one pixel "
 "(unit)."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:143(para)
+#: src/menus/image/canvas-size.xml:139(para)
 msgid ""
 "And when the focus is on a text box, you can use the keyboard arrow keys, "
 "<keycap>Up</keycap> and <keycap>Down</keycap> to change by one pixel (unit), "
@@ -4984,7 +4983,7 @@ msgid ""
 "by 10 pixels (units)."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:117(para)
+#: src/menus/image/canvas-size.xml:113(para)
 msgid ""
 "The <guilabel>X</guilabel> and <guilabel>Y</guilabel> specify the "
 "coordinates of the upper left corner of the image relative to the upper left "
@@ -4993,35 +4992,35 @@ msgid ""
 "can't exceed the canvas borders): <placeholder-1/>"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:165(para)
+#: src/menus/image/canvas-size.xml:161(para)
 msgid ""
 "<guilabel>None</guilabel>: default option. No layer is resized, only the "
 "canvas is."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:171(para)
+#: src/menus/image/canvas-size.xml:167(para)
 msgid "<guilabel>All Layers</guilabel>: all layers are resized to canvas size."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:177(para)
+#: src/menus/image/canvas-size.xml:173(para)
 msgid ""
 "<guilabel>Image-sized layers</guilabel>: only layers with the same size as "
 "the image are sized to canvas size."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:183(para)
+#: src/menus/image/canvas-size.xml:179(para)
 msgid ""
 "<guilabel>All visible layers</guilabel>: only visible layers, marked with a "
 "<placeholder-1/> icon, in the Layers dialog, are sized to canvas size."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:160(para)
+#: src/menus/image/canvas-size.xml:156(para)
 msgid ""
 "<guilabel>Resize layers</guilabel>: this drop-down list offers you several "
 "possibilities: <placeholder-1/>"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:200(para)
+#: src/menus/image/canvas-size.xml:196(para)
 msgid ""
 "<guilabel>Fill with</guilabel>: you can fill resized layers with "
 "<guilabel>Foreground color</guilabel>, <guilabel>Background color</"
@@ -5030,31 +5029,31 @@ msgid ""
 "guilabel>."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:211(para)
+#: src/menus/image/canvas-size.xml:207(para)
 msgid ""
 "<guilabel>Resize text layers</guilabel>: Resizing text layers will make them "
 "uneditable."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:220(term)
+#: src/menus/image/canvas-size.xml:216(term)
 msgid "Center"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:222(para)
+#: src/menus/image/canvas-size.xml:218(para)
 msgid ""
 "The <guilabel>Center</guilabel> button allows you to center the image on the "
 "canvas. When you click on the Center button, the offset values are "
 "automatically calculated and displayed in the text boxes."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:232(para)
+#: src/menus/image/canvas-size.xml:228(para)
 msgid ""
 "When you click on the <guilabel>Resize</guilabel> button, the canvas is "
 "resized, but the pixel information and the drawing scale of the image are "
 "unchanged."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:237(para)
+#: src/menus/image/canvas-size.xml:233(para)
 msgid ""
 "If the layers of the image did not extend beyond the borders of the canvas "
 "before you changed its size, there are no layers on the part of the canvas "
@@ -5070,14 +5069,14 @@ msgid ""
 "glass mount with a removable back for slipping in a photograph)."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:267(para)
+#: src/menus/image/canvas-size.xml:263(para)
 msgid ""
 "The background color in the <link linkend=\"gimp-toolbox-color-"
 "area\">Foreground/Background Colors area of the Toolbox</link> is set to "
 "yellow; Original image with 100×100 pixels size."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:281(para)
+#: src/menus/image/canvas-size.xml:277(para)
 msgid ""
 "We started with a green background layer 100×100 pixels. Then we added a new "
 "red layer 80×80 pixels. The active layer limits are marked with a black and "
@@ -5085,55 +5084,55 @@ msgid ""
 "unoccupied part is transparent."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:291(title)
+#: src/menus/image/canvas-size.xml:287(title)
 msgid "Canvas enlarged (layers unchanged)"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:298(para)
+#: src/menus/image/canvas-size.xml:294(para)
 msgid ""
 "The canvas has been enlarged to 120×120 pixels. The unoccupied part of the "
 "canvas is transparent."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:310(para)
+#: src/menus/image/canvas-size.xml:306(para)
 msgid "The layers size remained unchanged."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:317(title)
+#: src/menus/image/canvas-size.xml:313(title)
 msgid "Canvas enlarged (all layers changed)"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:324(para)
+#: src/menus/image/canvas-size.xml:320(para)
 msgid ""
 "The canvas has been enlarged to 120×120 pixels. The undrawn part is "
 "transparent in the red layer and yellow (background color in Toolbox) in the "
 "green background layer."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:337(para)
+#: src/menus/image/canvas-size.xml:333(para)
 msgid "All layers have been enlarged to the canvas size."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:346(title)
+#: src/menus/image/canvas-size.xml:342(title)
 msgid "What's Canvas Size useful for?"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:347(para)
+#: src/menus/image/canvas-size.xml:343(para)
 msgid ""
 "You may want to add some stuff around your image: enlarge canvas size, add a "
 "new layer that will have the same size as the new canvas and then paint this "
 "new layer. That's the converse of cropping."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:353(para)
+#: src/menus/image/canvas-size.xml:349(para)
 msgid "You can also use this command to crop an image:"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:355(title)
+#: src/menus/image/canvas-size.xml:351(title)
 msgid "Resizing canvas"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:363(para)
+#: src/menus/image/canvas-size.xml:359(para)
 msgid ""
 "Click on the <placeholder-1/> chain next to Width and Height entries to "
 "unlink dimensions. By modifying these dimensions and moving image against "
@@ -5141,11 +5140,11 @@ msgid ""
 "Click on the Center button and then on the Resize button."
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:378(title)
+#: src/menus/image/canvas-size.xml:374(title)
 msgid "Cropped image"
 msgstr ""
 
-#: src/menus/image/canvas-size.xml:387(para)
+#: src/menus/image/canvas-size.xml:383(para)
 msgid "The <link linkend=\"gimp-tool-crop\">Crop tool</link> is easier to use."
 msgstr ""
 
@@ -5782,6 +5781,11 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/image.png'; md5=1f75f80b783ca213aac5cbdd580d700c"
+#~ msgstr ""
+#~ "@@image: 'images/menus/image.png'; md5=1f75f80b783ca213aac5cbdd580d700c"
 
 #~| msgid ""
 #~| "@@image: 'images/menus/image/canvas-size-ex1.png'; "

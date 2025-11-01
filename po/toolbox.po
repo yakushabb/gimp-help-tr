@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-09-28 22:38+0300\n"
+"PO-Revision-Date: 2025-10-28 23:29+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -323,7 +323,7 @@ msgstr "Etkin Görüntü Alanı"
 
 #: src/toolbox/toolbox-color-area.xml:144(secondary)
 msgid "Active image area"
-msgstr "Aktif görüntü alanı"
+msgstr "Etkin görüntü alanı"
 
 #: src/toolbox/toolbox-color-area.xml:148(title)
 msgid "Active Image Area in the Toolbox"
@@ -552,7 +552,7 @@ msgstr ""
 
 #: src/toolbox/text.xml:177(term)
 msgid "Use editor window"
-msgstr ""
+msgstr "Düzenleyici penceresini kullan"
 
 #: src/toolbox/text.xml:179(para)
 msgid ""
@@ -562,7 +562,7 @@ msgstr ""
 
 #: src/toolbox/text.xml:187(term)
 msgid "Show on-canvas editor"
-msgstr ""
+msgstr "Tuvalde düzenleyici göster"
 
 #: src/toolbox/text.xml:189(para)
 msgid ""
@@ -572,7 +572,6 @@ msgid ""
 msgstr ""
 
 #: src/toolbox/text.xml:198(term) src/toolbox/text.xml:309(term)
-#, fuzzy
 msgid "Antialiasing"
 msgstr "Kenar yumuşatma"
 

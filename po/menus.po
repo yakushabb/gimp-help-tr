@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-07-15 08:40+0000\n"
-"PO-Revision-Date: 2025-09-19 17:49+0300\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
+"PO-Revision-Date: 2025-10-28 22:59+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,31 +17,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/windows.xml:33(None)
-msgid ""
-"@@image: 'images/menus/windows.png'; md5=317a4ebcbc347681d865f1eccff901d1"
-msgstr ""
-"@@image: 'images/menus/windows.png'; md5=317a4ebcbc347681d865f1eccff901d1"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/windows.xml:42(None)
-msgid ""
-"@@image: 'images/menus/windows/expanded-menu.png'; "
-"md5=bf9ed79b3e266dd8e7ea3fdb6582a82f"
-msgstr ""
-"@@image: 'images/menus/windows/expanded-menu.png'; "
-"md5=bf9ed79b3e266dd8e7ea3fdb6582a82f"
-
-#: src/menus/windows.xml:12(title)
-msgid "<quote>Windows</quote> Menu"
+#: src/menus/windows.xml:11(title)
+#, fuzzy
+#| msgid "<quote>Windows</quote> Menu"
+msgid "The <quote>Windows</quote> Menu"
 msgstr "<quote>Pencereler</quote> Menüsü"
 
-#: src/menus/windows.xml:15(primary) src/menus/view.xml:14(secondary)
+#: src/menus/windows.xml:14(primary) src/menus/view.xml:14(secondary)
 #: src/menus/tools.xml:14(primary) src/menus/select.xml:12(primary)
 #: src/menus/introduction.xml:14(primary)
 #: src/menus/introduction.xml:33(primary)
@@ -52,51 +36,51 @@ msgstr "<quote>Pencereler</quote> Menüsü"
 msgid "Menus"
 msgstr "Menüler"
 
-#: src/menus/windows.xml:16(secondary)
+#: src/menus/windows.xml:15(secondary)
 msgid "Windows"
 msgstr "Pencereler"
 
-#: src/menus/windows.xml:19(para)
-msgid "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs:"
-msgstr ""
-"Bu menü, <acronym>GIMP</acronym> pencereler menüsünü yönetmenizi sağlar:"
+#: src/menus/windows.xml:19(title) src/menus/tools.xml:19(title)
+msgid "Overview"
+msgstr "Genel Görünüm"
 
-#: src/menus/windows.xml:22(para)
+#: src/menus/windows.xml:20(para)
 msgid ""
-"The <quote>Windows</quote> menu name is not well adapted to the new single-"
-"window mode. Nevertheless, its functions concern multi and single modes. Its "
-"display may vary according presence or absence of images and docks:"
+"In this section, you will find help for commands in the "
+"<menuchoice><guimenu>Windows</guimenu></menuchoice> menu, which allows you "
+"to manage <acronym>GIMP</acronym>'s windows and docks."
 msgstr ""
-"<quote>Pencereler</quote> menü adı yeni tek pencereli kiple yeterince uyumlu "
-"görünmeyebilir. Buna rağmen işlevleri, çok pencereli ve tek pencereli kip "
-"ile ilgilidir. Görünümü, görüntülerin ve rıhtımların varlığına veya "
-"yokluğuna göre değişebilir:"
 
-#: src/menus/windows.xml:30(title)
-msgid "Contents of the <quote>Windows</quote> Menu"
+#: src/menus/windows.xml:26(para)
+msgid ""
+"The available commands of this menu may vary according presence or absence "
+"of images and docks."
+msgstr ""
+
+#: src/menus/windows.xml:33(title)
+#, fuzzy
+#| msgid "Contents of the <quote>Windows</quote> Menu"
+msgid "The Contents of the <quote>Windows</quote> Menu"
 msgstr "<quote>Pencereler</quote> Menüsü İçerikleri"
 
-#: src/menus/windows.xml:36(para)
-msgid "Without open images"
-msgstr "Açık görüntü olmadan"
+#: src/menus/windows.xml:36(term)
+#, fuzzy
+#| msgid "Recently closed"
+msgid "Recently Closed Docks"
+msgstr "Son kapatılan"
 
-#: src/menus/windows.xml:45(para)
-msgid "With open images"
-msgstr "Açık görüntülerle"
-
-# Son cümleyi anlamadım. İzole edilmiş pencereler nedir?
-#: src/menus/windows.xml:52(para)
+#: src/menus/windows.xml:38(para)
+#: src/menus/windows-open-recent-docks.xml:16(para)
 msgid ""
-"<command>Recently Closed Docks</command>: this command opens the list of the "
-"docks you have closed recently. You can reopen them by clicking on their "
-"name. Please note that isolated windows are not concerned."
+"This command opens the list of the docks you have closed recently. You can "
+"reopen them by clicking on their name. Please note that isolated windows are "
+"not concerned."
 msgstr ""
-"<command>Son Kapatılan Rıhtımlar</command>: bu komut, yakın zamanda "
-"kapattığınız rıhtımların listesini açar. Adlarına tıklayarak kendilerini "
-"yeniden açabilirsiniz. Lütfen, izole edilmiş pencerelerle ilgili olmadığını "
-"unutmayın."
+"Bu komut, yakın zamanda kapattığınız rıhtımların listesini açar. Adlarına "
+"tıklayarak kendilerini yeniden açabilirsiniz. Lütfen, izole edilmiş "
+"pencerelerle ilgili olmadığını unutmayın."
 
-#: src/menus/windows.xml:58(para)
+#: src/menus/windows.xml:43(para)
 msgid ""
 "For more information about docks, please see <link linkend=\"gimp-concepts-"
 "docks\">Dialogs and Docking</link>."
@@ -104,22 +88,43 @@ msgstr ""
 "Rıhtımlarla ilgili daha ayrıntılı bilgi için, lütfen bakınız: <xref "
 "linkend=\"gimp-concepts-docks\"/>."
 
-#: src/menus/windows.xml:65(para)
+#: src/menus/windows.xml:50(term)
+#, fuzzy
+#| msgid "A dockable dialog."
+msgid "Dockable Dialogs"
+msgstr "Rıhtımlanabilir bir kutu."
+
+#: src/menus/windows.xml:52(para)
+#, fuzzy
+#| msgid ""
+#| "<command>Dockable Dialogs</command>: this command opens the list of "
+#| "dockable dialogs. Please refer to <xref linkend=\"gimp-concepts-docks\"/>."
 msgid ""
-"<command>Dockable Dialogs</command>: this command opens the list of dockable "
-"dialogs. Please refer to <xref linkend=\"gimp-concepts-docks\"/>."
+"This command opens the list of dockable dialogs. Please refer to <xref "
+"linkend=\"gimp-concepts-docks\"/>."
 msgstr ""
 "<command>Rıhtımlanabilir Kutular</command>: bu komut rıhtımlanabilir "
 "kutuların listesini açar. Lütfen bakınız: <xref linkend=\"gimp-concepts-"
 "docks\"/>."
 
-#: src/menus/windows.xml:72(para)
+#: src/menus/windows.xml:60(term)
+#, fuzzy
+#| msgid "Tools"
+msgid "Toolbox"
+msgstr "Araçlar"
+
+#: src/menus/windows.xml:62(para)
+#, fuzzy
+#| msgid ""
+#| "<command>Toolbox</command>: clicking on this command or using the "
+#| "<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> shortcut, "
+#| "raises the toolbox usually together with the tool options dock. Note that "
+#| "in single-window mode this usually doesn't have any effect since the "
+#| "toolbox is part of the main window."
 msgid ""
-"<command>Toolbox</command>: clicking on this command or using the "
-"<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> shortcut, "
-"raises the toolbox usually together with the tool options dock. Note that in "
-"single-window mode this usually doesn't have any effect since the toolbox is "
-"part of the main window."
+"Clicking on this command or using the <keycombo><keycap>Ctrl</"
+"keycap><keycap>B</keycap></keycombo> shortcut, raises the toolbox usually "
+"together with the tool options dock."
 msgstr ""
 "<command>Araç Kutusu</command>: bu komuta tıklamak veya "
 "<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> kısayolunu "
@@ -127,34 +132,72 @@ msgstr ""
 "Tek pencere kipinde, araç kutusu ana pencerenin bir parçası olduğu için "
 "bunun genellikle herhangi bir etkisi olmaz."
 
-#: src/menus/windows.xml:82(para)
+#: src/menus/windows.xml:70(para)
 msgid ""
-"The list of open image windows: clicking on an image name, or using the "
-"<keycombo><keycap>Alt</keycap><keycap>Number of the image</keycap></"
-"keycombo> shortcut, makes the image active."
+"Note that in single-window mode this usually doesn't have any effect since "
+"the toolbox is part of the main window."
 msgstr ""
-"Açık görüntüler listesi: bir görüntü adına tıklamak veya "
-"<keycombo><keycap>Alt</keycap><keycap>Sayı</keycap></keycombo> kısayolunu "
-"kullanmak, görüntüyü aktif eder."
 
-#: src/menus/windows.xml:90(para)
+#: src/menus/windows.xml:78(term)
+#, fuzzy
+#| msgid "Without open images"
+msgid "The list of open image windows"
+msgstr "Açık görüntü olmadan"
+
+#: src/menus/windows.xml:80(para)
+#, fuzzy
+#| msgid ""
+#| "The list of open image windows: clicking on an image name, or using the "
+#| "<keycombo><keycap>Alt</keycap><keycap>Number of the image</keycap></"
+#| "keycombo> shortcut, makes the image active."
 msgid ""
-"The list of open docks: in this list, docks are named with the name of the "
-"active dialog in this dock. Clicking on a dock name raises this dock. Note "
-"that in single-window mode only docks that are not part of the main window "
-"will be shown here."
+"Clicking on an image name, or using the <keycombo><keycap>Alt</"
+"keycap><keycap>Number of the image</keycap></keycombo> shortcut, makes the "
+"image active."
+msgstr ""
+"Açık görüntü pencerelerinin listesi: bir görüntü adına tıklamak ya da "
+"<keycombo><keycap>Alt</keycap><keycap>Sayı</keycap></keycombo> kısayolunu "
+"kullanmak görüntüyü etkinleştirir."
+
+#: src/menus/windows.xml:90(term)
+msgid "The list of open docks"
+msgstr ""
+
+#: src/menus/windows.xml:92(para)
+#, fuzzy
+#| msgid ""
+#| "The list of open docks: in this list, docks are named with the name of "
+#| "the active dialog in this dock. Clicking on a dock name raises this dock. "
+#| "Note that in single-window mode only docks that are not part of the main "
+#| "window will be shown here."
+msgid ""
+"In this list, docks are named with the name of the active dialog in this "
+"dock. Clicking on a dock name raises this dock. Note that in single-window "
+"mode only docks that are not part of the main window will be shown here."
 msgstr ""
 "Açık rıhtımların listesi: Bu listede rıhtımlar, bu rıhtımdaki etkin iletişim "
 "kutusunun adıyla adlandırılır. Bir rıhtımın adına tıklamak o rıhtımı "
 "yükseltir. Tek pencere kipinde yalnızca ana pencerenin parçası olmayan "
 "rıhtımlar burada gösterilir."
 
-#: src/menus/windows.xml:99(para)
+#: src/menus/windows.xml:101(term)
+#, fuzzy
+#| msgid "Docks"
+msgid "Hide Docks"
+msgstr "Rıhtımlar"
+
+#: src/menus/windows.xml:103(para)
+#, fuzzy
+#| msgid ""
+#| "<command>Hide Docks</command> (<keycap>Tab</keycap>): this command hides "
+#| "all docks (usually to the left and right of the image), leaving the image "
+#| "window alone. The command status is kept on quitting GIMP and will be in "
+#| "the same state when GIMP starts."
 msgid ""
-"<command>Hide Docks</command> (<keycap>Tab</keycap>): this command hides all "
-"docks (usually to the left and right of the image), leaving the image window "
-"alone. The command status is kept on quitting GIMP and will be in the same "
-"state when GIMP starts."
+"Clicking on this command or using the (<keycap>Tab</keycap>) shortcut hides "
+"all docks (usually to the left and right of the image), leaving the image "
+"window alone. The command status is kept on quitting <acronym>GIMP</acronym> "
+"and will be in the same state when <acronym>GIMP</acronym> starts."
 msgstr ""
 "<command>Rıhtımları Gizle</command> (<keycap>Tab</keycap>): bu komut "
 "(genelde görüntünün sağında ve solunda bulunan) tüm rıhtımları gizler ve "
@@ -162,29 +205,49 @@ msgstr ""
 "<acronym>GIMP</acronym>ʼten çıkıldığında saklanır ve <acronym>GIMP</acronym> "
 "başladığında aynı durumda olur."
 
-#: src/menus/windows.xml:108(para)
+#: src/menus/windows.xml:113(term)
+msgid "Show Tabs"
+msgstr ""
+
+#: src/menus/windows.xml:115(para)
+#, fuzzy
+#| msgid ""
+#| "<command>Show Tabs</command>: in single-window mode this command changes "
+#| "whether or not to show the tabs with all opened images. By default the "
+#| "tab bar is shown, but you can hide it if you don't need it and want to "
+#| "use the extra screen space."
 msgid ""
-"<command>Show Tabs</command>: in single-window mode this command changes "
-"whether or not to show the tabs with all opened images. By default the tab "
-"bar is shown, but you can hide it if you don't need it and want to use the "
-"extra screen space."
+"In single-window mode this command changes whether or not to show the tabs "
+"with all opened images. By default the tab bar is shown, but you can hide it "
+"if you don't need it and want to use the extra screen space."
 msgstr ""
 "<command>Sekmeleri Göster</command>: tek pencere kipinde bu komut, "
 "sekmelerin tüm açık görüntülerle birlikte gösterilme durumunu değiştirir. "
 "Öntanımlı olarak sekme çubuğu gösterilir, ancak gereksinmiyorsanız ve "
 "fazladan ekran alanı kullanmak istiyorsanız gizleyebilirsiniz."
 
-#: src/menus/windows.xml:114(para) src/menus/windows.xml:128(para)
+#: src/menus/windows.xml:121(para) src/menus/windows.xml:137(para)
 msgid "In multi-window mode this command is disabled."
 msgstr "Çoklu pencere kipinde bu komut devre dışıdır."
 
-#: src/menus/windows.xml:120(para)
+#: src/menus/windows.xml:127(term)
+msgid "Tabs Position"
+msgstr ""
+
+#: src/menus/windows.xml:129(para)
+#, fuzzy
+#| msgid ""
+#| "<command>Tabs Position</command>: In single-window mode you can use this "
+#| "command to choose the position of the tab bar that shows the loaded "
+#| "images. By default the tab bar is located at the <guilabel>Top</"
+#| "guilabel>, but you can change this to show it at the <guilabel>Bottom</"
+#| "guilabel>, <guilabel>Left</guilabel>, or <guilabel>Right</guilabel>."
 msgid ""
-"<command>Tabs Position</command>: In single-window mode you can use this "
-"command to choose the position of the tab bar that shows the loaded images. "
-"By default the tab bar is located at the <guilabel>Top</guilabel>, but you "
-"can change this to show it at the <guilabel>Bottom</guilabel>, "
-"<guilabel>Left</guilabel>, or <guilabel>Right</guilabel>."
+"In single-window mode you can use this command to choose the position of the "
+"tab bar that shows the loaded images. By default the tab bar is located at "
+"the <guilabel>Top</guilabel>, but you can change this to show it at the "
+"<guilabel>Bottom</guilabel>, <guilabel>Left</guilabel>, or <guilabel>Right</"
+"guilabel>."
 msgstr ""
 "<command>Sekmelerin Konumu</command>: Tek pencere kipinde, yüklenen "
 "görüntüleri gösteren sekme çubuğunun konumunu seçmek için bu komutu "
@@ -192,10 +255,18 @@ msgstr ""
 "yer alır, ancak bunu <guilabel>Alt</guilabel>ta, <guilabel>Sol</guilabel>da "
 "ya da <guilabel>Sağ</guilabel>da gösterecek şekilde değiştirebilirsiniz."
 
-#: src/menus/windows.xml:134(para)
+#: src/menus/windows.xml:143(term)
+msgid "Single Window Mode"
+msgstr ""
+
+#: src/menus/windows.xml:145(para)
+#, fuzzy
+#| msgid ""
+#| "<command>Single Window Mode</command>: when enabled, GIMP is in a single "
+#| "window mode. Please see <xref linkend=\"single-window-mode\"/>."
 msgid ""
-"<command>Single Window Mode</command>: when enabled, GIMP is in a single "
-"window mode. Please see <xref linkend=\"single-window-mode\"/>."
+"When enabled, <acronym>GIMP</acronym> is in a single window mode. Please see "
+"<xref linkend=\"single-window-mode\"/>."
 msgstr ""
 "<command>Tek Pencereli Kip</command>: etkin olduğunda, GIMP tek pencereli "
 "kipe geçer. Lütfen bakınız: <xref linkend=\"single-window-mode\"/>."
@@ -211,16 +282,6 @@ msgstr "Rıhtımlar"
 #: src/menus/windows-open-recent-docks.xml:13(secondary)
 msgid "Recently closed"
 msgstr "Son kapatılan"
-
-#: src/menus/windows-open-recent-docks.xml:16(para)
-msgid ""
-"This command opens the list of the docks you have closed recently. You can "
-"reopen them by clicking on their name. Please note that isolated windows are "
-"not concerned."
-msgstr ""
-"Bu komut, yakın zamanda kapattığınız rıhtımların listesini açar. Adlarına "
-"tıklayarak kendilerini yeniden açabilirsiniz. Lütfen, izole edilmiş "
-"pencerelerle ilgili olmadığını unutmayın."
 
 #: src/menus/windows-open-recent-docks.xml:23(title)
 msgid "Activating the Command"
@@ -245,13 +306,6 @@ msgstr "<quote>Görünüm</quote> Menüsü"
 msgid "Image window"
 msgstr "Görüntü penceresi"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/tools.xml:24(None)
-msgid "@@image: 'images/menus/tools.png'; md5=9023fa11c3eee104e192c5d2920d5f56"
-msgstr ""
-"@@image: 'images/menus/tools.png'; md5=9023fa11c3eee104e192c5d2920d5f56"
-
 #: src/menus/tools.xml:11(title)
 msgid "The <quote>Tools</quote> Menu"
 msgstr "<quote>Araçlar</quote> Menüsü"
@@ -260,33 +314,21 @@ msgstr "<quote>Araçlar</quote> Menüsü"
 msgid "Tools"
 msgstr "Araçlar"
 
-#: src/menus/tools.xml:19(title)
-msgid "Introduction to the <quote>Tools</quote> Menu"
-msgstr "<quote>Araçlar</quote> Menüsüne Giriş"
-
-#: src/menus/tools.xml:21(title)
-msgid "Contents of the <quote>Tools</quote> menu"
-msgstr "<quote>Araçlar</quote> Menüsü İçerikleri"
-
-#: src/menus/tools.xml:28(para)
+#: src/menus/tools.xml:21(para)
+#, fuzzy
+#| msgid ""
+#| "The menu entries on the <guimenu>Tools</guimenu> menu access the "
+#| "<acronym>GIMP</acronym> tools. All of the tools available in "
+#| "<acronym>GIMP</acronym> are extensively described in the <link "
+#| "linkend=\"gimp-tools\">Tools</link> section."
 msgid ""
-"The menu entries on the <guimenu>Tools</guimenu> menu access the "
-"<acronym>GIMP</acronym> tools. All of the tools available in <acronym>GIMP</"
-"acronym> are extensively described in the <link linkend=\"gimp-"
-"tools\">Tools</link> section."
+"All of the tools available in <acronym>GIMP</acronym> are extensively "
+"described in the <link linkend=\"gimp-tools\">Tools</link> section."
 msgstr ""
 "<guimenu>Araçlar</guimenu> menüsündeki menü girişleri <acronym>GIMP</"
 "acronym> araçlarına erişimi sağlar. <acronym>GIMP</acronym> içerisinde "
 "bulunan tüm araçlar, <link linkend=\"gimp-tools\">Araçlar</link> bölümünde "
 "ayrıntılı olarak açıklanmıştır."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/select.xml:22(None)
-msgid ""
-"@@image: 'images/menus/select.png'; md5=89a5e323df519dd23c10970dced0b66c"
-msgstr ""
-"@@image: 'images/menus/select.png'; md5=89a5e323df519dd23c10970dced0b66c"
 
 #: src/menus/select.xml:9(title)
 msgid "The <quote>Select</quote> Menu"
@@ -295,21 +337,6 @@ msgstr "<quote>Seçim</quote> Menüsü"
 #: src/menus/select.xml:13(secondary)
 msgid "Selection"
 msgstr "Seçim"
-
-#: src/menus/select.xml:17(title)
-msgid "Introduction to the <quote>Select</quote> Menu"
-msgstr "<quote>Seçim</quote> Menüsüne Giriş"
-
-#: src/menus/select.xml:19(title)
-msgid "The Contents of the <quote>Select</quote> menu"
-msgstr "<quote>Seçim</quote> Menüsü İçerikleri"
-
-#: src/menus/select.xml:26(para)
-msgid ""
-"This section explains the commands on the <guimenu>Select</guimenu> menu of "
-"the main menu."
-msgstr ""
-"Bu bölüm, ana menünün <guimenu>Seçim</guimenu> menüsündeki komutları açıklar."
 
 #: src/menus/layer.xml:12(title)
 msgid "The <quote>Layer</quote> Menu"
@@ -439,8 +466,7 @@ msgstr ""
 #: src/menus/introduction.xml:88(para)
 msgid ""
 "Right-clicking on the Main Menu bar has the same effect as left-clicking."
-msgstr ""
-"Görüntü menü çubuğuna sağ tıklama, sol tıklama ile aynı etkidedir."
+msgstr "Görüntü menü çubuğuna sağ tıklama, sol tıklama ile aynı etkidedir."
 
 #: src/menus/introduction.xml:94(para)
 msgid ""
@@ -498,40 +524,9 @@ msgstr ""
 msgid "The <quote>Image</quote> Menu"
 msgstr "<quote>Görüntü</quote> Menüsü"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/help.xml:28(None)
-msgid "@@image: 'images/menus/help.png'; md5=4610f6d79d785b6cf5e3ed78b640154f"
-msgstr "@@image: 'images/menus/help.png'; md5=4610f6d79d785b6cf5e3ed78b640154f"
-
 #: src/menus/help.xml:10(title)
 msgid "The <quote>Help</quote> Menu"
 msgstr "<quote>Yardım</quote> Menüsü"
-
-#: src/menus/help.xml:13(title)
-msgid "Introduction to the <quote>Help</quote> Menu"
-msgstr "<quote>Yardım</quote> Menüsüne Giriş"
-
-#: src/menus/help.xml:16(primary) src/menus/help.xml:21(secondary)
-#: src/menus/file.xml:26(primary)
-msgid "Menu"
-msgstr "Menü"
-
-#: src/menus/help.xml:17(secondary) src/menus/help.xml:20(primary)
-msgid "Help"
-msgstr "Yardım"
-
-#: src/menus/help.xml:25(title)
-msgid "Contents of the <quote>Help</quote> menu"
-msgstr "<quote>Yardım</quote> Menüsü İçerikleri"
-
-#: src/menus/help.xml:33(para)
-msgid ""
-"The <guimenu>Help</guimenu> menu contains commands that assist you while you "
-"are working with <application>GIMP</application>."
-msgstr ""
-"<guimenu>Yardım</guimenu> menüsü <application>GIMP</application> ile "
-"çalışırken size yardımcı olacak komutları içerir."
 
 #: src/menus/filters.xml:12(title)
 msgid "The <quote>Filters</quote> Menu"
@@ -541,30 +536,12 @@ msgstr "<quote>Süzgeçler</quote> Menüsü"
 msgid "Filters"
 msgstr "Süzgeçler"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file.xml:33(None)
-msgid "@@image: 'images/menus/file.png'; md5=5ec86dbba88bbe0ead73bebd1a5288cd"
-msgstr "@@image: 'images/menus/file.png'; md5=5ec86dbba88bbe0ead73bebd1a5288cd"
-
 #: src/menus/file.xml:16(title)
 msgid "The <quote>File</quote> Menu"
 msgstr "<quote>Dosya</quote> Menüsü"
 
 #: src/menus/file.xml:20(secondary)
 msgid "File menu"
-msgstr "Dosya menüsü"
-
-#: src/menus/file.xml:24(title)
-msgid "Overview"
-msgstr "Genel Görünüm"
-
-#: src/menus/file.xml:27(secondary)
-msgid "File"
-msgstr "Dosya"
-
-#: src/menus/file.xml:30(title)
-msgid "The File menu"
 msgstr "Dosya menüsü"
 
 #: src/menus/edit.xml:14(title)
@@ -588,8 +565,8 @@ msgid ""
 msgstr ""
 "Burada açıklanan komutların yanı sıra, menüde başka girdiler de "
 "bulabilirsiniz. Bunlar <acronym>GIMP</acronym>ʼin bir parçası olmayıp üçüncü "
-"taraf eklentilerce eklenmiştir. Eklentinin işleviyle ilgili bilgi "
-"edinmek için eklentinin belgelerine bakabilirsiniz."
+"taraf eklentilerce eklenmiştir. Eklentinin işleviyle ilgili bilgi edinmek "
+"için eklentinin belgelerine bakabilirsiniz."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/about-plugin-menuitems.xml:0(None)
@@ -597,3 +574,109 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/windows.png'; md5=317a4ebcbc347681d865f1eccff901d1"
+#~ msgstr ""
+#~ "@@image: 'images/menus/windows.png'; md5=317a4ebcbc347681d865f1eccff901d1"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/windows/expanded-menu.png'; "
+#~ "md5=bf9ed79b3e266dd8e7ea3fdb6582a82f"
+#~ msgstr ""
+#~ "@@image: 'images/menus/windows/expanded-menu.png'; "
+#~ "md5=bf9ed79b3e266dd8e7ea3fdb6582a82f"
+
+#~ msgid ""
+#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs:"
+#~ msgstr ""
+#~ "Bu menü, <acronym>GIMP</acronym> pencereler menüsünü yönetmenizi sağlar:"
+
+#~ msgid ""
+#~ "The <quote>Windows</quote> menu name is not well adapted to the new "
+#~ "single-window mode. Nevertheless, its functions concern multi and single "
+#~ "modes. Its display may vary according presence or absence of images and "
+#~ "docks:"
+#~ msgstr ""
+#~ "<quote>Pencereler</quote> menü adı yeni tek pencereli kiple yeterince "
+#~ "uyumlu görünmeyebilir. Buna rağmen işlevleri, çok pencereli ve tek "
+#~ "pencereli kip ile ilgilidir. Görünümü, görüntülerin ve rıhtımların "
+#~ "varlığına veya yokluğuna göre değişebilir:"
+
+#~ msgid "With open images"
+#~ msgstr "Açık görüntülerle"
+
+# Son cümleyi anlamadım. İzole edilmiş pencereler nedir?
+#~ msgid ""
+#~ "<command>Recently Closed Docks</command>: this command opens the list of "
+#~ "the docks you have closed recently. You can reopen them by clicking on "
+#~ "their name. Please note that isolated windows are not concerned."
+#~ msgstr ""
+#~ "<command>Son Kapatılan Rıhtımlar</command>: bu komut, yakın zamanda "
+#~ "kapattığınız rıhtımların listesini açar. Adlarına tıklayarak kendilerini "
+#~ "yeniden açabilirsiniz. Lütfen, izole edilmiş pencerelerle ilgili "
+#~ "olmadığını unutmayın."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/tools.png'; md5=9023fa11c3eee104e192c5d2920d5f56"
+#~ msgstr ""
+#~ "@@image: 'images/menus/tools.png'; md5=9023fa11c3eee104e192c5d2920d5f56"
+
+#~ msgid "Introduction to the <quote>Tools</quote> Menu"
+#~ msgstr "<quote>Araçlar</quote> Menüsüne Giriş"
+
+#~ msgid "Contents of the <quote>Tools</quote> menu"
+#~ msgstr "<quote>Araçlar</quote> Menüsü İçerikleri"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/select.png'; md5=89a5e323df519dd23c10970dced0b66c"
+#~ msgstr ""
+#~ "@@image: 'images/menus/select.png'; md5=89a5e323df519dd23c10970dced0b66c"
+
+#~ msgid "Introduction to the <quote>Select</quote> Menu"
+#~ msgstr "<quote>Seçim</quote> Menüsüne Giriş"
+
+#~ msgid "The Contents of the <quote>Select</quote> menu"
+#~ msgstr "<quote>Seçim</quote> Menüsü İçerikleri"
+
+#~ msgid ""
+#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
+#~ "of the main menu."
+#~ msgstr ""
+#~ "Bu bölüm, ana menünün <guimenu>Seçim</guimenu> menüsündeki komutları "
+#~ "açıklar."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/help.png'; md5=4610f6d79d785b6cf5e3ed78b640154f"
+#~ msgstr ""
+#~ "@@image: 'images/menus/help.png'; md5=4610f6d79d785b6cf5e3ed78b640154f"
+
+#~ msgid "Introduction to the <quote>Help</quote> Menu"
+#~ msgstr "<quote>Yardım</quote> Menüsüne Giriş"
+
+#~ msgid "Menu"
+#~ msgstr "Menü"
+
+#~ msgid "Help"
+#~ msgstr "Yardım"
+
+#~ msgid "Contents of the <quote>Help</quote> menu"
+#~ msgstr "<quote>Yardım</quote> Menüsü İçerikleri"
+
+#~ msgid ""
+#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
+#~ "you are working with <application>GIMP</application>."
+#~ msgstr ""
+#~ "<guimenu>Yardım</guimenu> menüsü <application>GIMP</application> ile "
+#~ "çalışırken size yardımcı olacak komutları içerir."
+
+#~ msgid ""
+#~ "@@image: 'images/menus/file.png'; md5=5ec86dbba88bbe0ead73bebd1a5288cd"
+#~ msgstr ""
+#~ "@@image: 'images/menus/file.png'; md5=5ec86dbba88bbe0ead73bebd1a5288cd"
+
+#~ msgid "File"
+#~ msgstr "Dosya"
+
+#~ msgid "The File menu"
+#~ msgstr "Dosya menüsü"

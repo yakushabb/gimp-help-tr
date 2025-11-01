@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-25 19:12+0000\n"
+"POT-Creation-Date: 2025-11-01 16:53+0000\n"
 "PO-Revision-Date: 2025-10-20 21:46+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -386,8 +386,9 @@ msgstr "Sonuncuyu Yeniden Göster"
 #: src/menus/filters/reshow.xml:11(primary)
 #: src/menus/filters/reset-all.xml:12(primary)
 #: src/menus/filters/repeat.xml:12(primary)
-#: src/menus/filters/introduction.xml:12(primary)
-#: src/menus/filters/introduction.xml:16(primary)
+#: src/menus/filters/introduction.xml:11(primary)
+#: src/menus/filters/introduction.xml:16(secondary)
+#: src/menus/filters/introduction.xml:19(primary)
 #: src/menus/filters/development.xml:10(secondary)
 msgid "Filters"
 msgstr "Süzgeçler"
@@ -395,7 +396,7 @@ msgstr "Süzgeçler"
 #: src/menus/filters/reshow.xml:12(secondary)
 #: src/menus/filters/reset-all.xml:13(secondary)
 #: src/menus/filters/repeat.xml:13(secondary)
-#: src/menus/filters/introduction.xml:17(secondary)
+#: src/menus/filters/introduction.xml:20(secondary)
 msgid "Common functions"
 msgstr "Ortak işlevler"
 
@@ -504,7 +505,7 @@ msgstr ""
 "değerlerine sıfırlanır. Kalıcı bir işlem olduğu için, gerçekten yapmak "
 "istediğinizi onaylamanız gerekir. Dikkatli olun: bu komut geri alınamaz."
 
-#: src/menus/filters/reset-all.xml:37(para)
+#: src/menus/filters/reset-all.xml:35(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Filters</guimenu><guimenuitem>Reset all Filters</"
@@ -763,31 +764,46 @@ msgstr ""
 msgid "Pressing this button closes the console."
 msgstr "Bu düğmeye tıklamanız uçbirimi kapatır."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/filters/introduction.xml:25(None)
-msgid ""
-"@@image: 'images/menus/filters.png'; md5=da3cc7b88ca287031613962b72023269"
-msgstr ""
-"@@image: 'images/menus/filters.png'; md5=da3cc7b88ca287031613962b72023269"
-
 #: src/menus/filters/introduction.xml:9(title)
-msgid "Introduction to the <quote>Filters</quote> Menu"
-msgstr "<quote>Süzgeçler</quote> Menüsüne Giriş"
+msgid "Overview"
+msgstr ""
 
-#: src/menus/filters/introduction.xml:13(secondary)
+#: src/menus/filters/introduction.xml:12(secondary)
+#: src/menus/filters/introduction.xml:15(primary)
 msgid "Menu"
 msgstr "Menü"
 
-#: src/menus/filters/introduction.xml:18(tertiary)
+#: src/menus/filters/introduction.xml:21(tertiary)
 msgid "Introduction to filters"
 msgstr "Süzgeçlere Giriş"
 
-#: src/menus/filters/introduction.xml:22(title)
-msgid "The <quote>Filters</quote> menu"
-msgstr "<quote>Süzgeçler</quote> Menüsü"
+#: src/menus/filters/introduction.xml:24(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</"
+#| "guisubmenu></menuchoice>."
+msgid ""
+"In this section, you will find help for commands in the "
+"<menuchoice><guimenu>Filters</guimenu></menuchoice> menu."
+msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Geliştirme</guisubmenu></menuchoice> yoluyla "
+"erişebilirsiniz."
 
-#: src/menus/filters/introduction.xml:29(para)
+#: src/menus/filters/introduction.xml:31(title)
+#, fuzzy
+#| msgid "Introduction to the <quote>Filters</quote> Menu"
+msgid "The Contents of the <quote>Filters</quote> Menu"
+msgstr "<quote>Süzgeçler</quote> Menüsüne Giriş"
+
+#: src/menus/filters/introduction.xml:55(title)
+#, fuzzy
+#| msgid "Applied <acronym>PDB</acronym> procedure"
+msgid "About <acronym>GIMP</acronym> Filters"
+msgstr "<acronym>PDB</acronym> yordamı uygulanmış"
+
+#: src/menus/filters/introduction.xml:56(para)
 msgid ""
 "In <acronym>GIMP</acronym> terminology, a <emphasis>filter</emphasis> is a "
 "plug-in that modifies the appearance of an image, in most cases just the "
@@ -803,9 +819,18 @@ msgstr ""
 "kullanılması genellikle yanlış olacaktır. Aslında, bu menüdeki girdilerin "
 "bazıları görüntüleri hiç değiştirmez."
 
-#: src/menus/filters/introduction.xml:38(para)
+#: src/menus/filters/introduction.xml:65(para)
+#, fuzzy
+#| msgid ""
+#| "With the exception of the top three items of the <guimenu>Filters</"
+#| "guimenu> menu, all of the entries are provided by plug-ins. Each plug-in "
+#| "decides for itself where it would like its menu entry to be placed. "
+#| "Therefore, the appearance of this menu can be completely different for "
+#| "each user. In practice, though, the appearance does not vary very much, "
+#| "because most plug-ins come with <acronym>GIMP</acronym> when it is "
+#| "installed, and of course they are always in the same places in the menu."
 msgid ""
-"With the exception of the top three items of the <guimenu>Filters</guimenu> "
+"With the exception of the topmost items of the <guimenu>Filters</guimenu> "
 "menu, all of the entries are provided by plug-ins. Each plug-in decides for "
 "itself where it would like its menu entry to be placed. Therefore, the "
 "appearance of this menu can be completely different for each user. In "
@@ -820,7 +845,7 @@ msgstr ""
 "değişmiyor, çünkü çoğu eklenti <acronym>GIMP</acronym> ile birlikte geliyor "
 "ve menüde her zaman aynı yerde bulunuyorlar."
 
-#: src/menus/filters/introduction.xml:48(para)
+#: src/menus/filters/introduction.xml:75(para)
 msgid ""
 "Plug-ins are not restricted to just the <guimenu>Filters</guimenu> menu: a "
 "plug-in can place entries in any menu. Indeed, a number of <acronym>GIMP</"
@@ -836,7 +861,7 @@ msgstr ""
 "gerçekleştirilir. Ancak, <guimenu>Süzgeçler</guimenu> menüsü, bir eklentinin "
 "menü girdilerinin yerleştirmesi için öntanımlı konumdur."
 
-#: src/menus/filters/introduction.xml:57(para)
+#: src/menus/filters/introduction.xml:84(para)
 msgid ""
 "For general information on plug-ins and how to use them, see the section on "
 "<link linkend=\"gimp-concepts-plugins\">Plug-ins</link>. You can find "
@@ -911,3 +936,11 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/filters.png'; md5=da3cc7b88ca287031613962b72023269"
+#~ msgstr ""
+#~ "@@image: 'images/menus/filters.png'; md5=da3cc7b88ca287031613962b72023269"
+
+#~ msgid "The <quote>Filters</quote> menu"
+#~ msgstr "<quote>Süzgeçler</quote> Menüsü"

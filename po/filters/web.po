@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-02-26 21:19+0000\n"
-"PO-Revision-Date: 2025-09-28 22:59+0300\n"
+"PO-Revision-Date: 2025-10-31 01:17+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -81,6 +81,7 @@ msgid "Overview"
 msgstr "Genel Görünüm"
 
 #: src/filters/web/semiflatten.xml:26(para)
+#, fuzzy
 msgid ""
 "The Semi-flatten filter helps those in need of a solution to anti-aliasing "
 "indexed images with transparency. The GIF indexed format supports complete "
@@ -89,16 +90,28 @@ msgid ""
 "transparency, ruining anti-aliasing you applied to the logo you want to put "
 "onto your Web page."
 msgstr ""
+"Yarı düzleştirme filtresi, saydamlığa sahip dizinlenmiş görüntülerde kenar "
+"yumuşatma için bir çözüme ihtiyaç duyanlara yardımcı olur. GIF indeksli "
+"format tam saydamlığı (0 veya 255 alfa değeri) destekler, ancak yarı "
+"saydamlığı (1 - 254) desteklemez: yarı saydam pikseller saydamlık yok veya "
+"tam saydamlığa dönüştürülür ve Web sayfanıza koymak istediğiniz logoya "
+"uyguladığınız kenar yumuşatmayı bozar."
 
 #: src/filters/web/semiflatten.xml:35(para)
+#, fuzzy
 msgid ""
 "Before applying the filter, it's essential that you should know the "
 "background color of your Web page. Use the color-picker to determine the "
 "exact color which pops up as the Foreground color of the Toolbox. Invert FG/"
 "BG colors so that BG color is the same as Web background color."
 msgstr ""
+"Filtreyi uygulamadan önce, Web sayfanızın arka plan rengini bilmeniz çok "
+"önemlidir. Araç Kutusunun Ön Plan rengi olarak açılan tam rengi belirlemek "
+"için renk seçiciyi kullanın. BG renginin Web arka plan rengiyle aynı olması "
+"için FG/BG renklerini ters çevirin."
 
 #: src/filters/web/semiflatten.xml:42(para)
+#, fuzzy
 msgid ""
 "Semi-flatten process will combine FG color to layer (logo) color, "
 "proportionally to corresponding alpha values, and will rebuild correct anti-"
@@ -106,6 +119,10 @@ msgid ""
 "transparent pixels will take a few color and weakly transparent will take "
 "much color."
 msgstr ""
+"Yarı düzleştirme işlemi, FG rengini katman (logo) rengiyle, karşılık gelen "
+"alfa değerleriyle orantılı olarak birleştirecek ve doğru kenar yumuşatmayı "
+"yeniden oluşturacaktır. Tamamen saydam pikseller renk almayacaktır. Çok "
+"saydam pikseller az renk alır ve zayıf saydam pikseller çok renk alır."
 
 #: src/filters/web/semiflatten.xml:52(title)
 #: src/filters/web/imagemap.xml:55(title)
@@ -168,21 +185,29 @@ msgid "Color"
 msgstr "Renk"
 
 #: src/filters/web/semiflatten.xml:93(para)
+#, fuzzy
 msgid ""
 "This allows you to change the color that is used by this filter to fill in "
 "semi transparent areas. You can click the color bar to select a color, or "
 "use the color picker to pick a color from your image."
 msgstr ""
+"Bu, yarı saydam alanları doldurmak için bu filtre tarafından kullanılan "
+"rengi değiştirmenize olanak tanır. Bir renk seçmek için renk çubuğuna "
+"tıklayabilir veya görüntünüzden bir renk seçmek için renk seçiciyi "
+"kullanabilirsiniz."
 
 #: src/filters/web/semiflatten.xml:105(title)
 msgid "Example"
 msgstr "Örnek"
 
 #: src/filters/web/semiflatten.xml:106(para)
+#, fuzzy
 msgid ""
 "In the example below, the Toolbox Background color is pink, and the image "
 "has feathered edges on a transparent background."
 msgstr ""
+"Aşağıdaki örnekte, Araç Kutusu Arka Plan rengi pembedir ve görüntü şeffaf "
+"bir arka plan üzerinde tüylü kenarlara sahiptir."
 
 #: src/filters/web/semiflatten.xml:111(title)
 msgid "Semi-Flatten example"
@@ -197,11 +222,15 @@ msgid "At 800% zoom level"
 msgstr "%800 yakınlaştırma düzeyinde"
 
 #: src/filters/web/semiflatten.xml:130(para)
+#, fuzzy
 msgid ""
 "Full transparency is kept. Semi-transparent pixels are colored with pink "
 "according to their transparency (Alpha value). This image will well merge "
 "into the pink background of the new page."
 msgstr ""
+"Tam şeffaflık korunur. Yarı saydam pikseller saydamlıklarına (Alfa değeri) "
+"göre pembe ile renklendirilir. Bu görüntü yeni sayfanın pembe arka planıyla "
+"iyice birleşecektir."
 
 #: src/filters/web/semiflatten.xml:136(title)
 msgid "Semi-Flatten filter applied"
@@ -281,6 +310,7 @@ msgid "Clickable image"
 msgstr "Tıklanabilir görüntü"
 
 #: src/filters/web/imagemap.xml:26(para)
+#, fuzzy
 msgid ""
 "In Web sensitive images are frequently used to get some effects when defined "
 "areas are enabled by the pointer. Obviously the most used effect is a "
@@ -289,16 +319,30 @@ msgid ""
 "within an image. Applications for website design have this as a standard "
 "function. In <acronym>GIMP</acronym>, you can do this in a similar way."
 msgstr ""
+"Web'de hassas görüntüler, tanımlanan alanlar işaretçi tarafından "
+"etkinleştirildiğinde bazı efektler elde etmek için sıklıkla kullanılır. "
+"Açıkçası en çok kullanılan efekt, hassas alanlardan birine tıklandığında "
+"başka bir web sayfasına dinamik bir bağlantıdır. Bu <quote>filtre</quote>, "
+"bir görüntü içinde kolayca hassas alanlar tasarlamanızı sağlar. Web sitesi "
+"tasarımı için kullanılan uygulamalarda bu standart bir işlevdir. "
+"<acronym>GIMP</acronym>'te de bunu benzer bir şekilde yapabilirsiniz."
 
 #: src/filters/web/imagemap.xml:38(para)
+#, fuzzy
 msgid ""
 "This plug-in lets you design graphically and friendly all areas you want to "
 "delimit over your displayed image. You get the relevant part of html tags "
 "that must be merged into the right place in your page html code. You can "
 "define some actions linked to these areas too."
 msgstr ""
+"Bu eklenti, görüntülenen resminiz üzerinde sınırlandırmak istediğiniz tüm "
+"alanları grafiksel ve kolay bir şekilde tasarlamanızı sağlar. Sayfanızın "
+"html kodunda doğru yerde birleştirilmesi gereken html etiketlerinin ilgili "
+"bölümünü alırsınız. Bu alanlarla bağlantılı bazı eylemler de "
+"tanımlayabilirsiniz."
 
 #: src/filters/web/imagemap.xml:44(para)
+#, fuzzy
 msgid ""
 "This is a complex tool which is not completely described here (it works "
 "about like Web page makers offering this function). However we want to "
@@ -306,45 +350,71 @@ msgid ""
 "a more complete description in Grokking the GIMP with the link <xref "
 "linkend=\"bibliography-online-grokking-gimp-imagemap\"/>."
 msgstr ""
+"Bu, burada tam olarak açıklanmayan karmaşık bir araçtır (bu işlevi sunan Web "
+"sayfası yapımcıları gibi çalışır). Ancak biz burada en güncel işlemlerden "
+"bazılarını açıklamak istiyoruz. İsterseniz, <xref linkend=\"bibliography-"
+"online-grokking-gimp-imagemap\"/> linki ile Grokking the GIMP'de daha "
+"eksiksiz bir açıklama bulabilirsiniz."
 
 #: src/filters/web/imagemap.xml:56(para)
+#, fuzzy
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Web</guisubmenu><guimenuitem>Image Map…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu filtre ana menüde aşağıdakilerin altında bulunur "
+"<menuchoice><guimenu>Filtreler</guimenu><guisubmenu>Web</"
+"guisubmenu><guimenuitem>Resim Haritası..</guimenuitem></menuchoice>."
 
 #: src/filters/web/imagemap.xml:64(para)
+#, fuzzy
 msgid ""
 "The window is a small one, but you can magnify it. The main useful areas are:"
 msgstr ""
+"Pencere küçüktür, ancak büyütebilirsiniz. Ana kullanışlı alanlar şunlardır:"
 
 #: src/filters/web/imagemap.xml:70(para)
+#, fuzzy
 msgid ""
 "completely on the left are vertically displayed icons, one for pointing, "
 "three for calling tools to generate various shape areas, one to edit zone "
 "properties, and finally one to erase a selected zone; you can call these "
 "functions from the Mappings menu,"
 msgstr ""
+"tamamen solda dikey olarak görüntülenen simgeler, biri işaret etmek için, "
+"üçü çeşitli şekil alanları oluşturmak için araçlar çağırmak için, biri bölge "
+"özelliklerini düzenlemek için ve son olarak biri seçilen bir bölgeyi silmek "
+"için; bu işlevleri Eşlemeler menüsünden çağırabilirsiniz,"
 
 #: src/filters/web/imagemap.xml:78(para)
+#, fuzzy
 msgid ""
 "just on the right is your working area where you can draw all the shapes "
 "areas you want with the relevant tools,"
 msgstr ""
+"hemen sağ tarafta ise ilgili araçlarla istediğiniz tüm şekil alanlarını "
+"çizebileceğiniz çalışma alanınız yer alıyor,"
 
 #: src/filters/web/imagemap.xml:84(para)
+#, fuzzy
 msgid ""
 "on the right is displayed an icon vertical set; its use is obvious but a "
 "help pop-up gives you some information about each function,"
 msgstr ""
+"sağda dikey bir simge seti görüntülenir; kullanımı açıktır, ancak bir yardım "
+"açılır penceresi size her işlev hakkında bazı bilgiler verir,"
 
 #: src/filters/web/imagemap.xml:90(para)
+#, fuzzy
 msgid ""
 "finally, even on the right is a display area, as a property list of the "
 "created areas. A click on one item of the list selects automatically the "
 "corresponding shape in the working area."
 msgstr ""
+"son olarak, sağ tarafta bile oluşturulan alanların özellik listesi olarak "
+"bir görüntüleme alanı bulunmaktadır. Listedeki bir öğeye tıklandığında, "
+"çalışma alanındaki ilgili şekil otomatik olarak seçilir."
 
 #: src/filters/web/imagemap.xml:102(title)
 msgid "Image Map filter options"
@@ -359,10 +429,12 @@ msgid "The Menu Bar"
 msgstr "Menü Çubuğu"
 
 #: src/filters/web/imagemap.xml:116(para)
+#, fuzzy
 msgid ""
 "The menu bar is similar to the main menu, only a few menus or menu entries "
 "are different:"
 msgstr ""
+"Menü çubuğu ana menüye benzer, sadece birkaç menü veya menü girişi farklıdır:"
 
 #: src/filters/web/imagemap.xml:122(term)
 msgid "File"
@@ -377,10 +449,13 @@ msgid "Save As"
 msgstr "Farklı Kaydet"
 
 #: src/filters/web/imagemap.xml:129(para)
+#, fuzzy
 msgid ""
 "Contrary to other filters, this plug-in doesn't make an image but a text "
 "file. So you must save your work in a text format."
 msgstr ""
+"Diğer filtrelerin aksine, bu eklenti bir resim değil, bir metin dosyası "
+"oluşturur. Bu yüzden çalışmanızı bir metin formatında kaydetmelisiniz."
 
 #: src/filters/web/imagemap.xml:135(para)
 msgid ""
@@ -399,12 +474,17 @@ msgid "Open recent"
 msgstr "Son kullanılanları aç"
 
 #: src/filters/web/imagemap.xml:150(para)
+#, fuzzy
 msgid ""
 "In the plug-in you can open the saved text file. The areas defined in your "
 "file will be loaded and overdisplayed; if the displayed image is not the "
 "original one or not with the same size, <acronym>GIMP</acronym> will ask you "
 "for adapting the scale."
 msgstr ""
+"Eklentide kayıtlı metin dosyasını açabilirsiniz. Dosyanızda tanımlanan "
+"alanlar yüklenecek ve aşırı görüntülenecektir; görüntülenen görüntü orijinal "
+"görüntü değilse veya aynı boyutta değilse, <acronym>GIMP</acronym> sizden "
+"ölçeği uyarlamanızı isteyecektir."
 
 #: src/filters/web/imagemap.xml:164(term)
 msgid "Edit"
@@ -419,71 +499,94 @@ msgid "Editing an image map area"
 msgstr "Görüntü eşlemi alanını düzenleme"
 
 #: src/filters/web/imagemap.xml:179(para)
+#, fuzzy
 msgid ""
 "In the settings dialog you can edit the area information of a selected area. "
 "This dialog will pop up automatically whenever you create a new area."
 msgstr ""
+"Ayarlar diyalog penceresinde, seçilen bir alanın alan bilgilerini "
+"düzenleyebilirsiniz. Yeni bir alan oluşturduğunuzda bu iletişim kutusu "
+"otomatik olarak açılır."
 
 #: src/filters/web/imagemap.xml:194(term)
 msgid "View"
 msgstr "Görünüm"
 
 #: src/filters/web/imagemap.xml:196(para)
+#, fuzzy
 msgid "This menu offers you special functions:"
-msgstr ""
+msgstr "Bu menü size özel işlevler sunar:"
 
 #: src/filters/web/imagemap.xml:201(term)
 msgid "Area List"
 msgstr "Alan Listesi"
 
 #: src/filters/web/imagemap.xml:203(para)
+#, fuzzy
 msgid "Here you can hide or show the selection area."
-msgstr ""
+msgstr "Burada seçim alanını gizleyebilir veya gösterebilirsiniz."
 
 #: src/filters/web/imagemap.xml:209(term)
 msgid "Source…"
 msgstr "Kaynak…"
 
 #: src/filters/web/imagemap.xml:211(para)
+#, fuzzy
 msgid ""
 "Here you see the raw data as you would save it to or read it from a file."
 msgstr ""
+"Burada ham verileri bir dosyaya kaydedeceğiniz veya bir dosyadan "
+"okuyacağınız şekilde görürsünüz."
 
 #: src/filters/web/imagemap.xml:219(term)
 msgid "Gray"
 msgstr "Gri"
 
 #: src/filters/web/imagemap.xml:221(para)
+#, fuzzy
 msgid "You can select the image mode here and work with a Grayscale display."
 msgstr ""
+"Buradan görüntü modunu seçebilir ve Gri Tonlamalı bir ekranla "
+"çalışabilirsiniz."
 
 #: src/filters/web/imagemap.xml:231(term)
 msgid "Mappings"
 msgstr "Eşlemeler"
 
 #: src/filters/web/imagemap.xml:233(para)
+#, fuzzy
 msgid ""
 "You will seldom use this menu, since you can more easily access selection "
 "tools by clicking on icons on the left of the working area."
 msgstr ""
+"Çalışma alanının sol tarafındaki simgelere tıklayarak seçim araçlarına daha "
+"kolay erişebileceğiniz için bu menüyü nadiren kullanacaksınız."
 
 #: src/filters/web/imagemap.xml:240(term)
 msgid "Arrow"
 msgstr "Ok"
 
 #: src/filters/web/imagemap.xml:242(para)
+#, fuzzy
 msgid ""
 "The arrow here represents the Move tool. When activated tool is selected, "
 "you can select and move an area on the image."
 msgstr ""
+"Buradaki ok Taşı aracını temsil eder. Etkinleştirilen araç seçildiğinde, "
+"görüntü üzerinde bir alanı seçebilir ve taşıyabilirsiniz."
 
 #: src/filters/web/imagemap.xml:247(para)
+#, fuzzy
 msgid ""
 "With a polygon, you can use the arrow to move one of the red points. Right-"
 "click on a segment between two red points to open a pop-up menu that offers, "
 "with several others, the possibility to add a new point. If you right-click "
 "on a red point, you can remove it."
 msgstr ""
+"Bir çokgenle, kırmızı noktalardan birini taşımak için oku kullanabilirsiniz. "
+"İki kırmızı nokta arasındaki bir segmente sağ tıklayarak, diğer birkaç nokta "
+"ile birlikte yeni bir nokta ekleme imkanı sunan bir açılır menü "
+"açabilirsiniz. Bir kırmızı noktaya sağ tıklarsanız, onu kaldırabilirsiniz."
 
 #: src/filters/web/imagemap.xml:257(term)
 msgid "Rectangle"
@@ -498,10 +601,13 @@ msgid "Polygon"
 msgstr "Çokgen"
 
 #: src/filters/web/imagemap.xml:261(para)
+#, fuzzy
 msgid ""
 "These tools let you create various shape areas: click on the image, move the "
 "pointer, and click again."
 msgstr ""
+"Bu araçlar çeşitli şekil alanları oluşturmanızı sağlar: görüntüye tıklayın, "
+"işaretçiyi hareket ettirin ve tekrar tıklayın."
 
 #: src/filters/web/imagemap.xml:268(term)
 msgid "Edit Map Info…"
@@ -512,6 +618,7 @@ msgid "Editing the image map data"
 msgstr "Görüntü eşlemi verisini düzenleme"
 
 #: src/filters/web/imagemap.xml:279(para)
+#, fuzzy
 msgid ""
 "With this simple dialog you can enter some items, which will be written to "
 "the resulting output file; either as comments (<guilabel>Author</guilabel>, "
@@ -519,6 +626,11 @@ msgid ""
 "(<guilabel>Image name</guilabel>, <guilabel>Title</guilabel>, "
 "<guilabel>Default URL</guilabel>)."
 msgstr ""
+"Bu basit iletişim kutusuyla, ortaya çıkan çıktı dosyasına yazılacak bazı "
+"öğeleri girebilirsiniz; ya yorum olarak<guilabel>(Yazar</guilabel>, "
+"<guilabel>Açıklama</guilabel>) ya da HTML etiketlerinin öznitelik değerleri "
+"olarak<guilabel>(Resim adı</guilabel>, <guilabel>Başlık</guilabel>, "
+"<guilabel>Varsayılan URL</guilabel>)."
 
 #: src/filters/web/imagemap.xml:295(term)
 msgid "Tools"
@@ -545,10 +657,13 @@ msgid "Grid options"
 msgstr "Izgara seçenekleri"
 
 #: src/filters/web/imagemap.xml:314(para)
+#, fuzzy
 msgid ""
 "Here you can enable and disable the image grid or configure some grid "
 "properties."
 msgstr ""
+"Burada görüntü ızgarasını etkinleştirebilir veya devre dışı bırakabilir ya "
+"da bazı ızgara özelliklerini yapılandırabilirsiniz."
 
 #: src/filters/web/imagemap.xml:321(term)
 msgid "Use GIMP Guides…"
@@ -559,26 +674,34 @@ msgid "Create Guides…"
 msgstr "Kılavuz Oluştur…"
 
 #: src/filters/web/imagemap.xml:324(para)
+#, fuzzy
 msgid ""
 "The guide lines are created at the border of the image but can be moved "
 "around by clicking on the red squares on each line something similar to the "
 "GIMP guide lines. By using the guides you are able to create active "
 "rectangles in the image."
 msgstr ""
+"Kılavuz çizgiler görüntünün sınırında oluşturulur, ancak GIMP kılavuz "
+"çizgilerine benzer şekilde her çizgideki kırmızı karelere tıklanarak hareket "
+"ettirilebilir. Kılavuzları kullanarak görüntüde aktif dikdörtgenler "
+"oluşturabilirsiniz."
 
 #: src/filters/web/imagemap.xml:334(term)
 msgid "Create guides"
 msgstr "Kılavuz oluştur"
 
+# gui dizgesi değil
 #: src/filters/web/imagemap.xml:337(title)
 msgid "Guide options"
 msgstr "Kılavuz seçenekleri"
 
+# gui dizgesi değil
 #: src/filters/web/imagemap.xml:344(para)
 msgid "The guide options"
 msgstr "Kılavuz seçenekleri"
 
 #: src/filters/web/imagemap.xml:348(para)
+#, fuzzy
 msgid ""
 "Instead of creating geometrical shapes to select the active areas you may "
 "use an array of rectangles, each representing an active area, by clicking on "
@@ -588,16 +711,26 @@ msgid ""
 "in pixels. If you are not satisfied with the result you may adjust each "
 "rectangle by moving the red squares as usual."
 msgstr ""
+"Aktif alanları seçmek için geometrik şekiller oluşturmak yerine, "
+"<quote>Oluştur kılavuzlarına</quote> tıklayarak her biri bir aktif alanı "
+"temsil eden bir dizi dikdörtgen kullanabilirsiniz. Açılan menüde "
+"dikdörtgenlerin genişliğini ve yüksekliğini, aralarındaki boşluğu, satır ve "
+"sütun sayısını ve dizi için üst ve sol başlangıç noktasını ayarlarsınız. Tüm "
+"ölçüler piksel cinsindendir. Sonuçtan memnun kalmazsanız, her zamanki gibi "
+"kırmızı kareleri hareket ettirerek her bir dikdörtgeni ayarlayabilirsiniz."
 
 #: src/filters/web/imagemap.xml:369(title)
 msgid "The Tool Bar"
 msgstr "Araç Çubuğu"
 
 #: src/filters/web/imagemap.xml:370(para)
+#, fuzzy
 msgid ""
 "Most entries here are just shortcuts for some functions already described. "
 "Exceptions:"
 msgstr ""
+"Buradaki girişlerin çoğu, daha önce açıklanan bazı işlevler için "
+"kısayollardır. İstisnalar:"
 
 #: src/filters/web/imagemap.xml:376(term)
 msgid "Move Area to Front"
@@ -608,8 +741,10 @@ msgid "Move Area to Bottom"
 msgstr "En Alt Bölgeye Taşı"
 
 #: src/filters/web/imagemap.xml:379(para)
+#, fuzzy
 msgid "Here you can move an area entry to the bottom or top of the area list."
 msgstr ""
+"Burada bir alan girişini alan listesinin altına veya üstüne taşıyabilirsiniz."
 
 #: src/filters/web/imagemap.xml:389(title)
 #: src/filters/web/imagemap.xml:391(title)
@@ -617,47 +752,71 @@ msgid "The Working Area"
 msgstr "Çalışma Alanı"
 
 #: src/filters/web/imagemap.xml:399(para)
+#, fuzzy
 msgid ""
 "In the main area of the image map window, on the left side, you will find "
 "your working area where you can draw all the shapes areas you want with the "
 "relevant tools."
 msgstr ""
+"Görüntü haritası penceresinin ana alanında, sol tarafta, ilgili araçlarla "
+"istediğiniz tüm şekil alanlarını çizebileceğiniz çalışma alanınızı "
+"bulacaksınız."
 
 #: src/filters/web/imagemap.xml:404(para)
+#, fuzzy
 msgid ""
 "Beside the working area there are vertically displayed icons, one for "
 "pointing, three for calling tools to generate various shape areas, one to "
 "edit zone properties, and finally one to erase a selected zone; you can call "
 "these functions from the Mappings menu too."
 msgstr ""
+"Çalışma alanının yanında, biri işaret etmek için, üçü çeşitli şekil alanları "
+"oluşturmak için araçlar çağırmak için, biri bölge özelliklerini düzenlemek "
+"için ve son olarak biri seçilen bir bölgeyi silmek için olmak üzere dikey "
+"olarak görüntülenen simgeler vardır; bu işlevleri Eşlemeler menüsünden de "
+"çağırabilirsiniz."
 
 #: src/filters/web/imagemap.xml:411(para)
+#, fuzzy
 msgid "Note that the areas should not overlap."
-msgstr ""
+msgstr "Alanların üst üste gelmemesi gerektiğini unutmayın."
 
 #: src/filters/web/imagemap.xml:418(title)
 msgid "The selection area"
 msgstr "Seçim alanı"
 
 #: src/filters/web/imagemap.xml:419(para)
+#, fuzzy
 msgid ""
 "On the right is a display area, as a property list of the created areas. A "
 "click on one item of the list selects automatically the corresponding shape "
 "in the working area, then you can modify it."
 msgstr ""
+"Sağ tarafta, oluşturulan alanların bir özellik listesi olarak bir "
+"görüntüleme alanı bulunmaktadır. Listedeki bir öğeye tıkladığınızda, çalışma "
+"alanındaki ilgili şekil otomatik olarak seçilir ve ardından bu şekil "
+"üzerinde değişiklik yapabilirsiniz."
 
 #: src/filters/web/imagemap.xml:424(para)
+#, fuzzy
 msgid ""
 "Beside the display is an icon vertical set; its use is obvious but a help "
 "pop-up gives you some information about each function."
 msgstr ""
+"Ekranın yanında dikey bir simge seti vardır; kullanımı açıktır, ancak bir "
+"yardım açılır penceresi size her işlev hakkında bazı bilgiler verir."
 
 #: src/filters/web/imagemap.xml:429(para)
+#, fuzzy
 msgid ""
 "Unfortunately, the arrow symbols for moving a list entry up or down do not "
 "work here. But of course you carefully avoided to create overlapping areas, "
 "so you do not use these functions at all."
 msgstr ""
+"Ne yazık ki, bir liste girişini yukarı veya aşağı taşımak için kullanılan ok "
+"sembolleri burada çalışmaz. Ancak elbette üst üste binen alanlar "
+"oluşturmaktan dikkatle kaçındınız, bu nedenle bu işlevleri hiç "
+"kullanmıyorsunuz."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/web/imagemap.xml:0(None)

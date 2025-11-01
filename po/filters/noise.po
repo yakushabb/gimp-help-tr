@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-09-20 22:20+0300\n"
+"PO-Revision-Date: 2025-10-31 01:19+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -104,11 +104,15 @@ msgid "Filter <quote>Spread</quote> applied"
 msgstr "<quote>Yay</quote> süzgeci uygulandı"
 
 #: src/filters/noise/spread.xml:43(para)
+#, fuzzy
 msgid ""
 "The Spread filter swaps each pixel in the active layer or selection with "
 "another randomly chosen pixel by a user specified amount. It works on color "
 "transitions, not on plain color areas. No new color is introduced."
 msgstr ""
+"Spread filtresi etkin katmandaki veya seçimdeki her pikseli rastgele seçilen "
+"başka bir pikselle kullanıcı tarafından belirlenen miktarda değiştirir. Düz "
+"renk alanlarında değil, renk geçişlerinde çalışır. Yeni bir renk eklenmez."
 
 #: src/filters/noise/spread.xml:51(title) src/filters/noise/slur.xml:54(title)
 #: src/filters/noise/rgb-noise.xml:58(title)
@@ -199,11 +203,15 @@ msgid "Vertical"
 msgstr "Dikey"
 
 #: src/filters/noise/spread.xml:90(para)
+#, fuzzy
 msgid ""
 "You can set the distance that pixels will be moved along "
 "<guilabel>Horizontal</guilabel> and <guilabel>Vertical</guilabel> axis. The "
 "axis can be locked by clicking the Chain icon."
 msgstr ""
+"Piksellerin <guilabel>Yatay</guilabel> ve <guilabel>Dikey</guilabel> eksen "
+"boyunca taşınacağı mesafeyi ayarlayabilirsiniz. Eksen, Zincir simgesine "
+"tıklanarak kilitlenebilir."
 
 #: src/filters/noise/spread.xml:99(term) src/filters/noise/slur.xml:112(term)
 #: src/filters/noise/rgb-noise.xml:154(term)
@@ -226,6 +234,7 @@ msgstr "Yeni Parçacık"
 #: src/filters/noise/pick.xml:110(para) src/filters/noise/hurl.xml:109(para)
 #: src/filters/noise/hsv-noise.xml:126(para)
 #: src/filters/noise/cie-lch-noise.xml:125(para)
+#, fuzzy
 msgid ""
 "This option controls the randomness of the filter. The <guilabel>Random "
 "seed</guilabel> box lets you manually enter a seed for the randomization "
@@ -234,6 +243,12 @@ msgid ""
 "the same situation, the filter produces exactly the same results. A "
 "different random seed produces different results."
 msgstr ""
+"Bu seçenek filtrenin rastgeleliğini kontrol eder. <guilabel>Rastgele</"
+"guilabel> tohum kutusu, kullanılan rastgeleleştirme algoritması için manuel "
+"olarak bir tohum girmenizi sağlar. <guibutton>Yeni Tohum</guibutton> "
+"düğmesine basarak da rastgele bir tohum oluşturabilirsiniz. Aynı durumda "
+"aynı rastgele tohum kullanılırsa, filtre tamamen aynı sonuçları üretir. "
+"Farklı bir rastgele tohum farklı sonuçlar üretir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -269,6 +284,7 @@ msgid "Filter <quote>Slur</quote> applied"
 msgstr "<quote>Savrulma</quote> süzgeci uygulandı"
 
 #: src/filters/noise/slur.xml:42(para)
+#, fuzzy
 msgid ""
 "Slurring produces an effect resembling melting the image downwards; if a "
 "pixel is to be slurred, there is an 80% chance that it is replaced by the "
@@ -277,13 +293,23 @@ msgid ""
 "layer or selection are affected, the percentage of affected pixels is "
 "determined by the <guilabel>Randomization (%)</guilabel> option."
 msgstr ""
+"Bulanıklaştırma görüntüyü aşağı doğru eritmeye benzeyen bir efekt üretir; "
+"bir piksel bulanıklaştırılacaksa, hemen üstündeki bir pikselin değeriyle "
+"değiştirilme olasılığı 80% cvardır; aksi takdirde, üsttekinin solundaki veya "
+"sağındaki iki pikselden biri kullanılır. Etkin bir katman veya seçimdeki tüm "
+"pikseller veya sadece bazı pikseller etkilenir, etkilenen piksellerin "
+"yüzdesi <guilabel>Rastgeleleştirme (%)</guilabel> seçeneği ile belirlenir."
 
 #: src/filters/noise/slur.xml:55(para)
+#, fuzzy
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Noise</guisubmenu><guimenuitem>Slur…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu filtre ana menüde aşağıdakilerin altında bulunur "
+"<menuchoice><guimenu>Filtreler</guimenu><guisubmenu>Gürültü</"
+"guisubmenu><guimenuitem>Slur</guimenuitem></menuchoice>."
 
 #: src/filters/noise/slur.xml:68(title)
 msgid "Slur filter options"
@@ -295,6 +321,7 @@ msgid "Randomization (%)"
 msgstr "Rastgeleleştirme (%)"
 
 #: src/filters/noise/slur.xml:91(para)
+#, fuzzy
 msgid ""
 "This slider represents the percentage of pixels of the active layer or "
 "selection which will be slurred. The higher value, the more pixels are "
@@ -302,6 +329,11 @@ msgid ""
 "noticeable if this slider is set to a medium value, somewhere around 50. "
 "Experiment with it and try for yourself!"
 msgstr ""
+"Bu kaydırıcı, etkin katmanın veya seçimin bulanıklaştırılacak piksellerinin "
+"yüzdesini temsil eder. Değer ne kadar yüksek olursa, o kadar fazla piksel "
+"bulanıklaştırılır, ancak filtrenin çalışma şekli nedeniyle, bu kaydırıcı 50 "
+"civarında orta bir değere ayarlanırsa etkisi en belirgin olur. Deneme yapın "
+"ve kendiniz deneyin!"
 
 #: src/filters/noise/slur.xml:102(term) src/filters/noise/pick.xml:97(term)
 #: src/filters/noise/hurl.xml:95(term)
@@ -309,11 +341,15 @@ msgid "Repeat"
 msgstr "Yinele"
 
 #: src/filters/noise/slur.xml:104(para)
+#, fuzzy
 msgid ""
 "This slider represents the number of times the filter will be applied. "
 "Higher values result in more slurring, moving the color over a longer "
 "distance."
 msgstr ""
+"Bu kaydırıcı, filtrenin kaç kez uygulanacağını temsil eder. Daha yüksek "
+"değerler daha fazla bulanıklığa neden olur ve rengi daha uzun bir mesafeye "
+"taşır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -350,6 +386,7 @@ msgid "Filter <quote>RGB Noise</quote> applied"
 msgstr "<quote>RGB Gürültüsü</quote> süzgeci uygulandı"
 
 #: src/filters/noise/rgb-noise.xml:42(para)
+#, fuzzy
 msgid ""
 "The RGB Noise filter adds a normally distributed noise to a layer or a "
 "selection. It uses the RGB color model to produce the noise (noise is added "
@@ -359,17 +396,29 @@ msgid ""
 "filter to an image filled with a solid gray color and then look at its "
 "histogram, you will see a classic bell-shaped Gaussian curve.)"
 msgstr ""
+"RGB Gürültü filtresi bir katmana veya seçime normal dağılımlı bir gürültü "
+"ekler. Gürültüyü üretmek için RGB renk modelini kullanır (gürültü her "
+"pikselin kırmızı, yeşil ve mavi değerlerine eklenir). Normal dağılım, "
+"etkilenen alandaki en çok piksele yalnızca hafif gürültü eklenirken, daha az "
+"pikselin daha uç değerlerden etkilendiği anlamına gelir. (Bu filtreyi düz "
+"gri renkle dolu bir görüntüye uygular ve histogramına bakarsanız, klasik çan "
+"şeklinde bir Gauss eğrisi görürsünüz)"
 
 #: src/filters/noise/rgb-noise.xml:52(para)
+#, fuzzy
 msgid "The result is very naturally looking noise."
-msgstr ""
+msgstr "Sonuç çok doğal görünen bir gürültüdür."
 
 #: src/filters/noise/rgb-noise.xml:59(para)
+#, fuzzy
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Noise</guisubmenu><guimenuitem>RGB Noise…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu filtre ana menüde aşağıdakilerin altında bulunur "
+"<menuchoice><guimenu>Filtreler</guimenu><guisubmenu>Gürültü</"
+"guisubmenu><guimenuitem>RGB Gürültü..</guimenuitem></menuchoice>."
 
 #: src/filters/noise/rgb-noise.xml:72(title)
 msgid "<quote>RGB Noise</quote> filter options"
@@ -380,6 +429,7 @@ msgid "Correlated noise"
 msgstr "İlişkili gürültü"
 
 #: src/filters/noise/rgb-noise.xml:96(para)
+#, fuzzy
 msgid ""
 "Noise may be additive (uncorrelated) or multiplicative (correlated - also "
 "known as speckle noise). When checked, every channel value is multiplied by "
@@ -387,36 +437,50 @@ msgid ""
 "greater channel value leads to more noise, while dark colors (small values) "
 "tend to remain dark."
 msgstr ""
+"Gürültü eklemeli (ilişkisiz) veya çarpmalı (ilişkili - benek gürültüsü "
+"olarak da bilinir) olabilir. Kontrol edildiğinde, her kanal değeri normal "
+"dağılımlı bir değerle çarpılır. Dolayısıyla gürültü kanal değerlerine "
+"bağlıdır: daha büyük bir kanal değeri daha fazla gürültüye yol açarken, koyu "
+"renkler (küçük değerler) koyu kalma eğilimindedir."
 
 #: src/filters/noise/rgb-noise.xml:106(term)
 msgid "Independent RGB"
 msgstr "Bağımsız RGB"
 
 #: src/filters/noise/rgb-noise.xml:108(para)
+#, fuzzy
 msgid ""
 "When this radio button is checked, you can move each RGB slider separately. "
 "Otherwise, the sliders R, G and B will be replaced by a single slider Value. "
 "The same relative noise will then be added to all channels in each pixel, so "
 "the hue of pixels does not change much."
 msgstr ""
+"Bu radyo düğmesi işaretlendiğinde, her RGB sürgüsünü ayrı ayrı hareket "
+"ettirebilirsiniz. Aksi takdirde, R, G ve B kaydırıcıları tek bir kaydırıcı "
+"Değer ile değiştirilecektir. Bu durumda her pikseldeki tüm kanallara aynı "
+"göreli gürültü eklenir, böylece piksellerin tonu fazla değişmez."
 
 #: src/filters/noise/rgb-noise.xml:118(term)
 msgid "Linear RGB"
 msgstr "Doğrusal RGB"
 
 #: src/filters/noise/rgb-noise.xml:120(para)
+#, fuzzy
 msgid "Operate on linearized RGB color data."
-msgstr ""
+msgstr "Doğrusal RGB renk verisi üzerinde çalış"
 
 #: src/filters/noise/rgb-noise.xml:126(term)
 msgid "Gaussian distribution"
 msgstr "Gaussian dağılımı"
 
 #: src/filters/noise/rgb-noise.xml:128(para)
+#, fuzzy
 msgid ""
 "Use a gaussian noise distribution. When unchecked, a linear noise "
 "distribution is used instead."
 msgstr ""
+"Gauss gürültü dağılımı kullanın. İşaretlenmediğinde, bunun yerine doğrusal "
+"bir gürültü dağılımı kullanılır."
 
 #: src/filters/noise/rgb-noise.xml:135(term)
 msgid "Red"
@@ -435,18 +499,26 @@ msgid "Alpha"
 msgstr "Alfa"
 
 #: src/filters/noise/rgb-noise.xml:140(para)
+#, fuzzy
 msgid ""
 "These slidebars and adjacent input boxes allow to set noise level "
 "(0.00-1.00) in each channel."
 msgstr ""
+"Bu slayt çubukları ve bitişik giriş kutuları her kanalda gürültü seviyesinin "
+"(0,00-1,00) ayarlanmasını sağlar."
 
 #: src/filters/noise/rgb-noise.xml:144(para)
+#, fuzzy
 msgid ""
 "The value set by these sliders actually determine the standard deviation of "
 "the normal distribution of applied noise. The used standard deviation is a "
 "half of the set value (where 1 is the distance between the lowest and "
 "highest possible value in a channel)."
 msgstr ""
+"Bu kaydırıcılar tarafından ayarlanan değer aslında uygulanan gürültünün "
+"normal dağılımının standart sapmasını belirler. Kullanılan standart sapma, "
+"ayarlanan değerin yarısıdır (burada 1, bir kanaldaki mümkün olan en düşük ve "
+"en yüksek değer arasındaki mesafedir)."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -482,6 +554,7 @@ msgid "Filter <quote>Pick</quote> applied"
 msgstr "<quote>Seç</quote> süzgeci uygulandı"
 
 #: src/filters/noise/pick.xml:42(para)
+#, fuzzy
 msgid ""
 "The Pick filter replaces each affected pixel by a pixel value randomly "
 "chosen from its eight neighbors and itself (from a 3×3 square the pixel is "
@@ -489,30 +562,46 @@ msgid ""
 "affected, the percentage of affected pixels is determined by the "
 "<guilabel>Randomization (%)</guilabel> option."
 msgstr ""
+"Seçim filtresi, etkilenen her pikseli sekiz komşusundan ve kendisinden "
+"(pikselin ortasındaki 3×3 kareden) rastgele seçilen bir piksel değeriyle "
+"değiştirir. Etkin bir katmandaki veya seçimdeki tüm pikseller veya sadece "
+"bazı pikseller etkilenir, etkilenen piksellerin yüzdesi "
+"<guilabel>Rastgeleleştirme (%)</guilabel> seçeneği ile belirlenir."
 
 #: src/filters/noise/pick.xml:53(para)
+#, fuzzy
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Noise</guisubmenu><guimenuitem>Pick…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu filtre ana menüde aşağıdakilerin altında bulunur "
+"<menuchoice><guimenu>Filtreler</guimenu><guisubmenu>Gürültü</"
+"guisubmenu><guimenuitem>Seç..</guimenuitem></menuchoice>."
 
 #: src/filters/noise/pick.xml:66(title)
 msgid "<quote>Pick</quote> filter options"
 msgstr "<quote>Seç</quote> süzgeci seçenekleri"
 
 #: src/filters/noise/pick.xml:89(para)
+#, fuzzy
 msgid ""
 "This slider represents the percentage of pixels of the active layer or "
 "selection which will be picked. The higher value, the more pixels are picked."
 msgstr ""
+"Bu kaydırıcı, aktif katmanın veya seçimin seçilecek piksellerinin yüzdesini "
+"temsil eder. Değer ne kadar yüksek olursa, o kadar fazla piksel seçilir."
 
 #: src/filters/noise/pick.xml:99(para)
+#, fuzzy
 msgid ""
 "This slider represents the number of times the filter will be applied. "
 "Higher values result in more picking, pixel values being transferred farther "
 "away."
 msgstr ""
+"Bu kaydırıcı, filtrenin kaç kez uygulanacağını temsil eder. Daha yüksek "
+"değerler daha fazla toplama ile sonuçlanır, piksel değerleri daha uzağa "
+"aktarılır."
 
 #: src/filters/noise/introduction.xml:10(title)
 #: src/filters/noise/introduction.xml:15(tertiary)
@@ -520,6 +609,7 @@ msgid "Introduction"
 msgstr "Giriş"
 
 #: src/filters/noise/introduction.xml:17(para)
+#, fuzzy
 msgid ""
 "Noise filters <emphasis>add</emphasis> noise to the active layer or to the "
 "selection. To <emphasis>remove</emphasis> small defects from an image, see "
@@ -527,6 +617,11 @@ msgid ""
 "linkend=\"gimp-filter-gaussian-blur-selective\">Selective Gaussian Blur</"
 "link> filters."
 msgstr ""
+"Gürültü filtreleri etkin katmana veya seçime gürültü <emphasis>ekler</"
+"emphasis>. Bir görüntüdeki küçük kusurları <emphasis>gidermek</emphasis> "
+"için <link linkend=\"plug-in-despeckle\">Despeckle</link> ve <link "
+"linkend=\"gimp-filter-gaussian-blur-selective\">Selective Gaussian Blur</"
+"link> filtrelerine bakın."
 
 #: src/filters/noise/introduction.xml:25(para)
 msgid "This category describes the following filters:"
@@ -581,6 +676,7 @@ msgstr ""
 "menuchoice> altında bulunur."
 
 #: src/filters/noise/hurl.xml:50(para)
+#, fuzzy
 msgid ""
 "The Hurl filter changes each affected pixel to a random color, so it "
 "produces real <emphasis>random noise</emphasis>. All color channels, "
@@ -590,24 +686,40 @@ msgid ""
 "are affected, the percentage of affected pixels is determined by the "
 "<guilabel>Randomization (%)</guilabel> option."
 msgstr ""
+"Hurl filtresi, etkilenen her pikseli rastgele bir renge dönüştürür, böylece "
+"gerçek rastgele <emphasis>gürültü</emphasis> üretir. Alfa kanalı da dahil "
+"olmak üzere (varsa) tüm renk kanalları rastgele belirlenir. Tüm olası "
+"değerler aynı olasılıkla atanır. Orijinal değerler dikkate alınmaz. Etkin "
+"bir katmandaki veya seçimdeki tüm pikseller veya yalnızca bazı pikseller "
+"etkilenir, etkilenen piksellerin yüzdesi <guilabel>Rastgeleleştirme (%)</"
+"guilabel> seçeneğiyle belirlenir."
 
 #: src/filters/noise/hurl.xml:64(title)
 msgid "<quote>Hurl</quote> options"
 msgstr "<quote>Savrulma</quote> seçenekleri"
 
 #: src/filters/noise/hurl.xml:87(para)
+#, fuzzy
 msgid ""
 "This slider represents the percentage of pixels of the active layer or "
 "selection which will be hurled. The higher value, the more pixels are hurled."
 msgstr ""
+"Bu kaydırıcı, etkin katmanın veya seçimin fırlatılacak piksellerinin "
+"yüzdesini temsil eder. Değer ne kadar yüksek olursa, o kadar fazla piksel "
+"fırlatılır."
 
 #: src/filters/noise/hurl.xml:97(para)
+#, fuzzy
 msgid ""
 "It represents the number of times the filter will be applied. In the case of "
 "the Hurl filter it is not very useful, because the same results can be "
 "obtained faster just by using a higher <guilabel>Randomization (%)</"
 "guilabel> value."
 msgstr ""
+"Filtrenin kaç kez uygulanacağını temsil eder. Hurl filtresi söz konusu "
+"olduğunda çok kullanışlı değildir, çünkü aynı sonuçlar sadece daha yüksek "
+"bir Rastgeleleştirme <guilabel>(%)</guilabel> değeri kullanılarak daha hızlı "
+"elde edilebilir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -644,17 +756,24 @@ msgid "Filter <quote>HSV Noise</quote> applied"
 msgstr "<quote>HSV Gürültüsü</quote> süzgeci uygulandı"
 
 #: src/filters/noise/hsv-noise.xml:43(para)
+#, fuzzy
 msgid ""
 "The HSV Noise filter creates noise in the active layer or selection by using "
 "the Hue, Saturation, Value (luminosity) color model."
 msgstr ""
+"HSV Gürültü filtresi, Ton, Doygunluk, Değer (parlaklık) renk modelini "
+"kullanarak etkin katmanda veya seçimde gürültü oluşturur."
 
 #: src/filters/noise/hsv-noise.xml:51(para)
+#, fuzzy
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Noise</guisubmenu><guimenuitem>HSV Noise…</guimenuitem></"
 "menuchoice>."
 msgstr ""
+"Bu filtre ana menüde aşağıdakilerin altında bulunur "
+"<menuchoice><guimenu>Filtreler</guimenu><guisubmenu>Gürültü</"
+"guisubmenu><guimenuitem>HSV Gürültü..</guimenuitem></menuchoice>."
 
 #: src/filters/noise/hsv-noise.xml:64(title)
 msgid "<quote>HSV Noise</quote> filter options"
@@ -666,11 +785,16 @@ msgid "Dulling"
 msgstr "Matlaşma"
 
 #: src/filters/noise/hsv-noise.xml:88(para)
+#, fuzzy
 msgid ""
 "This slider (1 - 8) controls how much the new pixel color value is allowed "
 "to be applied compared to the existing color. A low dulling will give an "
 "important hue variation. A high dulling will give a weak variation."
 msgstr ""
+"Bu kaydırıcı (1 - 8) yeni piksel renk değerinin mevcut renge kıyasla ne "
+"kadar uygulanmasına izin verildiğini kontrol eder. Düşük bir matlaştırma "
+"önemli bir renk tonu değişimi sağlayacaktır. Yüksek bir matlaştırma zayıf "
+"bir varyasyon verecektir."
 
 #: src/filters/noise/hsv-noise.xml:97(term)
 #: src/filters/noise/cie-lch-noise.xml:112(term)
@@ -679,26 +803,31 @@ msgstr "Renk tonu"
 
 #: src/filters/noise/hsv-noise.xml:99(para)
 #: src/filters/noise/cie-lch-noise.xml:114(para)
+#, fuzzy
 msgid ""
 "This slider changes the hue of the pixels in a random pattern. A higher "
 "value will increase the average change from the original pixel color."
 msgstr ""
+"Bu kaydırıcı, piksellerin tonunu rastgele bir düzende değiştirir. Daha "
+"yüksek bir değer, orijinal piksel renginden ortalama değişimi artıracaktır."
 
 #: src/filters/noise/hsv-noise.xml:107(term)
 msgid "Saturation"
 msgstr "Doygunluk"
 
 #: src/filters/noise/hsv-noise.xml:109(para)
+#, fuzzy
 msgid "This slider increases saturation of scattered pixels."
-msgstr ""
+msgstr "Bu kaydırıcı dağınık piksellerin doygunluğunu artırır."
 
 #: src/filters/noise/hsv-noise.xml:115(term)
 msgid "Value"
 msgstr "Değer"
 
 #: src/filters/noise/hsv-noise.xml:117(para)
+#, fuzzy
 msgid "This slider increases brightness of scattered pixels."
-msgstr ""
+msgstr "Bu kaydırıcı saçılan piksellerin parlaklığını artırır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -738,11 +867,15 @@ msgid "Filter <quote>CIE lch Noise</quote> applied"
 msgstr "<quote>CIE lch Gürültüsü</quote> süzgeci uygulandı"
 
 #: src/filters/noise/cie-lch-noise.xml:42(para)
+#, fuzzy
 msgid ""
 "The CIE lch Noise filter creates noise in the active layer or selection by "
 "using the Lightness, Chroma, Hue color model, according to the CIE "
 "(<quote>Compagnie Internationale de l'Éclairage</quote>) specifications."
 msgstr ""
+"CIE lch Noise filtresi, CIE<quote>(Compagnie Internationale de l'Éclairage</"
+"quote>) spesifikasyonlarına göre Lightness, Chroma, Hue renk modelini "
+"kullanarak etkin katmanda veya seçimde gürültü oluşturur."
 
 #: src/filters/noise/cie-lch-noise.xml:51(para)
 msgid ""
@@ -759,28 +892,35 @@ msgid "<quote>CIE lch Noise</quote> filter options"
 msgstr "<quote>CIE lch Gürültüsü</quote> süzgeci seçenekleri"
 
 #: src/filters/noise/cie-lch-noise.xml:88(para)
+#, fuzzy
 msgid ""
 "This slider (1 - 8) controls the randomness of the noise: a high value "
 "lowers the randomness."
 msgstr ""
+"Bu kaydırıcı (1 - 8) gürültünün rastgeleliğini kontrol eder: yüksek bir "
+"değer rastgeleliği azaltır."
 
 #: src/filters/noise/cie-lch-noise.xml:95(term)
 msgid "Lightness"
 msgstr "Aydınlık"
 
 #: src/filters/noise/cie-lch-noise.xml:97(para)
+#, fuzzy
 msgid "This slider changes the lightness of the noise."
-msgstr ""
+msgstr "Bu kaydırıcı gürültünün hafifliğini değiştirir."
 
 #: src/filters/noise/cie-lch-noise.xml:103(term)
 msgid "Chroma"
 msgstr "Renk parlaklığı"
 
 #: src/filters/noise/cie-lch-noise.xml:105(para)
+#, fuzzy
 msgid ""
 "This slider changes the chroma of the pixels in a random pattern (percentage "
 "of a white of the same lightness)."
 msgstr ""
+"Bu kaydırıcı, piksellerin kromasını rastgele bir düzende değiştirir (aynı "
+"açıklıktaki bir beyazın yüzdesi)."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/noise/cie-lch-noise.xml:0(None)
