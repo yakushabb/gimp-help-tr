@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-05 17:06+0000\n"
-"PO-Revision-Date: 2025-10-31 01:46+0300\n"
+"PO-Revision-Date: 2025-11-05 20:38+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -266,9 +266,8 @@ msgstr ""
 "Katman kümeleri şurada işlenmiştir: <xref linkend=\"gimp-layer-groups\"/>."
 
 #: src/filters/enhance/wavelet-decompose.xml:133(term)
-#, fuzzy
 msgid "Add a layer mask to each scale layer"
-msgstr "Her ölçek katmanına bir katman maskesi ekleyin"
+msgstr "Her ölçek katmanına katman maskesi ekle"
 
 #: src/filters/enhance/wavelet-decompose.xml:135(para)
 msgid "Layer masks are treated in <xref linkend=\"gimp-layer-mask\"/>."
@@ -936,10 +935,9 @@ msgid "Example for the <quote>Noise Reduction</quote> filter"
 msgstr "<quote>Kırmızı Göz Düzeltme</quote> süzgeci örneği"
 
 #: src/filters/enhance/noise-reduction.xml:36(para)
-#, fuzzy
 #| msgid "Filter applied. Strength = 5"
 msgid "<quote>Noise Reduction</quote> applied. Strength = 5"
-msgstr "Süzgeç uygulandı. Kuvvet = 5"
+msgstr "<quote>Gürültü Azaltma</quote> uygulandı. Kuvvet = 5"
 
 #: src/filters/enhance/noise-reduction.xml:40(para)
 msgid "A simple GEGL filter to reduce noise."
@@ -1579,19 +1577,16 @@ msgid "Recursive-Median"
 msgstr "Özyineli Ortanca"
 
 #: src/filters/enhance/despeckle.xml:90(para)
-#, fuzzy
 msgid "Repeats the Median filter action to get a stronger effect."
-msgstr "Daha güçlü bir etki elde etmek için Medyan filtre işlemini tekrarlar."
+msgstr "Daha güçlü etki için Ortanca süzgeç eylemini yineler."
 
 #: src/filters/enhance/despeckle.xml:96(term)
 msgid "Recursive-Adaptive"
 msgstr "Özyineli Uyarlamalı"
 
 #: src/filters/enhance/despeckle.xml:98(para)
-#, fuzzy
 msgid "Repeats the Adaptive filter action to get a stronger effect."
-msgstr ""
-"Daha güçlü bir etki elde etmek için Uyarlanabilir filtre eylemini tekrarlar."
+msgstr "Daha güçlü etki için Uyarlamalı süzgeç eylemini yineler."
 
 #: src/filters/enhance/despeckle.xml:109(para)
 #, fuzzy

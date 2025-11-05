@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-05 17:06+0000\n"
-"PO-Revision-Date: 2025-10-20 02:41+0300\n"
+"PO-Revision-Date: 2025-11-05 20:50+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -2268,6 +2268,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-vchain.svg'; "
 "md5=d47eea1ce790b9e3211d223704a1e9de"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
 
 #: src/filters/render/maze.xml:8(title)
 #: src/filters/render/maze.xml:13(tertiary)
@@ -2918,10 +2920,8 @@ msgid "Bevel Edges"
 msgstr "Eğim Kenarları"
 
 #: src/filters/render/jigsaw.xml:99(term)
-#, fuzzy
-#| msgid "Bevel width"
 msgid "Blend width"
-msgstr "Eğim genişliği"
+msgstr "Harmanlama genişliği"
 
 #: src/filters/render/jigsaw.xml:101(para)
 msgid ""
@@ -3022,6 +3022,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-move.svg'; "
 "md5=b426a30d7ab11f4efb8301ad782eeb9d"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-move.svg'; "
+"md5=b426a30d7ab11f4efb8301ad782eeb9d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3030,6 +3032,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-rotate.svg'; "
 "md5=1f4544cf89e6c5c28c3e2f1cb1743aa8"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-rotate.svg'; "
+"md5=1f4544cf89e6c5c28c3e2f1cb1743aa8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3038,6 +3042,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-tool-perspective.svg'; "
 "md5=f378abec80cbcf217b746ce5ad61aa4e"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-tool-perspective.svg'; "
+"md5=f378abec80cbcf217b746ce5ad61aa4e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3046,6 +3052,8 @@ msgid ""
 "@@image: 'images/stock-icons/document-new.svg'; "
 "md5=06940851b3c5b383f3a345703f51728e"
 msgstr ""
+"@@image: 'images/stock-icons/document-new.svg'; "
+"md5=06940851b3c5b383f3a345703f51728e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3054,6 +3062,8 @@ msgid ""
 "@@image: 'images/stock-icons/edit-delete.svg'; "
 "md5=45f8be6623096f6f25175b048c82a721"
 msgstr ""
+"@@image: 'images/stock-icons/edit-delete.svg'; "
+"md5=45f8be6623096f6f25175b048c82a721"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3062,6 +3072,8 @@ msgid ""
 "@@image: 'images/stock-icons/edit-undo.svg'; "
 "md5=524801e2f3ee88b6cef9e0275ca165d1"
 msgstr ""
+"@@image: 'images/stock-icons/edit-undo.svg'; "
+"md5=524801e2f3ee88b6cef9e0275ca165d1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3070,6 +3082,8 @@ msgid ""
 "@@image: 'images/stock-icons/edit-redo.svg'; "
 "md5=4f0a24065345b2fd75a76883d0a98698"
 msgstr ""
+"@@image: 'images/stock-icons/edit-redo.svg'; "
+"md5=4f0a24065345b2fd75a76883d0a98698"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3078,6 +3092,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-selection-all.svg'; "
 "md5=84cd61b241f553ae67e47f4000fa7381"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-selection-all.svg'; "
+"md5=84cd61b241f553ae67e47f4000fa7381"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3086,6 +3102,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-center-symbolic.svg'; "
 "md5=563908d63ce5bd320ad8d7eea2bbd19d"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-center-symbolic.svg'; "
+"md5=563908d63ce5bd320ad8d7eea2bbd19d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3094,6 +3112,8 @@ msgid ""
 "@@image: 'images/stock-icons/preferences-system-symbolic.svg'; "
 "md5=1bc321ced0ff0bb4a5cee6cf044f443e"
 msgstr ""
+"@@image: 'images/stock-icons/preferences-system-symbolic.svg'; "
+"md5=1bc321ced0ff0bb4a5cee6cf044f443e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3228,16 +3248,16 @@ msgstr ""
 
 #: src/filters/render/ifsfractal.xml:103(term)
 msgid "<placeholder-1/> Move"
-msgstr ""
+msgstr "<placeholder-1/> Taşı"
 
 #. TODO: It also scales the fraktal
 #: src/filters/render/ifsfractal.xml:116(term)
 msgid "<placeholder-1/> Rotate"
-msgstr ""
+msgstr "<placeholder-1/> Döndür"
 
 #: src/filters/render/ifsfractal.xml:128(term)
 msgid "<placeholder-1/> Stretch"
-msgstr ""
+msgstr "<placeholder-1/> Genişlet"
 
 #: src/filters/render/ifsfractal.xml:141(para)
 msgid "Select the action to perform using the (mouse) pointer."
@@ -3245,11 +3265,11 @@ msgstr ""
 
 #: src/filters/render/ifsfractal.xml:145(term)
 msgid "<placeholder-1/> New"
-msgstr ""
+msgstr "<placeholder-1/> Yeni"
 
 #: src/filters/render/ifsfractal.xml:157(term)
 msgid "<placeholder-1/> Delete"
-msgstr ""
+msgstr "<placeholder-1/> Sil"
 
 #: src/filters/render/ifsfractal.xml:170(para)
 msgid "Add or remove fractals."
@@ -3257,11 +3277,11 @@ msgstr "Fraktal ekle ya da kaldır."
 
 #: src/filters/render/ifsfractal.xml:174(term)
 msgid "<placeholder-1/> Undo"
-msgstr ""
+msgstr "<placeholder-1/> Geri Al"
 
 #: src/filters/render/ifsfractal.xml:186(term)
 msgid "<placeholder-1/> Redo"
-msgstr ""
+msgstr "<placeholder-1/> Yinele"
 
 #: src/filters/render/ifsfractal.xml:199(para)
 msgid "Standard."
@@ -3269,7 +3289,7 @@ msgstr "Standart."
 
 #: src/filters/render/ifsfractal.xml:203(term)
 msgid "<placeholder-1/> Select All"
-msgstr ""
+msgstr "<placeholder-1/> Tümünü Seç"
 
 #: src/filters/render/ifsfractal.xml:216(para)
 msgid "Link fractals and let apply actions to all fractals."
@@ -3277,7 +3297,7 @@ msgstr ""
 
 #: src/filters/render/ifsfractal.xml:220(term)
 msgid "<placeholder-1/> Recompute Center"
-msgstr ""
+msgstr "<placeholder-1/> Merkezi Yeniden Hesapla"
 
 #. TODO: when or why is this useful?
 #: src/filters/render/ifsfractal.xml:234(para)
@@ -3287,10 +3307,8 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/ifsfractal.xml:241(term)
-#, fuzzy
-#| msgid "Render Options"
 msgid "<placeholder-1/> Render Options"
-msgstr "İşleme Seçenekleri"
+msgstr "<placeholder-1/> İşleme Seçenekleri"
 
 #: src/filters/render/ifsfractal.xml:256(term)
 msgid "Max. memory"
@@ -3849,6 +3867,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-line.svg'; "
 "md5=2bba23449ee32e54ab633cd18d293548"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-line.svg'; "
+"md5=2bba23449ee32e54ab633cd18d293548"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3857,6 +3877,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-rectangle.svg'; "
 "md5=1127f73b846617adcecb10bcac1d8eaa"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-rectangle.svg'; "
+"md5=1127f73b846617adcecb10bcac1d8eaa"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3865,6 +3887,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-circle.svg'; "
 "md5=5b131392f08709183c348001cfe78a78"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-circle.svg'; "
+"md5=5b131392f08709183c348001cfe78a78"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3873,6 +3897,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-ellipse.svg'; "
 "md5=2faaaf38a3f2bd8f83542149b0dceef3"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-ellipse.svg'; "
+"md5=2faaaf38a3f2bd8f83542149b0dceef3"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3881,6 +3907,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-curve.svg'; "
 "md5=07437d3d2a2225db6311d5a712ab2602"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-curve.svg'; "
+"md5=07437d3d2a2225db6311d5a712ab2602"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3889,6 +3917,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-polygon.svg'; "
 "md5=010f9168b728b1a77bbc950f6fd295e1"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-polygon.svg'; "
+"md5=010f9168b728b1a77bbc950f6fd295e1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3897,6 +3927,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-star.svg'; "
 "md5=e2376729f99f7835a9abec7adb6134c1"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-star.svg'; "
+"md5=e2376729f99f7835a9abec7adb6134c1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3905,6 +3937,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-spiral.svg'; "
 "md5=f6246446195b4f829d43e94bb19e5506"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-spiral.svg'; "
+"md5=f6246446195b4f829d43e94bb19e5506"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3913,6 +3947,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-bezier.svg'; "
 "md5=e738240caaa920f7d281e783fc321ff0"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-bezier.svg'; "
+"md5=e738240caaa920f7d281e783fc321ff0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3921,6 +3957,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-move-object.svg'; "
 "md5=fc91b6ca568c57c73d485979d87f6472"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-move-object.svg'; "
+"md5=fc91b6ca568c57c73d485979d87f6472"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3929,6 +3967,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-move-point.svg'; "
 "md5=5fdac39d1081b4f673d8a16495792f1c"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-move-point.svg'; "
+"md5=5fdac39d1081b4f673d8a16495792f1c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3937,6 +3977,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-copy-object.svg'; "
 "md5=ed8e52ca54a8a0ee016c570ce55904c0"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-copy-object.svg'; "
+"md5=ed8e52ca54a8a0ee016c570ce55904c0"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3945,6 +3987,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-delete-object.svg'; "
 "md5=ea8910b897826317fa45593b4549af17"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-delete-object.svg'; "
+"md5=ea8910b897826317fa45593b4549af17"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3953,6 +3997,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-cursor-symbolic.svg'; "
 "md5=2eb6717e81249d060a323272b4f26601"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-cursor-symbolic.svg'; "
+"md5=2eb6717e81249d060a323272b4f26601"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3960,6 +4006,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/stock-icons/go-up.svg'; md5=8bb07d0cec2dee4f0ca7fdec241c2a71"
 msgstr ""
+"@@image: 'images/stock-icons/go-up.svg'; md5=8bb07d0cec2dee4f0ca7fdec241c2a71"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3968,6 +4015,8 @@ msgid ""
 "@@image: 'images/stock-icons/go-down.svg'; "
 "md5=af293e1c584e1f7682600ac7acc1738d"
 msgstr ""
+"@@image: 'images/stock-icons/go-down.svg'; "
+"md5=af293e1c584e1f7682600ac7acc1738d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3976,6 +4025,8 @@ msgid ""
 "@@image: 'images/stock-icons/go-top-symbolic.svg'; "
 "md5=03be7d2c281b0a8326fa0446a4b0c635"
 msgstr ""
+"@@image: 'images/stock-icons/go-top-symbolic.svg'; "
+"md5=03be7d2c281b0a8326fa0446a4b0c635"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3984,6 +4035,8 @@ msgid ""
 "@@image: 'images/stock-icons/go-bottom-symbolic.svg'; "
 "md5=3ef899d47178a915ac3bcd5d0907a242"
 msgstr ""
+"@@image: 'images/stock-icons/go-bottom-symbolic.svg'; "
+"md5=3ef899d47178a915ac3bcd5d0907a242"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3992,6 +4045,8 @@ msgid ""
 "@@image: 'images/stock-icons/go-previous-symbolic.svg'; "
 "md5=5886667f01adf6498cdc8d54b3d5dfc9"
 msgstr ""
+"@@image: 'images/stock-icons/go-previous-symbolic.svg'; "
+"md5=5886667f01adf6498cdc8d54b3d5dfc9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4000,6 +4055,8 @@ msgid ""
 "@@image: 'images/stock-icons/go-next-symbolic.svg'; "
 "md5=b2e754a52520ffbf97dad454db7480df"
 msgstr ""
+"@@image: 'images/stock-icons/go-next-symbolic.svg'; "
+"md5=b2e754a52520ffbf97dad454db7480df"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4008,6 +4065,8 @@ msgid ""
 "@@image: 'images/stock-icons/gfig-show-all.svg'; "
 "md5=8a6f090945881316df9715e12932d07b"
 msgstr ""
+"@@image: 'images/stock-icons/gfig-show-all.svg'; "
+"md5=8a6f090945881316df9715e12932d07b"
 
 #: src/filters/render/gfig.xml:12(title)
 #: src/filters/render/gfig.xml:17(tertiary)
@@ -4091,7 +4150,7 @@ msgstr ""
 #. terms according to tooltips
 #: src/filters/render/gfig.xml:116(term)
 msgid "<placeholder-1/> Create line"
-msgstr ""
+msgstr "<placeholder-1/> Çizgi oluştur"
 
 #: src/filters/render/gfig.xml:129(para)
 msgid ""
@@ -4100,10 +4159,8 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/gfig.xml:136(term)
-#, fuzzy
-#| msgid "Create rectangle"
 msgid "<placeholder-1/> Create rectangle"
-msgstr "Dörtgen oluştur"
+msgstr "<placeholder-1/> Dörtgen oluştur"
 
 #: src/filters/render/gfig.xml:149(para)
 msgid ""
@@ -4112,10 +4169,8 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/gfig.xml:157(term)
-#, fuzzy
-#| msgid "Create circle"
 msgid "<placeholder-1/> Create circle"
-msgstr "Daire oluştur"
+msgstr "<placeholder-1/> Daire oluştur"
 
 #: src/filters/render/gfig.xml:170(para)
 msgid ""
@@ -4124,10 +4179,8 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/gfig.xml:177(term)
-#, fuzzy
-#| msgid "Create ellipse"
 msgid "<placeholder-1/> Create ellipse"
-msgstr "Elips oluştur"
+msgstr "<placeholder-1/> Elips oluştur"
 
 #: src/filters/render/gfig.xml:190(para)
 msgid ""
@@ -4137,7 +4190,7 @@ msgstr ""
 
 #: src/filters/render/gfig.xml:197(term)
 msgid "<placeholder-1/> Create arc"
-msgstr ""
+msgstr "<placeholder-1/> Yay oluştur"
 
 #: src/filters/render/gfig.xml:210(para)
 msgid ""
@@ -4148,10 +4201,8 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/gfig.xml:220(term)
-#, fuzzy
-#| msgid "Create regular polygon"
 msgid "<placeholder-1/> Create regular polygon"
-msgstr "Düzenli çokgen oluştur"
+msgstr "<placeholder-1/> Düzenli çokgen oluştur"
 
 #: src/filters/render/gfig.xml:233(para)
 msgid ""
@@ -4163,7 +4214,7 @@ msgstr ""
 
 #: src/filters/render/gfig.xml:243(term)
 msgid "<placeholder-1/> Create star"
-msgstr ""
+msgstr "<placeholder-1/> Yıldız oluştur"
 
 #: src/filters/render/gfig.xml:256(para)
 msgid ""
@@ -4174,10 +4225,8 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/gfig.xml:266(term)
-#, fuzzy
-#| msgid "Create spiral"
 msgid "<placeholder-1/> Create spiral"
-msgstr "Sarmal oluştur"
+msgstr "<placeholder-1/> Sarmal oluştur"
 
 #: src/filters/render/gfig.xml:279(para)
 msgid ""
@@ -4188,10 +4237,8 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/gfig.xml:289(term)
-#, fuzzy
-#| msgid "Create bezier curve"
 msgid "<placeholder-1/> Create bezier curve"
-msgstr "Bezier eğrisi oluştur"
+msgstr "<placeholder-1/> Bezier eğrisi oluştur"
 
 #: src/filters/render/gfig.xml:302(para)
 msgid ""
@@ -4210,10 +4257,8 @@ msgid "In the middle of tool bar, you can find tools to manage objects:"
 msgstr ""
 
 #: src/filters/render/gfig.xml:317(term)
-#, fuzzy
-#| msgid "Move an object"
 msgid "<placeholder-1/> Move an object"
-msgstr "Nesneyi taşı"
+msgstr "<placeholder-1/> Nesneyi taşı"
 
 #: src/filters/render/gfig.xml:330(para)
 msgid ""
@@ -4222,10 +4267,8 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/gfig.xml:338(term)
-#, fuzzy
-#| msgid "Move a single point"
 msgid "<placeholder-1/> Move a single point"
-msgstr "Tek noktayı taşı"
+msgstr "<placeholder-1/> Tek noktayı taşı"
 
 #: src/filters/render/gfig.xml:351(para)
 msgid ""
@@ -4235,10 +4278,9 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/gfig.xml:359(term)
-#, fuzzy
 #| msgid "Copy an object"
 msgid "<placeholder-1/> Copy an object"
-msgstr "Nesneyi kopyala"
+msgstr "<placeholder-1/> Nesneyi kopyala"
 
 #: src/filters/render/gfig.xml:372(para)
 msgid ""
@@ -4247,20 +4289,16 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/gfig.xml:379(term)
-#, fuzzy
-#| msgid "Delete an object"
 msgid "<placeholder-1/> Delete an object"
-msgstr "Nesneyi sil"
+msgstr "<placeholder-1/> Nesneyi sil"
 
 #: src/filters/render/gfig.xml:392(para)
 msgid "Click on an object control point to delete it."
 msgstr "Silmek için nesne denetim noktasına tıklayın."
 
 #: src/filters/render/gfig.xml:396(term)
-#, fuzzy
-#| msgid "Select an object"
 msgid "<placeholder-1/> Select an object"
-msgstr "Nesneyi seç"
+msgstr "<placeholder-1/> Nesneyi seç"
 
 #: src/filters/render/gfig.xml:409(para)
 msgid ""
@@ -4280,16 +4318,12 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/gfig.xml:424(term)
-#, fuzzy
-#| msgid "Up (Raise selected object)"
 msgid "<placeholder-1/> Up (Raise selected object)"
-msgstr "Yukarı (Seçili nesneyi yükselt)"
+msgstr "<placeholder-1/> Yukarı (Seçili nesneyi yükselt)"
 
 #: src/filters/render/gfig.xml:436(term)
-#, fuzzy
-#| msgid "Down (Lower selected object)"
 msgid "<placeholder-1/> Down (Lower selected object)"
-msgstr "Aşağı (Seçili nesneyi alçalt)"
+msgstr "<placeholder-1/> Aşağı (Seçili nesneyi alçalt)"
 
 #: src/filters/render/gfig.xml:449(para)
 msgid "With this tool, you can push the selected object one level up or down."
@@ -4297,10 +4331,8 @@ msgstr ""
 
 #. Raise selected object to top
 #: src/filters/render/gfig.xml:458(term)
-#, fuzzy
-#| msgid "Up (Raise selected object)"
 msgid "<placeholder-1/> Top (Raise selected object to top)"
-msgstr "Yukarı (Seçili nesneyi yükselt)"
+msgstr "<placeholder-1/> Yukarı (Seçili nesneyi en üste yükselt)"
 
 #. Lower selected object to bottom
 #: src/filters/render/gfig.xml:471(term)
@@ -4323,7 +4355,7 @@ msgstr ""
 #. Show next object
 #: src/filters/render/gfig.xml:505(term)
 msgid "<placeholder-1/> Forward (Show next object)"
-msgstr ""
+msgstr "<placeholder-1/> İleri (Sonraki nesneyi göster)"
 
 #: src/filters/render/gfig.xml:518(para)
 msgid ""
@@ -4332,10 +4364,8 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/gfig.xml:525(term)
-#, fuzzy
-#| msgid "Show all objects"
 msgid "<placeholder-1/> Show all objects"
-msgstr "Tüm nesneleri göster"
+msgstr "<placeholder-1/> Tüm nesneleri göster"
 
 #: src/filters/render/gfig.xml:538(para)
 msgid ""
@@ -5194,7 +5224,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/render/difference-clouds.xml:69(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/filters/render/cell_noise-dialog.png'; "
 #| "md5=d7c8bbe6ec81dc11845d7065ca0daf85"
@@ -5202,8 +5231,8 @@ msgid ""
 "@@image: 'images/filters/render/difference-clouds-dialog.png'; "
 "md5=25abf895df3fbacb685dc9e0114169c0"
 msgstr ""
-"@@image: 'images/filters/render/cell_noise-dialog.png'; "
-"md5=d7c8bbe6ec81dc11845d7065ca0daf85"
+"@@image: 'images/filters/render/difference-clouds-dialog.png'; "
+"md5=25abf895df3fbacb685dc9e0114169c0"
 
 #: src/filters/render/difference-clouds.xml:9(title)
 #: src/filters/render/difference-clouds.xml:14(tertiary)
