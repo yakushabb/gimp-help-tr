@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-02-26 21:19+0000\n"
-"PO-Revision-Date: 2025-10-31 01:17+0300\n"
+"PO-Revision-Date: 2025-11-05 20:14+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -201,13 +201,12 @@ msgid "Example"
 msgstr "Örnek"
 
 #: src/filters/web/semiflatten.xml:106(para)
-#, fuzzy
 msgid ""
 "In the example below, the Toolbox Background color is pink, and the image "
 "has feathered edges on a transparent background."
 msgstr ""
-"Aşağıdaki örnekte, Araç Kutusu Arka Plan rengi pembedir ve görüntü şeffaf "
-"bir arka plan üzerinde tüylü kenarlara sahiptir."
+"Aşağıdaki örnekte, Araç Kutusu Arka Plan rengi pembedir ve görüntü saydam "
+"arka plan üzerinde tüylü kenarlara sahiptir."
 
 #: src/filters/web/semiflatten.xml:111(title)
 msgid "Semi-Flatten example"
@@ -222,23 +221,22 @@ msgid "At 800% zoom level"
 msgstr "%800 yakınlaştırma düzeyinde"
 
 #: src/filters/web/semiflatten.xml:130(para)
-#, fuzzy
 msgid ""
 "Full transparency is kept. Semi-transparent pixels are colored with pink "
 "according to their transparency (Alpha value). This image will well merge "
 "into the pink background of the new page."
 msgstr ""
-"Tam şeffaflık korunur. Yarı saydam pikseller saydamlıklarına (Alfa değeri) "
+"Tam saydamlık korunur. Yarı saydam pikseller saydamlıklarına (Alfa değeri) "
 "göre pembe ile renklendirilir. Bu görüntü yeni sayfanın pembe arka planıyla "
-"iyice birleşecektir."
+"birleştirilir."
 
 #: src/filters/web/semiflatten.xml:136(title)
 msgid "Semi-Flatten filter applied"
-msgstr "Yarı Düzleştir süzgeci uygulanmış"
+msgstr "Yarı Düzleştir süzgeci uygulandı"
 
 #: src/filters/web/semiflatten.xml:143(para)
 msgid "Result, in GIF format, after applying Semi-flatten filter."
-msgstr "Sonuç, GIF biçiminde, Yarı Düzleştir süzgeci uygulandıktan sonra"
+msgstr "Sonuç, GIF biçiminde, Yarı Düzleştir süzgeci uygulandıktan sonra."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -513,7 +511,6 @@ msgid "View"
 msgstr "Görünüm"
 
 #: src/filters/web/imagemap.xml:196(para)
-#, fuzzy
 msgid "This menu offers you special functions:"
 msgstr "Bu menü size özel işlevler sunar:"
 
@@ -543,11 +540,9 @@ msgid "Gray"
 msgstr "Gri"
 
 #: src/filters/web/imagemap.xml:221(para)
-#, fuzzy
 msgid "You can select the image mode here and work with a Grayscale display."
 msgstr ""
-"Buradan görüntü modunu seçebilir ve Gri Tonlamalı bir ekranla "
-"çalışabilirsiniz."
+"Buradan görüntü kipi seçebilir ve Gri Tonlamalı ekranla çalışabilirsiniz."
 
 #: src/filters/web/imagemap.xml:231(term)
 msgid "Mappings"
@@ -807,16 +802,14 @@ msgstr ""
 "yardım açılır penceresi size her işlev hakkında bazı bilgiler verir."
 
 #: src/filters/web/imagemap.xml:429(para)
-#, fuzzy
 msgid ""
 "Unfortunately, the arrow symbols for moving a list entry up or down do not "
 "work here. But of course you carefully avoided to create overlapping areas, "
 "so you do not use these functions at all."
 msgstr ""
-"Ne yazık ki, bir liste girişini yukarı veya aşağı taşımak için kullanılan ok "
-"sembolleri burada çalışmaz. Ancak elbette üst üste binen alanlar "
-"oluşturmaktan dikkatle kaçındınız, bu nedenle bu işlevleri hiç "
-"kullanmıyorsunuz."
+"Ne yazık ki, liste girişini yukarı ya da aşağı taşımak için kullanılan ok "
+"simgeleri burada çalışmaz. Elbette üst üste binen alanlar oluşturmaktan "
+"kaçındınız, bu nedenle bu işlevleri hiç kullanmıyorsunuz."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/web/imagemap.xml:0(None)
