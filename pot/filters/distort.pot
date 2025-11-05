@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-01 16:53+0000\n"
+"POT-Creation-Date: 2025-11-05 17:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,7 +168,7 @@ msgstr ""
 #: src/filters/distort/waves.xml:24(para)
 #: src/filters/distort/vpropagate.xml:26(para)
 #: src/filters/distort/video-degradation.xml:30(para)
-#: src/filters/distort/spherize.xml:32(para)
+#: src/filters/distort/spherize.xml:28(para)
 #: src/filters/distort/shift.xml:29(para)
 #: src/filters/distort/ripple.xml:29(para)
 #: src/filters/distort/polarcoords.xml:30(para)
@@ -178,7 +178,7 @@ msgstr ""
 #: src/filters/distort/lens-distortion.xml:31(para)
 #: src/filters/distort/kaleidoscope.xml:26(para)
 #: src/filters/distort/engrave.xml:30(para)
-#: src/filters/distort/engrave.xml:120(para)
+#: src/filters/distort/engrave.xml:112(para)
 #: src/filters/distort/emboss.xml:29(para)
 #: src/filters/distort/curve_bend.xml:32(para)
 #: src/filters/distort/blinds.xml:33(para)
@@ -214,7 +214,7 @@ msgstr ""
 #: src/filters/distort/mosaic.xml:50(title)
 #: src/filters/distort/lens-distortion.xml:52(title)
 #: src/filters/distort/kaleidoscope.xml:49(title)
-#: src/filters/distort/engrave.xml:60(title)
+#: src/filters/distort/engrave.xml:52(title)
 #: src/filters/distort/emboss.xml:50(title)
 #: src/filters/distort/curve_bend.xml:53(title)
 #: src/filters/distort/blinds.xml:53(title)
@@ -243,7 +243,7 @@ msgstr ""
 #: src/filters/distort/mosaic.xml:62(title)
 #: src/filters/distort/lens-distortion.xml:64(title)
 #: src/filters/distort/kaleidoscope.xml:61(title)
-#: src/filters/distort/engrave.xml:72(title)
+#: src/filters/distort/engrave.xml:64(title)
 #: src/filters/distort/emboss.xml:62(title)
 #: src/filters/distort/curve_bend.xml:65(title)
 #: src/filters/distort/curve_bend.xml:107(term)
@@ -292,7 +292,7 @@ msgstr ""
 #: src/filters/distort/mosaic.xml:74(term)
 #: src/filters/distort/lens-distortion.xml:79(term)
 #: src/filters/distort/kaleidoscope.xml:73(term)
-#: src/filters/distort/engrave.xml:84(term)
+#: src/filters/distort/engrave.xml:76(term)
 #: src/filters/distort/emboss.xml:74(term)
 #: src/filters/distort/apply_lens.xml:74(term)
 msgid "Presets"
@@ -311,7 +311,7 @@ msgstr ""
 #: src/filters/distort/mosaic.xml:75(quote)
 #: src/filters/distort/lens-distortion.xml:80(quote)
 #: src/filters/distort/kaleidoscope.xml:74(quote)
-#: src/filters/distort/engrave.xml:85(quote)
+#: src/filters/distort/engrave.xml:77(quote)
 #: src/filters/distort/emboss.xml:75(quote)
 #: src/filters/distort/apply_lens.xml:75(quote)
 msgid "Input Type"
@@ -330,7 +330,7 @@ msgstr ""
 #: src/filters/distort/mosaic.xml:76(term)
 #: src/filters/distort/lens-distortion.xml:81(term)
 #: src/filters/distort/kaleidoscope.xml:75(term)
-#: src/filters/distort/engrave.xml:86(term)
+#: src/filters/distort/engrave.xml:78(term)
 #: src/filters/distort/emboss.xml:76(term)
 #: src/filters/distort/apply_lens.xml:76(term)
 msgid "Clipping"
@@ -349,7 +349,7 @@ msgstr ""
 #: src/filters/distort/mosaic.xml:77(term)
 #: src/filters/distort/lens-distortion.xml:82(term)
 #: src/filters/distort/kaleidoscope.xml:76(term)
-#: src/filters/distort/engrave.xml:87(term)
+#: src/filters/distort/engrave.xml:79(term)
 #: src/filters/distort/emboss.xml:77(term)
 #: src/filters/distort/apply_lens.xml:77(term)
 msgid "Blending Options"
@@ -368,7 +368,7 @@ msgstr ""
 #: src/filters/distort/mosaic.xml:78(term)
 #: src/filters/distort/lens-distortion.xml:83(term)
 #: src/filters/distort/kaleidoscope.xml:77(term)
-#: src/filters/distort/engrave.xml:88(term)
+#: src/filters/distort/engrave.xml:80(term)
 #: src/filters/distort/emboss.xml:78(term)
 #: src/filters/distort/curve_bend.xml:77(term)
 #: src/filters/distort/blinds.xml:77(term)
@@ -389,7 +389,7 @@ msgstr ""
 #: src/filters/distort/mosaic.xml:79(term)
 #: src/filters/distort/lens-distortion.xml:84(term)
 #: src/filters/distort/kaleidoscope.xml:78(term)
-#: src/filters/distort/engrave.xml:89(term)
+#: src/filters/distort/engrave.xml:81(term)
 #: src/filters/distort/emboss.xml:79(term)
 #: src/filters/distort/apply_lens.xml:79(term)
 msgid "Merge filter"
@@ -408,7 +408,7 @@ msgstr ""
 #: src/filters/distort/mosaic.xml:80(term)
 #: src/filters/distort/lens-distortion.xml:85(term)
 #: src/filters/distort/kaleidoscope.xml:79(term)
-#: src/filters/distort/engrave.xml:90(term)
+#: src/filters/distort/engrave.xml:82(term)
 #: src/filters/distort/emboss.xml:80(term)
 #: src/filters/distort/apply_lens.xml:80(term)
 msgid "Split view"
@@ -1208,7 +1208,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/spherize.xml:29(None)
+#: src/filters/distort/spherize.xml:25(None)
 msgid ""
 "@@image: 'images/filters/examples/distort/spherize-ex-orig.jpg'; "
 "md5=86d282e74b3e18e8b27c8d5108cf6770"
@@ -1216,7 +1216,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/spherize.xml:38(None)
+#: src/filters/distort/spherize.xml:34(None)
 msgid ""
 "@@image: 'images/filters/examples/distort/spherize-defaults.jpg'; "
 "md5=6279aa0adf653b9031166399a5a83294"
@@ -1279,18 +1279,18 @@ msgstr ""
 msgid "filters"
 msgstr ""
 
-#: src/filters/distort/spherize.xml:20(para)
-msgid ""
-"This filter creates a kind of bubble whose size is that of the image or "
-"selection, as if the content was wrapped around a sphere."
-msgstr ""
-
-#: src/filters/distort/spherize.xml:25(title)
+#: src/filters/distort/spherize.xml:21(title)
 msgid "Spherize filter example, with default values"
 msgstr ""
 
-#: src/filters/distort/spherize.xml:41(para)
+#: src/filters/distort/spherize.xml:37(para)
 msgid "<quote>Spherize</quote> filter applied"
+msgstr ""
+
+#: src/filters/distort/spherize.xml:41(para)
+msgid ""
+"This filter creates a kind of bubble whose size is that of the image or "
+"selection, as if the content was wrapped around a sphere."
 msgstr ""
 
 #: src/filters/distort/spherize.xml:49(para)
@@ -2771,7 +2771,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/engrave.xml:78(None)
+#: src/filters/distort/engrave.xml:70(None)
 msgid ""
 "@@image: 'images/filters/distort/engrave-dialog.png'; "
 "md5=d9315abac23896d86c7f99860a82f85e"
@@ -2779,7 +2779,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/engrave.xml:117(None)
+#: src/filters/distort/engrave.xml:109(None)
 msgid ""
 "@@image: 'images/filters/examples/engrave_width_limit_original.png'; "
 "md5=980815818bfcec3241e29a298bb9fdf0"
@@ -2787,7 +2787,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/engrave.xml:126(None)
+#: src/filters/distort/engrave.xml:118(None)
 msgid ""
 "@@image: 'images/filters/examples/engrave_width_limit_yes.png'; "
 "md5=067f7a25dc3e6f567bb3dbe4164bae3c"
@@ -2795,7 +2795,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/engrave.xml:135(None)
+#: src/filters/distort/engrave.xml:127(None)
 msgid ""
 "@@image: 'images/filters/examples/engrave_width_limit_no.png'; "
 "md5=cde87886d8ddfeb4cb1b4dc642c87d2b"
@@ -2823,53 +2823,46 @@ msgid ""
 "in coins and old book illustrations."
 msgstr ""
 
-#: src/filters/distort/engrave.xml:50(para)
-msgid ""
-"The <quote>Engrave</quote> filter operates only on floating selections and "
-"layers with an alpha channel. If the active layer does not have an alpha "
-"channel please <link linkend=\"gimp-layer-alpha-add\">add it</link> first."
-msgstr ""
-
-#: src/filters/distort/engrave.xml:61(para)
+#: src/filters/distort/engrave.xml:53(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Distorts</guisubmenu><guimenuitem>Engrave…</"
 "guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/filters/distort/engrave.xml:74(title)
+#: src/filters/distort/engrave.xml:66(title)
 msgid "<quote>Engrave</quote> options"
 msgstr ""
 
-#: src/filters/distort/engrave.xml:96(term)
+#: src/filters/distort/engrave.xml:88(term)
 msgid "Height"
 msgstr ""
 
-#: src/filters/distort/engrave.xml:98(para)
+#: src/filters/distort/engrave.xml:90(para)
 msgid ""
 "This option specifies the height of the engraving lines. The value goes from "
 "2 to 16."
 msgstr ""
 
-#: src/filters/distort/engrave.xml:105(term)
+#: src/filters/distort/engrave.xml:97(term)
 msgid "Limit line width"
 msgstr ""
 
-#: src/filters/distort/engrave.xml:107(para)
+#: src/filters/distort/engrave.xml:99(para)
 msgid ""
 "If this option is enabled thin lines are not drawn on contiguous color "
 "areas. See the figure below for an example of this option result."
 msgstr ""
 
-#: src/filters/distort/engrave.xml:113(title)
+#: src/filters/distort/engrave.xml:105(title)
 msgid "Example result of Limit line width option"
 msgstr ""
 
-#: src/filters/distort/engrave.xml:129(para)
+#: src/filters/distort/engrave.xml:121(para)
 msgid "Limit line width option enabled"
 msgstr ""
 
-#: src/filters/distort/engrave.xml:138(para)
+#: src/filters/distort/engrave.xml:130(para)
 msgid "Limit line width option disabled"
 msgstr ""
 

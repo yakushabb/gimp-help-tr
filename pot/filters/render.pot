@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-01 16:53+0000\n"
+"POT-Creation-Date: 2025-11-05 17:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1473,7 +1473,7 @@ msgid ""
 msgstr ""
 
 #: src/filters/render/solid-noise.xml:107(term)
-#: src/filters/render/maze.xml:103(term)
+#: src/filters/render/maze.xml:113(term)
 #: src/filters/render/difference-clouds.xml:98(term)
 msgid "Tileable"
 msgstr ""
@@ -1501,7 +1501,7 @@ msgstr ""
 #: src/filters/render/solid-noise.xml:128(term)
 #: src/filters/render/sinus.xml:110(term)
 #: src/filters/render/simplex-noise.xml:93(term)
-#: src/filters/render/plasma.xml:98(term) src/filters/render/maze.xml:112(term)
+#: src/filters/render/plasma.xml:98(term) src/filters/render/maze.xml:122(term)
 #: src/filters/render/difference-clouds.xml:75(term)
 msgid "Random seed"
 msgstr ""
@@ -1509,7 +1509,7 @@ msgstr ""
 #: src/filters/render/solid-noise.xml:129(term)
 #: src/filters/render/sinus.xml:111(term)
 #: src/filters/render/simplex-noise.xml:94(term)
-#: src/filters/render/plasma.xml:99(term) src/filters/render/maze.xml:113(term)
+#: src/filters/render/plasma.xml:99(term) src/filters/render/maze.xml:123(term)
 #: src/filters/render/cmlexplorer.xml:86(term)
 msgid "New Seed"
 msgstr ""
@@ -1518,7 +1518,7 @@ msgstr ""
 #: src/filters/render/sinus.xml:113(para)
 #: src/filters/render/simplex-noise.xml:96(para)
 #: src/filters/render/plasma.xml:101(para)
-#: src/filters/render/maze.xml:115(para)
+#: src/filters/render/maze.xml:125(para)
 msgid ""
 "This option controls the randomness of the filter. The <guilabel>Random "
 "seed</guilabel> box lets you manually enter a seed for the randomization "
@@ -2031,6 +2031,14 @@ msgid ""
 "md5=3fbdf464b1609484736aaa1011cdf089"
 msgstr ""
 
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/render/maze.xml:93(None)
+msgid ""
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
+msgstr ""
+
 #: src/filters/render/maze.xml:8(title)
 #: src/filters/render/maze.xml:13(tertiary)
 #: src/filters/render/maze.xml:16(primary)
@@ -2076,39 +2084,44 @@ msgstr ""
 
 #: src/filters/render/maze.xml:82(para)
 msgid ""
-"These sliders control how many pathways the maze should have. The lower the "
-"values for width and height, the more paths you will get. The same happens "
-"if you increase the number of pieces in the Width and Height "
-"<guilabel>Pieces</guilabel> fields. The result won't really look like a maze "
-"unless the width and height are equal."
+"These sliders control the size of the paths and walls in the maze. The lower "
+"the values for width and height, the more paths you will get. The result "
+"won't really look like a maze unless the width and height are equal."
 msgstr ""
 
-#: src/filters/render/maze.xml:93(term)
+#: src/filters/render/maze.xml:88(para)
+msgid ""
+"By default, width and height are linked, indicated by the <placeholder-1/> "
+"chain symbol next to the input boxes. If you want to set width and height "
+"separately, click on that chain symbol to unlink them."
+msgstr ""
+
+#: src/filters/render/maze.xml:103(term)
 msgid "Algorithm type"
 msgstr ""
 
-#: src/filters/render/maze.xml:95(para)
+#: src/filters/render/maze.xml:105(para)
 msgid ""
 "You can choose between these two algorithms for maze: <emphasis> Depth "
 "first</emphasis> and <emphasis>Prim's algorithm</emphasis>. Only a computer "
 "scientist can tell the difference between them."
 msgstr ""
 
-#: src/filters/render/maze.xml:105(para)
+#: src/filters/render/maze.xml:115(para)
 msgid ""
 "If you want to use it in a pattern, you can make the maze tileable by "
 "checking this check-button."
 msgstr ""
 
-#: src/filters/render/maze.xml:127(term)
+#: src/filters/render/maze.xml:137(term)
 msgid "Foreground color"
 msgstr ""
 
-#: src/filters/render/maze.xml:128(term)
+#: src/filters/render/maze.xml:138(term)
 msgid "Background color"
 msgstr ""
 
-#: src/filters/render/maze.xml:130(para)
+#: src/filters/render/maze.xml:140(para)
 msgid ""
 "You can choose colors for the maze and its background. Defaults are Toolbox "
 "colors."
@@ -2418,7 +2431,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/lava.xml:73(None)
+#: src/filters/render/lava.xml:66(None)
 msgid ""
 "@@image: 'images/filters/render/lava.png'; "
 "md5=e3b8c90b2ef8afb82c0d6e0b0840ff41"
@@ -2451,78 +2464,78 @@ msgid ""
 "menuchoice>."
 msgstr ""
 
-#: src/filters/render/lava.xml:69(title)
+#: src/filters/render/lava.xml:62(title)
 msgid "<quote>Lava</quote> options"
 msgstr ""
 
-#: src/filters/render/lava.xml:80(term)
+#: src/filters/render/lava.xml:73(term)
 msgid "Seed"
 msgstr ""
 
-#: src/filters/render/lava.xml:82(para)
+#: src/filters/render/lava.xml:75(para)
 msgid ""
 "The lava generator uses randomization to generate the rendered lava. "
 "<guilabel>Seed</guilabel> determines the starting value. Using the same seed "
 "generates the same lava pattern."
 msgstr ""
 
-#: src/filters/render/lava.xml:90(term)
+#: src/filters/render/lava.xml:83(term)
 #: src/filters/render/checkerboard-legacy.xml:76(term)
 msgid "Size"
 msgstr ""
 
-#: src/filters/render/lava.xml:92(para)
+#: src/filters/render/lava.xml:85(para)
 msgid ""
 "This determines the size of the lava flows. Higher values create straighter "
 "lines."
 msgstr ""
 
-#: src/filters/render/lava.xml:99(term)
+#: src/filters/render/lava.xml:92(term)
 msgid "Roughness"
 msgstr ""
 
-#: src/filters/render/lava.xml:101(para)
+#: src/filters/render/lava.xml:94(para)
 msgid "This controls the straightness and amount of turns of the lava lines."
 msgstr ""
 
-#: src/filters/render/lava.xml:107(term)
+#: src/filters/render/lava.xml:100(term)
 msgid "Gradient"
 msgstr ""
 
-#: src/filters/render/lava.xml:109(para)
+#: src/filters/render/lava.xml:102(para)
 msgid ""
 "This allows you to set the <link linkend=\"gimp-concepts-"
 "gradients\">gradient</link> to be used for the lava effect."
 msgstr ""
 
-#: src/filters/render/lava.xml:117(term)
+#: src/filters/render/lava.xml:110(term)
 #: src/filters/render/circuit.xml:118(term)
 msgid "Keep selection"
 msgstr ""
 
-#: src/filters/render/lava.xml:119(para)
+#: src/filters/render/lava.xml:112(para)
 msgid ""
 "If a selection is present, the lava filter only creates lava inside the "
 "selection. This setting decides whether to keep the selection after the "
 "filter has finished."
 msgstr ""
 
-#: src/filters/render/lava.xml:127(term)
+#: src/filters/render/lava.xml:120(term)
 #: src/filters/render/circuit.xml:129(term)
 msgid "Separate layer"
 msgstr ""
 
-#: src/filters/render/lava.xml:129(para)
+#: src/filters/render/lava.xml:122(para)
 msgid ""
 "When enabled the lava is created on a new layer; when disabled the lava is "
 "added to the current layer."
 msgstr ""
 
-#: src/filters/render/lava.xml:136(term)
+#: src/filters/render/lava.xml:129(term)
 msgid "Use current gradient"
 msgstr ""
 
-#: src/filters/render/lava.xml:138(para)
+#: src/filters/render/lava.xml:131(para)
 msgid ""
 "When enabled this selects the current gradient as set in the <link "
 "linkend=\"gimp-tool-gradient\">Gradient tool</link>."
