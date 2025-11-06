@@ -29,8 +29,8 @@ COPY . .
 # Not: GitLab CI’de _build klasöründe autogen.sh + make + make install çalışıyor
 RUN mkdir -p _build && cd _build && \
     ../autogen.sh --prefix=${INSTALL_PREFIX} --without-gimp && \
-    make && make install && \
-    mv ${INSTALL_PREFIX}/share/gimp/3.0/help/ ../${HELP_DIR}
+    make pot && \
+    mv pot/ ../${POT_DIR}
 
 # Varsayılan komut
 CMD ["/bin/bash"]
