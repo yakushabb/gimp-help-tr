@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-02-26 21:19+0000\n"
-"PO-Revision-Date: 2025-11-05 20:14+0300\n"
+"PO-Revision-Date: 2025-11-06 15:34+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -81,7 +81,6 @@ msgid "Overview"
 msgstr "Genel Görünüm"
 
 #: src/filters/web/semiflatten.xml:26(para)
-#, fuzzy
 msgid ""
 "The Semi-flatten filter helps those in need of a solution to anti-aliasing "
 "indexed images with transparency. The GIF indexed format supports complete "
@@ -90,28 +89,26 @@ msgid ""
 "transparency, ruining anti-aliasing you applied to the logo you want to put "
 "onto your Web page."
 msgstr ""
-"Yarı düzleştirme filtresi, saydamlığa sahip dizinlenmiş görüntülerde kenar "
-"yumuşatma için bir çözüme ihtiyaç duyanlara yardımcı olur. GIF indeksli "
-"format tam saydamlığı (0 veya 255 alfa değeri) destekler, ancak yarı "
-"saydamlığı (1 - 254) desteklemez: yarı saydam pikseller saydamlık yok veya "
+"Yarı düzleştirme süzgeci, saydamlığa sahip indeksli görüntülerde kenar "
+"yumuşatma için çözüme ihtiyaç duyanlara yardımcı olur. GIF indeksli biçim "
+"tam saydamlığı (0 ya da 255 alfa değeri) destekler, ancak yarı saydamlığı (1 "
+"- 254) desteklemez: yarı saydam pikseller saydamlık yok kabul edilir ya da "
 "tam saydamlığa dönüştürülür ve Web sayfanıza koymak istediğiniz logoya "
 "uyguladığınız kenar yumuşatmayı bozar."
 
 #: src/filters/web/semiflatten.xml:35(para)
-#, fuzzy
 msgid ""
 "Before applying the filter, it's essential that you should know the "
 "background color of your Web page. Use the color-picker to determine the "
 "exact color which pops up as the Foreground color of the Toolbox. Invert FG/"
 "BG colors so that BG color is the same as Web background color."
 msgstr ""
-"Filtreyi uygulamadan önce, Web sayfanızın arka plan rengini bilmeniz çok "
-"önemlidir. Araç Kutusunun Ön Plan rengi olarak açılan tam rengi belirlemek "
-"için renk seçiciyi kullanın. BG renginin Web arka plan rengiyle aynı olması "
-"için FG/BG renklerini ters çevirin."
+"Süzgeci uygulamadan önce, Web sayfanızın arka plan rengini bilmeniz "
+"önemlidir. Araç Kutusunun Ön Plan rengi olarak açılan rengi belirlemek için "
+"renk seçiciyi kullanın. Arka plan renginin Web arka plan rengiyle aynı "
+"olması için ÖP/AP renklerini ters çevirin."
 
 #: src/filters/web/semiflatten.xml:42(para)
-#, fuzzy
 msgid ""
 "Semi-flatten process will combine FG color to layer (logo) color, "
 "proportionally to corresponding alpha values, and will rebuild correct anti-"
@@ -119,10 +116,10 @@ msgid ""
 "transparent pixels will take a few color and weakly transparent will take "
 "much color."
 msgstr ""
-"Yarı düzleştirme işlemi, FG rengini katman (logo) rengiyle, karşılık gelen "
-"alfa değerleriyle orantılı olarak birleştirecek ve doğru kenar yumuşatmayı "
-"yeniden oluşturacaktır. Tamamen saydam pikseller renk almayacaktır. Çok "
-"saydam pikseller az renk alır ve zayıf saydam pikseller çok renk alır."
+"Yarı düzleştirme işlemi, ön plan rengini katman (logo) rengiyle, karşılık "
+"gelen alfa değerleriyle orantılı olarak birleştirir ve doğru kenar "
+"yumuşatmayı yeniden oluşturur. Tamamen saydam pikseller renk almaz. Çok "
+"saydam pikseller az renk alır ve az saydam pikseller çok renk alır."
 
 #: src/filters/web/semiflatten.xml:52(title)
 #: src/filters/web/imagemap.xml:55(title)
@@ -185,16 +182,14 @@ msgid "Color"
 msgstr "Renk"
 
 #: src/filters/web/semiflatten.xml:93(para)
-#, fuzzy
 msgid ""
 "This allows you to change the color that is used by this filter to fill in "
 "semi transparent areas. You can click the color bar to select a color, or "
 "use the color picker to pick a color from your image."
 msgstr ""
-"Bu, yarı saydam alanları doldurmak için bu filtre tarafından kullanılan "
-"rengi değiştirmenize olanak tanır. Bir renk seçmek için renk çubuğuna "
-"tıklayabilir veya görüntünüzden bir renk seçmek için renk seçiciyi "
-"kullanabilirsiniz."
+"Bu, yarı saydam alanları doldurmak için bu süzgeç tarafından kullanılan "
+"rengi değiştirmenizi sağlar. Renk seçmek için renk çubuğuna tıklayabilir ya "
+"da görüntünüzden renk seçmek için renk seçiciyi kullanabilirsiniz."
 
 #: src/filters/web/semiflatten.xml:105(title)
 msgid "Example"
@@ -320,7 +315,7 @@ msgstr ""
 "Web'de hassas görüntüler, tanımlanan alanlar işaretçi tarafından "
 "etkinleştirildiğinde bazı efektler elde etmek için sıklıkla kullanılır. "
 "Açıkçası en çok kullanılan efekt, hassas alanlardan birine tıklandığında "
-"başka bir web sayfasına dinamik bir bağlantıdır. Bu <quote>filtre</quote>, "
+"başka bir web sayfasına dinamik bir bağlantıdır. Bu <quote>süzgeç</quote>, "
 "bir görüntü içinde kolayca hassas alanlar tasarlamanızı sağlar. Web sitesi "
 "tasarımı için kullanılan uygulamalarda bu standart bir işlevdir. "
 "<acronym>GIMP</acronym>'te de bunu benzer bir şekilde yapabilirsiniz."
@@ -355,15 +350,14 @@ msgstr ""
 "eksiksiz bir açıklama bulabilirsiniz."
 
 #: src/filters/web/imagemap.xml:56(para)
-#, fuzzy
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Web</guisubmenu><guimenuitem>Image Map…</guimenuitem></"
 "menuchoice>."
 msgstr ""
-"Bu filtre ana menüde aşağıdakilerin altında bulunur "
-"<menuchoice><guimenu>Filtreler</guimenu><guisubmenu>Web</"
-"guisubmenu><guimenuitem>Resim Haritası..</guimenuitem></menuchoice>."
+"Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
+"guimenu><guisubmenu>Web</guisubmenu><guimenuitem>Görüntü Eşlemi…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/web/imagemap.xml:64(para)
 #, fuzzy
@@ -432,7 +426,8 @@ msgid ""
 "The menu bar is similar to the main menu, only a few menus or menu entries "
 "are different:"
 msgstr ""
-"Menü çubuğu ana menüye benzer, sadece birkaç menü veya menü girişi farklıdır:"
+"Menü çubuğu ana menüye benzer, sadece birkaç menü ya da menü girişi "
+"farklıdır:"
 
 #: src/filters/web/imagemap.xml:122(term)
 msgid "File"
@@ -452,8 +447,8 @@ msgid ""
 "Contrary to other filters, this plug-in doesn't make an image but a text "
 "file. So you must save your work in a text format."
 msgstr ""
-"Diğer filtrelerin aksine, bu eklenti bir resim değil, bir metin dosyası "
-"oluşturur. Bu yüzden çalışmanızı bir metin formatında kaydetmelisiniz."
+"Diğer süzgeçlerin aksine, bu eklenti bir resim değil, bir metin dosyası "
+"oluşturur. Bu yüzden çalışmanızı bir metin biçimında kaydetmelisiniz."
 
 #: src/filters/web/imagemap.xml:135(para)
 msgid ""
@@ -481,7 +476,7 @@ msgid ""
 msgstr ""
 "Eklentide kayıtlı metin dosyasını açabilirsiniz. Dosyanızda tanımlanan "
 "alanlar yüklenecek ve aşırı görüntülenecektir; görüntülenen görüntü orijinal "
-"görüntü değilse veya aynı boyutta değilse, <acronym>GIMP</acronym> sizden "
+"görüntü değilse ya da aynı boyutta değilse, <acronym>GIMP</acronym> sizden "
 "ölçeği uyarlamanızı isteyecektir."
 
 #: src/filters/web/imagemap.xml:164(term)
@@ -521,7 +516,7 @@ msgstr "Alan Listesi"
 #: src/filters/web/imagemap.xml:203(para)
 #, fuzzy
 msgid "Here you can hide or show the selection area."
-msgstr "Burada seçim alanını gizleyebilir veya gösterebilirsiniz."
+msgstr "Burada seçim alanını gizleyebilir ya da gösterebilirsiniz."
 
 #: src/filters/web/imagemap.xml:209(term)
 msgid "Source…"
@@ -532,7 +527,7 @@ msgstr "Kaynak…"
 msgid ""
 "Here you see the raw data as you would save it to or read it from a file."
 msgstr ""
-"Burada ham verileri bir dosyaya kaydedeceğiniz veya bir dosyadan "
+"Burada ham verileri bir dosyaya kaydedeceğiniz ya da bir dosyadan "
 "okuyacağınız şekilde görürsünüz."
 
 #: src/filters/web/imagemap.xml:219(term)
@@ -657,7 +652,7 @@ msgid ""
 "Here you can enable and disable the image grid or configure some grid "
 "properties."
 msgstr ""
-"Burada görüntü ızgarasını etkinleştirebilir veya devre dışı bırakabilir ya "
+"Burada görüntü ızgarasını etkinleştirebilir ya da devre dışı bırakabilir ya "
 "da bazı ızgara özelliklerini yapılandırabilirsiniz."
 
 #: src/filters/web/imagemap.xml:321(term)
@@ -739,7 +734,8 @@ msgstr "En Alt Bölgeye Taşı"
 #, fuzzy
 msgid "Here you can move an area entry to the bottom or top of the area list."
 msgstr ""
-"Burada bir alan girişini alan listesinin altına veya üstüne taşıyabilirsiniz."
+"Burada bir alan girişini alan listesinin altına ya da üstüne "
+"taşıyabilirsiniz."
 
 #: src/filters/web/imagemap.xml:389(title)
 #: src/filters/web/imagemap.xml:391(title)
