@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-10-06 23:30+0300\n"
+"PO-Revision-Date: 2025-11-06 12:58+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -250,9 +250,12 @@ msgid "Scale"
 msgstr "Ölçek"
 
 #: src/filters/generic/normal-map.xml:98(para)
+#, fuzzy
 msgid ""
 "The amount by which to scale the heights values: increase or decrease bumps."
 msgstr ""
+"Yükseklik değerlerinin ölçeklendirileceği miktar: tümsekleri artırma veya "
+"azaltma."
 
 #: src/filters/generic/normal-map.xml:109(para)
 msgid "Scale = 2"
@@ -267,16 +270,22 @@ msgid "Y Component"
 msgstr "Y Bileşeni"
 
 #: src/filters/generic/normal-map.xml:121(para)
+#, fuzzy
 msgid ""
 "The component used for X, Y coordinates: you can choose between the three "
 "RGB colors for the bumps."
 msgstr ""
+"X, Y koordinatları için kullanılan bileşen: tümsekler için üç RGB rengi "
+"arasından seçim yapabilirsiniz."
 
 #: src/filters/generic/normal-map.xml:125(para)
+#, fuzzy
 msgid ""
 "Note that if you change these values, new colors are added to the existing "
 "colors, giving the complementary colors."
 msgstr ""
+"Bu değerleri değiştirirseniz, mevcut renklere yeni renkler eklenerek "
+"tamamlayıcı renkler elde edilir."
 
 #: src/filters/generic/normal-map.xml:145(term)
 msgid "Flip X"
@@ -287,6 +296,7 @@ msgid "Flip Y"
 msgstr "Y Çevir"
 
 #: src/filters/generic/normal-map.xml:148(para)
+#, fuzzy
 msgid ""
 "Flip the X, Y coordinates: flip bumps colors, horizontally and vertically. "
 "Bumps have a clear border and an opposite dark border, giving a feeling that "
@@ -294,20 +304,29 @@ msgid ""
 "must come from the upper left corner; play with Flip X and Flip Y to get "
 "this lighting."
 msgstr ""
+"X, Y koordinatlarını çevirin: tümsek renklerini yatay ve dikey olarak "
+"çevirin. Tümseklerin açık bir kenarlığı ve karşıt koyu bir kenarlığı vardır, "
+"bu da ışığın belirli bir yönden geldiği hissini verir. Çukurlar yerine "
+"tümsekleri görmek için ışığın sol üst köşeden gelmesi gerekir; bu "
+"aydınlatmayı elde etmek için Flip X ve Flip Y ile oynayın."
 
 #: src/filters/generic/normal-map.xml:162(para)
+#, fuzzy
 msgid "After playing with Flip X and Flip Y"
-msgstr ""
+msgstr "Flip X ve Flip Y ile oynadıktan sonra"
 
 #: src/filters/generic/normal-map.xml:171(term)
 msgid "Full Z Range"
 msgstr "Tam Z Aralığı"
 
 #: src/filters/generic/normal-map.xml:173(para)
+#, fuzzy
 msgid ""
 "Use the full [0, 1] range to encode the Z coordinates: You can get a more "
 "abrupt color gradient."
 msgstr ""
+"Z koordinatlarını kodlamak için [0, 1] aralığının tamamını kullanın: Daha "
+"keskin bir renk geçişi elde edebilirsiniz."
 
 #: src/filters/generic/normal-map.xml:193(term)
 msgid "Tileable"
@@ -384,25 +403,38 @@ msgid "Applying example for the Text Styling filter"
 msgstr "Metin Şekillendirme süzgeci uygulama örneği"
 
 #: src/filters/generic/gegl-styles.xml:26(para)
+#, fuzzy
 msgid ""
 "Text Styling examples. Topmost unstyled text; second: color, outline and "
 "shadow applied; third: bevel and inner glow applied; bottom: image and "
 "outline image overlay applied."
 msgstr ""
+"Metin Şekillendirme örnekleri. En üstte stil verilmemiş metin; ikinci: renk, "
+"anahat ve gölge uygulanmış; üçüncü: eğim ve iç parlaklık uygulanmış; alt: "
+"görüntü ve anahat görüntü kaplaması uygulanmış."
 
 #: src/filters/generic/gegl-styles.xml:34(para)
+#, fuzzy
 msgid ""
 "This filter allows you to combine and apply several styles to a layer, such "
 "as an outline, shadow, bevel, inner glow and image overlay. Although this "
 "can be especially useful for text, it works on other layers too. Some of the "
 "settings require an alpha channel and transparent areas for best results."
 msgstr ""
+"Bu filtre, bir katmana kontur, gölge, eğim, iç parlaklık ve görüntü "
+"kaplaması gibi çeşitli stilleri birleştirip uygulamanızı sağlar. Bu "
+"özellikle metinler için yararlı olsa da, diğer katmanlarda da çalışır. En "
+"iyi sonuçları elde etmek için bazı ayarlar alfa kanalı ve şeffaf alanlar "
+"gerektirir."
 
 #: src/filters/generic/gegl-styles.xml:42(para)
+#, fuzzy
 msgid ""
 "The settings consist of three parts. Which part is visible can be selected "
 "by changing <guilabel>Part of filter to be displayed</guilabel>."
 msgstr ""
+"Ayarlar üç bölümden oluşur. Hangi bölümün görüneceği <guilabel>, "
+"Görüntülenecek filtre bölümü seçeneği</guilabel> değiştirilerek seçilebilir."
 
 #: src/filters/generic/gegl-styles.xml:50(para)
 msgid ""
@@ -423,6 +455,7 @@ msgid "Part of filter to be displayed"
 msgstr "Görüntülenecek süzgeç parçası"
 
 #: src/filters/generic/gegl-styles.xml:87(para)
+#, fuzzy
 msgid ""
 "The settings consist of three parts. Which part is visible can be changed by "
 "selecting a choice from the drop-down list here. The choices are <link "
@@ -430,16 +463,20 @@ msgid ""
 "linkend=\"styles-page-2\">Bevel and Inner Glow</link>, and <link "
 "linkend=\"styles-page-3\">Image upload and Outline Bevel</link>."
 msgstr ""
+"Ayarlar üç bölümden oluşmaktadır. Hangi kısmın görünür olduğu buradaki "
+"açılır listeden bir seçim yapılarak değiştirilebilir. Seçenekler <link "
+"linkend=\"styles-page-1\">Renk, Anahat, Gölge</link>, <link linkend=\"styles-"
+"page-2\">Eğim ve İç Parıltı</link> <link linkend=\"styles-page-3\">ve "
+"Görüntü yükleme ve Anahat Eğimidir</link>."
 
 #: src/filters/generic/gegl-styles.xml:98(term)
-#, fuzzy
-#| msgid "Color, Outline, Shadow"
 msgid "Color, Outline and Shadow"
 msgstr "Renk, Ana Hat ve Gölge"
 
 #: src/filters/generic/gegl-styles.xml:100(para)
+#, fuzzy
 msgid "The below settings control color, outline and shadow styles."
-msgstr ""
+msgstr "Aşağıdaki ayarlar renk, kontur ve gölge stillerini kontrol eder."
 
 # Arayüzdeki çeviri kullanıldı
 #: src/filters/generic/gegl-styles.xml:105(term)
@@ -447,11 +484,14 @@ msgid "Color Overlay"
 msgstr "Renk kaplama"
 
 #: src/filters/generic/gegl-styles.xml:107(para)
+#, fuzzy
 msgid ""
 "This sets the color of the non-transparent areas of the layer or selection. "
 "Changing the color can be done by clicking the color button, or the color "
 "picker."
 msgstr ""
+"Bu, katmanın veya seçimin şeffaf olmayan alanlarının rengini ayarlar. Rengi "
+"değiştirmek için renk düğmesine veya renk seçiciye tıklayabilirsiniz."
 
 #: src/filters/generic/gegl-styles.xml:115(term)
 msgid "Color policy"
@@ -478,30 +518,38 @@ msgstr ""
 "rengiyle değiştir."
 
 #: src/filters/generic/gegl-styles.xml:117(para)
+#, fuzzy
 msgid ""
 "This decides how the color is applied to the layer or selection. The choices "
 "are: <placeholder-1/>"
 msgstr ""
+"Bu, rengin katmana veya seçime nasıl uygulanacağını belirler. Seçenekler "
+"şunlardır: <placeholder-1/>"
 
 #: src/filters/generic/gegl-styles.xml:144(term)
 msgid "Enable Outline"
 msgstr "Anahattı Etkinleştir"
 
 #: src/filters/generic/gegl-styles.xml:146(para)
+#, fuzzy
 msgid ""
 "When this is enabled, an outline will be created around the edges of the "
 "objects in the selection or layer. The following settings control the "
 "parameters used to create the outline."
 msgstr ""
+"Bu etkinleştirildiğinde, seçim veya katmandaki nesnelerin kenarları "
+"etrafında bir anahat oluşturulur. Aşağıdaki ayarlar, anahat oluşturmak için "
+"kullanılan parametreleri kontrol eder."
 
 #: src/filters/generic/gegl-styles.xml:155(term)
 msgid "Outline Opacity"
 msgstr "Anahat matlığı"
 
 #: src/filters/generic/gegl-styles.xml:157(para)
+#, fuzzy
 msgid ""
 "The opacity of the outline controls how transparent the outline will be."
-msgstr ""
+msgstr "Konturun opaklığı, konturun ne kadar şeffaf olacağını kontrol eder."
 
 #: src/filters/generic/gegl-styles.xml:164(term)
 msgid "Outline X"
@@ -517,20 +565,27 @@ msgstr "Bunlar anahattın başladığı konumu denetler."
 
 #: src/filters/generic/gegl-styles.xml:170(para)
 #: src/filters/generic/gegl-styles.xml:229(para)
+#, fuzzy
 msgid ""
 "By default these slide together. You can click the lock to the right of the "
 "sliders to make them move separately (and vice versa)."
 msgstr ""
+"Varsayılan olarak bunlar birlikte kayar. Kaydırıcıların sağındaki kilidi "
+"tıklayarak ayrı ayrı hareket etmelerini sağlayabilirsiniz (ve tersi)."
 
 #: src/filters/generic/gegl-styles.xml:178(term)
 msgid "Outline Grow Shape"
 msgstr "Anahat büyüme şekli"
 
 #: src/filters/generic/gegl-styles.xml:180(para)
+#, fuzzy
 msgid ""
 "The shape used to grow the outline. Choices are <guilabel>Square</guilabel>, "
 "<guilabel>Circle</guilabel> (default), and <guilabel>Diamond</guilabel>."
 msgstr ""
+"Anahatın büyütülmesi için kullanılan şekil. Seçenekler <guilabel>Kare</"
+"guilabel>, <guilabel>Daire</guilabel> (varsayılan) ve <guilabel>Elmas</"
+"guilabel> şeklindedir."
 
 #: src/filters/generic/gegl-styles.xml:188(term)
 msgid "Outline blur radius"
@@ -549,26 +604,30 @@ msgid "This determines the size of the outline."
 msgstr "Bu, anahat boyutunu belirler."
 
 #: src/filters/generic/gegl-styles.xml:204(term)
-#, fuzzy
-#| msgid "Outline's Color"
 msgid "Outline's color"
 msgstr "Anahat rengi"
 
 #: src/filters/generic/gegl-styles.xml:206(para)
+#, fuzzy
 msgid ""
 "This sets the color of outline. Changing the color can be done by clicking "
 "the color button, or the color picker."
 msgstr ""
+"Bu, kontur rengini ayarlar. Rengi değiştirmek için renk düğmesine veya renk "
+"seçiciye tıklayabilirsiniz."
 
 #: src/filters/generic/gegl-styles.xml:213(term)
 msgid "Shadow/Glow opacity"
 msgstr "Gölge/Parıltı matlığı"
 
 #: src/filters/generic/gegl-styles.xml:215(para)
+#, fuzzy
 msgid ""
 "This controls the visibility and transparency of the shadow glow around the "
 "outline. When set to 0.0 there is no shadow glow."
 msgstr ""
+"Bu, anahat etrafındaki gölge parıltısının görünürlüğünü ve şeffaflığını "
+"kontrol eder. 0.0 olarak ayarlandığında gölge parıltısı yoktur."
 
 #: src/filters/generic/gegl-styles.xml:223(term)
 msgid "Shadow/Glow X"
@@ -583,24 +642,26 @@ msgid "These control the location where the shadow glow starts."
 msgstr "Bunlar gölge parıltısının başladığı konumu denetler."
 
 #: src/filters/generic/gegl-styles.xml:237(term)
-#, fuzzy
-#| msgid "Shadow/Glow's Color"
 msgid "Shadow/Glow's color"
 msgstr "Gölge/Parıltı rengi"
 
 #: src/filters/generic/gegl-styles.xml:239(para)
+#, fuzzy
 msgid ""
 "This sets the color of the shadow glow. Changing the color can be done by "
 "clicking the color button, or the color picker."
 msgstr ""
+"Bu, gölge parlamasının rengini ayarlar. Rengi değiştirmek için renk "
+"düğmesine veya renk seçiciye tıklayabilirsiniz."
 
 #: src/filters/generic/gegl-styles.xml:246(term)
 msgid "Shadow/Glow grow radius"
 msgstr "Gölge/Parıltı büyüme yarıçapı"
 
 #: src/filters/generic/gegl-styles.xml:248(para)
+#, fuzzy
 msgid "The distance to expand the shadow glow before blurring."
-msgstr ""
+msgstr "Bulanıklaştırmadan önce gölge parlamasını genişletmek için mesafe."
 
 #: src/filters/generic/gegl-styles.xml:254(term)
 msgid "Shadow/Glow blur radius"
@@ -639,11 +700,15 @@ msgid "Bevel blend mode"
 msgstr "Eğim harmanlama kipi"
 
 #: src/filters/generic/gegl-styles.xml:292(para)
+#, fuzzy
 msgid ""
 "This selects the blend mode that will be used to blend the bevel with the "
 "layer or selection. This affects how the two will be combined and thus the "
 "visual effect."
 msgstr ""
+"Bu, eğimi katman veya seçimle karıştırmak için kullanılacak karışım modunu "
+"seçer. Bu, ikisinin nasıl birleştirileceğini ve dolayısıyla görsel etkiyi "
+"etkiler."
 
 #: src/filters/generic/gegl-styles.xml:297(para)
 #: src/filters/generic/gegl-styles.xml:549(para)
@@ -681,25 +746,26 @@ msgstr ""
 msgid ""
 "<guilabel>Chamfer Bevel</guilabel> simulates lighting of chamfered 3D-edges. "
 "Chamfered edges are sloped edges between two faces of an object."
-msgstr "<guilabel>Kubbe Eğimi</guilabel>"
+msgstr ""
+"<guilabel>Kubbe Eğimi</guilabel>, pahlı 3B kenarların aydınlatmasını simüle "
+"eder. Pahlı kenarlar, bir nesnenin iki yüzü arasındaki eğimli kenarlardır."
 
 #: src/filters/generic/gegl-styles.xml:325(term)
-#, fuzzy
-#| msgid "Outline Bevel Depth"
 msgid "Bevel depth"
-msgstr "Anahat Eğim Derinliği"
+msgstr "Eğim derinliği"
 
 #: src/filters/generic/gegl-styles.xml:327(para)
 #: src/filters/generic/gegl-styles.xml:560(para)
+#, fuzzy
 msgid ""
 "This controls the emboss depth; i.e. how deep and detailed the bevel will be."
 msgstr ""
+"Bu, kabartma derinliğini kontrol eder; yani eğimin ne kadar derin ve "
+"ayrıntılı olacağını belirler."
 
 #: src/filters/generic/gegl-styles.xml:334(term)
-#, fuzzy
-#| msgid "Outline Bevel elevation"
 msgid "Bevel elevation"
-msgstr "Anahat Eğim yüksekliği"
+msgstr "Eğim yüksekliği"
 
 #: src/filters/generic/gegl-styles.xml:336(para)
 #: src/filters/generic/gegl-styles.xml:569(para)
@@ -707,17 +773,17 @@ msgid "This controls the elevation angle of the bevel."
 msgstr "Bu, eğimin yükselme açısını denetler."
 
 #: src/filters/generic/gegl-styles.xml:342(term)
-#, fuzzy
-#| msgid "Outline Bevel azimuth"
 msgid "Bevel azimuth"
-msgstr "Anahat Eğim azimut"
+msgstr "Eğim azimutu"
 
 #: src/filters/generic/gegl-styles.xml:344(para)
 #: src/filters/generic/gegl-styles.xml:577(para)
+#, fuzzy
 msgid ""
 "This controls the angle of the light source illuminating and shading the "
 "bevel."
 msgstr ""
+"Bu, eğimi aydınlatan ve gölgelendiren ışık kaynağının açısını kontrol eder."
 
 #: src/filters/generic/gegl-styles.xml:351(term)
 msgid "Bevel radius (bump only)"
@@ -740,10 +806,13 @@ msgid "Levels high output lighting for Bevel"
 msgstr "Eğim için yüksek çıkışlı aydınlatma düzeyleri"
 
 #: src/filters/generic/gegl-styles.xml:363(para)
+#, fuzzy
 msgid ""
 "These allow adjustment of the low and high levels of the bevel, which "
 "control the dark and light areas."
 msgstr ""
+"Bunlar, koyu ve açık alanları kontrol eden eğimin düşük ve yüksek "
+"seviyelerinin ayarlanmasını sağlar."
 
 #: src/filters/generic/gegl-styles.xml:370(term)
 msgid "Dark Bevel/ignore image mode"
@@ -751,45 +820,64 @@ msgstr "Koyu Eğim/görüntü yok say kipi"
 
 #: src/filters/generic/gegl-styles.xml:372(para)
 #: src/filters/generic/gegl-styles.xml:633(para)
+#, fuzzy
 msgid ""
 "This instructs the outline bevel to ignore image details if there is an "
 "image file overlay below it. It also allows outline bevel to work better "
 "when the user selects darker colors."
 msgstr ""
+"Bu, anahat eğimine, altında görüntü dosyası kaplaması varsa görüntü "
+"ayrıntılarını yok saymasını buyurur. Ayrıca, kullanıcı daha koyu renkler "
+"seçtiğinde anahat eğiminin daha iyi çalışmasını sağlar."
 
 #: src/filters/generic/gegl-styles.xml:378(para)
+#, fuzzy
 msgid ""
 "This effect is mainly intended for <guilabel>Bump Bevel</guilabel> and will "
 "be hardly noticeable when <guilabel>Chamfer Bevel</guilabel> is selected."
 msgstr ""
+"Bu efekt esas olarak <guilabel>Bump Bevel</guilabel> için tasarlanmıştır ve "
+"<guilabel>Chamfer Bevel</guilabel> seçildiğinde neredeyse hiç fark "
+"edilmeyecektir."
 
 #: src/filters/generic/gegl-styles.xml:386(term)
 msgid "Enable Inner Glow"
 msgstr "İç Parıltıyı Etkinleştir"
 
 #: src/filters/generic/gegl-styles.xml:388(para)
+#, fuzzy
 msgid ""
 "When enabled an inner glow is added. The settings below define how exactly "
 "the inner glow is made."
 msgstr ""
+"Etkinleştirildiğinde iç parlaklık eklenir. Aşağıdaki ayarlar iç parlaklığın "
+"tam olarak nasıl yapılacağını belirler."
 
 #: src/filters/generic/gegl-styles.xml:395(term)
 msgid "Blend mode of Inner Glow"
 msgstr "İç Parıltının harmanlama kipi"
 
 #: src/filters/generic/gegl-styles.xml:397(para)
+#, fuzzy
 msgid ""
 "This selects the blend mode that will be used to blend the inner glow with "
 "the layer or selection. This affects how the two will be combined and thus "
 "the visual effect."
 msgstr ""
+"Bu, iç parlamayı katman veya seçimle karıştırmak için kullanılacak "
+"karıştırma modunu seçer. Bu, ikisinin nasıl birleştirileceğini ve "
+"dolayısıyla görsel efekti etkiler."
 
 #: src/filters/generic/gegl-styles.xml:402(para)
+#, fuzzy
 msgid ""
 "Choices are <guilabel>Normal</guilabel>, <guilabel>Overlay</guilabel>, "
 "<guilabel>Screen</guilabel>, <guilabel>Hard Light</guilabel>, "
 "<guilabel>Color Dodge</guilabel>, and <guilabel>Plus</guilabel>."
 msgstr ""
+"Seçenekler <guilabel>Normal</guilabel>, <guilabel>Üstüne Yerleştirme</"
+"guilabel>, <guilabel>Ekran</guilabel>, <guilabel>Sert Işık</guilabel>, "
+"<guilabel>Renk Kaçırma</guilabel> ve <guilabel>Artıdır</guilabel>."
 
 #: src/filters/generic/gegl-styles.xml:411(term)
 msgid "Inner Glow's blur radius"
@@ -804,8 +892,9 @@ msgid "Inner Glow's grow radius"
 msgstr "İç Parıltının büyüme yarıçapı"
 
 #: src/filters/generic/gegl-styles.xml:421(para)
+#, fuzzy
 msgid "The distance to expand the inner glow before blurring."
-msgstr ""
+msgstr "Bulanıklaştırmadan önce iç parıltının büyüme mesafesi."
 
 #: src/filters/generic/gegl-styles.xml:427(term)
 msgid "Inner Glow's opacity"
@@ -820,21 +909,29 @@ msgid "Inner Glow's color"
 msgstr "İç Parıltının rengi"
 
 #: src/filters/generic/gegl-styles.xml:438(para)
+#, fuzzy
 msgid ""
 "The color to use for the glow. By default picks the current foreground "
 "color, but it can be changed using either the color selection button or the "
 "color picker."
 msgstr ""
+"Parlaklık için kullanılacak renk. Varsayılan olarak mevcut ön plan rengini "
+"seçer, ancak renk seçim düğmesi veya renk seçici kullanılarak "
+"değiştirilebilir."
 
 #: src/filters/generic/gegl-styles.xml:446(term)
 msgid "Inner Glow's unmodified pixel fix"
 msgstr "İç Parıltının değiştirilmemiş piksel düzeltmesi"
 
 #: src/filters/generic/gegl-styles.xml:448(para)
+#, fuzzy
 msgid ""
 "Median blur covers unaffected pixels. Setting this slider too high will make "
 "it outline-like. Only slide it high enough to cover thin shaped corners."
 msgstr ""
+"Medyan bulanıklığı etkilenmemiş pikselleri kapsar. Bu kaydırıcıyı çok "
+"yükseğe ayarlamak dış hatlara benzer hale getirecektir. Yalnızca ince "
+"şekilli köşeleri kapsayacak kadar yükseğe kaydırın."
 
 #: src/filters/generic/gegl-styles.xml:459(term)
 msgid "Image upload and Outline Bevel"
@@ -854,63 +951,84 @@ msgid "Enable image upload"
 msgstr "Görüntü yüklemeyi etkinleştir"
 
 #: src/filters/generic/gegl-styles.xml:477(para)
+#, fuzzy
 msgid ""
 "When enabled an external image will be used as overlay and adjust related "
 "settings below it."
 msgstr ""
+"Etkinleştirildiğinde, harici bir görüntü kaplama olarak kullanılır ve ilgili "
+"ayarlar bunun altında yapılır."
 
 #: src/filters/generic/gegl-styles.xml:484(term)
 msgid "Image file overlay"
 msgstr "Görüntü dosyası kaplaması"
 
 #: src/filters/generic/gegl-styles.xml:486(para)
+#, fuzzy
 msgid ""
 "This allows you to browse for and select an image on your computer to be "
 "used as image overlay. This will be shown on top of the opaque parts of the "
 "layer or selection."
 msgstr ""
+"Bu, görüntü kaplaması olarak kullanılmak üzere bilgisayarınızda bir "
+"görüntüye göz atmanızı ve seçmenizi sağlar. Bu, katmanın veya seçimin opak "
+"kısımlarının üstünde gösterilecektir."
 
 #: src/filters/generic/gegl-styles.xml:494(term)
 msgid "Opacity of image file overlay"
 msgstr "Görüntü dosyası kaplamasının matlığı"
 
 #: src/filters/generic/gegl-styles.xml:496(para)
+#, fuzzy
 msgid ""
 "This setting allows you to adjust the opacity of the image overlay. By "
 "lowering the opacity you will be able to see a combination of the overlay "
 "and what's under it."
 msgstr ""
+"Bu ayar, görüntü kaplamasının opaklığını ayarlamanıza olanak tanır. Opaklığı "
+"düşürdüğünüzde, bindirme ve altındakilerin bir kombinasyonunu "
+"görebileceksiniz."
 
 #: src/filters/generic/gegl-styles.xml:504(term)
 msgid "Saturation"
 msgstr "Doygunluk"
 
 #: src/filters/generic/gegl-styles.xml:506(para)
+#, fuzzy
 msgid ""
 "This allows you adjust the saturation of the image overlay, or anything "
 "below it when no image was chosen."
 msgstr ""
+"Bu, görüntü kaplamasının veya herhangi bir görüntü seçilmediğinde altındaki "
+"herhangi bir şeyin doygunluğunu ayarlamanıza olanak tanır."
 
 #: src/filters/generic/gegl-styles.xml:513(term)
 msgid "Lightness"
 msgstr "Aydınlık"
 
 #: src/filters/generic/gegl-styles.xml:515(para)
+#, fuzzy
 msgid ""
 "This allows you adjust the lightness of the image overlay, or anything below "
 "it when no image was chosen."
 msgstr ""
+"Bu, görüntü kaplamasının veya herhangi bir görüntü seçilmediğinde altındaki "
+"herhangi bir şeyin açıklığını ayarlamanıza olanak tanır."
 
 #: src/filters/generic/gegl-styles.xml:522(term)
 msgid "Enable advanced options on Outline (requires outline)"
 msgstr "Anahat üzerinde gelişmiş seçenekleri etkinleştir (anahat gerektirir)"
 
 #: src/filters/generic/gegl-styles.xml:524(para)
+#, fuzzy
 msgid ""
 "When enabled, and <link linkend=\"styles-enable-outline\">Enable Outline</"
 "link> is enabled, the below settings can be used to set additional outline "
 "options."
 msgstr ""
+"Etkinleştirildiğinde ve <link linkend=\"styles-enable-outline\">Anahatları</"
+"link> Etkinleştir etkinleştirildiğinde, ek anahat seçeneklerini ayarlamak "
+"için aşağıdaki ayarlar kullanılabilir."
 
 #: src/filters/generic/gegl-styles.xml:533(term)
 msgid "Enable Outline Bevel (requires advanced options)"
@@ -918,27 +1036,31 @@ msgstr "Anahat Eğimini Etkinleştir (gelişmiş seçenekler gerektirir)"
 
 #: src/filters/generic/gegl-styles.xml:535(para)
 #: src/filters/generic/gegl-styles.xml:594(para)
+#, fuzzy
 msgid ""
 "When enabled and the advanced options setting is also enabled, it allows you "
 "to outline the bevel."
 msgstr ""
+"Etkinleştirildiğinde ve gelişmiş seçenekler ayarı da etkinleştirildiğinde, "
+"eğimi ana hatlarıyla belirlemenizi sağlar."
 
 #: src/filters/generic/gegl-styles.xml:542(term)
 msgid "Outline Bevel blend mode"
 msgstr "Anahat Eğim harmanlama kipi"
 
 #: src/filters/generic/gegl-styles.xml:544(para)
+#, fuzzy
 msgid ""
 "This selects the blend mode that will be used to blend the bevel with the "
 "outline. This affects how the two will be combined and thus the visual "
 "effect."
 msgstr ""
+"Bu, eğimi dış hatla birleştirmek için kullanılacak karışım modunu seçer. Bu, "
+"ikisinin nasıl birleştirileceğini ve dolayısıyla görsel efekti etkiler."
 
 #: src/filters/generic/gegl-styles.xml:558(term)
-#, fuzzy
-#| msgid "Outline Bevel Depth"
 msgid "Outline Bevel depth"
-msgstr "Anahat Eğim Derinliği"
+msgstr "Anahat Eğim derinliği"
 
 #: src/filters/generic/gegl-styles.xml:567(term)
 msgid "Outline Bevel elevation"
@@ -953,8 +1075,9 @@ msgid "Outline Bevel radius"
 msgstr "Anahat Eğim yarıçapı"
 
 #: src/filters/generic/gegl-styles.xml:586(para)
+#, fuzzy
 msgid "This determines the size of the softening for the bump."
-msgstr ""
+msgstr "Bu, yumru için yumuşatmanın boyutunu belirler."
 
 #: src/filters/generic/gegl-styles.xml:592(term)
 msgid "Enable image upload on Outline (requires advanced options)"
@@ -966,22 +1089,30 @@ msgid "Outline image file overlay"
 msgstr "Anahat görüntü dosyası kaplaması"
 
 #: src/filters/generic/gegl-styles.xml:603(para)
+#, fuzzy
 msgid ""
 "This allows you to browse for and select an image on your computer to be "
 "used as image overlay for the outline. This will be shown on top of the "
 "opaque parts of the outline."
 msgstr ""
+"Bu, anahat için görüntü kaplaması olarak kullanılmak üzere bilgisayarınızda "
+"bir görüntüye göz atmanıza ve seçmenize olanak tanır. Bu, anahattın opak "
+"kısımlarının üstünde gösterilecektir."
 
 #: src/filters/generic/gegl-styles.xml:611(term)
 msgid "Outline image opacity"
 msgstr "Anahat görüntü matlığı"
 
 #: src/filters/generic/gegl-styles.xml:613(para)
+#, fuzzy
 msgid ""
 "This setting allows you to adjust the opacity of the image overlay for the "
 "outline. By lowering the opacity you will be able to see a combination of "
 "the overlay and what's under it."
 msgstr ""
+"Bu ayar, dış hat için görüntü kaplamasının opaklığını ayarlamanıza olanak "
+"tanır. Opaklığı düşürerek, kaplama ile altındaki öğenin birleşimini "
+"görebilirsiniz."
 
 #: src/filters/generic/gegl-styles.xml:621(term)
 msgid "Levels low output lighting for Outline Bevel"
@@ -992,10 +1123,13 @@ msgid "Levels high output lighting for Outline Bevel"
 msgstr "Anahat Eğimi için yüksek çıkışlı aydınlatma düzeyleri"
 
 #: src/filters/generic/gegl-styles.xml:624(para)
+#, fuzzy
 msgid ""
 "These allow adjustment of the low and high levels of the outline bevel, "
 "which control the dark and light areas."
 msgstr ""
+"Bunlar, koyu ve açık alanları kontrol eden anahat eğiminin düşük ve yüksek "
+"seviyelerinin ayarlanmasını sağlar."
 
 #: src/filters/generic/gegl-styles.xml:631(term)
 msgid "Outline Dark Bevel/ignore image mode"
@@ -1124,11 +1258,15 @@ msgid "Filter <quote>Erode</quote> applied"
 msgstr "<quote>Aşındır</quote> süzgeci uygulandı"
 
 #: src/filters/generic/erode.xml:48(para)
+#, fuzzy
 msgid ""
 "This filter widens and enhances dark areas of the active layer or selection."
 msgstr ""
+"Bu filtre, aktif katmanın veya seçimin karanlık alanlarını genişletir ve "
+"iyileştirir."
 
 #: src/filters/generic/erode.xml:52(para)
+#, fuzzy
 msgid ""
 "For every image pixel, it brings the pixel Value (luminosity) into line with "
 "the lowest Value (the darkest) of the 8 neighboring pixels (3×3 matrix). So, "
@@ -1136,33 +1274,49 @@ msgid ""
 "background will be changed to a big <quote>pixel</quote>, composed of 9 "
 "pixels, and that will create some noise in the image."
 msgstr ""
+"Her görüntü pikseli için, piksel değerini (parlaklık) 8 komşu pikselin (3×3 "
+"matris) en düşük değeriyle (en karanlık) aynı hizaya getirir. Böylece, "
+"karanlık alanların etrafına karanlık bir piksel eklenir. Daha parlak bir "
+"arka plan üzerinde izole bir piksel, 9 pikselden oluşan büyük <quote>bir "
+"piksele</quote> dönüştürülür ve bu da görüntüde bir miktar gürültü yaratır."
 
 #: src/filters/generic/erode.xml:65(para)
+#, fuzzy
 msgid ""
 "In this image, the studied pixel has a red border and the studied 3×3 matrix "
 "has a green border. Thus when the pixel marked with <quote>I</quote> is "
 "inside the green border, the studied pixel turns to black."
 msgstr ""
+"Bu görüntüde, incelenen piksel kırmızı kenarlıkla, incelenen 3×3 matris ise "
+"yeşil kenarlıkla gösterilmiştir. Böylece, <quote>I</quote> ile işaretlenmiş "
+"piksel yeşil kenarlığın içinde olduğunda, incelenen piksel siyah renge "
+"dönüşür."
 
 #: src/filters/generic/erode.xml:70(para)
+#, fuzzy
 msgid "A larger dark area will expand by one pixel in all directions:"
-msgstr ""
+msgstr "Daha büyük bir karanlık alan tüm yönlerde bir piksel genişleyecektir:"
 
 #: src/filters/generic/erode.xml:79(para)
 msgid "The filter was applied 3 times."
 msgstr "Süzgeç 3 kez uygulanmıştır."
 
 #: src/filters/generic/erode.xml:82(para)
+#, fuzzy
 msgid ""
 "On more complex images, dark areas are widened and enhanced the same, and "
 "somewhat pixelated. Here, the filter was applied 3 times:"
 msgstr ""
+"Daha karmaşık görüntülerde, karanlık alanlar aynı şekilde genişletilir ve "
+"iyileştirilir, ancak biraz pikselleşir. Burada filtre 3 kez uygulanmıştır:"
 
 #: src/filters/generic/erode.xml:92(para)
+#, fuzzy
 msgid ""
 "Of course, if background is darker than foreground, it will cover the whole "
 "image."
 msgstr ""
+"Tabii ki, arka plan ön plandan daha koyu ise, tüm görüntüyü kaplayacaktır."
 
 #: src/filters/generic/erode.xml:100(para)
 msgid ""
@@ -1262,11 +1416,15 @@ msgid "Distance Map"
 msgstr "Uzaklık Eşlemi"
 
 #: src/filters/generic/distance-map.xml:22(para)
+#, fuzzy
 msgid ""
 "Each pixel in the image is replaced with a gray value dependent on the "
 "distance to the nearest obstacle pixel, generally a boundary pixel. "
 "Different methods can be used to calculate the distance."
 msgstr ""
+"Görüntüdeki her piksel, en yakın engel pikseline (genellikle bir sınır "
+"pikseli) olan mesafeye bağlı olarak bir gri değerle değiştirilir. Mesafeyi "
+"hesaplamak için farklı yöntemler kullanılabilir."
 
 #: src/filters/generic/distance-map.xml:31(para)
 msgid ""
@@ -1333,14 +1491,20 @@ msgid "Threshold low"
 msgstr "Düşük eşik"
 
 #: src/filters/generic/distance-map.xml:108(para)
+#, fuzzy
 msgid "Default is 0. Increasing this value selects higher lightness pixels"
 msgstr ""
+"Varsayılan değer 0'dır. Bu değerin artırılması daha yüksek açıklık "
+"piksellerini seçer"
 
 #: src/filters/generic/distance-map.xml:117(para)
+#, fuzzy
 msgid ""
 "Original image for examples. Threshold low will be progressively increased. "
 "Lightness: dark red = 0.070; bright red = 0.223; green = 0.133"
 msgstr ""
+"Örnekler için orijinal görüntü. Düşük eşik kademeli olarak artırılacaktır. "
+"Açıklık: koyu kırmızı = 0.070; parlak kırmızı = 0.223; yeşil = 0.133"
 
 #: src/filters/generic/distance-map.xml:125(title)
 msgid "<quote>Threshold low</quote> example"
@@ -1444,12 +1608,16 @@ msgid "Filter <quote>Dilate</quote> applied"
 msgstr "<quote>Genişlet</quote> süzgeci uygulandı"
 
 #: src/filters/generic/dilate.xml:46(para)
+#, fuzzy
 msgid ""
 "This filter widens and enhances bright areas of the active layer or "
 "selection."
 msgstr ""
+"Bu filtre, etkin katmanın veya seçimin parlak alanlarını genişletir ve "
+"geliştirir."
 
 #: src/filters/generic/dilate.xml:50(para)
+#, fuzzy
 msgid ""
 "For every image pixel, it brings the pixel Value (luminosity) into line with "
 "the upper value (the brightest) of the 8 neighboring pixels (3×3 matrix). "
@@ -1457,12 +1625,20 @@ msgid ""
 "brighter background will be deleted. A larger bright area will dilate by one "
 "pixel in all directions."
 msgstr ""
+"Her görüntü pikseli için, piksel değerini (parlaklık) 8 komşu pikselin (3×3 "
+"matris) üst değeriyle (en parlak) aynı hizaya getirir. Böylece, parlak "
+"alanların etrafına parlak bir piksel eklenir. Daha parlak bir arka planda "
+"izole edilmiş bir piksel silinir. Daha büyük bir parlak alan, tüm yönlerde "
+"bir piksel genişler."
 
 #: src/filters/generic/dilate.xml:57(para)
+#, fuzzy
 msgid ""
 "On complex images, bright areas are widened and enhanced the same, and "
 "somewhat pixelated."
 msgstr ""
+"Karmaşık görüntülerde, parlak alanlar aynı şekilde genişletilir ve "
+"geliştirilir ve biraz piksellenir."
 
 #: src/filters/generic/dilate.xml:64(title)
 msgid "<quote>Dilate</quote> example"
@@ -1653,36 +1829,55 @@ msgid "Convolution Matrix"
 msgstr "Evrişim Matrisi"
 
 #: src/filters/generic/convol-matrix.xml:21(para)
+#, fuzzy
 msgid ""
 "Here is a mathematician's domain. Most of filters are using convolution "
 "matrix. With the Convolution Matrix filter, if the fancy takes you, you can "
 "build a custom filter."
 msgstr ""
+"Burası bir matematikçinin alanıdır. Filtrelerin çoğu konvolüsyon matrisi "
+"kullanır. Konvolüsyon Matrisi filtresi ile, isterseniz özel bir filtre "
+"oluşturabilirsiniz."
 
 #: src/filters/generic/convol-matrix.xml:26(para)
+#, fuzzy
 msgid ""
 "What is a convolution matrix? It's possible to get a rough idea of it "
 "without using mathematical tools that only a few ones know. Convolution is "
 "the treatment of a matrix by another one which is called <quote>kernel</"
 "quote>."
 msgstr ""
+"Konvolüsyon matrisi nedir? Sadece birkaç kişinin bildiği matematiksel "
+"araçları kullanmadan da bunun hakkında genel bir fikir edinmek mümkündür. "
+"Konvolüsyon, bir matrisin <quote>çekirdek</quote> adı verilen başka bir "
+"matris tarafından işlenmesidir."
 
 #: src/filters/generic/convol-matrix.xml:32(para)
+#, fuzzy
 msgid ""
 "The Convolution Matrix filter uses a first matrix which is the Image to be "
 "treated. The image is a bi-dimensional collection of pixels in rectangular "
 "coordinates. The used kernel depends on the effect you want."
 msgstr ""
+"Convolution Matrix filtresi, işlenecek Görüntü olan ilk matrisi kullanır. "
+"Görüntü, dikdörtgen koordinatlarda iki boyutlu bir piksel koleksiyonudur. "
+"Kullanılan çekirdek, istediğiniz etkiye bağlıdır."
 
 #: src/filters/generic/convol-matrix.xml:37(para)
+#, fuzzy
 msgid ""
 "GIMP uses 5×5 or 3×3 matrices. We will consider only 3×3 matrices, they are "
 "the most used and they are enough for all effects you want. If all border "
 "values of a kernel are set to zero, then system will consider it as a 3×3 "
 "matrix."
 msgstr ""
+"GIMP, 5×5 veya 3×3 matrisleri kullanır. Biz sadece 3×3 matrisleri ele "
+"alacağız, bunlar en çok kullanılanlardır ve istediğiniz tüm efektler için "
+"yeterlidir. Bir çekirdeğin tüm kenar değerleri sıfıra ayarlanmışsa, sistem "
+"bunu 3×3 matris olarak kabul eder."
 
 #: src/filters/generic/convol-matrix.xml:43(para)
+#, fuzzy
 msgid ""
 "The filter studies successively every pixel of the image. For each of them, "
 "which we will call the <quote>initial pixel</quote>, it multiplies the value "
@@ -1690,19 +1885,30 @@ msgid ""
 "corresponding value. Then it adds the results, and the initial pixel is set "
 "to this final result value."
 msgstr ""
+"Filtre, görüntünün her pikselini sırayla inceler. Her biri için, "
+"<quote>başlangıç pikseli</quote> olarak adlandıracağımız bu pikselin "
+"değerini ve çevresindeki 8 pikselin değerlerini çekirdeğin karşılık gelen "
+"değeriyle çarpar. Ardından sonuçları toplar ve başlangıç pikseli bu nihai "
+"sonuç değerine ayarlanır."
 
 #: src/filters/generic/convol-matrix.xml:50(para)
 msgid "A simple example:"
 msgstr "Basit bir örnek:"
 
 #: src/filters/generic/convol-matrix.xml:59(para)
+#, fuzzy
 msgid ""
 "On the left is the image matrix: each pixel is marked with its value. The "
 "initial pixel has a red border. The kernel action area has a green border. "
 "In the middle is the kernel and, on the right is the convolution result."
 msgstr ""
+"Solda görüntü matrisi bulunmaktadır: her piksel kendi değeriyle "
+"işaretlenmiştir. İlk piksel kırmızı kenarlıkla işaretlenmiştir. Çekirdek "
+"eylem alanı yeşil kenarlıkla işaretlenmiştir. Ortada çekirdek, sağda ise "
+"konvolüsyon sonucu bulunmaktadır."
 
 #: src/filters/generic/convol-matrix.xml:65(para)
+#, fuzzy
 msgid ""
 "Here is what happened: the filter read successively, from left to right and "
 "from top to bottom, all the pixels of the kernel action area. It multiplied "
@@ -1712,6 +1918,12 @@ msgid ""
 "on the image but on a copy). As a graphical result, the initial pixel moved "
 "a pixel downwards."
 msgstr ""
+"İşte olanlar: filtre, çekirdek eylem alanının tüm piksellerini soldan sağa "
+"ve yukarıdan aşağıya doğru sırayla okudu. Her birinin değerini çekirdeğin "
+"karşılık gelen değeriyle çarptı ve sonuçları topladı. İlk piksel 42 oldu: "
+"(40*0)+(42*1)+(46*0) + (46*0)+(50*0)+(55*0) + (52*0)+(56*0)+(58*0) = 42. "
+"(filtre görüntü üzerinde değil, bir kopya üzerinde çalışır). Grafiksel sonuç "
+"olarak, ilk piksel bir piksel aşağıya kaymıştır."
 
 #: src/filters/generic/convol-matrix.xml:78(para)
 msgid ""
@@ -1732,68 +1944,92 @@ msgid "Matrix"
 msgstr "Matris"
 
 #: src/filters/generic/convol-matrix.xml:115(para)
+#, fuzzy
 msgid ""
 "This is the 5×5 kernel matrix: you enter wanted values directly into boxes."
 msgstr ""
+"Bu 5×5 çekirdek matrisidir: istediğiniz değerleri doğrudan kutulara "
+"girersiniz."
 
 #: src/filters/generic/convol-matrix.xml:121(term)
 msgid "Divisor"
 msgstr "Bölen"
 
 #: src/filters/generic/convol-matrix.xml:123(para)
+#, fuzzy
 msgid ""
 "The result of previous calculation will be divided by this divisor. You will "
 "hardly use anything else than 1, which leaves results unchanged, and 9 or 25 "
 "according to matrix size, which gives the average of pixel values. The "
 "divisor can only be changed when Normalize is unchecked."
 msgstr ""
+"Önceki hesaplamanın sonucu bu bölen ile bölünecektir. Sonuçları "
+"değiştirmeyen 1'den başka bir sayı kullanmanız pek olası değildir. Matris "
+"boyutuna göre 9 veya 25 sayıları ise piksel değerlerinin ortalamasını verir. "
+"Bölen, Normalize seçeneği işaretli olmadığında değiştirilebilir."
 
 #: src/filters/generic/convol-matrix.xml:133(term)
 msgid "Offset"
 msgstr "Konum"
 
 #: src/filters/generic/convol-matrix.xml:135(para)
+#, fuzzy
 msgid ""
 "This value is added to the division result. This is useful if result may be "
 "negative. This offset may be negative. It can only be changed when Normalize "
 "is unchecked."
 msgstr ""
+"Bu değer bölme sonucuna eklenir. Sonuç negatif olabileceği durumlarda bu "
+"kullanışlıdır. Bu ofset negatif olabilir. Yalnızca Normalize seçeneği "
+"işaretli değilken değiştirilebilir."
 
 #: src/filters/generic/convol-matrix.xml:146(term)
 msgid "Channels"
 msgstr "Kanallar"
 
 #: src/filters/generic/convol-matrix.xml:148(para)
+#, fuzzy
 msgid "Here you can select which channels the filter should change."
-msgstr ""
+msgstr "Burada filtrenin hangi kanalları değiştireceğini seçebilirsiniz."
 
 #: src/filters/generic/convol-matrix.xml:156(para)
+#, fuzzy
 msgid ""
 "If this option is checked, The Divisor takes the result value of "
 "convolution. If this result is equal to zero (it's not possible to divide by "
 "zero), then a 128 offset is applied. If it is negative (a negative color is "
 "not possible), a 255 offset is applied (inverts result)."
 msgstr ""
+"Bu seçenek işaretlendiğinde, Bölücü konvolüsyonun sonuç değerini alır. Bu "
+"sonuç sıfıra eşitse (sıfıra bölmek mümkün değildir), 128 ofset uygulanır. "
+"Negatifse (negatif renk mümkün değildir), 255 ofset uygulanır (sonucu "
+"tersine çevirir)."
 
 #: src/filters/generic/convol-matrix.xml:166(term)
 msgid "Alpha-weighting"
 msgstr "Alfa ağırlıklandırma"
 
 #: src/filters/generic/convol-matrix.xml:168(para)
+#, fuzzy
 msgid ""
 "If this option is not checked, the filter doesn't take in account "
 "transparency and this may be cause of some artefacts when blurring."
 msgstr ""
+"Bu seçenek işaretlenmezse, filtre şeffaflığı dikkate almaz ve bu, "
+"bulanıklaştırma sırasında bazı artefaktlara neden olabilir."
 
 #: src/filters/generic/convol-matrix.xml:176(term)
 msgid "Border"
 msgstr "Kenar"
 
 #: src/filters/generic/convol-matrix.xml:178(para)
+#, fuzzy
 msgid ""
 "When the initial pixel is on a border, a part of the kernel is outside the "
 "image. You have to decide what the filter should do:"
 msgstr ""
+"İlk piksel bir sınırda olduğunda, çekirdeğin bir kısmı görüntünün "
+"dışındadır. Filtrenin ne yapması gerektiğine karar vermelisiniz:"
 
 #: src/filters/generic/convol-matrix.xml:184(title)
 msgid "Border examples"
@@ -1837,10 +2073,13 @@ msgid "Loop"
 msgstr "Döngü"
 
 #: src/filters/generic/convol-matrix.xml:248(para)
+#, fuzzy
 msgid ""
 "This part of the kernel will be affected by pixels of the opposite border, "
 "so pixels disappearing from one side reappear on the other side."
 msgstr ""
+"Çekirdeğin bu kısmı, karşı kenarın piksellerinden etkilenecektir, bu nedenle "
+"bir taraftan kaybolan pikseller diğer tarafta yeniden görünür."
 
 #: src/filters/generic/convol-matrix.xml:256(term)
 msgid "Black"
@@ -1859,10 +2098,13 @@ msgid "Pixels on borders are changed to white."
 msgstr "Kenarlıklardaki pikseller beyaz olarak değiştirilir."
 
 #: src/filters/generic/convol-matrix.xml:279(para)
+#, fuzzy
 msgid ""
 "Design of kernels is based on high levels mathematics. You can find ready-"
 "made kernels on the Web. Here are a few examples:"
 msgstr ""
+"Çekirdeklerin tasarımı yüksek düzey matematik bilgisine dayanır. Hazır "
+"çekirdekleri internette bulabilirsiniz. İşte birkaç örnek:"
 
 #: src/filters/generic/convol-matrix.xml:284(title)
 msgid "Sharpen"

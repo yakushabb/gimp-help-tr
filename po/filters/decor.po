@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-09-22 23:48+0300\n"
+"PO-Revision-Date: 2025-11-06 12:47+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -125,6 +125,7 @@ msgid "This filter adds stains to the image."
 msgstr "Bu süzgeç görüntüye lekeler ekler."
 
 #: src/filters/decor/stain.xml:49(para)
+#, fuzzy
 msgid ""
 "Every stain is created in a layer of its own. The stain layers are randomly "
 "moved to let the stains spread out (at the end you may see the boundary of "
@@ -132,6 +133,12 @@ msgid ""
 "(e.g., move, scale, remove) the stains, or create additional stains using "
 "the filter again."
 msgstr ""
+"Her leke kendi katmanında oluşturulur. Leke katmanları, lekelerin "
+"yayılmasını sağlamak için rastgele hareket ettirilir (sonunda hareket "
+"ettirilen üst katmanın sınırını görebilirsiniz). Böylece filtreyi "
+"uyguladıktan sonra lekeleri kolayca düzenleyebilir (örneğin, taşıyabilir, "
+"ölçeklendirebilir, kaldırabilir) veya filtreyi tekrar kullanarak ek lekeler "
+"oluşturabilirsiniz."
 
 #: src/filters/decor/stain.xml:59(title) src/filters/decor/slide.xml:64(title)
 #: src/filters/decor/round-corners.xml:58(title)
@@ -184,6 +191,7 @@ msgid "Darken only"
 msgstr "Yalnızca Koyulaştır"
 
 #: src/filters/decor/stain.xml:91(para)
+#, fuzzy
 msgid ""
 "Since every stain is created in a layer of its own, all layers have to be "
 "merged to make the appearance of the image. If this option is checked, the "
@@ -191,8 +199,14 @@ msgid ""
 "set to <quote>Darken only</quote>, otherwise it is set to <quote>Normal</"
 "quote>."
 msgstr ""
+"Her leke kendine ait bir katmanda oluşturulduğu için, görüntünün ortaya "
+"çıkması için tüm katmanların birleştirilmesi gerekir. Bu seçenek "
+"işaretlenirse, ilgili <link linkend=\"gimp-concepts-layer-modes\">katman "
+"modu</link> <quote>yalnızca Koyulaştırma</quote> olarak ayarlanır, aksi "
+"takdirde <quote>Normal</quote> olarak ayarlanır."
 
 #: src/filters/decor/stain.xml:99(para)
+#, fuzzy
 msgid ""
 "The layer mode determines how the pixels of the layers are combined. If "
 "<quote>Darken only</quote> is unchecked we use <quote>Normal</quote> mode, "
@@ -200,6 +214,11 @@ msgid ""
 "only</quote> is checked, stains cover the corresponding pixels of the layers "
 "below them only if these pixels are lighter."
 msgstr ""
+"Katman modu, katmanların piksellerinin nasıl birleştirileceğini belirler. "
+"<quote>Yalnızca</quote> koyulaştır işaretli değilse <quote>Normal</quote> "
+"modu kullanırız ve her leke alttaki katmanların piksellerini kapsar. "
+"<quote>Yalnızca</quote> koyulaştır işaretliyse, lekeler altlarındaki "
+"katmanların ilgili piksellerini yalnızca bu pikseller daha açıksa kaplar."
 
 #: src/filters/decor/stain.xml:110(term)
 msgid "Gradient to color stains"
@@ -252,6 +271,7 @@ msgstr ""
 "ekleyerek görüntünün slayt gibi görünmesini sağlar."
 
 #: src/filters/decor/slide.xml:49(para)
+#, fuzzy
 msgid ""
 "If necessary, the image will be cropped to fit into an aspect ratio of "
 "width : height = 3:2. If image width is greater than image height, black "
@@ -260,6 +280,12 @@ msgid ""
 "as the font of the text appearing on the frames. The current background "
 "color will be used for drawing the holes."
 msgstr ""
+"Gerekirse, görüntü genişlik : yükseklik = 3:2 en boy oranına sığacak şekilde "
+"kırpılacaktır. Görüntü genişliği görüntü yüksekliğinden büyükse, görüntünün "
+"üstüne ve altına siyah çerçeveler eklenecektir, aksi takdirde çerçeveler sol "
+"ve sağ taraflara eklenecektir. Çerçevelerde görünen metnin yazı tipinin yanı "
+"sıra rengini de seçebilirsiniz. Delikleri çizmek için mevcut arka plan rengi "
+"kullanılacaktır."
 
 #: src/filters/decor/slide.xml:57(para)
 msgid ""
@@ -300,11 +326,14 @@ msgid "Number"
 msgstr "Sayı"
 
 #: src/filters/decor/slide.xml:99(para)
+#, fuzzy
 msgid ""
 "Here you may enter a text for simulating consecutive numbers. Two numbers "
 "will be displayed: this number and this number with the character <quote>A</"
 "quote> appended."
 msgstr ""
+"Burada ardışık sayıları simüle etmek için bir metin girebilirsiniz. İki sayı "
+"görüntülenecektir: bu sayı ve <quote>A</quote> karakteri eklenmiş bu sayı."
 
 #: src/filters/decor/slide.xml:107(term)
 msgid "Font"
@@ -454,11 +483,16 @@ msgstr ""
 "görüntünün köşelerini yuvarlar."
 
 #: src/filters/decor/round-corners.xml:49(para)
+#, fuzzy
 msgid ""
 "The filter works on RGB and grayscale images that contain only one layer. It "
 "creates a copy of the image or can optionally work on the original. It uses "
 "the current background color to create a background layer."
 msgstr ""
+"Filtre, yalnızca bir katman içeren RGB ve gri tonlamalı görüntüler üzerinde "
+"çalışır. Görüntünün bir kopyasını oluşturur veya isteğe bağlı olarak "
+"orijinal üzerinde çalışabilir. Bir arka plan katmanı oluşturmak için geçerli "
+"arka plan rengini kullanır."
 
 #: src/filters/decor/round-corners.xml:59(para)
 msgid ""
@@ -479,19 +513,29 @@ msgid "Edge radius"
 msgstr "Kenar yarıçapı"
 
 #: src/filters/decor/round-corners.xml:84(para)
+#, fuzzy
 msgid ""
 "Rounding corners is done by selecting a quarter of a circle at every corner "
 "and removing the area not covered by this selection. The <quote>edge radius</"
 "quote> is the radius of the constructing circle."
 msgstr ""
+"Köşeleri yuvarlatmak için her köşede çeyrek daire seçilir ve bu seçimle "
+"kaplanmayan alan kaldırılır. <quote>Kenar yarıçapı</quote>, oluşturulan "
+"dairenin yarıçapıdır."
 
 #: src/filters/decor/round-corners.xml:90(para)
+#, fuzzy
 msgid ""
 "In the examples below, the filter was applied to a 100×100 pixels image, "
 "with varying edge radius. For radius = 50, the four quadrants just form a "
 "circle with diameter = 100, which exactly fits into the original image "
 "outline. A radius greater than 50 is possible, but look what happens:"
 msgstr ""
+"Aşağıdaki örneklerde, filtre 100×100 piksel boyutundaki bir görüntüye, "
+"değişen kenar yarıçapları ile uygulanmıştır. Yarıçap = 50 olduğunda, dört "
+"kadran çapı = 100 olan bir daire oluşturur ve bu da orijinal görüntünün dış "
+"hatlarına tam olarak uyar. 50'den büyük bir yarıçap da mümkündür, ancak ne "
+"olduğunu bir bakın:"
 
 #: src/filters/decor/round-corners.xml:98(title)
 msgid "Edge radius examples"
@@ -530,11 +574,15 @@ msgid "Shadow X/Y offset"
 msgstr "Gölge X/Y konumu"
 
 #: src/filters/decor/round-corners.xml:152(para)
+#, fuzzy
 msgid ""
 "X and Y offset determine where the shadow will be placed in relation to the "
 "image. Offset is measured in pixels. High values make the shadow look like "
 "it's far away, and low values will make it look closer to the image."
 msgstr ""
+"X ve Y ofseti, gölgenin görüntüye göre nereye yerleştirileceğini belirler. "
+"Ofset piksel cinsinden ölçülür. Yüksek değerler gölgenin çok uzaktaymış gibi "
+"görünmesini, düşük değerler ise görüntüye daha yakın görünmesini sağlar."
 
 #: src/filters/decor/round-corners.xml:159(title)
 msgid "Shadow offset examples"
@@ -549,34 +597,48 @@ msgid "Shadow X offset: 16, Y offset: 4."
 msgstr "Gölge X konumu: 16, Y konumu: 4."
 
 #: src/filters/decor/round-corners.xml:181(para)
+#, fuzzy
 msgid ""
 "Note that the shadow offsets as well as the blur radius are limited to "
 "background area."
 msgstr ""
+"Gölge ofsetlerinin yanı sıra bulanıklaştırma yarıçapının da arka plan "
+"alanıyla sınırlı olduğunu unutmayın."
 
 #: src/filters/decor/round-corners.xml:188(term)
 msgid "Blur radius"
 msgstr "Bulanıklık yarıçapı"
 
 #: src/filters/decor/round-corners.xml:190(para)
+#, fuzzy
 msgid ""
 "When <guilabel>Add drop-shadow</guilabel> is checked, you may select a blur "
 "radius, which will be used by the <link linkend=\"script-fu-drop-"
 "shadow\">Drop Shadow</link> filter. The image will be enlarged in both "
 "dimensions depending on the blur radius and the shadow offsets."
 msgstr ""
+"<guilabel>Gölge ekle seçeneği</guilabel> işaretlendiğinde, <link "
+"linkend=\"script-fu-drop-shadow\">Drop Shadow</link> filtresi tarafından "
+"kullanılacak bulanıklık yarıçapını seçebilirsiniz. Görüntü, bulanıklık "
+"yarıçapına ve gölge ofsetlerine bağlı olarak her iki boyutta da "
+"büyütülecektir."
 
 #: src/filters/decor/round-corners.xml:200(term)
 msgid "Add background"
 msgstr "Arka plan ekle"
 
 #: src/filters/decor/round-corners.xml:202(para)
+#, fuzzy
 msgid ""
 "When you check this option (it is checked by default), the filter will add a "
 "background layer below the existing layer, filled with the current "
 "background color. The size of this new layer depends on the blur radius and "
 "the shadow offsets."
 msgstr ""
+"Bu seçeneği işaretlediğinizde (varsayılan olarak işaretlidir), filtre mevcut "
+"katmanın altına mevcut arka plan rengiyle doldurulmuş bir arka plan katmanı "
+"ekler. Bu yeni katmanın boyutu bulanıklık yarıçapına ve gölge ofsetlerine "
+"bağlıdır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -694,11 +756,15 @@ msgid "Border size"
 msgstr "Kenarlık boyutu"
 
 #: src/filters/decor/old-photo.xml:109(para)
+#, fuzzy
 msgid ""
 "When you choose a border size &gt; 0, the <link linkend=\"script-fu-fuzzy-"
 "border\">Fuzzy Border</link> filter will be applied to the image, adding a "
 "white, jagged border."
 msgstr ""
+"Kenarlık boyutu > 0 seçildiğinde, görüntüye <link linkend=\"script-fu-fuzzy-"
+"border\">Fuzzy Border</link> filtresi uygulanarak beyaz, pürüzlü bir "
+"kenarlık eklenir."
 
 #: src/filters/decor/old-photo.xml:117(term)
 msgid "Sepia"
@@ -714,6 +780,7 @@ msgid "Compare <xref linkend=\"gimp-tool-color-balance\"/>."
 msgstr "Karşılaştır <xref linkend=\"gimp-tool-color-balance\"/>."
 
 #: src/filters/decor/old-photo.xml:119(para)
+#, fuzzy
 msgid ""
 "If checked, the filter reproduces the effect of aging in old, traditional "
 "black-and-white photographs, toned with sepia (shades of brown)."
@@ -721,6 +788,11 @@ msgid ""
 "reduces brightness and contrast, and modifies the color balance."
 "<placeholder-2/>"
 msgstr ""
+"İşaretlendiğinde, filtre eski, geleneksel siyah-beyaz fotoğraflardaki "
+"yaşlanma etkisini sepya (kahverengi tonları) ile tonlayarak yeniden üretir."
+"<placeholder-1/> Bu efekti elde etmek için filtre, görüntünün doygunluğunu "
+"azaltır, parlaklığı ve kontrastı düşürür ve renk dengesini değiştirir."
+"<placeholder-2/>"
 
 #: src/filters/decor/old-photo.xml:134(term)
 msgid "Mottle"
@@ -890,11 +962,16 @@ msgid "<quote>Fuzzy Border</quote> applied"
 msgstr "<quote>Bulanık Kenarlık</quote> uygulandı"
 
 #: src/filters/decor/fuzzyborder.xml:45(para)
+#, fuzzy
 msgid ""
 "This filter adds a cool fading border to an image. The border will look "
 "jagged and fuzzy, and you can specify color and thickness of the fading "
 "border. Optionally you may add a shadow to the image."
 msgstr ""
+"Bu filtre bir görüntüye havalı bir soluk kenarlık ekler. Kenarlık pürüzlü ve "
+"bulanık görünecektir ve solan kenarlığın rengini ve kalınlığını "
+"belirleyebilirsiniz. İsteğe bağlı olarak görüntüye bir gölge "
+"ekleyebilirsiniz."
 
 #: src/filters/decor/fuzzyborder.xml:54(para)
 msgid ""
@@ -915,44 +992,48 @@ msgid "Color"
 msgstr "Renk"
 
 #: src/filters/decor/fuzzyborder.xml:79(para)
+#, fuzzy
 msgid ""
 "Clicking on this button brings up the color selector dialog that allows you "
 "to choose the border color."
 msgstr ""
+"Bu düğmeye tıkladığınızda, kenarlık rengini seçmenizi sağlayan renk seçici "
+"iletişim kutusu açılır."
 
 #: src/filters/decor/fuzzyborder.xml:88(para)
+#, fuzzy
 msgid ""
 "Here you can set the thickness of the fuzzy border, in pixels. Maximum is "
 "300 pixels, regardless of the image width or height."
 msgstr ""
+"Burada bulanık kenarlığın kalınlığını piksel cinsinden ayarlayabilirsiniz. "
+"Görüntünün genişliği veya yüksekliğinden bağımsız olarak maksimum değer 300 "
+"pikseldir."
 
 #: src/filters/decor/fuzzyborder.xml:95(term)
 msgid "Blur border"
 msgstr "Kenarlığı bulanıklaştır"
 
 #: src/filters/decor/fuzzyborder.xml:97(para)
+#, fuzzy
 msgid ""
 "If checked, the border will be blurred. The example below shows the effect "
 "of blurring:"
 msgstr ""
+"İşaretlenirse, kenarlık bulanıklaştırılır. Aşağıdaki örnek "
+"bulanıklaştırmanın etkisini göstermektedir:"
 
 #: src/filters/decor/fuzzyborder.xml:102(title)
 msgid "<quote>Blur border</quote> example"
 msgstr "<quote>Kenarlığı bulanıklaştır</quote> örneği"
 
-# Blur burada Blur Border anlamında kullanılmış.
 #: src/filters/decor/fuzzyborder.xml:109(para)
 #: src/filters/decor/fuzzyborder.xml:130(para)
-#, fuzzy
-#| msgid "<quote>Blur</quote> checked"
 msgid "<quote>Blur border</quote> checked"
 msgstr "<quote>Kenarlığı bulanıklaştır</quote> işaretli"
 
-# Blur burada Blur Border anlamında kullanılmış.
 #: src/filters/decor/fuzzyborder.xml:118(para)
 #: src/filters/decor/fuzzyborder.xml:139(para)
-#, fuzzy
-#| msgid "<quote>Blur</quote> unchecked"
 msgid "<quote>Blur border</quote> unchecked"
 msgstr "<quote>Kenarlığı bulanıklaştır</quote> işaretsiz"
 
@@ -965,10 +1046,13 @@ msgid "Granularity"
 msgstr "Parçacıklılık"
 
 #: src/filters/decor/fuzzyborder.xml:148(para)
+#, fuzzy
 msgid ""
 "The border's granularity is almost the size of pixel blocks spread to create "
 "the effect of a jagged and fuzzy border."
 msgstr ""
+"Sınırın ayrıntı düzeyi, pürüzlü ve bulanık bir sınır efekti yaratmak için "
+"yayılmış piksel bloklarının boyutuna yakındır."
 
 #: src/filters/decor/fuzzyborder.xml:153(title)
 msgid "Granularity example (without blurring)"
@@ -1077,11 +1161,15 @@ msgid "<quote>Fog</quote> applied"
 msgstr "<quote>Sis</quote> uygulandı"
 
 #: src/filters/decor/fog.xml:43(para)
+#, fuzzy
 msgid ""
 "This filter adds a new layer with some clouds to the image that look like "
 "fog or smoke. The clouds are created with the <link linkend=\"gimp-filter-"
 "plasma\">Plasma</link> texture."
 msgstr ""
+"Bu filtre, görüntüye sis veya duman gibi görünen bazı bulutlar içeren yeni "
+"bir katman ekler. Bulutlar <link linkend=\"gimp-filter-plasma\">Plazma</"
+"link> dokusu ile oluşturulmuştur."
 
 #: src/filters/decor/fog.xml:53(para)
 msgid ""
@@ -1124,31 +1212,42 @@ msgid "Fog color"
 msgstr "Sis rengi"
 
 #: src/filters/decor/fog.xml:93(para)
+#, fuzzy
 msgid ""
 "Defaults to some kind of sandy brown (240, 180, 70). Click on the color "
 "button to change this if you think that is not the natural color of fog."
 msgstr ""
+"Varsayılan olarak kumlu kahverengi (240, 180, 70) renktir. Bunun sisin doğal "
+"rengi olmadığını düşünüyorsanız, renk düğmesine tıklayarak bunu "
+"değiştirebilirsiniz."
 
 #: src/filters/decor/fog.xml:101(term)
 msgid "Turbulence"
 msgstr "Türbülans"
 
 #: src/filters/decor/fog.xml:103(para)
+#, fuzzy
 msgid ""
 "This is actually the Turbulence option of the <link linkend=\"gimp-filter-"
 "plasma\">Plasma</link> filter: it controls the complexity of the clouds, "
 "from soft (low values) to hard (high values)."
 msgstr ""
+"Bu aslında <link linkend=\"gimp-filter-plasma\">Plasma</link> filtresinin "
+"Türbülans seçeneğidir: bulutların karmaşıklığını yumuşak (düşük değerler) "
+"ile sert (yüksek değerler) arasında kontrol eder."
 
 #: src/filters/decor/fog.xml:112(term)
 msgid "Opacity"
 msgstr "Matlık"
 
 #: src/filters/decor/fog.xml:114(para)
+#, fuzzy
 msgid ""
 "The opacity of the layer. You can change it later in the <link "
 "linkend=\"gimp-layer-dialog-opacity-scale\">Layers Dialog</link>."
 msgstr ""
+"Katmanın opaklığı. Bunu daha sonra <link linkend=\"gimp-layer-dialog-opacity-"
+"scale\">Katmanlar Diyalog Penceresi'nde değiştirebilirsiniz</link>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1174,7 +1273,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/decor/chrome-it.xml:72(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/filters/decor/chrome-it.png'; "
 #| "md5=6d36ab3fb5ee1d4f99990f677081eeb8"
@@ -1183,7 +1281,7 @@ msgid ""
 "md5=991cbd32a0c5b5cee0a41a1f4414673b"
 msgstr ""
 "@@image: 'images/filters/decor/chrome-it.png'; "
-"md5=6d36ab3fb5ee1d4f99990f677081eeb8"
+"md5=991cbd32a0c5b5cee0a41a1f4414673b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1260,19 +1358,28 @@ msgid "<quote>Stencil Chrome</quote> applied"
 msgstr "<quote>Kalıp Krom</quote> uygulandı"
 
 #: src/filters/decor/chrome-it.xml:40(para)
+#, fuzzy
 msgid ""
 "This filter provides a chrome effect. The source image must be an image "
 "containing a single layer. This layer is used as mask (<quote>stencil</"
 "quote>) for the chrome effect."
 msgstr ""
+"Bu filtre krom efekti sağlar. Kaynak görüntü, tek bir katman içeren bir "
+"görüntü olmalıdır. Bu katman krom efekti için maske<quote>(şablon</quote>) "
+"olarak kullanılır."
 
 #: src/filters/decor/chrome-it.xml:45(para)
+#, fuzzy
 msgid ""
 "The filter creates a new image with the chrome effect applied to the source "
 "image or, if a selection exists, to the selection of the source image (a "
 "nice background is added too). If no environment map image is specified, a "
 "copy of the source image will be used."
 msgstr ""
+"Filtre, kaynak görüntüye veya bir seçim varsa kaynak görüntünün seçimine "
+"krom efekti uygulanmış yeni bir görüntü oluşturur (güzel bir arka plan da "
+"eklenir). Ortam haritası görüntüsü belirtilmezse, kaynak görüntünün bir "
+"kopyası kullanılır."
 
 #: src/filters/decor/chrome-it.xml:55(para)
 msgid ""
@@ -1299,67 +1406,94 @@ msgstr "Krom açıklığı"
 #. TRANSLATORS: <quote>d "Chrome", "Highlight" and
 #. "Drop Shadow" are the layer names set by the script.
 #: src/filters/decor/chrome-it.xml:83(para)
+#, fuzzy
 msgid ""
 "Use this option to control how <link linkend=\"gimp-tool-hue-"
 "saturation\">saturation and lightness</link> of the <quote>Chrome</quote> "
 "layer are adjusted. Negative values decrease saturation and lightness "
 "respectively."
 msgstr ""
+"<quote>Chrome</quote> katmanının <link linkend=\"gimp-tool-hue-"
+"saturation\">doygunluk ve açıklığının</link> nasıl ayarlanacağını kontrol "
+"etmek için bu seçeneği kullanın. Negatif değerler sırasıyla doygunluğu ve "
+"açıklığı azaltır."
 
 #: src/filters/decor/chrome-it.xml:92(term)
 msgid "Chrome factor"
 msgstr "Krom katsayısı"
 
 #: src/filters/decor/chrome-it.xml:94(para)
+#, fuzzy
 msgid ""
 "This factor lets you adjust offsets, feather radius, and brush size used to "
 "construct the <quote>Chrome</quote> and <quote>Highlight</quote> layer (and "
 "the <quote>Drop Shadow</quote> as well)."
 msgstr ""
+"Bu faktör, <quote>Chrome</quote> ve <quote>Highlight</quote> katmanını (ve "
+"<quote>Drop Shadow'u</quote> da) oluşturmak için kullanılan ofsetleri, "
+"yumuşatma yarıçapını ve fırça boyutunu ayarlamanıza olanak tanır."
 
 #: src/filters/decor/chrome-it.xml:100(para)
+#, fuzzy
 msgid ""
 "Change with caution, decreasing this value may make the chrome effect worse. "
 "The default factor 0.75 seems to be a good choice."
 msgstr ""
+"Dikkatli bir şekilde değiştirin, bu değeri düşürmek krom efektini "
+"kötüleştirebilir. Varsayılan faktör 0,75 iyi bir seçim gibi görünüyor."
 
 #: src/filters/decor/chrome-it.xml:107(term)
 msgid "Environment map"
 msgstr "Ortam eşlemi"
 
 #: src/filters/decor/chrome-it.xml:109(para)
+#, fuzzy
 msgid ""
 "The environment map is an image that is added as some kind of <quote>noise</"
 "quote> to the source. If no image is selected here, the source image will be "
 "used."
 msgstr ""
+"Ortam haritası, kaynağa bir tür <quote>gürültü</quote> olarak eklenen bir "
+"görüntüdür. Burada hiçbir görüntü seçilmezse, kaynak görüntü kullanılır."
 
 #: src/filters/decor/chrome-it.xml:114(para)
+#, fuzzy
 msgid ""
 "The effect is best to see if you use a simple map with some obvious shapes:"
 msgstr ""
+"Etkisini en iyi, bazı belirgin şekiller içeren basit bir harita kullanarak "
+"görebilirsiniz:"
 
 #: src/filters/decor/chrome-it.xml:124(para)
+#, fuzzy
 msgid "Using a simple environment map"
-msgstr ""
+msgstr "Basit bir ortam haritası kullanma"
 
 #: src/filters/decor/chrome-it.xml:127(para)
+#, fuzzy
 msgid ""
 "The size of the environment map image doesn't matter, it is scaled to the "
 "size of the source image."
 msgstr ""
+"Çevre haritası görüntüsünün boyutu önemli değildir, kaynak görüntünün "
+"boyutuna göre ölçeklendirilir."
 
 #: src/filters/decor/chrome-it.xml:134(term)
 msgid "Highlight balance"
 msgstr "Vurgu dengesi"
 
 #: src/filters/decor/chrome-it.xml:136(para)
+#, fuzzy
 msgid ""
 "This color is used to modify the <link linkend=\"gimp-tool-color-"
 "balance\">color balance</link> of the <quote>Highlight</quote> layer: the "
 "amount of red, green, and blue colors is increased according to the "
 "corresponding values of the specified option."
 msgstr ""
+"Bu renk, <quote>Vurgu</quote> katmanının <link linkend=\"gimp-tool-color-"
+"balance\">renk dengesini</link> değiştirmek için kullanılır: kırmızı, yeşil "
+"ve mavi renklerin miktarı, belirtilen seçeneğin karşılık gelen değerlerine "
+"göre artırılır."
 
 #. cf. bug #624761
 #: src/filters/decor/chrome-it.xml:144(para)
@@ -1396,12 +1530,17 @@ msgid "How to create the chrome effect"
 msgstr "Krom etkisi nasıl oluşturulur"
 
 #: src/filters/decor/chrome-it.xml:174(para)
+#, fuzzy
 msgid ""
 "The following section provides a brief and simplified description of how the "
 "script (actually this filter is a Script-Fu) creates the chrome effect."
 msgstr ""
+"Aşağıdaki bölüm, komut dosyasının (aslında bu filtre bir Script-Fu'dur) krom "
+"efektini nasıl oluşturduğuna dair kısa ve basitleştirilmiş bir açıklama "
+"sunmaktadır."
 
 #: src/filters/decor/chrome-it.xml:179(para)
+#, fuzzy
 msgid ""
 "If you apply the filter to your source images and then look at the <link "
 "linkend=\"gimp-layer-dialog\">Layers Dialog</link> of the resulting image, "
@@ -1409,82 +1548,118 @@ msgid ""
 "the <quote>Chrome</quote> layer and the <quote>Highlight</quote> layer. "
 "These layers are created as follows:"
 msgstr ""
+"Filtreyi kaynak görüntülere uyguladıktan sonra, ortaya çıkan görüntünün "
+"<link linkend=\"gimp-layer-dialog\">Katmanlar Diyalog Penceresi</link> 'na "
+"bakarsanız, krom efektini oluşturan iki ana katman olduğunu göreceksiniz: "
+"<quote>Krom</quote> katmanı ve <quote>Vurgu</quote> katmanı. Bu katmanlar şu "
+"şekilde oluşturulur:"
 
 #: src/filters/decor/chrome-it.xml:188(para)
+#, fuzzy
 msgid ""
 "The script constructs a somewhat simplified and blurred layer from the "
 "source image (from the inverted source image if <guilabel>Chromewhiteareas</"
 "guilabel> is unchecked)."
 msgstr ""
+"Komut dosyası, kaynak görüntüden ( <guilabel>Chromewhiteareas seçeneği</"
+"guilabel> işaretli değilse ters çevrilmiş kaynak görüntüden) biraz "
+"basitleştirilmiş ve bulanık bir katman oluşturur."
 
 #: src/filters/decor/chrome-it.xml:199(para)
+#, fuzzy
 msgid ""
 "The <guilabel>Chrome factor</guilabel> controls the appearance of this layer."
 msgstr ""
+"<guilabel>Chrome faktörü</guilabel> bu katmanın görünümünü kontrol eder."
 
 #: src/filters/decor/chrome-it.xml:205(para)
+#, fuzzy
 msgid ""
 "The (scaled) environment map is blurred and merged into the above layer with "
 "50% opacity. (Do you spot the cat in the introducing <link linkend=\"script-"
 "fu-sota-chrome-it-example\">example</link>?)"
 msgstr ""
+"(Ölçeklendirilmiş) ortam haritası bulanıklaştırılır ve 50% o kapasite ile "
+"yukarıdaki katmana birleştirilir. ( <link linkend=\"script-fu-sota-chrome-it-"
+"example\">örneğinin girişinde kediyi görebiliyor musunuz?</link>?)"
 
 #: src/filters/decor/chrome-it.xml:216(para)
 msgid "Merging the environment map"
 msgstr "Ortam Eşlemini birleştirme"
 
 #: src/filters/decor/chrome-it.xml:221(para)
+#, fuzzy
 msgid ""
 "The brightness (value) of the layer is modified according to a spline-based "
 "intensity curve."
 msgstr ""
+"Katmanın parlaklığı (değeri), spline tabanlı bir yoğunluk eğrisine göre "
+"değiştirilir."
 
 #: src/filters/decor/chrome-it.xml:231(para)
 msgid "Modifying the intensity curve"
 msgstr "Yoğunluk eğrisinin değiştirilmesi"
 
 #: src/filters/decor/chrome-it.xml:236(para)
+#, fuzzy
 msgid ""
 "A layer mask is added, initialized with the source image (the <quote>Chrome "
 "Stencil</quote>). This is the <quote>Chrome</quote> layer before the final "
 "step."
 msgstr ""
+"Kaynak görüntü ( <quote>Chrome Stencil</quote>) ile başlatılan bir katman "
+"maskesi eklenir. Bu, son adımdan önceki <quote>Chrome</quote> katmanıdır."
 
 #: src/filters/decor/chrome-it.xml:241(para)
+#, fuzzy
 msgid ""
 "The <quote>Highlight</quote> layer is a copy of the <quote>Chrome</quote> "
 "layer where the layer mask is stroked with a white brush."
 msgstr ""
+"<quote>Vurgu</quote> katmanı, katman maskesinin beyaz bir fırça ile "
+"çizildiği <quote>Chrome</quote> katmanının bir kopyasıdır."
 
 #: src/filters/decor/chrome-it.xml:252(para)
 msgid "Chrome and Highlight base"
 msgstr "Krom ve Vurgu tabanı"
 
 #: src/filters/decor/chrome-it.xml:257(para)
+#, fuzzy
 msgid ""
 "For both layers the color balance is modified (according to "
 "<guilabel>Highlightbalance</guilabel> and <guilabel>Chromebalance</"
 "guilabel>), increasing the amount of red, green, and blue, with emphasis on "
 "highlights."
 msgstr ""
+"Her iki katman için renk dengesi değiştirilir ( <guilabel>Vurgu</guilabel> "
+"<guilabel>dengesi</guilabel> ve <guilabel>Renk dengesi'ne</guilabel> göre), "
+"kırmızı, yeşil ve mavi miktarı artırılır ve vurgular üzerinde durulur."
 
 #: src/filters/decor/chrome-it.xml:263(para)
+#, fuzzy
 msgid ""
 "Additionally, saturation and lightness of the <quote>Chrome</quote> layer "
 "are modified (controlled by <guilabel>Chromesaturation</guilabel> and "
 "<guilabel>Chromelightness</guilabel>)."
 msgstr ""
+"Ek olarak, <quote>Chrome</quote> katmanının doygunluğu ve açıklığı "
+"değiştirilir ( <guilabel>Chromesaturation</guilabel> ve "
+"<guilabel>Chromelightness</guilabel> tarafından kontrol edilir)."
 
 #: src/filters/decor/chrome-it.xml:275(para)
 msgid "Chrome and Highlight layer"
 msgstr "Krom ve Vurgu katmanı"
 
 #: src/filters/decor/chrome-it.xml:280(para)
+#, fuzzy
 msgid ""
 "Now add a drop shadow and a background layer and you get the <link "
 "linkend=\"script-fu-sota-chrome-it-example\">Example image</link> for the "
 "<quote>Stencil Chrome</quote> filter."
 msgstr ""
+"Şimdi bir damla gölge ve bir arka plan katmanı ekleyin ve <quote>Stencil "
+"Chrome</quote> filtresi için <link linkend=\"script-fu-sota-chrome-it-"
+"example\">Örnek resim</link> elde edersiniz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1571,6 +1746,7 @@ msgid "<quote>Stencil Carve</quote> applied"
 msgstr "<quote>Kalıp Oyma</quote> uygulandı"
 
 #: src/filters/decor/carve-it.xml:47(para)
+#, fuzzy
 msgid ""
 "This filter works with two images, source and target. The source image must "
 "be a grayscale image containing a single layer and no Alpha channel. This "
@@ -1579,6 +1755,12 @@ msgid ""
 "grayscale image, also with a single layer. This target image must have the "
 "same size as the source image."
 msgstr ""
+"Bu filtre kaynak ve hedef olmak üzere iki görüntü ile çalışır. Kaynak "
+"görüntü, tek bir katman içeren ve Alfa kanalı olmayan gri tonlamalı bir "
+"görüntü olmalıdır. Bu katman seçim maskesi olarak kullanılır ve oyma efekti "
+"için şablon olarak çalışacaktır. Oyulacak görüntü (hedef görüntü), yine tek "
+"katmanlı bir RGB renkli veya gri tonlamalı görüntü olabilir. Bu hedef "
+"görüntü, kaynak görüntü ile aynı boyutta olmalıdır."
 
 #: src/filters/decor/carve-it.xml:59(para)
 msgid ""
@@ -1591,10 +1773,13 @@ msgstr ""
 "guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/decor/carve-it.xml:68(para)
+#, fuzzy
 msgid ""
 "If this command remains disabled although the image is grayscale, check for "
 "an Alpha channel and delete it."
 msgstr ""
+"Görüntü gri tonlamalı olmasına rağmen bu komut devre dışı kalırsa, Alfa "
+"kanalı olup olmadığını kontrol edin ve varsa silin."
 
 #: src/filters/decor/carve-it.xml:78(title)
 msgid "<quote>Stencil Carve</quote> options"
@@ -1605,21 +1790,28 @@ msgid "Mask drawable"
 msgstr "Maske çizilebilir"
 
 #: src/filters/decor/carve-it.xml:90(para)
+#, fuzzy
 msgid ""
 "Here you may select the target image and its layer or channel which the "
 "carving effect is applied to."
 msgstr ""
+"Burada hedef görüntüyü ve oyma efektinin uygulanacağı katmanı veya kanalı "
+"seçebilirsiniz."
 
 #: src/filters/decor/carve-it.xml:97(term)
 msgid "Carve white areas"
 msgstr "Beyaz alanları oy"
 
 #: src/filters/decor/carve-it.xml:99(para)
+#, fuzzy
 msgid ""
 "If checked (default), the source image is used as stencil as described "
 "above. If unchecked, the <emphasis>inverted</emphasis> source image is used "
 "as stencil, e.g.:"
 msgstr ""
+"İşaretliyse (varsayılan), kaynak görüntü yukarıda açıklandığı gibi şablon "
+"olarak kullanılır. İşaretlenmemişse, <emphasis>ters çevrilmiş</emphasis> "
+"kaynak görüntü şablon olarak kullanılır, örn:"
 
 #: src/filters/decor/carve-it.xml:105(title)
 msgid "Engraving Masks"
@@ -1634,24 +1826,35 @@ msgid "Inverted mask"
 msgstr "Ters çevrilmiş maske"
 
 #: src/filters/decor/carve-it.xml:125(para)
+#, fuzzy
 msgid ""
 "In the example below, the source is a grayscale image. The target is an "
 "image with a wood pattern."
 msgstr ""
+"Aşağıdaki örnekte, kaynak gri tonlamalı bir görüntüdür. Hedef ise ahşap "
+"desenli bir görüntüdür."
 
 #: src/filters/decor/carve-it.xml:129(para)
+#, fuzzy
 msgid ""
 "On the left, <guilabel>Carve white areas</guilabel> is enabled. The pixels "
 "of the target image corresponding to white pixels in the stencil (around the "
 "text) have been carved. The result is an embossed text."
 msgstr ""
+"Sol tarafta, <guilabel>Beyaz alanları</guilabel> oy etkinleştirilmiştir. "
+"Hedef görüntünün şablondaki (metnin etrafındaki) beyaz piksellere karşılık "
+"gelen pikselleri oyulmuştur. Sonuç kabartmalı bir metindir."
 
 #: src/filters/decor/carve-it.xml:135(para)
+#, fuzzy
 msgid ""
 "On the right, <guilabel>Carve white areas</guilabel> is disabled. The pixels "
 "of the target image corresponding to the black pixels in the stencil (the "
 "text) have been carved. The result is a hollow text."
 msgstr ""
+"Sağda, <guilabel>Beyaz alanları oyma</guilabel> özelliği devre dışıdır. "
+"Şablondaki (metin) siyah piksellere karşılık gelen hedef görüntünün "
+"pikselleri oyulmuştur. Sonuç, içi boş bir metindir."
 
 #: src/filters/decor/carve-it.xml:142(title)
 msgid "Example for <quote>Carve white areas</quote>"
@@ -1714,17 +1917,23 @@ msgid "Border added"
 msgstr "Kenarlık eklendi"
 
 #: src/filters/decor/addborder.xml:45(para)
+#, fuzzy
 msgid ""
 "This filter just does what its name says: it adds a border to the image. You "
 "can specify the thickness of the border as well as the color. The four sides "
 "of the border are colored in different shades, so the image area will appear "
 "raised."
 msgstr ""
+"Bu filtre sadece adının söylediği şeyi yapar: görüntüye bir kenarlık ekler. "
+"Kenarlığın kalınlığının yanı sıra rengini de belirleyebilirsiniz. Kenarlığın "
+"dört tarafı farklı tonlarda renklendirilir, böylece görüntü alanı kabarık "
+"görünür."
 
 #: src/filters/decor/addborder.xml:51(para)
+#, fuzzy
 msgid ""
 "The image will be enlarged by the border size, it won't be painted over."
-msgstr ""
+msgstr "Görüntü kenarlık boyutuna göre büyütülecek, üzerine boyanmayacaktır."
 
 #: src/filters/decor/addborder.xml:58(para)
 msgid ""
@@ -1749,22 +1958,30 @@ msgid "Border Y size"
 msgstr "Kenarlığın Y büyüklüğü"
 
 #: src/filters/decor/addborder.xml:84(para)
+#, fuzzy
 msgid ""
 "Here you can select the thickness of the added border, in pixels. X size "
 "(left and right) and Y size (top and bottom) may be different. Maximum is "
 "250 pixels."
 msgstr ""
+"Burada eklenen kenarlığın kalınlığını piksel cinsinden seçebilirsiniz. X "
+"boyutu (sol ve sağ) ve Y boyutu (üst ve alt) farklı olabilir. Maksimum 250 "
+"pikseldir."
 
 #: src/filters/decor/addborder.xml:92(term)
 msgid "Border color"
 msgstr "Kenarlık rengi"
 
 #: src/filters/decor/addborder.xml:94(para)
+#, fuzzy
 msgid ""
 "Clicking on this button brings up the color selector dialog that allows you "
 "to choose an <quote>average</quote> border color (see below, <guilabel>Delta "
 "value on color</guilabel>)."
 msgstr ""
+"Bu düğmeye tıkladığınızda, <quote>ortalama</quote> kenarlık rengini "
+"seçmenize olanak tanıyan renk seçici iletişim kutusu açılır (aşağıya bakın, "
+"<guilabel>renkteki Delta değeri</guilabel>)."
 
 #: src/filters/decor/addborder.xml:102(term)
 msgid "Delta value on color"
@@ -1779,6 +1996,7 @@ msgstr ""
 "<xref linkend=\"glossary-rgb\"/> adresine bakın."
 
 #: src/filters/decor/addborder.xml:104(para)
+#, fuzzy
 msgid ""
 "This option makes the border sides to be colored in different shades and "
 "thus makes the image to appear raised. The actual color of the respective "
@@ -1787,26 +2005,28 @@ msgid ""
 "guilabel> as follows (resulting values less than 0 are set to 0, values "
 "greater than 255 are set to 255):"
 msgstr ""
+"Bu seçenek kenarlık kenarlarının farklı tonlarda renklendirilmesini ve "
+"böylece görüntünün kabarık görünmesini sağlar. İlgili kenarlık tarafının "
+"gerçek rengi, her renk bileşeni için kırmızı, yeşil ve mavi<placeholder-1/> "
+"<quote>ortalamaBorder</quote><guilabel>renginden</guilabel> aşağıdaki "
+"şekilde hesaplanır (sonuçta 0'dan küçük değerler 0'a, 255'ten büyük değerler "
+"255'e ayarlanır):"
 
 #: src/filters/decor/addborder.xml:119(para)
 msgid "Top shade = Border color + Delta"
 msgstr "Üst gölge = Kenarlık rengi + Değişim"
 
 #: src/filters/decor/addborder.xml:122(para)
-#, fuzzy
-#| msgid "Right shade = Border color - &frac12; Delta"
 msgid "Right shade = Border color - Delta"
-msgstr "Sağ gölge = Kenarlık rengi - ½ Değişim"
+msgstr "Sağ gölge = Kenarlık rengi - Değişim"
 
 #: src/filters/decor/addborder.xml:125(para)
 msgid "Bottom shade = Border color - Delta"
 msgstr "Alt gölge = Kenarlık rengi - Değişim"
 
 #: src/filters/decor/addborder.xml:128(para)
-#, fuzzy
-#| msgid "Top shade = Border color + Delta"
 msgid "Left shade = Border color + Delta"
-msgstr "Üst gölge = Kenarlık rengi + Değişim"
+msgstr "Sol gölge = Kenarlık rengi + Değişim"
 
 #: src/filters/decor/addborder.xml:132(title)
 msgid "Delta examples"
@@ -1835,11 +2055,15 @@ msgid "Allow resizing"
 msgstr "Yeniden boyutlandırmaya izin ver"
 
 #: src/filters/decor/addborder.xml:158(para)
+#, fuzzy
 msgid ""
 "By default, the image size is increased by twice the specified border size "
 "to create the border in this additional space. If your image already has the "
 "intended final size, disable this option."
 msgstr ""
+"Varsayılan olarak, bu ek alanda kenarlık oluşturmak için görüntü boyutu "
+"belirtilen kenarlık boyutunun iki katı kadar artırılır. Resminiz zaten "
+"istenen son boyuta sahipse, bu seçeneği devre dışı bırakın."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1930,11 +2154,15 @@ msgid "<quote>Add Bevel</quote> applied"
 msgstr "<quote>Eğim Ekle</quote> uygulandı"
 
 #: src/filters/decor/add-bevel.xml:47(para)
+#, fuzzy
 msgid ""
 "This filter adds a slight bevel to an image using a <link linkend=\"gimp-"
 "filter-bump-map\">bump map</link> (see below). If there is a selection, it "
 "is bevelled, otherwise the filter has no effect."
 msgstr ""
+"Bu filtre bir <link linkend=\"gimp-filter-bump-map\">bump map</link> "
+"kullanarak görüntüye hafif bir eğim ekler (aşağıya bakın). Bir seçim varsa "
+"eğim verilir, aksi takdirde filtrenin bir etkisi olmaz."
 
 #: src/filters/decor/add-bevel.xml:53(title)
 msgid "Another <quote>Add Bevel</quote> example, with bumpmap"

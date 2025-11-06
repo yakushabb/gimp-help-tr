@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-10-28 17:58+0000\n"
-"PO-Revision-Date: 2025-10-10 01:22+0300\n"
+"PO-Revision-Date: 2025-11-06 15:10+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -161,6 +161,7 @@ msgid "Overview"
 msgstr "Genel Görünüm"
 
 #: src/filters/map/warp.xml:27(para)
+#, fuzzy
 msgid ""
 "This filter displaces pixels of active layer or selection according to the "
 "gray levels of a <emphasis>Displacement map</emphasis>. Pixels are displaced "
@@ -168,42 +169,64 @@ msgid ""
 "corresponding to solid areas are not displaced; the higher the slope, the "
 "higher the displacement."
 msgstr ""
+"Bu filtre, bir Yer Değiştirme <emphasis>haritasının</emphasis> gri "
+"seviyelerine göre aktif katmanın veya seçimin piksellerini yer değiştirir. "
+"Pikseller, yer değiştirme haritasındaki gradyan eğimine göre yer değiştirir. "
+"Katı alanlara karşılık gelen pikseller yer değiştirmez; eğim ne kadar "
+"yüksekse yer değiştirme de o kadar yüksek olur."
 
 #: src/filters/map/warp.xml:35(title)
+#, fuzzy
 msgid "From left to right: original image, displacement map, displaced image"
 msgstr ""
+"Soldan sağa: orijinal görüntü, yer değiştirme haritası, yer değiştirmiş "
+"görüntü"
 
 #: src/filters/map/warp.xml:44(para)
+#, fuzzy
 msgid ""
 "Solid areas of displacement map lead to no displacement. Abrupt transitions "
 "give an important displacement. A linear gradient gives a regular "
 "displacement. Displacement direction is perpendicular to gradient direction "
 "(angle = 90°)."
 msgstr ""
+"Yer değiştirme haritasının düz alanları hiçbir yer değiştirmeye yol açmaz. "
+"Ani geçişler önemli bir yer değiştirme sağlar. Doğrusal bir gradyan düzenli "
+"bir yer değiştirme verir. Yer değiştirme yönü gradyan yönüne diktir (açı = "
+"90°)."
 
 #: src/filters/map/warp.xml:54(title)
+#, fuzzy
 msgid "With a non-linear gradient"
-msgstr ""
+msgstr "Doğrusal olmayan bir gradyan ile"
 
 #: src/filters/map/warp.xml:61(para)
+#, fuzzy
 msgid "A non-linear gradient leads to curls."
-msgstr ""
+msgstr "Doğrusal olmayan bir gradyan kıvrımlara neden olur."
 
 #: src/filters/map/warp.xml:66(title)
+#, fuzzy
 msgid "With a complex gradient:"
-msgstr ""
+msgstr "Karmaşık bir gradyanla:"
 
 #: src/filters/map/warp.xml:73(para)
+#, fuzzy
 msgid ""
 "And a complex gradient, such as the <link linkend=\"gimp-filter-noise-"
 "solid\">Solid Noise</link> filter can create, gives a swirl effect."
 msgstr ""
+"<link linkend=\"gimp-filter-noise-solid\">'ın Solid Noise</link> filtresinin "
+"oluşturabileceği gibi karmaşık bir gradyan, girdap efekti yaratabilir."
 
 #: src/filters/map/warp.xml:81(para)
+#, fuzzy
 msgid ""
 "This filter offers the possibility of masking a part of the image to protect "
 "it against filter action."
 msgstr ""
+"Bu filtre, görüntünün bir kısmını maskeleme ve filtre etkisinden koruma "
+"imkanı sunar."
 
 #: src/filters/map/warp.xml:88(title) src/filters/map/tile.xml:48(title)
 #: src/filters/map/tile-seamless.xml:49(title)
@@ -258,11 +281,15 @@ msgid "Step size"
 msgstr "Adım boyutu"
 
 #: src/filters/map/warp.xml:116(para)
+#, fuzzy
 msgid ""
 "<quote>Step</quote> is displacement distance for every filter iteration. A "
 "10 value is necessary to get a one pixel displacement. This value can be "
 "negative to invert displacement direction."
 msgstr ""
+"<quote>Adım</quote>, her filtre iterasyonu için yer değiştirme mesafesidir. "
+"Bir piksel yer değiştirme elde etmek için 10 değeri gereklidir. Yer "
+"değiştirme yönünü tersine çevirmek için bu değer negatif olabilir."
 
 #: src/filters/map/warp.xml:125(term)
 #: src/filters/map/recursive-transform.xml:227(term)
@@ -270,46 +297,54 @@ msgid "Iterations"
 msgstr "Yinelemeler"
 
 #: src/filters/map/warp.xml:127(para)
+#, fuzzy
 msgid "The number of repetitions of effect when applying filter."
-msgstr ""
+msgstr "Filtre uygulandığında etkinin tekrarlanma sayısı."
 
 #: src/filters/map/warp.xml:133(term)
 msgid "On edges"
 msgstr "Kenarlarda"
 
 #: src/filters/map/warp.xml:135(para)
+#, fuzzy
 msgid ""
 "Because of displacement, a part of pixels are driven over the borders of "
 "layer or selection, and, on the opposite side, pixels places are emptying. "
 "The four following options allow you to fix this issue:"
 msgstr ""
+"Yer değiştirme nedeniyle, piksellerin bir kısmı katman veya seçim "
+"sınırlarının üzerine sürülür ve karşı tarafta piksel yerleri boşalır. "
+"Aşağıdaki dört seçenek bu sorunu çözmenizi sağlar:"
 
 #: src/filters/map/warp.xml:143(term)
 msgid "Wrap"
 msgstr "Sar"
 
 #: src/filters/map/warp.xml:145(para)
+#, fuzzy
 msgid ""
 "What goes out on one side is going into the opposite side (this is the "
 "default)."
-msgstr ""
+msgstr "Bir taraftan çıkan, karşı tarafa girer (bu varsayılan ayardır)."
 
 #: src/filters/map/warp.xml:152(term)
 msgid "Smear"
 msgstr "Yay"
 
 #: src/filters/map/warp.xml:154(para)
+#, fuzzy
 msgid ""
 "Emptying places are filled with a spreading of the neighboring image line."
-msgstr ""
+msgstr "Boş alanlar, komşu görüntü çizgisinin yayılmasıyla doldurulur."
 
 #: src/filters/map/warp.xml:161(term)
 msgid "Black"
 msgstr "Siyah"
 
 #: src/filters/map/warp.xml:163(para)
+#, fuzzy
 msgid "Emptying places are filled with black color."
-msgstr ""
+msgstr "Boş alanlar siyah renkle doldurulur."
 
 # Arayüzde bu şekilde kullanılmış.
 #: src/filters/map/warp.xml:169(term)
@@ -317,10 +352,12 @@ msgid "Foreground color"
 msgstr "Ön Plan Rengi"
 
 #: src/filters/map/warp.xml:171(para)
+#, fuzzy
 msgid ""
 "Emptying places are filled with the Foreground color of the color area in "
 "Toolbox."
 msgstr ""
+"Boş alanlar, Araç Kutusu'ndaki renk alanının Ön Plan rengiyle doldurulur."
 
 # Arayüzdeki hali kullanıldı.
 #: src/filters/map/warp.xml:181(term)
@@ -328,11 +365,15 @@ msgid "Displacement map"
 msgstr "Yer Değiştirme Eşlemi"
 
 #: src/filters/map/warp.xml:183(para)
+#, fuzzy
 msgid ""
 "To be listed in this file picker, the displacement map, which should be a "
 "grayscale image, must be <emphasis>present on your screen when you call this "
 "filter and must have the same size as the original image</emphasis>."
 msgstr ""
+"Bu dosya seçicide listelenmek için, gri tonlamalı bir görüntü olması gereken "
+"yer değiştirme haritası, <emphasis>bu filtreyi çağırdığınızda ekranınızda "
+"mevcut olmalı ve orijinal görüntü ile aynı boyutta</emphasis> olmalıdır."
 
 #: src/filters/map/warp.xml:193(title)
 msgid "Advanced Options"
@@ -343,21 +384,26 @@ msgid "Dither size"
 msgstr "Titreme boyutu"
 
 #: src/filters/map/warp.xml:197(para)
+#, fuzzy
 msgid ""
 "Once all pixels are displaced, this option scatters them randomly, giving "
 "grain to the image. The higher this value (0.00-100.00), the thinner the "
 "grain."
 msgstr ""
+"Tüm pikseller yer değiştirdikten sonra, bu seçenek onları rastgele dağıtarak "
+"görüntüye gren verir. Bu değer ne kadar yüksek olursa (0.00-100.00), gren o "
+"kadar ince olur."
 
 #: src/filters/map/warp.xml:203(title)
 msgid "With a 3.00 dither size:"
-msgstr ""
+msgstr "3,00 titreme boyutu ile:"
 
 #: src/filters/map/warp.xml:214(term)
 msgid "Rotation angle"
 msgstr "Döndürme açısı"
 
 #: src/filters/map/warp.xml:216(para)
+#, fuzzy
 msgid ""
 "This option sets the displacement angle of pixels according to the slope "
 "direction of the gradient. Previous examples have been created with a "
@@ -365,17 +411,26 @@ msgid ""
 "and nothing went out of the image borders. Here is an example with a 10° "
 "angle and 6 iterations:"
 msgstr ""
+"Bu seçenek, degradenin eğim yönüne göre piksellerin yer değiştirme açısını "
+"ayarlar. Önceki örnekler dikey bir gradyan ve 90°'lik bir açıyla "
+"oluşturulmuştu: yani, pikseller yatay olarak yer değiştirdi ve görüntü "
+"sınırlarının dışına hiçbir şey çıkmadı. İşte 10° açılı ve 6 yinelemeli bir "
+"örnek:"
 
 #: src/filters/map/warp.xml:224(title)
 msgid "With a 10° angle and 6 iterations:"
-msgstr ""
+msgstr "10° açı ve 6 yineleme ile:"
 
 #: src/filters/map/warp.xml:231(para)
+#, fuzzy
 msgid ""
 "Displacement is made according to a 10° angle against vertical. Pixels going "
 "out the lower border on every iteration are going in through the upper "
 "border (Wrap option checked), giving a dotted line."
 msgstr ""
+"Yer değiştirme, dikeye karşı 10°'lik bir açıya göre yapılır. Her yinelemede "
+"alt sınırdan çıkan pikseller üst sınırdan girerek (Kaydırma seçeneği "
+"işaretli) noktalı bir çizgi oluşturur."
 
 #: src/filters/map/warp.xml:243(term)
 msgid "Substeps"
@@ -384,10 +439,14 @@ msgstr "Alt basamaklar"
 #. CHECK: I'm unsure whether this is (a) makes senses, and
 #.                (b) is correct... :-| (ude, 2010-07-19)
 #: src/filters/map/warp.xml:247(para)
+#, fuzzy
 msgid ""
 "If you specify a value &gt; 1, the displacement vector is computed in "
 "several substeps, giving you a finer control to the displace process."
 msgstr ""
+"Eğer &gt; 1 değerini belirtirseniz, yer değiştirme vektörü birkaç alt adımda "
+"hesaplanır ve size yer değiştirme işlemi üzerinde daha ince bir kontrol "
+"sağlar."
 
 # Arayüzdeki hali kullanıldı.
 #: src/filters/map/warp.xml:255(term)
@@ -395,6 +454,7 @@ msgid "Magnitude map"
 msgstr "Büyüklük Eşlemi"
 
 #: src/filters/map/warp.xml:257(para)
+#, fuzzy
 msgid ""
 "In addition to displacement map, you can add a Magnitude map. This map "
 "should also be a grayscale image, with the same size as the source image and "
@@ -407,39 +467,60 @@ msgid ""
 "on corresponding areas of the image. <guilabel>Usemagnitudemap</guilabel> "
 "must be checked for that."
 msgstr ""
+"Deplasman haritasına ek olarak, bir Büyüklük haritası da ekleyebilirsiniz. "
+"Bu harita da gri tonlamalı bir görüntü olmalı, kaynak görüntüyle aynı "
+"boyutta olmalı ve filtreyi çağırdığınızda ekranınızda mevcut olmalıdır. Bu "
+"harita, bu büyüklük haritasının gri seviyelerine göre görüntünün bazı "
+"kısımlarında filtreye az ya da çok güç verir. Bu haritanın beyaz kısımlarına "
+"karşılık gelen görüntü alanları, filtrenin tüm gücüne maruz kalacaktır. "
+"Haritanın siyah kısımlarına karşılık gelen görüntü alanları filtreden "
+"etkilenmeyecektir. Ara gri seviyeleri, görüntünün karşılık gelen alanlarında "
+"filtre etkisini azaltacaktır. Bunun için <guilabel>Usemagnitudemap</"
+"guilabel> seçeneği işaretlenmelidir."
 
 #: src/filters/map/warp.xml:272(title)
 msgid "Magnitude Map example:"
 msgstr "Büyüklük Eşlemi örneği:"
 
 #: src/filters/map/warp.xml:279(para)
+#, fuzzy
 msgid ""
 "From left to right: original image, displacement map, magnitude map, after "
 "applying <quote>Warp</quote> filter. You can see that the black areas of the "
 "magnitude map prevent the filter from taking action."
 msgstr ""
+"Soldan sağa: orijinal görüntü, yer değiştirme haritası, büyüklük haritası, "
+"<quote>Çarpıtma</quote> filtresi uygulandıktan sonra. Büyüklük haritasındaki "
+"siyah alanların filtrenin harekete geçmesini engellediğini görebilirsiniz."
 
 #: src/filters/map/warp.xml:292(title)
 msgid "More Advanced Options"
 msgstr "Daha Çok Gelişmiş Seçenekler"
 
 #: src/filters/map/warp.xml:293(para)
+#, fuzzy
 msgid ""
 "These extra options let you add two new maps, a gradient map and/or a vector "
 "map."
 msgstr ""
+"Bu ek seçenekler, iki yeni harita, bir gradyan haritası ve/veya bir vektör "
+"haritası eklemenizi sağlar."
 
 #: src/filters/map/warp.xml:298(para)
+#, fuzzy
 msgid ""
 "To test these options alone, you must use a map with a solid color for all "
 "the other maps."
 msgstr ""
+"Bu seçenekleri tek başına test etmek için, diğer tüm haritalar için düz "
+"renkli bir harita kullanmalısınız."
 
 #: src/filters/map/warp.xml:304(term)
 msgid "Gradient scale"
 msgstr "Renk geçişi ölçeği"
 
 #: src/filters/map/warp.xml:306(para)
+#, fuzzy
 msgid ""
 "Using a gradient map, (this map should also be a grayscale image), the "
 "displacement of pixels depends on the direction of grayscale transitions. "
@@ -448,6 +529,12 @@ msgid ""
 "iteration, the filter works on the whole image, not only on the red object: "
 "this explains blurredness."
 msgstr ""
+"Bir gradyan haritası kullanarak (bu harita aynı zamanda gri tonlamalı bir "
+"görüntü olmalıdır), piksellerin yer değiştirmesi gri tonlama geçişlerinin "
+"yönüne bağlıdır. <guilabel>Gradyan ölçeği</guilabel> seçeneği, gri tonlama "
+"değişimlerinin piksellerin yer değiştirmesini ne kadar etkileyeceğini "
+"ayarlamanızı sağlar. Her yinelemede, filtre yalnızca kırmızı nesne üzerinde "
+"değil, tüm görüntü üzerinde çalışır: bu bulanıklığı açıklar."
 
 #: src/filters/map/warp.xml:316(title)
 msgid "Gradient scale example"
@@ -458,24 +545,35 @@ msgid "From left to right: original image, Gradient map, filter applied."
 msgstr "Soldan sağa: özgün görüntü, renk geçişi eşlemi, uygulanan süzgeç."
 
 #: src/filters/map/warp.xml:330(para)
+#, fuzzy
 msgid ""
 "In the example above, <quote>Warp</quote> filter is applied with a gradient "
 "map (Gradient scale = 10.0). The gradient is oblique, from top left to right "
 "bottom. The part of the image corresponding to the gradient is moved "
 "obliquely, 90° rotated (Rotation angle 90° in Advanced Options)."
 msgstr ""
+"Yukarıdaki örnekte, <quote>Warp</quote> filtresi bir gradyan haritası ile "
+"uygulanmıştır (Gradyan ölçeği = 10.0). Gradyan, sol üstten sağ alta doğru "
+"eğik bir şekilde uzanmaktadır. Gradyana karşılık gelen görüntü kısmı eğik "
+"olarak hareket ettirilmiş ve 90° döndürülmüştür (Gelişmiş Seçenekler'de "
+"Döndürme açısı 90°)."
 
 #: src/filters/map/warp.xml:340(term)
 msgid "Vector magnitude"
 msgstr "Vektör büyüklüğü"
 
 #: src/filters/map/warp.xml:342(para)
+#, fuzzy
 msgid ""
 "With this map, the displacement depends on the angle you set in the "
 "<guilabel>Angle</guilabel> text box. 0° is upwards. Angles go counter-"
 "clockwise. The <emphasis>vector control map</emphasis> determines by how "
 "many pixels the image will move on every iteration."
 msgstr ""
+"Bu harita ile yer değiştirme, <guilabel>Açı</guilabel> metin kutusunda "
+"ayarladığınız açıya bağlıdır. 0° yukarı doğrudur. Açılar saat yönünün "
+"tersine gider. <emphasis>Vektör kontrol haritası</emphasis>, görüntünün her "
+"yinelemede kaç piksel hareket edeceğini belirler."
 
 #: src/filters/map/warp.xml:350(title)
 msgid "Vector magnitude example"
@@ -486,6 +584,7 @@ msgid "From left to right: original image, displacement map, filter applied."
 msgstr "Soldan sağa: özgün görüntü, yer değiştirme eşlemi, uygulanan süzgeç."
 
 #: src/filters/map/warp.xml:364(para)
+#, fuzzy
 msgid ""
 "In the above example, <quote>Warp</quote> filter is applied with a Vector "
 "magnitude. Gradient is vertical, from top to bottom. Vector angle is 45°. "
@@ -493,6 +592,11 @@ msgid ""
 "blurred because every iteration works on the whole image, and not only on "
 "the red bar."
 msgstr ""
+"Yukarıdaki örnekte, <quote>Warp</quote> filtresi Vektör büyüklüğü ile "
+"uygulanmıştır. Gradyan dikeydir, yukarıdan aşağıya doğru. Vektör açısı "
+"45°'dir. Görüntü, sol üst köşeye 45° eğik olarak hareket ettirilmiştir. "
+"Görüntü bulanıktır çünkü her yineleme sadece kırmızı çubuk üzerinde değil, "
+"tüm görüntü üzerinde çalışır."
 
 #: src/filters/map/warp.xml:374(term)
 msgid "Angle"
@@ -537,7 +641,7 @@ msgstr "Döşe"
 
 #: src/filters/map/tile.xml:21(title)
 msgid "The same image, before and after applying Tile filter"
-msgstr ""
+msgstr "Aynı görüntü, Döşe süzgeci eklenmeden önce ve sonra"
 
 #: src/filters/map/tile.xml:28(para) src/filters/map/smalltiles.xml:31(para)
 #: src/filters/map/papertile.xml:30(para) src/filters/map/illusion.xml:32(para)
@@ -551,10 +655,13 @@ msgid "(We have reduced image size intentionally)"
 msgstr "(Görüntü boyutunu kasıtlı olarak küçültüldü)"
 
 #: src/filters/map/tile.xml:41(para)
+#, fuzzy
 msgid ""
 "This filter makes several copies of the original image, in a same or reduced "
 "size, into a bigger (new) image."
 msgstr ""
+"Bu filtre, orijinal görüntünün aynı veya daha küçük boyutlarda birkaç "
+"kopyasını daha büyük (yeni) bir görüntüye dönüştürür."
 
 #: src/filters/map/tile.xml:49(para)
 msgid ""
@@ -583,17 +690,24 @@ msgid "New height"
 msgstr "Yeni yükseklik"
 
 #: src/filters/map/tile.xml:76(para)
+#, fuzzy
 msgid ""
 "Input boxes and their arrow-heads allow you to enter the dimensions for the "
 "new image."
 msgstr ""
+"Giriş kutuları ve bunların ok başları yeni görüntünün boyutlarını girmenize "
+"olanak tanır."
 
 #: src/filters/map/tile.xml:80(para)
+#, fuzzy
 msgid ""
 "<emphasis>The new image must be bigger than the original one</emphasis>. "
 "Else, you will get an image sample only. Choose sizes which are multiple of "
 "original sizes if you don't want to have truncated tiles."
 msgstr ""
+"<emphasis>Yeni görüntü orijinal görüntüden daha büyük olmalıdır</emphasis>. "
+"Aksi takdirde, yalnızca bir görüntü örneği alırsınız. Kesilmiş kutucuklara "
+"sahip olmak istemiyorsanız orijinal boyutların katları olan boyutları seçin."
 
 #: src/filters/map/tile.xml:89(term)
 msgid "New image"
@@ -645,7 +759,7 @@ msgstr "Dikişsiz Döşeme"
 
 #: src/filters/map/tile-seamless.xml:21(title)
 msgid "An example of Tile Seamless."
-msgstr "Dikişsiz Döşeme örneği"
+msgstr "Dikişsiz Döşeme örneği."
 
 #: src/filters/map/tile-seamless.xml:28(para)
 #: src/filters/map/map-object.xml:33(para)
@@ -657,26 +771,25 @@ msgid "Tile Seamless applied"
 msgstr "Dikişsiz Döşeme süzgeci uygulandı"
 
 #: src/filters/map/tile-seamless.xml:41(para)
+#, fuzzy
 msgid ""
 "This filter modifies the image for tiling by creating seamless edges. Such "
 "an image can be used as a pattern for a web-page. This filter has no option, "
 "and result may need correction."
 msgstr ""
+"Bu filtre, kesintisiz kenarlar oluşturarak görüntüyü döşeme için değiştirir. "
+"Böyle bir görüntü bir web sayfası için desen olarak kullanılabilir. Bu "
+"filtrenin seçeneği yoktur ve sonucun düzeltilmesi gerekebilir."
 
 #: src/filters/map/tile-seamless.xml:50(para)
-#, fuzzy
-#| msgid ""
-#| "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
-#| "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Tile…</guimenuitem></"
-#| "menuchoice>."
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Tile Seamless…</"
 "guimenuitem></menuchoice>"
 msgstr ""
 "Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
-"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Döşe…</guimenuitem></"
-"menuchoice> altında bulunur."
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Dikişsiz Döşeme…</"
+"guimenuitem></menuchoice> altında bulunur."
 
 #: src/filters/map/tile-seamless.xml:63(title)
 msgid "<quote>Tile Seamless</quote> filter options"
@@ -789,10 +902,13 @@ msgid "<quote>Small Tiles</quote> applied"
 msgstr "<quote>Küçük Döşemeler</quote> süzgeci uygulandı"
 
 #: src/filters/map/smalltiles.xml:44(para)
+#, fuzzy
 msgid ""
 "This filter reduces the image (active layer or selection) and displays it in "
 "many copies inside the original image."
 msgstr ""
+"Bu filtre görüntüyü (etkin katman veya seçim) küçültür ve orijinal "
+"görüntünün içinde birçok kopya halinde görüntüler."
 
 #: src/filters/map/smalltiles.xml:52(para)
 msgid ""
@@ -813,65 +929,82 @@ msgid "Flip"
 msgstr "Çevir"
 
 #: src/filters/map/smalltiles.xml:77(para)
+#, fuzzy
 msgid ""
 "You can flip tiles according to the <guilabel>Horizontal</guilabel> or/and "
 "<guilabel>Vertical</guilabel> axis by checking the corresponding option(s)."
 msgstr ""
+"İlgili seçenek(ler)i işaretleyerek döşemeleri <guilabel>Yatay</guilabel> ve/"
+"veya <guilabel>Dikey</guilabel> eksene göre çevirebilirsiniz."
 
 #: src/filters/map/smalltiles.xml:87(term)
-#, fuzzy
-#| msgid "Small Tiles"
 msgid "All tiles"
-msgstr "Küçük Döşemeler"
+msgstr "Tüm döşemeler"
 
 #: src/filters/map/smalltiles.xml:89(para)
 msgid "All tiles will be flipped."
-msgstr ""
+msgstr "Tüm döşemeler çevrilecek"
 
 #: src/filters/map/smalltiles.xml:95(term)
 msgid "Alternate tiles"
-msgstr ""
+msgstr "Değişimli döşemeler"
 
 #: src/filters/map/smalltiles.xml:97(para)
+#, fuzzy
 msgid "Only odd tiles will be flipped."
-msgstr ""
+msgstr "Sadece tek taşlar çevrilecektir."
 
 #: src/filters/map/smalltiles.xml:103(term)
 msgid "Explicit tile"
-msgstr ""
+msgstr "Seçili döşeme"
 
 #: src/filters/map/smalltiles.xml:105(para)
+#, fuzzy
 msgid ""
 "You can define a particular tile using both <guilabel>Row</guilabel> and "
 "<guilabel>Column</guilabel> input boxes. This tile will be marked with a box "
 "in Preview. Press <guibutton>Apply</guibutton> to mark this explicit tile. "
 "Repeat this procedure to mark more than one tile."
 msgstr ""
+"Hem <guilabel>Satır</guilabel> hem de <guilabel>Sütun</guilabel> giriş "
+"kutularını kullanarak belirli bir kutucuğu tanımlayabilirsiniz. Bu döşeme "
+"Önizleme'de bir kutu ile işaretlenecektir. Bu açık döşemeyi işaretlemek için "
+"<guibutton>Uygula</guibutton> düğmesine basın. Birden fazla kutucuğu "
+"işaretlemek için bu prosedürü tekrarlayın."
 
 #: src/filters/map/smalltiles.xml:83(para)
 msgid "You can also decide which tiles will be flipped: <placeholder-1/>"
-msgstr ""
+msgstr "Hangi döşemelerin çevrileceğine karar verebilirsiniz: <placeholder-1/>"
 
 #: src/filters/map/smalltiles.xml:120(term)
 msgid "Opacity"
 msgstr "Matlık"
 
 #: src/filters/map/smalltiles.xml:122(para)
+#, fuzzy
 msgid ""
 "With this slider and its input box, you can set the opacity of the resulting "
 "image. This option is valid only if your image has an Alpha channel."
 msgstr ""
+"Bu kaydırıcı ve giriş kutusu ile, sonuçta ortaya çıkan görüntünün opaklığını "
+"ayarlayabilirsiniz. Bu seçenek, yalnızca görüntünüzde Alfa kanalı varsa "
+"geçerlidir."
 
 #: src/filters/map/smalltiles.xml:130(term)
 msgid "Number of Segments"
 msgstr "Parçaların Sayısı"
 
 #: src/filters/map/smalltiles.xml:132(para)
+#, fuzzy
 msgid ""
 "<guilabel>n²</guilabel> means <quote>the image into n to the power of two "
 "tiles</quote>, where <quote>n</quote> is the number you set with the slider "
 "or its input box. n = 3 will make nine tiles in the image."
 msgstr ""
+"<guilabel>n²</guilabel>, <quote>görüntünün n ile iki</quote> kutucuğun "
+"kuvvetine bölünmesi anlamına gelir; burada <quote>n</quote>, kaydırıcı veya "
+"giriş kutusuyla ayarladığınız sayıdır. n = 3, görüntüde dokuz kutucuk "
+"oluşturacaktır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1006,7 +1139,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/recursive-transform.xml:276(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/stock-icons/gimp-vchain.svg'; "
 #| "md5=d47eea1ce790b9e3211d223704a1e9de"
@@ -1014,13 +1146,12 @@ msgid ""
 "@@image: 'images/stock-icons/list-add.svg'; "
 "md5=a6b02423b2bdb765e759b91c2ee4f304"
 msgstr ""
-"@@image: 'images/stock-icons/gimp-vchain.svg'; "
-"md5=d47eea1ce790b9e3211d223704a1e9de"
+"@@image: 'images/stock-icons/list-add.svg'; "
+"md5=a6b02423b2bdb765e759b91c2ee4f304"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/recursive-transform.xml:288(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/stock-icons/gimp-vchain.svg'; "
 #| "md5=d47eea1ce790b9e3211d223704a1e9de"
@@ -1028,13 +1159,12 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-duplicate.svg'; "
 "md5=c4e41353df046752fe30ac926eac91f1"
 msgstr ""
-"@@image: 'images/stock-icons/gimp-vchain.svg'; "
-"md5=d47eea1ce790b9e3211d223704a1e9de"
+"@@image: 'images/stock-icons/gimp-duplicate.svg'; "
+"md5=c4e41353df046752fe30ac926eac91f1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/recursive-transform.xml:300(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/stock-icons/gimp-vchain.svg'; "
 #| "md5=d47eea1ce790b9e3211d223704a1e9de"
@@ -1042,8 +1172,8 @@ msgid ""
 "@@image: 'images/stock-icons/list-remove.svg'; "
 "md5=261f60f13410f4114a5d9b26fcdf4471"
 msgstr ""
-"@@image: 'images/stock-icons/gimp-vchain.svg'; "
-"md5=d47eea1ce790b9e3211d223704a1e9de"
+"@@image: 'images/stock-icons/list-remove.svg'; "
+"md5=261f60f13410f4114a5d9b26fcdf4471"
 
 #: src/filters/map/recursive-transform.xml:10(title)
 #: src/filters/map/recursive-transform.xml:15(tertiary)
@@ -1089,8 +1219,9 @@ msgstr "Bakış açısını değiştir"
 
 #: src/filters/map/recursive-transform.xml:116(para)
 #: src/filters/map/recursive-transform.xml:141(para)
+#, fuzzy
 msgid "The same pressing <keycap>Ctrl</keycap>"
-msgstr ""
+msgstr "Aynı <keycap>Ctrl</keycap> tuşuna basma"
 
 #: src/filters/map/recursive-transform.xml:123(title)
 msgid "Scaling in all directions"
@@ -1101,6 +1232,7 @@ msgid "Scaling"
 msgstr "Ölçekleme"
 
 #: src/filters/map/recursive-transform.xml:32(para)
+#, fuzzy
 msgid ""
 "As in Unified Transform tool, this filter display a frame around the image "
 "with several kind of handles: <placeholder-1/> and outside the frame, the "
@@ -1108,6 +1240,11 @@ msgid ""
 "the pivot. This pivot is, by default, at the center of the image: click-and-"
 "drag to move it."
 msgstr ""
+"Birleşik Dönüştürme aracında olduğu gibi, bu filtre görüntünün etrafında "
+"birkaç tür tutamağa sahip bir çerçeve görüntüler: <placeholder-1/> ve "
+"çerçevenin dışında, fare işaretçisi bir döndürme simgesiyle birlikte gelir: "
+"pivot etrafında döndürmek için tıklayın ve sürükleyin. Bu pivot varsayılan "
+"olarak görüntünün merkezindedir: taşımak için tıklayıp sürükleyin."
 
 #: src/filters/map/recursive-transform.xml:157(para)
 msgid ""
@@ -1129,10 +1266,13 @@ msgid "First iteration"
 msgstr "İlk yineleme"
 
 #: src/filters/map/recursive-transform.xml:194(para)
+#, fuzzy
 msgid ""
 "This option is used when the number of iterations has been set. Then the "
 "transformation starts at the position determined by this option."
 msgstr ""
+"Bu seçenek, yineleme sayısı ayarlandığında kullanılır. Daha sonra dönüşüm bu "
+"seçenek tarafından belirlenen konumdan başlar."
 
 #: src/filters/map/recursive-transform.xml:207(para)
 msgid "Original image. Iterations = 3. Fade = 0.797"
@@ -1151,27 +1291,34 @@ msgid "Fade color"
 msgstr "Rengi soldur"
 
 #: src/filters/map/recursive-transform.xml:237(para)
+#, fuzzy
 msgid ""
 "The color that will be used to fade. Default is transparency. You can change "
 "this color selecting a new color by clicking in the color swatch or using "
 "the color picker on the right."
 msgstr ""
+"Soluklaştırmak için kullanılacak renk. Varsayılan ayar şeffaflıktır. Renk "
+"örneğine tıklayarak veya sağdaki renk seçiciyi kullanarak yeni bir renk "
+"seçerek bu rengi değiştirebilirsiniz."
 
 #: src/filters/map/recursive-transform.xml:245(term)
 msgid "Fade opacity"
 msgstr "Matlığı soldur"
 
 #: src/filters/map/recursive-transform.xml:247(para)
+#, fuzzy
 msgid "Amount by which to scale opacity of each iterated image."
 msgstr ""
+"Her yinelenen görüntünün opaklığını ölçeklendirmek için kullanılacak miktar."
 
 #: src/filters/map/recursive-transform.xml:253(term)
 msgid "Paste below"
 msgstr "Altına yapıştır"
 
 #: src/filters/map/recursive-transform.xml:255(para)
+#, fuzzy
 msgid "Paste iterated images below each other."
-msgstr ""
+msgstr "Yinelenen görüntüleri birbirinin altına yapıştırın."
 
 #: src/filters/map/recursive-transform.xml:261(term)
 #: src/filters/map/little-planet.xml:112(term)
@@ -1188,22 +1335,16 @@ msgstr ""
 "interpolation-methods\"/>"
 
 #: src/filters/map/recursive-transform.xml:270(term)
-#, fuzzy
-#| msgid "<placeholder-1/> Diamonds for shearing"
 msgid "<placeholder-1/> Add transform"
-msgstr "<placeholder-1/> Eğme için karolar"
+msgstr "<placeholder-1/> Dönüşüm ekle"
 
 #: src/filters/map/recursive-transform.xml:282(term)
-#, fuzzy
-#| msgid "<placeholder-1/> Diamonds for shearing"
 msgid "<placeholder-1/> Duplicate transform"
-msgstr "<placeholder-1/> Eğme için karolar"
+msgstr "<placeholder-1/> Dönüşümü çoğalt"
 
 #: src/filters/map/recursive-transform.xml:294(term)
-#, fuzzy
-#| msgid "<placeholder-1/> Diamonds for shearing"
 msgid "<placeholder-1/> Remove transform"
-msgstr "<placeholder-1/> Eğme için karolar"
+msgstr "<placeholder-1/> Dönüşümü kaldır"
 
 #: src/filters/map/recursive-transform.xml:307(para)
 msgid "To add, duplicate or remove transform."
@@ -1215,8 +1356,11 @@ msgstr "Özyinelemeli Dönüştürme Süzgecini Kullanma"
 
 #. TODO later: to much difficult to perform
 #: src/filters/map/recursive-transform.xml:318(para)
+#, fuzzy
 msgid "You can use this filter to create a Droste effect, 3D effects, trees."
 msgstr ""
+"Bu filtreyi Droste efekti, 3D efektler, ağaçlar oluşturmak için "
+"kullanabilirsiniz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1253,11 +1397,15 @@ msgid "Filter <quote>Papertile</quote> applied"
 msgstr "<quote>Kağıt Döşeme</quote> süzgeci uygulanmış"
 
 #: src/filters/map/papertile.xml:45(para)
+#, fuzzy
 msgid ""
 "This filter cuts the image (active layer or selection) into several pieces, "
 "with square form, and then slides them so that they, more or less, overlap "
 "or move apart. They can go out image borders a little."
 msgstr ""
+"Bu filtre görüntüyü (etkin katman veya seçim) kare biçiminde birkaç parçaya "
+"böler ve ardından bunları az çok üst üste gelecek veya birbirinden "
+"uzaklaşacak şekilde kaydırır. Görüntü sınırlarının biraz dışına çıkabilirler."
 
 #: src/filters/map/papertile.xml:54(para)
 msgid ""
@@ -1282,100 +1430,127 @@ msgid "Tile Height"
 msgstr "Döşeme Yüksekliği"
 
 #: src/filters/map/papertile.xml:92(para)
+#, fuzzy
 msgid ""
 "Filter starts cutting image before it displaces pieces; so, piece size and "
 "number of pieces in horizontal (Width) and vertical (Height) directions must "
 "be convenient to image size."
 msgstr ""
+"Filtre, parçaların yerini değiştirmeden önce görüntüyü kesmeye başlar; bu "
+"nedenle, yatay (Genişlik) ve dikey (Yükseklik) yönlerdeki parça boyutu ve "
+"sayısı görüntü boyutuna uygun olmalıdır."
 
 #: src/filters/map/papertile.xml:97(para)
+#, fuzzy
 msgid "When these options are linked, tiles are square."
-msgstr ""
+msgstr "Bu seçenekler birbirine bağlandığında, karolar kare şeklindedir."
 
 #: src/filters/map/papertile.xml:103(term)
 msgid "Move rate"
 msgstr "Taşıma oranı"
 
 #: src/filters/map/papertile.xml:105(para)
+#, fuzzy
 msgid ""
 "This is the maximum displacement percentage against the side size of squares."
-msgstr ""
+msgstr "Bu, karelerin kenar boyutuna karşı maksimum yer değiştirme yüzdesidir."
 
 #: src/filters/map/papertile.xml:112(term)
 msgid "Wrap around"
 msgstr "Çevresini sar"
 
 #: src/filters/map/papertile.xml:114(para)
+#, fuzzy
 msgid ""
 "As tiles move, some can go out image borders. If this option is checked, "
 "what goes out on one side goes in on the opposite side."
 msgstr ""
+"Fayanslar hareket ederken, bazıları görüntü sınırlarının dışına çıkabilir. "
+"Bu seçenek işaretlendiğinde, bir taraftan çıkan diğer taraftan girer."
 
 #: src/filters/map/papertile.xml:122(term)
 msgid "Fractional type"
 msgstr "Kısmi tür"
 
 #: src/filters/map/papertile.xml:124(para)
+#, fuzzy
 msgid ""
 "Because of image cutting, original pixels can persist. There are three ways "
 "treating them:"
 msgstr ""
+"Görüntü kesme nedeniyle, orijinal pikseller kalıcı olabilir. Bunları işlemek "
+"için üç yol vardır:"
 
 #: src/filters/map/papertile.xml:130(term)
 msgid "Force"
 msgstr "Zorla"
 
 #: src/filters/map/papertile.xml:132(para)
+#, fuzzy
 msgid "Remaining pixels will be cut also."
-msgstr ""
+msgstr "Kalan pikseller de kesilecektir."
 
 #: src/filters/map/papertile.xml:138(term)
 msgid "Ignore"
 msgstr "Yok say"
 
 #: src/filters/map/papertile.xml:140(para)
+#, fuzzy
 msgid ""
 "<guilabel>Background Type</guilabel> option is not taken into account and "
 "remaining pixels are kept."
 msgstr ""
+"<guilabel>Arka plan türü</guilabel> seçeneği dikkate alınmaz ve kalan "
+"pikseller korunur."
 
 #: src/filters/map/papertile.xml:147(term)
 msgid "Background"
 msgstr "Arka plan"
 
 #: src/filters/map/papertile.xml:149(para)
+#, fuzzy
 msgid ""
 "Remaining pixels will be replaced with the background type defined in the "
 "following section."
 msgstr ""
+"Kalan pikseller, aşağıdaki bölümde tanımlanan arka plan türü ile "
+"değiştirilecektir."
 
 #: src/filters/map/papertile.xml:159(term)
 msgid "Centering"
 msgstr "Ortalanma"
 
 #: src/filters/map/papertile.xml:161(para)
+#, fuzzy
 msgid ""
 "If this option is checked, tiles will rather be gathered together in the "
 "center of the image."
 msgstr ""
+"Bu seçenek işaretlendiğinde, döşemeler görüntünün ortasında bir araya "
+"toplanacaktır."
 
 #: src/filters/map/papertile.xml:168(term)
 msgid "Background Type"
 msgstr "Arka plan türü"
 
 #: src/filters/map/papertile.xml:170(para)
+#, fuzzy
 msgid ""
 "You can select the background type which will be used, if the "
 "<guilabel>Background</guilabel> radio-button is checked, among six options:"
 msgstr ""
+"<guilabel>Arka plan</guilabel> radyo düğmesi işaretliyse, kullanılacak "
+"<guilabel>arka</guilabel> plan türünü altı seçenek arasından seçebilirsiniz:"
 
 #: src/filters/map/papertile.xml:177(term)
 msgid "Inverted image"
 msgstr "Tersine çevrilmiş görüntü"
 
 #: src/filters/map/papertile.xml:179(para)
+#, fuzzy
 msgid "Background colors will be inverted (255-value in every color channel)."
 msgstr ""
+"Arka plan renkleri tersine çevrilecektir (her renk kanalında 255 değeri)."
 
 #: src/filters/map/papertile.xml:186(term)
 msgid "Transparent"
@@ -1383,7 +1558,7 @@ msgstr "Saydam"
 
 #: src/filters/map/papertile.xml:188(para)
 msgid "Background will be transparent."
-msgstr ""
+msgstr "Arka plan saydam olur."
 
 #: src/filters/map/papertile.xml:194(term)
 msgid "Image"
@@ -1392,18 +1567,22 @@ msgstr "Görüntü"
 #: src/filters/map/papertile.xml:196(para)
 msgid ""
 "Background colors will be unchanged. The original image is the background."
-msgstr ""
+msgstr "Arka plan renkleri değişmeyecek. Özgün görüntü arka plandır."
 
 #: src/filters/map/papertile.xml:203(term)
 msgid "Color"
 msgstr "Renk"
 
 #: src/filters/map/papertile.xml:205(para)
+#, fuzzy
 msgid ""
 "Remaining pixels will be replaced by the color you can select. Default is "
 "the Foreground color of toolbox. You can choose another color using the "
 "color button or the color picker."
 msgstr ""
+"Kalan pikseller, seçebileceğiniz renkle değiştirilecektir. Varsayılan renk, "
+"araç kutusunun Ön Plan rengidir. Renk düğmesini veya renk seçiciyi "
+"kullanarak başka bir renk seçebilirsiniz."
 
 #: src/filters/map/papertile.xml:217(term)
 msgid "Random seed"
@@ -1414,6 +1593,7 @@ msgid "New Seed"
 msgstr "Yeni Parçacık"
 
 #: src/filters/map/papertile.xml:220(para)
+#, fuzzy
 msgid ""
 "This option controls the randomness of the filter. The <guilabel>Random "
 "seed</guilabel> box lets you manually enter a seed for the randomization "
@@ -1422,6 +1602,12 @@ msgid ""
 "the same situation, the filter produces exactly the same results. A "
 "different random seed produces different results."
 msgstr ""
+"Bu seçenek filtrenin rastgeleliğini kontrol eder. <guilabel>Rastgele</"
+"guilabel> tohum kutusu, kullanılan rastgeleleştirme algoritması için manuel "
+"olarak bir tohum girmenizi sağlar. <guibutton>Yeni Tohum</guibutton> "
+"düğmesine basarak da rastgele bir tohum oluşturabilirsiniz. Aynı durumda "
+"aynı rastgele tohum kullanılırsa, filtre tamamen aynı sonuçları üretir. "
+"Farklı bir rastgele tohum farklı sonuçlar üretir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1505,7 +1691,7 @@ msgstr "Tuş Değiştiriciler"
 
 #: src/filters/map/panorama-projection.xml:58(para)
 msgid "<emphasis role=\"bold\">Click and drag</emphasis> to pan."
-msgstr "<emphasis role=\"bold\">Tıklama ve sürükleme</emphasis> kaydırma."
+msgstr "Kaydırma için <emphasis role=\"bold\">tıkla ve sürükle</emphasis>."
 
 #: src/filters/map/panorama-projection.xml:61(para)
 msgid ""
@@ -1537,11 +1723,6 @@ msgstr "Panorama Gösterimi süzgecini kullanma"
 
 #: src/filters/map/panorama-projection.xml:76(para)
 #: src/filters/map/little-planet.xml:128(para)
-#, fuzzy
-#| msgid ""
-#| "You can find free equirectangular images at <ulink url=\"https://"
-#| "commons.wikimedia.org/wiki/"
-#| "Category:360&#xB0;_panoramas_with_equirectangular_projection\"/>."
 msgid ""
 "You can find free equirectangular images at <ulink url=\"https://"
 "commons.wikimedia.org/wiki/"
@@ -1549,27 +1730,41 @@ msgid ""
 msgstr ""
 "Ücretsiz eşdiktörtgensel görüntüleri şurada bulabilirsiniz: <ulink "
 "url=\"https://commons.wikimedia.org/wiki/"
-"Category:360&#xB0;_panoramas_with_equirectangular_projection\"/>."
+"Category:360°_panoramas_with_equirectangular_projection\"/>."
 
 #: src/filters/map/panorama-projection.xml:97(para)
+#, fuzzy
 msgid ""
 "GIMP opened this 4000×2000 pixels original image in a 1000×500 px frame at "
 "zoom 12.5. This is a screenshot scaled to 400×200 px."
 msgstr ""
+"GIMP bu 4000×2000 piksellik orijinal görüntüyü 12,5 yakınlaştırmayla "
+"1000×500 piksellik bir çerçevede açtı. Bu, 400×200 piksele ölçeklendirilmiş "
+"bir ekran görüntüsüdür."
 
 #: src/filters/map/panorama-projection.xml:81(para)
+#, fuzzy
 msgid ""
 "Of course, you can get only a part of the original image in your panorama. "
 "The first thing you have to do is creating a new image with the size of your "
 "future panorama. Then, open the original image. <placeholder-1/>"
 msgstr ""
+"Elbette, panoramanızda orijinal görüntünün yalnızca bir kısmını elde "
+"edebilirsiniz. Yapmanız gereken ilk şey, gelecekteki panoramanızın boyutunda "
+"yeni bir görüntü oluşturmaktır. Ardından, orijinal görüntüyü açın. "
+"<placeholder-1/>"
 
 #: src/filters/map/panorama-projection.xml:104(para)
+#, fuzzy
 msgid ""
 "Open the Panorama Projection filter. Only the central part of the image is "
 "visible. Pan across the image to find your panorama using the Pan option or "
 "click and dragging. You can zoom in to have a wider view."
 msgstr ""
+"Panorama Projeksiyon filtresini açın. Görüntünün yalnızca orta kısmı "
+"görünür. Pan seçeneğini kullanarak veya tıklayıp sürükleyerek panoramanızı "
+"bulmak için görüntü boyunca kaydırın. Daha geniş bir görünüm elde etmek için "
+"yakınlaştırabilirsiniz."
 
 #: src/filters/map/panorama-projection.xml:110(title)
 msgid "<quote>Panorama Projection</quote> filter applied"
@@ -1606,7 +1801,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/map-object.xml:230(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/filters/map/mapobject-dialog-light.png'; "
 #| "md5=b3e508db1cf361d090ba086c71e9d7ba"
@@ -1615,7 +1809,7 @@ msgid ""
 "md5=35eb7f77a971cc443f62bc53e10444d6"
 msgstr ""
 "@@image: 'images/filters/map/mapobject-dialog-light.png'; "
-"md5=b3e508db1cf361d090ba086c71e9d7ba"
+"md5=35eb7f77a971cc443f62bc53e10444d6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1640,7 +1834,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/map-object.xml:359(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/filters/map/mapobject-dialog-material.png'; "
 #| "md5=99db51512d8bf903848e8c01f1614bca"
@@ -1649,7 +1842,7 @@ msgid ""
 "md5=395b2056d5203c53c71da368322bb9ae"
 msgstr ""
 "@@image: 'images/filters/map/mapobject-dialog-material.png'; "
-"md5=99db51512d8bf903848e8c01f1614bca"
+"md5=395b2056d5203c53c71da368322bb9ae"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1696,9 +1889,11 @@ msgid "<quote>Map Object</quote> applied"
 msgstr "<quote>Nesneye Eşle</quote> süzgeci uygulandı"
 
 #: src/filters/map/map-object.xml:46(para)
+#, fuzzy
 msgid ""
 "This filter maps a picture to an object (plane, sphere, box or cylinder)."
 msgstr ""
+"Bu filtre bir resmi bir nesneye (düzlem, küre, kutu veya silindir) eşler."
 
 #: src/filters/map/map-object.xml:54(para)
 msgid ""
@@ -1719,18 +1914,27 @@ msgid "Preview!"
 msgstr "Ön izleme!"
 
 #: src/filters/map/map-object.xml:74(para)
+#, fuzzy
 msgid ""
 "Preview is automatic for some options but you will have to press this button "
 "to update Preview after modifying many other parameters."
 msgstr ""
+"Önizleme bazı seçenekler için otomatiktir ancak diğer birçok parametreyi "
+"değiştirdikten sonra Önizlemeyi güncellemek için bu düğmeye basmanız "
+"gerekecektir."
 
 #: src/filters/map/map-object.xml:79(para)
+#, fuzzy
 msgid ""
 "When mouse pointer is on Preview and the Light tab is selected, it takes the "
 "form of a small hand to grab the <emphasis>blue point</emphasis> which marks "
 "light source origin and to displace it. This blue point may not be visible "
 "if light source has negative X and Y settings in the Light tab."
 msgstr ""
+"Fare imleci Önizleme üzerindeyken ve Işık sekmesi seçiliyken, ışık kaynağı "
+"orijinini işaretleyen <emphasis>mavi noktayı</emphasis> yakalamak ve yerini "
+"değiştirmek için küçük bir el şeklini alır. Işık kaynağı Işık sekmesinde "
+"negatif X ve Y ayarlarına sahipse bu mavi nokta görünmeyebilir."
 
 #: src/filters/map/map-object.xml:90(term)
 msgid "Zoom out"
@@ -1741,28 +1945,36 @@ msgid "Zoom in"
 msgstr "Yakınlaştır"
 
 #: src/filters/map/map-object.xml:93(para)
+#, fuzzy
 msgid ""
 "Zoom buttons allow you to enlarge or to reduce image in Preview. Their "
 "action is limited, but may be useful in case of a large image."
 msgstr ""
+"Yakınlaştırma düğmeleri Önizleme'de görüntüyü büyütmenizi veya küçültmenizi "
+"sağlar. Etkileri sınırlıdır, ancak büyük bir görüntü olması durumunda "
+"yararlı olabilir."
 
 #: src/filters/map/map-object.xml:101(term)
 msgid "Show wireframe"
 msgstr "Kılavuz çizgileri göster"
 
 #: src/filters/map/map-object.xml:103(para)
+#, fuzzy
 msgid ""
 "Puts a grid over the preview to make displacements and rotations more easy. "
 "Works well on a plan."
 msgstr ""
+"Yer değiştirmeleri ve döndürmeleri daha kolay hale getirmek için önizlemenin "
+"üzerine bir ızgara yerleştirir. Bir plan üzerinde iyi çalışır."
 
 #: src/filters/map/map-object.xml:110(term)
 msgid "Update preview live"
 msgstr "Ön izlemeyi anlık güncelle"
 
 #: src/filters/map/map-object.xml:112(para)
+#, fuzzy
 msgid "To have preview working as usual."
-msgstr ""
+msgstr "Önizleme özelliğinin normal şekilde çalışması için."
 
 #: src/filters/map/map-object.xml:121(title)
 msgid "General Options"
@@ -1778,71 +1990,92 @@ msgid "Map to"
 msgstr "Şuraya Eşle"
 
 #: src/filters/map/map-object.xml:135(para)
+#, fuzzy
 msgid ""
 "This drop-down list allows you to select the object the image will be mapped "
 "on. It can be a <emphasis>Plane</emphasis>, a <emphasis>Sphere</emphasis>, a "
 "<emphasis>Box</emphasis> or a <emphasis>Cylinder</emphasis>."
 msgstr ""
+"Bu açılır liste, görüntünün üzerine eşleneceği nesneyi seçmenize olanak "
+"tanır. Bir <emphasis>Düzlem</emphasis>, bir <emphasis>Küre</emphasis>, bir "
+"<emphasis>Kutu</emphasis> veya bir <emphasis>Silindir</emphasis> olabilir."
 
 #: src/filters/map/map-object.xml:144(term)
 msgid "Transparent background"
 msgstr "Saydam arka plan"
 
 #: src/filters/map/map-object.xml:146(para)
+#, fuzzy
 msgid ""
 "This option makes image transparent around the object. If not set, the "
 "background is filled with the current background color."
 msgstr ""
+"Bu seçenek, nesnenin etrafındaki görüntüyü şeffaf hale getirir. "
+"Ayarlanmazsa, arka plan geçerli arka plan rengiyle doldurulur."
 
 #: src/filters/map/map-object.xml:153(term)
 msgid "Tile source image"
 msgstr "Döşeme kaynak görüntüsü"
 
 #: src/filters/map/map-object.xml:155(para)
+#, fuzzy
 msgid ""
 "When moving Plane object and displacing it with Orientation tab options, a "
 "part of the image turns empty. By checking the <guilabel>Tile source image</"
 "guilabel>, source image copies will fill this empty space in. This option "
 "seems not to work with the other objects."
 msgstr ""
+"Düzlem nesnesini taşırken ve Yönlendirme sekmesi seçenekleriyle yerini "
+"değiştirirken, görüntünün bir kısmı boş kalır. <guilabel>Kaynak görüntüyü</"
+"guilabel> döşe seçeneği işaretlendiğinde, kaynak görüntü kopyaları bu boş "
+"alanı dolduracaktır. Bu seçenek diğer nesnelerde çalışmıyor gibi görünüyor."
 
 #: src/filters/map/map-object.xml:163(para)
 msgid "This option works with <quote>Plane</quote> only."
-msgstr ""
+msgstr "Bu seçenek yalnızca <quote>Düzlem</quote> ile çalışır."
 
 #: src/filters/map/map-object.xml:170(term)
 msgid "Create new image"
 msgstr "Yeni görüntü oluştur"
 
 #: src/filters/map/map-object.xml:172(para)
+#, fuzzy
 msgid ""
 "When this option is checked, a new image is created with the result of the "
 "filter, preserving the original image."
 msgstr ""
+"Bu seçenek işaretlendiğinde, orijinal görüntü korunarak filtre sonucuyla "
+"yeni bir görüntü oluşturulur."
 
 #: src/filters/map/map-object.xml:179(term)
-#, fuzzy
-#| msgid "Create new image"
 msgid "Create new layer"
-msgstr "Yeni görüntü oluştur"
+msgstr "Yeni katman oluştur"
 
 #: src/filters/map/map-object.xml:181(para)
+#, fuzzy
 msgid ""
 "When this option is checked, a new layer is created with the result of the "
 "filter, leaving the original layer unchanged. This has no effect if "
 "<guilabel>Create new image</guilabel> is also checked."
 msgstr ""
+"Bu seçenek işaretlendiğinde, filtre sonucuyla yeni bir katman oluşturulur ve "
+"orijinal katman değişmeden kalır. <guilabel>Yeni görüntü oluştur seçeneği</"
+"guilabel> de işaretlenmişse, bu seçeneğin hiçbir etkisi olmaz."
 
 #: src/filters/map/map-object.xml:190(term)
 msgid "Antialiasing"
 msgstr "Kenar yumuşatma"
 
 #: src/filters/map/map-object.xml:192(para)
+#, fuzzy
 msgid ""
 "Enabling this setting allows you to remove or reduce the aliasing effect "
 "that can show up on borders. When checked, this enables the following "
 "settings:"
 msgstr ""
+"Bu ayarı etkinleştirmek, kenarlarda görülebilen aliasing etkisini ortadan "
+"kaldırmanıza veya azaltmanıza olanak tanır. İşaretlendiğinde, aşağıdaki "
+"ayarlar etkinleştirilir:"
 
 #: src/filters/map/map-object.xml:199(term)
 #: src/filters/map/fractal-trace.xml:101(term)
@@ -1851,20 +2084,26 @@ msgid "Depth"
 msgstr "Derinlik"
 
 #: src/filters/map/map-object.xml:201(para)
+#, fuzzy
 msgid ""
 "Defines the anti-aliasing quality. A higher value gives better quality at "
 "the cost of being slower."
 msgstr ""
+"Anti-aliasing kalitesini tanımlar. Daha yüksek bir değer, daha yavaş olma "
+"pahasına daha iyi kalite sağlar."
 
 #: src/filters/map/map-object.xml:208(term)
 msgid "Threshold"
 msgstr "Eşik"
 
 #: src/filters/map/map-object.xml:210(para)
+#, fuzzy
 msgid ""
 "Defines anti-aliasing limits. Anti-aliasing stops when the value difference "
 "between pixels becomes lower than the value set here."
 msgstr ""
+"Anti-aliasing sınırlarını tanımlar. Anti-aliasing, pikseller arasındaki "
+"değer farkı burada ayarlanan değerden daha düşük olduğunda durur."
 
 #: src/filters/map/map-object.xml:224(title)
 msgid "Light"
@@ -1882,27 +2121,22 @@ msgstr "Işık Ayarları"
 msgid "Light source type"
 msgstr "Işık kaynağı türü"
 
-# Açılır liste vurgusu eklenmedi. Açılır liste yerine açık liste kullanılmış.
 #: src/filters/map/map-object.xml:242(para)
-#, fuzzy
-#| msgid ""
-#| "In this drop-down list, you can select among <emphasis>Point light</"
-#| "emphasis>, <emphasis>Directional light</emphasis> and <emphasis>No light</"
-#| "emphasis>."
 msgid ""
 "You can select among <emphasis>Point light</emphasis>, <emphasis>Directional "
 "light</emphasis> and <emphasis>No light</emphasis>."
 msgstr ""
 "Şu seçenekler arasında seçim yapabilirsiniz: <emphasis>Nokta Işık</"
-"emphasis>, <emphasis>Yönlü Işık</emphasis> ve <emphasis>Işık Yok</emphasis>"
+"emphasis>, <emphasis>Yönlü Işık</emphasis> ve <emphasis>Işık Yok</emphasis>."
 
 #: src/filters/map/map-object.xml:250(term)
 msgid "Light source color"
 msgstr "Işık kaynağı rengi"
 
 #: src/filters/map/map-object.xml:252(para)
+#, fuzzy
 msgid "Press this button to open the Color Selector dialog."
-msgstr ""
+msgstr "Renk Seçici iletişim kutusunu açmak için bu düğmeye basın."
 
 #: src/filters/map/map-object.xml:261(term)
 #: src/filters/map/map-object.xml:331(term)
@@ -1910,17 +2144,23 @@ msgid "Position"
 msgstr "Konum"
 
 #: src/filters/map/map-object.xml:263(para)
+#, fuzzy
 msgid ""
 "If <quote>Point light</quote> is selected, you can control there light "
 "source <emphasis>Position</emphasis> (the blue point), according to X, Y and "
 "Z coordinates."
 msgstr ""
+"<quote>Nokta ışığı</quote> seçiliyse, ışık kaynağının <emphasis>konumunu</"
+"emphasis> (mavi nokta) X, Y ve Z koordinatlarına göre kontrol edebilirsiniz."
 
 #: src/filters/map/map-object.xml:268(para)
+#, fuzzy
 msgid ""
 "If <quote>Directional light</quote> is selected, these X, Y and Z parameters "
 "control the <quote>Direction vector</quote> (effect is not evident)."
 msgstr ""
+"<quote>Yönlü ışık</quote> seçiliyse, bu X, Y ve Z parametreleri <quote>Yön "
+"vektörünü</quote> kontrol eder (etki belirgin değildir)."
 
 #: src/filters/map/map-object.xml:279(title)
 msgid "Viewpoint"
@@ -1935,17 +2175,24 @@ msgid "Viewpoint Position"
 msgstr "Bakış Açısı Konumu"
 
 #: src/filters/map/map-object.xml:293(para)
+#, fuzzy
 msgid ""
 "When <guilabel>Light Source Type</guilabel> is set to \"Point Light\", "
 "changing the X, Y, and Z values moves the \"viewer\" closer to or further "
 "from the object in those directions."
 msgstr ""
+"<guilabel>Işık Kaynağı Türü</guilabel> \"Nokta <guilabel>Işığı</guilabel> \" "
+"olarak ayarlandığında, X, Y ve Z değerlerini değiştirmek \"görüntüleyiciyi\" "
+"bu yönlerde nesneye yaklaştırır veya uzaklaştırır."
 
 #: src/filters/map/map-object.xml:298(para)
+#, fuzzy
 msgid ""
 "Note that this will not visually affect images set to \"Plane\" in the "
 "<guilabel>Map To</guilabel> field."
 msgstr ""
+"Bunun, <guilabel>Harita Alanı</guilabel> alanına \"Düzlem\" olarak ayarlanan "
+"görüntüleri görsel olarak etkilemeyeceğini unutmayın."
 
 #: src/filters/map/map-object.xml:304(term)
 msgid "First Axis"
@@ -1956,11 +2203,16 @@ msgid "Second Axis"
 msgstr "İkinci Eksen"
 
 #: src/filters/map/map-object.xml:307(para)
+#, fuzzy
 msgid ""
 "When <guilabel>Map To</guilabel> is set to \"Plane\", changing the X, Y, and "
 "Z values simulates the effect of tilting the plane on the Y and Z axes. This "
 "impacts how the Material tab settings affect the render."
 msgstr ""
+"<guilabel>Eşle</guilabel> \"Düzlem\" olarak ayarlandığında, X, Y ve Z "
+"değerlerini değiştirmek, düzlemi Y ve Z eksenlerinde eğmenin etkisini simüle "
+"eder. Bu, Malzeme sekmesi ayarlarının render işlemini nasıl etkilediğini "
+"etkiler."
 
 #: src/filters/map/map-object.xml:319(title)
 msgid "Orientation"
@@ -1971,20 +2223,27 @@ msgid "<quote>Map Object</quote> options (Orientation)"
 msgstr "<quote>Nesneye Eşle</quote> seçenekleri (Yönelim)"
 
 #: src/filters/map/map-object.xml:333(para)
+#, fuzzy
 msgid ""
 "These three sliders and their input boxes allows you to vary object position "
 "in image, according to the X, Y, Z coordinates of the object upper left "
 "corner."
 msgstr ""
+"Bu üç kaydırıcı ve bunların giriş kutuları, nesnenin sol üst köşesinin X, Y, "
+"Z koordinatlarına göre görüntüdeki nesne konumunu değiştirmenize olanak "
+"tanır."
 
 #: src/filters/map/map-object.xml:341(term)
 msgid "Rotation"
 msgstr "Döndürme"
 
 #: src/filters/map/map-object.xml:343(para)
+#, fuzzy
 msgid ""
 "These three sliders make the object rotate around X, Y, Z axes respectively."
 msgstr ""
+"Bu üç kaydırıcı nesnenin sırasıyla X, Y, Z eksenleri etrafında dönmesini "
+"sağlar."
 
 #: src/filters/map/map-object.xml:353(title)
 msgid "Material"
@@ -2003,8 +2262,9 @@ msgid "Ambient"
 msgstr "Ortam"
 
 #: src/filters/map/map-object.xml:371(para)
+#, fuzzy
 msgid "Amount of color to show where no light falls directly."
-msgstr ""
+msgstr "Işığın doğrudan düşmediği yerlerde gösterilecek renk miktarı."
 
 #: src/filters/map/map-object.xml:377(term)
 #: src/filters/map/map-object.xml:392(term)
@@ -2012,40 +2272,47 @@ msgid "Diffuse"
 msgstr "Yay"
 
 #: src/filters/map/map-object.xml:379(para)
+#, fuzzy
 msgid "Intensity of original color when lit by a light source."
-msgstr ""
+msgstr "Bir ışık kaynağıyla aydınlatıldığında orijinal rengin yoğunluğu."
 
 #: src/filters/map/map-object.xml:388(term)
 msgid "Reflectivity"
 msgstr "Yansıtıcılık"
 
 #: src/filters/map/map-object.xml:394(para)
+#, fuzzy
 msgid "Higher values make object reflect more light (looks brighter)."
 msgstr ""
+"Daha yüksek değerler, nesnenin daha fazla ışık yansıtmasına neden olur (daha "
+"parlak görünür)."
 
 #: src/filters/map/map-object.xml:401(term)
 msgid "Specular"
 msgstr "Yansıtıcı"
 
 #: src/filters/map/map-object.xml:403(para)
+#, fuzzy
 msgid "Controls how intense the highlights will be."
-msgstr ""
+msgstr "Vurguların ne kadar yoğun olacağını kontrol eder."
 
 #: src/filters/map/map-object.xml:409(term)
 msgid "Highlight"
 msgstr "Vurgu"
 
 #: src/filters/map/map-object.xml:411(para)
+#, fuzzy
 msgid "Higher values make the highlights more focused."
-msgstr ""
+msgstr "Daha yüksek değerler, vurguları daha net hale getirir."
 
 #: src/filters/map/map-object.xml:423(title)
 msgid "Sphere"
 msgstr "Küre"
 
 #: src/filters/map/map-object.xml:424(para)
+#, fuzzy
 msgid "This tab appears only when you select the Sphere object."
-msgstr ""
+msgstr "Bu sekme yalnızca Küre nesnesini seçtiğinizde görünür."
 
 #: src/filters/map/map-object.xml:428(title)
 msgid "<quote>Map Object</quote> options (Sphere)"
@@ -2062,16 +2329,18 @@ msgid "Radius"
 msgstr "Yarıçap"
 
 #: src/filters/map/map-object.xml:444(para)
+#, fuzzy
 msgid "The radius ratio in comparison to the image size."
-msgstr ""
+msgstr "Görüntü boyutuna kıyasla yarıçap oranı."
 
 #: src/filters/map/map-object.xml:456(title)
 msgid "Box"
 msgstr "Kutu"
 
 #: src/filters/map/map-object.xml:457(para)
+#, fuzzy
 msgid "This tab appears only when you select the Box object."
-msgstr ""
+msgstr "Bu sekme yalnızca Kutu nesnesini seçtiğinizde görünür."
 
 #: src/filters/map/map-object.xml:461(title)
 msgid "<quote>Map Object</quote> options (Box)"
@@ -2082,42 +2351,43 @@ msgid "Map Images to Box Faces"
 msgstr "Görüntüleri Kutu Yüzeylerine Eşle"
 
 #: src/filters/map/map-object.xml:473(para)
+#, fuzzy
 msgid ""
 "Select an image for every face of the box. These images must be present on "
 "your screen when you call the Map Object filter."
 msgstr ""
+"Kutunun her yüzü için bir görüntü seçin. Harita Nesnesi filtresini "
+"çağırdığınızda bu görüntüler ekranınızda mevcut olmalıdır."
 
 #: src/filters/map/map-object.xml:481(term)
-#, fuzzy
-#| msgid "Scale"
 msgid "Scale X"
-msgstr "Ölçek"
+msgstr "X ölçeği"
 
 #: src/filters/map/map-object.xml:482(term)
-#, fuzzy
-#| msgid "Scale"
 msgid "Scale Y"
-msgstr "Ölçek"
+msgstr "Y ölçeği"
 
 #: src/filters/map/map-object.xml:483(term)
-#, fuzzy
-#| msgid "Scale"
 msgid "Scale Z"
-msgstr "Ölçek"
+msgstr "Z ölçeği"
 
 #: src/filters/map/map-object.xml:485(para)
+#, fuzzy
 msgid ""
 "These X, Y, Z sliders allow you to change the size of every X, Y, Z "
 "dimension of the box."
 msgstr ""
+"Bu X, Y, Z kaydırıcıları, kutunun her X, Y, Z boyutunun boyutunu "
+"değiştirmenize olanak tanır."
 
 #: src/filters/map/map-object.xml:495(title)
 msgid "Cylinder"
 msgstr "Silindir"
 
 #: src/filters/map/map-object.xml:496(para)
+#, fuzzy
 msgid "This tab appears only when you select the Cylinder object."
-msgstr ""
+msgstr "Bu sekme yalnızca Silindir nesnesini seçtiğinizde görünür."
 
 #: src/filters/map/map-object.xml:500(title)
 msgid "<quote>Map Object</quote> options (Cylinder)"
@@ -2128,12 +2398,16 @@ msgid "Images for the Cap Faces"
 msgstr "Kapak Yüzeyleri için görüntüler"
 
 #: src/filters/map/map-object.xml:512(para)
+#, fuzzy
 msgid ""
 "Select an image for every face of the cylinder. Images must be present on "
 "your screen when you call the Map Object filter."
 msgstr ""
+"Silindirin her yüzü için bir görüntü seçin. Harita Nesnesi filtresini "
+"çağırdığınızda görüntüler ekranınızda mevcut olmalıdır."
 
 #: src/filters/map/map-object.xml:526(para)
+#, fuzzy
 msgid ""
 "This slider and its input boxes let you control the Cylinder diameter. "
 "Unfortunately, this setting works on the image mapped onto the cylinder and "
@@ -2141,12 +2415,15 @@ msgid ""
 "better to have the possibility of setting size cylinder before mapping so "
 "that we could map a whole image."
 msgstr ""
+"Bu kaydırıcı ve giriş kutuları, silindir çapını kontrol etmenizi sağlar. Ne "
+"yazık ki, bu ayar silindire eşlenen görüntü üzerinde çalışır ve bu görüntüyü "
+"yeni silindir boyutuna uyum sağlamak için yeniden örnekler. Görüntünün "
+"tamamını eşleyebilmemiz için, eşleme öncesinde silindir boyutunu ayarlama "
+"imkanı olması daha iyi olurdu."
 
 #: src/filters/map/map-object.xml:537(term)
-#, fuzzy
-#| msgid "Controls cylinder length."
 msgid "Cylinder length"
-msgstr "Silindir uzunluğunu denetler."
+msgstr "Silindir uzunluğu"
 
 #: src/filters/map/map-object.xml:539(para)
 msgid "Controls cylinder length."
@@ -2239,12 +2516,17 @@ msgid "Little Planet"
 msgstr "Küçük Gezegen"
 
 #: src/filters/map/little-planet.xml:22(para)
+#, fuzzy
 msgid ""
 "This filter converts a panorama into a small planet. All images don't fit "
 "this filter. The ideal image is a 360° x 180° image, also known as "
 "equirectangular image. We will see that it is possible to use normal images "
 "also."
 msgstr ""
+"Bu filtre bir panoramayı küçük bir gezegene dönüştürür. Tüm görüntüler bu "
+"filtreye uymaz. İdeal görüntü, eşit dikdörtgen görüntü olarak da bilinen "
+"360° x 180°'lik bir görüntüdür. Normal görüntüleri de kullanmanın mümkün "
+"olduğunu göreceğiz."
 
 #: src/filters/map/little-planet.xml:32(para)
 msgid ""
@@ -2266,27 +2548,35 @@ msgid "Pan"
 msgstr "Kaydırma"
 
 #: src/filters/map/little-planet.xml:70(para)
+#, fuzzy
 msgid ""
 "Horizontal camera panning. If <quote>Inverse transform</quote> option is "
 "checked, the <quote>pan</quote> option moves line of sight horizontally. "
 "Else, it works as <quote>Spin</quote> option."
 msgstr ""
+"Yatay kamera kaydırma. <quote>Ters dönüşüm</quote> seçeneği işaretliyse, "
+"<quote>kaydırma</quote> seçeneği görüş hattını yatay olarak hareket ettirir. "
+"Aksi takdirde, <quote>Döndürme</quote> seçeneği olarak çalışır."
 
 #: src/filters/map/little-planet.xml:78(term)
 msgid "Tilt"
 msgstr "Eğim"
 
 #: src/filters/map/little-planet.xml:80(para)
+#, fuzzy
 msgid "Vertical camera panning. Moves line of sight upwards/downwards."
 msgstr ""
+"Dikey kamera kaydırma. Görüş hattını yukarı/aşağı doğru hareket ettirir."
 
 #: src/filters/map/little-planet.xml:86(term)
 msgid "Spin"
 msgstr "Dönüş"
 
 #: src/filters/map/little-planet.xml:88(para)
+#, fuzzy
 msgid "Spin angle around camera axis. Rotates planet around line of sight."
 msgstr ""
+"Kamera ekseni etrafında dönme açısı. Gezegeni görüş hattı etrafında döndürür."
 
 # Arayüzde bu şekilde kullanılmış.
 #: src/filters/map/little-planet.xml:94(term)
@@ -2294,8 +2584,9 @@ msgid "Zoom"
 msgstr "Yakınlaştır"
 
 #: src/filters/map/little-planet.xml:96(para)
+#, fuzzy
 msgid "Zoom level. Zooms planet in/out."
-msgstr ""
+msgstr "Yakınlaştırma düzeyi. Gezegeni yakınlaştırır/uzaklaştırır."
 
 #. I don't understand this option; simply copied the UI pop up help
 #: src/filters/map/little-planet.xml:103(term)
@@ -2303,10 +2594,13 @@ msgid "Inverse transform"
 msgstr "Ters dönüşüm"
 
 #: src/filters/map/little-planet.xml:105(para)
+#, fuzzy
 msgid ""
 "Do the inverse mapping; useful for touching up zenith, nadir or other parts "
 "of panorama."
 msgstr ""
+"Ters dönüşüm; zenith, nadir veya panoramanın diğer kısımlarına dokunmak için "
+"yararlıdır."
 
 #: src/filters/map/little-planet.xml:118(para)
 msgid "<quote>Cubic</quote> may give better result."
@@ -2326,11 +2620,16 @@ msgstr ""
 "lisanslanmıştır."
 
 #: src/filters/map/little-planet.xml:145(para)
+#, fuzzy
 msgid ""
 "GIMP opened this 16000×8000 pixels original image in a 1000×500 px frame at "
 "zoom 6.25. This is a screenshot scaled to 600×300 px. Note the empty sky, "
 "the horizon perfectly horizontal, the vanishing perspective."
 msgstr ""
+"GIMP bu 16000×8000 piksellik orijinal görüntüyü 1000×500 piksellik bir "
+"çerçeve içinde 6.25 yakınlaştırmayla açtı. Bu, 600×300 piksele "
+"ölçeklendirilmiş bir ekran görüntüsüdür. Boş gökyüzüne, tamamen yatay ufka "
+"ve kaybolan perspektife dikkat edin."
 
 #: src/filters/map/little-planet.xml:158(para)
 #: src/filters/map/little-planet.xml:288(para)
@@ -2338,10 +2637,12 @@ msgid "Filter applied"
 msgstr "Süzgeç uygulandı."
 
 #: src/filters/map/little-planet.xml:166(title)
+#, fuzzy
 msgid "Using Little Planet filter with a normal image"
-msgstr ""
+msgstr "Little Planet filtresini normal bir görüntü ile kullanma"
 
 #: src/filters/map/little-planet.xml:167(para)
+#, fuzzy
 msgid ""
 "Your panorama rarely satisfies conditions necessary for this filter, "
 "especially if you cut it off a larger image. The Little Planet filter brings "
@@ -2350,6 +2651,13 @@ msgid ""
 "empty sky occupying the upper half of the image and a horizontal horizon are "
 "perfect. Usually, you will have to prepare your panorama before using filter."
 msgstr ""
+"Panoramanız, özellikle daha büyük bir görüntüden kesilmişse, bu filtre için "
+"gerekli koşulları nadiren karşılar. Küçük Gezegen filtresi, görüntünün sol "
+"ve sağ kenarlarını bir araya getirir ve kenarlar farklıysa istenmeyen keskin "
+"bir sınır oluşturur. Düzensiz bir ufuk, düzensiz bir daire oluşturur. "
+"Görüntünün üst yarısını kaplayan mavi boş bir gökyüzü ve yatay bir ufuk "
+"mükemmeldir. Genellikle, filtreyi kullanmadan önce panoramanızı hazırlamanız "
+"gerekir."
 
 #: src/filters/map/little-planet.xml:177(title)
 msgid "Original Images"
@@ -2360,55 +2668,73 @@ msgid "Original panorama"
 msgstr "Özgün panorama"
 
 #: src/filters/map/little-planet.xml:195(para)
+#, fuzzy
 msgid "Filter applied directly with default options"
-msgstr ""
+msgstr "Varsayılan seçeneklerle doğrudan uygulanan filtre"
 
 #: src/filters/map/little-planet.xml:203(para)
+#, fuzzy
 msgid ""
 "Wipe sky: with Color Picker, darker blue to toolbox foreground and lighter "
 "blue to toolbox background. Rectangular selection of sky including a small "
 "part of horizon. In the selection, draw a Gradient from top to bottom."
 msgstr ""
+"Gökyüzünü silin: Renk Seçici ile, araç kutusunun ön planına daha koyu mavi "
+"ve araç kutusunun arka planına daha açık mavi rengi seçin. Ufkun küçük bir "
+"kısmını da içeren gökyüzünün dikdörtgen şeklindeki bir bölümünü seçin. "
+"Seçtiğiniz alanda, yukarıdan aşağıya doğru bir Degrade çizin."
 
 #: src/filters/map/little-planet.xml:211(para)
+#, fuzzy
 msgid "Select the left border of the image."
-msgstr ""
+msgstr "Görüntünün sol kenarını seçin."
 
 #: src/filters/map/little-planet.xml:216(para)
+#, fuzzy
 msgid "Copy the selection and Paste it as New layer."
-msgstr ""
+msgstr "Seçimi kopyalayın ve Yeni katman olarak yapıştırın."
 
 #: src/filters/map/little-planet.xml:221(para)
+#, fuzzy
 msgid "<keycap>Q</keycap> shortcut to open the Align tool."
-msgstr ""
+msgstr "Hizala aracını açmak için <keycap>Q</keycap> kısayolunu kullanın."
 
 #: src/filters/map/little-planet.xml:226(para)
+#, fuzzy
 msgid ""
 "Click on new layer (superimposed on selection area): new layer limits "
 "appear. Align new layer to image right side."
 msgstr ""
+"Yeni katmana tıklayın (seçim alanının üzerine bindirilmiş): yeni katman "
+"sınırları görünür. Yeni katmanı resmin sağ tarafına hizalayın."
 
 #: src/filters/map/little-planet.xml:232(para)
+#, fuzzy
 msgid "Select&gt;None."
-msgstr ""
+msgstr "Seç&gt;Hiçbiri."
 
 #: src/filters/map/little-planet.xml:237(para)
 msgid "Flip new layer horizontally."
 msgstr "Yeni katmanı yatay çevir."
 
 #: src/filters/map/little-planet.xml:246(para)
+#, fuzzy
 msgid ""
 "New layer aligned to image right side and flipped: left and right image "
 "sides are now the same. Sky wiped out. Horizon horizontalized."
 msgstr ""
+"Görüntünün sağ tarafına hizalanmış ve ters çevrilmiş yeni katman: sol ve sağ "
+"görüntü tarafları artık aynı. Gökyüzü silinmiş. Ufuk yatay hale getirilmiş."
 
 #: src/filters/map/little-planet.xml:254(para)
+#, fuzzy
 msgid "Add a black Layer Mask to new layer."
-msgstr ""
+msgstr "Yeni katmana siyah bir Katman Maskesi ekleyin."
 
 #: src/filters/map/little-planet.xml:259(para)
+#, fuzzy
 msgid "Apply a black-to-white gradient to layer mask."
-msgstr ""
+msgstr "Katman maskesine siyah-beyaz gradyan uygulayın."
 
 #: src/filters/map/little-planet.xml:264(para)
 msgid "Apply Little planet filter."
@@ -2428,6 +2754,7 @@ msgid "Introduction"
 msgstr "Giriş"
 
 #: src/filters/map/introduction.xml:16(para)
+#, fuzzy
 msgid ""
 "Map filters use an object named <emphasis>map</emphasis> to modify an image: "
 "you map the image to the object. So, you can create 3D effects by mapping "
@@ -2437,6 +2764,14 @@ msgid ""
 "and <quote>Tile Seamless</quote> filters), bend a text along a curve "
 "(<quote>Displace</quote> filter), etc."
 msgstr ""
+"Harita filtreleri bir görüntüyü değiştirmek için <emphasis>harita</emphasis> "
+"adlı bir nesne kullanır: görüntüyü nesneye eşlersiniz. Böylece, görüntünüzü "
+"önceden kabartılmış başka bir görüntüye<quote>(Bumpmap</quote> Filtresi) "
+"veya bir küreye<quote>(Nesneyi</quote> Eşle filtresi) eşleyerek 3D efektler "
+"oluşturabilirsiniz. Ayrıca görüntünün bir kısmını başka bir yerde aynı "
+"görüntüye eşleyebilir<quote>(Illusion</quote> ve <quote>Tile Seamless</"
+"quote> filtreleri), bir metni bir eğri boyunca bükebilir<quote>(Displace</"
+"quote> filtresi) vb."
 
 #: src/filters/map/introduction.xml:26(para)
 msgid "This category describes the following filters:"
@@ -2597,10 +2932,13 @@ msgid "Filter <quote>Fractal Trace</quote> applied"
 msgstr "<quote>Fraktal İzi</quote> süzgeci uygulandı"
 
 #: src/filters/map/fractal-trace.xml:45(para)
+#, fuzzy
 msgid ""
 "This filter transforms the image with the Mandelbrot fractal: it maps the "
 "image to the fractal."
 msgstr ""
+"Bu filtre görüntüyü Mandelbrot fraktalıyla dönüştürür: görüntüyü fraktalla "
+"eşler."
 
 #: src/filters/map/fractal-trace.xml:53(para)
 msgid ""
@@ -2642,12 +2980,16 @@ msgid "Y2"
 msgstr "Y2"
 
 #: src/filters/map/fractal-trace.xml:103(para)
+#, fuzzy
 msgid ""
 "These parameters are similar to Left, Right, Top, Bottom and Iterations "
 "parameters of the <link linkend=\"plug-in-fractalexplorer\">Fractal "
 "Explorer</link> filter. They allow you to vary fractal spreading and detail "
 "depth."
 msgstr ""
+"Bu parametreler <link linkend=\"plug-in-fractalexplorer\">Fraktal Gezgini</"
+"link> filtresinin Sol, Sağ, Üst, Alt ve Yinelemeler parametrelerine benzer. "
+"Fraktal yayılımı ve ayrıntı derinliğini değiştirmenize olanak tanırlar."
 
 #: src/filters/map/fractal-trace.xml:113(term)
 msgid "JX"
@@ -2674,11 +3016,15 @@ msgid "Abyss policy"
 msgstr "Uçurum ilkesi"
 
 #: src/filters/map/fractal-trace.xml:133(para)
+#, fuzzy
 msgid ""
 "Mapping image to fractal may reveal empty areas. These options allows you to "
 "set displacement behavior on active layer or selection edges. They are "
 "described in <xref linkend=\"abyss-policy\"/>"
 msgstr ""
+"Görüntüyü fraktala eşlemek boş alanları ortaya çıkarabilir. Bu seçenekler, "
+"etkin katman veya seçim kenarlarında yer değiştirme davranışını ayarlamanıza "
+"olanak tanır. Bunlar şurada açıklanmıştır <xref linkend=\"abyss-policy\"/>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2713,7 +3059,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/displace.xml:95(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/filters/map/displace-dialog.png'; "
 #| "md5=43e2f9e7dcd406e4f1d62c62ac66bd21"
@@ -2722,7 +3067,7 @@ msgid ""
 "md5=583a6a9e9dd608e707e4d065bcb0a90a"
 msgstr ""
 "@@image: 'images/filters/map/displace-dialog.png'; "
-"md5=43e2f9e7dcd406e4f1d62c62ac66bd21"
+"md5=583a6a9e9dd608e707e4d065bcb0a90a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2855,20 +3200,29 @@ msgid "Displacement examples"
 msgstr "Yer değiştirme örnekleri"
 
 #: src/filters/map/displace.xml:42(para)
+#, fuzzy
 msgid ""
 "The displacement map has four gray stripes with values of 210, 160, 110, and "
 "60, respectively."
 msgstr ""
+"Deplasman haritasında sırasıyla 210, 160, 110 ve 60 değerlerine sahip dört "
+"gri şerit bulunmaktadır."
 
 #: src/filters/map/displace.xml:53(para)
+#, fuzzy
 msgid ""
 "Horizontal displacement coefficient is 30. Vacated pixels are black. The "
 "image areas corresponding to light gray (128) were displaced 19 and 8 pixels "
 "to the left. The image areas corresponding to dark gray (127) were displaced "
 "4 and 15 pixels to the right."
 msgstr ""
+"Yatay yer değiştirme katsayısı 30'dur. Boşaltılan pikseller siyahtır. Açık "
+"griye (128) karşılık gelen görüntü alanları sola 19 ve 8 piksel yer "
+"değiştirmiştir. Koyu griye (127) karşılık gelen görüntü alanları sağa 4 ve "
+"15 piksel yer değiştirmiştir."
 
 #: src/filters/map/displace.xml:62(para)
+#, fuzzy
 msgid ""
 "This filter uses a <quote>displace-map</quote> to displace corresponding "
 "pixels of the image. This filter displaces the content of the specified "
@@ -2879,6 +3233,15 @@ msgid ""
 "the same size as the drawable </emphasis>. This filter allows interesting "
 "distortion effects."
 msgstr ""
+"Bu filtre, görüntünün ilgili piksellerini yer değiştirmek için bir "
+"<quote>yer değiştirme haritası</quote> kullanır. Bu filtre, belirtilen "
+"çizilebilir öğenin (aktif katman veya seçim) içeriğini, Yatay ve Dikey Yer "
+"Değiştirme'de belirtilen miktarlar ile <quote>yer değiştirme haritası</"
+"quote> çizilebilir öğelerindeki ilgili pikselin yoğunluğu çarpılarak "
+"<quote>yer</quote> değiştirir. <emphasis> Yatay ve Dikey yer değiştirme "
+"haritalarının her ikisi de gri tonlamalı görüntüler olmalı ve çizilebilir "
+"öğeyle aynı boyutta olmalıdır. </emphasis> Bu filtre, ilginç bozulma "
+"efektleri sağlar."
 
 #: src/filters/map/displace.xml:78(para)
 msgid ""
@@ -2895,16 +3258,15 @@ msgid "Displace filter options"
 msgstr "Yer Değiştir süzgeci seçenekleri"
 
 #: src/filters/map/displace.xml:113(term)
-#, fuzzy
-#| msgid "Horizontal displacement"
 msgid "Horizontal/Radial"
-msgstr "Yatay yer değiştirme"
+msgstr "Yatay/Radyal"
 
 #: src/filters/map/displace.xml:114(term)
 msgid "Vertical/Angular"
-msgstr ""
+msgstr "Dikey/Açısal"
 
 #: src/filters/map/displace.xml:116(para)
+#, fuzzy
 msgid ""
 "Clicking on one of the image buttons opens a small file browser with two "
 "panels where you can select a <ulink url=\"https://en.wikipedia.org/wiki/"
@@ -2912,11 +3274,18 @@ msgid ""
 "present on your screen. The right panel shows the layers of the selected "
 "image. Double click on the wanted layer to select the map."
 msgstr ""
+"Görüntü düğmelerinden birine tıkladığınızda, <ulink url=\"https://"
+"en.wikipedia.org/wiki/Displacement_mapping\">yer değiştirme haritasını</"
+"ulink> seçebileceğiniz iki panelli küçük bir dosya tarayıcısı açılır. Sol "
+"panel ekranınızda bulunan görüntüleri gösterir. Sağ panel ise seçilen "
+"görüntünün katmanlarını gösterir. Haritayı seçmek için istediğiniz katmana "
+"çift tıklayın."
 
 #: src/filters/map/displace.xml:124(para)
+#, fuzzy
 msgid ""
 "You can select different maps for Horizontal and Vertical displacements."
-msgstr ""
+msgstr "Yatay ve Dikey yer değiştirmeler için farklı haritalar seçebilirsiniz."
 
 #: src/filters/map/displace.xml:131(term)
 msgid "Displacement Mode"
@@ -2971,16 +3340,21 @@ msgid "Displace filter options (Cartesian)"
 msgstr "Yer Değiştir süzgeci seçenekleri (Kartezyen)"
 
 #: src/filters/map/displace.xml:179(para)
+#, fuzzy
 msgid "Horizontal and vertical displacements are 20 pixels"
-msgstr ""
+msgstr "Yatay ve dikey yer değiştirmeler 20 pikseldir"
 
 #: src/filters/map/displace.xml:185(para)
+#, fuzzy
 msgid ""
 "In both modes, direction and amount of displacement depend on the intensity "
 "of the corresponding pixel in the displacement map."
 msgstr ""
+"Her iki modda da yer değiştirmenin yönü ve miktarı, yer değiştirme "
+"haritasındaki ilgili pikselin yoğunluğuna bağlıdır."
 
 #: src/filters/map/displace.xml:189(para)
+#, fuzzy
 msgid ""
 "The map, that should be a grayscale image, has 256 gray levels (0-255), the "
 "(theoretical) average value is 127.5. The filter displaces image pixels "
@@ -2988,6 +3362,11 @@ msgid ""
 "direction, corresponding to pixels with values from 128 to 255 to the "
 "opposite direction."
 msgstr ""
+"Gri tonlamalı bir görüntü olması gereken harita 256 gri seviyeye (0-255) "
+"sahiptir, (teorik) ortalama değer 127,5'tir. Filtre, haritadaki 127,5'ten "
+"küçük (0 ila 127) değerlere sahip piksellere karşılık gelen görüntü "
+"piksellerini bir yöne, 128 ila 255 arasındaki değerlere sahip piksellere "
+"karşılık gelen pikselleri ters yöne kaydırır."
 
 #: src/filters/map/displace.xml:198(term)
 msgid "Horizontal displacement"
@@ -2998,20 +3377,29 @@ msgid "Vertical displacement"
 msgstr "Dikey yer değiştirme"
 
 #: src/filters/map/displace.xml:201(para)
+#, fuzzy
 msgid ""
 "If the respective option is activated, image pixels corresponding to pixels "
 "from 0 to 127 will be displaced to the right for Horizontal, downwards for "
 "Vertical, image pixels corresponding to pixels from 128 to 255 will be "
 "displaced to the left for Horizontal, upwards for Vertical."
 msgstr ""
+"İlgili seçenek etkinleştirilirse, 0 ila 127 arasındaki piksellere karşılık "
+"gelen görüntü pikselleri Yatay için sağa, Dikey için aşağı doğru, 128 ila "
+"255 arasındaki piksellere karşılık gelen görüntü pikselleri Yatay için sola, "
+"Dikey için yukarı doğru kaydırılır."
 
 #: src/filters/map/displace.xml:221(para)
+#, fuzzy
 msgid ""
 "Scaled intensity = (intensity - 127.5) / 127.5; see <xref linkend=\"gimp-"
 "filter-displace-calculation\"/>."
 msgstr ""
+"Ölçeklendirilmiş yoğunluk = (yoğunluk - 127,5) / 127,5; bkz. <xref "
+"linkend=\"gimp-filter-displace-calculation\"/>."
 
 #: src/filters/map/displace.xml:208(para)
+#, fuzzy
 msgid ""
 "What you enter in input boxes, directly or by using arrow-head buttons, is "
 "not the actual displacement. It's a coefficient used in a "
@@ -3023,15 +3411,29 @@ msgid ""
 "Introducing intensity into formula is important: this allows progressive "
 "displacement by using a gradient map."
 msgstr ""
+"Giriş kutularına doğrudan veya ok tuşlarını kullanarak girdiğiniz değer, "
+"gerçek yer değiştirme değeri değildir. Bu, <inlineequation><alt "
+"role=\"latex\"> $yer değiştirme = (yoğunluk x katsayı)$ </alt><graphic "
+"fileref=\"images/math/displace0.png\" format=\"PNG\"/></inlineequation> "
+"formülünde kullanılan bir katsayıdır ve haritadaki karşılık gelen pikselin "
+"ölçeklendirilmiş yoğunluğuna <placeholder-1/>, girdiğiniz katsayı ile modüle "
+"edilerek pikselin gerçek yer değiştirmesini verir. Formüle yoğunluğu eklemek "
+"önemlidir: bu, gradyan haritası kullanılarak aşamalı yer değiştirme "
+"yapılmasına olanak tanır."
 
 #: src/filters/map/displace.xml:229(para)
+#, fuzzy
 msgid ""
 "This value may be positive or negative. A negative displacement is reverse "
 "of a positive one. The value varies in limits equal to the double of image "
 "dimensions."
 msgstr ""
+"Bu değer pozitif veya negatif olabilir. Negatif yer değiştirme, pozitif yer "
+"değiştirmenin tersidir. Değer, görüntü boyutlarının iki katına eşit "
+"sınırlarda değişir."
 
 #: src/filters/map/displace.xml:234(para)
+#, fuzzy
 msgid ""
 "When you click on the drop-down list button, a list appears where you can "
 "select a displacement map. To be present in this list, an image must respect "
@@ -3043,6 +3445,15 @@ msgid ""
 "result prevision difficult. Map may be different in horizontal and vertical "
 "directions."
 msgstr ""
+"Açılır liste düğmesine tıkladığınızda, yer değiştirme haritasını "
+"seçebileceğiniz bir liste görünür. Bu listede yer alabilmesi için bir "
+"görüntünün iki koşulu karşılaması gerekir. İlk olarak, filtreyi "
+"çağırdığınızda bu görüntü ekranınızda mevcut olmalıdır. Ardından, bu görüntü "
+"orijinal görüntüyle aynı boyutlara sahip olmalıdır. Çoğu zaman, orijinal "
+"görüntünün bir kopyası olacaktır ve bu kopya gri tonlamaya dönüştürülür ve "
+"uygun şekilde gradyanla değiştirilir. RGB görüntüler kullanmak mümkün "
+"olabilir, ancak renk parlaklığı kullanıldığından sonuçların önceden tahmin "
+"edilmesi zorlaşır. Harita yatay ve dikey yönlerde farklı olabilir."
 
 #: src/filters/map/displace.xml:252(title)
 msgid "Polar Displacement Mode"
@@ -3061,6 +3472,7 @@ msgid "Pinch"
 msgstr "Kıstırma"
 
 #: src/filters/map/displace.xml:279(para)
+#, fuzzy
 msgid ""
 "If this option is activated, the radial coordinates (i.e. the distance to "
 "the image's midpoint, the <quote>pole</quote>) of the pixels will be "
@@ -3068,61 +3480,91 @@ msgid ""
 "displaced outwards, image pixels corresponding to pixels from 128 to 255 "
 "will be displaced towards center."
 msgstr ""
+"Bu seçenek etkinleştirilirse, piksellerin radyal koordinatları (yani "
+"görüntünün orta noktasına, <quote>kutba</quote> olan mesafe) "
+"değiştirilecektir. 0 ile 127 arasındaki harita piksellerine karşılık gelen "
+"görüntü pikselleri dışa doğru kaydırılacak, 128 ile 255 arasındaki "
+"piksellere karşılık gelen görüntü pikselleri merkeze doğru kaydırılacaktır."
 
 #: src/filters/map/displace.xml:287(para)
+#, fuzzy
 msgid ""
 "For the values and the displacement map see above (<quote>Horizontal/"
 "Vertical displacement</quote>)."
 msgstr ""
+"Değerler ve yer değiştirme haritası için yukarıya bakın (<quote>Yatay/Dikey "
+"yer değiştirme</quote>)."
 
 #: src/filters/map/displace.xml:291(para)
+#, fuzzy
 msgid ""
 "The displacement is independent from the polar distance, all pixels are "
 "displaced by the same amount. So the image will not only be stretched or "
 "compressed, but also distorted:"
 msgstr ""
+"Deplasman kutupsal mesafeden bağımsızdır, tüm pikseller aynı miktarda yer "
+"değiştirir. Böylece görüntü sadece gerilip sıkıştırılmakla kalmaz, aynı "
+"zamanda bozulur:"
 
 #: src/filters/map/displace.xml:303(para)
 msgid "Image distortion by Pinch option"
 msgstr "Kıstırma seçeneğiyle görüntü bozulması"
 
 #: src/filters/map/displace.xml:306(para)
+#, fuzzy
 msgid ""
 "A 160×120 pixels image, plain white displacement map, and displacement "
 "coefficient 20.0: this results in a 20 pixels displacement towards center. "
 "This is a horizontal reduction in size by 25%, vertical by 33%, and diagonal "
 "by 20%, so the image will be distorted."
 msgstr ""
+"160×120 piksel boyutunda bir görüntü, düz beyaz yer değiştirme haritası ve "
+"20,0 yer değiştirme katsayısı: bu, merkeze doğru 20 piksel yer değiştirme "
+"ile sonuçlanır. Bu, yatay boyutta %25, dikey boyutta %33 ve diyagonal "
+"boyutta %20 boyut küçülmesi anlamına gelir, dolayısıyla görüntü bozulacaktır."
 
 #: src/filters/map/displace.xml:316(term)
 msgid "Whirl"
 msgstr "Sarmal"
 
 #: src/filters/map/displace.xml:318(para)
+#, fuzzy
 msgid ""
 "If this option is activated, the angular coordinates of the image pixels "
 "will be <quote>displaced</quote> by a map pixel dependent amount. For a "
 "plain displacement map, the image will be rotated, otherwise it will be "
 "whirled."
 msgstr ""
+"Bu seçenek etkinleştirilirse, görüntü piksellerinin açısal koordinatları "
+"harita pikseline bağlı bir miktar <quote>kaydırılır</quote>. Düz bir "
+"kaydırma haritası için görüntü döndürülür, aksi takdirde döndürülür."
 
 #: src/filters/map/displace.xml:324(para)
+#, fuzzy
 msgid ""
 "Image pixels corresponding to pixels from 0 to 127 in the map will be "
 "displaced counterclockwise, image pixels corresponding to pixels from 128 to "
 "255 will be displaced clockwise."
 msgstr ""
+"Haritada 0 ile 127 arasındaki piksellere karşılık gelen görüntü pikselleri "
+"saat yönünün tersine, 128 ile 255 arasındaki piksellere karşılık gelen "
+"görüntü pikselleri ise saat yönünde kaydırılacaktır."
 
 #: src/filters/map/displace.xml:329(para)
+#, fuzzy
 msgid "For the values and the displacement map see above."
-msgstr ""
+msgstr "Değerler ve yer değiştirme haritası için yukarıya bakınız."
 
 #: src/filters/map/displace.xml:336(para)
+#, fuzzy
 msgid ""
 "For a plain, non neutral map, if displace mode <quote>Polar</quote> is "
 "enabled, this filter works like <link linkend=\"gimp-filter-whirl-"
 "pinch\">Whirl and Pinch</link>."
 msgstr ""
+"Sade, nötr olmayan bir harita için, yer değiştirme modu <quote>Polar</quote> "
+"etkinleştirildiğinde, bu filtre <link linkend=\"gimp-filter-whirl-"
+"pinch\">Whirl and Pinch</link> gibi çalışır."
 
 #: src/filters/map/displace.xml:344(title)
 msgid "Center displacement"
@@ -3146,10 +3588,12 @@ msgid "Follow following steps:"
 msgstr "Aşağıdaki adımları izleyin:"
 
 #: src/filters/map/displace.xml:357(para)
+#, fuzzy
 msgid "Start with opening your image."
-msgstr ""
+msgstr "Görüntünüzü açarak başlayın."
 
 #: src/filters/map/displace.xml:360(para)
+#, fuzzy
 msgid ""
 "Duplicate this image. Activate this duplicate and make it grayscale "
 "(<menuchoice><guimenu>Image</guimenu><guisubmenu>Mode</"
@@ -3157,8 +3601,14 @@ msgid ""
 "the wanted gradient. This image will be your <emphasis>Displacement map</"
 "emphasis>, with the dimensions of original image."
 msgstr ""
+"Bu görüntüyü çoğaltın. Bu kopyayı etkinleştirin ve gri tonlamalı yapın "
+"(<menuchoice><guimenu>Resim</guimenu><guisubmenu>Mod</"
+"guisubmenu><guimenuitem>Gri Tonlama</guimenuitem></menuchoice>). İstenen "
+"gradyan ile doldurun. Bu görüntü, orijinal görüntünün boyutlarıyla "
+"<emphasis>Yer Değiştirme haritanız</emphasis> olacaktır."
 
 #: src/filters/map/displace.xml:380(para)
+#, fuzzy
 msgid ""
 "Activate original image. Create a <emphasis>Text Layer</emphasis> with your "
 "text. Set layer to image size: right-click on the layer in Layers dialog "
@@ -3166,24 +3616,39 @@ msgid ""
 "that letters in text layer lie on a transparent background; now this filter "
 "doesn't displace transparent pixels. Only letters will be displaced."
 msgstr ""
+"Orijinal görüntüyü etkinleştirin. Metninizi içeren bir <emphasis>Metin "
+"Katmanı</emphasis> oluşturun. Katmanı görüntü boyutuna ayarlayın: Katmanlar "
+"iletişim kutusunda katmana sağ tıklayın ve açılan menüde <quote>Katmanları "
+"görüntü boyutuna ayarla seçeneğine</quote> tıklayın. Metin katmanındaki "
+"harflerin şeffaf bir arka plan üzerinde olduğunu unutmayın; bu filtre şeffaf "
+"pikselleri yerinden oynamaz. Yalnızca harfler yerinden oynatılır."
 
 #: src/filters/map/displace.xml:396(para)
+#, fuzzy
 msgid ""
 "Activate the text layer. Open the Displace filter window. Set parameters, "
 "particularly the displacement coefficient, according to the result in "
 "Preview. Click <guilabel>OK</guilabel>."
 msgstr ""
+"Metin katmanını etkinleştirin. Displace filtre penceresini açın. "
+"Önizleme'deki sonuca göre parametreleri, özellikle de yer değiştirme "
+"katsayısını ayarlayın. <guilabel>Tamam</guilabel> düğmesine tıklayın."
 
 #: src/filters/map/displace.xml:409(para)
+#, fuzzy
 msgid "This method also applies to standard layers:"
-msgstr ""
+msgstr "Bu yöntem standart katmanlar için de geçerlidir:"
 
 #: src/filters/map/displace.xml:417(para)
+#, fuzzy
 msgid ""
 "To get the wanted gradient, first draw a black to white gradient. Then use "
 "the <link linkend=\"gimp-tool-curves\">Curves</link> tool to modify the "
 "gradient curve."
 msgstr ""
+"İstediğiniz degradeyi elde etmek için önce siyahtan beyaza bir degrade "
+"çizin. Ardından degrade eğrisini değiştirmek için <link linkend=\"gimp-tool-"
+"curves\">Eğriler</link> aracını kullanın."
 
 #: src/filters/map/displace.xml:425(title)
 msgid "Using Displace filter to fit a text to an uneven surface"
@@ -3199,55 +3664,79 @@ msgid "Texture and Text"
 msgstr "Doku ve Metin"
 
 #: src/filters/map/displace.xml:450(para)
+#, fuzzy
 msgid "Open the image with an uneven texture."
-msgstr ""
+msgstr "Görüntüyü düzensiz bir doku ile açın."
 
 #: src/filters/map/displace.xml:455(para)
+#, fuzzy
 msgid ""
 "<emphasis role=\"bold\">Create the map</emphasis>: Duplicate the image. Then "
 "select <menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
 "guisubmenu><guimenuitem>Desaturate…</guimenuitem></menuchoice>."
 msgstr ""
+"<emphasis role=\"bold\">Haritayı oluşturun</emphasis>: Görüntüyü çoğaltın. "
+"Ardından şunları seçin <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Desaturate..</"
+"guimenuitem></menuchoice>."
 
 #: src/filters/map/displace.xml:465(para)
+#, fuzzy
 msgid ""
 "<emphasis role=\"bold\">Create the text</emphasis> in Texture image. Move it "
 "if necessary. Make this text layer the same size as the image via <link "
 "linkend=\"gimp-layer-resize-to-image\">Layers to Image Size</link>."
 msgstr ""
+"<emphasis role=\"bold\">Metni</emphasis> Texture görüntüsünde <emphasis "
+"role=\"bold\">oluşturun</emphasis>. Gerekirse taşıyın. Bu metin katmanını "
+"görüntüyle aynı boyutta yapmak için <link linkend=\"gimp-layer-resize-to-"
+"image\">Layers to Image Size</link> komutunu kullanın."
 
 #: src/filters/map/displace.xml:482(para)
 msgid "Displace filter applied."
 msgstr "Yer değiştir süzgeci uygulandı."
 
 #: src/filters/map/displace.xml:472(para)
+#, fuzzy
 msgid ""
 "Open the <quote>Displace</quote> filter. Click on the <guibutton>Aux</"
 "guibutton> button and double-click on the map image thumbnail in the left "
 "panel. <placeholder-1/>"
 msgstr ""
+"<quote>Yer Değiştir</quote> filtresini açın. <guibutton>Aux</guibutton> "
+"düğmesine tıklayın ve sol paneldeki harita görüntüsü küçük resmine çift "
+"tıklayın. <placeholder-1/>"
 
 #: src/filters/map/displace.xml:492(title)
 msgid "Displacement Calculation"
 msgstr "Yer Değiştirme Hesaplaması"
 
 #: src/filters/map/displace.xml:493(para)
+#, fuzzy
 msgid ""
 "The following section will show you how to calculate the amount of "
 "displacement, if you are interested in these details. If you don't want to "
 "know it, you can safely omit this section."
 msgstr ""
+"Aşağıdaki bölümde, bu ayrıntılarla ilgileniyorsanız, yer değiştirme "
+"miktarını nasıl hesaplayacağınız gösterilecektir. Bunu bilmek "
+"istemiyorsanız, bu bölümü atlayabilirsiniz."
 
 #: src/filters/map/displace.xml:498(para)
+#, fuzzy
 msgid ""
 "The overview example showed the horizontal displacement using a coefficient "
 "of 30.0: 19, 8, 4, or 15 pixels, depending on the gray level of the "
 "displacement map's color."
 msgstr ""
+"Genel bakış örneği, 30,0 katsayısı kullanılarak yatay yer değiştirmeyi "
+"gösterdi: yer değiştirme haritasının renginin gri seviyesine bağlı olarak "
+"19, 8, 4 veya 15 piksel."
 
 #: src/filters/map/displace.xml:503(para)
+#, fuzzy
 msgid "Why just these amounts? That's easy:"
-msgstr ""
+msgstr "Neden sadece bu miktarlar? Cevabı basit:"
 
 # Denklem, çevirmiyoruz.
 #: src/filters/map/displace.xml:506(alt)
@@ -3275,6 +3764,7 @@ msgid "$30.0 * \\frac{(60 - 127.5)}{127.5} = -15$"
 msgstr "$30.0 * \\frac{(60 - 127.5)}{127.5} = -15$"
 
 #: src/filters/map/displace.xml:534(para)
+#, fuzzy
 msgid ""
 "If you check these equations, you will notice that the values they give are "
 "not exactly the results we retained in the example (using non-integers, "
@@ -3284,29 +3774,45 @@ msgid ""
 "by a fractional amount</quote> is realized by interpolation. A closer look "
 "at the example image will show it:"
 msgstr ""
+"Bu denklemleri kontrol ederseniz, verdikleri değerlerin tam olarak örnekte "
+"tuttuğumuz sonuçlar olmadığını fark edeceksiniz (tamsayı olmayan sayılar "
+"kullanıldığında, bu şaşırtıcı değildir). Peki, sonuçlar en yakın tam sayıya "
+"yuvarlandı ve ardından pikseller tam sayılı bir miktarla mı yer değiştirdi? "
+"Her piksel tam olarak hesaplanan miktar kadar yer değiştirir; "
+"<quote>kesirli</quote> bir miktar kadar yer değiştirme enterpolasyonla "
+"gerçekleştirilir. Örnek resme daha yakından bakıldığında bu görülecektir:"
 
 #: src/filters/map/displace.xml:545(title)
 msgid "A closer look at the displacement example"
 msgstr "Yer değiştirme örneğine daha yakından bakış"
 
 #: src/filters/map/displace.xml:552(para)
+#, fuzzy
 msgid "A small area zoomed in by 800 percent."
-msgstr ""
+msgstr "Küçük bir alan yüzde 800 oranında yakınlaştırılmıştır."
 
 #: src/filters/map/displace.xml:556(para)
+#, fuzzy
 msgid ""
 "The displacement causes small (one pixel wide) areas of intermediate colors "
 "at the edges of plain color areas. E.g., the black area (zoomed in image) is "
 "caused by a displacement of -4.12, so the intermediate color is 12% black "
 "and 88% gold."
 msgstr ""
+"Yer değiştirme, düz renk alanlarının kenarlarında küçük (bir piksel "
+"genişliğinde) ara renk alanlarına neden olur. Örneğin, siyah alan "
+"(yakınlaştırılmış görüntü) -4,12'lik bir yer değiştirmeden kaynaklanır, bu "
+"nedenle ara renk %12 siyah ve 88% geskidir."
 
 #: src/filters/map/displace.xml:562(para)
+#, fuzzy
 msgid ""
 "So if you select a displacement coefficient of 30.01 instead of 30.00, you "
 "will indeed get a different image, although you won't see the difference, of "
 "course."
 msgstr ""
+"Dolayısıyla, 30.00 yerine 30.01'lik bir yer değiştirme katsayısı seçerseniz, "
+"elbette farkı görmeseniz de gerçekten farklı bir görüntü elde edersiniz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3361,14 +3867,20 @@ msgid "<quote>bump-map</quote> example"
 msgstr "<quote>Derinlik Etkisi Eşlemi</quote> örneği"
 
 #: src/filters/map/bumpmap.xml:30(para)
+#, fuzzy
 msgid ""
 "On the left, the original image that we want to emboss: a solid blue. In the "
 "middle, the bump map: a grayscale image, where black pixels will emboss "
 "backwards and white pixels will emboss forwards. On the right, the bump-"
 "mapped image. The filter adds a shadow effect."
 msgstr ""
+"Solda, kabartmak istediğimiz orijinal görüntü: düz bir mavi. Ortada, çarpma "
+"haritası: siyah piksellerin geriye doğru, beyaz piksellerin ise ileriye "
+"doğru kabartılacağı gri tonlamalı bir görüntü. Sağda, çarpma eşlemeli "
+"görüntü. Filtre bir gölge efekti ekler."
 
 #: src/filters/map/bumpmap.xml:40(para)
+#, fuzzy
 msgid ""
 "This filter creates a 3D effect by embossing an image (the card) and then "
 "mapping it to another image. Bump height depends on pixel luminosity and you "
@@ -3376,6 +3888,12 @@ msgid ""
 "link> for more information about embossing. You can bump map any type of "
 "image, unlike the Emboss filter."
 msgstr ""
+"Bu filtre, bir görüntüyü (kart) kabartarak ve ardından başka bir görüntüyle "
+"eşleyerek 3D efekti oluşturur. Kabartma yüksekliği piksel parlaklığına "
+"bağlıdır ve ışık yönünü ayarlayabilirsiniz. Kabartma hakkında daha fazla "
+"bilgi için <link linkend=\"gimp-filter-emboss\">Kabartma</link> bölümüne "
+"bakın. Kabartma filtresinden farklı olarak her tür görüntüyü "
+"çarpıştırabilirsiniz."
 
 #: src/filters/map/bumpmap.xml:52(para)
 msgid ""
@@ -3396,6 +3914,7 @@ msgid "Height Map"
 msgstr "Yükseklik Haritası"
 
 #: src/filters/map/bumpmap.xml:89(para)
+#, fuzzy
 msgid ""
 "Clicking on this button opens a small file browser with two panels. On the "
 "left panel, images present on your screen are listed: the active image is "
@@ -3403,10 +3922,17 @@ msgid ""
 "double click on the layer you want to use as a map for bump-mapping; the "
 "file browser is closed and a layer thumbnail appears in the Aux Input button."
 msgstr ""
+"Bu düğmeye tıklandığında iki panelli küçük bir dosya tarayıcısı açılır. Sol "
+"panelde, ekranınızda bulunan görüntüler listelenir: aktif görüntü seçilir. "
+"Sağ panelde, etkin görüntünün katman listesini görürsünüz: bump-mapping için "
+"bir harita olarak kullanmak istediğiniz katmana çift tıklayın; dosya "
+"tarayıcısı kapanır ve Aux Input (Yardımcı Giriş) düğmesinde bir katman küçük "
+"resmi görünür."
 
 #: src/filters/map/bumpmap.xml:97(para)
+#, fuzzy
 msgid "The right panel has a <guilabel>Channels</guilabel> tab: TODO"
-msgstr ""
+msgstr "Sağ panelde <guilabel>Kanallar</guilabel> sekmesi vardır: TODO"
 
 #: src/filters/map/bumpmap.xml:103(term)
 msgid "Type"
@@ -3449,55 +3975,73 @@ msgid "Compensate"
 msgstr "Dengele"
 
 #: src/filters/map/bumpmap.xml:140(para)
+#, fuzzy
 msgid ""
 "Bump-mapping tends to darken image. You can compensate this darkening by "
 "checking this option."
 msgstr ""
+"Bump-mapping görüntüyü karartma eğilimindedir. Bu seçeneği işaretleyerek bu "
+"kararmayı telafi edebilirsiniz."
 
 #: src/filters/map/bumpmap.xml:147(term)
 msgid "Invert"
 msgstr "Tersine Çevir"
 
 #: src/filters/map/bumpmap.xml:149(para)
+#, fuzzy
 msgid ""
 "Bright pixels default to bumps and dark pixels to hollows. You can invert "
 "this effect by checking this option."
 msgstr ""
+"Parlak pikseller varsayılan olarak çıkıntılara, koyu pikseller ise çukurlara "
+"karşılık gelir. Bu seçeneği işaretleyerek bu efekti tersine çevirebilirsiniz."
 
 #: src/filters/map/bumpmap.xml:156(term)
 msgid "Tiled"
 msgstr "Döşenmiş"
 
 #: src/filters/map/bumpmap.xml:158(para)
+#, fuzzy
 msgid ""
 "If you check this option, there will be no relief break if you use your "
 "image as a pattern for a web page: patterns will be placed side by side "
 "without any visible joins."
 msgstr ""
+"Bu seçeneği işaretlerseniz, görüntünüzü bir web sayfası için desen olarak "
+"kullanırsanız, aralık bırakılmaz: desenler, görünür bir birleşme yeri "
+"olmadan yan yana yerleştirilir."
 
 #: src/filters/map/bumpmap.xml:166(term)
 msgid "Azimuth"
 msgstr "Azimut"
 
 #: src/filters/map/bumpmap.xml:168(para)
+#, fuzzy
 msgid ""
 "This is about lighting according to the points of the compass (0 - 360). "
 "East (0°) is on the left. Increasing value goes counter-clockwise."
 msgstr ""
+"Bu, pusulanın noktalarına göre (0 - 360) aydınlatma ile ilgilidir. Doğu (0°) "
+"soldadır. Artan değer saat yönünün tersine gider."
 
 #: src/filters/map/bumpmap.xml:176(term)
 msgid "Elevation"
 msgstr "Yükselme"
 
 #: src/filters/map/bumpmap.xml:178(para)
+#, fuzzy
 msgid "That's height from horizon (0.50°), up to zenith (90°)."
-msgstr ""
+msgstr "Bu, ufuktan (0,50°) zirveye (90°) kadar olan yüksekliktir."
 
 #: src/filters/map/bumpmap.xml:186(para)
+#, fuzzy
 msgid ""
 "With this slider, you can vary bump height and hollow depth. The higher the "
 "value, the higher the difference between both. Values vary from 1 to 65."
 msgstr ""
+"Bu kaydırıcı ile çıkıntı yüksekliğini ve oyuk derinliğini "
+"değiştirebilirsiniz. Değer ne kadar yüksek olursa, ikisi arasındaki fark da "
+"o kadar yüksek olur. Değerler 1 ile 65 arasında değişir."
 
 #: src/filters/map/bumpmap.xml:194(term)
 msgid "Offset X"
@@ -3508,16 +4052,20 @@ msgid "Offset Y"
 msgstr "Y Konumu"
 
 #: src/filters/map/bumpmap.xml:197(para)
+#, fuzzy
 msgid ""
 "With this slider, you can adjust the map image position compared with the "
 "image, horizontally (X) and/or vertically (Y)."
 msgstr ""
+"Bu kaydırıcı ile harita görüntüsünün konumunu görüntüye göre yatay (X) ve/"
+"veya dikey (Y) olarak ayarlayabilirsiniz."
 
 #: src/filters/map/bumpmap.xml:205(term)
 msgid "Waterlevel"
 msgstr "Su düzeyi"
 
 #: src/filters/map/bumpmap.xml:207(para)
+#, fuzzy
 msgid ""
 "If your image has transparent areas, they will be treated like dark areas "
 "and will appear as hollows after bump-mapping. With this slider, you can "
@@ -3526,16 +4074,26 @@ msgid ""
 "transparent areas will be treated as bright areas, and then Waterlevel "
 "slider will plane bumps down."
 msgstr ""
+"Görüntünüzde şeffaf alanlar varsa, bunlar karanlık alanlar gibi "
+"değerlendirilir ve kabartma eşlemesi sonrasında oyuklar olarak görünür. Bu "
+"kaydırıcıyı kullanarak, deniz seviyesi yükseliyormuş gibi oyukları "
+"azaltabilirsiniz. Deniz seviyesi değeri 255'e ulaştığında bu oyuklar "
+"kaybolur. Kabartma eşlemesini ters çevir seçeneği işaretliyse, şeffaf "
+"alanlar parlak alanlar olarak değerlendirilir ve Su seviyesi kaydırıcısı "
+"kabartmaları düzleştirir."
 
 #: src/filters/map/bumpmap.xml:219(term)
 msgid "Ambient lighting factor"
 msgstr "Ortam ışıklandırma katsayısı"
 
 #: src/filters/map/bumpmap.xml:221(para)
+#, fuzzy
 msgid ""
 "This slider controls the intensity of ambient light. With high values, "
 "shadows will fade and relief lessen."
 msgstr ""
+"Bu kaydırıcı ortam ışığının yoğunluğunu kontrol eder. Yüksek değerlerde "
+"gölgeler soluklaşır ve rahatlama azalır."
 
 #: src/filters/map/bumpmap.xml:231(title)
 msgid "Using Bumpmap filter"
@@ -3589,10 +4147,6 @@ msgid "Make the map layer invisible and activate the image layer."
 msgstr "Eşlem katmanını görünmez yapın ve görüntü katmanını etkinleştirin."
 
 #: src/filters/map/bumpmap.xml:290(para)
-#, fuzzy
-#| msgid ""
-#| "Bump Map filter applied. Depth = 3. Ambient lighting "
-#| "factor&nbsp;=&nbsp;0.326."
 msgid "Bump Map filter applied. Depth = 3. Ambient lighting factor=0.326."
 msgstr ""
 "Derinlik Etkisi Eşlemi süzgeci uygulandı. Derinlik = 3. Ortam ışıklandırma "
