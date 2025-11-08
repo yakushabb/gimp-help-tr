@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-05 17:06+0000\n"
+"POT-Creation-Date: 2025-11-08 18:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,7 +11,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/semiflatten.xml:73(None)
+#: src/filters/web/semiflatten.xml:77(None)
 msgid ""
 "@@image: 'images/filters/web/semi-flatten-dialog.png'; "
 "md5=beb25606c49f95c0cb98e4d2dec03775"
@@ -19,7 +19,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/semiflatten.xml:114(None)
+#: src/filters/web/semiflatten.xml:118(None)
 msgid ""
 "@@image: 'images/filters/examples/logo-semi-BGcolor.png'; "
 "md5=1077d10cca3a3da7c4c802db52c003c3"
@@ -27,7 +27,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/semiflatten.xml:123(None)
+#: src/filters/web/semiflatten.xml:127(None)
 msgid ""
 "@@image: 'images/filters/examples/logo-semi-transp.png'; "
 "md5=62ce09ee7fbfefee6e425c7caf765b03"
@@ -35,7 +35,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/semiflatten.xml:140(None)
+#: src/filters/web/semiflatten.xml:144(None)
 msgid ""
 "@@image: 'images/filters/examples/logo-semi-flatten.png'; "
 "md5=28544a262be300ef4a0cdfda63dc693d"
@@ -89,102 +89,107 @@ msgid ""
 "much color."
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:52(title)
+#: src/filters/web/semiflatten.xml:50(para)
+msgid ""
+"It is available if your image holds an Alpha channel (see <xref "
+"linkend=\"gimp-layer-alpha-add\"/>). Otherwise, it is disabled."
+msgstr ""
+
+#: src/filters/web/semiflatten.xml:59(title)
 #: src/filters/web/imagemap.xml:55(title)
 msgid "Activating the Filter"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:53(para)
+#: src/filters/web/semiflatten.xml:60(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Web</guisubmenu><guimenuitem>Semi-Flatten</guimenuitem></"
-"menuchoice>. It is available if your image holds an Alpha channel (see <xref "
-"linkend=\"gimp-layer-alpha-add\"/>). Otherwise, it is disabled."
+"menuchoice>."
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:67(title)
+#: src/filters/web/semiflatten.xml:71(title)
 #: src/filters/web/imagemap.xml:100(title)
 msgid "Options"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:69(title)
+#: src/filters/web/semiflatten.xml:73(title)
 msgid "<quote>Semi-Flatten</quote> filter options dialog"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:79(term)
+#: src/filters/web/semiflatten.xml:83(term)
 msgid "Presets"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:80(quote)
+#: src/filters/web/semiflatten.xml:84(quote)
 msgid "Input Type"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:81(term)
+#: src/filters/web/semiflatten.xml:85(term)
 msgid "Clipping"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:82(term)
+#: src/filters/web/semiflatten.xml:86(term)
 msgid "Blending Options"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:83(term)
+#: src/filters/web/semiflatten.xml:87(term)
 msgid "Preview"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:84(term)
+#: src/filters/web/semiflatten.xml:88(term)
 msgid "Merge filter"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:85(term)
+#: src/filters/web/semiflatten.xml:89(term)
 msgid "Split view"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:91(term)
+#: src/filters/web/semiflatten.xml:95(term)
 #: src/filters/web/imagemap.xml:218(term)
 msgid "Color"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:93(para)
+#: src/filters/web/semiflatten.xml:97(para)
 msgid ""
 "This allows you to change the color that is used by this filter to fill in "
 "semi transparent areas. You can click the color bar to select a color, or "
 "use the color picker to pick a color from your image."
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:105(title)
+#: src/filters/web/semiflatten.xml:109(title)
 msgid "Example"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:106(para)
+#: src/filters/web/semiflatten.xml:110(para)
 msgid ""
 "In the example below, the Toolbox Background color is pink, and the image "
 "has feathered edges on a transparent background."
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:111(title)
+#: src/filters/web/semiflatten.xml:115(title)
 msgid "Semi-Flatten example"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:117(para)
+#: src/filters/web/semiflatten.xml:121(para)
 msgid "Active background color"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:126(para)
+#: src/filters/web/semiflatten.xml:130(para)
 msgid "At 800% zoom level"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:130(para)
+#: src/filters/web/semiflatten.xml:134(para)
 msgid ""
 "Full transparency is kept. Semi-transparent pixels are colored with pink "
 "according to their transparency (Alpha value). This image will well merge "
 "into the pink background of the new page."
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:136(title)
+#: src/filters/web/semiflatten.xml:140(title)
 msgid "Semi-Flatten filter applied"
 msgstr ""
 
-#: src/filters/web/semiflatten.xml:143(para)
+#: src/filters/web/semiflatten.xml:147(para)
 msgid "Result, in GIF format, after applying Semi-flatten filter."
 msgstr ""
 

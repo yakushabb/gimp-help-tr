@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-05 17:06+0000\n"
+"POT-Creation-Date: 2025-11-08 18:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,7 +97,7 @@ msgstr ""
 #: src/filters/noise/spread.xml:51(title) src/filters/noise/slur.xml:54(title)
 #: src/filters/noise/rgb-noise.xml:58(title)
 #: src/filters/noise/pick.xml:52(title)
-#: src/filters/noise/hsv-noise.xml:50(title)
+#: src/filters/noise/hsv-noise.xml:55(title)
 #: src/filters/noise/cie-lch-noise.xml:50(title)
 msgid "Activating the Filter"
 msgstr ""
@@ -112,7 +112,7 @@ msgstr ""
 #: src/filters/noise/spread.xml:63(title) src/filters/noise/slur.xml:66(title)
 #: src/filters/noise/rgb-noise.xml:70(title)
 #: src/filters/noise/pick.xml:64(title) src/filters/noise/hurl.xml:62(title)
-#: src/filters/noise/hsv-noise.xml:62(title)
+#: src/filters/noise/hsv-noise.xml:67(title)
 #: src/filters/noise/cie-lch-noise.xml:62(title)
 msgid "Options"
 msgstr ""
@@ -123,7 +123,7 @@ msgstr ""
 
 #: src/filters/noise/spread.xml:75(term) src/filters/noise/slur.xml:77(term)
 #: src/filters/noise/rgb-noise.xml:82(term) src/filters/noise/pick.xml:75(term)
-#: src/filters/noise/hurl.xml:73(term) src/filters/noise/hsv-noise.xml:74(term)
+#: src/filters/noise/hurl.xml:73(term) src/filters/noise/hsv-noise.xml:79(term)
 #: src/filters/noise/cie-lch-noise.xml:74(term)
 msgid "Presets"
 msgstr ""
@@ -131,42 +131,42 @@ msgstr ""
 #: src/filters/noise/spread.xml:76(quote) src/filters/noise/slur.xml:78(quote)
 #: src/filters/noise/rgb-noise.xml:83(quote)
 #: src/filters/noise/pick.xml:76(quote) src/filters/noise/hurl.xml:74(quote)
-#: src/filters/noise/hsv-noise.xml:75(quote)
+#: src/filters/noise/hsv-noise.xml:80(quote)
 #: src/filters/noise/cie-lch-noise.xml:75(quote)
 msgid "Input Type"
 msgstr ""
 
 #: src/filters/noise/spread.xml:77(term) src/filters/noise/slur.xml:79(term)
 #: src/filters/noise/rgb-noise.xml:84(term) src/filters/noise/pick.xml:77(term)
-#: src/filters/noise/hurl.xml:75(term) src/filters/noise/hsv-noise.xml:76(term)
+#: src/filters/noise/hurl.xml:75(term) src/filters/noise/hsv-noise.xml:81(term)
 #: src/filters/noise/cie-lch-noise.xml:76(term)
 msgid "Clipping"
 msgstr ""
 
 #: src/filters/noise/spread.xml:78(term) src/filters/noise/slur.xml:80(term)
 #: src/filters/noise/rgb-noise.xml:85(term) src/filters/noise/pick.xml:78(term)
-#: src/filters/noise/hurl.xml:76(term) src/filters/noise/hsv-noise.xml:77(term)
+#: src/filters/noise/hurl.xml:76(term) src/filters/noise/hsv-noise.xml:82(term)
 #: src/filters/noise/cie-lch-noise.xml:77(term)
 msgid "Blending Options"
 msgstr ""
 
 #: src/filters/noise/spread.xml:79(term) src/filters/noise/slur.xml:81(term)
 #: src/filters/noise/rgb-noise.xml:86(term) src/filters/noise/pick.xml:79(term)
-#: src/filters/noise/hurl.xml:77(term) src/filters/noise/hsv-noise.xml:78(term)
+#: src/filters/noise/hurl.xml:77(term) src/filters/noise/hsv-noise.xml:83(term)
 #: src/filters/noise/cie-lch-noise.xml:78(term)
 msgid "Preview"
 msgstr ""
 
 #: src/filters/noise/spread.xml:80(term) src/filters/noise/slur.xml:82(term)
 #: src/filters/noise/rgb-noise.xml:87(term) src/filters/noise/pick.xml:80(term)
-#: src/filters/noise/hurl.xml:78(term) src/filters/noise/hsv-noise.xml:79(term)
+#: src/filters/noise/hurl.xml:78(term) src/filters/noise/hsv-noise.xml:84(term)
 #: src/filters/noise/cie-lch-noise.xml:79(term)
 msgid "Merge filter"
 msgstr ""
 
 #: src/filters/noise/spread.xml:81(term) src/filters/noise/slur.xml:83(term)
 #: src/filters/noise/rgb-noise.xml:88(term) src/filters/noise/pick.xml:81(term)
-#: src/filters/noise/hurl.xml:79(term) src/filters/noise/hsv-noise.xml:80(term)
+#: src/filters/noise/hurl.xml:79(term) src/filters/noise/hsv-noise.xml:85(term)
 #: src/filters/noise/cie-lch-noise.xml:80(term)
 msgid "Split view"
 msgstr ""
@@ -189,7 +189,7 @@ msgstr ""
 #: src/filters/noise/spread.xml:99(term) src/filters/noise/slur.xml:112(term)
 #: src/filters/noise/rgb-noise.xml:154(term)
 #: src/filters/noise/pick.xml:107(term) src/filters/noise/hurl.xml:106(term)
-#: src/filters/noise/hsv-noise.xml:123(term)
+#: src/filters/noise/hsv-noise.xml:128(term)
 #: src/filters/noise/cie-lch-noise.xml:122(term)
 msgid "Random seed"
 msgstr ""
@@ -197,7 +197,7 @@ msgstr ""
 #: src/filters/noise/spread.xml:100(term) src/filters/noise/slur.xml:113(term)
 #: src/filters/noise/rgb-noise.xml:155(term)
 #: src/filters/noise/pick.xml:108(term) src/filters/noise/hurl.xml:107(term)
-#: src/filters/noise/hsv-noise.xml:124(term)
+#: src/filters/noise/hsv-noise.xml:129(term)
 #: src/filters/noise/cie-lch-noise.xml:123(term)
 msgid "New Seed"
 msgstr ""
@@ -205,7 +205,7 @@ msgstr ""
 #: src/filters/noise/spread.xml:102(para) src/filters/noise/slur.xml:115(para)
 #: src/filters/noise/rgb-noise.xml:157(para)
 #: src/filters/noise/pick.xml:110(para) src/filters/noise/hurl.xml:109(para)
-#: src/filters/noise/hsv-noise.xml:126(para)
+#: src/filters/noise/hsv-noise.xml:131(para)
 #: src/filters/noise/cie-lch-noise.xml:125(para)
 msgid ""
 "This option controls the randomness of the filter. The <guilabel>Random "
@@ -576,7 +576,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/noise/hsv-noise.xml:68(None)
+#: src/filters/noise/hsv-noise.xml:73(None)
 msgid ""
 "@@image: 'images/filters/noise/hsv-noise-dialog.png'; "
 "md5=f062fb4ea037760566b261d405f096c2"
@@ -602,54 +602,58 @@ msgid ""
 "the Hue, Saturation, Value (luminosity) color model."
 msgstr ""
 
-#: src/filters/noise/hsv-noise.xml:51(para)
+#: src/filters/noise/hsv-noise.xml:48(para)
+msgid "If the image is in grayscale mode, this menu entry is disabled."
+msgstr ""
+
+#: src/filters/noise/hsv-noise.xml:56(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Noise</guisubmenu><guimenuitem>HSV Noise…</guimenuitem></"
 "menuchoice>."
 msgstr ""
 
-#: src/filters/noise/hsv-noise.xml:64(title)
+#: src/filters/noise/hsv-noise.xml:69(title)
 msgid "<quote>HSV Noise</quote> filter options"
 msgstr ""
 
-#: src/filters/noise/hsv-noise.xml:86(term)
+#: src/filters/noise/hsv-noise.xml:91(term)
 #: src/filters/noise/cie-lch-noise.xml:86(term)
 msgid "Dulling"
 msgstr ""
 
-#: src/filters/noise/hsv-noise.xml:88(para)
+#: src/filters/noise/hsv-noise.xml:93(para)
 msgid ""
 "This slider (1 - 8) controls how much the new pixel color value is allowed "
 "to be applied compared to the existing color. A low dulling will give an "
 "important hue variation. A high dulling will give a weak variation."
 msgstr ""
 
-#: src/filters/noise/hsv-noise.xml:97(term)
+#: src/filters/noise/hsv-noise.xml:102(term)
 #: src/filters/noise/cie-lch-noise.xml:112(term)
 msgid "Hue"
 msgstr ""
 
-#: src/filters/noise/hsv-noise.xml:99(para)
+#: src/filters/noise/hsv-noise.xml:104(para)
 #: src/filters/noise/cie-lch-noise.xml:114(para)
 msgid ""
 "This slider changes the hue of the pixels in a random pattern. A higher "
 "value will increase the average change from the original pixel color."
 msgstr ""
 
-#: src/filters/noise/hsv-noise.xml:107(term)
+#: src/filters/noise/hsv-noise.xml:112(term)
 msgid "Saturation"
 msgstr ""
 
-#: src/filters/noise/hsv-noise.xml:109(para)
+#: src/filters/noise/hsv-noise.xml:114(para)
 msgid "This slider increases saturation of scattered pixels."
 msgstr ""
 
-#: src/filters/noise/hsv-noise.xml:115(term)
+#: src/filters/noise/hsv-noise.xml:120(term)
 msgid "Value"
 msgstr ""
 
-#: src/filters/noise/hsv-noise.xml:117(para)
+#: src/filters/noise/hsv-noise.xml:122(para)
 msgid "This slider increases brightness of scattered pixels."
 msgstr ""
 

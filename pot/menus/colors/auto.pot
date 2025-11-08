@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-05 17:06+0000\n"
+"POT-Creation-Date: 2025-11-08 18:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/auto/white-balance.xml:65(None)
-#: src/menus/colors/auto/stretch-contrast.xml:119(None)
+#: src/menus/colors/auto/stretch-contrast.xml:109(None)
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:50(None)
 #: src/menus/colors/auto/equalize.xml:54(None)
 #: src/menus/colors/auto/color-enhance.xml:51(None)
@@ -93,7 +93,7 @@ msgid "<quote>White Balance</quote> example"
 msgstr ""
 
 #: src/menus/colors/auto/white-balance.xml:61(title)
-#: src/menus/colors/auto/stretch-contrast.xml:115(title)
+#: src/menus/colors/auto/stretch-contrast.xml:105(title)
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:46(title)
 #: src/menus/colors/auto/equalize.xml:50(title)
 #: src/menus/colors/auto/color-enhance.xml:47(title)
@@ -107,7 +107,7 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/auto/white-balance.xml:76(title)
-#: src/menus/colors/auto/stretch-contrast.xml:130(title)
+#: src/menus/colors/auto/stretch-contrast.xml:120(title)
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:61(title)
 #: src/menus/colors/auto/equalize.xml:65(title)
 msgid "Image after the command"
@@ -120,7 +120,7 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/auto/white-balance.xml:88(para)
-#: src/menus/colors/auto/stretch-contrast.xml:144(para)
+#: src/menus/colors/auto/stretch-contrast.xml:134(para)
 msgid ""
 "Histogram stretching creates gaps between the pixel columns, giving it a "
 "striped look."
@@ -136,7 +136,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/auto/stretch-contrast.xml:134(None)
+#: src/menus/colors/auto/stretch-contrast.xml:124(None)
 msgid ""
 "@@image: 'images/menus/colors/auto/c-stretch.png'; "
 "md5=7af9a55590071580eef4731b51cef312"
@@ -179,7 +179,7 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
-"guisubmenu><guimenuitem>Stretch Contrast</guimenuitem></menuchoice>."
+"guisubmenu><guimenuitem>Stretch Contrast…</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/auto/stretch-contrast.xml:56(title)
@@ -194,63 +194,59 @@ msgstr ""
 msgid "Presets"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:70(para)
-msgid ""
-"<quote>Presets</quote> are a common feature for several Colors commands. You "
-"can find its description in <xref linkend=\"colors-common-features\"/>."
+#: src/menus/colors/auto/stretch-contrast.xml:69(term)
+msgid "Input Type"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:79(term)
+#: src/menus/colors/auto/stretch-contrast.xml:70(term)
+msgid "Clipping"
+msgstr ""
+
+#: src/menus/colors/auto/stretch-contrast.xml:71(term)
+msgid "Blending Options"
+msgstr ""
+
+#: src/menus/colors/auto/stretch-contrast.xml:72(term)
+msgid "Preview"
+msgstr ""
+
+#: src/menus/colors/auto/stretch-contrast.xml:73(term)
+msgid "Merge filter"
+msgstr ""
+
+#: src/menus/colors/auto/stretch-contrast.xml:74(term)
+msgid "Split view"
+msgstr ""
+
+#: src/menus/colors/auto/stretch-contrast.xml:81(term)
 msgid "Keep colors"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:81(para)
+#: src/menus/colors/auto/stretch-contrast.xml:83(para)
 msgid "Impact each color channel with the same amount."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:88(term)
+#: src/menus/colors/auto/stretch-contrast.xml:90(term)
 msgid "Non-linear components"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:90(para)
+#: src/menus/colors/auto/stretch-contrast.xml:92(para)
 msgid ""
 "When set, this option operates on gamma corrected values instead of linear "
 "RGB."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:98(term)
-msgid "Blending Options"
-msgstr ""
-
-#: src/menus/colors/auto/stretch-contrast.xml:99(term)
-msgid "Preview"
-msgstr ""
-
-#: src/menus/colors/auto/stretch-contrast.xml:100(term)
-msgid "Merge filter"
-msgstr ""
-
-#: src/menus/colors/auto/stretch-contrast.xml:101(term)
-msgid "Split view"
-msgstr ""
-
-#: src/menus/colors/auto/stretch-contrast.xml:103(para)
-msgid ""
-"These are common features described in <xref linkend=\"colors-common-"
-"features\"/>."
-msgstr ""
-
-#: src/menus/colors/auto/stretch-contrast.xml:113(title)
+#: src/menus/colors/auto/stretch-contrast.xml:103(title)
 msgid "<quote>Stretch Contrast</quote> Example"
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:122(para)
+#: src/menus/colors/auto/stretch-contrast.xml:112(para)
 msgid ""
 "The layer and its Red, Green and Blue histograms before <quote>Stretch "
 "Contrast</quote>."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:137(para)
+#: src/menus/colors/auto/stretch-contrast.xml:127(para)
 msgid ""
 "The layer and its Red and Green and Blue histograms after <quote>Stretch "
 "Contrast</quote>. The pixel columns do not reach the right end of the "
