@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-02-26 21:19+0000\n"
-"PO-Revision-Date: 2025-11-06 15:34+0300\n"
+"POT-Creation-Date: 2025-11-08 18:26+0000\n"
+"PO-Revision-Date: 2025-11-08 22:03+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/semiflatten.xml:73(None)
+#: src/filters/web/semiflatten.xml:77(None)
 msgid ""
 "@@image: 'images/filters/web/semi-flatten-dialog.png'; "
 "md5=beb25606c49f95c0cb98e4d2dec03775"
@@ -31,7 +31,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/semiflatten.xml:114(None)
+#: src/filters/web/semiflatten.xml:118(None)
 msgid ""
 "@@image: 'images/filters/examples/logo-semi-BGcolor.png'; "
 "md5=1077d10cca3a3da7c4c802db52c003c3"
@@ -41,7 +41,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/semiflatten.xml:123(None)
+#: src/filters/web/semiflatten.xml:127(None)
 msgid ""
 "@@image: 'images/filters/examples/logo-semi-transp.png'; "
 "md5=62ce09ee7fbfefee6e425c7caf765b03"
@@ -51,7 +51,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/semiflatten.xml:140(None)
+#: src/filters/web/semiflatten.xml:144(None)
 msgid ""
 "@@image: 'images/filters/examples/logo-semi-flatten.png'; "
 "md5=28544a262be300ef4a0cdfda63dc693d"
@@ -121,67 +121,72 @@ msgstr ""
 "yumuşatmayı yeniden oluşturur. Tamamen saydam pikseller renk almaz. Çok "
 "saydam pikseller az renk alır ve az saydam pikseller çok renk alır."
 
-#: src/filters/web/semiflatten.xml:52(title)
+#: src/filters/web/semiflatten.xml:50(para)
+msgid ""
+"It is available if your image holds an Alpha channel (see <xref "
+"linkend=\"gimp-layer-alpha-add\"/>). Otherwise, it is disabled."
+msgstr ""
+"Görüntünün Alfa kanalı varsa kullanılabilir (bkz. <xref linkend=\"gimp-layer-"
+"alpha-add\"/>). Diğer durumda devre dışı bırakılır."
+
+#: src/filters/web/semiflatten.xml:59(title)
 #: src/filters/web/imagemap.xml:55(title)
 msgid "Activating the Filter"
 msgstr "Süzgeci Etkinleştirme"
 
-#: src/filters/web/semiflatten.xml:53(para)
+#: src/filters/web/semiflatten.xml:60(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Web</guisubmenu><guimenuitem>Semi-Flatten</guimenuitem></"
-"menuchoice>. It is available if your image holds an Alpha channel (see <xref "
-"linkend=\"gimp-layer-alpha-add\"/>). Otherwise, it is disabled."
+"menuchoice>."
 msgstr ""
 "Bu süzgeç ana menüde <menuchoice><guimenu>Süzgeçler</"
 "guimenu><guisubmenu>Web</guisubmenu><guimenuitem>Yarı Düzleştir…</"
-"guimenuitem></menuchoice> altında bulunur. Görüntünün Alfa kanalı varsa "
-"kullanılabilir (bkz. <xref linkend=\"gimp-layer-alpha-add\"/>). Diğer "
-"durumda devre dışı bırakılır."
+"guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/web/semiflatten.xml:67(title)
+#: src/filters/web/semiflatten.xml:71(title)
 #: src/filters/web/imagemap.xml:100(title)
 msgid "Options"
 msgstr "Seçenekler"
 
-#: src/filters/web/semiflatten.xml:69(title)
+#: src/filters/web/semiflatten.xml:73(title)
 msgid "<quote>Semi-Flatten</quote> filter options dialog"
 msgstr "<quote>Yarı Düzleştir</quote> süzgeci seçenekleri"
 
-#: src/filters/web/semiflatten.xml:79(term)
+#: src/filters/web/semiflatten.xml:83(term)
 msgid "Presets"
 msgstr "Önayarlar"
 
-#: src/filters/web/semiflatten.xml:80(quote)
+#: src/filters/web/semiflatten.xml:84(quote)
 msgid "Input Type"
 msgstr "Girdi Türü"
 
-#: src/filters/web/semiflatten.xml:81(term)
+#: src/filters/web/semiflatten.xml:85(term)
 msgid "Clipping"
 msgstr "Kırpma"
 
-#: src/filters/web/semiflatten.xml:82(term)
+#: src/filters/web/semiflatten.xml:86(term)
 msgid "Blending Options"
 msgstr "Harmanlama Seçenekleri"
 
-#: src/filters/web/semiflatten.xml:83(term)
+#: src/filters/web/semiflatten.xml:87(term)
 msgid "Preview"
 msgstr "Ön izleme"
 
-#: src/filters/web/semiflatten.xml:84(term)
+#: src/filters/web/semiflatten.xml:88(term)
 msgid "Merge filter"
 msgstr "Süzgeci birleştir"
 
-#: src/filters/web/semiflatten.xml:85(term)
+#: src/filters/web/semiflatten.xml:89(term)
 msgid "Split view"
 msgstr "Bölünmüş görünüm"
 
-#: src/filters/web/semiflatten.xml:91(term)
+#: src/filters/web/semiflatten.xml:95(term)
 #: src/filters/web/imagemap.xml:218(term)
 msgid "Color"
 msgstr "Renk"
 
-#: src/filters/web/semiflatten.xml:93(para)
+#: src/filters/web/semiflatten.xml:97(para)
 msgid ""
 "This allows you to change the color that is used by this filter to fill in "
 "semi transparent areas. You can click the color bar to select a color, or "
@@ -191,11 +196,11 @@ msgstr ""
 "rengi değiştirmenizi sağlar. Renk seçmek için renk çubuğuna tıklayabilir ya "
 "da görüntünüzden renk seçmek için renk seçiciyi kullanabilirsiniz."
 
-#: src/filters/web/semiflatten.xml:105(title)
+#: src/filters/web/semiflatten.xml:109(title)
 msgid "Example"
 msgstr "Örnek"
 
-#: src/filters/web/semiflatten.xml:106(para)
+#: src/filters/web/semiflatten.xml:110(para)
 msgid ""
 "In the example below, the Toolbox Background color is pink, and the image "
 "has feathered edges on a transparent background."
@@ -203,19 +208,19 @@ msgstr ""
 "Aşağıdaki örnekte, Araç Kutusu Arka Plan rengi pembedir ve görüntü saydam "
 "arka plan üzerinde tüylü kenarlara sahiptir."
 
-#: src/filters/web/semiflatten.xml:111(title)
+#: src/filters/web/semiflatten.xml:115(title)
 msgid "Semi-Flatten example"
 msgstr "Yarı Düzleştir örneği"
 
-#: src/filters/web/semiflatten.xml:117(para)
+#: src/filters/web/semiflatten.xml:121(para)
 msgid "Active background color"
 msgstr "Etkin arka plan rengi"
 
-#: src/filters/web/semiflatten.xml:126(para)
+#: src/filters/web/semiflatten.xml:130(para)
 msgid "At 800% zoom level"
 msgstr "%800 yakınlaştırma düzeyinde"
 
-#: src/filters/web/semiflatten.xml:130(para)
+#: src/filters/web/semiflatten.xml:134(para)
 msgid ""
 "Full transparency is kept. Semi-transparent pixels are colored with pink "
 "according to their transparency (Alpha value). This image will well merge "
@@ -225,11 +230,11 @@ msgstr ""
 "göre pembe ile renklendirilir. Bu görüntü yeni sayfanın pembe arka planıyla "
 "birleştirilir."
 
-#: src/filters/web/semiflatten.xml:136(title)
+#: src/filters/web/semiflatten.xml:140(title)
 msgid "Semi-Flatten filter applied"
 msgstr "Yarı Düzleştir süzgeci uygulandı"
 
-#: src/filters/web/semiflatten.xml:143(para)
+#: src/filters/web/semiflatten.xml:147(para)
 msgid "Result, in GIF format, after applying Semi-flatten filter."
 msgstr "Sonuç, GIF biçiminde, Yarı Düzleştir süzgeci uygulandıktan sonra."
 
@@ -366,6 +371,7 @@ msgid ""
 msgstr ""
 "Pencere küçüktür, ancak büyütebilirsiniz. Ana kullanışlı alanlar şunlardır:"
 
+# split sentence
 #: src/filters/web/imagemap.xml:70(para)
 #, fuzzy
 msgid ""
@@ -379,6 +385,7 @@ msgstr ""
 "özelliklerini düzenlemek için ve son olarak biri seçilen bir bölgeyi silmek "
 "için; bu işlevleri Eşlemeler menüsünden çağırabilirsiniz,"
 
+# split sentence
 #: src/filters/web/imagemap.xml:78(para)
 #, fuzzy
 msgid ""
@@ -388,6 +395,7 @@ msgstr ""
 "hemen sağ tarafta ise ilgili araçlarla istediğiniz tüm şekil alanlarını "
 "çizebileceğiniz çalışma alanınız yer alıyor,"
 
+# split sentence
 #: src/filters/web/imagemap.xml:84(para)
 #, fuzzy
 msgid ""
@@ -397,6 +405,7 @@ msgstr ""
 "sağda dikey bir simge seti görüntülenir; kullanımı açıktır, ancak bir yardım "
 "açılır penceresi size her işlev hakkında bazı bilgiler verir,"
 
+# split sentence
 #: src/filters/web/imagemap.xml:90(para)
 #, fuzzy
 msgid ""
@@ -514,7 +523,6 @@ msgid "Area List"
 msgstr "Alan Listesi"
 
 #: src/filters/web/imagemap.xml:203(para)
-#, fuzzy
 msgid "Here you can hide or show the selection area."
 msgstr "Burada seçim alanını gizleyebilir ya da gösterebilirsiniz."
 
@@ -523,12 +531,11 @@ msgid "Source…"
 msgstr "Kaynak…"
 
 #: src/filters/web/imagemap.xml:211(para)
-#, fuzzy
 msgid ""
 "Here you see the raw data as you would save it to or read it from a file."
 msgstr ""
-"Burada ham verileri bir dosyaya kaydedeceğiniz ya da bir dosyadan "
-"okuyacağınız şekilde görürsünüz."
+"Burada ham verileri dosyaya kaydedeceğiniz ya da dosyadan okuyacağınız "
+"şekilde görürsünüz."
 
 #: src/filters/web/imagemap.xml:219(term)
 msgid "Gray"
@@ -714,7 +721,6 @@ msgid "The Tool Bar"
 msgstr "Araç Çubuğu"
 
 #: src/filters/web/imagemap.xml:370(para)
-#, fuzzy
 msgid ""
 "Most entries here are just shortcuts for some functions already described. "
 "Exceptions:"
@@ -731,11 +737,9 @@ msgid "Move Area to Bottom"
 msgstr "En Alt Bölgeye Taşı"
 
 #: src/filters/web/imagemap.xml:379(para)
-#, fuzzy
 msgid "Here you can move an area entry to the bottom or top of the area list."
 msgstr ""
-"Burada bir alan girişini alan listesinin altına ya da üstüne "
-"taşıyabilirsiniz."
+"Burada alan girişini alan listesinin altına ya da üstüne taşıyabilirsiniz."
 
 #: src/filters/web/imagemap.xml:389(title)
 #: src/filters/web/imagemap.xml:391(title)
@@ -768,9 +772,8 @@ msgstr ""
 "çağırabilirsiniz."
 
 #: src/filters/web/imagemap.xml:411(para)
-#, fuzzy
 msgid "Note that the areas should not overlap."
-msgstr "Alanların üst üste gelmemesi gerektiğini unutmayın."
+msgstr "Alanların üst üste gelmemesi gerekir."
 
 #: src/filters/web/imagemap.xml:418(title)
 msgid "The selection area"

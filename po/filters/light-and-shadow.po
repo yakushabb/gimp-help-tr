@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-22 20:15+0000\n"
-"PO-Revision-Date: 2025-11-06 13:05+0300\n"
+"POT-Creation-Date: 2025-11-08 18:26+0000\n"
+"PO-Revision-Date: 2025-11-08 21:54+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -60,7 +60,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/xach-effect.xml:110(None)
+#: src/filters/light-and-shadow/xach-effect.xml:115(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/xach-effect.png'; "
 "md5=7e2c0b2bb72aef5a46675a902a913c5f"
@@ -204,24 +204,32 @@ msgstr ""
 "farklı renkler seçebilir ve ofsetlerin miktarını ve yönlerini "
 "değiştirebilirsiniz."
 
-#: src/filters/light-and-shadow/xach-effect.xml:88(title)
+#: src/filters/light-and-shadow/xach-effect.xml:86(para)
+#: src/filters/light-and-shadow/sparkle.xml:49(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:55(para)
+#: src/filters/light-and-shadow/gflare.xml:49(para)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:60(para)
+msgid "If the image is in indexed mode, this menu entry is disabled."
+msgstr "Görüntü indeksli kipte ise, bu menü girişi devre dışı bırakılır."
+
+#: src/filters/light-and-shadow/xach-effect.xml:93(title)
 #: src/filters/light-and-shadow/vignette.xml:109(title)
 #: src/filters/light-and-shadow/supernova.xml:50(title)
-#: src/filters/light-and-shadow/sparkle.xml:51(title)
-#: src/filters/light-and-shadow/perspective-shadow.xml:57(title)
-#: src/filters/light-and-shadow/long-shadow.xml:27(title)
-#: src/filters/light-and-shadow/lighting.xml:50(title)
+#: src/filters/light-and-shadow/sparkle.xml:56(title)
+#: src/filters/light-and-shadow/perspective-shadow.xml:62(title)
+#: src/filters/light-and-shadow/long-shadow.xml:34(title)
+#: src/filters/light-and-shadow/lighting.xml:56(title)
 #: src/filters/light-and-shadow/lens-flare.xml:50(title)
-#: src/filters/light-and-shadow/gflare.xml:51(title)
+#: src/filters/light-and-shadow/gflare.xml:56(title)
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:50(title)
 #: src/filters/light-and-shadow/gegl-bevel.xml:40(title)
-#: src/filters/light-and-shadow/drop-shadow.xml:50(title)
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:62(title)
+#: src/filters/light-and-shadow/drop-shadow.xml:57(title)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:67(title)
 #: src/filters/light-and-shadow/bloom.xml:45(title)
 msgid "Activating the Filter"
 msgstr "Süzgeci Etkinleştirme"
 
-#: src/filters/light-and-shadow/xach-effect.xml:89(para)
+#: src/filters/light-and-shadow/xach-effect.xml:94(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Light and Shadow</guisubmenu><guimenuitem>Xach-Effect…</"
@@ -231,24 +239,24 @@ msgstr ""
 "guimenu><guisubmenu>Işık ve Gölge</guisubmenu><guimenuitem>Cam Etkisi…</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/light-and-shadow/xach-effect.xml:100(title)
+#: src/filters/light-and-shadow/xach-effect.xml:105(title)
 #: src/filters/light-and-shadow/vignette.xml:121(title)
 #: src/filters/light-and-shadow/supernova.xml:62(title)
-#: src/filters/light-and-shadow/sparkle.xml:63(title)
-#: src/filters/light-and-shadow/perspective-shadow.xml:69(title)
-#: src/filters/light-and-shadow/long-shadow.xml:44(title)
-#: src/filters/light-and-shadow/lighting.xml:62(title)
+#: src/filters/light-and-shadow/sparkle.xml:68(title)
+#: src/filters/light-and-shadow/perspective-shadow.xml:74(title)
+#: src/filters/light-and-shadow/long-shadow.xml:46(title)
+#: src/filters/light-and-shadow/lighting.xml:68(title)
 #: src/filters/light-and-shadow/lens-flare.xml:61(title)
-#: src/filters/light-and-shadow/gflare.xml:63(title)
+#: src/filters/light-and-shadow/gflare.xml:68(title)
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:62(title)
 #: src/filters/light-and-shadow/gegl-bevel.xml:52(title)
-#: src/filters/light-and-shadow/drop-shadow.xml:67(title)
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:74(title)
+#: src/filters/light-and-shadow/drop-shadow.xml:69(title)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:79(title)
 #: src/filters/light-and-shadow/bloom.xml:57(title)
 msgid "Options"
 msgstr "Seçenekler"
 
-#: src/filters/light-and-shadow/xach-effect.xml:101(para)
+#: src/filters/light-and-shadow/xach-effect.xml:106(para)
 #, fuzzy
 msgid ""
 "There are two groups of options, each controlling the highlight or the "
@@ -257,19 +265,19 @@ msgstr ""
 "Her biri vurguyu veya gölgeyi kontrol eden iki grup seçenek ve seçim "
 "davranışı için bir onay kutusu vardır."
 
-#: src/filters/light-and-shadow/xach-effect.xml:106(title)
+#: src/filters/light-and-shadow/xach-effect.xml:111(title)
 msgid "<quote>Xach-Effect</quote> options"
 msgstr "<quote>Cam Etkisi</quote> seçenekleri"
 
-#: src/filters/light-and-shadow/xach-effect.xml:116(term)
+#: src/filters/light-and-shadow/xach-effect.xml:121(term)
 msgid "Highlight X offset"
 msgstr "Vurgu X konumu"
 
-#: src/filters/light-and-shadow/xach-effect.xml:117(term)
+#: src/filters/light-and-shadow/xach-effect.xml:122(term)
 msgid "Highlight Y offset"
 msgstr "Vurgu Y konumu"
 
-#: src/filters/light-and-shadow/xach-effect.xml:119(para)
+#: src/filters/light-and-shadow/xach-effect.xml:124(para)
 #, fuzzy
 msgid ""
 "The selection's left and top edge are painted with the highlight color. The "
@@ -284,11 +292,11 @@ msgstr ""
 "renklendirilir. Ofset 0'dan büyükse, sağ (X ofset &gt; 0) veya alt (Y ofset "
 "&gt; 0) alan boyanacaktır."
 
-#: src/filters/light-and-shadow/xach-effect.xml:130(term)
+#: src/filters/light-and-shadow/xach-effect.xml:135(term)
 msgid "Highlight color"
 msgstr "Vurgu rengi"
 
-#: src/filters/light-and-shadow/xach-effect.xml:132(para)
+#: src/filters/light-and-shadow/xach-effect.xml:137(para)
 #, fuzzy
 msgid ""
 "This is the color used to highlight the selected area. It defaults to white, "
@@ -299,11 +307,11 @@ msgstr ""
 "beyazdır, ancak renk örneği düğmesine tıkladığınızda bir renk seçici açılır "
 "ve başka herhangi bir renk seçebilirsiniz."
 
-#: src/filters/light-and-shadow/xach-effect.xml:140(term)
+#: src/filters/light-and-shadow/xach-effect.xml:145(term)
 msgid "Highlight opacity"
 msgstr "Vurgu matlığı"
 
-#: src/filters/light-and-shadow/xach-effect.xml:142(para)
+#: src/filters/light-and-shadow/xach-effect.xml:147(para)
 #, fuzzy
 msgid ""
 "The selection will be covered by a partially transparent area filled with "
@@ -316,16 +324,16 @@ msgstr ""
 "layer-mask\">katman maskesi</link> kullanılacağından, değer 0 (tam "
 "saydamlık) ile 255 (tam opaklık) arasında değişir."
 
-#: src/filters/light-and-shadow/xach-effect.xml:149(para)
+#: src/filters/light-and-shadow/xach-effect.xml:154(para)
 #, fuzzy
 msgid "The highlight opacity defaults to 66, which is equivalent to 26%."
 msgstr "Vurgu opaklığı varsayılan olarak 66'dır, bu da %26'ya eşittir."
 
-#: src/filters/light-and-shadow/xach-effect.xml:155(term)
+#: src/filters/light-and-shadow/xach-effect.xml:160(term)
 msgid "Drop shadow options"
 msgstr "Gölge seçenekleri"
 
-#: src/filters/light-and-shadow/xach-effect.xml:157(para)
+#: src/filters/light-and-shadow/xach-effect.xml:162(para)
 #, fuzzy
 msgid ""
 "These options work like the respective <link linkend=\"script-fu-drop-"
@@ -334,28 +342,28 @@ msgstr ""
 "Bu seçenekler, sırasıyla <link linkend=\"script-fu-drop-shadow\">Drop "
 "Shadow</link> seçenekleri gibi çalışır (boyutlandırma yapılmadan). Kısaca:"
 
-#: src/filters/light-and-shadow/xach-effect.xml:164(term)
+#: src/filters/light-and-shadow/xach-effect.xml:169(term)
 msgid "Drop shadow color"
 msgstr "Gölge rengi"
 
-#: src/filters/light-and-shadow/xach-effect.xml:166(para)
+#: src/filters/light-and-shadow/xach-effect.xml:171(para)
 msgid "Click on the button to open a color selector."
 msgstr "Renk seçiciyi açmak için düğmeye tıklayın."
 
-#: src/filters/light-and-shadow/xach-effect.xml:172(term)
+#: src/filters/light-and-shadow/xach-effect.xml:177(term)
 msgid "Drop shadow opacity"
 msgstr "Gölge matlığı"
 
-#: src/filters/light-and-shadow/xach-effect.xml:174(para)
+#: src/filters/light-and-shadow/xach-effect.xml:179(para)
 #, fuzzy
 msgid "The opacity (0% - 100%) of the layer containing the shadow."
 msgstr "Gölgeyi içeren katmanın opaklığı (0% - 100%)."
 
-#: src/filters/light-and-shadow/xach-effect.xml:180(term)
+#: src/filters/light-and-shadow/xach-effect.xml:185(term)
 msgid "Drop shadow blur radius"
 msgstr "Gölge bulanıklık yarıçapı"
 
-#: src/filters/light-and-shadow/xach-effect.xml:182(para)
+#: src/filters/light-and-shadow/xach-effect.xml:187(para)
 #, fuzzy
 msgid ""
 "The radius used by the <link linkend=\"gimp-filter-gaussian-blur\">Gaussian "
@@ -364,26 +372,26 @@ msgstr ""
 "Gölgeye uygulanacak <link linkend=\"gimp-filter-gaussian-blur\">Gauss "
 "bulanıklaştırma</link> filtresi tarafından kullanılan yarıçap."
 
-#: src/filters/light-and-shadow/xach-effect.xml:190(term)
+#: src/filters/light-and-shadow/xach-effect.xml:195(term)
 msgid "Drop shadow X offset"
 msgstr "Gölge X konumu"
 
-#: src/filters/light-and-shadow/xach-effect.xml:191(term)
+#: src/filters/light-and-shadow/xach-effect.xml:196(term)
 msgid "Drop shadow Y offset"
 msgstr "Gölge Y konumu"
 
-#: src/filters/light-and-shadow/xach-effect.xml:193(para)
+#: src/filters/light-and-shadow/xach-effect.xml:198(para)
 #, fuzzy
 msgid ""
 "Direction and amount, by which the shadow will be moved from the selection."
 msgstr "Gölgenin seçimden taşınacağı yön ve miktar."
 
 # Arayüzde böyle kullanılmış
-#: src/filters/light-and-shadow/xach-effect.xml:203(term)
+#: src/filters/light-and-shadow/xach-effect.xml:208(term)
 msgid "Keep selection"
 msgstr "Seçileni koru"
 
-#: src/filters/light-and-shadow/xach-effect.xml:205(para)
+#: src/filters/light-and-shadow/xach-effect.xml:210(para)
 msgid ""
 "If checked, the active selection will remain active when the filter has been "
 "applied."
@@ -582,80 +590,80 @@ msgstr "<quote>Örtü</quote> süzgeci seçenekleri"
 
 #: src/filters/light-and-shadow/vignette.xml:133(term)
 #: src/filters/light-and-shadow/supernova.xml:74(term)
-#: src/filters/light-and-shadow/long-shadow.xml:57(term)
+#: src/filters/light-and-shadow/long-shadow.xml:59(term)
 #: src/filters/light-and-shadow/lens-flare.xml:73(term)
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:74(term)
 #: src/filters/light-and-shadow/gegl-bevel.xml:64(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:79(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:81(term)
 #: src/filters/light-and-shadow/bloom.xml:69(term)
 msgid "Presets"
 msgstr "Önayarlar"
 
 #: src/filters/light-and-shadow/vignette.xml:134(quote)
 #: src/filters/light-and-shadow/supernova.xml:75(quote)
-#: src/filters/light-and-shadow/long-shadow.xml:58(quote)
+#: src/filters/light-and-shadow/long-shadow.xml:60(quote)
 #: src/filters/light-and-shadow/lens-flare.xml:74(quote)
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:75(quote)
 #: src/filters/light-and-shadow/gegl-bevel.xml:65(quote)
-#: src/filters/light-and-shadow/drop-shadow.xml:80(quote)
+#: src/filters/light-and-shadow/drop-shadow.xml:82(quote)
 #: src/filters/light-and-shadow/bloom.xml:70(quote)
 msgid "Input Type"
 msgstr "Girdi Türü"
 
 #: src/filters/light-and-shadow/vignette.xml:135(term)
 #: src/filters/light-and-shadow/supernova.xml:76(term)
-#: src/filters/light-and-shadow/long-shadow.xml:59(term)
+#: src/filters/light-and-shadow/long-shadow.xml:61(term)
 #: src/filters/light-and-shadow/lens-flare.xml:75(term)
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:76(term)
 #: src/filters/light-and-shadow/gegl-bevel.xml:66(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:81(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:83(term)
 #: src/filters/light-and-shadow/bloom.xml:71(term)
 msgid "Clipping"
 msgstr "Kırpma"
 
 #: src/filters/light-and-shadow/vignette.xml:136(term)
 #: src/filters/light-and-shadow/supernova.xml:77(term)
-#: src/filters/light-and-shadow/long-shadow.xml:60(term)
+#: src/filters/light-and-shadow/long-shadow.xml:62(term)
 #: src/filters/light-and-shadow/lens-flare.xml:76(term)
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:77(term)
 #: src/filters/light-and-shadow/gegl-bevel.xml:67(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:82(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:84(term)
 #: src/filters/light-and-shadow/bloom.xml:72(term)
 msgid "Blending Options"
 msgstr "Harmanlama Seçenekleri"
 
 #: src/filters/light-and-shadow/vignette.xml:137(term)
 #: src/filters/light-and-shadow/supernova.xml:78(term)
-#: src/filters/light-and-shadow/sparkle.xml:75(term)
-#: src/filters/light-and-shadow/long-shadow.xml:61(term)
-#: src/filters/light-and-shadow/lighting.xml:74(term)
+#: src/filters/light-and-shadow/sparkle.xml:80(term)
+#: src/filters/light-and-shadow/long-shadow.xml:63(term)
+#: src/filters/light-and-shadow/lighting.xml:80(term)
 #: src/filters/light-and-shadow/lens-flare.xml:77(term)
-#: src/filters/light-and-shadow/gflare.xml:71(term)
+#: src/filters/light-and-shadow/gflare.xml:76(term)
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:78(term)
 #: src/filters/light-and-shadow/gegl-bevel.xml:68(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:83(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:85(term)
 #: src/filters/light-and-shadow/bloom.xml:73(term)
 msgid "Preview"
 msgstr "Ön izleme"
 
 #: src/filters/light-and-shadow/vignette.xml:138(term)
 #: src/filters/light-and-shadow/supernova.xml:79(term)
-#: src/filters/light-and-shadow/long-shadow.xml:62(term)
+#: src/filters/light-and-shadow/long-shadow.xml:64(term)
 #: src/filters/light-and-shadow/lens-flare.xml:78(term)
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:79(term)
 #: src/filters/light-and-shadow/gegl-bevel.xml:69(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:84(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:86(term)
 #: src/filters/light-and-shadow/bloom.xml:74(term)
 msgid "Merge filter"
 msgstr "Süzgeci birleştir"
 
 #: src/filters/light-and-shadow/vignette.xml:139(term)
 #: src/filters/light-and-shadow/supernova.xml:80(term)
-#: src/filters/light-and-shadow/long-shadow.xml:63(term)
+#: src/filters/light-and-shadow/long-shadow.xml:65(term)
 #: src/filters/light-and-shadow/lens-flare.xml:79(term)
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:80(term)
 #: src/filters/light-and-shadow/gegl-bevel.xml:70(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:85(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:87(term)
 #: src/filters/light-and-shadow/bloom.xml:75(term)
 msgid "Split view"
 msgstr "Bölünmüş görünüm"
@@ -665,10 +673,15 @@ msgid "Vignette shape"
 msgstr "Örtü şekli"
 
 #: src/filters/light-and-shadow/vignette.xml:147(para)
+#, fuzzy
+#| msgid ""
+#| "The following shapes are available: <guilabel>Circle</guilabel>, "
+#| "<guilabel>Square</guilabel>, <guilabel>Diamond</guilabel>, "
+#| "<guilabel>Horizontal</guilabel> and <guilabel>Vertical</guilabel>"
 msgid ""
 "The following shapes are available: <guilabel>Circle</guilabel>, "
 "<guilabel>Square</guilabel>, <guilabel>Diamond</guilabel>, "
-"<guilabel>Horizontal</guilabel> and <guilabel>Vertical</guilabel>"
+"<guilabel>Horizontal</guilabel> and <guilabel>Vertical</guilabel>."
 msgstr ""
 "Aşağıdaki şekiller kullanılabilir: <guilabel>Daire</guilabel>, "
 "<guilabel>Kare</guilabel>, <guilabel>Karo</guilabel>, <guilabel>Yatay</"
@@ -694,8 +707,8 @@ msgstr "Örtü şekli (örneğin elips ya da daire) Oran ayarına bağlıdır."
 
 #: src/filters/light-and-shadow/vignette.xml:164(term)
 #: src/filters/light-and-shadow/supernova.xml:97(term)
-#: src/filters/light-and-shadow/gflare.xml:111(term)
-#: src/filters/light-and-shadow/gegl-bevel.xml:115(term)
+#: src/filters/light-and-shadow/gflare.xml:116(term)
+#: src/filters/light-and-shadow/gegl-bevel.xml:125(term)
 #: src/filters/light-and-shadow/bloom.xml:97(term)
 msgid "Radius"
 msgstr "Yarıçap"
@@ -820,8 +833,8 @@ msgstr ""
 "görüntünün sağ sınırıdır. Merkez görüntünün dışına yerleştirilebilir."
 
 #: src/filters/light-and-shadow/vignette.xml:291(term)
-#: src/filters/light-and-shadow/gflare.xml:121(term)
-#: src/filters/light-and-shadow/gflare.xml:416(term)
+#: src/filters/light-and-shadow/gflare.xml:126(term)
+#: src/filters/light-and-shadow/gflare.xml:421(term)
 msgid "Rotation"
 msgstr "Döndürme"
 
@@ -953,7 +966,7 @@ msgstr ""
 "sonuçlanır."
 
 #: src/filters/light-and-shadow/supernova.xml:122(term)
-#: src/filters/light-and-shadow/sparkle.xml:154(term)
+#: src/filters/light-and-shadow/sparkle.xml:159(term)
 msgid "Random hue"
 msgstr "Rastgele renk tonu"
 
@@ -966,12 +979,12 @@ msgstr ""
 "görünüyor."
 
 #: src/filters/light-and-shadow/supernova.xml:131(term)
-#: src/filters/light-and-shadow/perspective-shadow.xml:232(term)
-#: src/filters/light-and-shadow/long-shadow.xml:187(term)
-#: src/filters/light-and-shadow/lighting.xml:221(term)
+#: src/filters/light-and-shadow/perspective-shadow.xml:237(term)
+#: src/filters/light-and-shadow/long-shadow.xml:189(term)
+#: src/filters/light-and-shadow/lighting.xml:227(term)
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:131(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:146(term)
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:122(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:148(term)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:127(term)
 msgid "Color"
 msgstr "Renk"
 
@@ -993,17 +1006,17 @@ msgstr ""
 "boyutunu değiştirebileceğiniz renk örneğidir."
 
 #: src/filters/light-and-shadow/supernova.xml:145(term)
-#: src/filters/light-and-shadow/gflare.xml:538(term)
+#: src/filters/light-and-shadow/gflare.xml:543(term)
 msgid "Random seed"
 msgstr "Rastgele parçacık"
 
 #: src/filters/light-and-shadow/supernova.xml:146(term)
-#: src/filters/light-and-shadow/gflare.xml:539(term)
+#: src/filters/light-and-shadow/gflare.xml:544(term)
 msgid "New Seed"
 msgstr "Yeni Parçacık"
 
 #: src/filters/light-and-shadow/supernova.xml:148(para)
-#: src/filters/light-and-shadow/gflare.xml:541(para)
+#: src/filters/light-and-shadow/gflare.xml:546(para)
 #, fuzzy
 msgid ""
 "This option controls the randomness of the filter. The <guilabel>Random "
@@ -1032,7 +1045,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/sparkle.xml:69(None)
+#: src/filters/light-and-shadow/sparkle.xml:74(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/sparkle.png'; "
 "md5=b888a29190954b300a4787f10279b0ec"
@@ -1067,7 +1080,7 @@ msgstr ""
 "tahmin etmek zordur. Görüntünüzde parıltıların görünmesini istediğiniz "
 "yerlere beyaz noktalar ekleyebilirsiniz."
 
-#: src/filters/light-and-shadow/sparkle.xml:52(para)
+#: src/filters/light-and-shadow/sparkle.xml:57(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Light and Shadow</guisubmenu><guimenuitem>Sparkle…</"
@@ -1077,11 +1090,11 @@ msgstr ""
 "guimenu><guisubmenu>Işık ve Gölge</guisubmenu><guimenuitem>Parıltı…</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/light-and-shadow/sparkle.xml:65(title)
+#: src/filters/light-and-shadow/sparkle.xml:70(title)
 msgid "<quote>Sparkle</quote> filter options"
 msgstr "<quote>Parıltı</quote> süzgeci seçenekleri"
 
-#: src/filters/light-and-shadow/sparkle.xml:77(para)
+#: src/filters/light-and-shadow/sparkle.xml:82(para)
 #, fuzzy
 #| msgid ""
 #| "If checked, parameter setting results are interactively displayed in "
@@ -1094,28 +1107,28 @@ msgstr ""
 "İşaretlenirse, parametre ayar sonuçları ön izlemede etkileşimli "
 "görüntülenir. Kaydırma çubukları görüntüde hareket etmenizi sağlar."
 
-#: src/filters/light-and-shadow/sparkle.xml:85(term)
+#: src/filters/light-and-shadow/sparkle.xml:90(term)
 msgid "Luminosity threshold"
 msgstr "Renk parlaklığı eşiği"
 
-#: src/filters/light-and-shadow/sparkle.xml:87(para)
+#: src/filters/light-and-shadow/sparkle.xml:92(para)
 #, fuzzy
 msgid "The higher the threshold, the more areas will get sparkles."
 msgstr "Eşik ne kadar yüksek olursa, o kadar fazla alan parıldayacak."
 
-#: src/filters/light-and-shadow/sparkle.xml:93(term)
+#: src/filters/light-and-shadow/sparkle.xml:98(term)
 msgid "Flare intensity"
 msgstr "Parlama yoğunluğu"
 
-#: src/filters/light-and-shadow/sparkle.xml:95(para)
+#: src/filters/light-and-shadow/sparkle.xml:100(para)
 msgid "This adjusts the strenght of the flare."
 msgstr "Bu, parlamanın kuvvetini ayarlar."
 
-#: src/filters/light-and-shadow/sparkle.xml:101(term)
+#: src/filters/light-and-shadow/sparkle.xml:106(term)
 msgid "Spike length"
 msgstr "Çivi uzunluğu"
 
-#: src/filters/light-and-shadow/sparkle.xml:103(para)
+#: src/filters/light-and-shadow/sparkle.xml:108(para)
 #, fuzzy
 msgid ""
 "This determines the length of the rays. Reducing this value causes small "
@@ -1124,11 +1137,11 @@ msgstr ""
 "Bu, ışınların uzunluğunu belirler. Bu değeri azaltmak, önce küçük sivri "
 "uçların azalmasına neden olur."
 
-#: src/filters/light-and-shadow/sparkle.xml:110(term)
+#: src/filters/light-and-shadow/sparkle.xml:115(term)
 msgid "Spike points"
 msgstr "Çivi noktaları"
 
-#: src/filters/light-and-shadow/sparkle.xml:112(para)
+#: src/filters/light-and-shadow/sparkle.xml:117(para)
 #, fuzzy
 msgid ""
 "The number of starting points for spikes. This value is used for both the "
@@ -1141,11 +1154,11 @@ msgstr ""
 "dikenler büyük dikenlerin karşısındadır. Çift olduğunda ise, büyük dikenler "
 "başka bir büyük dikenin karşısındadır."
 
-#: src/filters/light-and-shadow/sparkle.xml:121(term)
+#: src/filters/light-and-shadow/sparkle.xml:126(term)
 msgid "Spike angle"
 msgstr "Çivi açısı"
 
-#: src/filters/light-and-shadow/sparkle.xml:123(para)
+#: src/filters/light-and-shadow/sparkle.xml:128(para)
 #, fuzzy
 msgid ""
 "This sets the angle of the first big spike. If set to -1, the angle is "
@@ -1160,11 +1173,11 @@ msgstr ""
 "üste bindirilir. -1 ile, her ışıltı rastgele bir dönüşe sahip olur ve çok "
 "sayıda ince sivri uç oluşur."
 
-#: src/filters/light-and-shadow/sparkle.xml:134(term)
+#: src/filters/light-and-shadow/sparkle.xml:139(term)
 msgid "Spike density"
 msgstr "Çivi sıklığı"
 
-#: src/filters/light-and-shadow/sparkle.xml:136(para)
+#: src/filters/light-and-shadow/sparkle.xml:141(para)
 #, fuzzy
 msgid ""
 "This option determines the number of sparkles on your image. It indicates "
@@ -1173,11 +1186,11 @@ msgstr ""
 "Bu seçenek, görüntünüzdeki parıltıların sayısını belirler. Korunacak tüm "
 "olası parıltıların yüzdesini gösterir."
 
-#: src/filters/light-and-shadow/sparkle.xml:144(term)
+#: src/filters/light-and-shadow/sparkle.xml:149(term)
 msgid "Transparency"
 msgstr "Saydamlık"
 
-#: src/filters/light-and-shadow/sparkle.xml:146(para)
+#: src/filters/light-and-shadow/sparkle.xml:151(para)
 #, fuzzy
 msgid ""
 "When you increase transparency, sparkles become more transparent and the "
@@ -1187,32 +1200,32 @@ msgstr ""
 "Şeffaflığı artırdığınızda, ışıltılar daha şeffaf hale gelir ve altındaki "
 "katman görünür hale gelir. Başka katman yoksa, ışıltı doygunluğu azalır."
 
-#: src/filters/light-and-shadow/sparkle.xml:156(para)
+#: src/filters/light-and-shadow/sparkle.xml:161(para)
 #, fuzzy
 msgid "This sets how much the hue of the sparkles should be changed randomly."
 msgstr ""
 "Bu, kıvılcımların renk tonunun ne kadar rastgele değiştirileceğini belirler."
 
-#: src/filters/light-and-shadow/sparkle.xml:163(term)
+#: src/filters/light-and-shadow/sparkle.xml:168(term)
 msgid "Random saturation"
 msgstr "Rastgele doygunluk"
 
-#: src/filters/light-and-shadow/sparkle.xml:165(para)
+#: src/filters/light-and-shadow/sparkle.xml:170(para)
 #, fuzzy
 msgid ""
 "This sets how much the saturation of the sparkles should be changed randomly."
 msgstr ""
 "Bu, kıvılcımların doygunluğunun ne kadar rastgele değiştirileceğini belirler."
 
-#: src/filters/light-and-shadow/sparkle.xml:172(term)
+#: src/filters/light-and-shadow/sparkle.xml:177(term)
 msgid "Additional Options"
 msgstr "Ek Seçenekler"
 
-#: src/filters/light-and-shadow/sparkle.xml:176(term)
+#: src/filters/light-and-shadow/sparkle.xml:181(term)
 msgid "Preserve luminosity"
 msgstr "Renk parlaklığını koru"
 
-#: src/filters/light-and-shadow/sparkle.xml:178(para)
+#: src/filters/light-and-shadow/sparkle.xml:183(para)
 #, fuzzy
 msgid ""
 "If set, the central pixels of the sparkle keep the luminosity of the "
@@ -1221,11 +1234,11 @@ msgstr ""
 "Ayarlandığında, parıltının merkez pikseleri en parlak pikselin parlaklığını "
 "korur. Bu, parlaklığı azaltır."
 
-#: src/filters/light-and-shadow/sparkle.xml:185(term)
+#: src/filters/light-and-shadow/sparkle.xml:190(term)
 msgid "Inverse"
 msgstr "Ters"
 
-#: src/filters/light-and-shadow/sparkle.xml:187(para)
+#: src/filters/light-and-shadow/sparkle.xml:192(para)
 #, fuzzy
 msgid ""
 "Instead of selecting the brightest pixels in the image, Sparkle will select "
@@ -1234,11 +1247,11 @@ msgstr ""
 "Sparkle, görüntüdeki en parlak pikselleri seçmek yerine en karanlık olanları "
 "seçerek karanlık parıltılar oluşturur."
 
-#: src/filters/light-and-shadow/sparkle.xml:195(term)
+#: src/filters/light-and-shadow/sparkle.xml:200(term)
 msgid "Add border"
 msgstr "Kenarlık ekle"
 
-#: src/filters/light-and-shadow/sparkle.xml:197(para)
+#: src/filters/light-and-shadow/sparkle.xml:202(para)
 #, fuzzy
 msgid ""
 "When enabled, instead of creating sparkles on the brightest pixels, this "
@@ -1247,23 +1260,23 @@ msgstr ""
 "Etkinleştirildiğinde, en parlak piksellerde parıltılar oluşturmak yerine, "
 "parıltılardan oluşan bir görüntü kenarlığı oluşturur."
 
-#: src/filters/light-and-shadow/sparkle.xml:207(term)
+#: src/filters/light-and-shadow/sparkle.xml:212(term)
 msgid "Color type"
 msgstr "Renk türü"
 
-#: src/filters/light-and-shadow/sparkle.xml:211(term)
+#: src/filters/light-and-shadow/sparkle.xml:216(term)
 msgid "Natural color"
 msgstr "Doğal renk"
 
-#: src/filters/light-and-shadow/sparkle.xml:212(term)
+#: src/filters/light-and-shadow/sparkle.xml:217(term)
 msgid "Foreground color"
 msgstr "Ön plan rengi"
 
-#: src/filters/light-and-shadow/sparkle.xml:213(term)
+#: src/filters/light-and-shadow/sparkle.xml:218(term)
 msgid "Background color"
 msgstr "Arka plan rengi"
 
-#: src/filters/light-and-shadow/sparkle.xml:215(para)
+#: src/filters/light-and-shadow/sparkle.xml:220(para)
 #, fuzzy
 msgid ""
 "This selects the color used for the central pixels of the sparkles. This "
@@ -1298,7 +1311,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/perspective-shadow.xml:75(None)
+#: src/filters/light-and-shadow/perspective-shadow.xml:80(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/perspective-shadow.png'; "
 "md5=4972c86ea8230004888286c559b43e56"
@@ -1308,7 +1321,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/perspective-shadow.xml:97(None)
+#: src/filters/light-and-shadow/perspective-shadow.xml:102(None)
 msgid ""
 "@@image: 'images/filters/examples/perspective-shadow-angle15.png'; "
 "md5=2db8f2c506b119788a1aab18b91b3152"
@@ -1318,9 +1331,9 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/perspective-shadow.xml:106(None)
-#: src/filters/light-and-shadow/perspective-shadow.xml:181(None)
-#: src/filters/light-and-shadow/perspective-shadow.xml:213(None)
+#: src/filters/light-and-shadow/perspective-shadow.xml:111(None)
+#: src/filters/light-and-shadow/perspective-shadow.xml:186(None)
+#: src/filters/light-and-shadow/perspective-shadow.xml:218(None)
 msgid ""
 "@@image: 'images/filters/examples/perspective-shadow-default.png'; "
 "md5=108fb7ccb33f00119107c5479b3fd947"
@@ -1330,7 +1343,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/perspective-shadow.xml:115(None)
+#: src/filters/light-and-shadow/perspective-shadow.xml:120(None)
 msgid ""
 "@@image: 'images/filters/examples/perspective-shadow-angle105.png'; "
 "md5=70fea8c648ed0e1ed0652b82834374e8"
@@ -1340,7 +1353,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/perspective-shadow.xml:143(None)
+#: src/filters/light-and-shadow/perspective-shadow.xml:148(None)
 msgid ""
 "@@image: 'images/filters/examples/perspective-shadow-distance.png'; "
 "md5=168fd667ef3cb8f99a875b9b90b84ef7"
@@ -1350,7 +1363,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/perspective-shadow.xml:190(None)
+#: src/filters/light-and-shadow/perspective-shadow.xml:195(None)
 msgid ""
 "@@image: 'images/filters/examples/perspective-shadow-length15.png'; "
 "md5=0abaabf1dab1f37ae4744b6825eb0512"
@@ -1360,7 +1373,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/perspective-shadow.xml:222(None)
+#: src/filters/light-and-shadow/perspective-shadow.xml:227(None)
 msgid ""
 "@@image: 'images/filters/examples/perspective-shadow-noblur.png'; "
 "md5=838bdf4c656c17727512b9b7c26b5ec4"
@@ -1370,7 +1383,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/perspective-shadow.xml:285(None)
+#: src/filters/light-and-shadow/perspective-shadow.xml:290(None)
 msgid ""
 "@@image: 'images/filters/examples/perspective-shadow-resize.png'; "
 "md5=998a2060c6949991ab6e96aaba7746ac"
@@ -1380,7 +1393,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/perspective-shadow.xml:294(None)
+#: src/filters/light-and-shadow/perspective-shadow.xml:299(None)
 msgid ""
 "@@image: 'images/filters/examples/perspective-shadow-noresize.png'; "
 "md5=8837756d0d7c9d1cdb6669db73ef4041"
@@ -1422,7 +1435,7 @@ msgstr ""
 "Gerekirse, filtre görüntünün boyutunu değiştirebilir. Ancak gölgeyi görünür "
 "kılmak için arka plan eklemez."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:58(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:63(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Light and Shadow</guisubmenu><guimenuitem>Perspective…</"
@@ -1432,16 +1445,16 @@ msgstr ""
 "guimenu><guisubmenu>Işık ve Gölge</guisubmenu><guimenuitem>Perspektif…</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:71(title)
+#: src/filters/light-and-shadow/perspective-shadow.xml:76(title)
 msgid "<quote>Perspective</quote> options"
 msgstr "<quote>Perspektif</quote> süzgeci seçenekleri"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:81(term)
-#: src/filters/light-and-shadow/long-shadow.xml:139(term)
+#: src/filters/light-and-shadow/perspective-shadow.xml:86(term)
+#: src/filters/light-and-shadow/long-shadow.xml:141(term)
 msgid "Angle"
 msgstr "Açı"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:83(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:88(para)
 #, fuzzy
 msgid ""
 "The angle determines the direction of the shadow or the imaginary source of "
@@ -1457,27 +1470,27 @@ msgstr ""
 "tarafta olduğundan ışık kaynağı soldadır. 90°'den büyük açılarda ise durum "
 "tam tersidir. İpucu: Kaydırıcının tutamağını ışık kaynağı olarak düşünün."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:93(title)
+#: src/filters/light-and-shadow/perspective-shadow.xml:98(title)
 msgid "<quote>Angle</quote> example"
 msgstr "<quote>Açı</quote> örneği"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:100(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:105(para)
 msgid "Angle 15°"
 msgstr "Açı 15°"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:109(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:114(para)
 msgid "Angle 45° (default)"
 msgstr "Açı 45° (öntanımlı)"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:118(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:123(para)
 msgid "Angle 105° (90° + 15°)"
 msgstr "Açı 105° (90° + 15°)"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:125(term)
+#: src/filters/light-and-shadow/perspective-shadow.xml:130(term)
 msgid "Relative distance of horizon"
 msgstr "Ufkun göreceli uzaklığı"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:127(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:132(para)
 #, fuzzy
 msgid ""
 "This option determines how far away the imaginary horizon is. The "
@@ -1489,7 +1502,7 @@ msgstr ""
 "mesafe</guilabel>, seçimin veya katmanın zemin çizgisinden olan mesafedir, "
 "ölçü <quote>birimi</quote> ise seçimin veya katmanın yüksekliğidir."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:133(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:138(para)
 #, fuzzy
 msgid ""
 "Value range is from 0.1 to 24.1, where 24.1 means (nearly) <quote>infinite</"
@@ -1500,15 +1513,15 @@ msgstr ""
 "<quote>sonsuz anlamına</quote> gelir. <guilabel>Gölgenin göreceli "
 "uzunluğunun</guilabel> ufuk mesafesini aşmaması gerektiğine dikkat edin."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:139(title)
+#: src/filters/light-and-shadow/perspective-shadow.xml:144(title)
 msgid "<quote>Distance of horizon</quote> example"
 msgstr "<quote>Ufuk uzaklığı</quote> örneği"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:146(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:151(para)
 msgid "Angle = 45°. Distance = 2.4. Length = 1.8."
 msgstr "Açı = 45°. Mesafe = 2,4. Uzunluk = 1,8."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:152(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:157(para)
 #, fuzzy
 msgid ""
 "In the example above, the yellow area is the selection the filter is applied "
@@ -1523,11 +1536,11 @@ msgstr ""
 "1,8 katıdır. Ufka doğru uzatıldığında, uzunluk seçim yüksekliğinin 2,4 "
 "katıdır."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:163(term)
+#: src/filters/light-and-shadow/perspective-shadow.xml:168(term)
 msgid "Relative length of shadow"
 msgstr "Gölgenin göreceli uzunluğu"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:165(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:170(para)
 #, fuzzy
 msgid ""
 "With this option you can set the length of shadow with respect to the height "
@@ -1539,7 +1552,7 @@ msgstr ""
 "ayarlayabilirsiniz. Yukarıdaki örnekte, kırmızı çizgi gölgenin uzunluğunu "
 "temsil eder, uzunluğu sarı seçimin yüksekliğine göre 1,8'dir."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:171(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:176(para)
 #, fuzzy
 msgid ""
 "Value range is from 0.1 to 24.1, although the length of shadow must not "
@@ -1550,26 +1563,26 @@ msgstr ""
 "<guilabel>ufkun göreceli mesafesini</guilabel> aşmamalıdır - ufkun ötesine "
 "geçemezsiniz."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:177(title)
+#: src/filters/light-and-shadow/perspective-shadow.xml:182(title)
 msgid "<quote>Length of Shadow</quote> example"
 msgstr "<quote>Gölge Uzunluğu</quote> örneği"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:184(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:189(para)
 msgid "Length = 1.0 (default)"
 msgstr "Uzunluk = 1,0 (öntanımlı)"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:193(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:198(para)
 msgid "Length = 1.5"
 msgstr "Uzunluk = 1,5"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:200(term)
+#: src/filters/light-and-shadow/perspective-shadow.xml:205(term)
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:106(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:115(term)
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:109(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:117(term)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:114(term)
 msgid "Blur radius"
 msgstr "Bulanıklık yarıçapı"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:202(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:207(para)
 #, fuzzy
 msgid ""
 "After creating the shadow, a <link linkend=\"gimp-filter-gaussian-"
@@ -1580,19 +1593,19 @@ msgstr ""
 "linkend=\"gimp-filter-gaussian-blur\">Gauss bulanıklığı</link> uygulanır ve "
 "bu da gölgenin gerçekçi bir görünüm kazanmasını sağlar."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:209(title)
+#: src/filters/light-and-shadow/perspective-shadow.xml:214(title)
 msgid "Blur example"
 msgstr "Bulanıklık örneği"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:216(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:221(para)
 msgid "Blur radius = 3 (default)"
 msgstr "Bulanıklık yarıçapı = 3 (öntanımlı)"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:225(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:230(para)
 msgid "Without blur (blur radius = 0)"
 msgstr "Bulanıklık olmadan (bulanıklık yarıçapı = 0)"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:234(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:239(para)
 #, fuzzy
 msgid ""
 "Of course, the default color of the shadow is black. But a click on the "
@@ -1601,15 +1614,15 @@ msgstr ""
 "Elbette, gölgenin varsayılan rengi siyahtır. Ancak düğmeye tıkladığınızda "
 "renk seçici açılır ve buradan başka bir renk seçebilirsiniz."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:242(term)
-#: src/filters/light-and-shadow/gflare.xml:265(term)
+#: src/filters/light-and-shadow/perspective-shadow.xml:247(term)
+#: src/filters/light-and-shadow/gflare.xml:270(term)
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:123(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:156(term)
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:140(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:158(term)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:145(term)
 msgid "Opacity"
 msgstr "Matlık"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:244(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:249(para)
 #, fuzzy
 msgid ""
 "The shadow's opacity is the opacity of the new layer containing the shadow "
@@ -1625,11 +1638,11 @@ msgstr ""
 "Katmanlar Diyalog Penceresi'nde ( <link linkend=\"gimp-layer-dialog\">) "
 "değiştirebilirsiniz</link>."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:255(term)
+#: src/filters/light-and-shadow/perspective-shadow.xml:260(term)
 msgid "Interpolation"
 msgstr "Aradeğerleme"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:257(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:262(para)
 #, fuzzy
 msgid ""
 "This drop-down list lets you choose the method of <link linkend=\"glossary-"
@@ -1647,13 +1660,13 @@ msgstr ""
 "gölgenin rengini değiştirebilir. <guilabel>Doğrusal</guilabel> iyi bir "
 "seçimdir."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:269(term)
-#: src/filters/light-and-shadow/perspective-shadow.xml:288(para)
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:154(term)
+#: src/filters/light-and-shadow/perspective-shadow.xml:274(term)
+#: src/filters/light-and-shadow/perspective-shadow.xml:293(para)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:159(term)
 msgid "Allow resizing"
 msgstr "Yeniden boyutlandırmaya izin ver"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:271(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:276(para)
 #, fuzzy
 msgid ""
 "If enabled, the filter will resize the image if that is needed to make place "
@@ -1662,7 +1675,7 @@ msgstr ""
 "Etkinleştirilirse, filtre gölge için yer açmak gerekirse görüntünün boyutunu "
 "değiştirir."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:275(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:280(para)
 #, fuzzy
 msgid ""
 "In the example below, the yellow area is the active selection, background is "
@@ -1673,17 +1686,17 @@ msgstr ""
 "görünür kılmak için yeniden boyutlandırma işleminden sonra beyaz alan "
 "eklenmiştir."
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:281(title)
+#: src/filters/light-and-shadow/perspective-shadow.xml:286(title)
 msgid "<quote>Allow resizing</quote> example"
 msgstr "<quote>Yeniden boyutlandırmaya izin ver</quote> örneği"
 
-#: src/filters/light-and-shadow/perspective-shadow.xml:297(para)
+#: src/filters/light-and-shadow/perspective-shadow.xml:302(para)
 msgid "Don't allow resizing"
 msgstr "Yeniden boyutlandırmaya izin verme"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/long-shadow.xml:51(None)
+#: src/filters/light-and-shadow/long-shadow.xml:53(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/long-shadow-dialog.png'; "
 "md5=2d602ff9c4561c21f4b8923398293fa8"
@@ -1693,10 +1706,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/long-shadow.xml:74(None)
-#| msgid ""
-#| "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
-#| "fixlength.png'; md5=5035134e19645f84a523c2132398ec04"
+#: src/filters/light-and-shadow/long-shadow.xml:76(None)
 msgid ""
 "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-orig-"
 "example.png'; md5=053291899094ae4cb2951b37dd461b31"
@@ -1706,10 +1716,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/long-shadow.xml:83(None)
-#| msgid ""
-#| "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
-#| "fading.png'; md5=560272f1a31110bd0a9dccc9dfc833f6"
+#: src/filters/light-and-shadow/long-shadow.xml:85(None)
 msgid ""
 "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-orig-"
 "dialog.png'; md5=6080680e812eebf9d07d0f66fe8cc3d8"
@@ -1719,7 +1726,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/long-shadow.xml:101(None)
+#: src/filters/light-and-shadow/long-shadow.xml:103(None)
 msgid ""
 "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
 "default.png'; md5=393104e68d37008a95db2195a40da85a"
@@ -1729,7 +1736,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/long-shadow.xml:110(None)
+#: src/filters/light-and-shadow/long-shadow.xml:112(None)
 msgid ""
 "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
 "infinite.png'; md5=b0596ab493b5b1872662e69b894819e4"
@@ -1739,7 +1746,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/long-shadow.xml:120(None)
+#: src/filters/light-and-shadow/long-shadow.xml:122(None)
 msgid ""
 "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
 "fading.png'; md5=560272f1a31110bd0a9dccc9dfc833f6"
@@ -1749,7 +1756,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/long-shadow.xml:129(None)
+#: src/filters/light-and-shadow/long-shadow.xml:131(None)
 msgid ""
 "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
 "fixlength.png'; md5=5035134e19645f84a523c2132398ec04"
@@ -1759,7 +1766,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/long-shadow.xml:147(None)
+#: src/filters/light-and-shadow/long-shadow.xml:149(None)
 msgid ""
 "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
 "angle.png'; md5=dac7514843cbcfbbdb9b87870b0d80a8"
@@ -1769,7 +1776,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/long-shadow.xml:167(None)
+#: src/filters/light-and-shadow/long-shadow.xml:169(None)
 msgid ""
 "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
 "length.png'; md5=2171f2703ef98d297ae7aa4fcd706af2"
@@ -1779,7 +1786,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/long-shadow.xml:228(None)
+#: src/filters/light-and-shadow/long-shadow.xml:230(None)
 msgid ""
 "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
 "shadonly.png'; md5=6f28a9b7177e05289e9ad9f00ce2de30"
@@ -1789,7 +1796,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/long-shadow.xml:239(None)
+#: src/filters/light-and-shadow/long-shadow.xml:241(None)
 msgid ""
 "@@image: 'images/filters/examples/light-and-shadow/long-shadow-ex-"
 "shadminus.png'; md5=72cc28c95a786da33c66f86268ca9e91"
@@ -1811,7 +1818,15 @@ msgstr ""
 "Bu GEGL tabanlı süzgeç türlü görsel biçemlerde uzun gölgeler oluşturmayı "
 "kolaylaştırır."
 
-#: src/filters/light-and-shadow/long-shadow.xml:28(para)
+#: src/filters/light-and-shadow/long-shadow.xml:25(para)
+msgid ""
+"It is available if the selected layer holds an Alpha channel (see <xref "
+"linkend=\"gimp-layer-alpha-add\"/>). Otherwise, it is disabled."
+msgstr ""
+"Seçili katmanın Alfa kanalı varsa kullanılabilir (bkz. <xref linkend=\"gimp-"
+"layer-alpha-add\"/>). Diğer durumda devre dışı bırakılır."
+
+#: src/filters/light-and-shadow/long-shadow.xml:35(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Light and Shadow</guisubmenu><guimenuitem>Long Shadow…</"
@@ -1821,27 +1836,19 @@ msgstr ""
 "guimenu><guisubmenu>Işık ve Gölge</guisubmenu><guimenuitem>Uzun Gölge…</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/light-and-shadow/long-shadow.xml:36(para)
-msgid ""
-"It is available if the selected layer holds an Alpha channel (see <xref "
-"linkend=\"gimp-layer-alpha-add\"/>). Otherwise, it is disabled."
-msgstr ""
-"Seçili katmanın Alfa kanalı varsa kullanılabilir (bkz. <xref linkend=\"gimp-"
-"layer-alpha-add\"/>). Diğer durumda devre dışı bırakılır."
-
-#: src/filters/light-and-shadow/long-shadow.xml:46(title)
+#: src/filters/light-and-shadow/long-shadow.xml:48(title)
 msgid "<quote>Long Shadow</quote> filter options"
 msgstr "<quote>Uzun Gölge</quote> süzgeci seçenekleri"
 
-#: src/filters/light-and-shadow/long-shadow.xml:69(term)
+#: src/filters/light-and-shadow/long-shadow.xml:71(term)
 msgid "Style"
 msgstr "Biçem"
 
-#: src/filters/light-and-shadow/long-shadow.xml:76(caption)
+#: src/filters/light-and-shadow/long-shadow.xml:78(caption)
 msgid "Original image."
 msgstr "Özgün görüntü."
 
-#: src/filters/light-and-shadow/long-shadow.xml:85(caption)
+#: src/filters/light-and-shadow/long-shadow.xml:87(caption)
 #, fuzzy
 msgid ""
 "The layers of the image. The text layer was created via the \"Layers to "
@@ -1850,7 +1857,7 @@ msgstr ""
 "Görüntünün katmanları. Metin katmanı, \"Katman\" menüsündeki \"Katmanları "
 "Görüntü Boyutuna\" işleviyle oluşturulmuştur."
 
-#: src/filters/light-and-shadow/long-shadow.xml:90(para)
+#: src/filters/light-and-shadow/long-shadow.xml:92(para)
 msgid ""
 "<guilabel>Finite</guilabel> is the default style. Other available styles are "
 "<guilabel>Infinite</guilabel>, <guilabel>Fading</guilabel>, and "
@@ -1860,39 +1867,39 @@ msgstr ""
 "şunlardır: <guilabel>Sonsuz</guilabel>, <guilabel>Solan</guilabel> ve "
 "<guilabel>Solan (sabit uzunluk)</guilabel>."
 
-#: src/filters/light-and-shadow/long-shadow.xml:97(title)
+#: src/filters/light-and-shadow/long-shadow.xml:99(title)
 msgid "<quote>Style</quote> option examples"
 msgstr "<quote>Biçek</quote> seçeneği örnekleri"
 
-#: src/filters/light-and-shadow/long-shadow.xml:103(caption)
+#: src/filters/light-and-shadow/long-shadow.xml:105(caption)
 msgid "Finite (default)"
 msgstr "Sonlu (öntanımlı)"
 
-#: src/filters/light-and-shadow/long-shadow.xml:112(caption)
+#: src/filters/light-and-shadow/long-shadow.xml:114(caption)
 msgid "Infinite"
 msgstr "Sonsuz"
 
-#: src/filters/light-and-shadow/long-shadow.xml:122(caption)
+#: src/filters/light-and-shadow/long-shadow.xml:124(caption)
 msgid "Fading"
 msgstr "Solan"
 
-#: src/filters/light-and-shadow/long-shadow.xml:131(caption)
+#: src/filters/light-and-shadow/long-shadow.xml:133(caption)
 msgid "Fading (fixed length); length = 30"
 msgstr "Solan (sabit uzunluk); uzunluk = 30"
 
-#: src/filters/light-and-shadow/long-shadow.xml:141(para)
+#: src/filters/light-and-shadow/long-shadow.xml:143(para)
 msgid "Shadow angle, in degrees."
 msgstr "Gölge açısı, derece olarak."
 
-#: src/filters/light-and-shadow/long-shadow.xml:149(caption)
+#: src/filters/light-and-shadow/long-shadow.xml:151(caption)
 msgid "Angle = 110°"
 msgstr "Açı = 110°"
 
-#: src/filters/light-and-shadow/long-shadow.xml:156(term)
+#: src/filters/light-and-shadow/long-shadow.xml:158(term)
 msgid "Length"
 msgstr "Uzunluk"
 
-#: src/filters/light-and-shadow/long-shadow.xml:158(para)
+#: src/filters/light-and-shadow/long-shadow.xml:160(para)
 msgid ""
 "Shadow length, in pixels. Only available when <guilabel>Style</guilabel> is "
 "set to <guilabel>Finite</guilabel> or <guilabel>Fading (fixed length)</"
@@ -1902,15 +1909,15 @@ msgstr ""
 "<guilabel>Sonlu</guilabel> ya da <guilabel>Solan (sabit uzunluk)</guilabel> "
 "olarak ayarlandığında kullanılabilir."
 
-#: src/filters/light-and-shadow/long-shadow.xml:169(caption)
+#: src/filters/light-and-shadow/long-shadow.xml:171(caption)
 msgid "Length = 30"
 msgstr "Uzunluk = 30"
 
-#: src/filters/light-and-shadow/long-shadow.xml:176(term)
+#: src/filters/light-and-shadow/long-shadow.xml:178(term)
 msgid "Midpoint"
 msgstr "Orta nokta"
 
-#: src/filters/light-and-shadow/long-shadow.xml:178(para)
+#: src/filters/light-and-shadow/long-shadow.xml:180(para)
 msgid ""
 "Shadow fade midpoint. Only available when <guilabel>Style</guilabel> is set "
 "to <guilabel>Fading</guilabel> or <guilabel>Fading (fixed length)</guilabel>."
@@ -1919,8 +1926,8 @@ msgstr ""
 "<guilabel>Solan</guilabel> ya da <guilabel>Solan (sabit uzunluk)</guilabel> "
 "olarak ayarlandığında kullanılabilir."
 
-#: src/filters/light-and-shadow/long-shadow.xml:189(para)
-#: src/filters/light-and-shadow/drop-shadow.xml:148(para)
+#: src/filters/light-and-shadow/long-shadow.xml:191(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:150(para)
 msgid ""
 "You can choose the color of the shadow here. Just click on the color swatch, "
 "and select a color when the color selector pops up, or use the eye-dropper "
@@ -1929,11 +1936,11 @@ msgstr ""
 "Gölge rengini buradan seçebilirsiniz. Renk örneğine tıklayın ve renk seçici "
 "açıldığında renk seçin ya da resimden renk seçmek için damlalığı kullanın."
 
-#: src/filters/light-and-shadow/long-shadow.xml:197(term)
+#: src/filters/light-and-shadow/long-shadow.xml:199(term)
 msgid "Composition"
 msgstr "Kompozisyon"
 
-#: src/filters/light-and-shadow/long-shadow.xml:199(para)
+#: src/filters/light-and-shadow/long-shadow.xml:201(para)
 msgid ""
 "The <quote>Output composition</quote> selects how the output of this filter "
 "will be determined. There are three choices:"
@@ -1941,7 +1948,7 @@ msgstr ""
 "<quote>Çıktı kompozisyonu</quote>, bu süzgecin çıktısının nasıl "
 "belirleneceğini seçer. Üç seçenek vardır:"
 
-#: src/filters/light-and-shadow/long-shadow.xml:205(para)
+#: src/filters/light-and-shadow/long-shadow.xml:207(para)
 msgid ""
 "<guilabel>Shadow plus image</guilabel> will output both the input image and "
 "the created shadow. This is the default."
@@ -1949,12 +1956,12 @@ msgstr ""
 "<guilabel>Gölge artı görüntü</guilabel>: hem girdi görüntüsü hem de "
 "oluşturulan gölgeyi çıktılar. Öntanımlıdır."
 
-#: src/filters/light-and-shadow/long-shadow.xml:211(para)
+#: src/filters/light-and-shadow/long-shadow.xml:213(para)
 msgid "<guilabel>Shadow only</guilabel> will output only the created shadow."
 msgstr ""
 "<guilabel>Yalnızca gölge</guilabel>: yalnızca oluşturulan gölgeyi çıktılar."
 
-#: src/filters/light-and-shadow/long-shadow.xml:217(para)
+#: src/filters/light-and-shadow/long-shadow.xml:219(para)
 msgid ""
 "<guilabel>Shadow minus image</guilabel> will output the created shadow but "
 "subtracts the area hidden by the image."
@@ -1962,15 +1969,15 @@ msgstr ""
 "<guilabel>Gölge eksi görüntü</guilabel>: oluşturulan gölgeyi çıktılar ancak "
 "görüntüce gizlenen alanı çıkarır."
 
-#: src/filters/light-and-shadow/long-shadow.xml:224(title)
+#: src/filters/light-and-shadow/long-shadow.xml:226(title)
 msgid "<quote>Composition</quote> option examples"
 msgstr "<quote>Kompozisyon</quote> seçeneği örnekleri"
 
-#: src/filters/light-and-shadow/long-shadow.xml:231(para)
+#: src/filters/light-and-shadow/long-shadow.xml:233(para)
 msgid "Shadow only"
 msgstr "Yalnızca gölge"
 
-#: src/filters/light-and-shadow/long-shadow.xml:242(para)
+#: src/filters/light-and-shadow/long-shadow.xml:244(para)
 msgid "Shadow minus image"
 msgstr "Gölge eksi görüntü"
 
@@ -1986,8 +1993,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/lighting.xml:68(None)
-#: src/filters/light-and-shadow/lighting.xml:104(None)
+#: src/filters/light-and-shadow/lighting.xml:74(None)
+#: src/filters/light-and-shadow/lighting.xml:110(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/lighting1.png'; "
 "md5=c8b7aafe155028a586e0763a1beb5f27"
@@ -1997,7 +2004,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/lighting.xml:163(None)
+#: src/filters/light-and-shadow/lighting.xml:169(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/lighting2.png'; "
 "md5=28a8952bcc331821e98d0ad2f4ef1512"
@@ -2007,7 +2014,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/lighting.xml:291(None)
+#: src/filters/light-and-shadow/lighting.xml:297(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/lighting3.png'; "
 "md5=aab880230b8fd24989a08242e170def7"
@@ -2017,7 +2024,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/lighting.xml:369(None)
+#: src/filters/light-and-shadow/lighting.xml:375(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/lighting4.png'; "
 "md5=a7a1dfb4c04b999b3ac3a339aaa51a0e"
@@ -2027,7 +2034,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/lighting.xml:433(None)
+#: src/filters/light-and-shadow/lighting.xml:439(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/lighting5.png'; "
 "md5=ff6137c384fe3474eec61a37502b3134"
@@ -2063,7 +2070,15 @@ msgstr ""
 "eder. Herhangi bir alt gölge oluşturmaz ve elbette karanlık bölgelerde "
 "herhangi bir yeni ayrıntı ortaya çıkarmaz."
 
-#: src/filters/light-and-shadow/lighting.xml:51(para)
+#: src/filters/light-and-shadow/lighting.xml:48(para)
+msgid ""
+"If the image is in grayscale mode or indexed mode, this menu entry is "
+"disabled."
+msgstr ""
+"Görüntü gri tonlamalı kipte ise ya da indeksli kipte ise, bu menü girişi "
+"devre dışı bırakılır."
+
+#: src/filters/light-and-shadow/lighting.xml:57(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Light and Shadow</guisubmenu><guimenuitem>Lighting "
@@ -2073,11 +2088,11 @@ msgstr ""
 "guimenu><guisubmenu>Işık ve Gölge</guisubmenu><guimenuitem>Işıklandırma "
 "Etkileri…</guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/light-and-shadow/lighting.xml:64(title)
+#: src/filters/light-and-shadow/lighting.xml:70(title)
 msgid "<quote>Lighting</quote> filter options"
 msgstr "<quote>Işıklandırma Etkileri</quote> süzgeci seçenekleri "
 
-#: src/filters/light-and-shadow/lighting.xml:76(para)
+#: src/filters/light-and-shadow/lighting.xml:82(para)
 #, fuzzy
 msgid ""
 "When <guilabel>Interactive</guilabel> is checked, parameter setting results "
@@ -2088,7 +2103,7 @@ msgstr ""
 "siz <guilabel>Tamam</guilabel> düğmesine tıklayana kadar görüntüde "
 "değişiklik yapılmadan önizlemede etkileşimli olarak görüntülenir."
 
-#: src/filters/light-and-shadow/lighting.xml:82(para)
+#: src/filters/light-and-shadow/lighting.xml:88(para)
 #, fuzzy
 msgid ""
 "If <guilabel>Interactive</guilabel> is not checked, changes are displayed in "
@@ -2099,24 +2114,24 @@ msgstr ""
 "yalnızca <guibutton>Güncelle</guibutton> düğmesine tıkladığınızda önizlemede "
 "görüntülenir. Bu seçenek yavaş bir bilgisayarda kullanışlıdır."
 
-#: src/filters/light-and-shadow/lighting.xml:91(para)
+#: src/filters/light-and-shadow/lighting.xml:97(para)
 msgid "Any other options are organized in tabs:"
 msgstr "Diğer tüm seçenekler sekmelerde düzenlenmiştir:"
 
-#: src/filters/light-and-shadow/lighting.xml:96(title)
+#: src/filters/light-and-shadow/lighting.xml:102(title)
 msgid "General Options"
 msgstr "Genel Seçenekler"
 
-#: src/filters/light-and-shadow/lighting.xml:98(title)
+#: src/filters/light-and-shadow/lighting.xml:104(title)
 msgid "<quote>Lighting</quote> filter options (General Options)"
 msgstr ""
 "<quote>Işıklandırma Etkileri</quote> süzgeci seçenekleri (Genel Seçenekler)"
 
-#: src/filters/light-and-shadow/lighting.xml:110(term)
+#: src/filters/light-and-shadow/lighting.xml:116(term)
 msgid "Transparent background"
 msgstr "Saydam arka plan"
 
-#: src/filters/light-and-shadow/lighting.xml:112(para)
+#: src/filters/light-and-shadow/lighting.xml:118(para)
 #, fuzzy
 msgid ""
 "Makes destination image transparent when bumpmap height is zero (height is "
@@ -2125,19 +2140,19 @@ msgstr ""
 "Bumpmap yüksekliği sıfır olduğunda hedef görüntüyü saydam yapar (bumpmap "
 "görüntüsünün siyah alanlarında yükseklik sıfırdır)."
 
-#: src/filters/light-and-shadow/lighting.xml:120(term)
+#: src/filters/light-and-shadow/lighting.xml:126(term)
 msgid "Create new image"
 msgstr "Yeni görüntü oluştur"
 
-#: src/filters/light-and-shadow/lighting.xml:122(para)
+#: src/filters/light-and-shadow/lighting.xml:128(para)
 msgid "Creates a new image when applying filter."
 msgstr "Süzgeci uygularken yeni görüntü oluştur."
 
-#: src/filters/light-and-shadow/lighting.xml:128(term)
+#: src/filters/light-and-shadow/lighting.xml:134(term)
 msgid "Antialiasing"
 msgstr "Kenar yumuşatma"
 
-#: src/filters/light-and-shadow/lighting.xml:130(para)
+#: src/filters/light-and-shadow/lighting.xml:136(para)
 #, fuzzy
 msgid ""
 "Enabling this setting allows you to remove or reduce the aliasing effect "
@@ -2146,7 +2161,7 @@ msgstr ""
 "Bu ayarı etkinleştirmek, kenarlarda görülebilen aliasing etkisini ortadan "
 "kaldırmanıza veya azaltmanıza olanak tanır."
 
-#: src/filters/light-and-shadow/lighting.xml:134(para)
+#: src/filters/light-and-shadow/lighting.xml:140(para)
 #, fuzzy
 msgid ""
 "For more information, see <link linkend=\"glossary-antialiasing\">Anti-"
@@ -2156,11 +2171,11 @@ msgstr ""
 "\"Anti-aliasing\" (Kenar yumuşatma) ve \"</link> \" (Kenar yumuşatma) "
 "başlıklarına bakın."
 
-#: src/filters/light-and-shadow/lighting.xml:142(term)
+#: src/filters/light-and-shadow/lighting.xml:148(term)
 msgid "Distance"
 msgstr "Uzaklık"
 
-#: src/filters/light-and-shadow/lighting.xml:144(para)
+#: src/filters/light-and-shadow/lighting.xml:150(para)
 #, fuzzy
 msgid ""
 "You can specify the distance of the light source from the center of the "
@@ -2169,16 +2184,16 @@ msgstr ""
 "Bu kaydırıcı ile ışık kaynağının görüntü merkezinden uzaklığını "
 "belirleyebilirsiniz. Değer aralığı 0,0 ile 2,0 arasındadır."
 
-#: src/filters/light-and-shadow/lighting.xml:155(title)
+#: src/filters/light-and-shadow/lighting.xml:161(title)
 msgid "Light Settings"
 msgstr "Işık Ayarları"
 
-#: src/filters/light-and-shadow/lighting.xml:157(title)
+#: src/filters/light-and-shadow/lighting.xml:163(title)
 msgid "<quote>Lighting</quote> filter options (Light Settings)"
 msgstr ""
 "<quote>Işıklandırma Etkileri</quote> süzgeci seçenekleri (Işık Ayarları)"
 
-#: src/filters/light-and-shadow/lighting.xml:168(para)
+#: src/filters/light-and-shadow/lighting.xml:174(para)
 #, fuzzy
 msgid ""
 "In this tab, you can set light parameters. With <guilabel>Light1</guilabel> "
@@ -2189,11 +2204,11 @@ msgstr ""
 "guilabel> ile <guilabel>Light6</guilabel> arasında altı ışık kaynağı "
 "oluşturabilir ve her birini ayrı ayrı düzenleyebilirsiniz."
 
-#: src/filters/light-and-shadow/lighting.xml:175(term)
+#: src/filters/light-and-shadow/lighting.xml:181(term)
 msgid "Type"
 msgstr "Tür"
 
-#: src/filters/light-and-shadow/lighting.xml:177(para)
+#: src/filters/light-and-shadow/lighting.xml:183(para)
 #, fuzzy
 msgid ""
 "The filter provides several <emphasis>light types</emphasis> in a drop-down "
@@ -2201,20 +2216,20 @@ msgid ""
 msgstr ""
 "Filtre, bir açılır listede çeşitli <emphasis>ışık türleri</emphasis> sağlar:"
 
-#: src/filters/light-and-shadow/lighting.xml:183(term)
+#: src/filters/light-and-shadow/lighting.xml:189(term)
 msgid "None"
 msgstr "Hiçbiri"
 
-#: src/filters/light-and-shadow/lighting.xml:185(para)
+#: src/filters/light-and-shadow/lighting.xml:191(para)
 #, fuzzy
 msgid "This deletes the light source (light may persist)."
 msgstr "Bu, ışık kaynağını siler (ışık kalıcı olabilir)."
 
-#: src/filters/light-and-shadow/lighting.xml:191(term)
+#: src/filters/light-and-shadow/lighting.xml:197(term)
 msgid "Directional"
 msgstr "Yönlü"
 
-#: src/filters/light-and-shadow/lighting.xml:193(para)
+#: src/filters/light-and-shadow/lighting.xml:199(para)
 #, fuzzy
 msgid ""
 "The blue point is linked to preview center by a line which indicates the "
@@ -2223,11 +2238,11 @@ msgstr ""
 "Mavi nokta, ışığın yönünü gösteren bir çizgi ile önizleme merkezine "
 "bağlanmıştır."
 
-#: src/filters/light-and-shadow/lighting.xml:200(term)
+#: src/filters/light-and-shadow/lighting.xml:206(term)
 msgid "Point"
 msgstr "Nokta"
 
-#: src/filters/light-and-shadow/lighting.xml:202(para)
+#: src/filters/light-and-shadow/lighting.xml:208(para)
 #, fuzzy
 msgid ""
 "Displays a blue point at center of preview. You can click and drag it to "
@@ -2236,11 +2251,11 @@ msgstr ""
 "Önizlemenin ortasında mavi bir nokta görüntüler. Işığı önizlemenin her "
 "yerine taşımak için tıklayıp sürükleyebilirsiniz."
 
-#: src/filters/light-and-shadow/lighting.xml:209(term)
+#: src/filters/light-and-shadow/lighting.xml:215(term)
 msgid "Spot"
 msgstr "Spot"
 
-#: src/filters/light-and-shadow/lighting.xml:211(para)
+#: src/filters/light-and-shadow/lighting.xml:217(para)
 #, fuzzy
 msgid ""
 "Displays a blue point that cannot be moved. This light has a fixed direction."
@@ -2248,7 +2263,7 @@ msgstr ""
 "Hareket ettirilemeyen mavi bir nokta görüntüler. Bu ışığın sabit bir yönü "
 "vardır."
 
-#: src/filters/light-and-shadow/lighting.xml:223(para)
+#: src/filters/light-and-shadow/lighting.xml:229(para)
 #, fuzzy
 msgid ""
 "When you click on the color swatch, you bring a dialog up where you can "
@@ -2257,20 +2272,20 @@ msgstr ""
 "Renk örneğine tıkladığınızda, ışık kaynağı rengini seçebileceğiniz bir "
 "iletişim kutusu açılır."
 
-#: src/filters/light-and-shadow/lighting.xml:230(term)
+#: src/filters/light-and-shadow/lighting.xml:236(term)
 msgid "Intensity"
 msgstr "Yoğunluk"
 
-#: src/filters/light-and-shadow/lighting.xml:232(para)
+#: src/filters/light-and-shadow/lighting.xml:238(para)
 #, fuzzy
 msgid "With this option, you can set light intensity."
 msgstr "Bu seçenekle ışık yoğunluğunu ayarlayabilirsiniz."
 
-#: src/filters/light-and-shadow/lighting.xml:238(term)
+#: src/filters/light-and-shadow/lighting.xml:244(term)
 msgid "Position"
 msgstr "Konum"
 
-#: src/filters/light-and-shadow/lighting.xml:240(para)
+#: src/filters/light-and-shadow/lighting.xml:246(para)
 #, fuzzy
 msgid ""
 "Determines the light point position according to three coordinates: X "
@@ -2282,11 +2297,11 @@ msgstr ""
 "koordinatı, dikey konum için Y koordinatı, kaynak mesafesi için Z koordinatı "
 "(mesafe arttıkça ışık kararır). Değerler -1 ile +1 arasındadır."
 
-#: src/filters/light-and-shadow/lighting.xml:250(term)
+#: src/filters/light-and-shadow/lighting.xml:256(term)
 msgid "Direction"
 msgstr "Yön"
 
-#: src/filters/light-and-shadow/lighting.xml:252(para)
+#: src/filters/light-and-shadow/lighting.xml:258(para)
 #, fuzzy
 msgid ""
 "This option should allow you to fix the light direction in its three "
@@ -2296,11 +2311,11 @@ msgstr ""
 "Bu seçenek, ışığın yönünü <guilabel>X</guilabel>, <guilabel>Y</guilabel> ve "
 "<guilabel>Z</guilabel> koordinatlarında sabitlemenizi sağlar."
 
-#: src/filters/light-and-shadow/lighting.xml:260(term)
+#: src/filters/light-and-shadow/lighting.xml:266(term)
 msgid "Isolate"
 msgstr "Yalıt"
 
-#: src/filters/light-and-shadow/lighting.xml:262(para)
+#: src/filters/light-and-shadow/lighting.xml:268(para)
 #, fuzzy
 msgid ""
 "With this option, you can decide whether all light sources must appear in "
@@ -2311,11 +2326,11 @@ msgstr ""
 "verebilirsiniz."
 
 # Arayüzdeki çeviri kullanıldı
-#: src/filters/light-and-shadow/lighting.xml:270(term)
+#: src/filters/light-and-shadow/lighting.xml:276(term)
 msgid "Lighting presets"
 msgstr "Işıklandırma önayarları"
 
-#: src/filters/light-and-shadow/lighting.xml:272(para)
+#: src/filters/light-and-shadow/lighting.xml:278(para)
 #, fuzzy
 msgid ""
 "You can save your settings with the <guibutton>Save </guibutton> and get "
@@ -2324,17 +2339,17 @@ msgstr ""
 "Ayarlarınızı <guibutton>Kaydet </guibutton> ile kaydedebilir <guibutton>ve </"
 "guibutton> daha sonra <guibutton>Aç</guibutton> ile geri getirebilirsiniz."
 
-#: src/filters/light-and-shadow/lighting.xml:283(title)
+#: src/filters/light-and-shadow/lighting.xml:289(title)
 msgid "Material Properties"
 msgstr "Malzeme Özellikleri"
 
-#: src/filters/light-and-shadow/lighting.xml:285(title)
+#: src/filters/light-and-shadow/lighting.xml:291(title)
 msgid "<quote>Lighting</quote> filter options (Material Properties)"
 msgstr ""
 "<quote>Işıklandırma Etkileri</quote> süzgeci seçenekleri (Malzeme "
 "Özellikleri)"
 
-#: src/filters/light-and-shadow/lighting.xml:295(para)
+#: src/filters/light-and-shadow/lighting.xml:301(para)
 #, fuzzy
 msgid ""
 "These options don't concern light itself, but light reflected by objects."
@@ -2342,7 +2357,7 @@ msgstr ""
 "Bu seçenekler ışığın kendisiyle değil, nesneler tarafından yansıtılan ışıkla "
 "ilgilidir."
 
-#: src/filters/light-and-shadow/lighting.xml:299(para)
+#: src/filters/light-and-shadow/lighting.xml:305(para)
 #, fuzzy
 msgid ""
 "Small spheres, on both ends of the input boxes, represent the action of "
@@ -2353,11 +2368,11 @@ msgstr ""
 "maksimuma (sağda) kadar her seçeneğin eylemini temsil eder. Yardım açılır "
 "pencereleri daha kullanışlıdır."
 
-#: src/filters/light-and-shadow/lighting.xml:306(term)
+#: src/filters/light-and-shadow/lighting.xml:312(term)
 msgid "Ambient intensity"
 msgstr "Çevre yoğunluğu"
 
-#: src/filters/light-and-shadow/lighting.xml:308(para)
+#: src/filters/light-and-shadow/lighting.xml:314(para)
 #, fuzzy
 msgid ""
 "This option, also known as glowing, controls the amount of the original "
@@ -2366,11 +2381,11 @@ msgstr ""
 "Bu seçenek, parlama olarak da bilinir ve doğrudan ışığın düşmediği yerlerde "
 "orijinal rengin miktarını kontrol eder."
 
-#: src/filters/light-and-shadow/lighting.xml:315(term)
+#: src/filters/light-and-shadow/lighting.xml:321(term)
 msgid "Diffuse intensity"
 msgstr "Yayma yoğunluğu"
 
-#: src/filters/light-and-shadow/lighting.xml:317(para)
+#: src/filters/light-and-shadow/lighting.xml:323(para)
 #, fuzzy
 msgid ""
 "This option, also known as brightness, controls the intensity of the "
@@ -2379,11 +2394,11 @@ msgstr ""
 "Parlaklık olarak da bilinen bu seçenek, bir ışık kaynağı tarafından doğrudan "
 "vurulduğunda gösterilecek orijinal rengin yoğunluğunu kontrol eder."
 
-#: src/filters/light-and-shadow/lighting.xml:324(term)
+#: src/filters/light-and-shadow/lighting.xml:330(term)
 msgid "Diffuse reflectivity"
 msgstr "Yayma yansıtıcılığı"
 
-#: src/filters/light-and-shadow/lighting.xml:326(para)
+#: src/filters/light-and-shadow/lighting.xml:332(para)
 #, fuzzy
 msgid ""
 "This option controls how intense the light from the original color will be "
@@ -2392,20 +2407,20 @@ msgstr ""
 "Bu seçenek, orijinal rengin ışığının ne kadar yoğun yansıtılacağını kontrol "
 "eder."
 
-#: src/filters/light-and-shadow/lighting.xml:333(term)
+#: src/filters/light-and-shadow/lighting.xml:339(term)
 msgid "Specular reflectivity"
 msgstr "Dik açılı yansıtıcılık"
 
-#: src/filters/light-and-shadow/lighting.xml:335(para)
+#: src/filters/light-and-shadow/lighting.xml:341(para)
 #, fuzzy
 msgid "This option controls how intense the highlight will be."
 msgstr "Bu seçenek, vurgunun ne kadar yoğun olacağını kontrol eder."
 
-#: src/filters/light-and-shadow/lighting.xml:341(term)
+#: src/filters/light-and-shadow/lighting.xml:347(term)
 msgid "Highlight"
 msgstr "Vurgu"
 
-#: src/filters/light-and-shadow/lighting.xml:343(para)
+#: src/filters/light-and-shadow/lighting.xml:349(para)
 #, fuzzy
 msgid ""
 "This option adjusts the polish or highlight. Higher values make the "
@@ -2414,26 +2429,26 @@ msgstr ""
 "Bu seçenek parlaklığı veya vurguyu ayarlar. Daha yüksek değerler vurguyu "
 "daha odaklanmış hale getirir."
 
-#: src/filters/light-and-shadow/lighting.xml:350(term)
+#: src/filters/light-and-shadow/lighting.xml:356(term)
 msgid "Metallic"
 msgstr "Metalik"
 
-#: src/filters/light-and-shadow/lighting.xml:352(para)
+#: src/filters/light-and-shadow/lighting.xml:358(para)
 #, fuzzy
 msgid "When this option is checked, surfaces look metallic."
 msgstr "Bu seçenek işaretlendiğinde, yüzeyler metalik görünür."
 
-#: src/filters/light-and-shadow/lighting.xml:361(title)
+#: src/filters/light-and-shadow/lighting.xml:367(title)
 msgid "Bump Map"
 msgstr "Derinlik Etkisi Eşlemi"
 
-#: src/filters/light-and-shadow/lighting.xml:363(title)
+#: src/filters/light-and-shadow/lighting.xml:369(title)
 msgid "<quote>Lighting</quote> filter options (Bump Map)"
 msgstr ""
 "<quote>Işıklandırma Etkileri</quote> süzgeci seçenekleri (Derinlik Etkisi "
 "Eşlemi)"
 
-#: src/filters/light-and-shadow/lighting.xml:373(para)
+#: src/filters/light-and-shadow/lighting.xml:379(para)
 msgid ""
 "In this tab, you can set filter options that give relief to the image. See "
 "<xref linkend=\"glossary-bumpmapping\"/>."
@@ -2441,11 +2456,11 @@ msgstr ""
 "Bu sekmede, görüntüye rahatlama sağlayan süzgeç seçeneklerini "
 "ayarlayabilirsiniz. Bkz. <xref linkend=\"glossary-bumpmapping\"/>."
 
-#: src/filters/light-and-shadow/lighting.xml:379(term)
+#: src/filters/light-and-shadow/lighting.xml:385(term)
 msgid "Enable bump mapping"
 msgstr "Derinlik etkisi eşlemini etkinleştir"
 
-#: src/filters/light-and-shadow/lighting.xml:381(para)
+#: src/filters/light-and-shadow/lighting.xml:387(para)
 #, fuzzy
 msgid ""
 "With this option, bright parts of the image will appear raised and dark "
@@ -2454,11 +2469,11 @@ msgstr ""
 "Bu seçenekle, görüntünün parlak kısımları yükseltilmiş ve karanlık kısımları "
 "alçaltılmış olarak görünecektir. Görünüm, ışık kaynağı konumuna bağlıdır."
 
-#: src/filters/light-and-shadow/lighting.xml:389(term)
+#: src/filters/light-and-shadow/lighting.xml:395(term)
 msgid "Bump map image"
 msgstr "Derinlik etkisi eşlemi görüntüsü"
 
-#: src/filters/light-and-shadow/lighting.xml:391(para)
+#: src/filters/light-and-shadow/lighting.xml:397(para)
 #, fuzzy
 msgid ""
 "Select a grayscale image to use as a bump map. See the <link linkend=\"gimp-"
@@ -2468,11 +2483,11 @@ msgstr ""
 "bilgi için <link linkend=\"gimp-filter-bump-map\">Bump Map</link> "
 "eklentisine bakın."
 
-#: src/filters/light-and-shadow/lighting.xml:399(term)
+#: src/filters/light-and-shadow/lighting.xml:405(term)
 msgid "Curve"
 msgstr "Eğri"
 
-#: src/filters/light-and-shadow/lighting.xml:401(para)
+#: src/filters/light-and-shadow/lighting.xml:407(para)
 #, fuzzy
 msgid ""
 "This option defines the method that will be used when applying the bump map; "
@@ -2486,38 +2501,38 @@ msgstr ""
 "türü mevcuttur: <emphasis>Doğrusal</emphasis>, <emphasis>Logaritmik</"
 "emphasis>, <emphasis>Sinüzoidal</emphasis> ve <emphasis>Küresel</emphasis>."
 
-#: src/filters/light-and-shadow/lighting.xml:414(term)
+#: src/filters/light-and-shadow/lighting.xml:420(term)
 msgid "Maximum height"
 msgstr "En çok yükseklik"
 
-#: src/filters/light-and-shadow/lighting.xml:416(para)
+#: src/filters/light-and-shadow/lighting.xml:422(para)
 #, fuzzy
 msgid "This is the maximum height of bumps."
 msgstr "Bu, tümseklerin maksimum yüksekliğidir."
 
-#: src/filters/light-and-shadow/lighting.xml:425(title)
+#: src/filters/light-and-shadow/lighting.xml:431(title)
 msgid "Environment Map"
 msgstr "Ortam Eşlemi"
 
-#: src/filters/light-and-shadow/lighting.xml:427(title)
+#: src/filters/light-and-shadow/lighting.xml:433(title)
 msgid "<quote>Lighting</quote> filter options (Environment Map)"
 msgstr ""
 "<quote>Işıklandırma Etkileri</quote> süzgeci seçenekleri (Ortam Eşlemi)"
 
-#: src/filters/light-and-shadow/lighting.xml:439(term)
+#: src/filters/light-and-shadow/lighting.xml:445(term)
 msgid "Enable environment mapping"
 msgstr "Ortam eşlemini etkinleştir"
 
-#: src/filters/light-and-shadow/lighting.xml:441(para)
+#: src/filters/light-and-shadow/lighting.xml:447(para)
 #, fuzzy
 msgid "When you check this box, the following option is enabled:"
 msgstr "Bu kutuyu işaretlediğinizde, aşağıdaki seçenek etkinleştirilir:"
 
-#: src/filters/light-and-shadow/lighting.xml:448(term)
+#: src/filters/light-and-shadow/lighting.xml:454(term)
 msgid "Environment map image"
 msgstr "Ortam eşlemi görüntüsü"
 
-#: src/filters/light-and-shadow/lighting.xml:450(para)
+#: src/filters/light-and-shadow/lighting.xml:456(para)
 #, fuzzy
 msgid ""
 "Select a RGB image to be used as environment map. Please note that for this "
@@ -2528,7 +2543,7 @@ msgstr ""
 "çalışması için,<emphasis>kullanmadan önce GIMP</emphasis> ile başka bir "
 "görüntü yüklemeniz gerektiğini lütfen unutmayın."
 
-#: src/filters/light-and-shadow/lighting.xml:455(para)
+#: src/filters/light-and-shadow/lighting.xml:461(para)
 msgid ""
 "An example can be found at <xref linkend=\"bibliography-online-golden-text\"/"
 ">."
@@ -2645,7 +2660,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/gflare.xml:90(None)
+#: src/filters/light-and-shadow/gflare.xml:95(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/gflare-options-1.png'; "
 "md5=3be5e220ec86e4b74b2bf8fc49985de3"
@@ -2655,7 +2670,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/gflare.xml:193(None)
+#: src/filters/light-and-shadow/gflare.xml:198(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/gflare-options-2.png'; "
 "md5=c4099d14b29c3be82a0a0163d55729c1"
@@ -2665,7 +2680,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/gflare.xml:255(None)
+#: src/filters/light-and-shadow/gflare.xml:260(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/gflare-editor-1.png'; "
 "md5=fe2e51c9e03de3e58cbcba3040348b74"
@@ -2675,7 +2690,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/gflare.xml:350(None)
+#: src/filters/light-and-shadow/gflare.xml:355(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/gflare-editor-2.png'; "
 "md5=f5425029cb3f2b6bf8e0839ec250cf28"
@@ -2685,7 +2700,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/gflare.xml:446(None)
+#: src/filters/light-and-shadow/gflare.xml:451(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/gflare-editor-3.png'; "
 "md5=3a814300db86f3bf68e55b1af3a647f8"
@@ -2695,7 +2710,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/gflare.xml:502(None)
+#: src/filters/light-and-shadow/gflare.xml:507(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/gflare-editor-4.png'; "
 "md5=adcdfaf76856c95f1113fb85c9aa79bf"
@@ -2732,7 +2747,7 @@ msgstr ""
 "merkezi ateş topu olan <emphasis>Glow</emphasis>, <emphasis>Işınlar</"
 "emphasis> ve <emphasis>İkinci İşaret F</emphasis>işekleri"
 
-#: src/filters/light-and-shadow/gflare.xml:52(para)
+#: src/filters/light-and-shadow/gflare.xml:57(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Light and Shadow</guisubmenu><guimenuitem>Gradient Flare…"
@@ -2742,7 +2757,7 @@ msgstr ""
 "guimenu><guisubmenu>Işık ve Gölge</guisubmenu><guimenuitem>Renk Geçişi "
 "Parlaması…</guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/light-and-shadow/gflare.xml:64(para)
+#: src/filters/light-and-shadow/gflare.xml:69(para)
 msgid ""
 "The <emphasis>Settings</emphasis> tab allows you to set manually the "
 "parameters while the <emphasis>Selector</emphasis> tab let you choose "
@@ -2752,7 +2767,7 @@ msgstr ""
 "sağlarken, <emphasis>Seçici</emphasis> sekmesi listeden önayarları seçmenizi "
 "sağlar."
 
-#: src/filters/light-and-shadow/gflare.xml:73(para)
+#: src/filters/light-and-shadow/gflare.xml:78(para)
 msgid ""
 "When <guilabel>Auto update preview</guilabel> is checked, parameter setting "
 "results are interactively displayed in preview without modifying the image "
@@ -2763,19 +2778,19 @@ msgstr ""
 "yapılmadan, siz <guilabel>Tamam</guilabel> düğmesine tıklayana dek "
 "görüntülenir."
 
-#: src/filters/light-and-shadow/gflare.xml:84(title)
+#: src/filters/light-and-shadow/gflare.xml:89(title)
 msgid "Settings"
 msgstr "Ayarlar"
 
-#: src/filters/light-and-shadow/gflare.xml:86(title)
+#: src/filters/light-and-shadow/gflare.xml:91(title)
 msgid "<quote>Gradient Flare</quote> filter options (Settings)"
 msgstr "<quote>Renk Geçişi Parlaması</quote> süzgeci seçenekleri (Ayarlar)"
 
-#: src/filters/light-and-shadow/gflare.xml:96(term)
+#: src/filters/light-and-shadow/gflare.xml:101(term)
 msgid "Center"
 msgstr "Merkez"
 
-#: src/filters/light-and-shadow/gflare.xml:98(para)
+#: src/filters/light-and-shadow/gflare.xml:103(para)
 #, fuzzy
 msgid ""
 "You can set the <guilabel>X</guilabel> and <guilabel>Y</guilabel> (pixels) "
@@ -2786,14 +2801,14 @@ msgstr ""
 "ve <guilabel>Y</guilabel> (piksel) koordinatlarını ayarlayabilirsiniz. "
 "Koordinat başlangıç noktası sol üst köşededir."
 
-#: src/filters/light-and-shadow/gflare.xml:107(term)
-#: src/filters/light-and-shadow/gflare.xml:403(term)
-#: src/filters/light-and-shadow/gflare.xml:461(term)
-#: src/filters/light-and-shadow/gflare.xml:517(term)
+#: src/filters/light-and-shadow/gflare.xml:112(term)
+#: src/filters/light-and-shadow/gflare.xml:408(term)
+#: src/filters/light-and-shadow/gflare.xml:466(term)
+#: src/filters/light-and-shadow/gflare.xml:522(term)
 msgid "Parameters"
 msgstr "Parametreler"
 
-#: src/filters/light-and-shadow/gflare.xml:113(para)
+#: src/filters/light-and-shadow/gflare.xml:118(para)
 #, fuzzy
 msgid ""
 "The radius of the effect. The slider limits the range of possible values, "
@@ -2802,40 +2817,40 @@ msgstr ""
 "Etkinin yarıçapı. Kaydırıcı, olası değerlerin aralığını sınırlar, ancak "
 "giriş kutusunu kullanarak daha büyük değerler girebilirsiniz."
 
-#: src/filters/light-and-shadow/gflare.xml:123(para)
+#: src/filters/light-and-shadow/gflare.xml:128(para)
 msgid "Turn the effect."
 msgstr "Etkiyi döndür."
 
-#: src/filters/light-and-shadow/gflare.xml:127(term)
-#: src/filters/light-and-shadow/gflare.xml:424(term)
+#: src/filters/light-and-shadow/gflare.xml:132(term)
+#: src/filters/light-and-shadow/gflare.xml:429(term)
 msgid "Hue rotation"
 msgstr "Renk tonu döndürme"
 
-#: src/filters/light-and-shadow/gflare.xml:129(para)
+#: src/filters/light-and-shadow/gflare.xml:134(para)
 msgid "Change the tint (color) of the effect."
 msgstr "Etkinin tonunu (rengini) değiştir."
 
-#: src/filters/light-and-shadow/gflare.xml:133(term)
+#: src/filters/light-and-shadow/gflare.xml:138(term)
 msgid "Vector angle"
 msgstr "Vektör açısı"
 
-#: src/filters/light-and-shadow/gflare.xml:135(para)
+#: src/filters/light-and-shadow/gflare.xml:140(para)
 msgid "Turn the Second flares."
 msgstr "İkinci parlamaları döndür."
 
-#: src/filters/light-and-shadow/gflare.xml:139(term)
+#: src/filters/light-and-shadow/gflare.xml:144(term)
 msgid "Vector length"
 msgstr "Vektör uzunluğu"
 
-#: src/filters/light-and-shadow/gflare.xml:141(para)
+#: src/filters/light-and-shadow/gflare.xml:146(para)
 msgid "Vary the distance applied for the Second flares."
 msgstr "İkinci parlama için uygulanan mesafeyi değiştir."
 
-#: src/filters/light-and-shadow/gflare.xml:148(term)
+#: src/filters/light-and-shadow/gflare.xml:153(term)
 msgid "Adaptive supersampling"
 msgstr "Uyarlamalı süperörneklem"
 
-#: src/filters/light-and-shadow/gflare.xml:150(para)
+#: src/filters/light-and-shadow/gflare.xml:155(para)
 #, fuzzy
 msgid ""
 "When enabled, adaptive supersampling, an anti-aliasing technique, is used "
@@ -2846,7 +2861,7 @@ msgstr ""
 "uyarlanabilir süper örnekleme kullanılır. Daha fazla bilgi için <xref "
 "linkend=\"glossary-supersampling\"/> adresini ziyaret edin."
 
-#: src/filters/light-and-shadow/gflare.xml:155(para)
+#: src/filters/light-and-shadow/gflare.xml:160(para)
 #, fuzzy
 msgid ""
 "Enabling this setting activates the following options that can be used to "
@@ -2855,11 +2870,11 @@ msgstr ""
 "Bu ayarı etkinleştirmek, süper örneklemeyi ayarlamak için kullanılabilecek "
 "aşağıdaki seçenekleri etkinleştirir."
 
-#: src/filters/light-and-shadow/gflare.xml:161(term)
+#: src/filters/light-and-shadow/gflare.xml:166(term)
 msgid "Max depth"
 msgstr "En çok derinlik"
 
-#: src/filters/light-and-shadow/gflare.xml:163(para)
+#: src/filters/light-and-shadow/gflare.xml:168(para)
 #, fuzzy
 msgid ""
 "Specifies the maximum depth for supersampling. This determines the number of "
@@ -2870,26 +2885,26 @@ msgstr ""
 "sayısını belirler. Daha yüksek değerler daha iyi sonuçlar verebilir, ancak "
 "hesaplamayı yavaşlatabilir."
 
-#: src/filters/light-and-shadow/gflare.xml:172(term)
+#: src/filters/light-and-shadow/gflare.xml:177(term)
 #: src/filters/light-and-shadow/bloom.xml:81(term)
 msgid "Threshold"
 msgstr "Eşik"
 
-#: src/filters/light-and-shadow/gflare.xml:174(para)
+#: src/filters/light-and-shadow/gflare.xml:179(para)
 #, fuzzy
 msgid ""
 "Specifies the lower threshold of pixel difference that stops supersampling."
 msgstr "Süper örneklemeyi durduran piksel farkının alt eşiğini belirtir."
 
-#: src/filters/light-and-shadow/gflare.xml:187(title)
+#: src/filters/light-and-shadow/gflare.xml:192(title)
 msgid "Selector"
 msgstr "Seçici"
 
-#: src/filters/light-and-shadow/gflare.xml:189(title)
+#: src/filters/light-and-shadow/gflare.xml:194(title)
 msgid "<quote>Gradient Flare</quote> filter options (Selector)"
 msgstr "<quote>Renk Geçişi Parlaması</quote> süzgeci seçenekleri (Seçici)"
 
-#: src/filters/light-and-shadow/gflare.xml:197(para)
+#: src/filters/light-and-shadow/gflare.xml:202(para)
 msgid ""
 "The Selector tab allows you to select a Gradient Flare pattern, to change it "
 "and save it."
@@ -2897,11 +2912,11 @@ msgstr ""
 "Seçici sekmesi Renk Geçişi Parlaması örüntüsü seçmenizi, değiştirmenizi ve "
 "kaydetmenizi sağlar."
 
-#: src/filters/light-and-shadow/gflare.xml:203(term)
+#: src/filters/light-and-shadow/gflare.xml:208(term)
 msgid "New"
 msgstr "Yeni"
 
-#: src/filters/light-and-shadow/gflare.xml:205(para)
+#: src/filters/light-and-shadow/gflare.xml:210(para)
 msgid ""
 "When you click on this button, you create a new Gradient Flare pattern. Give "
 "it a name of your choice."
@@ -2909,11 +2924,11 @@ msgstr ""
 "Bu düğmeye tıkladığınızda, yeni Renk Geçişi Parlaması örüntüsü oluşturulur. "
 "İstediğiniz adı verin."
 
-#: src/filters/light-and-shadow/gflare.xml:212(term)
+#: src/filters/light-and-shadow/gflare.xml:217(term)
 msgid "Edit"
 msgstr "Düzenle"
 
-#: src/filters/light-and-shadow/gflare.xml:214(para)
+#: src/filters/light-and-shadow/gflare.xml:219(para)
 msgid ""
 "This button brings up the <link linkend=\"plug-in-gflare-editor\">Gradient "
 "Flare Editor</link> (see below)."
@@ -2921,11 +2936,11 @@ msgstr ""
 "Bu düğme <link linkend=\"plug-in-gflare-editor\">Renk Geçişi Parlaması "
 "Düzenleyicisi</link>ʼni açar (aşağıya bakın)."
 
-#: src/filters/light-and-shadow/gflare.xml:222(term)
+#: src/filters/light-and-shadow/gflare.xml:227(term)
 msgid "Copy"
 msgstr "Kopyala"
 
-#: src/filters/light-and-shadow/gflare.xml:224(para)
+#: src/filters/light-and-shadow/gflare.xml:229(para)
 msgid ""
 "This button allows you to duplicate selected Gradient Flare pattern. You can "
 "edit the copy without altering the original."
@@ -2933,54 +2948,54 @@ msgstr ""
 "Bu düğme, seçilen Renk Geçişi Parlaması örüntüsünü çoğaltmanızı sağlar. "
 "Özgünü değiştirmeden kopyayı düzenleyebilirsiniz."
 
-#: src/filters/light-and-shadow/gflare.xml:231(term)
+#: src/filters/light-and-shadow/gflare.xml:236(term)
 msgid "Delete"
 msgstr "Sil"
 
-#: src/filters/light-and-shadow/gflare.xml:233(para)
+#: src/filters/light-and-shadow/gflare.xml:238(para)
 msgid "This button deletes the selected Gradient Flare pattern."
 msgstr "Bu düğme seçili Renk Geçişi Parlaması örüntüsünü siler."
 
-#: src/filters/light-and-shadow/gflare.xml:243(title)
+#: src/filters/light-and-shadow/gflare.xml:248(title)
 msgid "Gradient Flare Editor"
 msgstr "Renk Geçişi Parlaması Düzenleyicisi"
 
-#: src/filters/light-and-shadow/gflare.xml:244(para)
+#: src/filters/light-and-shadow/gflare.xml:249(para)
 msgid "The Gradient Flare Editor is also organized in tabs:"
 msgstr "Renk Geçişi Parlaması Düzenleyicisi de sekmelerle düzenlenmiştir:"
 
-#: src/filters/light-and-shadow/gflare.xml:249(title)
+#: src/filters/light-and-shadow/gflare.xml:254(title)
 msgid "General"
 msgstr "Genel"
 
-#: src/filters/light-and-shadow/gflare.xml:251(title)
+#: src/filters/light-and-shadow/gflare.xml:256(title)
 msgid "<quote>Gradient Flare Editor</quote> options (General)"
 msgstr "<quote>Renk Geçişi Parlaması Düzenleyicisi</quote> seçenekleri (Genel)"
 
-#: src/filters/light-and-shadow/gflare.xml:261(term)
+#: src/filters/light-and-shadow/gflare.xml:266(term)
 msgid "Glow Paint Options"
 msgstr "Parıltı Boyama Seçenekleri"
 
-#: src/filters/light-and-shadow/gflare.xml:267(para)
+#: src/filters/light-and-shadow/gflare.xml:272(para)
 #, fuzzy
 msgid "Slider and input box allows you to reduce glow opacity (0-100)."
 msgstr ""
 "Kaydırıcı ve giriş kutusu, parlaklık opaklığını azaltmanıza olanak tanır "
 "(0-100)."
 
-#: src/filters/light-and-shadow/gflare.xml:274(term)
+#: src/filters/light-and-shadow/gflare.xml:279(term)
 msgid "Paint mode"
 msgstr "Boyama kipi"
 
-#: src/filters/light-and-shadow/gflare.xml:276(para)
+#: src/filters/light-and-shadow/gflare.xml:281(para)
 msgid "You can choose between four modes:"
 msgstr "Dört kip arasında seçim yapabilirsiniz:"
 
-#: src/filters/light-and-shadow/gflare.xml:279(term)
+#: src/filters/light-and-shadow/gflare.xml:284(term)
 msgid "Normal"
 msgstr "Normal"
 
-#: src/filters/light-and-shadow/gflare.xml:281(para)
+#: src/filters/light-and-shadow/gflare.xml:286(para)
 #, fuzzy
 msgid ""
 "In this mode, the glow covers the image without taking into account what is "
@@ -2988,11 +3003,11 @@ msgid ""
 msgstr ""
 "Bu modda, parlaklık altındaki içeriği dikkate almadan görüntüyü kaplar."
 
-#: src/filters/light-and-shadow/gflare.xml:288(term)
+#: src/filters/light-and-shadow/gflare.xml:293(term)
 msgid "Addition"
 msgstr "Ekleme"
 
-#: src/filters/light-and-shadow/gflare.xml:290(para)
+#: src/filters/light-and-shadow/gflare.xml:295(para)
 #, fuzzy
 msgid ""
 "Pixel RGB values of glow are added to RGB values of the corresponding pixels "
@@ -3002,11 +3017,11 @@ msgstr ""
 "değerlerine eklenir. Renkler daha açık hale gelir ve beyaz alanlar "
 "görünebilir."
 
-#: src/filters/light-and-shadow/gflare.xml:298(term)
+#: src/filters/light-and-shadow/gflare.xml:303(term)
 msgid "Overlay"
 msgstr "Kaplama"
 
-#: src/filters/light-and-shadow/gflare.xml:300(para)
+#: src/filters/light-and-shadow/gflare.xml:305(para)
 #, fuzzy
 msgid ""
 "Light/Dark areas of glow enhance corresponding light/dark areas of image."
@@ -3014,11 +3029,11 @@ msgstr ""
 "Işığın açık/koyu alanları, görüntünün karşılık gelen açık/koyu alanlarını "
 "vurgular."
 
-#: src/filters/light-and-shadow/gflare.xml:307(term)
+#: src/filters/light-and-shadow/gflare.xml:312(term)
 msgid "Screen"
 msgstr "Ekran"
 
-#: src/filters/light-and-shadow/gflare.xml:309(para)
+#: src/filters/light-and-shadow/gflare.xml:314(para)
 #, fuzzy
 msgid ""
 "Dark areas of image are enlightened by corresponding light areas of glow. "
@@ -3027,37 +3042,37 @@ msgstr ""
 "Görüntünün karanlık alanları, karşılık gelen parlak alanlar tarafından "
 "aydınlatılır. Aynı ekrana yansıtılan iki slayt düşünün."
 
-#: src/filters/light-and-shadow/gflare.xml:323(term)
+#: src/filters/light-and-shadow/gflare.xml:328(term)
 msgid "Rays Paint Options"
 msgstr "Işınların Boyama Seçenekleri"
 
-#: src/filters/light-and-shadow/gflare.xml:325(para)
-#: src/filters/light-and-shadow/gflare.xml:334(para)
+#: src/filters/light-and-shadow/gflare.xml:330(para)
+#: src/filters/light-and-shadow/gflare.xml:339(para)
 msgid "Options are the same as for <guilabel>GlowPaintOptions</guilabel>."
 msgstr ""
 "Seçenekler <guilabel>Parıltılı&nbsp;Boya&nbsp;Seçenekleri</guilabel> ile "
 "aynıdır."
 
-#: src/filters/light-and-shadow/gflare.xml:332(term)
+#: src/filters/light-and-shadow/gflare.xml:337(term)
 msgid "Second Flare Paint Options"
 msgstr "İkinci Parlama Boyaması Seçenekleri"
 
-#: src/filters/light-and-shadow/gflare.xml:344(title)
+#: src/filters/light-and-shadow/gflare.xml:349(title)
 msgid "Glow"
 msgstr "Parıltı"
 
-#: src/filters/light-and-shadow/gflare.xml:346(title)
+#: src/filters/light-and-shadow/gflare.xml:351(title)
 msgid "<quote>Gradient Flare Editor</quote> options (Glow)"
 msgstr ""
 "<quote>Renk Geçişi Parlaması Düzenleyicisi</quote> seçenekleri (Parıltı)"
 
-#: src/filters/light-and-shadow/gflare.xml:356(term)
-#: src/filters/light-and-shadow/gflare.xml:452(term)
-#: src/filters/light-and-shadow/gflare.xml:508(term)
+#: src/filters/light-and-shadow/gflare.xml:361(term)
+#: src/filters/light-and-shadow/gflare.xml:457(term)
+#: src/filters/light-and-shadow/gflare.xml:513(term)
 msgid "Gradients"
 msgstr "Renk Geçişleri"
 
-#: src/filters/light-and-shadow/gflare.xml:359(para)
+#: src/filters/light-and-shadow/gflare.xml:364(para)
 #, fuzzy
 msgid ""
 "By clicking on the rectangular buttons, you can develop a long list of "
@@ -3066,20 +3081,20 @@ msgstr ""
 "Dikdörtgen düğmelere tıklayarak uzun bir gradyan listesi oluşturabilirsiniz. "
 "<quote>%</quote> gradyanlar Editör'e aittir."
 
-#: src/filters/light-and-shadow/gflare.xml:365(term)
+#: src/filters/light-and-shadow/gflare.xml:370(term)
 msgid "Radial gradient"
 msgstr "Radyal renk geçişi"
 
-#: src/filters/light-and-shadow/gflare.xml:367(para)
+#: src/filters/light-and-shadow/gflare.xml:372(para)
 #, fuzzy
 msgid "The selected gradient is drawn radially, from center to edge."
 msgstr "Seçilen gradyan merkezden kenara doğru radyal olarak çizilir."
 
-#: src/filters/light-and-shadow/gflare.xml:374(term)
+#: src/filters/light-and-shadow/gflare.xml:379(term)
 msgid "Angular gradient"
 msgstr "Açısal renk geçişi"
 
-#: src/filters/light-and-shadow/gflare.xml:376(para)
+#: src/filters/light-and-shadow/gflare.xml:381(para)
 #, fuzzy
 msgid ""
 "The selected gradient develops around center, counter-clockwise, starting "
@@ -3094,11 +3109,11 @@ msgstr ""
 "birleştirilir: açık alanlar güçlendirilir ve renkler CMYK renk sistemine "
 "(yazıcınızın renk sistemi) göre karıştırılır."
 
-#: src/filters/light-and-shadow/gflare.xml:388(term)
+#: src/filters/light-and-shadow/gflare.xml:393(term)
 msgid "Angular size gradient"
 msgstr "Açısal boyut renk geçişi"
 
-#: src/filters/light-and-shadow/gflare.xml:390(para)
+#: src/filters/light-and-shadow/gflare.xml:395(para)
 #, fuzzy
 msgid ""
 "This is a gradient of radius size which develops angularly. Radius is "
@@ -3109,22 +3124,22 @@ msgstr ""
 "göre kontrol edilir. Parlaklık: parlaklık sıfırsa (siyah), yarıçap %0'dır. "
 "Parlaklık %100 ise (beyaz), yarıçap da %100'dür."
 
-#: src/filters/light-and-shadow/gflare.xml:407(term)
+#: src/filters/light-and-shadow/gflare.xml:412(term)
 msgid "Size (%)"
 msgstr "Boyut (%)"
 
 #. FIXME: percent of what?
-#: src/filters/light-and-shadow/gflare.xml:410(para)
+#: src/filters/light-and-shadow/gflare.xml:415(para)
 #, fuzzy
 msgid "Sets size of glow in percent (0-200)."
 msgstr "Parıltı boyutunu yüzde olarak ayarlar (0-200)."
 
-#: src/filters/light-and-shadow/gflare.xml:418(para)
+#: src/filters/light-and-shadow/gflare.xml:423(para)
 #, fuzzy
 msgid "Sets the origin of the angular gradient (-180 +180)."
 msgstr "Açısal gradyanın orijinini ayarlar (-180 +180)."
 
-#: src/filters/light-and-shadow/gflare.xml:426(para)
+#: src/filters/light-and-shadow/gflare.xml:431(para)
 #, fuzzy
 msgid ""
 "Sets glow color, according to the HSV color wheel (-180 +180). (Cf. <link "
@@ -3133,18 +3148,18 @@ msgstr ""
 "HSV renk çarkına göre parlaklık rengini ayarlar (-180 +180). (Bkz. <link "
 "linkend=\"gimp-colorselector-triangle\">Üçgen renk seçici</link>.)"
 
-#: src/filters/light-and-shadow/gflare.xml:440(title)
+#: src/filters/light-and-shadow/gflare.xml:445(title)
 msgid "Rays"
 msgstr "Işınlar"
 
-#: src/filters/light-and-shadow/gflare.xml:442(title)
+#: src/filters/light-and-shadow/gflare.xml:447(title)
 msgid "<quote>Gradient Flare Editor</quote> options (Rays)"
 msgstr ""
 "<quote>Renk Geçişi Parlaması Düzenleyicisi</quote> seçenekleri (Işınlar)"
 
-#: src/filters/light-and-shadow/gflare.xml:454(para)
-#: src/filters/light-and-shadow/gflare.xml:510(para)
-#: src/filters/light-and-shadow/gflare.xml:519(para)
+#: src/filters/light-and-shadow/gflare.xml:459(para)
+#: src/filters/light-and-shadow/gflare.xml:515(para)
+#: src/filters/light-and-shadow/gflare.xml:524(para)
 msgid ""
 "The options are the same as for <link linkend=\"plug-in-gflare-editor-"
 "glow\">Glow</link>."
@@ -3152,7 +3167,7 @@ msgstr ""
 "Seçenekler <link linkend=\"plug-in-gflare-editor-glow\">Parıltı</link> için "
 "olanlarla aynıdır."
 
-#: src/filters/light-and-shadow/gflare.xml:464(para)
+#: src/filters/light-and-shadow/gflare.xml:469(para)
 msgid ""
 "The first three options are the same as in <link linkend=\"plug-in-gflare-"
 "editor-glow\">Glow</link>. Two are new:"
@@ -3160,11 +3175,11 @@ msgstr ""
 "İlk üç seçenek <link linkend=\"plug-in-gflare-editor-glow\">Parıltı</link> "
 "sekmesindekilerle aynıdır. İki tanesi yenidir:"
 
-#: src/filters/light-and-shadow/gflare.xml:470(term)
+#: src/filters/light-and-shadow/gflare.xml:475(term)
 msgid "# of Spikes"
 msgstr "# Çivi:"
 
-#: src/filters/light-and-shadow/gflare.xml:472(para)
+#: src/filters/light-and-shadow/gflare.xml:477(para)
 #, fuzzy
 msgid ""
 "This option determines the number of spikes (1-300) but also their texture."
@@ -3172,30 +3187,30 @@ msgstr ""
 "Bu seçenek sivri uçların sayısını (1-300) ve aynı zamanda dokularını "
 "belirler."
 
-#: src/filters/light-and-shadow/gflare.xml:479(term)
+#: src/filters/light-and-shadow/gflare.xml:484(term)
 msgid "Spike thickness"
 msgstr "Çivi kalınlığı"
 
-#: src/filters/light-and-shadow/gflare.xml:481(para)
+#: src/filters/light-and-shadow/gflare.xml:486(para)
 #, fuzzy
 msgid "When spikes get wider (1-100), they look like flower petals."
 msgstr "Dikenler genişledikçe (1-100), çiçek yapraklarına benzerler."
 
-#: src/filters/light-and-shadow/gflare.xml:494(title)
+#: src/filters/light-and-shadow/gflare.xml:499(title)
 msgid "Second Flares"
 msgstr "İkinci Parlamalar"
 
-#: src/filters/light-and-shadow/gflare.xml:496(title)
+#: src/filters/light-and-shadow/gflare.xml:501(title)
 msgid "<quote>Gradient Flare Editor</quote> options (Second Flares)"
 msgstr ""
 "<quote>Renk Geçişi Parlaması Düzenleyicisi</quote> seçenekleri (İkinci "
 "Parlamalar)"
 
-#: src/filters/light-and-shadow/gflare.xml:526(term)
+#: src/filters/light-and-shadow/gflare.xml:531(term)
 msgid "Shape of Second Flares"
 msgstr "İkinci Parlama Biçimi"
 
-#: src/filters/light-and-shadow/gflare.xml:528(para)
+#: src/filters/light-and-shadow/gflare.xml:533(para)
 #, fuzzy
 msgid ""
 "Second flares, these satellites of the main flare, may have two shapes: "
@@ -3208,11 +3223,11 @@ msgstr ""
 "<emphasis>sayısını</emphasis> ayarlayabilirsiniz. Bu seçenek 2 değil 1 kenar "
 "(!) kabul eder."
 
-#: src/filters/light-and-shadow/gflare.xml:553(term)
+#: src/filters/light-and-shadow/gflare.xml:558(term)
 msgid "Randomize"
 msgstr "Rastgele"
 
-#: src/filters/light-and-shadow/gflare.xml:555(para)
+#: src/filters/light-and-shadow/gflare.xml:560(para)
 #, fuzzy
 msgid ""
 "When you click on this button, you produce a random seed that will be used "
@@ -3284,7 +3299,7 @@ msgid "<quote>Inner Glow</quote> filter options"
 msgstr "<quote>İç Parıltı</quote> süzgeci seçenekleri"
 
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:86(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:126(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:128(term)
 msgid "Grow shape"
 msgstr "Büyüme şekli"
 
@@ -3299,12 +3314,12 @@ msgstr ""
 "<guilabel>Karo</guilabel>."
 
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:96(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:91(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:93(term)
 msgid "X"
 msgstr "X"
 
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:97(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:92(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:94(term)
 msgid "Y"
 msgstr "Y"
 
@@ -3322,7 +3337,7 @@ msgid "This determines the size of the blur."
 msgstr "Bu, bulanıklık boyutunu belirler."
 
 #: src/filters/light-and-shadow/gegl-inner-glow.xml:114(term)
-#: src/filters/light-and-shadow/drop-shadow.xml:137(term)
+#: src/filters/light-and-shadow/drop-shadow.xml:139(term)
 msgid "Grow radius"
 msgstr "Büyüme yarıçapı"
 
@@ -3436,29 +3451,37 @@ msgstr ""
 "Aşağıdaki eğim türleri arasından seçim yapabilirsiniz: <guilabel>Kubbe</"
 "guilabel> (öntanımlı) ve <guilabel>Derinlik Etkisi</guilabel>."
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:83(para)
+#: src/filters/light-and-shadow/gegl-bevel.xml:85(term)
+msgid "Chamfer"
+msgstr "Kubbe"
+
+#: src/filters/light-and-shadow/gegl-bevel.xml:87(para)
 #, fuzzy
 msgid ""
-"<guilabel>Chamfer</guilabel> simulates lighting of chamfered 3D-edges. "
-"Chamfered edges are sloped edges between two faces of an object."
+"Simulates lighting of chamfered 3D-edges. Chamfered edges are sloped edges "
+"between two faces of an object."
 msgstr ""
 "<guilabel>Pah</guilabel>, pahlı 3B kenarların aydınlatmasını simüle eder. "
 "Pahlı kenarlar, bir nesnenin iki yüzü arasındaki eğimli kenarlardır."
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:88(para)
+#: src/filters/light-and-shadow/gegl-bevel.xml:94(term)
 #, fuzzy
-msgid ""
-"<guilabel>Bump</guilabel> makes a 3D effect by adding an emboss effect on "
-"top of a blur."
+#| msgid "Bump Map"
+msgid "Bump"
+msgstr "Derinlik Etkisi Eşlemi"
+
+#: src/filters/light-and-shadow/gegl-bevel.xml:96(para)
+#, fuzzy
+msgid "Makes a 3D effect by adding an emboss effect on top of a blur."
 msgstr ""
 "<guilabel>Derinlik Etkisi Eğimi</guilabel>, bulanıklığın üzerine kabartma "
 "etkisi ekleyerek 3B etki oluşturur."
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:95(term)
+#: src/filters/light-and-shadow/gegl-bevel.xml:105(term)
 msgid "Blend Mode"
 msgstr "Harmanlama Kipi"
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:97(para)
+#: src/filters/light-and-shadow/gegl-bevel.xml:107(para)
 #, fuzzy
 msgid ""
 "Several blend modes can be chosen here to adjust the effect. The first one, "
@@ -3469,11 +3492,11 @@ msgstr ""
 "<guilabel>Hiçbiri</guilabel>, <acronym>GIMP'</acronym>te katman için bir "
 "karışım modu ayarlamak istediğinizde kullanılır."
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:105(term)
+#: src/filters/light-and-shadow/gegl-bevel.xml:115(term)
 msgid "Distance Map Setting"
 msgstr "Mesafe Haritası Ayarı"
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:107(para)
+#: src/filters/light-and-shadow/gegl-bevel.xml:117(para)
 #, fuzzy
 msgid ""
 "Only available for <guilabel>Chamfer</guilabel>. There are three choices "
@@ -3484,7 +3507,7 @@ msgstr ""
 "yapısını değiştiren üç seçenek vardır. Görüntünüz için en uygun olanı görmek "
 "için denemeler yapın."
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:117(para)
+#: src/filters/light-and-shadow/gegl-bevel.xml:127(para)
 #, fuzzy
 msgid ""
 "Only available for <guilabel>Bump</guilabel>. This determines the size of "
@@ -3493,19 +3516,19 @@ msgstr ""
 "Yalnızca <guilabel>Derinlik Etkisi Eğimi</guilabel> için kullanılabilir. Bu, "
 "derinlik etkisi için yumuşatma boyutunu belirler."
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:124(term)
+#: src/filters/light-and-shadow/gegl-bevel.xml:134(term)
 msgid "Elevation"
 msgstr "Yükselme"
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:126(para)
+#: src/filters/light-and-shadow/gegl-bevel.xml:136(para)
 msgid "This controls the elevation angle of the bevel."
 msgstr "Bu, eğimin yükselme açısını denetler."
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:132(term)
+#: src/filters/light-and-shadow/gegl-bevel.xml:142(term)
 msgid "Depth"
 msgstr "Derinlik"
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:134(para)
+#: src/filters/light-and-shadow/gegl-bevel.xml:144(para)
 #, fuzzy
 msgid ""
 "This controls the emboss depth; i.e. how deep and detailed the bevel will be."
@@ -3513,11 +3536,11 @@ msgstr ""
 "Bu, kabartma derinliğini kontrol eder; yani eğimin ne kadar derin ve "
 "ayrıntılı olacağını belirler."
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:141(term)
+#: src/filters/light-and-shadow/gegl-bevel.xml:151(term)
 msgid "Light Angle"
 msgstr "Işık Açısı"
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:143(para)
+#: src/filters/light-and-shadow/gegl-bevel.xml:153(para)
 #, fuzzy
 msgid ""
 "This controls the angle of the light source illuminating and shading the "
@@ -3537,7 +3560,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/drop-shadow.xml:73(None)
+#: src/filters/light-and-shadow/drop-shadow.xml:75(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/drop-shadow-dialog.png'; "
 "md5=48a2bd895c9be2a478544c75c7072698"
@@ -3567,7 +3590,15 @@ msgstr ""
 "Bu GEGL süzgeciyle görüntüye, seçime ya da metne gölge ekleyebilirsiniz. "
 "Gölgenin rengini, konumunu ve boyutunu seçebilirsiniz."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:51(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:48(para)
+msgid ""
+"It is available if your image holds an Alpha channel (see <xref "
+"linkend=\"gimp-layer-alpha-add\"/>). Otherwise, it is disabled."
+msgstr ""
+"Görüntünün Alfa kanalı varsa kullanılabilir (bkz. <xref linkend=\"gimp-layer-"
+"alpha-add\"/>). Diğer durumda devre dışı bırakılır."
+
+#: src/filters/light-and-shadow/drop-shadow.xml:58(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Light and Shadow</guisubmenu><guimenuitem>Drop Shadow…</"
@@ -3577,20 +3608,12 @@ msgstr ""
 "guimenu><guisubmenu>Işık ve Gölge</guisubmenu><guimenuitem>Gölge…</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:59(para)
-msgid ""
-"It is available if your image holds an Alpha channel (see <xref "
-"linkend=\"gimp-layer-alpha-add\"/>). Otherwise, it is disabled."
-msgstr ""
-"Görüntünün Alfa kanalı varsa kullanılabilir (bkz. <xref linkend=\"gimp-layer-"
-"alpha-add\"/>). Diğer durumda devre dışı bırakılır."
-
-#: src/filters/light-and-shadow/drop-shadow.xml:69(title)
+#: src/filters/light-and-shadow/drop-shadow.xml:71(title)
 msgid "<quote>Drop Shadow</quote> filter options"
 msgstr "<quote>Gölge</quote> süzgeci seçenekleri"
 
-#: src/filters/light-and-shadow/drop-shadow.xml:94(para)
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:89(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:96(para)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:94(para)
 #, fuzzy
 msgid ""
 "The layer containing the drop shadow will be moved horizontally by X pixels, "
@@ -3605,8 +3628,8 @@ msgstr ""
 "veya dikey yönde uzakmış gibi görünmesini sağlarken, düşük değerler ise "
 "kaynağın görüntüye daha yakın görünmesini sağlar."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:102(para)
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:97(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:104(para)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:102(para)
 #, fuzzy
 msgid ""
 "The offsets may be negative, leading to a shadow on the left of the "
@@ -3615,7 +3638,7 @@ msgstr ""
 "Ofsetler negatif olabilir, bu durumda X ofseti < 0 ise seçimin solunda, Y "
 "ofseti < 0 ise seçimin üstünde bir gölge oluşur."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:107(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:109(para)
 #, fuzzy
 msgid ""
 "Out of sheer curiosity, you can see the drop shadow layer clearly by setting "
@@ -3624,7 +3647,7 @@ msgstr ""
 "Sırf meraktan, bulanıklık yarıçapını 0 olarak ayarlayıp X ve Y ile gölgeyi "
 "hareket ettirerek gölge katmanını net bir şekilde görebilirsiniz."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:117(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:119(para)
 #, fuzzy
 msgid ""
 "After creating the shadow, a <link linkend=\"gimp-filter-gaussian-"
@@ -3635,7 +3658,7 @@ msgstr ""
 "linkend=\"gimp-filter-gaussian-blur\">Gauss bulanıklığı</link> uygulanır, "
 "böylece damla gölgesinin gerçekçi görünümü elde edilir."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:128(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:130(para)
 #, fuzzy
 msgid ""
 "You can choose the shape that will be used to expand or contract the shadow. "
@@ -3646,7 +3669,7 @@ msgstr ""
 "Seçenekler kendinden anlaşılır olmalıdır: <guilabel>Daire</guilabel> "
 "(varsayılan), <guilabel>Kare</guilabel> veya <guilabel>Elmas</guilabel>."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:139(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:141(para)
 #, fuzzy
 msgid ""
 "The distance to expand the shadow before blurring. A negative value will "
@@ -3654,7 +3677,7 @@ msgid ""
 msgstr ""
 "Bulanıklaştırmadan önce gölgenin büyüme mesafesi; eksi değer gölgeyi küçültür"
 
-#: src/filters/light-and-shadow/drop-shadow.xml:158(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:160(para)
 #, fuzzy
 msgid ""
 "Shadow opacity. It defaults to 0.500, but you may select any other value "
@@ -3663,11 +3686,11 @@ msgstr ""
 "Gölge opaklığı. Varsayılan değer 0,500'dür, ancak burada 0 (tam şeffaflık) "
 "ile 2,00 (tam opaklık) arasında herhangi bir değer seçebilirsiniz."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:169(title)
+#: src/filters/light-and-shadow/drop-shadow.xml:171(title)
 msgid "Using Drop Shadow Filter"
 msgstr "Gölge Süzgeci Kullanımı"
 
-#: src/filters/light-and-shadow/drop-shadow.xml:170(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:172(para)
 #, fuzzy
 msgid ""
 "This GEGL Drop Shadow filter is surprising: if you apply the filter directly "
@@ -3678,13 +3701,13 @@ msgstr ""
 "gibi doğrudan görüntüye uygularsanız, görüntünüzde saydam alanlar yoksa "
 "hiçbir şey elde edemezsiniz."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:180(para)
-#: src/filters/light-and-shadow/drop-shadow.xml:239(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:182(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:241(para)
 #, fuzzy
 msgid "Open your original image."
 msgstr "Orijinal resminizi açın."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:185(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:187(para)
 #, fuzzy
 msgid ""
 "Open a new image, a little bigger than your original image, filled with "
@@ -3693,7 +3716,7 @@ msgstr ""
 "Orijinal görüntünüzden biraz daha büyük, <emphasis>şeffaflıkla</emphasis> "
 "doldurulmuş yeni bir görüntü açın."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:191(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:193(para)
 #, fuzzy
 msgid ""
 "Copy your original image and paste it into the new image. A floating "
@@ -3702,13 +3725,13 @@ msgstr ""
 "Orijinal görüntünüzü kopyalayın ve yeni görüntüye yapıştırın. Katmanlar "
 "iletişim kutusunda bir yüzen seçim oluşturulur."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:197(para)
-#: src/filters/light-and-shadow/drop-shadow.xml:261(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:199(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:263(para)
 msgid "Anchor the floating selection."
 msgstr "Yüzen seçimi çıpala."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:202(para)
-#: src/filters/light-and-shadow/drop-shadow.xml:266(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:204(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:268(para)
 #, fuzzy
 msgid ""
 "Select <menuchoice><guimenu>Layer</guimenu><guimenuitem>Crop Layers to "
@@ -3717,7 +3740,7 @@ msgstr ""
 "Seç <menuchoice><guimenu>Katman</guimenu><guimenuitem>Katmanları İçeriğe "
 "Sığdır</guimenuitem></menuchoice>."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:207(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:209(para)
 #, fuzzy
 msgid ""
 "Select <menuchoice><guimenu>Layer</guimenu><guimenuitem>Layer Boundary Size…"
@@ -3731,8 +3754,8 @@ msgstr ""
 "tıklayın. Ardından <guibutton>Yeniden Boyutlandır</guibutton> düğmesine "
 "tıklayın."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:216(para)
-#: src/filters/light-and-shadow/drop-shadow.xml:277(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:218(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:279(para)
 #, fuzzy
 msgid ""
 "Open the Drop Shadow dialog: the drop shadow is displayed in the on-canvas "
@@ -3741,8 +3764,8 @@ msgstr ""
 "Alt Gölge iletişim kutusunu açın: alt gölge tuval üzerindeki önizlemede "
 "görüntülenir. Varsayılan seçenek değerlerini değiştirebilirsiniz."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:222(para)
-#: src/filters/light-and-shadow/drop-shadow.xml:283(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:224(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:285(para)
 #, fuzzy
 msgid ""
 "Eventually, add a new layer, with the same size as the image and filled with "
@@ -3753,12 +3776,12 @@ msgstr ""
 "doldurulmuş yeni bir katman ekleyin. Bu katmanı katman yığınının en altına "
 "taşıyın."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:229(para)
-#: src/filters/light-and-shadow/drop-shadow.xml:295(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:231(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:297(para)
 msgid "Click on the <guibutton>OK</guibutton> to apply filter."
 msgstr "Süzgeci uygulamak için <guibutton>Tamam</guibutton>ʼa tıklayın."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:175(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:177(para)
 #, fuzzy
 msgid ""
 "<emphasis role=\"bold\">To get the same result as the legacy filter</"
@@ -3767,7 +3790,7 @@ msgstr ""
 "<emphasis role=\"bold\">Eski filtre ile aynı sonucu elde etmek için</"
 "emphasis>: <placeholder-1/>"
 
-#: src/filters/light-and-shadow/drop-shadow.xml:244(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:246(para)
 #, fuzzy
 msgid ""
 "Open a new image, the same size as your original image, filled with "
@@ -3776,11 +3799,11 @@ msgstr ""
 "Orijinal resminizle aynı boyutta, <emphasis>şeffaflıkla</emphasis> "
 "doldurulmuş yeni bir resim açın."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:250(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:252(para)
 msgid "Create the selection"
 msgstr "Seçimi oluştur"
 
-#: src/filters/light-and-shadow/drop-shadow.xml:255(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:257(para)
 #, fuzzy
 msgid ""
 "Copy the selection and paste it into the new image. A floating selection is "
@@ -3789,7 +3812,7 @@ msgstr ""
 "Seçimi kopyalayın ve yeni görüntüye yapıştırın. Katmanlar iletişim kutusunda "
 "bir yüzen seçim oluşturulur."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:271(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:273(para)
 #, fuzzy
 msgid ""
 "Select <menuchoice><guimenu>Layer</guimenu><guimenuitem>Layer to Image Size</"
@@ -3798,7 +3821,7 @@ msgstr ""
 "Seç <menuchoice><guimenu>Katman</guimenu><guimenuitem>Katman Görüntü "
 "Boyutuna</guimenuitem></menuchoice> (şeffaflık ile)."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:288(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:290(para)
 #, fuzzy
 msgid ""
 "You can also use your original image as background: undo the selection, copy "
@@ -3809,18 +3832,18 @@ msgstr ""
 "alın, görüntüyü kopyalayın ve yeni görüntüye yeni katman olarak yapıştırın. "
 "Yeni katmanı katman yığınının en altına taşıyın."
 
-#: src/filters/light-and-shadow/drop-shadow.xml:235(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:237(para)
 msgid ""
 "<emphasis role=\"bold\">Applying filter to a selection</emphasis>: "
 "<placeholder-1/>"
 msgstr ""
 "<emphasis role=\"bold\">Seçime süzgeç uygulama</emphasis>: <placeholder-1/>"
 
-#: src/filters/light-and-shadow/drop-shadow.xml:302(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:304(para)
 msgid "<emphasis role=\"bold\">Applying filter to a text</emphasis>:"
 msgstr "<emphasis role=\"bold\">Metine süzgeç uygulama</emphasis>:"
 
-#: src/filters/light-and-shadow/drop-shadow.xml:305(para)
+#: src/filters/light-and-shadow/drop-shadow.xml:307(para)
 msgid ""
 "The procedure is more simple to create a drop shadow for a text: create the "
 "text and apply the Drop Shadow filter directly."
@@ -3840,7 +3863,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:80(None)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:85(None)
 msgid ""
 "@@image: 'images/filters/light-and-shadow/drop-shadow-legacy.png'; "
 "md5=84f5d0cf13a8d7341aee607fc7db2662"
@@ -3850,7 +3873,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:133(None)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:138(None)
 msgid ""
 "@@image: 'images/filters/examples/drop-shadow-color.png'; "
 "md5=0bef8c6567c6cd2712a84672fbd9d24c"
@@ -3904,7 +3927,7 @@ msgstr ""
 "beyaz arka plan filtre tarafından oluşturulmamıştır, bunun yerine gölgeyi "
 "görebilmeniz için sonradan eklenmiştir."
 
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:63(para)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:68(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Light and Shadow</guisubmenu><guimenuitem>Drop Shadow "
@@ -3914,19 +3937,19 @@ msgstr ""
 "guimenu><guisubmenu>Işık ve Gölge</guisubmenu><guimenuitem>Gölge (eski)…</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:76(title)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:81(title)
 msgid "<quote>Drop Shadow (legacy)</quote> filter options"
 msgstr "<quote>Gölge (eski)</quote> süzgeci seçenekleri"
 
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:86(term)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:91(term)
 msgid "Offset X"
 msgstr "X Konumu"
 
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:87(term)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:92(term)
 msgid "Offset Y"
 msgstr "Y Konumu"
 
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:102(para)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:107(para)
 #, fuzzy
 msgid ""
 "If there's no active selection, you must have <guilabel>Allow resizing</"
@@ -3935,7 +3958,7 @@ msgstr ""
 "Etkin bir seçim yoksa, herhangi bir etki görmek için <guilabel>Yeniden "
 "boyutlandırmaya izin ver</guilabel> seçeneğini etkinleştirmeniz gerekir."
 
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:111(para)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:116(para)
 #, fuzzy
 msgid ""
 "After creating the shadow, a <link linkend=\"gimp-filter-gaussian-"
@@ -3950,7 +3973,7 @@ msgstr ""
 "genişlettiği için, <guilabel>Yeniden boyutlandırmaya izin ver seçeneğini</"
 "guilabel> etkinleştirmek gerekebilir."
 
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:124(para)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:129(para)
 #, fuzzy
 msgid ""
 "The shadow may have any color. Just click on the button, and select a color "
@@ -3959,11 +3982,11 @@ msgstr ""
 "Gölge herhangi bir renkte olabilir. Düğmeye tıklayın ve renk seçici "
 "açıldığında bir renk seçin."
 
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:129(title)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:134(title)
 msgid "<quote>Drop Shadow</quote> color example"
 msgstr "<quote>Gölge</quote> renk örneği"
 
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:142(para)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:147(para)
 #, fuzzy
 msgid ""
 "The shadow's opacity is just the opacity of the new layer containing the "
@@ -3979,7 +4002,7 @@ msgstr ""
 "linkend=\"gimp-layer-dialog\">katmanlar iletişim kutusundan</link> opaklığı "
 "değiştirebilirsiniz."
 
-#: src/filters/light-and-shadow/drop-shadow-legacy.xml:156(para)
+#: src/filters/light-and-shadow/drop-shadow-legacy.xml:161(para)
 #, fuzzy
 msgid ""
 "If enabled, the filter will resize the image if that is needed to make place "

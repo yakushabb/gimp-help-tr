@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-11-08 18:26+0000\n"
 "PO-Revision-Date: 2025-11-06 12:45+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/weave.xml:69(None)
+#: src/filters/artistic/weave.xml:71(None)
 msgid ""
 "@@image: 'images/filters/artistic/weave.png'; "
 "md5=e1a716445d951de35ff056f53233de37"
@@ -41,7 +41,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/weave.xml:164(None)
+#: src/filters/artistic/weave.xml:166(None)
 msgid ""
 "@@image: 'images/filters/examples/artistic-weave-as-lattice.jpg'; "
 "md5=bfaef67bef6049bc9c6c45cc73c3b5f2"
@@ -134,11 +134,6 @@ msgstr ""
 "görünür."
 
 #: src/filters/artistic/weave.xml:40(para)
-#: src/filters/artistic/clothify.xml:38(para)
-msgid "If the image is in indexed colors, this menu entry is disabled."
-msgstr "Görüntü indeksli renklerdeyse, bu menü girdisi devre dışı bırakılır."
-
-#: src/filters/artistic/weave.xml:43(para)
 #, fuzzy
 msgid ""
 "This filter adds a <quote>Multiply</quote> mode layer upon the layer where "
@@ -147,23 +142,31 @@ msgstr ""
 "Bu filtre, bu komutu etkinleştirdiğiniz katmanın üzerine bir <quote>Çarpma</"
 "quote> modu katmanı ekler. Örgü dokusu gri seviyelerde oluşturulur."
 
-#: src/filters/artistic/weave.xml:51(title)
+#: src/filters/artistic/weave.xml:46(para)
+#: src/filters/artistic/clothify.xml:39(para)
+#: src/filters/artistic/GIMPressionist.xml:54(para)
+#, fuzzy
+#| msgid "If the image is in indexed colors, this menu entry is disabled."
+msgid "If the image is in indexed mode, this menu entry is disabled."
+msgstr "Görüntü indeksli renklerdeyse, bu menü girdisi devre dışı bırakılır."
+
+#: src/filters/artistic/weave.xml:53(title)
 #: src/filters/artistic/waterpixels.xml:37(title)
-#: src/filters/artistic/vangogh-lic.xml:63(title)
+#: src/filters/artistic/vangogh-lic.xml:69(title)
 #: src/filters/artistic/softglow.xml:50(title)
 #: src/filters/artistic/simple-linear-clustering.xml:40(title)
 #: src/filters/artistic/photocopy.xml:61(title)
 #: src/filters/artistic/oilify.xml:56(title)
 #: src/filters/artistic/glasstile.xml:52(title)
 #: src/filters/artistic/cubism.xml:56(title)
-#: src/filters/artistic/clothify.xml:86(title)
+#: src/filters/artistic/clothify.xml:88(title)
 #: src/filters/artistic/cartoon.xml:51(title)
 #: src/filters/artistic/applycanvas.xml:53(title)
-#: src/filters/artistic/GIMPressionist.xml:56(title)
+#: src/filters/artistic/GIMPressionist.xml:61(title)
 msgid "Activating the Filter"
 msgstr "Süzgeci Etkinleştirme"
 
-#: src/filters/artistic/weave.xml:52(para)
+#: src/filters/artistic/weave.xml:54(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Weave…</guimenuitem></"
@@ -174,29 +177,29 @@ msgstr ""
 "menuchoice> altında bulunur."
 
 #. Parameter Settings
-#: src/filters/artistic/weave.xml:63(title)
+#: src/filters/artistic/weave.xml:65(title)
 #: src/filters/artistic/waterpixels.xml:49(title)
-#: src/filters/artistic/vangogh-lic.xml:75(title)
+#: src/filters/artistic/vangogh-lic.xml:81(title)
 #: src/filters/artistic/softglow.xml:62(title)
 #: src/filters/artistic/simple-linear-clustering.xml:52(title)
 #: src/filters/artistic/photocopy.xml:73(title)
 #: src/filters/artistic/oilify.xml:68(title)
 #: src/filters/artistic/glasstile.xml:64(title)
 #: src/filters/artistic/cubism.xml:68(title)
-#: src/filters/artistic/clothify.xml:98(title)
+#: src/filters/artistic/clothify.xml:100(title)
 #: src/filters/artistic/cartoon.xml:63(title)
 #: src/filters/artistic/applycanvas.xml:65(title)
-#: src/filters/artistic/GIMPressionist.xml:69(title)
+#: src/filters/artistic/GIMPressionist.xml:74(title)
 #: src/filters/artistic/GIMPressionist-sizemap.xml:38(title)
 #: src/filters/artistic/GIMPressionist-orientmap.xml:40(title)
 msgid "Options"
 msgstr "Seçenekler"
 
-#: src/filters/artistic/weave.xml:65(title)
+#: src/filters/artistic/weave.xml:67(title)
 msgid "<quote>Weave</quote> filter options"
 msgstr "<quote>Dokuma</quote> süzgeci seçenekleri"
 
-#: src/filters/artistic/weave.xml:73(para)
+#: src/filters/artistic/weave.xml:75(para)
 #, fuzzy
 msgid ""
 "For to make coarse mesh texture, increase the ribbon spacing and/or decrease "
@@ -205,16 +208,16 @@ msgstr ""
 "Kaba ağ dokusu yapmak için şerit aralığını artırın ve/veya şerit genişliğini "
 "azaltın."
 
-#: src/filters/artistic/weave.xml:77(para)
+#: src/filters/artistic/weave.xml:79(para)
 #, fuzzy
 msgid "For to strain ribbons hard, decrease the shadow depth."
 msgstr "Şeritleri sertçe germek için gölge derinliğini azaltın."
 
-#: src/filters/artistic/weave.xml:82(term)
+#: src/filters/artistic/weave.xml:84(term)
 msgid "Ribbon width"
 msgstr "Şerit genişliği"
 
-#: src/filters/artistic/weave.xml:84(para)
+#: src/filters/artistic/weave.xml:86(para)
 #, fuzzy
 msgid ""
 "With this option you can set the tape width in pixel between 0.0 and 256.0. "
@@ -223,11 +226,11 @@ msgstr ""
 "Bu seçenekle, bant genişliğini 0,0 ile 256,0 arasında piksel cinsinden "
 "ayarlayabilirsiniz. Varsayılan olarak 30,0 piksel ayarlanmıştır."
 
-#: src/filters/artistic/weave.xml:91(term)
+#: src/filters/artistic/weave.xml:93(term)
 msgid "Ribbon spacing"
 msgstr "Şerit boşluğu"
 
-#: src/filters/artistic/weave.xml:93(para)
+#: src/filters/artistic/weave.xml:95(para)
 #, fuzzy
 msgid ""
 "With this option you can set the distance to the neighboring ribbon or the "
@@ -238,11 +241,11 @@ msgstr ""
 "ile 256.0 arasında piksel olarak ayarlayabilirsiniz. Varsayılan olarak 10.0 "
 "piksel ayarlanmıştır."
 
-#: src/filters/artistic/weave.xml:101(term)
+#: src/filters/artistic/weave.xml:103(term)
 msgid "Shadow darkness"
 msgstr "Gölge koyuluğu"
 
-#: src/filters/artistic/weave.xml:103(para)
+#: src/filters/artistic/weave.xml:105(para)
 #, fuzzy
 msgid ""
 "With this option you can set the darkness at crossings of lower ribbon in "
@@ -253,12 +256,12 @@ msgstr ""
 "ayarlayabilirsiniz. Düşük değer şeritleri daha ince gösterir. 75.yüzde 0 "
 "varsayılan değerdir."
 
-#: src/filters/artistic/weave.xml:111(term)
-#: src/filters/artistic/GIMPressionist.xml:750(term)
+#: src/filters/artistic/weave.xml:113(term)
+#: src/filters/artistic/GIMPressionist.xml:755(term)
 msgid "Shadow depth"
 msgstr "Gölge derinliği"
 
-#: src/filters/artistic/weave.xml:113(para)
+#: src/filters/artistic/weave.xml:115(para)
 #, fuzzy
 msgid ""
 "With this option you can set the bent strength of ribbons in percentage. "
@@ -271,11 +274,11 @@ msgstr ""
 "yüzey içindir. Gerçek etki <guilabel>Gölge koyuluğu</guilabel> ile "
 "sınırlıdır. 75.yüzde 0 varsayılan değerdir."
 
-#: src/filters/artistic/weave.xml:123(term)
+#: src/filters/artistic/weave.xml:125(term)
 msgid "Thread length"
 msgstr "Parçacık uzunluğu"
 
-#: src/filters/artistic/weave.xml:125(para)
+#: src/filters/artistic/weave.xml:127(para)
 #, fuzzy
 msgid ""
 "With this option you can set the regularity of stripe texture. If this value "
@@ -288,11 +291,11 @@ msgstr ""
 "ise, şerit yüzeyi benekli hale gelir. Bu değeri 0,0 ile 256,0 arasında "
 "piksel cinsinden ayarlayın. Varsayılan değer 200,0'dır."
 
-#: src/filters/artistic/weave.xml:135(term)
+#: src/filters/artistic/weave.xml:137(term)
 msgid "Thread density"
 msgstr "Parçacık sıklığı"
 
-#: src/filters/artistic/weave.xml:137(para)
+#: src/filters/artistic/weave.xml:139(para)
 #, fuzzy
 msgid ""
 "With this option you can set the density of fiber-like parallel short "
@@ -303,11 +306,11 @@ msgstr ""
 "yoğunluğunu ayarlayabilirsiniz. Şeritleri doldurmak için bu değeri artırın. "
 "50.yüzde 0 varsayılan değerdir."
 
-#: src/filters/artistic/weave.xml:145(term)
+#: src/filters/artistic/weave.xml:147(term)
 msgid "Thread intensity"
 msgstr "Parçacık yoğunluğu"
 
-#: src/filters/artistic/weave.xml:147(para)
+#: src/filters/artistic/weave.xml:149(para)
 #, fuzzy
 msgid ""
 "With this option you can set the opacity of stripe texture. Lower value "
@@ -318,15 +321,15 @@ msgstr ""
 "iplikleri belirsiz gösterir. İplikleri temizlemek için değeri yüzde 0,0 "
 "olarak ayarlayın. Varsayılan değer yüzde 100,0'dır."
 
-#: src/filters/artistic/weave.xml:158(title)
+#: src/filters/artistic/weave.xml:160(title)
 msgid "Another usage"
 msgstr "Başka bir kullanım"
 
-#: src/filters/artistic/weave.xml:160(title)
+#: src/filters/artistic/weave.xml:162(title)
 msgid "Adding a lattice using <quote>Weave</quote> texture"
 msgstr "<quote>Dokuma</quote> dokusunu kullanarak kafes ekleme"
 
-#: src/filters/artistic/weave.xml:167(para)
+#: src/filters/artistic/weave.xml:169(para)
 msgid ""
 "Narrower the ribbon width, wider the ribbon spacing, and filled with the "
 "<quote>Wood#1</quote> pattern."
@@ -334,7 +337,7 @@ msgstr ""
 "Şerit genişliği daha dar, şerit boşluğu daha geniş ve <quote>Wood&nbsp;#1</"
 "quote> örüntüsü ile doldurulmuştur."
 
-#: src/filters/artistic/weave.xml:174(para)
+#: src/filters/artistic/weave.xml:176(para)
 #, fuzzy
 msgid ""
 "This texture can be a lattice that you can see the original image through "
@@ -457,7 +460,7 @@ msgstr "Harmanlama Seçenekleri"
 #: src/filters/artistic/cubism.xml:84(term)
 #: src/filters/artistic/cartoon.xml:79(term)
 #: src/filters/artistic/applycanvas.xml:81(term)
-#: src/filters/artistic/GIMPressionist.xml:86(title)
+#: src/filters/artistic/GIMPressionist.xml:91(title)
 #: src/filters/artistic/GIMPressionist-sizemap.xml:93(term)
 #: src/filters/artistic/GIMPressionist-orientmap.xml:112(term)
 msgid "Preview"
@@ -556,7 +559,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/vangogh-lic.xml:81(None)
+#: src/filters/artistic/vangogh-lic.xml:87(None)
 msgid ""
 "@@image: 'images/filters/artistic/vangogh.png'; "
 "md5=b2b8d478836be54371b5e2592e96fa9f"
@@ -566,7 +569,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/vangogh-lic.xml:125(None)
+#: src/filters/artistic/vangogh-lic.xml:131(None)
 msgid ""
 "@@image: 'images/filters/examples/map-lic-deriv.png'; "
 "md5=dc33d3539c22bfdcf5f69310d1bf3be6"
@@ -576,7 +579,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/vangogh-lic.xml:180(None)
+#: src/filters/artistic/vangogh-lic.xml:186(None)
 msgid ""
 "@@image: 'images/filters/examples/map-lic-vert-blur.png'; "
 "md5=84e2347dafc611bf985c8b4ccc92dc73"
@@ -586,7 +589,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/vangogh-lic.xml:194(None)
+#: src/filters/artistic/vangogh-lic.xml:200(None)
 msgid ""
 "@@image: 'images/filters/examples/map-lic-sq-blur.png'; "
 "md5=1f238a31ad015aee85ab5d1a2174c5de"
@@ -596,7 +599,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/vangogh-lic.xml:211(None)
+#: src/filters/artistic/vangogh-lic.xml:217(None)
 msgid ""
 "@@image: 'images/filters/examples/map-lic-vert-pat.png'; "
 "md5=9d2992dae0dca60921864bc3a4cafbdc"
@@ -606,7 +609,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/vangogh-lic.xml:238(None)
+#: src/filters/artistic/vangogh-lic.xml:244(None)
 msgid ""
 "@@image: 'images/filters/examples/map-lic-blur-lg.png'; "
 "md5=3973600349d58151dc3d19583bbb7bd7"
@@ -616,7 +619,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/vangogh-lic.xml:255(None)
+#: src/filters/artistic/vangogh-lic.xml:261(None)
 msgid ""
 "@@image: 'images/filters/examples/map-lic-text-lg.png'; "
 "md5=f92baa4eca63aece5f2ae5140c75af52"
@@ -626,7 +629,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/vangogh-lic.xml:280(None)
+#: src/filters/artistic/vangogh-lic.xml:286(None)
 msgid ""
 "@@image: 'images/filters/examples/map-lic-vp-nm4.png'; "
 "md5=b833c8d31172519e43e7a1764473dee7"
@@ -636,7 +639,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/vangogh-lic.xml:300(None)
+#: src/filters/artistic/vangogh-lic.xml:306(None)
 msgid ""
 "@@image: 'images/filters/examples/map-lic-is.png'; "
 "md5=d9d13263f96e61fc5e78d99fd7ba237a"
@@ -646,7 +649,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/vangogh-lic.xml:326(None)
+#: src/filters/artistic/vangogh-lic.xml:332(None)
 msgid ""
 "@@image: 'images/filters/examples/map-lic-mm.png'; "
 "md5=373912a2d019d2b457fc41b58247fcbe"
@@ -707,7 +710,15 @@ msgstr ""
 "yalnızca gradyan yönlerini dikkate alır</emphasis>. Haritanın katı "
 "alanlarına karşılık gelen görüntü pikselleri yok sayılır."
 
-#: src/filters/artistic/vangogh-lic.xml:64(para)
+#: src/filters/artistic/vangogh-lic.xml:61(para)
+#, fuzzy
+#| msgid "If the image is in indexed colors, this menu entry is disabled."
+msgid ""
+"If the image is in grayscale mode or indexed mode, this menu entry is "
+"disabled."
+msgstr "Görüntü indeksli renklerdeyse, bu menü girdisi devre dışı bırakılır."
+
+#: src/filters/artistic/vangogh-lic.xml:70(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Van Gogh (LIC)…</"
@@ -717,11 +728,11 @@ msgstr ""
 "guimenu><guisubmenu>Sanatsal</guisubmenu><guimenuitem>Van Gogh (LIC)…</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/artistic/vangogh-lic.xml:77(title)
+#: src/filters/artistic/vangogh-lic.xml:83(title)
 msgid "<quote>Van Gogh (LIC)</quote> filter options"
 msgstr "<quote>Van Gogh (LIC)</quote> süzgeci seçenekleri"
 
-#: src/filters/artistic/vangogh-lic.xml:88(para)
+#: src/filters/artistic/vangogh-lic.xml:94(para)
 #, fuzzy
 msgid ""
 "To create a blur, check <guilabel>With Source Image</guilabel>. Only Filter "
@@ -731,7 +742,7 @@ msgstr ""
 "guilabel> işaretleyin. Yalnızca Filtre Uzunluğu kaydırıcısı ve belki de "
 "Entegrasyon Adımları kaydırıcısı kullanışlıdır."
 
-#: src/filters/artistic/vangogh-lic.xml:95(para)
+#: src/filters/artistic/vangogh-lic.xml:101(para)
 #, fuzzy
 msgid ""
 "To create a texture, check <guilabel>With White Noise</guilabel>. All "
@@ -740,11 +751,11 @@ msgstr ""
 "Bir doku oluşturmak için <guilabel>Beyaz Gürültü ile</guilabel> işaretleyin. "
 "Tüm kaydırıcılar yararlı olabilir."
 
-#: src/filters/artistic/vangogh-lic.xml:104(term)
+#: src/filters/artistic/vangogh-lic.xml:110(term)
 msgid "Effect Channel"
 msgstr "Etki Kanalı"
 
-#: src/filters/artistic/vangogh-lic.xml:106(para)
+#: src/filters/artistic/vangogh-lic.xml:112(para)
 msgid ""
 "By selecting <guilabel>Hue</guilabel>, <guilabel>Saturation </guilabel> or "
 "<guilabel>Brightness (=Value)</guilabel>, filter will use this channel to "
@@ -754,11 +765,11 @@ msgstr ""
 "<guilabel>Parlaklık (=Değer)</guilabel> seçildiğinde, süzgeç görüntüyü "
 "işlemek için bu kanalı kullanır."
 
-#: src/filters/artistic/vangogh-lic.xml:114(term)
+#: src/filters/artistic/vangogh-lic.xml:120(term)
 msgid "Effect Operator"
 msgstr "Etki İşleci"
 
-#: src/filters/artistic/vangogh-lic.xml:116(para)
+#: src/filters/artistic/vangogh-lic.xml:122(para)
 msgid ""
 "The <quote>Derivative</quote> option reverses <quote>Gradient </quote> "
 "direction:"
@@ -766,11 +777,11 @@ msgstr ""
 "<quote>Türev</quote> seçeneği <quote>Renk Geçişi</quote> yönünü tersine "
 "çevirir:"
 
-#: src/filters/artistic/vangogh-lic.xml:121(title)
+#: src/filters/artistic/vangogh-lic.xml:127(title)
 msgid "Derivative option example"
 msgstr "Türev işlevi örneği"
 
-#: src/filters/artistic/vangogh-lic.xml:128(para)
+#: src/filters/artistic/vangogh-lic.xml:134(para)
 #, fuzzy
 msgid ""
 "Using a square gradient map, Effect operator is on <quote>Gradient</quote> "
@@ -781,11 +792,11 @@ msgstr ""
 "quote>, sağda <quote>Türev</quote> üzerindedir: keskin olan bulanıklaşır ve "
 "tersi olur."
 
-#: src/filters/artistic/vangogh-lic.xml:140(term)
+#: src/filters/artistic/vangogh-lic.xml:146(term)
 msgid "Convolve"
 msgstr "Evriştirme"
 
-#: src/filters/artistic/vangogh-lic.xml:142(para)
+#: src/filters/artistic/vangogh-lic.xml:148(para)
 msgid ""
 "You can use two types of convolution. That's the first parameter you have to "
 "set:"
@@ -793,11 +804,11 @@ msgstr ""
 "İki tür evriştirme kullanabilirsiniz. Ayarlamanız gereken ilk parametre "
 "budur:"
 
-#: src/filters/artistic/vangogh-lic.xml:148(term)
+#: src/filters/artistic/vangogh-lic.xml:154(term)
 msgid "With white noise"
 msgstr "Beyaz gürültü ile"
 
-#: src/filters/artistic/vangogh-lic.xml:150(para)
+#: src/filters/artistic/vangogh-lic.xml:156(para)
 #, fuzzy
 msgid ""
 "White noise is an acoustics name. It's a noise where all frequencies have "
@@ -806,19 +817,19 @@ msgstr ""
 "Beyaz gürültü akustik bir isimdir. Tüm frekansların aynı genliğe sahip "
 "olduğu bir gürültüdür. Burada, bu seçenek desen oluşturmak için kullanılır."
 
-#: src/filters/artistic/vangogh-lic.xml:158(term)
+#: src/filters/artistic/vangogh-lic.xml:164(term)
 msgid "With source image"
 msgstr "Kaynak görüntü ile"
 
-#: src/filters/artistic/vangogh-lic.xml:160(para)
+#: src/filters/artistic/vangogh-lic.xml:166(para)
 msgid "The source image will be blurred."
 msgstr "Kaynak görüntü bulanıklaştırılacaktır."
 
-#: src/filters/artistic/vangogh-lic.xml:167(term)
+#: src/filters/artistic/vangogh-lic.xml:173(term)
 msgid "Effect image"
 msgstr "Etki görüntüsü"
 
-#: src/filters/artistic/vangogh-lic.xml:169(para)
+#: src/filters/artistic/vangogh-lic.xml:175(para)
 #, fuzzy
 msgid ""
 "That's the map for blur or pattern direction. This map must have the same "
@@ -831,19 +842,19 @@ msgstr ""
 "olmalıdır. Açılır listeden seçebilmeniz için filtreyi çağırdığınızda "
 "ekranınızda mevcut olmalıdır."
 
-#: src/filters/artistic/vangogh-lic.xml:176(title)
+#: src/filters/artistic/vangogh-lic.xml:182(title)
 msgid "Blurring with vertical gradient map"
 msgstr "Dikey renk geçişi eşlemiyle bulanıklaştırma"
 
-#: src/filters/artistic/vangogh-lic.xml:183(para)
+#: src/filters/artistic/vangogh-lic.xml:189(para)
 msgid "With a vertical gradient map, vertical lines are blurred."
 msgstr "Dikey renk geçişi eşlemiyle dikey çizgiler bulanıklaştırılır."
 
-#: src/filters/artistic/vangogh-lic.xml:190(title)
+#: src/filters/artistic/vangogh-lic.xml:196(title)
 msgid "Blurring with a square gradient map"
 msgstr "Kare renk geçişi eşlemiyle bulanıklaştırma"
 
-#: src/filters/artistic/vangogh-lic.xml:197(para)
+#: src/filters/artistic/vangogh-lic.xml:203(para)
 #, fuzzy
 msgid ""
 "The gradient map is divided into four gradient triangles: each of them has "
@@ -855,11 +866,11 @@ msgstr ""
 "degrade yönü vardır. Görüntünün degrade üçgenlerine karşılık gelen her "
 "alanında, yalnızca degrade ile aynı yöne sahip çizgiler bulanıklaştırılır."
 
-#: src/filters/artistic/vangogh-lic.xml:207(title)
+#: src/filters/artistic/vangogh-lic.xml:213(title)
 msgid "Texture example"
 msgstr "Doku örneği"
 
-#: src/filters/artistic/vangogh-lic.xml:214(para)
+#: src/filters/artistic/vangogh-lic.xml:220(para)
 msgid ""
 "The <quote>With white noise</quote> option is checked. Others are default. "
 "With a vertical gradient map, texture <quote>fibres</quote> are going "
@@ -869,11 +880,11 @@ msgstr ""
 "öntanımlıdır. Dikey renk geçişi eşlemiyle doku <quote>lifleri</quote> yatay "
 "olarak görülür."
 
-#: src/filters/artistic/vangogh-lic.xml:226(term)
+#: src/filters/artistic/vangogh-lic.xml:232(term)
 msgid "Filter length"
 msgstr "Süzgeç uzunluğu"
 
-#: src/filters/artistic/vangogh-lic.xml:228(para)
+#: src/filters/artistic/vangogh-lic.xml:234(para)
 #, fuzzy
 msgid ""
 "When applying blur, this option controls how important blur is. When "
@@ -885,11 +896,11 @@ msgstr ""
 "kontrol eder: düşük değerler pürüzsüz yüzeyle sonuçlanır; yüksek değerler "
 "pürüzlü yüzeyle sonuçlanır."
 
-#: src/filters/artistic/vangogh-lic.xml:234(title)
+#: src/filters/artistic/vangogh-lic.xml:240(title)
 msgid "Action example of Filter Length on blur"
 msgstr "Bulanıklık üzerinde Süzgeç Uzunluğu işlemi örneği"
 
-#: src/filters/artistic/vangogh-lic.xml:241(para)
+#: src/filters/artistic/vangogh-lic.xml:247(para)
 #, fuzzy
 msgid ""
 "On the left: a vertical line, one pixel wide (zoom 800%). On the right: the "
@@ -901,11 +912,11 @@ msgstr ""
 "aynı çizgi. Bulanıklık genişliğinin 6 piksel, her iki tarafta 3 piksel "
 "olduğunu görebilirsiniz."
 
-#: src/filters/artistic/vangogh-lic.xml:251(title)
+#: src/filters/artistic/vangogh-lic.xml:257(title)
 msgid "Filter Length example on texture"
 msgstr "Doku üzerinde Süzgeç Uzunluğu örneği"
 
-#: src/filters/artistic/vangogh-lic.xml:258(para)
+#: src/filters/artistic/vangogh-lic.xml:264(para)
 msgid ""
 "On the left: a texture with Filter Length=3. On the right, the same texture "
 "with Filter Length=24."
@@ -913,11 +924,11 @@ msgstr ""
 "Solda: Süzgeç Uzunluğu=3 ile doku. Sağda, Süzgeç Uzunluğu=24 ile aynı doku."
 
 # Arayüzde Başlık Düzeni kullanılmış.
-#: src/filters/artistic/vangogh-lic.xml:268(term)
+#: src/filters/artistic/vangogh-lic.xml:274(term)
 msgid "Noise magnitude"
 msgstr "Gürültü Büyüklüğü"
 
-#: src/filters/artistic/vangogh-lic.xml:270(para)
+#: src/filters/artistic/vangogh-lic.xml:276(para)
 #, fuzzy
 msgid ""
 "This options controls the amount and size of White Noise. Low values produce "
@@ -926,41 +937,41 @@ msgstr ""
 "Bu seçenek Beyaz Gürültü miktarını ve boyutunu kontrol eder. Düşük değerler "
 "ince taneli yüzeyler üretir. Yüksek değerler kaba taneli dokular üretir."
 
-#: src/filters/artistic/vangogh-lic.xml:276(title)
+#: src/filters/artistic/vangogh-lic.xml:282(title)
 msgid "Action example of Noise Magnitude on texture"
 msgstr "Doku üzerinde Gürültü Büyüklüğü işlemi örneği"
 
-#: src/filters/artistic/vangogh-lic.xml:283(para)
+#: src/filters/artistic/vangogh-lic.xml:289(para)
 msgid "Noise magnitude = 4"
 msgstr "Gürültü büyüklüğü = 4"
 
-#: src/filters/artistic/vangogh-lic.xml:290(term)
+#: src/filters/artistic/vangogh-lic.xml:296(term)
 msgid "Integration steps"
 msgstr "Bütünleştirme adımları"
 
-#: src/filters/artistic/vangogh-lic.xml:292(para)
+#: src/filters/artistic/vangogh-lic.xml:298(para)
 #, fuzzy
 msgid "This options controls the influence of gradient map on texture."
 msgstr "Bu seçenek gradyan haritasının doku üzerindeki etkisini kontrol eder."
 
-#: src/filters/artistic/vangogh-lic.xml:296(title)
+#: src/filters/artistic/vangogh-lic.xml:302(title)
 msgid "Action example of Integration Steps on texture"
 msgstr "Doku üzerinde Bütünleştirme Adımları işlemi örneği"
 
-#: src/filters/artistic/vangogh-lic.xml:303(para)
+#: src/filters/artistic/vangogh-lic.xml:309(para)
 msgid ""
 "On the left: Integration Steps = 2. On the right: Integration Steps = 4."
 msgstr "Solda: Bütünleştirme Adımları = 2. Sağda: Bütünleştirme Adımları = 4."
 
-#: src/filters/artistic/vangogh-lic.xml:313(term)
+#: src/filters/artistic/vangogh-lic.xml:319(term)
 msgid "Minimum value"
 msgstr "En düşük değer"
 
-#: src/filters/artistic/vangogh-lic.xml:314(term)
+#: src/filters/artistic/vangogh-lic.xml:320(term)
 msgid "Maximum value"
 msgstr "En yüksek değer"
 
-#: src/filters/artistic/vangogh-lic.xml:316(para)
+#: src/filters/artistic/vangogh-lic.xml:322(para)
 #, fuzzy
 msgid ""
 "Both values determine a range controlling texture contrast: shrunk range "
@@ -970,11 +981,11 @@ msgstr ""
 "daraltılmış aralık yüksek kontrastla, genişletilmiş aralık ise düşük "
 "kontrastla sonuçlanır."
 
-#: src/filters/artistic/vangogh-lic.xml:322(title)
+#: src/filters/artistic/vangogh-lic.xml:328(title)
 msgid "Action example of min/max values on texture"
 msgstr "Doku üzerinde En düşük/En yüksek değer işlemi örneği"
 
-#: src/filters/artistic/vangogh-lic.xml:329(para)
+#: src/filters/artistic/vangogh-lic.xml:335(para)
 msgid "Minimum value = -4.0. Maximum value = 5.0."
 msgstr "En düşük değer = -4,0. En yüksek değer = 5.0."
 
@@ -1819,10 +1830,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/clothify.xml:104(None)
-#| msgid ""
-#| "@@image: 'images/filters/artistic/clothify.png'; "
-#| "md5=f3979174f53982c9f7cbc81708db14bb"
+#: src/filters/artistic/clothify.xml:106(None)
 msgid ""
 "@@image: 'images/filters/artistic/clothify.png'; "
 "md5=a4fd61729bc98dc06e26f8d2ab7cf6a4"
@@ -1852,12 +1860,12 @@ msgstr ""
 "<guimenuitem>Bezimsileştir</guimenuitem> komutu, seçilen bölgeye ya da "
 "alfaya kumaş benzeri doku ekler."
 
-#: src/filters/artistic/clothify.xml:41(para)
+#: src/filters/artistic/clothify.xml:43(para)
 #, fuzzy
 msgid "This effect is achieved through the following steps:"
 msgstr "Bu etki aşağıdaki adımlarla elde edilir:"
 
-#: src/filters/artistic/clothify.xml:44(para)
+#: src/filters/artistic/clothify.xml:46(para)
 #, fuzzy
 msgid ""
 "Create an image in the same size as the original image, or selection or "
@@ -1869,7 +1877,7 @@ msgstr ""
 "şekilde <link linkend=\"gimp-filter-noise-rgb\">gürültülü</link> bir katman "
 "ekleyin."
 
-#: src/filters/artistic/clothify.xml:52(para)
+#: src/filters/artistic/clothify.xml:54(para)
 #, fuzzy
 msgid ""
 "Reproduce a layer from the recently added layer and set the mode of the "
@@ -1878,7 +1886,7 @@ msgstr ""
 "Son eklenen katmandan bir katman çoğaltın ve üst katmanın modunu \" <link "
 "linkend=\"layer-mode-multiply\">Multiply\" olarak ayarlayın.</link>."
 
-#: src/filters/artistic/clothify.xml:59(para)
+#: src/filters/artistic/clothify.xml:61(para)
 #, fuzzy
 msgid ""
 "Apply <link linkend=\"gimp-filter-gaussian-blur\">Gaussian blur</link> in "
@@ -1891,7 +1899,7 @@ msgstr ""
 "X'i</guilabel> yarıçap olarak yatay yönde ve üst katmanda <guilabel>Blur "
 "Y'yi</guilabel> dikey yönde kullanın."
 
-#: src/filters/artistic/clothify.xml:67(para)
+#: src/filters/artistic/clothify.xml:69(para)
 #, fuzzy
 msgid ""
 "Merge these two layers into an image and make its contrast <link "
@@ -1902,7 +1910,7 @@ msgstr ""
 "filter-stretch-contrast\">olabildiğince genişletin</link>, ardından bu "
 "çalışma görüntüsünde tekrar hafifçe gürültü ekleyin."
 
-#: src/filters/artistic/clothify.xml:75(para)
+#: src/filters/artistic/clothify.xml:77(para)
 #, fuzzy
 msgid ""
 "Finally do <link linkend=\"gimp-filter-bump-map\">bump map</link> on the "
@@ -1914,7 +1922,7 @@ msgstr ""
 "orijinal görüntü üzerin <link linkend=\"gimp-filter-bump-map\">bump map</"
 "link> işlemini gerçekleştirin."
 
-#: src/filters/artistic/clothify.xml:87(para)
+#: src/filters/artistic/clothify.xml:89(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Clothify…</"
@@ -1924,11 +1932,11 @@ msgstr ""
 "guimenu><guisubmenu>Sanatsal</guisubmenu><guimenuitem>Bezimsileştir…</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/artistic/clothify.xml:100(title)
+#: src/filters/artistic/clothify.xml:102(title)
 msgid "<quote>Clothify</quote> filter options"
 msgstr "<quote>Bezimsileştir</quote> süzgeci seçenekleri"
 
-#: src/filters/artistic/clothify.xml:108(para)
+#: src/filters/artistic/clothify.xml:110(para)
 msgid ""
 "<guilabel>Azimuth</guilabel>, <guilabel>Elevation</guilabel>, and "
 "<guilabel>Depth</guilabel> come from <link linkend=\"gimp-filter-bump-"
@@ -1938,15 +1946,15 @@ msgstr ""
 "<guilabel>Derinlik</guilabel> <link linkend=\"gimp-filter-bump-"
 "map\">Derinlik Etkisi</link> süzgecinden gelir."
 
-#: src/filters/artistic/clothify.xml:115(term)
+#: src/filters/artistic/clothify.xml:117(term)
 msgid "Blur X"
 msgstr "X Bulanıklığı"
 
-#: src/filters/artistic/clothify.xml:116(term)
+#: src/filters/artistic/clothify.xml:118(term)
 msgid "Blur Y"
 msgstr "Y Bulanıklığı"
 
-#: src/filters/artistic/clothify.xml:118(para)
+#: src/filters/artistic/clothify.xml:120(para)
 msgid ""
 "These parameters lengthen fibers of the texture, horizontally by "
 "<guilabel>Blur X</guilabel>, and vertically by <guilabel>Blur Y</guilabel>. "
@@ -1956,11 +1964,11 @@ msgstr ""
 "yatay olarak ve <guilabel>Y Bulanıklığı</guilabel> ile dikey olarak uzatır. "
 "Değer erimi 3 ila 100 arasıdır."
 
-#: src/filters/artistic/clothify.xml:127(term)
+#: src/filters/artistic/clothify.xml:129(term)
 msgid "Azimuth"
 msgstr "Azimut"
 
-#: src/filters/artistic/clothify.xml:129(para)
+#: src/filters/artistic/clothify.xml:131(para)
 #, fuzzy
 msgid ""
 "<guilabel>Azimuth</guilabel> slider controls the bearings where light comes "
@@ -1973,11 +1981,11 @@ msgstr ""
 "(360.00) analog bir saatin kadran panelinde saat üç yönündedir. Artan değer "
 "saat yönünün tersine gider."
 
-#: src/filters/artistic/clothify.xml:139(term)
+#: src/filters/artistic/clothify.xml:141(term)
 msgid "Elevation"
 msgstr "Yükselme"
 
-#: src/filters/artistic/clothify.xml:141(para)
+#: src/filters/artistic/clothify.xml:143(para)
 #, fuzzy
 msgid ""
 "<guilabel>Elevation</guilabel> slider controls the height where light comes "
@@ -1988,12 +1996,12 @@ msgstr ""
 "eder. Minimum değer (0.50) için ışık ufuktan gelir ve maksimum değer (90.0) "
 "için ışık zenitten gelir."
 
-#: src/filters/artistic/clothify.xml:150(term)
+#: src/filters/artistic/clothify.xml:152(term)
 #: src/filters/artistic/applycanvas.xml:99(term)
 msgid "Depth"
 msgstr "Derinlik"
 
-#: src/filters/artistic/clothify.xml:152(para)
+#: src/filters/artistic/clothify.xml:154(para)
 #, fuzzy
 msgid ""
 "<guilabel>Depth</guilabel> slider controls distance between bump height and "
@@ -2197,8 +2205,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/GIMPressionist.xml:75(None)
-#: src/filters/artistic/GIMPressionist.xml:103(None)
+#: src/filters/artistic/GIMPressionist.xml:80(None)
+#: src/filters/artistic/GIMPressionist.xml:108(None)
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist1.png'; "
 "md5=a16424e38abdfaace59c000e0282401a"
@@ -2208,7 +2216,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/GIMPressionist.xml:160(None)
+#: src/filters/artistic/GIMPressionist.xml:165(None)
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist2.png'; "
 "md5=d30acad4abab21feedeeacceadc330f7"
@@ -2218,7 +2226,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/GIMPressionist.xml:217(None)
+#: src/filters/artistic/GIMPressionist.xml:222(None)
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist3.png'; "
 "md5=dab245d891dff8be7a17e137faf6f11f"
@@ -2228,7 +2236,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/GIMPressionist.xml:286(None)
+#: src/filters/artistic/GIMPressionist.xml:291(None)
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist4.png'; "
 "md5=4ae40b5e76618e777e17b4d687a30c90"
@@ -2238,7 +2246,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/GIMPressionist.xml:414(None)
+#: src/filters/artistic/GIMPressionist.xml:419(None)
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist5.png'; "
 "md5=c246238ecb96974eec3a7a7194d8d08e"
@@ -2248,7 +2256,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/GIMPressionist.xml:536(None)
+#: src/filters/artistic/GIMPressionist.xml:541(None)
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist6.png'; "
 "md5=c9130382f09000761c2360d866184c2f"
@@ -2258,7 +2266,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/GIMPressionist.xml:600(None)
+#: src/filters/artistic/GIMPressionist.xml:605(None)
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist7.png'; "
 "md5=eee0fde2b1d04e715de718cab8445de9"
@@ -2268,7 +2276,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/GIMPressionist.xml:656(None)
+#: src/filters/artistic/GIMPressionist.xml:661(None)
 msgid ""
 "@@image: 'images/filters/artistic/gimpressionist8.png'; "
 "md5=38a65c5133ceb3df76c8c432bdb2d0b9"
@@ -2308,7 +2316,7 @@ msgstr ""
 "Görüntünüz kağıt üzerine ve sizin seçtiğiniz fırçayla yeniden boyanmış gibi "
 "olur. Etkin katman ya da seçim üzerinde çalışır."
 
-#: src/filters/artistic/GIMPressionist.xml:57(para)
+#: src/filters/artistic/GIMPressionist.xml:62(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>GIMPressionist…</"
@@ -2318,11 +2326,11 @@ msgstr ""
 "guimenu><guisubmenu>Sanatsal</guisubmenu><guimenuitem>GIMPressionist…</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/artistic/GIMPressionist.xml:71(title)
+#: src/filters/artistic/GIMPressionist.xml:76(title)
 msgid "GIMPressionist options"
 msgstr "GIMPressionist seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:79(para)
+#: src/filters/artistic/GIMPressionist.xml:84(para)
 #, fuzzy
 msgid ""
 "The dialog window consists of a small Preview area on the left, which is "
@@ -2333,7 +2341,7 @@ msgstr ""
 "alanından ve sekmeler halinde düzenlenmiş çok sayıda GIMPressionist "
 "seçeneğinden oluşur."
 
-#: src/filters/artistic/GIMPressionist.xml:87(para)
+#: src/filters/artistic/GIMPressionist.xml:92(para)
 #, fuzzy
 msgid ""
 "All your setting changes will appear in the Preview without affecting the "
@@ -2348,15 +2356,15 @@ msgstr ""
 "GIMPressionist'in yapacak çok işi vardır!) ve <guibutton>Sıfırla</guibutton> "
 "düğmesi orijinal görüntüye geri döner."
 
-#: src/filters/artistic/GIMPressionist.xml:97(title)
+#: src/filters/artistic/GIMPressionist.xml:102(title)
 msgid "Presets tab"
 msgstr "Önayarlar sekmesi"
 
-#: src/filters/artistic/GIMPressionist.xml:99(title)
+#: src/filters/artistic/GIMPressionist.xml:104(title)
 msgid "<quote>Presets</quote> tab options"
 msgstr "<quote>Önayarlar</quote> sekmesi seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:107(para)
+#: src/filters/artistic/GIMPressionist.xml:112(para)
 #, fuzzy
 msgid ""
 "GIMPressionist has a lot of parameters. When combined, they give an "
@@ -2371,15 +2379,15 @@ msgstr ""
 "göndermek önemlidir. Buna karşılık, tüm bu parametrelerin karmaşıklığı, her "
 "birinin nasıl çalıştığını anlamayı ve öngörmeyi zorlaştırır."
 
-#: src/filters/artistic/GIMPressionist.xml:116(title)
+#: src/filters/artistic/GIMPressionist.xml:121(title)
 msgid "Presets options"
 msgstr "Önayarlar seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:118(term)
+#: src/filters/artistic/GIMPressionist.xml:123(term)
 msgid "Save Current"
 msgstr "Geçerli Ayarları Kaydet"
 
-#: src/filters/artistic/GIMPressionist.xml:120(para)
+#: src/filters/artistic/GIMPressionist.xml:125(para)
 #, fuzzy
 msgid ""
 "Save current parameters. You can give a name in the input box on the left "
@@ -2388,41 +2396,41 @@ msgstr ""
 "Geçerli parametreleri kaydedin. Soldaki giriş kutusunda bir ad ve "
 "görüntülenen iletişim kutusunda kısa bir açıklama verebilirsiniz."
 
-#: src/filters/artistic/GIMPressionist.xml:128(term)
+#: src/filters/artistic/GIMPressionist.xml:133(term)
 msgid "Apply"
 msgstr "Uygula"
 
-#: src/filters/artistic/GIMPressionist.xml:130(para)
+#: src/filters/artistic/GIMPressionist.xml:135(para)
 msgid "Load the parameters of the selected preset in the list."
 msgstr "Seçilen önayarın parametrelerini listeye yükle."
 
-#: src/filters/artistic/GIMPressionist.xml:136(term)
+#: src/filters/artistic/GIMPressionist.xml:141(term)
 msgid "Delete"
 msgstr "Sil"
 
-#: src/filters/artistic/GIMPressionist.xml:138(para)
+#: src/filters/artistic/GIMPressionist.xml:143(para)
 msgid ""
 "Delete the selected preset. You can delete only the presets you have created."
 msgstr ""
 "Seçilen önayarı sil. Yalnızca oluşturduğunuz önayarları silebilirsiniz."
 
-#: src/filters/artistic/GIMPressionist.xml:145(term)
+#: src/filters/artistic/GIMPressionist.xml:150(term)
 msgid "Refresh"
 msgstr "Yenile"
 
-#: src/filters/artistic/GIMPressionist.xml:147(para)
+#: src/filters/artistic/GIMPressionist.xml:152(para)
 msgid "Update the preset list."
 msgstr "Önayar listesini güncelle."
 
-#: src/filters/artistic/GIMPressionist.xml:154(title)
+#: src/filters/artistic/GIMPressionist.xml:159(title)
 msgid "Paper tab"
 msgstr "Kağıt sekmesi"
 
-#: src/filters/artistic/GIMPressionist.xml:156(title)
+#: src/filters/artistic/GIMPressionist.xml:161(title)
 msgid "<quote>Paper</quote> tab options"
 msgstr "<quote>Kağıt</quote> sekmesi seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:164(para)
+#: src/filters/artistic/GIMPressionist.xml:169(para)
 #, fuzzy
 msgid ""
 "This tab concerns the texture of the canvas your image will be painted on. "
@@ -2434,15 +2442,15 @@ msgstr ""
 "Dokuların bir listesi ve seçilen doku için bir <guilabel>Önizleme</guilabel> "
 "vardır. Seçildiğinde her doku için sağ tarafta bir açıklama görüntülenir."
 
-#: src/filters/artistic/GIMPressionist.xml:171(title)
+#: src/filters/artistic/GIMPressionist.xml:176(title)
 msgid "Paper options"
 msgstr "Kağıt seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:173(term)
+#: src/filters/artistic/GIMPressionist.xml:178(term)
 msgid "Invert"
 msgstr "Tersine Çevir"
 
-#: src/filters/artistic/GIMPressionist.xml:175(para)
+#: src/filters/artistic/GIMPressionist.xml:180(para)
 #, fuzzy
 msgid ""
 "Inverts the paper texture: what was a hollow turns to a bump and vice-versa."
@@ -2450,11 +2458,11 @@ msgstr ""
 "Kağıt dokusunu tersine çevirir: çukur olan bir şey tümseğe dönüşür veya tam "
 "tersi."
 
-#: src/filters/artistic/GIMPressionist.xml:182(term)
+#: src/filters/artistic/GIMPressionist.xml:187(term)
 msgid "Overlay"
 msgstr "Kaplama"
 
-#: src/filters/artistic/GIMPressionist.xml:184(para)
+#: src/filters/artistic/GIMPressionist.xml:189(para)
 #, fuzzy
 msgid ""
 "Apply the paper as it, without embossing it. It looks like if a transparent "
@@ -2463,11 +2471,11 @@ msgstr ""
 "Kağıdı kabartma yapmadan olduğu gibi uygulayın. Görüntünün üzerine şeffaf "
 "bir kağıt yerleştirilmiş gibi görünür."
 
-#: src/filters/artistic/GIMPressionist.xml:191(term)
+#: src/filters/artistic/GIMPressionist.xml:196(term)
 msgid "Scale"
 msgstr "Ölçekle"
 
-#: src/filters/artistic/GIMPressionist.xml:193(para)
+#: src/filters/artistic/GIMPressionist.xml:198(para)
 #, fuzzy
 msgid ""
 "Specifies the scale of the texture (in % of the original file): controls the "
@@ -2476,25 +2484,25 @@ msgstr ""
 "Doku ölçeğini belirtir (orijinal dosyada % of): dokunun grenliliğini kontrol "
 "eder."
 
-#: src/filters/artistic/GIMPressionist.xml:200(term)
-#: src/filters/artistic/GIMPressionist.xml:268(term)
+#: src/filters/artistic/GIMPressionist.xml:205(term)
+#: src/filters/artistic/GIMPressionist.xml:273(term)
 msgid "Relief"
 msgstr "Kabartma"
 
-#: src/filters/artistic/GIMPressionist.xml:202(para)
+#: src/filters/artistic/GIMPressionist.xml:207(para)
 #, fuzzy
 msgid "Specifies the amount of embossing to apply (3-150)."
 msgstr "Uygulanacak kabartma miktarını belirtir (3-150)."
 
-#: src/filters/artistic/GIMPressionist.xml:211(title)
+#: src/filters/artistic/GIMPressionist.xml:216(title)
 msgid "Brush tab"
 msgstr "Fırça sekmesi"
 
-#: src/filters/artistic/GIMPressionist.xml:213(title)
+#: src/filters/artistic/GIMPressionist.xml:218(title)
 msgid "<quote>Brush</quote> tab options"
 msgstr "<quote>Fırça</quote> sekmesi seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:221(para)
+#: src/filters/artistic/GIMPressionist.xml:226(para)
 #, fuzzy
 msgid ""
 "<quote>Brush</quote> is a general term for any material used to paint. A "
@@ -2505,15 +2513,15 @@ msgstr ""
 "kullanılan genel bir terimdir. Seçilen fırça için bir <guilabel>Önizleme</"
 "guilabel> ile birlikte bir fırça listesi mevcuttur."
 
-#: src/filters/artistic/GIMPressionist.xml:227(title)
+#: src/filters/artistic/GIMPressionist.xml:232(title)
 msgid "Brush options"
 msgstr "Fırça seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:229(term)
+#: src/filters/artistic/GIMPressionist.xml:234(term)
 msgid "Gamma"
 msgstr "Gama"
 
-#: src/filters/artistic/GIMPressionist.xml:231(para)
+#: src/filters/artistic/GIMPressionist.xml:236(para)
 #, fuzzy
 msgid ""
 "Changes the gamma (luminosity) of the selected brush. The gamma correction "
@@ -2522,11 +2530,11 @@ msgstr ""
 "Seçilen fırçanın gamasını (parlaklığını) değiştirir. Gama düzeltmesi orta "
 "tonları parlaklaştırır veya koyulaştırır."
 
-#: src/filters/artistic/GIMPressionist.xml:238(term)
+#: src/filters/artistic/GIMPressionist.xml:243(term)
 msgid "Select"
 msgstr "Seç"
 
-#: src/filters/artistic/GIMPressionist.xml:240(para)
+#: src/filters/artistic/GIMPressionist.xml:245(para)
 #, fuzzy
 msgid ""
 "You can also use a brush pattern you have created by selecting its image "
@@ -2538,7 +2546,7 @@ msgstr ""
 "(Seç satırındaki ok düğmesi). Bu görüntü, filtreyi başlatmadan önce dikkate "
 "alınmak üzere ekranınızda olmalıdır. Tabii ki, büyük resimler kullanmayın."
 
-#: src/filters/artistic/GIMPressionist.xml:246(para)
+#: src/filters/artistic/GIMPressionist.xml:251(para)
 #, fuzzy
 msgid ""
 "If your image has several layers, they also will be displayed in the Select "
@@ -2549,7 +2557,7 @@ msgstr ""
 "görüntülenir ve fırça olarak kullanılabilir. Seçildiğinde, katman fırça "
 "önizlemesinde görünür ve normal fırça seçimi kaldırılır."
 
-#: src/filters/artistic/GIMPressionist.xml:252(para)
+#: src/filters/artistic/GIMPressionist.xml:257(para)
 #, fuzzy
 msgid ""
 "The <guibutton>Save as</guibutton> button allows you to save the selected "
@@ -2558,16 +2566,16 @@ msgstr ""
 "<guibutton>Kaydet</guibutton> düğmesi <guibutton>,</guibutton> seçilen "
 "fırçayı kaydetmenizi sağlar."
 
-#: src/filters/artistic/GIMPressionist.xml:259(term)
+#: src/filters/artistic/GIMPressionist.xml:264(term)
 msgid "Aspect ratio"
 msgstr "En-boy oranı"
 
-#: src/filters/artistic/GIMPressionist.xml:261(para)
+#: src/filters/artistic/GIMPressionist.xml:266(para)
 #, fuzzy
 msgid "Specifies the brush proportions, height (0 -1) and width (0 +1)."
 msgstr "Fırça oranlarını, yüksekliği (0 -1) ve genişliği (0 +1) belirtir."
 
-#: src/filters/artistic/GIMPressionist.xml:270(para)
+#: src/filters/artistic/GIMPressionist.xml:275(para)
 #, fuzzy
 msgid ""
 "Specifies the amount of paint used for each stroke. This may evoke painting "
@@ -2576,15 +2584,15 @@ msgstr ""
 "Her vuruş için kullanılan boya miktarını belirtir. Bu, palet bıçağı ile "
 "boyamayı çağrıştırabilir."
 
-#: src/filters/artistic/GIMPressionist.xml:280(title)
+#: src/filters/artistic/GIMPressionist.xml:285(title)
 msgid "Orientation tab"
 msgstr "Yönelim sekmesi"
 
-#: src/filters/artistic/GIMPressionist.xml:282(title)
+#: src/filters/artistic/GIMPressionist.xml:287(title)
 msgid "<quote>Orientation</quote> tab options"
 msgstr "<quote>Yönelim</quote> sekmesi seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:290(para)
+#: src/filters/artistic/GIMPressionist.xml:295(para)
 #, fuzzy
 msgid ""
 "This tab allows to set the orientation of the brush strokes. A painter is "
@@ -2595,15 +2603,15 @@ msgstr ""
 "açısı ile gitmek zorunda değildir. Bazı efektleri gerçekleştirmek için "
 "yönlerini değiştirebilir."
 
-#: src/filters/artistic/GIMPressionist.xml:296(title)
+#: src/filters/artistic/GIMPressionist.xml:301(title)
 msgid "Orientation options"
 msgstr "Yönelim seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:298(term)
+#: src/filters/artistic/GIMPressionist.xml:303(term)
 msgid "Directions"
 msgstr "Yönler"
 
-#: src/filters/artistic/GIMPressionist.xml:300(para)
+#: src/filters/artistic/GIMPressionist.xml:305(para)
 #, fuzzy
 msgid ""
 "With this option, you can set how many times the brush will pass through a "
@@ -2613,11 +2621,11 @@ msgstr ""
 "Bu seçenekle, fırçanın aynı yerden kaç kez geçeceğini, her seferinde farklı "
 "bir yöne giderek daha kalın bir boya elde edeceğinizi ayarlayabilirsiniz."
 
-#: src/filters/artistic/GIMPressionist.xml:308(term)
+#: src/filters/artistic/GIMPressionist.xml:313(term)
 msgid "Start angle"
 msgstr "Başlangıç açısı"
 
-#: src/filters/artistic/GIMPressionist.xml:310(para)
+#: src/filters/artistic/GIMPressionist.xml:315(para)
 #, fuzzy
 msgid ""
 "Specifies the general direction of the strokes, the angle that the angle "
@@ -2627,75 +2635,75 @@ msgstr ""
 "Çizgilerin genel yönünü, açı aralığının başlayacağı açıyı belirtir. Yönler "
 "genellikle görüntüye hareket kazandırmak için seçilir."
 
-#: src/filters/artistic/GIMPressionist.xml:318(term)
+#: src/filters/artistic/GIMPressionist.xml:323(term)
 msgid "Angle span"
 msgstr "Açı aralığı"
 
-#: src/filters/artistic/GIMPressionist.xml:320(para)
+#: src/filters/artistic/GIMPressionist.xml:325(para)
 #, fuzzy
 msgid "Specifies the angle, the sector, of the stroke <quote>fan</quote>."
 msgstr "<quote>Strok fanının</quote> açısını, sektörünü belirtir."
 
-#: src/filters/artistic/GIMPressionist.xml:326(term)
+#: src/filters/artistic/GIMPressionist.xml:331(term)
 msgid "Orientation"
 msgstr "Yönelim"
 
-#: src/filters/artistic/GIMPressionist.xml:328(para)
+#: src/filters/artistic/GIMPressionist.xml:333(para)
 #, fuzzy
 msgid "Specifies the direction of the brush strokes."
 msgstr "Fırça darbelerinin yönünü belirler."
 
-#: src/filters/artistic/GIMPressionist.xml:331(term)
-#: src/filters/artistic/GIMPressionist.xml:453(term)
+#: src/filters/artistic/GIMPressionist.xml:336(term)
+#: src/filters/artistic/GIMPressionist.xml:458(term)
 msgid "Value"
 msgstr "Değer"
 
-#: src/filters/artistic/GIMPressionist.xml:333(para)
+#: src/filters/artistic/GIMPressionist.xml:338(para)
 #, fuzzy
 msgid ""
 "Let the value (luminosity) of the region determine the direction of the "
 "stroke."
 msgstr "Bölgenin değeri (parlaklığı) vuruşun yönünü belirlesin."
 
-#: src/filters/artistic/GIMPressionist.xml:340(term)
-#: src/filters/artistic/GIMPressionist.xml:462(term)
+#: src/filters/artistic/GIMPressionist.xml:345(term)
+#: src/filters/artistic/GIMPressionist.xml:467(term)
 msgid "Radius"
 msgstr "Yarıçap"
 
-#: src/filters/artistic/GIMPressionist.xml:342(para)
+#: src/filters/artistic/GIMPressionist.xml:347(para)
 #, fuzzy
 msgid ""
 "The distance from the center of the image determines the direction of the "
 "stroke."
 msgstr "Görüntünün ortasından gelen uzaklık darbenin yönünü saptar"
 
-#: src/filters/artistic/GIMPressionist.xml:349(term)
-#: src/filters/artistic/GIMPressionist.xml:471(term)
+#: src/filters/artistic/GIMPressionist.xml:354(term)
+#: src/filters/artistic/GIMPressionist.xml:476(term)
 msgid "Random"
 msgstr "Rastgele"
 
-#: src/filters/artistic/GIMPressionist.xml:351(para)
+#: src/filters/artistic/GIMPressionist.xml:356(para)
 #, fuzzy
 msgid "Select a random direction for each stroke."
 msgstr "Her vuruş için rastgele bir yön seçin."
 
-#: src/filters/artistic/GIMPressionist.xml:355(term)
-#: src/filters/artistic/GIMPressionist.xml:477(term)
+#: src/filters/artistic/GIMPressionist.xml:360(term)
+#: src/filters/artistic/GIMPressionist.xml:482(term)
 msgid "Radial"
 msgstr "Radyal"
 
-#: src/filters/artistic/GIMPressionist.xml:357(para)
+#: src/filters/artistic/GIMPressionist.xml:362(para)
 #, fuzzy
 msgid ""
 "Let the direction from the center determine the direction of the stroke."
 msgstr "Darbenin merkezden gelen yöne göre yönünün saptanmasına izin ver"
 
-#: src/filters/artistic/GIMPressionist.xml:364(term)
-#: src/filters/artistic/GIMPressionist.xml:486(term)
+#: src/filters/artistic/GIMPressionist.xml:369(term)
+#: src/filters/artistic/GIMPressionist.xml:491(term)
 msgid "Flowing"
 msgstr "Akış"
 
-#: src/filters/artistic/GIMPressionist.xml:366(para)
+#: src/filters/artistic/GIMPressionist.xml:371(para)
 #, fuzzy
 msgid ""
 "Not a direction question here: the strokes follow a <quote>flowing</quote> "
@@ -2703,34 +2711,34 @@ msgid ""
 msgstr ""
 "Burada bir yön sorusu yok: vuruşlar <quote>akıcı</quote> bir model izliyor."
 
-#: src/filters/artistic/GIMPressionist.xml:373(term)
-#: src/filters/artistic/GIMPressionist.xml:495(term)
+#: src/filters/artistic/GIMPressionist.xml:378(term)
+#: src/filters/artistic/GIMPressionist.xml:500(term)
 msgid "Hue"
 msgstr "Renk tonu"
 
-#: src/filters/artistic/GIMPressionist.xml:375(para)
+#: src/filters/artistic/GIMPressionist.xml:380(para)
 #, fuzzy
 msgid "Let the hue of the region determine the direction of the stroke."
 msgstr "Bölgenin tonu vuruşun yönünü belirlesin."
 
-#: src/filters/artistic/GIMPressionist.xml:382(term)
-#: src/filters/artistic/GIMPressionist.xml:504(term)
+#: src/filters/artistic/GIMPressionist.xml:387(term)
+#: src/filters/artistic/GIMPressionist.xml:509(term)
 msgid "Adaptive"
 msgstr "Uyarlamalı"
 
-#: src/filters/artistic/GIMPressionist.xml:384(para)
+#: src/filters/artistic/GIMPressionist.xml:389(para)
 #, fuzzy
 msgid ""
 "The brush direction that matches the original image the closest is selected."
 msgstr "Orijinal görüntüye en yakın fırça yönü seçilir."
 
 # GIMPressionist içinde Kılavuz olarak çevrilmiş.
-#: src/filters/artistic/GIMPressionist.xml:391(term)
-#: src/filters/artistic/GIMPressionist.xml:513(term)
+#: src/filters/artistic/GIMPressionist.xml:396(term)
+#: src/filters/artistic/GIMPressionist.xml:518(term)
 msgid "Manual"
 msgstr "Kılavuz"
 
-#: src/filters/artistic/GIMPressionist.xml:393(para)
+#: src/filters/artistic/GIMPressionist.xml:398(para)
 #, fuzzy
 msgid ""
 "The <guilabel>Edit</guilabel> button opens the <link "
@@ -2741,15 +2749,15 @@ msgstr ""
 "olanak tanıyan Yönlendirme <link linkend=\"gimpressionist-orient-map-"
 "editor\">Haritasını Düzenle iletişim</link> kutusunu açar."
 
-#: src/filters/artistic/GIMPressionist.xml:408(title)
+#: src/filters/artistic/GIMPressionist.xml:413(title)
 msgid "Size tab"
 msgstr "Boyut sekmesi"
 
-#: src/filters/artistic/GIMPressionist.xml:410(title)
+#: src/filters/artistic/GIMPressionist.xml:415(title)
 msgid "<quote>Size</quote> tab options"
 msgstr "<quote>Boyut</quote> sekmesi seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:418(para)
+#: src/filters/artistic/GIMPressionist.xml:423(para)
 #, fuzzy
 msgid ""
 "This tab allows you to set the number of brush sizes that will be used to "
@@ -2760,35 +2768,35 @@ msgstr ""
 "boyutların değişim sınırlarını ve bunları belirlemek için kullanılan kriteri "
 "ayarlamanıza olanak tanır."
 
-#: src/filters/artistic/GIMPressionist.xml:424(title)
+#: src/filters/artistic/GIMPressionist.xml:429(title)
 msgid "Size options"
 msgstr "Boyut seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:425(para)
+#: src/filters/artistic/GIMPressionist.xml:430(para)
 #, fuzzy
 msgid "You can specify how many brush sizes are to be used and their sizes."
 msgstr ""
 "Kaç tane fırça boyutu kullanılacağını ve bunların boyutlarını "
 "belirleyebilirsiniz."
 
-#: src/filters/artistic/GIMPressionist.xml:429(term)
+#: src/filters/artistic/GIMPressionist.xml:434(term)
 msgid "Size variants"
 msgstr "Boyut değişkeleri"
 
-#: src/filters/artistic/GIMPressionist.xml:431(para)
+#: src/filters/artistic/GIMPressionist.xml:436(para)
 msgid "The number of brush sizes to use."
 msgstr "Kullanılacak fırça boyutu sayısı."
 
-#: src/filters/artistic/GIMPressionist.xml:435(term)
+#: src/filters/artistic/GIMPressionist.xml:440(term)
 msgid "Minimum size"
 msgstr "En küçük boyut"
 
 # TODO: Arayüzde de değiştirildi mi denetle.
-#: src/filters/artistic/GIMPressionist.xml:436(term)
+#: src/filters/artistic/GIMPressionist.xml:441(term)
 msgid "Maximum size"
 msgstr "En büyük boyut"
 
-#: src/filters/artistic/GIMPressionist.xml:438(para)
+#: src/filters/artistic/GIMPressionist.xml:443(para)
 #, fuzzy
 msgid ""
 "The brush sizes are between these two values. The greater the size, the "
@@ -2797,11 +2805,11 @@ msgstr ""
 "Fırça boyutları bu iki değer arasındadır. Boyut büyüdükçe, konturların "
 "uzunluğu ve genişliği de artar."
 
-#: src/filters/artistic/GIMPressionist.xml:445(term)
+#: src/filters/artistic/GIMPressionist.xml:450(term)
 msgid "Size depends on"
 msgstr "Bağlı boyut"
 
-#: src/filters/artistic/GIMPressionist.xml:447(para)
+#: src/filters/artistic/GIMPressionist.xml:452(para)
 #, fuzzy
 msgid ""
 "You have there options to specify how the size of strokes will be determined."
@@ -2809,7 +2817,7 @@ msgstr ""
 "Konturların boyutunun nasıl belirleneceğini belirtmek için seçenekleriniz "
 "vardır."
 
-#: src/filters/artistic/GIMPressionist.xml:455(para)
+#: src/filters/artistic/GIMPressionist.xml:460(para)
 #, fuzzy
 msgid ""
 "Let the value (luminosity) of the region determine the size of the stroke."
@@ -2817,22 +2825,22 @@ msgstr ""
 "Bölgenin değerinin (parlaklığının) konturun boyutunu belirlemesine izin "
 "verin."
 
-#: src/filters/artistic/GIMPressionist.xml:464(para)
+#: src/filters/artistic/GIMPressionist.xml:469(para)
 #, fuzzy
 msgid ""
 "The distance from the center of the image determines the size of the stroke."
 msgstr "Görüntünün ortasından gelen uzaklık darbenin boyutunu saptar"
 
-#: src/filters/artistic/GIMPressionist.xml:473(para)
+#: src/filters/artistic/GIMPressionist.xml:478(para)
 msgid "Select a random size for each stroke."
 msgstr "Her darbe için rastgele boyut seç."
 
-#: src/filters/artistic/GIMPressionist.xml:479(para)
+#: src/filters/artistic/GIMPressionist.xml:484(para)
 #, fuzzy
 msgid "Let the direction from the center determine the size of the stroke."
 msgstr "Darbe boyutunun merkezden gelen yöne saptanmasına izin ver"
 
-#: src/filters/artistic/GIMPressionist.xml:488(para)
+#: src/filters/artistic/GIMPressionist.xml:493(para)
 #, fuzzy
 msgid ""
 "Not a length question here: the strokes follow a <quote>flowing</quote> "
@@ -2841,17 +2849,17 @@ msgstr ""
 "Burada bir uzunluk sorunu yok: vuruşlar <quote>akıcı</quote> bir model "
 "izliyor."
 
-#: src/filters/artistic/GIMPressionist.xml:497(para)
+#: src/filters/artistic/GIMPressionist.xml:502(para)
 #, fuzzy
 msgid "Let the hue of the region determine the size of the stroke."
 msgstr "Konturun boyutunu bölgenin renk tonunun belirlemesine izin verin."
 
-#: src/filters/artistic/GIMPressionist.xml:506(para)
+#: src/filters/artistic/GIMPressionist.xml:511(para)
 #, fuzzy
 msgid "The brush size that matches the original image the closest is selected."
 msgstr "Özgün görüntü ile eşleşen en yakın fırça boyutu seçildi"
 
-#: src/filters/artistic/GIMPressionist.xml:515(para)
+#: src/filters/artistic/GIMPressionist.xml:520(para)
 msgid ""
 "The <guilabel>Edit</guilabel> button opens the <link "
 "linkend=\"gimpressionist-size-map-editor\">Size Map Editor</link>. That "
@@ -2861,27 +2869,27 @@ msgstr ""
 "editor\">Boyut Haritası Düzenleyicisi</link>ʼni açar. Bu, darbe boyutunu "
 "sizin belirlemenizi sağlar."
 
-#: src/filters/artistic/GIMPressionist.xml:530(title)
+#: src/filters/artistic/GIMPressionist.xml:535(title)
 msgid "Placement tab"
 msgstr "Yerleşim sekmesi"
 
-#: src/filters/artistic/GIMPressionist.xml:532(title)
+#: src/filters/artistic/GIMPressionist.xml:537(title)
 msgid "<quote>Placement</quote> tab options"
 msgstr "<quote>Yerleşim</quote> sekmesi seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:540(para)
+#: src/filters/artistic/GIMPressionist.xml:545(para)
 msgid "In this tab you can set how strokes will be distributed."
 msgstr "Bu sekmede darbelerin nasıl dağıtılacağını ayarlayabilirsiniz."
 
-#: src/filters/artistic/GIMPressionist.xml:544(title)
+#: src/filters/artistic/GIMPressionist.xml:549(title)
 msgid "Placement options"
 msgstr "Yerleşim seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:546(term)
+#: src/filters/artistic/GIMPressionist.xml:551(term)
 msgid "Placement"
 msgstr "Yerleşim"
 
-#: src/filters/artistic/GIMPressionist.xml:548(para)
+#: src/filters/artistic/GIMPressionist.xml:553(para)
 #, fuzzy
 msgid ""
 "In the preview of the Orientation Map Editor, all small arrows look like a "
@@ -2892,37 +2900,37 @@ msgstr ""
 "nesnelerin etrafında bir akış gibi görünür. Bu akışın içine konturlar iki "
 "farklı şekilde yerleştirilebilir:"
 
-#: src/filters/artistic/GIMPressionist.xml:555(term)
+#: src/filters/artistic/GIMPressionist.xml:560(term)
 msgid "Randomly"
 msgstr "Rastgele"
 
-#: src/filters/artistic/GIMPressionist.xml:557(para)
+#: src/filters/artistic/GIMPressionist.xml:562(para)
 #, fuzzy
 msgid "Places strokes randomly. This produces a more realistic paint."
 msgstr "Çizgileri rastgele yerleştirir. Bu, daha gerçekçi bir boyama sağlar."
 
-#: src/filters/artistic/GIMPressionist.xml:564(term)
+#: src/filters/artistic/GIMPressionist.xml:569(term)
 msgid "Evenly distributed"
 msgstr "Eşit olarak dağıtılmış"
 
-#: src/filters/artistic/GIMPressionist.xml:566(para)
+#: src/filters/artistic/GIMPressionist.xml:571(para)
 #, fuzzy
 msgid "Strokes are evenly distributed across the image."
 msgstr "Darbeleri görüntü boyunca eşit biçimde dağıt"
 
-#: src/filters/artistic/GIMPressionist.xml:575(term)
+#: src/filters/artistic/GIMPressionist.xml:580(term)
 msgid "Centered"
 msgstr "Ortalanmış"
 
-#: src/filters/artistic/GIMPressionist.xml:577(para)
+#: src/filters/artistic/GIMPressionist.xml:582(para)
 msgid "Focus brush strokes around center."
 msgstr "Fırça darbelerini merkezin etrafına odakla."
 
-#: src/filters/artistic/GIMPressionist.xml:581(term)
+#: src/filters/artistic/GIMPressionist.xml:586(term)
 msgid "Stroke density"
 msgstr "Darbe sıklığı"
 
-#: src/filters/artistic/GIMPressionist.xml:583(para)
+#: src/filters/artistic/GIMPressionist.xml:588(para)
 #, fuzzy
 msgid ""
 "The greater the density the closer the strokes. With a low density, the "
@@ -2931,52 +2939,52 @@ msgstr ""
 "Yoğunluk arttıkça konturlar daha yakın olur. Düşük yoğunlukta, kağıt veya "
 "arka plan kontursuz alanlarda görülebilir."
 
-#: src/filters/artistic/GIMPressionist.xml:594(title)
+#: src/filters/artistic/GIMPressionist.xml:599(title)
 msgid "Color tab"
 msgstr "Renk sekmesi"
 
-#: src/filters/artistic/GIMPressionist.xml:596(title)
+#: src/filters/artistic/GIMPressionist.xml:601(title)
 msgid "<quote>Color</quote> tab options"
 msgstr "<quote>Renk</quote> sekmesi seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:604(para)
+#: src/filters/artistic/GIMPressionist.xml:609(para)
 msgid "In this tab, you can set what the stroke color will be."
 msgstr "Bu sekmede, darbe renginin ne olacağını ayarlayabilirsiniz."
 
-#: src/filters/artistic/GIMPressionist.xml:608(title)
+#: src/filters/artistic/GIMPressionist.xml:613(title)
 msgid "Color options"
 msgstr "Renk seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:610(term)
+#: src/filters/artistic/GIMPressionist.xml:615(term)
 msgid "Color"
 msgstr "Renk"
 
-#: src/filters/artistic/GIMPressionist.xml:612(para)
+#: src/filters/artistic/GIMPressionist.xml:617(para)
 msgid "You can set the stroke color in two ways:"
 msgstr "Darbe rengini iki şekilde ayarlayabilirsiniz:"
 
-#: src/filters/artistic/GIMPressionist.xml:617(term)
+#: src/filters/artistic/GIMPressionist.xml:622(term)
 msgid "Average under brush"
 msgstr "Fırça altı ortalaması"
 
-#: src/filters/artistic/GIMPressionist.xml:619(para)
+#: src/filters/artistic/GIMPressionist.xml:624(para)
 msgid ""
 "Stroke color is computed from the average of all pixels under the brush."
 msgstr "Renk, fırça altındaki tüm piksellerin ortalamasından hesaplanır."
 
-#: src/filters/artistic/GIMPressionist.xml:626(term)
+#: src/filters/artistic/GIMPressionist.xml:631(term)
 msgid "Center of brush"
 msgstr "Fırça merkezi"
 
-#: src/filters/artistic/GIMPressionist.xml:628(para)
+#: src/filters/artistic/GIMPressionist.xml:633(para)
 msgid "Samples the color from the pixel in the center of the brush."
 msgstr "Rengi fırçanın merkezindeki piksellerden örnekler."
 
-#: src/filters/artistic/GIMPressionist.xml:638(term)
+#: src/filters/artistic/GIMPressionist.xml:643(term)
 msgid "Color noise"
 msgstr "Renk gürültüsü"
 
-#: src/filters/artistic/GIMPressionist.xml:640(para)
+#: src/filters/artistic/GIMPressionist.xml:645(para)
 #, fuzzy
 msgid ""
 "This slider, and its input box, allow you to introduce noise in the stroke "
@@ -2985,15 +2993,15 @@ msgstr ""
 "Bu kaydırıcı ve giriş kutusu, vuruş rengine gürültü eklemenizi sağlar, "
 "böylece daha az homojen görünür."
 
-#: src/filters/artistic/GIMPressionist.xml:650(title)
+#: src/filters/artistic/GIMPressionist.xml:655(title)
 msgid "General tab"
 msgstr "Genel sekmesi"
 
-#: src/filters/artistic/GIMPressionist.xml:652(title)
+#: src/filters/artistic/GIMPressionist.xml:657(title)
 msgid "<quote>General</quote> tab options"
 msgstr "<quote>Genel</quote> sekmesi seçenekleri"
 
-#: src/filters/artistic/GIMPressionist.xml:660(para)
+#: src/filters/artistic/GIMPressionist.xml:665(para)
 msgid ""
 "In this tab you can set what will be the background and the relief of brush "
 "strokes."
@@ -3001,45 +3009,45 @@ msgstr ""
 "Bu sekmede arka planın ne olacağını ve fırça darbelerinin kabartmasını "
 "ayarlayabilirsiniz."
 
-#: src/filters/artistic/GIMPressionist.xml:665(title)
+#: src/filters/artistic/GIMPressionist.xml:670(title)
 msgid "General options"
 msgstr "Genel seçenekler"
 
-#: src/filters/artistic/GIMPressionist.xml:667(term)
+#: src/filters/artistic/GIMPressionist.xml:672(term)
 msgid "Background"
 msgstr "Arka plan"
 
-#: src/filters/artistic/GIMPressionist.xml:671(term)
+#: src/filters/artistic/GIMPressionist.xml:676(term)
 msgid "Keep original"
 msgstr "Aslını koru"
 
-#: src/filters/artistic/GIMPressionist.xml:673(para)
+#: src/filters/artistic/GIMPressionist.xml:678(para)
 msgid "The original image will be used as a background."
 msgstr "Özgün görüntüyü arka plan olarak kullanılır."
 
-#: src/filters/artistic/GIMPressionist.xml:679(term)
+#: src/filters/artistic/GIMPressionist.xml:684(term)
 msgid "From paper"
 msgstr "Kağıttan"
 
-#: src/filters/artistic/GIMPressionist.xml:681(para)
+#: src/filters/artistic/GIMPressionist.xml:686(para)
 msgid "Copy the texture of the selected paper as a background."
 msgstr "Seçilen kağıdın dokusunu arka plan olarak kopyala."
 
-#: src/filters/artistic/GIMPressionist.xml:687(term)
+#: src/filters/artistic/GIMPressionist.xml:692(term)
 msgid "Solid"
 msgstr "Düz"
 
-#: src/filters/artistic/GIMPressionist.xml:689(para)
+#: src/filters/artistic/GIMPressionist.xml:694(para)
 #, fuzzy
 msgid ""
 "By clicking on the color button you can select a solid colored background."
 msgstr "Renk düğmesine tıklayarak düz renkli bir arka plan seçebilirsiniz."
 
-#: src/filters/artistic/GIMPressionist.xml:696(term)
+#: src/filters/artistic/GIMPressionist.xml:701(term)
 msgid "Transparent"
 msgstr "Saydam"
 
-#: src/filters/artistic/GIMPressionist.xml:698(para)
+#: src/filters/artistic/GIMPressionist.xml:703(para)
 #, fuzzy
 msgid ""
 "Use a transparent background. Only the painted strokes will be visible. This "
@@ -3048,11 +3056,11 @@ msgstr ""
 "Şeffaf bir arka plan kullanın. Yalnızca boyanmış vuruşlar görünür olacaktır. "
 "Bu seçenek, yalnızca görüntünüzün alfa kanalı varsa kullanılabilir."
 
-#: src/filters/artistic/GIMPressionist.xml:709(term)
+#: src/filters/artistic/GIMPressionist.xml:714(term)
 msgid "Paint edges"
 msgstr "Kenarları boya"
 
-#: src/filters/artistic/GIMPressionist.xml:711(para)
+#: src/filters/artistic/GIMPressionist.xml:716(para)
 #, fuzzy
 msgid ""
 "If it is disabled, a thin border will not be painted around the outside "
@@ -3061,11 +3069,11 @@ msgstr ""
 "Devre dışı bırakılırsa, görüntünün dış kenarının etrafına ince bir kenarlık "
 "çizilmez."
 
-#: src/filters/artistic/GIMPressionist.xml:718(term)
+#: src/filters/artistic/GIMPressionist.xml:723(term)
 msgid "Tileable"
 msgstr "Döşenebilir"
 
-#: src/filters/artistic/GIMPressionist.xml:720(para)
+#: src/filters/artistic/GIMPressionist.xml:725(para)
 #, fuzzy
 msgid ""
 "If checked, the resulting image will be seamlessly tileable. The right side "
@@ -3077,19 +3085,19 @@ msgstr ""
 "görüntünüzün bir web arka planında tekrar tekrar kullanılacaksa ilginç bir "
 "özelliktir."
 
-#: src/filters/artistic/GIMPressionist.xml:729(term)
+#: src/filters/artistic/GIMPressionist.xml:734(term)
 msgid "Drop shadow"
 msgstr "Gölge"
 
-#: src/filters/artistic/GIMPressionist.xml:731(para)
+#: src/filters/artistic/GIMPressionist.xml:736(para)
 msgid "Add a shadow effect to each brush stroke."
 msgstr "Her fırça darbesine gölge etkisi ekle."
 
-#: src/filters/artistic/GIMPressionist.xml:735(term)
+#: src/filters/artistic/GIMPressionist.xml:740(term)
 msgid "Edge darken"
 msgstr "Kenar koyulaştır"
 
-#: src/filters/artistic/GIMPressionist.xml:737(para)
+#: src/filters/artistic/GIMPressionist.xml:742(para)
 msgid ""
 "How much to darken the edges of each brush stroke. This increases paint "
 "relief or thickness."
@@ -3097,32 +3105,32 @@ msgstr ""
 "Her fırça darbesinin kenarlarının ne kadar koyulaştırılacağı. Bu, boya "
 "kabartmasını ya da kalınlığını artırır."
 
-#: src/filters/artistic/GIMPressionist.xml:744(term)
+#: src/filters/artistic/GIMPressionist.xml:749(term)
 msgid "Shadow darken"
 msgstr "Gölge koyulaştır"
 
-#: src/filters/artistic/GIMPressionist.xml:746(para)
+#: src/filters/artistic/GIMPressionist.xml:751(para)
 msgid "How much to darken the brush shadow."
 msgstr "Fırça gölgesinin ne kadar koyulaştırılacağı."
 
-#: src/filters/artistic/GIMPressionist.xml:752(para)
+#: src/filters/artistic/GIMPressionist.xml:757(para)
 #, fuzzy
 msgid "How far apart from the object the drop shadow should be."
 msgstr "Gölgenin nesneden ne kadar uzakta olması gerektiği."
 
-#: src/filters/artistic/GIMPressionist.xml:758(term)
+#: src/filters/artistic/GIMPressionist.xml:763(term)
 msgid "Shadow blur"
 msgstr "Gölge bulanıklığı"
 
-#: src/filters/artistic/GIMPressionist.xml:760(para)
+#: src/filters/artistic/GIMPressionist.xml:765(para)
 msgid "How much to blur the drop shadow."
 msgstr "Gölgenin ne kadar bulanıklaştırılacağı."
 
-#: src/filters/artistic/GIMPressionist.xml:764(term)
+#: src/filters/artistic/GIMPressionist.xml:769(term)
 msgid "Deviation threshold"
 msgstr "Sapma eşiği"
 
-#: src/filters/artistic/GIMPressionist.xml:766(para)
+#: src/filters/artistic/GIMPressionist.xml:771(para)
 msgid "A bail-out value for adaptive selections of brush size."
 msgstr "Fırça boyutunun uyarlanabilir seçimleri için kurtarma değeri."
 
