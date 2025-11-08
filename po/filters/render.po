@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-05 17:06+0000\n"
-"PO-Revision-Date: 2025-11-05 20:50+0300\n"
+"PO-Revision-Date: 2025-11-08 08:16+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -286,12 +286,19 @@ msgstr ""
 "ve yalnızca bir <emphasis>delik</emphasis> kullanıldı."
 
 #: src/filters/render/spyrogimp.xml:36(para)
+#, fuzzy
 msgid ""
 "It reproduces curves drawn by Spirograph© toys. Here is an <ulink "
 "url=\"https://commons.wikimedia.org/wiki/"
 "File:Spiograph_Animation.gif\">example from Wikimedia Commons</ulink> "
 "showing what gears and holes are: <placeholder-1/>"
 msgstr ""
+"Spirograph© oyuncaklarıyla çizilen eğrileri yeniden üretir. <ulink "
+"url=\"https://commons.wikimedia.org/wiki/"
+"File:Spiograph_Animation.gif\">Wikimedia Commons'tan</ulink> dişlilerin ve "
+"deliklerin ne olduğunu gösteren bir <ulink url=\"https://"
+"commons.wikimedia.org/wiki/File:Spiograph_Animation.gif\">örnek</ulink>: "
+"<placeholder-1/>"
 
 #: src/filters/render/spyrogimp.xml:56(title)
 #: src/filters/render/spiral.xml:44(title)
@@ -338,50 +345,71 @@ msgid "Selection and Tool"
 msgstr "Seçim ve Araç"
 
 #: src/filters/render/spyrogimp.xml:69(para)
+#, fuzzy
 msgid ""
 "Much of the behavior of the plug-in is determined by options set outside of "
 "the plug-in, such as the current selection, or the settings of "
 "<acronym>GIMP</acronym>'s tools. These settings can be changed while the "
 "plug-in is running."
 msgstr ""
+"Eklentinin davranışının çoğu, mevcut seçim veya <acronym>GIMP</acronym> "
+"araçlarının ayarları gibi eklenti dışında belirlenen seçenekler tarafından "
+"belirlenir. Bu ayarlar, eklenti çalışırken değiştirilebilir."
 
 #: src/filters/render/spyrogimp.xml:76(para)
+#, fuzzy
 msgid ""
 "In contrast to options within the plug-in, changing the current selection or "
 "tool settings will not redraw the pattern. To show the changes, click the "
 "<guibutton>Redraw</guibutton> button at the bottom of the plug-in."
 msgstr ""
+"Eklenti içindeki seçeneklerin aksine, mevcut seçimi veya araç ayarlarını "
+"değiştirmek deseni yeniden çizmez. Değişiklikleri göstermek için eklentinin "
+"altındaki <guibutton>Yeniden Çiz</guibutton> düğmesine tıklayın."
 
 #: src/filters/render/spyrogimp.xml:84(title)
 msgid "The Current Selection"
 msgstr "Geçerli Seçim"
 
 #: src/filters/render/spyrogimp.xml:85(para)
+#, fuzzy
 msgid ""
 "As in most plug-ins, the current selection determines the area where the "
 "pattern will be rendered. Typically, this would be a rectangular selection. "
 "There is however, an additional way the selection can be used."
 msgstr ""
+"Çoğu eklentide olduğu gibi, mevcut seçim, desenin görüntüleneceği alanı "
+"belirler. Genellikle bu, dikdörtgen bir seçimdir. Ancak, seçimin "
+"kullanılabileceği başka bir yol daha vardır."
 
 #: src/filters/render/spyrogimp.xml:91(para)
+#, fuzzy
 msgid ""
 "The selection can be used as the shape of the fixed gear (under the "
 "<guilabel>Fixed Gear</guilabel> tab). The plug-in will attempt to extract "
 "shapes from the selection, and draw a pattern inside of each shape. This is "
 "more interesting if you select a non-rectangular selection."
 msgstr ""
+"Seçim, sabit dişlinin şekli olarak kullanılabilir ( <guilabel>Sabit Dişli</"
+"guilabel> sekmesi altında). Eklenti, seçimden şekilleri çıkarmaya çalışacak "
+"ve her şeklin içine bir desen çizecektir. Dikdörtgen olmayan bir seçim "
+"yaparsanız bu daha ilginç olacaktır."
 
 #: src/filters/render/spyrogimp.xml:98(para)
+#, fuzzy
 msgid ""
 "To have the pattern hug the boundaries of the shapes, use <guilabel>hole "
 "percent</guilabel>=100."
 msgstr ""
+"Desenin şekillerin sınırlarını tam olarak kaplaması için <guilabel>delik "
+"yüzdesi=100</guilabel> kullanın."
 
 #: src/filters/render/spyrogimp.xml:105(title)
 msgid "Tool Settings"
 msgstr "Araç Ayarları"
 
 #: src/filters/render/spyrogimp.xml:106(para)
+#, fuzzy
 msgid ""
 "Spyrogimp uses <acronym>GIMP</acronym>'s tools to perform the drawing. All "
 "the settings with which the drawings are done are taken from the chosen "
@@ -391,6 +419,13 @@ msgid ""
 "tool settings while the plug-in is running, and press the <guibutton>Redraw</"
 "guibutton> button to see how the pattern looks."
 msgstr ""
+"Spyrogimp, çizimi gerçekleştirmek için <acronym>GIMP'in</acronym> araçlarını "
+"kullanır. Çizimlerin yapıldığı tüm ayarlar, seçilen araçtan alınır. Örneğin, "
+"<guilabel>Kalem</guilabel> aracını kullanmak istiyorsanız ( <guilabel>Araç</"
+"guilabel> menüsünden seçerek), bu aracın tüm ayarları çizim için kullanılır. "
+"Eklenti çalışırken araç ayarlarının herhangi birini değiştirebilir ve "
+"<guibutton>Deseni Yeniden Çiz</guibutton> düğmesine basarak desenin nasıl "
+"göründüğünü görebilirsiniz."
 
 #: src/filters/render/spyrogimp.xml:119(title)
 msgid "Gradient Settings"
@@ -531,6 +566,7 @@ msgid "Long Gradient"
 msgstr "Uzun Renk Geçişi"
 
 #: src/filters/render/spyrogimp.xml:203(para)
+#, fuzzy
 msgid ""
 "When unchecked, the current tool settings will be used - this can either "
 "produce a gradient or not, depending on the tool settings. When checked, the "
@@ -543,18 +579,33 @@ msgid ""
 "Any other <guilabel>Repeat</guilabel> mode will simply use the gradient from "
 "start to finish."
 msgstr ""
+"İşaretlenmediğinde, mevcut araç ayarları kullanılır - bu, araç ayarlarına "
+"bağlı olarak bir gradyan oluşturabilir veya oluşturmayabilir. "
+"İşaretlendiğinde, eklenti, mevcut gradyan, \"Ters\" ayarı ve "
+"<guilabel>gradyan araç</guilabel> ayarlarından <guilabel>Tekrar</guilabel> "
+"moduna göre desenin uzunluğuna uygun uzun bir gradyan oluşturur. "
+"<guilabel>Tekrar</guilabel> modunu <guilabel>Üçgen Dalga</guilabel> olarak "
+"ayarlamak, ani kesintiler olmadan sürekli değişen bir desen oluşturur. Bu, "
+"gradyanın ardından tersinin kullanılmasıyla yapılır. Diğer tüm "
+"<guilabel>Tekrar</guilabel> modları, baştan sona gradyanı kullanır."
 
 #: src/filters/render/spyrogimp.xml:215(title)
 msgid "<quote>Spyrogimp</quote> Long Gradient Examples"
 msgstr "<quote>Spyrogimp</quote> Uzun Renk Geçişi Örnekleri"
 
 #: src/filters/render/spyrogimp.xml:223(para)
+#, fuzzy
 msgid ""
 "The left image, without Long Gradient, used the paintbrush tool with a "
 "gradient. The two right images were generated with the same gradient, but "
 "with <guilabel>Long Gradient</guilabel> checked. The right image used the "
 "<guilabel>Triangle Wave</guilabel><guilabel>Repeat</guilabel> mode."
 msgstr ""
+"Soldaki görüntü, Uzun Gradyan olmadan, gradyanlı boya fırçası aracı "
+"kullanılarak oluşturulmuştur. Sağdaki iki görüntü aynı gradyanla, ancak "
+"<guilabel>Uzun Gradyan</guilabel> seçili olarak oluşturulmuştur. Sağdaki "
+"görüntü <guilabel>Üçgen</guilabel><guilabel>Dalga Tekrar</guilabel> modu "
+"kullanılmıştır."
 
 #: src/filters/render/spyrogimp.xml:239(title)
 msgid "Curve Pattern Tab"
@@ -570,6 +621,7 @@ msgid "The inner <guilabel>Toy Kit</guilabel> tab is shown on the right."
 msgstr "İç <guilabel>Oyuncak Seti</guilabel> sekmesi sağda gösterilmektedir."
 
 #: src/filters/render/spyrogimp.xml:255(para)
+#, fuzzy
 msgid ""
 "Specify a pattern using the <guilabel>Gears</guilabel>, <guilabel>Toy Kit</"
 "guilabel> or <guilabel>Visual</guilabel> tabs. The pattern is based only on "
@@ -577,60 +629,83 @@ msgid ""
 "gears and hole numbers which are found in toy kits. If you follow the "
 "instructions from the toy kit manuals, you should obtain similar results."
 msgstr ""
+"<guilabel>Gears</guilabel>, <guilabel>Toy Kit</guilabel> veya "
+"<guilabel>Visual</guilabel> sekmelerini kullanarak bir desen belirleyin. "
+"Desen, yalnızca etkin sekmenin ayarlarına göre oluşturulur. Toy Kit, Gears'a "
+"benzer, ancak oyuncak kitlerinde bulunan dişli ve delik numaralarını "
+"kullanır. Oyuncak kiti kılavuzlarındaki talimatları izlerseniz, benzer "
+"sonuçlar elde etmelisiniz."
 
 #: src/filters/render/spyrogimp.xml:265(term)
 msgid "Fixed Gear Teeth"
 msgstr "Sabit Dişli Dişleri"
 
 #: src/filters/render/spyrogimp.xml:267(para)
+#, fuzzy
 msgid ""
 "Number of teeth of fixed gear. The size of the fixed gear is proportional to "
 "the number of teeth."
 msgstr ""
+"Sabit dişli diş sayısı. Sabit dişlinin boyutu diş sayısıyla orantılıdır."
 
 #: src/filters/render/spyrogimp.xml:274(term)
 msgid "Moving Gear Teeth"
 msgstr "Hareketli Dişli Dişleri"
 
 #: src/filters/render/spyrogimp.xml:276(para)
+#, fuzzy
 msgid ""
 "Number of teeth of moving gear. The size of the moving gear is proportional "
 "to the number of teeth."
 msgstr ""
+"Hareketli dişlilerin diş sayısı. Hareket eden dişlinin boyutu diş sayısıyla "
+"orantılıdır."
 
 #: src/filters/render/spyrogimp.xml:283(term)
 msgid "Hole percent"
 msgstr "Delik yüzdesi"
 
 #: src/filters/render/spyrogimp.xml:285(para)
+#, fuzzy
 msgid ""
 "How far is the hole from the center of the moving gear. 100% means that the "
 "hole is at the gear's edge."
 msgstr ""
+"Delik, hareketli dişlinin merkezinden ne kadar uzakta. %100, deliğin "
+"dişlinin kenarında olduğu anlamına gelir."
 
 #: src/filters/render/spyrogimp.xml:293(para)
+#, fuzzy
 msgid ""
 "The <guilabel>Toy Kit</guilabel> tab also has <guilabel>Fixed Gear Teeth</"
 "guilabel> and <guilabel>Moving Gear Teeth</guilabel> options. In this case, "
 "however, they are limited to gear sizes that are provided with toy kits for "
 "drawing Spyrographs."
 msgstr ""
+"<guilabel>Oyuncak Kiti</guilabel> sekmesinde <guilabel>Sabit Dişli Dişleri</"
+"guilabel> ve <guilabel>Hareketli Dişli Dişleri</guilabel> seçenekleri de "
+"bulunmaktadır. Ancak bu durumda, bunlar Spyrograph çizmek için oyuncak "
+"kitleriyle birlikte sağlanan dişli boyutlarıyla sınırlıdır."
 
 #: src/filters/render/spyrogimp.xml:301(term)
 msgid "Hole Number"
 msgstr "Delik Sayısı"
 
 #: src/filters/render/spyrogimp.xml:303(para)
+#, fuzzy
 msgid ""
 "Hole #1 is at the edge of the gear. The maximum hole number is near the "
 "center. The maximum hole number is different for each gear."
 msgstr ""
+"Delik #1 dişlinin kenarında. Azami delik sayısı merkeze yakındır. Her dişli "
+"için azami delik sayısı farklıdır."
 
 #: src/filters/render/spyrogimp.xml:313(title)
 msgid "<quote>Spyrogimp</quote><guilabel>Toy Kit</guilabel> Examples"
 msgstr "<quote>Spyrogimp</quote><guilabel>Oyuncak Seti</guilabel> Örnekleri"
 
 #: src/filters/render/spyrogimp.xml:321(para)
+#, fuzzy
 msgid ""
 "The <guilabel>Toy Kit</guilabel> helps recreate designs from the toy kit. "
 "The left image uses a 105 fixed gear, and a 30 (blue), 45 (green) and 60 "
@@ -639,6 +714,13 @@ msgid ""
 "uses the 105 fixed ring, with moving ring 24 (Hole Number 4), and moving "
 "ring 80 (Hole numbers 16, 18, 20)."
 msgstr ""
+"<guilabel>Oyuncak Kiti</guilabel>, oyuncak kitindeki tasarımları yeniden "
+"oluşturmaya yardımcı olur. Soldaki görüntüde 105 sabit dişli ve 30 (mavi), "
+"45 (yeşil) ve 60 (kırmızı) hareketli dişliler kullanılmıştır. Her hareketli "
+"dişli, 3 ila 7 arasında değişen <guilabel>Delik Numaralarıyla</guilabel> "
+"birkaç kez kullanılmıştır. Sağdaki görüntüde de 105 sabit halka, 24 "
+"hareketli halka (Delik Numarası 4) ve 80 hareketli halka (Delik Numaraları "
+"16, 18, 20) kullanılmıştır."
 
 #: src/filters/render/spyrogimp.xml:341(para)
 msgid ""
@@ -646,18 +728,22 @@ msgid ""
 msgstr "<guilabel>Görsel</guilabel> sekmesi sağ tarafta ortada gösterilir."
 
 #: src/filters/render/spyrogimp.xml:347(para)
+#, fuzzy
 msgid ""
 "The <guilabel>Visual</guilabel> tab creates more rounded, flower petal like "
 "patterns. It has the following settings:"
 msgstr ""
+"<guilabel>Görsel</guilabel> sekmesi daha yuvarlak, çiçek yaprağı benzeri "
+"desenler oluşturur. Aşağıdaki ayarlara sahiptir:"
 
 #: src/filters/render/spyrogimp.xml:353(term)
 msgid "Flower Petals"
 msgstr "Çiçek Yaprakları"
 
 #: src/filters/render/spyrogimp.xml:355(para)
+#, fuzzy
 msgid "The number of flower petals to draw."
-msgstr ""
+msgstr "Çizilecek çiçek yapraklarının sayısı."
 
 #: src/filters/render/spyrogimp.xml:361(term)
 msgid "Petal Skip"
@@ -684,8 +770,9 @@ msgid "The width of the drawing."
 msgstr "Çizim genişliği."
 
 #: src/filters/render/spyrogimp.xml:386(para)
+#, fuzzy
 msgid "Below the tabs there is an additional option."
-msgstr ""
+msgstr "Sekmelerin altında ek bir seçenek bulunmaktadır."
 
 #: src/filters/render/spyrogimp.xml:391(term)
 #: src/filters/render/spyrogimp.xml:559(term)
@@ -696,11 +783,15 @@ msgid "Rotation"
 msgstr "Döndürme"
 
 #: src/filters/render/spyrogimp.xml:393(para)
+#, fuzzy
 msgid ""
 "Rotation of the pattern, in degrees. The starting position of the moving "
 "gear in the fixed gear. Note that this also changes the pattern when drawing "
 "Lissajous curves."
 msgstr ""
+"Desenin dönüşü, derece cinsinden. Sabit dişli içinde hareketli dişlinin "
+"başlangıç konumu. Bunun, Lissajous eğrileri çizilirken deseni de "
+"değiştirdiğini unutmayın."
 
 #: src/filters/render/spyrogimp.xml:404(title)
 msgid "Fixed Gear Tab"
@@ -716,8 +807,9 @@ msgid "Shape"
 msgstr "Şekil"
 
 #: src/filters/render/spyrogimp.xml:420(para)
+#, fuzzy
 msgid "The shape of the fixed gear to be used inside current selection."
-msgstr ""
+msgstr "Mevcut seçim içinde kullanılacak sabit dişlinin şekli."
 
 #: src/filters/render/spyrogimp.xml:427(guilabel)
 msgid "Circle"
@@ -784,44 +876,53 @@ msgid "<quote>Spyrogimp</quote> Shape Examples"
 msgstr "<quote>Spyrogimp</quote> Şekil Örnekleri"
 
 #: src/filters/render/spyrogimp.xml:476(para)
+#, fuzzy
 msgid ""
 "From left to right, <guilabel>Circle</guilabel>, <guilabel>Rack</guilabel>, "
 "<guilabel>Frame</guilabel>, and <guilabel>Selection</guilabel> shapes of the "
 "fixed gear. The selection in the right image was generated by selecting a "
 "large letter \"T\" that was produced by the text tool."
 msgstr ""
+"Soldan sağa, sabit dişlinin <guilabel>Daire</guilabel>, <guilabel>Raf</"
+"guilabel>, <guilabel>Çerçeve</guilabel> ve <guilabel>Seçim</guilabel> "
+"şekilleri. Sağdaki görüntüdeki seçim, metin aracıyla oluşturulan büyük harf "
+"\"T\" seçilerek oluşturulmuştur."
 
 #: src/filters/render/spyrogimp.xml:486(title)
 msgid "<quote>Spyrogimp</quote> Polygon-Star Shape Examples"
 msgstr "<quote>Spyrogimp</quote> Çokgen Yıldız Şekli Örnekleri"
 
 #: src/filters/render/spyrogimp.xml:494(para)
+#, fuzzy
 msgid "From left to right, <guilabel>Morph</guilabel> = 0, 0.3, 0.6, 1"
-msgstr ""
+msgstr "Soldan sağa, <guilabel>Morf</guilabel> = 0, 0,3, 0,6, 1"
 
 #: src/filters/render/spyrogimp.xml:501(title)
 msgid "<quote>Spyrogimp</quote> Sine Shape Examples"
 msgstr "<quote>Spyrogimp</quote> Sinüs Şekli Örnekleri"
 
 #: src/filters/render/spyrogimp.xml:509(para)
+#, fuzzy
 msgid "From left to right, <guilabel>Morph</guilabel> = 0.1, 0.3, 0.5"
-msgstr ""
+msgstr "Soldan sağa, <guilabel>Morf</guilabel> = 0,1, 0,3, 0,5"
 
 #: src/filters/render/spyrogimp.xml:516(title)
 msgid "<quote>Spyrogimp</quote> Bumps Shape Examples"
 msgstr "<quote>Spyrogimp</quote> Çokgen Yıldız Şekli Örnekleri"
 
 #: src/filters/render/spyrogimp.xml:524(para)
+#, fuzzy
 msgid "From left to right, <guilabel>Morph</guilabel> = 0, 0.5, 1"
-msgstr ""
+msgstr "Soldan sağa, <guilabel>Morf</guilabel> = 0, 0,5, 1"
 
 #: src/filters/render/spyrogimp.xml:533(term)
 msgid "Sides"
 msgstr "Yanlar"
 
 #: src/filters/render/spyrogimp.xml:535(para)
+#, fuzzy
 msgid "Number of sides of the shape."
-msgstr ""
+msgstr "Şeklin yan sayısı."
 
 #: src/filters/render/spyrogimp.xml:538(para)
 #: src/filters/render/spyrogimp.xml:551(para)
@@ -843,12 +944,14 @@ msgid "Morph"
 msgstr "Şekil değiştir"
 
 #: src/filters/render/spyrogimp.xml:548(para)
+#, fuzzy
 msgid "Morph fixed gear shape."
-msgstr ""
+msgstr "Sabit dişli şekli."
 
 #: src/filters/render/spyrogimp.xml:561(para)
+#, fuzzy
 msgid "Rotation of the fixed gear, in degrees."
-msgstr ""
+msgstr "Sabit dişlinin döndürülme açısı, derece olarak"
 
 #: src/filters/render/spyrogimp.xml:570(title)
 msgid "Size Tab"
@@ -863,21 +966,28 @@ msgid "Margin (px)"
 msgstr "Boşluk (px)"
 
 #: src/filters/render/spyrogimp.xml:587(para)
+#, fuzzy
 msgid ""
 "Margin from the edge of selection. This controls the size of the pattern."
-msgstr ""
+msgstr "Seçim kenarından kenar boşluğu. Bu, desenin boyutunu kontrol eder."
 
 #: src/filters/render/spyrogimp.xml:593(term)
+#, fuzzy
 msgid "Make width and height equal"
-msgstr ""
+msgstr "Genişliği ve yüksekliği eşitle"
 
 #: src/filters/render/spyrogimp.xml:595(para)
+#, fuzzy
 msgid ""
 "When unchecked, the pattern will fill the current image or selection. When "
 "checked, the pattern will have same width and height, and will be centered. "
 "The difference between checked and unchecked will only be noticed if the "
 "size of the width and height of the selection differ."
 msgstr ""
+"İşaretlenmediğinde, desen mevcut görüntüyü veya seçimi doldurur. "
+"İşaretlendiğinde, desen aynı genişlik ve yüksekliğe sahip olur ve ortalanır. "
+"İşaretli ve işaretlenmemiş arasındaki fark, yalnızca seçimin genişliği ve "
+"yüksekliği farklı olduğunda fark edilir."
 
 #: src/filters/render/spyrogimp.xml:607(title)
 msgid "Common Options Below the Tabs"
@@ -893,12 +1003,17 @@ msgid "Save"
 msgstr "Kaydet"
 
 #: src/filters/render/spyrogimp.xml:612(para)
+#, fuzzy
 msgid ""
 "The <guilabel>Save</guilabel> dropdown determines what will happen to the "
 "temporary layer once <guibutton>OK</guibutton> is pressed. Available options "
 "are: <guilabel>As New Layer</guilabel>, <guilabel>Redraw on last active "
 "layer</guilabel>, and <guilabel>As Path</guilabel>."
 msgstr ""
+"<guilabel>Kaydet</guilabel> açılır menüsü, <guibutton>Tamam düğ</guibutton> "
+"mesine basıldığında geçici katmana ne olacağını belirler. Kullanılabilir "
+"seçenekler şunlardır: <guilabel>Yeni Katman Olarak</guilabel>, <guilabel>Son "
+"Etkin Katmanda Yeniden Çiz</guilabel> ve <guilabel>Yol Olarak</guilabel>."
 
 #: src/filters/render/spyrogimp.xml:625(title)
 msgid "Buttons"
@@ -909,27 +1024,34 @@ msgid "Redraw"
 msgstr "Yeniden Çiz"
 
 #: src/filters/render/spyrogimp.xml:630(para)
+#, fuzzy
 msgid ""
 "If you change the settings of a tool, change color, or change the selection "
 "(i.e., any settings outside of the plug-in that affect the pattern), press "
 "this to update the preview to see how the pattern looks."
 msgstr ""
+"Bir aracın ayarlarını değiştirirseniz, rengi değiştirirseniz veya seçimi "
+"değiştirirseniz (yani, eklentinin dışında desen üzerinde etkisi olan "
+"herhangi bir ayar), bunu basarak önizlemeyi güncelleyin ve desenin nasıl "
+"göründüğünü kontrol edin."
 
 #: src/filters/render/spyrogimp.xml:638(term)
 msgid "Reset"
 msgstr "Sıfırla"
 
 #: src/filters/render/spyrogimp.xml:640(para)
+#, fuzzy
 msgid "Resets the dialog to its default settings."
-msgstr ""
+msgstr "İletişim kutusunu varsayılan ayarlarına sıfırlar."
 
 #: src/filters/render/spyrogimp.xml:646(term)
 msgid "Cancel"
 msgstr "İptal"
 
 #: src/filters/render/spyrogimp.xml:648(para)
+#, fuzzy
 msgid "Delete the temporary layer, and exit the plug-in."
-msgstr ""
+msgstr "Geçici katmanı silin ve eklentiden çıkın."
 
 #: src/filters/render/spyrogimp.xml:654(term)
 msgid "OK"
@@ -974,15 +1096,20 @@ msgid "Filter <quote>Spiral</quote> applied"
 msgstr "<quote>Sarmal</quote> süzgeci uygulandı"
 
 #: src/filters/render/spiral.xml:33(para)
+#, fuzzy
 msgid ""
 "The Spiral filter allows you to make spiral patterns using two different "
 "colors. Besides choosing the colors, several other parameters are available "
 "to control the appearance of the spiral."
 msgstr ""
+"Spiral filtre, iki farklı renk kullanarak spiral desenler oluşturmanıza "
+"olanak tanır. Renkleri seçmenin yanı sıra, spiralin görünümünü kontrol etmek "
+"için birkaç başka parametre de mevcuttur."
 
 #: src/filters/render/spiral.xml:38(para) src/filters/render/sinus.xml:47(para)
+#, fuzzy
 msgid "Results don't depend on the image you opened."
-msgstr ""
+msgstr "Sonuçlar açtığınız görüntüye bağlı değildir."
 
 #: src/filters/render/spiral.xml:45(para)
 #, fuzzy
@@ -1124,12 +1251,16 @@ msgid "Type"
 msgstr "Tür"
 
 #: src/filters/render/spiral.xml:84(para)
+#, fuzzy
 msgid ""
 "The type of spiral pattern. It can be <guilabel>Linear</guilabel>, where the "
 "spiral has the same thickness everywhere, or <guilabel>Logarithmic</"
 "guilabel>, where the spiral starts small in the middle and gets larger the "
 "closer to the edge you get."
 msgstr ""
+"Spiral desenin türü. Spiralın her yerinde aynı kalınlıkta olduğu "
+"<guilabel>Doğrusal</guilabel> veya spiralin ortada küçük başlayıp kenara "
+"yaklaştıkça büyüdüğü <guilabel>Logaritmik</guilabel> olabilir."
 
 #: src/filters/render/spiral.xml:94(term)
 #: src/filters/render/ifsfractal.xml:309(term)
@@ -1146,38 +1277,45 @@ msgid "Y"
 msgstr "Y"
 
 #: src/filters/render/spiral.xml:97(para)
+#, fuzzy
 msgid "The starting offset of the spiral pattern."
-msgstr ""
+msgstr "Spiral desenin başlangıç ofseti."
 
 #: src/filters/render/spiral.xml:103(term)
 msgid "Radius"
 msgstr "Yarıçap"
 
 #: src/filters/render/spiral.xml:105(para)
+#, fuzzy
 msgid "The spiral radius controls the size of the spirals."
-msgstr ""
+msgstr "Spiral yarıçapı, spirallerin boyutunu kontrol eder."
 
 #: src/filters/render/spiral.xml:111(term)
 msgid "Balance"
 msgstr "Denge"
 
 #: src/filters/render/spiral.xml:113(para)
+#, fuzzy
 msgid "The area balance between the two colors."
-msgstr ""
+msgstr "İki renk arası alan dengesi"
 
 #: src/filters/render/spiral.xml:121(para)
+#, fuzzy
 msgid "The rotation angle of the spiral."
-msgstr ""
+msgstr "Spiralin dönme açısı."
 
 #: src/filters/render/spiral.xml:127(term)
 msgid "Direction"
 msgstr "Yön"
 
 #: src/filters/render/spiral.xml:129(para)
+#, fuzzy
 msgid ""
 "The spiral swirl of the rotation can be either <guilabel>Clockwise</"
 "guilabel>, or <guilabel>Counter-clockwise</guilabel>."
 msgstr ""
+"Dönüşün spiral şekilli girdabı <guilabel>saat yönünde</guilabel> veya "
+"<guilabel>saat yönünün tersinde</guilabel> olabilir."
 
 #: src/filters/render/spiral.xml:137(term)
 #: src/filters/render/sinus.xml:145(term)
@@ -1192,8 +1330,9 @@ msgid "Color 2"
 msgstr "Renk 2"
 
 #: src/filters/render/spiral.xml:140(para)
+#, fuzzy
 msgid "Here, you can set the two colors that make up the spiral."
-msgstr ""
+msgstr "Burada, spirali oluşturan iki rengi ayarlayabilirsiniz."
 
 #: src/filters/render/spiral.xml:146(term)
 msgid "On-canvas controls"
@@ -1272,10 +1411,13 @@ msgid "Filter <quote>Sphere Designer</quote> applied"
 msgstr "<quote>Küre Tasarımcısı</quote> süzgeci uygulandı"
 
 #: src/filters/render/spheredesigner.xml:49(para)
+#, fuzzy
 msgid ""
 "This filter creates a three dimensional sphere with different textures. It "
 "replaces the original image."
 msgstr ""
+"Bu filtre, farklı dokulara sahip üç boyutlu bir küre oluşturur. Orijinal "
+"görüntünün yerini alır."
 
 #: src/filters/render/spheredesigner.xml:57(para)
 #, fuzzy
@@ -1297,6 +1439,7 @@ msgid "<quote>Sphere Designer</quote> filter parameters"
 msgstr "<quote>Küre Tasarımcısı</quote> süzgeci seçenekleri"
 
 #: src/filters/render/spheredesigner.xml:83(para)
+#, fuzzy
 msgid ""
 "All your setting changes will appear in the Preview without affecting the "
 "image until you click on <guilabel>OK</guilabel>. Note that the preview "
@@ -1304,44 +1447,58 @@ msgid ""
 "Click the button <emphasis>Update Preview</emphasis> to see the result of "
 "the current settings."
 msgstr ""
+"Tüm ayar değişiklikleriniz, <guilabel>Tamam</guilabel> düğmesine tıklayana "
+"kadar görüntüyü etkilemeden Önizleme'de görünecektir. Önizleme, nihai sonuç "
+"bir seçimi ilgilendirse bile görüntünün tamamını gösterir. Mevcut ayarların "
+"sonucunu görmek için <emphasis>Önizlemeyi Güncelle</emphasis> düğmesine "
+"tıklayın."
 
 #: src/filters/render/spheredesigner.xml:96(title)
 msgid "Textures"
 msgstr "Desenler"
 
 #: src/filters/render/spheredesigner.xml:97(para)
+#, fuzzy
 msgid ""
 "The list of textures applied to the sphere. The textures are applied in the "
 "order listed. Each item shows the type and the name of the texture."
 msgstr ""
+"Küreye uygulanan dokuların listesi. Dokular listelenen sırayla uygulanır. "
+"Her bir öğe, dokunun türünü ve adını gösterir."
 
 #: src/filters/render/spheredesigner.xml:103(term)
 msgid "New"
 msgstr "Yeni"
 
 #: src/filters/render/spheredesigner.xml:105(para)
+#, fuzzy
 msgid ""
 "Creates a new texture and adds it to the end of the list. The name and the "
 "features of this new texture are the ones which are displayed in the Texture "
 "Properties area, but you can change them by operating in this area, provided "
 "that your new texture is highlighted."
 msgstr ""
+"Yeni bir doku oluşturur ve bunu listenin sonuna ekler. Bu yeni dokunun adı "
+"ve özellikleri Doku Özellikleri alanında görüntülenir, ancak yeni doku "
+"vurgulanmışsa bu alanda işlem yaparak bunları değiştirebilirsiniz."
 
 #: src/filters/render/spheredesigner.xml:115(term)
 msgid "Duplicate"
 msgstr "Çoğalt"
 
 #: src/filters/render/spheredesigner.xml:117(para)
+#, fuzzy
 msgid "Copies the selected texture and adds the copy to the end of the list."
-msgstr ""
+msgstr "Seçilen dokuyu kopyalar ve kopyayı listenin sonuna ekler."
 
 #: src/filters/render/spheredesigner.xml:124(term)
 msgid "Delete"
 msgstr "Sil"
 
 #: src/filters/render/spheredesigner.xml:126(para)
+#, fuzzy
 msgid "Deletes the selected texture from the list."
-msgstr ""
+msgstr "Listeden seçilen dokuyu siler."
 
 #: src/filters/render/spheredesigner.xml:132(term)
 #: src/filters/render/qbist.xml:104(term)
@@ -1352,16 +1509,20 @@ msgid "Open"
 msgstr "Aç"
 
 #: src/filters/render/spheredesigner.xml:135(para)
+#, fuzzy
 msgid "Allows to save current settings or load previously saved settings."
 msgstr ""
+"Mevcut ayarları kaydetmenize veya önceden kaydedilmiş ayarları yüklemenize "
+"olanak tanır."
 
 #: src/filters/render/spheredesigner.xml:143(title)
 msgid "Properties"
 msgstr "Özellikler"
 
 #: src/filters/render/spheredesigner.xml:147(para)
+#, fuzzy
 msgid "Determines the type of action on the sphere."
-msgstr ""
+msgstr "Küre üzerindeki eylemin türünü belirler."
 
 #: src/filters/render/spheredesigner.xml:150(term)
 #: src/filters/render/spheredesigner.xml:174(term)
@@ -1369,26 +1530,30 @@ msgid "Texture"
 msgstr "Desen"
 
 #: src/filters/render/spheredesigner.xml:152(para)
+#, fuzzy
 msgid "Covers the sphere with a specific pattern."
-msgstr ""
+msgstr "Küreyi belirli bir desenle kaplar."
 
 #: src/filters/render/spheredesigner.xml:156(term)
 msgid "Bumpmap"
 msgstr "Derinlik etkisi"
 
 #: src/filters/render/spheredesigner.xml:158(para)
+#, fuzzy
 msgid "Gives some relief to the texture."
-msgstr ""
+msgstr "Dokuya biraz rahatlama sağlar."
 
 #: src/filters/render/spheredesigner.xml:162(term)
 msgid "Light"
 msgstr "Işık"
 
 #: src/filters/render/spheredesigner.xml:164(para)
+#, fuzzy
 msgid "Lets you set the parameters of the light shining on the sphere."
-msgstr ""
+msgstr "Küreye parlayan ışığın parametrelerini ayarlamanıza olanak tanır."
 
 #: src/filters/render/spheredesigner.xml:176(para)
+#, fuzzy
 msgid ""
 "Determines the pattern used by the texture type. If the texture applies to "
 "light then the light is distorted by this texture as if it was going through "
@@ -1396,6 +1561,10 @@ msgid ""
 "texture itself, the texture is applied directly to the sphere. Several "
 "options are available."
 msgstr ""
+"Doku türü tarafından kullanılan deseni belirler. Doku ışığa uygulanırsa, "
+"ışık bu dokudan geçiyormuş gibi bozulur ve küreye düşer. Doku dokunun "
+"kendisine uygulanırsa, doku doğrudan küreye uygulanır. Birkaç seçenek "
+"mevcuttur."
 
 #: src/filters/render/spheredesigner.xml:186(term)
 #: src/filters/render/fractalexplorer.xml:194(title)
@@ -1403,10 +1572,13 @@ msgid "Colors"
 msgstr "Renkler"
 
 #: src/filters/render/spheredesigner.xml:188(para)
+#, fuzzy
 msgid ""
 "Sets the two colors to be used for a texture. By pressing the color button a "
 "color selection dialog appears."
 msgstr ""
+"Bir doku için kullanılacak iki rengi ayarlar. Renk düğmesine basıldığında "
+"bir renk seçim penceresi açılır."
 
 #: src/filters/render/spheredesigner.xml:195(term)
 #: src/filters/render/simplex-noise.xml:77(term)
@@ -1417,11 +1589,15 @@ msgid "Scale"
 msgstr "Ölçek"
 
 #: src/filters/render/spheredesigner.xml:197(para)
+#, fuzzy
 msgid ""
 "Determines the size of separate elements composing the texture. For example, "
 "for the <quote>Checker</quote> texture this parameter determines the size of "
 "black and white squares. Value range is from 0 to 10."
 msgstr ""
+"Doku oluşturan ayrı öğelerin boyutunu belirler. Örneğin, <quote>Checker</"
+"quote> dokusu için bu parametre siyah ve beyaz karelerin boyutunu belirler. "
+"Değer aralığı 0 ile 10 arasındadır."
 
 #: src/filters/render/spheredesigner.xml:206(term)
 #: src/filters/render/plasma.xml:86(term)
@@ -1429,23 +1605,31 @@ msgid "Turbulence"
 msgstr "Türbülans"
 
 #: src/filters/render/spheredesigner.xml:208(para)
+#, fuzzy
 msgid ""
 "Determines the degree of texture distortion before applying the texture to "
 "the sphere. Value range is from 0 to 10. With values of up to 1.0 you can "
 "still make out the undistorted patterns; beyond that the texture gradually "
 "turns into noise."
 msgstr ""
+"Tekstürü küreye uygulamadan önce tekstür bozulma derecesini belirler. Değer "
+"aralığı 0 ile 10 arasındadır. 1,0'a kadar olan değerlerde bozulmamış "
+"desenleri hala ayırt edebilirsiniz; bunun ötesinde tekstür yavaş yavaş "
+"gürültüye dönüşür."
 
 #: src/filters/render/spheredesigner.xml:217(term)
 msgid "Amount"
 msgstr "Miktar"
 
 #: src/filters/render/spheredesigner.xml:219(para)
+#, fuzzy
 msgid ""
 "Determines the degree of influence the texture has on the final result. "
 "Value range is from 0 to 1. With the value of 0 the texture does not affect "
 "the result."
 msgstr ""
+"Dokunun nihai sonuç üzerindeki etki derecesini belirler. Değer aralığı 0 ile "
+"1 arasındadır. Değer 0 olduğunda doku sonucu etkilemez."
 
 #. Exp.
 #: src/filters/render/spheredesigner.xml:228(term)
@@ -1456,10 +1640,13 @@ msgid "Exponent"
 msgstr "Katsayı"
 
 #: src/filters/render/spheredesigner.xml:230(para)
+#, fuzzy
 msgid ""
 "With the Wood texture, this option gives an aspect of venetian blind, more "
 "or less open."
 msgstr ""
+"Ahşap dokusu ile bu seçenek, daha fazla veya daha az açık olan jaluziler "
+"gibi bir görünüm sağlar."
 
 #: src/filters/render/spheredesigner.xml:239(title)
 msgid "Transformations"
@@ -1478,10 +1665,13 @@ msgid "Scale Z"
 msgstr "Z Ölçeği"
 
 #: src/filters/render/spheredesigner.xml:245(para)
+#, fuzzy
 msgid ""
 "Determines the degree of stretching/compression of the texture on the sphere "
 "along the three directions. The value range is from 0 to 10."
 msgstr ""
+"Küre üzerindeki dokunun üç yönde gerilme/sıkıştırma derecesini belirler. "
+"Değer aralığı 0 ile 10 arasındadır."
 
 #: src/filters/render/spheredesigner.xml:253(term)
 msgid "Rotate X"
@@ -1496,10 +1686,13 @@ msgid "Rotate Z"
 msgstr "Z Dönmesi"
 
 #: src/filters/render/spheredesigner.xml:257(para)
+#, fuzzy
 msgid ""
 "Determines the amount of a turn of the texture on the sphere around the "
 "three axes. The value range is from 0 to 360."
 msgstr ""
+"Üç eksen etrafındaki küre üzerinde dokunun dönüş miktarını belirler. Değer "
+"aralığı 0 ile 360 arasındadır."
 
 #: src/filters/render/spheredesigner.xml:264(term)
 msgid "Position X"
@@ -1514,11 +1707,14 @@ msgid "Position Z"
 msgstr "Z Konumu"
 
 #: src/filters/render/spheredesigner.xml:268(para)
+#, fuzzy
 msgid ""
 "Determines the position of the texture relative to the sphere. When type is "
 "Light, this parameter refers to the position of the light floodlighting the "
 "sphere."
 msgstr ""
+"Doku pozisyonunu küreye göre belirler. Tür, Işık olduğunda, bu parametre "
+"küreyi aydınlatan ışığın pozisyonunu ifade eder."
 
 #: src/filters/render/spheredesigner.xml:277(para)
 msgid ""
@@ -1568,6 +1764,7 @@ msgid "Filter <quote>Solid Noise</quote> applied"
 msgstr "<quote>Yoğun Gürültü</quote> süzgeci uygulandı"
 
 #: src/filters/render/solid-noise.xml:33(para)
+#, fuzzy
 msgid ""
 "Solid Noise is a great texture maker. Note that this noise is always gray, "
 "even if you applied it to a very colorful image (it doesn't matter what the "
@@ -1578,6 +1775,14 @@ msgid ""
 "Map</link> filter. With the \"turbulence\" setting active, the results look "
 "quite a bit like real clouds."
 msgstr ""
+"Solid Noise harika bir doku oluşturucu. Bu gürültü, çok renkli bir görüntüye "
+"uygulandığında bile her zaman gri renkte olduğunu unutmayın (orijinal "
+"görüntünün nasıl göründüğü önemli değildir - bu filtre, uygulandığı "
+"katmandaki mevcut arka planı tamamen üzerine yazar). Bu, <link "
+"linkend=\"gimp-tool-warp\">Warp transform</link> aracı veya <link "
+"linkend=\"gimp-filter-bump-map\">Bump Map</link> filtresi için yer "
+"değiştirme haritaları oluşturmak için de iyi bir araçtır. \"Türbülans\" "
+"ayarı etkin olduğunda, sonuçlar gerçek bulutlara oldukça benzer."
 
 #: src/filters/render/solid-noise.xml:48(para)
 #, fuzzy
@@ -1609,22 +1814,30 @@ msgstr "Y boyutu"
 
 #: src/filters/render/solid-noise.xml:87(para)
 #: src/filters/render/difference-clouds.xml:123(para)
+#, fuzzy
 msgid ""
 "These control the size and proportion of the noise shapes in X (horizontal) "
 "and Y (vertical) directions (range 0.1 to 16.0)."
 msgstr ""
+"Bunlar, X (yatay) ve Y (dikey) yönlerinde gürültü şekillerinin boyutunu ve "
+"oranını kontrol eder (0,1 ila 16,0 aralığı)."
 
 #: src/filters/render/solid-noise.xml:95(term)
 msgid "Detail"
 msgstr "Ayrıntı"
 
 #: src/filters/render/solid-noise.xml:97(para)
+#, fuzzy
 msgid ""
 "This controls the amount of detail in the noise texture. Higher values give "
 "a higher level of detail, and the noise seems to be made of spray or small "
 "particles, which makes it feel hard. A low value makes it more soft and "
 "cloudy."
 msgstr ""
+"Bu, gürültü dokusundaki ayrıntı miktarını kontrol eder. Daha yüksek değerler "
+"daha yüksek ayrıntı düzeyi sağlar ve gürültü sprey veya küçük parçacıklardan "
+"oluşmuş gibi görünür, bu da onu sert hissettirir. Düşük bir değer onu daha "
+"yumuşak ve bulanık hale getirir."
 
 #: src/filters/render/solid-noise.xml:107(term)
 #: src/filters/render/maze.xml:113(term)
@@ -1633,11 +1846,15 @@ msgid "Tileable"
 msgstr "Döşenebilir"
 
 #: src/filters/render/solid-noise.xml:109(para)
+#, fuzzy
 msgid ""
 "If you check Tileable, you'll get a noise which can be used as tiles. For "
 "example, you can use it as a background in an HTML page, and the tile edges "
 "will be joined seamlessly."
 msgstr ""
+"Tileable seçeneğini işaretlerseniz, döşeme olarak kullanılabilecek bir ses "
+"elde edersiniz. Örneğin, bunu bir HTML sayfasının arka planı olarak "
+"kullanabilirsiniz ve döşeme kenarları sorunsuz bir şekilde birleştirilir."
 
 #: src/filters/render/solid-noise.xml:118(term)
 #: src/filters/render/difference-clouds.xml:110(term)
@@ -1646,11 +1863,15 @@ msgstr "Türbülans"
 
 #: src/filters/render/solid-noise.xml:120(para)
 #: src/filters/render/difference-clouds.xml:112(para)
+#, fuzzy
 msgid ""
 "If you check this, you'll get very interesting effects, often something that "
 "looks much like oil on water, or clouds of smoke, or living tissue, or a "
 "Rorschach blot."
 msgstr ""
+"Bunu kontrol ederseniz, çok ilginç efektler elde edersiniz, genellikle su "
+"üzerindeki yağ, duman bulutları, canlı doku veya Rorschach lekesi gibi "
+"görünen şeyler."
 
 #: src/filters/render/solid-noise.xml:128(term)
 #: src/filters/render/sinus.xml:110(term)
@@ -1673,6 +1894,7 @@ msgstr "Yeni Parçacık"
 #: src/filters/render/simplex-noise.xml:96(para)
 #: src/filters/render/plasma.xml:101(para)
 #: src/filters/render/maze.xml:125(para)
+#, fuzzy
 msgid ""
 "This option controls the randomness of the filter. The <guilabel>Random "
 "seed</guilabel> box lets you manually enter a seed for the randomization "
@@ -1681,6 +1903,12 @@ msgid ""
 "the same situation, the filter produces exactly the same results. A "
 "different random seed produces different results."
 msgstr ""
+"Bu seçenek filtrenin rastgeleliğini kontrol eder. <guilabel>Rastgele</"
+"guilabel> tohum kutusu, kullanılan rastgeleleştirme algoritması için manuel "
+"olarak bir tohum girmenizi sağlar. <guibutton>Yeni Tohum</guibutton> "
+"düğmesine basarak da rastgele bir tohum oluşturabilirsiniz. Aynı durumda "
+"aynı rastgele tohum kullanılırsa, filtre tamamen aynı sonuçları üretir. "
+"Farklı bir rastgele tohum farklı sonuçlar üretir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1720,20 +1948,30 @@ msgid "Filter <quote>Sinus</quote> applied"
 msgstr "<quote>Sinüs</quote> süzgeci uygulandı"
 
 #: src/filters/render/sinus.xml:34(para)
+#, fuzzy
 msgid ""
 "The Sinus filter lets you make sinusoidally based textures, which look "
 "rather like watered silk or maybe plywood. This plug-in works by using two "
 "different colors that you can define in the Colors tab. These two colors "
 "then create wave patterns based on a sine function."
 msgstr ""
+"Sinüs filtresi, sulu ipek veya kontrplak gibi görünen sinüzoidal tabanlı "
+"dokular oluşturmanıza olanak tanır. Bu eklenti, Renkler sekmesinde "
+"tanımlayabileceğiniz iki farklı rengi kullanarak çalışır. Bu iki renk, sinüs "
+"fonksiyonuna dayalı dalga desenleri oluşturur."
 
 #: src/filters/render/sinus.xml:41(para)
+#, fuzzy
 msgid ""
 "You can set the X and Y scales, which determine how stretched or packed the "
 "texture will be. You can also set the Complexity of the function: a high "
 "value creates more interference or repetition in the pattern. An example is "
 "shown below."
 msgstr ""
+"Doku ne kadar gerilecek veya sıkıştırılacak belirleyen X ve Y ölçeklerini "
+"ayarlayabilirsiniz. Ayrıca fonksiyonun Karmaşıklığını da ayarlayabilirsiniz: "
+"yüksek bir değer, desende daha fazla girişim veya tekrar oluşturur. Aşağıda "
+"bir örnek gösterilmiştir."
 
 #: src/filters/render/sinus.xml:54(para)
 #, fuzzy
@@ -1787,11 +2025,15 @@ msgid "Force tiling"
 msgstr "Döşemeye zorla"
 
 #: src/filters/render/sinus.xml:127(para)
+#, fuzzy
 msgid ""
 "If you check this, you'll get a pattern that can be used for tiling. For "
 "example, you can use it as a background in an HTML page, and the tile edges "
 "will be joined seamlessly."
 msgstr ""
+"Bunu işaretlerseniz, döşeme için kullanılabilecek bir desen elde edersiniz. "
+"Örneğin, bunu bir HTML sayfasının arka planı olarak kullanabilirsiniz ve "
+"döşeme kenarları sorunsuz bir şekilde birleştirilir."
 
 #: src/filters/render/sinus.xml:136(term)
 msgid "Distorted"
@@ -1824,12 +2066,16 @@ msgstr ""
 "yapabilirsiniz: Doğrusal, Çift doğrusal ve Sinüs biçimli."
 
 #: src/filters/render/sinus.xml:166(para)
+#, fuzzy
 msgid ""
 "The Exponent controls which of the two colors is dominant, and how dominant "
 "it is. If you set the exponent to -7.5, the left color will dominate "
 "totally, and if you set it to +7.5 it will be the other way around. A zero "
 "value is neutral."
 msgstr ""
+"Üs, iki rengin hangisinin baskın olacağını ve ne kadar baskın olacağını "
+"kontrol eder. Üssü -7,5 olarak ayarlarsanız, sol renk tamamen baskın olur ve "
+"+7,5 olarak ayarlarsanız, tam tersi olur. Sıfır değeri nötrdür."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1991,6 +2237,7 @@ msgid "<quote>Qbist</quote> filter options"
 msgstr "<quote>Qbist</quote> süzgeci seçenekleri"
 
 #: src/filters/render/qbist.xml:76(para)
+#, fuzzy
 msgid ""
 "The Qbist filter generates random textures. A starting texture is displayed "
 "in the middle square, and different variations surround it. If you like one "
@@ -2000,31 +2247,45 @@ msgid ""
 "click on it and then click OK. The texture will now appear on the currently "
 "active layer, completely replacing its previous contents."
 msgstr ""
+"Qbist filtresi rastgele dokular oluşturur. Başlangıç dokusu orta karede "
+"görüntülenir ve farklı varyasyonlar onu çevreler. Alternatif dokulardan "
+"birini beğendiyseniz, üzerine tıklayın. Seçilen doku şimdi <quote>Pattern "
+"(Desen)</quote> etiketiyle ortada görünür ve bu belirli temaya ait "
+"varyasyonlar etrafında görüntülenir. İstediğiniz dokuyu bulduğunuzda, "
+"üzerine tıklayın ve ardından OK (Tamam) düğmesine tıklayın. Doku şimdi etkin "
+"katmanda görünecek ve önceki içeriğini tamamen değiştirecektir."
 
 #: src/filters/render/qbist.xml:89(term)
 msgid "Anti-aliasing"
 msgstr "Kenar yumuşatma"
 
 #: src/filters/render/qbist.xml:91(para)
+#, fuzzy
 msgid ""
 "If you check this, it will make edges appear smooth rather than stair-step-"
 "like."
 msgstr ""
+"Bunu işaretlerseniz, kenarlar merdiven basamağı gibi değil, pürüzsüz görünür."
 
 #: src/filters/render/qbist.xml:98(term)
 msgid "Undo"
 msgstr "Geri Al"
 
 #: src/filters/render/qbist.xml:100(para)
+#, fuzzy
 msgid "Lets you go back one step in history."
-msgstr ""
+msgstr "Tarihte bir adım geri gitmenizi sağlar."
 
 #: src/filters/render/qbist.xml:107(para)
+#, fuzzy
 msgid ""
 "These buttons allow you to save and reload your textures. This is quite "
 "handy because it's almost impossible to re-create a good pattern by just "
 "clicking around."
 msgstr ""
+"Bu düğmeler, dokularınızı kaydetmenize ve yeniden yüklemenize olanak tanır. "
+"Bu oldukça kullanışlıdır, çünkü sadece tıklayarak iyi bir desen oluşturmak "
+"neredeyse imkansızdır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2087,12 +2348,17 @@ msgid "<quote>Plasma</quote> filter options"
 msgstr "<quote>Plazma</quote> süzgeci seçenekleri"
 
 #: src/filters/render/plasma.xml:88(para)
+#, fuzzy
 msgid ""
 "This parameter controls the complexity of the plasma. High values give a "
 "hard feeling to the cloud (like an abstract oil painting or mineral grains), "
 "low values produce a softer cloud (like steam, mist or smoke). The range is "
 "0.0 to 7.0."
 msgstr ""
+"Bu parametre plazmanın karmaşıklığını kontrol eder. Yüksek değerler buluta "
+"sert bir his verir (soyut bir yağlı boya tablosu veya mineral taneleri "
+"gibi), düşük değerler ise daha yumuşak bir bulut oluşturur (buhar, sis veya "
+"duman gibi). Aralık 0,0 ile 7,0 arasındadır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2171,16 +2437,22 @@ msgid "Perlin Noise"
 msgstr "Perlin Gürültüsü"
 
 #: src/filters/render/perlin-noise.xml:32(para)
+#, fuzzy
 msgid ""
 "Filter applied with default options: Alpha=1.200 Scale=1.800 Z offset=-1.000 "
 "Iterations=3"
 msgstr ""
+"Varsayılan seçeneklerle uygulanan filtre: Alfa=1,200 Ölçek=1,800 Z "
+"ofset=-1,000 Yinelemeler=3"
 
 #: src/filters/render/perlin-noise.xml:23(para)
+#, fuzzy
 msgid ""
 "This filter generates a noise texture using the Perlin Noise algorithm. "
 "Results don't depend on the image you opened. <placeholder-1/>"
 msgstr ""
+"Bu filtre, Perlin Noise algoritmasını kullanarak bir gürültü dokusu "
+"oluşturur. Sonuçlar, açtığınız görüntüye bağlı değildir. <placeholder-1/>"
 
 #: src/filters/render/perlin-noise.xml:43(para)
 msgid ""
@@ -2340,11 +2612,16 @@ msgstr ""
 "sürece sonuç gerçek labirent gibi görünmez."
 
 #: src/filters/render/maze.xml:88(para)
+#, fuzzy
 msgid ""
 "By default, width and height are linked, indicated by the <placeholder-1/> "
 "chain symbol next to the input boxes. If you want to set width and height "
 "separately, click on that chain symbol to unlink them."
 msgstr ""
+"Öntanımlı olarak, genişlik ve yükseklik birbirine bağlıdır ve girdi "
+"kutularının yanındaki <placeholder-1/> zincir simgesiyle gösterilir. "
+"Genişlik ve yüksekliği ayrı ayrı ayarlamak istiyorsanız, bağlarını kaldırmak "
+"için zincir simgesine tıklayın."
 
 #: src/filters/render/maze.xml:103(term)
 msgid "Algorithm type"
@@ -2612,13 +2889,18 @@ msgid "<quote>Line Nova</quote> applied"
 msgstr "<quote>Nova Çizgisi</quote> uygulandı"
 
 #: src/filters/render/line-nova.xml:40(para)
+#, fuzzy
 msgid ""
 "The Line Nova filter fills a layer with rays emanating outward from the "
 "center of the layer using the foreground color shown in the Toolbox. The "
 "rays starts as one pixel and grew broader towards the edges of the layer."
 msgstr ""
+"Line Nova filtresi, Araç Kutusu'nda gösterilen ön plan rengini kullanarak "
+"katmanın merkezinden dışarı doğru yayılan ışınlarla bir katmanı doldurur. "
+"Işınlar bir piksel olarak başlar ve katmanın kenarlarına doğru genişler."
 
 #: src/filters/render/line-nova.xml:47(para)
+#, fuzzy
 msgid ""
 "This filter does not provide any option which allows you to set the center "
 "point of lines. If you need adjust the place of the radial lines where you "
@@ -2626,6 +2908,11 @@ msgid ""
 "it on your image. Setting large size for the new nova image may help you not "
 "to break lines inside of your image."
 msgstr ""
+"Bu filtre, çizgilerin merkez noktasını ayarlamanıza olanak tanıyan herhangi "
+"bir seçenek sunmaz. Radyal çizgilerin yerini istediğiniz gibi ayarlamanız "
+"gerekiyorsa, başka bir şeffaf görüntü oluşturun ve bu filtreyi ona "
+"uygulayın, ardından görüntünüze ekleyin. Yeni nova görüntüsü için büyük bir "
+"boyut ayarlamak, görüntünüzün içindeki çizgilerin bozulmamasını sağlayabilir."
 
 #: src/filters/render/line-nova.xml:59(para)
 msgid ""
@@ -2646,35 +2933,44 @@ msgid "Number of lines"
 msgstr "Çizgi sayısı"
 
 #: src/filters/render/line-nova.xml:85(para)
+#, fuzzy
 msgid ""
 "By using this option you can set the number of lines between 40 to 1000. The "
 "default is 200."
 msgstr ""
+"Bu seçeneği kullanarak satır sayısını 40 ile 1000 arasında "
+"ayarlayabilirsiniz. Varsayılan değer 200'dür."
 
 #: src/filters/render/line-nova.xml:92(term)
 msgid "Sharpness (degrees)"
 msgstr "Keskinlik (derece)"
 
 #: src/filters/render/line-nova.xml:94(para)
+#, fuzzy
 msgid ""
 "This slider determines how much the rays will broaden towards the edges. The "
 "range goes from 0.0 to 10.0. If set to 0.0, nothing will be drawn. If set to "
 "10.0, most of the area near the edges of the layer will be painted."
 msgstr ""
+"Bu kaydırıcı, ışınların kenarlara doğru ne kadar genişleyeceğini belirler. "
+"Aralık 0,0 ile 10,0 arasındadır. 0,0 olarak ayarlanırsa hiçbir şey çizilmez. "
+"10,0 olarak ayarlanırsa, katmanın kenarlarına yakın alanın çoğu boyanır."
 
 #: src/filters/render/line-nova.xml:101(title)
 msgid "<quote>Line Nova</quote> sharpness option"
 msgstr "<quote>Nova Çizgisi</quote> keskinlik seçeneği"
 
 #: src/filters/render/line-nova.xml:108(para)
+#, fuzzy
 msgid "From left to right: sharpness = 1; sharpness = 5; sharpness = 10"
-msgstr ""
+msgstr "Soldan sağa: keskinlik = 1; keskinlik = 5; keskinlik = 10"
 
 #: src/filters/render/line-nova.xml:118(term)
 msgid "Offset radius"
 msgstr "Konum yarıçapı"
 
 #: src/filters/render/line-nova.xml:120(para)
+#, fuzzy
 msgid ""
 "Here you choose the distance, in pixels, from center to the starting point "
 "of the rays. If set to 0.0 the rays starts from the center. Any other value "
@@ -2682,20 +2978,27 @@ msgid ""
 "the center. The maximum distance is 2000 pixels. The default value is 100 "
 "pixels."
 msgstr ""
+"Burada, merkezden ışınların başlangıç noktasına kadar olan mesafeyi piksel "
+"cinsinden seçersiniz. 0,0 olarak ayarlanırsa ışınlar merkezden başlar. Diğer "
+"herhangi bir değer, başlangıç noktalarının merkezden seçilen mesafede bir "
+"daire üzerinde olmasını sağlar. Maksimum mesafe 2000 pikseldir. Varsayılan "
+"değer 100 pikseldir."
 
 #: src/filters/render/line-nova.xml:128(title)
 msgid "<quote>Line Nova</quote> offset radius option"
 msgstr "<quote>Nova Çizgisi</quote> konum yarıçapı seçeneği"
 
 #: src/filters/render/line-nova.xml:135(para)
+#, fuzzy
 msgid "From left to right: offset radius = 0; offset radius = 50"
-msgstr ""
+msgstr "Soldan sağa: ofset yarıçapı = 0; ofset yarıçapı = 50"
 
 #: src/filters/render/line-nova.xml:144(term)
 msgid "Randomness"
 msgstr "Raslantısallık"
 
 #: src/filters/render/line-nova.xml:146(para)
+#, fuzzy
 msgid ""
 "If this slider is set to a value higher than 1, the starting point for each "
 "ray differ more or less randomly from the average starting point set as the "
@@ -2703,14 +3006,20 @@ msgid ""
 "circle determined by the offset radius. The maximum value is 2000. The "
 "default value is 30."
 msgstr ""
+"Bu kaydırıcı 1'den yüksek bir değere ayarlanırsa, her bir ışının başlangıç "
+"noktası, yukarıda ofset yarıçapı olarak ayarlanan ortalama başlangıç "
+"noktasından daha fazla veya daha az rastgele farklılık gösterir. Değer 1 "
+"olarak ayarlandığında, tüm ışınlar ofset yarıçapı ile belirlenen daireden "
+"başlar. Maksimum değer 2000'dir. Varsayılan değer 30'dur."
 
 #: src/filters/render/line-nova.xml:154(title)
 msgid "<quote>Line Nova</quote> randomness option"
 msgstr "<quote>Nova Çizgisi</quote> raslantısallık seçeneği"
 
 #: src/filters/render/line-nova.xml:161(para)
+#, fuzzy
 msgid "From left to right: randomness = 1; randomness = 50"
-msgstr ""
+msgstr "Soldan sağa: rastgelelik = 1; rastgelelik = 50"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2772,11 +3081,15 @@ msgid "Seed"
 msgstr "Parçacık"
 
 #: src/filters/render/lava.xml:75(para)
+#, fuzzy
 msgid ""
 "The lava generator uses randomization to generate the rendered lava. "
 "<guilabel>Seed</guilabel> determines the starting value. Using the same seed "
 "generates the same lava pattern."
 msgstr ""
+"Lav üreteci, render edilen lavı oluşturmak için rastgelelik kullanır. "
+"<guilabel>Tohum</guilabel>, başlangıç değerini belirler. Aynı tohum "
+"kullanıldığında aynı lav deseni oluşturulur."
 
 #: src/filters/render/lava.xml:83(term)
 #: src/filters/render/checkerboard-legacy.xml:76(term)
@@ -2784,28 +3097,35 @@ msgid "Size"
 msgstr "Boyut"
 
 #: src/filters/render/lava.xml:85(para)
+#, fuzzy
 msgid ""
 "This determines the size of the lava flows. Higher values create straighter "
 "lines."
 msgstr ""
+"Bu, lav akıntılarının boyutunu belirler. Daha yüksek değerler daha düz "
+"çizgiler oluşturur."
 
 #: src/filters/render/lava.xml:92(term)
 msgid "Roughness"
 msgstr "Engebelik"
 
 #: src/filters/render/lava.xml:94(para)
+#, fuzzy
 msgid "This controls the straightness and amount of turns of the lava lines."
-msgstr ""
+msgstr "Bu, lav hatlarının düzgünlüğünü ve dönüş miktarını kontrol eder."
 
 #: src/filters/render/lava.xml:100(term)
 msgid "Gradient"
 msgstr "Renk geçişi"
 
 #: src/filters/render/lava.xml:102(para)
+#, fuzzy
 msgid ""
 "This allows you to set the <link linkend=\"gimp-concepts-"
 "gradients\">gradient</link> to be used for the lava effect."
 msgstr ""
+"Bu, lav efekti için kullanılacak <link linkend=\"gimp-concepts-"
+"gradients\">gradyanını</link> ayarlamanıza olanak tanır."
 
 #: src/filters/render/lava.xml:110(term)
 #: src/filters/render/circuit.xml:118(term)
@@ -2813,11 +3133,14 @@ msgid "Keep selection"
 msgstr "Seçimi koru"
 
 #: src/filters/render/lava.xml:112(para)
+#, fuzzy
 msgid ""
 "If a selection is present, the lava filter only creates lava inside the "
 "selection. This setting decides whether to keep the selection after the "
 "filter has finished."
 msgstr ""
+"Bir seçim varsa, lav filtresi yalnızca seçim içinde lav oluşturur. Bu ayar, "
+"filtre tamamlandıktan sonra seçimin korunup korunmayacağını belirler."
 
 #: src/filters/render/lava.xml:120(term)
 #: src/filters/render/circuit.xml:129(term)
@@ -2825,20 +3148,26 @@ msgid "Separate layer"
 msgstr "Ayrı katman"
 
 #: src/filters/render/lava.xml:122(para)
+#, fuzzy
 msgid ""
 "When enabled the lava is created on a new layer; when disabled the lava is "
 "added to the current layer."
 msgstr ""
+"Etkinleştirildiğinde lav yeni bir katmanda oluşturulur; devre dışı "
+"bırakıldığında lav mevcut katmana eklenir."
 
 #: src/filters/render/lava.xml:129(term)
 msgid "Use current gradient"
 msgstr "Geçerli renk geçişini kullan"
 
 #: src/filters/render/lava.xml:131(para)
+#, fuzzy
 msgid ""
 "When enabled this selects the current gradient as set in the <link "
 "linkend=\"gimp-tool-gradient\">Gradient tool</link>."
 msgstr ""
+"Etkinleştirildiğinde, <link linkend=\"gimp-tool-gradient\">Gradient aracında "
+"ayarlanan mevcut gradyanı seçer</link>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2885,6 +3214,7 @@ msgstr ""
 "sağlar (örneğin, yarıçapı 1,0 olan Gauss bulanıklığı)."
 
 #: src/filters/render/jigsaw.xml:50(para)
+#, fuzzy
 msgid ""
 "If you want to be able to easily select individual puzzle-piece areas, "
 "render the jigsaw pattern on a separate layer filled with solid white, and "
@@ -2892,6 +3222,11 @@ msgid ""
 "<link linkend=\"gimp-tool-fuzzy-select\">magic wand</link> (fuzzy select) "
 "tool on the new jigsaw layer."
 msgstr ""
+"Tek tek yapboz parçalarını kolayca seçebilmek istiyorsanız, yapboz desenini "
+"düz beyazla doldurulmuş ayrı bir katmanda oluşturun ve katman modunu Çarpma "
+"olarak ayarlayın. Ardından, yeni yapboz katmanında <link linkend=\"gimp-tool-"
+"fuzzy-select\">sihirli değnek</link> (bulanık seçim) aracını kullanarak "
+"yapboz parçalarını seçebilirsiniz."
 
 #: src/filters/render/jigsaw.xml:63(para)
 msgid ""
@@ -2912,8 +3247,9 @@ msgid "Number of Tiles"
 msgstr "Döşemelerin Sayısı"
 
 #: src/filters/render/jigsaw.xml:89(para)
+#, fuzzy
 msgid "How many tiles across the image is, horizontally and vertically."
-msgstr ""
+msgstr "Görüntüde yatay ve dikey olarak kaç tane döşeme vardır?"
 
 #: src/filters/render/jigsaw.xml:97(title)
 msgid "Bevel Edges"
@@ -2924,17 +3260,22 @@ msgid "Blend width"
 msgstr "Harmanlama genişliği"
 
 #: src/filters/render/jigsaw.xml:101(para)
+#, fuzzy
 msgid ""
 "The Blend width slider controls the slope of the edges of the puzzle pieces "
 "(a hard wooden puzzle would require a low Blend width value, and a soft "
 "cardboard puzzle would require a higher value)."
 msgstr ""
+"Karışım genişliği kaydırıcısı, yapboz parçalarının kenarlarının eğimini "
+"kontrol eder (sert ahşap bir yapboz için düşük bir Karışım genişliği değeri, "
+"yumuşak karton bir yapboz için ise daha yüksek bir değer gerekir)."
 
 #: src/filters/render/jigsaw.xml:110(term)
 msgid "Highlight"
 msgstr "Vurgu"
 
 #: src/filters/render/jigsaw.xml:112(para)
+#, fuzzy
 msgid ""
 "The Highlight slider controls the strength of the highlight that will appear "
 "on the edges of each piece. You may compare it to the \"glossiness\" of the "
@@ -2943,30 +3284,39 @@ msgid ""
 "Bevel and Highlight values you should use, and vice versa. The default "
 "values are suitable for a 500×500 pixel image."
 msgstr ""
+"Vurgu kaydırıcısı, her parçanın kenarlarında görünecek vurgunun gücünü "
+"kontrol eder. Bunu, yapbozun yapıldığı malzemenin \"parlaklığı\" ile "
+"karşılaştırabilirsiniz. Vurgu genişliği, Eğim genişliğine bağlıdır. Genel "
+"bir kural olarak, yapboza ne kadar çok parça eklerseniz, o kadar düşük Eğim "
+"ve Vurgu değerleri kullanmalısınız ve bunun tersi de geçerlidir. Varsayılan "
+"değerler 500×500 piksel görüntüler için uygundur."
 
 #: src/filters/render/jigsaw.xml:126(title)
 msgid "Jigsaw Style"
 msgstr "Yapboz Biçemi"
 
 #: src/filters/render/jigsaw.xml:127(para)
+#, fuzzy
 msgid "You can choose between two types of puzzle:"
-msgstr ""
+msgstr "İki tür bulmaca arasından seçim yapabilirsiniz:"
 
 #: src/filters/render/jigsaw.xml:129(term)
 msgid "Square"
 msgstr "Kare"
 
 #: src/filters/render/jigsaw.xml:131(para)
+#, fuzzy
 msgid "Then you get pieces made with straight lines."
-msgstr ""
+msgstr "Sonra düz çizgilerle yapılmış parçalar elde edersiniz."
 
 #: src/filters/render/jigsaw.xml:135(term)
 msgid "Curved"
 msgstr "Eğik"
 
 #: src/filters/render/jigsaw.xml:137(para)
+#, fuzzy
 msgid "Then you get pieces made with curves."
-msgstr ""
+msgstr "Sonra eğrilerle yapılmış parçalar elde edersiniz."
 
 #: src/filters/render/introduction.xml:10(title)
 #: src/filters/render/introduction.xml:15(tertiary)
@@ -2982,6 +3332,7 @@ msgid "Add a pattern to layer"
 msgstr "Katmana örüntü ekle"
 
 #: src/filters/render/introduction.xml:22(para)
+#, fuzzy
 msgid ""
 "Most <acronym>GIMP</acronym> filters work on a layer by transforming its "
 "content, but the filters in the <quote>Render</quote> group are a bit "
@@ -2990,6 +3341,12 @@ msgid ""
 "patterns, others regular of fractal patterns, and one (Gfig) is a general-"
 "purpose (but rather limited) vector graphics tool."
 msgstr ""
+"Çoğu <acronym>GIMP</acronym> filtresi, içeriğini dönüştürerek bir katman "
+"üzerinde çalışır, ancak <quote>Render</quote> grubundaki filtreler biraz "
+"farklıdır. Bu filtreler sıfırdan desenler oluşturur ve çoğu durumda katmanda "
+"önceden bulunan her şeyi siler. Bazıları rastgele veya gürültülü desenler "
+"oluştururken, diğerleri düzenli fraktal desenler oluşturur ve biri (Gfig) "
+"genel amaçlı (ancak oldukça sınırlı) bir vektör grafik aracıdır."
 
 #: src/filters/render/introduction.xml:31(para)
 msgid "This category describes the following filters:"
@@ -3184,6 +3541,7 @@ msgid "Filter <quote>IFS Fractal</quote> applied"
 msgstr "<quote>IFS Fraktal</quote> süzgeci uygulandı"
 
 #: src/filters/render/ifsfractal.xml:39(para)
+#, fuzzy
 msgid ""
 "This fractal-based plug-in is truly wonderful! With this versatile "
 "instrument, you can create amazingly naturalistic organic shapes, like "
@@ -3191,8 +3549,16 @@ msgid ""
 "for <ulink url=\"https://en.wikipedia.org/wiki/"
 "Iterated_function_system\">Iterated Function System</ulink>."
 msgstr ""
+"Bu fraktal tabanlı eklenti gerçekten harika! Bu çok yönlü araçla yapraklar, "
+"çiçekler, dallar ve hatta bütün ağaçlar gibi şaşırtıcı derecede doğal "
+"organik şekiller oluşturabilirsiniz. <quote>IFS,</quote> <ulink "
+"url=\"https://en.wikipedia.org/wiki/Iterated_function_system\">Iterated "
+"Function System (Yinelenen</ulink> Fonksiyon <ulink url=\"https://"
+"en.wikipedia.org/wiki/Iterated_function_system\">Sistemi</ulink>) anlamına "
+"gelir."
 
 #: src/filters/render/ifsfractal.xml:47(para)
+#, fuzzy
 msgid ""
 "The key to using this plug-in lies in making very small and precise "
 "movements in fractal space. The outcome is always hard to predict, and you "
@@ -3201,8 +3567,15 @@ msgid ""
 "slightly), the preview screen will black out, or more commonly, you'll get "
 "stuck with a big shapeless particle cloud."
 msgstr ""
+"Bu eklentiyi kullanmanın anahtarı, fraktal uzayda çok küçük ve hassas "
+"hareketler yapmaktır. Sonuç her zaman tahmin edilmesi zordur ve deseni "
+"değiştirirken son derece dikkatli olmanız gerekir. Bir bileşen üçgenini çok "
+"büyük yaparsanız veya çok uzağa taşırsanız (çok az olsa bile), önizleme "
+"ekranı kararır veya daha yaygın olarak, büyük, şekilsiz bir parçacık bulutu "
+"ile karşı karşıya kalırsınız."
 
 #: src/filters/render/ifsfractal.xml:55(para)
+#, fuzzy
 msgid ""
 "A word of advice: When you have found a pattern you want to work with, make "
 "only small changes, and stick to variations of that pattern. It's all too "
@@ -3211,6 +3584,12 @@ msgid ""
 "defined geometrical pattern (where you actually know what you're doing, and "
 "end up with the pattern you had in mind)."
 msgstr ""
+"Bir tavsiye: Çalışmak istediğiniz bir desen bulduğunuzda, sadece küçük "
+"değişiklikler yapın ve o desenin varyasyonlarına sadık kalın. İyi bir şeyi "
+"kaybetmek çok kolaydır. Düşündüğünüzün aksine, IFS Fractal ile bir yaprak "
+"veya ağaç oluşturmak, tanımlı bir geometrik desen oluşturmaktan (ne "
+"yaptığınızı gerçekten bildiğiniz ve aklınızdaki deseni elde ettiğiniz) çok "
+"daha kolaydır."
 
 #: src/filters/render/ifsfractal.xml:67(para)
 msgid ""
@@ -3228,6 +3607,7 @@ msgid "<quote>IFS Fractal</quote> filter options"
 msgstr "<quote>IFS Fraktal</quote> süzgeci seçenekleri"
 
 #: src/filters/render/ifsfractal.xml:89(para)
+#, fuzzy
 msgid ""
 "The plug-in interface consists of the compose area to the left, a preview "
 "screen to the right, and some tabs and option buttons at the bottom of the "
@@ -3235,16 +3615,24 @@ msgid ""
 "triangles. (This gives rise to a fractal pattern called the "
 "<emphasis>Sierpinski Triangle</emphasis>)."
 msgstr ""
+"Eklenti arayüzü, sol tarafta yazma alanı, sağ tarafta önizleme ekranı ve "
+"diyalog penceresinin altında bazı sekmeler ve seçenek düğmelerinden oluşur. "
+"Varsayılan ayar (önizleme penceresinde) üç eşkenar üçgendir. (Bu, "
+"<emphasis>Sierpinski Üçgeni</emphasis> adı verilen bir fraktal desen "
+"oluşturur)."
 
 #: src/filters/render/ifsfractal.xml:97(title)
 msgid "Toolbar"
 msgstr "Araç Çubuğu"
 
 #: src/filters/render/ifsfractal.xml:98(para)
+#, fuzzy
 msgid ""
 "Click on the toolbar buttons to use the following tools, or open the context "
 "menu of the compose area."
 msgstr ""
+"Aşağıdaki araçları kullanmak için araç çubuğu düğmelerine tıklayın veya "
+"yazma alanının bağlam menüsünü açın."
 
 #: src/filters/render/ifsfractal.xml:103(term)
 msgid "<placeholder-1/> Move"
@@ -3260,8 +3648,9 @@ msgid "<placeholder-1/> Stretch"
 msgstr "<placeholder-1/> Genişlet"
 
 #: src/filters/render/ifsfractal.xml:141(para)
+#, fuzzy
 msgid "Select the action to perform using the (mouse) pointer."
-msgstr ""
+msgstr "(Fare) imlecini kullanarak gerçekleştirmek istediğiniz eylemi seçin."
 
 #: src/filters/render/ifsfractal.xml:145(term)
 msgid "<placeholder-1/> New"
@@ -3292,8 +3681,9 @@ msgid "<placeholder-1/> Select All"
 msgstr "<placeholder-1/> Tümünü Seç"
 
 #: src/filters/render/ifsfractal.xml:216(para)
+#, fuzzy
 msgid "Link fractals and let apply actions to all fractals."
-msgstr ""
+msgstr "Fraktalları bağlayın ve tüm fraktallara eylemler uygulayın."
 
 #: src/filters/render/ifsfractal.xml:220(term)
 msgid "<placeholder-1/> Recompute Center"
@@ -3301,10 +3691,13 @@ msgstr "<placeholder-1/> Merkezi Yeniden Hesapla"
 
 #. TODO: when or why is this useful?
 #: src/filters/render/ifsfractal.xml:234(para)
+#, fuzzy
 msgid ""
 "Recompute the center of the fractals. This does not have any visible effect "
 "to the resulting fractal."
 msgstr ""
+"Fraktalların merkezini yeniden hesaplayın. Bu, ortaya çıkan fraktal üzerinde "
+"görünür bir etkiye sahip değildir."
 
 #: src/filters/render/ifsfractal.xml:241(term)
 msgid "<placeholder-1/> Render Options"
@@ -3315,18 +3708,26 @@ msgid "Max. memory"
 msgstr "En çok bellek"
 
 #: src/filters/render/ifsfractal.xml:258(para)
+#, fuzzy
 msgid ""
 "Enables you to speed up rendering time. This is especially useful when "
 "working with a large spot radius; just remember to use even multiples of the "
 "default value: 4096, 8192, 16384, …"
 msgstr ""
+"Renderleme süresini hızlandırmanızı sağlar. Bu, özellikle büyük spot "
+"yarıçapıyla çalışırken kullanışlıdır; varsayılan değerin katlarını "
+"kullanmayı unutmayın: 4096, 8192, 16384, …"
 
 #: src/filters/render/ifsfractal.xml:269(para)
+#, fuzzy
 msgid ""
 "Determines how many times the fractal will repeat itself. (A high value for "
 "Subdivide and Iterations is for obvious reasons a waste of process time "
 "unless your image is very large.)"
 msgstr ""
+"Fraktalın kaç kez tekrarlanacağını belirler. (Subdivide ve Iterations için "
+"yüksek bir değer, görüntünüz çok büyük olmadığı sürece, bariz nedenlerden "
+"dolayı işlem süresinin boşa harcanmasına neden olur.)"
 
 #: src/filters/render/ifsfractal.xml:278(term)
 msgid "Subdivide"
@@ -3341,6 +3742,7 @@ msgid "Spot radius"
 msgstr "Nokta yarıçapı"
 
 #: src/filters/render/ifsfractal.xml:286(para)
+#, fuzzy
 msgid ""
 "Determines the density of the <quote>brushstrokes</quote> in the rendered "
 "image. A low spot radius is good for thin particle clouds or spray, while a "
@@ -3348,17 +3750,27 @@ msgid ""
 "painting. Be careful not to use too much spot radius it takes a lot of time "
 "to render."
 msgstr ""
+"Renderlanan görüntüdeki <quote>fırça darbelerinin</quote> yoğunluğunu "
+"belirler. Düşük nokta yarıçapı ince parçacık bulutları veya sprey için "
+"iyidir, yüksek nokta yarıçapı ise suluboya resmine benzer kalın, düz renkli "
+"fırça darbeleri oluşturur. Nokta yarıçapını çok fazla kullanmamaya dikkat "
+"edin, renderlama çok zaman alır."
 
 #: src/filters/render/ifsfractal.xml:301(title)
 msgid "Spatial Transformation"
 msgstr "Uzaysal Dönüşüm"
 
 #: src/filters/render/ifsfractal.xml:302(para)
+#, fuzzy
 msgid ""
 "Gives you information on the active fractal, and allows you to type a value "
 "instead of changing it manually. Changing parameters with the mouse isn't "
 "very accurate, so this is a useful option when you need to be exact."
 msgstr ""
+"Aktif fraktal hakkında bilgi verir ve değeri manuel olarak değiştirmek "
+"yerine bir değer girmenize olanak tanır. Parametreleri fare ile değiştirmek "
+"çok hassas değildir, bu nedenle kesin sonuçlara ihtiyaç duyduğunuzda bu "
+"seçenek kullanışlıdır."
 
 #: src/filters/render/ifsfractal.xml:313(term)
 msgid "Shear"
@@ -3393,21 +3805,27 @@ msgid "Simple"
 msgstr "Basit"
 
 #: src/filters/render/ifsfractal.xml:342(para)
+#, fuzzy
 msgid ""
 "Changes the color of the currently selected fractal component (default is "
 "the foreground color in the toolbox) to a color of your choice."
 msgstr ""
+"Seçili fraktal bileşenin rengini (varsayılan olarak araç kutusundaki ön plan "
+"rengi) istediğiniz bir renge değiştirir."
 
 #: src/filters/render/ifsfractal.xml:350(term)
 msgid "Full"
 msgstr "Tam"
 
 #: src/filters/render/ifsfractal.xml:352(para)
+#, fuzzy
 msgid ""
 "Like the Simple color transformation but this time you can manage the color "
 "transformation for each color channel and for the alpha channel (shown as a "
 "black channel)."
 msgstr ""
+"Basit renk dönüşümü gibi, ancak bu sefer her renk kanalı ve alfa kanalı "
+"(siyah kanal olarak gösterilir) için renk dönüşümünü yönetebilirsiniz."
 
 #: src/filters/render/ifsfractal.xml:360(term)
 msgid "Scale hue by"
@@ -3418,6 +3836,7 @@ msgid "Scale value by"
 msgstr "Değeri şuna göre ölçekle"
 
 #: src/filters/render/ifsfractal.xml:363(para)
+#, fuzzy
 msgid ""
 "When you have many fractals with different colors, the colors blend into "
 "each other. So even if you set <quote>pure red</quote> for a fractal, it "
@@ -3426,6 +3845,12 @@ msgid ""
 "color strength of the active fractal, or how influential that fractal color "
 "should be."
 msgstr ""
+"Farklı renklere sahip birçok fraktalınız olduğunda, renkler birbirine "
+"karışır. Bu nedenle, bir fraktal için <quote>saf kırmızı</quote> ayarlasanız "
+"bile, bazı yerlerde aslında oldukça mavi olabilirken, başka <quote>bir "
+"kırmızı fraktalda </quote> çok fazla sarı olabilir. Ton/Değer Ölçeği, etkin "
+"fraktalın renk gücünü veya o fraktal renginin ne kadar etkili olması "
+"gerektiğini değiştirir."
 
 #: src/filters/render/ifsfractal.xml:376(title)
 msgid "Other"
@@ -3436,20 +3861,26 @@ msgid "Relative probability"
 msgstr "Bağıl olasılık"
 
 #: src/filters/render/ifsfractal.xml:380(para)
+#, fuzzy
 msgid "Determines influence or total impact of a certain fractal."
-msgstr ""
+msgstr "Belirli bir fraktalın etkisini veya toplam etkisini belirler."
 
 #: src/filters/render/ifsfractal.xml:389(title)
 msgid "A Brief Tutorial"
 msgstr "Kısa Eğitim"
 
 #: src/filters/render/ifsfractal.xml:390(para)
+#, fuzzy
 msgid ""
 "This is a rather complex plug-in, so to help you understand it, we'll guide "
 "you through an example where you'll create a leaf or branch."
 msgstr ""
+"Bu oldukça karmaşık bir eklentidir, bu yüzden anlamanıza yardımcı olmak "
+"için, bir yaprak veya dal oluşturacağınız bir örnek üzerinden size rehberlik "
+"edeceğiz."
 
 #: src/filters/render/ifsfractal.xml:394(para)
+#, fuzzy
 msgid ""
 "Many forms of life, and especially plants, are built like mathematical "
 "fractals, i.e., a shape that reproduces or repeats itself indefinitely into "
@@ -3457,8 +3888,15 @@ msgid ""
 "branch by using four (or more) fractals. Three fractals make up the tip and "
 "sides of the leaf, and the fourth represents the stem."
 msgstr ""
+"Birçok yaşam formu, özellikle bitkiler, matematiksel fraktallar gibi "
+"yapılandırılmıştır, yani en küçük ayrıntısına kadar kendini sonsuza kadar "
+"çoğaltan veya tekrarlayan bir şekle sahiptir. Dört (veya daha fazla) fraktal "
+"kullanarak bir yaprak veya dalın şeklini kolayca çoğaltabilirsiniz. Üç "
+"fraktal yaprağın ucunu ve kenarlarını oluşturur, dördüncü ise sapı temsil "
+"eder."
 
 #: src/filters/render/ifsfractal.xml:404(para)
+#, fuzzy
 msgid ""
 "Before invoking the filter: Select <menuchoice><guimenu>File</"
 "guimenu><guimenuitem>New Image</guimenuitem></menuchoice>. Add a transparent "
@@ -3466,8 +3904,14 @@ msgid ""
 "guimenuitem></menuchoice>. Set the foreground color in the toolbox to black, "
 "and set the background to white."
 msgstr ""
+"Filtreyi çağırmadan önce: Seç <menuchoice><guimenu>Dosya</"
+"guimenu><guimenuitem>Yeni Görüntü</guimenuitem></menuchoice>'ı seçin. Şeffaf "
+"bir katman ekleyin <menuchoice><guimenu>Katman</guimenu><guimenuitem>Yeni "
+"Katman</guimenuitem></menuchoice>. Araç kutusunda ön plan rengini siyah, "
+"arka plan rengini ise beyaz olarak ayarlayın."
 
 #: src/filters/render/ifsfractal.xml:420(para)
+#, fuzzy
 msgid ""
 "Open IFS Fractal. Start by rotating the right and bottom triangles, so that "
 "they point upward. You'll now be able to see the outline of what's going to "
@@ -3475,24 +3919,36 @@ msgid ""
 "that the three vertices of a triangle are not equivalent.) "
 "<indexterm><primary>Docks</primary><secondary>Add tab</secondary></indexterm>"
 msgstr ""
+"IFS Fractal'ı açın. Sağ ve alt üçgenleri yukarı doğru bakacak şekilde "
+"döndürerek başlayın. Artık yaprağın ucu ve kenarlarının ana hatlarını "
+"görebileceksiniz. (Sorun yaşarsanız, bir üçgenin üç köşesinin eşit "
+"olmadığını bilmek yardımcı olabilir.) <indexterm><primary>Rıhtımlar</"
+"primary><secondary>Sekme ekle</secondary></indexterm>"
 
 #: src/filters/render/ifsfractal.xml:431(title)
 msgid "Tutorial Step 2"
 msgstr "Eğitim Aşama 2"
 
 #: src/filters/render/ifsfractal.xml:438(para)
+#, fuzzy
 msgid ""
 "Start by rotating triangles 2 and 3, trying to keep them nearly the same "
 "size."
 msgstr ""
+"Üçgenleri 2 ve 3'ü döndürerek başlayın ve boyutlarını neredeyse aynı tutmaya "
+"çalışın."
 
 #: src/filters/render/ifsfractal.xml:447(para)
+#, fuzzy
 msgid ""
 "To make the leaf symmetrical, adjust the bottom triangle to point slightly "
 "to the left, and the right triangle to point slightly to the right."
 msgstr ""
+"Yaprağı simetrik hale getirmek için, alt üçgeni hafifçe sola, sağ üçgeni ise "
+"hafifçe sağa doğru ayarlayın."
 
 #: src/filters/render/ifsfractal.xml:454(para)
+#, fuzzy
 msgid ""
 "Press <guibutton>New</guibutton> to add a component to the composition. This "
 "is going to be the stem of the leaf, so we need to make it long and thin. "
@@ -3501,16 +3957,26 @@ msgid ""
 "guibutton> to adjust the size of the overlong triangle. You'll probably also "
 "have to move and rotate the new fractal to make it look convincing."
 msgstr ""
+"Kompozisyona bir bileşen eklemek için <guibutton>Yeni'ye</guibutton> basın. "
+"Bu, yaprağın sapı olacak, bu yüzden onu uzun ve ince yapmamız gerekiyor. "
+"<guibutton>Uzat'a</guibutton> basın ve yeni üçgeni uzatmak için sürükleyin. "
+"Bu, görüntüyü bozarsa endişelenmeyin, sadece <guibutton>Ölçek'i</guibutton> "
+"kullanarak aşırı uzun üçgenin boyutunu ayarlayın. Muhtemelen yeni fraktalı "
+"ikna edici görünmesi için hareket ettirip döndürmeniz de gerekecektir."
 
 #: src/filters/render/ifsfractal.xml:466(title)
 msgid "Tutorial Step 3"
 msgstr "Eğitim Aşama 3"
 
 #: src/filters/render/ifsfractal.xml:473(para)
+#, fuzzy
 msgid "Add a fourth component, then stretch, scale, and move it as shown."
 msgstr ""
+"Dördüncü bileşeni ekleyin, ardından gösterildiği gibi uzatın, ölçeklendirin "
+"ve taşıyın."
 
 #: src/filters/render/ifsfractal.xml:482(para)
+#, fuzzy
 msgid ""
 "You still have to make it look more leaf-like. Increase the size of the top "
 "triangle, until you think it's thick and leafy enough. Adjust all fractals "
@@ -3518,18 +3984,27 @@ msgid ""
 "choose <guibutton>Select all</guibutton>. Now all components are selected, "
 "and you can scale and rotate the entire leaf."
 msgstr ""
+"Hala daha yaprak gibi görünmesini sağlamalısınız. Yeterince kalın ve "
+"yapraklı olduğunu düşünene kadar üst üçgenin boyutunu artırın. Şekilden "
+"memnun kalana kadar tüm fraktalları ayarlayın. Sağ tıklayarak açılır menüyü "
+"açın ve <guibutton>Tümünü Seç'i</guibutton> seçin. Artık tüm bileşenler "
+"seçili durumda ve tüm yaprağı ölçeklendirebilir ve döndürebilirsiniz."
 
 #: src/filters/render/ifsfractal.xml:492(title)
 msgid "Tutorial Step 4"
 msgstr "Eğitim Aşama 4"
 
 #: src/filters/render/ifsfractal.xml:499(para)
+#, fuzzy
 msgid ""
 "Enlarge component 1, arrange the other components appropriately, then select "
 "all, scale and rotate."
 msgstr ""
+"Bileşen 1'i büyütün, diğer bileşenleri uygun şekilde düzenleyin, ardından "
+"tümünü seçin, ölçeklendirin ve döndürün."
 
 #: src/filters/render/ifsfractal.xml:508(para)
+#, fuzzy
 msgid ""
 "The final step is to adjust color. Click on the <guibutton>Color "
 "Transformation</guibutton> tab, and choose a different color for each "
@@ -3537,18 +4012,27 @@ msgid ""
 "color square. A color wheel appears, where you can click or select to choose "
 "a color."
 msgstr ""
+"Son adım, rengi ayarlamaktır. <guibutton>Renk Dönüşümü</guibutton> sekmesine "
+"tıklayın ve her fraktal için farklı bir renk seçin. Bunu yapmak için, "
+"<guibutton>Basit seçeneğini</guibutton> işaretleyin ve doğru renk karesine "
+"basın. Bir renk tekerleği belirir; buradan tıklayarak veya seçerek bir renk "
+"seçebilirsiniz."
 
 #: src/filters/render/ifsfractal.xml:517(title)
 msgid "Tutorial Step 5"
 msgstr "Eğitim Aşama 5"
 
 #: src/filters/render/ifsfractal.xml:524(para)
+#, fuzzy
 msgid ""
 "Assign a brownish color to component 4, and various shades of green to the "
 "other components."
 msgstr ""
+"Bileşen 4'e kahverengimsi bir renk atayın ve diğer bileşenlere çeşitli yeşil "
+"tonları atayın."
 
 #: src/filters/render/ifsfractal.xml:533(para)
+#, fuzzy
 msgid ""
 "Press OK to apply the image, and voilà, you've just made a perfect fractal "
 "leaf! Now that you've got the hang of it, you'll just have to experiment and "
@@ -3558,6 +4042,13 @@ msgid ""
 "stretch and turn a little or add a few more fractals to get a totally "
 "different plant."
 msgstr ""
+"Görüntüyü uygulamak için Tamam'a basın ve işte, mükemmel bir fraktal yaprak "
+"oluşturdunuz! Artık nasıl yapıldığını öğrendiğinize göre, denemeler yapıp "
+"kendi tasarımlarınızı oluşturabilirsiniz. Bitkileri taklit eden tüm "
+"fraktallar (meşe ağaçları, eğrelti otları veya samanlar) aşağı yukarı bu "
+"şekilde oluşturulur, yani bir sapın (veya birkaç sapın) etrafında yapraklar "
+"bulunur. Tamamen farklı bir bitki elde etmek için başka bir yöne bükmeniz, "
+"biraz uzatıp döndürmeniz veya birkaç fraktal daha eklemeniz yeterlidir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3593,12 +4084,17 @@ msgid "Filter <quote>Grid</quote> applied"
 msgstr "<quote>Izgara</quote> süzgeci uygulandı"
 
 #: src/filters/render/grid.xml:44(para)
+#, fuzzy
 msgid ""
 "It renders a Cartesian grid in the active layer, on top of the existing "
 "contents. The width, line width, offsets, and colors of the grid lines can "
 "all be set by the user. By default, the lines are with the <acronym>GIMP</"
 "acronym>'s foreground color."
 msgstr ""
+"Etkin katmanda, mevcut içeriğin üzerine bir Kartezyen ızgara oluşturur. "
+"Izgara çizgilerinin genişliği, çizgi kalınlığı, ofsetleri ve renkleri "
+"kullanıcı tarafından ayarlanabilir. Varsayılan olarak, çizgiler "
+"<acronym>GIMP'in</acronym> ön plan rengiyle çizilir."
 
 #: src/filters/render/grid.xml:50(para)
 #, fuzzy
@@ -3743,6 +4239,7 @@ msgid "Filter <quote>Grid (legacy)</quote> applied"
 msgstr "<quote>Izgara (eski)</quote> süzgeci uygulandı"
 
 #: src/filters/render/grid-legacy.xml:44(para)
+#, fuzzy
 msgid ""
 "It renders a Cartesian grid in the active layer, on top of the existing "
 "contents. The width, spacing, offsets, and colors of the grid lines can all "
@@ -3750,12 +4247,20 @@ msgid ""
 "acronym>'s foreground color. (Note: this plug-in was used to create "
 "demonstration images for many of the other plug-ins.)"
 msgstr ""
+"Etkin katmanda, mevcut içeriğin üzerine bir Kartezyen ızgara oluşturur. "
+"Izgara çizgilerinin genişliği, aralığı, ofsetleri ve renkleri kullanıcı "
+"tarafından ayarlanabilir. Varsayılan olarak, çizgiler <acronym>GIMP'in</"
+"acronym> ön plan rengiyle gösterilir. (Not: Bu eklenti, diğer birçok eklenti "
+"için tanıtım görüntüleri oluşturmak amacıyla kullanılmıştır.)"
 
 #: src/filters/render/grid-legacy.xml:52(para)
+#, fuzzy
 msgid ""
 "If you set the grid line widths to 0, then only the intersections will be "
 "drawn, as plus-marks."
 msgstr ""
+"Izgara çizgi genişliklerini 0 olarak ayarlarsanız, yalnızca kesişme "
+"noktaları artı işaretleri olarak çizilir."
 
 #: src/filters/render/grid-legacy.xml:61(para)
 msgid ""
@@ -3773,6 +4278,7 @@ msgid "<quote>Grid (legacy)</quote> filter options"
 msgstr "<quote>Izgara (eski)</quote> süzgeci seçenekleri"
 
 #: src/filters/render/grid-legacy.xml:83(para)
+#, fuzzy
 msgid ""
 "There are separate options for controlling the horizontal grid lines, "
 "vertical grid lines, and intersections. By default, the horizontal and "
@@ -3781,12 +4287,21 @@ msgid ""
 "<quote>chain</quote> symbol below it to unlock them. The results of changing "
 "the Intersection parameters are rather complex."
 msgstr ""
+"Yatay ızgara çizgilerini, dikey ızgara çizgilerini ve kesişimleri kontrol "
+"etmek için ayrı seçenekler vardır. Varsayılan olarak, yatay ve dikey ayarlar "
+"birbirine kilitlidir, böylece tüm değişiklikler simetrik olarak uygulanır. "
+"Bunlardan sadece birini değiştirmek istiyorsanız, altındaki <quote>zincir</"
+"quote> simgesine tıklayarak kilidi açın. Kesişim parametrelerini "
+"değiştirmenin sonuçları oldukça karmaşıktır."
 
 #: src/filters/render/grid-legacy.xml:100(para)
+#, fuzzy
 msgid ""
 "Sets the widths of the horizontal or vertical grid lines, or of the symbols "
 "drawn at their intersections."
 msgstr ""
+"Yatay veya dikey ızgara çizgilerinin genişliğini veya bunların kesişme "
+"noktalarında çizilen sembollerin genişliğini ayarlar."
 
 #: src/filters/render/grid-legacy.xml:107(term)
 msgid "Spacing"
@@ -3804,10 +4319,13 @@ msgstr ""
 "arms of the intersection crosses."
 
 #: src/filters/render/grid-legacy.xml:120(para)
+#, fuzzy
 msgid ""
 "Sets the offset for grid lines with respect to the upper left corner. For "
 "intersections, sets the length of the arms of the intersection crosses."
 msgstr ""
+"Izgara çizgilerinin sol üst köşeye göre ofsetini ayarlar. Kesişimler için, "
+"kesişim çaprazlarının kol uzunluğunu ayarlar."
 
 #: src/filters/render/grid-legacy.xml:128(term)
 msgid "Color Selectors"
@@ -4091,11 +4609,15 @@ msgstr ""
 "oluşturabilirsiniz."
 
 #: src/filters/render/gfig.xml:50(para)
+#, fuzzy
 msgid ""
 "When using this filter, elements inserted in the image will be placed in a "
 "new layer. So the image will not be modified, all modifications occurring in "
 "this layer."
 msgstr ""
+"Bu filtreyi kullandığınızda, görüntüye eklenen öğeler yeni bir katmana "
+"yerleştirilir. Böylece görüntü değiştirilmez, tüm değişiklikler bu katmanda "
+"gerçekleşir."
 
 #: src/filters/render/gfig.xml:59(para)
 msgid ""
@@ -4113,39 +4635,54 @@ msgstr "<quote>Gfig</quote> süzgeci seçenekleri"
 
 #. TODO: should we eliminate the word "Preview"?
 #: src/filters/render/gfig.xml:82(para)
+#, fuzzy
 msgid ""
 "The Preview (with a horizontal and a vertical ruler) on the left of the main "
 "window actually is your working area where you are adding your figures."
 msgstr ""
+"Ana pencerenin sol tarafındaki Önizleme (yatay ve dikey cetvel ile) aslında "
+"şekilleri eklediğiniz çalışma alanınızdır."
 
 #: src/filters/render/gfig.xml:87(para)
+#, fuzzy
 msgid ""
 "You can add and modify figures using the Gfig tools (<link linkend=\"plug-in-"
 "gfig-toolbar\">Gfig tool bar</link>) and using the appropriate options "
 "(<link linkend=\"plug-in-gfig-mainwindow\">Gfig main window</link>)."
 msgstr ""
+"Gfig araçlarını (<link linkend=\"plug-in-gfig-toolbar\">Gfig araç çubuğu</"
+"link>) ve uygun seçenekleri (<link linkend=\"plug-in-gfig-mainwindow\">Gfig "
+"ana penceresi</link>) kullanarak şekiller ekleyebilir ve değiştirebilirsiniz."
 
 #: src/filters/render/gfig.xml:101(title)
 msgid "The Gfig tool bar"
 msgstr "Gfig araç çubuğu"
 
 #: src/filters/render/gfig.xml:102(para)
+#, fuzzy
 msgid ""
 "At the top of dialog, you can find a set of icons which represents the "
 "functions of this filter. Help pop-ups are explicit."
 msgstr ""
+"Diyalog penceresinin üst kısmında, bu filtrenin işlevlerini temsil eden bir "
+"dizi simge bulabilirsiniz. Yardım açılır pencereleri açıktır."
 
 #: src/filters/render/gfig.xml:107(title)
 msgid "Functions for object drawing"
 msgstr "Nesne çizimi için işlevler"
 
 #: src/filters/render/gfig.xml:108(para)
+#, fuzzy
 msgid ""
 "On the left part of tool bar, you can find some functions for object "
 "drawing. You enable them by clicking on the corresponding icon. You can "
 "create the following objects (note that <emphasis>Control points</emphasis> "
 "are created at the same time as object):"
 msgstr ""
+"Araç çubuğunun sol tarafında, nesne çizimi için bazı işlevler "
+"bulabilirsiniz. İlgili simgeye tıklayarak bunları etkinleştirebilirsiniz. "
+"Aşağıdaki nesneleri oluşturabilirsiniz ( <emphasis>Kontrol noktaları</"
+"emphasis> nesneyle aynı anda oluşturulur):"
 
 #. terms according to tooltips
 #: src/filters/render/gfig.xml:116(term)
@@ -4153,129 +4690,180 @@ msgid "<placeholder-1/> Create line"
 msgstr "<placeholder-1/> Çizgi oluştur"
 
 #: src/filters/render/gfig.xml:129(para)
+#, fuzzy
 msgid ""
 "With this tool, you can draw lines. Click on Preview to mark start point, "
 "then drag mouse pointer to the end point."
 msgstr ""
+"Bu araçla çizgiler çizebilirsiniz. Başlangıç noktasını işaretlemek için "
+"Önizleme'ye tıklayın, ardından fare işaretçisini son noktaya sürükleyin."
 
 #: src/filters/render/gfig.xml:136(term)
 msgid "<placeholder-1/> Create rectangle"
 msgstr "<placeholder-1/> Dörtgen oluştur"
 
 #: src/filters/render/gfig.xml:149(para)
+#, fuzzy
 msgid ""
 "With this tool, you can draw rectangles. Click on Preview to mark start "
 "point, then drag mouse pointer to create the rectangle."
 msgstr ""
+"Bu araçla dikdörtgenler çizebilirsiniz. Başlangıç noktasını işaretlemek için "
+"Önizleme'ye tıklayın, ardından fare işaretçisini sürükleyerek dikdörtgeni "
+"oluşturun."
 
 #: src/filters/render/gfig.xml:157(term)
 msgid "<placeholder-1/> Create circle"
 msgstr "<placeholder-1/> Daire oluştur"
 
 #: src/filters/render/gfig.xml:170(para)
+#, fuzzy
 msgid ""
 "With this tool, you can draw circles. Click on Preview to mark center, then "
 "drag mouse pointer to the wanted radius."
 msgstr ""
+"Bu araçla daireler çizebilirsiniz. Önizleme'ye tıklayarak merkezi "
+"işaretleyin, ardından fare imlecini istenen yarıçapa sürükleyin."
 
 #: src/filters/render/gfig.xml:177(term)
 msgid "<placeholder-1/> Create ellipse"
 msgstr "<placeholder-1/> Elips oluştur"
 
 #: src/filters/render/gfig.xml:190(para)
+#, fuzzy
 msgid ""
 "With this tool, you can draw ellipses. Click on Preview to mark center, then "
 "drag mouse pointer to get the wanted size and form."
 msgstr ""
+"Bu araçla elipsler çizebilirsiniz. Önizleme'ye tıklayarak merkezi "
+"işaretleyin, ardından fare işaretçisini sürükleyerek istediğiniz boyutu ve "
+"şekli elde edin."
 
 #: src/filters/render/gfig.xml:197(term)
 msgid "<placeholder-1/> Create arc"
 msgstr "<placeholder-1/> Yay oluştur"
 
 #: src/filters/render/gfig.xml:210(para)
+#, fuzzy
 msgid ""
 "With this tool, you can draw circle arcs. Click on Preview to set start "
 "point. Click again to set another arc point. Without releasing mouse button, "
 "drag pointer; when you release mouse button, the arc end point is placed and "
 "an arc encompassing these three points is drawn."
 msgstr ""
+"Bu araçla daire yayları çizebilirsiniz. Başlangıç noktasını ayarlamak için "
+"Önizleme'ye tıklayın. Başka bir yay noktası ayarlamak için tekrar tıklayın. "
+"Fare düğmesini bırakmadan işaretçiyi sürükleyin; fare düğmesini "
+"bıraktığınızda yay uç noktası yerleştirilir ve bu üç noktayı kapsayan bir "
+"yay çizilir."
 
 #: src/filters/render/gfig.xml:220(term)
 msgid "<placeholder-1/> Create regular polygon"
 msgstr "<placeholder-1/> Düzenli çokgen oluştur"
 
 #: src/filters/render/gfig.xml:233(para)
+#, fuzzy
 msgid ""
 "With this tool, you can create a regular polygon. Start with setting side "
 "number in <guilabel>Tool Options</guilabel> at the right of Preview. Then "
 "click on Preview to place center and, without releasing mouse button, drag "
 "pointer to get the wanted size and orientation."
 msgstr ""
+"Bu araçla düzenli bir çokgen oluşturabilirsiniz. Önizleme'nin sağındaki "
+"<guilabel>Araç Seçenekleri'nde</guilabel> kenar sayısını ayarlayarak "
+"başlayın. Ardından Önizleme'ye tıklayarak merkezi yerleştirin ve fare "
+"düğmesini bırakmadan imleci sürükleyerek istediğiniz boyutu ve yönü "
+"ayarlayın."
 
 #: src/filters/render/gfig.xml:243(term)
 msgid "<placeholder-1/> Create star"
 msgstr "<placeholder-1/> Yıldız oluştur"
 
 #: src/filters/render/gfig.xml:256(para)
+#, fuzzy
 msgid ""
 "With this tool, you can create a star. Start with setting side number "
 "(spikes) in <guilabel>Tool Options</guilabel> at the right of Preview. Then "
 "click on Preview to place center and, without releasing mouse button, drag "
 "pointer to get the wanted size and orientation."
 msgstr ""
+"Bu araçla bir yıldız oluşturabilirsiniz. Önizleme'nin sağındaki "
+"<guilabel>Araç Seçenekleri'nde</guilabel> kenar sayısı (sivri uçlar) ayarını "
+"yapın. Ardından Önizleme'ye tıklayarak merkezi yerleştirin ve fare düğmesini "
+"bırakmadan imleci sürükleyerek istediğiniz boyutu ve yönü ayarlayın."
 
 #: src/filters/render/gfig.xml:266(term)
 msgid "<placeholder-1/> Create spiral"
 msgstr "<placeholder-1/> Sarmal oluştur"
 
 #: src/filters/render/gfig.xml:279(para)
+#, fuzzy
 msgid ""
 "With this tool, you can create a spiral. Start with setting spire number "
 "(sides) and spire orientation in <guilabel>Tool Options</guilabel> at the "
 "right of Preview. Then click on Preview to place center and, without "
 "releasing mouse button, drag pointer to get the wanted size."
 msgstr ""
+"Bu araçla spiral oluşturabilirsiniz. Öncelikle, Önizleme'nin sağındaki "
+"<guilabel>Araç Seçenekleri'nde</guilabel> spiral sayısı (kenar sayısı) ve "
+"spiral yönünü ayarlayın. Ardından Önizleme'ye tıklayarak merkezi yerleştirin "
+"ve fare düğmesini bırakmadan imleci sürükleyerek istediğiniz boyutu elde "
+"edin."
 
 #: src/filters/render/gfig.xml:289(term)
 msgid "<placeholder-1/> Create bezier curve"
 msgstr "<placeholder-1/> Bezier eğrisi oluştur"
 
 #: src/filters/render/gfig.xml:302(para)
+#, fuzzy
 msgid ""
 "With this tool, you can create Bzier curves. Click on Preview to set start "
 "point and the other points: the curve will be created between these points. "
 "To end point creation press <keycap>Shift</keycap> key when creating last "
 "point."
 msgstr ""
+"Bu araçla Bzier eğrileri oluşturabilirsiniz. Başlangıç noktasını ve diğer "
+"noktaları ayarlamak için Önizleme'ye tıklayın: eğri bu noktalar arasında "
+"oluşturulacaktır. Nokta oluşturmayı sonlandırmak için son noktayı "
+"oluştururken <keycap>Shift</keycap> tuşuna basın."
 
 #: src/filters/render/gfig.xml:312(title)
 msgid "Functions for object management"
 msgstr "Nesne yönetimi için işlevler"
 
 #: src/filters/render/gfig.xml:313(para)
+#, fuzzy
 msgid "In the middle of tool bar, you can find tools to manage objects:"
 msgstr ""
+"Araç çubuğunun ortasında, nesneleri yönetmek için araçlar bulabilirsiniz:"
 
 #: src/filters/render/gfig.xml:317(term)
 msgid "<placeholder-1/> Move an object"
 msgstr "<placeholder-1/> Nesneyi taşı"
 
 #: src/filters/render/gfig.xml:330(para)
+#, fuzzy
 msgid ""
 "With this tool, you can move the active object. To enable an object, click "
 "on a control point created at the same time as the object."
 msgstr ""
+"Bu araçla, etkin nesneyi taşıyabilirsiniz. Bir nesneyi etkinleştirmek için, "
+"nesneyle aynı anda oluşturulan bir kontrol noktasına tıklayın."
 
 #: src/filters/render/gfig.xml:338(term)
 msgid "<placeholder-1/> Move a single point"
 msgstr "<placeholder-1/> Tek noktayı taşı"
 
 #: src/filters/render/gfig.xml:351(para)
+#, fuzzy
 msgid ""
 "With this tool, you can click-and-drag one of the control points created at "
 "the same time as object. Each of these points moves the object in a "
 "different way."
 msgstr ""
+"Bu araçla, nesneyle aynı anda oluşturulan kontrol noktalarından birini "
+"tıklayıp sürükleyebilirsiniz. Bu noktaların her biri nesneyi farklı bir "
+"şekilde hareket ettirir."
 
 #: src/filters/render/gfig.xml:359(term)
 #| msgid "Copy an object"
@@ -4283,10 +4871,13 @@ msgid "<placeholder-1/> Copy an object"
 msgstr "<placeholder-1/> Nesneyi kopyala"
 
 #: src/filters/render/gfig.xml:372(para)
+#, fuzzy
 msgid ""
 "With this tool, you can duplicate an object. Click on an object control "
 "point and drag it to the wanted place."
 msgstr ""
+"Bu araçla bir nesneyi çoğaltabilirsiniz. Bir nesnenin kontrol noktasını "
+"tıklayın ve istediğiniz yere sürükleyin."
 
 #: src/filters/render/gfig.xml:379(term)
 msgid "<placeholder-1/> Delete an object"
@@ -4301,21 +4892,28 @@ msgid "<placeholder-1/> Select an object"
 msgstr "<placeholder-1/> Nesneyi seç"
 
 #: src/filters/render/gfig.xml:409(para)
+#, fuzzy
 msgid ""
 "With this tool, you can select an object to activate it. Simply click on one "
 "of its control points."
 msgstr ""
+"Bu araçla, bir nesneyi etkinleştirmek için seçebilirsiniz. Kontrol "
+"noktalarından birine tıklamanız yeterlidir."
 
 #: src/filters/render/gfig.xml:417(title)
 msgid "Functions for object organisation"
 msgstr "Nesne organizasyonu için işlevler"
 
 #: src/filters/render/gfig.xml:418(para)
+#, fuzzy
 msgid ""
 "At the right of tool bar, you can find tools for object superimposing (you "
 "can also get them by clicking on the drop-down list button if they are not "
 "visible). You have:"
 msgstr ""
+"Araç çubuğunun sağında, nesne üst üste bindirme araçlarını bulabilirsiniz "
+"(görünmüyorsa, açılır liste düğmesine tıklayarak da ulaşabilirsiniz). Şu "
+"araçlar mevcuttur:"
 
 #: src/filters/render/gfig.xml:424(term)
 msgid "<placeholder-1/> Up (Raise selected object)"
@@ -4326,8 +4924,9 @@ msgid "<placeholder-1/> Down (Lower selected object)"
 msgstr "<placeholder-1/> Aşağı (Seçili nesneyi alçalt)"
 
 #: src/filters/render/gfig.xml:449(para)
+#, fuzzy
 msgid "With this tool, you can push the selected object one level up or down."
-msgstr ""
+msgstr "Bu araçla, seçilen nesneyi bir seviye yukarı veya aşağı itebilirsiniz."
 
 #. Raise selected object to top
 #: src/filters/render/gfig.xml:458(term)
@@ -4336,8 +4935,9 @@ msgstr "<placeholder-1/> Yukarı (Seçili nesneyi en üste yükselt)"
 
 #. Lower selected object to bottom
 #: src/filters/render/gfig.xml:471(term)
+#, fuzzy
 msgid "<placeholder-1/> Bottom (Lower selected object to bottom)"
-msgstr ""
+msgstr "<placeholder-1/> Alt (Seçili nesneyi alta indir)"
 
 #: src/filters/render/gfig.xml:484(para)
 msgid "Self explanatory."
@@ -4349,8 +4949,9 @@ msgstr "Nesne gösterimi için işlevler"
 
 #. Show previous object
 #: src/filters/render/gfig.xml:492(term)
+#, fuzzy
 msgid "<placeholder-1/> Back (Show previous object)"
-msgstr ""
+msgstr "<placeholder-1/> Geri (Önceki nesneyi göster)"
 
 #. Show next object
 #: src/filters/render/gfig.xml:505(term)
@@ -4358,10 +4959,13 @@ msgid "<placeholder-1/> Forward (Show next object)"
 msgstr "<placeholder-1/> İleri (Sonraki nesneyi göster)"
 
 #: src/filters/render/gfig.xml:518(para)
+#, fuzzy
 msgid ""
 "These functions allow you to jump from one object to another. Only this "
 "object is displayed."
 msgstr ""
+"Bu işlevler, bir nesneden diğerine atlamanıza olanak tanır. Yalnızca bu "
+"nesne görüntülenir."
 
 #: src/filters/render/gfig.xml:525(term)
 msgid "<placeholder-1/> Show all objects"
@@ -4412,49 +5016,63 @@ msgid "Stroke"
 msgstr "Darbe"
 
 #: src/filters/render/gfig.xml:577(para)
+#, fuzzy
 msgid ""
 "If this option is checked, the object will be drawn. Two buttons are "
 "available, to select color and brush type. Changes to color or brush apply "
 "to existing objects too."
 msgstr ""
+"Bu seçenek işaretlendiğinde, nesne çizilir. Renk ve fırça türünü seçmek için "
+"iki düğme mevcuttur. Renk veya fırçada yapılan değişiklikler mevcut "
+"nesnelere de uygulanır."
 
 #: src/filters/render/gfig.xml:585(term)
 msgid "Fill"
 msgstr "Doldur"
 
 #: src/filters/render/gfig.xml:587(para)
+#, fuzzy
 msgid ""
 "With help of this drop-down list, you can decide whether and how the object "
 "will be filled, with a color, a pattern or a gradient."
 msgstr ""
+"Bu açılır listenin yardımıyla, nesnenin bir renk, desen veya degrade ile "
+"doldurulup doldurulmayacağına ve nasıl doldurulacağına karar verebilirsiniz."
 
 #: src/filters/render/gfig.xml:595(term)
 msgid "Show grid"
 msgstr "Izgarayı göster"
 
 #: src/filters/render/gfig.xml:597(para)
+#, fuzzy
 msgid ""
 "If this option is checked, a grid is applied on Preview to make object "
 "positioning easier."
 msgstr ""
+"Bu seçenek işaretlendiğinde, nesne konumlandırmayı kolaylaştırmak için "
+"Önizleme'ye bir ızgara uygulanır."
 
 #: src/filters/render/gfig.xml:604(term)
 msgid "Snap to grid"
 msgstr "Izgaraya uydur"
 
 #: src/filters/render/gfig.xml:606(para)
+#, fuzzy
 msgid "If this option is checked, objects will align to the grid."
-msgstr ""
+msgstr "Bu seçenek işaretlendiğinde, nesneler ızgaraya hizalanır."
 
 #: src/filters/render/gfig.xml:612(term)
 msgid "Show image"
 msgstr "Görüntüyü göster"
 
 #: src/filters/render/gfig.xml:614(para)
+#, fuzzy
 msgid ""
 "When this option is checked, the current image is displayed in Preview "
 "(working area)."
 msgstr ""
+"Bu seçenek işaretlendiğinde, mevcut görüntü Önizleme (çalışma alanı) "
+"alanında görüntülenir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4521,6 +5139,7 @@ msgid "Filter <quote>Fractal Explorer</quote> applied"
 msgstr "<quote>Fraktal Tarayıcı</quote> süzgeci uygulandı"
 
 #: src/filters/render/fractalexplorer.xml:39(para)
+#, fuzzy
 msgid ""
 "With this filter, you can create fractals and multicolored pictures verging "
 "on chaos. This filter lets you pick from a collection of presets that can be "
@@ -4528,6 +5147,11 @@ msgid ""
 "Fractal</link> filter lets you change the fractal structure in more detail, "
 "at the cost of being more complicated."
 msgstr ""
+"Bu filtre ile kaosa yakın fraktallar ve çok renkli resimler "
+"oluşturabilirsiniz. Bu filtre, kolayca ayarlanabilen bir dizi ön ayar "
+"arasından seçim yapmanızı sağlar. Buna karşılık, <link linkend=\"plug-in-"
+"ifscompose\">IFS Fractal</link> filtresi, daha karmaşık olması pahasına "
+"fraktal yapıyı daha ayrıntılı olarak değiştirmenize olanak tanır."
 
 #: src/filters/render/fractalexplorer.xml:51(para)
 #, fuzzy
@@ -4576,10 +5200,13 @@ msgstr ""
 "clicking the <guibutton>Ön izlemeyi yeniden çiz</guibutton> button."
 
 #: src/filters/render/fractalexplorer.xml:90(para)
+#, fuzzy
 msgid ""
 "By click-dragging the mouse pointer on the preview, you can draw a rectangle "
 "delimiting the area that will be zoomed."
 msgstr ""
+"Önizleme üzerinde fare işaretçisini tıklayıp sürükleyerek, yakınlaştırılacak "
+"alanı sınırlayan bir dikdörtgen çizebilirsiniz."
 
 #: src/filters/render/fractalexplorer.xml:97(term)
 #: src/filters/render/flame.xml:248(term)
@@ -4587,32 +5214,43 @@ msgid "Zoom"
 msgstr "Yakınlaştır"
 
 #: src/filters/render/fractalexplorer.xml:99(para)
+#, fuzzy
 msgid ""
 "These buttons allow you to <guibutton>Zoom In</guibutton> or <guibutton>Zoom "
 "Out</guibutton> the preview. The <guibutton>Undo</guibutton> button takes "
 "you back to the previous state. The <guibutton>Redo</guibutton> button will "
 "revert the last Undo."
 msgstr ""
+"Bu düğmeler, önizlemeyi <guibutton>Yakınlaştırma</guibutton> veya "
+"<guibutton>Uzaklaştırma</guibutton> imkanı sunar. <guibutton>Geri Al</"
+"guibutton> düğmesi sizi önceki duruma geri götürür. <guibutton>Yeniden Yap</"
+"guibutton> düğmesi, son Geri Al işlemini geri alır."
 
 #: src/filters/render/fractalexplorer.xml:112(title)
 msgid "Parameters"
 msgstr "Parametreler"
 
 #: src/filters/render/fractalexplorer.xml:113(para)
+#, fuzzy
 msgid ""
 "This tab contains settings to adjust the calculation and select a fractal "
 "type."
 msgstr ""
+"Bu sekme, hesaplamayı ayarlamak ve fraktal türünü seçmek için ayarları "
+"içerir."
 
 #: src/filters/render/fractalexplorer.xml:119(term)
 msgid "Fractal Parameters"
 msgstr "Fraktal Parametreleri"
 
 #: src/filters/render/fractalexplorer.xml:121(para)
+#, fuzzy
 msgid ""
 "These sliders and input boxes allow you to set fractal spreading, repetition "
 "and aspect."
 msgstr ""
+"Bu kaydırıcılar ve giriş kutuları, fraktal yayılma, tekrarlama ve en boy "
+"oranını ayarlamanıza olanak tanır."
 
 #. was: XMIN
 #: src/filters/render/fractalexplorer.xml:128(term)
@@ -4635,16 +5273,22 @@ msgid "Bottom"
 msgstr "Alt"
 
 #: src/filters/render/fractalexplorer.xml:136(para)
+#, fuzzy
 msgid ""
 "You can set fractal spreading between a minimum and a maximum, in the "
 "horizontal and/or vertical directions. Values are from -3.0 to 3.0."
 msgstr ""
+"Fraktal yayılmayı yatay ve/veya dikey yönlerde minimum ve maksimum değerler "
+"arasında ayarlayabilirsiniz. Değerler -3,0 ile 3,0 arasındadır."
 
 #: src/filters/render/fractalexplorer.xml:147(para)
+#, fuzzy
 msgid ""
 "With this parameter, you can set fractal repetition in detail. Values are "
 "from 0.0 to 1000.0"
 msgstr ""
+"Bu parametre ile fraktal tekrarını ayrıntılı olarak ayarlayabilirsiniz. "
+"Değerler 0,0 ile 1000,0 arasındadır."
 
 #: src/filters/render/fractalexplorer.xml:154(term)
 msgid "CX"
@@ -4655,16 +5299,22 @@ msgid "CY"
 msgstr "CY"
 
 #: src/filters/render/fractalexplorer.xml:157(para)
+#, fuzzy
 msgid ""
 "With these parameters, you can change fractal aspect, in the horizontal (X) "
 "and/or vertical (Y) directions, except for Mandelbrot and Sierpinski types."
 msgstr ""
+"Bu parametrelerle, Mandelbrot ve Sierpinski türleri hariç, yatay (X) ve/veya "
+"dikey (Y) yönlerde fraktal görünümünü değiştirebilirsiniz."
 
 #: src/filters/render/fractalexplorer.xml:168(para)
+#, fuzzy
 msgid ""
 "With these buttons, you can open a previously saved fractal or save your "
 "work with all its parameters."
 msgstr ""
+"Bu düğmelerle, önceden kaydedilmiş bir fraktalı açabilir veya çalışmanızı "
+"tüm parametreleriyle birlikte kaydedebilirsiniz."
 
 #: src/filters/render/fractalexplorer.xml:178(term)
 msgid "Fractal Type"
@@ -4702,6 +5352,7 @@ msgid "Number of colors"
 msgstr "Renk sayısı"
 
 #: src/filters/render/fractalexplorer.xml:212(para)
+#, fuzzy
 msgid ""
 "This slider and its input boxes allow you to set the number of colors for "
 "the fractal, between 2 and 8192. A palette of these colors is displayed at "
@@ -4711,14 +5362,22 @@ msgid ""
 "the colors of the original image. You can even use a white image for "
 "creating fractals."
 msgstr ""
+"Bu kaydırıcı ve giriş kutuları, fraktal için 2 ile 8192 arasında renk sayısı "
+"belirlemenizi sağlar. Bu renklerin paleti sekmenin altında görüntülenir. "
+"Aslında bu, fraktaldaki renkler arasındaki bir gradyandır: <guilabel>Renk "
+"Yoğunluğu</guilabel> ve <guilabel>Renk İşlevi</guilabel> seçenekleriyle "
+"renkleri değiştirebilirsiniz. Fraktal renkleri, orijinal görüntünün "
+"renklerine bağlı değildir. Fraktal oluşturmak için beyaz bir görüntü bile "
+"kullanabilirsiniz."
 
 #: src/filters/render/fractalexplorer.xml:225(term)
 msgid "Use log log smoothing"
 msgstr "Loglog pürüzsüzleştirmesi kullan"
 
 #: src/filters/render/fractalexplorer.xml:227(para)
+#, fuzzy
 msgid "If this option is checked, the band effect is smoothed."
-msgstr ""
+msgstr "Bu seçenek işaretlendiğinde, bant etkisi yumuşatılır."
 
 #: src/filters/render/fractalexplorer.xml:231(title)
 msgid "Log log smoothing example"
@@ -4742,10 +5401,13 @@ msgid "Blue stretch"
 msgstr "Mavi genişlet"
 
 #: src/filters/render/fractalexplorer.xml:249(para)
+#, fuzzy
 msgid ""
 "These three sliders and their text-boxes let you set the color intensity in "
 "the three color channels. Values vary from 0.0 to 1.0."
 msgstr ""
+"Bu üç kaydırıcı ve metin kutuları, üç renk kanalındaki renk yoğunluğunu "
+"ayarlamanıza olanak tanır. Değerler 0,0 ile 1,0 arasında değişir."
 
 #: src/filters/render/fractalexplorer.xml:258(title)
 msgid "Color Function"
@@ -4765,24 +5427,27 @@ msgid "Sine"
 msgstr "Sinüs"
 
 #: src/filters/render/fractalexplorer.xml:267(para)
+#, fuzzy
 msgid "Color variations will be modulated according to the sine function."
-msgstr ""
+msgstr "Renk varyasyonları sinüs fonksiyonuna göre modüle edilecektir."
 
 #: src/filters/render/fractalexplorer.xml:274(term)
 msgid "Cosine"
 msgstr "Kosinüs"
 
 #: src/filters/render/fractalexplorer.xml:276(para)
+#, fuzzy
 msgid "Color densities will vary according to cosine function."
-msgstr ""
+msgstr "Renk yoğunlukları kosinüs fonksiyonuna göre değişiklik gösterecektir."
 
 #: src/filters/render/fractalexplorer.xml:282(term)
 msgid "None"
 msgstr "Hiçbiri"
 
 #: src/filters/render/fractalexplorer.xml:284(para)
+#, fuzzy
 msgid "Color densities will vary linearly."
-msgstr ""
+msgstr "Renk yoğunlukları doğrusal olarak değişecektir."
 
 #: src/filters/render/fractalexplorer.xml:288(term)
 msgid "Inversion"
@@ -4797,28 +5462,35 @@ msgid "Color Mode"
 msgstr "Renk Kipi"
 
 #: src/filters/render/fractalexplorer.xml:298(para)
+#, fuzzy
 msgid "These options allow you to set where color values must be taken from."
 msgstr ""
+"Bu seçenekler, renk değerlerinin nereden alınacağını belirlemenizi sağlar."
 
 #: src/filters/render/fractalexplorer.xml:303(term)
 msgid "As specified above"
 msgstr "Yukarıda belirtildiği gibi"
 
 #: src/filters/render/fractalexplorer.xml:305(para)
+#, fuzzy
 msgid ""
 "Color values will be taken from the <guilabel>Color Density</guilabel> "
 "settings."
 msgstr ""
+"Renk değerleri <guilabel>Renk Yoğunluğu</guilabel> ayarlarından alınacaktır."
 
 #: src/filters/render/fractalexplorer.xml:312(term)
 msgid "Apply active gradient to final image"
 msgstr "Etkin renk geçişini son görüntüye uygula"
 
 #: src/filters/render/fractalexplorer.xml:314(para)
+#, fuzzy
 msgid ""
 "The colors used will be that of the active gradient. You can select another "
 "gradient by clicking on the button that shows the currently active gradient."
 msgstr ""
+"Kullanılan renkler, etkin gradyanın renkleri olacaktır. Mevcut etkin "
+"gradyanı gösteren düğmeye tıklayarak başka bir gradyan seçebilirsiniz."
 
 #: src/filters/render/fractalexplorer.xml:325(title)
 msgid "Fractals"
@@ -4915,6 +5587,7 @@ msgid "Filter <quote>Flame</quote> applied"
 msgstr "<quote>Alev</quote> süzgeci uygulandı"
 
 #: src/filters/render/flame.xml:40(para)
+#, fuzzy
 msgid ""
 "With the Flame filter, you can create stunning, randomly generated fractal "
 "patterns. You can't control the fractals as you can with the <link "
@@ -4922,20 +5595,33 @@ msgid ""
 "the random generator in a certain direction, and choose from variations of a "
 "theme you like."
 msgstr ""
+"Flame filtresi ile, rastgele oluşturulan çarpıcı fraktal desenler "
+"oluşturabilirsiniz. <link linkend=\"plug-in-ifscompose\">IFS Fractal</link> "
+"filtresinde olduğu gibi fraktalları kontrol edemezsiniz, ancak rastgele "
+"oluşturucuyu belirli bir yöne yönlendirebilir ve beğendiğiniz bir temanın "
+"varyasyonları arasından seçim yapabilirsiniz."
 
 #: src/filters/render/flame.xml:49(para)
+#, fuzzy
 msgid ""
 "Unfortunately, this filter is not working properly for larger images. Sadly, "
 "its developer is not around anymore, so there seems no quick fix in sight."
 msgstr ""
+"Maalesef, bu filtre büyük boyutlu görüntülerde düzgün çalışmıyor. Ne yazık "
+"ki, geliştiricisi artık ortada yok, bu yüzden hızlı bir çözüm görünmüyor."
 
 #: src/filters/render/flame.xml:56(para)
+#, fuzzy
 msgid ""
 "This plug-in was given to <acronym>GIMP</acronym> by Scott Draves in 1997. "
 "He also holds the copyright for the plug-in. A descriptive page for the plug-"
 "in, provided by the author, can be found on the internet <xref "
 "linkend=\"bibliography-online-gimp-plugin-flames\"/>."
 msgstr ""
+"Bu eklenti, 1997 yılında Scott Draves tarafından <acronym>GIMP'e</acronym> "
+"sunulmuştur. Eklentinin telif hakkı da kendisine aittir. Yazar tarafından "
+"sağlanan eklentinin açıklayıcı sayfası internette <xref "
+"linkend=\"bibliography-online-gimp-plugin-flames\"/> adresinde bulunabilir."
 
 #: src/filters/render/flame.xml:67(para)
 msgid ""
@@ -5025,16 +5711,23 @@ msgstr ""
 "current pattern with a new random pattern."
 
 #: src/filters/render/flame.xml:140(para)
+#, fuzzy
 msgid ""
 "This button brings up a file selector that allows you to open a previously "
 "saved Flame settings file."
 msgstr ""
+"Bu düğme, önceden kaydedilmiş bir Flame ayar dosyasını açmanıza olanak "
+"tanıyan bir dosya seçiciyi açar."
 
 #: src/filters/render/flame.xml:149(para)
+#, fuzzy
 msgid ""
 "This button brings up a file save dialog that allows you to save the current "
 "settings for the plug-in, so that you can recreate them later."
 msgstr ""
+"Bu düğme, eklentinin mevcut ayarlarını kaydetmenizi sağlayan bir dosya "
+"kaydetme iletişim kutusu açar, böylece bunları daha sonra yeniden "
+"oluşturabilirsiniz."
 
 #: src/filters/render/flame.xml:158(title)
 msgid "Rendering"
@@ -5061,20 +5754,26 @@ msgid "Gamma"
 msgstr "Gama"
 
 #: src/filters/render/flame.xml:179(para)
+#, fuzzy
 msgid "Sets a gamma correction for parts with intermediate brightness."
-msgstr ""
+msgstr "Orta parlaklıktaki parçalar için gama düzeltmesi ayarlar."
 
 #: src/filters/render/flame.xml:186(term)
 msgid "Sample density"
 msgstr "Örnek sıklığı"
 
 #: src/filters/render/flame.xml:188(para)
+#, fuzzy
 msgid ""
 "Controls the resolution of the rendered pattern. This does not have any "
 "effect on the preview. A high sample density results in soft and smooth "
 "rendering (like a spider's web), whereas low density rendering resembles "
 "spray or particle clouds."
 msgstr ""
+"Render edilen desenin çözünürlüğünü kontrol eder. Bu, önizleme üzerinde "
+"herhangi bir etkiye sahip değildir. Yüksek örnek yoğunluğu, yumuşak ve "
+"pürüzsüz bir renderlama (örümcek ağı gibi) sağlarken, düşük yoğunluklu "
+"renderlama sprey veya parçacık bulutlarına benzer."
 
 #: src/filters/render/flame.xml:197(term)
 msgid "Spatial oversample"
@@ -5094,23 +5793,28 @@ msgid "Colormap"
 msgstr "Renk eşlemi"
 
 #: src/filters/render/flame.xml:215(para)
+#, fuzzy
 msgid ""
 "This menu gives you several options to set the color blend in the flame "
 "pattern:"
 msgstr ""
+"Bu menü, alev desenindeki renk karışımını ayarlamak için size birkaç seçenek "
+"sunar:"
 
 #: src/filters/render/flame.xml:221(para)
+#, fuzzy
 msgid "The current gradient as shown in the Toolbox."
-msgstr ""
+msgstr "Araç Kutusunda gösterilen akım gradyanı."
 
 #: src/filters/render/flame.xml:226(para)
 msgid "A number of preset colormaps."
 msgstr "Bir dizi önceden ayarlanmış renk haritası."
 
 #: src/filters/render/flame.xml:231(para)
+#, fuzzy
 msgid ""
 "The colors from images that are presently open in <acronym>GIMP</acronym>."
-msgstr ""
+msgstr "<acronym>GIMP</acronym>'te şu anda açık olan görüntülerdeki renkler."
 
 #: src/filters/render/flame.xml:241(title)
 msgid "Camera"
@@ -5171,6 +5875,7 @@ msgid "Two examples of diffraction patterns"
 msgstr "Kırınım örüntülerine iki örnek"
 
 #: src/filters/render/diffraction.xml:36(para)
+#, fuzzy
 msgid ""
 "This filter lets you make diffraction or wave interference textures. You can "
 "change the Frequency, Contours and Sharp Edges for each of the RGB channels. "
@@ -5179,15 +5884,27 @@ msgid ""
 "update. On a slow system, this may take a bit of time. Note that result "
 "doesn't depend on the initial image."
 msgstr ""
+"Bu filtre, kırınım veya dalga girişim dokuları oluşturmanıza olanak tanır. "
+"RGB kanallarının her biri için Frekans, Konturlar ve Keskin Kenarlar "
+"değerlerini değiştirebilirsiniz. Ayrıca dokunun Parlaklık, Saçılma ve "
+"Polarizasyon değerlerini de ayarlayabilirsiniz. Otomatik önizleme özelliği "
+"bulunmadığından, güncellemek için önizleme düğmesine basmanız gerekir. Yavaş "
+"bir sistemde bu işlem biraz zaman alabilir. Sonuçların ilk görüntüye bağlı "
+"olmadığını unutmayın."
 
 #: src/filters/render/diffraction.xml:44(para)
+#, fuzzy
 msgid ""
 "This is a very useful filter if you want to create intricate patterns. It's "
 "perfect for making psychedelic, batik-like textures, or for imitating "
 "patterns in stained glass (as in a church window)."
 msgstr ""
+"Karmaşık desenler oluşturmak istiyorsanız bu filtre çok kullanışlıdır. "
+"Psychedelic, batik benzeri dokular oluşturmak veya vitray (kilise "
+"penceresindeki gibi) desenlerini taklit etmek için mükemmeldir."
 
 #: src/filters/render/diffraction.xml:49(para)
+#, fuzzy
 msgid ""
 "It seems clear that the plug-in works by simulating the physics of light "
 "striking a grating. Unfortunately, the original authors never got around to "
@@ -5195,6 +5912,12 @@ msgid ""
 "The best approach, then, is just to twiddle things and see what happens. "
 "Fortunately, almost anything you do seems to produce interesting results."
 msgstr ""
+"Eklentinin, ışığın bir ızgaraya çarpmasının fiziksel özelliklerini simüle "
+"ederek çalıştığı açık görünüyor. Ne yazık ki, orijinal yazarlar bunun "
+"arkasındaki teoriyi yazmaya veya parametrelerin ne anlama geldiğini "
+"açıklamaya hiç vakit bulamamışlar. O halde en iyi yaklaşım, denemeler yapıp "
+"ne olacağını görmek. Neyse ki, yaptığınız hemen hemen her şey ilginç "
+"sonuçlar veriyor gibi görünüyor."
 
 #: src/filters/render/diffraction.xml:61(para)
 msgid ""
@@ -5288,25 +6011,36 @@ msgid "<quote>Difference Clouds</quote> filter options"
 msgstr "<quote>Devre</quote> süzgeci seçenekleri"
 
 #: src/filters/render/difference-clouds.xml:77(para)
+#, fuzzy
 msgid ""
 "This option controls the randomness of the filter. The <guilabel>Random "
 "seed</guilabel> box lets you manually enter a seed for the randomization "
 "algorithm used. A different random seed produces different results."
 msgstr ""
+"Bu seçenek, filtrenin rastgeleliğini kontrol eder. <guilabel>Rastgele tohum</"
+"guilabel> kutusu, kullanılan rastgeleleştirme algoritması için bir tohumun "
+"manuel olarak girilmesini sağlar. Farklı bir rastgele tohum, farklı sonuçlar "
+"üretir."
 
 #: src/filters/render/difference-clouds.xml:86(term)
 msgid "Levels"
-msgstr ""
+msgstr "Düzeyler"
 
 #: src/filters/render/difference-clouds.xml:88(para)
+#, fuzzy
 msgid ""
 "This controls the level of detail in the noise texture. Higher values give a "
 "higher level of detail, and the noise seems to be made of spray or small "
 "particles, which makes it feel hard. A low value makes it more soft and "
 "cloudy."
 msgstr ""
+"Bu, gürültü dokusundaki ayrıntı düzeyini kontrol eder. Daha yüksek değerler "
+"daha yüksek ayrıntı düzeyi sağlar ve gürültü sprey veya küçük parçacıklardan "
+"oluşuyormuş gibi görünür, bu da onu sert hissettirir. Düşük bir değer onu "
+"daha yumuşak ve bulanık hale getirir."
 
 #: src/filters/render/difference-clouds.xml:100(para)
+#, fuzzy
 msgid ""
 "If you check <guilabel>Tileable</guilabel>, you'll get a noise that can be "
 "tiled seamlessly in a grid. The left edge will align seamlessly with the "
@@ -5314,6 +6048,12 @@ msgid ""
 "Only the generated noise is tileable. The underlying image is not modified "
 "to be tileable."
 msgstr ""
+"<guilabel>Tileable (Döşenebilir) seçeneğini</guilabel> işaretlerseniz, "
+"ızgara içinde sorunsuz bir şekilde döşenebilen bir gürültü elde edersiniz. "
+"Sol kenar, sağ kenarla sorunsuz bir şekilde hizalanır ve üst kenar, alt "
+"kenarla sorunsuz bir şekilde hizalanır. Yalnızca oluşturulan gürültü "
+"döşenebilir. Altta yatan görüntü, döşenebilir hale getirilmek için "
+"değiştirilmez."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -5466,6 +6206,7 @@ msgid "Random Seed"
 msgstr "Rastgele Parçacık"
 
 #: src/filters/render/cmlexplorer.xml:90(para)
+#, fuzzy
 msgid ""
 "Random plays a large part in creating patterns. With these options, you can "
 "influence the way random is generated. By clicking on the <guibutton>New "
@@ -5474,12 +6215,22 @@ msgid ""
 "you keep the same seed and so to reproduce the same effect with the filter. "
 "<guibutton>Random Seed</guibutton> generates a random seed at random."
 msgstr ""
+"Rastgelelik, desenlerin oluşturulmasında büyük rol oynar. Bu seçeneklerle, "
+"rastgeleliğin oluşturulma şeklini etkileyebilirsiniz. <guibutton>Yeni Tohum</"
+"guibutton> düğmesine tıklayarak, rastgeleliğin yeni bir rastgele kaynak "
+"kullanmasını sağlayabilirsiniz. Önizleme size sonucu gösterecektir. "
+"<guibutton>Tohumu Sabitle</guibutton>, aynı tohumu korumanızı ve böylece "
+"filtre ile aynı efekti yeniden üretmenizi sağlar. <guibutton>Rastgele Tohum</"
+"guibutton>, rastgele bir tohum oluşturur."
 
 #: src/filters/render/cmlexplorer.xml:107(para)
+#, fuzzy
 msgid ""
 "With these both command buttons you can save pattern settings in a file, and "
 "to get them back later."
 msgstr ""
+"Bu iki komut düğmesi ile desen ayarlarını bir dosyaya kaydedebilir ve daha "
+"sonra geri yükleyebilirsiniz."
 
 #: src/filters/render/cmlexplorer.xml:117(title)
 msgid "<quote>CML Explorer</quote> filter options (Hue)"
@@ -5490,46 +6241,57 @@ msgid "Hue tab"
 msgstr "Renk Tonu sekmesi"
 
 #: src/filters/render/cmlexplorer.xml:127(para)
+#, fuzzy
 msgid ""
 "This filter works in the <link linkend=\"glossary-hsv\">HSV</link> color "
 "model. In this tab, you can set options for Hue."
 msgstr ""
+"Bu filtre, <link linkend=\"glossary-hsv\">HSV</link> renk modelinde çalışır. "
+"Bu sekmede, Ton için seçenekleri ayarlayabilirsiniz."
 
 #: src/filters/render/cmlexplorer.xml:134(term)
 msgid "Function type"
 msgstr "İşlev türü"
 
 #: src/filters/render/cmlexplorer.xml:136(para)
+#, fuzzy
 msgid ""
 "In this drop-down list, you can select the method that will be used to treat "
 "the current layer. These methods are:"
 msgstr ""
+"Bu açılır listeden, mevcut katmanı işlemek için kullanılacak yöntemi "
+"seçebilirsiniz. Bu yöntemler şunlardır:"
 
 #: src/filters/render/cmlexplorer.xml:143(term)
 msgid "Keep image's values"
 msgstr "Görüntü değerlerini koru"
 
 #: src/filters/render/cmlexplorer.xml:145(para)
+#, fuzzy
 msgid "With this option, image hue values will be kept."
-msgstr ""
+msgstr "Bu seçenekle, görüntü ton değerleri korunacaktır."
 
 #: src/filters/render/cmlexplorer.xml:151(term)
 msgid "Keep the first value"
 msgstr "İlk değeri koru"
 
 #: src/filters/render/cmlexplorer.xml:153(para)
+#, fuzzy
 msgid "With this option, starting color will be standard cyan."
-msgstr ""
+msgstr "Bu seçenekle, başlangıç rengi standart camgöbeği olacaktır."
 
 #: src/filters/render/cmlexplorer.xml:159(term)
 msgid "Fill with parameter k"
 msgstr "K parametresi ile doldur"
 
 #: src/filters/render/cmlexplorer.xml:161(para)
+#, fuzzy
 msgid ""
 "Pattern look will depend on <parameter>k</parameter> that you will set later "
 "in options."
 msgstr ""
+"Desen görünümü, daha sonra seçeneklerde ayarlayacağınız <parameter>k</"
+"parameter> değerine bağlı olacaktır."
 
 #: src/filters/render/cmlexplorer.xml:168(term)
 msgid "Miscellaneous f(k)"
@@ -5556,31 +6318,41 @@ msgid "sin^p, stepped"
 msgstr "sin^p, geçildi"
 
 #: src/filters/render/cmlexplorer.xml:188(para)
+#, fuzzy
 msgid ""
 "These options create wave-like patterns, like aurora borealis or curtain "
 "folds."
 msgstr ""
+"Bu seçenekler, kuzey ışıkları veya perde kıvrımları gibi dalga benzeri "
+"desenler oluşturur."
 
 #: src/filters/render/cmlexplorer.xml:198(term)
 msgid "Composition"
 msgstr "Kompozisyon"
 
 #: src/filters/render/cmlexplorer.xml:200(para)
+#, fuzzy
 msgid ""
 "Here, these options concern Hue. You can choose among several functions, and "
 "a book could be filled with results of all these functions. Please, "
 "experiment!"
 msgstr ""
+"Burada, bu seçenekler Hue ile ilgilidir. Birkaç işlev arasından seçim "
+"yapabilirsiniz ve tüm bu işlevlerin sonuçları ile bir kitap "
+"doldurabilirsiniz. Lütfen deneyin!"
 
 #: src/filters/render/cmlexplorer.xml:208(term)
 msgid "Misc. arrange"
 msgstr "Türlü düzenleme"
 
 #: src/filters/render/cmlexplorer.xml:210(para)
+#, fuzzy
 msgid ""
 "This drop-down list offers you several other parameters. Also a book would "
 "be necessary to explain all possibilities of these parameters."
 msgstr ""
+"Bu açılır liste size birkaç başka parametre sunar. Bu parametrelerin tüm "
+"olasılıklarını açıklamak için bir kitap bile gerekebilir."
 
 #: src/filters/render/cmlexplorer.xml:218(term)
 msgid "Use cyclic range"
@@ -5591,84 +6363,107 @@ msgid "Mod. rate"
 msgstr "Mod. oranı"
 
 #: src/filters/render/cmlexplorer.xml:228(para)
+#, fuzzy
 msgid ""
 "With this slider and the input box, you can set modification rate from 0.0 "
 "to 1.0. Low value results in a lined pattern."
 msgstr ""
+"Bu kaydırıcı ve giriş kutusu ile, 0,0 ile 1,0 arasında bir değiştirme oranı "
+"ayarlayabilirsiniz. Düşük değer, çizgili bir desenle sonuçlanır."
 
 #: src/filters/render/cmlexplorer.xml:236(term)
 msgid "Env. sensitivity"
 msgstr "Çevresel duyarlılık"
 
 #: src/filters/render/cmlexplorer.xml:238(para)
+#, fuzzy
 msgid "Value is from 0.0 to 1.0"
-msgstr ""
+msgstr "Değer 0,0 ile 1,0 arasındadır."
 
 #: src/filters/render/cmlexplorer.xml:244(term)
 msgid "Diffusion dist."
 msgstr "Yayılma mes."
 
 #: src/filters/render/cmlexplorer.xml:246(para)
+#, fuzzy
 msgid "Diffusion distance: from 2 to 10."
-msgstr ""
+msgstr "Yayılma mesafesi: 2 ila 10 arasında."
 
 #: src/filters/render/cmlexplorer.xml:252(term)
 msgid "# of subranges"
 msgstr "Alt erim sayısı"
 
 #: src/filters/render/cmlexplorer.xml:254(para)
+#, fuzzy
 msgid "Number of sub-ranges: from 1 to 10."
-msgstr ""
+msgstr "Alt aralık sayısı: 1 ila 10 arasında."
 
 #: src/filters/render/cmlexplorer.xml:260(term)
 msgid "(P)ower factor"
 msgstr "P (güç katsayısı):"
 
 #: src/filters/render/cmlexplorer.xml:262(para)
+#, fuzzy
 msgid ""
 "With this option you can influence the <guilabel>Function types</guilabel> "
 "using the <parameter>p</parameter> parameter. Value from 0.0 to 10.0."
 msgstr ""
+"Bu seçenekle, <parameter>p</parameter> parametresini kullanarak "
+"<guilabel>İşlev türlerini</guilabel> etkileyebilirsiniz. Değer 0,0 ile 10,0 "
+"arasındadır."
 
 #: src/filters/render/cmlexplorer.xml:270(term)
 msgid "Parameter k"
 msgstr "K parametresi"
 
 #: src/filters/render/cmlexplorer.xml:272(para)
+#, fuzzy
 msgid ""
 "With this option you can influence the <guilabel>Function types</guilabel> "
 "using the <parameter>k</parameter> parameter. Value from 0.0 to 10.0."
 msgstr ""
+"Bu seçenekle, <parameter>k</parameter> parametresini kullanarak "
+"<guilabel>İşlev türlerini</guilabel> etkileyebilirsiniz. Değer 0,0 ile 10,0 "
+"arasındadır."
 
 #: src/filters/render/cmlexplorer.xml:280(term)
 msgid "Range low"
 msgstr "Düşük erim"
 
 #: src/filters/render/cmlexplorer.xml:282(para)
+#, fuzzy
 msgid ""
 "Set lower limit of hue that will be used for calculation. values vary from "
 "0.0 to 1.0."
 msgstr ""
+"Hesaplama için kullanılacak renk tonunun alt sınırını ayarlayın. Değerler "
+"0,0 ile 1,0 arasında değişir."
 
 #: src/filters/render/cmlexplorer.xml:289(term)
 msgid "Range high"
 msgstr "Yüksek erim"
 
 #: src/filters/render/cmlexplorer.xml:291(para)
+#, fuzzy
 msgid ""
 "Set the upper limit of hue that will be used for calculation. Variations are "
 "from 0.0 to 1.0."
 msgstr ""
+"Hesaplama için kullanılacak renk tonunun üst sınırını ayarlayın. Değişimler "
+"0,0 ile 1,0 arasındadır."
 
 #: src/filters/render/cmlexplorer.xml:298(term)
 msgid "Plot a Graph of the Settings"
 msgstr "Ayarların Bir Grafiğini Çiz"
 
 #: src/filters/render/cmlexplorer.xml:300(para)
+#, fuzzy
 msgid ""
 "By clicking on this large button, you can open a window that displays the "
 "graph of hue present settings."
 msgstr ""
+"Bu büyük düğmeye tıklayarak, mevcut renk tonu ayarlarının grafiğini gösteren "
+"bir pencere açabilirsiniz."
 
 #: src/filters/render/cmlexplorer.xml:305(title)
 msgid "Function graph of present settings"
@@ -5842,17 +6637,24 @@ msgid "Filter <quote>Circuit</quote> applied."
 msgstr "<quote>Devre</quote> süzgeci uygulandı"
 
 #: src/filters/render/circuit.xml:33(para)
+#, fuzzy
 msgid ""
 "<guimenuitem>Circuit</guimenuitem> command is a script that fills the "
 "selected region (or alpha) with traces like those on the back of an old "
 "circuit board. It looks even better when gradmapped with a suitable gradient."
 msgstr ""
+"<guimenuitem>Devre</guimenuitem> komutu, seçilen bölgeyi (veya alfa) eski "
+"bir devre kartının arkasındakine benzer izlerle dolduran bir komut "
+"dosyasıdır. Uygun bir gradyanla gradmap uygulandığında daha da iyi görünür."
 
 #: src/filters/render/circuit.xml:40(para)
+#, fuzzy
 msgid ""
 "The effect seems to work best on odd shaped selections because of some "
 "limitations in the maze codes selection handling ability."
 msgstr ""
+"Bu efekt, labirent kodlarının seçim işleme yeteneğindeki bazı sınırlamalar "
+"nedeniyle, garip şekilli seçimlerde en iyi sonucu veriyor gibi görünüyor."
 
 #: src/filters/render/circuit.xml:51(para)
 msgid "This filter creates a gray level image in <acronym>RGB</acronym> mode."
@@ -5882,81 +6684,119 @@ msgid "Oilify mask size"
 msgstr "Maske boyutunu yağlı boya"
 
 #: src/filters/render/circuit.xml:89(para)
+#, fuzzy
 msgid ""
 "With this option you can set the option value of the <link linkend=\"gimp-"
 "filter-oilify\">Oilify</link> filter in pixels (range 3 to 50). Larger "
 "values make lines more fuzzy. 17 is the default value."
 msgstr ""
+"Bu seçenekle, <link linkend=\"gimp-filter-oilify\">Oilify</link> filtresinin "
+"seçenek değerini piksel cinsinden (3 ila 50 aralığında) ayarlayabilirsiniz. "
+"Daha büyük değerler çizgileri daha bulanık hale getirir. Varsayılan değer "
+"17'dir."
 
 #: src/filters/render/circuit.xml:98(term)
 msgid "Circuit seed"
 msgstr "Devre parçacığı"
 
 #: src/filters/render/circuit.xml:100(para)
+#, fuzzy
 msgid ""
 "You can give a randomizing seed number between 1 and 3000000. The default "
 "value is 3."
 msgstr ""
+"1 ile 3000000 arasında rastgele bir tohum numarası verebilirsiniz. "
+"Varsayılan değer 3'tür."
 
 #: src/filters/render/circuit.xml:107(term)
 msgid "No background (only for separate layer)"
 msgstr "Arka plan yok (yalnız ayrı katman için)"
 
 #: src/filters/render/circuit.xml:109(para)
+#, fuzzy
 msgid ""
 "If this option is enabled, dark pixels of the circuit are made transparent "
 "so that the underlying image is shown through these holes. This option is "
 "disabled in default settings. The <guilabel>Separate layer</guilabel> option "
 "is required."
 msgstr ""
+"Bu seçenek etkinleştirildiğinde, devrenin koyu renkli pikselleri şeffaf hale "
+"getirilir, böylece altta yatan görüntü bu deliklerden görünür. Bu seçenek "
+"varsayılan ayarlarda devre dışıdır. <guilabel>Ayrı katman</guilabel> "
+"seçeneği gereklidir."
 
 #: src/filters/render/circuit.xml:120(para)
+#, fuzzy
 msgid ""
 "If an active selection exists when this script is called, you can keep the "
 "selection and its <link linkend=\"glossary-marching-ants\">marching ants</"
 "link> with this option. This option is enabled in default settings."
 msgstr ""
+"Bu komut dosyası çağrıldığında aktif bir seçim varsa, bu seçenekle seçimi ve "
+"<link linkend=\"glossary-marching-ants\">marching ants</link> seçimi "
+"koruyabilirsiniz. Bu seçenek varsayılan ayarlarda etkindir."
 
 #: src/filters/render/circuit.xml:131(para)
+#, fuzzy
 msgid ""
 "If this option is not checked, the generated texture is drawn on the active "
 "layer. When this option is enabled (in default), this script adds a layer to "
 "draw the circuit texture is on."
 msgstr ""
+"Bu seçenek işaretlenmemişse, oluşturulan doku etkin katmana çizilir. Bu "
+"seçenek etkinleştirildiğinde (varsayılan ayar), bu komut dosyası devre "
+"dokusunun çizileceği bir katman ekler."
 
 #: src/filters/render/circuit.xml:142(title)
 msgid "Making the Circuit effect"
 msgstr "Devre etkisi oluşturmak"
 
 #: src/filters/render/circuit.xml:143(para)
+#, fuzzy
 msgid "The Circuit effect is achieved through the following steps:"
-msgstr ""
+msgstr "Devre etkisi aşağıdaki adımlarla elde edilir:"
 
 #: src/filters/render/circuit.xml:146(para)
+#, fuzzy
 msgid ""
 "First, <link linkend=\"gimp-filter-maze\">draw maze</link> with 5 pixels "
 "width pathways and walls with the <quote>Depth First</quote> algorithm. The "
 "pattern of maze is set by <guilabel>Circuit seed</guilabel>."
 msgstr ""
+"İlk olarak, <link linkend=\"gimp-filter-maze\">, <quote>Derinlik Öncelikli</"
+"quote> algoritmasıyla 5 piksel genişliğinde yollar ve duvarlar içeren bir "
+"labirent</link> çizer. Labirentin deseni <guilabel>Circuit seed</guilabel> "
+"tarafından belirlenir."
 
 #: src/filters/render/circuit.xml:154(para)
+#, fuzzy
 msgid ""
 "<link linkend=\"gimp-filter-oilify\">Oilify</link> this maze with a brush of "
 "<guilabel>Oilify mask size</guilabel>."
 msgstr ""
+"<link linkend=\"gimp-filter-oilify\">Oilify</link> Bu labirenti "
+"<guilabel>Oilify maske boyutu</guilabel> fırçasıyla boyayın."
 
 #: src/filters/render/circuit.xml:160(para)
+#, fuzzy
 msgid ""
 "Then apply the <link linkend=\"gimp-filter-edge-sobel\">extract edge</link> "
 "filter with Sobel algorithm, Smear option and Amount to 2.0, to the oilified "
 "maze image. This crowds high contrast winding curves like as a circuit map."
 msgstr ""
+"Ardından, yağlı labirent görüntüsüne Sobel algoritması, Smear seçeneği ve "
+"Miktar 2,0 ile <link linkend=\"gimp-filter-edge-sobel\">kenar çıkarma</link> "
+"filtresini uygulayın. Bu, devre haritası gibi yüksek kontrastlı kıvrımlı "
+"eğrileri yoğunlaştırır."
 
 #: src/filters/render/circuit.xml:168(para)
+#, fuzzy
 msgid ""
 "Finally, <link linkend=\"gimp-filter-desaturate\">Desaturate</link> the map "
 "with gray color in <acronym>RGB</acronym> mode."
 msgstr ""
+"Son olarak, <link linkend=\"gimp-filter-desaturate\">Desaturate</link> "
+"haritayı <acronym>RGB</acronym> modunda gri renkle doygunluğunu azaltın."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6281,6 +7121,7 @@ msgid "<quote>Bayer Matrix</quote> filter applied with Scale X, Y = 20"
 msgstr "<quote>Bayer Matris</quote> süzgeci Ölçek X, Y = 20 olarak uygulandı"
 
 #: src/filters/render/bayer-matrix.xml:36(para)
+#, fuzzy
 msgid ""
 "A grand-sounding name for a simple filter. Bayer matrix is related to "
 "<emphasis>ordered dithering</emphasis>, which is an image dithering "
@@ -6289,6 +7130,12 @@ msgid ""
 "map known as Bayer matrix (Wikipedia). The present filter uses the Bayer "
 "matrix only to create a pattern."
 msgstr ""
+"Basit bir filtre için görkemli bir isim. Bayer matrisi, daha düşük renk "
+"derinliğine sahip bir ekranda sürekli bir görüntüyü görüntülemek için "
+"kullanılan bir görüntü titreme algoritması olan <emphasis>sıralı titreme</"
+"emphasis> ile ilgilidir. Algoritma, Bayer matrisi (Wikipedia) olarak bilinen "
+"bir eşik haritası uygulayarak renk sayısını azaltır. Mevcut filtre, Bayer "
+"matrisini yalnızca bir desen oluşturmak için kullanır."
 
 #: src/filters/render/bayer-matrix.xml:48(para)
 msgid ""
