@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-10-27 23:31+0300\n"
+"PO-Revision-Date: 2025-11-09 21:53+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -61,6 +61,7 @@ msgid "White balance"
 msgstr "Beyaz dengesi"
 
 #: src/menus/colors/auto/white-balance.xml:20(para)
+#, fuzzy
 msgid ""
 "The <guimenuitem>White Balance</guimenuitem> command automatically adjusts "
 "the colors of the active layer by stretching the Red, Green and Blue "
@@ -74,18 +75,36 @@ msgid ""
 "Like <quote>Stretch Contrast</quote>, however, there may be hue shifts in "
 "the resulting image."
 msgstr ""
+"<guimenuitem>Beyaz Dengesi</guimenuitem> komutu, Kırmızı, Yeşil ve Mavi "
+"kanalları ayrı ayrı genişleterek etkin katmanın renklerini otomatik olarak "
+"ayarlar. Bunu yapmak için, görüntüdeki piksellerin yalnızca %0,05'i "
+"tarafından kullanılan Kırmızı, Yeşil ve Mavi histogramlarının her iki "
+"ucundaki piksel renklerini atar ve kalan aralığı mümkün olduğunca "
+"genişletir. Sonuç olarak, histogramların dış kenarlarında çok nadir görülen "
+"piksel renkleri (örneğin toz parçacıkları vb.), histogramları uzatmak için "
+"kullanılan minimum ve maksimum değerleri olumsuz etkilemez ( <link "
+"linkend=\"gimp-filter-stretch-contrast\">Stretch Contrast</link> ile "
+"karşılaştırıldığında). Ancak, <quote>Stretch Contrast</quote> gibi, sonuçta "
+"ortaya çıkan görüntüde renk tonu kaymaları olabilir."
 
 #: src/menus/colors/auto/white-balance.xml:34(para)
+#, fuzzy
 msgid ""
 "This command suits images with poor white or black. Since it tends to create "
 "pure white (and black), it may be useful e.g. to enhance photographs."
 msgstr ""
+"Bu komut, beyaz veya siyahın zayıf olduğu görüntüler için uygundur. Saf "
+"beyaz (ve siyah) oluşturma eğiliminde olduğundan, örneğin fotoğrafları "
+"iyileştirmek için yararlı olabilir."
 
 #: src/menus/colors/auto/white-balance.xml:40(para)
+#, fuzzy
 msgid ""
 "This command only works on RGB images. If the image is Grayscale or Indexed, "
 "the menu entry is disabled."
 msgstr ""
+"Bu komut yalnızca RGB görüntülerde çalışır. Görüntü Gri Tonlamalı veya "
+"Dizinli ise, menü girişi devre dışı bırakılır."
 
 #: src/menus/colors/auto/white-balance.xml:47(title)
 #: src/menus/colors/auto/stretch-contrast.xml:44(title)
@@ -118,10 +137,13 @@ msgid "Original image"
 msgstr "Özgün görüntü"
 
 #: src/menus/colors/auto/white-balance.xml:68(para)
+#, fuzzy
 msgid ""
 "The active layer and its Red, Green and Blue histograms before <quote>White "
 "Balance</quote>."
 msgstr ""
+"<quote>Beyaz Dengesi</quote> öncesinde aktif katman ve Kırmızı, Yeşil ve "
+"Mavi histogramları."
 
 #: src/menus/colors/auto/white-balance.xml:76(title)
 #: src/menus/colors/auto/stretch-contrast.xml:120(title)
@@ -131,17 +153,24 @@ msgid "Image after the command"
 msgstr "Komuttan sonraki görüntü"
 
 #: src/menus/colors/auto/white-balance.xml:83(para)
+#, fuzzy
 msgid ""
 "The active layer and its Red, Green and Blue histograms after <quote>White "
 "Balance</quote>. Poor white areas in the image became pure white."
 msgstr ""
+"<quote>Beyaz Dengesi</quote> uygulandıktan sonra aktif katman ve Kırmızı, "
+"Yeşil ve Mavi histogramları. Görüntüdeki zayıf beyaz alanlar saf beyaza "
+"dönüştü."
 
 #: src/menus/colors/auto/white-balance.xml:88(para)
 #: src/menus/colors/auto/stretch-contrast.xml:134(para)
+#, fuzzy
 msgid ""
 "Histogram stretching creates gaps between the pixel columns, giving it a "
 "striped look."
 msgstr ""
+"Histogram uzatma, piksel sütunları arasında boşluklar oluşturarak çizgili "
+"bir görünüm verir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -177,6 +206,7 @@ msgid "Contrast"
 msgstr "Karşıtlık"
 
 #: src/menus/colors/auto/stretch-contrast.xml:24(para)
+#, fuzzy
 msgid ""
 "The <guimenuitem>Stretch Contrast</guimenuitem> command automatically "
 "stretches the histogram values in the active layer. For each channel of the "
@@ -188,20 +218,28 @@ msgid ""
 "if you want to remove an undesirable color tint from an image which should "
 "contain pure white and pure black."
 msgstr ""
+"<guimenuitem>Stretch Contrast</guimenuitem> komutu, aktif katmandaki "
+"histogram değerlerini otomatik olarak uzatır. Aktif katmanın her kanalı için "
+"minimum ve maksimum değerleri bulur ve bunları kullanarak Kırmızı, Yeşil ve "
+"Mavi histogramları tam kontrast aralığına uzatır. Parlak renkler daha "
+"parlak, koyu renkler ise daha koyu hale gelir ve bu da kontrastı artırır. "
+"<quote>Kontrastı Germe</quote>, RGB, Gri Tonlamalı ve Dizinli görüntü "
+"katmanlarında çalışır. <quote>Kontrastı Germe'yi</quote> yalnızca, saf beyaz "
+"ve saf siyah içermesi gereken bir görüntüden istenmeyen renk tonunu "
+"kaldırmak istediğinizde kullanın."
 
 #: src/menus/colors/auto/stretch-contrast.xml:36(para)
+#, fuzzy
 msgid ""
 "This command is also similar to the <link linkend=\"gimp-layer-white-"
 "balance\">Color Balance</link> command, but it does not reject any of the "
 "very dark or very bright pixels, so the white might be impure."
 msgstr ""
+"Bu komut, <link linkend=\"gimp-layer-white-balance\">Renk Dengesi</link> "
+"komutuna da benzer, ancak çok koyu veya çok parlak pikselleri reddetmez, bu "
+"nedenle beyaz renk saf olmayabilir."
 
 #: src/menus/colors/auto/stretch-contrast.xml:45(para)
-#, fuzzy
-#| msgid ""
-#| "You can access this command from the main menu through "
-#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
-#| "guisubmenu><guimenuitem>Stretch Contrast</guimenuitem></menuchoice>."
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
@@ -209,7 +247,7 @@ msgid ""
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
 "guimenu><guisubmenu>Kendiliğinden</guisubmenu><guimenuitem>Karşıtlığı "
-"Genişlet</guimenuitem></menuchoice> yoluyla erişebilirsiniz."
+"Genişlet…</guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/colors/auto/stretch-contrast.xml:56(title)
 msgid "Options"
@@ -225,11 +263,11 @@ msgstr "Önayarlar"
 
 #: src/menus/colors/auto/stretch-contrast.xml:69(term)
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 #: src/menus/colors/auto/stretch-contrast.xml:70(term)
 msgid "Clipping"
-msgstr ""
+msgstr "Kırpma"
 
 #: src/menus/colors/auto/stretch-contrast.xml:71(term)
 msgid "Blending Options"
@@ -248,44 +286,52 @@ msgid "Split view"
 msgstr "Bölünmüş görünüm"
 
 #: src/menus/colors/auto/stretch-contrast.xml:81(term)
-#, fuzzy
-#| msgid "Keep Colors"
 msgid "Keep colors"
 msgstr "Renkleri koru"
 
 #: src/menus/colors/auto/stretch-contrast.xml:83(para)
+#, fuzzy
 msgid "Impact each color channel with the same amount."
-msgstr ""
+msgstr "Her renk kanalına aynı miktarda etki edin."
 
 #: src/menus/colors/auto/stretch-contrast.xml:90(term)
-#, fuzzy
-#| msgid "Non-Linear Components"
 msgid "Non-linear components"
 msgstr "Doğrusal olmayan bileşenler"
 
 #: src/menus/colors/auto/stretch-contrast.xml:92(para)
+#, fuzzy
 msgid ""
 "When set, this option operates on gamma corrected values instead of linear "
 "RGB."
 msgstr ""
+"Bu seçenek ayarlandığında, doğrusal RGB yerine gama düzeltilmiş değerler "
+"üzerinde çalışır."
 
 #: src/menus/colors/auto/stretch-contrast.xml:103(title)
 msgid "<quote>Stretch Contrast</quote> Example"
 msgstr "<quote>Karşıtlığı Genişlet</quote> Örneği"
 
 #: src/menus/colors/auto/stretch-contrast.xml:112(para)
+#, fuzzy
 msgid ""
 "The layer and its Red, Green and Blue histograms before <quote>Stretch "
 "Contrast</quote>."
 msgstr ""
+"<quote>Stretch Contrast</quote> öncesinde katman ve onun Kırmızı, Yeşil ve "
+"Mavi histogramları."
 
 #: src/menus/colors/auto/stretch-contrast.xml:127(para)
+#, fuzzy
 msgid ""
 "The layer and its Red and Green and Blue histograms after <quote>Stretch "
 "Contrast</quote>. The pixel columns do not reach the right end of the "
 "histogram (255) because of a few very bright pixels, unlike <quote>White "
 "Balance</quote>."
 msgstr ""
+"<quote>Stretch Contrast</quote> uygulamasından sonra katman ve onun Kırmızı, "
+"Yeşil ve Mavi histogramları. <quote>Beyaz Dengesi'nden</quote> farklı "
+"olarak, birkaç çok parlak piksel nedeniyle piksel sütunları histogramın sağ "
+"ucuna (255) ulaşmamaktadır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -307,6 +353,7 @@ msgid "Stretch colors in HSV space"
 msgstr "Renkleri HSV uzayında genişlet"
 
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:20(para)
+#, fuzzy
 msgid ""
 "The <guimenuitem>Stretch Contrast HSV</guimenuitem> command does the same "
 "thing as the <link linkend=\"gimp-filter-stretch-contrast\">Stretch "
@@ -317,6 +364,14 @@ msgid ""
 "<quote>Stretch Contrast HSV</quote> operates on layers from RGB and Indexed "
 "images. If the image is Grayscale, the menu entry is disabled."
 msgstr ""
+"<guimenuitem>Stretch Contrast HSV</guimenuitem> komutu, <link linkend=\"gimp-"
+"filter-stretch-contrast\">Stretch Contrast</link> komutuyla aynı işlevi "
+"görür, ancak RGB renk uzayında değil HSV renk uzayında çalışır ve Tonu "
+"korur. Böylece, renklerin Ton, Doygunluk ve Değer bileşenlerinin "
+"aralıklarını bağımsız olarak uzatır. Bazen sonuçlar iyi olur, ancak çoğu "
+"zaman biraz tuhaf olur. <quote>Stretch Contrast HSV</quote>, RGB ve İndeksli "
+"görüntülerden gelen katmanlar üzerinde çalışır. Görüntü Gri Tonlamalı ise, "
+"menü girişi devre dışı bırakılır."
 
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:33(para)
 msgid ""
@@ -333,16 +388,23 @@ msgid "<quote>Stretch Contrast HSV</quote> example"
 msgstr "<quote>Karşıtlığı Genişlet HSV</quote> Örneği"
 
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:53(para)
+#, fuzzy
 msgid ""
 "The active layer and its Red, Green and Blue histograms before "
 "<quote>Stretch Contrast HSV</quote>."
 msgstr ""
+"<quote>Stretch Contrast HSV</quote> öncesi aktif katman ve Kırmızı, Yeşil ve "
+"Mavi histogramları."
 
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:68(para)
+#, fuzzy
 msgid ""
 "The active layer and its Red, Green and Blue histograms after <quote>Stretch "
 "Contrast HSV</quote>. Contrast, luminosity and hues are enhanced."
 msgstr ""
+"<quote>Stretch Contrast HSV</quote> uygulamasından sonra aktif katman ve "
+"Kırmızı, Yeşil ve Mavi histogramları. Kontrast, parlaklık ve renk tonları "
+"iyileştirilmiştir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -361,6 +423,7 @@ msgid "Equalize"
 msgstr "Eşitle"
 
 #: src/menus/colors/auto/equalize.xml:18(para)
+#, fuzzy
 msgid ""
 "The <guimenuitem>Equalize</guimenuitem> command automatically adjusts the "
 "brightness of colors across the active layer so that the histogram for the "
@@ -376,6 +439,19 @@ msgid ""
 "works on layers from RGB and Grayscale images. If the image is Indexed, the "
 "menu entry is disabled."
 msgstr ""
+"<guimenuitem>Equalize</guimenuitem> komutu, aktif katmandaki renklerin "
+"parlaklığını otomatik olarak ayarlar, böylece Değer kanalının histogramı "
+"mümkün olduğunca düz olur, yani her bir olası parlaklık değeri diğer "
+"değerlerle yaklaşık olarak aynı piksel sayısında görünür. Bunu aşağıdaki "
+"örnekteki histogramlarda görebilirsiniz; görüntüde sıkça görülen piksel "
+"renkleri, nadiren görülen piksel renklerinden daha fazla birbirinden "
+"uzaklaştırılmıştır. Bu komutun sonuçları oldukça farklılık gösterebilir. "
+"Bazen <quote>Eşitlemek</quote>, görüntünün kontrastını iyileştirmek için çok "
+"iyi sonuç verir ve önceden zor görünen ayrıntıları ortaya çıkarır. Diğer "
+"zamanlarda ise sonuçlar çok kötü olabilir. Bu çok güçlü bir işlemdir ve "
+"görüntünüzü iyileştirip iyileştirmeyeceğini denemeye değer. RGB ve Gri "
+"Tonlamalı görüntülerdeki katmanlarda çalışır. Görüntü Dizinli ise, menü "
+"girişi devre dışı bırakılır."
 
 #: src/menus/colors/auto/equalize.xml:37(para)
 msgid ""
@@ -392,20 +468,27 @@ msgid "<quote>Equalize</quote> example"
 msgstr "<quote>Eşitle</quote> örneği"
 
 #: src/menus/colors/auto/equalize.xml:57(para)
+#, fuzzy
 msgid ""
 "The active layer and its Red, Green, Blue histograms before <quote>Equalize</"
 "quote>."
 msgstr ""
+"<quote>Eşitleme</quote> öncesinde aktif katman ve Kırmızı, Yeşil, Mavi "
+"histogramları."
 
 #: src/menus/colors/auto/equalize.xml:72(para)
+#, fuzzy
 msgid "The active layer and its Red, Green, Blue histograms after treatment."
-msgstr ""
+msgstr "Aktif katman ve işlemden sonra Kırmızı, Yeşil, Mavi histogramları."
 
 #: src/menus/colors/auto/equalize.xml:76(para)
+#, fuzzy
 msgid ""
 "Histogram stretching creates gaps between pixel columns giving it a striped "
 "look: colors that occur frequently are stretched."
 msgstr ""
+"Histogram uzatma, piksel sütunları arasında boşluklar oluşturarak çizgili "
+"bir görünüm sağlar: sıkça görülen renkler uzatılır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -427,6 +510,7 @@ msgid "Color enhance"
 msgstr "Renk iyileştir"
 
 #: src/menus/colors/auto/color-enhance.xml:16(para)
+#, fuzzy
 msgid ""
 "The <guimenuitem>Color Enhance</guimenuitem> command stretches the Chroma "
 "range of the colors in the layer to the maximum possible, without altering "
@@ -436,12 +520,20 @@ msgid ""
 "stretching the Chroma range to be as large as possible, and finally "
 "converting the colors back to its native color space."
 msgstr ""
+"<guimenuitem>Renk Geliştirme</guimenuitem> komutu, Ton ve Açıklığı "
+"değiştirmeden katmandaki renklerin Kroma aralığını mümkün olan en geniş hale "
+"getirir. Bunu, renkleri <ulink url=\"https://en.wikipedia.org/wiki/"
+"CIELAB_color_space#CIEHLC_cylindrical_model\">CIE LCh uzayına</ulink> "
+"dönüştürerek, ardından Kroma aralığını mümkün olan en geniş hale getirerek "
+"ve son olarak renkleri tekrar orijinal renk uzayına dönüştürerek yapar."
 
 #: src/menus/colors/auto/color-enhance.xml:26(para)
 msgid ""
 "This command does not work on Grayscale images. If the image is Grayscale, "
 "the menu entry is disabled."
 msgstr ""
+"Bu komut Gri Tonlamalı görüntülerde çalışmaz. Görüntü Gri Tonlamalı ise, "
+"menü girdisi devre dışıdır."
 
 #: src/menus/colors/auto/color-enhance.xml:34(para)
 msgid ""
@@ -458,20 +550,26 @@ msgid "<quote>Color Enhance</quote> example"
 msgstr "<quote>Renk İyileştir</quote> örneği"
 
 #: src/menus/colors/auto/color-enhance.xml:54(para)
+#, fuzzy
 msgid ""
 "The active layer and its Red, Green and Blue histograms before <quote>Color "
 "Enhance</quote>."
 msgstr ""
+"<quote>Renk Geliştirme</quote> öncesinde aktif katman ve Kırmızı, Yeşil ve "
+"Mavi histogramları."
 
 #: src/menus/colors/auto/color-enhance.xml:62(title)
 msgid "Command applied"
 msgstr "Komut uygulanmış"
 
 #: src/menus/colors/auto/color-enhance.xml:71(para)
+#, fuzzy
 msgid ""
 "The active layer and its Red, Green and Blue histograms after <quote>Color "
 "Enhance</quote>. The result may not always be what you expect."
 msgstr ""
+"<quote>Renk Geliştirme</quote> işleminden sonra aktif katman ve Kırmızı, "
+"Yeşil ve Mavi histogramları. Sonuç her zaman beklediğiniz gibi olmayabilir."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/colors/auto/color-enhance.xml:0(None)

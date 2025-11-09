@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-10-28 20:53+0300\n"
+"PO-Revision-Date: 2025-11-09 22:15+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -120,12 +120,16 @@ msgid ""
 "Filter applied with default settings, after changing image precision in GIMP "
 "to 32-bit floating point linear light."
 msgstr ""
+"GIMP görüntü hassasiyeti 32 bit kayan noktalı doğrusal ışığa değiştirdikten "
+"sonra öntanımlı ayarlarla uygulanan süzgeç."
 
 #: src/menus/colors/tone-mapping/stress.xml:53(para)
+#, fuzzy
 msgid "Filter applied with Samples 15 and Iterations 20."
-msgstr ""
+msgstr "Örnekler 15 ve İterasyonlar 20 ile uygulanan filtre."
 
 #: src/menus/colors/tone-mapping/stress.xml:59(para)
+#, fuzzy
 msgid ""
 "This filter uses a Spatio Temporal Retinex-like Envelope with Stochastic "
 "Sampling (STRESS). The algorithms work by recalculating each pixel using "
@@ -135,23 +139,39 @@ msgid ""
 "automatic color correction, high dynamic range image rendering, spatial "
 "color gamut mapping, and color to grayscale conversion with good results."
 msgstr ""
+"Bu filtre, Stokastik Örnekleme (STRESS) ile Spatio Temporal Retinex benzeri "
+"bir Zarf kullanır. Algoritmalar, görüntüdeki yerel üst ve alt sınırlar için "
+"zarfları kullanarak her pikseli yeniden hesaplayarak çalışır. Zarflar, komşu "
+"piksellerin örneklemesi ile elde edilir ve yerel referans maksimum ve "
+"minimum olarak yorumlanabilir. Bu yöntem, yerel kontrast uzatma, otomatik "
+"renk düzeltme, yüksek dinamik aralıklı görüntü işleme, uzamsal renk gamı "
+"eşleme ve renkten gri tonlamaya dönüştürme için iyi sonuçlar verebilir."
 
 #: src/menus/colors/tone-mapping/stress.xml:69(para)
+#, fuzzy
 msgid ""
 "Based on Ø. Kolås, I. Farup, and A. Rizzi, <quote>Spatio-temporal retinex-"
 "inspired envelope with stochastic sampling: A framework for spatial color "
 "algorithms</quote>, Journal of Imaging Science and Technology, vol. 55, no. "
 "4, pp. 1–10, 2011."
 msgstr ""
+"Ø. Kolås, I. Farup ve A. Rizzi, <quote>\"Stokastik örnekleme ile uzamsal-"
+"zamansal retinex esinli zarf: Uzamsal renk algoritmaları için bir çerçeve</"
+"quote>\", Görüntüleme Bilimi ve Teknolojisi Dergisi, cilt 55, sayı 4, s. 1–"
+"10, 2011."
 
 #: src/menus/colors/tone-mapping/stress.xml:76(para)
 #: src/menus/colors/tone-mapping/mantiuk.xml:63(para)
 #: src/menus/colors/tone-mapping/fattal.xml:62(para)
+#, fuzzy
 msgid ""
 "This filter is slow on larger images. For finding the best settings for your "
 "image you could make a small relevant selection first and save that as a "
 "preset before using that for the whole image."
 msgstr ""
+"Bu filtre büyük görüntülerde yavaş çalışır. Görüntünüz için en uygun "
+"ayarları bulmak için önce küçük bir seçim yapabilir ve bunu ön ayar olarak "
+"kaydedip tüm görüntü için kullanabilirsiniz."
 
 #: src/menus/colors/tone-mapping/stress.xml:85(title)
 #: src/menus/colors/tone-mapping/retinex.xml:77(title)
@@ -240,11 +260,15 @@ msgid "Radius"
 msgstr "Yarıçap"
 
 #: src/menus/colors/tone-mapping/stress.xml:123(para)
+#, fuzzy
 msgid ""
 "Neighborhood taken into account, for enhancement ideal values are close to "
 "the longest side of the image (which can be either width or height). "
 "Increasing this value makes the filter slower."
 msgstr ""
+"Çevre dikkate alındığında, iyileştirme için ideal değerler görüntünün en "
+"uzun kenarına (genişlik veya yükseklik olabilir) yakındır. Bu değeri "
+"artırmak filtreyi yavaşlatır."
 
 #: src/menus/colors/tone-mapping/stress.xml:131(term)
 msgid "Samples"
@@ -263,6 +287,8 @@ msgid ""
 "Number of iterations; a higher number of iterations provides a less noisy "
 "rendering but makes the filter slower."
 msgstr ""
+"Yineleme sayısı; daha çok yineleme sayıs daha az gürültülü sonuç sağlar "
+"fakat süzgeç daha yavaş çalışır."
 
 #: src/menus/colors/tone-mapping/stress.xml:149(term)
 msgid "Enhance Shadows"
@@ -273,6 +299,8 @@ msgid ""
 "When enabled shadow regions are also enhanced; when disabled a more natural "
 "result is yielded."
 msgstr ""
+"Etkin olduğunda, gölge bölgeleri de iyileştirilir; devre dışı bırakıldığında "
+"daha doğal bir sonuç elde edilir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -314,6 +342,7 @@ msgstr ""
 "dikkat edin."
 
 #: src/menus/colors/tone-mapping/retinex.xml:55(para)
+#, fuzzy
 msgid ""
 "Retinex improves visual rendering of an image when lighting conditions are "
 "not good. While our eye can see colors correctly when light is low, cameras "
@@ -322,19 +351,32 @@ msgid ""
 "inspired by the eye biological mechanisms to adapt itself to these "
 "conditions. Retinex stands for Retina + cortex."
 msgstr ""
+"Retinex, aydınlatma koşullarının iyi olmadığı durumlarda görüntünün görsel "
+"olarak daha iyi işlenmesini sağlar. Gözümüz ışığın az olduğu durumlarda "
+"renkleri doğru şekilde görebilirken, kameralar ve video kameralar bunu pek "
+"iyi başaramaz. Retinex filtresinin temelini oluşturan MSRCR (Renk Geri "
+"Kazanımlı Çok Ölçekli Retinex) algoritması, bu koşullara uyum sağlamak için "
+"gözün biyolojik mekanizmalarından esinlenmiştir. Retinex, Retina + korteks "
+"anlamına gelir."
 
 #: src/menus/colors/tone-mapping/retinex.xml:63(para)
+#, fuzzy
 msgid ""
 "Besides digital photography, the Retinex algorithm is also used to make the "
 "information in astronomical photos visible and, in medicine, detect poorly "
 "visible structures in X-rays or scans."
 msgstr ""
+"Dijital fotoğrafçılığın yanı sıra, Retinex algoritması astronomik "
+"fotoğraflardaki bilgileri görünür hale getirmek ve tıpta röntgen veya "
+"taramalarda zor görünen yapıları tespit etmek için de kullanılır."
 
 #: src/menus/colors/tone-mapping/retinex.xml:69(para)
 msgid ""
 "This command only works on RGB images. If the image is Grayscale or Indexed, "
 "the menu entry is disabled."
 msgstr ""
+"Bu komut yalnızca RGB görüntülerde çalışır. Görüntü Gri Tonlamalı ya da "
+"İndeksli kipte ise menü girişi devre dışıdır."
 
 #: src/menus/colors/tone-mapping/retinex.xml:78(para)
 msgid ""
@@ -351,18 +393,24 @@ msgid "<quote>Retinex</quote> filter options"
 msgstr "<quote>Retinex</quote> süzgeci seçenekleri"
 
 #: src/menus/colors/tone-mapping/retinex.xml:99(para)
+#, fuzzy
 msgid ""
 "These options call for notions that only mathematicians and imagery "
 "engineers can understand. In actual practice, the user has to grope about "
 "for the best setting. However, the following explanations should help out "
 "the experienced GIMP user."
 msgstr ""
+"Bu seçenekler, yalnızca matematikçiler ve görüntü mühendislerinin "
+"anlayabileceği kavramları gerektirir. Gerçek uygulamada, kullanıcı en iyi "
+"ayarı bulmak için deneme yanılma yoluyla ilerlemek zorundadır. Ancak, "
+"aşağıdaki açıklamalar deneyimli GIMP kullanıcılarına yardımcı olacaktır."
 
 #: src/menus/colors/tone-mapping/retinex.xml:107(term)
 msgid "Level"
 msgstr "Düzey"
 
 #: src/menus/colors/tone-mapping/retinex.xml:109(para)
+#, fuzzy
 msgid ""
 "Here is what the plug-in author writes on his site <xref "
 "linkend=\"bibliography-online-plugin-retinex\"/>: <quote>To characterize "
@@ -372,51 +420,71 @@ msgid ""
 "minimum scale value (sigma 2.0) and the maximum (sigma equal to image size)</"
 "quote>."
 msgstr ""
+"Eklenti yazarı, <xref linkend=\"bibliography-online-plugin-retinex\"/> "
+"sitesinde şöyle yazıyor: <quote>Renk varyasyonlarını ve ışık kaynağını "
+"karakterize etmek için, farklı ölçeklerdeki (Gauss) filtre tepkileri "
+"arasında yoğunluk farkı yaratılır. Bu parametreler, minimum ölçek değeri "
+"(sigma 2.0) ile maksimum değer (sigma, görüntü boyutuna eşit) arasında "
+"değerlerin nasıl dağıtılacağını belirlemenizi sağlar</quote>."
 
 #: src/menus/colors/tone-mapping/retinex.xml:120(term)
 msgid "Uniform"
 msgstr "Birörnek"
 
 #: src/menus/colors/tone-mapping/retinex.xml:122(para)
+#, fuzzy
 msgid "Uniform tends to treat both low and high intensity areas equally."
 msgstr ""
+"Üniforma, düşük ve yüksek yoğunluklu alanları eşit şekilde ele alma "
+"eğilimindedir."
 
 #: src/menus/colors/tone-mapping/retinex.xml:129(term)
 msgid "Low"
 msgstr "Düşük"
 
 #: src/menus/colors/tone-mapping/retinex.xml:131(para)
+#, fuzzy
 msgid ""
 "As a rule of thumb, low does <quote>flare up</quote> the lower intensity "
 "areas on the image."
 msgstr ""
+"Genel bir kural olarak, düşük yoğunluklu alanlar görüntüde <quote>parlamaya "
+"neden</quote> olur."
 
 #: src/menus/colors/tone-mapping/retinex.xml:138(term)
 msgid "High"
 msgstr "Yüksek"
 
 #: src/menus/colors/tone-mapping/retinex.xml:140(para)
+#, fuzzy
 msgid ""
 "High tends to <quote>bury</quote> the lower intensity areas in favor of a "
 "better rendering of the clearer areas of the image."
 msgstr ""
+"Yüksek, görüntünün daha net alanlarının daha iyi işlenmesi için düşük "
+"yoğunluklu alanları <quote>gizleme</quote> eğilimindedir."
 
 #: src/menus/colors/tone-mapping/retinex.xml:151(term)
 msgid "Scale"
 msgstr "Ölçek"
 
 #: src/menus/colors/tone-mapping/retinex.xml:153(para)
+#, fuzzy
 msgid ""
 "Determines the depth of the Retinex scale. Minimum value is 16, a value "
 "providing rough, unrefined filtering. Maximum value is 250. Optimal and "
 "default value is 240."
 msgstr ""
+"Retinex ölçeğinin derinliğini belirler. Minimum değer 16'dır ve bu değer "
+"kaba, rafine edilmemiş filtreleme sağlar. Maksimum değer 250'dir. Optimum ve "
+"varsayılan değer 240'tır."
 
 #: src/menus/colors/tone-mapping/retinex.xml:161(term)
 msgid "Scale division"
 msgstr "Ölçek bölümü"
 
 #: src/menus/colors/tone-mapping/retinex.xml:163(para)
+#, fuzzy
 msgid ""
 "Determines the number of iterations in the multiscale Retinex filter. The "
 "minimum required, and the recommended value is three. Only one or two scale "
@@ -424,12 +492,17 @@ msgid ""
 "Retinex filtering. A value that is too high tends to introduce noise in the "
 "picture."
 msgstr ""
+"Çok ölçekli Retinex filtresinde yineleme sayısını belirler. Gerekli minimum "
+"ve önerilen değer üçtür. Yalnızca bir veya iki ölçek bölümü, çok ölçekli "
+"özelliği ortadan kaldırır ve tek ölçekli Retinex filtrelemeye geri döner. "
+"Çok yüksek bir değer, resimde gürültüye neden olma eğilimindedir."
 
 #: src/menus/colors/tone-mapping/retinex.xml:173(term)
 msgid "Dynamic"
 msgstr "Dinamik"
 
 #: src/menus/colors/tone-mapping/retinex.xml:175(para)
+#, fuzzy
 msgid ""
 "As the MSR algorithm tends to make the image lighter, this slider allows you "
 "to adjust color saturation contamination around the new average color. A "
@@ -437,6 +510,11 @@ msgid ""
 "you want to tweak for optimal results, because its effect is extremely image-"
 "dependent."
 msgstr ""
+"MSR algoritması görüntüyü daha açık hale getirme eğiliminde olduğundan, bu "
+"kaydırıcı yeni ortalama renk etrafındaki renk doygunluğu kontaminasyonunu "
+"ayarlamanıza olanak tanır. Daha yüksek bir değer, daha az renk doygunluğu "
+"anlamına gelir. Etkisi görüntüye son derece bağlı olduğundan, optimum "
+"sonuçlar için kesinlikle ayarlamak isteyeceğiniz parametre budur."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -470,28 +548,43 @@ msgid "<quote>Reinhard 2005</quote> tone mapping example"
 msgstr "<quote>Reinhard 2005</quote> ton eşlem örneği"
 
 #: src/menus/colors/tone-mapping/reinhard.xml:47(para)
+#, fuzzy
 msgid ""
 "This filter can be used to adapt an image, which may have a high dynamic "
 "range (HDR), for presentation using a low dynamic range. This is an "
 "efficient global operator derived from simple physiological observations, "
 "producing luminance within the range 0.0-1.0."
 msgstr ""
+"Bu filtre, yüksek dinamik aralığa (HDR) sahip bir görüntüyü düşük dinamik "
+"aralık kullanılarak sunum için uyarlamak için kullanılabilir. Bu, basit "
+"fizyolojik gözlemlerden türetilen, 0,0-1,0 aralığında parlaklık üreten "
+"verimli bir global operatördür."
 
 #: src/menus/colors/tone-mapping/reinhard.xml:53(para)
+#, fuzzy
 msgid ""
 "This tonemapping approach was originally presented by Reinhard, E. and "
 "Devlin, K. (2005). <quote>Dynamic range reduction inspired by photoreceptor "
 "physiology.</quote> In: IEEE Transactions on Visualization and Computer "
 "Graphics, 11(1) (2005), pp. 13–24."
 msgstr ""
+"Bu ton eşleme yaklaşımı ilk olarak Reinhard, E. ve Devlin, K. (2005) "
+"tarafından sunulmuştur. <quote>Fotoreseptör fizyolojisinden esinlenen "
+"dinamik aralık azaltma.</quote> IEEE Transactions on Visualization and "
+"Computer Graphics, 11(1) (2005), s. 13–24."
 
 #: src/menus/colors/tone-mapping/reinhard.xml:60(para)
+#, fuzzy
 msgid ""
 "Although not as slow as the Fattal and Mantiuk filters, the Reinhard filter "
 "is not very fast on larger images. For finding the best settings for your "
 "image you could make a small relevant selection first and save that as a "
 "preset before using that for the whole image."
 msgstr ""
+"Fattal ve Mantiuk filtreleri kadar yavaş olmasa da, Reinhard filtresi büyük "
+"görüntülerde çok hızlı değildir. Görüntünüz için en iyi ayarları bulmak "
+"için, önce küçük bir seçim yapabilir ve bunu ön ayar olarak kaydedebilir, "
+"ardından tüm görüntü için kullanabilirsiniz."
 
 #: src/menus/colors/tone-mapping/reinhard.xml:71(para)
 msgid ""
@@ -563,20 +656,31 @@ msgid "<quote>Mantiuk 2006</quote> tone mapping example"
 msgstr "<quote>Mantiuk 2006</quote> ton eşlem örneği"
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:49(para)
+#, fuzzy
 msgid ""
 "This filter can be used to adapt an image, which may have a high dynamic "
 "range (HDR), for presentation using a low dynamic range. This operation "
 "constrains contrasts across multiple spatial frequencies, producing "
 "luminance within the range 0.0-1.0."
 msgstr ""
+"Bu filtre, yüksek dinamik aralığa (HDR) sahip bir görüntüyü düşük dinamik "
+"aralık kullanarak sunum için uyarlamak için kullanılabilir. Bu işlem, birden "
+"fazla uzamsal frekansta kontrastları sınırlayarak 0,0-1,0 aralığında "
+"parlaklık üretir."
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:55(para)
+#, fuzzy
 msgid ""
 "This tonemapping approach was originally presented by Rafał Mantiuk, Karol "
 "Myszkowski, Hans-Peter Seidel. <quote>A Perceptual Framework for Contrast "
 "Processing of High Dynamic Range Images (revised and extended version)</"
 "quote>. In: ACM Transactions on Applied Perception 3, 3 (2006), pp. 286-308."
 msgstr ""
+"Bu ton eşleme yaklaşımı ilk olarak Rafał Mantiuk, Karol Myszkowski ve Hans-"
+"Peter Seidel tarafından sunulmuştur. <quote>Yüksek Dinamik Aralık "
+"Görüntülerinin Kontrast İşlemesi için Algısal Çerçeve (gözden geçirilmiş ve "
+"genişletilmiş versiyon)</quote>. ACM Transactions on Applied Perception 3, 3 "
+"(2006), s. 286-308."
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:73(para)
 msgid ""
@@ -615,10 +719,12 @@ msgid "Detail"
 msgstr "Ayrıntı"
 
 #: src/menus/colors/tone-mapping/mantiuk.xml:126(para)
+#, fuzzy
 msgid ""
 "This parameter is not working and can be ignored. It will be removed in the "
 "future."
 msgstr ""
+"Bu parametre çalışmamaktadır ve göz ardı edilebilir. İleride kaldırılacaktır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -652,18 +758,25 @@ msgid "<quote>Fattal et al. 2002</quote> tone mapping example"
 msgstr "<quote>Fattal et al. 2002</quote> ton eşlem örneği"
 
 #: src/menus/colors/tone-mapping/fattal.xml:51(para)
+#, fuzzy
 msgid ""
 "This filter can be used to adapt an image, which may have a high dynamic "
 "range (HDR), for presentation using a low dynamic range. This operation "
 "reduces the magnitudes of local image gradients, producing luminance within "
 "the range 0.0-1.0."
 msgstr ""
+"Bu filtre, yüksek dinamik aralığa (HDR) sahip bir görüntüyü düşük dinamik "
+"aralık kullanılarak sunum için uyarlamak için kullanılabilir. Bu işlem, "
+"yerel görüntü gradyanlarının büyüklüklerini azaltarak 0,0-1,0 aralığında "
+"parlaklık üretir."
 
 #: src/menus/colors/tone-mapping/fattal.xml:57(para)
 msgid ""
 "This tonemapping approach was originally presented by Raanan Fattal, in the "
 "2002 SIGGRAPH paper: Gradient Domain High Dynamic Range Compression."
 msgstr ""
+"Bu ton eşleme yaklaşımı ilk olarak Raanan Fattal tarafından 2002 SIGGRAPH "
+"bildirisi Gradient Domain High Dynamic Range Compression’da sunulmuştur."
 
 #: src/menus/colors/tone-mapping/fattal.xml:72(para)
 msgid ""
@@ -700,8 +813,9 @@ msgid "Noise"
 msgstr "Gürültü"
 
 #: src/menus/colors/tone-mapping/fattal.xml:133(para)
+#, fuzzy
 msgid "Gradient threshold for lowering detail enhancement."
-msgstr ""
+msgstr "Ayrıntı geliştirmeyi azaltmak için renk geçişi eşiği"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -721,6 +835,7 @@ msgid "Destripe"
 msgstr "Çizgisizleştir"
 
 #: src/menus/colors/tone-mapping/destripe.xml:23(para)
+#, fuzzy
 msgid ""
 "It is used to remove vertical stripes caused by poor quality scanners. It "
 "works by adding a pattern that will interfere with the image, removing "
@@ -729,12 +844,21 @@ msgid ""
 "see stripes on the preview of an image that has none. And if pattern "
 "<quote>strength</quote>; is too high, your image will be striped."
 msgstr ""
+"Kalitesiz tarayıcıların neden olduğu dikey çizgileri gidermek için "
+"kullanılır. Görüntüye müdahale edecek bir desen ekleyerek çalışır ve ayar "
+"iyi ise çizgileri giderir. Bu <quote>negatif</quote> desen, görüntünün dikey "
+"öğelerinden hesaplanır, bu nedenle çizgisi olmayan bir görüntünün "
+"önizlemesinde çizgiler görürseniz şaşırmayın. Desen <quote>gücü</quote> çok "
+"yüksekse, görüntünüz çizgili olacaktır."
 
 #: src/menus/colors/tone-mapping/destripe.xml:32(para)
+#, fuzzy
 msgid ""
 "If, after a first pass, a stripe persists, rectangular-select it and apply "
 "filter again (all other selection type may worsen the result)."
 msgstr ""
+"İlk geçişten sonra bir şerit kalırsa, dikdörtgen şeklinde seçin ve filtreyi "
+"tekrar uygulayın (diğer tüm seçim türleri sonucu kötüleştirebilir)."
 
 #: src/menus/colors/tone-mapping/destripe.xml:41(para)
 msgid ""
@@ -751,30 +875,40 @@ msgid "<quote>Destripe</quote> filter options"
 msgstr "<quote>Çizgisizleştir</quote> süzgeci seçenekleri"
 
 #: src/menus/colors/tone-mapping/destripe.xml:66(para)
+#, fuzzy
 msgid ""
 "If checked, parameter setting results are interactively displayed in "
 "preview. Scroll bars allow you to move around the image."
 msgstr ""
+"İşaretlenirse, parametre ayar sonuçları ön izlemede etkileşimli "
+"görüntülenir. Kaydırma çubukları görüntüde hareket etmenizi sağlar."
 
 #: src/menus/colors/tone-mapping/destripe.xml:73(term)
 msgid "Create histogram"
 msgstr "Histogram oluştur"
 
 #: src/menus/colors/tone-mapping/destripe.xml:75(para)
+#, fuzzy
 msgid ""
 "This <quote>histogram </quote> is a black and white image showing the "
 "interference pattern more legibly."
 msgstr ""
+"Bu <quote>histogram, </quote> girişim desenini daha net gösteren siyah beyaz "
+"bir <quote>görüntüdür </quote>."
 
 #: src/menus/colors/tone-mapping/destripe.xml:82(term)
 msgid "Width"
 msgstr "Genişlik"
 
 #: src/menus/colors/tone-mapping/destripe.xml:84(para)
+#, fuzzy
 msgid ""
 "Slider and input box allow to set <quote>strength</quote> of filter (2-100): "
 "more than 60 is rarely necessary and may create artifacts."
 msgstr ""
+"Kaydırıcı ve giriş kutusu, filtrenin <quote>gücünü</quote> ayarlamaya olanak "
+"tanır (2-100): 60'tan fazla değer nadiren gereklidir ve artefaktlara neden "
+"olabilir."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/colors/tone-mapping/destripe.xml:0(None)

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-10-28 00:12+0300\n"
+"PO-Revision-Date: 2025-11-09 21:59+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -250,12 +250,17 @@ msgstr "Renk parlaklığını koru"
 
 #: src/menus/colors/components/mono-mixer.xml:90(para)
 #: src/menus/colors/components/channel-mixer.xml:97(para)
+#, fuzzy
 msgid ""
 "The mixing can result in an image where some of the colors are too light. "
 "This option lessens the luminosity of the color channels while keeping a "
 "good visual ratio between them. So, you can change the relative weight of "
 "the colors without changing the overall luminosity."
 msgstr ""
+"Karıştırma, bazı renklerin çok açık olduğu bir görüntüye neden olabilir. Bu "
+"seçenek, renk kanallarının parlaklığını azaltırken, aralarındaki görsel "
+"oranı korur. Böylece, genel parlaklığı değiştirmeden renklerin göreceli "
+"ağırlığını değiştirebilirsiniz."
 
 #: src/menus/colors/components/mono-mixer.xml:100(term)
 msgid "Red Channel Multiplier"
@@ -270,34 +275,47 @@ msgid "Blue Channel Multiplier"
 msgstr "Mavi kanal çarpanı"
 
 #: src/menus/colors/components/mono-mixer.xml:104(para)
+#, fuzzy
 msgid ""
 "Coefficient applied to each channel. Values range from -5.000 to 5.000. As "
 "default values are equal in the three channels, image is grayed out."
 msgstr ""
+"Her kanala uygulanan katsayı. Değerler -5.000 ile 5.000 arasında değişir. "
+"Öntanımlı değerler üç kanalda da eşit olduğundan, görüntü grileştirilir."
 
 #: src/menus/colors/components/mono-mixer.xml:114(title)
 msgid "Using Mono Mixer"
 msgstr "Mono Karıştırıcı Kullanımı"
 
 #: src/menus/colors/components/mono-mixer.xml:115(para)
+#, fuzzy
 msgid ""
 "When this filter is opened, the image preview turns to grayscale, but the "
 "image is still a RGB image with three channels, until the OK button is "
 "pressed."
 msgstr ""
+"Bu süzgeç açıldığında, görüntü önizlemesi gri tonlamaya dönüşür, ancak OK "
+"düğmesine basılana kadar görüntü hala üç kanallı bir RGB görüntüdür."
 
 #: src/menus/colors/components/mono-mixer.xml:121(title)
 msgid "Red: 100% Green: 50% Blue: 0%. Preserve Luminosity unchecked."
 msgstr ""
+"Kırmızı: %100, Yeşil: %50 Mavi: %0. Renk parlaklığını koru seçeneği "
+"işaretsiz."
 
 #: src/menus/colors/components/mono-mixer.xml:130(para)
+#, fuzzy
 msgid ""
 "In every square, pixels have been converted into a gray level equal to the "
 "value of the Red channel in the original image (The background has been "
 "painted with pink afterwards to make all squares visible)."
 msgstr ""
+"Her karede, pikseller orijinal görüntünün Kırmızı kanalının değerine eşit "
+"bir gri seviyesine dönüştürülmüştür (Arka plan, tüm karelerin görünür olması "
+"için sonradan pembe renkle boyanmıştır)."
 
 #: src/menus/colors/components/mono-mixer.xml:139(para)
+#, fuzzy
 msgid ""
 "Here is how the <guilabel>Preserve Luminosity</guilabel> works in the "
 "monochrome mode: <quote>For example, suppose the sliders were Red:75%, "
@@ -312,8 +330,23 @@ msgid ""
 "course, strange things happen when any of the sliders have large negative "
 "values.</quote> (from the plug-in author himself)."
 msgstr ""
+"<guilabel>Preserve Luminosity</guilabel> (Parlaklığı Koruma) özelliği tek "
+"renkli modda şu şekilde çalışır: <quote>Örneğin, kaydırıcıların Kırmızı: "
+"%75, Yeşil: %75, Mavi: %0 olduğunu varsayalım. <guilabel>Preserve Luminosity "
+"özelliği</guilabel> devre dışı bırakıldığında, sonuçta elde edilen resim 75%"
+"+75%+0% = %150 olacak ve gerçekten çok parlak olacaktır. R,G,B=127,100,80 "
+"değerine sahip bir piksel, her kanal için 127*0,75+100*0,75+80*0=170 olarak "
+"eşleştirilir. <guilabel>Parlaklığı Koruma özelliği</guilabel> "
+"etkinleştirildiğinde, kaydırıcılar her zaman %100'e eşit olacak şekilde "
+"ölçeklenir. Bu örnekte, ölçek değeri 1/(75%+75%+0%) veya 0,667'dir. "
+"Dolayısıyla piksel değerleri yaklaşık 113 olacaktır. Parlaklığı Koruma "
+"seçeneği, kaydırıcıların ölçek değerlerinin her zaman toplamda %100'e "
+"ulaşmasını sağlar. Elbette, kaydırıcılardan herhangi birinin büyük negatif "
+"değerlere sahip olması durumunda garip şeyler olur.</quote> (eklenti "
+"yazarından alıntı)."
 
 #: src/menus/colors/components/mono-mixer.xml:156(para)
+#, fuzzy
 msgid ""
 "<emphasis>Which channel should you modify?</emphasis> This depends on what "
 "you want to do. In principle, the Red channel suits contrast modifications "
@@ -321,6 +354,11 @@ msgid ""
 "channel to noise, grain changes. You can use the <link linkend=\"plug-in-"
 "decompose\">Decompose</link> command."
 msgstr ""
+"<emphasis>Hangi kanalı değiştirmelisiniz?</emphasis> Bu, ne yapmak "
+"istediğinize bağlıdır. Prensip olarak, Kırmızı kanal kontrast değişiklikleri "
+"için uygundur. Yeşil kanal ayrıntı değişiklikleri için, Mavi kanal ise "
+"gürültü ve gren değişiklikleri için uygundur. <link linkend=\"plug-in-"
+"decompose\">Decompose</link> komutunu kullanabilirsiniz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -357,6 +395,7 @@ msgid "Command <quote>Extract Component</quote> applied with default options."
 msgstr "<quote>Bileşen Çıkar</quote> komutu öntanımlı seçeneklerle uygulandı."
 
 #: src/menus/colors/components/extract-component.xml:45(para)
+#, fuzzy
 msgid ""
 "This command allows you to extract one specific color component from the "
 "current layer. This will be represented as a grayscale layer. It is similar "
@@ -364,6 +403,11 @@ msgid ""
 "extracts only one component and the effect is performed on the current layer "
 "instead of creating a new image."
 msgstr ""
+"Bu komut, geçerli katmandan belirli bir renk bileşenini ayıklamanızı sağlar. "
+"Bu, gri tonlamalı bir katman olarak gösterilir. <link linkend=\"plug-in-"
+"decompose\">Decompose</link> ile benzerdir, ancak yalnızca bir bileşeni "
+"ayıklar ve yeni bir görüntü oluşturmak yerine geçerli katman üzerinde efekt "
+"uygulanır."
 
 #: src/menus/colors/components/extract-component.xml:56(para)
 msgid ""
@@ -384,12 +428,17 @@ msgid "Component"
 msgstr "Bileşen"
 
 #: src/menus/colors/components/extract-component.xml:91(para)
+#, fuzzy
 msgid ""
 "Component to extract. Default is RGB Red: all layer pixels that have the red "
 "component in their color will be extracted to create gray pixels; gray pixel "
 "value is that of the red channel (e.g a 153;70;17 RGB pixel will give a "
 "153;153;153 gray pixel)."
 msgstr ""
+"Çıkarılacak bileşen. Öntanımlı değer RGB Kırmızıdır: renginde kırmızı "
+"bileşeni bulunan tüm katman pikselleri çıkarılır ve gri pikseller "
+"oluşturulur; gri piksel değeri kırmızı kanalın değeridir (örneğin, 153;70;17 "
+"RGB pikseli 153;153;153 gri piksel verir)."
 
 #: src/menus/colors/components/extract-component.xml:100(term)
 msgid "Invert component"
@@ -516,16 +565,22 @@ msgstr ""
 "ayrıştır</guilabel> seçeneği işaretli olarak uygulandı ."
 
 #: src/menus/colors/components/decompose.xml:76(para)
+#, fuzzy
 msgid ""
 "This command separates the channels (RGB, HSV, CMYK, etc.) of an image into "
 "separated images or layers."
 msgstr ""
+"Bu komut, bir görüntünün kanallarını (RGB, HSV, CMYK vb.) ayrı görüntülere "
+"veya katmanlara ayırır."
 
 #: src/menus/colors/components/decompose.xml:81(para)
+#, fuzzy
 msgid ""
 "This command only works on RGB images. If the image is Grayscale or Indexed, "
 "the menu entry is disabled."
 msgstr ""
+"Bu komut yalnızca RGB görüntülerde çalışır. Görüntü Gri Tonlamalı veya "
+"Dizinli ise, menü girişi devre dışı bırakılır."
 
 #: src/menus/colors/components/decompose.xml:90(para)
 msgid ""
@@ -546,10 +601,13 @@ msgid "Extract Channels"
 msgstr "Kanalları Çıkar"
 
 #: src/menus/colors/components/decompose.xml:113(para)
+#, fuzzy
 msgid ""
 "Following options are described with <link linkend=\"plug-in-decompose-to-"
 "layers\">Decompose to layers</link> checked."
 msgstr ""
+"Aşağıdaki seçenekler, \" <link linkend=\"plug-in-decompose-to-layers\">\" "
+"seçeneği \"</link> \" seçeneği işaretli olarak açıklanmaktadır."
 
 #: src/menus/colors/components/decompose.xml:119(term)
 msgid "Color model"
@@ -560,12 +618,16 @@ msgid "RGB"
 msgstr "RGB"
 
 #: src/menus/colors/components/decompose.xml:125(para)
+#, fuzzy
 msgid ""
 "If the RGB option is chosen, a gray level image is created with three layers "
 "(Red, Green and Blue), and two channels (Gray and Alpha)."
 msgstr ""
+"RGB seçeneği seçildiğinde, üç katman (Kırmızı, Yeşil ve Mavi) ve iki kanal "
+"(Gri ve Alfa) içeren bir gri tonlu görüntü oluşturulur."
 
 #: src/menus/colors/components/decompose.xml:130(para)
+#, fuzzy
 msgid ""
 "This function is interesting when using the Threshold tool. You can also "
 "perform operations like cutting, pasting or moving selections in a single "
@@ -574,24 +636,36 @@ msgid ""
 "<menuchoice><guimenu>Select</guimenu><guimenuitem>Save to a channel</"
 "guimenuitem></menuchoice> )."
 msgstr ""
+"Bu işlev, Eşik aracını kullanırken ilginçtir. Tek bir RGB kanalında kesme, "
+"yapıştırma veya seçimleri taşıma gibi işlemleri de gerçekleştirebilirsiniz. "
+"Çıkarılan gri tonlamalı katmanı, bir kanalda kaydederek seçim veya maske "
+"olarak kullanabilirsiniz (katmanın tamamını veya bir bölümünü seçin, "
+"ardından <menuchoice><guimenu>Seç</guimenu><guimenuitem>Kanal olarak kaydet</"
+"guimenuitem></menuchoice> seçeneğini kullanabilirsiniz)."
 
 #: src/menus/colors/components/decompose.xml:145(term)
 msgid "RGBA"
 msgstr "RGBA"
 
 #: src/menus/colors/components/decompose.xml:147(para)
+#, fuzzy
 msgid ""
 "If the RGBA option is chosen, an image is created similar to the RGB "
 "Decomposing with an additional Alpha layer filled with the transparency "
 "values of the source image. Fully transparent pixels are black and fully "
 "opaque pixels are white."
 msgstr ""
+"RGBA seçeneği seçilirse, kaynak görüntünün şeffaflık değerleriyle "
+"doldurulmuş ek bir Alfa katmanı ile RGB Ayrıştırma'ya benzer bir görüntü "
+"oluşturulur. Tamamen şeffaf pikseller siyah, tamamen opak pikseller ise "
+"beyazdır."
 
 #: src/menus/colors/components/decompose.xml:157(term)
 msgid "Alpha"
 msgstr "Alfa"
 
 #: src/menus/colors/components/decompose.xml:159(para)
+#, fuzzy
 msgid ""
 "This option extracts the image transparency stored in the Alpha channel in "
 "the <link linkend=\"gimp-channel-dialog\">Channels Dialog</link> in a "
@@ -599,18 +673,27 @@ msgid ""
 "pixels are white. The graytones are smooth transitions of the transparency "
 "in the source image."
 msgstr ""
+"Bu seçenek, Alfa kanalı ( <link linkend=\"gimp-channel-dialog\">) Kanalları "
+"Diyalog Penceresi</link> içinde depolanan görüntü şeffaflığını ayrı bir "
+"görüntüye çıkarır. Tamamen şeffaf pikseller siyah, tamamen opak pikseller "
+"beyazdır. Gri tonlar, kaynak görüntüdeki şeffaflığın yumuşak geçişleri "
+"şeklindedir."
 
 #: src/menus/colors/components/decompose.xml:170(term)
 msgid "HSV"
 msgstr "HSV"
 
 #: src/menus/colors/components/decompose.xml:172(para)
+#, fuzzy
 msgid ""
 "This option decomposes image into three grayscale layers, one for Hue, one "
 "for Saturation and another for Value."
 msgstr ""
+"Bu seçenek, görüntüyü üç gri tonlama katmanına ayırır: biri Ton, biri "
+"Doygunluk ve diğeri Değer için."
 
 #: src/menus/colors/components/decompose.xml:176(para)
+#, fuzzy
 msgid ""
 "Although <guilabel>Hue</guilabel> is grayscale, it does represent hues. In "
 "the color wheel, white and black are starting and arrival points and are "
@@ -618,73 +701,106 @@ msgid ""
 "intermediate levels are corresponding to intermediate hues on the wheel: "
 "dark gray to orange, mid gray to green and light gray to magenta."
 msgstr ""
+"<guilabel>Hue</guilabel> gri tonlamalı olsa da, renk tonlarını temsil eder. "
+"Renk çarkında beyaz ve siyah başlangıç ve bitiş noktalarıdır ve üst üste "
+"bindirilir. Çarkın üst kısmında kırmızı rengi temsil ederler. Gri ara "
+"seviyeler, çark üzerindeki ara renk tonlarına karşılık gelir: koyu griden "
+"turuncuya, orta griden yeşile ve açık griden macentaya."
 
 #: src/menus/colors/components/decompose.xml:185(para)
+#, fuzzy
 msgid ""
 "<guilabel>Saturation</guilabel> and <guilabel>Value</guilabel>: White is "
 "maximum Saturation (pure color) and maximum Value (very bright). Black is "
 "minimum Saturation (white) and minimum Value (black)."
 msgstr ""
+"<guilabel>Doygunluk</guilabel> ve <guilabel>Değer</guilabel>: Beyaz, "
+"maksimum Doygunluk (saf renk) ve maksimum Değer (çok parlak) değerine "
+"sahiptir. Siyah, minimum Doygunluk (beyaz) ve minimum Değer (siyah) değerine "
+"sahiptir."
 
 #: src/menus/colors/components/decompose.xml:193(term)
 msgid "HSL"
 msgstr "HSL"
 
 #: src/menus/colors/components/decompose.xml:195(para)
+#, fuzzy
 msgid ""
 "This option is similar to <guilabel>HSV</guilabel>. Instead of the "
 "<emphasis>V</emphasis>alue, the third layer contains the image's "
 "<emphasis>L</emphasis> component."
 msgstr ""
+"Bu seçenek <guilabel>HSV'ye</guilabel> benzer. <emphasis>Değer</"
+"emphasis>yerine, üçüncü katman görüntünün <emphasis>L</emphasis> bileşenini "
+"içerir."
 
 #: src/menus/colors/components/decompose.xml:203(term)
 msgid "CMYK"
 msgstr "CMYK"
 
 #: src/menus/colors/components/decompose.xml:205(para)
+#, fuzzy
 msgid ""
 "This option decomposes an image into four grayscale layers, one for Yellow, "
 "one for Magenta, one for Cyan, and one for Black."
 msgstr ""
+"Bu seçenek, bir görüntüyü dört gri tonlu katmana ayırır: biri Sarı, biri "
+"Macenta, biri Camgöbeği ve biri Siyah."
 
 #: src/menus/colors/components/decompose.xml:210(para)
+#, fuzzy
 msgid ""
 "This option can be useful to transfer an image into printing software with "
 "CMYK capabilities."
 msgstr ""
+"Bu seçenek, bir görüntüyü CMYK özellikli baskı yazılımına aktarmak için "
+"yararlı olabilir."
 
 #: src/menus/colors/components/decompose.xml:217(term)
 msgid "LAB"
 msgstr "LAB"
 
 #: src/menus/colors/components/decompose.xml:219(para)
+#, fuzzy
 msgid ""
 "This option decomposes image into three grayscale layers, layer <quote>L</"
 "quote> for Luminance, layer <quote>A</quote> for colors between green and "
 "red, layer <quote>B</quote> for colors between blue and yellow."
 msgstr ""
+"Bu seçenek görüntüyü üç gri tonlama katmanına ayırır: <quote>L</quote> "
+"katmanı parlaklık, <quote>A</quote> katmanı yeşil ve kırmızı arasındaki "
+"renkler, <quote>B</quote> katmanı mavi ve sarı arasındaki renkler içindir."
 
 #: src/menus/colors/components/decompose.xml:225(para)
+#, fuzzy
 msgid ""
 "The LAB Decomposing is a color model of the Luminance-Color family. A "
 "channel is used for the Luminosity while two other channels are used for the "
 "Colors. The LAB color model is used by Photoshop."
 msgstr ""
+"LAB Decomposing, Luminance-Color ailesinin bir renk modelidir. Bir kanal "
+"parlaklık için kullanılırken, diğer iki kanal renkler için kullanılır. LAB "
+"renk modeli Photoshop tarafından kullanılır."
 
 #: src/menus/colors/components/decompose.xml:234(term)
 msgid "LCH"
 msgstr "LCH"
 
 #: src/menus/colors/components/decompose.xml:236(para)
+#, fuzzy
 msgid ""
 "This option decomposes image into three grayscale layers, layer <quote>L</"
 "quote> for Luminance, layer <quote>C</quote> for Chroma, and layer <quote>H</"
 "quote> for Hue."
 msgstr ""
+"Bu seçenek, görüntüyü üç gri tonlama katmanına ayırır: <quote>L</quote> "
+"katmanı parlaklık, <quote>C</quote> katmanı renk yoğunluğu ve <quote>H</"
+"quote> katmanı renk tonu içindir."
 
 #: src/menus/colors/components/decompose.xml:241(para)
+#, fuzzy
 msgid "The LCH Decomposing is a color model of the Luminance-Color family."
-msgstr ""
+msgstr "LCH Ayrıştırma, Parlaklık-Renk ailesinin bir renk modelidir."
 
 #: src/menus/colors/components/decompose.xml:248(term)
 msgid "YCbCr ITU R470"
@@ -703,13 +819,18 @@ msgid "YCbCr ITU R709 256"
 msgstr "YCbCr ITU R709 256"
 
 #: src/menus/colors/components/decompose.xml:253(para)
+#, fuzzy
 msgid ""
 "In <acronym>GIMP</acronym> there are four YCbCr decompositions with "
 "different values. Each option decomposes an image in three grayscale layers, "
 "a layer for Luminance and the other two layers for blueness and redness."
 msgstr ""
+"<acronym>GIMP'te</acronym> farklı değerlere sahip dört YCbCr ayrıştırması "
+"vardır. Her seçenek, bir görüntüyü üç gri tonlama katmanına, bir katmanı "
+"parlaklık için ve diğer iki katmanı mavilik ve kırmızılık için ayrıştırır."
 
 #: src/menus/colors/components/decompose.xml:260(para)
+#, fuzzy
 msgid ""
 "The YCbCr color model, also called YUV, is now used for digital video "
 "(initially for PAL analog video). It's based on the idea that the human eye "
@@ -718,20 +839,29 @@ msgid ""
 "recommended by ITU (International Telecommunication Union) applied to the "
 "matrix."
 msgstr ""
+"YCbCr renk modeli, YUV olarak da bilinir ve şu anda dijital videoda "
+"(başlangıçta PAL analog videoda) kullanılmaktadır. Bu model, insan gözünün "
+"renklerden sonra parlaklığa en duyarlı olduğu fikrine dayanmaktadır. YCbCr "
+"Ayrıştırma, bir dönüşüm matrisi kullanır ve farklı seçenekler, matrise "
+"uygulanan ITU (Uluslararası Telekomünikasyon Birliği) tarafından önerilen "
+"farklı değerlerdir."
 
 #: src/menus/colors/components/decompose.xml:277(term)
-#, fuzzy
-#| msgid "Decomposed to layers"
 msgid "Decompose to layers"
-msgstr "Katmanlara ayrıştırılmış"
+msgstr "Katmanlarına ayrıştır"
 
 #: src/menus/colors/components/decompose.xml:279(para)
+#, fuzzy
 msgid ""
 "If this option is checked, a new grayscale image is created, with each layer "
 "representing one of the channels of the selected mode. If this option is "
 "unchecked, every channel is represented in its own image and clearly named "
 "in the name bar."
 msgstr ""
+"Bu seçenek işaretlendiğinde, seçilen modun kanallarından her birini temsil "
+"eden yeni bir gri tonlamalı görüntü oluşturulur. Bu seçenek "
+"işaretlenmediğinde, her kanal kendi görüntüsünde temsil edilir ve ad "
+"çubuğunda açıkça adlandırılır."
 
 #: src/menus/colors/components/decompose.xml:288(term)
 msgid "Foreground as registration color"
@@ -758,6 +888,7 @@ msgid "(Magenta and Yellow components omitted.)"
 msgstr "(Macenta ve Sarı bileşen çıkarılmıştır.)"
 
 #: src/menus/colors/components/decompose.xml:321(para)
+#, fuzzy
 msgid ""
 "This option is for specialists. It is related to CMYK printing. When "
 "checked, every pixel of the current foreground color will be black in each "
@@ -766,6 +897,12 @@ msgid ""
 "thin cross printed in registration black can also be used to check whether "
 "the printing plates are lined up."
 msgstr ""
+"Bu seçenek uzmanlar içindir. CMYK baskı ile ilgilidir. İşaretlendiğinde, "
+"mevcut ön plan renginin her pikseli, ayrıştırılmış görüntülerin/katmanların "
+"her bir bileşeninde siyah olacaktır. Bu, tüm kanallarda kırpma işaretlerini "
+"görünür hale getirerek hizalama için yararlı bir referans sağlar. Kayıt "
+"siyahında basılmış ince bir çarpı işareti de baskı plakalarının hizalanıp "
+"hizalanmadığını kontrol etmek için kullanılabilir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -846,11 +983,16 @@ msgid "<quote>Compose</quote> applied"
 msgstr "<quote>Düzenle</quote> uygulandı"
 
 #: src/menus/colors/components/compose.xml:42(para)
+#, fuzzy
 msgid ""
 "This command constructs an image from several grayscale images or layers, "
 "for instance from extracted RGB, HSV, etc. components. You can also build an "
 "image from grayscale images or layers created independently."
 msgstr ""
+"Bu komut, birkaç gri tonlamalı görüntü veya katmandan, örneğin çıkarılan "
+"RGB, HSV vb. bileşenlerden bir görüntü oluşturur. Ayrıca, bağımsız olarak "
+"oluşturulan gri tonlamalı görüntülerden veya katmanlardan bir görüntü "
+"oluşturabilirsiniz."
 
 #: src/menus/colors/components/compose.xml:51(para)
 msgid ""
@@ -873,11 +1015,15 @@ msgid "Compose Channels"
 msgstr "Kanalları Düzenle"
 
 #: src/menus/colors/components/compose.xml:77(para)
+#, fuzzy
 msgid ""
 "Here you can select the color space to be used: RGB, HSV, etc. The available "
 "options are described in the <link linkend=\"plug-in-decompose\">Decompose</"
 "link> command."
 msgstr ""
+"Burada kullanılacak renk alanını seçebilirsiniz: RGB, HSV vb. Mevcut "
+"seçenekler, <link linkend=\"plug-in-decompose\">Decompose</link> komutunda "
+"açıklanmaktadır."
 
 # Arayüzde çoğul kullanılmış
 #: src/menus/colors/components/compose.xml:86(term)
@@ -885,10 +1031,14 @@ msgid "Channel Representation"
 msgstr "Kanal Gösterimleri"
 
 #: src/menus/colors/components/compose.xml:88(para)
+#, fuzzy
 msgid ""
 "Allows you to select which layer or image will be used for each channel. You "
 "may use this option, for example, to exchange color channels:"
 msgstr ""
+"Her kanal için hangi katman veya görüntünün kullanılacağını seçmenizi "
+"sağlar. Bu seçeneği, örneğin renk kanallarını değiştirmek için "
+"kullanabilirsiniz:"
 
 #: src/menus/colors/components/compose.xml:94(title)
 msgid "Channel Representation example: exchange two channels"
@@ -899,10 +1049,13 @@ msgid "Decomposed to layers"
 msgstr "Katmanlara ayrıştırılmış"
 
 #: src/menus/colors/components/compose.xml:121(para)
+#, fuzzy
 msgid ""
 "Composed image after using Channel Representation to switch red and green "
 "channels"
 msgstr ""
+"Kanal Temsili kullanılarak kırmızı ve yeşil kanalları değiştirdikten sonra "
+"oluşturulan görüntü"
 
 #: src/menus/colors/components/compose.xml:126(para)
 msgid ""
@@ -916,12 +1069,17 @@ msgstr ""
 "unutmayın."
 
 #: src/menus/colors/components/compose.xml:136(para)
+#, fuzzy
 msgid ""
 "If you use different settings in Compose than when you used Decompose, for "
 "instance an image decomposed to <link linkend=\"glossary-rgb\">RGB</link> "
 "then re-composed to <link linkend=\"glossary-lab\">LAB</link>, you will get "
 "interesting color effects. Test it!"
 msgstr ""
+"Compose'da Decompose'da kullandığınızdan farklı ayarlar kullanırsanız, "
+"örneğin bir görüntü <link linkend=\"glossary-rgb\">RGB</link> olarak "
+"ayrıştırıldıktan sonra <link linkend=\"glossary-lab\">LAB</link> olarak "
+"yeniden birleştirilirse, ilginç renk efektleri elde edersiniz. Deneyin!"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -991,10 +1149,13 @@ msgid "<quote>Channel Mixer</quote> applied"
 msgstr "<quote>Kanal Karıştırıcı</quote> uygulandı"
 
 #: src/menus/colors/components/channel-mixer.xml:40(para)
+#, fuzzy
 msgid ""
 "This command combines values of the RGB channels. It works with images with "
 "or without an alpha channel."
 msgstr ""
+"Bu komut RGB kanallarının değerlerini birleştirir. Alfa kanalı olan veya "
+"olmayan görüntülerle çalışır."
 
 #: src/menus/colors/components/channel-mixer.xml:48(para)
 msgid ""
@@ -1023,73 +1184,106 @@ msgid "Blue Channel"
 msgstr "Mavi Kanal"
 
 #: src/menus/colors/components/channel-mixer.xml:85(para)
+#, fuzzy
 msgid ""
 "Each of these has three sliders, which set the contribution of the red, "
 "green and blue input channels in the output channel. The sliders go from -2 "
 "to 2. They represent the multiplication factor of the input channel that "
 "will be attributed to the output channel."
 msgstr ""
+"Bunların her birinde, çıkış kanalında kırmızı, yeşil ve mavi giriş "
+"kanallarının katkısını ayarlayan üç kaydırıcı bulunur. Kaydırıcılar -2 ile 2 "
+"arasında değişir. Bunlar, çıkış kanalına atanacak giriş kanalının çarpma "
+"faktörünü temsil eder."
 
 #: src/menus/colors/components/channel-mixer.xml:110(title)
 msgid "How does Channel Mixer work?"
 msgstr "Kanal Karıştırıcı nasıl çalışır?"
 
 #: src/menus/colors/components/channel-mixer.xml:111(para)
+#, fuzzy
 msgid ""
 "Each of the output channels is based on the values you set for the three RGB "
 "input channels. By default each output channel is based for 100% on the "
 "corresponding input channel. This is the one set to 1.0, and the others are "
 "set to 0.0. You can change each of the sliders from -2 to +2."
 msgstr ""
+"Her bir çıkış kanalı, üç RGB giriş kanalı için ayarladığınız değerlere "
+"dayanır. Öntanımlı olarak, her bir çıkış kanalı karşılık gelen giriş "
+"kanalına göre 100% on değerine dayanır. Bu, 1,0 olarak ayarlanan kanaldır ve "
+"diğerleri 0,0 olarak ayarlanmıştır. Her bir kaydırıcıyı -2 ile +2 arasında "
+"değiştirebilirsiniz."
 
 #: src/menus/colors/components/channel-mixer.xml:117(para)
+#, fuzzy
 msgid ""
 "The three RGB input sliders let you give a percentage to every channel. For "
 "every pixel in the image, the sum of the calculated values for every channel "
 "from these percentages will be given to the output channel. Here is an "
 "example:"
 msgstr ""
+"Üç RGB giriş kaydırıcısı, her kanala bir yüzde değeri vermenizi sağlar. "
+"Görüntüdeki her piksel için, bu yüzdelerden her kanal için hesaplanan "
+"değerlerin toplamı çıkış kanalına verilir. İşte bir örnek:"
 
 #: src/menus/colors/components/channel-mixer.xml:124(title)
 msgid "The original image and its channels"
 msgstr "Özgün görüntü ve kanalları"
 
 #: src/menus/colors/components/channel-mixer.xml:131(para)
+#, fuzzy
 msgid ""
 "RGB values of the pixels in red, green, blue, gray squares are displayed. "
 "The black rectangle is special, because black (0;0;0) is not affected by the "
 "command (0 multiplied by any percentage always gives 0). The result can't "
 "exceed 255 nor be negative."
 msgstr ""
+"Kırmızı, yeşil, mavi ve gri karelerdeki piksellerin RGB değerleri "
+"görüntülenir. Siyah dikdörtgen özeldir, çünkü siyah (0;0;0) komuttan "
+"etkilenmez (0 ile herhangi bir yüzde çarpıldığında sonuç her zaman 0 olur). "
+"Sonuç 255'i geçemez ve negatif olamaz."
 
 #: src/menus/colors/components/channel-mixer.xml:142(title)
 msgid "Output channel is red. Green Channel +50"
 msgstr "Çıktı kanalı kırmızı. Yeşil Kanal +50"
 
 #: src/menus/colors/components/channel-mixer.xml:149(para)
+#, fuzzy
 msgid ""
 "In the red square, the pixel values are 230;10;10. Relative values are "
 "1;0.5;0. The calculation result is 230*1 + 10*0,5 + 10*0 =235. The same "
 "reasoning is valid for the green and the blue squares."
 msgstr ""
+"Kırmızı karede piksel değerleri 230;10;10'dur. Göreceli değerler "
+"1;0,5;0'dır. Hesaplama sonucu 230*1 + 10*0,5 + 10*0 =235'tir. Aynı mantık "
+"yeşil ve mavi kareler için de geçerlidir."
 
 #: src/menus/colors/components/channel-mixer.xml:155(para)
+#, fuzzy
 msgid ""
 "In the gray square, which contains red color, the calculation result is "
 "above 255. It is reduced to 255. A negative value would be reduced to 0."
 msgstr ""
+"Kırmızı rengi içeren gri karede, hesaplama sonucu 255'in üzerindedir. 255'e "
+"indirgenir. Negatif bir değer 0'a indirgenir."
 
 #: src/menus/colors/components/channel-mixer.xml:164(title)
+#, fuzzy
 msgid ""
 "Output channel is red. Green Channel +50%. The Preserve Luminosity option is "
 "checked."
 msgstr ""
+"Çıkış kanalı kırmızıdır. Yeşil Kanal +%50. Parlaklığı Koruma seçeneği "
+"işaretlidir."
 
 #: src/menus/colors/components/channel-mixer.xml:174(para)
+#, fuzzy
 msgid ""
 "The values attributed to the Red Output channel are lower, preventing a too "
 "bright image."
 msgstr ""
+"Kırmızı Çıkış kanalına atanan değerler daha düşüktür, bu da görüntünün çok "
+"parlak olmasını önler."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/colors/components/channel-mixer.xml:0(None)

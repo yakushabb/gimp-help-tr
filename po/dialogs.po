@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-10-31 18:10+0000\n"
-"PO-Revision-Date: 2025-10-20 20:29+0300\n"
+"PO-Revision-Date: 2025-11-09 22:59+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -46,7 +46,7 @@ msgstr ""
 #: src/dialogs/welcome-dialog.xml:8(title)
 #: src/dialogs/welcome-dialog.xml:15(primary)
 msgid "Welcome Dialog"
-msgstr ""
+msgstr "Hoş Geldiniz İletişim Kutusu"
 
 #: src/dialogs/welcome-dialog.xml:11(primary)
 #: src/dialogs/undo-history-dialog.xml:15(primary)
@@ -90,7 +90,7 @@ msgstr "İletişim Kutuları"
 #: src/dialogs/welcome-dialog.xml:12(secondary)
 #: src/dialogs/welcome-dialog.xml:67(term)
 msgid "Welcome"
-msgstr ""
+msgstr "Hoş Geldiniz"
 
 #: src/dialogs/welcome-dialog.xml:18(para)
 msgid ""
@@ -103,7 +103,7 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:27(title)
 msgid "The Welcome Dialog"
-msgstr ""
+msgstr "Hoş Geldiniz İletişim Kutusu"
 
 #: src/dialogs/welcome-dialog.xml:36(title)
 #: src/dialogs/undo-history-dialog.xml:41(title)
@@ -161,7 +161,7 @@ msgstr ""
 #: src/dialogs/buffers-dialog.xml:144(title)
 #: src/dialogs/brushes-dialog.xml:45(title)
 msgid "Activating the Dialog"
-msgstr ""
+msgstr "İletişim Kutusunu Etkinleştirme"
 
 #: src/dialogs/welcome-dialog.xml:37(para)
 #: src/dialogs/undo-history-dialog.xml:47(para)
@@ -225,11 +225,11 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:83(term)
 msgid "Personalize"
-msgstr ""
+msgstr "Kişiselleştir"
 
 #: src/dialogs/welcome-dialog.xml:88(title)
 msgid "The Personalize page"
-msgstr ""
+msgstr "Kişiselleştir sayfası"
 
 #: src/dialogs/welcome-dialog.xml:96(para)
 msgid ""
@@ -251,7 +251,7 @@ msgstr ""
 #: src/dialogs/prefs-theme.xml:11(secondary)
 #: src/dialogs/prefs-theme.xml:14(primary)
 msgid "Theme"
-msgstr ""
+msgstr "Tema"
 
 #: src/dialogs/welcome-dialog.xml:111(para)
 msgid ""
@@ -263,7 +263,7 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:121(term)
 msgid "Color scheme"
-msgstr ""
+msgstr "Renk şeması"
 
 #: src/dialogs/welcome-dialog.xml:123(para)
 msgid ""
@@ -278,7 +278,7 @@ msgstr ""
 #: src/dialogs/prefs-icon-theme.xml:11(secondary)
 #: src/dialogs/prefs-icon-theme.xml:14(primary)
 msgid "Icon Theme"
-msgstr ""
+msgstr "Simge Teması"
 
 #: src/dialogs/welcome-dialog.xml:135(para)
 msgid ""
@@ -298,7 +298,7 @@ msgstr ""
 #: src/dialogs/welcome-dialog.xml:151(term)
 #: src/dialogs/prefs-icon-theme.xml:62(term)
 msgid "Use symbolic icons if available"
-msgstr ""
+msgstr "Oluyorsa, sembolik simgeleri kullan"
 
 #: src/dialogs/welcome-dialog.xml:153(para)
 msgid ""
@@ -315,7 +315,7 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:169(term)
 msgid "Icon Scaling"
-msgstr ""
+msgstr "Simge Ölçekleme"
 
 #: src/dialogs/welcome-dialog.xml:171(para)
 msgid "This group allows you to adjust the size of the icons."
@@ -323,7 +323,7 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:176(term)
 msgid "Override icon sizes set by theme"
-msgstr ""
+msgstr "Temaca ayarlanan simge boyutlarının üzerine yaz"
 
 #: src/dialogs/welcome-dialog.xml:178(para)
 msgid ""
@@ -334,7 +334,7 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:186(term)
 msgid "Icon sizes"
-msgstr ""
+msgstr "Simge boyutları"
 
 #: src/dialogs/welcome-dialog.xml:188(para)
 msgid ""
@@ -345,7 +345,7 @@ msgstr ""
 #: src/dialogs/welcome-dialog.xml:198(term)
 #: src/dialogs/prefs-theme.xml:80(term)
 msgid "Font Scaling"
-msgstr ""
+msgstr "Yazı Tipi Ölçekleme"
 
 #: src/dialogs/welcome-dialog.xml:200(para)
 msgid "This allows you to adjust the size of the fonts."
@@ -353,7 +353,7 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:205(term)
 msgid "Font sizes"
-msgstr ""
+msgstr "Yazı tipi boyutları"
 
 #: src/dialogs/welcome-dialog.xml:207(para)
 msgid ""
@@ -364,7 +364,7 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:219(term)
 msgid "GUI Language"
-msgstr ""
+msgstr "Arayüz Dili"
 
 #: src/dialogs/welcome-dialog.xml:221(para)
 msgid ""
@@ -375,7 +375,7 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:230(term)
 msgid "Additional Customizations"
-msgstr ""
+msgstr "Ek Özelleştirmeler"
 
 #: src/dialogs/welcome-dialog.xml:232(para)
 msgid ""
@@ -385,7 +385,7 @@ msgstr ""
 #: src/dialogs/welcome-dialog.xml:238(term)
 #: src/dialogs/prefs-image-window.xml:63(term)
 msgid "Merge menu and titlebar"
-msgstr ""
+msgstr "Menü ve başlık çubuğunu birleştir"
 
 #: src/dialogs/welcome-dialog.xml:240(para)
 #: src/dialogs/prefs-image-window.xml:65(para)
@@ -403,7 +403,7 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:253(term)
 msgid "Enable check for updates"
-msgstr ""
+msgstr "Güncellemeleri denetleyi etkinleştir"
 
 #: src/dialogs/welcome-dialog.xml:255(para)
 msgid ""
@@ -428,7 +428,7 @@ msgstr ""
 #: src/dialogs/welcome-dialog.xml:275(term)
 #: src/dialogs/prefs-toolbox.xml:106(term)
 msgid "Use tool groups"
-msgstr ""
+msgstr "Araç kümelerini kullan"
 
 #: src/dialogs/welcome-dialog.xml:277(para)
 msgid ""
@@ -445,7 +445,7 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:298(term)
 msgid "Contribute"
-msgstr ""
+msgstr "Katkı Ver"
 
 #: src/dialogs/welcome-dialog.xml:300(para)
 msgid ""
@@ -456,7 +456,7 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:320(term)
 msgid "Create"
-msgstr ""
+msgstr "Oluştur"
 
 #: src/dialogs/welcome-dialog.xml:322(para)
 msgid ""
@@ -490,7 +490,7 @@ msgstr ""
 
 #: src/dialogs/welcome-dialog.xml:361(term)
 msgid "Release Notes"
-msgstr ""
+msgstr "Sürüm Notları"
 
 #: src/dialogs/welcome-dialog.xml:363(para)
 msgid ""
@@ -598,16 +598,16 @@ msgstr ""
 
 #: src/dialogs/undo-history-dialog.xml:13(title)
 msgid "Undo History Dialog"
-msgstr ""
+msgstr "Geri Alma Geçmişi İletişim Kutusu"
 
 #: src/dialogs/undo-history-dialog.xml:16(secondary)
 #: src/dialogs/undo-history-dialog.xml:19(primary)
 msgid "Undo History"
-msgstr ""
+msgstr "Geri Alma Geçmişi"
 
 #: src/dialogs/undo-history-dialog.xml:23(title)
 msgid "The Undo History dialog"
-msgstr ""
+msgstr "Geri Alma Geçmişi iletişim kutusu"
 
 #: src/dialogs/undo-history-dialog.xml:31(para)
 msgid ""
@@ -705,7 +705,7 @@ msgstr ""
 
 #: src/dialogs/undo-history-dialog.xml:110(phrase)
 msgid "Undo"
-msgstr ""
+msgstr "Geri Al"
 
 #: src/dialogs/undo-history-dialog.xml:113(para)
 msgid ""
@@ -717,7 +717,7 @@ msgstr ""
 
 #: src/dialogs/undo-history-dialog.xml:134(phrase)
 msgid "Redo"
-msgstr ""
+msgstr "Yinele"
 
 #: src/dialogs/undo-history-dialog.xml:137(para)
 msgid ""
@@ -729,7 +729,7 @@ msgstr ""
 
 #: src/dialogs/undo-history-dialog.xml:158(phrase)
 msgid "Clear Undo History"
-msgstr ""
+msgstr "Geri Alma Geçmişini Temizle"
 
 #: src/dialogs/undo-history-dialog.xml:162(para)
 msgid ""

@@ -1,15 +1,23 @@
+# Turkish translation for gimp-help.
+# Copyright (C) 2025 gimp-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gimp-help package.
+#
+# Sabri Ünal <yakushabb@gmail.com>, 2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2025.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-Help 2.99.0\n"
+"Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-01 16:53+0000\n"
-"PO-Revision-Date: 2023-08-11 12:31-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-11-09 22:22+0300\n"
+"Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
+"Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.8\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -17,6 +25,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/menus/edit/units.png'; md5=1c58a2c43d6428321fff510fff3614fe"
 msgstr ""
+"@@image: 'images/menus/edit/units.png'; md5=1c58a2c43d6428321fff510fff3614fe"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -25,6 +34,8 @@ msgid ""
 "@@image: 'images/menus/edit/units-add-new.png'; "
 "md5=69b47a06b483be4e360c81eb3303b9c4"
 msgstr ""
+"@@image: 'images/menus/edit/units-add-new.png'; "
+"md5=69b47a06b483be4e360c81eb3303b9c4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -33,6 +44,8 @@ msgid ""
 "@@image: 'images/stock-icons/document-new.svg'; "
 "md5=06940851b3c5b383f3a345703f51728e"
 msgstr ""
+"@@image: 'images/stock-icons/document-new.svg'; "
+"md5=06940851b3c5b383f3a345703f51728e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -41,6 +54,8 @@ msgid ""
 "@@image: 'images/stock-icons/gimp-duplicate.svg'; "
 "md5=c4e41353df046752fe30ac926eac91f1"
 msgstr ""
+"@@image: 'images/stock-icons/gimp-duplicate.svg'; "
+"md5=c4e41353df046752fe30ac926eac91f1"
 
 #: src/menus/edit/units.xml:11(title) src/menus/edit/units.xml:17(primary)
 msgid "Units"
@@ -336,6 +351,8 @@ msgid ""
 "@@image: 'images/menus/edit/stroke-path.png'; "
 "md5=ee63fcbc800d5f8d3867b9dc5d66ca9d"
 msgstr ""
+"@@image: 'images/menus/edit/stroke-path.png'; "
+"md5=ee63fcbc800d5f8d3867b9dc5d66ca9d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -344,6 +361,8 @@ msgid ""
 "@@image: 'images/menus/edit/stroke-path-miter.png'; "
 "md5=26ddd02d429a59606df66e4d3ce05928"
 msgstr ""
+"@@image: 'images/menus/edit/stroke-path-miter.png'; "
+"md5=26ddd02d429a59606df66e4d3ce05928"
 
 #: src/menus/edit/stroke-path.xml:9(title)
 msgid "Stroke Paths"
@@ -822,6 +841,8 @@ msgid ""
 "@@image: 'images/menus/edit/paste-new-pattern.png'; "
 "md5=2317ed3c82db838d7b19d91c979473d8"
 msgstr ""
+"@@image: 'images/menus/edit/paste-new-pattern.png'; "
+"md5=2317ed3c82db838d7b19d91c979473d8"
 
 #: src/menus/edit/paste-as-pattern.xml:10(title)
 msgid "Paste as New Pattern"
@@ -1027,6 +1048,8 @@ msgid ""
 "@@image: 'images/menus/edit/paste-new-brush.png'; "
 "md5=ba7dcfe784dd4482aacbbafebaa60c95"
 msgstr ""
+"@@image: 'images/menus/edit/paste-new-brush.png'; "
+"md5=ba7dcfe784dd4482aacbbafebaa60c95"
 
 #: src/menus/edit/paste-as-brush.xml:10(title)
 msgid "Paste as New Brush"
@@ -1089,6 +1112,8 @@ msgid ""
 "@@image: 'images/menus/edit/module-manager-dialog.png'; "
 "md5=323a626b58725c8c4ee4c3e50e4dacd4"
 msgstr ""
+"@@image: 'images/menus/edit/module-manager-dialog.png'; "
+"md5=323a626b58725c8c4ee4c3e50e4dacd4"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1097,6 +1122,8 @@ msgid ""
 "@@image: 'images/menus/edit/module-manager-ex1.png'; "
 "md5=f52c3de87d82fe8f2afd1a7f94a0eb44"
 msgstr ""
+"@@image: 'images/menus/edit/module-manager-ex1.png'; "
+"md5=f52c3de87d82fe8f2afd1a7f94a0eb44"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1105,6 +1132,8 @@ msgid ""
 "@@image: 'images/menus/edit/module-manager-ex2.png'; "
 "md5=ed48c6b1da9bb8a271a870bd78d8a7bf"
 msgstr ""
+"@@image: 'images/menus/edit/module-manager-ex2.png'; "
+"md5=ed48c6b1da9bb8a271a870bd78d8a7bf"
 
 #: src/menus/edit/module-manager.xml:13(title)
 #: src/menus/edit/module-manager.xml:16(primary)
@@ -1241,6 +1270,8 @@ msgid ""
 "@@image: 'images/menus/edit/fill-selection-outline.png'; "
 "md5=96d797b7d70fff54dc25032abc02cc8d"
 msgstr ""
+"@@image: 'images/menus/edit/fill-selection-outline.png'; "
+"md5=96d797b7d70fff54dc25032abc02cc8d"
 
 #: src/menus/edit/fill-selection-outline.xml:8(title)
 #: src/menus/edit/fill-selection-outline.xml:11(primary)
@@ -1353,6 +1384,8 @@ msgid ""
 "@@image: 'images/menus/edit/fill-path-ex1.png'; "
 "md5=99d3a4f81c4c758d4c7809a0e6d81e0d"
 msgstr ""
+"@@image: 'images/menus/edit/fill-path-ex1.png'; "
+"md5=99d3a4f81c4c758d4c7809a0e6d81e0d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1361,6 +1394,8 @@ msgid ""
 "@@image: 'images/menus/edit/fill-path-ex2.png'; "
 "md5=6e8fbd7abe507f84ce0d23a37e30d4a4"
 msgstr ""
+"@@image: 'images/menus/edit/fill-path-ex2.png'; "
+"md5=6e8fbd7abe507f84ce0d23a37e30d4a4"
 
 #: src/menus/edit/fill-path.xml:8(title)
 #: src/menus/edit/fill-path.xml:11(primary)
@@ -1728,3 +1763,5 @@ msgstr ""
 #: src/menus/edit/buffer.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2025."

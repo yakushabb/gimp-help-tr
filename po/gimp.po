@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp-help master\n"
 "POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-09-19 13:51+0300\n"
+"PO-Revision-Date: 2025-11-09 22:53+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #: src/key-reference.xml:6(title)
 msgid "Keys and Mouse Reference"
@@ -316,7 +316,7 @@ msgstr "Panodan yapıştır"
 #: src/key-reference.xml:243(para)
 msgid ""
 "This creates a new layer that contains a copy of the clipboard's contents."
-msgstr ""
+msgstr "Bu, panonun içeriğinin kopyasını içeren yeni katman oluşturur."
 
 #: src/key-reference.xml:250(term)
 msgid ""
@@ -473,7 +473,6 @@ msgstr "Görünüm"
 msgid "Key reference for <guimenuitem>View</guimenuitem> menu"
 msgstr "<guimenuitem>Görünüm</guimenuitem> menüsü için tuş referansları"
 
-# İşletim sistemi anlamında değil.
 #: src/key-reference.xml:385(title)
 msgid "Window"
 msgstr "Pencere"
@@ -589,7 +588,7 @@ msgstr "Daralt ve Bük"
 
 #: src/key-reference.xml:479(para)
 msgid "This fits the window to the image size."
-msgstr "Görüntü penceresini görüntü gösterimi boyutuna küçült"
+msgstr "Görüntü penceresini görüntü gösterimi boyutuna küçült."
 
 #: src/key-reference.xml:486(term)
 msgid "<keycap function=\"control\">Ctrl</keycap>+ mouse wheel"
@@ -766,20 +765,18 @@ msgid "Duplicate layers"
 msgstr "Katmanları çoğalt"
 
 #: src/key-reference.xml:648(keycap)
-#, fuzzy
 #| msgid "Page&nbsp;Up"
 msgid "PageUp"
-msgstr "Page&nbsp;Up"
+msgstr "PageUp"
 
 #: src/key-reference.xml:651(para)
 msgid "Select the layers above"
 msgstr "Üstteki katmanı seç"
 
 #: src/key-reference.xml:656(keycap)
-#, fuzzy
 #| msgid "Page&nbsp;Down"
 msgid "PageDown"
-msgstr "Page&nbsp;Down"
+msgstr "PageDown"
 
 #: src/key-reference.xml:659(para)
 msgid "Select the layers below"
@@ -812,18 +809,13 @@ msgid "Anchor layer"
 msgstr "Katmanı çıpala"
 
 #: src/key-reference.xml:687(term)
-#, fuzzy
-#| msgid ""
-#| "<keycap function=\"shift\">Shift</keycap> + <keycap "
-#| "function=\"control\">Ctrl</keycap> + V"
 msgid ""
 "<keycap function=\"shift\">Shift</keycap> + <keycap "
 "function=\"control\">Ctrl</keycap> + O"
 msgstr ""
 "<keycap function=\"shift\">Shift</keycap> + <keycap "
-"function=\"control\">Ctrl</keycap> + V"
+"function=\"control\">Ctrl</keycap> + O"
 
-# Bu bilgi hatalı, raporlandı: https://gitlab.gnome.org/GNOME/gimp-help/-/issues/607
 #: src/key-reference.xml:692(para)
 msgid "Transform, Offset: shift the pixels in the layer"
 msgstr "Dönüştür, Ofset: katmandaki pikselleri kaydır"
@@ -1312,32 +1304,24 @@ msgid "Within a multi-tab dialog"
 msgstr "Çok sekmeli iletişim kutusu içinde"
 
 #: src/key-reference.xml:1092(term)
-#, fuzzy
-#| msgid ""
-#| "<keycap function=\"control\">Ctrl</keycap> + <keycap "
-#| "function=\"alt\">Alt</keycap> + Page&nbsp;Up"
 msgid ""
 "<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
 "keycap> + PageUp"
 msgstr ""
 "<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
-"keycap> + Page&nbsp;Up"
+"keycap> + PageUp"
 
 #: src/key-reference.xml:1097(para)
 msgid "Switch tabs up"
 msgstr "Yukarıdaki sekmeye geç"
 
 #: src/key-reference.xml:1103(term)
-#, fuzzy
-#| msgid ""
-#| "<keycap function=\"control\">Ctrl</keycap> + <keycap "
-#| "function=\"alt\">Alt</keycap> + Page&nbsp;Down"
 msgid ""
 "<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
 "keycap> + PageDown"
 msgstr ""
 "<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
-"keycap> + Page&nbsp;Down"
+"keycap> + PageDown"
 
 #: src/key-reference.xml:1108(para)
 msgid "Switch tabs down"
@@ -1769,10 +1753,8 @@ msgstr "GNU Görüntü İşleme Programı"
 
 #. TRANSLATORS: do not translate &gimp.app.version; and <?dbtimestamp?>
 #: src/gimp.xml:31(subtitle)
-#, fuzzy
-#| msgid "GIMP &gimp.app.version; User Manual, <?dbtimestamp?>"
 msgid "GIMP User Manual, <?dbtimestamp?>"
-msgstr "GIMP &gimp.app.version; Kullanıcı Kılavuzu, <?dbtimestamp?>"
+msgstr "GIMP Kullanıcı Kılavuzu, <?dbtimestamp?>"
 
 #. TRANSLATORS: do not translate <?dbtimestamp format="Y"?>
 #: src/gimp.xml:34(year)

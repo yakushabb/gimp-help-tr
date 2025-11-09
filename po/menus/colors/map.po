@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-10-28 20:44+0300\n"
+"PO-Revision-Date: 2025-11-09 22:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -58,24 +58,34 @@ msgid "The <quote>Set Colormap</quote> window"
 msgstr "<quote>Renk Eşlemi Ata</quote> penceresi"
 
 #: src/menus/colors/map/set-colormap.xml:27(para)
+#, fuzzy
 msgid ""
 "This command opens a dialog which allows you to select another palette to "
 "replace the color map of your indexed image. First click in the button with "
 "the name of the current palette (which is not the color map of your image "
 "yet) to open the Palette Selector:"
 msgstr ""
+"Bu komut, indeksli görüntünüzün renk haritasını değiştirmek için başka bir "
+"palet seçmenizi sağlayan bir iletişim kutusu açar. Önce, mevcut paletin "
+"adının yazılı olduğu düğmeye tıklayın (bu, henüz görüntünüzün renk haritası "
+"değildir) ve Palet Seçici'yi açın:"
 
 #: src/menus/colors/map/set-colormap.xml:34(title)
 msgid "The <quote>Palette Selection</quote> dialog"
 msgstr "<quote>Palet Seçimi</quote> iletişim kutusu"
 
 #: src/menus/colors/map/set-colormap.xml:42(para)
+#, fuzzy
 msgid ""
 "Choose the palette you want to use from this list and then click the "
 "<guibutton>Close</guibutton> button in that dialog, followed by the "
 "<guibutton>OK</guibutton> button in the <quote>Set Colormap</quote> dialog "
 "to replace the image colormap."
 msgstr ""
+"Bu listeden kullanmak istediğiniz paleti seçin ve ardından bu iletişim "
+"kutusundaki <guibutton>Kapat</guibutton> düğmesini tıklayın, ardından "
+"<quote>Renk Haritasını Ayarla</quote> iletişim kutusundaki <guibutton>Tamam</"
+"guibutton> düğmesini tıklayarak görüntünün renk haritasını değiştirin."
 
 #: src/menus/colors/map/set-colormap.xml:49(para)
 #: src/menus/colors/map/rearrange-colormap.xml:35(para)
@@ -207,10 +217,13 @@ msgid "Options of the <quote>Sample Colorize</quote> filter"
 msgstr "<quote>Örnek Renklendirme</quote> süzgeci seçenekleri"
 
 #: src/menus/colors/map/sample-colorize.xml:75(para)
+#, fuzzy
 msgid ""
 "The filter window is divided into two parts: Destination on the left, "
 "Sampling on the right."
 msgstr ""
+"Süzgeç penceresi iki bölüme ayrılmıştır: Sol tarafta Hedef, sağ tarafta "
+"Örnekleme."
 
 #: src/menus/colors/map/sample-colorize.xml:81(term)
 msgid "Destination"
@@ -221,12 +234,16 @@ msgid "Sample"
 msgstr "Örnek"
 
 #: src/menus/colors/map/sample-colorize.xml:84(para)
+#, fuzzy
 msgid ""
 "By default, displayed image previews reproduce the image you invoked the "
 "filter from."
 msgstr ""
+"Varsayılan olarak, görüntülenen resim ön izlemeleri, süzgeçyi çağırdığınız "
+"resmi yeniden üretir."
 
 #: src/menus/colors/map/sample-colorize.xml:88(para)
+#, fuzzy
 msgid ""
 "<guilabel>The sample</guilabel> can be the whole preview, or a selection of "
 "this preview. With the drop list, you can select another sample-image among "
@@ -238,8 +255,18 @@ msgid ""
 "allow you to select the gradient range that will be applied to the image or "
 "selection."
 msgstr ""
+"<guilabel>Örnek</guilabel>, ön izlemenin tamamı ya da bu ön izlemeden bir "
+"seçim olabilir. Açılır liste ile, süzgeçyi çağırdığınızda ekranınızda "
+"bulunan görüntülerin adları arasından başka bir örnek görüntü "
+"seçebilirsiniz. <guilabel>Degrade'den</guilabel> (ya da <guilabel>Ters "
+"Degrade'den) seçeneğini</guilabel> seçerseniz, Degrade Diyalog Penceresi'nde "
+"seçilen degrade (ya da tersi) örnek olacaktır. Bu, örnek ön izlemesinin "
+"altındaki degrade çubuğunda görüntülenecektir. Örnekleme ön izlemesi "
+"grileştirilir ve iki imleç, görüntüye ya da seçime uygulanacak gradyan "
+"aralığını seçmenize olanak tanır."
 
 #: src/menus/colors/map/sample-colorize.xml:100(para)
+#, fuzzy
 msgid ""
 "<guilabel>Destination</guilabel> is, by default, the source image. The drop "
 "list displays the list of images present on your screen when you evoked the "
@@ -247,15 +274,21 @@ msgid ""
 "selection in this image, it will be grayscale, else the whole preview will "
 "be grayscale."
 msgstr ""
+"Varsayılan olarak <guilabel>hedef</guilabel>, kaynak görüntüdür. Açılır "
+"liste, süzgeçyi çağırdığınızda ekranınızda bulunan görüntülerin listesini "
+"gösterir ve başka bir hedef görüntü seçmenize olanak tanır. Bu görüntüde bir "
+"seçim varsa, gri tonlamalı olur, aksi takdirde ön izlemenin tamamı gri "
+"tonlamalı olur."
 
 #: src/menus/colors/map/sample-colorize.xml:111(term)
 msgid "Show selection"
 msgstr "Seçimini göster"
 
 #: src/menus/colors/map/sample-colorize.xml:113(para)
+#, fuzzy
 msgid ""
 "This option toggles between the whole image and the selection, if it exists."
-msgstr ""
+msgstr "Bu seçenek, varsa tüm görüntü ile seçim arasında geçiş yapar."
 
 # Color kelimesi tekil olmasına rağmen arayüzde çoğul şekilde çevrilmiş. Arayüze uyumlu olacak çekilde çevrildi.
 #: src/menus/colors/map/sample-colorize.xml:120(term)
@@ -271,54 +304,73 @@ msgid "Input levels"
 msgstr "Girdi düzeyleri"
 
 #: src/menus/colors/map/sample-colorize.xml:130(para)
+#, fuzzy
 msgid ""
 "Three input boxes and three sliders allow to fix importance of dark tones, "
 "mid tones and light tones. Result appears interactively in destination "
 "preview."
 msgstr ""
+"Üç giriş kutusu ve üç kaydırıcı, koyu tonların, orta tonların ve açık "
+"tonların önemini sabitlemek için kullanılır. Sonuç, hedef ön izlemede "
+"etkileşimli olarak görünür."
 
 #: src/menus/colors/map/sample-colorize.xml:138(term)
 msgid "Output levels"
 msgstr "Çıktı düzeyleri"
 
 #: src/menus/colors/map/sample-colorize.xml:140(para)
+#, fuzzy
 msgid ""
 "Two input boxes and two sliders act the same: they limit the color range "
 "which will be applied to destination image. You can choose this range "
 "accurately. Result appears interactively in destination preview."
 msgstr ""
+"İki giriş kutusu ve iki kaydırıcı aynı şekilde çalışır: hedef görüntüye "
+"uygulanacak renk aralığını sınırlarlar. Bu aralığı doğru bir şekilde "
+"seçebilirsiniz. Sonuç, hedef ön izlemede etkileşimli olarak görünür."
 
 #: src/menus/colors/map/sample-colorize.xml:149(term)
 msgid "Hold intensity"
 msgstr "Yoğunluğu tut"
 
 #: src/menus/colors/map/sample-colorize.xml:151(para)
+#, fuzzy
 msgid ""
 "If this option is checked, the average light intensity of destination image "
 "will be the same as that of source image."
 msgstr ""
+"Bu seçenek işaretlendiğinde, hedef görüntünün ortalama ışık yoğunluğu kaynak "
+"görüntününkiyle aynı olacaktır."
 
 #: src/menus/colors/map/sample-colorize.xml:158(term)
 msgid "Original intensity"
 msgstr "Özgün yoğunluk"
 
 #: src/menus/colors/map/sample-colorize.xml:160(para)
+#, fuzzy
 msgid ""
 "If this option is checked, the In levels intensity settings will not be "
 "taken in account: original intensity will be preserved."
 msgstr ""
+"Bu seçenek işaretlendiğinde, Seviye yoğunluğu ayarları dikkate "
+"alınmayacaktır: orijinal yoğunluk korunacaktır."
 
 #: src/menus/colors/map/sample-colorize.xml:167(term)
 msgid "Get Sample Colors"
 msgstr "Örnek Renkler Al"
 
 #: src/menus/colors/map/sample-colorize.xml:169(para)
+#, fuzzy
 msgid ""
 "When you click on this button, the gradient bar below the sample preview "
 "displays colors of the sample. If your sample holds few colors, transitions "
 "may be abrupt. Check <guilabel>Smooth samples</guilabel> option to improve "
 "them."
 msgstr ""
+"Bu düğmeye tıkladığınızda, örnek ön izlemesinin altındaki gradyan çubuğu "
+"örneğin renklerini gösterir. Örneğinizde çok az renk varsa, geçişler ani "
+"olabilir. Bunları iyileştirmek için <guilabel>Örnekleri yumuşat</guilabel> "
+"seçeneğini işaretleyin."
 
 #: src/menus/colors/map/sample-colorize.xml:175(para)
 msgid ""
@@ -362,12 +414,17 @@ msgid "The <quote>Rearrange Colormap</quote> window"
 msgstr "<quote>Renk Eşlemini Yeniden Düzenle</quote> penceresi"
 
 #: src/menus/colors/map/rearrange-colormap.xml:28(para)
+#, fuzzy
 msgid ""
 "This command allows you to re-organize colors in the palette of "
 "<emphasis>indexed</emphasis> images. It doesn't modify the image. You can't "
 "add or remove colors; for that, see <link linkend=\"gimp-indexed-palette-"
 "dialog\">The Indexed Palette Dialog</link>."
 msgstr ""
+"Bu komut, <emphasis>indeksli</emphasis> görüntülerin paletindeki renkleri "
+"yeniden düzenlemenizi sağlar. Görüntüyü değiştirmez. Renk ekleyemez ya da "
+"kaldıramazsınız; bunun için <link linkend=\"gimp-indexed-palette-"
+"dialog\">İndeksli Palet İletişim Kutusu</link> bölümüne bakın."
 
 #: src/menus/colors/map/rearrange-colormap.xml:41(title)
 msgid "Activating the Dialog"
@@ -378,10 +435,6 @@ msgid "You can access this command in two ways:"
 msgstr "Bu komuta iki şekilde erişebilirsiniz:"
 
 #: src/menus/colors/map/rearrange-colormap.xml:47(para)
-#, fuzzy
-#| msgid ""
-#| "from the main menu: <menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-#| "guisubmenu><guimenuitem>Rearrange Colormap</guimenuitem></menuchoice>."
 msgid ""
 "from the main menu: <menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
 "guisubmenu><guimenuitem>Rearrange Colormap…</guimenuitem></menuchoice>."
@@ -391,11 +444,6 @@ msgstr ""
 "menuchoice> yoluyla."
 
 #: src/menus/colors/map/rearrange-colormap.xml:57(para)
-#, fuzzy
-#| msgid ""
-#| "from the <link linkend=\"gimp-indexed-palette-dialog\">Colormap Dialog</"
-#| "link> using the right-click context menu "
-#| "<menuchoice><guimenuitem>Rearrange Colormap</guimenuitem></menuchoice>."
 msgid ""
 "from the <link linkend=\"gimp-indexed-palette-dialog\">Colormap Dialog</"
 "link> using the right-click context menu <menuchoice><guimenuitem>Rearrange "
@@ -411,18 +459,27 @@ msgstr ""
 "<quote>Renk Haritasını Yeniden Düzenle</quote> iletişim kutusunu kullanma"
 
 #: src/menus/colors/map/rearrange-colormap.xml:70(para)
+#, fuzzy
 msgid ""
 "You can drag and drop colors using the mouse to rearrange the colormap. You "
 "can sort colors based on Hue, Saturation and Value by using the buttons. You "
 "can also reverse or reset the order of the colors."
 msgstr ""
+"Renk haritasını yeniden düzenlemek için fareyi kullanarak renkleri "
+"sürükleyip bırakabilirsiniz. Düğmeleri kullanarak renkleri Ton, Doygunluk ve "
+"Değer'e göre sıralayabilirsiniz. Renklerin sırasını tersine çevirebilir ya "
+"da sıfırlayabilirsiniz."
 
 #: src/menus/colors/map/rearrange-colormap.xml:76(para)
+#, fuzzy
 msgid ""
 "Another way to sort a colormap is by using the <link linkend=\"gimp-palette-"
 "sort\">Sort Palette…</link> context menu command available in the <link "
 "linkend=\"gimp-palette-dialog\">Palettes Dialog</link>."
 msgstr ""
+"Renk haritasını sıralamanın bir başka yolu da, <link linkend=\"gimp-palette-"
+"sort\">Sort Palette…</link> bağlam menüsü komutunu kullanmaktır. Bu komut, "
+"<link linkend=\"gimp-palette-dialog\">Palettes Dialog</link> içinde bulunur."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -456,13 +513,18 @@ msgid "Map"
 msgstr "Eşlem"
 
 #: src/menus/colors/map/palettemap.xml:19(para)
+#, fuzzy
 msgid ""
 "This plug-in recolors the image using colors from the active palette that "
 "you choose in the <link linkend=\"gimp-palette-dialog\">Palettes dialog</"
 "link>."
 msgstr ""
+"Bu eklenti, <link linkend=\"gimp-palette-dialog\">Palettes ( Paletleri) "
+"iletişim kutusunda seçtiğiniz etkin paletin renklerini kullanarak görüntünün "
+"renklerini yeniden düzenler</link>."
 
 #: src/menus/colors/map/palettemap.xml:24(para)
+#, fuzzy
 msgid ""
 "It maps the contents of the specified drawable (layer, selection, etc.) with "
 "the active palette. It calculates luminosity of each pixel and replaces the "
@@ -471,6 +533,11 @@ msgid ""
 "highest. Works on both Grayscale and RGB images with or without alpha "
 "channel."
 msgstr ""
+"Belirtilen çizilebilir öğenin (katman, seçim vb.) içeriğini etkin paletle "
+"eşler. Her pikselin parlaklığını hesaplar ve pikseli karşılık gelen "
+"dizindeki palet örneğiyle değiştirir. Tamamen siyah piksel en düşük palet "
+"girişi, tamamen beyaz ise en yüksek palet girişi olur. Alfa kanalı olan ya "
+"da olmayan gri tonlamalı ve RGB görüntülerde çalışır."
 
 # İletişim kutusu açmadığı için son menü ögesinde üç nokta yok.
 #: src/menus/colors/map/palettemap.xml:36(para)
@@ -488,14 +555,16 @@ msgid "Example"
 msgstr "Örnek"
 
 #: src/menus/colors/map/palettemap.xml:49(title)
+#, fuzzy
 msgid "The active palette is applied to a gradient image"
-msgstr ""
+msgstr "Aktif palet, degrade görüntüsüne uygulanır."
 
 #: src/menus/colors/map/palettemap.xml:56(para)
 msgid "The current palette, with 18 colors"
 msgstr "Geçerli palet, 18 renk ile"
 
 #: src/menus/colors/map/palettemap.xml:67(para)
+#, fuzzy
 msgid ""
 "The colors of the active palette are applied to a black to white gradient. "
 "The color with the lowest index in the palette (orange) replaces the black "
@@ -503,6 +572,10 @@ msgid ""
 "replaces the white color in the gradient. The other colors spread out in the "
 "order of the palette."
 msgstr ""
+"Etkin paletin renkleri siyahdan beyaza doğru bir gradyana uygulanır. Palette "
+"en düşük indekse sahip renk (turuncu) gradyanın siyah rengini değiştirir. "
+"Palette en yüksek indekse sahip renk (kırmızı) gradyanın beyaz rengini "
+"değiştirir. Diğer renkler paletin sırasına göre yayılır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -525,13 +598,18 @@ msgid "Example of gradient map"
 msgstr "Renk geçişi eşlemi örneği"
 
 #: src/menus/colors/map/gradientmap.xml:35(para)
+#, fuzzy
 msgid ""
 "Example of Gradient Mapping. Top: Original image. Middle: a gradient. "
 "Bottom: result of applying the gradient to the original image with the "
 "Gradient Map filter."
 msgstr ""
+"Degrade Eşleme Örneği. Üst: Orijinal görüntü. Ortada: bir degrade. Alt: "
+"Degrade Eşleme süzgeçsi ile orijinal görüntüye degrade uygulandığında elde "
+"edilen sonuç."
 
 #: src/menus/colors/map/gradientmap.xml:43(para)
+#, fuzzy
 msgid ""
 "This filter uses the current gradient, as shown in the Brush/Pattern/"
 "Gradient area of the Toolbox, to recolor the active layer or selection of "
@@ -544,6 +622,16 @@ msgid ""
 "lightest pixels to the right end color from the gradient. Intermediate "
 "values are set to the corresponding intermediate colors."
 msgstr ""
+"Bu süzgeç, Araç Kutusu'nun Fırça/Desen/Degrade alanında gösterildiği gibi "
+"mevcut degradeyi kullanarak, süzgeçnin uygulandığı görüntünün etkin "
+"katmanını ya da seçimini yeniden renklendirir. Kullanmak için önce <link "
+"linkend=\"gimp-gradient-dialog\">Degrade Diyalog Penceresi</link>'den bir "
+"degrade seçin. Ardından, değiştirmek istediğiniz görüntünün bölümünü seçin "
+"ve süzgeçyi etkinleştirin. Süzgeç, herhangi bir iletişim kutusu göstermeden "
+"ya da başka bir girdi gerektirmeden otomatik olarak çalışır. Görüntü renk "
+"yoğunluklarını (0 - 255) kullanır, en koyu pikselleri gradyanın sol uç "
+"rengiyle, en açık pikselleri ise gradyanın sağ uç rengiyle eşleştirir. Ara "
+"değerler, karşılık gelen ara renklere ayarlanır."
 
 # İletişim kutusu açmadığı için son menü ögesinde üç nokta yok.
 #: src/menus/colors/map/gradientmap.xml:61(para)
@@ -620,17 +708,23 @@ msgid "<quote>Rotate Colors</quote> filter example"
 msgstr "<quote>Renkleri Döndür</quote> süzgeci örneği"
 
 #: src/menus/colors/map/color-rotate.xml:33(para)
+#, fuzzy
 msgid ""
 "Filter <quote>Rotate Colors</quote> applied; the blue color of the sky is "
 "within the source range and gets converted to the orange color in the "
 "destination range"
 msgstr ""
+"Süzgeç <quote>Renkleri Döndür</quote> uygulandı; gökyüzünün mavi rengi "
+"kaynak aralığı içinde ve hedef aralığındaki turuncu renge dönüştürülüyor."
 
 #: src/menus/colors/map/color-rotate.xml:41(para)
+#, fuzzy
 msgid ""
 "Colormap Rotation lets you exchange one color range (the Source Range) to "
 "another range (the Destination Range)."
 msgstr ""
+"Renk Haritası Döndürme, bir renk aralığını (Kaynak Aralık) başka bir aralığa "
+"(Hedef Aralık) dönüştürmenizi sağlar."
 
 #: src/menus/colors/map/color-rotate.xml:49(para)
 msgid ""
@@ -685,39 +779,49 @@ msgid "Destination Range"
 msgstr "Hedef Erimi"
 
 #: src/menus/colors/map/color-rotate.xml:86(para)
+#, fuzzy
 msgid ""
 "Both source and destination range have a color wheel range selection circle. "
 "You can drag both arrow handles to the color location you want. They "
 "correspond to the <guilabel>From</guilabel> and <guilabel>To</guilabel> "
 "sliders listed below."
 msgstr ""
+"Hem kaynak hem de hedef aralığı bir renk tekerleği aralığı seçim çemberine "
+"sahiptir. Her iki ok tutamacını da istediğiniz renk konumuna "
+"sürükleyebilirsiniz. Bunlar, aşağıda listelenen <guilabel>Kaynak</guilabel> "
+"ve <guilabel>Hedef</guilabel> kaydırıcılarına karşılık gelir."
 
 #: src/menus/colors/map/color-rotate.xml:94(term)
 msgid "From"
 msgstr "Şundan"
 
 #: src/menus/colors/map/color-rotate.xml:96(para)
+#, fuzzy
 msgid ""
 "The angle of the starting position of the color range on the color wheel."
-msgstr ""
+msgstr "Renk çarkındaki renk aralığının başlangıç konumunun açısı."
 
 #: src/menus/colors/map/color-rotate.xml:103(term)
 msgid "To"
 msgstr "Şuna"
 
 #: src/menus/colors/map/color-rotate.xml:105(para)
+#, fuzzy
 msgid "The angle of the ending position of the color range on the color wheel."
-msgstr ""
+msgstr "Renk çarkındaki renk aralığının bitiş konumunun açısı."
 
 #: src/menus/colors/map/color-rotate.xml:112(term)
 msgid "Clockwise"
 msgstr "Saat yönünde"
 
 #: src/menus/colors/map/color-rotate.xml:114(para)
+#, fuzzy
 msgid ""
 "When checked the range from start to end is computed clockwise, else counter-"
 "clockwise (default)."
 msgstr ""
+"İşaretlendiğinde, başlangıçtan sona kadar olan aralık saat yönünde "
+"hesaplanır, aksi takdirde saat yönünün tersinde hesaplanır (varsayılan)."
 
 #: src/menus/colors/map/color-rotate.xml:121(term)
 msgid "Invert Range"
@@ -745,31 +849,44 @@ msgid "Gray Handling"
 msgstr "Gri İşleme"
 
 #: src/menus/colors/map/color-rotate.xml:144(para)
+#, fuzzy
 msgid ""
 "In this section, you can specify how to treat gray. By default, gray is not "
 "considered as a color and is not taken in account by the rotation. Here, you "
 "can convert slightly saturated colors into gray and you can also convert "
 "gray into a color depending on the settings below."
 msgstr ""
+"Bu bölümde, grinin nasıl işleneceğini belirtebilirsiniz. Varsayılan olarak, "
+"gri bir renk olarak kabul edilmez ve döndürme işleminde dikkate alınmaz. "
+"Burada, hafif doygun renkleri griye dönüştürebilir ve aşağıdaki ayarlara "
+"bağlı olarak griyi bir renge dönüştürebilirsiniz."
 
 #: src/menus/colors/map/color-rotate.xml:151(para)
+#, fuzzy
 msgid ""
 "The small circle in the color wheel adjusts the Hue and Saturation that will "
 "be used to select the color that represents gray. They correspond to the "
 "<guilabel>Hue</guilabel> and <guilabel>Saturation</guilabel> sliders listed "
 "below."
 msgstr ""
+"Renk çarkındaki küçük daire, griyi temsil eden rengi seçmek için "
+"kullanılacak Ton ve Doygunluğu ayarlar. Bunlar, aşağıda listelenen "
+"<guilabel>Ton</guilabel> ve <guilabel>Doygunluk</guilabel> kaydırıcılarına "
+"karşılık gelir."
 
 #: src/menus/colors/map/color-rotate.xml:159(term)
 msgid "Gray threshold"
 msgstr "Gri eşik"
 
 #: src/menus/colors/map/color-rotate.xml:161(para)
+#, fuzzy
 msgid ""
 "This slider selects which colors will be treated as gray. Colors with a "
 "Saturation less than this value will be converted to the selected \"gray\" "
 "color."
 msgstr ""
+"Bu kaydırıcı, hangi renklerin gri olarak işleneceğini seçer. Doygunluğu bu "
+"değerden düşük olan renkler, seçilen \"gri\" renge dönüştürülür."
 
 #: src/menus/colors/map/color-rotate.xml:169(term)
 msgid "Gray mode"
@@ -798,40 +915,57 @@ msgid "Examples using Gray Handling"
 msgstr "Gri İşleme kullanım örnekleri"
 
 #: src/menus/colors/map/color-rotate.xml:204(para)
+#, fuzzy
 msgid ""
 "Using the same example as at the top of this page, but now with the "
 "following gray handling settings used: Gray threshold 0.340, Hue 220.0, "
 "Saturation 0.75."
 msgstr ""
+"Bu sayfanın üst kısmındaki örnekle aynı örneği kullanarak, ancak şimdi "
+"aşağıdaki gri işleme ayarları kullanılarak: Gri eşik 0,340, Ton 220,0, "
+"Doygunluk 0,75."
 
 #: src/menus/colors/map/color-rotate.xml:210(para)
+#, fuzzy
 msgid ""
 "If you want gray instead of a different color, you should leave Hue and "
 "Saturation at 0."
 msgstr ""
+"Farklı bir renk yerine gri istiyorsanız, Ton ve Doygunluk değerlerini 0 "
+"olarak bırakmalısınız."
 
 #: src/menus/colors/map/color-rotate.xml:216(title)
 msgid "<quote>Rotate Colors</quote> filter examples for gray handling"
 msgstr "Gri işleme için <quote>Renkleri Döndür</quote> süzgeci örnekleri"
 
 #: src/menus/colors/map/color-rotate.xml:223(para)
+#, fuzzy
 msgid ""
 "Gray mode set to <guilabel>Treat as this</guilabel>: any color with a "
 "Saturation below 0.34 will be converted to orange because the selected blue "
 "Hue, Saturation in the source range rotates to orange in the destination "
 "range."
 msgstr ""
+"Gri modu <guilabel>şu şekilde ayarlayın</guilabel>: Doygunluğu 0,34'ün "
+"altında olan tüm renkler turuncuya dönüştürülecektir, çünkü seçilen mavi "
+"Ton, kaynak aralığındaki Doygunluk hedef aralığında turuncuya dönüşür."
 
 #: src/menus/colors/map/color-rotate.xml:237(para)
+#, fuzzy
 msgid ""
 "Gray mode set to <guilabel>Change to this</guilabel>: the rotation is now "
 "ignored and the color is picked directly based on the chosen Hue and "
 "Saturation."
 msgstr ""
+"Gri modu <guilabel>şu şekilde değiştirin</guilabel>: artık döndürme yok "
+"sayılır ve renk, seçilen Ton ve Doygunluk değerlerine göre doğrudan seçilir."
 
 #: src/menus/colors/map/color-rotate.xml:250(para)
+#, fuzzy
 msgid "Saturation and Hue set to 0 turns anything below the threshold to gray."
 msgstr ""
+"Doygunluk ve Ton 0 olarak ayarlandığında, eşik değerinin altındaki her şey "
+"griye dönüşür."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -867,12 +1001,17 @@ msgid "<quote>Color Exchange</quote> filter example"
 msgstr "<quote>Renk Değişimi</quote> süzgeci örneği"
 
 #: src/menus/colors/map/color-exchange.xml:37(para)
+#, fuzzy
 msgid ""
 "Filter applied with <guilabel>From color</guilabel> RGB (122, 149, 199), "
 "<guilabel>To color</guilabel> RGB (255, 0, 0), <guilabel>Red threshold</"
 "guilabel> 0.106, <guilabel>Green threshold</guilabel> 0.100, <guilabel>Blue "
 "threshold</guilabel> 0.190."
 msgstr ""
+"Süzgeç, <guilabel>Başlangıç rengi</guilabel> RGB (122, 149, 199), "
+"<guilabel>Bitiş rengi</guilabel> RGB (255, 0, 0), <guilabel>Kırmızı eşik</"
+"guilabel> 0,106, <guilabel>Yeşil eşik</guilabel> 0,100, <guilabel>Mavi eşik</"
+"guilabel> 0,190 değerleriyle uygulanmıştır."
 
 #: src/menus/colors/map/color-exchange.xml:47(para)
 msgid "This filter replaces a color with another one."
@@ -897,22 +1036,30 @@ msgid "From color"
 msgstr "Renkten"
 
 #: src/menus/colors/map/color-exchange.xml:87(para)
+#, fuzzy
 msgid ""
 "This is the color you want to replace. To choose a color you can either use "
 "the color button to open the Color Picker dialog, or you can use the Color "
 "Picker tool to pick a color from your image."
 msgstr ""
+"Bu, değiştirmek istediğiniz renktir. Bir renk seçmek için renk düğmesini "
+"kullanarak Renk Seçici iletişim kutusunu açabilir ya da Renk Seçici aracını "
+"kullanarak görüntünüzden bir renk seçebilirsiniz."
 
 #: src/menus/colors/map/color-exchange.xml:95(term)
 msgid "To color"
 msgstr "Renge"
 
 #: src/menus/colors/map/color-exchange.xml:97(para)
+#, fuzzy
 msgid ""
 "This is the new color you want to use. To choose a color you can either use "
 "the color button to open the Color Picker dialog, or you can use the Color "
 "Picker tool to pick a color from your image."
 msgstr ""
+"Bu, kullanmak istediğiniz yeni renktir. Bir renk seçmek için renk düğmesini "
+"kullanarak Renk Seçici iletişim kutusunu açabilir ya da Renk Seçici aracını "
+"kullanarak görüntünüzden bir renk seçebilirsiniz."
 
 #: src/menus/colors/map/color-exchange.xml:105(term)
 msgid "Red Threshold"
@@ -927,11 +1074,16 @@ msgid "Blue Threshold"
 msgstr "Mavi eşik"
 
 #: src/menus/colors/map/color-exchange.xml:109(para)
+#, fuzzy
 msgid ""
 "These sliders allow you to set how sensitive the red, green and blue "
 "components are to differences from the <guilabel>From color</guilabel>. The "
 "higher the threshold, the more pixels will be affected."
 msgstr ""
+"Bu kaydırıcılar, kırmızı, yeşil ve mavi bileşenlerin \" <guilabel>Başlangıç "
+"rengi\"</guilabel>nden farklılıklara ne kadar duyarlı olacağını ayarlamanıza "
+"olanak tanır. Eşik değeri ne kadar yüksek olursa, o kadar fazla piksel "
+"etkilenir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -968,10 +1120,13 @@ msgid "Filter applied with default settings"
 msgstr "Öntanımlı ayarlarla uygulanan süzgeç"
 
 #: src/menus/colors/map/alien-map.xml:39(para)
+#, fuzzy
 msgid ""
 "This filter heavily distorts image colors by applying trigonometric "
 "functions to map color values."
 msgstr ""
+"Bu süzgeç, renk değerlerini eşlemek için trigonometrik fonksiyonlar "
+"uygulayarak görüntü renklerini büyük ölçüde bozar."
 
 #: src/menus/colors/map/alien-map.xml:46(para)
 msgid ""
@@ -988,17 +1143,19 @@ msgid "The <quote>Alien Map</quote> Dialog"
 msgstr "<quote>Uzaylı Eşlemi</quote> İletişim Kutusu"
 
 #: src/menus/colors/map/alien-map.xml:79(term)
-#, fuzzy
-#| msgid "Color Model"
 msgid "Color model"
 msgstr "Renk modeli"
 
 #: src/menus/colors/map/alien-map.xml:81(para)
+#, fuzzy
 msgid ""
 "The Color Model used for the transformation. Choices are <guilabel>RGB</"
 "guilabel> (default) and <guilabel>HSL</guilabel> (Hue, Saturation and "
 "Lightness)."
 msgstr ""
+"Dönüştürme için kullanılan Renk Modeli. Seçenekler <guilabel>RGB</guilabel> "
+"(varsayılan) ve <guilabel>HSL</guilabel> (Ton, Doygunluk ve Açıklık) "
+"şeklindedir."
 
 #: src/menus/colors/map/alien-map.xml:86(para)
 msgid "The chosen Color Model changes the next settings."
@@ -1029,10 +1186,13 @@ msgid "Lightness frequency"
 msgstr "Açıklık frekansı"
 
 #: src/menus/colors/map/alien-map.xml:99(para)
+#, fuzzy
 msgid ""
 "These sliders determine the frequency multiplier for each component in the "
 "color transformation."
 msgstr ""
+"Bu kaydırıcılar, renk dönüşümündeki her bir bileşen için frekans çarpanını "
+"belirler."
 
 #: src/menus/colors/map/alien-map.xml:106(term)
 msgid "Red phase shift"
@@ -1059,10 +1219,13 @@ msgid "Lightness phase shift"
 msgstr "Açıklık faz kayması"
 
 #: src/menus/colors/map/alien-map.xml:113(para)
+#, fuzzy
 msgid ""
 "These sliders and angle selectors determine how much of a phase shift from "
 "one component to another will be done for the chosen input component."
 msgstr ""
+"Bu kaydırıcılar ve açı seçiciler, seçilen giriş bileşeni için bir bileşenden "
+"diğerine ne kadar faz kayması yapılacağını belirler."
 
 #: src/menus/colors/map/alien-map.xml:121(term)
 msgid "Keep red component"
@@ -1089,10 +1252,14 @@ msgid "Keep lightness component"
 msgstr "Açıklık bileşenini koru"
 
 #: src/menus/colors/map/alien-map.xml:128(para)
+#, fuzzy
 msgid ""
 "These checkboxes allow you disable one or more of the components from being "
 "changed. Any component checked here will not be changed by the filter."
 msgstr ""
+"Bu onay kutuları, bir ya da daha fazla bileşenin değiştirilmesini "
+"engellemenizi sağlar. Burada işaretlenen bileşenler süzgeç tarafından "
+"değiştirilmez."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/colors/map/alien-map.xml:0(None)

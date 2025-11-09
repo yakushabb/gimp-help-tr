@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-10-28 19:18+0300\n"
+"PO-Revision-Date: 2025-11-09 22:03+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -321,6 +321,7 @@ msgstr ""
 "globe.png'; md5=97487f0a6c3f7398dc68e770968b58a5"
 
 #: src/menus/colors/desaturate/desaturate.xml:18(para)
+#, fuzzy
 msgid ""
 "By using the <guimenuitem>Desaturate</guimenuitem> command, you can convert "
 "all of the colors on the active layer to corresponding shades of gray. This "
@@ -330,6 +331,13 @@ msgid ""
 "means that you then can paint on the layer, or individual parts of it, using "
 "non-gray colors."
 msgstr ""
+"<guimenuitem>Desaturate</guimenuitem> komutunu kullanarak, etkin katmandaki "
+"tüm renkleri karşılık gelen gri tonlarına dönüştürebilirsiniz. Bu, görüntüyü "
+"gri tonlamaya dönüştürmekten iki açıdan farklıdır. Birincisi, yalnızca etkin "
+"katmanda çalışır ve ikincisi, katmandaki renkler hala R=G=B olan üç "
+"bileşenli RGB değerleridir ve bu da gri rengi oluşturur. Bu, katman üzerinde "
+"veya katmanın belirli bölümlerinde gri olmayan renkler kullanarak boyama "
+"yapabileceğiniz anlamına gelir."
 
 #: src/menus/colors/desaturate/desaturate.xml:29(para)
 msgid ""
@@ -465,17 +473,23 @@ msgid "<quote>Value (HSV)</quote> applied."
 msgstr "<quote>Değeri (HSV)</quote> uygulandı."
 
 #: src/menus/colors/desaturate/desaturate.xml:293(title)
+#, fuzzy
 msgid ""
 "Comparing results from using different options for converting from color to "
 "black and white:"
 msgstr ""
+"Renkli görüntüyü siyah beyaza dönüştürmek için farklı seçeneklerin "
+"sonuçlarını karşılaştırma:"
 
 #: src/menus/colors/desaturate/desaturate.xml:297(para)
+#, fuzzy
 msgid ""
 "The degree and direction from which the various ways to convert an image to "
 "black and white diverge from a straight Luminance conversion to black and "
 "white depends on:"
 msgstr ""
+"Bir görüntüyü siyah beyaza dönüştürmenin çeşitli yöntemlerinin, düz bir "
+"parlaklık dönüşümünden siyah beyaza sapma derecesi ve yönü şunlara bağlıdır:"
 
 #: src/menus/colors/desaturate/desaturate.xml:304(para)
 msgid "The conversion method you choose."
@@ -486,49 +500,70 @@ msgid "The RGB color space in which the conversion is done."
 msgstr "Dönüştürmenin yapıldığı RGB renk uzayı."
 
 #: src/menus/colors/desaturate/desaturate.xml:314(para)
+#, fuzzy
 msgid ""
 "How saturated the colors in the original image happen to be, with more "
 "saturated starting colors (such as the red globe and the bright yellow "
 "sunflower) producing greater amounts of deviation from a straight Luminance "
 "conversion."
 msgstr ""
+"Orijinal görüntünün renkleri ne kadar doygun olursa olsun, daha doygun "
+"başlangıç renkleri (kırmızı küre ve parlak sarı ayçiçeği gibi) düz bir "
+"parlaklık dönüşümünden daha fazla sapma üretir."
 
 #: src/menus/colors/desaturate/desaturate.xml:322(para)
+#, fuzzy
 msgid ""
 "The hues (for example yellows vs reds) of the various saturated colors in an "
 "image also make a difference."
 msgstr ""
+"Görüntüdeki çeşitli doygun renklerin tonları (örneğin sarılar ve kırmızılar) "
+"da fark yaratır."
 
 #: src/menus/colors/desaturate/desaturate.xml:328(para)
+#, fuzzy
 msgid ""
 "Being the maximum of the RGB channel values for each pixel, an HSV Value "
 "conversion to black and white is always lighter than the original color "
 "image, and also lighter than all the other ways to convert to black and "
 "white."
 msgstr ""
+"Her piksel için RGB kanal değerlerinin maksimumu olan HSV Değeri siyah "
+"beyaza dönüştürme, her zaman orijinal renkli görüntüden daha açık ve siyah "
+"beyaza dönüştürmenin diğer tüm yöntemlerinden de daha açıktır."
 
 #: src/menus/colors/desaturate/desaturate.xml:338(para)
 msgid "Comparing the red globe to the yellow sunflower:"
 msgstr "Kırmızı küre ile sarı ayçiçeğinin karşılaştırılması:"
 
 #: src/menus/colors/desaturate/desaturate.xml:343(para)
+#, fuzzy
 msgid ""
 "For the red globe Lightness (HSL) produces a result very similar to "
 "Luminance, and Luma produces a conversion that is much darker."
 msgstr ""
+"Kırmızı küre için Lightness (HSL) Luminance'a çok benzer bir sonuç "
+"üretirken, Luma çok daha koyu bir dönüştürme üretir."
 
 #: src/menus/colors/desaturate/desaturate.xml:349(para)
+#, fuzzy
 msgid ""
 "For the sunflower, Luma produces a result very similar to Luminance, and "
 "Lightness (HSL) produces a conversion that is much darker."
 msgstr ""
+"Ayçiçeği için Luma, Luminance'a çok benzer bir sonuç üretirken, Lightness "
+"(HSL) çok daha koyu bir dönüştürme üretir."
 
 #: src/menus/colors/desaturate/desaturate.xml:355(para)
+#, fuzzy
 msgid ""
 "Notice that the less saturated parts of each image look more or less the "
 "same, regardless of which method is chosen for converting from color to "
 "black and white."
 msgstr ""
+"Her görüntünün daha az doygun kısımlarının, renkli görüntüyü siyah beyaza "
+"dönüştürmek için hangi yöntem seçilirse seçilsin, hemen hemen aynı "
+"göründüğüne dikkat edin."
 
 #: src/menus/colors/desaturate/desaturate.xml:367(title)
 msgid ""
@@ -542,18 +577,24 @@ msgid "More information about Luminance:"
 msgstr "Renk Parlaklığı ile ilgili daha çok bilgi:"
 
 #: src/menus/colors/desaturate/desaturate.xml:374(para)
+#, fuzzy
 msgid ""
 "\"Luminance\" is the only physically meaningful way to convert a color image "
 "to black and white, as the resulting black and white image has the same "
 "relative luminance (reflects the same percentage of light from the various "
 "shades of gray) as the colors in the original color image."
 msgstr ""
+"\"Parlaklık\", renkli bir görüntüyü siyah beyaza dönüştürmenin fiziksel "
+"olarak anlamlı tek yoludur, çünkü ortaya çıkan siyah beyaz görüntü, orijinal "
+"renkli görüntüdeki renklerle aynı göreceli parlaklığa (çeşitli gri "
+"tonlarından aynı yüzde oranında ışığı yansıtır) sahiptir."
 
 #: src/menus/colors/desaturate/desaturate.xml:383(para)
 msgid "Luminance must be calculated using linearized RGB values."
 msgstr "Renk Parlaklığı, doğrusal RGB değerleri kullanılarak hesaplanmalıdır."
 
 #: src/menus/colors/desaturate/desaturate.xml:388(para)
+#, fuzzy
 msgid ""
 "For convenience we say \"Luminance\", but what we really mean is \"Relative "
 "Luminance\". For more information, see <ulink url=\"https://en.wikipedia.org/"
@@ -562,6 +603,12 @@ msgid ""
 "CIE_1931_color_space#Meaning_of_X,_Y_and_Z\"> CIE 1931 [XYZ] color space</"
 "ulink>."
 msgstr ""
+"Kolaylık olması açısından \"Parlaklık\" diyoruz, ancak aslında kastettiğimiz "
+"\"Bağıl Parlaklık\"tır. Daha fazla bilgi için, <ulink url=\"https://"
+"en.wikipedia.org/wiki/Relative_luminance\">Bağıl Parlaklık</ulink> ve <ulink "
+"url=\"https://en.wikipedia.org/wiki/"
+"CIE_1931_color_space#Meaning_of_X,_Y_and_Z\"> CIE 1931 [XYZ] renk uzayı "
+"bölümlerine</ulink> bakın."
 
 #: src/menus/colors/desaturate/desaturate.xml:398(para)
 msgid ""
@@ -578,18 +625,27 @@ msgid "More information about Luma:"
 msgstr "Luma ile ilgili daha çok bilgi:"
 
 #: src/menus/colors/desaturate/desaturate.xml:412(para)
+#, fuzzy
 msgid ""
 "\"Luma\" is what you get if you use the formula for Luminance on RGB values "
 "that haven't been properly linearized."
 msgstr ""
+"\"Luma\", düzgün bir şekilde doğrusallaştırılmamış RGB değerleri üzerinde "
+"Luminance formülünü kullanırsanız elde ettiğiniz sonuçtur."
 
 #: src/menus/colors/desaturate/desaturate.xml:418(para)
+#, fuzzy
 msgid ""
 "The multipliers have been properly Bradford-adapted to D50, which is "
 "required for use in an ICC profile color-managed editing application (at "
 "least until the next version of the ICC specs is released and people figure "
 "out how to deal with the new freedom to use non-D50 reference white points)."
 msgstr ""
+"Çarpanlar, ICC profil renk yönetimi düzenleme uygulamasında kullanım için "
+"gerekli olan D50'ye uygun şekilde Bradford uyarlanmıştır (en azından ICC "
+"spesifikasyonlarının bir sonraki sürümü yayınlanana ve kullanıcılar D50 "
+"olmayan referans beyaz noktalarını kullanma özgürlüğünü nasıl "
+"kullanacaklarını öğrenene kadar)."
 
 #: src/menus/colors/desaturate/desaturate.xml:427(para)
 msgid ""
@@ -597,12 +653,16 @@ msgid ""
 "to black and white. \"Future GIMP\" will support correct conversions for "
 "images in other color spaces."
 msgstr ""
+"<acronym>GIMP</acronym>, siyah ve beyaza Luma dönüşümleri için sabit "
+"kodlanmış sRGB değerlerini kullanır. \"Gelecek GIMP sürümleri\" diğer renk "
+"uzaylarındaki görüntüler için doğru dönüşümleri destekleyecektir."
 
 #: src/menus/colors/desaturate/desaturate.xml:437(emphasis)
 msgid "More information about Lightness, Average, and Value:"
 msgstr "Açıklık, Ortalama ve Değer ile ilgili daha çok bilgi:"
 
 #: src/menus/colors/desaturate/desaturate.xml:440(para)
+#, fuzzy
 msgid ""
 "The \"Lightness (HSL)\", \"Average (HSI Intensity)\", and \"Value (HSV)\" "
 "ways to convert a color image to black and white use color space models that "
@@ -612,8 +672,16 @@ msgid ""
 "section on <ulink url=\"https://en.wikipedia.org/wiki/"
 "HSL_and_HSV#Disadvantages\">Disadvantages</ulink>."
 msgstr ""
+"Renkli bir görüntüyü siyah beyaza dönüştürmek için kullanılan \"Açıklık (HSL)"
+"\", \"Ortalama (HSI Yoğunluğu)\" ve \"Değer (HSV)\" yöntemleri, 1990'lı "
+"yıllarda tüketici sınıfı bilgisayarlarda hızlı işlem için icat edilen renk "
+"uzayı modellerini kullanır. Ayrıntılar için <ulink url=\"https://"
+"en.wikipedia.org/wiki/HSL_and_HSV\">HSL ve HSV bölüm</ulink>lerine bakın, "
+"özellikle <ulink url=\"https://en.wikipedia.org/wiki/"
+"HSL_and_HSV#Disadvantages\">Dezavantajlar</ulink> bölümüne dikkat edin."
 
 #: src/menus/colors/desaturate/desaturate.xml:451(para)
+#, fuzzy
 msgid ""
 "<emphasis>In case you are wondering why LAB Lightness</emphasis> is not "
 "among the options for converting an RGB image to black and white, a properly "
@@ -621,28 +689,47 @@ msgid ""
 "produces exactly the same result as the Luminance conversion to black and "
 "white. Here is why:"
 msgstr ""
+"RGB görüntüyü siyah beyaza dönüştürmek için seçenekler arasında "
+"<emphasis>LAB Lightness'ın neden</emphasis> bulunmadığını <emphasis>merak "
+"ediyorsanız</emphasis>, RGB'den LAB Lightness'a ve ardından tekrar RGB'ye "
+"doğru bir şekilde hesaplanmış bir dönüştürme, Luminance'ın siyah beyaza "
+"dönüştürülmesiyle tam olarak aynı sonucu verir. Nedeni şudur:"
 
 #: src/menus/colors/desaturate/desaturate.xml:460(para)
+#, fuzzy
 msgid ""
 "In the XYZ color space, Y is Luminance. So if you convert a color RGB image "
 "to XYZ, the \"Y\" of XYZ is the same number as the R=G=B values that you get "
 "when you calculate RGB Luminance."
 msgstr ""
+"XYZ renk uzayında Y, parlaklıktır. Dolayısıyla, bir RGB renkli görüntüyü "
+"XYZ'ye dönüştürürseniz, XYZ'nin \"Y\" değeri, RGB parlaklığını "
+"hesapladığınızda elde ettiğiniz R=G=B değerleriyle aynı sayıdır."
 
 #: src/menus/colors/desaturate/desaturate.xml:467(para)
+#, fuzzy
 msgid ""
 "LAB is a perceptually uniform transform of XYZ. If you convert from RGB to "
 "XYZ and then to LAB, and set A=B=0.0 (or 0.5 for image editors that put the "
 "midpoint of the A and B axes as 0.5 instead of at 0.0), and then convert "
 "back to XYZ, the X and Z values will change, but Y will not change."
 msgstr ""
+"LAB, XYZ'nin algısal olarak tekdüze bir dönüşümüdür. RGB'den XYZ'ye, "
+"ardından LAB'ye dönüştürür ve A=B=0,0 (veya A ve B eksenlerinin orta "
+"noktasını 0,0 yerine 0,5 olarak belirleyen görüntü düzenleyiciler için 0,5) "
+"olarak ayarlarsanız ve ardından tekrar XYZ'ye dönüştürürseniz, X ve Z "
+"değerleri değişir, ancak Y değişmez."
 
 #: src/menus/colors/desaturate/desaturate.xml:476(para)
+#, fuzzy
 msgid ""
 "Tutorials that produce anything other than Relative Luminance when "
 "converting an RGB image to black and white using LAB Lightness, very sadly "
 "are trading on various mathematical mistakes in the conversion routines."
 msgstr ""
+"RGB görüntüyü LAB Lightness kullanarak siyah beyaza dönüştürürken Göreceli "
+"Parlaklık dışında bir sonuç üreten öğreticiler, ne yazık ki dönüştürme "
+"rutinlerindeki çeşitli matematiksel hatalardan yararlanmaktadır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -662,12 +749,17 @@ msgid "Color to Gray"
 msgstr "Renkten Griye"
 
 #: src/menus/colors/desaturate/color-to-gray.xml:23(para)
+#, fuzzy
 msgid ""
 "This color to grayscale conversion uses envelopes formed with the so-called "
 "<ulink url=\"https://pippin.gimp.org/publications/"
 "Kolaas_11_jist_preprint.pdf\">STRESS</ulink> approach to perform local-"
 "difference preserving grayscale generation."
 msgstr ""
+"Bu renk-gri tonlama dönüşümü, yerel farkları koruyan gri tonlama oluşturmak "
+"için <ulink url=\"https://pippin.gimp.org/publications/"
+"Kolaas_11_jist_preprint.pdf\">STRESS</ulink> yaklaşımıyla oluşturulan "
+"zarfları kullanır."
 
 #: src/menus/colors/desaturate/color-to-gray.xml:31(para)
 msgid ""
@@ -685,11 +777,11 @@ msgstr "<quote>Renkten Griye</quote> ayarları"
 
 #: src/menus/colors/desaturate/color-to-gray.xml:55(term)
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 #: src/menus/colors/desaturate/color-to-gray.xml:56(term)
 msgid "Clipping"
-msgstr ""
+msgstr "Kırpma"
 
 #: src/menus/colors/desaturate/color-to-gray.xml:67(term)
 msgid "Radius"
@@ -700,6 +792,8 @@ msgid ""
 "Neighborhood taken into account, this is the radius in pixels taken into "
 "account when deciding which colors map to which gray values."
 msgstr ""
+"Komşuluk dikkate alındığında, hangi renklerin hangi gri değerlerle "
+"eşleştiğine karar verirken dikkate alınacak piksel cinsinden yarıçap."
 
 #: src/menus/colors/desaturate/color-to-gray.xml:77(term)
 msgid "Samples"
@@ -707,7 +801,7 @@ msgstr "Örnekler"
 
 #: src/menus/colors/desaturate/color-to-gray.xml:79(para)
 msgid "Number of samples to do per iteration looking for the range of colors."
-msgstr ""
+msgstr "Renk aralığını arayan her yineleme için yapılacak örnekleme sayısı."
 
 #: src/menus/colors/desaturate/color-to-gray.xml:87(term)
 msgid "Iterations"
@@ -718,6 +812,8 @@ msgid ""
 "Number of iterations, a higher number of iterations provides less noisy "
 "results at a computational cost."
 msgstr ""
+"Yineleme sayısı, yüksek yineleme sayısı daha az gürültü oluşturur ancak "
+"bilgisayımsal bedele neden olur."
 
 #: src/menus/colors/desaturate/color-to-gray.xml:97(term)
 msgid "Enhance Shadows"
@@ -725,7 +821,7 @@ msgstr "Gölgeleri iyileştir"
 
 #: src/menus/colors/desaturate/color-to-gray.xml:99(para)
 msgid "When enabled details in shadows are boosted at the expense of noise."
-msgstr ""
+msgstr "Etkin olduğunda, gölge ayrıntıları gürültü pahasına artırılır."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/colors/desaturate/color-to-gray.xml:0(None)

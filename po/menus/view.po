@@ -1,8 +1,8 @@
 # Turkish translation for gimp-help.
-# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# Copyright (C) 2025 gimp-help's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gimp-help package.
 #
-# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Sabri Ünal <yakushabb@gmail.com>, 2025.
 # Emin Tufan Çetin <etcetin@gmail.com>, 2025.
 #
 msgid ""
@@ -2335,11 +2335,3 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
-
-#~ msgid ""
-#~ "@@image: 'images/menus/view.png'; md5=f0c389f2562d00da8e0483c1a1e20478"
-#~ msgstr ""
-#~ "@@image: 'images/menus/view.png'; md5=f0c389f2562d00da8e0483c1a1e20478"
-
-#~ msgid "Contents of the View menu"
-#~ msgstr "Görünüm Menüsü İçerikleri"

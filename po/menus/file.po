@@ -1,15 +1,15 @@
 # Turkish translation for gimp-help.
-# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# Copyright (C) 2025 gimp-help's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gimp-help package.
 #
-# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Sabri Ünal <yakushabb@gmail.com>, 2025.
 # Emin Tufan Çetin <etcetin@gmail.com>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-01 16:53+0000\n"
-"PO-Revision-Date: 2025-10-20 20:55+0300\n"
+"PO-Revision-Date: 2025-11-09 22:22+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -571,18 +571,14 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/open-as-layer.xml:38(para)
-#, fuzzy
-#| msgid ""
-#| "You can access this command from the main menu through "
-#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Export As…</guimenuitem></"
-#| "menuchoice>,"
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Open as Layers…</"
 "guimenuitem></menuchoice>,"
 msgstr ""
-"Bu komuta ana menüden <menuchoice><guimenu>Dosya</guimenu><guimenuitem>Dışa "
-"Farklı Aktar…</guimenuitem></menuchoice> yoluyla erişebilirsiniz,"
+"Bu komuta ana menüden <menuchoice><guimenu>Dosya</"
+"guimenu><guimenuitem>Katman Olarak Aç…</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/file/open-as-layer.xml:47(para)
 msgid ""
@@ -1019,28 +1015,20 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/introduction.xml:5(title)
-#, fuzzy
-#| msgid "Overwrite"
 msgid "Overview"
-msgstr "Üzerine Yaz"
+msgstr "Genel görünüm"
 
 #: src/menus/file/introduction.xml:8(secondary)
 msgid "File"
 msgstr ""
 
 #: src/menus/file/introduction.xml:11(para)
-#, fuzzy
-#| msgid ""
-#| "You can access this submenu from the main menu through "
-#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Create</guimenuitem></"
-#| "menuchoice>."
 msgid ""
 "In this section, you will find help for commands in the "
 "<menuchoice><guimenu>File</guimenu></menuchoice> menu."
 msgstr ""
-"Bu alt menüye ana menüden <menuchoice><guimenu>Dosya</"
-"guimenu><guimenuitem>Oluştur</guimenuitem></menuchoice> yoluyla "
-"erişebilirsiniz."
+"Bu bölümde, <menuchoice><guimenu>Dosya</guimenu></menuchoice> menüsündeki "
+"komutlarla ilgili yardım bulabilirsiniz."
 
 #: src/menus/file/introduction.xml:18(title)
 msgid "The Contents of the <quote>File</quote> Menu"
@@ -1122,7 +1110,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/create.xml:79(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/file/create/screenshot.png'; "
 #| "md5=d58b71a3db272770ec0e9534367bb57f"
@@ -1131,7 +1118,7 @@ msgid ""
 "md5=9a9431cf3d11091174fd829aa15f4294"
 msgstr ""
 "@@image: 'images/menus/file/create/screenshot.png'; "
-"md5=d58b71a3db272770ec0e9534367bb57f"
+"md5=9a9431cf3d11091174fd829aa15f4294"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1213,10 +1200,8 @@ msgid "Screenshot"
 msgstr "Ekran Görüntüsü"
 
 #: src/menus/file/create.xml:75(title)
-#, fuzzy
-#| msgid "The <quote>Screenshot</quote> window"
 msgid "The <quote>Screenshot</quote> dialog"
-msgstr "<quote>Ekran Görüntüsü</quote> penceresi"
+msgstr "<quote>Ekran Görüntüsü</quote> iletişim kutusu"
 
 #: src/menus/file/create.xml:82(para)
 msgid ""
@@ -1492,11 +1477,6 @@ msgid "This command closes all images you have opened."
 msgstr ""
 
 #: src/menus/file/close-all.xml:17(para)
-#, fuzzy
-#| msgid ""
-#| "You can access this command from the main menu through "
-#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Close All</guimenuitem></"
-#| "menuchoice>,"
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Close All</guimenuitem></"
@@ -1504,7 +1484,7 @@ msgid ""
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Dosya</"
 "guimenu><guimenuitem>Tümünü Kapat</guimenuitem></menuchoice> yoluyla "
-"erişebilirsiniz,"
+"erişebilirsiniz."
 
 #: src/menus/file/close-all.xml:26(para)
 msgid ""
@@ -1519,6 +1499,3 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
-
-#~ msgid "Selection delay"
-#~ msgstr "Seçim gecikmesi"

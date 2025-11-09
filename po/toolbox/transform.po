@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-10-20 21:00+0300\n"
+"PO-Revision-Date: 2025-11-09 22:42+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -2604,7 +2604,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/common-features.xml:559(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/toolbox/3DTransf-orig.jpg'; "
 #| "md5=127fc6d443f17dc79dff010fa6cca550"
@@ -2612,13 +2611,12 @@ msgid ""
 "@@image: 'images/toolbox/3DTransf-orig-example.png'; "
 "md5=4c5a80687cbdd808be0e5813f22adca1"
 msgstr ""
-"@@image: 'images/toolbox/3DTransf-orig.jpg'; "
-"md5=127fc6d443f17dc79dff010fa6cca550"
+"@@image: 'images/toolbox/3DTransf-orig-example.png'; "
+"md5=4c5a80687cbdd808be0e5813f22adca1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/common-features.xml:568(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/toolbox/3DTransf-orig.jpg'; "
 #| "md5=127fc6d443f17dc79dff010fa6cca550"
@@ -2626,8 +2624,8 @@ msgid ""
 "@@image: 'images/toolbox/3DTransf-orig-dialog.png'; "
 "md5=cec1fab7ca04595072ea3915942f8ab8"
 msgstr ""
-"@@image: 'images/toolbox/3DTransf-orig.jpg'; "
-"md5=127fc6d443f17dc79dff010fa6cca550"
+"@@image: 'images/toolbox/3DTransf-orig-dialog.png'; "
+"md5=cec1fab7ca04595072ea3915942f8ab8"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3485,7 +3483,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/align.xml:243(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/toolbox/align-ex-orig.png'; "
 #| "md5=abadeace04d2cc8145988f50762419f8"
@@ -3493,13 +3490,12 @@ msgid ""
 "@@image: 'images/toolbox/align-ex-orig-example.png'; "
 "md5=2b0a12c0a37cdf1b591ce4128080879d"
 msgstr ""
-"@@image: 'images/toolbox/align-ex-orig.png'; "
-"md5=abadeace04d2cc8145988f50762419f8"
+"@@image: 'images/toolbox/align-ex-orig-example.png'; "
+"md5=2b0a12c0a37cdf1b591ce4128080879d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/align.xml:254(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/toolbox/align-ex-orig.png'; "
 #| "md5=abadeace04d2cc8145988f50762419f8"
@@ -3507,8 +3503,8 @@ msgid ""
 "@@image: 'images/toolbox/align-ex-orig-dialog.png'; "
 "md5=8772fe2afc213bae91537c035baf8a6d"
 msgstr ""
-"@@image: 'images/toolbox/align-ex-orig.png'; "
-"md5=abadeace04d2cc8145988f50762419f8"
+"@@image: 'images/toolbox/align-ex-orig-dialog.png'; "
+"md5=8772fe2afc213bae91537c035baf8a6d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3579,7 +3575,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/align.xml:429(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/toolbox/align-ex-distrib-0-yellow.png'; "
 #| "md5=07c7cefbd181d37451edecf39b208dc4"
@@ -3587,13 +3582,12 @@ msgid ""
 "@@image: 'images/toolbox/align-ex-distrib-1-example.png'; "
 "md5=1458727c5c8a3cf0a4cda60aeb324dd5"
 msgstr ""
-"@@image: 'images/toolbox/align-ex-distrib-0-yellow.png'; "
-"md5=07c7cefbd181d37451edecf39b208dc4"
+"@@image: 'images/toolbox/align-ex-distrib-1-example.png'; "
+"md5=1458727c5c8a3cf0a4cda60aeb324dd5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/transform/align.xml:438(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/toolbox/align-ex-distrib-0-yellow.png'; "
 #| "md5=07c7cefbd181d37451edecf39b208dc4"
@@ -3601,8 +3595,8 @@ msgid ""
 "@@image: 'images/toolbox/align-ex-distrib-1-dialog.png'; "
 "md5=2910b07a430fef7c9cfe0dd92a3ca084"
 msgstr ""
-"@@image: 'images/toolbox/align-ex-distrib-0-yellow.png'; "
-"md5=07c7cefbd181d37451edecf39b208dc4"
+"@@image: 'images/toolbox/align-ex-distrib-1-dialog.png'; "
+"md5=2910b07a430fef7c9cfe0dd92a3ca084"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.

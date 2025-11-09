@@ -1,15 +1,15 @@
 # Turkish translation for gimp-help.
-# Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
+# Copyright (C) 2025 gimp-help's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gimp-help package.
 #
-# Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.
+# Sabri Ünal <yakushabb@gmail.com>, 2025.
 # Emin Tufan Çetin <etcetin@gmail.com>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-01 16:53+0000\n"
-"PO-Revision-Date: 2025-10-20 15:18+0300\n"
+"PO-Revision-Date: 2025-11-09 22:30+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -341,33 +341,33 @@ msgstr ""
 #: src/menus/layer/threshold-alpha.xml:65(term)
 #: src/menus/layer/offset.xml:73(term)
 msgid "Presets"
-msgstr ""
+msgstr "Önayarlar"
 
 #: src/menus/layer/threshold-alpha.xml:66(term)
 msgid "Input Type"
-msgstr ""
+msgstr "Girdi Türü"
 
 #: src/menus/layer/threshold-alpha.xml:67(term)
 msgid "Blending Options"
-msgstr ""
+msgstr "Harmanlama Seçenekleri"
 
 #: src/menus/layer/threshold-alpha.xml:68(term)
 #: src/menus/layer/offset.xml:74(term)
 msgid "Preview"
-msgstr ""
+msgstr "Ön İzleme"
 
 #: src/menus/layer/threshold-alpha.xml:69(term)
 msgid "Merge filter"
-msgstr ""
+msgstr "Süzgeci birleştir"
 
 #: src/menus/layer/threshold-alpha.xml:70(term)
 #: src/menus/layer/offset.xml:75(term)
 msgid "Split view"
-msgstr ""
+msgstr "Bölünmüş görünüm"
 
 #: src/menus/layer/threshold-alpha.xml:77(term)
 msgid "Value"
-msgstr ""
+msgstr "Değer"
 
 #: src/menus/layer/threshold-alpha.xml:79(para)
 msgid ""
@@ -1481,7 +1481,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/offset.xml:231(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
 #| "md5=9cb83ce72fc4a911ee680af457c4ece4"
@@ -1489,13 +1488,12 @@ msgid ""
 "@@image: 'images/menus/layer/offset-ex-heart-orig-example.png'; "
 "md5=b6e3c8d7b5b676e614971c95597b5541"
 msgstr ""
-"@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
-"md5=9cb83ce72fc4a911ee680af457c4ece4"
+"@@image: 'images/menus/layer/offset-ex-heart-orig-example.png'; "
+"md5=b6e3c8d7b5b676e614971c95597b5541"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/offset.xml:242(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
 #| "md5=9cb83ce72fc4a911ee680af457c4ece4"
@@ -1503,8 +1501,8 @@ msgid ""
 "@@image: 'images/menus/layer/offset-ex-heart-orig-dialog.png'; "
 "md5=459620c173741415581ec98e3c959df9"
 msgstr ""
-"@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
-"md5=9cb83ce72fc4a911ee680af457c4ece4"
+"@@image: 'images/menus/layer/offset-ex-heart-orig-dialog.png'; "
+"md5=459620c173741415581ec98e3c959df9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2385,7 +2383,6 @@ msgstr ""
 #: src/menus/layer/mask-selection-replace.xml:70(None)
 #: src/menus/layer/mask-selection-intersect.xml:60(None)
 #: src/menus/layer/mask-selection-add.xml:59(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/add-mask-example.png'; "
 #| "md5=ba6782eba5ff06be43f3a7b2c0048d7c"
@@ -2393,8 +2390,8 @@ msgid ""
 "@@image: 'images/menus/layer/mask-example-example.png'; "
 "md5=fac93b5d3a6ded083bf337b92c77cacb"
 msgstr ""
-"@@image: 'images/menus/layer/add-mask-example.png'; "
-"md5=ba6782eba5ff06be43f3a7b2c0048d7c"
+"@@image: 'images/menus/layer/mask-example-example.png'; "
+"md5=fac93b5d3a6ded083bf337b92c77cacb"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2402,7 +2399,6 @@ msgstr ""
 #: src/menus/layer/mask-selection-replace.xml:81(None)
 #: src/menus/layer/mask-selection-intersect.xml:71(None)
 #: src/menus/layer/mask-selection-add.xml:70(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/mask-example.png'; "
 #| "md5=8aa43efc3f24bead3caf3f14ae39113a"
@@ -2410,8 +2406,8 @@ msgid ""
 "@@image: 'images/menus/layer/mask-example-dialog.png'; "
 "md5=d42cd0829d6b8f038d801890171bea81"
 msgstr ""
-"@@image: 'images/menus/layer/mask-example.png'; "
-"md5=8aa43efc3f24bead3caf3f14ae39113a"
+"@@image: 'images/menus/layer/mask-example-dialog.png'; "
+"md5=d42cd0829d6b8f038d801890171bea81"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2617,10 +2613,8 @@ msgstr ""
 "md5=ba6782eba5ff06be43f3a7b2c0048d7c"
 
 #: src/menus/layer/mask-selection-add.xml:12(title)
-#, fuzzy
-#| msgid "Add to Selection"
 msgid "Add Masks to Selection"
-msgstr "Seçime Ekle"
+msgstr "Maskeleri Seçime Ekle"
 
 #: src/menus/layer/mask-selection-add.xml:17(tertiary)
 #: src/menus/layer/mask-selection-add.xml:26(secondary)
@@ -2745,14 +2739,12 @@ msgid ""
 msgstr ""
 
 #: src/menus/layer/mask-delete.xml:10(title)
-#, fuzzy
-#| msgid "Apply Layer Mask"
 msgid "Delete Layer Masks"
-msgstr "Katman Maskesini Uygula"
+msgstr "Katman Maskelerini Sil"
 
 #: src/menus/layer/mask-delete.xml:15(tertiary)
 msgid "Delete layer masks"
-msgstr ""
+msgstr "Katman maskelerini sil"
 
 #: src/menus/layer/mask-delete.xml:20(tertiary)
 msgid "Delete"
@@ -2795,10 +2787,8 @@ msgstr ""
 "md5=6a258b8141ba3594e284fe5c6a80fd40"
 
 #: src/menus/layer/mask-apply.xml:9(title)
-#, fuzzy
-#| msgid "Apply Layer Mask"
 msgid "Apply Layer Masks"
-msgstr "Katman Maskesini Uygula"
+msgstr "Katman Maskelerini Uygula"
 
 #: src/menus/layer/mask-apply.xml:15(tertiary)
 #: src/menus/layer/mask-apply.xml:20(tertiary)
@@ -2806,10 +2796,8 @@ msgid "Apply"
 msgstr "Uygula"
 
 #: src/menus/layer/mask-apply.xml:23(primary)
-#, fuzzy
-#| msgid "Apply Layer Mask (command)"
 msgid "Apply Layer Masks (command)"
-msgstr "Katman Maskesini Uygula (komut)"
+msgstr "Katman Maskeleri Uygula (komut)"
 
 #: src/menus/layer/mask-apply.xml:26(para)
 msgid ""
@@ -2859,10 +2847,8 @@ msgstr ""
 "md5=be74d19950c57deba0fce4683ea52323"
 
 #: src/menus/layer/mask-add.xml:11(title)
-#, fuzzy
-#| msgid "Add Layer Mask"
 msgid "Add Layer Masks"
-msgstr "Katman Maskesi Ekle"
+msgstr "Katman Maskeleri Ekle"
 
 #: src/menus/layer/mask-add.xml:16(tertiary)
 msgid "Add a mask"
@@ -2870,7 +2856,7 @@ msgstr "Maske ekle"
 
 #: src/menus/layer/mask-add.xml:21(tertiary)
 msgid "Add"
-msgstr "Ekle "
+msgstr "Ekle"
 
 #: src/menus/layer/mask-add.xml:24(para)
 msgid ""
@@ -3280,11 +3266,11 @@ msgstr ""
 
 #: src/menus/layer/delete.xml:13(title)
 msgid "Delete Layers"
-msgstr ""
+msgstr "Katmanları Sil"
 
 #: src/menus/layer/delete.xml:18(tertiary)
 msgid "Delete selected layers"
-msgstr ""
+msgstr "Seçili katmanları sil"
 
 #: src/menus/layer/delete.xml:21(para)
 msgid ""
@@ -3310,7 +3296,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/crop-to-content.xml:41(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/mask-example.png'; "
 #| "md5=8aa43efc3f24bead3caf3f14ae39113a"
@@ -3318,13 +3303,12 @@ msgid ""
 "@@image: 'images/menus/layer/autocrop-1-example.png'; "
 "md5=e6198a44ec5f5d2ab0120187aa5aadde"
 msgstr ""
-"@@image: 'images/menus/layer/mask-example.png'; "
-"md5=8aa43efc3f24bead3caf3f14ae39113a"
+"@@image: 'images/menus/layer/autocrop-1-example.png'; "
+"md5=e6198a44ec5f5d2ab0120187aa5aadde"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/crop-to-content.xml:52(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/autocrop-1.png'; "
 #| "md5=2c3f4034b2f784759d8254c8195b1fb5"
@@ -3332,13 +3316,12 @@ msgid ""
 "@@image: 'images/menus/layer/autocrop-1-dialog.png'; "
 "md5=2c0a0b3eeb3c42213557b6b241f267c7"
 msgstr ""
-"@@image: 'images/menus/layer/autocrop-1.png'; "
-"md5=2c3f4034b2f784759d8254c8195b1fb5"
+"@@image: 'images/menus/layer/autocrop-1-dialog.png'; "
+"md5=2c0a0b3eeb3c42213557b6b241f267c7"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/crop-to-content.xml:63(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/autocrop-2.png'; "
 #| "md5=a7e77c043d7328cf052879ba07829194"
@@ -3346,13 +3329,12 @@ msgid ""
 "@@image: 'images/menus/layer/autocrop-2-example.png'; "
 "md5=325aeb7fd38d9f98dbf068e40628d778"
 msgstr ""
-"@@image: 'images/menus/layer/autocrop-2.png'; "
-"md5=a7e77c043d7328cf052879ba07829194"
+"@@image: 'images/menus/layer/autocrop-2-example.png'; "
+"md5=325aeb7fd38d9f98dbf068e40628d778"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/crop-to-content.xml:74(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/crop.png'; "
 #| "md5=a85dcee6a55ea3e1e21bfb2a2aced52e"
@@ -3360,7 +3342,8 @@ msgid ""
 "@@image: 'images/menus/layer/autocrop-2-dialog.png'; "
 "md5=698d6bbf8cd37d66045a441a2d3ad685"
 msgstr ""
-"@@image: 'images/menus/layer/crop.png'; md5=a85dcee6a55ea3e1e21bfb2a2aced52e"
+"@@image: 'images/menus/layer/autocrop-2-dialog.png'; "
+"md5=698d6bbf8cd37d66045a441a2d3ad685"
 
 #: src/menus/layer/crop-to-content.xml:6(title)
 #: src/menus/layer/crop-to-content.xml:11(tertiary)
@@ -3599,7 +3582,6 @@ msgstr ""
 #: src/menus/layer/alpha-selection-replace.xml:70(None)
 #: src/menus/layer/alpha-selection-intersect.xml:56(None)
 #: src/menus/layer/alpha-selection-add.xml:55(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/alpha-replace.png'; "
 #| "md5=0fa909ce05be3061a37297f03d2fe348"
@@ -3607,8 +3589,8 @@ msgid ""
 "@@image: 'images/menus/layer/alpha-example-example.png'; "
 "md5=a1971ab1238f0e0040e2652669be38da"
 msgstr ""
-"@@image: 'images/menus/layer/alpha-replace.png'; "
-"md5=0fa909ce05be3061a37297f03d2fe348"
+"@@image: 'images/menus/layer/alpha-example-example.png'; "
+"md5=a1971ab1238f0e0040e2652669be38da"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3616,7 +3598,6 @@ msgstr ""
 #: src/menus/layer/alpha-selection-replace.xml:80(None)
 #: src/menus/layer/alpha-selection-intersect.xml:66(None)
 #: src/menus/layer/alpha-selection-add.xml:65(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/menus/layer/alpha-example.png'; "
 #| "md5=fff3be24f2f5b630c9790def466f4fd3"
@@ -3624,8 +3605,8 @@ msgid ""
 "@@image: 'images/menus/layer/alpha-example-dialog.png'; "
 "md5=d19eeb05c02df4cf064381a41def3d9e"
 msgstr ""
-"@@image: 'images/menus/layer/alpha-example.png'; "
-"md5=fff3be24f2f5b630c9790def466f4fd3"
+"@@image: 'images/menus/layer/alpha-example-dialog.png'; "
+"md5=d19eeb05c02df4cf064381a41def3d9e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3796,10 +3777,8 @@ msgstr ""
 "md5=7a03cf6614be3bd23f39f701cb659fc5"
 
 #: src/menus/layer/alpha-selection-add.xml:14(title)
-#, fuzzy
-#| msgid "Add to Selection"
 msgid "Add Alpha to Selection"
-msgstr "Seçime Ekle"
+msgstr "Seçime Alfa Ekle"
 
 #: src/menus/layer/alpha-selection-add.xml:19(tertiary)
 msgid "Add non-transparent areas to selection"
@@ -3875,10 +3854,8 @@ msgid "Add Alpha Channel"
 msgstr "Alfa Kanalı Ekle"
 
 #: src/menus/layer/alpha-add.xml:19(tertiary)
-#, fuzzy
-#| msgid "Add Alpha channel"
 msgid "Add Alpha channel to layer"
-msgstr "Alfa Kanalı ekle"
+msgstr "Katmanın alfa kanalı"
 
 #: src/menus/layer/alpha-add.xml:22(primary)
 msgid "Add Alpha channel"
@@ -3918,23 +3895,5 @@ msgstr ""
 #: src/menus/layer/alpha-add.xml:0(None)
 msgid "translator-credits"
 msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
+"Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
-
-#~ msgid ""
-#~ "@@image: 'images/menus/layer.png'; md5=b8e50326f36dcb3dbe78d937612270f0"
-#~ msgstr ""
-#~ "@@image: 'images/menus/layer.png'; md5=b8e50326f36dcb3dbe78d937612270f0"
-
-#~ msgid "Introduction to the <quote>Layer</quote> Menu"
-#~ msgstr "<quote>Katmanlar</quote> Menüsüne Giriş"
-
-#~| msgid ""
-#~| "@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
-#~| "md5=9cb83ce72fc4a911ee680af457c4ece4"
-#~ msgid ""
-#~ "@@image: 'images/menus/layer/offset-ex-heart-orig.png'; "
-#~ "md5=db9bc99991e2b72f527b32ca13ebd26e"
-#~ msgstr ""
-#~ "@@image: 'images/menus/layer/offset-ex-heart-orig.png'; "
-#~ "md5=db9bc99991e2b72f527b32ca13ebd26e"

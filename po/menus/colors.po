@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-11-09 00:17+0300\n"
+"PO-Revision-Date: 2025-11-09 22:18+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -129,6 +129,7 @@ msgid "<quote>Value Invert</quote> applied"
 msgstr "<quote>Değeri Tersine Çevir</quote> uygulandı"
 
 #: src/menus/colors/value-invert.xml:41(para)
+#, fuzzy
 msgid ""
 "This filter inverts Value (luminosity) of the active layer or selection. Hue "
 "and Saturation will not be affected, although the color will sometimes be "
@@ -136,8 +137,14 @@ msgid ""
 "Saturation also, use <menuchoice><guimenu>Colors</"
 "guimenu><guimenuitem>Invert</guimenuitem></menuchoice>."
 msgstr ""
+"Bu filtre, etkin katmanın veya seçimin Değerini (parlaklık) tersine çevirir. "
+"Ton ve Doygunluk etkilenmez, ancak yuvarlama hatası nedeniyle renk bazen "
+"biraz farklı olabilir. Ton ve Doygunluğu da tersine çevirmek istiyorsanız, "
+"<menuchoice><guimenu>Renkler</guimenu><guimenuitem>Ters Çevir</guimenuitem></"
+"menuchoice>seçeneğini kullanın."
 
 #: src/menus/colors/value-invert.xml:51(para)
+#, fuzzy
 msgid ""
 "Note that hue and saturation can be distorted quite a bit when applying "
 "twice this filter for colors with a high luminosity (for instance, HSV "
@@ -146,6 +153,12 @@ msgid ""
 "Thus, you should not expect to be able to apply this filter twice in a row "
 "and get back the image you started with."
 msgstr ""
+"Bu filtreyi parlaklığı yüksek renkler için iki kez uyguladığınızda, renk "
+"tonu ve doygunluk oldukça fazla bozulabilir (örneğin, HSV 102°, 100%, 98% "
+"olan parlak yeşil renk, filtreyi ilk kez uyguladıktan sonra HSV 96°, 100%, "
+"2% a ve ikinci kez uyguladıktan sonra 96°, 100%, 98% a verir). Bu nedenle, "
+"bu filtreyi arka arkaya iki kez uygulayarak başlangıçtaki görüntüyü geri "
+"alabileceğinizi beklememelisiniz."
 
 #: src/menus/colors/value-invert.xml:60(title)
 msgid "Example of using this filter twice"
@@ -156,9 +169,10 @@ msgid "First application of the filter"
 msgstr "Süzgecin ilk defa uygulanması"
 
 #: src/menus/colors/value-invert.xml:85(para)
+#, fuzzy
 msgid ""
 "Second application: the image is not exactly the same as the original one."
-msgstr ""
+msgstr "İkinci uygulama: görüntü orijinaliyle tam olarak aynı değildir."
 
 #: src/menus/colors/value-invert.xml:95(title)
 #: src/menus/colors/threshold.xml:50(title)
@@ -346,6 +360,7 @@ msgid "Tools"
 msgstr "Araçlar"
 
 #: src/menus/colors/threshold.xml:30(para)
+#, fuzzy
 msgid ""
 "The Threshold filter transforms the current layer or the selection into a "
 "black and white image, where white pixels represent the pixels of the image "
@@ -353,23 +368,36 @@ msgid ""
 "threshold range, and black pixels represent pixels with a value outside the "
 "threshold range."
 msgstr ""
+"Eşik filtresi, mevcut katmanı veya seçimi siyah beyaz bir görüntüye "
+"dönüştürür. Bu görüntüde beyaz pikseller, seçilen <guilabel>Kanalın</"
+"guilabel> değeri eşik aralığında olan görüntünün piksellerini temsil "
+"ederken, siyah pikseller eşik aralığı dışındaki değere sahip pikselleri "
+"temsil eder."
 
 #: src/menus/colors/threshold.xml:37(para)
+#, fuzzy
 msgid ""
 "You can use it to enhance a black and white image (scanned text for example) "
 "or to create selection masks."
 msgstr ""
+"Bunu siyah beyaz bir görüntüyü (örneğin taranmış metin) iyileştirmek veya "
+"seçim maskeleri oluşturmak için kullanabilirsiniz."
 
 #: src/menus/colors/threshold.xml:42(para)
+#, fuzzy
 msgid ""
 "As this filter creates a black and white image, the anti-aliasing of the "
 "original image disappears. If this poses a problem, use the <link "
 "linkend=\"gimp-tool-levels\">Levels</link> tool instead."
 msgstr ""
+"Bu filtre siyah beyaz bir görüntü oluşturduğundan, orijinal görüntünün kenar "
+"yumuşatma özelliği kaybolur. Bu bir sorun teşkil ediyorsa, bunun yerine "
+"<link linkend=\"gimp-tool-levels\">Levels</link> aracını kullanın."
 
 #: src/menus/colors/threshold.xml:52(para)
+#, fuzzy
 msgid "There are different possibilities to activate this:"
-msgstr ""
+msgstr "Bunu etkinleştirmek için farklı seçenekler vardır:"
 
 #: src/menus/colors/threshold.xml:56(para)
 msgid ""
@@ -381,11 +409,15 @@ msgstr ""
 
 # split sentence
 #: src/menus/colors/threshold.xml:65(para)
+#, fuzzy
 msgid ""
 "or by clicking the <placeholder-1/> icon in the Toolbox if Threshold has "
 "been enabled as a tool (which is disabled by default). For this, please "
 "refer to <xref linkend=\"gimp-prefs-toolbox\"/>."
 msgstr ""
+"veya Araç Kutusu'ndaki <placeholder-1/> simgesine tıklayarak (varsayılan "
+"olarak devre dışıdır). Bunun için lütfen <xref linkend=\"gimp-prefs-"
+"toolbox\"/> adresine bakın."
 
 #: src/menus/colors/threshold.xml:84(title)
 #: src/menus/colors/shadows-highlights.xml:38(title)
@@ -511,6 +543,7 @@ msgid "Channel"
 msgstr "Kanal"
 
 #: src/menus/colors/threshold.xml:108(para)
+#, fuzzy
 msgid ""
 "This allows you to select which channel(s) will be used to apply the "
 "Threshold. The default is <guilabel>Value</guilabel>, which will use all "
@@ -520,6 +553,13 @@ msgid ""
 "an alpha channel), <guilabel>Luminance</guilabel>, or <guilabel>RGB</"
 "guilabel>."
 msgstr ""
+"Bu, Eşik değerini uygulamak için hangi kanal(lar)ın kullanılacağını "
+"seçmenizi sağlar. Varsayılan ayar, tüm renk kanallarını kullanacak olan "
+"<guilabel>Değer'dir</guilabel>, ancak tek bir kanal kullanmayı da "
+"seçebilirsiniz: <guilabel>Kırmızı</guilabel>, <guilabel>Yeşil</guilabel>, "
+"<guilabel>Mavi</guilabel> ve <guilabel>Alfa</guilabel> (yalnızca katman bir "
+"alfa kanalına sahipse kullanılabilir), <guilabel>Parlaklık</guilabel> veya "
+"<guilabel>RGB</guilabel>."
 
 #: src/menus/colors/threshold.xml:121(term)
 #: src/menus/colors/levels.xml:183(term) src/menus/colors/curves.xml:177(term)
@@ -532,16 +572,20 @@ msgid "<placeholder-1/> Logarithmic histogram"
 msgstr "<placeholder-1/> Logaritmik histogram"
 
 #: src/menus/colors/threshold.xml:144(para)
+#, fuzzy
 msgid ""
 "These two buttons to the right of the Channel selection let you choose the "
 "type of histogram shown."
 msgstr ""
+"Kanal seçiminin sağındaki bu iki düğme, gösterilen histogramın türünü "
+"seçmenizi sağlar."
 
 #: src/menus/colors/threshold.xml:151(term)
 msgid "Threshold range"
 msgstr "Eşik erimi"
 
 #: src/menus/colors/threshold.xml:153(para)
+#, fuzzy
 msgid ""
 "The Threshold tool provides a visual graph, a histogram, of the intensity "
 "value of the active layer or selection. You can set the threshold range "
@@ -552,20 +596,35 @@ msgid ""
 "you want in white on black background. The <guibutton>Auto</guibutton> "
 "button can be used to automatically adjust the threshold."
 msgstr ""
+"Eşik aracı, etkin katmanın veya seçimin yoğunluk değerinin görsel bir "
+"grafiğini, bir histogramını sağlar. Eşik aralığını, minimum ve maksimum "
+"giriş kutularını kullanarak veya grafiği tıklayıp sürükleyerek "
+"ayarlayabilirsiniz. Bu, başka bir yoğunluğa sahip arka plandan belirli bir "
+"yoğunluğa sahip görüntünün bir bölümünü seçmenizi sağlar. Aralık içindeki "
+"pikseller beyaz, diğerleri siyahtır. Siyah arka planda beyaz olarak "
+"istediğiniz seçimi elde etmek için aralığı ayarlayın. <guibutton>Otomatik</"
+"guibutton> düğmesi, eşiği otomatik olarak ayarlamak için kullanılabilir."
 
 #: src/menus/colors/threshold.xml:171(title)
+#, fuzzy
 msgid "Using Threshold and Quick Mask to create a selection mask"
-msgstr ""
+msgstr "Eşik ve Hızlı Maske kullanarak seçim maskesi oluşturma"
 
 #: src/menus/colors/threshold.xml:172(para)
+#, fuzzy
 msgid ""
 "Sometimes an element you want to extract from an image can stand out well "
 "against the background. In this case, you can use the Threshold tool to "
 "select this element as a whole, and then use a <link linkend=\"gimp-image-"
 "window-quick-mask-button\">Quick mask</link>."
 msgstr ""
+"Bazen bir görüntüden çıkarmak istediğiniz bir öğe arka plana karşı iyi bir "
+"şekilde öne çıkabilir. Bu durumda, Eşik aracını kullanarak bu öğeyi bir "
+"bütün olarak seçebilir ve ardından Hızlı maske <link linkend=\"gimp-image-"
+"window-quick-mask-button\"></link> kullanabilirsiniz."
 
 #: src/menus/colors/threshold.xml:180(para)
+#, fuzzy
 msgid ""
 "First start decomposing your image into its RGB and HSV components by using "
 "the <link linkend=\"plug-in-decompose\">Decompose</link> filter. A new "
@@ -577,43 +636,70 @@ msgid ""
 "the wanted layer in the decompose image. Select the layer that isolates the "
 "element the best."
 msgstr ""
+"Öncelikle, <link linkend=\"plug-in-decompose\">Decompose</link> filtresini "
+"kullanarak görüntünüzü RGB ve HSV bileşenlerine ayırmaya başlayın. Yeni bir "
+"gri tonlamalı görüntü oluşturulur ve bileşenler <link linkend=\"gimp-layer-"
+"dialog\">Layers Dialog</link> içinde katmanlar olarak görüntülenir. Bu "
+"katmanlar küçük resimleriyle birlikte gelir, ancak bunlar inceleme için çok "
+"küçüktür. Elbette, diyalog menüsü (küçük üçgen düğme) ile bu önizlemenin "
+"boyutunu artırabilirsiniz, ancak <quote>gözlerle</quote> oynamak, "
+"ayrıştırılmış görüntüde istenen katmanı görüntülemek için daha basittir. "
+"Öğeyi en iyi şekilde izole eden katmanı seçin."
 
 #: src/menus/colors/threshold.xml:193(title)
+#, fuzzy
 msgid "The original image, the decompose image and its Layers dialog"
-msgstr ""
+msgstr "Orijinal görüntü, ayrıştırılmış görüntü ve Katmanlar iletişim kutusu"
 
 #: src/menus/colors/threshold.xml:214(para)
+#, fuzzy
 msgid ""
 "Call the Threshold tool from the decompose image. By moving the black "
 "cursor, fit threshold to isolate the best the element you want to extract. "
 "This will probably not be perfect: we will enhance the result with the "
 "selection mask we are going to create."
 msgstr ""
+"Görüntüyü ayrıştırma aracından Eşik aracını çağırın. Siyah imleci hareket "
+"ettirerek, çıkarmak istediğiniz öğeyi en iyi şekilde izole etmek için eşiği "
+"ayarlayın. Bu muhtemelen mükemmel olmayacaktır: oluşturacağımız seçim "
+"maskesi ile sonucu iyileştireceğiz."
 
 #: src/menus/colors/threshold.xml:221(para)
+#, fuzzy
 msgid ""
 "Make sure you have selected the right layer when you call the Threshold "
 "tool: when it is opened, you can't change to another layer."
 msgstr ""
+"Eşik aracını çağırdığınızda doğru katmanı seçtiğinizden emin olun: araç "
+"açıldığında başka bir katmana geçemezsiniz."
 
 #: src/menus/colors/threshold.xml:228(title)
+#, fuzzy
 msgid "The selected layer after threshold fit"
-msgstr ""
+msgstr "Eşik uyumu sonrası seçilen katman"
 
 #: src/menus/colors/threshold.xml:234(para)
+#, fuzzy
 msgid ""
 "We got the best outline for our flower. There are several red objects which "
 "we must remove."
 msgstr ""
+"Çiçeğimiz için en iyi taslağı elde ettik. Kaldırmamız gereken birkaç kırmızı "
+"nesne var."
 
 #: src/menus/colors/threshold.xml:243(para)
+#, fuzzy
 msgid ""
 "Make sure the image displaying the selected layer is active and copy it to "
 "the clipboard with <keycombo><keycap>Ctrl</keycap><keycap>C</keycap></"
 "keycombo>."
 msgstr ""
+"Seçilen katmanı gösteren görüntünün etkin olduğundan emin olun ve "
+"<keycombo><keycap>Ctrl</keycap><keycap>C</keycap></keycombo>tuşlarıyla "
+"panoya kopyalayın."
 
 #: src/menus/colors/threshold.xml:250(para)
+#, fuzzy
 msgid ""
 "Now, make the original image active. Click the <guibutton>Quick Mask</"
 "guibutton> button at the bottom-left corner of the image window: the image "
@@ -624,30 +710,49 @@ msgid ""
 "image. Press <keycombo><keycap>Ctrl</keycap><keycap>V</keycap></keycombo> to "
 "paste the previously copied layer."
 msgstr ""
+"Şimdi, orijinal görüntüyü etkinleştirin. Görüntü penceresinin sol alt "
+"köşesindeki <guibutton>Hızlı Maske</guibutton> düğmesine tıklayın: görüntü "
+"kırmızı (varsayılan) yarı saydam bir maske ile kaplanır. Bu kırmızı renk, "
+"kırmızı rengin çok olduğu görüntümüze pek uymuyor: Kanallar iletişim "
+"kutusuna gidin, <quote>Hızlı maske</quote> kanalını etkinleştirin ve "
+"<guibutton>Kanal Özelliklerini Düzenle</guibutton> ile bu rengi değiştirin. "
+"Orijinal görüntüye geri dönün. <keycombo><keycap>Ctrl</keycap><keycap>V</"
+"keycap></keycombo> tuşlarına basarak önceden kopyaladığınız katmanı "
+"yapıştırın."
 
 #: src/menus/colors/threshold.xml:263(title)
 msgid "The mask"
 msgstr "Maske"
 
 #: src/menus/colors/threshold.xml:273(para)
+#, fuzzy
 msgid ""
 "Voilà. Your selection mask is ready: you can improve the selection as usual. "
 "When the selection is ready, disable the Quick mask by clicking its button "
 "again: you will see the <link linkend=\"glossary-marching-ants\">marching "
 "ants</link> around the selection."
 msgstr ""
+"Voilà. Seçim maskeniz hazır: seçimi her zamanki gibi iyileştirebilirsiniz. "
+"Seçim hazır olduğunda, düğmesine tekrar tıklayarak Hızlı maskeyi devre dışı "
+"bırakın: seçimin etrafında <link linkend=\"glossary-marching-ants\">yürüyen "
+"karıncalar</link> göreceksiniz."
 
 #: src/menus/colors/threshold.xml:281(title)
 msgid "The result"
 msgstr "Sonuç"
 
 #: src/menus/colors/threshold.xml:293(para)
+#, fuzzy
 msgid ""
 "We used the Zoom to work at a pixel level, <link linkend=\"gimp-tool-free-"
 "select\">Free Select</link> to remove large unwanted areas, the pencil (to "
 "get hard limits), black paint to remove selected areas, white paint to add "
 "selected areas, especially for stem."
 msgstr ""
+"Piksel düzeyinde çalışmak için Zoom'u kullandık, <link linkend=\"gimp-tool-"
+"free-select\">Free Select</link> istenmeyen büyük alanları kaldırmak için, "
+"kalem (sert sınırlar elde etmek için), seçilen alanları kaldırmak için siyah "
+"boya, seçilen alanları eklemek için beyaz boya, özellikle sap için."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -669,6 +774,7 @@ msgid "Shadows and Highlights"
 msgstr "Gölgeler ve Vurgular"
 
 #: src/menus/colors/shadows-highlights.xml:19(para)
+#, fuzzy
 msgid ""
 "This filter allows adjusting shadows and highlights in the image separately. "
 "The implementation closely follow its counterpart in the Darktable "
@@ -676,6 +782,11 @@ msgid ""
 "development/en/module-reference/processing-modules/shadows-and-highlights/"
 "\">Shadows and Highlights</ulink>."
 msgstr ""
+"Bu filtre, görüntüdeki gölgeleri ve vurguları ayrı ayrı ayarlamaya olanak "
+"tanır. Uygulama, Darktable fotoğrafçılık yazılımındaki <ulink url=\"https://"
+"docs.darktable.org/usermanual/development/en/module-reference/processing-"
+"modules/shadows-and-highlights/\">Shadows and Highlights</ulink>(Gölgeler ve "
+"Vurgular) özelliğine çok benzer."
 
 #: src/menus/colors/shadows-highlights.xml:27(title)
 #: src/menus/colors/saturation.xml:32(title)
@@ -723,16 +834,20 @@ msgid "Shadows"
 msgstr "Gölgeler"
 
 #: src/menus/colors/shadows-highlights.xml:70(para)
+#, fuzzy
 msgid ""
 "This slider controls the effect on shadows; positive values lighten shadows "
 "while negative values darken them."
 msgstr ""
+"Bu kaydırıcı gölgelerin üzerindeki etkiyi kontrol eder; pozitif değerler "
+"gölgeleri aydınlatırken, negatif değerler gölgeleri koyulaştırır."
 
 #: src/menus/colors/shadows-highlights.xml:77(term)
 msgid "Shadows color adjustment"
 msgstr "Gölge rengi ayarı"
 
 #: src/menus/colors/shadows-highlights.xml:79(para)
+#, fuzzy
 msgid ""
 "This slider controls the color saturation adjustment made to shadows; high "
 "values cause saturation enhancements on lightened shadows; low values cause "
@@ -740,6 +855,12 @@ msgid ""
 "default of 100%. This gives a natural saturation boost on shadowssimilar to "
 "the one you would also expect in nature if shadows received more light."
 msgstr ""
+"Bu kaydırıcı, gölgelere yapılan renk doygunluğu ayarını kontrol eder; yüksek "
+"değerler, aydınlatılmış gölgelerde doygunluk artışına neden olur; düşük "
+"değerler ise aydınlatılmış gölgelerde doygunluk azalmasına neden olur. "
+"Normalde bunu varsayılan %100 değerinde bırakmak güvenlidir. Bu, gölgelere "
+"doğal bir doygunluk artışı sağlar; bu, gölgelerin daha fazla ışık aldığı "
+"durumlarda doğada bekleyebileceğiniz doygunluk artışına benzer."
 
 #: src/menus/colors/shadows-highlights.xml:96(term)
 #: src/menus/colors/shadows-highlights.xml:100(term)
@@ -747,16 +868,20 @@ msgid "Highlights"
 msgstr "Vurgular"
 
 #: src/menus/colors/shadows-highlights.xml:102(para)
+#, fuzzy
 msgid ""
 "This slider controls the effect on highlights; negative values darken "
 "highlights while positive values lighten them."
 msgstr ""
+"Bu kaydırıcı, vurgular üzerindeki etkiyi kontrol eder; negatif değerler "
+"vurguları koyulaştırırken, pozitif değerler vurguları açar."
 
 #: src/menus/colors/shadows-highlights.xml:109(term)
 msgid "Highlights color adjustment"
 msgstr "Vurgu rengi ayarı"
 
 #: src/menus/colors/shadows-highlights.xml:111(para)
+#, fuzzy
 msgid ""
 "This slider controls the color saturation adjustment made to highlights; "
 "high values cause saturation enhancements on darkened highlights; low values "
@@ -766,20 +891,29 @@ msgid ""
 "value depending on your specific image; but be aware that sometimes results "
 "still might not be fully satisfying."
 msgstr ""
+"Bu kaydırıcı, vurgulamalara yapılan renk doygunluğu ayarını kontrol eder; "
+"yüksek değerler, karartılmış vurgulamalarda doygunluk artışına neden olur; "
+"düşük değerler ise karartılmış vurgulamalarda doygunluk azalmasına neden "
+"olur. Genellikle vurgulamalar, karartıldığında ikna edici renkler vermek "
+"için yeterli renk bilgisi içermez. Özel görüntünüze bağlı olarak en uygun "
+"değeri bulmak için bu parametreyi biraz denemeniz gerekebilir; ancak bazen "
+"sonuçların yine de tam olarak tatmin edici olmayabileceğini unutmayın."
 
 #: src/menus/colors/shadows-highlights.xml:129(term)
 msgid "Common"
 msgstr "Ortak"
 
 #: src/menus/colors/shadows-highlights.xml:131(para)
+#, fuzzy
 msgid "These options are common for shadows and highlights."
-msgstr ""
+msgstr "Bu seçenekler gölgeler ve vurgular için ortaktır."
 
 #: src/menus/colors/shadows-highlights.xml:134(term)
 msgid "White point adjustment"
 msgstr "Beyaz nokta ayarı"
 
 #: src/menus/colors/shadows-highlights.xml:136(para)
+#, fuzzy
 msgid ""
 "By default the algorithm of this module leaves black point and white point "
 "untouched. In some cases an image might contain tonal variations beyond the "
@@ -787,6 +921,11 @@ msgid ""
 "white point adjustment slider allows to bring these values down into the "
 "proper range so that further details in the highlights get visible."
 msgstr ""
+"Varsayılan olarak, bu modülün algoritması siyah noktayı ve beyaz noktayı "
+"değiştirmez. Bazı durumlarda, bir görüntü beyaz noktanın ötesinde, yani "
+"100'ün üzerindeki parlaklık değerlerinde ton farklılıkları içerebilir. Beyaz "
+"nokta ayar kaydırıcısında negatif bir kaydırma, bu değerleri uygun aralığa "
+"indirerek parlak alanlardaki ayrıntıların daha iyi görünmesini sağlar."
 
 #: src/menus/colors/shadows-highlights.xml:148(term)
 #: src/menus/colors/gegl-local-threshold.xml:51(term)
@@ -794,18 +933,24 @@ msgid "Radius"
 msgstr "Yarıçap"
 
 #: src/menus/colors/shadows-highlights.xml:150(para)
+#, fuzzy
 msgid ""
 "This slider controls the radius of the involved blurring filter. Higher "
 "values give softer transitions between shadows and highlights but might "
 "introduce halos. Lower values reduce the size of halos but may lead to an "
 "artificial look."
 msgstr ""
+"Bu kaydırıcı, ilgili bulanıklaştırma filtresinin yarıçapını kontrol eder. "
+"Daha yüksek değerler, gölgeler ve vurgular arasında daha yumuşak geçişler "
+"sağlar, ancak haleler oluşturabilir. Daha düşük değerler, halelerin boyutunu "
+"azaltır, ancak yapay bir görünüme yol açabilir."
 
 #: src/menus/colors/shadows-highlights.xml:159(term)
 msgid "Compress"
 msgstr "Sıkıştır"
 
 #: src/menus/colors/shadows-highlights.xml:161(para)
+#, fuzzy
 msgid ""
 "This slider controls how strong the effect extends to mid-tones; high values "
 "reduce the effect to the extreme shadows and highlights; low values cause "
@@ -815,6 +960,13 @@ msgid ""
 "visible effect any longer as only absolute black and absolute white are "
 "affected."
 msgstr ""
+"Bu kaydırıcı, efektin orta tonlara ne kadar güçlü yayılacağını kontrol eder; "
+"yüksek değerler, efekti aşırı gölgelere ve vurgulamalara indirger; düşük "
+"değerler ise orta tonlara da güçlü ayarlamalar yapar. Normalde, efektleri "
+"aşırı gölgelere ve vurgulamalara sınırlamak istiyorsanız bu parametreye "
+"dokunmanız yeterlidir; bu durumda değeri artırın. %100'de bu modül, yalnızca "
+"mutlak siyah ve mutlak beyaz etkilendiği için artık görünür bir etkiye sahip "
+"değildir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -835,20 +987,28 @@ msgid "Saturation"
 msgstr "Doygunluk"
 
 #: src/menus/colors/saturation.xml:19(para)
+#, fuzzy
 msgid ""
 "Another way to modify saturation. Clear explanations about chroma and "
 "saturation can be found at <ulink url=\"https://ninedegreesbelow.com/"
 "photography/changing-saturation-using-lch-chroma.html\"/>"
 msgstr ""
+"Doygunluğu değiştirmenin başka bir yolu. Kroma ve doygunluk hakkında net "
+"açıklamalar şu adreste bulunabilir: <ulink url=\"https://"
+"ninedegreesbelow.com/photography/changing-saturation-using-lch-chroma.html\"/"
+">"
 
 #: src/menus/colors/saturation.xml:25(para)
 #: src/menus/colors/hue-saturation.xml:20(para)
 #: src/menus/colors/color-temperature.xml:49(para)
 #: src/menus/colors/color-balance.xml:28(para)
+#, fuzzy
 msgid ""
 "This command does not work on Grayscale images. If the image is Grayscale, "
 "the menu entry is disabled."
 msgstr ""
+"Bu komut Gri Tonlamalı görüntülerde çalışmaz. Görüntü Gri Tonlamalı ise, "
+"menü girdisi devre dışıdır."
 
 #: src/menus/colors/saturation.xml:33(para)
 msgid ""
@@ -905,12 +1065,18 @@ msgid "RGB Clip"
 msgstr "RGB Kırp"
 
 #: src/menus/colors/rgb-clip.xml:16(para)
+#, fuzzy
 msgid ""
 "This filter can be used to keep RGB pixel values inside a specific range. "
 "Most of the time this filter seems to work best if you have both the low and "
 "high limit between 0 and 1. However, you can get some cool effects when "
 "selecting a high close to 0 and and low greater than 1."
 msgstr ""
+"Bu filtre, RGB piksel değerlerini belirli bir aralıkta tutmak için "
+"kullanılabilir. Çoğu zaman, bu filtre, hem alt hem de üst sınır 0 ile 1 "
+"arasında olduğunda en iyi şekilde çalışır. Ancak, 0'a yakın bir üst sınır ve "
+"1'den büyük bir alt sınır seçtiğinizde bazı ilginç efektler elde "
+"edebilirsiniz."
 
 #: src/menus/colors/rgb-clip.xml:25(para)
 msgid ""
@@ -929,32 +1095,36 @@ msgid "Clip low level values"
 msgstr "Düşük piksel değerlerini kırp"
 
 #: src/menus/colors/rgb-clip.xml:62(para)
+#, fuzzy
 msgid "When checked, low pixel values will be clipped."
-msgstr ""
+msgstr "İşaretlendiğinde, düşük piksel değerleri kırpılır."
 
 #: src/menus/colors/rgb-clip.xml:69(term)
 msgid "Low limit"
 msgstr "Düşük sınır"
 
 #: src/menus/colors/rgb-clip.xml:71(para)
+#, fuzzy
 msgid "Pixel values lower than this limit will be set to it."
-msgstr ""
+msgstr "Bu sınırdan daha düşük piksel değerleri bu sınıra ayarlanacaktır."
 
 #: src/menus/colors/rgb-clip.xml:78(term)
 msgid "Clip high pixel values"
 msgstr "Yüksek piksel değerlerini kırp"
 
 #: src/menus/colors/rgb-clip.xml:80(para)
+#, fuzzy
 msgid "When checked, high pixel values will be clipped."
-msgstr ""
+msgstr "İşaretlendiğinde, yüksek piksel değerleri kırpılacaktır."
 
 #: src/menus/colors/rgb-clip.xml:87(term)
 msgid "High limit"
 msgstr "Yüksek sınır"
 
 #: src/menus/colors/rgb-clip.xml:89(para)
+#, fuzzy
 msgid "Pixel values higher than this limit will be set to it."
-msgstr ""
+msgstr "Bu sınırdan yüksek piksel değerleri bu sınıra ayarlanacaktır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1001,11 +1171,15 @@ msgid "<quote>Posterize</quote> with 3 levels applied"
 msgstr "<quote>Posterleştirme düzeyi</quote> 3 olarak uygulandı"
 
 #: src/menus/colors/posterize.xml:47(para)
+#, fuzzy
 msgid ""
 "This tool is designed to intelligently weigh the pixel colors of the "
 "selection or active layer and reduce the number of colors while maintaining "
 "a semblance of the original image characteristics."
 msgstr ""
+"Bu araç, seçimin veya etkin katmanın piksel renklerini akıllıca tartmak ve "
+"orijinal görüntünün özelliklerini koruyarak renk sayısını azaltmak için "
+"tasarlanmıştır."
 
 #: src/menus/colors/posterize.xml:58(para)
 msgid ""
@@ -1033,12 +1207,17 @@ msgstr ""
 "gelmektedir."
 
 #: src/menus/colors/posterize.xml:96(para)
+#, fuzzy
 msgid ""
 "This slider and the input boxes with arrowheads allow you to set the number "
 "of levels (2-256) in each RGB channel that the tool uses to describe the "
 "active layer. The maximum total number of colors is the combination of these "
 "levels. A level to 3 will give 3<superscript>3</superscript> = 27 colors."
 msgstr ""
+"Bu kaydırıcı ve ok uçlu giriş kutuları, aracın etkin katmanı tanımlamak için "
+"kullandığı her RGB kanalındaki seviye sayısını (2-256) ayarlamanıza olanak "
+"tanır. Maksimum toplam renk sayısı, bu seviyelerin birleşimidir. 3 "
+"seviyesinde<superscript>33</superscript> = 27 renk elde edilir."
 
 #: src/menus/colors/map.xml:13(title)
 msgid "The <quote>Map</quote> Submenu"
@@ -1097,11 +1276,15 @@ msgid "Linear Invert colors"
 msgstr "Doğrusal Tersine Çevir renkler"
 
 #: src/menus/colors/linear-invert.xml:19(para)
+#, fuzzy
 msgid ""
 "The <guimenuitem>Linear Invert</guimenuitem> command inverts all the color "
 "components except the alpha channel in the current layer in linear light. "
 "Dark areas become bright and bright areas become dark."
 msgstr ""
+"<guimenuitem>Doğrusal Ters Çevirme</guimenuitem> komutu, geçerli katmandaki "
+"alfa kanalı hariç tüm renk bileşenlerini doğrusal ışıkta ters çevirir. Koyu "
+"alanlar aydınlık, aydınlık alanlar ise koyu hale gelir."
 
 #: src/menus/colors/linear-invert.xml:26(para)
 #: src/menus/colors/invert.xml:32(para)
@@ -1132,8 +1315,9 @@ msgid "Applying <quote>Linear Invert colors</quote>"
 msgstr "<quote>Doğrusal Tersine Çevir</quote> örneği"
 
 #: src/menus/colors/linear-invert.xml:60(para)
+#, fuzzy
 msgid "After inverting the colors in linear light"
-msgstr ""
+msgstr "Doğrusal ışıkta renkleri ters çevirdikten sonra"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1403,6 +1587,7 @@ msgid "White point"
 msgstr "Beyaz nokta"
 
 #: src/menus/colors/levels.xml:35(para)
+#, fuzzy
 msgid ""
 "The Level tool provides features similar to the <link linkend=\"gimp-"
 "histogram-dialog\">Histogram</link> dialog but can also change the intensity "
@@ -1410,6 +1595,11 @@ msgid ""
 "to make an image lighter or darker, to change contrast or to correct a "
 "predominant color cast."
 msgstr ""
+"Seviye aracı, <link linkend=\"gimp-histogram-dialog\">Histogram</link> "
+"iletişim kutusuna benzer özellikler sunar, ancak her kanalda etkin katmanın "
+"veya seçimin yoğunluk aralığını da değiştirebilir. Bu araç, görüntüyü daha "
+"açık veya daha koyu hale getirmek, kontrastı değiştirmek veya baskın renk "
+"tonunu düzeltmek için kullanılır."
 
 #: src/menus/colors/levels.xml:44(title) src/menus/colors/curves.xml:27(title)
 #: src/menus/colors/color-balance.xml:34(title)
@@ -1419,59 +1609,86 @@ msgstr "Aracı Etkinleştirme"
 
 #: src/menus/colors/levels.xml:45(para) src/menus/colors/curves.xml:28(para)
 #: src/menus/colors/brightness-contrast.xml:40(para)
+#, fuzzy
 msgid "There are different possibilities to activate the tool:"
-msgstr ""
+msgstr "Aracı etkinleştirmek için farklı seçenekler mevcuttur:"
 
 #: src/menus/colors/levels.xml:50(para)
+#, fuzzy
 msgid ""
 "From the main menu: <menuchoice><guimenu>Colors</guimenu><guimenuitem>Levels…"
 "</guimenuitem></menuchoice>."
 msgstr ""
+"Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Seviyeler…</"
+"guimenuitem></menuchoice>."
 
 #: src/menus/colors/levels.xml:59(para) src/menus/colors/curves.xml:42(para)
 #: src/menus/colors/brightness-contrast.xml:54(para)
+#, fuzzy
 msgid ""
 "By clicking the tool icon <placeholder-1/> in the Toolbox if this tool has "
 "been installed there. For this, please refer to <xref linkend=\"gimp-prefs-"
 "toolbox\"/>."
 msgstr ""
+"Bu araç Toolbox'a yüklenmişse, Toolbox'taki araç simgesine ( <placeholder-1/"
+"> ) tıklayarak. Bunun için lütfen <xref linkend=\"gimp-prefs-toolbox\"/> "
+"adresine bakın."
 
 #: src/menus/colors/levels.xml:79(title)
 msgid "Level tool options"
 msgstr "“Düzey” aracı seçenekleri"
 
 #: src/menus/colors/levels.xml:106(para)
+#, fuzzy
 msgid ""
 "<guilabel>Value</guilabel> makes changes to the value of all RGB channels in "
 "the image: the image becomes darker or lighter."
 msgstr ""
+"<guilabel>Değer</guilabel>, görüntüdeki tüm RGB kanallarının değerinde "
+"değişiklikler yapar: görüntü daha koyu veya daha açık hale gelir."
 
 #: src/menus/colors/levels.xml:113(para)
+#, fuzzy
 msgid ""
 "<guilabel>Red</guilabel>, <guilabel>Green</guilabel> and <guilabel>Blue</"
 "guilabel> work on a particular color channel: the image gets more or less "
 "color. Remember that adding or removing a color results in removing or "
 "adding the complementary color."
 msgstr ""
+"<guilabel>Kırmızı</guilabel>, <guilabel>Yeşil</guilabel> ve <guilabel>Mavi</"
+"guilabel> belirli bir renk kanalında çalışır: görüntü daha fazla veya daha "
+"az renk alır. Bir rengi eklemek veya çıkarmak, tamamlayıcı rengi çıkarmak "
+"veya eklemekle sonuçlanır."
 
 #: src/menus/colors/levels.xml:122(para)
+#, fuzzy
 msgid ""
 "<guilabel>Alpha</guilabel> works on semi-transparent layers or selections: "
 "here, dark means more transparency, and white is fully opaque. Your image "
 "must have an Alpha Channel, otherwise this option is disabled."
 msgstr ""
+"<guilabel>Alfa</guilabel>, yarı saydam katmanlar veya seçimler üzerinde "
+"çalışır: burada koyu renk daha fazla saydamlık, beyaz ise tamamen opaklık "
+"anlamına gelir. Görüntünüzün bir Alfa Kanalı olması gerekir, aksi takdirde "
+"bu seçenek devre dışı kalır."
 
 #: src/menus/colors/levels.xml:130(para)
+#, fuzzy
 msgid ""
 "<guilabel>Reset channel</guilabel> restores the original setting for the "
 "selected channel."
 msgstr ""
+"<guilabel>Kanalı sıfırla</guilabel>, seçilen kanalın orijinal ayarını geri "
+"yükler."
 
 #: src/menus/colors/levels.xml:101(para)
+#, fuzzy
 msgid ""
 "You can select the specific channel which will be modified by the tool: "
 "<placeholder-1/>"
 msgstr ""
+"Araç tarafından değiştirilecek belirli kanalı seçebilirsiniz: <placeholder-1/"
+">"
 
 #: src/menus/colors/levels.xml:141(term) src/menus/colors/curves.xml:135(term)
 msgid "<placeholder-1/> Linear"
@@ -1486,12 +1703,16 @@ msgid "<placeholder-1/> Perceptual"
 msgstr "<placeholder-1/> Algısal"
 
 #: src/menus/colors/levels.xml:175(para) src/menus/colors/curves.xml:169(para)
+#, fuzzy
 msgid ""
 "These three buttons determine whether the tone reproduction (TRC) will be "
 "displayed using a linear, non-linear, or perceptual X axis."
 msgstr ""
+"Bu üç düğme, ton reprodüksiyonunun (TRC) doğrusal, doğrusal olmayan veya "
+"algısal X ekseni kullanılarak görüntülenip görüntülenmeyeceğini belirler."
 
 #: src/menus/colors/levels.xml:206(para) src/menus/colors/curves.xml:200(para)
+#, fuzzy
 msgid ""
 "These two buttons determine whether the histogram will be displayed using a "
 "linear or logarithmic Y axis. For images taken from photographs, the linear "
@@ -1499,12 +1720,19 @@ msgid ""
 "constant color, though, a linear histogram will often be dominated by a "
 "single bar, and a logarithmic histogram will often be more useful."
 msgstr ""
+"Bu iki düğme, histogramın doğrusal mı yoksa logaritmik Y ekseni kullanılarak "
+"mı görüntüleneceğini belirler. Fotoğraflardan alınan görüntüler için "
+"doğrusal mod en yaygın olarak kullanılır. Ancak, sabit renkteki geniş "
+"alanlar içeren görüntülerde, doğrusal histogram genellikle tek bir çubuk "
+"tarafından domine edilir ve logaritmik histogram genellikle daha kullanışlı "
+"olur."
 
 #: src/menus/colors/levels.xml:218(term)
 msgid "Input Levels"
 msgstr "Girdi Düzeyleri"
 
 #: src/menus/colors/levels.xml:220(para)
+#, fuzzy
 msgid ""
 "The main area is a graphic representation of the active layer or selection "
 "dark (Shadows), mid and light (Highlight) tones content (the Histogram). "
@@ -1516,40 +1744,66 @@ msgid ""
 "to the left in Green and Red channels, signified by green and red lacking on "
 "highlights."
 msgstr ""
+"Ana alan, aktif katmanın veya seçimin koyu (Gölgeler), orta ve açık (Vurgu) "
+"ton içeriğinin (Histogram) grafiksel temsilidir. Bunlar, 0 seviyesinden "
+"(siyah) 255 seviyesine (beyaz) kadar absis ekseninde yer alır. Bir seviye "
+"için piksel sayısı ordinat eksenindedir. Eğri yüzeyi, seçilen kanal için "
+"görüntünün tüm piksellerini temsil eder. İyi dengelenmiş bir görüntü, tüm "
+"aralık boyunca dağıtılmış seviyelere (tonlara) sahip bir görüntüdür. "
+"Örneğin, mavi rengin baskın olduğu bir görüntü, Yeşil ve Kırmızı "
+"kanallarında sola kaymış bir histogram üretir; bu, vurguların yeşil ve "
+"kırmızı renklerinin eksik olmasıyla belirtilir."
 
 #: src/menus/colors/levels.xml:232(para)
 msgid "Level ranges can be modified in three ways:"
 msgstr "Düzey aralıkları üç şekilde değiştirilebilir:"
 
 #: src/menus/colors/levels.xml:237(para)
+#, fuzzy
 msgid ""
 "Three triangles as sliders: one black for dark tones (Shadows), one gray for "
 "midtones (Gamma), one white for light (Highlights) tones."
 msgstr ""
+"Sürgü olarak üç üçgen: koyu tonlar için siyah (Gölgeler), orta tonlar için "
+"gri (Gama), açık tonlar için beyaz (Vurgular)."
 
 #: src/menus/colors/levels.xml:242(para)
+#, fuzzy
 msgid ""
 "The black slider determines the <emphasis>black point</emphasis>: all pixels "
 "with this value or less will be black (no color with a color channel "
 "selected / transparent with the Alpha channel selected)."
 msgstr ""
+"Siyah kaydırıcı <emphasis>siyah noktayı</emphasis> belirler: bu değere sahip "
+"veya daha düşük tüm pikseller siyah olacaktır (renk kanalı seçiliyken renk "
+"yok / Alfa kanalı seçiliyken şeffaf)."
 
 #: src/menus/colors/levels.xml:248(para)
+#, fuzzy
 msgid ""
 "The white slider determines the <emphasis>white point</emphasis>: all pixels "
 "with this value or higher, will be white (fully colored with a color channel "
 "selected / fully opaque with the Alpha channel selected)."
 msgstr ""
+"Beyaz kaydırıcı <emphasis>beyaz noktayı</emphasis> belirler: bu değere sahip "
+"veya daha yüksek tüm pikseller beyaz olacaktır (seçilen renk kanalıyla "
+"tamamen renklendirilmiş / seçilen Alfa kanalıyla tamamen opak)."
 
 #: src/menus/colors/levels.xml:254(para)
+#, fuzzy
 msgid ""
 "The gray slider determines the <emphasis>mid point</emphasis>. Going to the "
 "left, to the black, makes the image lighter (more colored / more opaque). "
 "Going to the right, to the white, makes the image darker (less colored / "
 "more transparent)."
 msgstr ""
+"Gri kaydırıcı <emphasis>orta noktayı</emphasis> belirler. Sola, siyaha doğru "
+"kaydırıldığında görüntü daha açık (daha renkli / daha opak) hale gelir. "
+"Sağa, beyaza doğru kaydırıldığında görüntü daha koyu (daha az renkli / daha "
+"şeffaf) hale gelir."
 
 #: src/menus/colors/levels.xml:263(para)
+#, fuzzy
 msgid ""
 "Two eye-droppers: when you click them, the mouse pointer becomes an eye-"
 "dropper. Then clicking on the image determines the black or the white point "
@@ -1557,6 +1811,11 @@ msgid ""
 "to determine the black-point; use the right, white one <placeholder-2/> to "
 "determine the white point."
 msgstr ""
+"İki damlalık: Bunlara tıkladığınızda, fare imleci damlalık haline gelir. "
+"Ardından, görüntüye tıklayarak seçilen damlalık göre siyah veya beyaz "
+"noktayı belirleyebilirsiniz. Siyah noktayı belirlemek için soldaki koyu "
+"renkli damlalığı <placeholder-1/> kullanın; beyaz noktayı belirlemek için "
+"sağdaki beyaz damlalığı <placeholder-2/> kullanın."
 
 #: src/menus/colors/levels.xml:289(para)
 msgid "Three numeric text boxes to enter values directly."
@@ -1564,6 +1823,7 @@ msgstr "Değerleri doğrudan girmek için üç sayısal metin kutusu."
 
 #. summary
 #: src/menus/colors/levels.xml:296(para)
+#, fuzzy
 msgid ""
 "Input Levels are used to lighten highlights (bright tones), darken shadows "
 "(dark tones), change the balance of bright and dark tones. Move sliders to "
@@ -1571,25 +1831,41 @@ msgid ""
 "opacity). Move the sliders to the right to lessen lightness (lessen the "
 "chosen color / lessen opacity)."
 msgstr ""
+"Giriş Seviyeleri, vurguları (parlak tonları) aydınlatmak, gölgeleri (koyu "
+"tonları) koyulaştırmak ve parlak ve koyu tonların dengesini değiştirmek için "
+"kullanılır. Parlaklığı artırmak için kaydırıcıları sola hareket ettirin "
+"(seçilen rengi artırın / opaklığı artırın). Parlaklığı azaltmak için "
+"kaydırıcıları sağa hareket ettirin (seçilen rengi azaltın / opaklığı "
+"azaltın)."
 
 #: src/menus/colors/levels.xml:306(title)
 msgid "Examples for Input Levels"
 msgstr "Girdi Düzeyleri İçin Örnekler"
 
 #: src/menus/colors/levels.xml:307(para)
+#, fuzzy
 msgid ""
 "The original image is a grayscale image with three stripes: Shadows (64), "
 "Mid Tones (127), Highlights (192). The histogram shows three peaks, one for "
 "each of the three tones."
 msgstr ""
+"Orijinal görüntü, üç şerit içeren gri tonlamalı bir görüntüdür: Gölgeler "
+"(64), Orta Tonlar (127), Vurgular (192). Histogram, üç tonun her biri için "
+"birer tane olmak üzere üç tepe noktası gösterir."
 
 #: src/menus/colors/levels.xml:323(para)
+#, fuzzy
 msgid ""
 "The Value channel is selected. The black slider (Shadows) has been moved up "
 "to the Shadows peak. The 64 value became 0 and the Shadows stripe became "
 "black (0). The Gamma (mid tones) slider is automatically moved to the middle "
 "of the tone range. Mid tones are made darker to 84 and Highlights to 171."
 msgstr ""
+"Değer kanalı seçilmiştir. Siyah kaydırıcı (Gölgeler) Gölgeler zirvesine "
+"kadar yukarı kaydırılmıştır. 64 değeri 0 olmuş ve Gölgeler şeridi siyah (0) "
+"olmuştur. Gama (orta tonlar) kaydırıcısı otomatik olarak ton aralığının "
+"ortasına kaydırılmıştır. Orta tonlar 84'e, Vurgular ise 171'e kadar "
+"koyulaştırılmıştır."
 
 #: src/menus/colors/levels.xml:336(para) src/menus/colors/levels.xml:458(para)
 msgid "Black slider has been moved"
@@ -1600,12 +1876,17 @@ msgid "Resulting image"
 msgstr "Sonuç görüntüsü"
 
 #: src/menus/colors/levels.xml:352(para)
+#, fuzzy
 msgid ""
 "The white slider (highlights) has been moved up to the highlight peak. The "
 "192 value became 255 and the highlight stripe became white. The Gamma (mid "
 "tones) slider is automatically moved to the middle of the tone range. Mid "
 "tones are made lighter to 169 and Shadows to 84."
 msgstr ""
+"Beyaz kaydırıcı (vurgular) vurgu zirvesine taşınmıştır. 192 değeri 255'e "
+"dönüşmüş ve vurgu şeridi beyaz olmuştur. Gama (orta tonlar) kaydırıcısı "
+"otomatik olarak ton aralığının ortasına taşınır. Orta tonlar 169'a, gölgeler "
+"ise 84'e kadar açılır."
 
 #: src/menus/colors/levels.xml:365(para)
 msgid "White slider has been moved"
@@ -1616,76 +1897,110 @@ msgid "Output Levels"
 msgstr "Çıktı Düzeyleri"
 
 #: src/menus/colors/levels.xml:386(para)
+#, fuzzy
 msgid ""
 "Output levels allow manual selection of a constrained output level range. "
 "There are also numeric text boxes with arrowheads located here that can be "
 "used to interactively change the Output Levels."
 msgstr ""
+"Çıkış seviyeleri, sınırlı bir çıkış seviyesi aralığının manuel olarak "
+"seçilmesine olanak tanır. Burada, Çıkış Seviyelerini etkileşimli olarak "
+"değiştirmek için kullanılabilen ok uçlu sayısal metin kutuları da "
+"bulunmaktadır."
 
 #: src/menus/colors/levels.xml:392(para)
+#, fuzzy
 msgid "Output levels force the tone range to fit the new limits you have set."
-msgstr ""
+msgstr "Çıkış seviyeleri, ton aralığını belirlediğiniz yeni sınırlara uydurur."
 
 #: src/menus/colors/levels.xml:398(para)
+#, fuzzy
 msgid ""
 "Working with Value: values are compressed and look more alike; so contrast "
 "is reduced. Shadows are made lighter: new details can show up but contrast "
 "is less; a compromise is necessary. Highlights are made darker."
 msgstr ""
+"Değerle Çalışma: değerler sıkıştırılır ve birbirine daha çok benzer hale "
+"gelir; böylece kontrast azalır. Gölgeler daha açık hale getirilir: yeni "
+"ayrıntılar ortaya çıkabilir ancak kontrast azalır; bir uzlaşma gereklidir. "
+"Vurgular daha koyu hale getirilir."
 
 #: src/menus/colors/levels.xml:406(para)
+#, fuzzy
 msgid ""
 "Working with Color channels: if you the use the green channel for example "
 "and set the output levels between 100 and 140, all pixels with some green, "
 "even a low value, will have their green channel value shifted between 100 "
 "and 140."
 msgstr ""
+"Renk kanallarıyla çalışma: Örneğin yeşil kanalı kullanırsanız ve çıkış "
+"seviyelerini 100 ile 140 arasında ayarlarsanız, yeşil içeren tüm piksellerin "
+"yeşil kanal değeri, düşük bir değer olsa bile, 100 ile 140 arasında "
+"kaydırılır."
 
 #: src/menus/colors/levels.xml:414(para)
+#, fuzzy
 msgid ""
 "Working with Alpha channel: all Alpha values are shifted to the range you "
 "have set."
 msgstr ""
+"Alfa kanalıyla çalışma: tüm Alfa değerleri, ayarladığınız aralığa kaydırılır."
 
 #: src/menus/colors/levels.xml:422(title)
 msgid "Example for Output Levels"
 msgstr "Çıktı Düzeyleri Örneği"
 
 #: src/menus/colors/levels.xml:424(para)
+#, fuzzy
 msgid ""
 "The original image is a RGB gradient from black (0;0;0) to white "
 "(255;255;255). Output Levels has no histogram; here, we used "
 "<menuchoice><guimenu>Windows</guimenu><guisubmenu>Dockable Dialogs</"
 "guisubmenu><guimenuitem>Histogram</guimenuitem></menuchoice>."
 msgstr ""
+"Orijinal görüntü, siyah (0;0;0) ile beyaz (255;255;255) arasında bir RGB "
+"gradyanıdır. Çıkış Seviyeleri histogram içermez; burada "
+"<menuchoice><guimenu>Windows</guimenu><guisubmenu>Yerleştirilebilir "
+"Diyaloglar</guisubmenu><guimenuitem>Histogram</guimenuitem></"
+"menuchoice>kullan"
 
 #: src/menus/colors/levels.xml:440(para)
 msgid "Original image (a gradient)"
 msgstr "Özgün görüntü (renk geçişi)"
 
 #: src/menus/colors/levels.xml:445(para)
+#, fuzzy
 msgid ""
 "Value channel selected. The black slider has been moved to 63 and the white "
 "slider to 189. The Histogram shows the compression of pixels. No pixel is "
 "less than 63, and no pixel is more than 189. In the image, Shadows are "
 "lighter and Highlights are darker: contrast is reduced."
 msgstr ""
+"Değer kanalı seçildi. Siyah kaydırıcı 63'e, beyaz kaydırıcı ise 189'a "
+"getirildi. Histogram, piksellerin sıkıştırılmasını gösterir. Hiçbir piksel "
+"63'ten küçük, hiçbir piksel de 189'dan büyük değildir. Görüntüde gölgeler "
+"daha açık, vurgular ise daha koyu: kontrast azaltılmıştır."
 
 #: src/menus/colors/levels.xml:466(term)
 msgid "All Channels"
 msgstr "Tüm Kanallar"
 
 #: src/menus/colors/levels.xml:468(para)
+#, fuzzy
 msgid ""
 "<guilabel>Auto Input Levels</guilabel>: Performs an automatic setting of the "
 "levels."
 msgstr ""
+"<guilabel>Otomatik Giriş Seviyeleri</guilabel>: Seviyelerin otomatik ayarını "
+"gerçekleştirir."
 
 #: src/menus/colors/levels.xml:473(title)
+#, fuzzy
 msgid "Three eyedroppers <placeholder-1/>, <placeholder-2/>, <placeholder-3/>."
-msgstr ""
+msgstr "Üç damlalık <placeholder-1/>, <placeholder-2/>, <placeholder-3/>."
 
 #: src/menus/colors/levels.xml:500(para)
+#, fuzzy
 msgid ""
 "These three buttons respectively represent a white, a gray and a black eye-"
 "dropper. When you click one of these buttons, the mouse pointer takes the "
@@ -1695,27 +2010,42 @@ msgid ""
 "according to the eye-dropper you chose. Works on all channels, even if a "
 "particular channel is selected."
 msgstr ""
+"Bu üç düğme sırasıyla beyaz, gri ve siyah damlalıkları temsil eder. Bu "
+"düğmelerden birine tıkladığınızda, fare imleci temsil ettiği damlalığın "
+"şeklini alır. Ardından, görüntüye tıkladığınızda, tıklandığınız piksel "
+"seçtiğiniz damlalık göre <emphasis>beyaz noktayı</emphasis>, <emphasis>siyah "
+"noktayı</emphasis> veya <emphasis>orta noktayı</emphasis> belirler. Belirli "
+"bir kanal seçilmiş olsa bile tüm kanallarda çalışır."
 
 #: src/menus/colors/levels.xml:514(title)
+#, fuzzy
 msgid "Example for Levels eye-droppers"
-msgstr ""
+msgstr "Seviyeler için örnek damlalıklar"
 
 #: src/menus/colors/levels.xml:521(para)
+#, fuzzy
 msgid ""
 "Above is original gradient from black to white. Below is the result after "
 "clicking with the white eye-dropper: all pixels with a value higher than "
 "that of the clicked pixel turned to white."
 msgstr ""
+"Yukarıda siyahtan beyaza doğru orijinal gradyan gösterilmektedir. Aşağıda "
+"beyaz damlalıkla tıklandıktan sonraki sonuç gösterilmektedir: tıklanan "
+"pikselin değerinden daha yüksek değere sahip tüm pikseller beyaza "
+"dönüşmüştür."
 
 #: src/menus/colors/levels.xml:571(term)
 msgid "Edit these settings as Curves"
 msgstr "Bu Ayarları Eğriler olarak düzenle"
 
 #: src/menus/colors/levels.xml:573(para)
+#, fuzzy
 msgid ""
 "To make your work easier, this button lets you turn to the <link "
 "linkend=\"gimp-tool-curves\">Curves</link> tool with the same settings."
 msgstr ""
+"İşinizi kolaylaştırmak için, bu düğme aynı ayarlarla <link linkend=\"gimp-"
+"tool-curves\">Curves</link> aracına geçmenizi sağlar."
 
 #: src/menus/colors/levels.xml:585(title)
 msgid "Tool Options dialog"
@@ -1726,80 +2056,111 @@ msgid "<quote>Levels</quote> tool options"
 msgstr "<quote>Düzeyler</quote> aracı seçenekleri"
 
 #: src/menus/colors/levels.xml:598(para)
+#, fuzzy
 msgid ""
 "Although this tool is not present in the Toolbox by default (please refer to "
 "<xref linkend=\"gimp-prefs-toolbox\"/> if you want to add it), nevertheless "
 "it has a Tool Option Dialog under the Toolbox."
 msgstr ""
+"Bu araç varsayılan olarak Araç Kutusunda bulunmamasına rağmen (eklemek "
+"isterseniz lütfen <xref linkend=\"gimp-prefs-toolbox\"/> adresine bakın), "
+"Araç Kutusunun altında bir Araç Seçenekleri İletişim Kutusu bulunmaktadır."
 
 #: src/menus/colors/levels.xml:605(term)
 msgid "Sample average"
 msgstr "Örnek ortalama"
 
 #: src/menus/colors/levels.xml:607(para)
+#, fuzzy
 msgid ""
 "This slider sets the <quote>radius</quote> of the color-picking area to get "
 "the averaged color value from nearby pixels. This area appears as a more or "
 "less enlarged square when you maintain the click on a pixel."
 msgstr ""
+"Bu kaydırıcı, yakındaki piksellerden ortalama renk değerini almak için renk "
+"seçme alanının <quote>yarıçapını</quote> ayarlar. Bu alan, bir piksel "
+"üzerinde tıklamayı sürdürdüğünüzde, az çok büyütülmüş bir kare olarak "
+"görünür."
 
 #: src/menus/colors/levels.xml:616(term)
 msgid "Sample merged"
 msgstr "Birleştirilmiş örnek"
 
 #: src/menus/colors/levels.xml:618(para)
+#, fuzzy
 msgid ""
 "If you enable this option, sampling is not calculated only from the values "
 "of the active layer, but from all visible layers."
 msgstr ""
+"Bu seçeneği etkinleştirirseniz, örnekleme yalnızca etkin katmanın "
+"değerlerinden değil, tüm görünür katmanlardan hesaplanır."
 
 #: src/menus/colors/levels.xml:622(para)
+#, fuzzy
 msgid ""
 "For more information, see the <link linkend=\"glossary-"
 "samplemerge\">Glossary entry</link>."
 msgstr ""
+"Daha fazla bilgi için, <link linkend=\"glossary-samplemerge\">Sözlük "
+"girişine bakın</link>."
 
 #: src/menus/colors/levels.xml:632(title)
+#, fuzzy
 msgid "Actual practice"
-msgstr ""
+msgstr "Gerçek uygulama"
 
 #: src/menus/colors/levels.xml:634(title)
+#, fuzzy
 msgid "A very under-exposed image"
-msgstr ""
+msgstr "Çok az pozlanmış bir görüntü"
 
 #: src/menus/colors/levels.xml:649(para)
+#, fuzzy
 msgid "The histogram shows a predominance of Shadows and missing Highlights."
-msgstr ""
+msgstr "Histogramda gölgeler baskın ve parlak alanlar eksik."
 
 #: src/menus/colors/levels.xml:657(title)
+#, fuzzy
 msgid "Setting the white point"
-msgstr ""
+msgstr "Beyaz nokta ayarı"
 
 #: src/menus/colors/levels.xml:663(para)
+#, fuzzy
 msgid ""
 "The white slider has been moved to the start of well marked Highlights. The "
 "image lightens up."
 msgstr ""
+"Beyaz kaydırıcı, iyi işaretlenmiş Önemli Noktalar bölümünün başına "
+"taşınmıştır. Görüntü aydınlanır."
 
 #: src/menus/colors/levels.xml:674(para)
+#, fuzzy
 msgid ""
 "The resulting histogram (down) shows Highlights now, but Shadows are still "
 "predominant."
 msgstr ""
+"Ortaya çıkan histogram (aşağıda) artık Vurguları gösteriyor, ancak Gölgeler "
+"hala baskın durumda."
 
 #: src/menus/colors/levels.xml:682(title)
+#, fuzzy
 msgid "Setting the balance between Shadows and Highlights"
-msgstr ""
+msgstr "Gölgeler ve Vurgular arasındaki dengeyi ayarlama"
 
 #: src/menus/colors/levels.xml:688(para)
+#, fuzzy
 msgid ""
 "The mid slider has been moved to the left. This results in reducing the "
 "proportion of Shadows and increasing the proportion of Highlights."
 msgstr ""
+"Orta kaydırıcı sola kaydırılmıştır. Bu, Gölgeler oranının azalmasına ve "
+"Vurgular oranının artmasına neden olur."
 
 #: src/menus/colors/levels.xml:700(para)
+#, fuzzy
 msgid "The resulting histogram (down) confirms the reduction of Shadows."
 msgstr ""
+"Ortaya çıkan histogram (aşağıda), Gölgelerin azaldığını doğrulamaktadır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1822,6 +2183,7 @@ msgid "Invert colors"
 msgstr "Tersine çevrilmiş renkler"
 
 #: src/menus/colors/invert.xml:22(para)
+#, fuzzy
 msgid ""
 "The <guimenuitem>Invert</guimenuitem> command inverts all the pixel colors "
 "and brightness values in the current layer, as if the image were converted "
@@ -1830,6 +2192,12 @@ msgid ""
 "colors, see the Glossary entry about <link linkend=\"glossary-"
 "colormodel\">Color Model</link>."
 msgstr ""
+"<guimenuitem>Ters Çevir</guimenuitem> komutu, görüntünün negatifine "
+"dönüştürülmüş gibi, geçerli katmandaki tüm piksel renklerini ve parlaklık "
+"değerlerini ters çevirir. Koyu alanlar aydınlık, aydınlık alanlar ise koyu "
+"hale gelir. Tonlar, tamamlayıcı renkleriyle değiştirilir. Renkler hakkında "
+"daha fazla bilgi için, Sözlükte \" <link linkend=\"glossary-"
+"colormodel\">Renk Modeli\" başlıklı maddeye bakın:</link>."
 
 #: src/menus/colors/invert.xml:40(para)
 msgid ""
@@ -1912,7 +2280,7 @@ msgstr ""
 
 #: src/menus/colors/introduction.xml:10(primary)
 msgid "Menu"
-msgstr ""
+msgstr "Menü"
 
 #: src/menus/colors/introduction.xml:14(para)
 msgid ""
@@ -2166,10 +2534,13 @@ msgid "Hue-Saturation"
 msgstr "Renk Tonu-Doygunluk"
 
 #: src/menus/colors/hue-saturation.xml:15(para)
+#, fuzzy
 msgid ""
 "The Hue-Saturation command is used to adjust hue, saturation and lightness "
 "levels on a range of color weights for the selected area or active layer."
 msgstr ""
+"Ton-Doygunluk komutu, seçilen alan veya etkin katman için bir dizi renk "
+"ağırlığında ton, doygunluk ve açıklık düzeylerini ayarlamak için kullanılır."
 
 #: src/menus/colors/hue-saturation.xml:28(para)
 msgid ""
@@ -2190,6 +2561,7 @@ msgid "Select Primary Color to Adjust"
 msgstr "Ayarlanacak Birincil Rengi Seç"
 
 #: src/menus/colors/hue-saturation.xml:62(para)
+#, fuzzy
 msgid ""
 "You can choose to adjust any of six colors: the three primary colors (Red, "
 "Green and Blue) and the three complementary colors (Cyan, Magenta and "
@@ -2199,45 +2571,70 @@ msgid ""
 "colors. <acronym>GIMP</acronym> default is to set Red as 0. Note that these "
 "colors refer to color ranges and not to color channels."
 msgstr ""
+"Altı rengin herhangi birini ayarlayabilirsiniz: üç ana renk (Kırmızı, Yeşil "
+"ve Mavi) ve üç tamamlayıcı renk (Camgöbeği, Macenta ve Sarı). Bunlar renk "
+"çarkına göre düzenlenmiştir. Ton arttığında, ton saat yönünün tersine gider. "
+"Azaldığında ise saat yönünde gider. <guilabel>Master</guilabel> düğmesine "
+"tıklarsanız, yaptığınız değişiklikler tüm renkleri etkiler. "
+"<acronym>GIMP'in</acronym> varsayılan ayarı Kırmızı'yı 0 olarak "
+"ayarlamaktır. Bu renklerin renk kanallarına değil, renk aralıklarına atıfta "
+"bulunduğunu unutmayın."
 
 #: src/menus/colors/hue-saturation.xml:73(para)
+#, fuzzy
 msgid ""
 "Hue changes are shown in color swatches and the result is visible in the "
 "image if the <guilabel>Preview</guilabel> option is enabled."
 msgstr ""
+"Renk tonu değişiklikleri renk örneklerinde gösterilir ve <guilabel>Önizleme</"
+"guilabel> seçeneği etkinleştirilirse sonuç görüntüde görülebilir."
 
 #: src/menus/colors/hue-saturation.xml:80(term)
 msgid "Overlap"
 msgstr "Örtüşme"
 
 #: src/menus/colors/hue-saturation.xml:82(para)
+#, fuzzy
 msgid ""
 "This slider lets you set how much color ranges overlap. This effect is very "
 "subtle and works on closely-related colors only:"
 msgstr ""
+"Bu kaydırıcı, renk aralıklarının ne kadar üst üste bineceğini ayarlamanıza "
+"olanak tanır. Bu efekt çok ince bir etkidir ve yalnızca birbirine çok yakın "
+"renklerde işe yarar:"
 
 #: src/menus/colors/hue-saturation.xml:87(title)
 msgid "Example for the <guilabel>Overlap</guilabel> option"
 msgstr "<guilabel>Örtüşme</guilabel> seçeneği örneği"
 
 #: src/menus/colors/hue-saturation.xml:96(para)
+#, fuzzy
 msgid ""
 "<emphasis>Original image</emphasis>. From the left to the right: a reddish "
 "yellow (255;240;0); a pure yellow (255;255;0); a greenish yellow (240;255;0)."
 msgstr ""
+"<emphasis>Orijinal görüntü</emphasis>. Soldan sağa: kırmızımsı sarı "
+"(255;240;0); saf sarı (255;255;0); yeşilimsi sarı (240;255;0)."
 
 #: src/menus/colors/hue-saturation.xml:109(para)
+#, fuzzy
 msgid ""
 "<emphasis>Overlap = 0</emphasis>. Hue = 15. Colors become (186;255;1), "
 "(168;255;1), (156;255;1)."
 msgstr ""
+"<emphasis>Örtüşme = 0</emphasis>. Ton = 15. Renkler (186;255;1), "
+"(168;255;1), (156;255;1) olur."
 
 #: src/menus/colors/hue-saturation.xml:121(para)
+#, fuzzy
 msgid ""
 "<emphasis>Overlap = 100</emphasis>. Hue = 15. Colors become (192;255;1), "
 "(168;255;1), (162;255;1). Because of overlap, greenish is less green and "
 "reddish is less red."
 msgstr ""
+"<emphasis>Örtüşme = 100</emphasis>. Ton = 15. Renkler (192;255;1), "
+"(168;255;1), (162;255;1) olur. Örtüşme nedeniyle yeşilimsi renkler daha az "
+"yeşil, kırmızımsı renkler ise daha az kırmızı olur."
 
 #: src/menus/colors/hue-saturation.xml:133(term)
 msgid "Adjust Selected Color"
@@ -2272,6 +2669,7 @@ msgstr ""
 "100."
 
 #: src/menus/colors/hue-saturation.xml:153(para)
+#, fuzzy
 msgid ""
 "Lightness changes here concern a color range, while they concern a color "
 "tone with Curves and Levels tools, which work on color channels. If you "
@@ -2279,6 +2677,11 @@ msgid ""
 "changed, while only dark, bright or medium pixels luminosity will be changed "
 "with Curves or Levels tools."
 msgstr ""
+"Buradaki açıklık değişiklikleri renk aralığıyla ilgilidir, oysa Curves ve "
+"Levels araçları renk kanalları üzerinde çalışarak renk tonuyla ilgilidir. "
+"Hue-Saturation ile Sarı açıklığını değiştirirseniz, tüm sarı pikseller "
+"değişirken, Curves veya Levels araçlarıyla yalnızca koyu, parlak veya orta "
+"piksellerin parlaklığı değişir."
 
 #: src/menus/colors/hue-saturation.xml:167(para)
 msgid ""
@@ -2317,12 +2720,17 @@ msgid "Hue-Chroma"
 msgstr "Renk Tonu-Renk Parlaklığı"
 
 #: src/menus/colors/hue-chroma.xml:19(para)
+#, fuzzy
 msgid ""
 "The Hue-Chroma filter is another way to modify saturation. Clear "
 "explanations about chroma and saturation can be found at <ulink "
 "url=\"https://ninedegreesbelow.com/photography/changing-saturation-using-lch-"
 "chroma.html\"/> ."
 msgstr ""
+"Hue-Chroma filtresi, doygunluğu değiştirmek için başka bir yoldur. Kroma ve "
+"doygunluk hakkında net açıklamalar <ulink url=\"https://ninedegreesbelow.com/"
+"photography/changing-saturation-using-lch-chroma.html\"/> adresinde "
+"bulunabilir."
 
 #: src/menus/colors/hue-chroma.xml:27(para)
 msgid ""
@@ -2339,26 +2747,35 @@ msgid "Hue-Chroma Options"
 msgstr "“Renk Tonu-Renk Parlaklığı“ Seçenekleri"
 
 #: src/menus/colors/hue-chroma.xml:61(para)
+#, fuzzy
 msgid ""
 "The slider and the small arrow buttons allow you to select a hue in the "
 "color wheel (-180°, 180°)."
 msgstr ""
+"Kaydırıcı ve küçük ok düğmeleri, renk çarkında (-180°, 180°) bir renk tonu "
+"seçmenizi sağlar."
 
 #: src/menus/colors/hue-chroma.xml:68(term)
 msgid "Chroma"
 msgstr "Renk parlaklığı"
 
 #: src/menus/colors/hue-chroma.xml:70(para)
+#, fuzzy
 msgid ""
 "<quote>Chroma</quote> is the purity of the color. Moving this slider makes "
 "colors more or less pure."
 msgstr ""
+"<quote>Chroma</quote>, rengin saflığıdır. Bu kaydırıcıyı hareket ettirmek, "
+"renkleri daha saf veya daha az saf hale getirir."
 
 #: src/menus/colors/hue-chroma.xml:79(para)
+#, fuzzy
 msgid ""
 "This slider and the small arrow buttons allow you to select a value "
 "(luminosity): -100, 100."
 msgstr ""
+"Bu kaydırıcı ve küçük ok düğmeleri, bir değer (parlaklık) seçmenizi sağlar: "
+"-100, 100."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2377,10 +2794,13 @@ msgid "Hot"
 msgstr "Sıcak"
 
 #: src/menus/colors/hot.xml:25(para)
+#, fuzzy
 msgid ""
 "This command identifies and modifies pixels which might cause problems when "
 "displayed on PAL or NTSC TV screens."
 msgstr ""
+"Bu komut, PAL veya NTSC TV ekranlarında görüntülendiğinde sorunlara neden "
+"olabilecek pikselleri tanımlar ve değiştirir."
 
 #: src/menus/colors/hot.xml:33(para)
 msgid ""
@@ -2391,10 +2811,13 @@ msgstr ""
 "guimenu><guimenuitem>Sıcak…</guimenuitem></menuchoice> altında bulunur."
 
 #: src/menus/colors/hot.xml:41(para)
+#, fuzzy
 msgid ""
 "This command only works on images in RGB mode, and only if the active layer "
 "does not have an alpha channel. Otherwise the command is disabled."
 msgstr ""
+"Bu komut yalnızca RGB modundaki görüntülerde ve etkin katmanda alfa kanalı "
+"bulunmadığında çalışır. Aksi takdirde komut devre dışı bırakılır."
 
 #: src/menus/colors/hot.xml:52(title)
 msgid "<quote>Hot</quote> options"
@@ -2477,33 +2900,45 @@ msgid "<quote>Local Threshold</quote> filter options"
 msgstr "<quote>Yerel Eşik</quote> süzgeci seçenekleri"
 
 #: src/menus/colors/gegl-local-threshold.xml:53(para)
+#, fuzzy
 msgid ""
 "Standard deviation of gaussian neighborhood average for computing local "
 "contrast. If 0 is used a global threshold is used instead of one based on "
 "local contrast."
 msgstr ""
+"Yerel karşıtlığı hesaplamak için gauss komşuluk ortalamasının standart "
+"sapması. 0 kullanılırsa, yerel karşıtlığa dayalı eşik yerine küresel eşik "
+"kullanılır."
 
 #: src/menus/colors/gegl-local-threshold.xml:61(term)
 msgid "Antialiasing"
 msgstr "Kenar yumuşatma"
 
 #: src/menus/colors/gegl-local-threshold.xml:63(para)
+#, fuzzy
 msgid ""
 "This sets a rough target of levels of accuracy for anti-aliasing, or set to "
 "1 to disable anti-aliasing."
 msgstr ""
+"Bu, kenar yumuşatma için yaklaşık bir doğruluk seviyesi hedefi belirler veya "
+"kenar yumuşatmayı devre dışı bırakmak için 1 olarak ayarlanır."
 
 #: src/menus/colors/gegl-local-threshold.xml:70(term)
 msgid "Threshold level"
 msgstr "Eşik düzeyi"
 
 #: src/menus/colors/gegl-local-threshold.xml:72(para)
+#, fuzzy
 msgid ""
 "Thresholding level consists of two values. Change the lower threshold "
 "towards 0 to minimize shadows or towards 1.0 to minimize highlights. The "
 "high threshold decides the maximum values to include, above this it gets set "
 "to 0."
 msgstr ""
+"Eşik seviyesi iki değerden oluşur. Gölgeleri en aza indirmek için alt eşiği "
+"0'a doğru değiştirin veya vurguları en aza indirmek için 1,0'a doğru "
+"değiştirin. Yüksek eşik, dahil edilecek maksimum değerleri belirler, bunun "
+"üzerinde 0 olarak ayarlanır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2523,11 +2958,15 @@ msgid "Exposure"
 msgstr "Pozlama"
 
 #: src/menus/colors/exposure.xml:19(para)
+#, fuzzy
 msgid ""
 "This filter is used for lightning shadows and midtones of an image without "
 "blowing the highlights. A detailed tutorial can be found at <xref "
 "linkend=\"tone-mapping-tutorial\"/>."
 msgstr ""
+"Bu filtre, görüntünün parlak alanlarını bozmadan gölgeleri ve orta tonları "
+"aydınlatmak için kullanılır. Ayrıntılı bir eğitim <xref linkend=\"tone-"
+"mapping-tutorial\"/> adresinde bulunabilir."
 
 #: src/menus/colors/exposure.xml:27(para)
 msgid ""
@@ -2548,16 +2987,22 @@ msgid "Black level"
 msgstr "Kara düzey"
 
 #: src/menus/colors/exposure.xml:61(para)
+#, fuzzy
 msgid ""
 "This option is used to dispense with \"useless\" shadows and highlight "
 "information."
 msgstr ""
+"Bu seçenek, \"gereksiz\" gölgeleri ortadan kaldırmak ve bilgileri vurgulamak "
+"için kullanılır."
 
 #: src/menus/colors/exposure.xml:70(para)
+#, fuzzy
 msgid ""
 "This option is used to add one or more stops of exposure compensation to the "
 "image."
 msgstr ""
+"Bu seçenek, görüntüye bir veya daha fazla pozlama telafisi durağı eklemek "
+"için kullanılır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2576,11 +3021,15 @@ msgid "Dither"
 msgstr "Titreme"
 
 #: src/menus/colors/dither.xml:16(para)
+#, fuzzy
 msgid ""
 "This filter can reduce the number of colors in an image by reducing the "
 "levels per channel (colors and alpha). Different dithering methods can be "
 "specified to counteract quantization induced banding."
 msgstr ""
+"Bu filtre, kanal başına seviyeleri (renkler ve alfa) azaltarak bir "
+"görüntüdeki renk sayısını azaltabilir. Niceleme kaynaklı bantlanmayı önlemek "
+"için farklı dithering yöntemleri belirlenebilir."
 
 #: src/menus/colors/dither.xml:24(para)
 msgid ""
@@ -2611,44 +3060,55 @@ msgid "Alpha levels"
 msgstr "Alfa düzeyleri"
 
 #: src/menus/colors/dither.xml:64(para)
+#, fuzzy
 msgid ""
 "These sliders allow you to set the number of levels for the respective red, "
 "green, blue and alpha channels."
 msgstr ""
+"Bu kaydırıcılar, ilgili kırmızı, yeşil, mavi ve alfa kanalları için seviye "
+"sayısını ayarlamanıza olanak tanır."
 
 #: src/menus/colors/dither.xml:72(term)
 msgid "Dithering method"
 msgstr "Titreme yöntemi"
 
 #: src/menus/colors/dither.xml:74(para)
+#, fuzzy
 msgid "Here you can specify the dithering method to use."
-msgstr ""
+msgstr "Burada kullanılacak dithering yöntemini belirtebilirsiniz."
 
 #: src/menus/colors/dither.xml:79(term)
 msgid "None"
 msgstr "Hiçbiri"
 
 #: src/menus/colors/dither.xml:81(para)
+#, fuzzy
 msgid "No dithering will be performed on the image."
-msgstr ""
+msgstr "Görüntü üzerinde titreme işlemi yapılmayacaktır."
 
 #: src/menus/colors/dither.xml:87(term)
 msgid "Floyd-Steinberg"
 msgstr "Floyd-Steinberg"
 
 #: src/menus/colors/dither.xml:89(para)
+#, fuzzy
 msgid ""
 "This is the most commonly used method of dithering and the default for this "
 "filter. For more information see <ulink url=\"https://en.wikipedia.org/wiki/"
 "Floyd%E2%80%93Steinberg_dithering\">Floyd–Steinberg dithering on Wikipedia</"
 "ulink>."
 msgstr ""
+"Bu, en sık kullanılan dithering yöntemidir ve bu filtre için varsayılan "
+"ayardır. Daha fazla bilgi için <ulink url=\"https://en.wikipedia.org/wiki/"
+"Floyd%E2%80%93Steinberg_dithering\">Wikipedia'daki Floyd–Steinberg dithering "
+"maddesine</ulink> bakın."
 
 #: src/menus/colors/dither.xml:98(term)
 msgid "Bayer"
 msgstr "Bayer"
 
 #: src/menus/colors/dither.xml:100(para)
+#, fuzzy
 msgid ""
 "The Bayer Matrix is another common method of dithering used to reduce the "
 "number of colors. The algorithm is characterized by noticeable crosshatch "
@@ -2656,6 +3116,11 @@ msgid ""
 "en.wikipedia.org/wiki/Ordered_dithering\">Ordered dithering on Wikipedia</"
 "ulink>."
 msgstr ""
+"Bayer Matrisi, renk sayısını azaltmak için kullanılan bir başka yaygın "
+"dithering yöntemidir. Bu algoritma, sonuçta belirgin çapraz çizgi desenleri "
+"ile karakterize edilir. Daha fazla bilgi için <ulink url=\"https://"
+"en.wikipedia.org/wiki/Ordered_dithering\">Wikipedia'daki Sıralı dithering "
+"maddes</ulink>ine bakın."
 
 #: src/menus/colors/dither.xml:111(term)
 msgid "Random"
@@ -2666,10 +3131,13 @@ msgid "Random Covariant"
 msgstr "Rastgele Eşdeğişken"
 
 #: src/menus/colors/dither.xml:114(para)
+#, fuzzy
 msgid ""
 "These methods of dithering use randomization of the pixel values to reduce "
 "the number of colors."
 msgstr ""
+"Bu titreme yöntemleri, renk sayısını azaltmak için piksel değerlerinin "
+"rastgele dağıtılmasını kullanır."
 
 #: src/menus/colors/dither.xml:121(term)
 msgid "Arithmetic add"
@@ -2688,11 +3156,15 @@ msgid "Arithmetic xor covariant"
 msgstr "Aritmetik veya eşdeğişken"
 
 #: src/menus/colors/dither.xml:126(para)
+#, fuzzy
 msgid ""
 "These methods of dithering are spatially stable, based on magic numbers and "
 "arithmetic. For more information see <ulink url=\"https://pippin.gimp.org/"
 "a_dither/\">a dither</ulink>."
 msgstr ""
+"Bu ditherleme yöntemleri, sihirli sayılar ve aritmetik temelinde uzamsal "
+"olarak kararlıdır. Daha fazla bilgi için <ulink url=\"https://"
+"pippin.gimp.org/a_dither/\">ditherleme bölümüne</ulink> bakın."
 
 #: src/menus/colors/dither.xml:135(term)
 msgid "Blue Noise"
@@ -2703,6 +3175,7 @@ msgid "Blue Noise Covariant"
 msgstr "Mavi Gürültü Eşdeğişkeni"
 
 #: src/menus/colors/dither.xml:138(para)
+#, fuzzy
 msgid ""
 "These dithering methods using so-called blue noise have been found to be the "
 "least unsightly and distracting. For more information see <ulink "
@@ -2710,6 +3183,11 @@ msgid ""
 "Dither#Digital_photography_and_image_processing\">Dithering in image "
 "processing on Wikipedia</ulink>."
 msgstr ""
+"Sözde mavi gürültü kullanan bu dithering yöntemlerinin en az göze batan ve "
+"dikkat dağıtıcı olduğu bulunmuştur. Daha fazla bilgi için <ulink "
+"url=\"https://en.wikipedia.org/wiki/"
+"Dither#Digital_photography_and_image_processing\">Wikipedia'daki görüntü "
+"işlemede dithering maddesine</ulink> bakın."
 
 #: src/menus/colors/dither.xml:152(term)
 msgid "Random seed"
@@ -2720,6 +3198,7 @@ msgid "New Seed"
 msgstr "Yeni Parçacık"
 
 #: src/menus/colors/dither.xml:155(para)
+#, fuzzy
 msgid ""
 "This option controls the randomness of the filter. The <guilabel>Random "
 "seed</guilabel> box lets you manually enter a seed for the randomization "
@@ -2728,6 +3207,12 @@ msgid ""
 "the same situation, the filter produces exactly the same results. A "
 "different random seed produces different results."
 msgstr ""
+"Bu seçenek filtrenin rastgeleliğini kontrol eder. <guilabel>Rastgele</"
+"guilabel> tohum kutusu, kullanılan rastgeleleştirme algoritması için manuel "
+"olarak bir tohum girmenizi sağlar. <guibutton>Yeni Tohum</guibutton> "
+"düğmesine basarak da rastgele bir tohum oluşturabilirsiniz. Aynı durumda "
+"aynı rastgele tohum kullanılırsa, filtre tamamen aynı sonuçları üretir. "
+"Farklı bir rastgele tohum farklı sonuçlar üretir."
 
 #: src/menus/colors/desaturate.xml:6(title)
 msgid "The <quote>Desaturate</quote> Submenu"
@@ -2872,18 +3357,27 @@ msgid "Curves"
 msgstr "Eğriler"
 
 #: src/menus/colors/curves.xml:18(para)
+#, fuzzy
 msgid ""
 "The Curves tool is the most sophisticated tool for changing the color, "
 "brightness, contrast or transparency of the active layer or a selection. "
 "While the Levels tool allows you to work on Shadows and Highlights, the "
 "Curves tool allows you to work on any tonal range. It works on RGB images."
 msgstr ""
+"Eğriler aracı, etkin katmanın veya bir seçimin rengini, parlaklığını, "
+"kontrastını veya şeffaflığını değiştirmek için en gelişmiş araçtır. Düzeyler "
+"aracı Gölgeler ve Vurgular üzerinde çalışmanıza olanak sağlarken, Eğriler "
+"aracı herhangi bir ton aralığı üzerinde çalışmanıza olanak sağlar. RGB "
+"görüntüler üzerinde çalışır."
 
 #: src/menus/colors/curves.xml:33(para)
+#, fuzzy
 msgid ""
 "From the main menu: <menuchoice><guimenu>Colors</guimenu><guimenuitem>Curves…"
 "</guimenuitem></menuchoice>."
 msgstr ""
+"Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Eğriler…</"
+"guimenuitem></menuchoice>."
 
 #: src/menus/colors/curves.xml:60(title)
 msgid "<quote>Curves</quote> options"
@@ -2902,10 +3396,13 @@ msgid "Value"
 msgstr "Değer"
 
 #: src/menus/colors/curves.xml:88(para)
+#, fuzzy
 msgid ""
 "The curve represents the Value, i.e. the brightness of pixels as you can see "
 "them in the composite image."
 msgstr ""
+"Eğri, kompozit görüntüde görebileceğiniz gibi piksellerin parlaklığını "
+"temsil eden Değeri gösterir."
 
 #: src/menus/colors/curves.xml:95(term)
 msgid "Red"
@@ -2920,47 +3417,66 @@ msgid "Blue"
 msgstr "Mavi"
 
 #: src/menus/colors/curves.xml:99(para)
+#, fuzzy
 msgid ""
 "The curve represents the quantity of color in each of the three RGB "
 "channels. Here, <emphasis>dark</emphasis> means <emphasis>little</emphasis> "
 "of the color. <emphasis>Light</emphasis> means <emphasis>a lot</emphasis> of "
 "the color."
 msgstr ""
+"Eğri, üç RGB kanalının her birindeki renk miktarını temsil eder. Burada "
+"<emphasis>koyu</emphasis>, rengin <emphasis>az olduğunu</emphasis>, "
+"<emphasis>açık ise</emphasis> rengin <emphasis>çok olduğunu</emphasis> ifade "
+"eder."
 
 #: src/menus/colors/curves.xml:109(term)
 msgid "Alpha"
 msgstr "Alfa"
 
 #: src/menus/colors/curves.xml:111(para)
+#, fuzzy
 msgid ""
 "The curve represents the opacity of the pixels. <emphasis>Dark</emphasis> "
 "means <emphasis>very transparent</emphasis>. <emphasis>Light</emphasis> "
 "means <emphasis>very opaque</emphasis>. Your image or active layer must have "
 "an Alpha channel for this option to be enabled."
 msgstr ""
+"Eğri, piksellerin opaklığını temsil eder. <emphasis>Koyu renk</emphasis> "
+"<emphasis>çok şeffaf</emphasis> anlamına gelir. <emphasis>Açık renk</"
+"emphasis> <emphasis>çok opak</emphasis> anlamına gelir. Bu seçeneğin "
+"etkinleştirilebilmesi için görüntünüzün veya etkin katmanınızın bir Alfa "
+"kanalı olması gerekir."
 
 #: src/menus/colors/curves.xml:125(term)
 msgid "Reset Channel"
 msgstr "Kanalı Sıfırla"
 
 #: src/menus/colors/curves.xml:127(para)
+#, fuzzy
 msgid ""
 "This button deletes all changes made to the selected channel and returns to "
 "default values."
 msgstr ""
+"Bu düğme, seçilen kanalda yapılan tüm değişiklikleri siler ve varsayılan "
+"değerlere geri döner."
 
 #: src/menus/colors/curves.xml:208(para)
+#, fuzzy
 msgid ""
 "You can also use the same options in the Tool Options dialog if Curves has "
 "been enabled as a tool. This grayed out histogram is not displayed by "
 "default."
 msgstr ""
+"Curves bir araç olarak etkinleştirilmişse, Araç Seçenekleri iletişim "
+"kutusundaki aynı seçenekleri de kullanabilirsiniz. Bu grileştirilmiş "
+"histogram varsayılan olarak görüntülenmez."
 
 #: src/menus/colors/curves.xml:217(term)
 msgid "Main Editing Area"
 msgstr "Ana Düzenleme Alanı"
 
 #: src/menus/colors/curves.xml:221(para)
+#, fuzzy
 msgid ""
 "<emphasis role=\"bold\">The horizontal gradient</emphasis>: it represents "
 "the <emphasis>input</emphasis> tonal scale. It, too, ranges from 0 (black) "
@@ -2968,15 +3484,25 @@ msgid ""
 "splits into two parts; the upper part then represents the <emphasis>tonal "
 "balance</emphasis> of the layer or selection."
 msgstr ""
+"<emphasis role=\"bold\">Yatay gradyan</emphasis>: <emphasis>giriş</emphasis> "
+"ton skalasını temsil eder. Bu da 0 (siyah) ile 255 (beyaz) arasında, "
+"Gölgeler ile Vurgular arasında değişir. Eğriyi ayarladığınızda, iki parçaya "
+"ayrılır; üst kısım, katmanın veya seçimin <emphasis>ton dengesini</emphasis> "
+"temsil eder."
 
 #: src/menus/colors/curves.xml:231(para)
+#, fuzzy
 msgid ""
 "<emphasis role=\"bold\">The vertical gradient</emphasis>: it represents the "
 "destination, the <emphasis>output</emphasis> tonal scale. It ranges from 0 "
 "(black) to 255 (white), from Shadows to Highlights."
 msgstr ""
+"<emphasis role=\"bold\">Dikey gradyan</emphasis>: Hedefi, <emphasis>çıktı</"
+"emphasis> ton skalasını temsil eder. 0 (siyah) ile 255 (beyaz) arasında, "
+"Gölgeler ile Vurgular arasında değişir."
 
 #: src/menus/colors/curves.xml:239(para)
+#, fuzzy
 msgid ""
 "<emphasis role=\"bold\">The chart</emphasis>: the curve is drawn on a grid "
 "and goes from the bottom left corner to the top right corner. The "
@@ -2985,15 +3511,26 @@ msgid ""
 "input level corresponds to the same output tone. GIMP automatically places a "
 "point at both ends of the curve, for black (0) and white (255)."
 msgstr ""
+"<emphasis role=\"bold\">Grafik</emphasis>: eğri bir ızgara üzerine çizilir "
+"ve sol alt köşeden sağ üst köşeye doğru uzanır. <emphasis>İşaretçinin x/y "
+"konumu</emphasis>, ızgaranın sol üst kısmında sürekli olarak görüntülenir. "
+"Varsayılan olarak, bu eğri düzdür, çünkü her giriş seviyesi aynı çıkış "
+"tonuna karşılık gelir. GIMP, eğrinin her iki ucuna otomatik olarak bir nokta "
+"yerleştirir: siyah (0) ve beyaz (255) için."
 
 #: src/menus/colors/curves.xml:248(para)
+#, fuzzy
 msgid ""
 "If you click the curve, a new <emphasis>point</emphasis> is created. When "
 "the mouse pointer goes over a point, it takes the form of a small hand. You "
 "can click-and-drag the point to bend the curve."
 msgstr ""
+"Eğriyi tıklarsanız, yeni bir <emphasis>nokta</emphasis> oluşturulur. Fare "
+"imleci bir noktanın üzerine geldiğinde, küçük bir el şekli alır. Noktayı "
+"tıklayıp sürükleyerek eğriyi bükebilirsiniz."
 
 #: src/menus/colors/curves.xml:254(para)
+#, fuzzy
 msgid ""
 "If you click outside the curve, a point is also created, and the curve "
 "includes it automatically. <emphasis role=\"underline\"> If you "
@@ -3001,51 +3538,82 @@ msgid ""
 "original curve</emphasis>: this is particularly useful for adding points "
 "along the curve."
 msgstr ""
+"Eğrinin dışına tıklarsanız, bir nokta da oluşturulur ve eğri bunu otomatik "
+"olarak içerir. <emphasis role=\"underline\"> Eğrinin dışına <keycap>Ctrl "
+"tuşunu basılı tutarak tıklarsanız</keycap>, Y koordinatı orijinal eğriye "
+"yapışır</emphasis>: bu, eğri boyunca noktalar eklemek için özellikle "
+"kullanışlıdır."
 
 #: src/menus/colors/curves.xml:261(para)
+#, fuzzy
 msgid ""
 "Inactive points are white. The active point is black. You can activate a "
 "point by clicking it. You can also swap the point activation by using the "
 "Left and Right arrow keys of your keyboard."
 msgstr ""
+"Etkin olmayan noktalar beyazdır. Etkin nokta siyahtır. Bir noktayı "
+"tıklayarak etkinleştirebilirsiniz. Klavyenizin sol ve sağ ok tuşlarını "
+"kullanarak nokta etkinleştirmesini değiştirebilirsiniz."
 
 #: src/menus/colors/curves.xml:267(para)
+#, fuzzy
 msgid ""
 "Two points define a <emphasis>curve segment</emphasis> which represents a "
 "tonal range in the layer. You can click-and-drag this segment (this creates "
 "a new point). Of course, you can't drag it beyond the end points."
 msgstr ""
+"İki nokta, katmandaki ton aralığını temsil eden bir <emphasis>eğri "
+"segmentini</emphasis> tanımlar. Bu segmenti tıklayıp sürükleyebilirsiniz "
+"(bu, yeni bir nokta oluşturur). Elbette, uç noktaların ötesine "
+"sürükleyemezsiniz."
 
 #: src/menus/colors/curves.xml:278(para)
+#, fuzzy
 msgid "Click-and-drag the point."
-msgstr ""
+msgstr "Noktayı tıklayıp sürükleyin."
 
 #: src/menus/colors/curves.xml:283(para)
+#, fuzzy
 msgid ""
 "Using Up and Down arrow keys (Holding the <keycap>Shift</keycap> down lets "
 "you move it by increments of 15 pixels) to move the point vertically."
 msgstr ""
+"Yukarı ve Aşağı ok tuşlarını kullanarak ( <keycap>Shift</keycap> tuşunu "
+"basılı tutarak 15 piksel artışlarla hareket ettirebilirsiniz) noktayı dikey "
+"olarak hareket ettirin."
 
 #: src/menus/colors/curves.xml:298(para)
+#, fuzzy
 msgid ""
 "Another way to move point is using the <quote>Input</quote> and "
 "<quote>Output</quote> spin buttons: see below."
 msgstr ""
+"Noktayı hareket ettirmenin başka bir yolu da <quote>Giriş</quote> ve "
+"<quote>Çıkış</quote> döndürme düğmelerini kullanmaktır: aşağıya bakın."
 
 #: src/menus/colors/curves.xml:273(para)
+#, fuzzy
 msgid ""
 "To <emphasis>move a point</emphasis>, there are several possibilities to "
 "fine tune the point position: <placeholder-1/>"
 msgstr ""
+"<emphasis>Bir noktayı hareket ettirmek</emphasis> için, nokta konumunu "
+"hassas bir şekilde ayarlamak için birkaç olasılık vardır: <placeholder-1/>"
 
 #: src/menus/colors/curves.xml:306(para)
+#, fuzzy
 msgid ""
 "To <emphasis>delete</emphasis> all points (apart from both ends that can't "
 "be deleted), click the <guibutton>Reset Channel</guibutton> button. To "
 "delete only one point, move it beyond any adjacent point horizontally."
 msgstr ""
+"Tüm noktaları <emphasis>silmek</emphasis> için (silinemeyen iki uç hariç), "
+"<guibutton>Kanalı Sıfırla</guibutton> düğmesine tıklayın. Yalnızca bir "
+"noktayı silmek için, onu yatay olarak bitişik herhangi bir noktanın ötesine "
+"taşıyın."
 
 #: src/menus/colors/curves.xml:312(para)
+#, fuzzy
 msgid ""
 "Meanwhile, on the canvas, the mouse pointer has the form of an eye-dropper. "
 "If you click a pixel, a vertical line appears on the chart, positioned to "
@@ -3056,13 +3624,26 @@ msgid ""
 "drag and <keycap>Ctrl</keycap>-drag: this moves the vertical line and the "
 "point appears when releasing the mouse left button."
 msgstr ""
+"Bu sırada, tuval üzerinde fare imleci damlalık şeklinde görünür. Bir piksele "
+"tıklarsanız, grafikte seçilen kanaldaki bu pikselin kaynak değerine "
+"konumlandırılmış dikey bir çizgi belirir. <keycap>Shift tuşunu basılı "
+"tutarak tıklarsanız</keycap>, seçilen kanalda bir nokta oluşturursunuz. "
+"<keycap>Ctrl tuşunu basılı tutarak tıklarsanız</keycap>, Alpha kanalı da "
+"dahil olmak üzere tüm kanallarda bir nokta oluşturursunuz. <keycap>Shift "
+"tuşunu basılı tutarak sürükleyebilir</keycap> ve <keycap>Ctrl tuşunu basılı "
+"tutarak sürük</keycap>leyebilirsiniz: bu, dikey çizgiyi hareket ettirir ve "
+"fare sol tuşunu bıraktığınızda nokta görünür."
 
 #: src/menus/colors/curves.xml:325(para)
+#, fuzzy
 msgid ""
 "The <emphasis>histogram</emphasis> of the active layer or selection for the "
 "selected channel is represented in gray in the chart. It's only a reference "
 "and is not updated during treatment."
 msgstr ""
+"Seçilen kanal için aktif katmanın veya seçimin <emphasis>histogramı</"
+"emphasis> grafikte gri renkle gösterilir. Bu sadece bir referanstır ve işlem "
+"sırasında güncellenmez."
 
 #: src/menus/colors/curves.xml:336(term)
 msgid "Input"
@@ -3073,22 +3654,30 @@ msgid "Output"
 msgstr "Çıktı"
 
 #: src/menus/colors/curves.xml:339(para)
+#, fuzzy
 msgid ""
 "These spin buttons allow setting the selected point coordinates numerically "
 "and accurately if needed."
 msgstr ""
+"Bu döndürme düğmeleri, gerektiğinde seçilen nokta koordinatlarını sayısal "
+"olarak ve doğru bir şekilde ayarlamaya olanak tanır."
 
 #: src/menus/colors/curves.xml:346(term)
 msgid "Type"
 msgstr "Tür"
 
 #: src/menus/colors/curves.xml:348(para)
+#, fuzzy
 msgid ""
 "Control points can be either <guilabel>Smooth</guilabel> (default: all "
 "points are smooth) or <guilabel>Corner</guilabel> points. These Corner "
 "points result in a sharp angle. They are displayed using a diamond shape. "
 "You can toggle between Smooth and Corner for the selected point."
 msgstr ""
+"Kontrol noktaları <guilabel>Düzgün</guilabel> (varsayılan: tüm noktalar "
+"düzgün) veya <guilabel>Köşe</guilabel> noktaları olabilir. Bu Köşe noktaları "
+"keskin bir açı oluşturur. Elmas şekli kullanılarak görüntülenirler. Seçilen "
+"nokta için Düzgün ve Köşe arasında geçiş yapabilirsiniz."
 
 #: src/menus/colors/curves.xml:358(term)
 msgid "Curve type"
@@ -3099,68 +3688,91 @@ msgid "Smooth"
 msgstr "Pürüzsüz"
 
 #: src/menus/colors/curves.xml:364(para)
+#, fuzzy
 msgid ""
 "This Smooth option affects the whole curve, not only the selected point as "
 "above."
 msgstr ""
+"Bu Düzgün seçeneği, yukarıdaki gibi yalnızca seçilen noktayı değil, tüm "
+"eğriyi etkiler."
 
 #: src/menus/colors/curves.xml:371(term)
 msgid "Free Hand"
 msgstr "Serbest Çizim"
 
 #: src/menus/colors/curves.xml:373(para)
+#, fuzzy
 msgid ""
 "With this mode, you can draw a free hand line that you can smooth by "
 "clicking the <guilabel>Smooth</guilabel> Curve type."
 msgstr ""
+"Bu modda, <guilabel>Smooth</guilabel> Curve (Düzgünleştirme Eğrisi) türünü "
+"tıklayarak düzgünleştirebileceğiniz serbest el çizgisi çizebilirsiniz."
 
 #: src/menus/colors/curves.xml:387(title)
 msgid "Using <quote>Curves</quote>"
 msgstr "<quote>Eğriler</quote>ʼi Kullanmak"
 
 #: src/menus/colors/curves.xml:390(title)
+#, fuzzy
 msgid "Summary and basic shapes"
-msgstr ""
+msgstr "Özet ve temel şekiller"
 
 #: src/menus/colors/curves.xml:392(para)
+#, fuzzy
 msgid ""
 "We create points and segments on the curve and we move them to shape the "
 "curve. This curve maps <quote>input</quote> tones of the active layer or "
 "selection to <quote>output</quote> tones."
 msgstr ""
+"Eğri üzerinde noktalar ve segmentler oluştururuz ve bunları hareket "
+"ettirerek eğriyi şekillendiririz. Bu eğri, etkin katmanın veya seçimin "
+"<quote>giriş</quote> tonlarını <quote>çıkış</quote> tonlarına eşler."
 
 #: src/menus/colors/curves.xml:399(title)
+#, fuzzy
 msgid "How the Curves tool works"
-msgstr ""
+msgstr "Eğriler aracı nasıl çalışır?"
 
 #: src/menus/colors/curves.xml:401(para)
+#, fuzzy
 msgid "Moving the point a pixel upwards makes this pixel brighter."
 msgstr ""
+"Noktayı bir piksel yukarı kaydırmak, bu pikseli daha parlak hale getirir."
 
 #: src/menus/colors/curves.xml:409(para)
+#, fuzzy
 msgid "Moving the point upwards"
-msgstr ""
+msgstr "Noktayı yukarı doğru hareket ettirme"
 
 #: src/menus/colors/curves.xml:415(title)
 #: src/menus/colors/curves.xml:426(title)
+#, fuzzy
 msgid "Making the curve more horizontal"
-msgstr ""
+msgstr "Eğriyi daha yatay hale getirme"
 
 #: src/menus/colors/curves.xml:417(para)
+#, fuzzy
 msgid ""
 "Making the curve more horizontal forces all the input tonal range to occupy "
 "a shrunk output tonal range."
 msgstr ""
+"Eğriyi daha yatay hale getirmek, tüm giriş ton aralığının daralmış bir çıkış "
+"ton aralığını işgal etmesini sağlar."
 
 #: src/menus/colors/curves.xml:421(para)
+#, fuzzy
 msgid ""
 "The histogram shows the compression of pixels into the output range. Darkest "
 "and brightest pixels disappeared: contrast decreases."
 msgstr ""
+"Histogram, piksellerin çıktı aralığına sıkıştırıldığını gösterir. En koyu ve "
+"en parlak pikseller kaybolmuştur: kontrast azalır."
 
 #: src/menus/colors/curves.xml:432(para)
+#, fuzzy
 msgid "Make the curve more horizontal"
-msgstr ""
+msgstr "Eğriyi daha yatay hale getirin"
 
 #: src/menus/colors/curves.xml:440(para)
 msgid "The resulting histogram"
@@ -3168,10 +3780,12 @@ msgstr "Ortaya çıkan histogram"
 
 #: src/menus/colors/curves.xml:447(title)
 #: src/menus/colors/curves.xml:468(title)
+#, fuzzy
 msgid "Making the curve more vertical"
-msgstr ""
+msgstr "Eğriyi daha dikey hale getirme"
 
 #: src/menus/colors/curves.xml:449(para)
+#, fuzzy
 msgid ""
 "Moving the upper end point to the left and the lower end point to the right "
 "is the same as moving the white slider to the left and the black slider to "
@@ -3184,31 +3798,49 @@ msgid ""
 "that have moved down are made darker (green arrows). All these pixels will "
 "be extended to the whole output tonal range."
 msgstr ""
+"Üst uç noktayı sola ve alt uç noktayı sağa hareket ettirmek, Seviyeler "
+"aracında beyaz kaydırıcıyı sola ve siyah kaydırıcıyı sağa hareket ettirmekle "
+"aynıdır: değeri beyaz noktadan (eğrinin düz kısmı) daha fazla olan tüm "
+"pikseller beyaz hale getirilir (seçilen kanala göre daha renkli / daha "
+"opak). Değeri siyah noktanın (alt düzleştirilmiş eğri) altında olan tüm "
+"pikseller siyah (siyah / tamamen şeffaf) hale getirilir. Yukarı doğru "
+"hareket eden eğrinin noktalarına karşılık gelen pikseller daha açık hale "
+"getirilir. Aşağı doğru hareket eden eğrinin noktalarına karşılık gelen "
+"pikseller daha koyu hale getirilir (yeşil oklar). Tüm bu pikseller, tüm "
+"çıktı ton aralığına yayılır."
 
 #: src/menus/colors/curves.xml:462(para)
+#, fuzzy
 msgid ""
 "The histogram shows the extension of values, from black (0) to White (255): "
 "contrast is increased. Since the Value channel is selected, changes affect "
 "all color channels and colors increase."
 msgstr ""
+"Histogram, siyah (0) ile beyaz (255) arasındaki değerlerin dağılımını "
+"gösterir: kontrast artırılmıştır. Değer kanalı seçili olduğundan, "
+"değişiklikler tüm renk kanallarını etkiler ve renkler artar."
 
 #: src/menus/colors/curves.xml:475(para)
+#, fuzzy
 msgid "Make the curve more vertical"
-msgstr ""
+msgstr "Eğriyi daha dikey hale getirin"
 
 #: src/menus/colors/curves.xml:484(para)
+#, fuzzy
 msgid "Result and its histogram"
-msgstr ""
+msgstr "Sonuç ve histogramı"
 
 #: src/menus/colors/curves.xml:492(title)
+#, fuzzy
 msgid "Practical cases"
-msgstr ""
+msgstr "Pratik örnekler"
 
 #: src/menus/colors/curves.xml:503(para)
 msgid "Inverted curve"
 msgstr "Tersine çevrilmiş eğri"
 
 #: src/menus/colors/curves.xml:506(para)
+#, fuzzy
 msgid ""
 "Black is made White (fully colored / fully opaque). White is made black "
 "(black, fully transparent). All pixels adopt the complementary color. Why "
@@ -3216,6 +3848,11 @@ msgid ""
 "complementary color. For example: 19;197;248 a sky blue gives 255-19; "
 "255-197; 255-248 = 236;58;7, a bright red."
 msgstr ""
+"Siyah beyaz yapılır (tamamen renkli / tamamen opak). Beyaz siyah yapılır "
+"(siyah, tamamen şeffaf). Tüm pikseller tamamlayıcı rengi alır. Neden? Çünkü "
+"kanal değerlerini 255'ten çıkarmak tamamlayıcı rengi verir. Örneğin: "
+"19;197;248 gök mavisi 255-19; 255-197; 255-248 = 236;58;7, parlak kırmızı "
+"verir."
 
 #: src/menus/colors/curves.xml:516(title)
 msgid "Enhance contrast"
@@ -3226,22 +3863,30 @@ msgid "Contrast enhanced"
 msgstr "Karşıtlık iyileştirildi"
 
 #: src/menus/colors/curves.xml:526(para)
+#, fuzzy
 msgid ""
 "Contrast is increased in mid tones because the curve is steeper there. "
 "Highlights and Shadows are increased but contrast is slightly less in these "
 "areas because the curve is flatter."
 msgstr ""
+"Kontrast, orta tonlarda artar çünkü eğri bu bölgede daha diktir. Vurgular ve "
+"gölgeler artar ancak kontrast bu bölgelerde biraz daha azdır çünkü eğri daha "
+"düzdür."
 
 #: src/menus/colors/curves.xml:534(title)
 msgid "Working on color channels"
 msgstr "Renk kanalları üstünde çalışmak"
 
 #: src/menus/colors/curves.xml:542(para)
+#, fuzzy
 msgid ""
 "For every channel, we moved the white point horizontally to the left, to the "
 "first Highlights. This lightens Highlights up. Then we shaped the curve to "
 "lighten Mid tones and Shadows while keeping black."
 msgstr ""
+"Her kanal için beyaz noktayı yatay olarak sola, ilk Vurgulara doğru "
+"kaydırdık. Bu, Vurguları aydınlatır. Ardından, siyahı korurken Orta tonları "
+"ve Gölgeleri aydınlatmak için eğriyi şekillendirdik."
 
 #: src/menus/colors/curves.xml:554(para)
 msgid "The original image and the result"
@@ -3385,6 +4030,7 @@ msgid "Color to Alpha"
 msgstr "Renkten Alfaya"
 
 #: src/menus/colors/colortoalpha.xml:23(para)
+#, fuzzy
 msgid ""
 "The Color to Alpha command makes transparent all pixels of the active layer "
 "that have a selected color. It attempts to preserve anti-aliasing "
@@ -3393,6 +4039,11 @@ msgid ""
 "contain an element of the selected color maintain a blended appearance with "
 "their surrounding pixels."
 msgstr ""
+"Renkten Alfa'ya komutu, etkin katmandaki seçilen renge sahip tüm pikselleri "
+"şeffaf hale getirir. Zayıf renk bilgilerini zayıf alfa bilgileriyle "
+"değiştiren kısmen akıllı bir algoritma kullanarak kenar yumuşatma "
+"bilgilerini korumaya çalışır. Bu şekilde, seçilen rengin bir öğesini içeren "
+"alanlar, çevrelerindeki piksellerle harmanlanmış bir görünüm korur."
 
 #: src/menus/colors/colortoalpha.xml:35(para)
 msgid ""
@@ -3408,13 +4059,17 @@ msgid "<quote>Color to Alpha</quote> filter dialog"
 msgstr "<quote>Renkten Alfaya</quote> süzgeci seçenekleri"
 
 #: src/menus/colors/colortoalpha.xml:69(para)
+#, fuzzy
 msgid ""
 "Clicking the color swatch provides a color selection dialog where you can "
 "select a color. You can also select a color using the eye dropper on the "
 "right."
 msgstr ""
+"Renk örneğine tıklamak, renk seçebileceğiniz bir renk seçim penceresi açar. "
+"Sağdaki damlalık aracını kullanarak da renk seçebilirsiniz."
 
 #: src/menus/colors/colortoalpha.xml:74(para)
+#, fuzzy
 msgid ""
 "<quote>Color to alpha</quote> comes with a GEGL option dialog under Toolbox. "
 "When the <guilabel>Sample average</guilabel> option is unchecked, color "
@@ -3423,12 +4078,23 @@ msgid ""
 "<quote>color</quote>. You can fix square size directly in text box, or using "
 "arrow heads, or <keycap>Up</keycap> and <keycap>Down</keycap> keyboard keys."
 msgstr ""
+"<quote>Renkten alfa'ya,</quote> Araç Kutusu altında bir GEGL seçenekler "
+"iletişim kutusu ile birlikte gelir. <guilabel>Örnek ortalaması</guilabel> "
+"seçeneği işaretlenmediğinde, renk seçici yalnızca bir piksel rengini seçer. "
+"Seçenek işaretlendiğinde, fare imleci birleşik örnek <quote>rengini</quote> "
+"belirleyen bir piksel örneğini sınırlayan bir kare ile birlikte hareket "
+"eder. Kare boyutunu doğrudan metin kutusunda, ok başlarını kullanarak veya "
+"<keycap>Yukarı</keycap> ve <keycap>Aşağı</keycap> klavye tuşlarını "
+"kullanarak ayarlayabilirsiniz."
 
 #: src/menus/colors/colortoalpha.xml:83(para)
+#, fuzzy
 msgid ""
 "Right clicking the color swatch displays a menu where you can select "
 "Foreground or Background colors, White or Black."
 msgstr ""
+"Renk örneğine sağ tıklamak, Ön Plan veya Arka Plan renkleri, Beyaz veya "
+"Siyah renkleri seçebileceğiniz bir menü görüntüler."
 
 #: src/menus/colors/colortoalpha.xml:90(term)
 msgid "Transparency threshold"
@@ -3439,25 +4105,33 @@ msgid "Opacity threshold"
 msgstr "Matlık eşiği"
 
 #: src/menus/colors/colortoalpha.xml:95(para)
+#, fuzzy
 msgid ""
 "<guilabel>Transparency</guilabel>: the limit below which colors become "
 "transparent."
-msgstr ""
+msgstr "<guilabel>Şeffaflık</guilabel>: renklerin şeffaf hale geldiği sınır."
 
 #: src/menus/colors/colortoalpha.xml:101(para)
+#, fuzzy
 msgid ""
 "<guilabel>Opacity</guilabel>: the limit above which colors become opaque."
-msgstr ""
+msgstr "<guilabel>Opaklık</guilabel>: renklerin opak hale geldiği sınır."
 
 #: src/menus/colors/colortoalpha.xml:107(para)
+#, fuzzy
 msgid ""
 "Color to Alpha modifies the transparency (and color) of the pixels based on "
 "their distance from the selected background color (the <quote>Color</quote> "
 "option) the closer they are to the background color, the more transparent "
 "they become, with the background color becoming fully transparent."
 msgstr ""
+"Renkten Alfa'ya, piksellerin seçilen arka plan renginden ( <quote>Renk</"
+"quote> seçeneği) uzaklıklarına göre şeffaflığını (ve rengini) değiştirir. "
+"Arka plan rengine ne kadar yakınlarsa, o kadar şeffaf hale gelirler ve arka "
+"plan rengi tamamen şeffaf hale gelir."
 
 #: src/menus/colors/colortoalpha.xml:114(para)
+#, fuzzy
 msgid ""
 "The transparency and opacity thresholds control how close colors should be "
 "to the background color before they become fully transparent, and how far "
@@ -3466,8 +4140,14 @@ msgid ""
 "becomes fully transparent, and only the colors farthest away from the "
 "background color remain fully opaque."
 msgstr ""
+"Şeffaflık ve opaklık eşikleri, renklerin tamamen şeffaf hale gelmeden önce "
+"arka plan rengine ne kadar yakın olması gerektiğini ve tamamen opak kalmadan "
+"önce arka plan renginden ne kadar uzak olması gerektiğini kontrol eder. "
+"Varsayılan değerler 0 ve 1 olduğunda, yalnızca arka plan rengi tamamen "
+"şeffaf hale gelir ve arka plan renginden en uzak renkler tamamen opak kalır."
 
 #: src/menus/colors/colortoalpha.xml:123(para)
+#, fuzzy
 msgid ""
 "For example, while the default values work well for removing a white "
 "background from a black object, if the object is gray instead [fig. 1] it "
@@ -3476,8 +4156,15 @@ msgid ""
 "pixels that are gray or darker (all pixels whose distance from white is 0.5 "
 "or more, on a [0,1] scale) fully opaque [fig. 3]."
 msgstr ""
+"Örneğin, varsayılan değerler siyah bir nesneden beyaz arka planı kaldırmak "
+"için iyi sonuç verirken, nesne gri ise [şekil 1], gri beyaz ve siyahın "
+"ortasında olduğu için yarı saydam hale gelir [şekil 2]. Opaklık eşiğini "
+"0,5'e düşürmek, gri veya daha koyu olan tüm pikselleri (beyazdan uzaklığı "
+"[0,1] ölçeğinde 0,5 veya daha fazla olan tüm pikseller) tamamen opak tutarak "
+"bu sorunu giderir [şek. 3]."
 
 #: src/menus/colors/colortoalpha.xml:132(para)
+#, fuzzy
 msgid ""
 "The transparency threshold works similarly: raising it causes more colors in "
 "the neighborhood of the background color to become fully transparent. This "
@@ -3486,8 +4173,15 @@ msgid ""
 "above 0, recomposing the result against the background color no longer "
 "reproduces the exact same image."
 msgstr ""
+"Şeffaflık eşiği de benzer şekilde çalışır: eşiği yükseltmek, arka plan "
+"renginin çevresindeki daha fazla rengin tamamen şeffaf hale gelmesine neden "
+"olur. Bu, arka planın tamamen düz olmayan gürültülü görüntülerde çoğunlukla "
+"yararlıdır. Ancak, diğer durumlardan farklı olarak, şeffaflık eşiği 0'ın "
+"üzerinde olduğunda, sonucu arka plan rengine göre yeniden oluşturmak artık "
+"tam olarak aynı görüntüyü üretmez."
 
 #: src/menus/colors/colortoalpha.xml:141(para)
+#, fuzzy
 msgid ""
 "At the risk of being a bit technical, this can be visualized by thinking of "
 "the RGB cube. The background color is a point within the cube, and the "
@@ -3500,11 +4194,21 @@ msgid ""
 "(2) is the transparency threshold (set to 0.1), and (3) is the opacity "
 "threshold (set to 0.4)."
 msgstr ""
+"Biraz teknik bir açıklama olacak ama, bunu RGB küpünü düşünerek "
+"görselleştirebiliriz. Arka plan rengi küpün içindeki bir noktadır ve "
+"şeffaflık ve opaklık eşikleri arka plan renginin etrafında merkezlenen iki "
+"alt küptür. Şeffaflık eşiği küpünün içindeki her şey tamamen şeffaf hale "
+"gelir, opaklık eşiği küpünün dışındaki her şey tamamen opak kalır ve aradaki "
+"her şey şeffaflıktan opaklığa kademeli olarak geçer. Resim [şekil 4]'te RGB "
+"küpünün Kırmızı-Yeşil yüzünü görebilirsiniz. (1) arka plan rengidir "
+"(Kırmızı=0,5, Yeşil=0,5, Mavi=0,0), (2) şeffaflık eşiğidir (0,1 olarak "
+"ayarlanmıştır) ve (3) opaklık eşiğidir (0,4 olarak ayarlanmıştır)."
 
 #: src/menus/colors/colortoalpha.xml:155(title)
 #: src/menus/colors/colortoalpha.xml:176(title)
+#, fuzzy
 msgid "Color to Alpha Thresholds examples"
-msgstr ""
+msgstr "Renk-Alfa Eşikleri örnekleri"
 
 #: src/menus/colors/colortoalpha.xml:162(para)
 msgid "fig. 1"
@@ -3527,25 +4231,34 @@ msgid "Using Color to Alpha"
 msgstr "Renkten Alfayaʼyı Kullanmak"
 
 #: src/menus/colors/colortoalpha.xml:205(para)
+#, fuzzy
 msgid ""
 "Add an alpha channel to your image if necessary in the image window menu "
 "under <menuchoice><guimenu>Layer</guimenu><guisubmenu>Transparency</"
 "guisubmenu><guimenuitem>Add Alpha Channel</guimenuitem></menuchoice>."
 msgstr ""
+"Gerekirse, görüntü penceresi menüsünden görüntüye bir alfa kanalı ekleyin. "
+"<menuchoice><guimenu>Katman</guimenu><guisubmenu>Şeffaflık</"
+"guisubmenu><guimenuitem>Alfa Kanalı Ekle</guimenuitem></"
+"menuchoice>seçeneğini kullanarak görüntünüze bir alfa kanalı ekleyin."
 
 #: src/menus/colors/colortoalpha.xml:216(para)
+#, fuzzy
 msgid "Open Color to alpha."
-msgstr ""
+msgstr "Rengi alfa olarak aç."
 
 #: src/menus/colors/colortoalpha.xml:220(title)
+#, fuzzy
 msgid "Color to alpha open with default options"
-msgstr ""
+msgstr "Varsayılan seçeneklerle renkli alfa açık"
 
 #: src/menus/colors/colortoalpha.xml:227(para)
+#, fuzzy
 msgid "Original image with alpha channel"
-msgstr ""
+msgstr "Alfa kanallı orijinal görüntü"
 
 #: src/menus/colors/colortoalpha.xml:236(para)
+#, fuzzy
 msgid ""
 "Original image with an alpha channel. Color to alpha with default options: "
 "<quote>Color</quote> is white. Opacity threshold = 1.00 is maximum, and so "
@@ -3553,39 +4266,52 @@ msgid ""
 "opaque. Transparency threshold = 0 and so the <quote>Color</quote> is fully "
 "transparent."
 msgstr ""
+"Alfa kanallı orijinal görüntü. Varsayılan seçeneklerle renk alfa'ya "
+"dönüştürülür: <quote>Renk</quote> beyazdır. Opaklık eşiği = 1,00 maksimumdur "
+"ve bu nedenle <quote>Renkten</quote> en uzak renkler tamamen opak kalır. "
+"Şeffaflık eşiği = 0 olduğundan <quote>Renk</quote> tamamen şeffaftır."
 
 #: src/menus/colors/colortoalpha.xml:249(para)
 msgid "Uncheck Preview option."
 msgstr "Ön izleme seçeneğinin işaretini kaldırın."
 
 #: src/menus/colors/colortoalpha.xml:254(para)
+#, fuzzy
 msgid "Pick color, here the sky."
-msgstr ""
+msgstr "Rengi seçin, burada gökyüzü."
 
 #: src/menus/colors/colortoalpha.xml:259(para)
+#, fuzzy
 msgid "Re-check Preview option."
-msgstr ""
+msgstr "Önizleme seçeneğini yeniden kontrol edin."
 
 #: src/menus/colors/colortoalpha.xml:268(para)
+#, fuzzy
 msgid "<quote>Color</quote> from the sky. Default thresholds."
-msgstr ""
+msgstr "Gökyüzünden gelen <quote>renk</quote>. Varsayılan eşikler."
 
 #: src/menus/colors/colortoalpha.xml:275(para)
+#, fuzzy
 msgid ""
 "Adapt Transparency and Opacity thresholds proceeding by trial and error."
-msgstr ""
+msgstr "Deneme yanılma yoluyla Şeffaflık ve Opaklık eşiklerini uyarlayın."
 
 #: src/menus/colors/colortoalpha.xml:285(para)
+#, fuzzy
 msgid "Only the sky is transparent."
-msgstr ""
+msgstr "Sadece gökyüzü şeffaftır."
 
 #: src/menus/colors/colortoalpha.xml:296(para)
+#, fuzzy
 msgid ""
 "Opacity threshold was decreased to make farthest colors (monument, trees and "
 "road) fully opaque. Transparency threshold was increased to make "
 "<quote>Color</quote> fully transparent and delete some imperfections in the "
 "sky."
 msgstr ""
+"En uzak renkleri (anıt, ağaçlar ve yol) tamamen opak hale getirmek için "
+"opaklık eşiği düşürüldü. <quote>Rengi</quote> tamamen şeffaf hale getirmek "
+"ve gökyüzündeki bazı kusurları silmek için şeffaflık eşiği artırıldı."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3604,12 +4330,18 @@ msgid "Colorize"
 msgstr "Renklendir"
 
 #: src/menus/colors/colorize.xml:25(para)
+#, fuzzy
 msgid ""
 "The Colorize filter renders the active layer or selection into a grayscale "
 "image seen through a colored glass. You can use it to give a <quote>Sepia</"
 "quote> effect to your image. See <xref linkend=\"glossary-colormodel\"/> for "
 "Hue, Saturation, Luminosity."
 msgstr ""
+"Renklandırma filtresi, etkin katmanı veya seçimi renkli bir camdan "
+"bakıldığında görülen gri tonlamalı bir görüntüye dönüştürür. Bu filtreyi, "
+"görüntünüze <quote>Sepya</quote> efekti vermek için kullanabilirsiniz. Ton, "
+"Doygunluk ve Parlaklık için <xref linkend=\"glossary-colormodel\"/> adresine "
+"bakın."
 
 #: src/menus/colors/colorize.xml:34(para)
 msgid ""
@@ -3624,29 +4356,42 @@ msgid "Colorize filter dialog"
 msgstr "“Renklendir” iletişim kutusu"
 
 #: src/menus/colors/colorize.xml:67(para)
+#, fuzzy
 msgid ""
 "The slider and the numeric input box allow you to select a Hue value in the "
 "range: 0.0 to 1.0."
 msgstr ""
+"Kaydırıcı ve sayısal giriş kutusu, 0,0 ile 1,0 aralığında bir Ton değeri "
+"seçmenizi sağlar."
 
 #: src/menus/colors/colorize.xml:76(para)
+#, fuzzy
 msgid ""
 "The slider and the numeric input box allows you to select a Saturation value "
 "in the range: 0.0 to 1.0."
 msgstr ""
+"Kaydırıcı ve sayısal giriş kutusu, 0,0 ile 1,0 aralığında bir Doygunluk "
+"değeri seçmenizi sağlar."
 
 #: src/menus/colors/colorize.xml:85(para)
+#, fuzzy
 msgid ""
 "The slider and the numeric input box allow you to select a Lightness value "
 "in the range: -1.0 (dark) to +1.0 (light)."
 msgstr ""
+"Kaydırıcı ve sayısal giriş kutusu, -1,0 (koyu) ile +1,0 (açık) aralığında "
+"bir Açıklık değeri seçmenizi sağlar."
 
 #: src/menus/colors/colorize.xml:94(para)
+#, fuzzy
 msgid ""
 "Using the color button or the color picker you can quickly select the color "
 "used to colorize your image. Selecting a color here will adjust the sliders "
 "above it."
 msgstr ""
+"Renk düğmesini veya renk seçiciyi kullanarak, görüntünüzü renklendirmek için "
+"kullanılacak rengi hızlı bir şekilde seçebilirsiniz. Burada bir renk "
+"seçtiğinizde, üzerindeki kaydırıcılar buna göre ayarlanacaktır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3679,24 +4424,33 @@ msgid "Example for the <quote>Color Temperature</quote> filter"
 msgstr "<quote>Renk Sıcaklığı</quote> süzgeci örneği"
 
 #: src/menus/colors/color-temperature.xml:26(para)
+#, fuzzy
 msgid "Original image, with color temperature estimated at 5,000K"
-msgstr ""
+msgstr "Orijinal görüntü, renk sıcaklığı 5.000K olarak tahmin edilmektedir."
 
 #: src/menus/colors/color-temperature.xml:35(para)
+#, fuzzy
 msgid "Modified image, with color temperature changed to 6,500K"
-msgstr ""
+msgstr "Renk sıcaklığı 6.500K olarak değiştirilmiş, değiştirilmiş görüntü"
 
 #: src/menus/colors/color-temperature.xml:39(para)
+#, fuzzy
 msgid ""
 "The Color Temperature filter allows adjusting color temperature of the light "
 "source in an image in Kelvin. It can be used to correct the bluish cast in "
 "overcast photos, or even (to some extent) the red cast in photos taken under "
 "incandescent light with the camera set to daylight."
 msgstr ""
+"Renk Sıcaklığı filtresi, bir görüntüdeki ışık kaynağının renk sıcaklığını "
+"Kelvin cinsinden ayarlamaya olanak tanır. Bu filtre, bulutlu fotoğraflardaki "
+"mavimsi tonları veya hatta (bir dereceye kadar) kamera gün ışığı moduna "
+"ayarlanmışken akkor ışık altında çekilen fotoğraflardaki kırmızı tonları "
+"düzeltmek için kullanılabilir."
 
 #: src/menus/colors/color-temperature.xml:45(para)
+#, fuzzy
 msgid "You can also use it to get interesting creative effects."
-msgstr ""
+msgstr "Ayrıca ilginç yaratıcı efektler elde etmek için de kullanabilirsiniz."
 
 #: src/menus/colors/color-temperature.xml:58(para)
 msgid ""
@@ -3715,6 +4469,7 @@ msgid "Original temperature"
 msgstr "Özgün sıcaklık"
 
 #: src/menus/colors/color-temperature.xml:91(para)
+#, fuzzy
 msgid ""
 "This is the estimated original color temperature of the light source in "
 "Kelvin. You can change it because the image doesn't necessarily encode that "
@@ -3723,21 +4478,32 @@ msgid ""
 "flash, etc). But above all else you can get interesting creative effects by "
 "changing it."
 msgstr ""
+"Bu, ışık kaynağının Kelvin cinsinden tahmini orijinal renk sıcaklığıdır. "
+"Görüntü bu bilgiyi doğru bir şekilde veya hiç kodlamayabileceğinden (ve siz "
+"bunu ölçmüş olabileceğiniz gibi ölçmemiş de olabileceğinizden) bunu "
+"değiştirebilirsiniz. Ayrıca, genellikle birden fazla ışık kaynağı (pencere, "
+"dolgu flaşı vb.) karışık olarak kullanılır. Ancak her şeyden öte, bunu "
+"değiştirerek ilginç yaratıcı efektler elde edebilirsiniz."
 
 #: src/menus/colors/color-temperature.xml:103(term)
 msgid "Intended temperature"
 msgstr "Hedef sıcaklık"
 
 #: src/menus/colors/color-temperature.xml:105(para)
+#, fuzzy
 msgid "This is the desired color temperature of the light source in Kelvin."
-msgstr ""
+msgstr "Bu, ışık kaynağının Kelvin cinsinden istenen renk sıcaklığıdır."
 
 #: src/menus/colors/color-temperature.xml:113(para)
+#, fuzzy
 msgid ""
 "Both original temperature and intended temperature can be set via presets. "
 "To access the presets menu, click the <placeholder-1/> button to the right "
 "of either of the two options."
 msgstr ""
+"Hem orijinal sıcaklık hem de istenen sıcaklık ön ayarlar aracılığıyla "
+"ayarlanabilir. Ön ayarlar menüsüne erişmek için, iki seçenekten herhangi "
+"birinin sağındaki \" <placeholder-1/> \" (Sıcaklık Ayarı) düğmesine tıklayın."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3756,11 +4522,15 @@ msgid "Color Balance"
 msgstr "Renk Dengesi"
 
 #: src/menus/colors/color-balance.xml:22(para)
+#, fuzzy
 msgid ""
 "The color balance tool modifies the color balance of the active selection or "
 "layer. Changes are not drastic. This tool is suitable to correct predominant "
 "colors in digital photos."
 msgstr ""
+"Renk dengesi aracı, etkin seçim veya katmanın renk dengesini değiştirir. "
+"Değişiklikler çok büyük değildir. Bu araç, dijital fotoğraflardaki baskın "
+"renkleri düzeltmek için uygundur."
 
 #: src/menus/colors/color-balance.xml:35(para)
 msgid ""
@@ -3794,6 +4564,7 @@ msgid "Adjust Color Levels"
 msgstr "Renk Düzeylerini Ayarla"
 
 #: src/menus/colors/color-balance.xml:81(para)
+#, fuzzy
 msgid ""
 "Sliders and range from the three RGB colors to their complementary colors "
 "(CMY). The zero position corresponds to the current level value of pixels in "
@@ -3802,26 +4573,38 @@ msgid ""
 "guilabel> or <guilabel>Magenta</guilabel>, <guilabel>Blue</guilabel> or "
 "<guilabel>Yellow</guilabel>."
 msgstr ""
+"Kaydırıcılar ve üç RGB renginden tamamlayıcı renklerine (CMY) kadar aralık. "
+"Sıfır konumu, orijinal görüntüdeki piksellerin mevcut seviye değerine "
+"karşılık gelir. Piksel rengini <guilabel>Kırmızı</guilabel> veya "
+"<guilabel>Camgöbeği</guilabel>, <guilabel>Yeşil</guilabel> veya "
+"<guilabel>Macenta</guilabel>, <guilabel>Mavi</guilabel> veya <guilabel>Sarı</"
+"guilabel> yönünde değiştirebilirsiniz."
 
 #: src/menus/colors/color-balance.xml:93(term)
 msgid "Reset Range"
 msgstr "Erimi Sıfırla"
 
 #: src/menus/colors/color-balance.xml:95(para)
+#, fuzzy
 msgid ""
 "This button sets color levels of the selected range back to the zero "
 "position (original values)."
 msgstr ""
+"Bu düğme, seçilen aralığın renk seviyelerini sıfır konumuna (orijinal "
+"değerlere) geri ayarlar."
 
 #: src/menus/colors/color-balance.xml:102(term)
 msgid "Preserve luminosity"
 msgstr "Renk parlaklığını koru"
 
 #: src/menus/colors/color-balance.xml:104(para)
+#, fuzzy
 msgid ""
 "This option ensures that brightness of the active layer or selection is "
 "maintained. The Value of brightest pixels is not changed."
 msgstr ""
+"Bu seçenek, etkin katmanın veya seçimin parlaklığının korunmasını sağlar. En "
+"parlak piksellerin değeri değiştirilmez."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3839,6 +4622,7 @@ msgid "Brightness-Contrast"
 msgstr "Parlaklık-Karşıtlık"
 
 #: src/menus/colors/brightness-contrast.xml:16(para)
+#, fuzzy
 msgid ""
 "The Brightness-Contrast tool adjusts the brightness and contrast levels for "
 "the active layer or selection. This tool is easy to use, but relatively "
@@ -3849,8 +4633,17 @@ msgid ""
 "but if the image is important and you want it to look as good as possible, "
 "you will want to use one of the other tools."
 msgstr ""
+"Parlaklık-Kontrast aracı, etkin katman veya seçimin parlaklık ve kontrast "
+"düzeylerini ayarlar. Bu araç kullanımı kolaydır, ancak nispeten basittir. "
+"Seviyeler ve Eğri araçları da aynı tür ayarlamaları yapmanızı sağlar, ancak "
+"parlak renkleri koyu renklerden farklı şekilde işleme olanağı da sunar. "
+"Genel olarak, Parlaklık-Kontrast aracı birkaç saniye içinde \"hızlı ve "
+"basit\" bir ayarlama yapmak için mükemmeldir, ancak görüntü önemliyse ve "
+"mümkün olduğunca iyi görünmesini istiyorsanız, diğer araçlardan birini "
+"kullanmak isteyeceksiniz."
 
 #: src/menus/colors/brightness-contrast.xml:28(para)
+#, fuzzy
 msgid ""
 "Besides using the sliders you can also adjust the settings by clicking the "
 "mouse inside the image, and dragging while keeping the left mouse button "
@@ -3859,12 +4652,21 @@ msgid ""
 "you can either press the <guilabel>OK</guilabel> button on the dialog, or "
 "press the <keycap>Return</keycap> key on your keyboard."
 msgstr ""
+"Kaydırıcıları kullanmanın yanı sıra, görüntünün içine fareyi tıklayıp sol "
+"fare tuşunu basılı tutarak sürükleyerek de ayarları değiştirebilirsiniz. "
+"Fareyi dikey olarak hareket ettirmek parlaklığı, yatay olarak hareket "
+"ettirmek ise kontrastı değiştirir. Sonuçtan memnun olduğunuzda, iletişim "
+"kutusundaki <guilabel>Tamam</guilabel> düğmesine basabilir veya "
+"klavyenizdeki <keycap>Return</keycap> tuşuna basabilirsiniz."
 
 #: src/menus/colors/brightness-contrast.xml:45(para)
+#, fuzzy
 msgid ""
 "From the main menu: <menuchoice><guimenu>Colors</"
 "guimenu><guimenuitem>Brightness-Contrast…</guimenuitem></menuchoice>."
 msgstr ""
+"Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Parlaklık-"
+"Kontrast…</guimenuitem></menuchoice>."
 
 #: src/menus/colors/brightness-contrast.xml:74(title)
 msgid "Brightness-Contrast options dialog"
@@ -3875,30 +4677,40 @@ msgid "Brightness"
 msgstr "Parlaklık"
 
 #: src/menus/colors/brightness-contrast.xml:97(para)
+#, fuzzy
 msgid ""
 "This slider sets a negative (to darken) or positive (to brighten) value for "
 "the brightness, decreasing or increasing bright tones."
 msgstr ""
+"Bu kaydırıcı, parlaklık için negatif (karartmak için) veya pozitif "
+"(aydınlatmak için) bir değer belirleyerek parlak tonları azaltır veya "
+"artırır."
 
 #: src/menus/colors/brightness-contrast.xml:104(term)
 msgid "Contrast"
 msgstr "Karşıtlık"
 
 #: src/menus/colors/brightness-contrast.xml:106(para)
+#, fuzzy
 msgid ""
 "This slider sets a negative (to decrease) or positive (to increase) value "
 "for the contrast."
 msgstr ""
+"Bu kaydırıcı, kontrast için negatif (azaltmak için) veya pozitif (artırmak "
+"için) bir değer belirler."
 
 #: src/menus/colors/brightness-contrast.xml:113(term)
 msgid "Edit these settings as Levels"
 msgstr "Bu Ayarları Düzey Olarak Düzenle"
 
 #: src/menus/colors/brightness-contrast.xml:115(para)
+#, fuzzy
 msgid ""
 "To make your work easier, this button lets you turn to the <link "
 "linkend=\"gimp-tool-levels\">Levels</link> tool with the same settings."
 msgstr ""
+"İşinizi kolaylaştırmak için, bu düğme aynı ayarlarla <link linkend=\"gimp-"
+"tool-levels\">Levels</link> aracına geçmenizi sağlar."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3999,6 +4811,7 @@ msgid "Stretching"
 msgstr "Genişletme"
 
 #: src/menus/colors/auto.xml:74(para)
+#, fuzzy
 msgid ""
 "<acronym>GIMP</acronym> has several automatic commands for stretching the "
 "columns of the histogram for the color channels of the active layer. By "
@@ -4006,15 +4819,24 @@ msgid ""
 "bright pixels brighter and dark pixels darker, which enhances the contrast "
 "in the layer."
 msgstr ""
+"<acronym>GIMP</acronym>, etkin katmanın renk kanalları için histogramın "
+"sütunlarını uzatmak için birkaç otomatik komuta sahiptir. Parlak pikselleri "
+"sağa ve koyu pikselleri sola iterek, parlak pikselleri daha parlak ve koyu "
+"pikselleri daha koyu hale getirir, bu da katmandaki kontrastı artırır."
 
 #: src/menus/colors/auto.xml:81(para)
+#, fuzzy
 msgid ""
 "Some of the commands stretch the three color channels equally, so that the "
 "hues are not changed. Other commands stretch each of the color channels "
 "separately, which changes the hues."
 msgstr ""
+"Bazı komutlar üç renk kanalını eşit olarak uzatır, böylece renk tonları "
+"değişmez. Diğer komutlar ise her bir renk kanalını ayrı ayrı uzatır, bu da "
+"renk tonlarını değiştirir."
 
 #: src/menus/colors/auto.xml:86(para)
+#, fuzzy
 msgid ""
 "The way the stretching is done varies with the different commands and the "
 "results look different. It is not easy to predict exactly what each command "
@@ -4022,24 +4844,36 @@ msgid ""
 "results, and even more, with the <link linkend=\"gimp-tool-levels\">Levels</"
 "link> tool."
 msgstr ""
+"Germe işleminin yapılış şekli farklı komutlara göre değişir ve sonuçlar da "
+"farklı görünür. Her komutun tam olarak ne yapacağını tahmin etmek kolay "
+"değildir. Ne yaptığınızı tam olarak biliyorsanız, <link linkend=\"gimp-tool-"
+"levels\">Levels</link> aracıyla aynı sonuçları ve hatta daha fazlasını elde "
+"edebilirsiniz."
 
 #: src/menus/colors/auto.xml:93(para)
+#, fuzzy
 msgid ""
 "Here are examples of the results of these commands, all together on one "
 "page, so you can compare them more easily. The most appropriate command "
 "depends upon your image, so you should try each of them to see which command "
 "works best on it."
 msgstr ""
+"İşte bu komutların sonuçlarının örnekleri, hepsi tek bir sayfada, böylece "
+"daha kolay karşılaştırabilirsiniz. En uygun komut, görüntünüze bağlıdır, bu "
+"nedenle her birini deneyerek hangisinin en iyi sonucu verdiğini görmelisiniz."
 
 #: src/menus/colors/auto.xml:102(title)
 msgid "The original layer and its histograms"
 msgstr "Özgün görüntü ve histogramları"
 
 #: src/menus/colors/auto.xml:109(para)
+#, fuzzy
 msgid ""
 "This layer doesn't have any very bright or very dark pixels, so it works "
 "well with these commands."
 msgstr ""
+"Bu katman çok parlak veya çok koyu piksellere sahip olmadığı için bu "
+"komutlarla iyi sonuç verir."
 
 #: src/menus/colors/auto.xml:119(title)
 msgid "The <link linkend=\"gimp-layer-equalize\">Equalize</link> command"
@@ -4106,27 +4940,3 @@ msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
 
-#~ msgid ""
-#~ "<quote>Presets</quote> are a common feature for several Colors commands. "
-#~ "You can find its description in <xref linkend=\"colors-common-features\"/"
-#~ ">."
-#~ msgstr ""
-#~ "<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
-#~ "Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"
-
-#~ msgid "Three options groups:"
-#~ msgstr "Üç seçenek grubu:"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/colors.png'; md5=c7a2c3312e731e3d8bfa742f6b8273dd"
-#~ msgstr ""
-#~ "@@image: 'images/menus/colors.png'; md5=c7a2c3312e731e3d8bfa742f6b8273dd"
-
-#~ msgid "Introduction to the <quote>Colors</quote> Menu"
-#~ msgstr "<quote>Renkler</quote> Menüsüne Giriş"
-
-#~ msgid ""
-#~ "This option is checked by default and displays changes directly on canvas."
-#~ msgstr ""
-#~ "Bu seçenek öntanımlı olarak işaretlidir ve değişiklikleri doğrudan "
-#~ "tuvalde görüntüler."

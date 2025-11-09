@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-01 16:53+0000\n"
-"PO-Revision-Date: 2025-10-28 22:59+0300\n"
+"PO-Revision-Date: 2025-11-09 22:45+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -20,8 +20,6 @@ msgstr ""
 "X-Generator: Poedit 3.8\n"
 
 #: src/menus/windows.xml:11(title)
-#, fuzzy
-#| msgid "<quote>Windows</quote> Menu"
 msgid "The <quote>Windows</quote> Menu"
 msgstr "<quote>Pencereler</quote> Menüsü"
 
@@ -58,16 +56,12 @@ msgid ""
 msgstr ""
 
 #: src/menus/windows.xml:33(title)
-#, fuzzy
-#| msgid "Contents of the <quote>Windows</quote> Menu"
 msgid "The Contents of the <quote>Windows</quote> Menu"
 msgstr "<quote>Pencereler</quote> Menüsü İçerikleri"
 
 #: src/menus/windows.xml:36(term)
-#, fuzzy
-#| msgid "Recently closed"
 msgid "Recently Closed Docks"
-msgstr "Son kapatılan"
+msgstr "Son Kapatılan Rıhtımlar"
 
 #: src/menus/windows.xml:38(para)
 #: src/menus/windows-open-recent-docks.xml:16(para)
@@ -89,10 +83,8 @@ msgstr ""
 "linkend=\"gimp-concepts-docks\"/>."
 
 #: src/menus/windows.xml:50(term)
-#, fuzzy
-#| msgid "A dockable dialog."
 msgid "Dockable Dialogs"
-msgstr "Rıhtımlanabilir bir kutu."
+msgstr "Rıhtımlanabilir İletişim Kutuları"
 
 #: src/menus/windows.xml:52(para)
 #, fuzzy
@@ -108,10 +100,8 @@ msgstr ""
 "docks\"/>."
 
 #: src/menus/windows.xml:60(term)
-#, fuzzy
-#| msgid "Tools"
 msgid "Toolbox"
-msgstr "Araçlar"
+msgstr "Araç Kutusu"
 
 #: src/menus/windows.xml:62(para)
 #, fuzzy
@@ -139,10 +129,8 @@ msgid ""
 msgstr ""
 
 #: src/menus/windows.xml:78(term)
-#, fuzzy
-#| msgid "Without open images"
 msgid "The list of open image windows"
-msgstr "Açık görüntü olmadan"
+msgstr "Açık görüntü pencerelerinin listesi"
 
 #: src/menus/windows.xml:80(para)
 #, fuzzy
@@ -161,7 +149,7 @@ msgstr ""
 
 #: src/menus/windows.xml:90(term)
 msgid "The list of open docks"
-msgstr ""
+msgstr "Açık rıhtımların listesi"
 
 #: src/menus/windows.xml:92(para)
 #, fuzzy
@@ -181,10 +169,8 @@ msgstr ""
 "rıhtımlar burada gösterilir."
 
 #: src/menus/windows.xml:101(term)
-#, fuzzy
-#| msgid "Docks"
 msgid "Hide Docks"
-msgstr "Rıhtımlar"
+msgstr "Rıhtımları Gizle"
 
 #: src/menus/windows.xml:103(para)
 #, fuzzy
@@ -207,7 +193,7 @@ msgstr ""
 
 #: src/menus/windows.xml:113(term)
 msgid "Show Tabs"
-msgstr ""
+msgstr "Sekmeleri Göster"
 
 #: src/menus/windows.xml:115(para)
 #, fuzzy
@@ -232,7 +218,7 @@ msgstr "Çoklu pencere kipinde bu komut devre dışıdır."
 
 #: src/menus/windows.xml:127(term)
 msgid "Tabs Position"
-msgstr ""
+msgstr "Sekme Konumu"
 
 #: src/menus/windows.xml:129(para)
 #, fuzzy
@@ -257,7 +243,7 @@ msgstr ""
 
 #: src/menus/windows.xml:143(term)
 msgid "Single Window Mode"
-msgstr ""
+msgstr "Tek Pencereli Kip"
 
 #: src/menus/windows.xml:145(para)
 #, fuzzy

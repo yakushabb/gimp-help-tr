@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-10-20 15:22+0000\n"
-"PO-Revision-Date: 2025-10-20 15:36+0300\n"
+"PO-Revision-Date: 2025-11-09 22:46+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -254,8 +254,6 @@ msgid "See also <xref linkend=\"alpha-channel-example\"/>."
 msgstr ""
 
 #: src/glossary/glossary.xml:69(phrase) src/glossary/glossary.xml:72(primary)
-#, fuzzy
-#| msgid "Antialiasing"
 msgid "Anti-aliasing"
 msgstr "Kenar Yumuşatma"
 

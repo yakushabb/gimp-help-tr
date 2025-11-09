@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-01 16:53+0000\n"
-"PO-Revision-Date: 2025-10-20 21:46+0300\n"
+"PO-Revision-Date: 2025-11-09 22:26+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -462,8 +462,9 @@ msgid ""
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Süzgeçler</"
 "guimenu><guimenuitem>Yeniden Göster <replaceable>süzgeç adı</replaceable></"
-"guimenuitem></menuchoice> yoluyla ulaşabilirsiniz"
+"guimenuitem></menuchoice> yoluyla ulaşabilirsiniz,"
 
+# Split sentence
 #: src/menus/filters/reshow.xml:68(para)
 msgid ""
 "or by using the keyboard shortcut <keycombo><keycap>Ctrl</"
@@ -594,17 +595,12 @@ msgstr ""
 "linkend=\"bibliography-online-python\">Python</link> modül grubudur."
 
 #: src/menus/filters/python-fu.xml:28(para)
-#, fuzzy
-#| msgid ""
-#| "You can access this command from the main menu through "
-#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</"
-#| "guisubmenu><guimenuitem>Python-Fu</guimenuitem></menuchoice>."
 msgid ""
 "You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</"
 "guisubmenu><guimenuitem>Python-Fu</guimenuitem></menuchoice>."
 msgstr ""
-"Bu komuta ana menüden <menuchoice><guimenu>Süzgeçler</"
+"Bu alt menüye ana menüden <menuchoice><guimenu>Süzgeçler</"
 "guimenu><guisubmenu>Geliştirme</guisubmenu><guimenuitem>Python-Fu</"
 "guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
@@ -766,7 +762,7 @@ msgstr "Bu düğmeye tıklamanız uçbirimi kapatır."
 
 #: src/menus/filters/introduction.xml:9(title)
 msgid "Overview"
-msgstr ""
+msgstr "Genel görünüm"
 
 #: src/menus/filters/introduction.xml:12(secondary)
 #: src/menus/filters/introduction.xml:15(primary)
@@ -778,30 +774,21 @@ msgid "Introduction to filters"
 msgstr "Süzgeçlere Giriş"
 
 #: src/menus/filters/introduction.xml:24(para)
-#, fuzzy
-#| msgid ""
-#| "You can access this command from the main menu through "
-#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</"
-#| "guisubmenu></menuchoice>."
 msgid ""
 "In this section, you will find help for commands in the "
 "<menuchoice><guimenu>Filters</guimenu></menuchoice> menu."
 msgstr ""
-"Bu komuta ana menüden <menuchoice><guimenu>Süzgeçler</"
-"guimenu><guisubmenu>Geliştirme</guisubmenu></menuchoice> yoluyla "
-"erişebilirsiniz."
+"Bu bölümde, <menuchoice><guimenu>Süzgeçler</guimenu></menuchoice> "
+"menüsündeki komutlarla ilgili yardım bulabilirsiniz."
 
 #: src/menus/filters/introduction.xml:31(title)
-#, fuzzy
-#| msgid "Introduction to the <quote>Filters</quote> Menu"
 msgid "The Contents of the <quote>Filters</quote> Menu"
-msgstr "<quote>Süzgeçler</quote> Menüsüne Giriş"
+msgstr "<quote>Süzgeçler</quote> Menüsü İçerikleri"
 
 #: src/menus/filters/introduction.xml:55(title)
-#, fuzzy
 #| msgid "Applied <acronym>PDB</acronym> procedure"
 msgid "About <acronym>GIMP</acronym> Filters"
-msgstr "<acronym>PDB</acronym> yordamı uygulanmış"
+msgstr "<acronym>GIMP</acronym> Süzgeçleri Hakkında"
 
 #: src/menus/filters/introduction.xml:56(para)
 msgid ""
@@ -820,15 +807,6 @@ msgstr ""
 "bazıları görüntüleri hiç değiştirmez."
 
 #: src/menus/filters/introduction.xml:65(para)
-#, fuzzy
-#| msgid ""
-#| "With the exception of the top three items of the <guimenu>Filters</"
-#| "guimenu> menu, all of the entries are provided by plug-ins. Each plug-in "
-#| "decides for itself where it would like its menu entry to be placed. "
-#| "Therefore, the appearance of this menu can be completely different for "
-#| "each user. In practice, though, the appearance does not vary very much, "
-#| "because most plug-ins come with <acronym>GIMP</acronym> when it is "
-#| "installed, and of course they are always in the same places in the menu."
 msgid ""
 "With the exception of the topmost items of the <guimenu>Filters</guimenu> "
 "menu, all of the entries are provided by plug-ins. Each plug-in decides for "
@@ -838,12 +816,12 @@ msgid ""
 "ins come with <acronym>GIMP</acronym> when it is installed, and of course "
 "they are always in the same places in the menu."
 msgstr ""
-"<guimenu>Süzgeçler</guimenu> menüsünün ilk üç ögesi dışında, tüm girdiler "
-"eklentilerce sağlanır. Her eklenti, menü girdisinin nereye "
+"<guimenu>Süzgeçler</guimenu> menüsünün en üstündeki ögeler hariç, tüm "
+"girişler eklentiler tarafından sağlanır. Her eklenti, menü girişinin nereye "
 "yerleştirileceğini kendisi belirler. Bu nedenle, bu menünün görünümü her "
-"kullanıcı için tümüyle başka olabilir. Uygulamada ise görünüm çok fazla "
-"değişmiyor, çünkü çoğu eklenti <acronym>GIMP</acronym> ile birlikte geliyor "
-"ve menüde her zaman aynı yerde bulunuyorlar."
+"kullanıcı için tamamen farklı olabilir. Ancak pratikte, görünüm çok fazla "
+"değişmez, çünkü çoğu eklenti <acronym>GIMP</acronym> kurulduğunda birlikte "
+"gelir ve elbette menüde her zaman aynı yerlerde bulunurlar."
 
 #: src/menus/filters/introduction.xml:75(para)
 msgid ""
@@ -936,11 +914,3 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/filters.png'; md5=da3cc7b88ca287031613962b72023269"
-#~ msgstr ""
-#~ "@@image: 'images/menus/filters.png'; md5=da3cc7b88ca287031613962b72023269"
-
-#~ msgid "The <quote>Filters</quote> menu"
-#~ msgstr "<quote>Süzgeçler</quote> Menüsü"

@@ -2,14 +2,14 @@
 # Copyright (C) 2019-2025 gimp-help's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gimp-help package.
 #
-# Sabri Ünal <yakushabb@gmail.com>, 2019, 2024, 2025.
-# Emin Tufan Çetin <etcetin@gmail.com>, 2023, 2024, 2025.
+# Sabri Ünal <yakushabb@gmail.com>, 2019, 2023-2025.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2023-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-01 16:53+0000\n"
-"PO-Revision-Date: 2025-09-19 18:12+0300\n"
+"PO-Revision-Date: 2025-11-09 22:20+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #: src/menus/help/welcome-dialog.xml:5(title)
 #: src/menus/help/welcome-dialog.xml:9(secondary)
@@ -494,25 +494,19 @@ msgstr "Genel Görünüm"
 #: src/menus/help/introduction.xml:8(primary)
 #: src/menus/help/introduction.xml:13(secondary)
 msgid "Menu"
-msgstr ""
+msgstr "Menü"
 
 #: src/menus/help/introduction.xml:16(para)
-#, fuzzy
-#| msgid ""
-#| "You can access this command in the main menu through "
-#| "<menuchoice><guimenu>Help</guimenu><guimenuitem>About</guimenuitem></"
-#| "menuchoice>"
 msgid ""
 "In this section, you will find help for commands in the "
 "<menuchoice><guimenu>Help</guimenu></menuchoice> menu."
 msgstr ""
-"Bu komuta ana menüden <menuchoice><guimenu>Yardım</"
-"guimenu><guimenuitem>Hakkında</guimenuitem></menuchoice> yoluyla "
-"erişebilirsiniz"
+"Bu bölümde, <menuchoice><guimenu>Yardım</guimenu></menuchoice> menüsündeki "
+"komutlarla ilgili yardım bulabilirsiniz."
 
 #: src/menus/help/introduction.xml:23(title)
 msgid "The Contents of the <quote>Help</quote> Menu"
-msgstr ""
+msgstr "<quote>Yardım</quote> Menüsü İçerikleri"
 
 #: src/menus/help/help.xml:17(para)
 msgid ""
@@ -576,19 +570,13 @@ msgid "The <quote>GIMP Online</quote> submenu of the Help menu"
 msgstr "Yardım menüsünün <quote>Çevirim İçi GIMP</quote> alt menüsü"
 
 #: src/menus/help/gimp-online.xml:30(para)
-#, fuzzy
-#| msgid ""
-#| "The <guimenuitem>GIMP online</guimenuitem> command displays a submenu "
-#| "which provides access to several website links that have to do with "
-#| "various aspects of <acronym>GIMP</acronym>. You can click on one of the "
-#| "menu items and your web browser will try to connect to the URL."
 msgid ""
 "The <guimenuitem>GIMP Online</guimenuitem> command displays a submenu which "
 "provides access to several website links that have to do with various "
 "aspects of <acronym>GIMP</acronym>. You can click on one of the menu items "
 "and your web browser will try to connect to the URL."
 msgstr ""
-"<guimenuitem>Çevrim içi GIMP</guimenuitem> komutu, <acronym>GIMP</"
+"<guimenuitem>Çevrim İçi GIMP</guimenuitem> komutu, <acronym>GIMP</"
 "acronym>ʼin türlü yönleriyle ilgili türlü web sitesi bağlantılarını sağlayan "
 "alt menü görüntüler. Menü ögelerinden birine tıklarsanız web tarayıcınız "
 "URLʼye bağlanmaya çalışır."
@@ -787,8 +775,5 @@ msgstr ""
 #: src/menus/help/about.xml:0(None)
 msgid "translator-credits"
 msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2023, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2023, 2024, 2025."
-
-#~ msgid "GIMP online"
-#~ msgstr "Çevrim İçi GIMP"
+"Sabri Ünal <yakushabb@gmail.com>, 2019, 2023-2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2023-2025."
