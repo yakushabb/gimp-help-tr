@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-31 18:10+0000\n"
+"POT-Creation-Date: 2025-11-08 18:26+0000\n"
 "PO-Revision-Date: 2025-10-28 20:44+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -578,7 +578,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/color-rotate.xml:232(None)
+#: src/menus/colors/map/color-rotate.xml:220(None)
 msgid ""
 "@@image: 'images/filters/examples/taj-color-rotation-gray-treat.jpg'; "
 "md5=04be9c3e567e77749b5640ff3b2ae23b"
@@ -588,7 +588,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/color-rotate.xml:246(None)
+#: src/menus/colors/map/color-rotate.xml:234(None)
 msgid ""
 "@@image: 'images/filters/examples/taj-color-rotation-gray-change.jpg'; "
 "md5=c8156477ac3001b7963ca8c40d8445cf"
@@ -598,7 +598,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/map/color-rotate.xml:259(None)
+#: src/menus/colors/map/color-rotate.xml:247(None)
 msgid ""
 "@@image: 'images/filters/examples/taj-color-rotation-gray.jpg'; "
 "md5=844a6c435031ba8bbb21708fe82235d8"
@@ -652,15 +652,29 @@ msgstr "<quote>Renkleri Döndür</quote> İletişim Kutusu"
 msgid "Presets"
 msgstr "Önayarlar"
 
-#: src/menus/colors/map/color-rotate.xml:74(para)
-#: src/menus/colors/map/color-exchange.xml:77(para)
-#: src/menus/colors/map/alien-map.xml:71(para)
-msgid ""
-"<quote>Presets</quote> are a common feature for several Colors commands. You "
-"can find its description in <xref linkend=\"colors-common-features\"/>."
-msgstr ""
-"<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
-"Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"
+#: src/menus/colors/map/color-rotate.xml:73(term)
+#: src/menus/colors/map/color-exchange.xml:76(term)
+#: src/menus/colors/map/alien-map.xml:70(term)
+msgid "Blending Options"
+msgstr "Harmanlama Seçenekleri"
+
+#: src/menus/colors/map/color-rotate.xml:74(term)
+#: src/menus/colors/map/color-exchange.xml:77(term)
+#: src/menus/colors/map/alien-map.xml:71(term)
+msgid "Preview"
+msgstr "Ön izleme"
+
+#: src/menus/colors/map/color-rotate.xml:75(term)
+#: src/menus/colors/map/color-exchange.xml:78(term)
+#: src/menus/colors/map/alien-map.xml:72(term)
+msgid "Merge filter"
+msgstr "Süzgeci birleştir"
+
+#: src/menus/colors/map/color-rotate.xml:76(term)
+#: src/menus/colors/map/color-exchange.xml:79(term)
+#: src/menus/colors/map/alien-map.xml:73(term)
+msgid "Split view"
+msgstr "Bölünmüş görünüm"
 
 #: src/menus/colors/map/color-rotate.xml:83(term)
 msgid "Source Range"
@@ -726,7 +740,7 @@ msgid "This button selects all colors to be inside the range."
 msgstr "Bu düğme tüm renkleri aralığın içinde olacak biçimde seçer."
 
 #: src/menus/colors/map/color-rotate.xml:142(term)
-#: src/menus/colors/map/color-rotate.xml:214(term)
+#: src/menus/colors/map/color-rotate.xml:202(term)
 msgid "Gray Handling"
 msgstr "Gri İşleme"
 
@@ -779,60 +793,28 @@ msgstr ""
 "<guilabel>Bunu değiştir</guilabel>, gri renkleri herhangi bir döndürme "
 "olmadan seçilen Renk Tonu ve Doygunluğa değiştirecektir."
 
-#: src/menus/colors/map/color-rotate.xml:195(term)
-#: src/menus/colors/map/color-exchange.xml:118(term)
-#: src/menus/colors/map/alien-map.xml:136(term)
-msgid "Blending Options"
-msgstr "Harmanlama Seçenekleri"
-
-#: src/menus/colors/map/color-rotate.xml:196(term)
-#: src/menus/colors/map/color-exchange.xml:119(term)
-#: src/menus/colors/map/alien-map.xml:137(term)
-msgid "Preview"
-msgstr "Ön izleme"
-
-#: src/menus/colors/map/color-rotate.xml:197(term)
-#: src/menus/colors/map/color-exchange.xml:120(term)
-#: src/menus/colors/map/alien-map.xml:138(term)
-msgid "Merge filter"
-msgstr "Süzgeci birleştir"
-
-#: src/menus/colors/map/color-rotate.xml:198(term)
-#: src/menus/colors/map/color-exchange.xml:121(term)
-#: src/menus/colors/map/alien-map.xml:139(term)
-msgid "Split view"
-msgstr "Bölünmüş görünüm"
-
-#: src/menus/colors/map/color-rotate.xml:200(para)
-#: src/menus/colors/map/color-exchange.xml:123(para)
-#: src/menus/colors/map/alien-map.xml:141(para)
-msgid ""
-"These are common features described in <xref linkend=\"colors-common-"
-"features\"/>."
-msgstr ""
-
-#: src/menus/colors/map/color-rotate.xml:210(title)
+#: src/menus/colors/map/color-rotate.xml:198(title)
 msgid "Examples using Gray Handling"
 msgstr "Gri İşleme kullanım örnekleri"
 
-#: src/menus/colors/map/color-rotate.xml:216(para)
+#: src/menus/colors/map/color-rotate.xml:204(para)
 msgid ""
 "Using the same example as at the top of this page, but now with the "
 "following gray handling settings used: Gray threshold 0.340, Hue 220.0, "
 "Saturation 0.75."
 msgstr ""
 
-#: src/menus/colors/map/color-rotate.xml:222(para)
+#: src/menus/colors/map/color-rotate.xml:210(para)
 msgid ""
 "If you want gray instead of a different color, you should leave Hue and "
 "Saturation at 0."
 msgstr ""
 
-#: src/menus/colors/map/color-rotate.xml:228(title)
+#: src/menus/colors/map/color-rotate.xml:216(title)
 msgid "<quote>Rotate Colors</quote> filter examples for gray handling"
 msgstr "Gri işleme için <quote>Renkleri Döndür</quote> süzgeci örnekleri"
 
-#: src/menus/colors/map/color-rotate.xml:235(para)
+#: src/menus/colors/map/color-rotate.xml:223(para)
 msgid ""
 "Gray mode set to <guilabel>Treat as this</guilabel>: any color with a "
 "Saturation below 0.34 will be converted to orange because the selected blue "
@@ -840,14 +822,14 @@ msgid ""
 "range."
 msgstr ""
 
-#: src/menus/colors/map/color-rotate.xml:249(para)
+#: src/menus/colors/map/color-rotate.xml:237(para)
 msgid ""
 "Gray mode set to <guilabel>Change to this</guilabel>: the rotation is now "
 "ignored and the color is picked directly based on the chosen Hue and "
 "Saturation."
 msgstr ""
 
-#: src/menus/colors/map/color-rotate.xml:262(para)
+#: src/menus/colors/map/color-rotate.xml:250(para)
 msgid "Saturation and Hue set to 0 turns anything below the threshold to gray."
 msgstr ""
 
@@ -1118,3 +1100,11 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
+#~ msgid ""
+#~ "<quote>Presets</quote> are a common feature for several Colors commands. "
+#~ "You can find its description in <xref linkend=\"colors-common-features\"/"
+#~ ">."
+#~ msgstr ""
+#~ "<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
+#~ "Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"

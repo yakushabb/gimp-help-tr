@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-31 18:10+0000\n"
+"POT-Creation-Date: 2025-11-08 18:26+0000\n"
 "PO-Revision-Date: 2025-10-27 23:31+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -22,7 +22,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/auto/white-balance.xml:65(None)
-#: src/menus/colors/auto/stretch-contrast.xml:119(None)
+#: src/menus/colors/auto/stretch-contrast.xml:109(None)
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:50(None)
 #: src/menus/colors/auto/equalize.xml:54(None)
 #: src/menus/colors/auto/color-enhance.xml:51(None)
@@ -110,7 +110,7 @@ msgid "<quote>White Balance</quote> example"
 msgstr "<quote>Beyaz Dengesi</quote> örneği"
 
 #: src/menus/colors/auto/white-balance.xml:61(title)
-#: src/menus/colors/auto/stretch-contrast.xml:115(title)
+#: src/menus/colors/auto/stretch-contrast.xml:105(title)
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:46(title)
 #: src/menus/colors/auto/equalize.xml:50(title)
 #: src/menus/colors/auto/color-enhance.xml:47(title)
@@ -124,7 +124,7 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/auto/white-balance.xml:76(title)
-#: src/menus/colors/auto/stretch-contrast.xml:130(title)
+#: src/menus/colors/auto/stretch-contrast.xml:120(title)
 #: src/menus/colors/auto/stretch-contrast-hsv.xml:61(title)
 #: src/menus/colors/auto/equalize.xml:65(title)
 msgid "Image after the command"
@@ -137,7 +137,7 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/auto/white-balance.xml:88(para)
-#: src/menus/colors/auto/stretch-contrast.xml:144(para)
+#: src/menus/colors/auto/stretch-contrast.xml:134(para)
 msgid ""
 "Histogram stretching creates gaps between the pixel columns, giving it a "
 "striped look."
@@ -155,7 +155,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/auto/stretch-contrast.xml:134(None)
+#: src/menus/colors/auto/stretch-contrast.xml:124(None)
 msgid ""
 "@@image: 'images/menus/colors/auto/c-stretch.png'; "
 "md5=7af9a55590071580eef4731b51cef312"
@@ -197,10 +197,15 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/auto/stretch-contrast.xml:45(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
+#| "guisubmenu><guimenuitem>Stretch Contrast</guimenuitem></menuchoice>."
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
-"guisubmenu><guimenuitem>Stretch Contrast</guimenuitem></menuchoice>."
+"guisubmenu><guimenuitem>Stretch Contrast…</guimenuitem></menuchoice>."
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
 "guimenu><guisubmenu>Kendiliğinden</guisubmenu><guimenuitem>Karşıtlığı "
@@ -218,69 +223,63 @@ msgstr "<quote>Karşıtlığı Genişlet</quote> ayarları"
 msgid "Presets"
 msgstr "Önayarlar"
 
-#: src/menus/colors/auto/stretch-contrast.xml:70(para)
-msgid ""
-"<quote>Presets</quote> are a common feature for several Colors commands. You "
-"can find its description in <xref linkend=\"colors-common-features\"/>."
+#: src/menus/colors/auto/stretch-contrast.xml:69(term)
+msgid "Input Type"
 msgstr ""
-"<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
-"Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"
 
-#: src/menus/colors/auto/stretch-contrast.xml:79(term)
+#: src/menus/colors/auto/stretch-contrast.xml:70(term)
+msgid "Clipping"
+msgstr ""
+
+#: src/menus/colors/auto/stretch-contrast.xml:71(term)
+msgid "Blending Options"
+msgstr "Harmanlama Seçenekleri"
+
+#: src/menus/colors/auto/stretch-contrast.xml:72(term)
+msgid "Preview"
+msgstr "Ön izleme"
+
+#: src/menus/colors/auto/stretch-contrast.xml:73(term)
+msgid "Merge filter"
+msgstr "Süzgeci birleştir"
+
+#: src/menus/colors/auto/stretch-contrast.xml:74(term)
+msgid "Split view"
+msgstr "Bölünmüş görünüm"
+
+#: src/menus/colors/auto/stretch-contrast.xml:81(term)
 #, fuzzy
 #| msgid "Keep Colors"
 msgid "Keep colors"
 msgstr "Renkleri koru"
 
-#: src/menus/colors/auto/stretch-contrast.xml:81(para)
+#: src/menus/colors/auto/stretch-contrast.xml:83(para)
 msgid "Impact each color channel with the same amount."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:88(term)
+#: src/menus/colors/auto/stretch-contrast.xml:90(term)
 #, fuzzy
 #| msgid "Non-Linear Components"
 msgid "Non-linear components"
 msgstr "Doğrusal olmayan bileşenler"
 
-#: src/menus/colors/auto/stretch-contrast.xml:90(para)
+#: src/menus/colors/auto/stretch-contrast.xml:92(para)
 msgid ""
 "When set, this option operates on gamma corrected values instead of linear "
 "RGB."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:98(term)
-msgid "Blending Options"
-msgstr "Harmanlama Seçenekleri"
-
-#: src/menus/colors/auto/stretch-contrast.xml:99(term)
-msgid "Preview"
-msgstr "Ön izleme"
-
-#: src/menus/colors/auto/stretch-contrast.xml:100(term)
-msgid "Merge filter"
-msgstr "Süzgeci birleştir"
-
-#: src/menus/colors/auto/stretch-contrast.xml:101(term)
-msgid "Split view"
-msgstr "Bölünmüş görünüm"
-
-#: src/menus/colors/auto/stretch-contrast.xml:103(para)
-msgid ""
-"These are common features described in <xref linkend=\"colors-common-"
-"features\"/>."
-msgstr ""
-
-#: src/menus/colors/auto/stretch-contrast.xml:113(title)
+#: src/menus/colors/auto/stretch-contrast.xml:103(title)
 msgid "<quote>Stretch Contrast</quote> Example"
 msgstr "<quote>Karşıtlığı Genişlet</quote> Örneği"
 
-#: src/menus/colors/auto/stretch-contrast.xml:122(para)
+#: src/menus/colors/auto/stretch-contrast.xml:112(para)
 msgid ""
 "The layer and its Red, Green and Blue histograms before <quote>Stretch "
 "Contrast</quote>."
 msgstr ""
 
-#: src/menus/colors/auto/stretch-contrast.xml:137(para)
+#: src/menus/colors/auto/stretch-contrast.xml:127(para)
 msgid ""
 "The layer and its Red and Green and Blue histograms after <quote>Stretch "
 "Contrast</quote>. The pixel columns do not reach the right end of the "
@@ -480,3 +479,11 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
+#~ msgid ""
+#~ "<quote>Presets</quote> are a common feature for several Colors commands. "
+#~ "You can find its description in <xref linkend=\"colors-common-features\"/"
+#~ ">."
+#~ msgstr ""
+#~ "<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
+#~ "Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"

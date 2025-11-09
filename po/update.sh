@@ -1,4 +1,4 @@
-#!bash
+#!/bin/bash
 
 printf '\n\n\n'
 echo '### Ana dosyalar güncelleniyor'

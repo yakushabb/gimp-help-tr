@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-31 18:10+0000\n"
+"POT-Creation-Date: 2025-11-08 18:26+0000\n"
 "PO-Revision-Date: 2025-10-28 00:12+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -149,7 +149,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/components/mono-mixer.xml:139(None)
+#: src/menus/colors/components/mono-mixer.xml:127(None)
 msgid ""
 "@@image: 'images/menus/colors/components/channel-mixer-ex4.png'; "
 "md5=62f67083991031f22ddb107a088b3168"
@@ -219,15 +219,29 @@ msgstr "<quote>Mono Karıştırıcı</quote> komutu seçenekleri"
 msgid "Presets"
 msgstr "Önayarlar"
 
-#: src/menus/colors/components/mono-mixer.xml:80(para)
-#: src/menus/colors/components/extract-component.xml:81(para)
-#: src/menus/colors/components/channel-mixer.xml:73(para)
-msgid ""
-"<quote>Presets</quote> are a common feature for several Colors commands. You "
-"can find its description in <xref linkend=\"colors-common-features\"/>."
-msgstr ""
-"<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
-"Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"
+#: src/menus/colors/components/mono-mixer.xml:79(term)
+#: src/menus/colors/components/extract-component.xml:80(term)
+#: src/menus/colors/components/channel-mixer.xml:72(term)
+msgid "Blending Options"
+msgstr "Harmanlama Seçenekleri"
+
+#: src/menus/colors/components/mono-mixer.xml:80(term)
+#: src/menus/colors/components/extract-component.xml:81(term)
+#: src/menus/colors/components/channel-mixer.xml:73(term)
+msgid "Preview"
+msgstr "Ön İzle"
+
+#: src/menus/colors/components/mono-mixer.xml:81(term)
+#: src/menus/colors/components/extract-component.xml:82(term)
+#: src/menus/colors/components/channel-mixer.xml:74(term)
+msgid "Merge filter"
+msgstr "Süzgeci birleştir"
+
+#: src/menus/colors/components/mono-mixer.xml:82(term)
+#: src/menus/colors/components/extract-component.xml:83(term)
+#: src/menus/colors/components/channel-mixer.xml:75(term)
+msgid "Split view"
+msgstr "Bölünmüş görünüm"
 
 #: src/menus/colors/components/mono-mixer.xml:88(term)
 #: src/menus/colors/components/channel-mixer.xml:95(term)
@@ -261,63 +275,29 @@ msgid ""
 "default values are equal in the three channels, image is grayed out."
 msgstr ""
 
-#: src/menus/colors/components/mono-mixer.xml:112(term)
-#: src/menus/colors/components/extract-component.xml:116(term)
-#: src/menus/colors/components/channel-mixer.xml:107(term)
-msgid "Blending Options"
-msgstr "Harmanlama Seçenekleri"
-
-#: src/menus/colors/components/mono-mixer.xml:113(term)
-#: src/menus/colors/components/extract-component.xml:117(term)
-#: src/menus/colors/components/channel-mixer.xml:108(term)
-msgid "Preview"
-msgstr "Ön İzle"
-
-#: src/menus/colors/components/mono-mixer.xml:114(term)
-#: src/menus/colors/components/extract-component.xml:118(term)
-#: src/menus/colors/components/channel-mixer.xml:109(term)
-msgid "Merge filter"
-msgstr "Süzgeci birleştir"
-
-#: src/menus/colors/components/mono-mixer.xml:115(term)
-#: src/menus/colors/components/extract-component.xml:119(term)
-#: src/menus/colors/components/channel-mixer.xml:110(term)
-msgid "Split view"
-msgstr "Bölünmüş görünüm"
-
-#: src/menus/colors/components/mono-mixer.xml:117(para)
-#: src/menus/colors/components/extract-component.xml:121(para)
-#: src/menus/colors/components/channel-mixer.xml:112(para)
-msgid ""
-"These are common features described in <xref linkend=\"colors-common-"
-"features\"/>."
-msgstr ""
-"Bunlar <xref linkend=\"colors-common-features\"/> adresinde açıklanan ortak "
-"özelliklerdir."
-
-#: src/menus/colors/components/mono-mixer.xml:126(title)
+#: src/menus/colors/components/mono-mixer.xml:114(title)
 msgid "Using Mono Mixer"
 msgstr "Mono Karıştırıcı Kullanımı"
 
-#: src/menus/colors/components/mono-mixer.xml:127(para)
+#: src/menus/colors/components/mono-mixer.xml:115(para)
 msgid ""
 "When this filter is opened, the image preview turns to grayscale, but the "
 "image is still a RGB image with three channels, until the OK button is "
 "pressed."
 msgstr ""
 
-#: src/menus/colors/components/mono-mixer.xml:133(title)
+#: src/menus/colors/components/mono-mixer.xml:121(title)
 msgid "Red: 100% Green: 50% Blue: 0%. Preserve Luminosity unchecked."
 msgstr ""
 
-#: src/menus/colors/components/mono-mixer.xml:142(para)
+#: src/menus/colors/components/mono-mixer.xml:130(para)
 msgid ""
 "In every square, pixels have been converted into a gray level equal to the "
 "value of the Red channel in the original image (The background has been "
 "painted with pink afterwards to make all squares visible)."
 msgstr ""
 
-#: src/menus/colors/components/mono-mixer.xml:151(para)
+#: src/menus/colors/components/mono-mixer.xml:139(para)
 msgid ""
 "Here is how the <guilabel>Preserve Luminosity</guilabel> works in the "
 "monochrome mode: <quote>For example, suppose the sliders were Red:75%, "
@@ -333,7 +313,7 @@ msgid ""
 "values.</quote> (from the plug-in author himself)."
 msgstr ""
 
-#: src/menus/colors/components/mono-mixer.xml:168(para)
+#: src/menus/colors/components/mono-mixer.xml:156(para)
 msgid ""
 "<emphasis>Which channel should you modify?</emphasis> This depends on what "
 "you want to do. In principle, the Red channel suits contrast modifications "
@@ -965,7 +945,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/components/channel-mixer.xml:140(None)
+#: src/menus/colors/components/channel-mixer.xml:128(None)
 msgid ""
 "@@image: 'images/menus/colors/components/channel-mixer-ex1.png'; "
 "md5=4b7ab30d24ee6c12db1619eefbbe96ce"
@@ -975,7 +955,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/components/channel-mixer.xml:158(None)
+#: src/menus/colors/components/channel-mixer.xml:146(None)
 msgid ""
 "@@image: 'images/menus/colors/components/channel-mixer-ex2.png'; "
 "md5=24d6a29044079810c32ff6be44590264"
@@ -985,7 +965,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/components/channel-mixer.xml:183(None)
+#: src/menus/colors/components/channel-mixer.xml:171(None)
 msgid ""
 "@@image: 'images/menus/colors/components/channel-mixer-ex3.png'; "
 "md5=6ebde355c0989732b0361dca9681dd4e"
@@ -1050,11 +1030,11 @@ msgid ""
 "will be attributed to the output channel."
 msgstr ""
 
-#: src/menus/colors/components/channel-mixer.xml:122(title)
+#: src/menus/colors/components/channel-mixer.xml:110(title)
 msgid "How does Channel Mixer work?"
 msgstr "Kanal Karıştırıcı nasıl çalışır?"
 
-#: src/menus/colors/components/channel-mixer.xml:123(para)
+#: src/menus/colors/components/channel-mixer.xml:111(para)
 msgid ""
 "Each of the output channels is based on the values you set for the three RGB "
 "input channels. By default each output channel is based for 100% on the "
@@ -1062,7 +1042,7 @@ msgid ""
 "set to 0.0. You can change each of the sliders from -2 to +2."
 msgstr ""
 
-#: src/menus/colors/components/channel-mixer.xml:129(para)
+#: src/menus/colors/components/channel-mixer.xml:117(para)
 msgid ""
 "The three RGB input sliders let you give a percentage to every channel. For "
 "every pixel in the image, the sum of the calculated values for every channel "
@@ -1070,11 +1050,11 @@ msgid ""
 "example:"
 msgstr ""
 
-#: src/menus/colors/components/channel-mixer.xml:136(title)
+#: src/menus/colors/components/channel-mixer.xml:124(title)
 msgid "The original image and its channels"
 msgstr "Özgün görüntü ve kanalları"
 
-#: src/menus/colors/components/channel-mixer.xml:143(para)
+#: src/menus/colors/components/channel-mixer.xml:131(para)
 msgid ""
 "RGB values of the pixels in red, green, blue, gray squares are displayed. "
 "The black rectangle is special, because black (0;0;0) is not affected by the "
@@ -1082,30 +1062,30 @@ msgid ""
 "exceed 255 nor be negative."
 msgstr ""
 
-#: src/menus/colors/components/channel-mixer.xml:154(title)
+#: src/menus/colors/components/channel-mixer.xml:142(title)
 msgid "Output channel is red. Green Channel +50"
 msgstr "Çıktı kanalı kırmızı. Yeşil Kanal +50"
 
-#: src/menus/colors/components/channel-mixer.xml:161(para)
+#: src/menus/colors/components/channel-mixer.xml:149(para)
 msgid ""
 "In the red square, the pixel values are 230;10;10. Relative values are "
 "1;0.5;0. The calculation result is 230*1 + 10*0,5 + 10*0 =235. The same "
 "reasoning is valid for the green and the blue squares."
 msgstr ""
 
-#: src/menus/colors/components/channel-mixer.xml:167(para)
+#: src/menus/colors/components/channel-mixer.xml:155(para)
 msgid ""
 "In the gray square, which contains red color, the calculation result is "
 "above 255. It is reduced to 255. A negative value would be reduced to 0."
 msgstr ""
 
-#: src/menus/colors/components/channel-mixer.xml:176(title)
+#: src/menus/colors/components/channel-mixer.xml:164(title)
 msgid ""
 "Output channel is red. Green Channel +50%. The Preserve Luminosity option is "
 "checked."
 msgstr ""
 
-#: src/menus/colors/components/channel-mixer.xml:186(para)
+#: src/menus/colors/components/channel-mixer.xml:174(para)
 msgid ""
 "The values attributed to the Red Output channel are lower, preventing a too "
 "bright image."
@@ -1117,6 +1097,21 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
+#~ msgid ""
+#~ "<quote>Presets</quote> are a common feature for several Colors commands. "
+#~ "You can find its description in <xref linkend=\"colors-common-features\"/"
+#~ ">."
+#~ msgstr ""
+#~ "<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
+#~ "Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"
+
+#~ msgid ""
+#~ "These are common features described in <xref linkend=\"colors-common-"
+#~ "features\"/>."
+#~ msgstr ""
+#~ "Bunlar <xref linkend=\"colors-common-features\"/> adresinde açıklanan "
+#~ "ortak özelliklerdir."
 
 #~ msgid "Decompose to Layers"
 #~ msgstr "Katmanlarına ayrıştır"

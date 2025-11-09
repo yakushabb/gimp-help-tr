@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-11-08 21:53+0300\n"
+"POT-Creation-Date: 2025-11-09 16:57+0000\n"
+"PO-Revision-Date: 2025-11-09 20:06+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -78,16 +78,6 @@ msgid ""
 msgstr ""
 "@@image: 'images/filters/examples/generic/normal_map-GG+Z.jpg'; "
 "md5=6baa8092437b470c0813bc393b1b4ac0"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/normal-map.xml:202(None)
-msgid ""
-"@@image: 'images/filters/examples/generic/normal_map-none.png'; "
-"md5=2c045c63acb7a0df4156129c9a5aa655"
-msgstr ""
-"@@image: 'images/filters/examples/generic/normal_map-none.png'; "
-"md5=2c045c63acb7a0df4156129c9a5aa655"
 
 #: src/filters/generic/normal-map.xml:9(title)
 #: src/filters/generic/normal-map.xml:14(tertiary)
@@ -332,8 +322,16 @@ msgid "Tileable"
 msgstr "Döşenebilir"
 
 #: src/filters/generic/normal-map.xml:195(para)
-msgid "Generate a tileable map:"
-msgstr "Döşenebilir harita oluştur."
+#, fuzzy
+msgid ""
+"If checked, the resulting image will be seamlessly tileable. The right side "
+"will match the left side and the top will match the bottom. This is "
+"interesting if your image will be repeatedly used in a Web background."
+msgstr ""
+"İşaretlendiğinde, ortaya çıkan görüntü sorunsuz bir şekilde döşenebilir hale "
+"gelir. Sağ taraf sol tarafla, üst taraf ise alt tarafla eşleşir. Bu, "
+"görüntünüzün bir web arka planında tekrar tekrar kullanılacaksa ilginç bir "
+"özelliktir."
 
 #: src/filters/generic/introduction.xml:9(title)
 #: src/filters/generic/introduction.xml:13(tertiary)
@@ -2139,6 +2137,16 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
+#~ msgid ""
+#~ "@@image: 'images/filters/examples/generic/normal_map-none.png'; "
+#~ "md5=2c045c63acb7a0df4156129c9a5aa655"
+#~ msgstr ""
+#~ "@@image: 'images/filters/examples/generic/normal_map-none.png'; "
+#~ "md5=2c045c63acb7a0df4156129c9a5aa655"
+
+#~ msgid "Generate a tileable map:"
+#~ msgstr "Döşenebilir harita oluştur."
 
 #~ msgid ""
 #~ "<guilabel>Euclidean</guilabel> default: the distance is a straight line."

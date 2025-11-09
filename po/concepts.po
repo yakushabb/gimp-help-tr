@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-11-08 18:26+0000\n"
 "PO-Revision-Date: 2025-10-20 15:27+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -7922,17 +7922,36 @@ msgstr ""
 
 #: src/concepts/imagewindow.xml:300(para)
 msgid ""
-"Besides the Navigation Control mentioned above, you can move the image with "
-"the mouse or keyboard. The keyboard arrow keys allow you to move the image "
-"one pixel at a time. Holding the <keycap>Shift</keycap> key while using the "
-"arrow keys moves the image a larger distance. The mouse scroll wheel moves "
-"the image up or down; when holding the <keycap>Shift</keycap> key the scroll "
-"wheel moves the image left or right. If your mouse has a middle-button, "
-"click-drag with it to pan across the image. Alternatively, you can press the "
-"<keycap>Spacebar</keycap> in combination with moving the mouse."
+"Besides the Navigation Control mentioned above, you can also pan across the "
+"image using a keyboard or mouse directly:"
 msgstr ""
 
-#: src/concepts/imagewindow.xml:313(para)
+#: src/concepts/imagewindow.xml:306(para)
+msgid ""
+"Hold the <keycap>Shift</keycap> key, then use the arrow keys to pan the view "
+"in that direction."
+msgstr ""
+
+#: src/concepts/imagewindow.xml:312(para)
+msgid ""
+"Use the scroll wheel on your mouse to pan the image vertically (up or down); "
+"hold the <keycap>Shift</keycap> key while using the scroll wheel to pan "
+"horizontally (left or right) instead."
+msgstr ""
+
+#: src/concepts/imagewindow.xml:319(para)
+msgid ""
+"If your mouse has a middle-button, click and drag with it to pan across the "
+"image."
+msgstr ""
+
+#: src/concepts/imagewindow.xml:325(para)
+msgid ""
+"Alternatively, you can press and hold <keycap>Spacebar</keycap> in "
+"combination with moving the mouse."
+msgstr ""
+
+#: src/concepts/imagewindow.xml:331(para)
 msgid ""
 "You can change the zoom level of the image display in a variety of ways, "
 "including using the <link linkend=\"gimp-image-window-zoom\">Zoom Button</"
@@ -7943,7 +7962,7 @@ msgid ""
 "link>."
 msgstr ""
 
-#: src/concepts/imagewindow.xml:326(para)
+#: src/concepts/imagewindow.xml:344(para)
 msgid ""
 "<emphasis>Image Window Resize Toggle:</emphasis> Without enabling this "
 "feature, if you change the size of the image window by click-and-dragging "
@@ -7961,7 +7980,7 @@ msgstr ""
 "pencerenin yeniden boyutlandırılmasından önce ve sonra (çoğunlukla) aynı "
 "bölüm görüntülenir."
 
-#: src/concepts/imagewindow.xml:340(para)
+#: src/concepts/imagewindow.xml:358(para)
 msgid ""
 "Drag and drop an image into the Toolbox window from a file browser to open "
 "the image in its own Image window or tab."
@@ -7969,7 +7988,7 @@ msgstr ""
 "Görüntüyü kendi Görüntü penceresinde veya sekmesinde açmak için bir "
 "görüntüyü Araç Kutusu penceresine sürükleyip bırakın."
 
-#: src/concepts/imagewindow.xml:344(para)
+#: src/concepts/imagewindow.xml:362(para)
 #, fuzzy
 #| msgid ""
 #| "Dragging an image file into the Layer dialog adds it to the image as a "
@@ -7981,7 +8000,7 @@ msgstr ""
 "Bir görüntüyü Katman iletişim kutusuna sürüklemek, görüntüyü yeni bir katman "
 "olarak ekler."
 
-#: src/concepts/imagewindow.xml:355(para)
+#: src/concepts/imagewindow.xml:373(para)
 msgid ""
 "<keycombo><keycap>Ctrl</keycap><keycap>J</keycap></keycombo>: this command "
 "keeps the zoom level; it adapts window size to image size. The Shrink Wrap "
@@ -7991,7 +8010,7 @@ msgstr ""
 "yakınlaştırma seviyesini korurken pencere boyutunu değiştirir. \"Daralt ve "
 "Bük\" komutu da aynı işlemi yapar."
 
-#: src/concepts/imagewindow.xml:362(para)
+#: src/concepts/imagewindow.xml:380(para)
 msgid ""
 "<keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap><keycap>J</keycap></"
 "keycombo>: this command modifies the zoom level to adapt the image display "
@@ -8001,7 +8020,7 @@ msgstr ""
 "keycombo>: bu komut, görüntüyü pencereye uydurmak için yakınlaştırma "
 "seviyesini değiştirir."
 
-#: src/concepts/imagewindow.xml:350(para)
+#: src/concepts/imagewindow.xml:368(para)
 msgid ""
 "Image size and image window size can be different. You can make image fit "
 "window, and vice versa, using two keyboard shortcuts: <placeholder-1/>"

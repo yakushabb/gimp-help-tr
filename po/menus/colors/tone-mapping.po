@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-02-26 21:19+0000\n"
+"POT-Creation-Date: 2025-11-08 18:26+0000\n"
 "PO-Revision-Date: 2025-10-28 20:53+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -192,109 +192,87 @@ msgstr "<quote>Stress</quote> süzgeci İletişim Kutusu"
 msgid "Presets"
 msgstr "Önayarlar"
 
-#: src/menus/colors/tone-mapping/stress.xml:111(para)
-#: src/menus/colors/tone-mapping/reinhard.xml:96(para)
-#: src/menus/colors/tone-mapping/mantiuk.xml:98(para)
-#: src/menus/colors/tone-mapping/fattal.xml:97(para)
-msgid ""
-"<quote>Presets</quote> are a common feature for several Colors commands. You "
-"can find its description in <xref linkend=\"colors-common-features\"/>."
-msgstr ""
-"<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
-"Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"
+#: src/menus/colors/tone-mapping/stress.xml:110(term)
+#: src/menus/colors/tone-mapping/reinhard.xml:95(term)
+#: src/menus/colors/tone-mapping/mantiuk.xml:97(term)
+#: src/menus/colors/tone-mapping/fattal.xml:96(term)
+msgid "Input Type"
+msgstr "Girdi Türü"
 
-#: src/menus/colors/tone-mapping/stress.xml:119(term)
+#: src/menus/colors/tone-mapping/stress.xml:111(term)
+#: src/menus/colors/tone-mapping/reinhard.xml:96(term)
+#: src/menus/colors/tone-mapping/mantiuk.xml:98(term)
+#: src/menus/colors/tone-mapping/fattal.xml:97(term)
+msgid "Clipping"
+msgstr "Kırpma"
+
+#: src/menus/colors/tone-mapping/stress.xml:112(term)
+#: src/menus/colors/tone-mapping/reinhard.xml:97(term)
+#: src/menus/colors/tone-mapping/mantiuk.xml:99(term)
+#: src/menus/colors/tone-mapping/fattal.xml:98(term)
+msgid "Blending Options"
+msgstr "Harmanlama Seçenekleri"
+
+#: src/menus/colors/tone-mapping/stress.xml:113(term)
+#: src/menus/colors/tone-mapping/reinhard.xml:98(term)
+#: src/menus/colors/tone-mapping/mantiuk.xml:100(term)
+#: src/menus/colors/tone-mapping/fattal.xml:99(term)
+#: src/menus/colors/tone-mapping/destripe.xml:64(term)
+msgid "Preview"
+msgstr "Ön İzleme"
+
+#: src/menus/colors/tone-mapping/stress.xml:114(term)
+#: src/menus/colors/tone-mapping/reinhard.xml:99(term)
+#: src/menus/colors/tone-mapping/mantiuk.xml:101(term)
+#: src/menus/colors/tone-mapping/fattal.xml:100(term)
+msgid "Merge filter"
+msgstr "Süzgeci birleştir"
+
+#: src/menus/colors/tone-mapping/stress.xml:115(term)
+#: src/menus/colors/tone-mapping/reinhard.xml:100(term)
+#: src/menus/colors/tone-mapping/mantiuk.xml:102(term)
+#: src/menus/colors/tone-mapping/fattal.xml:101(term)
+msgid "Split view"
+msgstr "Bölünmüş görünüm"
+
+#: src/menus/colors/tone-mapping/stress.xml:121(term)
 msgid "Radius"
 msgstr "Yarıçap"
 
-#: src/menus/colors/tone-mapping/stress.xml:121(para)
+#: src/menus/colors/tone-mapping/stress.xml:123(para)
 msgid ""
 "Neighborhood taken into account, for enhancement ideal values are close to "
 "the longest side of the image (which can be either width or height). "
 "Increasing this value makes the filter slower."
 msgstr ""
 
-#: src/menus/colors/tone-mapping/stress.xml:129(term)
+#: src/menus/colors/tone-mapping/stress.xml:131(term)
 msgid "Samples"
 msgstr "Örnekler"
 
-#: src/menus/colors/tone-mapping/stress.xml:131(para)
+#: src/menus/colors/tone-mapping/stress.xml:133(para)
 msgid "Number of samples to do per iteration looking for the range of colors."
 msgstr "Renk aralığını arayan her yineleme için yapılacak örnekleme sayısı."
 
-#: src/menus/colors/tone-mapping/stress.xml:138(term)
+#: src/menus/colors/tone-mapping/stress.xml:140(term)
 msgid "Iterations"
 msgstr "Yinelemeler"
 
-#: src/menus/colors/tone-mapping/stress.xml:140(para)
+#: src/menus/colors/tone-mapping/stress.xml:142(para)
 msgid ""
 "Number of iterations; a higher number of iterations provides a less noisy "
 "rendering but makes the filter slower."
 msgstr ""
 
-#: src/menus/colors/tone-mapping/stress.xml:147(term)
+#: src/menus/colors/tone-mapping/stress.xml:149(term)
 msgid "Enhance Shadows"
 msgstr "Gölgeleri İyileştir"
 
-#: src/menus/colors/tone-mapping/stress.xml:149(para)
+#: src/menus/colors/tone-mapping/stress.xml:151(para)
 msgid ""
 "When enabled shadow regions are also enhanced; when disabled a more natural "
 "result is yielded."
 msgstr ""
-
-#: src/menus/colors/tone-mapping/stress.xml:156(term)
-#: src/menus/colors/tone-mapping/reinhard.xml:128(term)
-#: src/menus/colors/tone-mapping/mantiuk.xml:131(term)
-#: src/menus/colors/tone-mapping/fattal.xml:137(term)
-msgid "Input Type"
-msgstr "Girdi Türü"
-
-#: src/menus/colors/tone-mapping/stress.xml:157(term)
-#: src/menus/colors/tone-mapping/reinhard.xml:129(term)
-#: src/menus/colors/tone-mapping/mantiuk.xml:132(term)
-#: src/menus/colors/tone-mapping/fattal.xml:138(term)
-msgid "Clipping"
-msgstr "Kırpma"
-
-#: src/menus/colors/tone-mapping/stress.xml:158(term)
-#: src/menus/colors/tone-mapping/reinhard.xml:130(term)
-#: src/menus/colors/tone-mapping/mantiuk.xml:133(term)
-#: src/menus/colors/tone-mapping/fattal.xml:139(term)
-msgid "Blending Options"
-msgstr "Harmanlama Seçenekleri"
-
-#: src/menus/colors/tone-mapping/stress.xml:159(term)
-#: src/menus/colors/tone-mapping/reinhard.xml:131(term)
-#: src/menus/colors/tone-mapping/mantiuk.xml:134(term)
-#: src/menus/colors/tone-mapping/fattal.xml:140(term)
-#: src/menus/colors/tone-mapping/destripe.xml:64(term)
-msgid "Preview"
-msgstr "Ön İzleme"
-
-#: src/menus/colors/tone-mapping/stress.xml:160(term)
-#: src/menus/colors/tone-mapping/reinhard.xml:132(term)
-#: src/menus/colors/tone-mapping/mantiuk.xml:135(term)
-#: src/menus/colors/tone-mapping/fattal.xml:141(term)
-msgid "Merge filter"
-msgstr "Süzgeci birleştir"
-
-#: src/menus/colors/tone-mapping/stress.xml:161(term)
-#: src/menus/colors/tone-mapping/reinhard.xml:133(term)
-#: src/menus/colors/tone-mapping/mantiuk.xml:136(term)
-#: src/menus/colors/tone-mapping/fattal.xml:142(term)
-msgid "Split view"
-msgstr "Bölünmüş görünüm"
-
-#: src/menus/colors/tone-mapping/stress.xml:163(para)
-#: src/menus/colors/tone-mapping/reinhard.xml:135(para)
-#: src/menus/colors/tone-mapping/mantiuk.xml:138(para)
-#: src/menus/colors/tone-mapping/fattal.xml:144(para)
-msgid ""
-"These are common features described in <xref linkend=\"colors-common-"
-"features\"/>."
-msgstr ""
-"Bunlar <xref linkend=\"colors-common-features\"/> adresinde açıklanan ortak "
-"özelliklerdir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -529,27 +507,27 @@ msgstr ""
 msgid "The <quote>Reinhard 2005</quote> filter Dialog"
 msgstr "<quote>Reinhard 2005</quote> süzgeci İletişim Kutusu"
 
-#: src/menus/colors/tone-mapping/reinhard.xml:104(term)
+#: src/menus/colors/tone-mapping/reinhard.xml:106(term)
 msgid "Brightness"
 msgstr "Parlaklık"
 
-#: src/menus/colors/tone-mapping/reinhard.xml:106(para)
+#: src/menus/colors/tone-mapping/reinhard.xml:108(para)
 msgid "Overall brightness of the image."
 msgstr "Görüntünün genel parlaklığı."
 
-#: src/menus/colors/tone-mapping/reinhard.xml:112(term)
+#: src/menus/colors/tone-mapping/reinhard.xml:114(term)
 msgid "Chromatic adaptation"
 msgstr "Kromatik uyarlama"
 
-#: src/menus/colors/tone-mapping/reinhard.xml:114(para)
+#: src/menus/colors/tone-mapping/reinhard.xml:116(para)
 msgid "Adaptation to color variation across the image."
 msgstr "Görüntü üzerindeki renk çeşitliliğine uyarlama."
 
-#: src/menus/colors/tone-mapping/reinhard.xml:120(term)
+#: src/menus/colors/tone-mapping/reinhard.xml:122(term)
 msgid "Light adaptation"
 msgstr "Işık uyarlaması"
 
-#: src/menus/colors/tone-mapping/reinhard.xml:122(para)
+#: src/menus/colors/tone-mapping/reinhard.xml:124(para)
 msgid "Adaptation to light variation across the image."
 msgstr "Görüntü üzerindeki ışık çeşitliliğine uyarlama."
 
@@ -614,29 +592,29 @@ msgstr ""
 msgid "The <quote>Mantiuk 2006</quote> filter Dialog"
 msgstr "<quote>Mantiuk 2006</quote> süzgeci İletişim Kutusu"
 
-#: src/menus/colors/tone-mapping/mantiuk.xml:106(term)
+#: src/menus/colors/tone-mapping/mantiuk.xml:108(term)
 msgid "Contrast"
 msgstr "Karşıtlık"
 
-#: src/menus/colors/tone-mapping/mantiuk.xml:108(para)
+#: src/menus/colors/tone-mapping/mantiuk.xml:110(para)
 msgid "The amount of contrast compression."
 msgstr "Karşıtlık sıkıştırma miktarı."
 
-#: src/menus/colors/tone-mapping/mantiuk.xml:114(term)
-#: src/menus/colors/tone-mapping/fattal.xml:121(term)
+#: src/menus/colors/tone-mapping/mantiuk.xml:116(term)
+#: src/menus/colors/tone-mapping/fattal.xml:123(term)
 msgid "Saturation"
 msgstr "Doygunluk"
 
-#: src/menus/colors/tone-mapping/mantiuk.xml:116(para)
-#: src/menus/colors/tone-mapping/fattal.xml:123(para)
+#: src/menus/colors/tone-mapping/mantiuk.xml:118(para)
+#: src/menus/colors/tone-mapping/fattal.xml:125(para)
 msgid "Global color saturation factor."
 msgstr "Küresel renk doygunluğu katsayısı."
 
-#: src/menus/colors/tone-mapping/mantiuk.xml:122(term)
+#: src/menus/colors/tone-mapping/mantiuk.xml:124(term)
 msgid "Detail"
 msgstr "Ayrıntı"
 
-#: src/menus/colors/tone-mapping/mantiuk.xml:124(para)
+#: src/menus/colors/tone-mapping/mantiuk.xml:126(para)
 msgid ""
 "This parameter is not working and can be ignored. It will be removed in the "
 "future."
@@ -701,27 +679,27 @@ msgstr ""
 msgid "The <quote>Fattal et al. 2002</quote> filter Dialog"
 msgstr "<quote>Fattal et al. 2002</quote> süzgeci İletişim Kutusu"
 
-#: src/menus/colors/tone-mapping/fattal.xml:105(term)
+#: src/menus/colors/tone-mapping/fattal.xml:107(term)
 msgid "Alpha"
 msgstr "Alfa"
 
-#: src/menus/colors/tone-mapping/fattal.xml:107(para)
+#: src/menus/colors/tone-mapping/fattal.xml:109(para)
 msgid "Gradient threshold for detail enhancement."
 msgstr "Ayrıntı iyileştirme için renk geçişi eşiği."
 
-#: src/menus/colors/tone-mapping/fattal.xml:113(term)
+#: src/menus/colors/tone-mapping/fattal.xml:115(term)
 msgid "Beta"
 msgstr "Beta"
 
-#: src/menus/colors/tone-mapping/fattal.xml:115(para)
+#: src/menus/colors/tone-mapping/fattal.xml:117(para)
 msgid "Strength of local detail enhancement."
 msgstr "Yerel ayrıntı iyileştirmenin kuvveti."
 
-#: src/menus/colors/tone-mapping/fattal.xml:129(term)
+#: src/menus/colors/tone-mapping/fattal.xml:131(term)
 msgid "Noise"
 msgstr "Gürültü"
 
-#: src/menus/colors/tone-mapping/fattal.xml:131(para)
+#: src/menus/colors/tone-mapping/fattal.xml:133(para)
 msgid "Gradient threshold for lowering detail enhancement."
 msgstr ""
 
@@ -804,3 +782,18 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
+#~ msgid ""
+#~ "<quote>Presets</quote> are a common feature for several Colors commands. "
+#~ "You can find its description in <xref linkend=\"colors-common-features\"/"
+#~ ">."
+#~ msgstr ""
+#~ "<quote>Önayarlar</quote> birçok Renk komutu için ortak bir özelliktir. "
+#~ "Açıklamasını için bkz: <xref linkend=\"colors-common-features\"/>"
+
+#~ msgid ""
+#~ "These are common features described in <xref linkend=\"colors-common-"
+#~ "features\"/>."
+#~ msgstr ""
+#~ "Bunlar <xref linkend=\"colors-common-features\"/> adresinde açıklanan "
+#~ "ortak özelliklerdir."
