@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
+"POT-Creation-Date: 2025-11-09 16:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,14 +55,6 @@ msgstr ""
 msgid ""
 "@@image: 'images/filters/examples/generic/normal_map-GG+Z.jpg'; "
 "md5=6baa8092437b470c0813bc393b1b4ac0"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/normal-map.xml:202(None)
-msgid ""
-"@@image: 'images/filters/examples/generic/normal_map-none.png'; "
-"md5=2c045c63acb7a0df4156129c9a5aa655"
 msgstr ""
 
 #: src/filters/generic/normal-map.xml:9(title)
@@ -282,7 +274,10 @@ msgid "Tileable"
 msgstr ""
 
 #: src/filters/generic/normal-map.xml:195(para)
-msgid "Generate a tileable map:"
+msgid ""
+"If checked, the resulting image will be seamlessly tileable. The right side "
+"will match the left side and the top will match the bottom. This is "
+"interesting if your image will be repeatedly used in a Web background."
 msgstr ""
 
 #: src/filters/generic/introduction.xml:9(title)
