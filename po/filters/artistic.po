@@ -1872,7 +1872,7 @@ msgid ""
 "region in alpha if it is given, then add a layer to this image filled with "
 "white and <link linkend=\"gimp-filter-noise-rgb\">noisified</link> strongly."
 msgstr ""
-"Orijinal görüntüyle aynı boyutta bir görüntü ya da verildiyse alfada bir "
+"Özgün görüntüyle aynı boyutta bir görüntü ya da verildiyse alfada bir "
 "seçim ya da bölge oluşturun, ardından bu görüntüye beyazla dolu ve güçlü bir "
 "şekilde <link linkend=\"gimp-filter-noise-rgb\">gürültülü</link> bir katman "
 "ekleyin."
@@ -2729,7 +2729,7 @@ msgstr "Uyarlamalı"
 #, fuzzy
 msgid ""
 "The brush direction that matches the original image the closest is selected."
-msgstr "Orijinal görüntüye en yakın fırça yönü seçilir."
+msgstr "Özgün görüntüye en yakın fırça yönü seçilir."
 
 # GIMPressionist içinde Kılavuz olarak çevrilmiş.
 #: src/filters/artistic/GIMPressionist.xml:396(term)
@@ -2744,7 +2744,7 @@ msgid ""
 "linkend=\"gimpressionist-orient-map-editor\">Edit orientation Map dialog</"
 "link> that allows you to set the directions manually."
 msgstr ""
-"<guilabel>Düzenle</guilabel> düğmesi, yönleri manuel olarak ayarlamanıza "
+"<guilabel>Düzenle</guilabel> düğmesi, yönleri elle ayarlamanıza "
 "olanak tanıyan Yönlendirme <link linkend=\"gimpressionist-orient-map-"
 "editor\">Haritasını Düzenle iletişim</link> kutusunu açar."
 
@@ -3362,7 +3362,7 @@ msgid ""
 "they are not with a white point at tip."
 msgstr ""
 "Sol pencerede (Vektörler) vektörlerinizi yönetebilirsiniz. Varsayılan "
-"olarak, vektör merkezde bulunur. Vektörler aktif olduklarında kırmızı, aktif "
+"olarak, vektör merkezde bulunur. Vektörler etkin olduklarında kırmızı, etkin "
 "olmadıklarında ise uçlarında beyaz bir nokta ile gri renktedir."
 
 #: src/filters/artistic/GIMPressionist-orientmap.xml:67(para)

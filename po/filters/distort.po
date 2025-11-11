@@ -1847,7 +1847,7 @@ msgid ""
 "It displaces the pixels of the active layer or selection to waves or ripples "
 "reminding a reflection on disturbed water."
 msgstr ""
-"Aktif katmanın ya da seçimin piksellerini dalgalara ya da dalgalı sudaki "
+"Etkin  katmanın ya da seçimin piksellerini dalgalara ya da dalgalı sudaki "
 "yansımayı hatırlatan dalgalanmalara dönüştürür."
 
 #: src/filters/distort/ripple.xml:50(para)
@@ -2376,7 +2376,7 @@ msgid ""
 "original image in that cell. Obviously, a large cell size results in a heavy "
 "loss in resolution!"
 msgstr ""
-"Orijinal görüntünün üzerine yerleştirilmiş bir ızgara düşünün. Görüntü, "
+"Özgün görüntünün üzerine yerleştirilmiş bir ızgara düşünün. Görüntü, "
 "ızgara tarafından hücrelere bölünür - her hücre, o hücredeki özgün "
 "görüntünün karanlığını yaklaşık olarak yansıtmak için, birden fazla çıktı "
 "pikselinden oluşan tek bir noktayı barındırır. Açıkçası, büyük hücre boyutu, "
@@ -2610,7 +2610,7 @@ msgid ""
 "It cuts the active layer or selection into many squares or polygons which "
 "are slightly raised and separated by joins, giving so an aspect of mosaic."
 msgstr ""
-"Aktif katmanı ya da seçimi, hafifçe yükseltilmiş ve birleşim yerleriyle "
+"Etkin  katmanı ya da seçimi, hafifçe yükseltilmiş ve birleşim yerleriyle "
 "ayrılmış birçok kare ya da çokgen parçaya böler ve böylece mozaik görünümü "
 "verir."
 
@@ -3136,7 +3136,7 @@ msgid ""
 "The part of the active layer outside the lens will have the background color "
 "selected here."
 msgstr ""
-"Lensin dışındaki aktif katmanın kısmı, burada seçilen arka plan rengine "
+"Lensin dışındaki etkin katmanın kısmı, burada seçilen arka plan rengine "
 "sahip olacaktır."
 
 #: src/filters/distort/lens-distortion.xml:309(para)
@@ -4052,7 +4052,7 @@ msgstr "Özgün çevreyi koru"
 #: src/filters/distort/apply_lens.xml:94(para)
 #, fuzzy
 msgid "The lens seems to be put on the active layer."
-msgstr "Lens aktif katman üzerine yerleştirilmiş gibi görünüyor."
+msgstr "Lens etkin katman üzerine yerleştirilmiş gibi görünüyor."
 
 #: src/filters/distort/apply_lens.xml:100(para)
 #, fuzzy
@@ -4060,7 +4060,7 @@ msgid ""
 "The part of the active layer outside the lens will have the background color "
 "selected in the toolbox."
 msgstr ""
-"Lensin dışındaki aktif katmanın kısmı, araç kutusunda seçilen arka plan "
+"Lensin dışındaki etkin katmanın kısmı, araç kutusunda seçilen arka plan "
 "rengine sahip olacaktır."
 
 #: src/filters/distort/apply_lens.xml:113(para)

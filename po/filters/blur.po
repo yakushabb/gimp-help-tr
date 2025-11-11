@@ -1738,7 +1738,7 @@ msgstr ""
 #: src/filters/blur/gauss_select.xml:9(title)
 #: src/filters/blur/gauss_select.xml:17(primary)
 msgid "Selective Gaussian Blur"
-msgstr "Seçmeli Gaussian Bulanıklığı"
+msgstr "Seçmeli Gauss Bulanıklığı"
 
 #: src/filters/blur/introduction.xml:130(para)
 #, fuzzy
@@ -1843,7 +1843,7 @@ msgstr "Seçmeli Gaussian"
 
 #: src/filters/blur/gauss_select.xml:23(title)
 msgid "The Selective Gaussian Blur filter"
-msgstr "Seçmeli Gaussian Bulanıklığı süzgeci"
+msgstr "Seçmeli Gauss Bulanıklığı süzgeci"
 
 #: src/filters/blur/gauss_select.xml:43(para)
 #, fuzzy
@@ -1876,7 +1876,7 @@ msgstr ""
 
 #: src/filters/blur/gauss_select.xml:69(title)
 msgid "<quote>Selective Gaussian</quote> filter parameters settings"
-msgstr "<quote>Seçmeli Gaussian Bulanıklığı</quote> süzgeci parametre ayarları"
+msgstr "<quote>Seçmeli Gauss Bulanıklığı</quote> süzgeci parametre ayarları"
 
 #: src/filters/blur/gauss_select.xml:95(para)
 msgid ""

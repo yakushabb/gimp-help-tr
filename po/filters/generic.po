@@ -1267,7 +1267,7 @@ msgstr "<quote>Aşındır</quote> süzgeci uygulandı"
 msgid ""
 "This filter widens and enhances dark areas of the active layer or selection."
 msgstr ""
-"Bu süzgeç, aktif katmanın ya da seçimin karanlık alanlarını genişletir ve "
+"Bu süzgeç, etkin katmanın ya da seçimin karanlık alanlarını genişletir ve "
 "iyileştirir."
 
 #: src/filters/generic/erode.xml:52(para)

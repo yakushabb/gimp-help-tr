@@ -507,7 +507,7 @@ msgid ""
 "sunflower) producing greater amounts of deviation from a straight Luminance "
 "conversion."
 msgstr ""
-"Orijinal görüntünün renkleri ne kadar doygun olursa olsun, daha doygun "
+"Özgün görüntünün renkleri ne kadar doygun olursa olsun, daha doygun "
 "başlangıç renkleri (kırmızı küre ve parlak sarı ayçiçeği gibi) düz bir "
 "parlaklık dönüşümünden daha fazla sapma üretir."
 

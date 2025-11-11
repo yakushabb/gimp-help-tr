@@ -557,7 +557,7 @@ msgstr "Örnek"
 #: src/menus/colors/map/palettemap.xml:49(title)
 #, fuzzy
 msgid "The active palette is applied to a gradient image"
-msgstr "Aktif palet, renk geçişi görüntüsüne uygulanır."
+msgstr "Etkin  palet, renk geçişi görüntüsüne uygulanır."
 
 #: src/menus/colors/map/palettemap.xml:56(para)
 msgid "The current palette, with 18 colors"
@@ -604,7 +604,7 @@ msgid ""
 "Bottom: result of applying the gradient to the original image with the "
 "Gradient Map filter."
 msgstr ""
-"Renk geçişi Eşleme Örneği. Üst: Orijinal görüntü. Ortada: bir renk geçişi. Alt: "
+"Renk geçişi Eşleme Örneği. Üst: Özgün görüntü. Ortada: bir renk geçişi. Alt: "
 "Renk geçişi Eşleme süzgeçi ile özgün görüntüye renk geçişi uygulandığında elde "
 "edilen sonuç."
 

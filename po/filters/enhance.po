@@ -874,7 +874,7 @@ msgstr ""
 "kırmızı gözbebeğine sahip göz(ler)in iris sınırında bir seçim (kement ya da "
 "eliptik) yapmanız gerekir. Ancak bundan sonra süzgeci bu seçime "
 "uygulayabilirsiniz. Eğer bu seçimi yapmazsanız, süzgeç size bunu "
-"bildirecektir: <quote>Gözleri manuel olarak seçmek sonuçları "
+"bildirecektir: <quote>Gözleri elle seçmek sonuçları "
 "iyileştirebilir</quote>."
 
 #: src/filters/enhance/red-eye-removal.xml:53(para)

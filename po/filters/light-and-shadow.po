@@ -1422,7 +1422,7 @@ msgid ""
 "channel as a layer below the active layer. You may select color, length and "
 "direction of the shadow as well as the distance of the horizon."
 msgstr ""
-"Bu süzgeç, seçilen bölgeye ya da alfa kanalına aktif katmanın altında bir "
+"Bu süzgeç, seçilen bölgeye ya da alfa kanalına etkin katmanın altında bir "
 "katman olarak perspektif gölge ekler. Gölgenin rengini, uzunluğunu ve yönünü "
 "ve ayrıca ufkun uzaklığını seçebilirsiniz."
 
@@ -1682,7 +1682,7 @@ msgid ""
 "light blue. The white area has been added after resizing to make the shadow "
 "visible."
 msgstr ""
-"Aşağıdaki örnekte, sarı alan aktif seçimdir, arka plan açık mavidir. Gölgeyi "
+"Aşağıdaki örnekte, sarı alan etkin seçimdir, arka plan açık mavidir. Gölgeyi "
 "görünür kılmak için yeniden boyutlandırma işleminden sonra beyaz alan "
 "eklenmiştir."
 
@@ -3704,7 +3704,7 @@ msgstr ""
 #: src/filters/light-and-shadow/drop-shadow.xml:241(para)
 #, fuzzy
 msgid "Open your original image."
-msgstr "Orijinal resminizi açın."
+msgstr "Özgün resminizi açın."
 
 #: src/filters/light-and-shadow/drop-shadow.xml:187(para)
 #, fuzzy
@@ -3712,7 +3712,7 @@ msgid ""
 "Open a new image, a little bigger than your original image, filled with "
 "<emphasis>transparency</emphasis>."
 msgstr ""
-"Orijinal görüntünüzden biraz daha büyük, <emphasis>şeffaflıkla</emphasis> "
+"Özgün görüntünüzden biraz daha büyük, <emphasis>şeffaflıkla</emphasis> "
 "doldurulmuş yeni bir görüntü açın."
 
 #: src/filters/light-and-shadow/drop-shadow.xml:193(para)
@@ -3721,7 +3721,7 @@ msgid ""
 "Copy your original image and paste it into the new image. A floating "
 "selection is created in the Layers dialog."
 msgstr ""
-"Orijinal görüntünüzü kopyalayın ve yeni görüntüye yapıştırın. Katmanlar "
+"Özgün görüntünüzü kopyalayın ve yeni görüntüye yapıştırın. Katmanlar "
 "iletişim kutusunda bir yüzen seçim oluşturulur."
 
 #: src/filters/light-and-shadow/drop-shadow.xml:199(para)
@@ -3795,7 +3795,7 @@ msgid ""
 "Open a new image, the same size as your original image, filled with "
 "<emphasis>transparency</emphasis>."
 msgstr ""
-"Orijinal resminizle aynı boyutta, <emphasis>şeffaflıkla</emphasis> "
+"Özgün resminizle aynı boyutta, <emphasis>şeffaflıkla</emphasis> "
 "doldurulmuş yeni bir resim açın."
 
 #: src/filters/light-and-shadow/drop-shadow.xml:252(para)
@@ -3827,7 +3827,7 @@ msgid ""
 "the image and paste it as new layer in the new image. Move the new layer to "
 "the bottom of the layer stack."
 msgstr ""
-"Orijinal görüntünüzü arka plan olarak da kullanabilirsiniz: seçimi geri "
+"Özgün görüntünüzü arka plan olarak da kullanabilirsiniz: seçimi geri "
 "alın, görüntüyü kopyalayın ve yeni görüntüye yeni katman olarak yapıştırın. "
 "Yeni katmanı katman yığınının en altına taşıyın."
 
