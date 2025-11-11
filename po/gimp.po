@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-11-09 16:57+0000\n"
 "PO-Revision-Date: 2025-11-09 22:53+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -765,7 +765,6 @@ msgid "Duplicate layers"
 msgstr "Katmanları çoğalt"
 
 #: src/key-reference.xml:648(keycap)
-#| msgid "Page&nbsp;Up"
 msgid "PageUp"
 msgstr "PageUp"
 
@@ -774,7 +773,6 @@ msgid "Select the layers above"
 msgstr "Üstteki katmanı seç"
 
 #: src/key-reference.xml:656(keycap)
-#| msgid "Page&nbsp;Down"
 msgid "PageDown"
 msgstr "PageDown"
 
@@ -1779,10 +1777,10 @@ msgid ""
 "license is included in the section entitled <link linkend=\"legal\">GNU Free "
 "Documentation License</link>."
 msgstr ""
-"Bu belgenin, GNU Özgür Belgeleme Lisansı (GFDL), Sürüm 1.2 veya Özgür "
+"Bu belgenin, GNU Özgür Belgeleme Lisansı (GFDL), Sürüm 1.2 ya da Özgür "
 "Yazılım Vakfı tarafından yayınlanan daha sonraki herhangi bir sürümünün "
 "koşulları altında; Değişmez Bölümler, Ön Kapak Metinleri ve Arka Kapak "
-"Metinleri olmaksızın kopyalanmasına, dağıtılmasına ve/veya değiştirilmesine "
+"Metinleri olmaksızın kopyalanmasına, dağıtılmasına ve/ya da değiştirilmesine "
 "izin verilir. Lisansın bir kopyası <link linkend=\"legal\">GNU Özgür "
 "Belgeleme Lisansı</link> başlıklı bölümde bulunmaktadır."
 
@@ -1885,6 +1883,3 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
-
-#~ msgid "This places the clipboard objects as a floating selection."
-#~ msgstr "Bu, pano nesnelerini yüzen seçim olarak yerleştirir."

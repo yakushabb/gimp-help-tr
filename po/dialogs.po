@@ -16699,10 +16699,3 @@ msgstr ""
 #: src/dialogs/brushes-dialog.xml:0(None)
 msgid "translator-credits"
 msgstr ""
-
-#~ msgid ""
-#~ "@@image: 'images/dialogs/import-ps-dialog.png'; "
-#~ "md5=072059863b794c6d96d2b02f5bc968ad"
-#~ msgstr ""
-#~ "@@image: 'images/dialogs/import-ps-dialog.png'; "
-#~ "md5=072059863b794c6d96d2b02f5bc968ad"

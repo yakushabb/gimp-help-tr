@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-01 16:53+0000\n"
+"POT-Creation-Date: 2025-11-09 16:57+0000\n"
 "PO-Revision-Date: 2025-11-09 22:26+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -347,7 +347,7 @@ msgid ""
 "Every response from the server (return value or error message) of length "
 "<code>L</code> will be preceded with the following 4 bytes:"
 msgstr ""
-"<code>L</code> uzunluğundaki sunucudan gelen her yanıt (dönüş değeri veya "
+"<code>L</code> uzunluğundaki sunucudan gelen her yanıt (dönüş değeri ya da "
 "hata iletisi) aşağıdaki 4 baytı öncesinde taşımalıdır:"
 
 #: src/menus/filters/script-fu.xml:217(title)
@@ -530,7 +530,7 @@ msgid ""
 msgstr ""
 "<guimenuitem>Sonuncuyu Yinele</guimenuitem> komutu, en son çalıştırılan "
 "eklentinin eylemini, en son çalıştırıldığı zamankiyle aynı ayarları "
-"kullanarak yineler. Bir iletişim kutusu göstermez veya onay isteğinde "
+"kullanarak yineler. Bir iletişim kutusu göstermez ya da onay isteğinde "
 "bulunmaz."
 
 #: src/menus/filters/repeat.xml:38(para)
@@ -548,7 +548,7 @@ msgid ""
 "or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>F</"
 "keycap></keycombo>."
 msgstr ""
-"veya <keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> klavye "
+"ya da <keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> klavye "
 "kısayolunu kullanabilirsiniz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -719,7 +719,7 @@ msgid ""
 "code>, <code>OVERLAY_MODE</code>."
 msgstr ""
 "Yordam parametrelerinin tanımında bulduğunuz sabitleri kullanabilirsiniz (ve "
-"kullanmalısınız!), Örneğin <quote>RGB-IMAGE</quote> veya <quote>OVERLAY-"
+"kullanmalısınız!), Örneğin <quote>RGB-IMAGE</quote> ya da <quote>OVERLAY-"
 "MODE</quote>. Ancak kısa çizgileri ((<quote>-</quote>)) alt çizgi (<quote>_</"
 "quote>) ile değiştirmeniz gerektiğini unutmayın: <code>RGB_IMAGE</code>, "
 "<code>OVERLAY_MODE</code>."
@@ -786,7 +786,6 @@ msgid "The Contents of the <quote>Filters</quote> Menu"
 msgstr "<quote>Süzgeçler</quote> Menüsü İçerikleri"
 
 #: src/menus/filters/introduction.xml:55(title)
-#| msgid "Applied <acronym>PDB</acronym> procedure"
 msgid "About <acronym>GIMP</acronym> Filters"
 msgstr "<acronym>GIMP</acronym> Süzgeçleri Hakkında"
 

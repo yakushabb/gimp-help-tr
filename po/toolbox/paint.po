@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-31 18:10+0000\n"
+"POT-Creation-Date: 2025-11-09 16:57+0000\n"
 "PO-Revision-Date: 2025-11-09 22:42+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -3308,9 +3308,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:885(None)
-#| msgid ""
-#| "@@image: 'images/toolbox/mode-behind.png'; "
-#| "md5=b9fc37e9327358d765d4dfce17c7def0"
 msgid ""
 "@@image: 'images/toolbox/mode-behind-dialog.png'; "
 "md5=cd65f1cb86044035896854bd9a2167af"
@@ -3321,9 +3318,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/common-features.xml:900(None)
-#| msgid ""
-#| "@@image: 'images/toolbox/mode-behind.png'; "
-#| "md5=b9fc37e9327358d765d4dfce17c7def0"
 msgid ""
 "@@image: 'images/toolbox/mode-behind-example.png'; "
 "md5=ec9c56afa0de6244721f658acc76a066"
@@ -4125,9 +4119,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/clone.xml:222(None)
-#| msgid ""
-#| "@@image: 'images/toolbox/clone-ex-sample-merged.png'; "
-#| "md5=50be64737ec5716fdd7e3faf34f5a749"
 msgid ""
 "@@image: 'images/toolbox/clone-ex-sample-merged-example.png'; "
 "md5=75110a6f58ca5485afa866a55a6f466c"
@@ -4138,9 +4129,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/paint/clone.xml:234(None)
-#| msgid ""
-#| "@@image: 'images/toolbox/clone-ex-sample-merged.png'; "
-#| "md5=50be64737ec5716fdd7e3faf34f5a749"
 msgid ""
 "@@image: 'images/toolbox/clone-ex-sample-merged-dialog.png'; "
 "md5=b96a593238ffcd569dbe2a68b02fa971"

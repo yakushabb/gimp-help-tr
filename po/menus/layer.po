@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-01 16:53+0000\n"
+"POT-Creation-Date: 2025-11-09 16:57+0000\n"
 "PO-Revision-Date: 2025-11-09 22:30+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -1481,9 +1481,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/offset.xml:231(None)
-#| msgid ""
-#| "@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
-#| "md5=9cb83ce72fc4a911ee680af457c4ece4"
 msgid ""
 "@@image: 'images/menus/layer/offset-ex-heart-orig-example.png'; "
 "md5=b6e3c8d7b5b676e614971c95597b5541"
@@ -1494,9 +1491,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/offset.xml:242(None)
-#| msgid ""
-#| "@@image: 'images/menus/layer/offset-ex-heart-repeat.png'; "
-#| "md5=9cb83ce72fc4a911ee680af457c4ece4"
 msgid ""
 "@@image: 'images/menus/layer/offset-ex-heart-orig-dialog.png'; "
 "md5=459620c173741415581ec98e3c959df9"
@@ -2383,9 +2377,6 @@ msgstr ""
 #: src/menus/layer/mask-selection-replace.xml:70(None)
 #: src/menus/layer/mask-selection-intersect.xml:60(None)
 #: src/menus/layer/mask-selection-add.xml:59(None)
-#| msgid ""
-#| "@@image: 'images/menus/layer/add-mask-example.png'; "
-#| "md5=ba6782eba5ff06be43f3a7b2c0048d7c"
 msgid ""
 "@@image: 'images/menus/layer/mask-example-example.png'; "
 "md5=fac93b5d3a6ded083bf337b92c77cacb"
@@ -2399,9 +2390,6 @@ msgstr ""
 #: src/menus/layer/mask-selection-replace.xml:81(None)
 #: src/menus/layer/mask-selection-intersect.xml:71(None)
 #: src/menus/layer/mask-selection-add.xml:70(None)
-#| msgid ""
-#| "@@image: 'images/menus/layer/mask-example.png'; "
-#| "md5=8aa43efc3f24bead3caf3f14ae39113a"
 msgid ""
 "@@image: 'images/menus/layer/mask-example-dialog.png'; "
 "md5=d42cd0829d6b8f038d801890171bea81"
@@ -3296,9 +3284,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/crop-to-content.xml:41(None)
-#| msgid ""
-#| "@@image: 'images/menus/layer/mask-example.png'; "
-#| "md5=8aa43efc3f24bead3caf3f14ae39113a"
 msgid ""
 "@@image: 'images/menus/layer/autocrop-1-example.png'; "
 "md5=e6198a44ec5f5d2ab0120187aa5aadde"
@@ -3309,9 +3294,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/crop-to-content.xml:52(None)
-#| msgid ""
-#| "@@image: 'images/menus/layer/autocrop-1.png'; "
-#| "md5=2c3f4034b2f784759d8254c8195b1fb5"
 msgid ""
 "@@image: 'images/menus/layer/autocrop-1-dialog.png'; "
 "md5=2c0a0b3eeb3c42213557b6b241f267c7"
@@ -3322,9 +3304,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/crop-to-content.xml:63(None)
-#| msgid ""
-#| "@@image: 'images/menus/layer/autocrop-2.png'; "
-#| "md5=a7e77c043d7328cf052879ba07829194"
 msgid ""
 "@@image: 'images/menus/layer/autocrop-2-example.png'; "
 "md5=325aeb7fd38d9f98dbf068e40628d778"
@@ -3335,9 +3314,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/crop-to-content.xml:74(None)
-#| msgid ""
-#| "@@image: 'images/menus/layer/crop.png'; "
-#| "md5=a85dcee6a55ea3e1e21bfb2a2aced52e"
 msgid ""
 "@@image: 'images/menus/layer/autocrop-2-dialog.png'; "
 "md5=698d6bbf8cd37d66045a441a2d3ad685"
@@ -3582,9 +3558,6 @@ msgstr ""
 #: src/menus/layer/alpha-selection-replace.xml:70(None)
 #: src/menus/layer/alpha-selection-intersect.xml:56(None)
 #: src/menus/layer/alpha-selection-add.xml:55(None)
-#| msgid ""
-#| "@@image: 'images/menus/layer/alpha-replace.png'; "
-#| "md5=0fa909ce05be3061a37297f03d2fe348"
 msgid ""
 "@@image: 'images/menus/layer/alpha-example-example.png'; "
 "md5=a1971ab1238f0e0040e2652669be38da"
@@ -3598,9 +3571,6 @@ msgstr ""
 #: src/menus/layer/alpha-selection-replace.xml:80(None)
 #: src/menus/layer/alpha-selection-intersect.xml:66(None)
 #: src/menus/layer/alpha-selection-add.xml:65(None)
-#| msgid ""
-#| "@@image: 'images/menus/layer/alpha-example.png'; "
-#| "md5=fff3be24f2f5b630c9790def466f4fd3"
 msgid ""
 "@@image: 'images/menus/layer/alpha-example-dialog.png'; "
 "md5=d19eeb05c02df4cf064381a41def3d9e"

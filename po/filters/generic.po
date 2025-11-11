@@ -473,7 +473,7 @@ msgstr "Renk, Ana Hat ve Gölge"
 #: src/filters/generic/gegl-styles.xml:100(para)
 #, fuzzy
 msgid "The below settings control color, outline and shadow styles."
-msgstr "Aşağıdaki ayarlar renk, kontur ve gölge stillerini kontrol eder."
+msgstr "Aşağıdaki ayarlar renk, kontur ve gölge stillerini denetler."
 
 # Arayüzdeki çeviri kullanıldı
 #: src/filters/generic/gegl-styles.xml:105(term)
@@ -541,7 +541,7 @@ msgid ""
 msgstr ""
 "Bu etkinleştirildiğinde, seçim ya da katmandaki nesnelerin kenarları "
 "etrafında bir anahat oluşturulur. Aşağıdaki ayarlar, anahat oluşturmak için "
-"kullanılan parametreleri kontrol eder."
+"kullanılan parametreleri denetler."
 
 #: src/filters/generic/gegl-styles.xml:163(term)
 msgid "Outline Opacity"
@@ -551,7 +551,7 @@ msgstr "Anahat matlığı"
 #, fuzzy
 msgid ""
 "The opacity of the outline controls how transparent the outline will be."
-msgstr "Konturun opaklığı, konturun ne kadar şeffaf olacağını kontrol eder."
+msgstr "Konturun opaklığı, konturun ne kadar şeffaf olacağını denetler."
 
 #: src/filters/generic/gegl-styles.xml:172(term)
 msgid "Outline X"
@@ -629,7 +629,7 @@ msgid ""
 "outline. When set to 0.0 there is no shadow glow."
 msgstr ""
 "Bu, anahat etrafındaki gölge parıltısının görünürlüğünü ve şeffaflığını "
-"kontrol eder. 0.0 olarak ayarlandığında gölge parıltısı yoktur."
+"denetler. 0.0 olarak ayarlandığında gölge parıltısı yoktur."
 
 #: src/filters/generic/gegl-styles.xml:231(term)
 msgid "Shadow/Glow X"
@@ -788,7 +788,7 @@ msgid ""
 "This controls the angle of the light source illuminating and shading the "
 "bevel."
 msgstr ""
-"Bu, eğimi aydınlatan ve gölgelendiren ışık kaynağının açısını kontrol eder."
+"Bu, eğimi aydınlatan ve gölgelendiren ışık kaynağının açısını denetler."
 
 #: src/filters/generic/gegl-styles.xml:370(term)
 msgid "Bevel radius (bump only)"
@@ -816,8 +816,8 @@ msgid ""
 "These allow adjustment of the low and high levels of the bevel, which "
 "control the dark and light areas."
 msgstr ""
-"Bunlar, koyu ve açık alanları kontrol eden eğimin düşük ve yüksek "
-"seviyelerinin ayarlanmasını sağlar."
+"Bunlar, koyu ve açık alanları denetleyen eğimin düşük ve yüksek "
+"düzeylerinin ayarlanmasını sağlar."
 
 #: src/filters/generic/gegl-styles.xml:389(term)
 msgid "Dark Bevel/ignore image mode"
@@ -841,7 +841,7 @@ msgid ""
 "This effect is mainly intended for <guilabel>Bump Bevel</guilabel> and will "
 "be hardly noticeable when <guilabel>Chamfer Bevel</guilabel> is selected."
 msgstr ""
-"Bu efekt esas olarak <guilabel>Bump Bevel</guilabel> için tasarlanmıştır ve "
+"Bu etki esas olarak <guilabel>Bump Bevel</guilabel> için tasarlanmıştır ve "
 "<guilabel>Chamfer Bevel</guilabel> seçildiğinde neredeyse hiç fark "
 "edilmeyecektir."
 
@@ -871,7 +871,7 @@ msgid ""
 msgstr ""
 "Bu, iç parlamayı katman ya da seçimle karıştırmak için kullanılacak "
 "karıştırma modunu seçer. Bu, ikisinin nasıl birleştirileceğini ve "
-"dolayısıyla görsel efekti etkiler."
+"dolayısıyla görsel etkisi etkiler."
 
 #: src/filters/generic/gegl-styles.xml:421(para)
 #, fuzzy
@@ -1061,7 +1061,7 @@ msgid ""
 "effect."
 msgstr ""
 "Bu, eğimi dış hatla birleştirmek için kullanılacak karışım modunu seçer. Bu, "
-"ikisinin nasıl birleştirileceğini ve dolayısıyla görsel efekti etkiler."
+"ikisinin nasıl birleştirileceğini ve dolayısıyla görsel etkisi etkiler."
 
 #: src/filters/generic/gegl-styles.xml:577(term)
 msgid "Outline Bevel depth"
@@ -1133,8 +1133,8 @@ msgid ""
 "These allow adjustment of the low and high levels of the outline bevel, "
 "which control the dark and light areas."
 msgstr ""
-"Bunlar, koyu ve açık alanları kontrol eden anahat eğiminin düşük ve yüksek "
-"seviyelerinin ayarlanmasını sağlar."
+"Bunlar, koyu ve açık alanları denetleyen anahat eğiminin düşük ve yüksek "
+"düzeylerinin ayarlanmasını sağlar."
 
 #: src/filters/generic/gegl-styles.xml:650(term)
 msgid "Outline Dark Bevel/ignore image mode"
@@ -1518,7 +1518,7 @@ msgstr "<quote>Düşük eşik</quote> örneği"
 
 #: src/filters/generic/distance-map.xml:140(para)
 msgid "Threshold low = 0: only border distances are visible."
-msgstr "Düşük eşik = 0: sadece kenar mesafeleri görünür."
+msgstr "Düşük eşik = 0: yalnızca kenar mesafeleri görünür."
 
 #: src/filters/generic/distance-map.xml:151(para)
 msgid "Threshold low = 0.070: <quote>dark red</quote> circle appears."
@@ -1841,7 +1841,7 @@ msgid ""
 "matrix. With the Convolution Matrix filter, if the fancy takes you, you can "
 "build a custom filter."
 msgstr ""
-"Burası bir matematikçinin alanıdır. Filtrelerin çoğu konvolüsyon matrisi "
+"Burası bir matematikçinin alanıdır. Süzgeçlerin çoğu konvolüsyon matrisi "
 "kullanır. Konvolüsyon Matrisi süzgeci ile, isterseniz özel bir süzgeç "
 "oluşturabilirsiniz."
 
@@ -1853,7 +1853,7 @@ msgid ""
 "the treatment of a matrix by another one which is called <quote>kernel</"
 "quote>."
 msgstr ""
-"Konvolüsyon matrisi nedir? Sadece birkaç kişinin bildiği matematiksel "
+"Konvolüsyon matrisi nedir? Yalnızca birkaç kişinin bildiği matematiksel "
 "araçları kullanmadan da bunun hakkında genel bir fikir edinmek mümkündür. "
 "Konvolüsyon, bir matrisin <quote>çekirdek</quote> adı verilen başka bir "
 "matris tarafından işlenmesidir."
@@ -1877,8 +1877,8 @@ msgid ""
 "values of a kernel are set to zero, then system will consider it as a 3×3 "
 "matrix."
 msgstr ""
-"GIMP, 5×5 ya da 3×3 matrisleri kullanır. Biz sadece 3×3 matrisleri ele "
-"alacağız, bunlar en çok kullanılanlardır ve istediğiniz tüm efektler için "
+"GIMP, 5×5 ya da 3×3 matrisleri kullanır. Biz yalnızca 3×3 matrisleri ele "
+"alacağız, bunlar en çok kullanılanlardır ve istediğiniz tüm etkiler için "
 "yeterlidir. Bir çekirdeğin tüm kenar değerleri sıfıra ayarlanmışsa, sistem "
 "bunu 3×3 matris olarak kabul eder."
 
@@ -1891,7 +1891,7 @@ msgid ""
 "corresponding value. Then it adds the results, and the initial pixel is set "
 "to this final result value."
 msgstr ""
-"Filtre, görüntünün her pikselini sırayla inceler. Her biri için, "
+"Süzgeç, görüntünün her pikselini sırayla inceler. Her biri için, "
 "<quote>başlangıç pikseli</quote> olarak adlandıracağımız bu pikselin "
 "değerini ve çevresindeki 8 pikselin değerlerini çekirdeğin karşılık gelen "
 "değeriyle çarpar. Ardından sonuçları toplar ve başlangıç pikseli bu nihai "
@@ -2034,7 +2034,7 @@ msgid ""
 "image. You have to decide what the filter should do:"
 msgstr ""
 "İlk piksel bir sınırda olduğunda, çekirdeğin bir kısmı görüntünün "
-"dışındadır. Filtrenin ne yapması gerektiğine karar vermelisiniz:"
+"dışındadır. Süzgeçin ne yapması gerektiğine karar vermelisiniz:"
 
 #: src/filters/generic/convol-matrix.xml:184(title)
 msgid "Border examples"
@@ -2137,17 +2137,3 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
-
-#~ msgid ""
-#~ "@@image: 'images/filters/examples/generic/normal_map-none.png'; "
-#~ "md5=2c045c63acb7a0df4156129c9a5aa655"
-#~ msgstr ""
-#~ "@@image: 'images/filters/examples/generic/normal_map-none.png'; "
-#~ "md5=2c045c63acb7a0df4156129c9a5aa655"
-
-#~ msgid "Generate a tileable map:"
-#~ msgstr "Döşenebilir harita oluştur."
-
-#~ msgid ""
-#~ "<guilabel>Euclidean</guilabel> default: the distance is a straight line."
-#~ msgstr "<guilabel>Öklid</guilabel> uzaklık: mesafe düz çizgidir."

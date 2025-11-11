@@ -45,7 +45,7 @@ msgstr ""
 "Belgelerimizdeki ilgili sayfalara bağlantı veren, en son sürümün "
 "yerelleştirilmiş değişikliklerine sahip olmanın güzel olacağının "
 "bilincindeyiz. Ancak ekibimizde bunu gerçekleştirecek yeterli sayıda gönüllü "
-"yok. Daha çok kişinin belgelerimizi güncellemesini veya çevirmeye yardımcı "
+"yok. Daha çok kişinin belgelerimizi güncellemesini ya da çevirmeye yardımcı "
 "olmasını memnuniyetle karşılarız, bu nedenle <ulink url=\"https://"
 "docs.gimp.org/help.html\">bize ulaşın</ulink>."
 

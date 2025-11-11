@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-01 16:53+0000\n"
+"POT-Creation-Date: 2025-11-09 16:57+0000\n"
 "PO-Revision-Date: 2025-11-09 22:27+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -2952,7 +2952,7 @@ msgid ""
 "commands that use or affect the entire image in some way, not just the "
 "active layer or a specific part of the image."
 msgstr ""
-"<guimenuitem>Görüntü</guimenuitem> menüsü, sadece etkin katmanı ya da "
+"<guimenuitem>Görüntü</guimenuitem> menüsü, yalnızca etkin katmanı ya da "
 "görüntünün diğer kısmını değil, görüntünün tamamını kullanan ya da etkileyen "
 "komutları içerir."
 
@@ -3324,8 +3324,8 @@ msgid ""
 "you change the encoding of the image. These options affect the precision and "
 "channel encoding used for storing the image in RAM during processing."
 msgstr ""
-"<guimenuitem>Görüntü</guimenuitem> menüsü, sadece etkin katmanı veya "
-"görüntünün diğer bir kısmını değil, görüntünün tamamını kullanan veya "
+"<guimenuitem>Görüntü</guimenuitem> menüsü, yalnızca etkin katmanı ya da "
+"görüntünün diğer bir kısmını değil, görüntünün tamamını kullanan ya da "
 "etkileyen komutları içerir."
 
 #: src/menus/image/encoding.xml:31(para)
@@ -3756,9 +3756,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/crop.xml:85(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/crop-to-content-before.png'; "
-#| "md5=1e0cb4c37c3be5afeb2ca4e9568b1693"
 msgid ""
 "@@image: 'images/menus/image/crop-to-content-before-example.png'; "
 "md5=def28b64fe94bced87e28d7228192ab6"
@@ -3769,9 +3766,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/crop.xml:96(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/crop-to-content-before.png'; "
-#| "md5=1e0cb4c37c3be5afeb2ca4e9568b1693"
 msgid ""
 "@@image: 'images/menus/image/crop-to-content-before-dialog.png'; "
 "md5=81753edd6d8f910c0350653ccabe061a"
@@ -3782,9 +3776,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/crop.xml:109(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/crop-to-content-after.png'; "
-#| "md5=f76bdb9cc08bd39aeed12c6880419624"
 msgid ""
 "@@image: 'images/menus/image/crop-to-content-after-example.png'; "
 "md5=38bf7d5a3aef1396f9ccb2a0658b16ea"
@@ -3795,9 +3786,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/crop.xml:120(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/crop-to-content-after.png'; "
-#| "md5=f76bdb9cc08bd39aeed12c6880419624"
 msgid ""
 "@@image: 'images/menus/image/crop-to-content-after-dialog.png'; "
 "md5=c12bb0146763ab6c84aef369e7fbe1ec"
@@ -4765,9 +4753,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/canvas-size.xml:260(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/canvas-size-ex2.png'; "
-#| "md5=b23350dc2c4bc9b1aec3ed48218f7dd2"
 msgid ""
 "@@image: 'images/menus/image/canvas-size-ex1-example.png'; "
 "md5=b037233623365034d483f6eef0747748"
@@ -4778,9 +4763,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/canvas-size.xml:274(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/canvas-size-ex5.png'; "
-#| "md5=ea89ab944513d03214f85e750ded5334"
 msgid ""
 "@@image: 'images/menus/image/canvas-size-ex1-dialog.png'; "
 "md5=40488f842bb9973dd5b50aa2634fa14a"
@@ -4791,9 +4773,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/canvas-size.xml:291(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/canvas-size-ex2.png'; "
-#| "md5=b23350dc2c4bc9b1aec3ed48218f7dd2"
 msgid ""
 "@@image: 'images/menus/image/canvas-size-ex2-example.png'; "
 "md5=2600de5035e426913eb8f3b4b6083b30"
@@ -4804,9 +4783,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/canvas-size.xml:303(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/canvas-size-ex2.png'; "
-#| "md5=b23350dc2c4bc9b1aec3ed48218f7dd2"
 msgid ""
 "@@image: 'images/menus/image/canvas-size-ex2-dialog.png'; "
 "md5=f74396954706cabfe2c86fdff8206739"
@@ -4817,9 +4793,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/canvas-size.xml:317(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/canvas-size-ex3.png'; "
-#| "md5=ffab3df35b89f3bce2a963583ee99c66"
 msgid ""
 "@@image: 'images/menus/image/canvas-size-ex3-example.png'; "
 "md5=141b87b50e7af1b6c5548b951c1b00c6"
@@ -4830,9 +4803,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/canvas-size.xml:330(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/canvas-size-ex5.png'; "
-#| "md5=ea89ab944513d03214f85e750ded5334"
 msgid ""
 "@@image: 'images/menus/image/canvas-size-ex3-dialog.png'; "
 "md5=57f650ec719913f326e1595e7d864759"
@@ -5344,9 +5314,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/align-layers.xml:83(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/align-demo.png'; "
-#| "md5=e96f8c6ec4baf2061f5504e7fcf7c9ce"
 msgid ""
 "@@image: 'images/menus/image/align-demo.png'; "
 "md5=957398d80e0e85ac8db0840a1e28663d"
@@ -5371,9 +5338,6 @@ msgstr ""
 #: src/menus/image/align-layers.xml:258(None)
 #: src/menus/image/align-layers.xml:294(None)
 #: src/menus/image/align-layers.xml:337(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/align-demo-grid.png'; "
-#| "md5=c7bfffda42fe9b6462072418aa32ffbb"
 msgid ""
 "@@image: 'images/menus/image/align-demo-example.png'; "
 "md5=5e1e3c3876190d12e7326e4a1de095a3"
@@ -5434,9 +5398,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/align-layers.xml:399(None)
-#| msgid ""
-#| "@@image: 'images/menus/image/align-demo-grid.png'; "
-#| "md5=c7bfffda42fe9b6462072418aa32ffbb"
 msgid ""
 "@@image: 'images/menus/image/align-demo-grid.png'; "
 "md5=c003d0c2cf54d9d8c0ebde581861e3e8"

@@ -116,7 +116,7 @@ msgid ""
 "keycap><keycap>B</keycap></keycombo> shortcut, raises the toolbox usually "
 "together with the tool options dock."
 msgstr ""
-"<command>Araç Kutusu</command>: bu komuta tıklamak veya "
+"<command>Araç Kutusu</command>: bu komuta tıklamak ya da "
 "<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> kısayolunu "
 "kullanmak, genellikle araç kutusunu araç seçenekleriyle birlikte yükseltir. "
 "Tek pencere kipinde, araç kutusu ana pencerenin bir parçası olduğu için "
@@ -560,109 +560,3 @@ msgid "translator-credits"
 msgstr ""
 "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
 "Emin Tufan Çetin <etcetin@gmail.com>, 2025."
-
-#~ msgid ""
-#~ "@@image: 'images/menus/windows.png'; md5=317a4ebcbc347681d865f1eccff901d1"
-#~ msgstr ""
-#~ "@@image: 'images/menus/windows.png'; md5=317a4ebcbc347681d865f1eccff901d1"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/windows/expanded-menu.png'; "
-#~ "md5=bf9ed79b3e266dd8e7ea3fdb6582a82f"
-#~ msgstr ""
-#~ "@@image: 'images/menus/windows/expanded-menu.png'; "
-#~ "md5=bf9ed79b3e266dd8e7ea3fdb6582a82f"
-
-#~ msgid ""
-#~ "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs:"
-#~ msgstr ""
-#~ "Bu menü, <acronym>GIMP</acronym> pencereler menüsünü yönetmenizi sağlar:"
-
-#~ msgid ""
-#~ "The <quote>Windows</quote> menu name is not well adapted to the new "
-#~ "single-window mode. Nevertheless, its functions concern multi and single "
-#~ "modes. Its display may vary according presence or absence of images and "
-#~ "docks:"
-#~ msgstr ""
-#~ "<quote>Pencereler</quote> menü adı yeni tek pencereli kiple yeterince "
-#~ "uyumlu görünmeyebilir. Buna rağmen işlevleri, çok pencereli ve tek "
-#~ "pencereli kip ile ilgilidir. Görünümü, görüntülerin ve rıhtımların "
-#~ "varlığına veya yokluğuna göre değişebilir:"
-
-#~ msgid "With open images"
-#~ msgstr "Açık görüntülerle"
-
-# Son cümleyi anlamadım. İzole edilmiş pencereler nedir?
-#~ msgid ""
-#~ "<command>Recently Closed Docks</command>: this command opens the list of "
-#~ "the docks you have closed recently. You can reopen them by clicking on "
-#~ "their name. Please note that isolated windows are not concerned."
-#~ msgstr ""
-#~ "<command>Son Kapatılan Rıhtımlar</command>: bu komut, yakın zamanda "
-#~ "kapattığınız rıhtımların listesini açar. Adlarına tıklayarak kendilerini "
-#~ "yeniden açabilirsiniz. Lütfen, izole edilmiş pencerelerle ilgili "
-#~ "olmadığını unutmayın."
-
-#~ msgid ""
-#~ "@@image: 'images/menus/tools.png'; md5=9023fa11c3eee104e192c5d2920d5f56"
-#~ msgstr ""
-#~ "@@image: 'images/menus/tools.png'; md5=9023fa11c3eee104e192c5d2920d5f56"
-
-#~ msgid "Introduction to the <quote>Tools</quote> Menu"
-#~ msgstr "<quote>Araçlar</quote> Menüsüne Giriş"
-
-#~ msgid "Contents of the <quote>Tools</quote> menu"
-#~ msgstr "<quote>Araçlar</quote> Menüsü İçerikleri"
-
-#~ msgid ""
-#~ "@@image: 'images/menus/select.png'; md5=89a5e323df519dd23c10970dced0b66c"
-#~ msgstr ""
-#~ "@@image: 'images/menus/select.png'; md5=89a5e323df519dd23c10970dced0b66c"
-
-#~ msgid "Introduction to the <quote>Select</quote> Menu"
-#~ msgstr "<quote>Seçim</quote> Menüsüne Giriş"
-
-#~ msgid "The Contents of the <quote>Select</quote> menu"
-#~ msgstr "<quote>Seçim</quote> Menüsü İçerikleri"
-
-#~ msgid ""
-#~ "This section explains the commands on the <guimenu>Select</guimenu> menu "
-#~ "of the main menu."
-#~ msgstr ""
-#~ "Bu bölüm, ana menünün <guimenu>Seçim</guimenu> menüsündeki komutları "
-#~ "açıklar."
-
-#~ msgid ""
-#~ "@@image: 'images/menus/help.png'; md5=4610f6d79d785b6cf5e3ed78b640154f"
-#~ msgstr ""
-#~ "@@image: 'images/menus/help.png'; md5=4610f6d79d785b6cf5e3ed78b640154f"
-
-#~ msgid "Introduction to the <quote>Help</quote> Menu"
-#~ msgstr "<quote>Yardım</quote> Menüsüne Giriş"
-
-#~ msgid "Menu"
-#~ msgstr "Menü"
-
-#~ msgid "Help"
-#~ msgstr "Yardım"
-
-#~ msgid "Contents of the <quote>Help</quote> menu"
-#~ msgstr "<quote>Yardım</quote> Menüsü İçerikleri"
-
-#~ msgid ""
-#~ "The <guimenu>Help</guimenu> menu contains commands that assist you while "
-#~ "you are working with <application>GIMP</application>."
-#~ msgstr ""
-#~ "<guimenu>Yardım</guimenu> menüsü <application>GIMP</application> ile "
-#~ "çalışırken size yardımcı olacak komutları içerir."
-
-#~ msgid ""
-#~ "@@image: 'images/menus/file.png'; md5=5ec86dbba88bbe0ead73bebd1a5288cd"
-#~ msgstr ""
-#~ "@@image: 'images/menus/file.png'; md5=5ec86dbba88bbe0ead73bebd1a5288cd"
-
-#~ msgid "File"
-#~ msgstr "Dosya"
-
-#~ msgid "The File menu"
-#~ msgstr "Dosya menüsü"

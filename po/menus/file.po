@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-01 16:53+0000\n"
+"POT-Creation-Date: 2025-11-09 16:57+0000\n"
 "PO-Revision-Date: 2025-11-09 22:22+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -1110,9 +1110,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/file/create.xml:79(None)
-#| msgid ""
-#| "@@image: 'images/menus/file/create/screenshot.png'; "
-#| "md5=d58b71a3db272770ec0e9534367bb57f"
 msgid ""
 "@@image: 'images/menus/file/create/screenshot.png'; "
 "md5=9a9431cf3d11091174fd829aa15f4294"
