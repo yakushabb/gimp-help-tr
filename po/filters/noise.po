@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-11-14 13:25+0300\n"
+"PO-Revision-Date: 2025-11-14 15:04+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -102,7 +102,7 @@ msgstr "Özgün görüntü"
 
 #: src/filters/noise/spread.xml:39(para)
 msgid "Filter <quote>Spread</quote> applied"
-msgstr "<quote>Yay</quote> süzgeci uygulandı"
+msgstr "<quote>Yay</quote> uygulandı"
 
 #: src/filters/noise/spread.xml:43(para)
 msgid ""
@@ -281,7 +281,7 @@ msgstr "“Slur Lekelemesi” süzgeci örneği"
 
 #: src/filters/noise/slur.xml:38(para)
 msgid "Filter <quote>Slur</quote> applied"
-msgstr "<quote>Slur Lekelemesi</quote> süzgeci uygulandı"
+msgstr "<quote>Slur Lekelemesi</quote> uygulandı"
 
 #: src/filters/noise/slur.xml:42(para)
 msgid ""
@@ -378,7 +378,7 @@ msgstr "<quote>RGB Gürültüsü</quote> süzgeci örneği"
 
 #: src/filters/noise/rgb-noise.xml:38(para)
 msgid "Filter <quote>RGB Noise</quote> applied"
-msgstr "<quote>RGB Gürültüsü</quote> süzgeci uygulandı"
+msgstr "<quote>RGB Gürültüsü</quote> uygulandı"
 
 #: src/filters/noise/rgb-noise.xml:42(para)
 msgid ""
@@ -536,7 +536,7 @@ msgstr "<quote>Seç</quote> süzgeci örneği"
 
 #: src/filters/noise/pick.xml:38(para)
 msgid "Filter <quote>Pick</quote> applied"
-msgstr "<quote>Seç</quote> süzgeci uygulandı"
+msgstr "<quote>Seç</quote> uygulandı"
 
 #: src/filters/noise/pick.xml:42(para)
 msgid ""
@@ -636,7 +636,7 @@ msgstr "<quote>Savrulma</quote> süzgeci örneği"
 
 #: src/filters/noise/hurl.xml:38(para)
 msgid "Filter <quote>Hurl</quote> applied"
-msgstr "<quote>Savrulma</quote> süzgeci uygulandı"
+msgstr "<quote>Savrulma</quote> uygulandı"
 
 #: src/filters/noise/hurl.xml:42(para)
 msgid ""
@@ -721,7 +721,7 @@ msgstr "<quote>HSV Gürültüsü</quote> süzgeci örneği"
 
 #: src/filters/noise/hsv-noise.xml:39(para)
 msgid "Filter <quote>HSV Noise</quote> applied"
-msgstr "<quote>HSV Gürültüsü</quote> süzgeci uygulandı"
+msgstr "<quote>HSV Gürültüsü</quote> uygulandı"
 
 #: src/filters/noise/hsv-noise.xml:43(para)
 msgid ""
@@ -829,7 +829,7 @@ msgstr "<quote>CIE lch Gürültüsü</quote> süzgeci örneği"
 
 #: src/filters/noise/cie-lch-noise.xml:38(para)
 msgid "Filter <quote>CIE lch Noise</quote> applied"
-msgstr "<quote>CIE lch Gürültüsü</quote> süzgeci uygulandı"
+msgstr "<quote>CIE lch Gürültüsü</quote> uygulandı"
 
 #: src/filters/noise/cie-lch-noise.xml:42(para)
 msgid ""
