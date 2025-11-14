@@ -438,6 +438,7 @@ msgstr ""
 msgid "Options"
 msgstr "Seçenekler"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/threshold.xml:86(title)
 msgid "Threshold filter dialog"
 msgstr "“Eşik” iletişim kutusu"
@@ -597,8 +598,8 @@ msgid ""
 "button can be used to automatically adjust the threshold."
 msgstr ""
 "Eşik aracı, etkin katmanın ya da seçimin yoğunluk değerinin görsel bir "
-"grafiğini, bir histogramını sağlar. Eşik aralığını, minimum ve maksimum "
-"giriş kutularını kullanarak ya da grafiği tıklayıp sürükleyerek "
+"grafiğini, bir histogramını sağlar. Eşik aralığını, en düşük ve en yüksek "
+"girdi kutularını kullanarak ya da grafiği tıklayıp sürükleyerek "
 "ayarlayabilirsiniz. Bu, başka bir yoğunluğa sahip arka plandan belirli bir "
 "yoğunluğa sahip görüntünün bir bölümünü seçmenizi sağlar. Aralık içindeki "
 "pikseller beyaz, diğerleri siyahtır. Siyah arka planda beyaz olarak "
@@ -712,7 +713,7 @@ msgid ""
 msgstr ""
 "Şimdi, özgün görüntüyü etkinleştirin. Görüntü penceresinin sol alt "
 "köşesindeki <guibutton>Hızlı Maske</guibutton> düğmesine tıklayın: görüntü "
-"kırmızı (varsayılan) yarı saydam bir maske ile kaplanır. Bu kırmızı renk, "
+"kırmızı (öntanımlı) yarı saydam bir maske ile kaplanır. Bu kırmızı renk, "
 "kırmızı rengin çok olduğu görüntümüze pek uymuyor: Kanallar iletişim "
 "kutusuna gidin, <quote>Hızlı maske</quote> kanalını etkinleştirin ve "
 "<guibutton>Kanal Özelliklerini Düzenle</guibutton> ile bu rengi değiştirin. "
@@ -808,9 +809,10 @@ msgstr ""
 "guimenu><guimenuitem>Gölgeler-Vurgular…</guimenuitem></menuchoice> yoluyla "
 "erişebilirsiniz."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/shadows-highlights.xml:40(title)
 msgid "Shadows-Highlights Options"
-msgstr "“Gölgeler-Vurgular“ Seçenekleri"
+msgstr "“Gölgeler-Vurgular” seçenekleri"
 
 #: src/menus/colors/shadows-highlights.xml:51(term)
 #: src/menus/colors/rgb-clip.xml:48(term)
@@ -1020,9 +1022,10 @@ msgstr ""
 "guimenu><guimenuitem>Doygunluk…</guimenuitem></menuchoice> yoluyla "
 "erişebilirsiniz."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/saturation.xml:45(title)
 msgid "Saturation Options"
-msgstr "“Doygunluk“ Seçenekleri"
+msgstr "“Doygunluk” seçenekleri"
 
 #: src/menus/colors/saturation.xml:65(term)
 msgid "Scale"
@@ -1086,6 +1089,7 @@ msgstr ""
 "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</guimenu><guimenuitem>RGB "
 "Kırp…</guimenuitem></menuchoice> altında bulunur."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/rgb-clip.xml:37(title)
 msgid "RGB Clip filter dialog"
 msgstr "“RGB Kırp” iletişim kutusu"
@@ -1190,6 +1194,7 @@ msgstr ""
 "guimenu><guimenuitem>Posterleştir…</guimenuitem></menuchoice> altında "
 "bulunur."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/posterize.xml:70(title)
 msgid "Posterize filter dialog"
 msgstr "“Posterleştir” iletişim kutusu"
@@ -1634,6 +1639,7 @@ msgstr ""
 "> ) tıklayarak. Bunun için lütfen <xref linkend=\"gimp-prefs-toolbox\"/> "
 "adresine bakın."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/levels.xml:79(title)
 msgid "Level tool options"
 msgstr "“Düzey” aracı seçenekleri"
@@ -1668,7 +1674,7 @@ msgid ""
 "must have an Alpha Channel, otherwise this option is disabled."
 msgstr ""
 "<guilabel>Alfa</guilabel>, yarı saydam katmanlar ya da seçimler üzerinde "
-"çalışır: burada koyu renk daha fazla saydamlık, beyaz ise tamamen opaklık "
+"çalışır: burada koyu renk daha fazla saydamlık, beyaz ise tamamen matlık "
 "anlamına gelir. Görüntünüzün bir Alfa Kanalı olması gerekir, aksi takdirde "
 "bu seçenek devre dışı kalır."
 
@@ -1787,7 +1793,7 @@ msgid ""
 msgstr ""
 "Beyaz kaydırıcı <emphasis>beyaz noktayı</emphasis> belirler: bu değere sahip "
 "ya da daha yüksek tüm pikseller beyaz olacaktır (seçilen renk kanalıyla "
-"tamamen renklendirilmiş / seçilen Alfa kanalıyla tamamen opak)."
+"tamamen renklendirilmiş / seçilen Alfa kanalıyla tamamen mat)."
 
 #: src/menus/colors/levels.xml:254(para)
 #, fuzzy
@@ -1798,7 +1804,7 @@ msgid ""
 "more transparent)."
 msgstr ""
 "Gri kaydırıcı <emphasis>orta noktayı</emphasis> belirler. Sola, siyaha doğru "
-"kaydırıldığında görüntü daha açık (daha renkli / daha opak) hale gelir. "
+"kaydırıldığında görüntü daha açık (daha renkli / daha mat) hale gelir. "
 "Sağa, beyaza doğru kaydırıldığında görüntü daha koyu (daha az renkli / daha "
 "şeffaf) hale gelir."
 
@@ -1834,8 +1840,8 @@ msgstr ""
 "Giriş Seviyeleri, vurguları (parlak tonları) aydınlatmak, gölgeleri (koyu "
 "tonları) koyulaştırmak ve parlak ve koyu tonların dengesini değiştirmek için "
 "kullanılır. Parlaklığı artırmak için kaydırıcıları sola hareket ettirin "
-"(seçilen rengi artırın / opaklığı artırın). Parlaklığı azaltmak için "
-"kaydırıcıları sağa hareket ettirin (seçilen rengi azaltın / opaklığı "
+"(seçilen rengi artırın / matlığı artırın). Parlaklığı azaltmak için "
+"kaydırıcıları sağa hareket ettirin (seçilen rengi azaltın / matlığı "
 "azaltın)."
 
 #: src/menus/colors/levels.xml:306(title)
@@ -2047,6 +2053,7 @@ msgstr ""
 "İşinizi kolaylaştırmak için, bu düğme aynı ayarlarla <link linkend=\"gimp-"
 "tool-curves\">Curves</link> aracına geçmenizi sağlar."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/levels.xml:585(title)
 msgid "Tool Options dialog"
 msgstr "“Araç Seçenekleri” iletişim kutusu"
@@ -2552,9 +2559,10 @@ msgstr ""
 "guimenu><guimenuitem>Renk Tonu-Doygunluk…</guimenuitem></menuchoice> yoluyla "
 "erişebilirsiniz."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/hue-saturation.xml:40(title)
 msgid "Hue-Saturation Options"
-msgstr "“Renk Tonu-Doygunluk“ Seçenekleri"
+msgstr "“Renk Tonu-Doygunluk” seçenekleri"
 
 #: src/menus/colors/hue-saturation.xml:60(term)
 msgid "Select Primary Color to Adjust"
@@ -2742,9 +2750,10 @@ msgstr ""
 "guimenu><guimenuitem>Renk Tonu-Renk Saflığı…</guimenuitem></menuchoice> "
 "yoluyla erişebilirsiniz."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/hue-chroma.xml:39(title)
 msgid "Hue-Chroma Options"
-msgstr "“Renk Tonu-Renk Parlaklığı“ Seçenekleri"
+msgstr "“Renk Tonu-Renk Parlaklığı” seçenekleri"
 
 #: src/menus/colors/hue-chroma.xml:61(para)
 #, fuzzy
@@ -2819,6 +2828,7 @@ msgstr ""
 "Bu komut yalnızca RGB modundaki görüntülerde ve etkin katmanda alfa kanalı "
 "bulunmadığında çalışır. Aksi takdirde komut devre dışı bırakılır."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/hot.xml:52(title)
 msgid "<quote>Hot</quote> options"
 msgstr "“Sıcak” seçenekleri"
@@ -2937,7 +2947,7 @@ msgid ""
 msgstr ""
 "Eşik düzeyi iki değerden oluşur. Gölgeleri en aza indirmek için alt eşiği "
 "0'a doğru değiştirin ya da vurguları en aza indirmek için 1,0'a doğru "
-"değiştirin. Yüksek eşik, dahil edilecek maksimum değerleri belirler, bunun "
+"değiştirin. Yüksek eşik, dahil edilecek en yüksek değerleri belirler, bunun "
 "üzerinde 0 olarak ayarlanır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -2978,9 +2988,10 @@ msgstr ""
 "guimenu><guimenuitem>Pozlama…</guimenuitem></menuchoice> yoluyla "
 "erişebilirsiniz."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/exposure.xml:39(title)
 msgid "Exposure Options"
-msgstr "“Pozlama” Seçenekleri"
+msgstr "“Pozlama” seçenekleri"
 
 #: src/menus/colors/exposure.xml:59(term)
 msgid "Black level"
@@ -3039,6 +3050,7 @@ msgstr ""
 "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
 "guimenu><guimenuitem>Titreme…</guimenuitem></menuchoice> altında bulunur."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/dither.xml:36(title)
 msgid "Dither filter dialog"
 msgstr "“Titreme” iletişim kutusu"
@@ -3441,9 +3453,9 @@ msgid ""
 "means <emphasis>very opaque</emphasis>. Your image or active layer must have "
 "an Alpha channel for this option to be enabled."
 msgstr ""
-"Eğri, piksellerin opaklığını temsil eder. <emphasis>Koyu renk</emphasis> "
+"Eğri, piksellerin matlığını temsil eder. <emphasis>Koyu renk</emphasis> "
 "<emphasis>çok şeffaf</emphasis> anlamına gelir. <emphasis>Açık renk</"
-"emphasis> <emphasis>çok opak</emphasis> anlamına gelir. Bu seçeneğin "
+"emphasis> <emphasis>çok mat</emphasis> anlamına gelir. Bu seçeneğin "
 "etkinleştirilebilmesi için görüntünüzün ya da etkin katmanınızın bir Alfa "
 "kanalı olması gerekir."
 
@@ -3674,7 +3686,7 @@ msgid ""
 "points result in a sharp angle. They are displayed using a diamond shape. "
 "You can toggle between Smooth and Corner for the selected point."
 msgstr ""
-"Kontrol noktaları <guilabel>Düzgün</guilabel> (varsayılan: tüm noktalar "
+"Kontrol noktaları <guilabel>Düzgün</guilabel> (öntanımlı: tüm noktalar "
 "düzgün) ya da <guilabel>Köşe</guilabel> noktaları olabilir. Bu Köşe noktaları "
 "keskin bir açı oluşturur. Elmas şekli kullanılarak görüntülenirler. Seçilen "
 "nokta için Düzgün ve Köşe arasında geçiş yapabilirsiniz."
@@ -3802,7 +3814,7 @@ msgstr ""
 "aracında beyaz kaydırıcıyı sola ve siyah kaydırıcıyı sağa hareket ettirmekle "
 "aynıdır: değeri beyaz noktadan (eğrinin düz kısmı) daha fazla olan tüm "
 "pikseller beyaz hale getirilir (seçilen kanala göre daha renkli / daha "
-"opak). Değeri siyah noktanın (alt düzleştirilmiş eğri) altında olan tüm "
+"mat). Değeri siyah noktanın (alt düzleştirilmiş eğri) altında olan tüm "
 "pikseller siyah (siyah / tamamen şeffaf) hale getirilir. Yukarı doğru "
 "hareket eden eğrinin noktalarına karşılık gelen pikseller daha açık hale "
 "getirilir. Aşağı doğru hareket eden eğrinin noktalarına karşılık gelen "
@@ -3848,7 +3860,7 @@ msgid ""
 "complementary color. For example: 19;197;248 a sky blue gives 255-19; "
 "255-197; 255-248 = 236;58;7, a bright red."
 msgstr ""
-"Siyah beyaz yapılır (tamamen renkli / tamamen opak). Beyaz siyah yapılır "
+"Siyah beyaz yapılır (tamamen renkli / tamamen mat). Beyaz siyah yapılır "
 "(siyah, tamamen şeffaf). Tüm pikseller tamamlayıcı rengi alır. Neden? Çünkü "
 "kanal değerlerini 255'ten çıkarmak tamamlayıcı rengi verir. Örneğin: "
 "19;197;248 gök mavisi 255-19; 255-197; 255-248 = 236;58;7, parlak kırmızı "
@@ -4115,7 +4127,7 @@ msgstr "<guilabel>Şeffaflık</guilabel>: renklerin şeffaf hale geldiği sını
 #, fuzzy
 msgid ""
 "<guilabel>Opacity</guilabel>: the limit above which colors become opaque."
-msgstr "<guilabel>Opaklık</guilabel>: renklerin opak hale geldiği sınır."
+msgstr "<guilabel>Opaklık</guilabel>: renklerin mat hale geldiği sınır."
 
 #: src/menus/colors/colortoalpha.xml:107(para)
 #, fuzzy
@@ -4140,11 +4152,11 @@ msgid ""
 "becomes fully transparent, and only the colors farthest away from the "
 "background color remain fully opaque."
 msgstr ""
-"Şeffaflık ve opaklık eşikleri, renklerin tamamen şeffaf hale gelmeden önce "
-"arka plan rengine ne kadar yakın olması gerektiğini ve tamamen opak kalmadan "
+"Şeffaflık ve matlık eşikleri, renklerin tamamen şeffaf hale gelmeden önce "
+"arka plan rengine ne kadar yakın olması gerektiğini ve tamamen mat kalmadan "
 "önce arka plan renginden ne kadar uzak olması gerektiğini denetler. "
 "Varsayılan değerler 0 ve 1 olduğunda, yalnızca arka plan rengi tamamen "
-"şeffaf hale gelir ve arka plan renginden en uzak renkler tamamen opak kalır."
+"şeffaf hale gelir ve arka plan renginden en uzak renkler tamamen mat kalır."
 
 #: src/menus/colors/colortoalpha.xml:123(para)
 #, fuzzy
@@ -4160,7 +4172,7 @@ msgstr ""
 "için iyi sonuç verirken, nesne gri ise [şekil 1], gri beyaz ve siyahın "
 "ortasında olduğu için yarı saydam hale gelir [şekil 2]. Opaklık eşiğini "
 "0,5'e düşürmek, gri ya da daha koyu olan tüm pikselleri (beyazdan uzaklığı "
-"[0,1] ölçeğinde 0,5 ya da daha fazla olan tüm pikseller) tamamen opak tutarak "
+"[0,1] ölçeğinde 0,5 ya da daha fazla olan tüm pikseller) tamamen mat tutarak "
 "bu sorunu giderir [şek. 3]."
 
 #: src/menus/colors/colortoalpha.xml:132(para)
@@ -4196,13 +4208,13 @@ msgid ""
 msgstr ""
 "Biraz teknik bir açıklama olacak ama, bunu RGB küpünü düşünerek "
 "görselleştirebiliriz. Arka plan rengi küpün içindeki bir noktadır ve "
-"şeffaflık ve opaklık eşikleri arka plan renginin etrafında merkezlenen iki "
+"şeffaflık ve matlık eşikleri arka plan renginin etrafında merkezlenen iki "
 "alt küptür. Şeffaflık eşiği küpünün içindeki her şey tamamen şeffaf hale "
-"gelir, opaklık eşiği küpünün dışındaki her şey tamamen opak kalır ve aradaki "
-"her şey şeffaflıktan opaklığa kademeli olarak geçer. Resim [şekil 4]'te RGB "
+"gelir, matlık eşiği küpünün dışındaki her şey tamamen mat kalır ve aradaki "
+"her şey şeffaflıktan matlığa kademeli olarak geçer. Resim [şekil 4]'te RGB "
 "küpünün Kırmızı-Yeşil yüzünü görebilirsiniz. (1) arka plan rengidir "
 "(Kırmızı=0,5, Yeşil=0,5, Mavi=0,0), (2) şeffaflık eşiğidir (0,1 olarak "
-"ayarlanmıştır) ve (3) opaklık eşiğidir (0,4 olarak ayarlanmıştır)."
+"ayarlanmıştır) ve (3) matlık eşiğidir (0,4 olarak ayarlanmıştır)."
 
 #: src/menus/colors/colortoalpha.xml:155(title)
 #: src/menus/colors/colortoalpha.xml:176(title)
@@ -4267,8 +4279,8 @@ msgid ""
 "transparent."
 msgstr ""
 "Alfa kanallı özgün görüntü. Varsayılan seçeneklerle renk alfa'ya "
-"dönüştürülür: <quote>Renk</quote> beyazdır. Opaklık eşiği = 1,00 maksimumdur "
-"ve bu nedenle <quote>Renkten</quote> en uzak renkler tamamen opak kalır. "
+"dönüştürülür: <quote>Renk</quote> beyazdır. Opaklık eşiği = 1,00 en yüksektir "
+"ve bu nedenle <quote>Renkten</quote> en uzak renkler tamamen mat kalır. "
 "Şeffaflık eşiği = 0 olduğundan <quote>Renk</quote> tamamen şeffaftır."
 
 #: src/menus/colors/colortoalpha.xml:249(para)
@@ -4309,8 +4321,8 @@ msgid ""
 "<quote>Color</quote> fully transparent and delete some imperfections in the "
 "sky."
 msgstr ""
-"En uzak renkleri (anıt, ağaçlar ve yol) tamamen opak hale getirmek için "
-"opaklık eşiği düşürüldü. <quote>Rengi</quote> tamamen şeffaf hale getirmek "
+"En uzak renkleri (anıt, ağaçlar ve yol) tamamen mat hale getirmek için "
+"matlık eşiği düşürüldü. <quote>Rengi</quote> tamamen şeffaf hale getirmek "
 "ve gökyüzündeki bazı kusurları silmek için şeffaflık eşiği artırıldı."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -4351,6 +4363,7 @@ msgstr ""
 "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
 "guimenu><guimenuitem>Renklendir…</guimenuitem></menuchoice> altında bulunur."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/colorize.xml:46(title)
 msgid "Colorize filter dialog"
 msgstr "“Renklendir” iletişim kutusu"
@@ -4540,6 +4553,7 @@ msgstr ""
 "Bu aracı ana menüden <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Renk "
 "Dengesi…</guimenuitem></menuchoice> yoluyla etkinleştirebilirsiniz."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/color-balance.xml:47(title)
 msgid "Color Balance options"
 msgstr "“Renk Dengesi” seçenekleri"
@@ -4668,9 +4682,10 @@ msgstr ""
 "Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Parlaklık-"
 "Kontrast…</guimenuitem></menuchoice>."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/brightness-contrast.xml:74(title)
 msgid "Brightness-Contrast options dialog"
-msgstr "“Parlaklık-Karşıtlık” seçenekleri iletişim kutusu"
+msgstr "“Parlaklık-Karşıtlık” seçenekleri"
 
 #: src/menus/colors/brightness-contrast.xml:95(term)
 msgid "Brightness"

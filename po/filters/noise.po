@@ -88,6 +88,7 @@ msgstr "Gürültü"
 msgid "Overview"
 msgstr "Genel Görünüm"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/noise/spread.xml:23(title)
 msgid "Example of applying the Spread filter"
 msgstr "“Yay” süzgeci örneği"
@@ -272,9 +273,11 @@ msgstr ""
 msgid "Slur"
 msgstr "Slur Lekelemesi"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/noise/slur.xml:22(title)
 msgid "Example of applying the Slur filter"
-msgstr "“Slur Lekelemesi“ süzgeci örneği"
+msgstr "“Slur Lekelemesi” süzgeci örneği"
 
 #: src/filters/noise/slur.xml:38(para)
 msgid "Filter <quote>Slur</quote> applied"
@@ -306,6 +309,7 @@ msgstr ""
 "guimenu><guisubmenu>Gürültü</guisubmenu><guimenuitem>Slur Lekelemesi…</"
 "guimenuitem></menuchoice> altında bulunur."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/noise/slur.xml:68(title)
 msgid "Slur filter options"
 msgstr "“Slur Lekelemesi” süzgeci seçenekleri"

@@ -2331,6 +2331,7 @@ msgstr ""
 msgid "Plasma"
 msgstr "Plazma"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/plasma.xml:25(title)
 msgid "Example of a rendered plasma"
 msgstr "“Plazma” süzgeci örneği"
@@ -2567,6 +2568,7 @@ msgstr ""
 msgid "Maze"
 msgstr "Labirent"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/maze.xml:22(title)
 msgid "An example of a rendered maze."
 msgstr "“Labirent” süzgeci örneği"
@@ -3553,6 +3555,7 @@ msgstr "IFS Fraktal"
 msgid "Fractal Composition"
 msgstr "Fraktal Kompozisyonu"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/ifsfractal.xml:28(title)
 msgid "Applying example for the IFS Fractal filter"
 msgstr "“IFS Fraktal” süzgeci örneği"
@@ -4096,6 +4099,7 @@ msgstr ""
 msgid "Grid filter"
 msgstr "Izgara süzgeci"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/grid.xml:23(title)
 msgid "Applying example for the Grid filter"
 msgstr "“Izgara” süzgeci örneği"
@@ -4251,6 +4255,7 @@ msgstr "Izgara (eski)"
 msgid "Grid (legacy) filter"
 msgstr "Izgara (eski) süzgeci"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/grid-legacy.xml:23(title)
 msgid "Applying example for the Grid (legacy) filter"
 msgstr "“Izgara (eski)” süzgeci örneği"
@@ -5149,6 +5154,7 @@ msgstr ""
 msgid "Fractal Explorer"
 msgstr "Fraktal Tarayıcı"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/fractalexplorer.xml:26(title)
 msgid "Example for the Fractal Explorer filter"
 msgstr "“Fraktal Tarayıcı” süzgeci örneği"
@@ -5597,6 +5603,7 @@ msgstr ""
 msgid "Flame"
 msgstr "Alev"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/flame.xml:23(title)
 msgid "Example of a rendered Flame"
 msgstr "“Alev” süzgeci örneği"
@@ -5702,6 +5709,7 @@ msgstr "Düzenle"
 msgid "Pressing this button brings up the Edit Flame dialog:"
 msgstr "Bu düğmeye basmak Alevi Düzenle iletişim kutusunu açar:"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/flame.xml:120(title)
 msgid "The Edit Flame dialog"
 msgstr "“Alevi Düzenle” iletişim kutusu"
@@ -5979,6 +5987,7 @@ msgstr ""
 msgid "Difference Clouds"
 msgstr "Başka Bulutlar"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/difference-clouds.xml:23(title)
 msgid "Example of Difference Clouds"
 msgstr "“Başka Bulutlar” süzgeci örneği"
@@ -6639,6 +6648,7 @@ msgstr ""
 msgid "Circuit"
 msgstr "Devre"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/circuit.xml:22(title)
 msgid "Example of Circuit"
 msgstr "“Devre” süzgeci örneği"
@@ -6836,6 +6846,7 @@ msgstr ""
 msgid "Checkerboard"
 msgstr "Dama Tahtası"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/checkerboard.xml:23(title)
 msgid "Example for the Checkerboard filter"
 msgstr "“Dama Tahtası” süzgeci örneği"
@@ -6926,6 +6937,7 @@ msgstr ""
 msgid "Checkerboard (legacy)"
 msgstr "Dama Tahtası (eski)"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/checkerboard-legacy.xml:23(title)
 msgid "Example for the Checkerboard (legacy) filter"
 msgstr "“Dama Tahtası (eski)” süzgeci örneği"
@@ -7123,6 +7135,7 @@ msgstr ""
 msgid "Bayer Matrix"
 msgstr "Bayer Matris"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/render/bayer-matrix.xml:23(title)
 msgid "Example for the Bayer Matrix filter"
 msgstr "“Bayer Matris” süzgeci örneği"

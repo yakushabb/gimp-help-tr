@@ -821,7 +821,7 @@ msgid ""
 "clockwise (default)."
 msgstr ""
 "İşaretlendiğinde, başlangıçtan sona kadar olan aralık saat yönünde "
-"hesaplanır, aksi takdirde saat yönünün tersinde hesaplanır (varsayılan)."
+"hesaplanır, aksi takdirde saat yönünün tersinde hesaplanır (öntanımlı)."
 
 #: src/menus/colors/map/color-rotate.xml:121(term)
 msgid "Invert Range"
@@ -1154,7 +1154,7 @@ msgid ""
 "Lightness)."
 msgstr ""
 "Dönüştürme için kullanılan Renk Modeli. Seçenekler <guilabel>RGB</guilabel> "
-"(varsayılan) ve <guilabel>HSL</guilabel> (Ton, Doygunluk ve Açıklık) "
+"(öntanımlı) ve <guilabel>HSL</guilabel> (Ton, Doygunluk ve Açıklık) "
 "şeklindedir."
 
 #: src/menus/colors/map/alien-map.xml:86(para)

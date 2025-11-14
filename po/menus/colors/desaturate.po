@@ -528,7 +528,7 @@ msgid ""
 "image, and also lighter than all the other ways to convert to black and "
 "white."
 msgstr ""
-"Her piksel için RGB kanal değerlerinin maksimumu olan HSV Değeri siyah "
+"Her piksel için RGB kanal değerlerinin en yükseği olan HSV Değeri siyah "
 "beyaza dönüştürme, her zaman özgün renkli görüntüden daha açık ve siyah "
 "beyaza dönüştürmenin diğer tüm yöntemlerinden de daha açıktır."
 

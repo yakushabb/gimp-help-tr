@@ -90,6 +90,7 @@ msgstr "Kenar Tanıma"
 msgid "Overview"
 msgstr "Genel Görünüm"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/edge-detect/sobel.xml:22(title)
 msgid "Applying example of the Sobel filter"
 msgstr "“Sobel” süzgeci örneği"
@@ -146,6 +147,7 @@ msgstr ""
 msgid "Options"
 msgstr "Seçenekler"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/edge-detect/sobel.xml:65(title)
 msgid "Sobel filter options"
 msgstr "“Sobel” süzgeci seçenekleri"
@@ -269,6 +271,7 @@ msgstr ""
 msgid "Neon"
 msgstr "Neon"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/edge-detect/neon.xml:22(title)
 msgid "Applying example for the Neon filter"
 msgstr "“Neon” süzgeci örneği"
@@ -295,6 +298,7 @@ msgstr ""
 "guimenu><guisubmenu>Kenar Tanıma</guisubmenu><guimenuitem>Neon…</"
 "guimenuitem></menuchoice> altında bulunur."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/edge-detect/neon.xml:63(title)
 msgid "Neon filter options"
 msgstr "“Neon” süzgeci seçenekleri"
@@ -345,6 +349,7 @@ msgstr ""
 msgid "Laplace"
 msgstr "Laplace"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/edge-detect/laplace.xml:22(title)
 msgid "Applying example for the Laplace filter"
 msgstr "“Laplace” süzgeci örneği"
@@ -371,6 +376,7 @@ msgstr ""
 "guimenu><guisubmenu>Kenar Tanıma</guisubmenu><guimenuitem>Laplace…</"
 "guimenuitem></menuchoice> altında bulunur."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/edge-detect/laplace.xml:63(title)
 msgid "Laplace filter options"
 msgstr "“Laplace” süzgeci seçenekleri"
@@ -521,6 +527,7 @@ msgstr ""
 msgid "Image Gradient"
 msgstr "Görüntü Renk Geçişi"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/edge-detect/image_gradient.xml:23(title)
 msgid "Applying example for the Image Gradient filter"
 msgstr "“Görüntü Renk Geçişi” süzgeci örneği"
@@ -530,6 +537,7 @@ msgid "Filter <quote>Image Gradient</quote> applied with default options."
 msgstr ""
 "<quote>Görüntü Renk Geçişi</quote> süzgeci öntanımlı seçeneklerle uygulandı."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/edge-detect/image_gradient.xml:51(para)
 msgid "Filter <quote>Image Gradient</quote> applied with Direction option."
 msgstr ""
@@ -549,6 +557,7 @@ msgstr ""
 "guimenu><guisubmenu>Kenar Tanıma</guisubmenu><guimenuitem>Görüntü Renk "
 "Geçişi…</guimenuitem></menuchoice> altında bulunur."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/edge-detect/image_gradient.xml:75(title)
 msgid "Image Gradient filter options"
 msgstr "“Görüntü Renk Geçişi” süzgeci seçenekleri"
@@ -693,6 +702,7 @@ msgstr ""
 "guimenu><guisubmenu>Kenar Tanıma</guisubmenu><guimenuitem>Kenar…</"
 "guimenuitem></menuchoice> altında bulunur."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/edge-detect/edge_detect.xml:52(title)
 msgid "Edge filter options"
 msgstr "“Kenar” süzgeci seçenekleri"
@@ -855,6 +865,7 @@ msgstr ""
 "guimenu><guisubmenu>Kenar Tanıma</guisubmenu><guimenuitem>Gauss Farklılığı…</"
 "guimenuitem></menuchoice> altında bulunur."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/edge-detect/dog.xml:76(title)
 msgid "Gaussian Difference filter options"
 msgstr "“Gauss Farklılığı” süzgeci seçenekleri"

@@ -657,7 +657,7 @@ msgid ""
 msgstr ""
 "RGBA seçeneği seçilirse, kaynak görüntünün şeffaflık değerleriyle "
 "doldurulmuş ek bir Alfa katmanı ile RGB Ayrıştırma'ya benzer bir görüntü "
-"oluşturulur. Tamamen şeffaf pikseller siyah, tamamen opak pikseller ise "
+"oluşturulur. Tamamen şeffaf pikseller siyah, tamamen mat pikseller ise "
 "beyazdır."
 
 #: src/menus/colors/components/decompose.xml:157(term)
@@ -675,7 +675,7 @@ msgid ""
 msgstr ""
 "Bu seçenek, Alfa kanalı ( <link linkend=\"gimp-channel-dialog\">) Kanalları "
 "Diyalog Penceresi</link> içinde depolanan görüntü şeffaflığını ayrı bir "
-"görüntüye çıkarır. Tamamen şeffaf pikseller siyah, tamamen opak pikseller "
+"görüntüye çıkarır. Tamamen şeffaf pikseller siyah, tamamen mat pikseller "
 "beyazdır. Gri tonlar, kaynak görüntüdeki şeffaflığın yumuşak geçişleri "
 "şeklindedir."
 
@@ -715,8 +715,8 @@ msgid ""
 "minimum Saturation (white) and minimum Value (black)."
 msgstr ""
 "<guilabel>Doygunluk</guilabel> ve <guilabel>Değer</guilabel>: Beyaz, "
-"maksimum Doygunluk (saf renk) ve maksimum Değer (çok parlak) değerine "
-"sahiptir. Siyah, minimum Doygunluk (beyaz) ve minimum Değer (siyah) değerine "
+"en yüksek Doygunluk (saf renk) ve en yüksek Değer (çok parlak) değerine "
+"sahiptir. Siyah, en düşük Doygunluk (beyaz) ve en düşük Değer (siyah) değerine "
 "sahiptir."
 
 #: src/menus/colors/components/decompose.xml:193(term)

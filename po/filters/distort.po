@@ -641,14 +641,15 @@ msgstr ""
 msgid "Whirl and Pinch"
 msgstr "Sarmal ve Kıstırma"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/whirlpinch.xml:22(title)
 msgid "Example for the Whirl and Pinch filter"
 msgstr "“Sarmal ve Kıstırma” süzgeci örneği"
 
-# Değerle uyumsuz olsa da başlıklar uyumlu görünsün.
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/whirlpinch.xml:38(para)
 msgid "Filter applied"
-msgstr "“Sarmal ve Kıstırma” süzgeci uygulandı"
+msgstr "“Sarmal ve Kıstırma” uygulandı"
 
 #: src/filters/distort/whirlpinch.xml:42(para)
 #, fuzzy
@@ -799,6 +800,7 @@ msgstr ""
 msgid "Waves"
 msgstr "Dalgalar"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/waves.xml:17(title)
 msgid "Example for the Waves filter"
 msgstr "“Dalgalar” süzgeci örneği"
@@ -1068,6 +1070,7 @@ msgstr ""
 msgid "Value Propagate"
 msgstr "Değer Yayılımı"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/vpropagate.xml:19(title)
 msgid "Example for the Value Propagate filter"
 msgstr "“Değer Yayılımı” süzgeci örneği"
@@ -1354,6 +1357,7 @@ msgstr ""
 "İşaretlendiğinde, piksel alfa değeri yayılır, aksi takdirde piksel komşu "
 "piksellerin alfa değerini alır."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/vpropagate.xml:343(title)
 msgid "Using Value Propagate"
 msgstr "“Değer Yayılımı” Süzgeci Kullanımı"
@@ -1532,6 +1536,7 @@ msgstr "Küreleştir"
 msgid "filters"
 msgstr "süzgeçler"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/spherize.xml:21(title)
 msgid "Spherize filter example, with default values"
 msgstr "“Küreselleştir” süzgeci örneği, öntanımlı değerlerle"
@@ -1684,6 +1689,7 @@ msgstr ""
 msgid "Shift"
 msgstr "Yer Değiştir"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/shift.xml:22(title)
 msgid "Example for the Shift filter"
 msgstr "“Yer Değiştir” süzgeci örneği"
@@ -2013,6 +2019,7 @@ msgstr ""
 msgid "Polar Coordinates"
 msgstr "Kutup Koordinatları"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/polarcoords.xml:23(title)
 msgid "Example for Polar Coordinates filter"
 msgstr "“Kutup Koordinatları” süzgeci örneği"
@@ -2185,6 +2192,7 @@ msgstr ""
 msgid "Page Curl"
 msgstr "Sayfa Kıvırma"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/pagecurl.xml:24(title)
 msgid "Example for the Page Curl filter"
 msgstr "“Sayfa Kıvırma” süzgeci örneği"
@@ -2313,6 +2321,7 @@ msgstr ""
 msgid "Newsprint"
 msgstr "Gazete Kağıdı"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/newsprint.xml:25(title)
 msgid "Applying example for the Newsprint filter"
 msgstr "“Gazete Kağıdı” süzgeci örneği"
@@ -2998,6 +3007,7 @@ msgstr ""
 "yaparken, negatif değerler içbükey yapar. Etki, görüntüyü bir kürenin içine "
 "ya da dışına sarmakla benzerdir."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/lens-distortion.xml:100(title)
 msgid "Example result of Main option"
 msgstr "“Ana” seçeneğin örnek sonucu"
@@ -3031,6 +3041,7 @@ msgstr "Kenar"
 msgid "Specifies the amount of additional spherical correction at image edges."
 msgstr "Görüntü kenarlarında ek küresel düzeltme miktarını belirtir."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/lens-distortion.xml:139(title)
 msgid "Example result of Edge option (Main set to 50.0)"
 msgstr "“Kenar” seçeneğinin örnek sonucu (“Ana” 50,0 olarak ayarlandı)"
@@ -3057,6 +3068,7 @@ msgstr ""
 "Varsayımsal merceğin neden olduğu görüntü büyütme ya da küçültme miktarını "
 "belirtir."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/lens-distortion.xml:178(title)
 msgid "Example result of Zoom option"
 msgstr "“Yakınlaştır” seçeneğinin örnek sonucu"
@@ -3086,6 +3098,7 @@ msgstr ""
 "<guilabel>Kenar</guilabel> seçenekleri sıfırdan büyükse görünür sonuçlar "
 "üretir."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/lens-distortion.xml:223(title)
 msgid "Example result of Shift X option (Main set to 70.0)"
 msgstr "“Shift X” seçeneğinin örnek sonucu (“Ana” 70,0 olarak ayarlandı)"
@@ -3113,6 +3126,7 @@ msgstr ""
 "guilabel> ya da <guilabel>Kenar</guilabel> seçeneklerinin sıfırdan büyük "
 "olması gerekir."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/lens-distortion.xml:267(title)
 msgid "Example result of the Brighten option (Main set to 75.0)"
 msgstr "“Parlat” seçeneğinin örnek sonucu (“Ana” 75,0 olarak ayarlandı)"
@@ -3454,10 +3468,12 @@ msgstr ""
 msgid "Example result of Limit line width option"
 msgstr "Çizgi genişliğini sınırla seçeneğinin örnek sonucu"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/engrave.xml:121(para)
 msgid "Limit line width option enabled"
 msgstr "“Çizgi genişliğini sınırla” etkin"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/engrave.xml:130(para)
 msgid "Limit line width option disabled"
 msgstr "“Çizgi genişliğini sınırla” devre dışı"
@@ -3489,6 +3505,7 @@ msgstr ""
 msgid "Emboss"
 msgstr "Kabartma"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/emboss.xml:22(title)
 msgid "Applying example for the Emboss filter"
 msgstr "“Kabartma” süzgeci örneği"
@@ -3617,6 +3634,7 @@ msgstr ""
 msgid "Curve Bend"
 msgstr "Eğri Bükümü"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/curve_bend.xml:25(title)
 msgid "Applying example for the Curve Bend filter"
 msgstr "“Eğri Bükümü” süzgeci örneği"
@@ -3894,6 +3912,7 @@ msgstr ""
 msgid "Blinds"
 msgstr "Kesitler"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/distort/blinds.xml:26(title)
 msgid "Applying example for the Blinds filter"
 msgstr "“Kesitler” süzgeci örneği"

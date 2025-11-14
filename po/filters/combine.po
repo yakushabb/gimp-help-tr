@@ -99,6 +99,7 @@ msgstr "Film Şeridi"
 msgid "Overview"
 msgstr "Genel Görünüm"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/combine/filmstrip.xml:26(title)
 msgid "Applying example for the Filmstrip filter"
 msgstr "“Film Şeridi” süzgeci örneği"

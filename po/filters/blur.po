@@ -114,6 +114,7 @@ msgstr "Yakınlaştırma Hareketi"
 msgid "Overview"
 msgstr "Genel Görünüm"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/blur/zoom-motion.xml:23(title)
 msgid "The Zoom Motion Blur filter"
 msgstr "“Yakınlaştırma Hareket Bulanıklığı” süzgeci örneği"
@@ -373,10 +374,12 @@ msgstr ""
 msgid "Variable Blur"
 msgstr "Değişken Bulanıklık"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/blur/variable-blur.xml:20(title)
 msgid "The Variable Blur filter"
 msgstr "“Değişken Bulanıklık” süzgeci örneği"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/blur/variable-blur.xml:36(para)
 msgid "Variable Blur applied"
 msgstr "“Değişken Bulanıklık” uygulandı"
@@ -1373,6 +1376,7 @@ msgstr "Doğrusal Hareket Bulanıklığı"
 msgid "Linear Motion"
 msgstr "Doğrusal Hareket"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/blur/linear-motion.xml:22(title)
 msgid "The Linear Motion Blur filter"
 msgstr "“Doğrusal Hareket Bulanıklığı” süzgeci örneği"
@@ -1470,13 +1474,15 @@ msgstr ""
 msgid "Lens Blur"
 msgstr "Mercek Bulanıklığı"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/blur/lens-blur.xml:20(title)
 msgid "The Lens Blur filter"
-msgstr "“Mercek Bulanıklığı” süzgeci"
+msgstr "“Mercek Bulanıklığı” süzgeci örneği"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/blur/lens-blur.xml:36(para)
 msgid "Lens Blur applied"
-msgstr "“Mercek Bulanıklığı“ uygulandı"
+msgstr "“Mercek Bulanıklığı” uygulandı"
 
 #: src/filters/blur/lens-blur.xml:40(para)
 msgid "Lens blur simulates an out-of-focus camera picture."
@@ -1492,6 +1498,7 @@ msgstr ""
 "guimenu><guisubmenu>Bulanıklık</guisubmenu><guimenuitem>Mercek Bulanıklığı…</"
 "guimenuitem></menuchoice> altında bulunur."
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/blur/lens-blur.xml:60(title)
 msgid "Lens Blur filter dialog options"
 msgstr "“Mercek Bulanıklığı” süzgeci seçenekleri"
@@ -1790,6 +1797,7 @@ msgstr ""
 msgid "Selective Gaussian"
 msgstr "Seçmeli Gauss"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/blur/gauss_select.xml:23(title)
 msgid "The Selective Gaussian Blur filter"
 msgstr "“Seçmeli Gauss Bulanıklığı” süzgeci örneği"
@@ -2055,6 +2063,7 @@ msgstr "Odak Bulanıklığı"
 msgid "The Focus Blur filter"
 msgstr "”Odak Bulanıklığı” süzgeci örneği"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/blur/focus-blur.xml:36(para)
 msgid "Focus Blur applied"
 msgstr "“Odak Bulanıklığı” uygulandı"
@@ -2241,6 +2250,7 @@ msgstr ""
 msgid "Circular Motion"
 msgstr "Dairesel Hareket"
 
+# Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/blur/circular-motion.xml:23(title)
 msgid "The Circular Motion Blur filter"
 msgstr "“Dairesel Hareket Bulanıklığı” süzgeci örneği"
