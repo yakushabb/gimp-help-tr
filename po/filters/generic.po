@@ -551,7 +551,7 @@ msgstr "Anahat matlığı"
 #, fuzzy
 msgid ""
 "The opacity of the outline controls how transparent the outline will be."
-msgstr "Konturun opaklığı, konturun ne kadar şeffaf olacağını denetler."
+msgstr "Konturun matlığı, konturun ne kadar şeffaf olacağını denetler."
 
 #: src/filters/generic/gegl-styles.xml:172(term)
 msgid "Outline X"
@@ -586,7 +586,7 @@ msgid ""
 "<guilabel>Circle</guilabel> (default), and <guilabel>Diamond</guilabel>."
 msgstr ""
 "Anahatın büyütülmesi için kullanılan şekil. Seçenekler <guilabel>Kare</"
-"guilabel>, <guilabel>Daire</guilabel> (varsayılan) ve <guilabel>Elmas</"
+"guilabel>, <guilabel>Daire</guilabel> (öntanımlı) ve <guilabel>Elmas</"
 "guilabel> şeklindedir."
 
 #: src/filters/generic/gegl-styles.xml:196(term)
@@ -976,7 +976,7 @@ msgid ""
 "layer or selection."
 msgstr ""
 "Bu, görüntü kaplaması olarak kullanılmak üzere bilgisayarınızda bir "
-"görüntüye göz atmanızı ve seçmenizi sağlar. Bu, katmanın ya da seçimin opak "
+"görüntüye göz atmanızı ve seçmenizi sağlar. Bu, katmanın ya da seçimin mat "
 "kısımlarının üstünde gösterilecektir."
 
 #: src/filters/generic/gegl-styles.xml:513(term)
@@ -990,7 +990,7 @@ msgid ""
 "lowering the opacity you will be able to see a combination of the overlay "
 "and what's under it."
 msgstr ""
-"Bu ayar, görüntü kaplamasının opaklığını ayarlamanıza olanak tanır. Opaklığı "
+"Bu ayar, görüntü kaplamasının matlığını ayarlamanıza olanak tanır. Opaklığı "
 "düşürdüğünüzde, bindirme ve altındakilerin bir kombinasyonunu "
 "görebileceksiniz."
 
@@ -1101,7 +1101,7 @@ msgid ""
 "opaque parts of the outline."
 msgstr ""
 "Bu, anahat için görüntü kaplaması olarak kullanılmak üzere bilgisayarınızda "
-"bir görüntüye göz atmanıza ve seçmenize olanak tanır. Bu, anahattın opak "
+"bir görüntüye göz atmanıza ve seçmenize olanak tanır. Bu, anahattın mat "
 "kısımlarının üstünde gösterilecektir."
 
 #: src/filters/generic/gegl-styles.xml:630(term)
@@ -1115,7 +1115,7 @@ msgid ""
 "outline. By lowering the opacity you will be able to see a combination of "
 "the overlay and what's under it."
 msgstr ""
-"Bu ayar, dış hat için görüntü kaplamasının opaklığını ayarlamanıza olanak "
+"Bu ayar, dış hat için görüntü kaplamasının matlığını ayarlamanıza olanak "
 "tanır. Opaklığı düşürerek, kaplama ile altındaki öğenin birleşimini "
 "görebilirsiniz."
 

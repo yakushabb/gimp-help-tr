@@ -1031,7 +1031,7 @@ msgid ""
 "300 pixels, regardless of the image width or height."
 msgstr ""
 "Burada bulanık kenarlığın kalınlığını piksel cinsinden ayarlayabilirsiniz. "
-"Görüntünün genişliği ya da yüksekliğinden bağımsız olarak maksimum değer 300 "
+"Görüntünün genişliği ya da yüksekliğinden bağımsız olarak en yüksek değer 300 "
 "pikseldir."
 
 #: src/filters/decor/fuzzyborder.xml:100(term)
@@ -1270,7 +1270,7 @@ msgid ""
 "The opacity of the layer. You can change it later in the <link "
 "linkend=\"gimp-layer-dialog-opacity-scale\">Layers Dialog</link>."
 msgstr ""
-"Katmanın opaklığı. Bunu daha sonra <link linkend=\"gimp-layer-dialog-opacity-"
+"Katmanın matlığı. Bunu daha sonra <link linkend=\"gimp-layer-dialog-opacity-"
 "scale\">Katmanlar Diyalog Penceresi'nde değiştirebilirsiniz</link>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1836,7 +1836,7 @@ msgid ""
 "above. If unchecked, the <emphasis>inverted</emphasis> source image is used "
 "as stencil, e.g.:"
 msgstr ""
-"İşaretliyse (varsayılan), kaynak görüntü yukarıda açıklandığı gibi şablon "
+"İşaretliyse (öntanımlı), kaynak görüntü yukarıda açıklandığı gibi şablon "
 "olarak kullanılır. İşaretlenmemişse, <emphasis>ters çevrilmiş</emphasis> "
 "kaynak görüntü şablon olarak kullanılır, örn:"
 

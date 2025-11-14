@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-11-11 22:43+0300\n"
+"PO-Revision-Date: 2025-11-14 11:45+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -232,7 +232,7 @@ msgstr ""
 
 #: src/filters/web/semiflatten.xml:140(title)
 msgid "Semi-Flatten filter applied"
-msgstr "Yarı Düzleştir süzgeci uygulandı"
+msgstr "“Yarı Düzleştir“ süzgeci uygulandı"
 
 #: src/filters/web/semiflatten.xml:147(para)
 msgid "Result, in GIF format, after applying Semi-flatten filter."

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-11-13 00:45+0300\n"
+"PO-Revision-Date: 2025-11-14 13:25+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -90,7 +90,7 @@ msgstr "Genel Görünüm"
 
 #: src/filters/noise/spread.xml:23(title)
 msgid "Example of applying the Spread filter"
-msgstr "Yay süzgeci örneği"
+msgstr "“Yay” süzgeci örneği"
 
 #: src/filters/noise/spread.xml:30(para) src/filters/noise/slur.xml:29(para)
 #: src/filters/noise/rgb-noise.xml:29(para) src/filters/noise/pick.xml:29(para)
@@ -274,7 +274,7 @@ msgstr "Slur Lekelemesi"
 
 #: src/filters/noise/slur.xml:22(title)
 msgid "Example of applying the Slur filter"
-msgstr "Slur Lekelemesi süzgeci örneği"
+msgstr "“Slur Lekelemesi“ süzgeci örneği"
 
 #: src/filters/noise/slur.xml:38(para)
 msgid "Filter <quote>Slur</quote> applied"
@@ -308,7 +308,7 @@ msgstr ""
 
 #: src/filters/noise/slur.xml:68(title)
 msgid "Slur filter options"
-msgstr "Slur Lekelemesi süzgeci seçenekleri"
+msgstr "“Slur Lekelemesi” süzgeci seçenekleri"
 
 #: src/filters/noise/slur.xml:89(term) src/filters/noise/pick.xml:87(term)
 #: src/filters/noise/hurl.xml:85(term)
@@ -664,7 +664,7 @@ msgstr ""
 
 #: src/filters/noise/hurl.xml:64(title)
 msgid "<quote>Hurl</quote> options"
-msgstr "<quote>Savrulma</quote> seçenekleri"
+msgstr "<quote>Savrulma</quote> süzgeci seçenekleri"
 
 #: src/filters/noise/hurl.xml:87(para)
 msgid ""

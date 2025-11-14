@@ -183,7 +183,7 @@ msgid ""
 msgstr ""
 "Seçimin sol ve üst kenarlarını vurgu rengiyle boyama: bunun için "
 "<quote>Vurgu</quote> katmanı bir piksel sola ve yukarıya doğru "
-"genişletilecektir. Bu küçük alanlar opak olacaktır."
+"genişletilecektir. Bu küçük alanlar mat olacaktır."
 
 #: src/filters/light-and-shadow/xach-effect.xml:75(para)
 #, fuzzy
@@ -288,7 +288,7 @@ msgid ""
 msgstr ""
 "Seçimin sol ve üst kenarı vurgu rengiyle boyanır. Vurgu ofseti, ilgili "
 "alanın boyutudur (genişlik ya da yükseklik). Ofset 0'dan küçükse (bu "
-"varsayılandır), sol (X ofset &lt; 0) ya da üst (Y ofset &lt; 0) alan "
+"öntanımlıdır), sol (X ofset &lt; 0) ya da üst (Y ofset &lt; 0) alan "
 "renklendirilir. Ofset 0'dan büyükse, sağ (X ofset &gt; 0) ya da alt (Y ofset "
 "&gt; 0) alan boyanacaktır."
 
@@ -322,12 +322,12 @@ msgstr ""
 "Seçim, vurgu rengiyle doldurulmuş kısmen saydam bir alanla kaplanacaktır. Bu "
 "seçenek, saydamlık düzeyini ayarlamanıza olanak tanır. <link linkend=\"gimp-"
 "layer-mask\">katman maskesi</link> kullanılacağından, değer 0 (tam "
-"saydamlık) ile 255 (tam opaklık) arasında değişir."
+"saydamlık) ile 255 (tam matlık) arasında değişir."
 
 #: src/filters/light-and-shadow/xach-effect.xml:154(para)
 #, fuzzy
 msgid "The highlight opacity defaults to 66, which is equivalent to 26%."
-msgstr "Vurgu opaklığı öntanımlı olarak 66'dır, bu da %26'ya eşittir."
+msgstr "Vurgu matlığı öntanımlı olarak 66'dır, bu da %26'ya eşittir."
 
 #: src/filters/light-and-shadow/xach-effect.xml:160(term)
 msgid "Drop shadow options"
@@ -357,7 +357,7 @@ msgstr "Gölge matlığı"
 #: src/filters/light-and-shadow/xach-effect.xml:179(para)
 #, fuzzy
 msgid "The opacity (0% - 100%) of the layer containing the shadow."
-msgstr "Gölgeyi içeren katmanın opaklığı (0% - 100%)."
+msgstr "Gölgeyi içeren katmanın matlığı (0% - 100%)."
 
 #: src/filters/light-and-shadow/xach-effect.xml:185(term)
 msgid "Drop shadow blur radius"
@@ -528,9 +528,9 @@ msgid ""
 "with a dotted line that is the <emphasis>midpoint line</emphasis>. "
 "<placeholder-1/>"
 msgstr ""
-"GIMP, tuval üzerinde denetim öğeleriyle birlikte gelir (varsayılan): fare "
+"GIMP, tuval üzerinde denetim öğeleriyle birlikte gelir (öntanımlı): fare "
 "imlecini üzerine getirdiğinizde turuncuya dönüşen ve etkin hale gelen beyaz "
-"tutamaklı iki sınır. Siyah (varsayılan) alan <emphasis>vinyettir</emphasis>. "
+"tutamaklı iki sınır. Siyah (öntanımlı) alan <emphasis>vinyettir</emphasis>. "
 "<emphasis>Dış sınır</emphasis> vinyetin sınırını oluşturur. <emphasis>İç "
 "sınır</emphasis> ise <emphasis>yumuşak alanın</emphasis>, değişmeyen alanın "
 "sınırını oluşturur. Dış ve iç sınırlar arasında, vinyetin giderek solduğu "
@@ -1631,10 +1631,10 @@ msgid ""
 "here. After applying the filter to an image you can change the opacity in "
 "the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>."
 msgstr ""
-"Gölgenin opaklığı, gölgeyi içeren yeni katmanın opaklığıdır (bkz. <xref "
+"Gölgenin matlığı, gölgeyi içeren yeni katmanın matlığıdır (bkz. <xref "
 "linkend=\"gimp-layer-properties\"/>). Varsayılan değer %80'dir, ancak burada "
-"0 (tam şeffaflık) ile 100 (tam opaklık) arasında herhangi bir değer "
-"seçebilirsiniz. Süzgeçi bir görüntüye uyguladıktan sonra, opaklığı "
+"0 (tam şeffaflık) ile 100 (tam matlık) arasında herhangi bir değer "
+"seçebilirsiniz. Süzgeçi bir görüntüye uyguladıktan sonra, matlığı "
 "Katmanlar Diyalog Penceresi'nde ( <link linkend=\"gimp-layer-dialog\">) "
 "değiştirebilirsiniz</link>."
 
@@ -2364,8 +2364,8 @@ msgid ""
 "every option, from its minimum (on the left) to its maximum (on the right). "
 "Help pop ups are more useful."
 msgstr ""
-"Giriş kutularının her iki ucundaki küçük küreler, minimumdan (solda) "
-"maksimuma (sağda) kadar her seçeneğin eylemini temsil eder. Yardım açılır "
+"Giriş kutularının her iki ucundaki küçük küreler, en küçükten (solda) "
+"en büyüğe (sağda) kadar her seçeneğin eylemini temsil eder. Yardım açılır "
 "pencereleri daha kullanışlıdır."
 
 #: src/filters/light-and-shadow/lighting.xml:312(term)
@@ -2507,7 +2507,7 @@ msgstr "En çok yükseklik"
 #: src/filters/light-and-shadow/lighting.xml:422(para)
 #, fuzzy
 msgid "This is the maximum height of bumps."
-msgstr "Bu, tümseklerin maksimum yüksekliğidir."
+msgstr "Bu, tümseklerin en çok yüksekliğidir."
 
 #: src/filters/light-and-shadow/lighting.xml:431(title)
 msgid "Environment Map"
@@ -2880,7 +2880,7 @@ msgid ""
 "samples used. Higher values may produce better results, but can potentially "
 "slow down the computation."
 msgstr ""
-"Süper örnekleme için maksimum derinliği belirtir. Bu, kullanılan örnek "
+"Süper örnekleme için en çok derinliği belirtir. Bu, kullanılan örnek "
 "sayısını belirler. Daha yüksek değerler daha iyi sonuçlar verebilir, ancak "
 "hesaplamayı yavaşlatabilir."
 
@@ -2979,7 +2979,7 @@ msgstr "Parıltı Boyama Seçenekleri"
 #, fuzzy
 msgid "Slider and input box allows you to reduce glow opacity (0-100)."
 msgstr ""
-"Kaydırıcı ve giriş kutusu, parlaklık opaklığını azaltmanıza olanak tanır "
+"Kaydırıcı ve giriş kutusu, parlaklık matlığını azaltmanıza olanak tanır "
 "(0-100)."
 
 #: src/filters/light-and-shadow/gflare.xml:279(term)
@@ -3666,7 +3666,7 @@ msgid ""
 msgstr ""
 "Gölgeyi genişletmek ya da daraltmak için kullanılacak şekli seçebilirsiniz. "
 "Seçenekler kendinden anlaşılır olmalıdır: <guilabel>Daire</guilabel> "
-"(varsayılan), <guilabel>Kare</guilabel> ya da <guilabel>Elmas</guilabel>."
+"(öntanımlı), <guilabel>Kare</guilabel> ya da <guilabel>Elmas</guilabel>."
 
 #: src/filters/light-and-shadow/drop-shadow.xml:141(para)
 #, fuzzy
@@ -3682,8 +3682,8 @@ msgid ""
 "Shadow opacity. It defaults to 0.500, but you may select any other value "
 "from 0 (full transparency) to 2.00 (full opacity) here."
 msgstr ""
-"Gölge opaklığı. Varsayılan değer 0,500'dür, ancak burada 0 (tam şeffaflık) "
-"ile 2,00 (tam opaklık) arasında herhangi bir değer seçebilirsiniz."
+"Gölge matlığı. Varsayılan değer 0,500'dür, ancak burada 0 (tam şeffaflık) "
+"ile 2,00 (tam matlık) arasında herhangi bir değer seçebilirsiniz."
 
 #: src/filters/light-and-shadow/drop-shadow.xml:171(title)
 msgid "Using Drop Shadow Filter"
@@ -3994,11 +3994,11 @@ msgid ""
 "opacity) here. After applying the filter to an image you can change the "
 "opacity in the <link linkend=\"gimp-layer-dialog\">layers dialog</link>."
 msgstr ""
-"Gölgenin opaklığı yalnızca gölgeyi içeren yeni katmanın opaklığıdır (bkz. "
+"Gölgenin matlığı yalnızca gölgeyi içeren yeni katmanın matlığıdır (bkz. "
 "<xref linkend=\"gimp-layer-properties\"/>). Varsayılan olarak %80'dir, ancak "
-"burada 0 (tam şeffaflık) ile 100 (tam opaklık) arasında herhangi bir değer "
+"burada 0 (tam şeffaflık) ile 100 (tam matlık) arasında herhangi bir değer "
 "seçebilirsiniz. Süzgeçi bir görüntüye uyguladıktan sonra <link "
-"linkend=\"gimp-layer-dialog\">katmanlar iletişim kutusundan</link> opaklığı "
+"linkend=\"gimp-layer-dialog\">katmanlar iletişim kutusundan</link> matlığı "
 "değiştirebilirsiniz."
 
 #: src/filters/light-and-shadow/drop-shadow-legacy.xml:161(para)

@@ -1265,7 +1265,7 @@ msgid ""
 "(transparent) areas. These commands need an image with an alpha channel."
 msgstr ""
 "Bu komutlar <quote>Daha fazla beyaz</quote> ve <quote>Daha fazla siyah</"
-"quote> gibi çalışır. Opak (şeffaf) alanlar, daha az opak (şeffaf) alanlara "
+"quote> gibi çalışır. Opak (şeffaf) alanlar, daha az mat (şeffaf) alanlara "
 "yayılır. Bu komutlar, alfa kanallı bir görüntü gerektirir."
 
 #: src/filters/distort/vpropagate.xml:264(para)
@@ -1275,7 +1275,7 @@ msgstr "Özgün katman, saydam arka plan ile."
 #: src/filters/distort/vpropagate.xml:275(para)
 #, fuzzy
 msgid "Filter applied several times: the green, opaque, area got increased."
-msgstr "Süzgeç birkaç kez uygulandı: yeşil, opak alan genişledi."
+msgstr "Süzgeç birkaç kez uygulandı: yeşil, mat alan genişledi."
 
 #: src/filters/distort/vpropagate.xml:289(term)
 msgid "Lower threshold"

@@ -5297,7 +5297,7 @@ msgid ""
 "You can set fractal spreading between a minimum and a maximum, in the "
 "horizontal and/or vertical directions. Values are from -3.0 to 3.0."
 msgstr ""
-"Fraktal yayılmayı yatay ve/ya da dikey yönlerde minimum ve maksimum değerler "
+"Fraktal yayılmayı yatay ve/ya da dikey yönlerde en düşük ve en yüksek değerler "
 "arasında ayarlayabilirsiniz. Değerler -3,0 ile 3,0 arasındadır."
 
 #: src/filters/render/fractalexplorer.xml:152(para)

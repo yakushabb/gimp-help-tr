@@ -990,7 +990,7 @@ msgid ""
 "With this slider and its input box, you can set the opacity of the resulting "
 "image. This option is valid only if your image has an Alpha channel."
 msgstr ""
-"Bu kaydırıcı ve giriş kutusu ile, sonuçta ortaya çıkan görüntünün opaklığını "
+"Bu kaydırıcı ve giriş kutusu ile, sonuçta ortaya çıkan görüntünün matlığını "
 "ayarlayabilirsiniz. Bu seçenek, yalnızca görüntünüzde Alfa kanalı varsa "
 "geçerlidir."
 
@@ -1304,7 +1304,7 @@ msgstr "Matlığı soldur"
 #, fuzzy
 msgid "Amount by which to scale opacity of each iterated image."
 msgstr ""
-"Her yinelenen görüntünün opaklığını ölçeklendirmek için kullanılacak miktar."
+"Her yinelenen görüntünün matlığını ölçeklendirmek için kullanılacak miktar."
 
 #: src/filters/map/recursive-transform.xml:253(term)
 msgid "Paste below"
@@ -1448,7 +1448,7 @@ msgstr "Taşıma oranı"
 #, fuzzy
 msgid ""
 "This is the maximum displacement percentage against the side size of squares."
-msgstr "Bu, karelerin kenar boyutuna karşı maksimum yer değiştirme yüzdesidir."
+msgstr "Bu, karelerin kenar boyutuna karşı en yüksek yer değiştirme yüzdesidir."
 
 #: src/filters/map/papertile.xml:112(term)
 msgid "Wrap around"
