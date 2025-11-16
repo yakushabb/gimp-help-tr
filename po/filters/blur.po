@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-15 20:27+0000\n"
-"PO-Revision-Date: 2025-11-15 23:45+0300\n"
+"PO-Revision-Date: 2025-11-16 17:48+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -304,7 +304,6 @@ msgid "Center Y"
 msgstr "Y Merkezi"
 
 #: src/filters/blur/zoom-motion.xml:94(para)
-#, fuzzy
 msgid ""
 "Here, you can set the zoom center. Sliders and spin buttons control the "
 "position of zoom center on horizontal and vertical axis. You can also click "
@@ -313,7 +312,7 @@ msgid ""
 msgstr ""
 "Burada yakınlaştırma merkezini ayarlayabilirsiniz. Kaydırıcılar ve döndürme "
 "düğmeleri yakınlaştırma merkezinin yatay ve dikey eksendeki konumunu "
-"denetler. Ayrıca sağında ok bulunan dikdörtgen düğmesine tıklayabilir ve "
+"denetler. Ayrıca sağda ok bulunan dikdörtgen düğmeye tıklayabilir ve "
 "ardından koordinatları seçmek için görüntüye tıklayabilirsiniz."
 
 #: src/filters/blur/zoom-motion.xml:104(term)
@@ -335,16 +334,15 @@ msgid "On-canvas controls"
 msgstr "Tuvalde denetimler"
 
 #: src/filters/blur/zoom-motion.xml:116(para)
-#, fuzzy
 msgid ""
 "This option (default) allows you to modify blur settings directly on canvas, "
 "for easier visual tweaking of blur settings. It displays a line with handle "
 "on both ends to vary center and blurring factor."
 msgstr ""
 "Bu seçenek (öntanımlı), bulanıklaştırma ayarlarının görsel olarak daha kolay "
-"değiştirilmesi için bulanıklaştırma ayarlarını doğrudan tuval üzerinde "
-"değiştirmenize olanak tanır. Merkezi ve bulanıklaştırma faktörünü "
-"değiştirmek için her iki ucunda tutamaç bulunan bir çizgi görüntüler."
+"değiştirilebilmesi için bulanıklaştırma ayarlarını doğrudan tuvalde "
+"denetlemenizii sağlar. Merkezi ve bulanıklaştırma katsayısını değiştirmek "
+"için her iki ucunda tutamaç bulunan çizgi görüntüler."
 
 #: src/filters/blur/zoom-motion.xml:121(para)
 msgid "Press <keycap>Alt</keycap> key to vary center only."
@@ -393,16 +391,15 @@ msgid "Variable Blur applied"
 msgstr "“Değişken Bulanıklık” uygulandı"
 
 #: src/filters/blur/variable-blur.xml:40(para)
-#, fuzzy
 msgid ""
 "Variable Blur blurs the image by a variable amount using a mask set in "
 "<guilabel>Input</guilabel>. Black in the mask layer will be minimally "
 "blurred, and white will be blurred at maximum value."
 msgstr ""
-"Değişken Bulanıklaştırma, <guilabel>Girdi</guilabel>ʼde ayarlanan bir "
-"maskeyi kullanarak görüntüyü değişken bir miktarda bulanıklaştırır. Maske "
-"katmanındaki siyah en düşük düzeyde bulanıklaştırılacak ve beyaz en yüksek "
-"değerde bulanıklaştırılacaktır."
+"Değişken Bulanıklık, <guilabel>Girdi</guilabel>ʼde ayarlanan maskeyi "
+"kullanarak görüntüyü değişen oranda bulanıklaştırır. Maske katmanındaki "
+"siyah en düşük düzeyde bulanıklaştırılırken beyaz en yüksek değerde "
+"bulanıklaştırılır."
 
 #: src/filters/blur/variable-blur.xml:49(para)
 msgid ""
@@ -423,16 +420,15 @@ msgid "Input"
 msgstr "Girdi"
 
 #: src/filters/blur/variable-blur.xml:90(para)
-#, fuzzy
 msgid ""
 "Here you can set the mask that determines how much a certain area of the "
 "input layer will be blurred. Black areas in the mask will result in minimal "
 "blurring of the output, and white will be blurred the most."
 msgstr ""
-"Burada, girdi katmanının belirli bir alanının ne kadar "
-"bulanıklaştırılacağını belirleyen maskeyi ayarlayabilirsiniz. Maskedeki "
-"siyah alanlar çıktının en az bulanıklaşmasına neden olurken, beyaz alanlar "
-"en fazla bulanıklaşacaktır."
+"Burada, girdi katmanının belirli alanının ne kadar bulanıklaştırılacağını "
+"belirleyen maskeyi ayarlayabilirsiniz. Maskedeki siyah alanlar çıktının en "
+"düşük bulanıklaşmasına neden olurken, beyaz alanlar en yüksek "
+"bulanıklaştırma ile sonuçlanır."
 
 #: src/filters/blur/variable-blur.xml:100(term)
 #: src/filters/blur/tileable.xml:145(term)
@@ -503,16 +499,14 @@ msgid "Filter <quote>Tileable Blur</quote> applied"
 msgstr "<quote>Döşenebilir Bulanıklık</quote> uygulandı"
 
 #: src/filters/blur/tileable.xml:42(para)
-#, fuzzy
 msgid ""
 "Tileable Blur is actually implemented by a Script-Fu script that invokes the "
 "Gaussian blur plug-in."
 msgstr ""
-"Döşenebilir Bulanıklaştırma aslında Gauss bulanıklaştırma eklentisini "
-"çağıran bir Script-Fu betiği tarafından uygulanmaktadır."
+"Döşenebilir Bulanıklık aslında Gauss bulanıklığı eklentisini çağıran Script-"
+"Fu betiğince uygulanmaktadır."
 
 #: src/filters/blur/tileable.xml:46(para)
-#, fuzzy
 msgid ""
 "This filter is used to soften tile seams in images used in tiled "
 "backgrounds. It does this by blending and blurring the boundary between "
@@ -523,30 +517,29 @@ msgstr ""
 "olacak görüntüler arasındaki sınırı karıştırarak ve bulanıklaştırarak yapar."
 
 #: src/filters/blur/tileable.xml:52(para)
-#, fuzzy
 msgid ""
 "If you want to treat only images borders, you can't apply filter to the "
 "whole image. The solution to get the wanted effect is as follows:"
 msgstr ""
-"Yalnızca görüntü kenarlıklarını işlemek istiyorsanız, süzgeci tüm görüntüye "
-"uygulayamazsınız. İstenilen etkiyi elde etmek için çözüm aşağıdaki gibidir:"
+"Yalnızca görüntü kenarlarını işlemek istiyorsanız, süzgeci tüm görüntüye "
+"uygulayamazsınız. İstenilen etkiyi için çözüm aşağıdaki gibidir:"
 
 #: src/filters/blur/tileable.xml:59(para)
-#, fuzzy
 msgid ""
 "Duplicate layer (<menuchoice><guimenu>Layer</guimenu><guimenuitem>Duplicate "
 "Layers</guimenuitem></menuchoice>) and select it to work on it."
 msgstr ""
-"Katmanı çoğalt (<menuchoice><guimenu>Katman</guimenu><guimenuitem>Yinelenen "
-"Katmanlar</guimenuitem></menuchoice>) ve üzerinde çalışmak için seçin."
+"(<menuchoice><guimenu>Katman</guimenu><guimenuitem>Katmanları Çoğalt</"
+"guimenuitem></menuchoice>) yoluyla katmanı çoğaltın ve üzerinde çalışmak "
+"için seçin."
 
 #: src/filters/blur/tileable.xml:69(para)
 msgid ""
 "Apply <quote>Tileable Blur</quote> filter with a 20 pixels radius to this "
 "layer."
 msgstr ""
-"Bu katmana <quote>Döşenebilir Bulanıklaştırma</quote> süzgecini 20 piksel "
-"yarıçap ile uygula."
+"Bu katmana <quote>Döşenebilir Bulanıklık</quote> süzgecini 20 piksel yarıçap "
+"ile uygulayın."
 
 # Küçült menü ögesinde üç nokta var.
 #: src/filters/blur/tileable.xml:75(para)
@@ -556,28 +549,28 @@ msgid ""
 "guimenu><guimenuitem>Shrink</guimenuitem></menuchoice>) to create a border "
 "with the wanted width."
 msgstr ""
-"Tümünü seç (<keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo>) ve "
-"istenen genişlikte kenarlık oluşturmak için seçimi azalt "
+"(<keycombo><keycap>Ctrl</keycap><keycap>A</keycap></keycombo>) kısayoluyla "
+"tümünü seçin ve istenen genişlikte kenarlık oluşturmak için "
 "(<menuchoice><guimenu>Seçim</guimenu><guimenuitem>Küçült…</guimenuitem></"
-"menuchoice>)."
+"menuchoice>) yoluyla seçimi küçültün."
 
 #: src/filters/blur/tileable.xml:87(para)
-#, fuzzy
 msgid ""
 "Give a feathered border to the selection by using "
 "<menuchoice><guimenu>Selection</guimenu><guimenuitem>Feather</guimenuitem></"
 "menuchoice>."
 msgstr ""
-"Kullanarak seçime tüylü bir kenarlık verin <menuchoice><guimenu>Seçim</"
-"guimenu><guimenuitem>Tüy</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Seçim</guimenu><guimenuitem>Tüyle</guimenuitem></"
+"menuchoice> yolunu kullanarak seçime tüylü kenarlık verin."
 
+# TODO: Ctrl + K kısmında hata var gibi. İşlivsiz.
 #: src/filters/blur/tileable.xml:96(para)
-#, fuzzy
 msgid ""
 "Delete selection with <keycombo><keycap>Ctrl</keycap><keycap>K</keycap></"
 "keycombo>."
 msgstr ""
-"Ile seçimi sil <keycombo><keycap>Ctrl</keycap><keycap>K</keycap></keycombo>."
+"<keycombo><keycap>Ctrl</keycap><keycap>K</keycap></keycombo> Ile seçimi "
+"silin."
 
 #: src/filters/blur/tileable.xml:102(para)
 msgid ""
@@ -610,7 +603,6 @@ msgid "<quote>Tileable Blur</quote> filter options"
 msgstr "<quote>Döşenebilir Bulanıklık</quote> süzgeci seçenekleri"
 
 #: src/filters/blur/tileable.xml:147(para)
-#, fuzzy
 msgid ""
 "The bigger the radius, the more marked is the blur. By selecting "
 "<guilabel>Horizontal</guilabel> and <guilabel>Vertical</guilabel>, you can "
@@ -703,16 +695,15 @@ msgid "<quote>Pixelize</quote> applied"
 msgstr "<quote>Pikselleştir</quote> uygulandı"
 
 #: src/filters/blur/pixelize.xml:42(para)
-#, fuzzy
 msgid ""
 "The Pixelize filter renders the image using large color blocks. It is very "
 "similar to the effect seen on television when obscuring a criminal during "
 "trial. It is used for the <quote>Abraham Lincoln effect</quote>: see <xref "
 "linkend=\"bibliography-online-bach\"/>."
 msgstr ""
-"Pikselleştirme süzgeci görüntüyü büyük renk blokları kullanarak oluşturur. "
-"Televizyonda duruşma sırasında bir suçluyu gizlerken görülen etkiye çok "
-"benzer. <quote>Abraham Lincoln etkisi</quote> için kullanılır: bkz. <xref "
+"Pikselleştir süzgeci görüntüyü büyük renk blokları kullanarak işler. "
+"Televizyonda duruşma sırasında suçluyu gizlerken görülen etkiye çok benzer. "
+"<quote>Abraham Lincoln etkisi</quote> için kullanılır: bkz. <xref "
 "linkend=\"bibliography-online-bach\"/>."
 
 #: src/filters/blur/pixelize.xml:52(para)
@@ -755,23 +746,20 @@ msgid "Block height"
 msgstr "Blok yüksekliği"
 
 #: src/filters/blur/pixelize.xml:102(para)
-#, fuzzy
 msgid "Here you can set the desired width and height of the blocks, in pixels."
 msgstr ""
-"Burada blokların istediğiniz genişlik ve yüksekliğini piksel cinsinden "
+"Burada blokların genişlik ve yüksekliğini piksel cinsinden "
 "ayarlayabilirsiniz."
 
 #: src/filters/blur/pixelize.xml:106(para)
-#, fuzzy
 msgid ""
 "By default, width and height are linked, indicated by the <placeholder-1/> "
 "chain symbol next to the input boxes. If you want to set width and height "
 "separately, click on that chain symbol to unlink them."
 msgstr ""
-"Öntanımlı olarak, genişlik ve yükseklik birbirine bağlıdır ve girdi "
-"kutularının yanındaki <placeholder-1/> zincir simgesiyle gösterilir. "
-"Genişlik ve yüksekliği ayrı ayrı ayarlamak istiyorsanız, bağlarını kaldırmak "
-"için zincir simgesine tıklayın."
+"Öntanımlı olarak, genişlik ve yükseklik bağlantılıdır ve girdi kutularının "
+"yanındaki <placeholder-1/> zincir simgesiyle gösterilir. Genişlik ve "
+"yüksekliği bağımsız ayarlamak için zincir simgesine tıklayın."
 
 #: src/filters/blur/pixelize.xml:121(term)
 msgid "Offset X"
@@ -782,9 +770,8 @@ msgid "Offset Y"
 msgstr "Y Konumu"
 
 #: src/filters/blur/pixelize.xml:124(para)
-#, fuzzy
 msgid "Horizontal/Vertical offset of the shapes in pixels inside a block."
-msgstr "Bir blok içindeki şekillerin piksel cinsinden yatay/dikey ofseti."
+msgstr "Blok içindeki şekillerin piksel cinsinden yatay/dikey konumu."
 
 #: src/filters/blur/pixelize.xml:131(term)
 msgid "Size ratio X"
@@ -795,14 +782,13 @@ msgid "Size ratio Y"
 msgstr "Y boyut oranı"
 
 #: src/filters/blur/pixelize.xml:134(para)
-#, fuzzy
 msgid ""
 "Horizontal/Vertical size ratio (0.000-1.000) of a pixel inside a block. "
 "Default value is 1.000. The number of blocks remains the same; so, if you "
 "change ratio, block size changes, and missing pixels are replaced with the "
 "background color."
 msgstr ""
-"Blok içindeki bir pikselin Yatay/Dikey boyut oranı (0,000-1,000). Öntanımlı "
+"Blok içindeki pikselin Yatay/Dikey boyut oranı (0,000-1,000). Öntanımlı "
 "değer 1.000ʼdir. Blok sayısı aynı kalır; bu nedenle, oranı değiştirirseniz "
 "blok boyutu değişir ve eksik pikseller arka plan rengiyle değiştirilir."
 
@@ -811,21 +797,18 @@ msgid "Background color"
 msgstr "Arka plan rengi"
 
 #: src/filters/blur/pixelize.xml:145(para)
-#, fuzzy
 msgid ""
 "Default background is that of toolbox. You can change it by clicking on "
 "color source, which opens a <link linkend=\"gimp-color-dialog\">color "
 "selection dialog</link>, or picking a color using the <link linkend=\"gimp-"
 "tool-color-picker\">color picker</link> on the right."
 msgstr ""
-"Öntanımlı arka plan araç kutusunun arka planıdır. Renk <link linkend=\"gimp-"
-"color-dialog\">seçim iletişim kutusunu</link> açan renk kaynağına tıklayarak "
-"ya da sağdaki renk <link linkend=\"gimp-tool-color-picker\">seçiciyi</link> "
-"kullanarak bir renk <link linkend=\"gimp-tool-color-picker\">seçerek</link> "
-"değiştirebilirsiniz."
+"Öntanımlı arka plan araç kutusunun arka planıdır. <link linkend=\"gimp-color-"
+"dialog\">Renk seçimi iletişim kutusunu</link> açan renk kaynağına tıklayarak "
+"ya da sağdaki <link linkend=\"gimp-tool-color-picker\">renk seçiciyi</link> "
+"kullanarak renk değiştirebilirsiniz."
 
 #: src/filters/blur/pixelize.xml:153(para)
-#, fuzzy
 msgid ""
 "Note that you can change the background color to be partially or completely "
 "transparent by lowering the alpha value in the color selection dialog. This "
@@ -833,9 +816,8 @@ msgid ""
 "alpha channel."
 msgstr ""
 "Renk seçimi iletişim kutusundaki alfa değerini düşürerek arka plan rengini "
-"kısmen ya da tamamen saydam olacak şekilde değiştirebileceğinizi unutmayın. "
-"Bu, üzerinde çalıştığınız katmanın bir alfa kanalına sahip olması koşuluyla "
-"ilginç etkilere yol açabilir."
+"kısmen ya da tamamen saydam yapabilirsiniz. Bu, üzerinde çalıştığınız "
+"katmanın alfa kanalına sahip olması koşuluyla ilginç etkiler oluşturabilir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -881,7 +863,6 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/median-blur.xml:147(None)
 #: src/filters/blur/gauss.xml:202(None)
-#, fuzzy
 #| msgid ""
 #| "@@image: 'images/filters/examples/blur/median-vs-gaussian.png'; "
 #| "md5=7d04e8df3a762c55743b5602f9cae1a6"
@@ -890,7 +871,7 @@ msgid ""
 "md5=91faa0e407d69371db163e74769a52f5"
 msgstr ""
 "@@image: 'images/filters/examples/blur/median-vs-gaussian.png'; "
-"md5=7d04e8df3a762c55743b5602f9cae1a6"
+"md5=91faa0e407d69371db163e74769a52f5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1395,15 +1376,13 @@ msgid "The Linear Motion Blur filter"
 msgstr "“Doğrusal Hareket Bulanıklığı” süzgeci örneği"
 
 #: src/filters/blur/linear-motion.xml:42(para)
-#, fuzzy
 msgid ""
 "This filter creates a linear blur in a direction determined by the "
 "<quote>Angle</quote> option. The default direction is horizontal to the "
 "right (0.000 degree)."
 msgstr ""
-"Bu süzgeç, <quote>Açı</quote> seçeneği tarafından belirlenen bir yönde "
-"doğrusal bir bulanıklık oluşturur. Öntanımlı yön sağa doğru yataydır (0,000 "
-"derece)."
+"Bu süzgeç, <quote>Açı</quote> seçeneğince belirlenen yönde doğrusal "
+"bulanıklık oluşturur. Öntanımlı yön sağa doğru yataydır (0,000 derece)."
 
 #: src/filters/blur/linear-motion.xml:51(para)
 msgid ""
@@ -1452,8 +1431,8 @@ msgid ""
 "on both ends to vary direction and transform."
 msgstr ""
 "Bu seçenek (öntanımlı), bulanıklaştırma ayarlarının görsel olarak daha kolay "
-"değiştirilebilmesi için bulanıklaştırma ayarlarını doğrudan tuval üzerinde "
-"değiştirmenizi sağlar. Yönü ve dönüşümü değiştirmek için her iki ucunda "
+"değiştirilebilmesi için bulanıklaştırma ayarlarını doğrudan tuvalde "
+"denetlemenizii sağlar. Yönü ve dönüşümü değiştirmek için her iki ucunda "
 "tutamaç olan çizgi görüntüler."
 
 #: src/filters/blur/linear-motion.xml:116(para)
@@ -1815,7 +1794,6 @@ msgid "The Selective Gaussian Blur filter"
 msgstr "“Seçmeli Gauss Bulanıklığı” süzgeci örneği"
 
 #: src/filters/blur/gauss_select.xml:43(para)
-#, fuzzy
 msgid ""
 "Contrary to the other blur plug-ins, the Selective Gaussian Blur plug-in "
 "doesn't act on all pixels: blur is applied only if the difference between "
@@ -1825,13 +1803,13 @@ msgid ""
 "subject will stand out better. This add a sense of depth to the image with "
 "only a single operation."
 msgstr ""
-"Diğer bulanıklaştırma eklentilerinin aksine, Selective Gauss Blur eklentisi "
-"tüm piksellere etki etmez: bulanıklaştırma yalnızca kendi değeri ile "
-"çevresindeki piksellerin değeri arasındaki fark tanımlanmış bir Delta "
-"değerinden azsa uygulanır. Böylece, fark kontrast sınırlarında yüksek olduğu "
-"için kontrastlar korunur. Bir arka planı bulanıklaştırmak için kullanılır, "
-"böylece ön plandaki konu daha iyi öne çıkar. Bu, yalnızca tek bir işlemle "
-"görüntüye derinlik hissi katar."
+"Diğer bulanıklaştırma eklentilerinin aksine, Seçmeli Gauss Bulanıklığı "
+"eklentisi tüm piksellere etki etmez: bulanıklık yalnızca kendi değeri ile "
+"çevresindeki piksellerin değeri arasındaki fark tanımlanmış Delta değerinden "
+"azsa uygulanır. Böylece, fark karşıtlık sınırlarında yüksek olduğu için "
+"karşıtlıklar korunur. Arka planı bulanıklaştırmak için kullanılır, böylece "
+"ön plandaki nesne daha çok öne çıkar. Bu, tek işlemle görüntüye derinlik "
+"katar."
 
 #: src/filters/blur/gauss_select.xml:56(para)
 msgid ""
@@ -1873,7 +1851,7 @@ msgid ""
 "blur will not be applied to that pixel."
 msgstr ""
 "En çok delta, bulanıklaştırılacak piksel ile çevresindeki pikseller "
-"arasındaki azami farkı (0.0-1.0) ayarlar. Değer bu deltanın üzerindeyse "
+"arasındaki en çok farkı (0,0-1,0) ayarlar. Değer bu deltanın üzerindeyse "
 "bulanıklaştırma o piksele uygulanmaz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1931,17 +1909,6 @@ msgid "Example for the <quote>Gaussian Blur</quote> filter"
 msgstr "<quote>Gauss Bulanıklığı</quote> süzgeci örneği"
 
 #: src/filters/blur/gauss.xml:43(para)
-#, fuzzy
-#| msgid ""
-#| "The Gaussian Blur plug-in acts on each pixel of the active layer or "
-#| "selection, setting its Value to the average of all pixel Values present "
-#| "in a radius defined in the dialog. A higher Value will produce a higher "
-#| "amount of blur. The blur can be set to act in one direction more than the "
-#| "other by clicking the Chain Button so that it is broken, and altering the "
-#| "radius. GIMP supports two implementations of Gaussian Blur: FIR and IIR. "
-#| "They both produce the same results, but each one can be faster in some "
-#| "cases. They are complemented by the default Auto setting, that "
-#| "automatically picks the optimal choice."
 msgid ""
 "The Gaussian Blur filter acts on each pixel of the active layer or "
 "selection, setting its Value to the average of all pixel Values present in a "
@@ -1953,15 +1920,15 @@ msgid ""
 "complemented by the default Auto setting, that automatically picks the "
 "optimal choice."
 msgstr ""
-"Gauss Bulanıklığı etkin katmanın ya da seçimin her pikseline etki ederek "
-"Değerini iletişim kutusunda tanımlanan yarıçap içinde bulunan tüm piksel "
-"Değerlerinin ortalamasına ayarlar. Daha yüksek Değer daha yüksek bulanıklık "
-"üretir. Bulanıklık, Zincir Düğmesine tıklanarak ve yarıçap değiştirilerek "
-"bir yönde diğerinden daha çok etki edecek şekilde ayarlanabilir. GIMP iki "
-"Gauss Bulanıklık gerçeklemesini destekler: FIR ve IIR. Her ikisi de aynı "
-"sonuçları üretir, ancak biri bazı durumlarda diğerinden daha hızlı olabilir. "
-"Bunlar, en uygun seçimi kendiliğinden seçen öntanımlı Kendiliğinden ayarı "
-"ile tamamlanır."
+"Gauss Bulanıklığı süzgeci etkin katmanın ya da seçimin her pikseline etki "
+"ederek Değerini iletişim kutusunda tanımlanan yarıçap içinde bulunan tüm "
+"piksel Değerlerinin ortalamasına ayarlar. Daha yüksek Değer daha yüksek "
+"bulanıklık üretir. Bulanıklık, Zincir Düğmesine tıklanarak ve yarıçap "
+"değiştirilerek bir yönde diğerinden daha çok etki edecek şekilde "
+"ayarlanabilir. GIMP iki Gauss Bulanıklık gerçeklemesini destekler: FIR ve "
+"IIR. Her ikisi de aynı sonuçları üretir, ancak biri bazı durumlarda "
+"diğerinden daha hızlı olabilir. Bunlar, en uygun seçimi kendiliğinden seçen "
+"öntanımlı Kendiliğinden ayarı ile tamamlanır."
 
 #: src/filters/blur/gauss.xml:58(para)
 msgid ""
@@ -2247,8 +2214,8 @@ msgid ""
 "guilabel>."
 msgstr ""
 "Bu seçenek (öntanımlı), bulanıklaştırma ayarlarının görsel olarak daha kolay "
-"değiştirilmesi için bulanıklaştırma ayarlarını doğrudan tuval üzerinde "
-"denetlemenizi sağlar. Üzerinde noktalar bulunan seçili şeklin içinde "
+"değiştirilebilmesi için bulanıklaştırma ayarlarını doğrudan tuvalde "
+"denetlemenizii sağlar. Üzerinde noktalar bulunan seçili şeklin içinde "
 "çizgiler görüntülenir. Hem çizgiler hem de noktalar fare ile sürüklenerek "
 "odak merkezi, bulanıklaştırma alanı ve <guilabel>Geometri Seçenekleri</"
 "guilabel>ʼnde bulunan diğer ayarlar değiştirilebilir."
@@ -2283,16 +2250,14 @@ msgid "The Circular Motion Blur filter"
 msgstr "“Dairesel Hareket Bulanıklığı” süzgeci örneği"
 
 #: src/filters/blur/circular-motion.xml:43(para)
-#, fuzzy
 msgid ""
 "This filters creates a circular blur around a center. The default center is "
 "the center of the layer or selection. You can set center somewhere in the "
 "layer and this center is applied to the layer or to a selection if it exists."
 msgstr ""
-"Bu süzgeç, bir merkez etrafında dairesel bir bulanıklık oluşturur. Öntanımlı "
-"merkez, katmanın ya da seçimin merkezidir. Merkezi katmanın herhangi bir "
-"yerinde ayarlayabilirsiniz ve bu merkez katmana ya da varsa bir seçime "
-"uygulanır."
+"Bu süzgeç, merkez etrafında dairesel bulanıklık oluşturur. Öntanımlı merkez, "
+"katmanın ya da seçimin merkezidir. Merkezi, katmanın herhangi bir yerinde "
+"ayarlayabilirsiniz ve bu merkez katmana ya da varsa seçime uygulanır."
 
 #: src/filters/blur/circular-motion.xml:53(para)
 msgid ""
@@ -2309,7 +2274,6 @@ msgid "<quote>Circular Motion Blur</quote> filter options"
 msgstr "<quote>Dairesel Hareket Bulanıklığı</quote> süzgeci seçenekleri"
 
 #: src/filters/blur/circular-motion.xml:93(para)
-#, fuzzy
 msgid ""
 "Here, you can set the rotation center. Sliders and spin buttons control the "
 "position of rotation center on horizontal and vertical axis. You can also "
@@ -2318,25 +2282,23 @@ msgid ""
 msgstr ""
 "Burada dönüş merkezini ayarlayabilirsiniz. Kaydırıcılar ve döndürme "
 "düğmeleri yatay ve dikey eksende döndürme merkezinin konumunu denetler. "
-"Ayrıca sağda ok bulunan dikdörtgen düğmesine tıklayabilir ve ardından "
+"Ayrıca sağda ok bulunan dikdörtgen düğmeye tıklayabilir ve ardından "
 "koordinatları seçmek için görüntüye tıklayabilirsiniz."
 
 #: src/filters/blur/circular-motion.xml:105(para)
-#, fuzzy
 msgid "More Angle will result in more blurring in a circular direction."
-msgstr "Daha fazla Açı dairesel yönde daha fazla bulanıklığa neden olacaktır."
+msgstr "Daha çok Açı dairesel yönde daha çok bulanıklığa neden olur."
 
 #: src/filters/blur/circular-motion.xml:114(para)
-#, fuzzy
 msgid ""
 "This option (default) allows you to modify blur settings directly on canvas, "
 "for easier visual tweaking of blur settings. It displays a line with handle "
 "on both ends to move rotation center and transform."
 msgstr ""
 "Bu seçenek (öntanımlı), bulanıklaştırma ayarlarının görsel olarak daha kolay "
-"değiştirilmesi için bulanıklaştırma ayarlarını doğrudan tuval üzerinde "
-"değiştirmenize olanak tanır. Döndürme merkezini taşımak ve dönüştürmek için "
-"her iki ucunda tutamaç bulunan bir çizgi görüntüler."
+"değiştirilebilmesi için bulanıklaştırma ayarlarını doğrudan tuvalde "
+"denetlemenizii sağlar. Döndürme merkezini taşımak ve dönüşüm için her iki "
+"ucunda tutamaç bulunan çizgi görüntüler."
 
 #: src/filters/blur/circular-motion.xml:120(para)
 msgid ""
@@ -2349,5 +2311,3 @@ msgstr ""
 #: src/filters/blur/circular-motion.xml:124(para)
 msgid "Press <keycap>Ctrl</keycap> key to rotate by 15° steps."
 msgstr "15°ʼlik adımlarla döndürmek için <keycap>Ctrl</keycap> tuşuna basın."
-
-
