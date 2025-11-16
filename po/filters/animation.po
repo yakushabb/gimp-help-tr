@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-11-16 00:21+0300\n"
+"PO-Revision-Date: 2025-11-16 18:43+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -847,7 +847,10 @@ msgstr "En yüksek bulanıklık yarıçapı"
 msgid "Looped"
 msgstr "Dönüşlü"
 
+# gimp.po dosyası dışındakilerin işlevi yok.
+# Bkz: https://gitlab.gnome.org/GNOME/gimp-help/-/issues/666
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/animation/blend.xml:0(None)
+#, fuzzy
 msgid "translator-credits"
-msgstr ""
+msgstr "Kaldırılacak"

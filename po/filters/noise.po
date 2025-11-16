@@ -887,4 +887,10 @@ msgstr ""
 "Bu kaydırıcı, piksellerin renk parlaklığını rastgele değiştirir (aynı "
 "açıklıktaki beyazın yüzdesi)."
 
-
+# gimp.po dosyası dışındakilerin işlevi yok.
+# Bkz: https://gitlab.gnome.org/GNOME/gimp-help/-/issues/666
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/animation/blend.xml:0(None)
+#, fuzzy
+msgid "translator-credits"
+msgstr "Kaldırılacak"
