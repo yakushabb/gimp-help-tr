@@ -8159,8 +8159,4 @@ msgid ""
 "color at random, direction according to four brush directions."
 msgstr ""
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/using/animated-brushes.xml:0(None)
-msgid "translator-credits"
-msgstr "Sabri Ünal <yakushabb@gmail.com>, 2019, 2025."
 

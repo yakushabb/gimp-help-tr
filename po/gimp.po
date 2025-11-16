@@ -1877,9 +1877,11 @@ msgstr "İletişim Kutuları"
 msgid "Menus"
 msgstr "Menüler"
 
+# SADECE BU translator-credits ana sayfada görünüyor
+# Gerisinin hiçbir önemi yok!
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/gimp.xml:0(None)
 msgid "translator-credits"
 msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+"Sabri Ünal <yakushabb@gmail.com>, 2023-2025.\n"
+"Emin Tufan Çetin <etcetin@gmail.com>, 2023-2025."

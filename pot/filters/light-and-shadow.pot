@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-09 16:57+0000\n"
+"POT-Creation-Date: 2025-11-15 20:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -906,7 +906,7 @@ msgid "Flare intensity"
 msgstr ""
 
 #: src/filters/light-and-shadow/sparkle.xml:100(para)
-msgid "This adjusts the strenght of the flare."
+msgid "This adjusts the strength of the flare."
 msgstr ""
 
 #: src/filters/light-and-shadow/sparkle.xml:106(term)
@@ -1975,7 +1975,7 @@ msgstr ""
 #: src/filters/light-and-shadow/lighting.xml:397(para)
 msgid ""
 "Select a grayscale image to use as a bump map. See the <link linkend=\"gimp-"
-"filter-bump-map\">Bump Map</link> plug-in for more information."
+"filter-bump-map\">Bump Map</link> filter for more information."
 msgstr ""
 
 #: src/filters/light-and-shadow/lighting.xml:405(term)

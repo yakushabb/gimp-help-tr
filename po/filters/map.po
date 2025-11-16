@@ -4156,9 +4156,4 @@ msgstr ""
 "Haritası</guibutton> düğmesine tıklayın ve sağ paneldeki metin katmanına "
 "çift tıklayın. <placeholder-1/>"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/filters/map/bumpmap.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+

@@ -910,10 +910,5 @@ msgstr ""
 "tanır (2-100): 60'tan fazla değer nadiren gereklidir ve artefaktlara neden "
 "olabilir."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/menus/colors/tone-mapping/destripe.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
 

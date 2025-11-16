@@ -2347,9 +2347,4 @@ msgid ""
 "options that are specific to this tool are explained here."
 msgstr ""
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/toolbox/selection/about-common-select-modifiers.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+

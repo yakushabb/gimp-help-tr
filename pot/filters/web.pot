@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-09 16:57+0000\n"
+"POT-Creation-Date: 2025-11-15 20:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,7 +58,7 @@ msgid "Web"
 msgstr ""
 
 #: src/filters/web/semiflatten.xml:25(title)
-#: src/filters/web/imagemap.xml:37(title)
+#: src/filters/web/imagemap.xml:27(title)
 msgid "Overview"
 msgstr ""
 
@@ -96,7 +96,7 @@ msgid ""
 msgstr ""
 
 #: src/filters/web/semiflatten.xml:59(title)
-#: src/filters/web/imagemap.xml:55(title)
+#: src/filters/web/imagemap.xml:54(title)
 msgid "Activating the Filter"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgid ""
 msgstr ""
 
 #: src/filters/web/semiflatten.xml:71(title)
-#: src/filters/web/imagemap.xml:100(title)
+#: src/filters/web/imagemap.xml:66(title)
 msgid "Options"
 msgstr ""
 
@@ -145,7 +145,7 @@ msgid "Split view"
 msgstr ""
 
 #: src/filters/web/semiflatten.xml:95(term)
-#: src/filters/web/imagemap.xml:218(term)
+#: src/filters/web/imagemap.xml:184(term)
 msgid "Color"
 msgstr ""
 
@@ -195,7 +195,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/imagemap.xml:106(None)
+#: src/filters/web/imagemap.xml:72(None)
 msgid ""
 "@@image: 'images/filters/web/imagemap.png'; "
 "md5=e92454bec43d9aad118450e511d58692"
@@ -203,7 +203,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/imagemap.xml:175(None)
+#: src/filters/web/imagemap.xml:141(None)
 msgid ""
 "@@image: 'images/filters/web/imagemap-area.png'; "
 "md5=f419c1c2a0dfae8e559115d2b92dd6eb"
@@ -211,7 +211,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/imagemap.xml:275(None)
+#: src/filters/web/imagemap.xml:241(None)
 msgid ""
 "@@image: 'images/filters/web/imagemap-info.png'; "
 "md5=007ccd6a12de06c32ae831b3c81659dd"
@@ -219,7 +219,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/imagemap.xml:310(None)
+#: src/filters/web/imagemap.xml:276(None)
 msgid ""
 "@@image: 'images/filters/web/imagemap-grid.png'; "
 "md5=7daba16e4f55605aaf10bd82129281f3"
@@ -227,7 +227,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/imagemap.xml:341(None)
+#: src/filters/web/imagemap.xml:307(None)
 msgid ""
 "@@image: 'images/filters/web/imagemap-guides-options.png'; "
 "md5=6e65d7eaf8032c2e37d91d7f6c050ff1"
@@ -235,7 +235,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/web/imagemap.xml:395(None)
+#: src/filters/web/imagemap.xml:361(None)
 msgid ""
 "@@image: 'images/filters/web/imagemap-draw.png'; "
 "md5=b3c500d1350e9a5a6f43d59564777179"
@@ -250,7 +250,7 @@ msgstr ""
 msgid "Clickable image"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:26(para)
+#: src/filters/web/imagemap.xml:28(para)
 msgid ""
 "In Web sensitive images are frequently used to get some effects when defined "
 "areas are enabled by the pointer. Obviously the most used effect is a "
@@ -260,7 +260,7 @@ msgid ""
 "function. In <acronym>GIMP</acronym>, you can do this in a similar way."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:38(para)
+#: src/filters/web/imagemap.xml:37(para)
 msgid ""
 "This plug-in lets you design graphically and friendly all areas you want to "
 "delimit over your displayed image. You get the relevant part of html tags "
@@ -268,7 +268,7 @@ msgid ""
 "define some actions linked to these areas too."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:44(para)
+#: src/filters/web/imagemap.xml:43(para)
 msgid ""
 "This is a complex tool which is not completely described here (it works "
 "about like Web page makers offering this function). However we want to "
@@ -277,96 +277,64 @@ msgid ""
 "linkend=\"bibliography-online-grokking-gimp-imagemap\"/>."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:56(para)
+#: src/filters/web/imagemap.xml:55(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Web</guisubmenu><guimenuitem>Image Map…</guimenuitem></"
 "menuchoice>."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:64(para)
-msgid ""
-"The window is a small one, but you can magnify it. The main useful areas are:"
-msgstr ""
-
-#: src/filters/web/imagemap.xml:70(para)
-msgid ""
-"completely on the left are vertically displayed icons, one for pointing, "
-"three for calling tools to generate various shape areas, one to edit zone "
-"properties, and finally one to erase a selected zone; you can call these "
-"functions from the Mappings menu,"
-msgstr ""
-
-#: src/filters/web/imagemap.xml:78(para)
-msgid ""
-"just on the right is your working area where you can draw all the shapes "
-"areas you want with the relevant tools,"
-msgstr ""
-
-#: src/filters/web/imagemap.xml:84(para)
-msgid ""
-"on the right is displayed an icon vertical set; its use is obvious but a "
-"help pop-up gives you some information about each function,"
-msgstr ""
-
-#: src/filters/web/imagemap.xml:90(para)
-msgid ""
-"finally, even on the right is a display area, as a property list of the "
-"created areas. A click on one item of the list selects automatically the "
-"corresponding shape in the working area."
-msgstr ""
-
-#: src/filters/web/imagemap.xml:102(title)
+#: src/filters/web/imagemap.xml:68(title)
 msgid "Image Map filter options"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:109(para)
+#: src/filters/web/imagemap.xml:75(para)
 msgid "Image map window"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:115(title)
+#: src/filters/web/imagemap.xml:81(title)
 msgid "The Menu Bar"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:116(para)
+#: src/filters/web/imagemap.xml:82(para)
 msgid ""
 "The menu bar is similar to the main menu, only a few menus or menu entries "
 "are different:"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:122(term)
+#: src/filters/web/imagemap.xml:88(term)
 msgid "File"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:126(term)
+#: src/filters/web/imagemap.xml:92(term)
 msgid "Save"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:127(term)
+#: src/filters/web/imagemap.xml:93(term)
 msgid "Save As"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:129(para)
+#: src/filters/web/imagemap.xml:95(para)
 msgid ""
 "Contrary to other filters, this plug-in doesn't make an image but a text "
 "file. So you must save your work in a text format."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:135(para)
+#: src/filters/web/imagemap.xml:101(para)
 msgid ""
 "With <menuchoice><guimenu>View</guimenu><guimenuitem>Source</guimenuitem></"
 "menuchoice> you can preview this text file content."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:147(term)
+#: src/filters/web/imagemap.xml:113(term)
 msgid "Open"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:148(term)
+#: src/filters/web/imagemap.xml:114(term)
 msgid "Open recent"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:150(para)
+#: src/filters/web/imagemap.xml:116(para)
 msgid ""
 "In the plug-in you can open the saved text file. The areas defined in your "
 "file will be loaded and overdisplayed; if the displayed image is not the "
@@ -374,78 +342,78 @@ msgid ""
 "for adapting the scale."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:164(term)
+#: src/filters/web/imagemap.xml:130(term)
 msgid "Edit"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:168(term)
+#: src/filters/web/imagemap.xml:134(term)
 msgid "Edit area info"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:171(title)
+#: src/filters/web/imagemap.xml:137(title)
 msgid "Editing an image map area"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:179(para)
+#: src/filters/web/imagemap.xml:145(para)
 msgid ""
 "In the settings dialog you can edit the area information of a selected area. "
 "This dialog will pop up automatically whenever you create a new area."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:194(term)
+#: src/filters/web/imagemap.xml:160(term)
 msgid "View"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:196(para)
+#: src/filters/web/imagemap.xml:162(para)
 msgid "This menu offers you special functions:"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:201(term)
+#: src/filters/web/imagemap.xml:167(term)
 msgid "Area List"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:203(para)
+#: src/filters/web/imagemap.xml:169(para)
 msgid "Here you can hide or show the selection area."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:209(term)
+#: src/filters/web/imagemap.xml:175(term)
 msgid "Source…"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:211(para)
+#: src/filters/web/imagemap.xml:177(para)
 msgid ""
 "Here you see the raw data as you would save it to or read it from a file."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:219(term)
+#: src/filters/web/imagemap.xml:185(term)
 msgid "Gray"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:221(para)
+#: src/filters/web/imagemap.xml:187(para)
 msgid "You can select the image mode here and work with a Grayscale display."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:231(term)
+#: src/filters/web/imagemap.xml:197(term)
 msgid "Mappings"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:233(para)
+#: src/filters/web/imagemap.xml:199(para)
 msgid ""
 "You will seldom use this menu, since you can more easily access selection "
 "tools by clicking on icons on the left of the working area."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:240(term)
+#: src/filters/web/imagemap.xml:206(term)
 msgid "Arrow"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:242(para)
+#: src/filters/web/imagemap.xml:208(para)
 msgid ""
 "The arrow here represents the Move tool. When activated tool is selected, "
 "you can select and move an area on the image."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:247(para)
+#: src/filters/web/imagemap.xml:213(para)
 msgid ""
 "With a polygon, you can use the arrow to move one of the red points. Right-"
 "click on a segment between two red points to open a pop-up menu that offers, "
@@ -453,33 +421,33 @@ msgid ""
 "on a red point, you can remove it."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:257(term)
+#: src/filters/web/imagemap.xml:223(term)
 msgid "Rectangle"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:258(term)
+#: src/filters/web/imagemap.xml:224(term)
 msgid "Circle"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:259(term)
+#: src/filters/web/imagemap.xml:225(term)
 msgid "Polygon"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:261(para)
+#: src/filters/web/imagemap.xml:227(para)
 msgid ""
 "These tools let you create various shape areas: click on the image, move the "
 "pointer, and click again."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:268(term)
+#: src/filters/web/imagemap.xml:234(term)
 msgid "Edit Map Info…"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:271(title)
+#: src/filters/web/imagemap.xml:237(title)
 msgid "Editing the image map data"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:279(para)
+#: src/filters/web/imagemap.xml:245(para)
 msgid ""
 "With this simple dialog you can enter some items, which will be written to "
 "the resulting output file; either as comments (<guilabel>Author</guilabel>, "
@@ -488,43 +456,43 @@ msgid ""
 "<guilabel>Default URL</guilabel>)."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:295(term)
+#: src/filters/web/imagemap.xml:261(term)
 msgid "Tools"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:297(para)
+#: src/filters/web/imagemap.xml:263(para)
 msgid ""
 "With the <quote>Tools</quote> menu you can create guides and even regularly "
 "spaced rectangular areas."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:302(term)
+#: src/filters/web/imagemap.xml:268(term)
 msgid "Grid"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:303(term)
+#: src/filters/web/imagemap.xml:269(term)
 msgid "Grid Settings…"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:306(title)
+#: src/filters/web/imagemap.xml:272(title)
 msgid "Grid options"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:314(para)
+#: src/filters/web/imagemap.xml:280(para)
 msgid ""
 "Here you can enable and disable the image grid or configure some grid "
 "properties."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:321(term)
+#: src/filters/web/imagemap.xml:287(term)
 msgid "Use GIMP Guides…"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:322(term)
+#: src/filters/web/imagemap.xml:288(term)
 msgid "Create Guides…"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:324(para)
+#: src/filters/web/imagemap.xml:290(para)
 msgid ""
 "The guide lines are created at the border of the image but can be moved "
 "around by clicking on the red squares on each line something similar to the "
@@ -532,19 +500,19 @@ msgid ""
 "rectangles in the image."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:334(term)
+#: src/filters/web/imagemap.xml:300(term)
 msgid "Create guides"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:337(title)
+#: src/filters/web/imagemap.xml:303(title)
 msgid "Guide options"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:344(para)
+#: src/filters/web/imagemap.xml:310(para)
 msgid "The guide options"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:348(para)
+#: src/filters/web/imagemap.xml:314(para)
 msgid ""
 "Instead of creating geometrical shapes to select the active areas you may "
 "use an array of rectangles, each representing an active area, by clicking on "
@@ -555,41 +523,41 @@ msgid ""
 "rectangle by moving the red squares as usual."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:369(title)
+#: src/filters/web/imagemap.xml:335(title)
 msgid "The Tool Bar"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:370(para)
+#: src/filters/web/imagemap.xml:336(para)
 msgid ""
 "Most entries here are just shortcuts for some functions already described. "
 "Exceptions:"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:376(term)
+#: src/filters/web/imagemap.xml:342(term)
 msgid "Move Area to Front"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:377(term)
+#: src/filters/web/imagemap.xml:343(term)
 msgid "Move Area to Bottom"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:379(para)
+#: src/filters/web/imagemap.xml:345(para)
 msgid "Here you can move an area entry to the bottom or top of the area list."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:389(title)
-#: src/filters/web/imagemap.xml:391(title)
+#: src/filters/web/imagemap.xml:355(title)
+#: src/filters/web/imagemap.xml:357(title)
 msgid "The Working Area"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:399(para)
+#: src/filters/web/imagemap.xml:365(para)
 msgid ""
 "In the main area of the image map window, on the left side, you will find "
 "your working area where you can draw all the shapes areas you want with the "
 "relevant tools."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:404(para)
+#: src/filters/web/imagemap.xml:370(para)
 msgid ""
 "Beside the working area there are vertically displayed icons, one for "
 "pointing, three for calling tools to generate various shape areas, one to "
@@ -597,28 +565,28 @@ msgid ""
 "these functions from the Mappings menu too."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:411(para)
+#: src/filters/web/imagemap.xml:377(para)
 msgid "Note that the areas should not overlap."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:418(title)
+#: src/filters/web/imagemap.xml:384(title)
 msgid "The selection area"
 msgstr ""
 
-#: src/filters/web/imagemap.xml:419(para)
+#: src/filters/web/imagemap.xml:385(para)
 msgid ""
 "On the right is a display area, as a property list of the created areas. A "
 "click on one item of the list selects automatically the corresponding shape "
 "in the working area, then you can modify it."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:424(para)
+#: src/filters/web/imagemap.xml:390(para)
 msgid ""
 "Beside the display is an icon vertical set; its use is obvious but a help "
 "pop-up gives you some information about each function."
 msgstr ""
 
-#: src/filters/web/imagemap.xml:429(para)
+#: src/filters/web/imagemap.xml:395(para)
 msgid ""
 "Unfortunately, the arrow symbols for moving a list entry up or down do not "
 "work here. But of course you carefully avoided to create overlapping areas, "

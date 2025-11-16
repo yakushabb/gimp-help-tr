@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
+"POT-Creation-Date: 2025-11-15 20:27+0000\n"
 "PO-Revision-Date: 2025-11-08 21:54+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -152,8 +152,8 @@ msgid ""
 "This filter adds a subtle translucent 3D effect to the selected region or "
 "alpha channel. This 3D effect is achieved by"
 msgstr ""
-"Bu süzgeç, seçilen bölgeye ya da alfa kanalına ince bir yarı saydam 3D etkisi "
-"ekler. Bu 3B etkisi şu şekilde elde edilir"
+"Bu süzgeç, seçilen bölgeye ya da alfa kanalına ince bir yarı saydam 3D "
+"etkisi ekler. Bu 3B etkisi şu şekilde elde edilir"
 
 #: src/filters/light-and-shadow/xach-effect.xml:50(para)
 #, fuzzy
@@ -1026,12 +1026,12 @@ msgid ""
 "the same situation, the filter produces exactly the same results. A "
 "different random seed produces different results."
 msgstr ""
-"Bu seçenek süzgecin rastgeleliğini denetler. <guilabel>Rastgele</"
-"guilabel> tohum kutusu, kullanılan rastgeleleştirme algoritması için manuel "
-"olarak bir tohum girmenizi sağlar. <guibutton>Yeni Tohum</guibutton> "
-"düğmesine basarak da rastgele bir tohum oluşturabilirsiniz. Aynı durumda "
-"aynı rastgele tohum kullanılırsa, süzgeç tamamen aynı sonuçları üretir. "
-"Farklı bir rastgele tohum farklı sonuçlar üretir."
+"Bu seçenek süzgecin rastgeleliğini denetler. <guilabel>Rastgele</guilabel> "
+"tohum kutusu, kullanılan rastgeleleştirme algoritması için manuel olarak bir "
+"tohum girmenizi sağlar. <guibutton>Yeni Tohum</guibutton> düğmesine basarak "
+"da rastgele bir tohum oluşturabilirsiniz. Aynı durumda aynı rastgele tohum "
+"kullanılırsa, süzgeç tamamen aynı sonuçları üretir. Farklı bir rastgele "
+"tohum farklı sonuçlar üretir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1121,7 +1121,9 @@ msgid "Flare intensity"
 msgstr "Parlama yoğunluğu"
 
 #: src/filters/light-and-shadow/sparkle.xml:100(para)
-msgid "This adjusts the strenght of the flare."
+#, fuzzy
+#| msgid "This adjusts the strenght of the flare."
+msgid "This adjusts the strength of the flare."
 msgstr "Bu, parlamanın kuvvetini ayarlar."
 
 #: src/filters/light-and-shadow/sparkle.xml:106(term)
@@ -1464,9 +1466,9 @@ msgid ""
 "For angles greater than 90°, it's the other way round. Tip: think of the "
 "slider's handle as source of light."
 msgstr ""
-"Açı, sırasıyla gölgenin yönünü ya da hayali ışık kaynağını belirler. Değerler "
-"0° ile 180° arasında değişir; burada 90°, seçimin ya da katmanın hemen "
-"önündeki ışık kaynağını temsil eder. 90°'den küçük açılarda gölge sağ "
+"Açı, sırasıyla gölgenin yönünü ya da hayali ışık kaynağını belirler. "
+"Değerler 0° ile 180° arasında değişir; burada 90°, seçimin ya da katmanın "
+"hemen önündeki ışık kaynağını temsil eder. 90°'den küçük açılarda gölge sağ "
 "tarafta olduğundan ışık kaynağı soldadır. 90°'den büyük açılarda ise durum "
 "tam tersidir. İpucu: Kaydırıcının tutamağını ışık kaynağı olarak düşünün."
 
@@ -1634,8 +1636,8 @@ msgstr ""
 "Gölgenin matlığı, gölgeyi içeren yeni katmanın matlığıdır (bkz. <xref "
 "linkend=\"gimp-layer-properties\"/>). Varsayılan değer %80'dir, ancak burada "
 "0 (tam şeffaflık) ile 100 (tam matlık) arasında herhangi bir değer "
-"seçebilirsiniz. Süzgeçi bir görüntüye uyguladıktan sonra, matlığı "
-"Katmanlar Diyalog Penceresi'nde ( <link linkend=\"gimp-layer-dialog\">) "
+"seçebilirsiniz. Süzgeçi bir görüntüye uyguladıktan sonra, matlığı Katmanlar "
+"Diyalog Penceresi'nde ( <link linkend=\"gimp-layer-dialog\">) "
 "değiştirebilirsiniz</link>."
 
 #: src/filters/light-and-shadow/perspective-shadow.xml:260(term)
@@ -2364,8 +2366,8 @@ msgid ""
 "every option, from its minimum (on the left) to its maximum (on the right). "
 "Help pop ups are more useful."
 msgstr ""
-"Giriş kutularının her iki ucundaki küçük küreler, en küçükten (solda) "
-"en büyüğe (sağda) kadar her seçeneğin eylemini temsil eder. Yardım açılır "
+"Giriş kutularının her iki ucundaki küçük küreler, en küçükten (solda) en "
+"büyüğe (sağda) kadar her seçeneğin eylemini temsil eder. Yardım açılır "
 "pencereleri daha kullanışlıdır."
 
 #: src/filters/light-and-shadow/lighting.xml:312(term)
@@ -2476,7 +2478,7 @@ msgstr "Derinlik etkisi eşlemi görüntüsü"
 #, fuzzy
 msgid ""
 "Select a grayscale image to use as a bump map. See the <link linkend=\"gimp-"
-"filter-bump-map\">Bump Map</link> plug-in for more information."
+"filter-bump-map\">Bump Map</link> filter for more information."
 msgstr ""
 "Bump map olarak kullanmak için bir gri tonlamalı görüntü seçin. Daha fazla "
 "bilgi için <link linkend=\"gimp-filter-bump-map\">Bump Map</link> "
@@ -3532,8 +3534,8 @@ msgstr "Derinlik"
 msgid ""
 "This controls the emboss depth; i.e. how deep and detailed the bevel will be."
 msgstr ""
-"Bu, kabartma derinliğini denetler; yani eğimin ne kadar derin ve "
-"ayrıntılı olacağını belirler."
+"Bu, kabartma derinliğini denetler; yani eğimin ne kadar derin ve ayrıntılı "
+"olacağını belirler."
 
 #: src/filters/light-and-shadow/gegl-bevel.xml:151(term)
 msgid "Light Angle"
@@ -3795,8 +3797,8 @@ msgid ""
 "Open a new image, the same size as your original image, filled with "
 "<emphasis>transparency</emphasis>."
 msgstr ""
-"Özgün resminizle aynı boyutta, <emphasis>şeffaflıkla</emphasis> "
-"doldurulmuş yeni bir resim açın."
+"Özgün resminizle aynı boyutta, <emphasis>şeffaflıkla</emphasis> doldurulmuş "
+"yeni bir resim açın."
 
 #: src/filters/light-and-shadow/drop-shadow.xml:252(para)
 msgid "Create the selection"
@@ -3827,9 +3829,9 @@ msgid ""
 "the image and paste it as new layer in the new image. Move the new layer to "
 "the bottom of the layer stack."
 msgstr ""
-"Özgün görüntünüzü arka plan olarak da kullanabilirsiniz: seçimi geri "
-"alın, görüntüyü kopyalayın ve yeni görüntüye yeni katman olarak yapıştırın. "
-"Yeni katmanı katman yığınının en altına taşıyın."
+"Özgün görüntünüzü arka plan olarak da kullanabilirsiniz: seçimi geri alın, "
+"görüntüyü kopyalayın ve yeni görüntüye yeni katman olarak yapıştırın. Yeni "
+"katmanı katman yığınının en altına taşıyın."
 
 #: src/filters/light-and-shadow/drop-shadow.xml:237(para)
 msgid ""
@@ -4097,10 +4099,4 @@ msgstr ""
 "Etkinleştirildiğinde, vurguların pozlamasını sınırlar. Bu, aşırı pozlanmış "
 "alanlardaki parlamayı azaltmak için kullanılabilir."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/filters/light-and-shadow/bloom.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2023, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
 

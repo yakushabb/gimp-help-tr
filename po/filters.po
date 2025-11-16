@@ -443,9 +443,4 @@ msgid "These options are described in <xref linkend=\"gimp-filters-common\"/>."
 msgstr ""
 "Bu seçenekler şurada açıklanmıştır: <xref linkend=\"gimp-filters-common\"/>."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/filters/about-common-features.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+

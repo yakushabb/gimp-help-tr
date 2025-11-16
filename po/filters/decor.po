@@ -2249,10 +2249,5 @@ msgstr ""
 "<link linkend=\"gimp-layer-dialog\">Katmanlar İletişim Kutusu</link> "
 "<quote>Derinlik etkisi katmanını koru</quote> etkinleştirilmiş olarak"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/filters/decor/add-bevel.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025"
+
 

@@ -16695,7 +16695,4 @@ msgid ""
 "quote> dialog. See <xref linkend=\"script-fu-paste-as-brush\"/>."
 msgstr ""
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/dialogs/brushes-dialog.xml:0(None)
-msgid "translator-credits"
-msgstr ""
+

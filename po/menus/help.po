@@ -771,9 +771,4 @@ msgid ""
 msgstr ""
 "<guibutton>Lisans</guibutton> düğmesin lisansın nasıl alınacağını açıklar."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/menus/help/about.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2023-2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2023-2025."
+

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-09 16:57+0000\n"
+"POT-Creation-Date: 2025-11-15 20:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,7 +96,7 @@ msgstr ""
 
 #: src/filters/noise/spread.xml:51(title) src/filters/noise/slur.xml:54(title)
 #: src/filters/noise/rgb-noise.xml:58(title)
-#: src/filters/noise/pick.xml:52(title)
+#: src/filters/noise/pick.xml:52(title) src/filters/noise/hurl.xml:54(title)
 #: src/filters/noise/hsv-noise.xml:55(title)
 #: src/filters/noise/cie-lch-noise.xml:50(title)
 msgid "Activating the Filter"
@@ -111,7 +111,7 @@ msgstr ""
 
 #: src/filters/noise/spread.xml:63(title) src/filters/noise/slur.xml:66(title)
 #: src/filters/noise/rgb-noise.xml:70(title)
-#: src/filters/noise/pick.xml:64(title) src/filters/noise/hurl.xml:62(title)
+#: src/filters/noise/pick.xml:64(title) src/filters/noise/hurl.xml:66(title)
 #: src/filters/noise/hsv-noise.xml:67(title)
 #: src/filters/noise/cie-lch-noise.xml:62(title)
 msgid "Options"
@@ -123,14 +123,14 @@ msgstr ""
 
 #: src/filters/noise/spread.xml:75(term) src/filters/noise/slur.xml:77(term)
 #: src/filters/noise/rgb-noise.xml:82(term) src/filters/noise/pick.xml:75(term)
-#: src/filters/noise/hurl.xml:73(term) src/filters/noise/hsv-noise.xml:79(term)
+#: src/filters/noise/hurl.xml:77(term) src/filters/noise/hsv-noise.xml:79(term)
 #: src/filters/noise/cie-lch-noise.xml:74(term)
 msgid "Presets"
 msgstr ""
 
 #: src/filters/noise/spread.xml:76(quote) src/filters/noise/slur.xml:78(quote)
 #: src/filters/noise/rgb-noise.xml:83(quote)
-#: src/filters/noise/pick.xml:76(quote) src/filters/noise/hurl.xml:74(quote)
+#: src/filters/noise/pick.xml:76(quote) src/filters/noise/hurl.xml:78(quote)
 #: src/filters/noise/hsv-noise.xml:80(quote)
 #: src/filters/noise/cie-lch-noise.xml:75(quote)
 msgid "Input Type"
@@ -138,35 +138,35 @@ msgstr ""
 
 #: src/filters/noise/spread.xml:77(term) src/filters/noise/slur.xml:79(term)
 #: src/filters/noise/rgb-noise.xml:84(term) src/filters/noise/pick.xml:77(term)
-#: src/filters/noise/hurl.xml:75(term) src/filters/noise/hsv-noise.xml:81(term)
+#: src/filters/noise/hurl.xml:79(term) src/filters/noise/hsv-noise.xml:81(term)
 #: src/filters/noise/cie-lch-noise.xml:76(term)
 msgid "Clipping"
 msgstr ""
 
 #: src/filters/noise/spread.xml:78(term) src/filters/noise/slur.xml:80(term)
 #: src/filters/noise/rgb-noise.xml:85(term) src/filters/noise/pick.xml:78(term)
-#: src/filters/noise/hurl.xml:76(term) src/filters/noise/hsv-noise.xml:82(term)
+#: src/filters/noise/hurl.xml:80(term) src/filters/noise/hsv-noise.xml:82(term)
 #: src/filters/noise/cie-lch-noise.xml:77(term)
 msgid "Blending Options"
 msgstr ""
 
 #: src/filters/noise/spread.xml:79(term) src/filters/noise/slur.xml:81(term)
 #: src/filters/noise/rgb-noise.xml:86(term) src/filters/noise/pick.xml:79(term)
-#: src/filters/noise/hurl.xml:77(term) src/filters/noise/hsv-noise.xml:83(term)
+#: src/filters/noise/hurl.xml:81(term) src/filters/noise/hsv-noise.xml:83(term)
 #: src/filters/noise/cie-lch-noise.xml:78(term)
 msgid "Preview"
 msgstr ""
 
 #: src/filters/noise/spread.xml:80(term) src/filters/noise/slur.xml:82(term)
 #: src/filters/noise/rgb-noise.xml:87(term) src/filters/noise/pick.xml:80(term)
-#: src/filters/noise/hurl.xml:78(term) src/filters/noise/hsv-noise.xml:84(term)
+#: src/filters/noise/hurl.xml:82(term) src/filters/noise/hsv-noise.xml:84(term)
 #: src/filters/noise/cie-lch-noise.xml:79(term)
 msgid "Merge filter"
 msgstr ""
 
 #: src/filters/noise/spread.xml:81(term) src/filters/noise/slur.xml:83(term)
 #: src/filters/noise/rgb-noise.xml:88(term) src/filters/noise/pick.xml:81(term)
-#: src/filters/noise/hurl.xml:79(term) src/filters/noise/hsv-noise.xml:85(term)
+#: src/filters/noise/hurl.xml:83(term) src/filters/noise/hsv-noise.xml:85(term)
 #: src/filters/noise/cie-lch-noise.xml:80(term)
 msgid "Split view"
 msgstr ""
@@ -188,7 +188,7 @@ msgstr ""
 
 #: src/filters/noise/spread.xml:99(term) src/filters/noise/slur.xml:112(term)
 #: src/filters/noise/rgb-noise.xml:154(term)
-#: src/filters/noise/pick.xml:107(term) src/filters/noise/hurl.xml:106(term)
+#: src/filters/noise/pick.xml:107(term) src/filters/noise/hurl.xml:110(term)
 #: src/filters/noise/hsv-noise.xml:128(term)
 #: src/filters/noise/cie-lch-noise.xml:122(term)
 msgid "Random seed"
@@ -196,7 +196,7 @@ msgstr ""
 
 #: src/filters/noise/spread.xml:100(term) src/filters/noise/slur.xml:113(term)
 #: src/filters/noise/rgb-noise.xml:155(term)
-#: src/filters/noise/pick.xml:108(term) src/filters/noise/hurl.xml:107(term)
+#: src/filters/noise/pick.xml:108(term) src/filters/noise/hurl.xml:111(term)
 #: src/filters/noise/hsv-noise.xml:129(term)
 #: src/filters/noise/cie-lch-noise.xml:123(term)
 msgid "New Seed"
@@ -204,7 +204,7 @@ msgstr ""
 
 #: src/filters/noise/spread.xml:102(para) src/filters/noise/slur.xml:115(para)
 #: src/filters/noise/rgb-noise.xml:157(para)
-#: src/filters/noise/pick.xml:110(para) src/filters/noise/hurl.xml:109(para)
+#: src/filters/noise/pick.xml:110(para) src/filters/noise/hurl.xml:113(para)
 #: src/filters/noise/hsv-noise.xml:131(para)
 #: src/filters/noise/cie-lch-noise.xml:125(para)
 msgid ""
@@ -267,7 +267,7 @@ msgid "Slur filter options"
 msgstr ""
 
 #: src/filters/noise/slur.xml:89(term) src/filters/noise/pick.xml:87(term)
-#: src/filters/noise/hurl.xml:85(term)
+#: src/filters/noise/hurl.xml:89(term)
 msgid "Randomization (%)"
 msgstr ""
 
@@ -281,7 +281,7 @@ msgid ""
 msgstr ""
 
 #: src/filters/noise/slur.xml:102(term) src/filters/noise/pick.xml:97(term)
-#: src/filters/noise/hurl.xml:95(term)
+#: src/filters/noise/hurl.xml:99(term)
 msgid "Repeat"
 msgstr ""
 
@@ -511,7 +511,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/noise/hurl.xml:67(None)
+#: src/filters/noise/hurl.xml:71(None)
 msgid ""
 "@@image: 'images/filters/noise/hurl-dialog.png'; "
 "md5=7c14de6c2e16a6753c3d42a803709859"
@@ -532,13 +532,6 @@ msgstr ""
 
 #: src/filters/noise/hurl.xml:42(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
-"guimenu><guisubmenu>Noise</guisubmenu><guimenuitem>Hurl…</guimenuitem></"
-"menuchoice>."
-msgstr ""
-
-#: src/filters/noise/hurl.xml:50(para)
-msgid ""
 "The Hurl filter changes each affected pixel to a random color, so it "
 "produces real <emphasis>random noise</emphasis>. All color channels, "
 "including an alpha channel (if it is present) are randomized. All possible "
@@ -548,17 +541,24 @@ msgid ""
 "<guilabel>Randomization (%)</guilabel> option."
 msgstr ""
 
-#: src/filters/noise/hurl.xml:64(title)
+#: src/filters/noise/hurl.xml:55(para)
+msgid ""
+"This filter is found in the main menu under <menuchoice><guimenu>Filters</"
+"guimenu><guisubmenu>Noise</guisubmenu><guimenuitem>Hurl…</guimenuitem></"
+"menuchoice>."
+msgstr ""
+
+#: src/filters/noise/hurl.xml:68(title)
 msgid "<quote>Hurl</quote> options"
 msgstr ""
 
-#: src/filters/noise/hurl.xml:87(para)
+#: src/filters/noise/hurl.xml:91(para)
 msgid ""
 "This slider represents the percentage of pixels of the active layer or "
 "selection which will be hurled. The higher value, the more pixels are hurled."
 msgstr ""
 
-#: src/filters/noise/hurl.xml:97(para)
+#: src/filters/noise/hurl.xml:101(para)
 msgid ""
 "It represents the number of times the filter will be applied. In the case of "
 "the Hurl filter it is not very useful, because the same results can be "

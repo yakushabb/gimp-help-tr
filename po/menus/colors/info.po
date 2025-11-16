@@ -557,9 +557,4 @@ msgstr ""
 "Yeşil (32,224,32) olur ve bu, her kanal için kanal aralığının sınırları (63 "
 "+ 0)/2, (255+192)/2 , (63+0)/2 arasındaki ortalamadır."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/menus/colors/info/borderaverage.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+

@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
+"POT-Creation-Date: 2025-11-15 20:27+0000\n"
 "PO-Revision-Date: 2025-11-06 12:45+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -22,6 +22,25 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/weave.xml:26(None)
+#: src/filters/artistic/waterpixels.xml:28(None)
+#: src/filters/artistic/softglow.xml:26(None)
+#: src/filters/artistic/photocopy.xml:26(None)
+#: src/filters/artistic/oilify.xml:26(None)
+#: src/filters/artistic/glasstile.xml:29(None)
+#: src/filters/artistic/cubism.xml:26(None)
+#: src/filters/artistic/cartoon.xml:26(None)
+#: src/filters/artistic/applycanvas.xml:30(None)
+#: src/filters/artistic/GIMPressionist.xml:30(None)
+msgid ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+msgstr ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/weave.xml:35(None)
 msgid ""
 "@@image: 'images/filters/examples/artistic-taj-weave.jpg'; "
 "md5=96006b915a6b71b5fbd24c4edd46d138"
@@ -31,7 +50,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/weave.xml:71(None)
+#: src/filters/artistic/weave.xml:80(None)
 msgid ""
 "@@image: 'images/filters/artistic/weave.png'; "
 "md5=e1a716445d951de35ff056f53233de37"
@@ -41,7 +60,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/weave.xml:166(None)
+#: src/filters/artistic/weave.xml:175(None)
 msgid ""
 "@@image: 'images/filters/examples/artistic-weave-as-lattice.jpg'; "
 "md5=bfaef67bef6049bc9c6c45cc73c3b5f2"
@@ -116,10 +135,23 @@ msgid "Example of Weave"
 msgstr "Dokuma Örneği"
 
 #: src/filters/artistic/weave.xml:29(para)
+#: src/filters/artistic/waterpixels.xml:31(para)
+#: src/filters/artistic/softglow.xml:29(para)
+#: src/filters/artistic/photocopy.xml:29(para)
+#: src/filters/artistic/oilify.xml:29(para)
+#: src/filters/artistic/glasstile.xml:32(para)
+#: src/filters/artistic/cubism.xml:29(para)
+#: src/filters/artistic/cartoon.xml:29(para)
+#: src/filters/artistic/applycanvas.xml:33(para)
+#: src/filters/artistic/GIMPressionist.xml:33(para)
+msgid "Original image"
+msgstr "Özgün görüntü"
+
+#: src/filters/artistic/weave.xml:38(para)
 msgid "Filter <quote>Weave</quote> applied"
 msgstr "<quote>Dokuma</quote> süzgeci uygulandı"
 
-#: src/filters/artistic/weave.xml:33(para)
+#: src/filters/artistic/weave.xml:42(para)
 #, fuzzy
 msgid ""
 "The <guimenuitem>Weave</guimenuitem> command is a Script-Fu script which "
@@ -133,7 +165,7 @@ msgstr ""
 "şeritleri, ince ahşap levha ya da soyulmuş bambu üzerine basılmış gibi "
 "görünür."
 
-#: src/filters/artistic/weave.xml:40(para)
+#: src/filters/artistic/weave.xml:49(para)
 #, fuzzy
 msgid ""
 "This filter adds a <quote>Multiply</quote> mode layer upon the layer where "
@@ -142,7 +174,7 @@ msgstr ""
 "Bu süzgeç, bu komutu etkinleştirdiğiniz katmanın üzerine bir <quote>Çarpma</"
 "quote> modu katmanı ekler. Örgü dokusu gri düzeylerde oluşturulur."
 
-#: src/filters/artistic/weave.xml:46(para)
+#: src/filters/artistic/weave.xml:55(para)
 #: src/filters/artistic/clothify.xml:39(para)
 #: src/filters/artistic/GIMPressionist.xml:54(para)
 #, fuzzy
@@ -150,8 +182,8 @@ msgstr ""
 msgid "If the image is in indexed mode, this menu entry is disabled."
 msgstr "Görüntü indeksli renklerdeyse, bu menü girdisi devre dışı bırakılır."
 
-#: src/filters/artistic/weave.xml:53(title)
-#: src/filters/artistic/waterpixels.xml:37(title)
+#: src/filters/artistic/weave.xml:62(title)
+#: src/filters/artistic/waterpixels.xml:58(title)
 #: src/filters/artistic/vangogh-lic.xml:69(title)
 #: src/filters/artistic/softglow.xml:50(title)
 #: src/filters/artistic/simple-linear-clustering.xml:40(title)
@@ -166,7 +198,7 @@ msgstr "Görüntü indeksli renklerdeyse, bu menü girdisi devre dışı bırak�
 msgid "Activating the Filter"
 msgstr "Süzgeci Etkinleştirme"
 
-#: src/filters/artistic/weave.xml:54(para)
+#: src/filters/artistic/weave.xml:63(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Weave…</guimenuitem></"
@@ -177,8 +209,8 @@ msgstr ""
 "menuchoice> altında bulunur."
 
 #. Parameter Settings
-#: src/filters/artistic/weave.xml:65(title)
-#: src/filters/artistic/waterpixels.xml:49(title)
+#: src/filters/artistic/weave.xml:74(title)
+#: src/filters/artistic/waterpixels.xml:70(title)
 #: src/filters/artistic/vangogh-lic.xml:81(title)
 #: src/filters/artistic/softglow.xml:62(title)
 #: src/filters/artistic/simple-linear-clustering.xml:52(title)
@@ -195,29 +227,29 @@ msgstr ""
 msgid "Options"
 msgstr "Seçenekler"
 
-#: src/filters/artistic/weave.xml:67(title)
+#: src/filters/artistic/weave.xml:76(title)
 msgid "<quote>Weave</quote> filter options"
 msgstr "<quote>Dokuma</quote> süzgeci seçenekleri"
 
-#: src/filters/artistic/weave.xml:75(para)
+#: src/filters/artistic/weave.xml:84(para)
 #, fuzzy
 msgid ""
 "For to make coarse mesh texture, increase the ribbon spacing and/or decrease "
 "the ribbon width."
 msgstr ""
-"Kaba ağ dokusu yapmak için şerit aralığını artırın ve/ya da şerit genişliğini "
-"azaltın."
+"Kaba ağ dokusu yapmak için şerit aralığını artırın ve/ya da şerit "
+"genişliğini azaltın."
 
-#: src/filters/artistic/weave.xml:79(para)
+#: src/filters/artistic/weave.xml:88(para)
 #, fuzzy
 msgid "For to strain ribbons hard, decrease the shadow depth."
 msgstr "Şeritleri sertçe germek için gölge derinliğini azaltın."
 
-#: src/filters/artistic/weave.xml:84(term)
+#: src/filters/artistic/weave.xml:93(term)
 msgid "Ribbon width"
 msgstr "Şerit genişliği"
 
-#: src/filters/artistic/weave.xml:86(para)
+#: src/filters/artistic/weave.xml:95(para)
 #, fuzzy
 msgid ""
 "With this option you can set the tape width in pixel between 0.0 and 256.0. "
@@ -226,26 +258,26 @@ msgstr ""
 "Bu seçenekle, bant genişliğini 0,0 ile 256,0 arasında piksel cinsinden "
 "ayarlayabilirsiniz. Varsayılan olarak 30,0 piksel ayarlanmıştır."
 
-#: src/filters/artistic/weave.xml:93(term)
+#: src/filters/artistic/weave.xml:102(term)
 msgid "Ribbon spacing"
 msgstr "Şerit boşluğu"
 
-#: src/filters/artistic/weave.xml:95(para)
+#: src/filters/artistic/weave.xml:104(para)
 #, fuzzy
 msgid ""
 "With this option you can set the distance to the neighboring ribbon or the "
 "size of black square hole in pixel between 0.0 and 256.0. In default, 10.0 "
 "pixels is set."
 msgstr ""
-"Bu seçenekle komşu şeride olan mesafeyi ya da siyah kare deliğin boyutunu 0.0 "
-"ile 256.0 arasında piksel olarak ayarlayabilirsiniz. Varsayılan olarak 10.0 "
-"piksel ayarlanmıştır."
+"Bu seçenekle komşu şeride olan mesafeyi ya da siyah kare deliğin boyutunu "
+"0.0 ile 256.0 arasında piksel olarak ayarlayabilirsiniz. Varsayılan olarak "
+"10.0 piksel ayarlanmıştır."
 
-#: src/filters/artistic/weave.xml:103(term)
+#: src/filters/artistic/weave.xml:112(term)
 msgid "Shadow darkness"
 msgstr "Gölge koyuluğu"
 
-#: src/filters/artistic/weave.xml:105(para)
+#: src/filters/artistic/weave.xml:114(para)
 #, fuzzy
 msgid ""
 "With this option you can set the darkness at crossings of lower ribbon in "
@@ -256,12 +288,12 @@ msgstr ""
 "ayarlayabilirsiniz. Düşük değer şeritleri daha ince gösterir. 75.yüzde 0 "
 "öntanımlı değerdir."
 
-#: src/filters/artistic/weave.xml:113(term)
+#: src/filters/artistic/weave.xml:122(term)
 #: src/filters/artistic/GIMPressionist.xml:755(term)
 msgid "Shadow depth"
 msgstr "Gölge derinliği"
 
-#: src/filters/artistic/weave.xml:115(para)
+#: src/filters/artistic/weave.xml:124(para)
 #, fuzzy
 msgid ""
 "With this option you can set the bent strength of ribbons in percentage. "
@@ -274,11 +306,11 @@ msgstr ""
 "yüzey içindir. Gerçek etki <guilabel>Gölge koyuluğu</guilabel> ile "
 "sınırlıdır. 75.yüzde 0 öntanımlı değerdir."
 
-#: src/filters/artistic/weave.xml:125(term)
+#: src/filters/artistic/weave.xml:134(term)
 msgid "Thread length"
 msgstr "Parçacık uzunluğu"
 
-#: src/filters/artistic/weave.xml:127(para)
+#: src/filters/artistic/weave.xml:136(para)
 #, fuzzy
 msgid ""
 "With this option you can set the regularity of stripe texture. If this value "
@@ -291,11 +323,11 @@ msgstr ""
 "ise, şerit yüzeyi benekli hale gelir. Bu değeri 0,0 ile 256,0 arasında "
 "piksel cinsinden ayarlayın. Varsayılan değer 200,0'dır."
 
-#: src/filters/artistic/weave.xml:137(term)
+#: src/filters/artistic/weave.xml:146(term)
 msgid "Thread density"
 msgstr "Parçacık sıklığı"
 
-#: src/filters/artistic/weave.xml:139(para)
+#: src/filters/artistic/weave.xml:148(para)
 #, fuzzy
 msgid ""
 "With this option you can set the density of fiber-like parallel short "
@@ -306,11 +338,11 @@ msgstr ""
 "yoğunluğunu ayarlayabilirsiniz. Şeritleri doldurmak için bu değeri artırın. "
 "50.yüzde 0 öntanımlı değerdir."
 
-#: src/filters/artistic/weave.xml:147(term)
+#: src/filters/artistic/weave.xml:156(term)
 msgid "Thread intensity"
 msgstr "Parçacık yoğunluğu"
 
-#: src/filters/artistic/weave.xml:149(para)
+#: src/filters/artistic/weave.xml:158(para)
 #, fuzzy
 msgid ""
 "With this option you can set the opacity of stripe texture. Lower value "
@@ -321,15 +353,15 @@ msgstr ""
 "iplikleri belirsiz gösterir. İplikleri temizlemek için değeri yüzde 0,0 "
 "olarak ayarlayın. Varsayılan değer yüzde 100,0'dır."
 
-#: src/filters/artistic/weave.xml:160(title)
+#: src/filters/artistic/weave.xml:169(title)
 msgid "Another usage"
 msgstr "Başka bir kullanım"
 
-#: src/filters/artistic/weave.xml:162(title)
+#: src/filters/artistic/weave.xml:171(title)
 msgid "Adding a lattice using <quote>Weave</quote> texture"
 msgstr "<quote>Dokuma</quote> dokusunu kullanarak kafes ekleme"
 
-#: src/filters/artistic/weave.xml:169(para)
+#: src/filters/artistic/weave.xml:178(para)
 msgid ""
 "Narrower the ribbon width, wider the ribbon spacing, and filled with the "
 "<quote>Wood#1</quote> pattern."
@@ -337,7 +369,7 @@ msgstr ""
 "Şerit genişliği daha dar, şerit boşluğu daha geniş ve <quote>Wood&nbsp;#1</"
 "quote> örüntüsü ile doldurulmuştur."
 
-#: src/filters/artistic/weave.xml:176(para)
+#: src/filters/artistic/weave.xml:185(para)
 #, fuzzy
 msgid ""
 "This texture can be a lattice that you can see the original image through "
@@ -360,7 +392,21 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/waterpixels.xml:55(None)
+#: src/filters/artistic/waterpixels.xml:37(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/filters/examples/artistic-taj-weave.jpg'; "
+#| "md5=96006b915a6b71b5fbd24c4edd46d138"
+msgid ""
+"@@image: 'images/filters/examples/artistic-taj-waterpixels.jpg'; "
+"md5=7f9fab33dda2117a5d63ebfb5409a9d5"
+msgstr ""
+"@@image: 'images/filters/examples/artistic-taj-weave.jpg'; "
+"md5=96006b915a6b71b5fbd24c4edd46d138"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/waterpixels.xml:76(None)
 msgid ""
 "@@image: 'images/filters/artistic/waterpixels-dialog.png'; "
 "md5=bf8e54c442cdb4154bc1b17f81c5ce80"
@@ -374,7 +420,19 @@ msgstr ""
 msgid "Waterpixels"
 msgstr "Su Pikselleri"
 
-#: src/filters/artistic/waterpixels.xml:23(para)
+#: src/filters/artistic/waterpixels.xml:24(title)
+#, fuzzy
+#| msgid "Example for the <quote>Oilify</quote> filter"
+msgid "Example for the <quote>Waterpixels</quote> filter"
+msgstr "<quote>Yağlı Boya</quote> süzgeci örneği"
+
+#: src/filters/artistic/waterpixels.xml:40(para)
+#, fuzzy
+#| msgid "Filter <quote>Weave</quote> applied"
+msgid "Filter <quote>Waterpixels</quote> applied"
+msgstr "<quote>Dokuma</quote> süzgeci uygulandı"
+
+#: src/filters/artistic/waterpixels.xml:44(para)
 #, fuzzy
 msgid ""
 "Waterpixels is a filter based on superpixels and the watershed "
@@ -385,11 +443,11 @@ msgstr ""
 "algoritmalar, görüntüleri benzer renk değerlerine sahip bölgelere ayırmak "
 "için kullanılır."
 
-#: src/filters/artistic/waterpixels.xml:29(para)
+#: src/filters/artistic/waterpixels.xml:50(para)
 msgid "This filter can be slow to update on larger images."
 msgstr "Bu süzgeç büyük görüntülerde yavaş güncellenebilir."
 
-#: src/filters/artistic/waterpixels.xml:38(para)
+#: src/filters/artistic/waterpixels.xml:59(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Waterpixels…</"
@@ -399,11 +457,11 @@ msgstr ""
 "guimenu><guisubmenu>Sanatsal</guisubmenu><guimenuitem>Su Pikselleri…</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/artistic/waterpixels.xml:51(title)
+#: src/filters/artistic/waterpixels.xml:72(title)
 msgid "<quote>Waterpixels</quote> options"
 msgstr "<quote>Su Pikselleri</quote> seçenekleri"
 
-#: src/filters/artistic/waterpixels.xml:61(term)
+#: src/filters/artistic/waterpixels.xml:82(term)
 #: src/filters/artistic/softglow.xml:74(term)
 #: src/filters/artistic/simple-linear-clustering.xml:64(term)
 #: src/filters/artistic/photocopy.xml:85(term)
@@ -415,7 +473,7 @@ msgstr "<quote>Su Pikselleri</quote> seçenekleri"
 msgid "Presets"
 msgstr "Önayarlar"
 
-#: src/filters/artistic/waterpixels.xml:62(quote)
+#: src/filters/artistic/waterpixels.xml:83(quote)
 #: src/filters/artistic/softglow.xml:75(quote)
 #: src/filters/artistic/simple-linear-clustering.xml:65(quote)
 #: src/filters/artistic/photocopy.xml:86(quote)
@@ -427,7 +485,7 @@ msgstr "Önayarlar"
 msgid "Input Type"
 msgstr "Girdi Türü"
 
-#: src/filters/artistic/waterpixels.xml:63(term)
+#: src/filters/artistic/waterpixels.xml:84(term)
 #: src/filters/artistic/softglow.xml:76(term)
 #: src/filters/artistic/simple-linear-clustering.xml:66(term)
 #: src/filters/artistic/photocopy.xml:87(term)
@@ -439,7 +497,7 @@ msgstr "Girdi Türü"
 msgid "Clipping"
 msgstr "Kırpma"
 
-#: src/filters/artistic/waterpixels.xml:64(term)
+#: src/filters/artistic/waterpixels.xml:85(term)
 #: src/filters/artistic/softglow.xml:77(term)
 #: src/filters/artistic/simple-linear-clustering.xml:67(term)
 #: src/filters/artistic/photocopy.xml:88(term)
@@ -451,7 +509,7 @@ msgstr "Kırpma"
 msgid "Blending Options"
 msgstr "Harmanlama Seçenekleri"
 
-#: src/filters/artistic/waterpixels.xml:65(term)
+#: src/filters/artistic/waterpixels.xml:86(term)
 #: src/filters/artistic/softglow.xml:78(term)
 #: src/filters/artistic/simple-linear-clustering.xml:68(term)
 #: src/filters/artistic/photocopy.xml:89(term)
@@ -466,7 +524,7 @@ msgstr "Harmanlama Seçenekleri"
 msgid "Preview"
 msgstr "Ön izleme"
 
-#: src/filters/artistic/waterpixels.xml:66(term)
+#: src/filters/artistic/waterpixels.xml:87(term)
 #: src/filters/artistic/softglow.xml:79(term)
 #: src/filters/artistic/simple-linear-clustering.xml:69(term)
 #: src/filters/artistic/photocopy.xml:90(term)
@@ -478,7 +536,7 @@ msgstr "Ön izleme"
 msgid "Merge filter"
 msgstr "Süzgeci birleştir"
 
-#: src/filters/artistic/waterpixels.xml:67(term)
+#: src/filters/artistic/waterpixels.xml:88(term)
 #: src/filters/artistic/softglow.xml:80(term)
 #: src/filters/artistic/simple-linear-clustering.xml:70(term)
 #: src/filters/artistic/photocopy.xml:91(term)
@@ -490,11 +548,11 @@ msgstr "Süzgeci birleştir"
 msgid "Split view"
 msgstr "Bölünmüş görünüm"
 
-#: src/filters/artistic/waterpixels.xml:73(term)
+#: src/filters/artistic/waterpixels.xml:94(term)
 msgid "Superpixels size"
 msgstr "Süperpiksel boyutu"
 
-#: src/filters/artistic/waterpixels.xml:75(para)
+#: src/filters/artistic/waterpixels.xml:96(para)
 #, fuzzy
 msgid ""
 "The size of the area used to pick a value from. Larger values means you will "
@@ -503,11 +561,11 @@ msgstr ""
 "Değer seçmek için kullanılan alanın boyutu. Daha büyük değerler, daha az "
 "renk bölgesi elde edeceğiniz anlamına gelir."
 
-#: src/filters/artistic/waterpixels.xml:82(term)
+#: src/filters/artistic/waterpixels.xml:103(term)
 msgid "Gradient smoothness"
 msgstr "Renk geçişi pürüzsüzlüğü"
 
-#: src/filters/artistic/waterpixels.xml:84(para)
+#: src/filters/artistic/waterpixels.xml:105(para)
 #, fuzzy
 msgid ""
 "The smoothness of the gradient used in the computation. Higher values have "
@@ -516,11 +574,11 @@ msgstr ""
 "Hesaplamada kullanılan gradyanın düzgünlüğü. Daha yüksek değerler daha az "
 "düzensiz kenarlara sahiptir."
 
-#: src/filters/artistic/waterpixels.xml:91(term)
+#: src/filters/artistic/waterpixels.xml:112(term)
 msgid "Spatial regularization"
 msgstr "Uzaysal düzenleme"
 
-#: src/filters/artistic/waterpixels.xml:93(para)
+#: src/filters/artistic/waterpixels.xml:114(para)
 #, fuzzy
 msgid ""
 "Specifies how regular the regions should be. Low values are irregular. The "
@@ -530,11 +588,11 @@ msgstr ""
 "düzensizdir. Değer ne kadar yüksek olursa, bölgeler o kadar kareye benzer "
 "hale gelir."
 
-#: src/filters/artistic/waterpixels.xml:101(term)
+#: src/filters/artistic/waterpixels.xml:122(term)
 msgid "Superpixels color"
 msgstr "Süperpiksel rengi"
 
-#: src/filters/artistic/waterpixels.xml:103(para)
+#: src/filters/artistic/waterpixels.xml:124(para)
 #, fuzzy
 msgid ""
 "This selects how to choose the color for each region. By default "
@@ -678,10 +736,10 @@ msgid ""
 "corresponding to solid areas of the map, are not blurred. Only the image "
 "zone corresponding to the gradient area of the map is blurred."
 msgstr ""
-"Haritanın üç şeridi vardır: düz siyah bir alan, dikey renk geçişi bir alan, düz "
-"beyaz bir alan. Ortaya çıkan görüntüde, haritanın düz alanlarına karşılık "
-"gelen görüntü bölgelerinin bulanıklaştırılmadığı görülebilir. Yalnızca "
-"haritanın renk geçişi alanına karşılık gelen görüntü bölgesi "
+"Haritanın üç şeridi vardır: düz siyah bir alan, dikey renk geçişi bir alan, "
+"düz beyaz bir alan. Ortaya çıkan görüntüde, haritanın düz alanlarına "
+"karşılık gelen görüntü bölgelerinin bulanıklaştırılmadığı görülebilir. "
+"Yalnızca haritanın renk geçişi alanına karşılık gelen görüntü bölgesi "
 "bulanıklaştırılmıştır."
 
 #: src/filters/artistic/vangogh-lic.xml:48(para)
@@ -862,9 +920,10 @@ msgid ""
 "gradient triangles, only lines with the same direction as gradient are "
 "blurred."
 msgstr ""
-"Renk geçişi haritası dört renk geçişi üçgenine bölünmüştür: her birinin kendi "
-"renk geçişi yönü vardır. Görüntünün renk geçişi üçgenlerine karşılık gelen her "
-"alanında, yalnızca renk geçişi ile aynı yöne sahip çizgiler bulanıklaştırılır."
+"Renk geçişi haritası dört renk geçişi üçgenine bölünmüştür: her birinin "
+"kendi renk geçişi yönü vardır. Görüntünün renk geçişi üçgenlerine karşılık "
+"gelen her alanında, yalnızca renk geçişi ile aynı yöne sahip çizgiler "
+"bulanıklaştırılır."
 
 #: src/filters/artistic/vangogh-lic.xml:213(title)
 msgid "Texture example"
@@ -892,9 +951,9 @@ msgid ""
 "smooth surface; high values in rough surface."
 msgstr ""
 "Bulanıklık uygularken, bu seçenek bulanıklığın ne kadar önemli olduğunu "
-"denetler. Bir doku oluştururken, dokunun ne kadar pürüzlü olduğunu "
-"denetler: düşük değerler pürüzsüz yüzeyle sonuçlanır; yüksek değerler "
-"pürüzlü yüzeyle sonuçlanır."
+"denetler. Bir doku oluştururken, dokunun ne kadar pürüzlü olduğunu denetler: "
+"düşük değerler pürüzsüz yüzeyle sonuçlanır; yüksek değerler pürüzlü yüzeyle "
+"sonuçlanır."
 
 #: src/filters/artistic/vangogh-lic.xml:240(title)
 msgid "Action example of Filter Length on blur"
@@ -934,8 +993,8 @@ msgid ""
 "This options controls the amount and size of White Noise. Low values produce "
 "finely grained surfaces. High values produce coarse-grained textures."
 msgstr ""
-"Bu seçenek Beyaz Gürültü miktarını ve boyutunu denetler. Düşük değerler "
-"ince taneli yüzeyler üretir. Yüksek değerler kaba taneli dokular üretir."
+"Bu seçenek Beyaz Gürültü miktarını ve boyutunu denetler. Düşük değerler ince "
+"taneli yüzeyler üretir. Yüksek değerler kaba taneli dokular üretir."
 
 #: src/filters/artistic/vangogh-lic.xml:282(title)
 msgid "Action example of Noise Magnitude on texture"
@@ -991,23 +1050,6 @@ msgstr "En düşük değer = -4,0. En yüksek değer = 5.0."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/softglow.xml:26(None)
-#: src/filters/artistic/photocopy.xml:26(None)
-#: src/filters/artistic/oilify.xml:26(None)
-#: src/filters/artistic/glasstile.xml:29(None)
-#: src/filters/artistic/cubism.xml:26(None)
-#: src/filters/artistic/cartoon.xml:26(None)
-#: src/filters/artistic/applycanvas.xml:30(None)
-#: src/filters/artistic/GIMPressionist.xml:30(None)
-msgid ""
-"@@image: 'images/filters/examples/taj_orig.jpg'; "
-"md5=6abae556aaff78a2bc9082a46a171da8"
-msgstr ""
-"@@image: 'images/filters/examples/taj_orig.jpg'; "
-"md5=6abae556aaff78a2bc9082a46a171da8"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/softglow.xml:35(None)
 msgid ""
 "@@image: 'images/filters/examples/artistic-taj-softglow.jpg'; "
@@ -1035,17 +1077,6 @@ msgstr "Hafif Parıltı"
 #: src/filters/artistic/softglow.xml:22(title)
 msgid "Example for the <quote>Softglow</quote> filter"
 msgstr "<quote>Hafif Parıltı</quote> süzgeci örneği"
-
-#: src/filters/artistic/softglow.xml:29(para)
-#: src/filters/artistic/photocopy.xml:29(para)
-#: src/filters/artistic/oilify.xml:29(para)
-#: src/filters/artistic/glasstile.xml:32(para)
-#: src/filters/artistic/cubism.xml:29(para)
-#: src/filters/artistic/cartoon.xml:29(para)
-#: src/filters/artistic/applycanvas.xml:33(para)
-#: src/filters/artistic/GIMPressionist.xml:33(para)
-msgid "Original image"
-msgstr "Özgün görüntü"
 
 #: src/filters/artistic/softglow.xml:38(para)
 msgid "Filter <quote>Softglow</quote> applied"
@@ -1697,9 +1728,13 @@ msgid "Filter <quote>Cubism</quote> applied"
 msgstr "<quote>Kübizm</quote> süzgeci uygulandı"
 
 #: src/filters/artistic/cubism.xml:42(para)
+#, fuzzy
+#| msgid ""
+#| "The Cubism plug-in modifies the image so that it appears to be "
+#| "constructed of small squares of semitransparent tissue paper."
 msgid ""
-"The Cubism plug-in modifies the image so that it appears to be constructed "
-"of small squares of semitransparent tissue paper."
+"The Cubism filter modifies the image so that it appears to be constructed of "
+"small squares of semitransparent tissue paper."
 msgstr ""
 "Kübizm eklentisi görüntüyü yarı saydam doku kağıtlarının küçük karelerinden "
 "oluşmuş gibi görünecek şekilde değiştirir."
@@ -1795,12 +1830,12 @@ msgid ""
 "the same situation, the filter produces exactly the same results. A "
 "different random seed produces different results."
 msgstr ""
-"Bu seçenek süzgecin rastgeleliğini denetler. <guilabel>Rastgele</"
-"guilabel> tohum kutusu, kullanılan rastgeleleştirme algoritması için manuel "
-"olarak bir tohum girmenizi sağlar. <guibutton>Yeni Tohum</guibutton> "
-"düğmesine basarak da rastgele bir tohum oluşturabilirsiniz. Aynı durumda "
-"aynı rastgele tohum kullanılırsa, süzgeç tamamen aynı sonuçları üretir. "
-"Farklı bir rastgele tohum farklı sonuçlar üretir."
+"Bu seçenek süzgecin rastgeleliğini denetler. <guilabel>Rastgele</guilabel> "
+"tohum kutusu, kullanılan rastgeleleştirme algoritması için manuel olarak bir "
+"tohum girmenizi sağlar. <guibutton>Yeni Tohum</guibutton> düğmesine basarak "
+"da rastgele bir tohum oluşturabilirsiniz. Aynı durumda aynı rastgele tohum "
+"kullanılırsa, süzgeç tamamen aynı sonuçları üretir. Farklı bir rastgele "
+"tohum farklı sonuçlar üretir."
 
 #: src/filters/artistic/cubism.xml:143(para)
 #, fuzzy
@@ -1872,8 +1907,8 @@ msgid ""
 "region in alpha if it is given, then add a layer to this image filled with "
 "white and <link linkend=\"gimp-filter-noise-rgb\">noisified</link> strongly."
 msgstr ""
-"Özgün görüntüyle aynı boyutta bir görüntü ya da verildiyse alfada bir "
-"seçim ya da bölge oluşturun, ardından bu görüntüye beyazla dolu ve güçlü bir "
+"Özgün görüntüyle aynı boyutta bir görüntü ya da verildiyse alfada bir seçim "
+"ya da bölge oluşturun, ardından bu görüntüye beyazla dolu ve güçlü bir "
 "şekilde <link linkend=\"gimp-filter-noise-rgb\">gürültülü</link> bir katman "
 "ekleyin."
 
@@ -1919,8 +1954,8 @@ msgid ""
 msgstr ""
 "Son olarak, <guilabel>Azimuth</guilabel>, <guilabel>Elevation</guilabel> ve "
 "<guilabel>Depth</guilabel> parametrelerini kullanarak çalışma görüntüsünde "
-"özgün görüntü üzerin <link linkend=\"gimp-filter-bump-map\">bump map</"
-"link> işlemini gerçekleştirin."
+"özgün görüntü üzerin <link linkend=\"gimp-filter-bump-map\">bump map</link> "
+"işlemini gerçekleştirin."
 
 #: src/filters/artistic/clothify.xml:89(para)
 msgid ""
@@ -1977,9 +2012,9 @@ msgid ""
 "dial panel of an analogue clock. Increasing value goes counter-clockwise."
 msgstr ""
 "<guilabel>Azimut</guilabel> sürgüsü, pusulanın noktasına göre ışığın geldiği "
-"yönleri denetler. Hem en küçük değer (0.00) hem de maksimum değer "
-"(360.00) analog bir saatin kadran panelinde saat üç yönündedir. Artan değer "
-"saat yönünün tersine gider."
+"yönleri denetler. Hem en küçük değer (0.00) hem de maksimum değer (360.00) "
+"analog bir saatin kadran panelinde saat üç yönündedir. Artan değer saat "
+"yönünün tersine gider."
 
 #: src/filters/artistic/clothify.xml:141(term)
 msgid "Elevation"
@@ -1992,9 +2027,9 @@ msgid ""
 "from. For the minimal value (0.50) the light comes from horizon, and for the "
 "maximum value (90.0) the light comes from zenith."
 msgstr ""
-"<guilabel>Yükseklik</guilabel> kaydırıcısı ışığın geldiği yüksekliği denetler. "
-"Minimum değer (0.50) için ışık ufuktan gelir ve en yüksek değer (90.0) "
-"için ışık zenitten gelir."
+"<guilabel>Yükseklik</guilabel> kaydırıcısı ışığın geldiği yüksekliği "
+"denetler. Minimum değer (0.50) için ışık ufuktan gelir ve en yüksek değer "
+"(90.0) için ışık zenitten gelir."
 
 #: src/filters/artistic/clothify.xml:152(term)
 #: src/filters/artistic/applycanvas.xml:99(term)
@@ -2009,8 +2044,8 @@ msgid ""
 "1 to 65."
 msgstr ""
 "<guilabel>Derinlik</guilabel> kaydırıcısı tümsek yüksekliği ile oyuk "
-"derinliği arasındaki mesafeyi denetler. Artan değer daha sağlam "
-"özelliklere neden olur. Değerler 1 ile 65 arasında değişir."
+"derinliği arasındaki mesafeyi denetler. Artan değer daha sağlam özelliklere "
+"neden olur. Değerler 1 ile 65 arasında değişir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2081,9 +2116,9 @@ msgid ""
 "resulting image. Small values result in more subtle pen strokes and more "
 "details preserved."
 msgstr ""
-"Bu parametre süzgecin çalıştığı alanların boyutunu denetler. Büyük "
-"değerler çok kalın siyah alanlara ve sonuçta elde edilen görüntüde çok daha "
-"az ayrıntıya neden olur. Küçük değerler daha ince kalem darbelerine ve daha "
+"Bu parametre süzgecin çalıştığı alanların boyutunu denetler. Büyük değerler "
+"çok kalın siyah alanlara ve sonuçta elde edilen görüntüde çok daha az "
+"ayrıntıya neden olur. Küçük değerler daha ince kalem darbelerine ve daha "
 "fazla detayın korunmasına neden olur."
 
 #: src/filters/artistic/cartoon.xml:100(para)
@@ -2744,8 +2779,8 @@ msgid ""
 "linkend=\"gimpressionist-orient-map-editor\">Edit orientation Map dialog</"
 "link> that allows you to set the directions manually."
 msgstr ""
-"<guilabel>Düzenle</guilabel> düğmesi, yönleri elle ayarlamanıza "
-"olanak tanıyan Yönlendirme <link linkend=\"gimpressionist-orient-map-"
+"<guilabel>Düzenle</guilabel> düğmesi, yönleri elle ayarlamanıza olanak "
+"tanıyan Yönlendirme <link linkend=\"gimpressionist-orient-map-"
 "editor\">Haritasını Düzenle iletişim</link> kutusunu açar."
 
 #: src/filters/artistic/GIMPressionist.xml:413(title)
@@ -3480,10 +3515,4 @@ msgstr ""
 "Bu kaydırıcı <emphasis>tüm</emphasis> vektörlerin uzunluğu üzerinde etki "
 "eder ve böylece tüm fırça darbelerinin gücünü değiştirir."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/filters/artistic/GIMPressionist-orientmap.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
 

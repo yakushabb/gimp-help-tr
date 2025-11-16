@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-09 16:57+0000\n"
+"POT-Creation-Date: 2025-11-15 20:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,6 +12,23 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/weave.xml:26(None)
+#: src/filters/artistic/waterpixels.xml:28(None)
+#: src/filters/artistic/softglow.xml:26(None)
+#: src/filters/artistic/photocopy.xml:26(None)
+#: src/filters/artistic/oilify.xml:26(None)
+#: src/filters/artistic/glasstile.xml:29(None)
+#: src/filters/artistic/cubism.xml:26(None)
+#: src/filters/artistic/cartoon.xml:26(None)
+#: src/filters/artistic/applycanvas.xml:30(None)
+#: src/filters/artistic/GIMPressionist.xml:30(None)
+msgid ""
+"@@image: 'images/filters/examples/taj_orig.jpg'; "
+"md5=6abae556aaff78a2bc9082a46a171da8"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/weave.xml:35(None)
 msgid ""
 "@@image: 'images/filters/examples/artistic-taj-weave.jpg'; "
 "md5=96006b915a6b71b5fbd24c4edd46d138"
@@ -19,7 +36,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/weave.xml:71(None)
+#: src/filters/artistic/weave.xml:80(None)
 msgid ""
 "@@image: 'images/filters/artistic/weave.png'; "
 "md5=e1a716445d951de35ff056f53233de37"
@@ -27,7 +44,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/weave.xml:166(None)
+#: src/filters/artistic/weave.xml:175(None)
 msgid ""
 "@@image: 'images/filters/examples/artistic-weave-as-lattice.jpg'; "
 "md5=bfaef67bef6049bc9c6c45cc73c3b5f2"
@@ -100,10 +117,23 @@ msgid "Example of Weave"
 msgstr ""
 
 #: src/filters/artistic/weave.xml:29(para)
+#: src/filters/artistic/waterpixels.xml:31(para)
+#: src/filters/artistic/softglow.xml:29(para)
+#: src/filters/artistic/photocopy.xml:29(para)
+#: src/filters/artistic/oilify.xml:29(para)
+#: src/filters/artistic/glasstile.xml:32(para)
+#: src/filters/artistic/cubism.xml:29(para)
+#: src/filters/artistic/cartoon.xml:29(para)
+#: src/filters/artistic/applycanvas.xml:33(para)
+#: src/filters/artistic/GIMPressionist.xml:33(para)
+msgid "Original image"
+msgstr ""
+
+#: src/filters/artistic/weave.xml:38(para)
 msgid "Filter <quote>Weave</quote> applied"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:33(para)
+#: src/filters/artistic/weave.xml:42(para)
 msgid ""
 "The <guimenuitem>Weave</guimenuitem> command is a Script-Fu script which "
 "creates a new layer filled with a weave effect and adds it to the image as "
@@ -111,20 +141,20 @@ msgid ""
 "over woven ribbons of paper, thin wooden sheet, or stripped bamboo."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:40(para)
+#: src/filters/artistic/weave.xml:49(para)
 msgid ""
 "This filter adds a <quote>Multiply</quote> mode layer upon the layer where "
 "you activate this command. The weave texture is rendered in gray levels."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:46(para)
+#: src/filters/artistic/weave.xml:55(para)
 #: src/filters/artistic/clothify.xml:39(para)
 #: src/filters/artistic/GIMPressionist.xml:54(para)
 msgid "If the image is in indexed mode, this menu entry is disabled."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:53(title)
-#: src/filters/artistic/waterpixels.xml:37(title)
+#: src/filters/artistic/weave.xml:62(title)
+#: src/filters/artistic/waterpixels.xml:58(title)
 #: src/filters/artistic/vangogh-lic.xml:69(title)
 #: src/filters/artistic/softglow.xml:50(title)
 #: src/filters/artistic/simple-linear-clustering.xml:40(title)
@@ -139,7 +169,7 @@ msgstr ""
 msgid "Activating the Filter"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:54(para)
+#: src/filters/artistic/weave.xml:63(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Weave…</guimenuitem></"
@@ -147,8 +177,8 @@ msgid ""
 msgstr ""
 
 #. Parameter Settings
-#: src/filters/artistic/weave.xml:65(title)
-#: src/filters/artistic/waterpixels.xml:49(title)
+#: src/filters/artistic/weave.xml:74(title)
+#: src/filters/artistic/waterpixels.xml:70(title)
 #: src/filters/artistic/vangogh-lic.xml:81(title)
 #: src/filters/artistic/softglow.xml:62(title)
 #: src/filters/artistic/simple-linear-clustering.xml:52(title)
@@ -165,58 +195,58 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:67(title)
+#: src/filters/artistic/weave.xml:76(title)
 msgid "<quote>Weave</quote> filter options"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:75(para)
+#: src/filters/artistic/weave.xml:84(para)
 msgid ""
 "For to make coarse mesh texture, increase the ribbon spacing and/or decrease "
 "the ribbon width."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:79(para)
+#: src/filters/artistic/weave.xml:88(para)
 msgid "For to strain ribbons hard, decrease the shadow depth."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:84(term)
+#: src/filters/artistic/weave.xml:93(term)
 msgid "Ribbon width"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:86(para)
+#: src/filters/artistic/weave.xml:95(para)
 msgid ""
 "With this option you can set the tape width in pixel between 0.0 and 256.0. "
 "In default, 30.0 pixels is set."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:93(term)
+#: src/filters/artistic/weave.xml:102(term)
 msgid "Ribbon spacing"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:95(para)
+#: src/filters/artistic/weave.xml:104(para)
 msgid ""
 "With this option you can set the distance to the neighboring ribbon or the "
 "size of black square hole in pixel between 0.0 and 256.0. In default, 10.0 "
 "pixels is set."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:103(term)
+#: src/filters/artistic/weave.xml:112(term)
 msgid "Shadow darkness"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:105(para)
+#: src/filters/artistic/weave.xml:114(para)
 msgid ""
 "With this option you can set the darkness at crossings of lower ribbon in "
 "percentage. Lower value shows ribbons thinner. 75.0 percent is the default "
 "value."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:113(term)
+#: src/filters/artistic/weave.xml:122(term)
 #: src/filters/artistic/GIMPressionist.xml:755(term)
 msgid "Shadow depth"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:115(para)
+#: src/filters/artistic/weave.xml:124(para)
 msgid ""
 "With this option you can set the bent strength of ribbons in percentage. "
 "Higher value shows ribbons more wavy, lower value for flat surface. The "
@@ -224,11 +254,11 @@ msgid ""
 "percent is the default value."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:125(term)
+#: src/filters/artistic/weave.xml:134(term)
 msgid "Thread length"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:127(para)
+#: src/filters/artistic/weave.xml:136(para)
 msgid ""
 "With this option you can set the regularity of stripe texture. If this value "
 "is shorter than the summary of the ribbon width and twice of the ribbon "
@@ -236,43 +266,43 @@ msgid ""
 "range between 0.0 to 256.0. The default value is 200.0."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:137(term)
+#: src/filters/artistic/weave.xml:146(term)
 msgid "Thread density"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:139(para)
+#: src/filters/artistic/weave.xml:148(para)
 msgid ""
 "With this option you can set the density of fiber-like parallel short "
 "stripes on the surface of ribbons. To populate stripes increase this value. "
 "50.0 percent is the default value."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:147(term)
+#: src/filters/artistic/weave.xml:156(term)
 msgid "Thread intensity"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:149(para)
+#: src/filters/artistic/weave.xml:158(para)
 msgid ""
 "With this option you can set the opacity of stripe texture. Lower value "
 "shows threads vague. To clear off threads set the value to 0.0 percent. The "
 "default value is 100.0 percent."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:160(title)
+#: src/filters/artistic/weave.xml:169(title)
 msgid "Another usage"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:162(title)
+#: src/filters/artistic/weave.xml:171(title)
 msgid "Adding a lattice using <quote>Weave</quote> texture"
 msgstr ""
 
-#: src/filters/artistic/weave.xml:169(para)
+#: src/filters/artistic/weave.xml:178(para)
 msgid ""
 "Narrower the ribbon width, wider the ribbon spacing, and filled with the "
 "<quote>Wood#1</quote> pattern."
 msgstr ""
 
-#: src/filters/artistic/weave.xml:176(para)
+#: src/filters/artistic/weave.xml:185(para)
 msgid ""
 "This texture can be a lattice that you can see the original image through "
 "its mesh holes. Add a new, transparent layer over the active layer for the "
@@ -286,7 +316,15 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/waterpixels.xml:55(None)
+#: src/filters/artistic/waterpixels.xml:37(None)
+msgid ""
+"@@image: 'images/filters/examples/artistic-taj-waterpixels.jpg'; "
+"md5=7f9fab33dda2117a5d63ebfb5409a9d5"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/artistic/waterpixels.xml:76(None)
 msgid ""
 "@@image: 'images/filters/artistic/waterpixels-dialog.png'; "
 "md5=bf8e54c442cdb4154bc1b17f81c5ce80"
@@ -298,29 +336,37 @@ msgstr ""
 msgid "Waterpixels"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:23(para)
+#: src/filters/artistic/waterpixels.xml:24(title)
+msgid "Example for the <quote>Waterpixels</quote> filter"
+msgstr ""
+
+#: src/filters/artistic/waterpixels.xml:40(para)
+msgid "Filter <quote>Waterpixels</quote> applied"
+msgstr ""
+
+#: src/filters/artistic/waterpixels.xml:44(para)
 msgid ""
 "Waterpixels is a filter based on superpixels and the watershed "
 "transformation. These algorithms are used to divide images in regions with "
 "similar color values."
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:29(para)
+#: src/filters/artistic/waterpixels.xml:50(para)
 msgid "This filter can be slow to update on larger images."
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:38(para)
+#: src/filters/artistic/waterpixels.xml:59(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Artistic</guisubmenu><guimenuitem>Waterpixels…</"
 "guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:51(title)
+#: src/filters/artistic/waterpixels.xml:72(title)
 msgid "<quote>Waterpixels</quote> options"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:61(term)
+#: src/filters/artistic/waterpixels.xml:82(term)
 #: src/filters/artistic/softglow.xml:74(term)
 #: src/filters/artistic/simple-linear-clustering.xml:64(term)
 #: src/filters/artistic/photocopy.xml:85(term)
@@ -332,7 +378,7 @@ msgstr ""
 msgid "Presets"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:62(quote)
+#: src/filters/artistic/waterpixels.xml:83(quote)
 #: src/filters/artistic/softglow.xml:75(quote)
 #: src/filters/artistic/simple-linear-clustering.xml:65(quote)
 #: src/filters/artistic/photocopy.xml:86(quote)
@@ -344,7 +390,7 @@ msgstr ""
 msgid "Input Type"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:63(term)
+#: src/filters/artistic/waterpixels.xml:84(term)
 #: src/filters/artistic/softglow.xml:76(term)
 #: src/filters/artistic/simple-linear-clustering.xml:66(term)
 #: src/filters/artistic/photocopy.xml:87(term)
@@ -356,7 +402,7 @@ msgstr ""
 msgid "Clipping"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:64(term)
+#: src/filters/artistic/waterpixels.xml:85(term)
 #: src/filters/artistic/softglow.xml:77(term)
 #: src/filters/artistic/simple-linear-clustering.xml:67(term)
 #: src/filters/artistic/photocopy.xml:88(term)
@@ -368,7 +414,7 @@ msgstr ""
 msgid "Blending Options"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:65(term)
+#: src/filters/artistic/waterpixels.xml:86(term)
 #: src/filters/artistic/softglow.xml:78(term)
 #: src/filters/artistic/simple-linear-clustering.xml:68(term)
 #: src/filters/artistic/photocopy.xml:89(term)
@@ -383,7 +429,7 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:66(term)
+#: src/filters/artistic/waterpixels.xml:87(term)
 #: src/filters/artistic/softglow.xml:79(term)
 #: src/filters/artistic/simple-linear-clustering.xml:69(term)
 #: src/filters/artistic/photocopy.xml:90(term)
@@ -395,7 +441,7 @@ msgstr ""
 msgid "Merge filter"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:67(term)
+#: src/filters/artistic/waterpixels.xml:88(term)
 #: src/filters/artistic/softglow.xml:80(term)
 #: src/filters/artistic/simple-linear-clustering.xml:70(term)
 #: src/filters/artistic/photocopy.xml:91(term)
@@ -407,41 +453,41 @@ msgstr ""
 msgid "Split view"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:73(term)
+#: src/filters/artistic/waterpixels.xml:94(term)
 msgid "Superpixels size"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:75(para)
+#: src/filters/artistic/waterpixels.xml:96(para)
 msgid ""
 "The size of the area used to pick a value from. Larger values means you will "
 "get less color regions."
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:82(term)
+#: src/filters/artistic/waterpixels.xml:103(term)
 msgid "Gradient smoothness"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:84(para)
+#: src/filters/artistic/waterpixels.xml:105(para)
 msgid ""
 "The smoothness of the gradient used in the computation. Higher values have "
 "less irregular borders."
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:91(term)
+#: src/filters/artistic/waterpixels.xml:112(term)
 msgid "Spatial regularization"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:93(para)
+#: src/filters/artistic/waterpixels.xml:114(para)
 msgid ""
 "Specifies how regular the regions should be. Low values are irregular. The "
 "higher the value, the more the regions start looking like squares."
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:101(term)
+#: src/filters/artistic/waterpixels.xml:122(term)
 msgid "Superpixels color"
 msgstr ""
 
-#: src/filters/artistic/waterpixels.xml:103(para)
+#: src/filters/artistic/waterpixels.xml:124(para)
 msgid ""
 "This selects how to choose the color for each region. By default "
 "<guilabel>Average</guilabel> is used. Which takes the average color of the "
@@ -797,21 +843,6 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/artistic/softglow.xml:26(None)
-#: src/filters/artistic/photocopy.xml:26(None)
-#: src/filters/artistic/oilify.xml:26(None)
-#: src/filters/artistic/glasstile.xml:29(None)
-#: src/filters/artistic/cubism.xml:26(None)
-#: src/filters/artistic/cartoon.xml:26(None)
-#: src/filters/artistic/applycanvas.xml:30(None)
-#: src/filters/artistic/GIMPressionist.xml:30(None)
-msgid ""
-"@@image: 'images/filters/examples/taj_orig.jpg'; "
-"md5=6abae556aaff78a2bc9082a46a171da8"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/artistic/softglow.xml:35(None)
 msgid ""
 "@@image: 'images/filters/examples/artistic-taj-softglow.jpg'; "
@@ -834,17 +865,6 @@ msgstr ""
 
 #: src/filters/artistic/softglow.xml:22(title)
 msgid "Example for the <quote>Softglow</quote> filter"
-msgstr ""
-
-#: src/filters/artistic/softglow.xml:29(para)
-#: src/filters/artistic/photocopy.xml:29(para)
-#: src/filters/artistic/oilify.xml:29(para)
-#: src/filters/artistic/glasstile.xml:32(para)
-#: src/filters/artistic/cubism.xml:29(para)
-#: src/filters/artistic/cartoon.xml:29(para)
-#: src/filters/artistic/applycanvas.xml:33(para)
-#: src/filters/artistic/GIMPressionist.xml:33(para)
-msgid "Original image"
 msgstr ""
 
 #: src/filters/artistic/softglow.xml:38(para)
@@ -1373,8 +1393,8 @@ msgstr ""
 
 #: src/filters/artistic/cubism.xml:42(para)
 msgid ""
-"The Cubism plug-in modifies the image so that it appears to be constructed "
-"of small squares of semitransparent tissue paper."
+"The Cubism filter modifies the image so that it appears to be constructed of "
+"small squares of semitransparent tissue paper."
 msgstr ""
 
 #: src/filters/artistic/cubism.xml:47(para)

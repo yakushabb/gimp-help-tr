@@ -907,9 +907,4 @@ msgstr ""
 "eklentiler vardır. JavaScript eklentilerinin şimdilik Windows’ta olmadığını "
 "unutmayın."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/menus/filters/development.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025"
+

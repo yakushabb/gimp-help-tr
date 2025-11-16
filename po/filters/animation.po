@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-11-08 21:32+0300\n"
+"PO-Revision-Date: 2025-11-16 00:21+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -106,9 +106,10 @@ msgstr "<quote>Dalgalar</quote> süzgeci örneği"
 msgid "Original image"
 msgstr "Özgün görüntü"
 
+# Diğer süzgeçlerle uyumlu olacak şekilde özgün metinden farklı çevirildi.
 #: src/filters/animation/waves.xml:35(para)
 msgid "A <quote>Wave</quote> frame"
-msgstr "<quote>Dalga</quote> karesi"
+msgstr "<quote>Dalga</quote> uygulandı"
 
 #: src/filters/animation/waves.xml:40(para)
 #: src/filters/animation/spinning-globe.xml:50(para)
@@ -358,7 +359,7 @@ msgid ""
 "could be saved in the GIF, MNG or even XCF format), to test it."
 msgstr ""
 "Bu eklenti, sınamak için çok katmanlı görüntüden (GIF, MNG hatta XCF "
-"biçiminde kaydedilmiş olabilir) canlandırma oynatmanıza olanak tanır."
+"biçiminde kaydedilmiş olabilir) canlandırma oynatmanızı sağlar."
 
 #: src/filters/animation/playback.xml:39(para)
 msgid ""
@@ -850,5 +851,3 @@ msgstr "Dönüşlü"
 #: src/filters/animation/blend.xml:0(None)
 msgid "translator-credits"
 msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2024, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2024, 2025."

@@ -1284,9 +1284,4 @@ msgstr ""
 "yerine arka plan seçilir. Gerisi, arka planla ne yapmak istediğinize bağlı: "
 "<placeholder-1/>"
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/tutorial/quickies.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025"
+

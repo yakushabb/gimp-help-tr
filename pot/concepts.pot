@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-09 16:57+0000\n"
+"POT-Creation-Date: 2025-11-15 20:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2920,7 +2920,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:353(None)
+#: src/concepts/layer-modes.xml:358(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-split.png'; "
 "md5=88c3198b6bc373dd2f971059fe14593d"
@@ -2928,7 +2928,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:396(None)
+#: src/concepts/layer-modes.xml:402(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-lighten-only.jpg'; "
 "md5=568d21ef8dd049c0c24168bb5b45685e"
@@ -2936,7 +2936,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:436(None)
+#: src/concepts/layer-modes.xml:442(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-luma-lighten-only.jpg'; "
 "md5=5b6823f6e18227beabc7f9f96133e924"
@@ -2944,7 +2944,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:476(None)
+#: src/concepts/layer-modes.xml:482(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-screen.jpg'; "
 "md5=12d7f505c0504b16c84c8aa32158faba"
@@ -2952,7 +2952,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:517(None)
+#: src/concepts/layer-modes.xml:523(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-dodge.jpg'; "
 "md5=0d7507ce35e2a53e49e4b64921661939"
@@ -2960,7 +2960,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:557(None)
+#: src/concepts/layer-modes.xml:563(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-addition.jpg'; "
 "md5=5776cd4502a2552255762333236c1c00"
@@ -2968,7 +2968,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:602(None)
+#: src/concepts/layer-modes.xml:608(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-darken-only.jpg'; "
 "md5=0b058af4f151244d9f6ccbceac4ce805"
@@ -2976,7 +2976,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:641(None)
+#: src/concepts/layer-modes.xml:647(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-luma-luminance-darken-only.jpg'; "
 "md5=4b4b0ef37e225c6f539cd436b0e8e35e"
@@ -2984,7 +2984,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:681(None)
+#: src/concepts/layer-modes.xml:687(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-multiply.jpg'; "
 "md5=4c6bbeb45301971c8d9e48ed3a880c98"
@@ -2992,7 +2992,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:719(None)
+#: src/concepts/layer-modes.xml:725(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-burn.jpg'; "
 "md5=57e32bebef2bb847a5e211b32625f2ea"
@@ -3000,7 +3000,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:760(None)
+#: src/concepts/layer-modes.xml:766(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-linear-burn.jpg'; "
 "md5=694492b1e1dcfa660e94b8a63b22254c"
@@ -3008,7 +3008,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:804(None)
+#: src/concepts/layer-modes.xml:810(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-overlay.jpg'; "
 "md5=b8228d6b3daac09f842d3fec58d0e368"
@@ -3016,7 +3016,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:841(None)
+#: src/concepts/layer-modes.xml:847(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-soft-light.jpg'; "
 "md5=0d1d7cd7095255681dbb4b0a059c8026"
@@ -3024,7 +3024,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:880(None)
+#: src/concepts/layer-modes.xml:886(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-hard-light.jpg'; "
 "md5=03f7c66b6f480f08ea9db6ce59c4da26"
@@ -3032,7 +3032,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:922(None)
+#: src/concepts/layer-modes.xml:928(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-vivid-light.jpg'; "
 "md5=313622fcb3ac6883075a0e50c8574841"
@@ -3040,7 +3040,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:966(None)
+#: src/concepts/layer-modes.xml:972(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-pin-light.jpg'; "
 "md5=c987ce5dbd4ab6c7075b258b0f6962c8"
@@ -3048,7 +3048,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1004(None)
+#: src/concepts/layer-modes.xml:1010(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-linear-light.jpg'; "
 "md5=3d34543fe9d75fae58d3a0ba93565744"
@@ -3056,7 +3056,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1041(None)
+#: src/concepts/layer-modes.xml:1047(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-hard-mix.jpg'; "
 "md5=3af2de834f33928a0fd28fb2b7150094"
@@ -3064,7 +3064,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1084(None)
+#: src/concepts/layer-modes.xml:1090(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-difference.jpg'; "
 "md5=ff46da73adaa11ef7daa06e148b8b798"
@@ -3072,7 +3072,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1124(None)
+#: src/concepts/layer-modes.xml:1130(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-exclusion.jpg'; "
 "md5=d720a8f7c54bd8d5bae3d0f5f5109676"
@@ -3080,7 +3080,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1161(None)
+#: src/concepts/layer-modes.xml:1167(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-subtract.jpg'; "
 "md5=b3ceb31b8b58bf1106e62c84e6346570"
@@ -3088,7 +3088,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1194(None)
+#: src/concepts/layer-modes.xml:1200(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-grain-extract.jpg'; "
 "md5=c9986bcdcb65b9b21fab6d2b39670854"
@@ -3096,7 +3096,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1230(None)
+#: src/concepts/layer-modes.xml:1236(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-grain-merge.jpg'; "
 "md5=43996cde09d1121a729d218fa9c549cb"
@@ -3104,7 +3104,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1266(None)
+#: src/concepts/layer-modes.xml:1272(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-divide.jpg'; "
 "md5=108e4c52b3fcceda160ae1bf681e2491"
@@ -3112,7 +3112,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1310(None)
+#: src/concepts/layer-modes.xml:1316(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-hsv-hue.jpg'; "
 "md5=774aa339e98029ebf9d67f0ac9a4b646"
@@ -3120,7 +3120,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1343(None)
+#: src/concepts/layer-modes.xml:1349(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-hsv-saturation.jpg'; "
 "md5=208809f24c2de220c9ce70d6bc256c22"
@@ -3128,7 +3128,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1375(None)
+#: src/concepts/layer-modes.xml:1381(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-hsl-color.jpg'; "
 "md5=7e0fa2ee9179feb841861c82cf48486a"
@@ -3136,7 +3136,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1406(None)
+#: src/concepts/layer-modes.xml:1412(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-hsv-value.jpg'; "
 "md5=a71d603aa08cf984f38fd27461681d7c"
@@ -3144,7 +3144,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1452(None)
+#: src/concepts/layer-modes.xml:1458(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-lch-hue.jpg'; "
 "md5=b2666ad8fd1565ebafa3a9dc46784739"
@@ -3152,7 +3152,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1483(None)
+#: src/concepts/layer-modes.xml:1489(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-lch-chroma.jpg'; "
 "md5=7bd2753ec348b5be635bfe80611c7928"
@@ -3160,7 +3160,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1515(None)
+#: src/concepts/layer-modes.xml:1521(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-lch-color.jpg'; "
 "md5=8903cd19908c6d00c24fc692c888718f"
@@ -3168,7 +3168,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1548(None)
+#: src/concepts/layer-modes.xml:1554(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-lch-lightness.jpg'; "
 "md5=00c520b7c00cc65011697d1d4a90f012"
@@ -3176,7 +3176,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/layer-modes.xml:1582(None)
+#: src/concepts/layer-modes.xml:1588(None)
 msgid ""
 "@@image: 'images/using/default-layer-mode-luminance.jpg'; "
 "md5=f2a3cbc6af6fde365d7fb4f67103eddd"
@@ -3189,39 +3189,39 @@ msgstr ""
 #: src/concepts/layer-modes.xml:241(primary)
 #: src/concepts/layer-modes.xml:276(primary)
 #: src/concepts/layer-modes.xml:308(primary)
-#: src/concepts/layer-modes.xml:342(primary)
-#: src/concepts/layer-modes.xml:385(primary)
-#: src/concepts/layer-modes.xml:424(primary)
-#: src/concepts/layer-modes.xml:465(primary)
-#: src/concepts/layer-modes.xml:506(primary)
-#: src/concepts/layer-modes.xml:546(primary)
-#: src/concepts/layer-modes.xml:591(primary)
-#: src/concepts/layer-modes.xml:629(primary)
-#: src/concepts/layer-modes.xml:670(primary)
-#: src/concepts/layer-modes.xml:708(primary)
-#: src/concepts/layer-modes.xml:749(primary)
-#: src/concepts/layer-modes.xml:793(primary)
-#: src/concepts/layer-modes.xml:830(primary)
-#: src/concepts/layer-modes.xml:869(primary)
-#: src/concepts/layer-modes.xml:911(primary)
-#: src/concepts/layer-modes.xml:955(primary)
-#: src/concepts/layer-modes.xml:993(primary)
-#: src/concepts/layer-modes.xml:1030(primary)
-#: src/concepts/layer-modes.xml:1073(primary)
-#: src/concepts/layer-modes.xml:1113(primary)
-#: src/concepts/layer-modes.xml:1150(primary)
-#: src/concepts/layer-modes.xml:1183(primary)
-#: src/concepts/layer-modes.xml:1219(primary)
-#: src/concepts/layer-modes.xml:1255(primary)
-#: src/concepts/layer-modes.xml:1299(primary)
-#: src/concepts/layer-modes.xml:1332(primary)
-#: src/concepts/layer-modes.xml:1364(primary)
-#: src/concepts/layer-modes.xml:1395(primary)
-#: src/concepts/layer-modes.xml:1441(primary)
-#: src/concepts/layer-modes.xml:1472(primary)
-#: src/concepts/layer-modes.xml:1504(primary)
-#: src/concepts/layer-modes.xml:1537(primary)
-#: src/concepts/layer-modes.xml:1571(primary)
+#: src/concepts/layer-modes.xml:347(primary)
+#: src/concepts/layer-modes.xml:391(primary)
+#: src/concepts/layer-modes.xml:430(primary)
+#: src/concepts/layer-modes.xml:471(primary)
+#: src/concepts/layer-modes.xml:512(primary)
+#: src/concepts/layer-modes.xml:552(primary)
+#: src/concepts/layer-modes.xml:597(primary)
+#: src/concepts/layer-modes.xml:635(primary)
+#: src/concepts/layer-modes.xml:676(primary)
+#: src/concepts/layer-modes.xml:714(primary)
+#: src/concepts/layer-modes.xml:755(primary)
+#: src/concepts/layer-modes.xml:799(primary)
+#: src/concepts/layer-modes.xml:836(primary)
+#: src/concepts/layer-modes.xml:875(primary)
+#: src/concepts/layer-modes.xml:917(primary)
+#: src/concepts/layer-modes.xml:961(primary)
+#: src/concepts/layer-modes.xml:999(primary)
+#: src/concepts/layer-modes.xml:1036(primary)
+#: src/concepts/layer-modes.xml:1079(primary)
+#: src/concepts/layer-modes.xml:1119(primary)
+#: src/concepts/layer-modes.xml:1156(primary)
+#: src/concepts/layer-modes.xml:1189(primary)
+#: src/concepts/layer-modes.xml:1225(primary)
+#: src/concepts/layer-modes.xml:1261(primary)
+#: src/concepts/layer-modes.xml:1305(primary)
+#: src/concepts/layer-modes.xml:1338(primary)
+#: src/concepts/layer-modes.xml:1370(primary)
+#: src/concepts/layer-modes.xml:1401(primary)
+#: src/concepts/layer-modes.xml:1447(primary)
+#: src/concepts/layer-modes.xml:1478(primary)
+#: src/concepts/layer-modes.xml:1510(primary)
+#: src/concepts/layer-modes.xml:1543(primary)
+#: src/concepts/layer-modes.xml:1577(primary)
 #: src/concepts/layer-modes-legacy.xml:169(primary)
 #: src/concepts/layer-modes-legacy.xml:221(primary)
 #: src/concepts/layer-modes-legacy.xml:300(primary)
@@ -3512,66 +3512,74 @@ msgstr ""
 
 #: src/concepts/layer-modes.xml:328(para)
 msgid ""
-"<guilabel>Merge</guilabel> mode lays the source layer on top of the "
-"destination, the same as normal mode. However, it assumes the source and "
-"destination are two parts of an original whole, and are therefore mutually "
-"exclusive. This is useful for blending cut and pasted content without "
-"artifacts, or for replacing erased content in general."
+"<guilabel>Merge</guilabel> mode sums opacity values during blending and can "
+"yield 100% opacity in cases where Normal does not, like when blending cut-"
+"and-pasted content with soft edges whose opacities are mutually exclusive "
+"from each other."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:339(term)
-#: src/concepts/layer-modes.xml:343(secondary)
-#: src/concepts/layer-modes.xml:346(primary)
+#: src/concepts/layer-modes.xml:335(para)
+msgid ""
+"This mode is commutative if (but <emphasis>only if</emphasis>) the total "
+"opacity between both layers is 100% or less. Otherwise, especially for "
+"content that already has 100% opacity, Merge yields the same result as "
+"Normal."
+msgstr ""
+
+#: src/concepts/layer-modes.xml:344(term)
+#: src/concepts/layer-modes.xml:348(secondary)
+#: src/concepts/layer-modes.xml:351(primary)
 msgid "Split"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:349(title)
+#: src/concepts/layer-modes.xml:354(title)
 msgid "Example for layer mode <quote>Split</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:356(para)
+#: src/concepts/layer-modes.xml:361(para)
 msgid ""
 "Top layer at 100% opacity using <quote>Split</quote> mode. The white parts "
 "here are transparent."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:363(para)
+#: src/concepts/layer-modes.xml:368(para)
 msgid ""
-"<guilabel>Split</guilabel> mode subtracts the source layer from the "
-"destination, such that recompositing the result with the source using merge "
-"mode reproduces the original content."
+"<guilabel>Split</guilabel> mode is the inverse of Merge: it subtracts the "
+"top layer's opacity from the bottom layer. This can yield full transparency "
+"in cases where Erase does not, like if erasing a value of 50% opacity from a "
+"layer containing 50% opacity."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:375(title)
+#: src/concepts/layer-modes.xml:381(title)
 #: src/concepts/layer-modes-legacy.xml:295(title)
 msgid "Lighten Layer Modes"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:376(para)
+#: src/concepts/layer-modes.xml:382(para)
 msgid ""
 "The <quote>Lighten</quote> group contains layer modes that make the result "
 "lighter."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:382(term)
-#: src/concepts/layer-modes.xml:386(secondary)
-#: src/concepts/layer-modes.xml:389(primary)
+#: src/concepts/layer-modes.xml:388(term)
+#: src/concepts/layer-modes.xml:392(secondary)
+#: src/concepts/layer-modes.xml:395(primary)
 #: src/concepts/layer-modes-legacy.xml:297(term)
 #: src/concepts/layer-modes-legacy.xml:301(secondary)
 #: src/concepts/layer-modes-legacy.xml:304(primary)
 msgid "Lighten only"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:392(title)
+#: src/concepts/layer-modes.xml:398(title)
 #: src/concepts/layer-modes-legacy.xml:307(title)
 msgid "Example for layer mode <quote>Lighten only</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:399(para)
+#: src/concepts/layer-modes.xml:405(para)
 msgid "Top layer at 100% opacity using <quote>Lighten only</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:406(para)
+#: src/concepts/layer-modes.xml:412(para)
 #: src/concepts/layer-modes-legacy.xml:331(para)
 msgid ""
 "<guimenuitem>Lighten only</guimenuitem> mode compares each component of each "
@@ -3581,35 +3589,35 @@ msgid ""
 "image."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:413(para)
-#: src/concepts/layer-modes.xml:454(para)
-#: src/concepts/layer-modes.xml:659(para)
-#: src/concepts/layer-modes.xml:697(para)
+#: src/concepts/layer-modes.xml:419(para)
+#: src/concepts/layer-modes.xml:460(para)
+#: src/concepts/layer-modes.xml:665(para)
+#: src/concepts/layer-modes.xml:703(para)
 msgid ""
 "The mode is commutative; the order of the two layers doesn't matter (except "
 "for transparent areas in the bottom layer)."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:421(term)
-#: src/concepts/layer-modes.xml:425(secondary)
+#: src/concepts/layer-modes.xml:427(term)
+#: src/concepts/layer-modes.xml:431(secondary)
 msgid "Luma/Luminance lighten only"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:428(primary)
+#: src/concepts/layer-modes.xml:434(primary)
 msgid "Luma/luminance lighten only"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:431(title)
+#: src/concepts/layer-modes.xml:437(title)
 msgid "Example for layer mode <quote>Luma/Luminance lighten only</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:439(para)
+#: src/concepts/layer-modes.xml:445(para)
 msgid ""
 "Top layer at 100% opacity using <quote>Luma/Luminance Lighten only</quote> "
 "mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:446(para)
+#: src/concepts/layer-modes.xml:452(para)
 msgid ""
 "<guimenuitem>Luma/Luminance Lighten only</guimenuitem> mode compares the "
 "luminance of each pixel in the upper layer with the corresponding one in the "
@@ -3618,25 +3626,25 @@ msgid ""
 "result in a white image. Luma is the perceptual version of Luminance."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:462(term)
-#: src/concepts/layer-modes.xml:466(secondary)
-#: src/concepts/layer-modes.xml:469(primary)
+#: src/concepts/layer-modes.xml:468(term)
+#: src/concepts/layer-modes.xml:472(secondary)
+#: src/concepts/layer-modes.xml:475(primary)
 #: src/concepts/layer-modes-legacy.xml:351(term)
 #: src/concepts/layer-modes-legacy.xml:355(secondary)
 #: src/concepts/layer-modes-legacy.xml:358(primary)
 msgid "Screen"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:472(title)
+#: src/concepts/layer-modes.xml:478(title)
 #: src/concepts/layer-modes-legacy.xml:361(title)
 msgid "Example for layer mode <quote>Screen</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:479(para)
+#: src/concepts/layer-modes.xml:485(para)
 msgid "Top layer at 100% opacity using <quote>Screen</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:485(para)
+#: src/concepts/layer-modes.xml:491(para)
 msgid ""
 "<guilabel>Screen</guilabel> mode inverts the values of each of the visible "
 "pixels in the two layers of the image. (That is, it subtracts each of them "
@@ -3647,11 +3655,11 @@ msgid ""
 "image. Darker colors in the image appear to be more transparent."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:496(para)
-#: src/concepts/layer-modes.xml:572(para)
-#: src/concepts/layer-modes.xml:619(para)
-#: src/concepts/layer-modes.xml:1103(para)
-#: src/concepts/layer-modes.xml:1140(para)
+#: src/concepts/layer-modes.xml:502(para)
+#: src/concepts/layer-modes.xml:578(para)
+#: src/concepts/layer-modes.xml:625(para)
+#: src/concepts/layer-modes.xml:1109(para)
+#: src/concepts/layer-modes.xml:1146(para)
 #: src/concepts/layer-modes-legacy.xml:344(para)
 #: src/concepts/layer-modes-legacy.xml:405(para)
 #: src/concepts/layer-modes-legacy.xml:516(para)
@@ -3661,32 +3669,32 @@ msgstr ""
 msgid "The mode is commutative; the order of the two layers doesn't matter."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:503(term)
-#: src/concepts/layer-modes.xml:507(secondary)
-#: src/concepts/layer-modes.xml:510(primary)
+#: src/concepts/layer-modes.xml:509(term)
+#: src/concepts/layer-modes.xml:513(secondary)
+#: src/concepts/layer-modes.xml:516(primary)
 #: src/concepts/layer-modes-legacy.xml:412(term)
 #: src/concepts/layer-modes-legacy.xml:416(secondary)
 #: src/concepts/layer-modes-legacy.xml:419(primary)
 msgid "Dodge"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:513(title)
+#: src/concepts/layer-modes.xml:519(title)
 #: src/concepts/layer-modes-legacy.xml:422(title)
 msgid "Example for layer mode <quote>Dodge</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:520(para)
+#: src/concepts/layer-modes.xml:526(para)
 msgid "Top layer at 100% opacity using <quote>Dodge</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:526(para)
+#: src/concepts/layer-modes.xml:532(para)
 msgid ""
 "<guilabel>Dodge</guilabel> mode divides the pixel value of the lower layer "
 "by the inverse of the pixel value of the top layer. The resulting image is "
 "usually lighter, but some colors may be inverted."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:532(para)
+#: src/concepts/layer-modes.xml:538(para)
 #: src/concepts/layer-modes-legacy.xml:452(para)
 msgid ""
 "In photography, dodging is a technique used in a darkroom to decrease the "
@@ -3695,61 +3703,61 @@ msgid ""
 "and with a painting tool, rather than as a layer mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:543(term)
-#: src/concepts/layer-modes.xml:547(secondary)
-#: src/concepts/layer-modes.xml:550(primary)
+#: src/concepts/layer-modes.xml:549(term)
+#: src/concepts/layer-modes.xml:553(secondary)
+#: src/concepts/layer-modes.xml:556(primary)
 #: src/concepts/layer-modes-legacy.xml:469(term)
 #: src/concepts/layer-modes-legacy.xml:473(secondary)
 #: src/concepts/layer-modes-legacy.xml:476(primary)
 msgid "Addition"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:553(title)
+#: src/concepts/layer-modes.xml:559(title)
 #: src/concepts/layer-modes-legacy.xml:479(title)
 msgid "Example for layer mode <quote>Addition</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:560(para)
+#: src/concepts/layer-modes.xml:566(para)
 msgid "Top layer at 100% opacity using <quote>Addition</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:566(para)
+#: src/concepts/layer-modes.xml:572(para)
 msgid ""
 "<guilabel>Addition</guilabel> mode is very simple. The pixel values of the "
 "upper and lower layers are added to each other. The resulting image is "
 "usually lighter. The equation can result in color values greater than 1.0."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:581(title)
+#: src/concepts/layer-modes.xml:587(title)
 #: src/concepts/layer-modes-legacy.xml:524(title)
 msgid "Darken Layer Modes"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:582(para)
+#: src/concepts/layer-modes.xml:588(para)
 msgid ""
 "The <quote>Darken</quote> group contains layer modes that make the result "
 "darker."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:588(term)
-#: src/concepts/layer-modes.xml:592(secondary)
-#: src/concepts/layer-modes.xml:595(primary)
+#: src/concepts/layer-modes.xml:594(term)
+#: src/concepts/layer-modes.xml:598(secondary)
+#: src/concepts/layer-modes.xml:601(primary)
 #: src/concepts/layer-modes-legacy.xml:526(term)
 #: src/concepts/layer-modes-legacy.xml:530(secondary)
 #: src/concepts/layer-modes-legacy.xml:533(primary)
 msgid "Darken only"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:598(title)
+#: src/concepts/layer-modes.xml:604(title)
 #: src/concepts/layer-modes-legacy.xml:536(title)
 msgid "Example for layer mode <quote>Darken only</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:605(para)
+#: src/concepts/layer-modes.xml:611(para)
 msgid "Top layer at 100% opacity using <quote>Darken only</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:612(para)
+#: src/concepts/layer-modes.xml:618(para)
 #: src/concepts/layer-modes-legacy.xml:560(para)
 msgid ""
 "<guimenuitem>Darken only</guimenuitem> mode compares each component of each "
@@ -3759,26 +3767,26 @@ msgid ""
 "image."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:626(term)
-#: src/concepts/layer-modes.xml:630(secondary)
+#: src/concepts/layer-modes.xml:632(term)
+#: src/concepts/layer-modes.xml:636(secondary)
 msgid "Luma/Luminance darken only"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:633(primary)
+#: src/concepts/layer-modes.xml:639(primary)
 msgid "Luma/luminance darken only"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:636(title)
+#: src/concepts/layer-modes.xml:642(title)
 msgid "Example for layer mode <quote>Luma/luminance darken only</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:644(para)
+#: src/concepts/layer-modes.xml:650(para)
 msgid ""
 "Top layer at 100% opacity using <quote>Luma/Luminance Darken only</quote> "
 "mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:651(para)
+#: src/concepts/layer-modes.xml:657(para)
 msgid ""
 "<guimenuitem>Luma/luminance Darken only</guimenuitem> mode compares the "
 "luminance of each pixel in the upper layer with the corresponding one in the "
@@ -3787,25 +3795,25 @@ msgid ""
 "result in a black image. Luma is the perceptual version of Luminance."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:667(term)
-#: src/concepts/layer-modes.xml:671(secondary)
-#: src/concepts/layer-modes.xml:674(primary)
+#: src/concepts/layer-modes.xml:673(term)
+#: src/concepts/layer-modes.xml:677(secondary)
+#: src/concepts/layer-modes.xml:680(primary)
 #: src/concepts/layer-modes-legacy.xml:580(term)
 #: src/concepts/layer-modes-legacy.xml:584(secondary)
 #: src/concepts/layer-modes-legacy.xml:587(primary)
 msgid "Multiply"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:677(title)
+#: src/concepts/layer-modes.xml:683(title)
 #: src/concepts/layer-modes-legacy.xml:590(title)
 msgid "Example for layer mode <quote>Multiply</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:684(para)
+#: src/concepts/layer-modes.xml:690(para)
 msgid "Top layer at 100% opacity using <quote>Multiply</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:690(para)
+#: src/concepts/layer-modes.xml:696(para)
 msgid ""
 "<guilabel>Multiply</guilabel> mode multiplies the pixel values of the upper "
 "layer with those of the layer below it. The result is usually a darker "
@@ -3814,25 +3822,25 @@ msgid ""
 "black."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:705(term)
-#: src/concepts/layer-modes.xml:709(secondary)
-#: src/concepts/layer-modes.xml:712(primary)
+#: src/concepts/layer-modes.xml:711(term)
+#: src/concepts/layer-modes.xml:715(secondary)
+#: src/concepts/layer-modes.xml:718(primary)
 #: src/concepts/layer-modes-legacy.xml:635(term)
 #: src/concepts/layer-modes-legacy.xml:639(secondary)
 #: src/concepts/layer-modes-legacy.xml:642(primary)
 msgid "Burn"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:715(title)
+#: src/concepts/layer-modes.xml:721(title)
 #: src/concepts/layer-modes-legacy.xml:645(title)
 msgid "Example for layer mode <quote>Burn</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:722(para)
+#: src/concepts/layer-modes.xml:728(para)
 msgid "Top layer at 100% opacity using <quote>Burn</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:728(para)
+#: src/concepts/layer-modes.xml:734(para)
 msgid ""
 "<guilabel>Burn</guilabel> mode inverts the pixel value of the lower layer, "
 "divides that by the pixel value of the upper layer, then inverts the result. "
@@ -3840,7 +3848,7 @@ msgid ""
 "quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:735(para)
+#: src/concepts/layer-modes.xml:741(para)
 #: src/concepts/layer-modes-legacy.xml:676(para)
 msgid ""
 "In photography, burning is a technique used in a darkroom to increase the "
@@ -3849,56 +3857,56 @@ msgid ""
 "images and with a painting tool, rather than as a layer mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:746(term)
-#: src/concepts/layer-modes.xml:750(secondary)
-#: src/concepts/layer-modes.xml:753(primary)
+#: src/concepts/layer-modes.xml:752(term)
+#: src/concepts/layer-modes.xml:756(secondary)
+#: src/concepts/layer-modes.xml:759(primary)
 msgid "Linear burn"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:756(title)
+#: src/concepts/layer-modes.xml:762(title)
 msgid "Example for layer mode <quote>Linear burn</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:763(para)
+#: src/concepts/layer-modes.xml:769(para)
 msgid "Top layer at 100% opacity using <quote>Linear Burn</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:770(para)
+#: src/concepts/layer-modes.xml:776(para)
 msgid ""
 "<guilabel>Linear Burn</guilabel> mode adds the pixel values of the upper and "
 "lower layers, and then subtracts 1.0. It tends to make the image darker, "
 "somewhat similar to <quote>Multiply</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:783(title)
+#: src/concepts/layer-modes.xml:789(title)
 #: src/concepts/layer-modes-legacy.xml:694(title)
 msgid "Contrast Layer Modes"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:784(para)
+#: src/concepts/layer-modes.xml:790(para)
 msgid ""
 "The <quote>Contrast</quote> group contains layer modes that enhance contrast."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:790(term)
-#: src/concepts/layer-modes.xml:794(secondary)
-#: src/concepts/layer-modes.xml:797(primary)
+#: src/concepts/layer-modes.xml:796(term)
+#: src/concepts/layer-modes.xml:800(secondary)
+#: src/concepts/layer-modes.xml:803(primary)
 #: src/concepts/layer-modes-legacy.xml:696(term)
 #: src/concepts/layer-modes-legacy.xml:700(secondary)
 #: src/concepts/layer-modes-legacy.xml:703(primary)
 msgid "Overlay"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:800(title)
+#: src/concepts/layer-modes.xml:806(title)
 #: src/concepts/layer-modes-legacy.xml:706(title)
 msgid "Example for layer mode <quote>Overlay</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:807(para)
+#: src/concepts/layer-modes.xml:813(para)
 msgid "Top layer at 100% opacity using <quote>Overlay</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:813(para)
+#: src/concepts/layer-modes.xml:819(para)
 msgid ""
 "<guilabel>Overlay</guilabel> mode multiplies the upper layer with two times "
 "the lower layer when the component value of the lower layer is less than "
@@ -3908,25 +3916,25 @@ msgid ""
 "not as much as with <quote>Multiply</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:827(term)
-#: src/concepts/layer-modes.xml:831(secondary)
-#: src/concepts/layer-modes.xml:834(primary)
+#: src/concepts/layer-modes.xml:833(term)
+#: src/concepts/layer-modes.xml:837(secondary)
+#: src/concepts/layer-modes.xml:840(primary)
 #: src/concepts/layer-modes-legacy.xml:758(term)
 #: src/concepts/layer-modes-legacy.xml:762(secondary)
 #: src/concepts/layer-modes-legacy.xml:765(primary)
 msgid "Soft light"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:837(title)
+#: src/concepts/layer-modes.xml:843(title)
 #: src/concepts/layer-modes-legacy.xml:768(title)
 msgid "Example for layer mode <quote>Soft light</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:844(para)
+#: src/concepts/layer-modes.xml:850(para)
 msgid "Top layer at 100% opacity using <quote>Soft Light</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:851(para)
+#: src/concepts/layer-modes.xml:857(para)
 msgid ""
 "<guilabel>Soft light</guilabel> is not related to <quote>Hard light</quote> "
 "in anything but the name, but it does tend to make the edges softer and the "
@@ -3937,25 +3945,25 @@ msgid ""
 "result of <guilabel>Screen</guilabel> mode with the lower layer."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:866(term)
-#: src/concepts/layer-modes.xml:870(secondary)
-#: src/concepts/layer-modes.xml:873(primary)
+#: src/concepts/layer-modes.xml:872(term)
+#: src/concepts/layer-modes.xml:876(secondary)
+#: src/concepts/layer-modes.xml:879(primary)
 #: src/concepts/layer-modes-legacy.xml:821(term)
 #: src/concepts/layer-modes-legacy.xml:825(secondary)
 #: src/concepts/layer-modes-legacy.xml:828(primary)
 msgid "Hard light"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:876(title)
+#: src/concepts/layer-modes.xml:882(title)
 #: src/concepts/layer-modes-legacy.xml:831(title)
 msgid "Example for layer mode <quote>Hard light</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:883(para)
+#: src/concepts/layer-modes.xml:889(para)
 msgid "Top layer at 100% opacity using <quote>Hard Light</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:890(para)
+#: src/concepts/layer-modes.xml:896(para)
 msgid ""
 "<guilabel>Hard light</guilabel> mode is rather complicated because the "
 "equation consists of two parts, one for darker color components and one for "
@@ -3969,21 +3977,21 @@ msgid ""
 "combine two photographs and obtain bright colors and sharp edges."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:908(term)
-#: src/concepts/layer-modes.xml:912(secondary)
-#: src/concepts/layer-modes.xml:915(primary)
+#: src/concepts/layer-modes.xml:914(term)
+#: src/concepts/layer-modes.xml:918(secondary)
+#: src/concepts/layer-modes.xml:921(primary)
 msgid "Vivid light"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:918(title)
+#: src/concepts/layer-modes.xml:924(title)
 msgid "Example for layer mode <quote>Vivid light</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:925(para)
+#: src/concepts/layer-modes.xml:931(para)
 msgid "Top layer at 100% opacity using <quote>Vivid Light</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:932(para)
+#: src/concepts/layer-modes.xml:938(para)
 msgid ""
 "<guilabel>Vivid light</guilabel> mode, increases contrast very strongly, "
 "especially in highlights and shadows. The effect is a combination of Burn "
@@ -3997,21 +4005,21 @@ msgid ""
 "layer. If the result is larger than 1.0, return 1.0."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:952(term)
-#: src/concepts/layer-modes.xml:956(secondary)
-#: src/concepts/layer-modes.xml:959(primary)
+#: src/concepts/layer-modes.xml:958(term)
+#: src/concepts/layer-modes.xml:962(secondary)
+#: src/concepts/layer-modes.xml:965(primary)
 msgid "Pin light"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:962(title)
+#: src/concepts/layer-modes.xml:968(title)
 msgid "Example for layer mode <quote>Pin light</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:969(para)
+#: src/concepts/layer-modes.xml:975(para)
 msgid "Top layer at 100% opacity using <quote>Pin Light</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:975(para)
+#: src/concepts/layer-modes.xml:981(para)
 msgid ""
 "<guilabel>Pin light</guilabel> mode is a combination of the Darken and "
 "Lighten modes. Mid-tone regions remain almost uninfluenced. If the component "
@@ -4022,21 +4030,21 @@ msgid ""
 "upper layer."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:990(term)
-#: src/concepts/layer-modes.xml:994(secondary)
-#: src/concepts/layer-modes.xml:997(primary)
+#: src/concepts/layer-modes.xml:996(term)
+#: src/concepts/layer-modes.xml:1000(secondary)
+#: src/concepts/layer-modes.xml:1003(primary)
 msgid "Linear light"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1000(title)
+#: src/concepts/layer-modes.xml:1006(title)
 msgid "Example for layer mode <quote>Linear light</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1007(para)
+#: src/concepts/layer-modes.xml:1013(para)
 msgid "Top layer at 100% opacity using <quote>Linear Light</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1014(para)
+#: src/concepts/layer-modes.xml:1020(para)
 msgid ""
 "<guilabel>Linear light</guilabel> mode increases contrast slightly less than "
 "vivid light. It resembles Burn, but with twice the impact on the "
@@ -4046,21 +4054,21 @@ msgid ""
 "layer and multiply by 2.0, then add the lower layer."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1027(term)
-#: src/concepts/layer-modes.xml:1031(secondary)
-#: src/concepts/layer-modes.xml:1034(primary)
+#: src/concepts/layer-modes.xml:1033(term)
+#: src/concepts/layer-modes.xml:1037(secondary)
+#: src/concepts/layer-modes.xml:1040(primary)
 msgid "Hard mix"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1037(title)
+#: src/concepts/layer-modes.xml:1043(title)
 msgid "Example for layer mode <quote>Hard mix</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1044(para)
+#: src/concepts/layer-modes.xml:1050(para)
 msgid "Top layer at 100% opacity using <quote>Hard Mix</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1050(para)
+#: src/concepts/layer-modes.xml:1056(para)
 msgid ""
 "<guilabel>Hard mix</guilabel> mode only contains the six primary colors, "
 "black and white. The upper and lower layer components are added together. "
@@ -4068,36 +4076,36 @@ msgid ""
 "is set to 0."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1063(title)
+#: src/concepts/layer-modes.xml:1069(title)
 #: src/concepts/layer-modes-legacy.xml:892(title)
 msgid "Inversion Layer Modes"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1064(para)
+#: src/concepts/layer-modes.xml:1070(para)
 msgid ""
 "The <quote>Inversion</quote> group contains layer modes that invert the "
 "colors in one way or another."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1070(term)
-#: src/concepts/layer-modes.xml:1074(secondary)
-#: src/concepts/layer-modes.xml:1077(primary)
+#: src/concepts/layer-modes.xml:1076(term)
+#: src/concepts/layer-modes.xml:1080(secondary)
+#: src/concepts/layer-modes.xml:1083(primary)
 #: src/concepts/layer-modes-legacy.xml:894(term)
 #: src/concepts/layer-modes-legacy.xml:898(secondary)
 #: src/concepts/layer-modes-legacy.xml:901(primary)
 msgid "Difference"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1080(title)
+#: src/concepts/layer-modes.xml:1086(title)
 #: src/concepts/layer-modes-legacy.xml:904(title)
 msgid "Example for layer mode <quote>Difference</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1087(para)
+#: src/concepts/layer-modes.xml:1093(para)
 msgid "Top layer at 100% opacity using <quote>Difference</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1094(para)
+#: src/concepts/layer-modes.xml:1100(para)
 msgid ""
 "<guilabel>Difference</guilabel> mode subtracts the pixel value of the upper "
 "layer from that of the lower layer and then takes the absolute value of the "
@@ -4107,21 +4115,21 @@ msgid ""
 "whereas a white background inverts the foreground."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1110(term)
-#: src/concepts/layer-modes.xml:1114(secondary)
-#: src/concepts/layer-modes.xml:1117(primary)
+#: src/concepts/layer-modes.xml:1116(term)
+#: src/concepts/layer-modes.xml:1120(secondary)
+#: src/concepts/layer-modes.xml:1123(primary)
 msgid "Exclusion"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1120(title)
+#: src/concepts/layer-modes.xml:1126(title)
 msgid "Example for layer mode <quote>Exclusion</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1127(para)
+#: src/concepts/layer-modes.xml:1133(para)
 msgid "Top layer at 100% opacity using <quote>Exclusion</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1133(para)
+#: src/concepts/layer-modes.xml:1139(para)
 msgid ""
 "<guilabel>Exclusion</guilabel> mode causes inversion to the other layer for "
 "bright regions, very dark regions change nothing at all. In this way this "
@@ -4129,25 +4137,25 @@ msgid ""
 "contrast of the respective other layer, in extreme cases up to zero."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1147(term)
-#: src/concepts/layer-modes.xml:1151(secondary)
-#: src/concepts/layer-modes.xml:1154(primary)
+#: src/concepts/layer-modes.xml:1153(term)
+#: src/concepts/layer-modes.xml:1157(secondary)
+#: src/concepts/layer-modes.xml:1160(primary)
 #: src/concepts/layer-modes-legacy.xml:948(term)
 #: src/concepts/layer-modes-legacy.xml:952(secondary)
 #: src/concepts/layer-modes-legacy.xml:955(primary)
 msgid "Subtract"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1157(title)
+#: src/concepts/layer-modes.xml:1163(title)
 #: src/concepts/layer-modes-legacy.xml:958(title)
 msgid "Example for layer mode <quote>Subtract</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1164(para)
+#: src/concepts/layer-modes.xml:1170(para)
 msgid "Top layer at 100% opacity using <quote>Subtract</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1170(para)
+#: src/concepts/layer-modes.xml:1176(para)
 msgid ""
 "<guilabel>Subtract</guilabel> mode subtracts the pixel values of the upper "
 "layer from the pixel values of the lower layer. The resulting image is "
@@ -4155,25 +4163,25 @@ msgid ""
 "image."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1180(term)
-#: src/concepts/layer-modes.xml:1184(secondary)
-#: src/concepts/layer-modes.xml:1187(primary)
+#: src/concepts/layer-modes.xml:1186(term)
+#: src/concepts/layer-modes.xml:1190(secondary)
+#: src/concepts/layer-modes.xml:1193(primary)
 #: src/concepts/layer-modes-legacy.xml:1000(term)
 #: src/concepts/layer-modes-legacy.xml:1004(secondary)
 #: src/concepts/layer-modes-legacy.xml:1007(primary)
 msgid "Grain extract"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1190(title)
+#: src/concepts/layer-modes.xml:1196(title)
 #: src/concepts/layer-modes-legacy.xml:1010(title)
 msgid "Example for layer mode <quote>Grain extract</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1197(para)
+#: src/concepts/layer-modes.xml:1203(para)
 msgid "Top layer at 100% opacity using <quote>Grain Extract</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1204(para)
+#: src/concepts/layer-modes.xml:1210(para)
 msgid ""
 "<guilabel>Grain extract</guilabel> mode is supposed to extract the "
 "<quote>film grain</quote> from a layer to produce a new layer that is pure "
@@ -4182,25 +4190,25 @@ msgid ""
 "and adds 0.5."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1216(term)
-#: src/concepts/layer-modes.xml:1220(secondary)
-#: src/concepts/layer-modes.xml:1223(primary)
+#: src/concepts/layer-modes.xml:1222(term)
+#: src/concepts/layer-modes.xml:1226(secondary)
+#: src/concepts/layer-modes.xml:1229(primary)
 #: src/concepts/layer-modes-legacy.xml:1052(term)
 #: src/concepts/layer-modes-legacy.xml:1056(secondary)
 #: src/concepts/layer-modes-legacy.xml:1059(primary)
 msgid "Grain merge"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1226(title)
+#: src/concepts/layer-modes.xml:1232(title)
 #: src/concepts/layer-modes-legacy.xml:1062(title)
 msgid "Example for layer mode <quote>Grain merge</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1233(para)
+#: src/concepts/layer-modes.xml:1239(para)
 msgid "Top layer at 100% opacity using <quote>Grain Merge</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1240(para)
+#: src/concepts/layer-modes.xml:1246(para)
 msgid ""
 "<guilabel>Grain merge</guilabel> mode merges a grain layer (possibly one "
 "created from the <quote>Grain extract</quote> mode) into the current layer, "
@@ -4209,25 +4217,25 @@ msgid ""
 "lower layers together and subtracts 0.5."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1252(term)
-#: src/concepts/layer-modes.xml:1256(secondary)
-#: src/concepts/layer-modes.xml:1259(primary)
+#: src/concepts/layer-modes.xml:1258(term)
+#: src/concepts/layer-modes.xml:1262(secondary)
+#: src/concepts/layer-modes.xml:1265(primary)
 #: src/concepts/layer-modes-legacy.xml:1104(term)
 #: src/concepts/layer-modes-legacy.xml:1108(secondary)
 #: src/concepts/layer-modes-legacy.xml:1111(primary)
 msgid "Divide"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1262(title)
+#: src/concepts/layer-modes.xml:1268(title)
 #: src/concepts/layer-modes-legacy.xml:1114(title)
 msgid "Example for layer mode <quote>Divide</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1269(para)
+#: src/concepts/layer-modes.xml:1275(para)
 msgid "Top layer at 100% opacity using <quote>Divide</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1275(para)
+#: src/concepts/layer-modes.xml:1281(para)
 msgid ""
 "<guilabel>Divide</guilabel> mode divides each pixel value in the lower layer "
 "by the corresponding pixel value of the upper layer (while avoiding dividing "
@@ -4235,36 +4243,36 @@ msgid ""
 "<quote>burned out</quote>."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1289(title)
+#: src/concepts/layer-modes.xml:1295(title)
 #: src/concepts/layer-modes-legacy.xml:1157(title)
 msgid "HSV Components Layer Modes"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1290(para)
+#: src/concepts/layer-modes.xml:1296(para)
 msgid ""
 "The <quote>HSV</quote> group contains layer modes that make use of the HSV "
 "color model."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1296(term)
-#: src/concepts/layer-modes.xml:1300(secondary)
-#: src/concepts/layer-modes.xml:1303(primary)
+#: src/concepts/layer-modes.xml:1302(term)
+#: src/concepts/layer-modes.xml:1306(secondary)
+#: src/concepts/layer-modes.xml:1309(primary)
 #: src/concepts/layer-modes-legacy.xml:1160(term)
 #: src/concepts/layer-modes-legacy.xml:1164(secondary)
 #: src/concepts/layer-modes-legacy.xml:1167(primary)
 msgid "HSV Hue"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1306(title)
+#: src/concepts/layer-modes.xml:1312(title)
 #: src/concepts/layer-modes-legacy.xml:1170(title)
 msgid "Example for layer mode <quote>HSV Hue</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1313(para)
+#: src/concepts/layer-modes.xml:1319(para)
 msgid "Top layer at 100% opacity using <quote>HSV Hue</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1319(para)
+#: src/concepts/layer-modes.xml:1325(para)
 #: src/concepts/layer-modes-legacy.xml:1194(para)
 msgid ""
 "<guilabel>HSV Hue</guilabel> mode uses the Hue of the upper layer and the "
@@ -4273,75 +4281,75 @@ msgid ""
 "the lower layer, too."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1329(term)
-#: src/concepts/layer-modes.xml:1333(secondary)
-#: src/concepts/layer-modes.xml:1336(primary)
+#: src/concepts/layer-modes.xml:1335(term)
+#: src/concepts/layer-modes.xml:1339(secondary)
+#: src/concepts/layer-modes.xml:1342(primary)
 #: src/concepts/layer-modes-legacy.xml:1204(term)
 #: src/concepts/layer-modes-legacy.xml:1208(secondary)
 #: src/concepts/layer-modes-legacy.xml:1211(primary)
 msgid "HSV Saturation"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1339(title)
+#: src/concepts/layer-modes.xml:1345(title)
 #: src/concepts/layer-modes-legacy.xml:1214(title)
 msgid "Example for layer mode <quote>HSV Saturation</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1346(para)
+#: src/concepts/layer-modes.xml:1352(para)
 msgid "Top layer at 100% opacity using <quote>HSV Saturation</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1353(para)
+#: src/concepts/layer-modes.xml:1359(para)
 #: src/concepts/layer-modes-legacy.xml:1238(para)
 msgid ""
 "<guilabel>HSV Saturation</guilabel> mode uses the Saturation of the upper "
 "layer and the Hue and Value of the lower layer to form the resulting image."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1361(term)
-#: src/concepts/layer-modes.xml:1365(secondary)
-#: src/concepts/layer-modes.xml:1368(primary)
+#: src/concepts/layer-modes.xml:1367(term)
+#: src/concepts/layer-modes.xml:1371(secondary)
+#: src/concepts/layer-modes.xml:1374(primary)
 #: src/concepts/layer-modes-legacy.xml:1246(term)
 #: src/concepts/layer-modes-legacy.xml:1250(secondary)
 #: src/concepts/layer-modes-legacy.xml:1253(primary)
 msgid "HSL Color"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1371(title)
+#: src/concepts/layer-modes.xml:1377(title)
 #: src/concepts/layer-modes-legacy.xml:1256(title)
 msgid "Example for layer mode <quote>HSL Color</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1378(para)
+#: src/concepts/layer-modes.xml:1384(para)
 msgid "Top layer at 100% opacity using <quote>HSL Color</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1384(para)
+#: src/concepts/layer-modes.xml:1390(para)
 #: src/concepts/layer-modes-legacy.xml:1280(para)
 msgid ""
 "<guilabel>HSL Color</guilabel> mode uses the Hue and Saturation of the upper "
 "layer and the Lightness of the lower layer to form the resulting image."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1392(term)
-#: src/concepts/layer-modes.xml:1396(secondary)
-#: src/concepts/layer-modes.xml:1399(primary)
+#: src/concepts/layer-modes.xml:1398(term)
+#: src/concepts/layer-modes.xml:1402(secondary)
+#: src/concepts/layer-modes.xml:1405(primary)
 #: src/concepts/layer-modes-legacy.xml:1288(term)
 #: src/concepts/layer-modes-legacy.xml:1292(secondary)
 #: src/concepts/layer-modes-legacy.xml:1295(primary)
 msgid "HSV Value"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1402(title)
+#: src/concepts/layer-modes.xml:1408(title)
 #: src/concepts/layer-modes-legacy.xml:1298(title)
 msgid "Example for layer mode <quote>HSV Value</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1409(para)
+#: src/concepts/layer-modes.xml:1415(para)
 msgid "Top layer at 100% opacity using <quote>HSV Value</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1415(para)
+#: src/concepts/layer-modes.xml:1421(para)
 #: src/concepts/layer-modes-legacy.xml:1322(para)
 msgid ""
 "<guilabel>HSV Value</guilabel> mode uses the Value of the upper layer and "
@@ -4350,11 +4358,11 @@ msgid ""
 "without changing the Saturation."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1428(title)
+#: src/concepts/layer-modes.xml:1434(title)
 msgid "LCh Components Layer Modes"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1430(para)
+#: src/concepts/layer-modes.xml:1436(para)
 msgid ""
 "The <quote>LCh</quote> group contains layer modes that make use of the LCh "
 "color model. <quote>LCh</quote> stands for Lightness, Chroma, Hue. It is "
@@ -4363,61 +4371,61 @@ msgid ""
 "LCHab#CIEHLC_cylindrical_model\">CIELCh</ulink>."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1438(term)
-#: src/concepts/layer-modes.xml:1442(secondary)
-#: src/concepts/layer-modes.xml:1445(primary)
+#: src/concepts/layer-modes.xml:1444(term)
+#: src/concepts/layer-modes.xml:1448(secondary)
+#: src/concepts/layer-modes.xml:1451(primary)
 msgid "LCh Hue"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1448(title)
+#: src/concepts/layer-modes.xml:1454(title)
 msgid "Example for layer mode <quote>LCh Hue</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1455(para)
+#: src/concepts/layer-modes.xml:1461(para)
 msgid "Top layer at 100% opacity using <quote>LCh Hue</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1461(para)
+#: src/concepts/layer-modes.xml:1467(para)
 msgid ""
 "<guilabel>LCh Hue</guilabel> mode corresponds to HSV Hue but is based on "
 "different mathematical formulas."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1469(term)
-#: src/concepts/layer-modes.xml:1473(secondary)
-#: src/concepts/layer-modes.xml:1476(primary)
+#: src/concepts/layer-modes.xml:1475(term)
+#: src/concepts/layer-modes.xml:1479(secondary)
+#: src/concepts/layer-modes.xml:1482(primary)
 msgid "LCh Chroma"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1479(title)
+#: src/concepts/layer-modes.xml:1485(title)
 msgid "Example for layer mode <quote>LCh Chroma</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1486(para)
+#: src/concepts/layer-modes.xml:1492(para)
 msgid "Top layer at 100% opacity using <quote>LCh Chroma</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1493(para)
+#: src/concepts/layer-modes.xml:1499(para)
 msgid ""
 "<guilabel>LCh Chroma</guilabel> mode corresponds to HSV Saturation but is "
 "based on different mathematical formulas."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1501(term)
-#: src/concepts/layer-modes.xml:1505(secondary)
-#: src/concepts/layer-modes.xml:1508(primary)
+#: src/concepts/layer-modes.xml:1507(term)
+#: src/concepts/layer-modes.xml:1511(secondary)
+#: src/concepts/layer-modes.xml:1514(primary)
 msgid "LCh Color"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1511(title)
+#: src/concepts/layer-modes.xml:1517(title)
 msgid "Example for layer mode <quote>LCh Color</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1518(para)
+#: src/concepts/layer-modes.xml:1524(para)
 msgid "Top layer at 100% opacity using <quote>LCh Color</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1524(para)
+#: src/concepts/layer-modes.xml:1530(para)
 msgid ""
 "<guilabel>LCh Color</guilabel> mode is a combination of LCh Chroma and LCh "
 "Hue, and corresponds to HSV Color, but is based on different mathematical "
@@ -4426,21 +4434,21 @@ msgid ""
 "for information on using this layer mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1534(term)
-#: src/concepts/layer-modes.xml:1538(secondary)
-#: src/concepts/layer-modes.xml:1541(primary)
+#: src/concepts/layer-modes.xml:1540(term)
+#: src/concepts/layer-modes.xml:1544(secondary)
+#: src/concepts/layer-modes.xml:1547(primary)
 msgid "LCh Lightness"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1544(title)
+#: src/concepts/layer-modes.xml:1550(title)
 msgid "Example for layer mode <quote>LCh Lightness</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1551(para)
+#: src/concepts/layer-modes.xml:1557(para)
 msgid "Top layer at 100% opacity using <quote>LCh Lightness</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1558(para)
+#: src/concepts/layer-modes.xml:1564(para)
 msgid ""
 "<guilabel>LCh Lightness</guilabel> mode corresponds to HSV Value, but is "
 "based on different mathematical formulas. See <ulink url=\"https://"
@@ -4449,21 +4457,21 @@ msgid ""
 "layer mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1568(term)
-#: src/concepts/layer-modes.xml:1572(secondary)
-#: src/concepts/layer-modes.xml:1575(primary)
+#: src/concepts/layer-modes.xml:1574(term)
+#: src/concepts/layer-modes.xml:1578(secondary)
+#: src/concepts/layer-modes.xml:1581(primary)
 msgid "Luminance"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1578(title)
+#: src/concepts/layer-modes.xml:1584(title)
 msgid "Example for layer mode <quote>Luminance</quote>"
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1585(para)
+#: src/concepts/layer-modes.xml:1591(para)
 msgid "Top layer at 100% opacity using <quote>Luminance</quote> mode."
 msgstr ""
 
-#: src/concepts/layer-modes.xml:1591(para)
+#: src/concepts/layer-modes.xml:1597(para)
 msgid ""
 "<guilabel>Luminance</guilabel> mode is similar to CIE luminance, but does "
 "not alter saturation. It divides the upper layer luminance by the lower "

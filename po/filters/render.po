@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
+"POT-Creation-Date: 2025-11-15 20:27+0000\n"
 "PO-Revision-Date: 2025-11-08 22:00+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -310,6 +310,7 @@ msgstr ""
 #: src/filters/render/plasma.xml:49(title)
 #: src/filters/render/perlin-noise.xml:42(title)
 #: src/filters/render/maze.xml:42(title)
+#: src/filters/render/linear-sinusoid.xml:41(title)
 #: src/filters/render/line-nova.xml:58(title)
 #: src/filters/render/lava.xml:53(title)
 #: src/filters/render/jigsaw.xml:68(title)
@@ -449,7 +450,7 @@ msgstr ""
 #: src/filters/render/plasma.xml:62(title)
 #: src/filters/render/perlin-noise.xml:55(title)
 #: src/filters/render/maze.xml:55(title)
-#: src/filters/render/linear-sinusoid.xml:50(title)
+#: src/filters/render/linear-sinusoid.xml:54(title)
 #: src/filters/render/line-nova.xml:70(title)
 #: src/filters/render/lava.xml:65(title)
 #: src/filters/render/jigsaw.xml:81(title)
@@ -775,7 +776,7 @@ msgstr "Sekmelerin altında ek bir seçenek bulunmaktadır."
 #: src/filters/render/spyrogimp.xml:391(term)
 #: src/filters/render/spyrogimp.xml:559(term)
 #: src/filters/render/spiral.xml:119(term)
-#: src/filters/render/linear-sinusoid.xml:131(term)
+#: src/filters/render/linear-sinusoid.xml:135(term)
 #: src/filters/render/bayer-matrix.xml:101(term)
 msgid "Rotation"
 msgstr "Döndürme"
@@ -1134,7 +1135,7 @@ msgstr "<quote>Sarmal</quote> süzgeci seçenekleri"
 #: src/filters/render/plasma.xml:74(term)
 #: src/filters/render/perlin-noise.xml:67(term)
 #: src/filters/render/maze.xml:67(term)
-#: src/filters/render/linear-sinusoid.xml:62(term)
+#: src/filters/render/linear-sinusoid.xml:66(term)
 #: src/filters/render/grid.xml:92(term)
 #: src/filters/render/diffraction.xml:85(term)
 #: src/filters/render/checkerboard.xml:67(term)
@@ -1150,7 +1151,7 @@ msgstr "Önayarlar"
 #: src/filters/render/plasma.xml:75(quote)
 #: src/filters/render/perlin-noise.xml:68(quote)
 #: src/filters/render/maze.xml:68(quote)
-#: src/filters/render/linear-sinusoid.xml:63(quote)
+#: src/filters/render/linear-sinusoid.xml:67(quote)
 #: src/filters/render/grid.xml:93(quote)
 #: src/filters/render/diffraction.xml:86(quote)
 #: src/filters/render/checkerboard.xml:68(quote)
@@ -1166,7 +1167,7 @@ msgstr "Girdi Türü"
 #: src/filters/render/plasma.xml:76(term)
 #: src/filters/render/perlin-noise.xml:69(term)
 #: src/filters/render/maze.xml:69(term)
-#: src/filters/render/linear-sinusoid.xml:64(term)
+#: src/filters/render/linear-sinusoid.xml:68(term)
 #: src/filters/render/grid.xml:94(term)
 #: src/filters/render/diffraction.xml:87(term)
 #: src/filters/render/checkerboard.xml:69(term)
@@ -1182,7 +1183,7 @@ msgstr "Kırpma"
 #: src/filters/render/plasma.xml:77(term)
 #: src/filters/render/perlin-noise.xml:70(term)
 #: src/filters/render/maze.xml:70(term)
-#: src/filters/render/linear-sinusoid.xml:65(term)
+#: src/filters/render/linear-sinusoid.xml:69(term)
 #: src/filters/render/grid.xml:95(term)
 #: src/filters/render/diffraction.xml:88(term)
 #: src/filters/render/checkerboard.xml:70(term)
@@ -1199,7 +1200,7 @@ msgstr "Harmanlama Seçenekleri"
 #: src/filters/render/plasma.xml:78(term)
 #: src/filters/render/perlin-noise.xml:71(term)
 #: src/filters/render/maze.xml:71(term)
-#: src/filters/render/linear-sinusoid.xml:66(term)
+#: src/filters/render/linear-sinusoid.xml:70(term)
 #: src/filters/render/grid.xml:96(term)
 #: src/filters/render/fractalexplorer.xml:85(title)
 #: src/filters/render/diffraction.xml:89(term)
@@ -1217,7 +1218,7 @@ msgstr "Ön izleme"
 #: src/filters/render/plasma.xml:79(term)
 #: src/filters/render/perlin-noise.xml:72(term)
 #: src/filters/render/maze.xml:72(term)
-#: src/filters/render/linear-sinusoid.xml:67(term)
+#: src/filters/render/linear-sinusoid.xml:71(term)
 #: src/filters/render/grid.xml:97(term)
 #: src/filters/render/diffraction.xml:90(term)
 #: src/filters/render/checkerboard.xml:72(term)
@@ -1233,7 +1234,7 @@ msgstr "Süzgeci birleştir"
 #: src/filters/render/plasma.xml:80(term)
 #: src/filters/render/perlin-noise.xml:73(term)
 #: src/filters/render/maze.xml:73(term)
-#: src/filters/render/linear-sinusoid.xml:68(term)
+#: src/filters/render/linear-sinusoid.xml:72(term)
 #: src/filters/render/grid.xml:98(term)
 #: src/filters/render/diffraction.xml:91(term)
 #: src/filters/render/checkerboard.xml:73(term)
@@ -1643,7 +1644,7 @@ msgstr ""
 #. Exp.
 #: src/filters/render/spheredesigner.xml:233(term)
 #: src/filters/render/sinus.xml:164(term)
-#: src/filters/render/linear-sinusoid.xml:113(term)
+#: src/filters/render/linear-sinusoid.xml:117(term)
 #: src/filters/render/bayer-matrix.xml:133(term)
 msgid "Exponent"
 msgstr "Katsayı"
@@ -1789,9 +1790,9 @@ msgstr ""
 "görüntünün nasıl göründüğü önemli değildir - bu süzgeç, uygulandığı "
 "katmandaki mevcut arka planı tamamen üzerine yazar). Bu, <link "
 "linkend=\"gimp-tool-warp\">Warp transform</link> aracı ya da <link "
-"linkend=\"gimp-filter-bump-map\">Bump Map</link> süzgeci için yer "
-"değiştirme haritaları oluşturmak için de iyi bir araçtır. \"Türbülans\" "
-"ayarı etkin olduğunda, sonuçlar gerçek bulutlara oldukça benzer."
+"linkend=\"gimp-filter-bump-map\">Bump Map</link> süzgeci için yer değiştirme "
+"haritaları oluşturmak için de iyi bir araçtır. \"Türbülans\" ayarı etkin "
+"olduğunda, sonuçlar gerçek bulutlara oldukça benzer."
 
 #: src/filters/render/solid-noise.xml:48(para)
 #, fuzzy
@@ -1844,9 +1845,9 @@ msgid ""
 "cloudy."
 msgstr ""
 "Bu, gürültü dokusundaki ayrıntı miktarını denetler. Daha yüksek değerler "
-"daha yüksek ayrıntı düzeyi sağlar ve gürültü sprey ya da küçük parçacıklardan "
-"oluşmuş gibi görünür, bu da onu sert hissettirir. Düşük bir değer onu daha "
-"yumuşak ve bulanık hale getirir."
+"daha yüksek ayrıntı düzeyi sağlar ve gürültü sprey ya da küçük "
+"parçacıklardan oluşmuş gibi görünür, bu da onu sert hissettirir. Düşük bir "
+"değer onu daha yumuşak ve bulanık hale getirir."
 
 #: src/filters/render/solid-noise.xml:107(term)
 #: src/filters/render/maze.xml:113(term)
@@ -1912,12 +1913,12 @@ msgid ""
 "the same situation, the filter produces exactly the same results. A "
 "different random seed produces different results."
 msgstr ""
-"Bu seçenek süzgecin rastgeleliğini denetler. <guilabel>Rastgele</"
-"guilabel> tohum kutusu, kullanılan rastgeleleştirme algoritması için manuel "
-"olarak bir tohum girmenizi sağlar. <guibutton>Yeni Tohum</guibutton> "
-"düğmesine basarak da rastgele bir tohum oluşturabilirsiniz. Aynı durumda "
-"aynı rastgele tohum kullanılırsa, süzgeç tamamen aynı sonuçları üretir. "
-"Farklı bir rastgele tohum farklı sonuçlar üretir."
+"Bu seçenek süzgecin rastgeleliğini denetler. <guilabel>Rastgele</guilabel> "
+"tohum kutusu, kullanılan rastgeleleştirme algoritması için manuel olarak bir "
+"tohum girmenizi sağlar. <guibutton>Yeni Tohum</guibutton> düğmesine basarak "
+"da rastgele bir tohum oluşturabilirsiniz. Aynı durumda aynı rastgele tohum "
+"kullanılırsa, süzgeç tamamen aynı sonuçları üretir. Farklı bir rastgele "
+"tohum farklı sonuçlar üretir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2374,10 +2375,10 @@ msgid ""
 "low values produce a softer cloud (like steam, mist or smoke). The range is "
 "0.0 to 7.0."
 msgstr ""
-"Bu parametre plazmanın karmaşıklığını denetler. Yüksek değerler buluta "
-"sert bir his verir (soyut bir yağlı boya tablosu ya da mineral taneleri "
-"gibi), düşük değerler ise daha yumuşak bir bulut oluşturur (buhar, sis ya da "
-"duman gibi). Aralık 0,0 ile 7,0 arasındadır."
+"Bu parametre plazmanın karmaşıklığını denetler. Yüksek değerler buluta sert "
+"bir his verir (soyut bir yağlı boya tablosu ya da mineral taneleri gibi), "
+"düşük değerler ise daha yumuşak bir bulut oluşturur (buhar, sis ya da duman "
+"gibi). Aralık 0,0 ile 7,0 arasındadır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2693,7 +2694,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/linear-sinusoid.xml:56(None)
+#: src/filters/render/linear-sinusoid.xml:60(None)
 msgid ""
 "@@image: 'images/filters/render/linear-sinusoid-dialog.png'; "
 "md5=fdc8e70e4fb5854206b4a08b9435fd4d"
@@ -2719,6 +2720,20 @@ msgid "Filter <quote>Linear Sinusoid</quote> applied"
 msgstr "<quote>Doğrusal Sinüs Biçimli</quote> süzgeci uygulandı"
 
 #: src/filters/render/linear-sinusoid.xml:30(para)
+msgid ""
+"The Linear Sinusoid filter lets you make sinusoidally based textures, with "
+"repeating lighter and darker areas based on a number of adjustable "
+"parameters."
+msgstr ""
+"Doğrusal Sinüs Biçimli süzgeci, ayarlanabilir parametrelere dayalı olarak "
+"yineleyen daha açık ve daha koyu alanlarla sinüs tabanlı desenler "
+"oluşturmanızı sağlar."
+
+#: src/filters/render/linear-sinusoid.xml:35(para)
+msgid "The results don't depend on the image you opened."
+msgstr "Sonuçlar açtığınız görüntüye bağlı değildir."
+
+#: src/filters/render/linear-sinusoid.xml:42(para)
 #, fuzzy
 #| msgid ""
 #| "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
@@ -2733,33 +2748,19 @@ msgstr ""
 "guimenu><guisubmenu>Görselleştir</guisubmenu><guisubmenu>Örüntü</"
 "guisubmenu><guimenuitem>Izgara…</guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/render/linear-sinusoid.xml:39(para)
-msgid ""
-"The Linear Sinusoid filter lets you make sinusoidally based textures, with "
-"repeating lighter and darker areas based on a number of adjustable "
-"parameters."
-msgstr ""
-"Doğrusal Sinüs Biçimli süzgeci, ayarlanabilir parametrelere dayalı olarak "
-"yineleyen daha açık ve daha koyu alanlarla sinüs tabanlı desenler "
-"oluşturmanızı sağlar."
-
-#: src/filters/render/linear-sinusoid.xml:44(para)
-msgid "The results don't depend on the image you opened."
-msgstr "Sonuçlar açtığınız görüntüye bağlı değildir."
-
-#: src/filters/render/linear-sinusoid.xml:52(title)
+#: src/filters/render/linear-sinusoid.xml:56(title)
 msgid "<quote>Linear Sinusoid</quote> filter options dialog"
 msgstr "<quote>Doğrusal Sinüs Biçimli</quote> süzgeci seçenekleri"
 
-#: src/filters/render/linear-sinusoid.xml:75(term)
+#: src/filters/render/linear-sinusoid.xml:79(term)
 msgid "X Period"
 msgstr "X Sıklığı"
 
-#: src/filters/render/linear-sinusoid.xml:76(term)
+#: src/filters/render/linear-sinusoid.xml:80(term)
 msgid "Y Period"
 msgstr "Y Sıklığı"
 
-#: src/filters/render/linear-sinusoid.xml:78(para)
+#: src/filters/render/linear-sinusoid.xml:82(para)
 msgid ""
 "Low values will increase the amount of repeating patterns, high values will "
 "enlarge the repeating patterns."
@@ -2767,15 +2768,15 @@ msgstr ""
 "Düşük değerler yinelenen örüntü miktarını artırır, yüksek değerler ise "
 "yinelenen örüntüleri büyütür."
 
-#: src/filters/render/linear-sinusoid.xml:85(term)
+#: src/filters/render/linear-sinusoid.xml:89(term)
 msgid "X Amplitude"
 msgstr "X Boyutu"
 
-#: src/filters/render/linear-sinusoid.xml:86(term)
+#: src/filters/render/linear-sinusoid.xml:90(term)
 msgid "Y Amplitude"
 msgstr "Y Boyutu"
 
-#: src/filters/render/linear-sinusoid.xml:88(para)
+#: src/filters/render/linear-sinusoid.xml:92(para)
 msgid ""
 "Low values will cause a blurring effect, higher values make the pattern "
 "sharper."
@@ -2783,34 +2784,34 @@ msgstr ""
 "Düşük değerler bulanıklaştırma etkisine neden olur, yüksek değerler örüntüyü "
 "daha keskin yapar."
 
-#: src/filters/render/linear-sinusoid.xml:95(term)
+#: src/filters/render/linear-sinusoid.xml:99(term)
 msgid "X Phase"
 msgstr "X Fazı"
 
-#: src/filters/render/linear-sinusoid.xml:96(term)
+#: src/filters/render/linear-sinusoid.xml:100(term)
 msgid "Y Phase"
 msgstr "Y Fazı"
 
-#: src/filters/render/linear-sinusoid.xml:98(para)
+#: src/filters/render/linear-sinusoid.xml:102(para)
 msgid "This determines the offset where the pattern starts."
 msgstr "Bu, örüntünün başladığı konumu belirler."
 
-#: src/filters/render/linear-sinusoid.xml:104(term)
+#: src/filters/render/linear-sinusoid.xml:108(term)
 #: src/filters/render/ifsfractal.xml:312(term)
 msgid "Angle"
 msgstr "Açı"
 
-#: src/filters/render/linear-sinusoid.xml:106(para)
+#: src/filters/render/linear-sinusoid.xml:110(para)
 msgid "This controls the angle at which the pattern is generated."
 msgstr "Bu, örüntünün oluşturulduğu açıyı denetler."
 
-#: src/filters/render/linear-sinusoid.xml:112(term)
+#: src/filters/render/linear-sinusoid.xml:116(term)
 #: src/filters/render/grid-legacy.xml:118(term)
 #: src/filters/render/bayer-matrix.xml:125(term)
 msgid "Offset"
 msgstr "Konum"
 
-#: src/filters/render/linear-sinusoid.xml:115(para)
+#: src/filters/render/linear-sinusoid.xml:119(para)
 msgid ""
 "The value offset and exponent control the relative amount of darker and "
 "lighter areas in the pattern."
@@ -2818,29 +2819,29 @@ msgstr ""
 "Konum değeri ve katsayı, örüntüdeki daha koyu ve daha açık alanların göreli "
 "miktarını denetler."
 
-#: src/filters/render/linear-sinusoid.xml:122(term)
+#: src/filters/render/linear-sinusoid.xml:126(term)
 #: src/filters/render/bayer-matrix.xml:141(term)
 msgid "X Offset"
 msgstr "X Konumu"
 
-#: src/filters/render/linear-sinusoid.xml:123(term)
+#: src/filters/render/linear-sinusoid.xml:127(term)
 #: src/filters/render/bayer-matrix.xml:142(term)
 msgid "Y Offset"
 msgstr "Y Konumu"
 
-#: src/filters/render/linear-sinusoid.xml:125(para)
+#: src/filters/render/linear-sinusoid.xml:129(para)
 msgid "The offset of the X and Y axis."
 msgstr "X ve Y ekseninin konumu."
 
-#: src/filters/render/linear-sinusoid.xml:133(para)
+#: src/filters/render/linear-sinusoid.xml:137(para)
 msgid "The rotation angle of the pattern."
 msgstr "Örüntünün dönüş açısı."
 
-#: src/filters/render/linear-sinusoid.xml:139(term)
+#: src/filters/render/linear-sinusoid.xml:143(term)
 msgid "Supersampling"
 msgstr "Süperörneklem"
 
-#: src/filters/render/linear-sinusoid.xml:141(para)
+#: src/filters/render/linear-sinusoid.xml:145(para)
 msgid "The number of samples along each axis per pixel."
 msgstr "Piksel başına her eksen boyunca örnek sayısı."
 
@@ -2930,9 +2931,9 @@ msgid ""
 msgstr ""
 "Bu süzgeç, çizgilerin merkez noktasını ayarlamanıza olanak tanıyan herhangi "
 "bir seçenek sunmaz. Radyal çizgilerin yerini istediğiniz gibi ayarlamanız "
-"gerekiyorsa, başka bir şeffaf görüntü oluşturun ve bu süzgeci ona "
-"uygulayın, ardından görüntünüze ekleyin. Yeni nova görüntüsü için büyük bir "
-"boyut ayarlamak, görüntünüzün içindeki çizgilerin bozulmamasını sağlayabilir."
+"gerekiyorsa, başka bir şeffaf görüntü oluşturun ve bu süzgeci ona uygulayın, "
+"ardından görüntünüze ekleyin. Yeni nova görüntüsü için büyük bir boyut "
+"ayarlamak, görüntünüzün içindeki çizgilerin bozulmamasını sağlayabilir."
 
 #: src/filters/render/line-nova.xml:59(para)
 msgid ""
@@ -3610,8 +3611,8 @@ msgid ""
 msgstr ""
 "Bir tavsiye: Çalışmak istediğiniz bir desen bulduğunuzda, yalnızca küçük "
 "değişiklikler yapın ve o desenin varyasyonlarına sadık kalın. İyi bir şeyi "
-"kaybetmek çok kolaydır. Düşündüğünüzün aksine, IFS Fractal ile bir yaprak "
-"ya da ağaç oluşturmak, tanımlı bir geometrik desen oluşturmaktan (ne "
+"kaybetmek çok kolaydır. Düşündüğünüzün aksine, IFS Fractal ile bir yaprak ya "
+"da ağaç oluşturmak, tanımlı bir geometrik desen oluşturmaktan (ne "
 "yaptığınızı gerçekten bildiğiniz ve aklınızdaki deseni elde ettiğiniz) çok "
 "daha kolaydır."
 
@@ -3739,8 +3740,8 @@ msgid ""
 "default value: 4096, 8192, 16384, …"
 msgstr ""
 "Renderleme süresini hızlandırmanızı sağlar. Bu, özellikle büyük spot "
-"yarıçapıyla çalışırken kullanışlıdır; öntanımlı değerin katlarını "
-"kullanmayı unutmayın: 4096, 8192, 16384, …"
+"yarıçapıyla çalışırken kullanışlıdır; öntanımlı değerin katlarını kullanmayı "
+"unutmayın: 4096, 8192, 16384, …"
 
 #: src/filters/render/ifsfractal.xml:269(para)
 #, fuzzy
@@ -3791,10 +3792,10 @@ msgid ""
 "instead of changing it manually. Changing parameters with the mouse isn't "
 "very accurate, so this is a useful option when you need to be exact."
 msgstr ""
-"Etkin  fraktal hakkında bilgi verir ve değeri elle değiştirmek "
-"yerine bir değer girmenize olanak tanır. Parametreleri fare ile değiştirmek "
-"çok hassas değildir, bu nedenle kesin sonuçlara ihtiyaç duyduğunuzda bu "
-"seçenek kullanışlıdır."
+"Etkin  fraktal hakkında bilgi verir ve değeri elle değiştirmek yerine bir "
+"değer girmenize olanak tanır. Parametreleri fare ile değiştirmek çok hassas "
+"değildir, bu nedenle kesin sonuçlara ihtiyaç duyduğunuzda bu seçenek "
+"kullanışlıdır."
 
 #: src/filters/render/ifsfractal.xml:313(term)
 msgid "Shear"
@@ -3900,8 +3901,8 @@ msgid ""
 "you through an example where you'll create a leaf or branch."
 msgstr ""
 "Bu oldukça karmaşık bir eklentidir, bu yüzden anlamanıza yardımcı olmak "
-"için, bir yaprak ya da dal oluşturacağınız bir örnek üzerinden size rehberlik "
-"edeceğiz."
+"için, bir yaprak ya da dal oluşturacağınız bir örnek üzerinden size "
+"rehberlik edeceğiz."
 
 #: src/filters/render/ifsfractal.xml:394(para)
 #, fuzzy
@@ -3914,9 +3915,9 @@ msgid ""
 msgstr ""
 "Birçok yaşam formu, özellikle bitkiler, matematiksel fraktallar gibi "
 "yapılandırılmıştır, yani en küçük ayrıntısına kadar kendini sonsuza kadar "
-"çoğaltan ya da tekrarlayan bir şekle sahiptir. Dört (ya da daha fazla) fraktal "
-"kullanarak bir yaprak ya da dalın şeklini kolayca çoğaltabilirsiniz. Üç "
-"fraktal yaprağın ucunu ve kenarlarını oluşturur, dördüncü ise sapı temsil "
+"çoğaltan ya da tekrarlayan bir şekle sahiptir. Dört (ya da daha fazla) "
+"fraktal kullanarak bir yaprak ya da dalın şeklini kolayca çoğaltabilirsiniz. "
+"Üç fraktal yaprağın ucunu ve kenarlarını oluşturur, dördüncü ise sapı temsil "
 "eder."
 
 #: src/filters/render/ifsfractal.xml:404(para)
@@ -3984,9 +3985,10 @@ msgstr ""
 "Kompozisyona bir bileşen eklemek için <guibutton>Yeni'ye</guibutton> basın. "
 "Bu, yaprağın sapı olacak, bu yüzden onu uzun ve ince yapmamız gerekiyor. "
 "<guibutton>Uzat'a</guibutton> basın ve yeni üçgeni uzatmak için sürükleyin. "
-"Bu, görüntüyü bozarsa endişelenmeyin, yalnızca <guibutton>Ölçek'i</guibutton> "
-"kullanarak aşırı uzun üçgenin boyutunu ayarlayın. Muhtemelen yeni fraktalı "
-"ikna edici görünmesi için hareket ettirip döndürmeniz de gerekecektir."
+"Bu, görüntüyü bozarsa endişelenmeyin, yalnızca <guibutton>Ölçek'i</"
+"guibutton> kullanarak aşırı uzun üçgenin boyutunu ayarlayın. Muhtemelen yeni "
+"fraktalı ikna edici görünmesi için hareket ettirip döndürmeniz de "
+"gerekecektir."
 
 #: src/filters/render/ifsfractal.xml:466(title)
 msgid "Tutorial Step 3"
@@ -4313,7 +4315,8 @@ msgid ""
 "<quote>chain</quote> symbol below it to unlock them. The results of changing "
 "the Intersection parameters are rather complex."
 msgstr ""
-"Yatay ızgara çizgilerini, dikey ızgara çizgilerini ve kesişimleri denetlemek için ayrı seçenekler vardır. Varsayılan olarak, yatay ve dikey ayarlar "
+"Yatay ızgara çizgilerini, dikey ızgara çizgilerini ve kesişimleri denetlemek "
+"için ayrı seçenekler vardır. Varsayılan olarak, yatay ve dikey ayarlar "
 "birbirine kilitlidir, böylece tüm değişiklikler simetrik olarak uygulanır. "
 "Bunlardan yalnızca birini değiştirmek istiyorsanız, altındaki <quote>zincir</"
 "quote> simgesine tıklayarak kilidi açın. Kesişim parametrelerini "
@@ -5060,8 +5063,9 @@ msgid ""
 "With help of this drop-down list, you can decide whether and how the object "
 "will be filled, with a color, a pattern or a gradient."
 msgstr ""
-"Bu açılır listenin yardımıyla, nesnenin bir renk, desen ya da renk geçişi ile "
-"doldurulup doldurulmayacağına ve nasıl doldurulacağına karar verebilirsiniz."
+"Bu açılır listenin yardımıyla, nesnenin bir renk, desen ya da renk geçişi "
+"ile doldurulup doldurulmayacağına ve nasıl doldurulacağına karar "
+"verebilirsiniz."
 
 #: src/filters/render/gfig.xml:600(term)
 msgid "Show grid"
@@ -5303,8 +5307,8 @@ msgid ""
 "You can set fractal spreading between a minimum and a maximum, in the "
 "horizontal and/or vertical directions. Values are from -3.0 to 3.0."
 msgstr ""
-"Fraktal yayılmayı yatay ve/ya da dikey yönlerde en düşük ve en yüksek değerler "
-"arasında ayarlayabilirsiniz. Değerler -3,0 ile 3,0 arasındadır."
+"Fraktal yayılmayı yatay ve/ya da dikey yönlerde en düşük ve en yüksek "
+"değerler arasında ayarlayabilirsiniz. Değerler -3,0 ile 3,0 arasındadır."
 
 #: src/filters/render/fractalexplorer.xml:152(para)
 #, fuzzy
@@ -5329,8 +5333,8 @@ msgid ""
 "With these parameters, you can change fractal aspect, in the horizontal (X) "
 "and/or vertical (Y) directions, except for Mandelbrot and Sierpinski types."
 msgstr ""
-"Bu parametrelerle, Mandelbrot ve Sierpinski türleri hariç, yatay (X) ve/ya da "
-"dikey (Y) yönlerde fraktal görünümünü değiştirebilirsiniz."
+"Bu parametrelerle, Mandelbrot ve Sierpinski türleri hariç, yatay (X) ve/ya "
+"da dikey (Y) yönlerde fraktal görünümünü değiştirebilirsiniz."
 
 #: src/filters/render/fractalexplorer.xml:173(para)
 #, fuzzy
@@ -5391,8 +5395,8 @@ msgstr ""
 "belirlemenizi sağlar. Bu renklerin paleti sekmenin altında görüntülenir. "
 "Aslında bu, fraktaldaki renkler arasındaki bir gradyandır: <guilabel>Renk "
 "Yoğunluğu</guilabel> ve <guilabel>Renk İşlevi</guilabel> seçenekleriyle "
-"renkleri değiştirebilirsiniz. Fraktal renkleri, özgün görüntünün "
-"renklerine bağlı değildir. Fraktal oluşturmak için beyaz bir görüntü bile "
+"renkleri değiştirebilirsiniz. Fraktal renkleri, özgün görüntünün renklerine "
+"bağlı değildir. Fraktal oluşturmak için beyaz bir görüntü bile "
 "kullanabilirsiniz."
 
 #: src/filters/render/fractalexplorer.xml:230(term)
@@ -5797,10 +5801,10 @@ msgid ""
 "rendering (like a spider's web), whereas low density rendering resembles "
 "spray or particle clouds."
 msgstr ""
-"Render edilen desenin çözünürlüğünü denetler. Bu, önizleme üzerinde "
-"herhangi bir etkiye sahip değildir. Yüksek örnek yoğunluğu, yumuşak ve "
-"pürüzsüz bir renderlama (örümcek ağı gibi) sağlarken, düşük yoğunluklu "
-"renderlama sprey ya da parçacık bulutlarına benzer."
+"Render edilen desenin çözünürlüğünü denetler. Bu, önizleme üzerinde herhangi "
+"bir etkiye sahip değildir. Yüksek örnek yoğunluğu, yumuşak ve pürüzsüz bir "
+"renderlama (örümcek ağı gibi) sağlarken, düşük yoğunluklu renderlama sprey "
+"ya da parçacık bulutlarına benzer."
 
 #: src/filters/render/flame.xml:203(term)
 msgid "Spatial oversample"
@@ -5933,7 +5937,7 @@ msgstr ""
 #: src/filters/render/diffraction.xml:49(para)
 #, fuzzy
 msgid ""
-"It seems clear that the plug-in works by simulating the physics of light "
+"It seems clear that the filter works by simulating the physics of light "
 "striking a grating. Unfortunately, the original authors never got around to "
 "writing down the theory behind it, or explaining what the parameters mean. "
 "The best approach, then, is just to twiddle things and see what happens. "
@@ -6039,8 +6043,7 @@ msgid ""
 msgstr ""
 "Bu seçenek, süzgecin rastgeleliğini denetler. <guilabel>Rastgele tohum</"
 "guilabel> kutusu, kullanılan rastgeleleştirme algoritması için bir tohumun "
-"elle girilmesini sağlar. Farklı bir rastgele tohum, farklı sonuçlar "
-"üretir."
+"elle girilmesini sağlar. Farklı bir rastgele tohum, farklı sonuçlar üretir."
 
 #: src/filters/render/difference-clouds.xml:88(term)
 msgid "Levels"
@@ -6054,8 +6057,8 @@ msgid ""
 "particles, which makes it feel hard. A low value makes it more soft and "
 "cloudy."
 msgstr ""
-"Bu, gürültü dokusundaki ayrıntı düzeyini denetler. Daha yüksek değerler "
-"daha yüksek ayrıntı düzeyi sağlar ve gürültü sprey ya da küçük parçacıklardan "
+"Bu, gürültü dokusundaki ayrıntı düzeyini denetler. Daha yüksek değerler daha "
+"yüksek ayrıntı düzeyi sağlar ve gürültü sprey ya da küçük parçacıklardan "
 "oluşuyormuş gibi görünür, bu da onu sert hissettirir. Düşük bir değer onu "
 "daha yumuşak ve bulanık hale getirir."
 
@@ -6743,8 +6746,8 @@ msgid ""
 msgstr ""
 "Bu seçenek etkinleştirildiğinde, devrenin koyu renkli pikselleri şeffaf hale "
 "getirilir, böylece altta yatan görüntü bu deliklerden görünür. Bu seçenek "
-"öntanımlı ayarlarda devre dışıdır. <guilabel>Ayrı katman</guilabel> "
-"seçeneği gereklidir."
+"öntanımlı ayarlarda devre dışıdır. <guilabel>Ayrı katman</guilabel> seçeneği "
+"gereklidir."
 
 #: src/filters/render/circuit.xml:122(para)
 #, fuzzy
@@ -7229,9 +7232,4 @@ msgstr "Logaritmik ölçek kullanan değer katsayısı."
 msgid "Here you can change the X and Y offsets."
 msgstr "Burada X ve Y konumlarını değiştirebilirsiniz."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/filters/render/bayer-matrix.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2019, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+

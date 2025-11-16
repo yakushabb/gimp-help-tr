@@ -3861,9 +3861,4 @@ msgid ""
 "of its context menu."
 msgstr ""
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/menus/layer/alpha-add.xml:0(None)
-msgid "translator-credits"
-msgstr ""
-"Sabri Ünal <yakushabb@gmail.com>, 2025.\n"
-"Emin Tufan Çetin <etcetin@gmail.com>, 2025."
+
