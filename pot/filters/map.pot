@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-15 20:27+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -505,8 +505,11 @@ msgstr ""
 msgid "The same image, before and after applying Tile filter"
 msgstr ""
 
-#: src/filters/map/tile.xml:28(para) src/filters/map/smalltiles.xml:31(para)
-#: src/filters/map/papertile.xml:30(para) src/filters/map/illusion.xml:32(para)
+#: src/filters/map/tile.xml:28(para) src/filters/map/tile-seamless.xml:28(para)
+#: src/filters/map/smalltiles.xml:31(para)
+#: src/filters/map/papertile.xml:30(para)
+#: src/filters/map/map-object.xml:33(para)
+#: src/filters/map/illusion.xml:32(para)
 #: src/filters/map/fractal-trace.xml:32(para)
 #: src/filters/map/displace.xml:33(para)
 msgid "Original image"
@@ -601,11 +604,6 @@ msgstr ""
 
 #: src/filters/map/tile-seamless.xml:21(title)
 msgid "An example of Tile Seamless."
-msgstr ""
-
-#: src/filters/map/tile-seamless.xml:28(para)
-#: src/filters/map/map-object.xml:33(para)
-msgid "Original"
 msgstr ""
 
 #: src/filters/map/tile-seamless.xml:37(para)

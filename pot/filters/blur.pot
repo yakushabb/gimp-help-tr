@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-15 20:27+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -110,12 +110,15 @@ msgstr ""
 #: src/filters/blur/pixelize.xml:29(para)
 #: src/filters/blur/median-blur.xml:29(para)
 #: src/filters/blur/mean-curvature-blur.xml:30(para)
+#: src/filters/blur/mean-curvature-blur.xml:111(para)
+#: src/filters/blur/mean-curvature-blur.xml:138(para)
 #: src/filters/blur/linear-motion.xml:29(para)
 #: src/filters/blur/lens-blur.xml:27(para)
+#: src/filters/blur/introduction.xml:65(title)
 #: src/filters/blur/gauss_select.xml:30(para)
 #: src/filters/blur/gauss.xml:30(para) src/filters/blur/focus-blur.xml:27(para)
 #: src/filters/blur/circular-motion.xml:30(para)
-msgid "Original"
+msgid "Original image"
 msgstr ""
 
 #: src/filters/blur/zoom-motion.xml:39(para)
@@ -539,24 +542,8 @@ msgstr ""
 msgid "Blur type"
 msgstr ""
 
-#: src/filters/blur/tileable.xml:166(para)
-msgid "Choose the algorithm to be applied:"
-msgstr ""
-
-#: src/filters/blur/tileable.xml:169(term) src/filters/blur/gauss.xml:130(term)
-msgid "IIR"
-msgstr ""
-
-#: src/filters/blur/tileable.xml:171(para)
-msgid "for photographic or scanned images."
-msgstr ""
-
-#: src/filters/blur/tileable.xml:175(term)
-msgid "RLE"
-msgstr ""
-
-#: src/filters/blur/tileable.xml:177(para)
-msgid "for computer-generated images."
+#: src/filters/blur/tileable.xml:167(para)
+msgid "This setting is ignored."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1106,11 +1093,6 @@ msgstr ""
 msgid "Examples"
 msgstr ""
 
-#: src/filters/blur/mean-curvature-blur.xml:111(para)
-#: src/filters/blur/mean-curvature-blur.xml:138(para)
-msgid "Original image"
-msgstr ""
-
 #: src/filters/blur/mean-curvature-blur.xml:122(para)
 msgid "Iterations = 4"
 msgstr ""
@@ -1371,10 +1353,6 @@ msgstr ""
 
 #: src/filters/blur/introduction.xml:22(para)
 msgid "This category describes the following filters:"
-msgstr ""
-
-#: src/filters/blur/introduction.xml:65(title)
-msgid "Original for demo"
 msgstr ""
 
 #: src/filters/blur/introduction.xml:73(para)
@@ -1639,6 +1617,10 @@ msgstr ""
 
 #: src/filters/blur/gauss.xml:125(para)
 msgid "Stands for <quote>Finite Impulse Response</quote>."
+msgstr ""
+
+#: src/filters/blur/gauss.xml:130(term)
+msgid "IIR"
 msgstr ""
 
 #: src/filters/blur/gauss.xml:132(para)

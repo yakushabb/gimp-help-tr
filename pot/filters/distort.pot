@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-15 20:27+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -165,12 +165,14 @@ msgstr ""
 
 #: src/filters/distort/wind.xml:29(para)
 #: src/filters/distort/whirlpinch.xml:29(para)
+#: src/filters/distort/whirlpinch.xml:75(para)
 #: src/filters/distort/waves.xml:24(para)
 #: src/filters/distort/vpropagate.xml:26(para)
 #: src/filters/distort/video-degradation.xml:30(para)
 #: src/filters/distort/spherize.xml:28(para)
 #: src/filters/distort/shift.xml:29(para)
 #: src/filters/distort/ripple.xml:29(para)
+#: src/filters/distort/ripple.xml:93(para)
 #: src/filters/distort/polarcoords.xml:30(para)
 #: src/filters/distort/pagecurl.xml:31(para)
 #: src/filters/distort/newsprint.xml:32(para)
@@ -597,10 +599,6 @@ msgstr ""
 
 #: src/filters/distort/whirlpinch.xml:68(title)
 msgid "Illustration"
-msgstr ""
-
-#: src/filters/distort/whirlpinch.xml:75(para)
-msgid "Original"
 msgstr ""
 
 #: src/filters/distort/whirlpinch.xml:84(para)
@@ -1552,10 +1550,6 @@ msgstr ""
 
 #: src/filters/distort/ripple.xml:85(term)
 msgid "Original images for examples"
-msgstr ""
-
-#: src/filters/distort/ripple.xml:92(caption)
-msgid "Origin"
 msgstr ""
 
 #: src/filters/distort/ripple.xml:102(para)

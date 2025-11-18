@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-15 20:27+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,6 +84,7 @@ msgid "Applying example for the Filmstrip filter"
 msgstr ""
 
 #: src/filters/combine/filmstrip.xml:33(para)
+#: src/filters/combine/depthmerge.xml:40(para)
 msgid "Original image"
 msgstr ""
 
@@ -404,10 +405,6 @@ msgstr ""
 
 #: src/filters/combine/depthmerge.xml:33(title)
 msgid "Filter example"
-msgstr ""
-
-#: src/filters/combine/depthmerge.xml:40(para)
-msgid "Original"
 msgstr ""
 
 #: src/filters/combine/depthmerge.xml:49(para)

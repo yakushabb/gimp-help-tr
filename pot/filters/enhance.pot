@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-15 20:27+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -578,7 +578,7 @@ msgid "Example for the <quote>Symmetric Nearest Neighbor</quote> filter"
 msgstr ""
 
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:32(para)
-msgid "Left: original. Right: filter applied."
+msgid "Left: original image. Right: filter applied."
 msgstr ""
 
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:36(para)
