@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-11-08 21:54+0300\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"PO-Revision-Date: 2025-11-18 23:09+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -179,8 +179,7 @@ msgstr ""
 #, fuzzy
 msgid "From left to right: original image, displacement map, displaced image"
 msgstr ""
-"Soldan sağa: özgün görüntü, yer değiştirme haritası, yer değiştirmiş "
-"görüntü"
+"Soldan sağa: özgün görüntü, yer değiştirme haritası, yer değiştirmiş görüntü"
 
 #: src/filters/map/warp.xml:44(para)
 #, fuzzy
@@ -415,8 +414,8 @@ msgid ""
 "and nothing went out of the image borders. Here is an example with a 10° "
 "angle and 6 iterations:"
 msgstr ""
-"Bu seçenek, renk geçişinin eğim yönüne göre piksellerin yer değiştirme açısını "
-"ayarlar. Önceki örnekler dikey bir renk geçişi ve 90°'lik bir açıyla "
+"Bu seçenek, renk geçişinin eğim yönüne göre piksellerin yer değiştirme "
+"açısını ayarlar. Önceki örnekler dikey bir renk geçişi ve 90°'lik bir açıyla "
 "oluşturulmuştu: yani, pikseller yatay olarak yer değiştirdi ve görüntü "
 "sınırlarının dışına hiçbir şey çıkmadı. İşte 10° açılı ve 6 yinelemeli bir "
 "örnek:"
@@ -556,10 +555,10 @@ msgid ""
 "bottom. The part of the image corresponding to the gradient is moved "
 "obliquely, 90° rotated (Rotation angle 90° in Advanced Options)."
 msgstr ""
-"Yukarıdaki örnekte, <quote>Warp</quote> süzgeci bir renk geçişi haritası "
-"ile uygulanmıştır (Gradyan ölçeği = 10.0). Gradyan, sol üstten sağ alta "
-"doğru eğik bir şekilde uzanmaktadır. Gradyana karşılık gelen görüntü kısmı "
-"eğik olarak hareket ettirilmiş ve 90° döndürülmüştür (Gelişmiş Seçenekler'de "
+"Yukarıdaki örnekte, <quote>Warp</quote> süzgeci bir renk geçişi haritası ile "
+"uygulanmıştır (Gradyan ölçeği = 10.0). Gradyan, sol üstten sağ alta doğru "
+"eğik bir şekilde uzanmaktadır. Gradyana karşılık gelen görüntü kısmı eğik "
+"olarak hareket ettirilmiş ve 90° döndürülmüştür (Gelişmiş Seçenekler'de "
 "Döndürme açısı 90°)."
 
 #: src/filters/map/warp.xml:345(term)
@@ -647,8 +646,11 @@ msgstr "Döşe"
 msgid "The same image, before and after applying Tile filter"
 msgstr "Aynı görüntü, Döşe süzgeci eklenmeden önce ve sonra"
 
-#: src/filters/map/tile.xml:28(para) src/filters/map/smalltiles.xml:31(para)
-#: src/filters/map/papertile.xml:30(para) src/filters/map/illusion.xml:32(para)
+#: src/filters/map/tile.xml:28(para) src/filters/map/tile-seamless.xml:28(para)
+#: src/filters/map/smalltiles.xml:31(para)
+#: src/filters/map/papertile.xml:30(para)
+#: src/filters/map/map-object.xml:33(para)
+#: src/filters/map/illusion.xml:32(para)
 #: src/filters/map/fractal-trace.xml:32(para)
 #: src/filters/map/displace.xml:33(para)
 msgid "Original image"
@@ -764,11 +766,6 @@ msgstr "Dikişsiz Döşeme"
 #: src/filters/map/tile-seamless.xml:21(title)
 msgid "An example of Tile Seamless."
 msgstr "Dikişsiz Döşeme örneği."
-
-#: src/filters/map/tile-seamless.xml:28(para)
-#: src/filters/map/map-object.xml:33(para)
-msgid "Original"
-msgstr "Özgün"
 
 #: src/filters/map/tile-seamless.xml:37(para)
 msgid "Tile Seamless applied"
@@ -911,8 +908,8 @@ msgid ""
 "This filter reduces the image (active layer or selection) and displays it in "
 "many copies inside the original image."
 msgstr ""
-"Bu süzgeç görüntüyü (etkin katman ya da seçim) küçültür ve özgün "
-"görüntünün içinde birçok kopya halinde görüntüler."
+"Bu süzgeç görüntüyü (etkin katman ya da seçim) küçültür ve özgün görüntünün "
+"içinde birçok kopya halinde görüntüler."
 
 #: src/filters/map/smalltiles.xml:57(para)
 msgid ""
@@ -1448,7 +1445,8 @@ msgstr "Taşıma oranı"
 #, fuzzy
 msgid ""
 "This is the maximum displacement percentage against the side size of squares."
-msgstr "Bu, karelerin kenar boyutuna karşı en yüksek yer değiştirme yüzdesidir."
+msgstr ""
+"Bu, karelerin kenar boyutuna karşı en yüksek yer değiştirme yüzdesidir."
 
 #: src/filters/map/papertile.xml:112(term)
 msgid "Wrap around"
@@ -1597,12 +1595,12 @@ msgid ""
 "the same situation, the filter produces exactly the same results. A "
 "different random seed produces different results."
 msgstr ""
-"Bu seçenek süzgecin rastgeleliğini denetler. <guilabel>Rastgele</"
-"guilabel> tohum kutusu, kullanılan rastgeleleştirme algoritması için manuel "
-"olarak bir tohum girmenizi sağlar. <guibutton>Yeni Tohum</guibutton> "
-"düğmesine basarak da rastgele bir tohum oluşturabilirsiniz. Aynı durumda "
-"aynı rastgele tohum kullanılırsa, süzgeç tamamen aynı sonuçları üretir. "
-"Farklı bir rastgele tohum farklı sonuçlar üretir."
+"Bu seçenek süzgecin rastgeleliğini denetler. <guilabel>Rastgele</guilabel> "
+"tohum kutusu, kullanılan rastgeleleştirme algoritması için manuel olarak bir "
+"tohum girmenizi sağlar. <guibutton>Yeni Tohum</guibutton> düğmesine basarak "
+"da rastgele bir tohum oluşturabilirsiniz. Aynı durumda aynı rastgele tohum "
+"kullanılırsa, süzgeç tamamen aynı sonuçları üretir. Farklı bir rastgele "
+"tohum farklı sonuçlar üretir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1733,9 +1731,9 @@ msgid ""
 "GIMP opened this 4000×2000 pixels original image in a 1000×500 px frame at "
 "zoom 12.5. This is a screenshot scaled to 400×200 px."
 msgstr ""
-"GIMP bu 4000×2000 piksellik özgün görüntüyü 12,5 yakınlaştırmayla "
-"1000×500 piksellik bir çerçevede açtı. Bu, 400×200 piksele ölçeklendirilmiş "
-"bir ekran görüntüsüdür."
+"GIMP bu 4000×2000 piksellik özgün görüntüyü 12,5 yakınlaştırmayla 1000×500 "
+"piksellik bir çerçevede açtı. Bu, 400×200 piksele ölçeklendirilmiş bir ekran "
+"görüntüsüdür."
 
 #: src/filters/map/panorama-projection.xml:83(para)
 #, fuzzy
@@ -1756,9 +1754,9 @@ msgid ""
 "visible. Pan across the image to find your panorama using the Pan option or "
 "click and dragging. You can zoom in to have a wider view."
 msgstr ""
-"Panorama Projeksiyon süzgecini açın. Görüntünün yalnızca orta kısmı "
-"görünür. Pan seçeneğini kullanarak ya da tıklayıp sürükleyerek panoramanızı "
-"bulmak için görüntü boyunca kaydırın. Daha geniş bir görünüm elde etmek için "
+"Panorama Projeksiyon süzgecini açın. Görüntünün yalnızca orta kısmı görünür. "
+"Pan seçeneğini kullanarak ya da tıklayıp sürükleyerek panoramanızı bulmak "
+"için görüntü boyunca kaydırın. Daha geniş bir görünüm elde etmek için "
 "yakınlaştırabilirsiniz."
 
 #: src/filters/map/panorama-projection.xml:112(title)
@@ -2041,8 +2039,8 @@ msgid ""
 "When this option is checked, a new image is created with the result of the "
 "filter, preserving the original image."
 msgstr ""
-"Bu seçenek işaretlendiğinde, özgün görüntü korunarak süzgeç sonucuyla "
-"yeni bir görüntü oluşturulur."
+"Bu seçenek işaretlendiğinde, özgün görüntü korunarak süzgeç sonucuyla yeni "
+"bir görüntü oluşturulur."
 
 #: src/filters/map/map-object.xml:185(term)
 msgid "Create new layer"
@@ -2521,9 +2519,9 @@ msgid ""
 "also."
 msgstr ""
 "Bu süzgeç bir panoramayı küçük bir gezegene dönüştürür. Tüm görüntüler bu "
-"süzgece uymaz. İdeal görüntü, eşit dikdörtgen görüntü olarak da bilinen "
-"360° x 180°'lik bir görüntüdür. Normal görüntüleri de kullanmanın mümkün "
-"olduğunu göreceğiz."
+"süzgece uymaz. İdeal görüntü, eşit dikdörtgen görüntü olarak da bilinen 360° "
+"x 180°'lik bir görüntüdür. Normal görüntüleri de kullanmanın mümkün olduğunu "
+"göreceğiz."
 
 #: src/filters/map/little-planet.xml:32(para)
 msgid ""
@@ -2596,8 +2594,8 @@ msgid ""
 "Do the inverse mapping; useful for touching up zenith, nadir or other parts "
 "of panorama."
 msgstr ""
-"Ters dönüşüm; zenith, nadir ya da panoramanın diğer kısımlarına dokunmak için "
-"yararlıdır."
+"Ters dönüşüm; zenith, nadir ya da panoramanın diğer kısımlarına dokunmak "
+"için yararlıdır."
 
 #: src/filters/map/little-planet.xml:118(para)
 msgid "<quote>Cubic</quote> may give better result."
@@ -2623,10 +2621,10 @@ msgid ""
 "zoom 6.25. This is a screenshot scaled to 600×300 px. Note the empty sky, "
 "the horizon perfectly horizontal, the vanishing perspective."
 msgstr ""
-"GIMP bu 16000×8000 piksellik özgün görüntüyü 1000×500 piksellik bir "
-"çerçeve içinde 6.25 yakınlaştırmayla açtı. Bu, 600×300 piksele "
-"ölçeklendirilmiş bir ekran görüntüsüdür. Boş gökyüzüne, tamamen yatay ufka "
-"ve kaybolan perspektife dikkat edin."
+"GIMP bu 16000×8000 piksellik özgün görüntüyü 1000×500 piksellik bir çerçeve "
+"içinde 6.25 yakınlaştırmayla açtı. Bu, 600×300 piksele ölçeklendirilmiş bir "
+"ekran görüntüsüdür. Boş gökyüzüne, tamamen yatay ufka ve kaybolan "
+"perspektife dikkat edin."
 
 #: src/filters/map/little-planet.xml:158(para)
 #: src/filters/map/little-planet.xml:288(para)
@@ -2649,8 +2647,8 @@ msgid ""
 "perfect. Usually, you will have to prepare your panorama before using filter."
 msgstr ""
 "Panoramanız, özellikle daha büyük bir görüntüden kesilmişse, bu süzgeç için "
-"gerekli koşulları nadiren karşılar. Küçük Gezegen süzgeci, görüntünün sol "
-"ve sağ kenarlarını bir araya getirir ve kenarlar farklıysa istenmeyen keskin "
+"gerekli koşulları nadiren karşılar. Küçük Gezegen süzgeci, görüntünün sol ve "
+"sağ kenarlarını bir araya getirir ve kenarlar farklıysa istenmeyen keskin "
 "bir sınır oluşturur. Düzensiz bir ufuk, düzensiz bir daire oluşturur. "
 "Görüntünün üst yarısını kaplayan mavi boş bir gökyüzü ve yatay bir ufuk "
 "mükemmeldir. Genellikle, süzgeci kullanmadan önce panoramanızı hazırlamanız "
@@ -2763,8 +2761,8 @@ msgid ""
 msgstr ""
 "Harita süzgeçleri bir görüntüyü değiştirmek için <emphasis>harita</emphasis> "
 "adlı bir nesne kullanır: görüntüyü nesneye eşlersiniz. Böylece, görüntünüzü "
-"önceden kabartılmış başka bir görüntüye<quote>(Bumpmap</quote> Süzgeci) "
-"ya da bir küreye<quote>(Nesneyi</quote> Eşle süzgeci) eşleyerek 3D etkiler "
+"önceden kabartılmış başka bir görüntüye<quote>(Bumpmap</quote> Süzgeci) ya "
+"da bir küreye<quote>(Nesneyi</quote> Eşle süzgeci) eşleyerek 3D etkiler "
 "oluşturabilirsiniz. Ayrıca görüntünün bir kısmını başka bir yerde aynı "
 "görüntüye eşleyebilir<quote>(Illusion</quote> ve <quote>Tile Seamless</"
 "quote> süzgeçleri), bir metni bir eğri boyunca bükebilir<quote>(Displace</"
@@ -3020,8 +3018,9 @@ msgid ""
 "described in <xref linkend=\"abyss-policy\"/>"
 msgstr ""
 "Görüntüyü fraktala eşlemek boş alanları ortaya çıkarabilir. Bu seçenekler, "
-"etkin katman ya da seçim kenarlarında yer değiştirme davranışını ayarlamanıza "
-"olanak tanır. Bunlar şurada açıklanmıştır <xref linkend=\"abyss-policy\"/>"
+"etkin katman ya da seçim kenarlarında yer değiştirme davranışını "
+"ayarlamanıza olanak tanır. Bunlar şurada açıklanmıştır <xref linkend=\"abyss-"
+"policy\"/>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3610,11 +3609,11 @@ msgid ""
 "that letters in text layer lie on a transparent background; now this filter "
 "doesn't displace transparent pixels. Only letters will be displaced."
 msgstr ""
-"Özgün görüntüyü etkinleştirin. Metninizi içeren bir <emphasis>Metin "
-"Katmanı</emphasis> oluşturun. Katmanı görüntü boyutuna ayarlayın: Katmanlar "
-"iletişim kutusunda katmana sağ tıklayın ve açılan menüde <quote>Katmanları "
-"görüntü boyutuna ayarla seçeneğine</quote> tıklayın. Metin katmanındaki "
-"harflerin şeffaf bir arka plan üzerinde olduğunu unutmayın; bu süzgeç şeffaf "
+"Özgün görüntüyü etkinleştirin. Metninizi içeren bir <emphasis>Metin Katmanı</"
+"emphasis> oluşturun. Katmanı görüntü boyutuna ayarlayın: Katmanlar iletişim "
+"kutusunda katmana sağ tıklayın ve açılan menüde <quote>Katmanları görüntü "
+"boyutuna ayarla seçeneğine</quote> tıklayın. Metin katmanındaki harflerin "
+"şeffaf bir arka plan üzerinde olduğunu unutmayın; bu süzgeç şeffaf "
 "pikselleri yerinden oynamaz. Yalnızca harfler yerinden oynatılır."
 
 #: src/filters/map/displace.xml:396(para)
@@ -3640,9 +3639,9 @@ msgid ""
 "the <link linkend=\"gimp-tool-curves\">Curves</link> tool to modify the "
 "gradient curve."
 msgstr ""
-"İstediğiniz renk geçişiyi elde etmek için önce siyahtan beyaza bir renk geçişi "
-"çizin. Ardından renk geçişi eğrisini değiştirmek için <link linkend=\"gimp-tool-"
-"curves\">Eğriler</link> aracını kullanın."
+"İstediğiniz renk geçişiyi elde etmek için önce siyahtan beyaza bir renk "
+"geçişi çizin. Ardından renk geçişi eğrisini değiştirmek için <link "
+"linkend=\"gimp-tool-curves\">Eğriler</link> aracını kullanın."
 
 #: src/filters/map/displace.xml:425(title)
 msgid "Using Displace filter to fit a text to an uneven surface"
@@ -3724,8 +3723,8 @@ msgid ""
 "displacement map's color."
 msgstr ""
 "Genel bakış örneği, 30,0 katsayısı kullanılarak yatay yer değiştirmeyi "
-"gösterdi: yer değiştirme haritasının renginin gri düzeyine bağlı olarak "
-"19, 8, 4 ya da 15 piksel."
+"gösterdi: yer değiştirme haritasının renginin gri düzeyine bağlı olarak 19, "
+"8, 4 ya da 15 piksel."
 
 #: src/filters/map/displace.xml:503(para)
 #, fuzzy
@@ -4051,8 +4050,8 @@ msgid ""
 "With this slider, you can adjust the map image position compared with the "
 "image, horizontally (X) and/or vertically (Y)."
 msgstr ""
-"Bu kaydırıcı ile harita görüntüsünün konumunu görüntüye göre yatay (X) ve/"
-"ya da dikey (Y) olarak ayarlayabilirsiniz."
+"Bu kaydırıcı ile harita görüntüsünün konumunu görüntüye göre yatay (X) ve/ya "
+"da dikey (Y) olarak ayarlayabilirsiniz."
 
 #: src/filters/map/bumpmap.xml:205(term)
 msgid "Waterlevel"
@@ -4071,10 +4070,10 @@ msgstr ""
 "Görüntünüzde şeffaf alanlar varsa, bunlar karanlık alanlar gibi "
 "değerlendirilir ve kabartma eşlemesi sonrasında oyuklar olarak görünür. Bu "
 "kaydırıcıyı kullanarak, deniz düzeyi yükseliyormuş gibi oyukları "
-"azaltabilirsiniz. Deniz düzeyi değeri 255'e ulaştığında bu oyuklar "
-"kaybolur. Kabartma eşlemesini ters çevir seçeneği işaretliyse, şeffaf "
-"alanlar parlak alanlar olarak değerlendirilir ve Su düzeyi kaydırıcısı "
-"kabartmaları düzleştirir."
+"azaltabilirsiniz. Deniz düzeyi değeri 255'e ulaştığında bu oyuklar kaybolur. "
+"Kabartma eşlemesini ters çevir seçeneği işaretliyse, şeffaf alanlar parlak "
+"alanlar olarak değerlendirilir ve Su düzeyi kaydırıcısı kabartmaları "
+"düzleştirir."
 
 #: src/filters/map/bumpmap.xml:219(term)
 msgid "Ambient lighting factor"
@@ -4086,8 +4085,8 @@ msgid ""
 "This slider controls the intensity of ambient light. With high values, "
 "shadows will fade and relief lessen."
 msgstr ""
-"Bu kaydırıcı ortam ışığının yoğunluğunu denetler. Yüksek değerlerde "
-"gölgeler soluklaşır ve rahatlama azalır."
+"Bu kaydırıcı ortam ışığının yoğunluğunu denetler. Yüksek değerlerde gölgeler "
+"soluklaşır ve rahatlama azalır."
 
 #: src/filters/map/bumpmap.xml:231(title)
 msgid "Using Bumpmap filter"
@@ -4156,4 +4155,12 @@ msgstr ""
 "Haritası</guibutton> düğmesine tıklayın ve sağ paneldeki metin katmanına "
 "çift tıklayın. <placeholder-1/>"
 
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/map/bumpmap.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>"
 
+#~ msgid "Original"
+#~ msgstr "Özgün"

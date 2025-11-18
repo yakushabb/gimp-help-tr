@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-22 20:15+0000\n"
-"PO-Revision-Date: 2025-10-23 00:08+0300\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"PO-Revision-Date: 2025-11-18 23:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -913,7 +913,8 @@ msgstr ""
 # gimp.po dosyası dışındakilerin işlevi yok.
 # Bkz: https://gitlab.gnome.org/GNOME/gimp-help/-/issues/666
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/filters/animation/blend.xml:0(None)
-#, fuzzy
+#: src/filters/edge-detect/dog.xml:0(None)
 msgid "translator-credits"
-msgstr "Kaldırılacak"
+msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>"

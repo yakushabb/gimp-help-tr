@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-11-08 21:35+0300\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"PO-Revision-Date: 2025-11-18 23:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -507,9 +507,9 @@ msgid ""
 "the current background color to create a background layer."
 msgstr ""
 "Süzgeç, yalnızca bir katman içeren RGB ve gri tonlamalı görüntüler üzerinde "
-"çalışır. Görüntünün bir kopyasını oluşturur ya da isteğe bağlı olarak "
-"özgün üzerinde çalışabilir. Bir arka plan katmanı oluşturmak için geçerli "
-"arka plan rengini kullanır."
+"çalışır. Görüntünün bir kopyasını oluşturur ya da isteğe bağlı olarak özgün "
+"üzerinde çalışabilir. Bir arka plan katmanı oluşturmak için geçerli arka "
+"plan rengini kullanır."
 
 #: src/filters/decor/round-corners.xml:56(para)
 #: src/filters/decor/old-photo.xml:51(para)
@@ -787,8 +787,8 @@ msgid ""
 "white, jagged border."
 msgstr ""
 "Kenarlık boyutu > 0 seçildiğinde, görüntüye <link linkend=\"script-fu-fuzzy-"
-"border\">Fuzzy Border</link> süzgeci uygulanarak beyaz, pürüzlü bir "
-"kenarlık eklenir."
+"border\">Fuzzy Border</link> süzgeci uygulanarak beyaz, pürüzlü bir kenarlık "
+"eklenir."
 
 #: src/filters/decor/old-photo.xml:122(term)
 msgid "Sepia"
@@ -1031,8 +1031,8 @@ msgid ""
 "300 pixels, regardless of the image width or height."
 msgstr ""
 "Burada bulanık kenarlığın kalınlığını piksel cinsinden ayarlayabilirsiniz. "
-"Görüntünün genişliği ya da yüksekliğinden bağımsız olarak en yüksek değer 300 "
-"pikseldir."
+"Görüntünün genişliği ya da yüksekliğinden bağımsız olarak en yüksek değer "
+"300 pikseldir."
 
 #: src/filters/decor/fuzzyborder.xml:100(term)
 msgid "Blur border"
@@ -1436,8 +1436,8 @@ msgid ""
 msgstr ""
 "<quote>Chrome</quote> katmanının <link linkend=\"gimp-tool-hue-"
 "saturation\">doygunluk ve açıklığının</link> nasıl ayarlanacağını denetlemek "
-"için bu seçeneği kullanın. Negatif değerler sırasıyla doygunluğu ve "
-"açıklığı azaltır."
+"için bu seçeneği kullanın. Negatif değerler sırasıyla doygunluğu ve açıklığı "
+"azaltır."
 
 #: src/filters/decor/chrome-it.xml:92(term)
 msgid "Chrome factor"
@@ -1568,8 +1568,8 @@ msgid ""
 "the <quote>Chrome</quote> layer and the <quote>Highlight</quote> layer. "
 "These layers are created as follows:"
 msgstr ""
-"Süzgeçi kaynak görüntülere uyguladıktan sonra, ortaya çıkan görüntünün "
-"<link linkend=\"gimp-layer-dialog\">Katmanlar Diyalog Penceresi</link> 'na "
+"Süzgeçi kaynak görüntülere uyguladıktan sonra, ortaya çıkan görüntünün <link "
+"linkend=\"gimp-layer-dialog\">Katmanlar Diyalog Penceresi</link> 'na "
 "bakarsanız, krom etkisini oluşturan iki ana katman olduğunu göreceksiniz: "
 "<quote>Krom</quote> katmanı ve <quote>Vurgu</quote> katmanı. Bu katmanlar şu "
 "şekilde oluşturulur:"
@@ -1589,8 +1589,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "The <guilabel>Chrome factor</guilabel> controls the appearance of this layer."
-msgstr ""
-"<guilabel>Chrome faktörü</guilabel> bu katmanın görünümünü denetler."
+msgstr "<guilabel>Chrome faktörü</guilabel> bu katmanın görünümünü denetler."
 
 #: src/filters/decor/chrome-it.xml:205(para)
 #, fuzzy
@@ -1951,10 +1950,10 @@ msgid ""
 "of the border are colored in different shades, so the image area will appear "
 "raised."
 msgstr ""
-"Bu süzgeç yalnızca adının söylediği şeyi yapar: görüntüye bir kenarlık ekler. "
-"Kenarlığın kalınlığının yanı sıra rengini de belirleyebilirsiniz. Kenarlığın "
-"dört tarafı farklı tonlarda renklendirilir, böylece görüntü alanı kabarık "
-"görünür."
+"Bu süzgeç yalnızca adının söylediği şeyi yapar: görüntüye bir kenarlık "
+"ekler. Kenarlığın kalınlığının yanı sıra rengini de belirleyebilirsiniz. "
+"Kenarlığın dört tarafı farklı tonlarda renklendirilir, böylece görüntü alanı "
+"kabarık görünür."
 
 #: src/filters/decor/addborder.xml:51(para)
 #, fuzzy
@@ -2249,5 +2248,9 @@ msgstr ""
 "<link linkend=\"gimp-layer-dialog\">Katmanlar İletişim Kutusu</link> "
 "<quote>Derinlik etkisi katmanını koru</quote> etkinleştirilmiş olarak"
 
-
-
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/decor/add-bevel.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>"

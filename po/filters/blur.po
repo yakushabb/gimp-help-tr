@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-15 20:27+0000\n"
-"PO-Revision-Date: 2025-11-16 18:39+0300\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"PO-Revision-Date: 2025-11-18 23:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -127,13 +127,16 @@ msgstr "“Yakınlaştırma Hareket Bulanıklığı” süzgeci örneği"
 #: src/filters/blur/pixelize.xml:29(para)
 #: src/filters/blur/median-blur.xml:29(para)
 #: src/filters/blur/mean-curvature-blur.xml:30(para)
+#: src/filters/blur/mean-curvature-blur.xml:111(para)
+#: src/filters/blur/mean-curvature-blur.xml:138(para)
 #: src/filters/blur/linear-motion.xml:29(para)
 #: src/filters/blur/lens-blur.xml:27(para)
+#: src/filters/blur/introduction.xml:65(title)
 #: src/filters/blur/gauss_select.xml:30(para)
 #: src/filters/blur/gauss.xml:30(para) src/filters/blur/focus-blur.xml:27(para)
 #: src/filters/blur/circular-motion.xml:30(para)
-msgid "Original"
-msgstr "Özgün"
+msgid "Original image"
+msgstr "Özgün görüntü"
 
 #: src/filters/blur/zoom-motion.xml:39(para)
 #: src/filters/blur/linear-motion.xml:38(para)
@@ -630,25 +633,9 @@ msgstr "Bu seçenekler kendi kendini açıklar."
 msgid "Blur type"
 msgstr "Bulanıklık türü"
 
-#: src/filters/blur/tileable.xml:166(para)
-msgid "Choose the algorithm to be applied:"
-msgstr "Uygulanacak algoritmayı seçin:"
-
-#: src/filters/blur/tileable.xml:169(term) src/filters/blur/gauss.xml:130(term)
-msgid "IIR"
-msgstr "IIR"
-
-#: src/filters/blur/tileable.xml:171(para)
-msgid "for photographic or scanned images."
-msgstr "Fotoğrafik ya da taranmış görüntüler için."
-
-#: src/filters/blur/tileable.xml:175(term)
-msgid "RLE"
-msgstr "RLE"
-
-#: src/filters/blur/tileable.xml:177(para)
-msgid "for computer-generated images."
-msgstr "Bilgisayarca oluşturulan görüntüler için."
+#: src/filters/blur/tileable.xml:167(para)
+msgid "This setting is ignored."
+msgstr "Bu ayar yok sayılır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -864,9 +851,6 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/blur/median-blur.xml:147(None)
 #: src/filters/blur/gauss.xml:202(None)
-#| msgid ""
-#| "@@image: 'images/filters/examples/blur/median-vs-gaussian.png'; "
-#| "md5=7d04e8df3a762c55743b5602f9cae1a6"
 msgid ""
 "@@image: 'images/filters/examples/blur/median-vs-gaussian.png'; "
 "md5=91faa0e407d69371db163e74769a52f5"
@@ -1317,11 +1301,6 @@ msgstr "Yinelemeleri artırmak bulanıklığı artırır."
 msgid "Examples"
 msgstr "Örnekler"
 
-#: src/filters/blur/mean-curvature-blur.xml:111(para)
-#: src/filters/blur/mean-curvature-blur.xml:138(para)
-msgid "Original image"
-msgstr "Özgün görüntü"
-
 #: src/filters/blur/mean-curvature-blur.xml:122(para)
 msgid "Iterations = 4"
 msgstr "Yineleme = 4"
@@ -1641,10 +1620,6 @@ msgstr ""
 #: src/filters/blur/introduction.xml:22(para)
 msgid "This category describes the following filters:"
 msgstr "Bu kategori aşağıdaki süzgeçleri açıklar:"
-
-#: src/filters/blur/introduction.xml:65(title)
-msgid "Original for demo"
-msgstr "Demo için özgün görüntü"
 
 #: src/filters/blur/introduction.xml:73(para)
 msgid ""
@@ -1990,6 +1965,10 @@ msgid "Stands for <quote>Finite Impulse Response</quote>."
 msgstr ""
 "<quote>Finite Impulse Response (Sonlu Darbe Yanıtı)</quote> anlamına gelir."
 
+#: src/filters/blur/gauss.xml:130(term)
+msgid "IIR"
+msgstr "IIR"
+
 #: src/filters/blur/gauss.xml:132(para)
 msgid "Stands for <quote>Infinite Impulse Response</quote>."
 msgstr ""
@@ -2312,3 +2291,28 @@ msgstr ""
 #: src/filters/blur/circular-motion.xml:124(para)
 msgid "Press <keycap>Ctrl</keycap> key to rotate by 15° steps."
 msgstr "15°ʼlik adımlarla döndürmek için <keycap>Ctrl</keycap> tuşuna basın."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/blur/circular-motion.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "Original"
+#~ msgstr "Özgün"
+
+#~ msgid "Choose the algorithm to be applied:"
+#~ msgstr "Uygulanacak algoritmayı seçin:"
+
+#~ msgid "for photographic or scanned images."
+#~ msgstr "Fotoğrafik ya da taranmış görüntüler için."
+
+#~ msgid "RLE"
+#~ msgstr "RLE"
+
+#~ msgid "for computer-generated images."
+#~ msgstr "Bilgisayarca oluşturulan görüntüler için."
+
+#~ msgid "Original for demo"
+#~ msgstr "Demo için özgün görüntü"

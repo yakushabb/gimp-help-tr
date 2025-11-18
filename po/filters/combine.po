@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-11-08 21:34+0300\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"PO-Revision-Date: 2025-11-18 23:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -105,6 +105,7 @@ msgid "Applying example for the Filmstrip filter"
 msgstr "“Film Şeridi” süzgeci örneği"
 
 #: src/filters/combine/filmstrip.xml:33(para)
+#: src/filters/combine/depthmerge.xml:40(para)
 msgid "Original image"
 msgstr "Özgün görüntü"
 
@@ -477,10 +478,6 @@ msgstr ""
 msgid "Filter example"
 msgstr "Süzgeç örneği"
 
-#: src/filters/combine/depthmerge.xml:40(para)
-msgid "Original"
-msgstr "Özgün"
-
 #: src/filters/combine/depthmerge.xml:49(para)
 msgid "Filter applied"
 msgstr "Süzgeç uygulandı"
@@ -678,7 +675,11 @@ msgstr ""
 # gimp.po dosyası dışındakilerin işlevi yok.
 # Bkz: https://gitlab.gnome.org/GNOME/gimp-help/-/issues/666
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/filters/animation/blend.xml:0(None)
-#, fuzzy
+#: src/filters/combine/depthmerge.xml:0(None)
 msgid "translator-credits"
-msgstr "Kaldırılacak"
+msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "Original"
+#~ msgstr "Özgün"

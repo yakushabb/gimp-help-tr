@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-31 18:10+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: 2025-11-09 22:53+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -443,4 +443,7 @@ msgid "These options are described in <xref linkend=\"gimp-filters-common\"/>."
 msgstr ""
 "Bu seçenekler şurada açıklanmıştır: <xref linkend=\"gimp-filters-common\"/>."
 
-
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/about-common-features.xml:0(None)
+msgid "translator-credits"
+msgstr ""

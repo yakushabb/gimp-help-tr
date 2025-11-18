@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-15 20:27+0000\n"
-"PO-Revision-Date: 2025-11-08 21:36+0300\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"PO-Revision-Date: 2025-11-18 23:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -757,7 +757,9 @@ msgid "Example for the <quote>Symmetric Nearest Neighbor</quote> filter"
 msgstr "<quote>Simetrik En yakın komşu</quote> süzgeci seçenekleri"
 
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:32(para)
-msgid "Left: original. Right: filter applied."
+#, fuzzy
+#| msgid "Left: original. Right: filter applied."
+msgid "Left: original image. Right: filter applied."
 msgstr "Sol: özgün. Sağ: süzgeç uygulanmış."
 
 #: src/filters/enhance/symmetric-nearest-neighbor.xml:36(para)
@@ -1923,3 +1925,9 @@ msgstr "Özgün görüntü (yakınlaştırma 16:1)"
 msgid "<quote>Antialias</quote> applied (zoom 16:1)"
 msgstr "<quote>Kenar Yumuşatma</quote> uygulandı (yakınlaştırma 16:1)"
 
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/enhance/antialias.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>"

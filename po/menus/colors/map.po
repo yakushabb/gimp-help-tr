@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: 2025-11-09 22:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -259,11 +259,11 @@ msgstr ""
 "seçim olabilir. Açılır liste ile, süzgeçyi çağırdığınızda ekranınızda "
 "bulunan görüntülerin adları arasından başka bir örnek görüntü "
 "seçebilirsiniz. <guilabel>Renk geçişi'den</guilabel> (ya da <guilabel>Ters "
-"Renk geçişi'den) seçeneğini</guilabel> seçerseniz, Renk geçişi Diyalog Penceresi'nde "
-"seçilen renk geçişi (ya da tersi) örnek olacaktır. Bu, örnek ön izlemesinin "
-"altındaki renk geçişi çubuğunda görüntülenecektir. Örnekleme ön izlemesi "
-"grileştirilir ve iki imleç, görüntüye ya da seçime uygulanacak gradyan "
-"aralığını seçmenize olanak tanır."
+"Renk geçişi'den) seçeneğini</guilabel> seçerseniz, Renk geçişi Diyalog "
+"Penceresi'nde seçilen renk geçişi (ya da tersi) örnek olacaktır. Bu, örnek "
+"ön izlemesinin altındaki renk geçişi çubuğunda görüntülenecektir. Örnekleme "
+"ön izlemesi grileştirilir ve iki imleç, görüntüye ya da seçime uygulanacak "
+"gradyan aralığını seçmenize olanak tanır."
 
 #: src/menus/colors/map/sample-colorize.xml:100(para)
 #, fuzzy
@@ -605,8 +605,8 @@ msgid ""
 "Gradient Map filter."
 msgstr ""
 "Renk geçişi Eşleme Örneği. Üst: Özgün görüntü. Ortada: bir renk geçişi. Alt: "
-"Renk geçişi Eşleme süzgeçi ile özgün görüntüye renk geçişi uygulandığında elde "
-"edilen sonuç."
+"Renk geçişi Eşleme süzgeçi ile özgün görüntüye renk geçişi uygulandığında "
+"elde edilen sonuç."
 
 #: src/menus/colors/map/gradientmap.xml:43(para)
 #, fuzzy
@@ -622,16 +622,16 @@ msgid ""
 "lightest pixels to the right end color from the gradient. Intermediate "
 "values are set to the corresponding intermediate colors."
 msgstr ""
-"Bu süzgeç, Araç Kutusu'nun Fırça/Desen/Renk geçişi alanında gösterildiği gibi "
-"mevcut renk geçişiyi kullanarak, süzgeçnin uygulandığı görüntünün etkin "
+"Bu süzgeç, Araç Kutusu'nun Fırça/Desen/Renk geçişi alanında gösterildiği "
+"gibi mevcut renk geçişiyi kullanarak, süzgeçnin uygulandığı görüntünün etkin "
 "katmanını ya da seçimini yeniden renklendirir. Kullanmak için önce <link "
-"linkend=\"gimp-gradient-dialog\">Renk geçişi Diyalog Penceresi</link>'den bir "
-"renk geçişi seçin. Ardından, değiştirmek istediğiniz görüntünün bölümünü seçin "
-"ve süzgeçyi etkinleştirin. Süzgeç, herhangi bir iletişim kutusu göstermeden "
-"ya da başka bir girdi gerektirmeden otomatik olarak çalışır. Görüntü renk "
-"yoğunluklarını (0 - 255) kullanır, en koyu pikselleri gradyanın sol uç "
-"rengiyle, en açık pikselleri ise gradyanın sağ uç rengiyle eşleştirir. Ara "
-"değerler, karşılık gelen ara renklere ayarlanır."
+"linkend=\"gimp-gradient-dialog\">Renk geçişi Diyalog Penceresi</link>'den "
+"bir renk geçişi seçin. Ardından, değiştirmek istediğiniz görüntünün bölümünü "
+"seçin ve süzgeçyi etkinleştirin. Süzgeç, herhangi bir iletişim kutusu "
+"göstermeden ya da başka bir girdi gerektirmeden otomatik olarak çalışır. "
+"Görüntü renk yoğunluklarını (0 - 255) kullanır, en koyu pikselleri gradyanın "
+"sol uç rengiyle, en açık pikselleri ise gradyanın sağ uç rengiyle "
+"eşleştirir. Ara değerler, karşılık gelen ara renklere ayarlanır."
 
 # İletişim kutusu açmadığı için son menü ögesinde üç nokta yok.
 #: src/menus/colors/map/gradientmap.xml:61(para)
@@ -1261,5 +1261,7 @@ msgstr ""
 "engellemenizi sağlar. Burada işaretlenen bileşenler süzgeç tarafından "
 "değiştirilmez."
 
-
-
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/colors/map/alien-map.xml:0(None)
+msgid "translator-credits"
+msgstr ""

@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-15 20:27+0000\n"
-"PO-Revision-Date: 2025-11-08 21:35+0300\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"PO-Revision-Date: 2025-11-18 23:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -191,12 +191,14 @@ msgstr "<quote>Rüzgar</quote> süzgeci örneği"
 
 #: src/filters/distort/wind.xml:29(para)
 #: src/filters/distort/whirlpinch.xml:29(para)
+#: src/filters/distort/whirlpinch.xml:75(para)
 #: src/filters/distort/waves.xml:24(para)
 #: src/filters/distort/vpropagate.xml:26(para)
 #: src/filters/distort/video-degradation.xml:30(para)
 #: src/filters/distort/spherize.xml:28(para)
 #: src/filters/distort/shift.xml:29(para)
 #: src/filters/distort/ripple.xml:29(para)
+#: src/filters/distort/ripple.xml:93(para)
 #: src/filters/distort/polarcoords.xml:30(para)
 #: src/filters/distort/pagecurl.xml:31(para)
 #: src/filters/distort/newsprint.xml:32(para)
@@ -700,10 +702,6 @@ msgstr ""
 #: src/filters/distort/whirlpinch.xml:68(title)
 msgid "Illustration"
 msgstr "Örnekleme"
-
-#: src/filters/distort/whirlpinch.xml:75(para)
-msgid "Original"
-msgstr "Özgün"
 
 #: src/filters/distort/whirlpinch.xml:84(para)
 msgid "Whirled"
@@ -1873,10 +1871,6 @@ msgstr "<quote>Dalgacık</quote> süzgeci seçenekleri"
 #: src/filters/distort/ripple.xml:85(term)
 msgid "Original images for examples"
 msgstr "Örnekler için özgün görseller"
-
-#: src/filters/distort/ripple.xml:92(caption)
-msgid "Origin"
-msgstr "Özgün"
 
 #: src/filters/distort/ripple.xml:102(para)
 msgid "Ripple applied with default options"
@@ -4084,4 +4078,15 @@ msgstr ""
 msgid "Click on the eye-drop button on the right to pick color from the image."
 msgstr "Görüntüden renk seçmek için sağdaki damlalık düğmesine tıklayın."
 
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/distort/apply_lens.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>"
 
+#~ msgid "Original"
+#~ msgstr "Özgün"
+
+#~ msgid "Origin"
+#~ msgstr "Özgün"

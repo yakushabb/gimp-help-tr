@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-09 16:57+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: 2025-11-09 22:27+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -5719,4 +5719,7 @@ msgid ""
 "of the grid to which layers are aligned."
 msgstr ""
 
-
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/image/align-layers.xml:0(None)
+msgid "translator-credits"
+msgstr ""

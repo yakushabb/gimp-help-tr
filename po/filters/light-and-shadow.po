@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-15 20:27+0000\n"
-"PO-Revision-Date: 2025-11-08 21:54+0300\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"PO-Revision-Date: 2025-11-18 23:09+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -129,6 +129,7 @@ msgid "Example for the <quote>Xach-Effect</quote> filter"
 msgstr "<quote>Cam Etkisi</quote> süzgeci örneği"
 
 #: src/filters/light-and-shadow/xach-effect.xml:31(para)
+#: src/filters/light-and-shadow/vignette.xml:38(para)
 #: src/filters/light-and-shadow/supernova.xml:29(para)
 #: src/filters/light-and-shadow/sparkle.xml:29(para)
 #: src/filters/light-and-shadow/perspective-shadow.xml:31(para)
@@ -501,10 +502,6 @@ msgstr ""
 #: src/filters/light-and-shadow/vignette.xml:30(title)
 msgid "Original images used for examples"
 msgstr "Örnekler için kullanılan özgün görseller"
-
-#: src/filters/light-and-shadow/vignette.xml:38(para)
-msgid "Original"
-msgstr "Özgün"
 
 #: src/filters/light-and-shadow/vignette.xml:50(para)
 msgid "Filter applied with default options"
@@ -4099,4 +4096,12 @@ msgstr ""
 "Etkinleştirildiğinde, vurguların pozlamasını sınırlar. Bu, aşırı pozlanmış "
 "alanlardaki parlamayı azaltmak için kullanılabilir."
 
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/filters/light-and-shadow/bloom.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>"
 
+#~ msgid "Original"
+#~ msgstr "Özgün"

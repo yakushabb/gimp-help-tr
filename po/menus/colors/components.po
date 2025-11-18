@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: 2025-11-09 21:59+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -310,9 +310,9 @@ msgid ""
 "value of the Red channel in the original image (The background has been "
 "painted with pink afterwards to make all squares visible)."
 msgstr ""
-"Her karede, pikseller özgün görüntünün Kırmızı kanalının değerine eşit "
-"bir gri düzeyine dönüştürülmüştür (Arka plan, tüm karelerin görünür olması "
-"için sonradan pembe renkle boyanmıştır)."
+"Her karede, pikseller özgün görüntünün Kırmızı kanalının değerine eşit bir "
+"gri düzeyine dönüştürülmüştür (Arka plan, tüm karelerin görünür olması için "
+"sonradan pembe renkle boyanmıştır)."
 
 #: src/menus/colors/components/mono-mixer.xml:139(para)
 #, fuzzy
@@ -714,10 +714,10 @@ msgid ""
 "maximum Saturation (pure color) and maximum Value (very bright). Black is "
 "minimum Saturation (white) and minimum Value (black)."
 msgstr ""
-"<guilabel>Doygunluk</guilabel> ve <guilabel>Değer</guilabel>: Beyaz, "
-"en yüksek Doygunluk (saf renk) ve en yüksek Değer (çok parlak) değerine "
-"sahiptir. Siyah, en düşük Doygunluk (beyaz) ve en düşük Değer (siyah) değerine "
-"sahiptir."
+"<guilabel>Doygunluk</guilabel> ve <guilabel>Değer</guilabel>: Beyaz, en "
+"yüksek Doygunluk (saf renk) ve en yüksek Değer (çok parlak) değerine "
+"sahiptir. Siyah, en düşük Doygunluk (beyaz) ve en düşük Değer (siyah) "
+"değerine sahiptir."
 
 #: src/menus/colors/components/decompose.xml:193(term)
 msgid "HSL"
@@ -1285,5 +1285,7 @@ msgstr ""
 "Kırmızı Çıkış kanalına atanan değerler daha düşüktür, bu da görüntünün çok "
 "parlak olmasını önler."
 
-
-
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/colors/components/channel-mixer.xml:0(None)
+msgid "translator-credits"
+msgstr ""

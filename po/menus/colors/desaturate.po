@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: 2025-11-09 22:03+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -823,4 +823,7 @@ msgstr "Gölgeleri iyileştir"
 msgid "When enabled details in shadows are boosted at the expense of noise."
 msgstr "Etkin olduğunda, gölge ayrıntıları gürültü pahasına artırılır."
 
-
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/colors/desaturate/color-to-gray.xml:0(None)
+msgid "translator-credits"
+msgstr ""

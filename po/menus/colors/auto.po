@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: 2025-11-09 21:53+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -219,14 +219,14 @@ msgid ""
 "contain pure white and pure black."
 msgstr ""
 "<guimenuitem>Stretch Contrast</guimenuitem> komutu, etkin katmandaki "
-"histogram değerlerini otomatik olarak uzatır. Etkin  katmanın her kanalı için "
-"en düşük ve en yüksek değerleri bulur ve bunları kullanarak Kırmızı, Yeşil ve "
-"Mavi histogramları tam kontrast aralığına uzatır. Parlak renkler daha "
-"parlak, koyu renkler ise daha koyu hale gelir ve bu da kontrastı artırır. "
-"<quote>Kontrastı Germe</quote>, RGB, Gri Tonlamalı ve Dizinli görüntü "
-"katmanlarında çalışır. <quote>Kontrastı Germe'yi</quote> yalnızca, saf beyaz "
-"ve saf siyah içermesi gereken bir görüntüden istenmeyen renk tonunu "
-"kaldırmak istediğinizde kullanın."
+"histogram değerlerini otomatik olarak uzatır. Etkin  katmanın her kanalı "
+"için en düşük ve en yüksek değerleri bulur ve bunları kullanarak Kırmızı, "
+"Yeşil ve Mavi histogramları tam kontrast aralığına uzatır. Parlak renkler "
+"daha parlak, koyu renkler ise daha koyu hale gelir ve bu da kontrastı "
+"artırır. <quote>Kontrastı Germe</quote>, RGB, Gri Tonlamalı ve Dizinli "
+"görüntü katmanlarında çalışır. <quote>Kontrastı Germe'yi</quote> yalnızca, "
+"saf beyaz ve saf siyah içermesi gereken bir görüntüden istenmeyen renk "
+"tonunu kaldırmak istediğinizde kullanın."
 
 #: src/menus/colors/auto/stretch-contrast.xml:36(para)
 #, fuzzy
@@ -571,5 +571,7 @@ msgstr ""
 "<quote>Renk Geliştirme</quote> işleminden sonra etkin katman ve Kırmızı, "
 "Yeşil ve Mavi histogramları. Sonuç her zaman beklediğiniz gibi olmayabilir."
 
-
-
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/colors/auto/color-enhance.xml:0(None)
+msgid "translator-credits"
+msgstr ""

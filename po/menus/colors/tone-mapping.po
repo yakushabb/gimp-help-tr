@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-08 18:26+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: 2025-11-09 22:15+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -142,10 +142,10 @@ msgstr ""
 "Bu süzgeç, Stokastik Örnekleme (STRESS) ile Spatio Temporal Retinex benzeri "
 "bir Zarf kullanır. Algoritmalar, görüntüdeki yerel üst ve alt sınırlar için "
 "zarfları kullanarak her pikseli yeniden hesaplayarak çalışır. Zarflar, komşu "
-"piksellerin örneklemesi ile elde edilir ve yerel referans en yüksek ve "
-"en düşük olarak yorumlanabilir. Bu yöntem, yerel kontrast uzatma, otomatik "
-"renk düzeltme, yüksek dinamik aralıklı görüntü işleme, uzamsal renk gamı "
-"eşleme ve renkten gri tonlamaya dönüştürme için iyi sonuçlar verebilir."
+"piksellerin örneklemesi ile elde edilir ve yerel referans en yüksek ve en "
+"düşük olarak yorumlanabilir. Bu yöntem, yerel kontrast uzatma, otomatik renk "
+"düzeltme, yüksek dinamik aralıklı görüntü işleme, uzamsal renk gamı eşleme "
+"ve renkten gri tonlamaya dönüştürme için iyi sonuçlar verebilir."
 
 #: src/menus/colors/tone-mapping/stress.xml:69(para)
 #, fuzzy
@@ -494,8 +494,8 @@ msgid ""
 msgstr ""
 "Çok ölçekli Retinex süzgecinde yineleme sayısını belirler. Gerekli en düşük "
 "ve önerilen değer üçtür. Yalnızca bir ya da iki ölçek bölümü, çok ölçekli "
-"özelliği ortadan kaldırır ve tek ölçekli Retinex süzmeye geri döner. "
-"Çok yüksek bir değer, resimde gürültüye neden olma eğilimindedir."
+"özelliği ortadan kaldırır ve tek ölçekli Retinex süzmeye geri döner. Çok "
+"yüksek bir değer, resimde gürültüye neden olma eğilimindedir."
 
 #: src/menus/colors/tone-mapping/retinex.xml:173(term)
 msgid "Dynamic"
@@ -910,5 +910,7 @@ msgstr ""
 "tanır (2-100): 60'tan fazla değer nadiren gereklidir ve artefaktlara neden "
 "olabilir."
 
-
-
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/colors/tone-mapping/destripe.xml:0(None)
+msgid "translator-credits"
+msgstr ""

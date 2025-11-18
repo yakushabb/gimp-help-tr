@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-15 20:27+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: 2025-10-20 15:27+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -11377,4 +11377,7 @@ msgstr ""
 "(ya da yalnızca deney yaparken) kılavuzun geri kalan kısmına bakabilirsiniz. "
 "İyi eğlenceler!"
 
-
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/concepts/basic-setup.xml:0(None)
+msgid "translator-credits"
+msgstr ""

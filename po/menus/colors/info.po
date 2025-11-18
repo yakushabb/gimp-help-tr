@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-20 15:22+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: 2025-11-09 22:05+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -305,9 +305,9 @@ msgid ""
 msgstr ""
 "<guilabel>Bucket Size (</guilabel> <quote>Kova Boyutu</quote>), benzer "
 "olarak kabul edilen ve aynı <quote>kovada</quote> sayılan değerlerin "
-"sayısını denetlemenizi sağlar. Daha yüksek bir kova boyutu, daha az kova "
-"ve dolayısıyla dışa aktarılan dosyada daha az satır üretir. Örneğin, 1'lik "
-"bir Bucket Size ( <quote>Kova</quote> Boyutu) 256 kova üretirken, 16'lık bir "
+"sayısını denetlemenizi sağlar. Daha yüksek bir kova boyutu, daha az kova ve "
+"dolayısıyla dışa aktarılan dosyada daha az satır üretir. Örneğin, 1'lik bir "
+"Bucket Size ( <quote>Kova</quote> Boyutu) 256 kova üretirken, 16'lık bir "
 "kova boyutu 16 kova üretir."
 
 #: src/menus/colors/info/export-histogram.xml:106(term)
@@ -501,9 +501,8 @@ msgid ""
 "different but similar kinds of Green (0;255;0 , 63;240;63 , 48;224;47 , "
 "0;192;38)."
 msgstr ""
-"Özgün görüntü: renkler saf Kırmızı (255;0;0), saf Mavi (0;0;255) ve "
-"farklı ancak benzer türde Yeşil (0;255;0 , 63;240;63 , 48;224;47 , "
-"0;192;38)dır."
+"Özgün görüntü: renkler saf Kırmızı (255;0;0), saf Mavi (0;0;255) ve farklı "
+"ancak benzer türde Yeşil (0;255;0 , 63;240;63 , 48;224;47 , 0;192;38)dır."
 
 #: src/menus/colors/info/borderaverage.xml:144(title)
 msgid "<quote>Number of Colors</quote> is set to 8:"
@@ -557,4 +556,7 @@ msgstr ""
 "Yeşil (32,224,32) olur ve bu, her kanal için kanal aralığının sınırları (63 "
 "+ 0)/2, (255+192)/2 , (63+0)/2 arasındaki ortalamadır."
 
-
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/colors/info/borderaverage.xml:0(None)
+msgid "translator-credits"
+msgstr ""

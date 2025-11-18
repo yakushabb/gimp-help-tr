@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-10-31 18:10+0000\n"
+"POT-Creation-Date: 2025-11-18 19:31+0000\n"
 "PO-Revision-Date: 2025-11-09 22:59+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -16695,4 +16695,7 @@ msgid ""
 "quote> dialog. See <xref linkend=\"script-fu-paste-as-brush\"/>."
 msgstr ""
 
-
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/dialogs/brushes-dialog.xml:0(None)
+msgid "translator-credits"
+msgstr ""
