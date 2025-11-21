@@ -2227,29 +2227,3 @@ msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
 
-#~ msgid "<quote>Slide</quote> applied"
-#~ msgstr "<quote>Slayt</quote> uygulandı"
-
-#~ msgid "<quote>Round Corners</quote> applied"
-#~ msgstr "<quote>Köşeleri Yuvarla</quote> uygulandı"
-
-#~ msgid "<quote>Old Photo</quote> applied"
-#~ msgstr "<quote>Eski Fotoğraf</quote> uygulandı"
-
-#~ msgid "<quote>Fuzzy Border</quote> applied"
-#~ msgstr "<quote>Bulanık Kenarlık</quote> uygulandı"
-
-#~ msgid "<quote>Fog</quote> applied"
-#~ msgstr "<quote>Sis</quote> uygulandı"
-
-#~ msgid "<quote>Stencil Chrome</quote> applied"
-#~ msgstr "<quote>Kalıp Krom</quote> uygulandı"
-
-#~ msgid "<quote>Stencil Carve</quote> applied"
-#~ msgstr "<quote>Kalıp Oyma</quote> uygulandı"
-
-#~ msgid "Border added"
-#~ msgstr "Kenarlık eklendi"
-
-#~ msgid "<quote>Add Bevel</quote> applied"
-#~ msgstr "<quote>Eğim Ekle</quote> uygulandı"

@@ -4081,30 +4081,3 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
-
-#~ msgid "Filter applied with default options"
-#~ msgstr "Öntanımlı seçeneklerle uygulanan süzge"
-
-#~ msgid "Filter <quote>Supernova</quote> applied"
-#~ msgstr "<quote>Süpernova</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Sparkle</quote> applied"
-#~ msgstr "<quote>Parıltı</quote> süzgeci uygulandı"
-
-#~ msgid "<quote>Perspective</quote> applied"
-#~ msgstr "<quote>Perspektif</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Lighting Effects</quote> applied"
-#~ msgstr "<quote>Işıklandırma Etkileri</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Lens Flare</quote> applied"
-#~ msgstr "<quote>Mercek Parlaması</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Gradient Flare</quote> applied"
-#~ msgstr "<quote>Renk Geçişi Parlaması</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Bloom</quote> applied"
-#~ msgstr "<quote>Bahar</quote> süzgeci uygulandı"
-
-#~ msgid "Original"
-#~ msgstr "Özgün"

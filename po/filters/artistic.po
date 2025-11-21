@@ -3494,35 +3494,3 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
-
-#~ msgid "Filter <quote>Weave</quote> applied"
-#~ msgstr "<quote>Dokuma</quote> süzgeci uygulandı"
-
-#, fuzzy
-#~| msgid "Filter <quote>Weave</quote> applied"
-#~ msgid "Filter <quote>Waterpixels</quote> applied"
-#~ msgstr "<quote>Dokuma</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Softglow</quote> applied"
-#~ msgstr "<quote>Hafif Parıltı</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Photocopy</quote> applied"
-#~ msgstr "<quote>Fotokopi</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Oilify</quote> applied"
-#~ msgstr "<quote>Yağlı Boya</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Glass Tile</quote> applied"
-#~ msgstr "<quote>Cam Karo</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Cubism</quote> applied"
-#~ msgstr "<quote>Kübizm</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Cartoon</quote> applied"
-#~ msgstr "<quote>Karikatür</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Apply Canvas</quote> applied"
-#~ msgstr "<quote>Tuval Uygula</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>GIMPressionist</quote> applied"
-#~ msgstr "<quote>GIMPressionist</quote> süzgeci uygulandı"

@@ -874,24 +874,3 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
-
-#~ msgid "Filter <quote>Spread</quote> applied"
-#~ msgstr "<quote>Yay</quote> uygulandı"
-
-#~ msgid "Filter <quote>Slur</quote> applied"
-#~ msgstr "<quote>Slur Lekelemesi</quote> uygulandı"
-
-#~ msgid "Filter <quote>RGB Noise</quote> applied"
-#~ msgstr "<quote>RGB Gürültüsü</quote> uygulandı"
-
-#~ msgid "Filter <quote>Pick</quote> applied"
-#~ msgstr "<quote>Seç</quote> uygulandı"
-
-#~ msgid "Filter <quote>Hurl</quote> applied"
-#~ msgstr "<quote>Savrulma</quote> uygulandı"
-
-#~ msgid "Filter <quote>HSV Noise</quote> applied"
-#~ msgstr "<quote>HSV Gürültüsü</quote> uygulandı"
-
-#~ msgid "Filter <quote>CIE lch Noise</quote> applied"
-#~ msgstr "<quote>CIE lch Gürültüsü</quote> uygulandı"

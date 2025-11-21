@@ -678,8 +678,3 @@ msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
 
-#~ msgid "Filter <quote>Filmstrip</quote> applied"
-#~ msgstr "<quote>Film Şeridi</quote> süzgeci uygulandı"
-
-#~ msgid "Original"
-#~ msgstr "Özgün"

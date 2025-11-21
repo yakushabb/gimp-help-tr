@@ -4141,26 +4141,3 @@ msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
 
-#~ msgid "Tile Seamless applied"
-#~ msgstr "Dikişsiz Döşeme süzgeci uygulandı"
-
-#~ msgid "<quote>Small Tiles</quote> applied"
-#~ msgstr "<quote>Küçük Döşemeler</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Papertile</quote> applied"
-#~ msgstr "<quote>Kağıt Döşeme</quote> süzgeci uygulanmış"
-
-#~ msgid "<quote>Map Object</quote> applied"
-#~ msgstr "<quote>Nesneye Eşle</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Illusion</quote> applied"
-#~ msgstr "<quote>Yanılsama</quote> süzgeci uygulandı"
-
-#~ msgid "Filter <quote>Fractal Trace</quote> applied"
-#~ msgstr "<quote>Fraktal İzi</quote> süzgeci uygulandı"
-
-#~ msgid "Displace filter applied."
-#~ msgstr "Yer değiştir süzgeci uygulandı."
-
-#~ msgid "Original"
-#~ msgstr "Özgün"
