@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-21 21:36+0000\n"
-"PO-Revision-Date: 2025-11-18 23:09+0300\n"
+"PO-Revision-Date: 2025-11-22 01:01+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -288,7 +288,7 @@ msgstr "<quote>Spyrogimp</quote> süzgeci örneği"
 #: src/filters/render/checkerboard-legacy.xml:30(para)
 #: src/filters/render/cell-noise.xml:31(para)
 msgid "Filter applied"
-msgstr ""
+msgstr "Süzgeç uygulandı"
 
 #: src/filters/render/spyrogimp.xml:31(para)
 msgid ""

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-21 21:36+0000\n"
-"PO-Revision-Date: 2025-11-18 23:09+0300\n"
+"PO-Revision-Date: 2025-11-22 01:00+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -105,7 +105,7 @@ msgstr "Özgün görüntü"
 #: src/filters/noise/hurl.xml:38(para) src/filters/noise/hsv-noise.xml:39(para)
 #: src/filters/noise/cie-lch-noise.xml:38(para)
 msgid "Filter applied"
-msgstr ""
+msgstr "Süzgeç uygulandı"
 
 #: src/filters/noise/spread.xml:43(para)
 msgid ""
