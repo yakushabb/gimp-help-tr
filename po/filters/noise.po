@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: 2025-11-18 23:09+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -100,9 +100,12 @@ msgstr "“Yay” süzgeci örneği"
 msgid "Original image"
 msgstr "Özgün görüntü"
 
-#: src/filters/noise/spread.xml:39(para)
-msgid "Filter <quote>Spread</quote> applied"
-msgstr "<quote>Yay</quote> uygulandı"
+#: src/filters/noise/spread.xml:39(para) src/filters/noise/slur.xml:38(para)
+#: src/filters/noise/rgb-noise.xml:38(para) src/filters/noise/pick.xml:38(para)
+#: src/filters/noise/hurl.xml:38(para) src/filters/noise/hsv-noise.xml:39(para)
+#: src/filters/noise/cie-lch-noise.xml:38(para)
+msgid "Filter applied"
+msgstr ""
 
 #: src/filters/noise/spread.xml:43(para)
 msgid ""
@@ -279,10 +282,6 @@ msgstr "Slur Lekelemesi"
 msgid "Example of applying the Slur filter"
 msgstr "“Slur Lekelemesi” süzgeci örneği"
 
-#: src/filters/noise/slur.xml:38(para)
-msgid "Filter <quote>Slur</quote> applied"
-msgstr "<quote>Slur Lekelemesi</quote> uygulandı"
-
 #: src/filters/noise/slur.xml:42(para)
 msgid ""
 "Slurring produces an effect resembling melting the image downwards; if a "
@@ -376,10 +375,6 @@ msgstr "RGB Gürültüsü"
 #: src/filters/noise/rgb-noise.xml:22(title)
 msgid "Example of applying the <quote>RGB Noise</quote> filter"
 msgstr "<quote>RGB Gürültüsü</quote> süzgeci örneği"
-
-#: src/filters/noise/rgb-noise.xml:38(para)
-msgid "Filter <quote>RGB Noise</quote> applied"
-msgstr "<quote>RGB Gürültüsü</quote> uygulandı"
 
 #: src/filters/noise/rgb-noise.xml:42(para)
 msgid ""
@@ -536,10 +531,6 @@ msgstr "Seç"
 msgid "Example of applying the <quote>Pick</quote> filter"
 msgstr "<quote>Seç</quote> süzgeci örneği"
 
-#: src/filters/noise/pick.xml:38(para)
-msgid "Filter <quote>Pick</quote> applied"
-msgstr "<quote>Seç</quote> uygulandı"
-
 #: src/filters/noise/pick.xml:42(para)
 msgid ""
 "The Pick filter replaces each affected pixel by a pixel value randomly "
@@ -637,10 +628,6 @@ msgstr "Savrulma"
 msgid "Example for the <quote>Hurl</quote> filter"
 msgstr "<quote>Savrulma</quote> süzgeci örneği"
 
-#: src/filters/noise/hurl.xml:38(para)
-msgid "Filter <quote>Hurl</quote> applied"
-msgstr "<quote>Savrulma</quote> uygulandı"
-
 #: src/filters/noise/hurl.xml:42(para)
 msgid ""
 "The Hurl filter changes each affected pixel to a random color, so it "
@@ -722,10 +709,6 @@ msgstr "HSV Gürültüsü"
 #: src/filters/noise/hsv-noise.xml:23(title)
 msgid "Example of applying the <quote>HSV Noise</quote> filter"
 msgstr "<quote>HSV Gürültüsü</quote> süzgeci örneği"
-
-#: src/filters/noise/hsv-noise.xml:39(para)
-msgid "Filter <quote>HSV Noise</quote> applied"
-msgstr "<quote>HSV Gürültüsü</quote> uygulandı"
 
 #: src/filters/noise/hsv-noise.xml:43(para)
 msgid ""
@@ -831,10 +814,6 @@ msgstr "CIE LCh"
 msgid "Example of applying the <quote>CIE lch Noise</quote> filter"
 msgstr "<quote>CIE lch Gürültüsü</quote> süzgeci örneği"
 
-#: src/filters/noise/cie-lch-noise.xml:38(para)
-msgid "Filter <quote>CIE lch Noise</quote> applied"
-msgstr "<quote>CIE lch Gürültüsü</quote> uygulandı"
-
 #: src/filters/noise/cie-lch-noise.xml:42(para)
 msgid ""
 "The CIE lch Noise filter creates noise in the active layer or selection by "
@@ -895,3 +874,24 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "Filter <quote>Spread</quote> applied"
+#~ msgstr "<quote>Yay</quote> uygulandı"
+
+#~ msgid "Filter <quote>Slur</quote> applied"
+#~ msgstr "<quote>Slur Lekelemesi</quote> uygulandı"
+
+#~ msgid "Filter <quote>RGB Noise</quote> applied"
+#~ msgstr "<quote>RGB Gürültüsü</quote> uygulandı"
+
+#~ msgid "Filter <quote>Pick</quote> applied"
+#~ msgstr "<quote>Seç</quote> uygulandı"
+
+#~ msgid "Filter <quote>Hurl</quote> applied"
+#~ msgstr "<quote>Savrulma</quote> uygulandı"
+
+#~ msgid "Filter <quote>HSV Noise</quote> applied"
+#~ msgstr "<quote>HSV Gürültüsü</quote> uygulandı"
+
+#~ msgid "Filter <quote>CIE lch Noise</quote> applied"
+#~ msgstr "<quote>CIE lch Gürültüsü</quote> uygulandı"

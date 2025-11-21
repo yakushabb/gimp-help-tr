@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: 2025-11-18 23:09+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -1259,8 +1259,9 @@ msgid "Original image"
 msgstr "Özgün görüntü"
 
 #: src/filters/generic/erode.xml:44(para)
-msgid "Filter <quote>Erode</quote> applied"
-msgstr "<quote>Aşındır</quote> süzgeci uygulandı"
+#: src/filters/generic/dilate.xml:42(para)
+msgid "Filter applied"
+msgstr ""
 
 #: src/filters/generic/erode.xml:48(para)
 #, fuzzy
@@ -1621,10 +1622,6 @@ msgstr ""
 #: src/filters/generic/dilate.xml:26(title)
 msgid "Dilate"
 msgstr "Genişlet"
-
-#: src/filters/generic/dilate.xml:42(para)
-msgid "Filter <quote>Dilate</quote> applied"
-msgstr "<quote>Genişlet</quote> süzgeci uygulandı"
 
 #: src/filters/generic/dilate.xml:46(para)
 #, fuzzy
@@ -2150,3 +2147,9 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "Filter <quote>Erode</quote> applied"
+#~ msgstr "<quote>Aşındır</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Dilate</quote> applied"
+#~ msgstr "<quote>Genişlet</quote> süzgeci uygulandı"

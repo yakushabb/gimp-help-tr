@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: 2025-11-18 23:09+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -235,7 +235,7 @@ msgstr "Görüntü indeksli kipte ise, bu menü girişi devre dışı bırakıl�
 #: src/filters/map/tile-seamless.xml:49(title)
 #: src/filters/map/smalltiles.xml:56(title)
 #: src/filters/map/recursive-transform.xml:156(title)
-#: src/filters/map/papertile.xml:53(title)
+#: src/filters/map/papertile.xml:51(title)
 #: src/filters/map/panorama-projection.xml:34(title)
 #: src/filters/map/map-object.xml:59(title)
 #: src/filters/map/little-planet.xml:31(title)
@@ -259,7 +259,7 @@ msgstr ""
 #: src/filters/map/tile-seamless.xml:61(title)
 #: src/filters/map/smalltiles.xml:68(title)
 #: src/filters/map/recursive-transform.xml:168(title)
-#: src/filters/map/papertile.xml:65(title)
+#: src/filters/map/papertile.xml:63(title)
 #: src/filters/map/panorama-projection.xml:46(title)
 #: src/filters/map/map-object.xml:71(title)
 #: src/filters/map/little-planet.xml:43(title)
@@ -768,8 +768,16 @@ msgid "An example of Tile Seamless."
 msgstr "Dikişsiz Döşeme örneği."
 
 #: src/filters/map/tile-seamless.xml:37(para)
-msgid "Tile Seamless applied"
-msgstr "Dikişsiz Döşeme süzgeci uygulandı"
+#: src/filters/map/smalltiles.xml:40(para)
+#: src/filters/map/papertile.xml:39(para)
+#: src/filters/map/map-object.xml:42(para)
+#: src/filters/map/little-planet.xml:158(para)
+#: src/filters/map/little-planet.xml:288(para)
+#: src/filters/map/illusion.xml:41(para)
+#: src/filters/map/fractal-trace.xml:41(para)
+#: src/filters/map/displace.xml:482(para)
+msgid "Filter applied"
+msgstr "Süzgeç uygulandı."
 
 #: src/filters/map/tile-seamless.xml:41(para)
 #, fuzzy
@@ -798,7 +806,7 @@ msgstr "<quote>Dikişsiz Döşeme</quote> süzgeci seçenekleri"
 
 #: src/filters/map/tile-seamless.xml:73(term)
 #: src/filters/map/recursive-transform.xml:180(term)
-#: src/filters/map/papertile.xml:77(term)
+#: src/filters/map/papertile.xml:75(term)
 #: src/filters/map/little-planet.xml:56(term)
 #: src/filters/map/illusion.xml:77(term)
 #: src/filters/map/fractal-trace.xml:77(term)
@@ -808,7 +816,7 @@ msgstr "Önayarlar"
 
 #: src/filters/map/tile-seamless.xml:74(quote)
 #: src/filters/map/recursive-transform.xml:181(quote)
-#: src/filters/map/papertile.xml:78(quote)
+#: src/filters/map/papertile.xml:76(quote)
 #: src/filters/map/little-planet.xml:57(quote)
 #: src/filters/map/illusion.xml:78(quote)
 #: src/filters/map/fractal-trace.xml:78(quote)
@@ -819,7 +827,7 @@ msgstr "Girdi Türü"
 
 #: src/filters/map/tile-seamless.xml:75(term)
 #: src/filters/map/recursive-transform.xml:182(term)
-#: src/filters/map/papertile.xml:79(term)
+#: src/filters/map/papertile.xml:77(term)
 #: src/filters/map/little-planet.xml:58(term)
 #: src/filters/map/illusion.xml:79(term)
 #: src/filters/map/fractal-trace.xml:79(term)
@@ -829,7 +837,7 @@ msgstr "Kırpma"
 
 #: src/filters/map/tile-seamless.xml:76(term)
 #: src/filters/map/recursive-transform.xml:183(term)
-#: src/filters/map/papertile.xml:80(term)
+#: src/filters/map/papertile.xml:78(term)
 #: src/filters/map/little-planet.xml:59(term)
 #: src/filters/map/illusion.xml:80(term)
 #: src/filters/map/fractal-trace.xml:80(term)
@@ -839,7 +847,7 @@ msgstr "Harmanlama Seçenekleri"
 
 #: src/filters/map/tile-seamless.xml:77(term)
 #: src/filters/map/recursive-transform.xml:184(term)
-#: src/filters/map/papertile.xml:81(term)
+#: src/filters/map/papertile.xml:79(term)
 #: src/filters/map/map-object.xml:74(title)
 #: src/filters/map/little-planet.xml:60(term)
 #: src/filters/map/illusion.xml:81(term)
@@ -850,7 +858,7 @@ msgstr "Ön izleme"
 
 #: src/filters/map/tile-seamless.xml:78(term)
 #: src/filters/map/recursive-transform.xml:185(term)
-#: src/filters/map/papertile.xml:82(term)
+#: src/filters/map/papertile.xml:80(term)
 #: src/filters/map/little-planet.xml:61(term)
 #: src/filters/map/illusion.xml:82(term)
 #: src/filters/map/fractal-trace.xml:82(term)
@@ -860,7 +868,7 @@ msgstr "Süzgeci birleştir"
 
 #: src/filters/map/tile-seamless.xml:79(term)
 #: src/filters/map/recursive-transform.xml:186(term)
-#: src/filters/map/papertile.xml:83(term)
+#: src/filters/map/papertile.xml:81(term)
 #: src/filters/map/little-planet.xml:62(term)
 #: src/filters/map/illusion.xml:83(term)
 #: src/filters/map/fractal-trace.xml:83(term)
@@ -897,10 +905,6 @@ msgstr "Küçük Döşemeler"
 #: src/filters/map/smalltiles.xml:24(title)
 msgid "Example for the <quote>Small Tiles</quote> filter"
 msgstr "<quote>Küçük Döşemeler</quote> süzgeci örneği"
-
-#: src/filters/map/smalltiles.xml:40(para)
-msgid "<quote>Small Tiles</quote> applied"
-msgstr "<quote>Küçük Döşemeler</quote> süzgeci uygulandı"
 
 #: src/filters/map/smalltiles.xml:44(para)
 #, fuzzy
@@ -1366,7 +1370,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/map/papertile.xml:71(None)
+#: src/filters/map/papertile.xml:69(None)
 msgid ""
 "@@image: 'images/filters/map/paper_tile-dialog.png'; "
 "md5=adf5cf7297b58d9d03f4255b97ca8265"
@@ -1384,11 +1388,7 @@ msgstr "Kağıt Döşeme"
 msgid "<quote>Papertile</quote> filter example."
 msgstr "<quote>Kağıt Döşeme</quote> süzgeci örneği."
 
-#: src/filters/map/papertile.xml:39(para)
-msgid "Filter <quote>Papertile</quote> applied"
-msgstr "<quote>Kağıt Döşeme</quote> süzgeci uygulanmış"
-
-#: src/filters/map/papertile.xml:45(para)
+#: src/filters/map/papertile.xml:43(para)
 #, fuzzy
 msgid ""
 "This filter cuts the image (active layer or selection) into several pieces, "
@@ -1399,7 +1399,7 @@ msgstr ""
 "böler ve ardından bunları az çok üst üste gelecek ya da birbirinden "
 "uzaklaşacak şekilde kaydırır. Görüntü sınırlarının biraz dışına çıkabilirler."
 
-#: src/filters/map/papertile.xml:54(para)
+#: src/filters/map/papertile.xml:52(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Paper Tile…</guimenuitem></"
@@ -1409,19 +1409,19 @@ msgstr ""
 "guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Kağıt Döşeme…</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/map/papertile.xml:67(title)
+#: src/filters/map/papertile.xml:65(title)
 msgid "<quote>Paper Tile</quote> filter options"
 msgstr "<quote>Kağıt Döşeme</quote> süzgeci seçenekleri"
 
-#: src/filters/map/papertile.xml:89(term)
+#: src/filters/map/papertile.xml:87(term)
 msgid "Tile Width"
 msgstr "Döşeme Genişliği"
 
-#: src/filters/map/papertile.xml:90(term)
+#: src/filters/map/papertile.xml:88(term)
 msgid "Tile Height"
 msgstr "Döşeme Yüksekliği"
 
-#: src/filters/map/papertile.xml:92(para)
+#: src/filters/map/papertile.xml:90(para)
 #, fuzzy
 msgid ""
 "Filter starts cutting image before it displaces pieces; so, piece size and "
@@ -1432,27 +1432,27 @@ msgstr ""
 "nedenle, yatay (Genişlik) ve dikey (Yükseklik) yönlerdeki parça boyutu ve "
 "sayısı görüntü boyutuna uygun olmalıdır."
 
-#: src/filters/map/papertile.xml:97(para)
+#: src/filters/map/papertile.xml:95(para)
 #, fuzzy
 msgid "When these options are linked, tiles are square."
 msgstr "Bu seçenekler birbirine bağlandığında, karolar kare şeklindedir."
 
-#: src/filters/map/papertile.xml:103(term)
+#: src/filters/map/papertile.xml:101(term)
 msgid "Move rate"
 msgstr "Taşıma oranı"
 
-#: src/filters/map/papertile.xml:105(para)
+#: src/filters/map/papertile.xml:103(para)
 #, fuzzy
 msgid ""
 "This is the maximum displacement percentage against the side size of squares."
 msgstr ""
 "Bu, karelerin kenar boyutuna karşı en yüksek yer değiştirme yüzdesidir."
 
-#: src/filters/map/papertile.xml:112(term)
+#: src/filters/map/papertile.xml:110(term)
 msgid "Wrap around"
 msgstr "Çevresini sar"
 
-#: src/filters/map/papertile.xml:114(para)
+#: src/filters/map/papertile.xml:112(para)
 #, fuzzy
 msgid ""
 "As tiles move, some can go out image borders. If this option is checked, "
@@ -1461,11 +1461,11 @@ msgstr ""
 "Fayanslar hareket ederken, bazıları görüntü sınırlarının dışına çıkabilir. "
 "Bu seçenek işaretlendiğinde, bir taraftan çıkan diğer taraftan girer."
 
-#: src/filters/map/papertile.xml:122(term)
+#: src/filters/map/papertile.xml:120(term)
 msgid "Fractional type"
 msgstr "Kısmi tür"
 
-#: src/filters/map/papertile.xml:124(para)
+#: src/filters/map/papertile.xml:122(para)
 #, fuzzy
 msgid ""
 "Because of image cutting, original pixels can persist. There are three ways "
@@ -1474,20 +1474,20 @@ msgstr ""
 "Görüntü kesme nedeniyle, özgün pikseller kalıcı olabilir. Bunları işlemek "
 "için üç yol vardır:"
 
-#: src/filters/map/papertile.xml:130(term)
+#: src/filters/map/papertile.xml:128(term)
 msgid "Force"
 msgstr "Zorla"
 
-#: src/filters/map/papertile.xml:132(para)
+#: src/filters/map/papertile.xml:130(para)
 #, fuzzy
 msgid "Remaining pixels will be cut also."
 msgstr "Kalan pikseller de kesilecektir."
 
-#: src/filters/map/papertile.xml:138(term)
+#: src/filters/map/papertile.xml:136(term)
 msgid "Ignore"
 msgstr "Yok say"
 
-#: src/filters/map/papertile.xml:140(para)
+#: src/filters/map/papertile.xml:138(para)
 #, fuzzy
 msgid ""
 "<guilabel>Background Type</guilabel> option is not taken into account and "
@@ -1496,11 +1496,11 @@ msgstr ""
 "<guilabel>Arka plan türü</guilabel> seçeneği dikkate alınmaz ve kalan "
 "pikseller korunur."
 
-#: src/filters/map/papertile.xml:147(term)
+#: src/filters/map/papertile.xml:145(term)
 msgid "Background"
 msgstr "Arka plan"
 
-#: src/filters/map/papertile.xml:149(para)
+#: src/filters/map/papertile.xml:147(para)
 #, fuzzy
 msgid ""
 "Remaining pixels will be replaced with the background type defined in the "
@@ -1509,11 +1509,11 @@ msgstr ""
 "Kalan pikseller, aşağıdaki bölümde tanımlanan arka plan türü ile "
 "değiştirilecektir."
 
-#: src/filters/map/papertile.xml:159(term)
+#: src/filters/map/papertile.xml:157(term)
 msgid "Centering"
 msgstr "Ortalanma"
 
-#: src/filters/map/papertile.xml:161(para)
+#: src/filters/map/papertile.xml:159(para)
 #, fuzzy
 msgid ""
 "If this option is checked, tiles will rather be gathered together in the "
@@ -1522,11 +1522,11 @@ msgstr ""
 "Bu seçenek işaretlendiğinde, döşemeler görüntünün ortasında bir araya "
 "toplanacaktır."
 
-#: src/filters/map/papertile.xml:168(term)
+#: src/filters/map/papertile.xml:166(term)
 msgid "Background Type"
 msgstr "Arka plan türü"
 
-#: src/filters/map/papertile.xml:170(para)
+#: src/filters/map/papertile.xml:168(para)
 #, fuzzy
 msgid ""
 "You can select the background type which will be used, if the "
@@ -1535,38 +1535,38 @@ msgstr ""
 "<guilabel>Arka plan</guilabel> radyo düğmesi işaretliyse, kullanılacak "
 "<guilabel>arka</guilabel> plan türünü altı seçenek arasından seçebilirsiniz:"
 
-#: src/filters/map/papertile.xml:177(term)
+#: src/filters/map/papertile.xml:175(term)
 msgid "Inverted image"
 msgstr "Tersine çevrilmiş görüntü"
 
-#: src/filters/map/papertile.xml:179(para)
+#: src/filters/map/papertile.xml:177(para)
 #, fuzzy
 msgid "Background colors will be inverted (255-value in every color channel)."
 msgstr ""
 "Arka plan renkleri tersine çevrilecektir (her renk kanalında 255 değeri)."
 
-#: src/filters/map/papertile.xml:186(term)
+#: src/filters/map/papertile.xml:184(term)
 msgid "Transparent"
 msgstr "Saydam"
 
-#: src/filters/map/papertile.xml:188(para)
+#: src/filters/map/papertile.xml:186(para)
 msgid "Background will be transparent."
 msgstr "Arka plan saydam olur."
 
-#: src/filters/map/papertile.xml:194(term)
+#: src/filters/map/papertile.xml:192(term)
 msgid "Image"
 msgstr "Görüntü"
 
-#: src/filters/map/papertile.xml:196(para)
+#: src/filters/map/papertile.xml:194(para)
 msgid ""
 "Background colors will be unchanged. The original image is the background."
 msgstr "Arka plan renkleri değişmeyecek. Özgün görüntü arka plandır."
 
-#: src/filters/map/papertile.xml:203(term)
+#: src/filters/map/papertile.xml:201(term)
 msgid "Color"
 msgstr "Renk"
 
-#: src/filters/map/papertile.xml:205(para)
+#: src/filters/map/papertile.xml:203(para)
 #, fuzzy
 msgid ""
 "Remaining pixels will be replaced by the color you can select. Default is "
@@ -1577,15 +1577,15 @@ msgstr ""
 "araç kutusunun Ön Plan rengidir. Renk düğmesini ya da renk seçiciyi "
 "kullanarak başka bir renk seçebilirsiniz."
 
-#: src/filters/map/papertile.xml:217(term)
+#: src/filters/map/papertile.xml:215(term)
 msgid "Random seed"
 msgstr "Rastgele parçacık"
 
-#: src/filters/map/papertile.xml:218(term)
+#: src/filters/map/papertile.xml:216(term)
 msgid "New Seed"
 msgstr "Yeni Parçacık"
 
-#: src/filters/map/papertile.xml:220(para)
+#: src/filters/map/papertile.xml:218(para)
 #, fuzzy
 msgid ""
 "This option controls the randomness of the filter. The <guilabel>Random "
@@ -1870,10 +1870,6 @@ msgstr "Nesne Eşleme"
 #: src/filters/map/map-object.xml:24(title)
 msgid "The <quote>Map Object</quote> filter applied to a photograph"
 msgstr "<quote>Nesneye Eşle</quote> süzgeci fotoğrafa uygulandı"
-
-#: src/filters/map/map-object.xml:42(para)
-msgid "<quote>Map Object</quote> applied"
-msgstr "<quote>Nesneye Eşle</quote> süzgeci uygulandı"
 
 #: src/filters/map/map-object.xml:46(para)
 #, fuzzy
@@ -2626,11 +2622,6 @@ msgstr ""
 "ekran görüntüsüdür. Boş gökyüzüne, tamamen yatay ufka ve kaybolan "
 "perspektife dikkat edin."
 
-#: src/filters/map/little-planet.xml:158(para)
-#: src/filters/map/little-planet.xml:288(para)
-msgid "Filter applied"
-msgstr "Süzgeç uygulandı."
-
 #: src/filters/map/little-planet.xml:166(title)
 #, fuzzy
 msgid "Using Little Planet filter with a normal image"
@@ -2840,10 +2831,6 @@ msgstr ""
 msgid "Illusion"
 msgstr "Yanılsama"
 
-#: src/filters/map/illusion.xml:41(para)
-msgid "Filter <quote>Illusion</quote> applied"
-msgstr "<quote>Yanılsama</quote> süzgeci uygulandı"
-
 #: src/filters/map/illusion.xml:45(para)
 msgid ""
 "With this filter, your image (active layer or selection) looks like a "
@@ -2921,10 +2908,6 @@ msgstr "Fraktal İzi"
 #: src/filters/map/fractal-trace.xml:19(primary)
 msgid "Fractal trace"
 msgstr "Fraktal izi"
-
-#: src/filters/map/fractal-trace.xml:41(para)
-msgid "Filter <quote>Fractal Trace</quote> applied"
-msgstr "<quote>Fraktal İzi</quote> süzgeci uygulandı"
 
 #: src/filters/map/fractal-trace.xml:45(para)
 #, fuzzy
@@ -3174,7 +3157,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/map/displace.xml:549(None)
+#: src/filters/map/displace.xml:547(None)
 msgid ""
 "@@image: 'images/filters/examples/map-displace8.png'; "
 "md5=bcbdf325a5e9f8ea501716beb28d4e9c"
@@ -3685,10 +3668,6 @@ msgstr ""
 "görüntüyle aynı boyutta yapmak için <link linkend=\"gimp-layer-resize-to-"
 "image\">Layers to Image Size</link> komutunu kullanın."
 
-#: src/filters/map/displace.xml:482(para)
-msgid "Displace filter applied."
-msgstr "Yer değiştir süzgeci uygulandı."
-
 #: src/filters/map/displace.xml:472(para)
 #, fuzzy
 msgid ""
@@ -3700,11 +3679,11 @@ msgstr ""
 "düğmesine tıklayın ve sol paneldeki harita görüntüsü küçük resmine çift "
 "tıklayın. <placeholder-1/>"
 
-#: src/filters/map/displace.xml:492(title)
+#: src/filters/map/displace.xml:490(title)
 msgid "Displacement Calculation"
 msgstr "Yer Değiştirme Hesaplaması"
 
-#: src/filters/map/displace.xml:493(para)
+#: src/filters/map/displace.xml:491(para)
 #, fuzzy
 msgid ""
 "The following section will show you how to calculate the amount of "
@@ -3715,7 +3694,7 @@ msgstr ""
 "miktarını nasıl hesaplayacağınız gösterilecektir. Bunu bilmek "
 "istemiyorsanız, bu bölümü atlayabilirsiniz."
 
-#: src/filters/map/displace.xml:498(para)
+#: src/filters/map/displace.xml:496(para)
 #, fuzzy
 msgid ""
 "The overview example showed the horizontal displacement using a coefficient "
@@ -3726,37 +3705,37 @@ msgstr ""
 "gösterdi: yer değiştirme haritasının renginin gri düzeyine bağlı olarak 19, "
 "8, 4 ya da 15 piksel."
 
-#: src/filters/map/displace.xml:503(para)
+#: src/filters/map/displace.xml:501(para)
 #, fuzzy
 msgid "Why just these amounts? That's easy:"
 msgstr "Neden yalnızca bu miktarlar? Cevabı basit:"
 
 # Denklem, çevirmiyoruz.
-#: src/filters/map/displace.xml:506(alt)
+#: src/filters/map/displace.xml:504(alt)
 msgid "$30.0 * \\frac{I - 127.5}{127.5} = D$"
 msgstr "$30.0 * \\frac{I - 127.5}{127.5} = D$"
 
 # Denklem, çevirmiyoruz.
-#: src/filters/map/displace.xml:512(alt)
+#: src/filters/map/displace.xml:510(alt)
 msgid "$30.0 * \\frac{210 - 127.5}{127.5} = 19$"
 msgstr "$30.0 * \\frac{210 - 127.5}{127.5} = 19$"
 
 # Denklem, çevirmiyoruz.
-#: src/filters/map/displace.xml:518(alt)
+#: src/filters/map/displace.xml:516(alt)
 msgid "$30.0 * \\frac{(160 - 127.5)}{127.5} = 8$"
 msgstr "$30.0 * \\frac{(160 - 127.5)}{127.5} = 8$"
 
 # Denklem, çevirmiyoruz.
-#: src/filters/map/displace.xml:524(alt)
+#: src/filters/map/displace.xml:522(alt)
 msgid "$30.0 * \\frac{(110 - 127.5)}{127.5} = -4$"
 msgstr "$30.0 * \\frac{(110 - 127.5)}{127.5} = -4$"
 
 # Denklem, çevirmiyoruz.
-#: src/filters/map/displace.xml:530(alt)
+#: src/filters/map/displace.xml:528(alt)
 msgid "$30.0 * \\frac{(60 - 127.5)}{127.5} = -15$"
 msgstr "$30.0 * \\frac{(60 - 127.5)}{127.5} = -15$"
 
-#: src/filters/map/displace.xml:534(para)
+#: src/filters/map/displace.xml:532(para)
 #, fuzzy
 msgid ""
 "If you check these equations, you will notice that the values they give are "
@@ -3775,16 +3754,16 @@ msgstr ""
 "<quote>kesirli</quote> bir miktar kadar yer değiştirme enterpolasyonla "
 "gerçekleştirilir. Örnek resme daha yakından bakıldığında bu görülecektir:"
 
-#: src/filters/map/displace.xml:545(title)
+#: src/filters/map/displace.xml:543(title)
 msgid "A closer look at the displacement example"
 msgstr "Yer değiştirme örneğine daha yakından bakış"
 
-#: src/filters/map/displace.xml:552(para)
+#: src/filters/map/displace.xml:550(para)
 #, fuzzy
 msgid "A small area zoomed in by 800 percent."
 msgstr "Küçük bir alan yüzde 800 oranında yakınlaştırılmıştır."
 
-#: src/filters/map/displace.xml:556(para)
+#: src/filters/map/displace.xml:554(para)
 #, fuzzy
 msgid ""
 "The displacement causes small (one pixel wide) areas of intermediate colors "
@@ -3797,7 +3776,7 @@ msgstr ""
 "(yakınlaştırılmış görüntü) -4,12'lik bir yer değiştirmeden kaynaklanır, bu "
 "nedenle ara renk %12 siyah ve 88% geskidir."
 
-#: src/filters/map/displace.xml:562(para)
+#: src/filters/map/displace.xml:560(para)
 #, fuzzy
 msgid ""
 "So if you select a displacement coefficient of 30.01 instead of 30.00, you "
@@ -4161,6 +4140,27 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "Tile Seamless applied"
+#~ msgstr "Dikişsiz Döşeme süzgeci uygulandı"
+
+#~ msgid "<quote>Small Tiles</quote> applied"
+#~ msgstr "<quote>Küçük Döşemeler</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Papertile</quote> applied"
+#~ msgstr "<quote>Kağıt Döşeme</quote> süzgeci uygulanmış"
+
+#~ msgid "<quote>Map Object</quote> applied"
+#~ msgstr "<quote>Nesneye Eşle</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Illusion</quote> applied"
+#~ msgstr "<quote>Yanılsama</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Fractal Trace</quote> applied"
+#~ msgstr "<quote>Fraktal İzi</quote> süzgeci uygulandı"
+
+#~ msgid "Displace filter applied."
+#~ msgstr "Yer değiştir süzgeci uygulandı."
 
 #~ msgid "Original"
 #~ msgstr "Özgün"

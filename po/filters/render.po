@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: 2025-11-18 23:09+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -266,8 +266,29 @@ msgid "Example for the <quote>Spyrogimp</quote> filter"
 msgstr "<quote>Spyrogimp</quote> süzgeci örneği"
 
 #: src/filters/render/spyrogimp.xml:26(para)
-msgid "<quote>Spyrogimp</quote> applied"
-msgstr "<quote>Spyrogimp</quote> süzgeci uygulandı"
+#: src/filters/render/spiral.xml:29(para)
+#: src/filters/render/spheredesigner.xml:45(para)
+#: src/filters/render/solid-noise.xml:29(para)
+#: src/filters/render/sinus.xml:29(para)
+#: src/filters/render/simplex-noise.xml:31(para)
+#: src/filters/render/plasma.xml:32(para) src/filters/render/maze.xml:29(para)
+#: src/filters/render/linear-sinusoid.xml:26(para)
+#: src/filters/render/line-nova.xml:35(para)
+#: src/filters/render/jigsaw.xml:40(para)
+#: src/filters/render/ifsfractal.xml:35(para)
+#: src/filters/render/grid.xml:39(para)
+#: src/filters/render/grid-legacy.xml:39(para)
+#: src/filters/render/gfig.xml:42(para)
+#: src/filters/render/fractalexplorer.xml:33(para)
+#: src/filters/render/flame.xml:36(para)
+#: src/filters/render/difference-clouds.xml:39(para)
+#: src/filters/render/cmlexplorer.xml:35(para)
+#: src/filters/render/circuit.xml:29(para)
+#: src/filters/render/checkerboard.xml:30(para)
+#: src/filters/render/checkerboard-legacy.xml:30(para)
+#: src/filters/render/cell-noise.xml:31(para)
+msgid "Filter applied"
+msgstr ""
 
 #: src/filters/render/spyrogimp.xml:31(para)
 msgid ""
@@ -305,7 +326,7 @@ msgstr ""
 #: src/filters/render/spheredesigner.xml:61(title)
 #: src/filters/render/solid-noise.xml:47(title)
 #: src/filters/render/sinus.xml:53(title)
-#: src/filters/render/simplex-noise.xml:40(title)
+#: src/filters/render/simplex-noise.xml:38(title)
 #: src/filters/render/qbist.xml:58(title)
 #: src/filters/render/plasma.xml:49(title)
 #: src/filters/render/perlin-noise.xml:42(title)
@@ -318,15 +339,15 @@ msgstr ""
 #: src/filters/render/grid.xml:57(title)
 #: src/filters/render/grid-legacy.xml:60(title)
 #: src/filters/render/gfig.xml:63(title)
-#: src/filters/render/fractalexplorer.xml:55(title)
+#: src/filters/render/fractalexplorer.xml:53(title)
 #: src/filters/render/flame.xml:72(title)
 #: src/filters/render/diffraction.xml:60(title)
-#: src/filters/render/difference-clouds.xml:52(title)
-#: src/filters/render/cmlexplorer.xml:54(title)
+#: src/filters/render/difference-clouds.xml:61(title)
+#: src/filters/render/cmlexplorer.xml:52(title)
 #: src/filters/render/circuit.xml:63(title)
 #: src/filters/render/checkerboard.xml:42(title)
 #: src/filters/render/checkerboard-legacy.xml:56(title)
-#: src/filters/render/cell-noise.xml:40(title)
+#: src/filters/render/cell-noise.xml:38(title)
 #: src/filters/render/bayer-matrix.xml:47(title)
 msgid "Activating the Filter"
 msgstr "Süzgeci Etkinleştirme"
@@ -445,7 +466,7 @@ msgstr ""
 #: src/filters/render/spheredesigner.xml:73(title)
 #: src/filters/render/solid-noise.xml:60(title)
 #: src/filters/render/sinus.xml:66(title)
-#: src/filters/render/simplex-noise.xml:53(title)
+#: src/filters/render/simplex-noise.xml:51(title)
 #: src/filters/render/qbist.xml:71(title)
 #: src/filters/render/plasma.xml:62(title)
 #: src/filters/render/perlin-noise.xml:55(title)
@@ -458,15 +479,15 @@ msgstr ""
 #: src/filters/render/grid.xml:70(title)
 #: src/filters/render/grid-legacy.xml:73(title)
 #: src/filters/render/gfig.xml:75(title)
-#: src/filters/render/fractalexplorer.xml:68(title)
+#: src/filters/render/fractalexplorer.xml:66(title)
 #: src/filters/render/flame.xml:85(title)
 #: src/filters/render/diffraction.xml:73(title)
-#: src/filters/render/difference-clouds.xml:65(title)
-#: src/filters/render/cmlexplorer.xml:67(title)
+#: src/filters/render/difference-clouds.xml:74(title)
+#: src/filters/render/cmlexplorer.xml:65(title)
 #: src/filters/render/circuit.xml:75(title)
 #: src/filters/render/checkerboard.xml:55(title)
 #: src/filters/render/checkerboard-legacy.xml:69(title)
-#: src/filters/render/cell-noise.xml:53(title)
+#: src/filters/render/cell-noise.xml:51(title)
 #: src/filters/render/bayer-matrix.xml:60(title)
 msgid "Options"
 msgstr "Seçenekler"
@@ -801,7 +822,7 @@ msgid "<quote>Spyrogimp</quote> filter options (Fixed Gear)"
 msgstr "<quote>Spyrogimp</quote> süzgeci seçenekleri (Sabit Dişli)"
 
 #: src/filters/render/spyrogimp.xml:418(term)
-#: src/filters/render/cell-noise.xml:85(term)
+#: src/filters/render/cell-noise.xml:83(term)
 msgid "Shape"
 msgstr "Şekil"
 
@@ -994,9 +1015,9 @@ msgstr "Sekmelerin Altındaki Ortak Seçenekler"
 #: src/filters/render/spyrogimp.xml:610(term)
 #: src/filters/render/spheredesigner.xml:138(term)
 #: src/filters/render/qbist.xml:111(term)
-#: src/filters/render/fractalexplorer.xml:171(term)
+#: src/filters/render/fractalexplorer.xml:169(term)
 #: src/filters/render/flame.xml:153(term)
-#: src/filters/render/cmlexplorer.xml:110(term)
+#: src/filters/render/cmlexplorer.xml:108(term)
 msgid "Save"
 msgstr "Kaydet"
 
@@ -1089,10 +1110,6 @@ msgstr "Sarmal"
 msgid "Applying example for the Spiral filter"
 msgstr "<quote>Sarmal</quote> süzgeci örneği"
 
-#: src/filters/render/spiral.xml:29(para)
-msgid "Filter <quote>Spiral</quote> applied"
-msgstr "<quote>Sarmal</quote> süzgeci uygulandı"
-
 #: src/filters/render/spiral.xml:33(para)
 #, fuzzy
 msgid ""
@@ -1131,7 +1148,7 @@ msgstr "<quote>Sarmal</quote> süzgeci seçenekleri"
 #: src/filters/render/spiral.xml:69(term)
 #: src/filters/render/solid-noise.xml:72(term)
 #: src/filters/render/sinus.xml:78(term)
-#: src/filters/render/simplex-noise.xml:65(term)
+#: src/filters/render/simplex-noise.xml:63(term)
 #: src/filters/render/plasma.xml:74(term)
 #: src/filters/render/perlin-noise.xml:67(term)
 #: src/filters/render/maze.xml:67(term)
@@ -1139,7 +1156,7 @@ msgstr "<quote>Sarmal</quote> süzgeci seçenekleri"
 #: src/filters/render/grid.xml:92(term)
 #: src/filters/render/diffraction.xml:85(term)
 #: src/filters/render/checkerboard.xml:67(term)
-#: src/filters/render/cell-noise.xml:65(term)
+#: src/filters/render/cell-noise.xml:63(term)
 #: src/filters/render/bayer-matrix.xml:72(term)
 msgid "Presets"
 msgstr "Önayarlar"
@@ -1147,7 +1164,7 @@ msgstr "Önayarlar"
 #: src/filters/render/spiral.xml:70(quote)
 #: src/filters/render/solid-noise.xml:73(quote)
 #: src/filters/render/sinus.xml:79(quote)
-#: src/filters/render/simplex-noise.xml:66(quote)
+#: src/filters/render/simplex-noise.xml:64(quote)
 #: src/filters/render/plasma.xml:75(quote)
 #: src/filters/render/perlin-noise.xml:68(quote)
 #: src/filters/render/maze.xml:68(quote)
@@ -1155,7 +1172,7 @@ msgstr "Önayarlar"
 #: src/filters/render/grid.xml:93(quote)
 #: src/filters/render/diffraction.xml:86(quote)
 #: src/filters/render/checkerboard.xml:68(quote)
-#: src/filters/render/cell-noise.xml:66(quote)
+#: src/filters/render/cell-noise.xml:64(quote)
 #: src/filters/render/bayer-matrix.xml:73(quote)
 msgid "Input Type"
 msgstr "Girdi Türü"
@@ -1163,7 +1180,7 @@ msgstr "Girdi Türü"
 #: src/filters/render/spiral.xml:71(term)
 #: src/filters/render/solid-noise.xml:74(term)
 #: src/filters/render/sinus.xml:80(term)
-#: src/filters/render/simplex-noise.xml:67(term)
+#: src/filters/render/simplex-noise.xml:65(term)
 #: src/filters/render/plasma.xml:76(term)
 #: src/filters/render/perlin-noise.xml:69(term)
 #: src/filters/render/maze.xml:69(term)
@@ -1171,7 +1188,7 @@ msgstr "Girdi Türü"
 #: src/filters/render/grid.xml:94(term)
 #: src/filters/render/diffraction.xml:87(term)
 #: src/filters/render/checkerboard.xml:69(term)
-#: src/filters/render/cell-noise.xml:67(term)
+#: src/filters/render/cell-noise.xml:65(term)
 #: src/filters/render/bayer-matrix.xml:74(term)
 msgid "Clipping"
 msgstr "Kırpma"
@@ -1179,7 +1196,7 @@ msgstr "Kırpma"
 #: src/filters/render/spiral.xml:72(term)
 #: src/filters/render/solid-noise.xml:75(term)
 #: src/filters/render/sinus.xml:81(term)
-#: src/filters/render/simplex-noise.xml:68(term)
+#: src/filters/render/simplex-noise.xml:66(term)
 #: src/filters/render/plasma.xml:77(term)
 #: src/filters/render/perlin-noise.xml:70(term)
 #: src/filters/render/maze.xml:70(term)
@@ -1187,7 +1204,7 @@ msgstr "Kırpma"
 #: src/filters/render/grid.xml:95(term)
 #: src/filters/render/diffraction.xml:88(term)
 #: src/filters/render/checkerboard.xml:70(term)
-#: src/filters/render/cell-noise.xml:68(term)
+#: src/filters/render/cell-noise.xml:66(term)
 #: src/filters/render/bayer-matrix.xml:75(term)
 msgid "Blending Options"
 msgstr "Harmanlama Seçenekleri"
@@ -1196,17 +1213,17 @@ msgstr "Harmanlama Seçenekleri"
 #: src/filters/render/spheredesigner.xml:86(term)
 #: src/filters/render/solid-noise.xml:76(term)
 #: src/filters/render/sinus.xml:82(term)
-#: src/filters/render/simplex-noise.xml:69(term)
+#: src/filters/render/simplex-noise.xml:67(term)
 #: src/filters/render/plasma.xml:78(term)
 #: src/filters/render/perlin-noise.xml:71(term)
 #: src/filters/render/maze.xml:71(term)
 #: src/filters/render/linear-sinusoid.xml:70(term)
 #: src/filters/render/grid.xml:96(term)
-#: src/filters/render/fractalexplorer.xml:85(title)
+#: src/filters/render/fractalexplorer.xml:83(title)
 #: src/filters/render/diffraction.xml:89(term)
-#: src/filters/render/cmlexplorer.xml:81(term)
+#: src/filters/render/cmlexplorer.xml:79(term)
 #: src/filters/render/checkerboard.xml:71(term)
-#: src/filters/render/cell-noise.xml:69(term)
+#: src/filters/render/cell-noise.xml:67(term)
 #: src/filters/render/bayer-matrix.xml:76(term)
 msgid "Preview"
 msgstr "Ön izleme"
@@ -1214,7 +1231,7 @@ msgstr "Ön izleme"
 #: src/filters/render/spiral.xml:74(term)
 #: src/filters/render/solid-noise.xml:77(term)
 #: src/filters/render/sinus.xml:83(term)
-#: src/filters/render/simplex-noise.xml:70(term)
+#: src/filters/render/simplex-noise.xml:68(term)
 #: src/filters/render/plasma.xml:79(term)
 #: src/filters/render/perlin-noise.xml:72(term)
 #: src/filters/render/maze.xml:72(term)
@@ -1222,7 +1239,7 @@ msgstr "Ön izleme"
 #: src/filters/render/grid.xml:97(term)
 #: src/filters/render/diffraction.xml:90(term)
 #: src/filters/render/checkerboard.xml:72(term)
-#: src/filters/render/cell-noise.xml:70(term)
+#: src/filters/render/cell-noise.xml:68(term)
 #: src/filters/render/bayer-matrix.xml:77(term)
 msgid "Merge filter"
 msgstr "Süzgeci birleştir"
@@ -1230,7 +1247,7 @@ msgstr "Süzgeci birleştir"
 #: src/filters/render/spiral.xml:75(term)
 #: src/filters/render/solid-noise.xml:78(term)
 #: src/filters/render/sinus.xml:84(term)
-#: src/filters/render/simplex-noise.xml:71(term)
+#: src/filters/render/simplex-noise.xml:69(term)
 #: src/filters/render/plasma.xml:80(term)
 #: src/filters/render/perlin-noise.xml:73(term)
 #: src/filters/render/maze.xml:73(term)
@@ -1238,7 +1255,7 @@ msgstr "Süzgeci birleştir"
 #: src/filters/render/grid.xml:98(term)
 #: src/filters/render/diffraction.xml:91(term)
 #: src/filters/render/checkerboard.xml:73(term)
-#: src/filters/render/cell-noise.xml:71(term)
+#: src/filters/render/cell-noise.xml:69(term)
 #: src/filters/render/bayer-matrix.xml:78(term)
 msgid "Split view"
 msgstr "Bölünmüş görünüm"
@@ -1263,14 +1280,14 @@ msgstr ""
 #: src/filters/render/spiral.xml:94(term)
 #: src/filters/render/ifsfractal.xml:309(term)
 #: src/filters/render/flame.xml:262(term)
-#: src/filters/render/difference-clouds.xml:122(term)
+#: src/filters/render/difference-clouds.xml:131(term)
 msgid "X"
 msgstr "X"
 
 #: src/filters/render/spiral.xml:95(term)
 #: src/filters/render/ifsfractal.xml:310(term)
 #: src/filters/render/flame.xml:263(term)
-#: src/filters/render/difference-clouds.xml:123(term)
+#: src/filters/render/difference-clouds.xml:132(term)
 msgid "Y"
 msgstr "Y"
 
@@ -1354,6 +1371,7 @@ msgstr ""
 #: src/filters/render/grid.xml:27(None)
 #: src/filters/render/grid-legacy.xml:27(None)
 #: src/filters/render/gfig.xml:30(None)
+#: src/filters/render/difference-clouds.xml:27(None)
 msgid ""
 "@@image: 'images/filters/examples/taj_orig.jpg'; "
 "md5=6abae556aaff78a2bc9082a46a171da8"
@@ -1401,12 +1419,9 @@ msgstr ""
 #: src/filters/render/grid.xml:30(para)
 #: src/filters/render/grid-legacy.xml:30(para)
 #: src/filters/render/gfig.xml:33(para)
+#: src/filters/render/difference-clouds.xml:30(para)
 msgid "Original image"
 msgstr "Özgün görüntü"
-
-#: src/filters/render/spheredesigner.xml:45(para)
-msgid "Filter <quote>Sphere Designer</quote> applied"
-msgstr "<quote>Küre Tasarımcısı</quote> süzgeci uygulandı"
 
 #: src/filters/render/spheredesigner.xml:49(para)
 #, fuzzy
@@ -1419,9 +1434,9 @@ msgstr ""
 
 #: src/filters/render/spheredesigner.xml:54(para)
 #: src/filters/render/lava.xml:45(para) src/filters/render/gfig.xml:56(para)
-#: src/filters/render/fractalexplorer.xml:48(para)
-#: src/filters/render/difference-clouds.xml:45(para)
-#: src/filters/render/cmlexplorer.xml:47(para)
+#: src/filters/render/fractalexplorer.xml:46(para)
+#: src/filters/render/difference-clouds.xml:54(para)
+#: src/filters/render/cmlexplorer.xml:45(para)
 #: src/filters/render/circuit.xml:48(para)
 #: src/filters/render/checkerboard-legacy.xml:49(para)
 #, fuzzy
@@ -1512,9 +1527,9 @@ msgstr "Listeden seçilen dokuyu siler."
 
 #: src/filters/render/spheredesigner.xml:137(term)
 #: src/filters/render/qbist.xml:110(term)
-#: src/filters/render/fractalexplorer.xml:170(term)
+#: src/filters/render/fractalexplorer.xml:168(term)
 #: src/filters/render/flame.xml:144(term)
-#: src/filters/render/cmlexplorer.xml:109(term)
+#: src/filters/render/cmlexplorer.xml:107(term)
 msgid "Open"
 msgstr "Aç"
 
@@ -1577,7 +1592,7 @@ msgstr ""
 "mevcuttur."
 
 #: src/filters/render/spheredesigner.xml:191(term)
-#: src/filters/render/fractalexplorer.xml:199(title)
+#: src/filters/render/fractalexplorer.xml:197(title)
 msgid "Colors"
 msgstr "Renkler"
 
@@ -1591,10 +1606,10 @@ msgstr ""
 "bir renk seçim penceresi açılır."
 
 #: src/filters/render/spheredesigner.xml:200(term)
-#: src/filters/render/simplex-noise.xml:77(term)
+#: src/filters/render/simplex-noise.xml:75(term)
 #: src/filters/render/perlin-noise.xml:112(term)
 #: src/filters/render/ifsfractal.xml:311(term)
-#: src/filters/render/cell-noise.xml:77(term)
+#: src/filters/render/cell-noise.xml:75(term)
 msgid "Scale"
 msgstr "Ölçek"
 
@@ -1767,12 +1782,6 @@ msgstr "Yoğun gürültü"
 msgid "Example of turbulent solid noise"
 msgstr "Türbülanslı yoğun gürültü örneği"
 
-#: src/filters/render/solid-noise.xml:29(para)
-#, fuzzy
-#| msgid "Filter <quote>Solid noise</quote> applied"
-msgid "Filter <quote>Solid Noise</quote> applied"
-msgstr "<quote>Yoğun Gürültü</quote> süzgeci uygulandı"
-
 #: src/filters/render/solid-noise.xml:33(para)
 #, fuzzy
 msgid ""
@@ -1823,7 +1832,7 @@ msgid "Y size"
 msgstr "Y boyutu"
 
 #: src/filters/render/solid-noise.xml:87(para)
-#: src/filters/render/difference-clouds.xml:125(para)
+#: src/filters/render/difference-clouds.xml:134(para)
 #, fuzzy
 msgid ""
 "These control the size and proportion of the noise shapes in X (horizontal) "
@@ -1851,7 +1860,7 @@ msgstr ""
 
 #: src/filters/render/solid-noise.xml:107(term)
 #: src/filters/render/maze.xml:113(term)
-#: src/filters/render/difference-clouds.xml:100(term)
+#: src/filters/render/difference-clouds.xml:109(term)
 msgid "Tileable"
 msgstr "Döşenebilir"
 
@@ -1867,12 +1876,12 @@ msgstr ""
 "kullanabilirsiniz ve döşeme kenarları sorunsuz bir şekilde birleştirilir."
 
 #: src/filters/render/solid-noise.xml:118(term)
-#: src/filters/render/difference-clouds.xml:112(term)
+#: src/filters/render/difference-clouds.xml:121(term)
 msgid "Turbulent"
 msgstr "Türbülans"
 
 #: src/filters/render/solid-noise.xml:120(para)
-#: src/filters/render/difference-clouds.xml:114(para)
+#: src/filters/render/difference-clouds.xml:123(para)
 #, fuzzy
 msgid ""
 "If you check this, you'll get very interesting effects, often something that "
@@ -1885,23 +1894,23 @@ msgstr ""
 
 #: src/filters/render/solid-noise.xml:128(term)
 #: src/filters/render/sinus.xml:110(term)
-#: src/filters/render/simplex-noise.xml:93(term)
+#: src/filters/render/simplex-noise.xml:91(term)
 #: src/filters/render/plasma.xml:98(term) src/filters/render/maze.xml:122(term)
-#: src/filters/render/difference-clouds.xml:77(term)
+#: src/filters/render/difference-clouds.xml:86(term)
 msgid "Random seed"
 msgstr "Rastgele parçacık"
 
 #: src/filters/render/solid-noise.xml:129(term)
 #: src/filters/render/sinus.xml:111(term)
-#: src/filters/render/simplex-noise.xml:94(term)
+#: src/filters/render/simplex-noise.xml:92(term)
 #: src/filters/render/plasma.xml:99(term) src/filters/render/maze.xml:123(term)
-#: src/filters/render/cmlexplorer.xml:91(term)
+#: src/filters/render/cmlexplorer.xml:89(term)
 msgid "New Seed"
 msgstr "Yeni Parçacık"
 
 #: src/filters/render/solid-noise.xml:131(para)
 #: src/filters/render/sinus.xml:113(para)
-#: src/filters/render/simplex-noise.xml:96(para)
+#: src/filters/render/simplex-noise.xml:94(para)
 #: src/filters/render/plasma.xml:101(para)
 #: src/filters/render/maze.xml:125(para)
 #, fuzzy
@@ -1952,10 +1961,6 @@ msgstr "Sinüs biçimli desenler"
 #: src/filters/render/sinus.xml:22(title)
 msgid "Applying example for the Sinus filter"
 msgstr "<quote>Sinüs</quote> süzgeci örneği"
-
-#: src/filters/render/sinus.xml:29(para)
-msgid "Filter <quote>Sinus</quote> applied"
-msgstr "<quote>Sinüs</quote> süzgeci uygulandı"
 
 #: src/filters/render/sinus.xml:34(para)
 #, fuzzy
@@ -2099,7 +2104,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/simplex-noise.xml:59(None)
+#: src/filters/render/simplex-noise.xml:57(None)
 msgid ""
 "@@image: 'images/filters/render/simplex_noise-dialog.png'; "
 "md5=94ac7f6eb3c07312ad5de4384b23719d"
@@ -2123,10 +2128,6 @@ msgstr "Simplex Gürültüsü"
 msgid "Grid"
 msgstr "Izgara"
 
-#: src/filters/render/simplex-noise.xml:31(para)
-msgid "Filter applied with default options"
-msgstr "Öntanımlı seçeneklerle uygulanan süzgec"
-
 #: src/filters/render/simplex-noise.xml:22(para)
 msgid ""
 "This filter generates a noise texture using the Simplex Noise algorithm. "
@@ -2135,7 +2136,7 @@ msgstr ""
 "Bu süzgeç Simplex Gürültü algoritmasını kullanarak gürültü desin oluşturur. "
 "Sonuçlar açtığınız görüntüye bağlı değildir <placeholder-1/>"
 
-#: src/filters/render/simplex-noise.xml:41(para)
+#: src/filters/render/simplex-noise.xml:39(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Render</guisubmenu><guisubmenu>Noise</"
@@ -2146,28 +2147,28 @@ msgstr ""
 "guisubmenu><guimenuitem>Simplex Gürültüsü…</guimenuitem></menuchoice> "
 "altında bulunur."
 
-#: src/filters/render/simplex-noise.xml:55(title)
+#: src/filters/render/simplex-noise.xml:53(title)
 msgid "<quote>Simplex Noise</quote> filter options"
 msgstr "<quote>Simplex Gürültüsü</quote> süzgeci seçenekleri"
 
-#: src/filters/render/simplex-noise.xml:79(para)
+#: src/filters/render/simplex-noise.xml:77(para)
 #: src/filters/render/perlin-noise.xml:114(para)
-#: src/filters/render/cell-noise.xml:79(para)
+#: src/filters/render/cell-noise.xml:77(para)
 msgid "Scale of the noise function: works like a zoom."
 msgstr "Gürültü işlevinin ölçeği: yakınlaştırma gibi çalışır."
 
 #. was: ITER
-#: src/filters/render/simplex-noise.xml:85(term)
+#: src/filters/render/simplex-noise.xml:83(term)
 #: src/filters/render/perlin-noise.xml:153(term)
 #: src/filters/render/ifsfractal.xml:267(term)
-#: src/filters/render/fractalexplorer.xml:150(term)
-#: src/filters/render/cell-noise.xml:125(term)
+#: src/filters/render/fractalexplorer.xml:148(term)
+#: src/filters/render/cell-noise.xml:123(term)
 msgid "Iterations"
 msgstr "Yinelemeler"
 
-#: src/filters/render/simplex-noise.xml:87(para)
+#: src/filters/render/simplex-noise.xml:85(para)
 #: src/filters/render/perlin-noise.xml:155(para)
-#: src/filters/render/cell-noise.xml:127(para)
+#: src/filters/render/cell-noise.xml:125(para)
 msgid "The number of noise octaves."
 msgstr "Gürültü oktavlarının sayısı."
 
@@ -2336,10 +2337,6 @@ msgstr "Plazma"
 #: src/filters/render/plasma.xml:25(title)
 msgid "Example of a rendered plasma"
 msgstr "“Plazma” süzgeci örneği"
-
-#: src/filters/render/plasma.xml:32(para)
-msgid "Filter <quote>Plasma</quote> applied"
-msgstr "<quote>Plazma</quote> süzgeci uygulandı"
 
 #: src/filters/render/plasma.xml:36(para)
 msgid ""
@@ -2574,10 +2571,6 @@ msgstr "Labirent"
 msgid "An example of a rendered maze."
 msgstr "“Labirent” süzgeci örneği"
 
-#: src/filters/render/maze.xml:29(para)
-msgid "Filter <quote>Maze</quote> applied"
-msgstr "<quote>Labirent</quote> süzgeci uygulandı"
-
 #: src/filters/render/maze.xml:33(para)
 msgid ""
 "This filter generates a random black and white maze pattern. The result "
@@ -2714,10 +2707,6 @@ msgstr "Doğrusal Sinüs Biçimli desenler"
 #: src/filters/render/linear-sinusoid.xml:19(title)
 msgid "Applying example for the Linear Sinusoid filter"
 msgstr "<quote>Doğrusal Sinüs Biçimli</quote> süzgeci seçenekleri"
-
-#: src/filters/render/linear-sinusoid.xml:26(para)
-msgid "Filter <quote>Linear Sinusoid</quote> applied"
-msgstr "<quote>Doğrusal Sinüs Biçimli</quote> süzgeci uygulandı"
 
 #: src/filters/render/linear-sinusoid.xml:30(para)
 msgid ""
@@ -2904,10 +2893,6 @@ msgstr "Nova Çizgisi"
 #: src/filters/render/line-nova.xml:19(title)
 msgid "Example for the <quote>Line Nova</quote> filter"
 msgstr "<quote>Nova Çizgisi</quote> süzgeci örneği"
-
-#: src/filters/render/line-nova.xml:35(para)
-msgid "<quote>Line Nova</quote> applied"
-msgstr "<quote>Nova Çizgisi</quote> uygulandı"
 
 #: src/filters/render/line-nova.xml:40(para)
 #, fuzzy
@@ -3219,10 +3204,6 @@ msgstr "Yapboz"
 #: src/filters/render/jigsaw.xml:24(title)
 msgid "Jigsaw filter example"
 msgstr "<quote>Yapboz</quote> süzgeci örneği"
-
-#: src/filters/render/jigsaw.xml:40(para)
-msgid "Filter <quote>Jigsaw</quote> applied"
-msgstr "<quote>Yapboz</quote> süzgeci uygulandı"
 
 #: src/filters/render/jigsaw.xml:44(para)
 msgid ""
@@ -3560,10 +3541,6 @@ msgstr "Fraktal Kompozisyonu"
 #: src/filters/render/ifsfractal.xml:28(title)
 msgid "Applying example for the IFS Fractal filter"
 msgstr "“IFS Fraktal” süzgeci örneği"
-
-#: src/filters/render/ifsfractal.xml:35(para)
-msgid "Filter <quote>IFS Fractal</quote> applied"
-msgstr "<quote>IFS Fraktal</quote> süzgeci uygulandı"
 
 #: src/filters/render/ifsfractal.xml:39(para)
 #, fuzzy
@@ -4106,10 +4083,6 @@ msgstr "Izgara süzgeci"
 msgid "Applying example for the Grid filter"
 msgstr "“Izgara” süzgeci örneği"
 
-#: src/filters/render/grid.xml:39(para)
-msgid "Filter <quote>Grid</quote> applied"
-msgstr "<quote>Izgara</quote> süzgeci uygulandı"
-
 #: src/filters/render/grid.xml:44(para)
 #, fuzzy
 msgid ""
@@ -4261,10 +4234,6 @@ msgstr "Izgara (eski) süzgeci"
 #: src/filters/render/grid-legacy.xml:23(title)
 msgid "Applying example for the Grid (legacy) filter"
 msgstr "“Izgara (eski)” süzgeci örneği"
-
-#: src/filters/render/grid-legacy.xml:39(para)
-msgid "Filter <quote>Grid (legacy)</quote> applied"
-msgstr "<quote>Izgara (eski)</quote> süzgeci uygulandı"
 
 #: src/filters/render/grid-legacy.xml:44(para)
 #, fuzzy
@@ -4623,10 +4592,6 @@ msgstr "Gfig"
 #: src/filters/render/gfig.xml:26(title)
 msgid "The same image, before and after using Gfig"
 msgstr "Aynı görüntü, Gfig kullanmadan önce ve sonra"
-
-#: src/filters/render/gfig.xml:42(para)
-msgid "Filter <quote>Gfig</quote> applied"
-msgstr "<quote>Gfig</quote> süzgeci uygulandı"
 
 #: src/filters/render/gfig.xml:46(para)
 msgid ""
@@ -5114,7 +5079,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/fractalexplorer.xml:74(None)
+#: src/filters/render/fractalexplorer.xml:72(None)
 msgid ""
 "@@image: 'images/filters/render/fractalexplorer.png'; "
 "md5=0d7a4fe0451442d32149482af919d67c"
@@ -5124,7 +5089,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/fractalexplorer.xml:207(None)
+#: src/filters/render/fractalexplorer.xml:205(None)
 msgid ""
 "@@image: 'images/filters/render/fractalexplorer2.png'; "
 "md5=0e7abd15e9aa5b7efe02d4f4eb32cd14"
@@ -5134,7 +5099,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/fractalexplorer.xml:240(None)
+#: src/filters/render/fractalexplorer.xml:238(None)
 msgid ""
 "@@image: 'images/filters/examples/render-fractalexpl.png'; "
 "md5=34dbd864287bf9aaf16bf87597211faf"
@@ -5144,7 +5109,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/fractalexplorer.xml:338(None)
+#: src/filters/render/fractalexplorer.xml:336(None)
 msgid ""
 "@@image: 'images/filters/render/fractalexplorer3.png'; "
 "md5=ce596d38561bacfb403b22c27ac0a975"
@@ -5163,11 +5128,7 @@ msgstr "Fraktal Tarayıcı"
 msgid "Example for the Fractal Explorer filter"
 msgstr "“Fraktal Tarayıcı” süzgeci örneği"
 
-#: src/filters/render/fractalexplorer.xml:33(para)
-msgid "Filter <quote>Fractal Explorer</quote> applied"
-msgstr "<quote>Fraktal Tarayıcı</quote> süzgeci uygulandı"
-
-#: src/filters/render/fractalexplorer.xml:39(para)
+#: src/filters/render/fractalexplorer.xml:37(para)
 #, fuzzy
 msgid ""
 "With this filter, you can create fractals and multicolored pictures verging "
@@ -5182,7 +5143,7 @@ msgstr ""
 "ifscompose\">IFS Fractal</link> süzgeci, daha karmaşık olması pahasına "
 "fraktal yapıyı daha ayrıntılı olarak değiştirmenize olanak tanır."
 
-#: src/filters/render/fractalexplorer.xml:56(para)
+#: src/filters/render/fractalexplorer.xml:54(para)
 #, fuzzy
 #| msgid ""
 #| "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
@@ -5198,11 +5159,11 @@ msgstr ""
 "guisubmenu><guimenuitem>IFS Fraktal…</guimenuitem></menuchoice> altında "
 "bulunur."
 
-#: src/filters/render/fractalexplorer.xml:70(title)
+#: src/filters/render/fractalexplorer.xml:68(title)
 msgid "<quote>Fractal Explorer</quote> filter options"
 msgstr "<quote>Fraktal Tarayıcı</quote> süzgeci seçenekleri"
 
-#: src/filters/render/fractalexplorer.xml:78(para)
+#: src/filters/render/fractalexplorer.xml:76(para)
 #, fuzzy
 msgid ""
 "The Fractal Explorer window contains two panes: on the left there is the "
@@ -5213,11 +5174,11 @@ msgstr ""
 "Preview pane with a Zoom feature, on the right you find the main options "
 "organized in tabs: Parametreler, Renkler ve Fraktallar."
 
-#: src/filters/render/fractalexplorer.xml:88(term)
+#: src/filters/render/fractalexplorer.xml:86(term)
 msgid "Realtime preview"
 msgstr "Gerçek zamanlı ön izleme"
 
-#: src/filters/render/fractalexplorer.xml:90(para)
+#: src/filters/render/fractalexplorer.xml:88(para)
 #, fuzzy
 msgid ""
 "You can disable the <guilabel>Realtime preview</guilabel> if updating the "
@@ -5228,7 +5189,7 @@ msgstr ""
 "updating the preview is slow. In that case, you can update the preview by "
 "clicking the <guibutton>Ön izlemeyi yeniden çiz</guibutton> button."
 
-#: src/filters/render/fractalexplorer.xml:95(para)
+#: src/filters/render/fractalexplorer.xml:93(para)
 #, fuzzy
 msgid ""
 "By click-dragging the mouse pointer on the preview, you can draw a rectangle "
@@ -5237,12 +5198,12 @@ msgstr ""
 "Önizleme üzerinde fare işaretçisini tıklayıp sürükleyerek, yakınlaştırılacak "
 "alanı sınırlayan bir dikdörtgen çizebilirsiniz."
 
-#: src/filters/render/fractalexplorer.xml:102(term)
+#: src/filters/render/fractalexplorer.xml:100(term)
 #: src/filters/render/flame.xml:254(term)
 msgid "Zoom"
 msgstr "Yakınlaştır"
 
-#: src/filters/render/fractalexplorer.xml:104(para)
+#: src/filters/render/fractalexplorer.xml:102(para)
 #, fuzzy
 msgid ""
 "These buttons allow you to <guibutton>Zoom In</guibutton> or <guibutton>Zoom "
@@ -5255,11 +5216,11 @@ msgstr ""
 "guibutton> düğmesi sizi önceki duruma geri götürür. <guibutton>Yeniden Yap</"
 "guibutton> düğmesi, son Geri Al işlemini geri alır."
 
-#: src/filters/render/fractalexplorer.xml:117(title)
+#: src/filters/render/fractalexplorer.xml:115(title)
 msgid "Parameters"
 msgstr "Parametreler"
 
-#: src/filters/render/fractalexplorer.xml:118(para)
+#: src/filters/render/fractalexplorer.xml:116(para)
 #, fuzzy
 msgid ""
 "This tab contains settings to adjust the calculation and select a fractal "
@@ -5268,11 +5229,11 @@ msgstr ""
 "Bu sekme, hesaplamayı ayarlamak ve fraktal türünü seçmek için ayarları "
 "içerir."
 
-#: src/filters/render/fractalexplorer.xml:124(term)
+#: src/filters/render/fractalexplorer.xml:122(term)
 msgid "Fractal Parameters"
 msgstr "Fraktal Parametreleri"
 
-#: src/filters/render/fractalexplorer.xml:126(para)
+#: src/filters/render/fractalexplorer.xml:124(para)
 #, fuzzy
 msgid ""
 "These sliders and input boxes allow you to set fractal spreading, repetition "
@@ -5282,26 +5243,26 @@ msgstr ""
 "oranını ayarlamanıza olanak tanır."
 
 #. was: XMIN
-#: src/filters/render/fractalexplorer.xml:133(term)
+#: src/filters/render/fractalexplorer.xml:131(term)
 msgid "Left"
 msgstr "Sol"
 
 #. was: XMAX
-#: src/filters/render/fractalexplorer.xml:135(term)
+#: src/filters/render/fractalexplorer.xml:133(term)
 msgid "Right"
 msgstr "Sağ"
 
 #. was: YMIN
-#: src/filters/render/fractalexplorer.xml:137(term)
+#: src/filters/render/fractalexplorer.xml:135(term)
 msgid "Top"
 msgstr "Üst"
 
 #. was: YMAX
-#: src/filters/render/fractalexplorer.xml:139(term)
+#: src/filters/render/fractalexplorer.xml:137(term)
 msgid "Bottom"
 msgstr "Alt"
 
-#: src/filters/render/fractalexplorer.xml:141(para)
+#: src/filters/render/fractalexplorer.xml:139(para)
 #, fuzzy
 msgid ""
 "You can set fractal spreading between a minimum and a maximum, in the "
@@ -5310,7 +5271,7 @@ msgstr ""
 "Fraktal yayılmayı yatay ve/ya da dikey yönlerde en düşük ve en yüksek "
 "değerler arasında ayarlayabilirsiniz. Değerler -3,0 ile 3,0 arasındadır."
 
-#: src/filters/render/fractalexplorer.xml:152(para)
+#: src/filters/render/fractalexplorer.xml:150(para)
 #, fuzzy
 msgid ""
 "With this parameter, you can set fractal repetition in detail. Values are "
@@ -5319,15 +5280,15 @@ msgstr ""
 "Bu parametre ile fraktal tekrarını ayrıntılı olarak ayarlayabilirsiniz. "
 "Değerler 0,0 ile 1000,0 arasındadır."
 
-#: src/filters/render/fractalexplorer.xml:159(term)
+#: src/filters/render/fractalexplorer.xml:157(term)
 msgid "CX"
 msgstr "CX"
 
-#: src/filters/render/fractalexplorer.xml:160(term)
+#: src/filters/render/fractalexplorer.xml:158(term)
 msgid "CY"
 msgstr "CY"
 
-#: src/filters/render/fractalexplorer.xml:162(para)
+#: src/filters/render/fractalexplorer.xml:160(para)
 #, fuzzy
 msgid ""
 "With these parameters, you can change fractal aspect, in the horizontal (X) "
@@ -5336,7 +5297,7 @@ msgstr ""
 "Bu parametrelerle, Mandelbrot ve Sierpinski türleri hariç, yatay (X) ve/ya "
 "da dikey (Y) yönlerde fraktal görünümünü değiştirebilirsiniz."
 
-#: src/filters/render/fractalexplorer.xml:173(para)
+#: src/filters/render/fractalexplorer.xml:171(para)
 #, fuzzy
 msgid ""
 "With these buttons, you can open a previously saved fractal or save your "
@@ -5345,11 +5306,11 @@ msgstr ""
 "Bu düğmelerle, önceden kaydedilmiş bir fraktalı açabilir ya da çalışmanızı "
 "tüm parametreleriyle birlikte kaydedebilirsiniz."
 
-#: src/filters/render/fractalexplorer.xml:183(term)
+#: src/filters/render/fractalexplorer.xml:181(term)
 msgid "Fractal Type"
 msgstr "Fraktal Türü"
 
-#: src/filters/render/fractalexplorer.xml:185(para)
+#: src/filters/render/fractalexplorer.xml:183(para)
 #, fuzzy
 msgid ""
 "Here you can choose the fractal type you want. You can choose from "
@@ -5364,23 +5325,23 @@ msgstr ""
 "<guilabel>Man-o-War</guilabel>, <guilabel>Lambda</guilabel> ya da "
 "<guilabel>Sierpinski</guilabel>."
 
-#: src/filters/render/fractalexplorer.xml:201(title)
+#: src/filters/render/fractalexplorer.xml:199(title)
 msgid "<quote>Fractal Explorer</quote> filter options (Colors)"
 msgstr "<quote>Fraktal Tarayıcı</quote> süzgeci seçenekleri (Renkler)"
 
-#: src/filters/render/fractalexplorer.xml:211(para)
+#: src/filters/render/fractalexplorer.xml:209(para)
 msgid "This tab contains options for fractal color setting."
 msgstr "Bu sekme fraktal renk ayarları için seçenekleri içerir."
 
-#: src/filters/render/fractalexplorer.xml:213(title)
+#: src/filters/render/fractalexplorer.xml:211(title)
 msgid "Number of Colors"
 msgstr "Renk Sayısı"
 
-#: src/filters/render/fractalexplorer.xml:215(term)
+#: src/filters/render/fractalexplorer.xml:213(term)
 msgid "Number of colors"
 msgstr "Renk sayısı"
 
-#: src/filters/render/fractalexplorer.xml:217(para)
+#: src/filters/render/fractalexplorer.xml:215(para)
 #, fuzzy
 msgid ""
 "This slider and its input boxes allow you to set the number of colors for "
@@ -5399,37 +5360,37 @@ msgstr ""
 "bağlı değildir. Fraktal oluşturmak için beyaz bir görüntü bile "
 "kullanabilirsiniz."
 
-#: src/filters/render/fractalexplorer.xml:230(term)
+#: src/filters/render/fractalexplorer.xml:228(term)
 msgid "Use log log smoothing"
 msgstr "Loglog pürüzsüzleştirmesi kullan"
 
-#: src/filters/render/fractalexplorer.xml:232(para)
+#: src/filters/render/fractalexplorer.xml:230(para)
 #, fuzzy
 msgid "If this option is checked, the band effect is smoothed."
 msgstr "Bu seçenek işaretlendiğinde, bant etkisi yumuşatılır."
 
-#: src/filters/render/fractalexplorer.xml:236(title)
+#: src/filters/render/fractalexplorer.xml:234(title)
 msgid "Log log smoothing example"
 msgstr "Loglog pürüzsüzleştirmesi örneği"
 
 # Arayüzdeki kullanım şekli yeğlendi.
-#: src/filters/render/fractalexplorer.xml:248(title)
+#: src/filters/render/fractalexplorer.xml:246(title)
 msgid "Color density"
 msgstr "Renk Sıklığı"
 
-#: src/filters/render/fractalexplorer.xml:250(term)
+#: src/filters/render/fractalexplorer.xml:248(term)
 msgid "Red stretch"
 msgstr "Kırmızı genişlet"
 
-#: src/filters/render/fractalexplorer.xml:251(term)
+#: src/filters/render/fractalexplorer.xml:249(term)
 msgid "Green stretch"
 msgstr "Yeşil genişlet"
 
-#: src/filters/render/fractalexplorer.xml:252(term)
+#: src/filters/render/fractalexplorer.xml:250(term)
 msgid "Blue stretch"
 msgstr "Mavi genişlet"
 
-#: src/filters/render/fractalexplorer.xml:254(para)
+#: src/filters/render/fractalexplorer.xml:252(para)
 #, fuzzy
 msgid ""
 "These three sliders and their text-boxes let you set the color intensity in "
@@ -5438,11 +5399,11 @@ msgstr ""
 "Bu üç kaydırıcı ve metin kutuları, üç renk kanalındaki renk yoğunluğunu "
 "ayarlamanıza olanak tanır. Değerler 0,0 ile 1,0 arasında değişir."
 
-#: src/filters/render/fractalexplorer.xml:263(title)
+#: src/filters/render/fractalexplorer.xml:261(title)
 msgid "Color Function"
 msgstr "Renk İşlevi"
 
-#: src/filters/render/fractalexplorer.xml:264(para)
+#: src/filters/render/fractalexplorer.xml:262(para)
 msgid ""
 "For the <guilabel>Red</guilabel>, <guilabel>Green</guilabel> and "
 "<guilabel>Blue</guilabel> color channels, you can select how color will be "
@@ -5451,56 +5412,56 @@ msgstr ""
 "<guilabel>Kırmızı</guilabel>, <guilabel>Yeşil</guilabel> ve <guilabel>Mavi</"
 "guilabel> renk kanalları için, rengin nasıl işleneceğini seçebilirsiniz:"
 
-#: src/filters/render/fractalexplorer.xml:270(term)
+#: src/filters/render/fractalexplorer.xml:268(term)
 msgid "Sine"
 msgstr "Sinüs"
 
-#: src/filters/render/fractalexplorer.xml:272(para)
+#: src/filters/render/fractalexplorer.xml:270(para)
 #, fuzzy
 msgid "Color variations will be modulated according to the sine function."
 msgstr "Renk varyasyonları sinüs fonksiyonuna göre modüle edilecektir."
 
-#: src/filters/render/fractalexplorer.xml:279(term)
+#: src/filters/render/fractalexplorer.xml:277(term)
 msgid "Cosine"
 msgstr "Kosinüs"
 
-#: src/filters/render/fractalexplorer.xml:281(para)
+#: src/filters/render/fractalexplorer.xml:279(para)
 #, fuzzy
 msgid "Color densities will vary according to cosine function."
 msgstr "Renk yoğunlukları kosinüs fonksiyonuna göre değişiklik gösterecektir."
 
-#: src/filters/render/fractalexplorer.xml:287(term)
+#: src/filters/render/fractalexplorer.xml:285(term)
 msgid "None"
 msgstr "Hiçbiri"
 
-#: src/filters/render/fractalexplorer.xml:289(para)
+#: src/filters/render/fractalexplorer.xml:287(para)
 #, fuzzy
 msgid "Color densities will vary linearly."
 msgstr "Renk yoğunlukları doğrusal olarak değişecektir."
 
-#: src/filters/render/fractalexplorer.xml:293(term)
+#: src/filters/render/fractalexplorer.xml:291(term)
 msgid "Inversion"
 msgstr "Ters çevirme"
 
-#: src/filters/render/fractalexplorer.xml:295(para)
+#: src/filters/render/fractalexplorer.xml:293(para)
 msgid "If you check this option, function values will be inverted."
 msgstr "Bu seçeneği işaretlediğinizde, işlev değerleri ters çevrilir."
 
-#: src/filters/render/fractalexplorer.xml:302(title)
+#: src/filters/render/fractalexplorer.xml:300(title)
 msgid "Color Mode"
 msgstr "Renk Kipi"
 
-#: src/filters/render/fractalexplorer.xml:303(para)
+#: src/filters/render/fractalexplorer.xml:301(para)
 #, fuzzy
 msgid "These options allow you to set where color values must be taken from."
 msgstr ""
 "Bu seçenekler, renk değerlerinin nereden alınacağını belirlemenizi sağlar."
 
-#: src/filters/render/fractalexplorer.xml:308(term)
+#: src/filters/render/fractalexplorer.xml:306(term)
 msgid "As specified above"
 msgstr "Yukarıda belirtildiği gibi"
 
-#: src/filters/render/fractalexplorer.xml:310(para)
+#: src/filters/render/fractalexplorer.xml:308(para)
 #, fuzzy
 msgid ""
 "Color values will be taken from the <guilabel>Color Density</guilabel> "
@@ -5508,11 +5469,11 @@ msgid ""
 msgstr ""
 "Renk değerleri <guilabel>Renk Yoğunluğu</guilabel> ayarlarından alınacaktır."
 
-#: src/filters/render/fractalexplorer.xml:317(term)
+#: src/filters/render/fractalexplorer.xml:315(term)
 msgid "Apply active gradient to final image"
 msgstr "Etkin renk geçişini son görüntüye uygula"
 
-#: src/filters/render/fractalexplorer.xml:319(para)
+#: src/filters/render/fractalexplorer.xml:317(para)
 #, fuzzy
 msgid ""
 "The colors used will be that of the active gradient. You can select another "
@@ -5521,15 +5482,15 @@ msgstr ""
 "Kullanılan renkler, etkin gradyanın renkleri olacaktır. Mevcut etkin "
 "gradyanı gösteren düğmeye tıklayarak başka bir gradyan seçebilirsiniz."
 
-#: src/filters/render/fractalexplorer.xml:330(title)
+#: src/filters/render/fractalexplorer.xml:328(title)
 msgid "Fractals"
 msgstr "Fraktallar"
 
-#: src/filters/render/fractalexplorer.xml:332(title)
+#: src/filters/render/fractalexplorer.xml:330(title)
 msgid "<quote>Fractal Explorer</quote> sample fractals"
 msgstr "<quote>Fraktal Tarayıcı</quote> örnek fraktallar"
 
-#: src/filters/render/fractalexplorer.xml:342(para)
+#: src/filters/render/fractalexplorer.xml:340(para)
 #, fuzzy
 msgid ""
 "This tab contains a list of fractals with their parameters that you can use "
@@ -5540,7 +5501,7 @@ msgstr ""
 "as a model and adjust. To select one, you can either double click the name, "
 "or click the name and then press <guibutton>Uygula</guibutton>."
 
-#: src/filters/render/fractalexplorer.xml:348(para)
+#: src/filters/render/fractalexplorer.xml:346(para)
 #, fuzzy
 msgid ""
 "The <guibutton>Refresh</guibutton> button allows you to update the list if "
@@ -5611,10 +5572,6 @@ msgstr "Alev"
 #: src/filters/render/flame.xml:23(title)
 msgid "Example of a rendered Flame"
 msgstr "“Alev” süzgeci örneği"
-
-#: src/filters/render/flame.xml:36(para)
-msgid "Filter <quote>Flame</quote> applied"
-msgstr "<quote>Alev</quote> süzgeci uygulandı"
 
 #: src/filters/render/flame.xml:40(para)
 #, fuzzy
@@ -5967,7 +5924,7 @@ msgstr "<quote>Kırınım Örüntüleri</quote> süzgeci seçenekleri"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/difference-clouds.xml:27(None)
+#: src/filters/render/difference-clouds.xml:36(None)
 msgid ""
 "@@image: 'images/filters/examples/render-taj-diffcloud.jpg'; "
 "md5=c582e6f70e51f89e5ee9aff0768bf3df"
@@ -5977,7 +5934,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/difference-clouds.xml:71(None)
+#: src/filters/render/difference-clouds.xml:80(None)
 msgid ""
 "@@image: 'images/filters/render/difference-clouds-dialog.png'; "
 "md5=25abf895df3fbacb685dc9e0114169c0"
@@ -5996,12 +5953,8 @@ msgstr "Başka Bulutlar"
 msgid "Example of Difference Clouds"
 msgstr "“Başka Bulutlar” süzgeci örneği"
 
-#: src/filters/render/difference-clouds.xml:30(para)
-msgid "Filter <quote>Difference Clouds</quote> applied"
-msgstr "<quote>Başka Bulutlar</quote> süzgeci uygulandı"
-
 #. Difference layer mode:  E:=|I-M|
-#: src/filters/render/difference-clouds.xml:36(para)
+#: src/filters/render/difference-clouds.xml:45(para)
 msgid ""
 "<guimenuitem>Difference Clouds</guimenuitem> command changes colors "
 "partially in cloud-like areas: The filter renders <link linkend=\"gimp-"
@@ -6017,7 +5970,7 @@ msgstr ""
 "link> olarak ayarlar, ardından bu katmanı belirtilen görüntü üzerinde "
 "birleştirir."
 
-#: src/filters/render/difference-clouds.xml:53(para)
+#: src/filters/render/difference-clouds.xml:62(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Render</guisubmenu><guisubmenu>Noise</"
@@ -6028,13 +5981,13 @@ msgstr ""
 "guisubmenu><guimenuitem>Başka Bulutlar</guimenuitem></menuchoice> altında "
 "bulunur."
 
-#: src/filters/render/difference-clouds.xml:67(title)
+#: src/filters/render/difference-clouds.xml:76(title)
 #, fuzzy
 #| msgid "<quote>Circuit</quote> filter options"
 msgid "<quote>Difference Clouds</quote> filter options"
 msgstr "<quote>Devre</quote> süzgeci seçenekleri"
 
-#: src/filters/render/difference-clouds.xml:79(para)
+#: src/filters/render/difference-clouds.xml:88(para)
 #, fuzzy
 msgid ""
 "This option controls the randomness of the filter. The <guilabel>Random "
@@ -6045,11 +5998,11 @@ msgstr ""
 "guilabel> kutusu, kullanılan rastgeleleştirme algoritması için bir tohumun "
 "elle girilmesini sağlar. Farklı bir rastgele tohum, farklı sonuçlar üretir."
 
-#: src/filters/render/difference-clouds.xml:88(term)
+#: src/filters/render/difference-clouds.xml:97(term)
 msgid "Levels"
 msgstr "Düzeyler"
 
-#: src/filters/render/difference-clouds.xml:90(para)
+#: src/filters/render/difference-clouds.xml:99(para)
 #, fuzzy
 msgid ""
 "This controls the level of detail in the noise texture. Higher values give a "
@@ -6062,7 +6015,7 @@ msgstr ""
 "oluşuyormuş gibi görünür, bu da onu sert hissettirir. Düşük bir değer onu "
 "daha yumuşak ve bulanık hale getirir."
 
-#: src/filters/render/difference-clouds.xml:102(para)
+#: src/filters/render/difference-clouds.xml:111(para)
 #, fuzzy
 msgid ""
 "If you check <guilabel>Tileable</guilabel>, you'll get a noise that can be "
@@ -6090,7 +6043,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/cmlexplorer.xml:128(None)
+#: src/filters/render/cmlexplorer.xml:126(None)
 msgid ""
 "@@image: 'images/filters/render/cmlexplorer1.png'; "
 "md5=167b83e7af32d052e7c7630bc178edf5"
@@ -6100,7 +6053,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/cmlexplorer.xml:314(None)
+#: src/filters/render/cmlexplorer.xml:312(None)
 msgid ""
 "@@image: 'images/filters/render/cmlexplorer1a.png'; "
 "md5=98df59ebccb45733f3ebae29866be737"
@@ -6110,7 +6063,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/cmlexplorer.xml:330(None)
+#: src/filters/render/cmlexplorer.xml:328(None)
 msgid ""
 "@@image: 'images/filters/render/cmlexplorer2.png'; "
 "md5=c5858620cdb7e4db345325a94ff29bbb"
@@ -6120,7 +6073,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/cmlexplorer.xml:350(None)
+#: src/filters/render/cmlexplorer.xml:348(None)
 msgid ""
 "@@image: 'images/filters/render/cmlexplorer3.png'; "
 "md5=96391e3b4461f2cc47f857b19c1fd02c"
@@ -6130,7 +6083,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/cmlexplorer.xml:370(None)
+#: src/filters/render/cmlexplorer.xml:368(None)
 msgid ""
 "@@image: 'images/filters/render/cmlexplorer4.png'; "
 "md5=773539d9406bb141d9ec923e0b98f16c"
@@ -6140,7 +6093,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/cmlexplorer.xml:411(None)
+#: src/filters/render/cmlexplorer.xml:409(None)
 msgid ""
 "@@image: 'images/filters/render/cmlexplorer5.png'; "
 "md5=7617f54559ee318f4c8fd056dd09dab6"
@@ -6150,7 +6103,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/cmlexplorer.xml:459(None)
+#: src/filters/render/cmlexplorer.xml:457(None)
 msgid ""
 "@@image: 'images/filters/render/cmlexplorer6.png'; "
 "md5=34159ccb6db13e0cb713cf7b29c226c4"
@@ -6168,12 +6121,8 @@ msgstr "CML Tarayıcısı"
 msgid "Example for the <quote>CML Explorer</quote> filter"
 msgstr "<quote>CML Tarayıcısı</quote> süzgeci örneği"
 
-#: src/filters/render/cmlexplorer.xml:35(para)
-msgid "Filter <quote>CML Explorer</quote> applied with default options"
-msgstr "<quote>CML Tarayıcısı</quote> süzgeci uygulandı"
-
 # İngilizce halini de koruyalım. Hakkında türkçe pek bilgi yok.
-#: src/filters/render/cmlexplorer.xml:41(para)
+#: src/filters/render/cmlexplorer.xml:39(para)
 msgid ""
 "This filter is very efficient but also very complex. It uses a mathematical "
 "method named Cellular Automata <xref linkend=\"bibliography-online-wkpd-"
@@ -6183,7 +6132,7 @@ msgstr ""
 "Automata) <xref linkend=\"bibliography-online-wkpd-cellular-automata\"/> "
 "adlı matematiksel bir yöntemi kullanır."
 
-#: src/filters/render/cmlexplorer.xml:55(para)
+#: src/filters/render/cmlexplorer.xml:53(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Render</guisubmenu><guisubmenu>Pattern</"
@@ -6194,11 +6143,11 @@ msgstr ""
 "guisubmenu><guimenuitem>CML Tarayıcısı…</guimenuitem></menuchoice> altında "
 "bulunur."
 
-#: src/filters/render/cmlexplorer.xml:70(title)
+#: src/filters/render/cmlexplorer.xml:68(title)
 msgid "General Options"
 msgstr "Genel Seçenekler"
 
-#: src/filters/render/cmlexplorer.xml:71(para)
+#: src/filters/render/cmlexplorer.xml:69(para)
 msgid ""
 "Filter options are distributed among <guilabel>Hue</guilabel>, "
 "<guilabel>Saturation</guilabel>, <guilabel>Value</guilabel>, "
@@ -6212,7 +6161,7 @@ msgstr ""
 "dağıtılmıştır. Kimi seçenekler daha vardır. Bunlar aşağıdaki bölümde "
 "açıklanacaktır."
 
-#: src/filters/render/cmlexplorer.xml:83(para)
+#: src/filters/render/cmlexplorer.xml:81(para)
 msgid ""
 "This filter offers you a Preview where you can see the result of your "
 "settings before they are applied to the image."
@@ -6220,15 +6169,15 @@ msgstr ""
 "Bu süzgeç, ayarlarınızın sonucunu görüntüye uygulanmadan önce "
 "görebileceğiniz bir Ön İzleme sunar."
 
-#: src/filters/render/cmlexplorer.xml:92(term)
+#: src/filters/render/cmlexplorer.xml:90(term)
 msgid "Fix Seed"
 msgstr "Sabit Parçacık"
 
-#: src/filters/render/cmlexplorer.xml:93(term)
+#: src/filters/render/cmlexplorer.xml:91(term)
 msgid "Random Seed"
 msgstr "Rastgele Parçacık"
 
-#: src/filters/render/cmlexplorer.xml:95(para)
+#: src/filters/render/cmlexplorer.xml:93(para)
 #, fuzzy
 msgid ""
 "Random plays a large part in creating patterns. With these options, you can "
@@ -6246,7 +6195,7 @@ msgstr ""
 "süzgeç ile aynı etkisi yeniden üretmenizi sağlar. <guibutton>Rastgele Tohum</"
 "guibutton>, rastgele bir tohum oluşturur."
 
-#: src/filters/render/cmlexplorer.xml:112(para)
+#: src/filters/render/cmlexplorer.xml:110(para)
 #, fuzzy
 msgid ""
 "With these both command buttons you can save pattern settings in a file, and "
@@ -6255,15 +6204,15 @@ msgstr ""
 "Bu iki komut düğmesi ile desen ayarlarını bir dosyaya kaydedebilir ve daha "
 "sonra geri yükleyebilirsiniz."
 
-#: src/filters/render/cmlexplorer.xml:122(title)
+#: src/filters/render/cmlexplorer.xml:120(title)
 msgid "<quote>CML Explorer</quote> filter options (Hue)"
 msgstr "<quote>CML Tarayıcısı</quote> süzgeci seçenekleri (Renk Tonu)"
 
-#: src/filters/render/cmlexplorer.xml:124(title)
+#: src/filters/render/cmlexplorer.xml:122(title)
 msgid "Hue tab"
 msgstr "Renk Tonu sekmesi"
 
-#: src/filters/render/cmlexplorer.xml:132(para)
+#: src/filters/render/cmlexplorer.xml:130(para)
 #, fuzzy
 msgid ""
 "This filter works in the <link linkend=\"glossary-hsv\">HSV</link> color "
@@ -6272,11 +6221,11 @@ msgstr ""
 "Bu süzgeç, <link linkend=\"glossary-hsv\">HSV</link> renk modelinde çalışır. "
 "Bu sekmede, Ton için seçenekleri ayarlayabilirsiniz."
 
-#: src/filters/render/cmlexplorer.xml:139(term)
+#: src/filters/render/cmlexplorer.xml:137(term)
 msgid "Function type"
 msgstr "İşlev türü"
 
-#: src/filters/render/cmlexplorer.xml:141(para)
+#: src/filters/render/cmlexplorer.xml:139(para)
 #, fuzzy
 msgid ""
 "In this drop-down list, you can select the method that will be used to treat "
@@ -6285,29 +6234,29 @@ msgstr ""
 "Bu açılır listeden, mevcut katmanı işlemek için kullanılacak yöntemi "
 "seçebilirsiniz. Bu yöntemler şunlardır:"
 
-#: src/filters/render/cmlexplorer.xml:148(term)
+#: src/filters/render/cmlexplorer.xml:146(term)
 msgid "Keep image's values"
 msgstr "Görüntü değerlerini koru"
 
-#: src/filters/render/cmlexplorer.xml:150(para)
+#: src/filters/render/cmlexplorer.xml:148(para)
 #, fuzzy
 msgid "With this option, image hue values will be kept."
 msgstr "Bu seçenekle, görüntü ton değerleri korunacaktır."
 
-#: src/filters/render/cmlexplorer.xml:156(term)
+#: src/filters/render/cmlexplorer.xml:154(term)
 msgid "Keep the first value"
 msgstr "İlk değeri koru"
 
-#: src/filters/render/cmlexplorer.xml:158(para)
+#: src/filters/render/cmlexplorer.xml:156(para)
 #, fuzzy
 msgid "With this option, starting color will be standard cyan."
 msgstr "Bu seçenekle, başlangıç rengi standart camgöbeği olacaktır."
 
-#: src/filters/render/cmlexplorer.xml:164(term)
+#: src/filters/render/cmlexplorer.xml:162(term)
 msgid "Fill with parameter k"
 msgstr "K parametresi ile doldur"
 
-#: src/filters/render/cmlexplorer.xml:166(para)
+#: src/filters/render/cmlexplorer.xml:164(para)
 #, fuzzy
 msgid ""
 "Pattern look will depend on <parameter>k</parameter> that you will set later "
@@ -6316,31 +6265,31 @@ msgstr ""
 "Desen görünümü, daha sonra seçeneklerde ayarlayacağınız <parameter>k</"
 "parameter> değerine bağlı olacaktır."
 
-#: src/filters/render/cmlexplorer.xml:173(term)
+#: src/filters/render/cmlexplorer.xml:171(term)
 msgid "Miscellaneous f(k)"
 msgstr "Çeşitli f(k)"
 
-#: src/filters/render/cmlexplorer.xml:175(para)
+#: src/filters/render/cmlexplorer.xml:173(para)
 msgid "See above, <quote>Fill with k parameter</quote>."
 msgstr "Yukarıya bakın, <quote>k parametresi ile doldur</quote>."
 
-#: src/filters/render/cmlexplorer.xml:181(term)
+#: src/filters/render/cmlexplorer.xml:179(term)
 msgid "Delta function"
 msgstr "Delta işlevi"
 
-#: src/filters/render/cmlexplorer.xml:182(term)
+#: src/filters/render/cmlexplorer.xml:180(term)
 msgid "Delta function stepped"
 msgstr "Delta işlevi geçildi"
 
-#: src/filters/render/cmlexplorer.xml:190(term)
+#: src/filters/render/cmlexplorer.xml:188(term)
 msgid "sin^p-based function"
 msgstr "sin^p tabanlı işlev"
 
-#: src/filters/render/cmlexplorer.xml:191(term)
+#: src/filters/render/cmlexplorer.xml:189(term)
 msgid "sin^p, stepped"
 msgstr "sin^p, geçildi"
 
-#: src/filters/render/cmlexplorer.xml:193(para)
+#: src/filters/render/cmlexplorer.xml:191(para)
 #, fuzzy
 msgid ""
 "These options create wave-like patterns, like aurora borealis or curtain "
@@ -6349,11 +6298,11 @@ msgstr ""
 "Bu seçenekler, kuzey ışıkları ya da perde kıvrımları gibi dalga benzeri "
 "desenler oluşturur."
 
-#: src/filters/render/cmlexplorer.xml:203(term)
+#: src/filters/render/cmlexplorer.xml:201(term)
 msgid "Composition"
 msgstr "Kompozisyon"
 
-#: src/filters/render/cmlexplorer.xml:205(para)
+#: src/filters/render/cmlexplorer.xml:203(para)
 #, fuzzy
 msgid ""
 "Here, these options concern Hue. You can choose among several functions, and "
@@ -6364,11 +6313,11 @@ msgstr ""
 "yapabilirsiniz ve tüm bu işlevlerin sonuçları ile bir kitap "
 "doldurabilirsiniz. Lütfen deneyin!"
 
-#: src/filters/render/cmlexplorer.xml:213(term)
+#: src/filters/render/cmlexplorer.xml:211(term)
 msgid "Misc. arrange"
 msgstr "Türlü düzenleme"
 
-#: src/filters/render/cmlexplorer.xml:215(para)
+#: src/filters/render/cmlexplorer.xml:213(para)
 #, fuzzy
 msgid ""
 "This drop-down list offers you several other parameters. Also a book would "
@@ -6377,15 +6326,15 @@ msgstr ""
 "Bu açılır liste size birkaç başka parametre sunar. Bu parametrelerin tüm "
 "olasılıklarını açıklamak için bir kitap bile gerekebilir."
 
-#: src/filters/render/cmlexplorer.xml:223(term)
+#: src/filters/render/cmlexplorer.xml:221(term)
 msgid "Use cyclic range"
 msgstr "Dönüşsel erim kullan"
 
-#: src/filters/render/cmlexplorer.xml:231(term)
+#: src/filters/render/cmlexplorer.xml:229(term)
 msgid "Mod. rate"
 msgstr "Mod. oranı"
 
-#: src/filters/render/cmlexplorer.xml:233(para)
+#: src/filters/render/cmlexplorer.xml:231(para)
 #, fuzzy
 msgid ""
 "With this slider and the input box, you can set modification rate from 0.0 "
@@ -6394,38 +6343,38 @@ msgstr ""
 "Bu kaydırıcı ve giriş kutusu ile, 0,0 ile 1,0 arasında bir değiştirme oranı "
 "ayarlayabilirsiniz. Düşük değer, çizgili bir desenle sonuçlanır."
 
-#: src/filters/render/cmlexplorer.xml:241(term)
+#: src/filters/render/cmlexplorer.xml:239(term)
 msgid "Env. sensitivity"
 msgstr "Çevresel duyarlılık"
 
-#: src/filters/render/cmlexplorer.xml:243(para)
+#: src/filters/render/cmlexplorer.xml:241(para)
 #, fuzzy
 msgid "Value is from 0.0 to 1.0"
 msgstr "Değer 0,0 ile 1,0 arasındadır."
 
-#: src/filters/render/cmlexplorer.xml:249(term)
+#: src/filters/render/cmlexplorer.xml:247(term)
 msgid "Diffusion dist."
 msgstr "Yayılma mes."
 
-#: src/filters/render/cmlexplorer.xml:251(para)
+#: src/filters/render/cmlexplorer.xml:249(para)
 #, fuzzy
 msgid "Diffusion distance: from 2 to 10."
 msgstr "Yayılma mesafesi: 2 ila 10 arasında."
 
-#: src/filters/render/cmlexplorer.xml:257(term)
+#: src/filters/render/cmlexplorer.xml:255(term)
 msgid "# of subranges"
 msgstr "Alt erim sayısı"
 
-#: src/filters/render/cmlexplorer.xml:259(para)
+#: src/filters/render/cmlexplorer.xml:257(para)
 #, fuzzy
 msgid "Number of sub-ranges: from 1 to 10."
 msgstr "Alt aralık sayısı: 1 ila 10 arasında."
 
-#: src/filters/render/cmlexplorer.xml:265(term)
+#: src/filters/render/cmlexplorer.xml:263(term)
 msgid "(P)ower factor"
 msgstr "P (güç katsayısı):"
 
-#: src/filters/render/cmlexplorer.xml:267(para)
+#: src/filters/render/cmlexplorer.xml:265(para)
 #, fuzzy
 msgid ""
 "With this option you can influence the <guilabel>Function types</guilabel> "
@@ -6435,11 +6384,11 @@ msgstr ""
 "<guilabel>İşlev türlerini</guilabel> etkileyebilirsiniz. Değer 0,0 ile 10,0 "
 "arasındadır."
 
-#: src/filters/render/cmlexplorer.xml:275(term)
+#: src/filters/render/cmlexplorer.xml:273(term)
 msgid "Parameter k"
 msgstr "K parametresi"
 
-#: src/filters/render/cmlexplorer.xml:277(para)
+#: src/filters/render/cmlexplorer.xml:275(para)
 #, fuzzy
 msgid ""
 "With this option you can influence the <guilabel>Function types</guilabel> "
@@ -6449,11 +6398,11 @@ msgstr ""
 "<guilabel>İşlev türlerini</guilabel> etkileyebilirsiniz. Değer 0,0 ile 10,0 "
 "arasındadır."
 
-#: src/filters/render/cmlexplorer.xml:285(term)
+#: src/filters/render/cmlexplorer.xml:283(term)
 msgid "Range low"
 msgstr "Düşük erim"
 
-#: src/filters/render/cmlexplorer.xml:287(para)
+#: src/filters/render/cmlexplorer.xml:285(para)
 #, fuzzy
 msgid ""
 "Set lower limit of hue that will be used for calculation. values vary from "
@@ -6462,11 +6411,11 @@ msgstr ""
 "Hesaplama için kullanılacak renk tonunun alt sınırını ayarlayın. Değerler "
 "0,0 ile 1,0 arasında değişir."
 
-#: src/filters/render/cmlexplorer.xml:294(term)
+#: src/filters/render/cmlexplorer.xml:292(term)
 msgid "Range high"
 msgstr "Yüksek erim"
 
-#: src/filters/render/cmlexplorer.xml:296(para)
+#: src/filters/render/cmlexplorer.xml:294(para)
 #, fuzzy
 msgid ""
 "Set the upper limit of hue that will be used for calculation. Variations are "
@@ -6475,11 +6424,11 @@ msgstr ""
 "Hesaplama için kullanılacak renk tonunun üst sınırını ayarlayın. Değişimler "
 "0,0 ile 1,0 arasındadır."
 
-#: src/filters/render/cmlexplorer.xml:303(term)
+#: src/filters/render/cmlexplorer.xml:301(term)
 msgid "Plot a Graph of the Settings"
 msgstr "Ayarların Bir Grafiğini Çiz"
 
-#: src/filters/render/cmlexplorer.xml:305(para)
+#: src/filters/render/cmlexplorer.xml:303(para)
 #, fuzzy
 msgid ""
 "By clicking on this large button, you can open a window that displays the "
@@ -6488,19 +6437,19 @@ msgstr ""
 "Bu büyük düğmeye tıklayarak, mevcut renk tonu ayarlarının grafiğini gösteren "
 "bir pencere açabilirsiniz."
 
-#: src/filters/render/cmlexplorer.xml:310(title)
+#: src/filters/render/cmlexplorer.xml:308(title)
 msgid "Function graph of present settings"
 msgstr "Var olan ayarların fonksiyon grafiği"
 
-#: src/filters/render/cmlexplorer.xml:324(title)
+#: src/filters/render/cmlexplorer.xml:322(title)
 msgid "<quote>CML Explorer</quote> filter options (Saturation)"
 msgstr "<quote>CML Tarayıcısı</quote> süzgeci seçenekleri (Doygunluk)"
 
-#: src/filters/render/cmlexplorer.xml:326(title)
+#: src/filters/render/cmlexplorer.xml:324(title)
 msgid "Saturation tab"
 msgstr "Doygunluk sekmesi"
 
-#: src/filters/render/cmlexplorer.xml:334(para)
+#: src/filters/render/cmlexplorer.xml:332(para)
 msgid ""
 "In this tab, you can set how Saturation component of the HSV color model "
 "will be used in pattern calculation."
@@ -6508,20 +6457,20 @@ msgstr ""
 "Bu sekmede, HSV renk modelinin Doygunluk bileşeninin örüntü hesaplamasında "
 "nasıl kullanılacağını ayarlayabilirsiniz."
 
-#: src/filters/render/cmlexplorer.xml:338(para)
-#: src/filters/render/cmlexplorer.xml:358(para)
+#: src/filters/render/cmlexplorer.xml:336(para)
+#: src/filters/render/cmlexplorer.xml:356(para)
 msgid "These options are similar to Hue tab options."
 msgstr "Bu seçenekler Renk Tonu sekmesi seçeneklerine benzer."
 
-#: src/filters/render/cmlexplorer.xml:344(title)
+#: src/filters/render/cmlexplorer.xml:342(title)
 msgid "<quote>CML Explorer</quote> filter options (Value)"
 msgstr "<quote>CML Tarayıcısı</quote> süzgeci seçenekleri (Değer)"
 
-#: src/filters/render/cmlexplorer.xml:346(title)
+#: src/filters/render/cmlexplorer.xml:344(title)
 msgid "Value tab"
 msgstr "Değer sekmesi"
 
-#: src/filters/render/cmlexplorer.xml:354(para)
+#: src/filters/render/cmlexplorer.xml:352(para)
 msgid ""
 "In this tab, you can set how the Value (Luminosity) component of the HSV "
 "color model will be used in pattern calculation."
@@ -6529,41 +6478,41 @@ msgstr ""
 "Bu sekmede, HSV renk modelinin Değer (Renk Parlaklığı) bileşeninin örüntü "
 "hesaplamasında nasıl kullanılacağını ayarlayabilirsiniz."
 
-#: src/filters/render/cmlexplorer.xml:364(title)
+#: src/filters/render/cmlexplorer.xml:362(title)
 msgid "<quote>CML Explorer</quote> filter options (Advanced)"
 msgstr "<quote>CML Tarayıcısı</quote> süzgeci seçenekleri (Gelişmiş)"
 
-#: src/filters/render/cmlexplorer.xml:366(title)
+#: src/filters/render/cmlexplorer.xml:364(title)
 msgid "Advanced tab"
 msgstr "Gelişmiş sekmesi"
 
-#: src/filters/render/cmlexplorer.xml:374(para)
+#: src/filters/render/cmlexplorer.xml:372(para)
 msgid "These tab settings apply to the three HSV channels."
 msgstr "Bu sekme ayarları üç HSV kanalı için geçerlidir."
 
 #. Ch. sensitivity
-#: src/filters/render/cmlexplorer.xml:380(term)
+#: src/filters/render/cmlexplorer.xml:378(term)
 msgid "Channel sensitivity"
 msgstr "Kanal duyarlılığı"
 
-#: src/filters/render/cmlexplorer.xml:387(term)
+#: src/filters/render/cmlexplorer.xml:385(term)
 msgid "Mutation rate"
 msgstr "Başkalaşım oranı"
 
 #. Mutation dist.
-#: src/filters/render/cmlexplorer.xml:395(term)
+#: src/filters/render/cmlexplorer.xml:393(term)
 msgid "Mutation distance"
 msgstr "Başkalaşım mesafesi"
 
-#: src/filters/render/cmlexplorer.xml:405(title)
+#: src/filters/render/cmlexplorer.xml:403(title)
 msgid "<quote>CML Explorer</quote> filter options (Others)"
 msgstr "<quote>CML Tarayıcısı</quote> süzgeci seçenekleri (Diğer)"
 
-#: src/filters/render/cmlexplorer.xml:407(title)
+#: src/filters/render/cmlexplorer.xml:405(title)
 msgid "Others tab"
 msgstr "Diğer sekmesi"
 
-#: src/filters/render/cmlexplorer.xml:415(para)
+#: src/filters/render/cmlexplorer.xml:413(para)
 msgid ""
 "In this tab, you can find various parameters about image display and random "
 "intervention."
@@ -6571,51 +6520,51 @@ msgstr ""
 "Bu sekmede, görüntü gösterimi ve rastgele müdahaleyle ilgili "
 "türlüparametreler bulabilirsiniz."
 
-#: src/filters/render/cmlexplorer.xml:421(term)
+#: src/filters/render/cmlexplorer.xml:419(term)
 msgid "Initial value"
 msgstr "Başlangıç değeri"
 
-#: src/filters/render/cmlexplorer.xml:428(term)
+#: src/filters/render/cmlexplorer.xml:426(term)
 msgid "Zoom scale"
 msgstr "Yakınlaştırma ölçeği"
 
-#: src/filters/render/cmlexplorer.xml:435(term)
+#: src/filters/render/cmlexplorer.xml:433(term)
 msgid "Start offset"
 msgstr "Başlama konumu"
 
 #. Seed of Random (only for "From Seed" Modes)
-#: src/filters/render/cmlexplorer.xml:443(term)
+#: src/filters/render/cmlexplorer.xml:441(term)
 msgid "Seed of Random"
 msgstr "Rastgele Parçacık (yalnızca \"Parçacıktan\" kipleri için)"
 
-#: src/filters/render/cmlexplorer.xml:453(title)
+#: src/filters/render/cmlexplorer.xml:451(title)
 msgid "<quote>CML Explorer</quote> filter options (Misc)"
 msgstr "<quote>CML Tarayıcısı</quote> süzgeci seçenekleri (Türlü)"
 
-#: src/filters/render/cmlexplorer.xml:455(title)
+#: src/filters/render/cmlexplorer.xml:453(title)
 msgid "Miscellaneous options tab"
 msgstr "Türlü seçenekleri sekmesi"
 
-#: src/filters/render/cmlexplorer.xml:463(para)
+#: src/filters/render/cmlexplorer.xml:461(para)
 msgid "In this tab you can find various options about copy and loading."
 msgstr ""
 "Bu sekmede kopyalama ve yüklemeyle ilgili türlü seçenekler bulabilirsiniz."
 
-#: src/filters/render/cmlexplorer.xml:468(term)
+#: src/filters/render/cmlexplorer.xml:466(term)
 msgid "Copy Settings"
 msgstr "Ayarları Kopyala"
 
-#: src/filters/render/cmlexplorer.xml:470(para)
+#: src/filters/render/cmlexplorer.xml:468(para)
 msgid ""
 "These options allow you to transfer information from one of the HSV channel "
 "to another one."
 msgstr "Bu seçenekler bir HSV kanalından diğerine bilgi aktarmanızı sağlar."
 
-#: src/filters/render/cmlexplorer.xml:477(term)
+#: src/filters/render/cmlexplorer.xml:475(term)
 msgid "Selective Load Settings"
 msgstr "Seçmeli Yükleme Ayarları"
 
-#: src/filters/render/cmlexplorer.xml:479(para)
+#: src/filters/render/cmlexplorer.xml:477(para)
 msgid ""
 "With the <guibutton>Open</guibutton> button of this filter, you can load "
 "previously saved settings. If you don't want to load all of them, you can "
@@ -6655,10 +6604,6 @@ msgstr "Devre"
 #: src/filters/render/circuit.xml:22(title)
 msgid "Example of Circuit"
 msgstr "“Devre” süzgeci örneği"
-
-#: src/filters/render/circuit.xml:29(para)
-msgid "Filter <quote>Circuit</quote> applied."
-msgstr "<quote>Devre</quote> süzgeci uygulandı"
 
 #: src/filters/render/circuit.xml:33(para)
 #, fuzzy
@@ -6854,10 +6799,6 @@ msgstr "Dama Tahtası"
 msgid "Example for the Checkerboard filter"
 msgstr "“Dama Tahtası” süzgeci örneği"
 
-#: src/filters/render/checkerboard.xml:30(para)
-msgid "Filter <quote>Checkerboard</quote> applied"
-msgstr "<quote>Dama Tahtası</quote> süzgeci uygulandı"
-
 #: src/filters/render/checkerboard.xml:34(para)
 msgid ""
 "This filter creates a checkerboard pattern replacing the current layer "
@@ -6945,10 +6886,6 @@ msgstr "Dama Tahtası (eski)"
 msgid "Example for the Checkerboard (legacy) filter"
 msgstr "“Dama Tahtası (eski)” süzgeci örneği"
 
-#: src/filters/render/checkerboard-legacy.xml:30(para)
-msgid "Filter <quote>Checkerboard (legacy)</quote> applied"
-msgstr "<quote>Dama Tahtası (eski)</quote> süzgeci uygulandı"
-
 #: src/filters/render/checkerboard-legacy.xml:39(para)
 msgid "Psychobilly <quote>Checkerboard (legacy)</quote>"
 msgstr "Psychobilly <quote>Dama Tahtası (legacy)</quote>"
@@ -7006,7 +6943,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/cell-noise.xml:59(None)
+#: src/filters/render/cell-noise.xml:57(None)
 msgid ""
 "@@image: 'images/filters/render/cell_noise-dialog.png'; "
 "md5=d7c8bbe6ec81dc11845d7065ca0daf85"
@@ -7016,7 +6953,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/cell-noise.xml:95(None)
+#: src/filters/render/cell-noise.xml:93(None)
 msgid ""
 "@@image: 'images/filters/examples/render/cell_noise-shape.jpg'; "
 "md5=fd993e266a79e8f02a1c06e8bed49cab"
@@ -7026,7 +6963,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/cell-noise.xml:114(None)
+#: src/filters/render/cell-noise.xml:112(None)
 msgid ""
 "@@image: 'images/filters/examples/render/cell_noise-rank.jpg'; "
 "md5=3c5e70cdbe9bda2500b0850ad2f59764"
@@ -7036,7 +6973,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/render/cell-noise.xml:141(None)
+#: src/filters/render/cell-noise.xml:139(None)
 msgid ""
 "@@image: 'images/filters/examples/render/cell_noise-palette.jpg'; "
 "md5=e19b0c9a5c46267b360ea6787b590fa5"
@@ -7050,11 +6987,6 @@ msgstr ""
 msgid "Cell Noise"
 msgstr "Hücre Gürültüsü"
 
-#: src/filters/render/cell-noise.xml:31(para)
-msgid "Filter applied with default options: scale=1.000 shape=2.000 rank=1"
-msgstr ""
-"Süzgeç öntanımlı seçeneklerle uygulandı: ölçek=1,000 şekil=2.000 sıralama=1"
-
 #: src/filters/render/cell-noise.xml:22(para)
 msgid ""
 "Generates a cellular texture. Results don't depend on the image you opened. "
@@ -7063,7 +6995,7 @@ msgstr ""
 "Hücresel desen oluşturur. Sonuçlar açtığınız görüntüye bağlı değildir. "
 "<placeholder-1/>"
 
-#: src/filters/render/cell-noise.xml:41(para)
+#: src/filters/render/cell-noise.xml:39(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Render</guisubmenu><guisubmenu>Noise</"
@@ -7074,11 +7006,11 @@ msgstr ""
 "guisubmenu><guimenuitem>Hücre Gürültüsü…</guimenuitem></menuchoice> altında "
 "bulunur."
 
-#: src/filters/render/cell-noise.xml:55(title)
+#: src/filters/render/cell-noise.xml:53(title)
 msgid "<quote>Cell Noise</quote> filter options"
 msgstr "<quote>Hücre Gürültüsü</quote> süzgeci seçenekleri"
 
-#: src/filters/render/cell-noise.xml:87(para)
+#: src/filters/render/cell-noise.xml:85(para)
 msgid ""
 "Interpolates between Manhattan and Euclidean distance: (1.000 to 2.000). "
 "Lower values give four spikes stars nuclei to cells. Upper values give "
@@ -7088,27 +7020,27 @@ msgstr ""
 "Düşük değerler hücrelere dört sivri yıldız çekirdeği verir. Üst değerler "
 "dairesel çekirdekler verir."
 
-#: src/filters/render/cell-noise.xml:98(para)
+#: src/filters/render/cell-noise.xml:96(para)
 msgid "Shape = 1.000"
 msgstr "Şekil = 1,000"
 
-#: src/filters/render/cell-noise.xml:106(term)
+#: src/filters/render/cell-noise.xml:104(term)
 msgid "Rank"
 msgstr "Sıralama"
 
-#: src/filters/render/cell-noise.xml:108(para)
+#: src/filters/render/cell-noise.xml:106(para)
 msgid "Selects the n-th closest point: (1-3). Cells are elongated."
 msgstr "N'inci en yakın noktayı seçer: (1-3). Hücreler uzar."
 
-#: src/filters/render/cell-noise.xml:117(para)
+#: src/filters/render/cell-noise.xml:115(para)
 msgid "Rank = 2"
 msgstr "Sıralama = 2"
 
-#: src/filters/render/cell-noise.xml:133(term)
+#: src/filters/render/cell-noise.xml:131(term)
 msgid "Palettize"
 msgstr "Paletleştir"
 
-#: src/filters/render/cell-noise.xml:135(para)
+#: src/filters/render/cell-noise.xml:133(para)
 msgid "Fills each cell with a random color."
 msgstr "Her hücreyi rastgele bir renk ile doldur."
 
@@ -7238,3 +7170,76 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "<quote>Spyrogimp</quote> applied"
+#~ msgstr "<quote>Spyrogimp</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Spiral</quote> applied"
+#~ msgstr "<quote>Sarmal</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Sphere Designer</quote> applied"
+#~ msgstr "<quote>Küre Tasarımcısı</quote> süzgeci uygulandı"
+
+#, fuzzy
+#~| msgid "Filter <quote>Solid noise</quote> applied"
+#~ msgid "Filter <quote>Solid Noise</quote> applied"
+#~ msgstr "<quote>Yoğun Gürültü</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Sinus</quote> applied"
+#~ msgstr "<quote>Sinüs</quote> süzgeci uygulandı"
+
+#~ msgid "Filter applied with default options"
+#~ msgstr "Öntanımlı seçeneklerle uygulanan süzgec"
+
+#~ msgid "Filter <quote>Plasma</quote> applied"
+#~ msgstr "<quote>Plazma</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Maze</quote> applied"
+#~ msgstr "<quote>Labirent</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Linear Sinusoid</quote> applied"
+#~ msgstr "<quote>Doğrusal Sinüs Biçimli</quote> süzgeci uygulandı"
+
+#~ msgid "<quote>Line Nova</quote> applied"
+#~ msgstr "<quote>Nova Çizgisi</quote> uygulandı"
+
+#~ msgid "Filter <quote>Jigsaw</quote> applied"
+#~ msgstr "<quote>Yapboz</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>IFS Fractal</quote> applied"
+#~ msgstr "<quote>IFS Fraktal</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Grid</quote> applied"
+#~ msgstr "<quote>Izgara</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Grid (legacy)</quote> applied"
+#~ msgstr "<quote>Izgara (eski)</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Gfig</quote> applied"
+#~ msgstr "<quote>Gfig</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Fractal Explorer</quote> applied"
+#~ msgstr "<quote>Fraktal Tarayıcı</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Flame</quote> applied"
+#~ msgstr "<quote>Alev</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Difference Clouds</quote> applied"
+#~ msgstr "<quote>Başka Bulutlar</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>CML Explorer</quote> applied with default options"
+#~ msgstr "<quote>CML Tarayıcısı</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Circuit</quote> applied."
+#~ msgstr "<quote>Devre</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Checkerboard</quote> applied"
+#~ msgstr "<quote>Dama Tahtası</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Checkerboard (legacy)</quote> applied"
+#~ msgstr "<quote>Dama Tahtası (eski)</quote> süzgeci uygulandı"
+
+#~ msgid "Filter applied with default options: scale=1.000 shape=2.000 rank=1"
+#~ msgstr ""
+#~ "Süzgeç öntanımlı seçeneklerle uygulandı: ölçek=1,000 şekil=2.000 "
+#~ "sıralama=1"

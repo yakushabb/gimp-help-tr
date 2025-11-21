@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: 2025-11-18 23:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -110,8 +110,9 @@ msgid "Original image"
 msgstr "Özgün görüntü"
 
 #: src/filters/combine/filmstrip.xml:42(para)
-msgid "Filter <quote>Filmstrip</quote> applied"
-msgstr "<quote>Film Şeridi</quote> süzgeci uygulandı"
+#: src/filters/combine/depthmerge.xml:49(para)
+msgid "Filter applied"
+msgstr "Süzgeç uygulandı"
 
 #: src/filters/combine/filmstrip.xml:46(para)
 msgid ""
@@ -478,10 +479,6 @@ msgstr ""
 msgid "Filter example"
 msgstr "Süzgeç örneği"
 
-#: src/filters/combine/depthmerge.xml:49(para)
-msgid "Filter applied"
-msgstr "Süzgeç uygulandı"
-
 #: src/filters/combine/depthmerge.xml:53(para)
 msgid ""
 "Every image is associated with a map which works as a mask. Simply create "
@@ -680,6 +677,9 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "Filter <quote>Filmstrip</quote> applied"
+#~ msgstr "<quote>Film Şeridi</quote> süzgeci uygulandı"
 
 #~ msgid "Original"
 #~ msgstr "Özgün"

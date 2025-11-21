@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: 2025-11-18 23:09+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -232,7 +232,9 @@ msgstr ""
 
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/web/semiflatten.xml:140(title)
-msgid "Semi-Flatten filter applied"
+#, fuzzy
+#| msgid "Semi-Flatten filter applied"
+msgid "Filter applied"
 msgstr "“Yarı Düzleştir” uygulandı"
 
 #: src/filters/web/semiflatten.xml:147(para)

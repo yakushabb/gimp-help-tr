@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: 2025-11-18 23:07+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -148,8 +148,19 @@ msgid "Original image"
 msgstr "Özgün görüntü"
 
 #: src/filters/artistic/weave.xml:38(para)
-msgid "Filter <quote>Weave</quote> applied"
-msgstr "<quote>Dokuma</quote> süzgeci uygulandı"
+#: src/filters/artistic/waterpixels.xml:40(para)
+#: src/filters/artistic/softglow.xml:38(para)
+#: src/filters/artistic/photocopy.xml:38(para)
+#: src/filters/artistic/oilify.xml:38(para)
+#: src/filters/artistic/glasstile.xml:41(para)
+#: src/filters/artistic/cubism.xml:38(para)
+#: src/filters/artistic/cartoon.xml:38(para)
+#: src/filters/artistic/applycanvas.xml:42(para)
+#: src/filters/artistic/GIMPressionist.xml:42(para)
+#, fuzzy
+#| msgid "Filter length"
+msgid "Filter applied"
+msgstr "Süzgeç uzunluğu"
 
 #: src/filters/artistic/weave.xml:42(para)
 #, fuzzy
@@ -425,12 +436,6 @@ msgstr "Su Pikselleri"
 #| msgid "Example for the <quote>Oilify</quote> filter"
 msgid "Example for the <quote>Waterpixels</quote> filter"
 msgstr "<quote>Yağlı Boya</quote> süzgeci örneği"
-
-#: src/filters/artistic/waterpixels.xml:40(para)
-#, fuzzy
-#| msgid "Filter <quote>Weave</quote> applied"
-msgid "Filter <quote>Waterpixels</quote> applied"
-msgstr "<quote>Dokuma</quote> süzgeci uygulandı"
 
 #: src/filters/artistic/waterpixels.xml:44(para)
 #, fuzzy
@@ -1078,10 +1083,6 @@ msgstr "Hafif Parıltı"
 msgid "Example for the <quote>Softglow</quote> filter"
 msgstr "<quote>Hafif Parıltı</quote> süzgeci örneği"
 
-#: src/filters/artistic/softglow.xml:38(para)
-msgid "Filter <quote>Softglow</quote> applied"
-msgstr "<quote>Hafif Parıltı</quote> süzgeci uygulandı"
-
 #: src/filters/artistic/softglow.xml:42(para)
 #, fuzzy
 msgid ""
@@ -1355,10 +1356,6 @@ msgstr "Fotokopi"
 msgid "Example for the <quote>Photocopy</quote> filter"
 msgstr "<quote>Fotokopi</quote> süzgeci örneği"
 
-#: src/filters/artistic/photocopy.xml:38(para)
-msgid "Filter <quote>Photocopy</quote> applied"
-msgstr "<quote>Fotokopi</quote> süzgeci uygulandı"
-
 #: src/filters/artistic/photocopy.xml:42(para)
 #, fuzzy
 msgid ""
@@ -1493,10 +1490,6 @@ msgstr "Yağlı Boya"
 #: src/filters/artistic/oilify.xml:22(title)
 msgid "Example for the <quote>Oilify</quote> filter"
 msgstr "<quote>Yağlı Boya</quote> süzgeci örneği"
-
-#: src/filters/artistic/oilify.xml:38(para)
-msgid "Filter <quote>Oilify</quote> applied"
-msgstr "<quote>Yağlı Boya</quote> süzgeci uygulandı"
 
 #: src/filters/artistic/oilify.xml:42(para)
 msgid ""
@@ -1642,10 +1635,6 @@ msgstr "Cam Döşeme"
 msgid "The same image, before and after applying glass tile effect."
 msgstr "Aynı görüntü, cam döşeme etkisi uygulanmadan önce ve sonra."
 
-#: src/filters/artistic/glasstile.xml:41(para)
-msgid "Filter <quote>Glass Tile</quote> applied"
-msgstr "<quote>Cam Karo</quote> süzgeci uygulandı"
-
 #: src/filters/artistic/glasstile.xml:45(para)
 msgid ""
 "After applying this filter, the active layer or selection is rendered as "
@@ -1722,10 +1711,6 @@ msgstr "Kubizm"
 #: src/filters/artistic/cubism.xml:22(title)
 msgid "Example for the <quote>Cubism</quote>"
 msgstr "<quote>Kübizm</quote> süzgeci örneği"
-
-#: src/filters/artistic/cubism.xml:38(para)
-msgid "Filter <quote>Cubism</quote> applied"
-msgstr "<quote>Kübizm</quote> süzgeci uygulandı"
 
 #: src/filters/artistic/cubism.xml:42(para)
 #, fuzzy
@@ -2077,10 +2062,6 @@ msgstr "Karikatür"
 msgid "Example for the <quote>Cartoon</quote> filter"
 msgstr "<quote>Karikatür</quote> süzgeci örneği"
 
-#: src/filters/artistic/cartoon.xml:38(para)
-msgid "Filter <quote>Cartoon</quote> applied"
-msgstr "<quote>Karikatür</quote> süzgeci uygulandı"
-
 #: src/filters/artistic/cartoon.xml:42(para)
 #, fuzzy
 msgid ""
@@ -2178,10 +2159,6 @@ msgstr "etki"
 #: src/filters/artistic/applycanvas.xml:26(title)
 msgid "Example for the <quote>Apply Canvas</quote> filter"
 msgstr "<quote>Tuval Uygula</quote> süzgeci örneği"
-
-#: src/filters/artistic/applycanvas.xml:42(para)
-msgid "Filter <quote>Apply Canvas</quote> applied"
-msgstr "<quote>Tuval Uygula</quote> süzgeci uygulandı"
 
 #: src/filters/artistic/applycanvas.xml:46(para)
 #, fuzzy
@@ -2332,10 +2309,6 @@ msgstr "GIMPressionist"
 #: src/filters/artistic/GIMPressionist.xml:26(title)
 msgid "Example for the <quote>GIMPressionist</quote> filter"
 msgstr "<quote>GIMPressionist</quote> süzgeci örneği"
-
-#: src/filters/artistic/GIMPressionist.xml:42(para)
-msgid "Filter <quote>GIMPressionist</quote> applied"
-msgstr "<quote>GIMPressionist</quote> süzgeci uygulandı"
 
 #: src/filters/artistic/GIMPressionist.xml:46(para)
 msgid ""
@@ -3521,3 +3494,35 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "Filter <quote>Weave</quote> applied"
+#~ msgstr "<quote>Dokuma</quote> süzgeci uygulandı"
+
+#, fuzzy
+#~| msgid "Filter <quote>Weave</quote> applied"
+#~ msgid "Filter <quote>Waterpixels</quote> applied"
+#~ msgstr "<quote>Dokuma</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Softglow</quote> applied"
+#~ msgstr "<quote>Hafif Parıltı</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Photocopy</quote> applied"
+#~ msgstr "<quote>Fotokopi</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Oilify</quote> applied"
+#~ msgstr "<quote>Yağlı Boya</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Glass Tile</quote> applied"
+#~ msgstr "<quote>Cam Karo</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Cubism</quote> applied"
+#~ msgstr "<quote>Kübizm</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Cartoon</quote> applied"
+#~ msgstr "<quote>Karikatür</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>Apply Canvas</quote> applied"
+#~ msgstr "<quote>Tuval Uygula</quote> süzgeci uygulandı"
+
+#~ msgid "Filter <quote>GIMPressionist</quote> applied"
+#~ msgstr "<quote>GIMPressionist</quote> süzgeci uygulandı"

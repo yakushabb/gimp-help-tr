@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: 2025-11-18 23:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -272,8 +272,16 @@ msgid "Example for the <quote>Slide</quote> filter"
 msgstr "<quote>Slayt</quote> süzgeci örneği"
 
 #: src/filters/decor/slide.xml:41(para)
-msgid "<quote>Slide</quote> applied"
-msgstr "<quote>Slayt</quote> uygulandı"
+#: src/filters/decor/round-corners.xml:41(para)
+#: src/filters/decor/old-photo.xml:41(para)
+#: src/filters/decor/fuzzyborder.xml:41(para)
+#: src/filters/decor/fog.xml:38(para) src/filters/decor/chrome-it.xml:36(para)
+#: src/filters/decor/carve-it.xml:43(para)
+#: src/filters/decor/addborder.xml:41(para)
+#: src/filters/decor/add-bevel.xml:43(para)
+#: src/filters/decor/add-bevel.xml:78(para)
+msgid "Filter applied"
+msgstr "Süzgeç uygulandı."
 
 #: src/filters/decor/slide.xml:45(para)
 msgid ""
@@ -486,10 +494,6 @@ msgstr "Köşeleri Yuvarla"
 #: src/filters/decor/round-corners.xml:25(title)
 msgid "Example for the <quote>Round Corners</quote> filter"
 msgstr "<quote>Köşeleri Yuvarla</quote> süzgeci örneği"
-
-#: src/filters/decor/round-corners.xml:41(para)
-msgid "<quote>Round Corners</quote> applied"
-msgstr "<quote>Köşeleri Yuvarla</quote> uygulandı"
 
 #: src/filters/decor/round-corners.xml:45(para)
 msgid ""
@@ -723,10 +727,6 @@ msgstr "Eski Fotoğraf"
 #: src/filters/decor/old-photo.xml:25(title)
 msgid "Example for the <quote>Old Photo</quote> filter"
 msgstr "<quote>Eski Fotoğraf</quote> süzgeci örneği"
-
-#: src/filters/decor/old-photo.xml:41(para)
-msgid "<quote>Old Photo</quote> applied"
-msgstr "<quote>Eski Fotoğraf</quote> uygulandı"
 
 #: src/filters/decor/old-photo.xml:45(para)
 msgid ""
@@ -981,10 +981,6 @@ msgstr "Bulanık Kenarlık"
 msgid "Example for the <quote>Fuzzy Border</quote> filter"
 msgstr "<quote>Bulanık Kenarlık</quote> süzgeci örneği"
 
-#: src/filters/decor/fuzzyborder.xml:41(para)
-msgid "<quote>Fuzzy Border</quote> applied"
-msgstr "<quote>Bulanık Kenarlık</quote> uygulandı"
-
 #: src/filters/decor/fuzzyborder.xml:45(para)
 #, fuzzy
 msgid ""
@@ -1180,10 +1176,6 @@ msgstr "Oluştur"
 msgid "Example for the <quote>Fog</quote> filter"
 msgstr "<quote>Sis</quote> süzgeci örneği"
 
-#: src/filters/decor/fog.xml:38(para)
-msgid "<quote>Fog</quote> applied"
-msgstr "<quote>Sis</quote> uygulandı"
-
 #: src/filters/decor/fog.xml:43(para)
 #, fuzzy
 msgid ""
@@ -1373,10 +1365,6 @@ msgstr "Kalıp Krom"
 #: src/filters/decor/chrome-it.xml:20(title)
 msgid "Example for the <quote>Stencil Chrome</quote> filter"
 msgstr "<quote>Kalıp Krom</quote> süzgeci örneği"
-
-#: src/filters/decor/chrome-it.xml:36(para)
-msgid "<quote>Stencil Chrome</quote> applied"
-msgstr "<quote>Kalıp Krom</quote> uygulandı"
 
 #: src/filters/decor/chrome-it.xml:40(para)
 #, fuzzy
@@ -1760,10 +1748,6 @@ msgstr "Kalıp Oyma"
 msgid "Example for the <quote>Stencil Carve</quote> filter"
 msgstr "<quote>Kalıp Oyma</quote> süzgeci örneği"
 
-#: src/filters/decor/carve-it.xml:43(para)
-msgid "<quote>Stencil Carve</quote> applied"
-msgstr "<quote>Kalıp Oyma</quote> uygulandı"
-
 #: src/filters/decor/carve-it.xml:47(para)
 #, fuzzy
 msgid ""
@@ -1937,10 +1921,6 @@ msgstr "Kenarlık Ekle"
 #: src/filters/decor/addborder.xml:25(title)
 msgid "Example for the <quote>Add Border</quote> filter"
 msgstr "<quote>Kenarlık Ekle</quote> süzgeci örneği"
-
-#: src/filters/decor/addborder.xml:41(para)
-msgid "Border added"
-msgstr "Kenarlık eklendi"
 
 #: src/filters/decor/addborder.xml:45(para)
 #, fuzzy
@@ -2175,10 +2155,6 @@ msgstr "<quote>Eğim Ekle</quote> süzgeci örneği"
 msgid "Original image, the colored rectangle is selected"
 msgstr "Özgün görüntü, renkli dikdörtgen seçili"
 
-#: src/filters/decor/add-bevel.xml:43(para)
-msgid "<quote>Add Bevel</quote> applied"
-msgstr "<quote>Eğim Ekle</quote> uygulandı"
-
 #: src/filters/decor/add-bevel.xml:47(para)
 #, fuzzy
 msgid ""
@@ -2197,10 +2173,6 @@ msgstr "<quote>Eğim Ekle</quote> süzgeci örneği, derinlik etkisi ile"
 #: src/filters/decor/add-bevel.xml:69(para)
 msgid "Bumpmap"
 msgstr "Derinlik etkisi"
-
-#: src/filters/decor/add-bevel.xml:78(para)
-msgid "Filter applied"
-msgstr "Süzgeç uygulandı."
 
 #: src/filters/decor/add-bevel.xml:92(para)
 msgid ""
@@ -2254,3 +2226,30 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "<quote>Slide</quote> applied"
+#~ msgstr "<quote>Slayt</quote> uygulandı"
+
+#~ msgid "<quote>Round Corners</quote> applied"
+#~ msgstr "<quote>Köşeleri Yuvarla</quote> uygulandı"
+
+#~ msgid "<quote>Old Photo</quote> applied"
+#~ msgstr "<quote>Eski Fotoğraf</quote> uygulandı"
+
+#~ msgid "<quote>Fuzzy Border</quote> applied"
+#~ msgstr "<quote>Bulanık Kenarlık</quote> uygulandı"
+
+#~ msgid "<quote>Fog</quote> applied"
+#~ msgstr "<quote>Sis</quote> uygulandı"
+
+#~ msgid "<quote>Stencil Chrome</quote> applied"
+#~ msgstr "<quote>Kalıp Krom</quote> uygulandı"
+
+#~ msgid "<quote>Stencil Carve</quote> applied"
+#~ msgstr "<quote>Kalıp Oyma</quote> uygulandı"
+
+#~ msgid "Border added"
+#~ msgstr "Kenarlık eklendi"
+
+#~ msgid "<quote>Add Bevel</quote> applied"
+#~ msgstr "<quote>Eğim Ekle</quote> uygulandı"
