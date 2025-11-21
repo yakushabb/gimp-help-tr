@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-21 21:36+0000\n"
-"PO-Revision-Date: 2025-11-18 23:08+0300\n"
+"PO-Revision-Date: 2025-11-22 00:57+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -111,7 +111,7 @@ msgstr "Özgün görüntü"
 #: src/filters/edge-detect/laplace.xml:38(para)
 #: src/filters/edge-detect/edge_detect.xml:56(para)
 msgid "Filter applied"
-msgstr ""
+msgstr "Süzgeç uygulandı"
 
 #: src/filters/edge-detect/sobel.xml:42(para)
 msgid ""
@@ -692,22 +692,16 @@ msgstr "Diferansiyel"
 
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/filters/edge-detect/edge_detect.xml:40(title)
-#, fuzzy
-#| msgid "Applying example for the Neon filter"
 msgid "Applying example for the Edge filter"
-msgstr "“Neon” süzgeci örneği"
+msgstr "“Kenar” süzgeci örneği"
 
 #: src/filters/edge-detect/edge_detect.xml:60(para)
-#, fuzzy
-#| msgid ""
-#| "This filter detects edges in the image using Laplacian method, which "
-#| "produces thin, pixel wide borders."
 msgid ""
 "This filter detects edges in an image using the method selected in "
 "<guilabel>Algorithm</guilabel>."
 msgstr ""
-"Bu süzgeç, görüntüdeki kenarları Laplacian yöntemini kullanarak algılar ve "
-"bu da ince, piksel genişliğinde kenarlar üretir."
+"Bu süzgeç, <guilabel>Algoritma</guilabel> seçeneğinden seçilen yöntemi "
+"kullanarak görüntüdeki kenarları algılar."
 
 #: src/filters/edge-detect/edge_detect.xml:68(para)
 msgid ""
@@ -733,6 +727,8 @@ msgid ""
 "The algorithm selected here, determines what method is used to detect edges. "
 "The following methods are available:"
 msgstr ""
+"Burada seçilen algoritma, kenar tanıma için hangi yöntemin kullanılacağını "
+"belirler. Aşağıdaki yöntemler kullanılabilir:"
 
 #: src/filters/edge-detect/edge_detect.xml:113(para)
 msgid ""
@@ -741,6 +737,10 @@ msgid ""
 "additional settings that can be adjusted. This is the default; an example is "
 "shown at the top of the page."
 msgstr ""
+"Bu, ayrı <link linkend=\"gimp-filter-edge-sobel\">Sobel</link> süzgecinin "
+"bir başka sürümüdür. Bu süzgecin diğer süzgeçlerden farklı olarak, "
+"ayarlanabilen ek ayarları yoktur. Bu, öntanımlıdır; sayfanın üst kısmında "
+"bir örnek gösterilmektedir."
 
 #: src/filters/edge-detect/edge_detect.xml:125(para)
 msgid ""
@@ -748,25 +748,25 @@ msgid ""
 "operator</ulink> is a relatively fast algorithm, that can be relatively "
 "crude for high frequency variations in an image."
 msgstr ""
+"<ulink url=\"https://en.wikipedia.org/wiki/Prewitt_operator\">Prewitt "
+"operatörü</ulink>, görece hızlı bir algoritmadır, ancak görüntüdeki yüksek "
+"frekanslı varyasyonlar için nispeten kaba olabilir."
 
 #: src/filters/edge-detect/edge_detect.xml:138(para)
-#, fuzzy
-#| msgid "Prewitt compass"
 msgid "Algorithm set to Prewitt compass"
-msgstr "Prewitt pusulası"
+msgstr "Algoritma “Prewitt pusulası“ olarak ayarlandı"
 
 #: src/filters/edge-detect/edge_detect.xml:148(para)
-#, fuzzy
-#| msgid "Edges are thinner, less contrasted and more blurred than Sobel."
 msgid ""
 "When using the Gradient algoritm, edges are thinner, less contrasted and "
 "more blurred than Sobel."
 msgstr ""
-"Kenarlar Sobelʼe göre daha ince, daha az karşıtlık içerir ve daha bulanıktır."
+"“Renk geçişi” algoritması kullanılırken kenarlar Sobelʼe göre daha incedir, "
+"daha az karşıtlık içerir ve daha bulanıktır."
 
 #: src/filters/edge-detect/edge_detect.xml:158(para)
 msgid "Algorithm set to Gradient"
-msgstr ""
+msgstr "Algoritma “Renk geçişi“ olarak ayarlandı"
 
 #: src/filters/edge-detect/edge_detect.xml:166(para)
 msgid ""
@@ -774,39 +774,39 @@ msgid ""
 "ulink> algorithm will highlight changes in intensity in a diagonal "
 "direction. However, it suffers greatly from sensitivity to noise."
 msgstr ""
+"<ulink url=\"https://en.wikipedia.org/wiki/Roberts_cross\">Roberts</ulink> "
+"algoritması, çapraz yöndeki yoğunluk değişikliklerini vurgular. Ancak, "
+"gürültüye karşı duyarlılığı nedeniyle büyük ölçüde sorun yaşar."
 
 #: src/filters/edge-detect/edge_detect.xml:179(para)
 msgid "Algorithm set to Roberts"
-msgstr ""
+msgstr "Algoritma “Roberts“ olarak ayarlandı"
 
 #: src/filters/edge-detect/edge_detect.xml:187(para)
 msgid "This algorithm often causes edges to be less bright."
-msgstr ""
+msgstr "Bu algoritma genellikle kenarları daha az parlak yapar."
 
 #: src/filters/edge-detect/edge_detect.xml:196(para)
 msgid "Algorithm set to Differential"
-msgstr ""
+msgstr "Algoritma “Diferansiyel“ olarak ayarlandı"
 
 #: src/filters/edge-detect/edge_detect.xml:204(para)
 msgid ""
 "This is a different implementation of the <link linkend=\"gimp-filter-edge-"
 "laplace\">Laplace</link> filter, that gives different results."
 msgstr ""
+"Bu, <link linkend=\"gimp-filter-edge-laplace\">Laplace</link> süzgecinin "
+"farklı bir uygulamasıdır ve farklı sonuçlar verir."
 
 #: src/filters/edge-detect/edge_detect.xml:215(para)
 msgid "Algorithm set to Laplace"
-msgstr ""
+msgstr "Algoritma “Laplace“ olarak ayarlandı"
 
 #: src/filters/edge-detect/edge_detect.xml:224(term)
 msgid "Amount"
 msgstr "Miktar"
 
 #: src/filters/edge-detect/edge_detect.xml:226(para)
-#, fuzzy
-#| msgid ""
-#| "A low value results in black, high-contrasted image with thin edges. A "
-#| "high value results in thick edges with low contrast and many colors in "
-#| "dark areas."
 msgid ""
 "A low value results in a black, high-contrasted image with thin edges. A "
 "high value results in thick edges with low contrast and many colors in dark "
@@ -821,22 +821,16 @@ msgid "Border behavior"
 msgstr "Kenar davranışı"
 
 #: src/filters/edge-detect/edge_detect.xml:236(para)
-#, fuzzy
-#| msgid ""
-#| "Where the edge detector will get adjoining pixels for its calculations "
-#| "when it is working on the image boundaries. This option will only have an "
-#| "effect on the boundaries of the result (if any). <guilabel>Clamp</"
-#| "guilabel> is the default and the best choice."
 msgid ""
 "This determines where the edge detector will get adjoining pixels for its "
 "calculations when it is working on the image boundaries. This setting will "
 "only affect the boundaries of the result (if any). <guilabel>Clamp</"
 "guilabel> is the default and the best choice in general."
 msgstr ""
-"Kenar tanıyıcının görüntü sınırları üzerinde çalışırken hesaplamalar için "
-"bitişik pikselleri alacağı yer. Bu seçeneğin yalnızca sonucun sınırları "
-"(varsa) üzerinde etkisi vardır. <guilabel>Kelepçe</guilabel> öntanımlıdır ve "
-"en iyi seçimdir."
+"Bu, kenar tanıyıcının görüntü sınırları üzerinde çalışırken hesaplamaları "
+"için bitişik pikselleri nereden alacağını belirler. Bu ayar yalnızca sonucun "
+"sınırlarını (varsa) etkiler. <guilabel>Kelepçe</guilabel> öntanımlıdır ve "
+"genel olarak en iyi seçimdir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.

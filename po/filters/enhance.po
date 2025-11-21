@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-21 21:36+0000\n"
-"PO-Revision-Date: 2025-11-18 23:08+0300\n"
+"PO-Revision-Date: 2025-11-22 00:59+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -159,7 +159,7 @@ msgstr ""
 "ince ayrıntılar ilk katmandadır, altındaki her katman en alttaki son katmana "
 "gelene kadar daha az ayrıntıya sahiptir. Bu son katman <quote>artık</quote> "
 "olarak adlandırılır ve tüm ayrıntı katmanları kaldırıldıktan sonra geriye "
-"kalanları tutar; görüntünün genel kontrastını ve renklerini temsil eder."
+"kalanları tutar; görüntünün genel karşıtlıkını ve renklerini temsil eder."
 
 #: src/filters/enhance/wavelet-decompose.xml:67(para)
 #, fuzzy
@@ -201,7 +201,7 @@ msgid ""
 msgstr ""
 "Wavelet-decompose, cilt yumuşatma ve rötuşlama, fotoğraflarınızdaki "
 "lekeleri, kırışıklıkları ya da lekeleri gidermek için harika bir süzgeçdir. "
-"Ayrıca keskinleştirme ve yerel kontrast geliştirme ve lekeleri, renkleri ya "
+"Ayrıca keskinleştirme ve yerel karşıtlık geliştirme ve lekeleri, renkleri ya "
 "da tonları kaldırmak için de kullanılabilir. Tüm bunlar yukarıda belirtilen "
 "eğitimlerde iyi bir şekilde açıklanmıştır."
 
@@ -577,9 +577,9 @@ msgid ""
 "intensity: like a stair if contrast is perfectly sharp (blue), like an S if "
 "there is some blur (yellow)."
 msgstr ""
-"Bir yerde kontrast olan bir görüntü düşünün. Bu kontrasttan geçen bir çizgi "
-"üzerindeki piksellerin yoğunluk eğrisi ani bir yoğunluk artışı "
-"gösterecektir: kontrast tamamen keskinse bir merdiven gibi (mavi), biraz "
+"Bir yerde karşıtlık olan bir görüntü düşünün. Bu karşıtlıktan geçen bir "
+"çizgi üzerindeki piksellerin yoğunluk eğrisi ani bir yoğunluk artışı "
+"gösterecektir: karşıtlık tamamen keskinse bir merdiven gibi (mavi), biraz "
 "bulanıklık varsa bir S gibi (sarı)."
 
 #: src/filters/enhance/unsharp_mask.xml:178(para)
@@ -603,7 +603,7 @@ msgid ""
 msgstr ""
 "Bulanıklık yoğunluğu (yeşil eğri) ile özgün görüntünün yoğunluğu (siyah "
 "eğri) arasındaki farkı özgün görüntünün yoğunluğuna (siyah eğri) çıkaralım. "
-"Daha ani olan kırmızı eğriyi elde ederiz: kontrast ve keskinlik artar. QED."
+"Daha ani olan kırmızı eğriyi elde ederiz: karşıtlık ve keskinlik artar. QED."
 
 #: src/filters/enhance/unsharp_mask.xml:195(para)
 #, fuzzy
@@ -700,9 +700,10 @@ msgid ""
 "around a star on the light background of a nebula (black eye effect)."
 msgstr ""
 "Eğrinin başlangıcında bir çukur görebilirsiniz. Bulanıklaştırma önemliyse, "
-"bu çukur çok derindir; çıkarma işleminin sonucu negatif olabilir ve kontrast "
-"boyunca tamamlayıcı bir renk şeridi ya da bir nebulanın açık arka planındaki "
-"bir yıldızın etrafında siyah bir hale (siyah göz etkisi) görünecektir."
+"bu çukur çok derindir; çıkarma işleminin sonucu negatif olabilir ve "
+"karşıtlık boyunca tamamlayıcı bir renk şeridi ya da bir nebulanın açık arka "
+"planındaki bir yıldızın etrafında siyah bir hale (siyah göz etkisi) "
+"görünecektir."
 
 #: src/filters/enhance/unsharp_mask.xml:266(title)
 msgid "Black eye effect"
@@ -867,6 +868,9 @@ msgid ""
 "results, you should first select the red parts of the eyes before applying "
 "this filter, or else all red areas in your image will be affected."
 msgstr ""
+"Bu süzgecin amacı, görüntüdeki kırmızı gözleri gidermektir. En iyi sonuç "
+"için, süzgeci uygulamadan önce gözlerin kırmızı kısımlarını seçmelisiniz, "
+"diğer durumda görüntüdeki tüm kırmızı alanlar etkilenir."
 
 #: src/filters/enhance/red-eye-removal.xml:50(para)
 msgid "If the image is in grayscale mode, this menu entry is disabled."
@@ -887,11 +891,15 @@ msgid "<quote>Red Eye Removal</quote> options"
 msgstr "<quote>Kırmızı Göz Düzeltme</quote> seçenekleri"
 
 #: src/filters/enhance/red-eye-removal.xml:96(para)
+#, fuzzy
 msgid ""
 "This setting allows you to adjust the amount of red needed to change the "
 "color. The red value in each pixel is replaced by a combination of the green "
 "and almost 20% of the blue in the same pixel."
 msgstr ""
+"Bu ayar, rengi değiştirmek için gereken kırmızı miktarını ayarlamanıza "
+"olanak tanır. Her pikseldeki kırmızı değeri, aynı pikseldeki yeşil ve "
+"mavinin bir kombinasyonu ile değiştirilir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
