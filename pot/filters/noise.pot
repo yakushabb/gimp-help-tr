@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -83,8 +83,11 @@ msgstr ""
 msgid "Original image"
 msgstr ""
 
-#: src/filters/noise/spread.xml:39(para)
-msgid "Filter <quote>Spread</quote> applied"
+#: src/filters/noise/spread.xml:39(para) src/filters/noise/slur.xml:38(para)
+#: src/filters/noise/rgb-noise.xml:38(para) src/filters/noise/pick.xml:38(para)
+#: src/filters/noise/hurl.xml:38(para) src/filters/noise/hsv-noise.xml:39(para)
+#: src/filters/noise/cie-lch-noise.xml:38(para)
+msgid "Filter applied"
 msgstr ""
 
 #: src/filters/noise/spread.xml:43(para)
@@ -241,10 +244,6 @@ msgstr ""
 msgid "Example of applying the Slur filter"
 msgstr ""
 
-#: src/filters/noise/slur.xml:38(para)
-msgid "Filter <quote>Slur</quote> applied"
-msgstr ""
-
 #: src/filters/noise/slur.xml:42(para)
 msgid ""
 "Slurring produces an effect resembling melting the image downwards; if a "
@@ -316,10 +315,6 @@ msgstr ""
 
 #: src/filters/noise/rgb-noise.xml:22(title)
 msgid "Example of applying the <quote>RGB Noise</quote> filter"
-msgstr ""
-
-#: src/filters/noise/rgb-noise.xml:38(para)
-msgid "Filter <quote>RGB Noise</quote> applied"
 msgstr ""
 
 #: src/filters/noise/rgb-noise.xml:42(para)
@@ -446,10 +441,6 @@ msgstr ""
 msgid "Example of applying the <quote>Pick</quote> filter"
 msgstr ""
 
-#: src/filters/noise/pick.xml:38(para)
-msgid "Filter <quote>Pick</quote> applied"
-msgstr ""
-
 #: src/filters/noise/pick.xml:42(para)
 msgid ""
 "The Pick filter replaces each affected pixel by a pixel value randomly "
@@ -526,10 +517,6 @@ msgstr ""
 msgid "Example for the <quote>Hurl</quote> filter"
 msgstr ""
 
-#: src/filters/noise/hurl.xml:38(para)
-msgid "Filter <quote>Hurl</quote> applied"
-msgstr ""
-
 #: src/filters/noise/hurl.xml:42(para)
 msgid ""
 "The Hurl filter changes each affected pixel to a random color, so it "
@@ -590,10 +577,6 @@ msgstr ""
 
 #: src/filters/noise/hsv-noise.xml:23(title)
 msgid "Example of applying the <quote>HSV Noise</quote> filter"
-msgstr ""
-
-#: src/filters/noise/hsv-noise.xml:39(para)
-msgid "Filter <quote>HSV Noise</quote> applied"
 msgstr ""
 
 #: src/filters/noise/hsv-noise.xml:43(para)
@@ -684,10 +667,6 @@ msgstr ""
 
 #: src/filters/noise/cie-lch-noise.xml:22(title)
 msgid "Example of applying the <quote>CIE lch Noise</quote> filter"
-msgstr ""
-
-#: src/filters/noise/cie-lch-noise.xml:38(para)
-msgid "Filter <quote>CIE lch Noise</quote> applied"
 msgstr ""
 
 #: src/filters/noise/cie-lch-noise.xml:42(para)

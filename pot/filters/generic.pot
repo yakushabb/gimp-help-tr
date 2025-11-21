@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1033,7 +1033,8 @@ msgid "Original image"
 msgstr ""
 
 #: src/filters/generic/erode.xml:44(para)
-msgid "Filter <quote>Erode</quote> applied"
+#: src/filters/generic/dilate.xml:42(para)
+msgid "Filter applied"
 msgstr ""
 
 #: src/filters/generic/erode.xml:48(para)
@@ -1330,10 +1331,6 @@ msgstr ""
 #: src/filters/generic/dilate.xml:20(primary)
 #: src/filters/generic/dilate.xml:26(title)
 msgid "Dilate"
-msgstr ""
-
-#: src/filters/generic/dilate.xml:42(para)
-msgid "Filter <quote>Dilate</quote> applied"
 msgstr ""
 
 #: src/filters/generic/dilate.xml:46(para)

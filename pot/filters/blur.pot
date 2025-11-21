@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -122,11 +122,17 @@ msgid "Original image"
 msgstr ""
 
 #: src/filters/blur/zoom-motion.xml:39(para)
+#: src/filters/blur/variable-blur.xml:36(para)
+#: src/filters/blur/tileable.xml:38(para)
+#: src/filters/blur/pixelize.xml:38(para)
+#: src/filters/blur/median-blur.xml:38(para)
+#: src/filters/blur/mean-curvature-blur.xml:39(para)
 #: src/filters/blur/linear-motion.xml:38(para)
+#: src/filters/blur/lens-blur.xml:36(para)
 #: src/filters/blur/gauss_select.xml:39(para)
-#: src/filters/blur/gauss.xml:39(para)
+#: src/filters/blur/gauss.xml:39(para) src/filters/blur/focus-blur.xml:36(para)
 #: src/filters/blur/circular-motion.xml:39(para)
-msgid "Blur applied"
+msgid "Filter applied"
 msgstr ""
 
 #: src/filters/blur/zoom-motion.xml:43(para)
@@ -347,10 +353,6 @@ msgstr ""
 msgid "The Variable Blur filter"
 msgstr ""
 
-#: src/filters/blur/variable-blur.xml:36(para)
-msgid "Variable Blur applied"
-msgstr ""
-
 #: src/filters/blur/variable-blur.xml:40(para)
 msgid ""
 "Variable Blur blurs the image by a variable amount using a mask set in "
@@ -437,10 +439,6 @@ msgstr ""
 
 #: src/filters/blur/tileable.xml:22(title)
 msgid "Example for the <quote>Tileable</quote> filter"
-msgstr ""
-
-#: src/filters/blur/tileable.xml:38(para)
-msgid "Filter <quote>Tileable Blur</quote> applied"
 msgstr ""
 
 #: src/filters/blur/tileable.xml:42(para)
@@ -579,10 +577,6 @@ msgstr ""
 
 #: src/filters/blur/pixelize.xml:22(title)
 msgid "Example for the <quote>Pixelize</quote> filter"
-msgstr ""
-
-#: src/filters/blur/pixelize.xml:38(para)
-msgid "<quote>Pixelize</quote> applied"
 msgstr ""
 
 #: src/filters/blur/pixelize.xml:42(para)
@@ -781,10 +775,6 @@ msgstr ""
 
 #: src/filters/blur/median-blur.xml:22(title)
 msgid "Example for the <quote>Median Blur</quote> filter"
-msgstr ""
-
-#: src/filters/blur/median-blur.xml:38(para)
-msgid "<quote>Median Blur</quote> applied"
 msgstr ""
 
 #: src/filters/blur/median-blur.xml:47(title)
@@ -1053,10 +1043,6 @@ msgstr ""
 msgid "Example for the <quote>Mean Curvature Blur</quote> filter"
 msgstr ""
 
-#: src/filters/blur/mean-curvature-blur.xml:39(para)
-msgid "<quote>Mean Curvature Blur</quote> applied"
-msgstr ""
-
 #: src/filters/blur/mean-curvature-blur.xml:43(para)
 msgid ""
 "Regularize geometry at a speed proportional to the local mean curvature "
@@ -1214,10 +1200,6 @@ msgstr ""
 
 #: src/filters/blur/lens-blur.xml:20(title)
 msgid "The Lens Blur filter"
-msgstr ""
-
-#: src/filters/blur/lens-blur.xml:36(para)
-msgid "Lens Blur applied"
 msgstr ""
 
 #: src/filters/blur/lens-blur.xml:40(para)
@@ -1683,10 +1665,6 @@ msgstr ""
 
 #: src/filters/blur/focus-blur.xml:20(title)
 msgid "The Focus Blur filter"
-msgstr ""
-
-#: src/filters/blur/focus-blur.xml:36(para)
-msgid "Focus Blur applied"
 msgstr ""
 
 #: src/filters/blur/focus-blur.xml:40(para)

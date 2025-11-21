@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -189,7 +189,23 @@ msgid "Original image"
 msgstr ""
 
 #: src/filters/distort/wind.xml:38(para)
-msgid "Filter <quote>Wind</quote> applied"
+#: src/filters/distort/whirlpinch.xml:38(para)
+#: src/filters/distort/vpropagate.xml:35(para)
+#: src/filters/distort/video-degradation.xml:39(para)
+#: src/filters/distort/spherize.xml:37(para)
+#: src/filters/distort/shift.xml:38(para)
+#: src/filters/distort/ripple.xml:38(para)
+#: src/filters/distort/ripple.xml:102(para)
+#: src/filters/distort/polarcoords.xml:39(para)
+#: src/filters/distort/pagecurl.xml:40(para)
+#: src/filters/distort/mosaic.xml:38(para)
+#: src/filters/distort/lens-distortion.xml:40(para)
+#: src/filters/distort/engrave.xml:39(para)
+#: src/filters/distort/emboss.xml:38(para)
+#: src/filters/distort/curve_bend.xml:41(para)
+#: src/filters/distort/blinds.xml:42(para)
+#: src/filters/distort/apply_lens.xml:39(para)
+msgid "Filter applied"
 msgstr ""
 
 #: src/filters/distort/wind.xml:42(para)
@@ -565,10 +581,6 @@ msgstr ""
 msgid "Example for the Whirl and Pinch filter"
 msgstr ""
 
-#: src/filters/distort/whirlpinch.xml:38(para)
-msgid "Filter applied"
-msgstr ""
-
 #: src/filters/distort/whirlpinch.xml:42(para)
 msgid "<quote>Whirl and Pinch</quote> distorts your image in a concentric way."
 msgstr ""
@@ -716,7 +728,7 @@ msgid "Move the center of the waves"
 msgstr ""
 
 #: src/filters/distort/waves.xml:89(term)
-#: src/filters/distort/ripple.xml:110(term)
+#: src/filters/distort/ripple.xml:108(term)
 msgid "Amplitude"
 msgstr ""
 
@@ -725,7 +737,7 @@ msgid "Varies the height of the waves."
 msgstr ""
 
 #: src/filters/distort/waves.xml:95(term)
-#: src/filters/distort/ripple.xml:129(term)
+#: src/filters/distort/ripple.xml:127(term)
 #: src/filters/distort/newsprint.xml:153(term)
 msgid "Period"
 msgstr ""
@@ -741,7 +753,7 @@ msgid ""
 msgstr ""
 
 #: src/filters/distort/waves.xml:108(term)
-#: src/filters/distort/ripple.xml:148(term)
+#: src/filters/distort/ripple.xml:146(term)
 msgid "Phase shift"
 msgstr ""
 
@@ -761,13 +773,13 @@ msgstr ""
 
 #: src/filters/distort/waves.xml:123(term)
 #: src/filters/distort/spherize.xml:168(term)
-#: src/filters/distort/ripple.xml:186(term)
+#: src/filters/distort/ripple.xml:184(term)
 msgid "Resampling method"
 msgstr ""
 
 #: src/filters/distort/waves.xml:125(para)
 #: src/filters/distort/spherize.xml:170(para)
-#: src/filters/distort/ripple.xml:188(para)
+#: src/filters/distort/ripple.xml:186(para)
 msgid ""
 "These interpolation methods are described in <xref linkend=\"gimp-tool-"
 "interpolation-methods\"/>."
@@ -896,10 +908,6 @@ msgstr ""
 
 #: src/filters/distort/vpropagate.xml:19(title)
 msgid "Example for the Value Propagate filter"
-msgstr ""
-
-#: src/filters/distort/vpropagate.xml:35(para)
-msgid "Filter <quote>Value Propagate</quote> applied"
 msgstr ""
 
 #: src/filters/distort/vpropagate.xml:39(para)
@@ -1158,10 +1166,6 @@ msgstr ""
 msgid "Applying example for the <quote>Video Degradation</quote> filter"
 msgstr ""
 
-#: src/filters/distort/video-degradation.xml:39(para)
-msgid "Filter <quote>Video Degradation</quote> applied"
-msgstr ""
-
 #: src/filters/distort/video-degradation.xml:43(para)
 msgid "Apply low dot-pitch RGB simulation to the specified drawable."
 msgstr ""
@@ -1279,10 +1283,6 @@ msgstr ""
 
 #: src/filters/distort/spherize.xml:21(title)
 msgid "Spherize filter example, with default values"
-msgstr ""
-
-#: src/filters/distort/spherize.xml:37(para)
-msgid "<quote>Spherize</quote> filter applied"
 msgstr ""
 
 #: src/filters/distort/spherize.xml:41(para)
@@ -1404,10 +1404,6 @@ msgstr ""
 msgid "Example for the Shift filter"
 msgstr ""
 
-#: src/filters/distort/shift.xml:38(para)
-msgid "Filter <quote>Shift</quote> applied"
-msgstr ""
-
 #: src/filters/distort/shift.xml:42(para)
 msgid ""
 "It shifts all pixel rows, horizontally or vertically, in the current layer "
@@ -1476,7 +1472,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/ripple.xml:118(None)
+#: src/filters/distort/ripple.xml:116(None)
 msgid ""
 "@@image: 'images/filters/examples/distort/ripple-ex-ampl.png'; "
 "md5=a09b98c4ad6236f61f4e7a528bc63829"
@@ -1484,7 +1480,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/ripple.xml:137(None)
+#: src/filters/distort/ripple.xml:135(None)
 msgid ""
 "@@image: 'images/filters/examples/distort/ripple-ex-periode.png'; "
 "md5=bf3f0d9e4b0c59fcaefe2bc46039afa6"
@@ -1492,7 +1488,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/ripple.xml:156(None)
+#: src/filters/distort/ripple.xml:154(None)
 msgid ""
 "@@image: 'images/filters/examples/distort/ripple-ex-phase.png'; "
 "md5=a64f96bfce9943a394b9ac5b83afb01d"
@@ -1500,7 +1496,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/ripple.xml:175(None)
+#: src/filters/distort/ripple.xml:173(None)
 msgid ""
 "@@image: 'images/filters/examples/distort/ripple-ex-angle.png'; "
 "md5=2cc80f88f2d1fb4963ae46f9a69cbf93"
@@ -1508,7 +1504,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/distort/ripple.xml:229(None)
+#: src/filters/distort/ripple.xml:227(None)
 msgid ""
 "@@image: 'images/filters/examples/distort/ripple-ex-black.png'; "
 "md5=383c49a31353f9e7cb51308daab9ee5f"
@@ -1525,10 +1521,6 @@ msgstr ""
 
 #: src/filters/distort/ripple.xml:22(title)
 msgid "<quote>Ripple</quote> filter example"
-msgstr ""
-
-#: src/filters/distort/ripple.xml:38(para)
-msgid "Filter <quote>Ripple</quote> applied"
 msgstr ""
 
 #: src/filters/distort/ripple.xml:42(para)
@@ -1552,92 +1544,88 @@ msgstr ""
 msgid "Original images for examples"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:102(para)
-msgid "Ripple applied with default options"
-msgstr ""
-
-#: src/filters/distort/ripple.xml:112(para)
+#: src/filters/distort/ripple.xml:110(para)
 msgid "It is related to wave height (0-200 pixels)."
 msgstr ""
 
-#: src/filters/distort/ripple.xml:121(para)
+#: src/filters/distort/ripple.xml:119(para)
 msgid "Amplitude = 25"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:131(para)
+#: src/filters/distort/ripple.xml:129(para)
 msgid "It is related to wavelength (0-200 pixels)"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:140(para)
+#: src/filters/distort/ripple.xml:138(para)
 msgid "Period = 110"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:150(para)
+#: src/filters/distort/ripple.xml:148(para)
 msgid "Wave is moved"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:159(para)
+#: src/filters/distort/ripple.xml:157(para)
 msgid "Phase shift = 0.400"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:167(term)
+#: src/filters/distort/ripple.xml:165(term)
 #: src/filters/distort/newsprint.xml:162(term)
 msgid "Angle"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:169(para)
+#: src/filters/distort/ripple.xml:167(para)
 msgid "Warps wave"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:178(para)
+#: src/filters/distort/ripple.xml:176(para)
 msgid "Angle = -40°"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:195(term)
+#: src/filters/distort/ripple.xml:193(term)
 msgid "Wave type"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:197(para)
+#: src/filters/distort/ripple.xml:195(para)
 msgid "Choose how the wave should look like:"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:203(guilabel)
+#: src/filters/distort/ripple.xml:201(guilabel)
 msgid "Sawtooth"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:208(guilabel)
+#: src/filters/distort/ripple.xml:206(guilabel)
 msgid "Triangle"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:213(guilabel)
+#: src/filters/distort/ripple.xml:211(guilabel)
 msgid "Sine"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:220(term)
+#: src/filters/distort/ripple.xml:218(term)
 msgid "Abyss policy"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:222(para)
+#: src/filters/distort/ripple.xml:220(para)
 msgid ""
 "Because ripples cause pixel displacement, some pixels may be missing on the "
 "image sides:"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:232(para)
+#: src/filters/distort/ripple.xml:230(para)
 msgid "Abyss policy = Black"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:237(para)
+#: src/filters/distort/ripple.xml:235(para)
 msgid ""
 "Abyss policy (border management) is treated with <xref linkend=\"abyss-"
 "policy\"/>."
 msgstr ""
 
-#: src/filters/distort/ripple.xml:244(term)
+#: src/filters/distort/ripple.xml:242(term)
 msgid "Tileable"
 msgstr ""
 
-#: src/filters/distort/ripple.xml:246(para)
+#: src/filters/distort/ripple.xml:244(para)
 msgid "This preserves the seamless properties if your image is a tile pattern."
 msgstr ""
 
@@ -1681,10 +1669,6 @@ msgstr ""
 
 #: src/filters/distort/polarcoords.xml:23(title)
 msgid "Example for Polar Coordinates filter"
-msgstr ""
-
-#: src/filters/distort/polarcoords.xml:39(para)
-msgid "<quote>Polar Coordinates</quote> filter applied"
 msgstr ""
 
 #: src/filters/distort/polarcoords.xml:43(para)
@@ -1820,10 +1804,6 @@ msgstr ""
 
 #: src/filters/distort/pagecurl.xml:24(title)
 msgid "Example for the Page Curl filter"
-msgstr ""
-
-#: src/filters/distort/pagecurl.xml:40(para)
-msgid "Filter <quote>Page Curl</quote> applied"
 msgstr ""
 
 #: src/filters/distort/pagecurl.xml:44(para)
@@ -2140,10 +2120,6 @@ msgstr ""
 msgid "Applying example for the <quote>Mosaic</quote> filter"
 msgstr ""
 
-#: src/filters/distort/mosaic.xml:38(para)
-msgid "Filter <quote>Mosaic</quote> applied"
-msgstr ""
-
 #: src/filters/distort/mosaic.xml:42(para)
 msgid ""
 "It cuts the active layer or selection into many squares or polygons which "
@@ -2428,10 +2404,6 @@ msgstr ""
 
 #: src/filters/distort/lens-distortion.xml:24(title)
 msgid "Example for the <quote>Lens Distortion</quote> filter"
-msgstr ""
-
-#: src/filters/distort/lens-distortion.xml:40(para)
-msgid "<quote>Lens Distortion</quote> applied"
 msgstr ""
 
 #: src/filters/distort/lens-distortion.xml:44(para)
@@ -2811,10 +2783,6 @@ msgstr ""
 msgid "Example for the <quote>Engrave</quote> filter"
 msgstr ""
 
-#: src/filters/distort/engrave.xml:39(para)
-msgid "<quote>Engrave</quote> applied"
-msgstr ""
-
 #: src/filters/distort/engrave.xml:43(para)
 msgid ""
 "This filter produces an engraving effect: the image is turned black and "
@@ -2891,10 +2859,6 @@ msgstr ""
 
 #: src/filters/distort/emboss.xml:22(title)
 msgid "Applying example for the Emboss filter"
-msgstr ""
-
-#: src/filters/distort/emboss.xml:38(para)
-msgid "Filter <quote>Emboss</quote> applied"
 msgstr ""
 
 #: src/filters/distort/emboss.xml:42(para)
@@ -2991,10 +2955,6 @@ msgstr ""
 
 #: src/filters/distort/curve_bend.xml:25(title)
 msgid "Applying example for the Curve Bend filter"
-msgstr ""
-
-#: src/filters/distort/curve_bend.xml:41(para)
-msgid "Filter <quote>Curve Bend</quote> applied"
 msgstr ""
 
 #: src/filters/distort/curve_bend.xml:45(para)
@@ -3213,10 +3173,6 @@ msgstr ""
 msgid "Applying example for the Blinds filter"
 msgstr ""
 
-#: src/filters/distort/blinds.xml:42(para)
-msgid "Filter <quote>Blinds</quote> applied"
-msgstr ""
-
 #: src/filters/distort/blinds.xml:46(para)
 msgid ""
 "It generates a blind effect with horizontal or vertical battens. You can "
@@ -3304,10 +3260,6 @@ msgstr ""
 
 #: src/filters/distort/apply_lens.xml:23(title)
 msgid "The same image, before and after applying lens effect."
-msgstr ""
-
-#: src/filters/distort/apply_lens.xml:39(para)
-msgid "Filter <quote>Apply lens</quote> applied"
 msgstr ""
 
 #: src/filters/distort/apply_lens.xml:43(para)

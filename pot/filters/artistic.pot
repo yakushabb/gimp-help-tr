@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -130,7 +130,16 @@ msgid "Original image"
 msgstr ""
 
 #: src/filters/artistic/weave.xml:38(para)
-msgid "Filter <quote>Weave</quote> applied"
+#: src/filters/artistic/waterpixels.xml:40(para)
+#: src/filters/artistic/softglow.xml:38(para)
+#: src/filters/artistic/photocopy.xml:38(para)
+#: src/filters/artistic/oilify.xml:38(para)
+#: src/filters/artistic/glasstile.xml:41(para)
+#: src/filters/artistic/cubism.xml:38(para)
+#: src/filters/artistic/cartoon.xml:38(para)
+#: src/filters/artistic/applycanvas.xml:42(para)
+#: src/filters/artistic/GIMPressionist.xml:42(para)
+msgid "Filter applied"
 msgstr ""
 
 #: src/filters/artistic/weave.xml:42(para)
@@ -338,10 +347,6 @@ msgstr ""
 
 #: src/filters/artistic/waterpixels.xml:24(title)
 msgid "Example for the <quote>Waterpixels</quote> filter"
-msgstr ""
-
-#: src/filters/artistic/waterpixels.xml:40(para)
-msgid "Filter <quote>Waterpixels</quote> applied"
 msgstr ""
 
 #: src/filters/artistic/waterpixels.xml:44(para)
@@ -867,10 +872,6 @@ msgstr ""
 msgid "Example for the <quote>Softglow</quote> filter"
 msgstr ""
 
-#: src/filters/artistic/softglow.xml:38(para)
-msgid "Filter <quote>Softglow</quote> applied"
-msgstr ""
-
 #: src/filters/artistic/softglow.xml:42(para)
 msgid ""
 "This filter lights the image with a soft glow, like the old trick smearing "
@@ -1097,10 +1098,6 @@ msgstr ""
 msgid "Example for the <quote>Photocopy</quote> filter"
 msgstr ""
 
-#: src/filters/artistic/photocopy.xml:38(para)
-msgid "Filter <quote>Photocopy</quote> applied"
-msgstr ""
-
 #: src/filters/artistic/photocopy.xml:42(para)
 msgid ""
 "The Photocopy filter modifies the active layer or selection so that it looks "
@@ -1196,10 +1193,6 @@ msgstr ""
 
 #: src/filters/artistic/oilify.xml:22(title)
 msgid "Example for the <quote>Oilify</quote> filter"
-msgstr ""
-
-#: src/filters/artistic/oilify.xml:38(para)
-msgid "Filter <quote>Oilify</quote> applied"
 msgstr ""
 
 #: src/filters/artistic/oilify.xml:42(para)
@@ -1321,10 +1314,6 @@ msgstr ""
 msgid "The same image, before and after applying glass tile effect."
 msgstr ""
 
-#: src/filters/artistic/glasstile.xml:41(para)
-msgid "Filter <quote>Glass Tile</quote> applied"
-msgstr ""
-
 #: src/filters/artistic/glasstile.xml:45(para)
 msgid ""
 "After applying this filter, the active layer or selection is rendered as "
@@ -1385,10 +1374,6 @@ msgstr ""
 
 #: src/filters/artistic/cubism.xml:22(title)
 msgid "Example for the <quote>Cubism</quote>"
-msgstr ""
-
-#: src/filters/artistic/cubism.xml:38(para)
-msgid "Filter <quote>Cubism</quote> applied"
 msgstr ""
 
 #: src/filters/artistic/cubism.xml:42(para)
@@ -1647,10 +1632,6 @@ msgstr ""
 msgid "Example for the <quote>Cartoon</quote> filter"
 msgstr ""
 
-#: src/filters/artistic/cartoon.xml:38(para)
-msgid "Filter <quote>Cartoon</quote> applied"
-msgstr ""
-
 #: src/filters/artistic/cartoon.xml:42(para)
 msgid ""
 "The Cartoon filter modifies the active layer or selection so that it looks "
@@ -1723,10 +1704,6 @@ msgstr ""
 
 #: src/filters/artistic/applycanvas.xml:26(title)
 msgid "Example for the <quote>Apply Canvas</quote> filter"
-msgstr ""
-
-#: src/filters/artistic/applycanvas.xml:42(para)
-msgid "Filter <quote>Apply Canvas</quote> applied"
 msgstr ""
 
 #: src/filters/artistic/applycanvas.xml:46(para)
@@ -1848,10 +1825,6 @@ msgstr ""
 
 #: src/filters/artistic/GIMPressionist.xml:26(title)
 msgid "Example for the <quote>GIMPressionist</quote> filter"
-msgstr ""
-
-#: src/filters/artistic/GIMPressionist.xml:42(para)
-msgid "Filter <quote>GIMPressionist</quote> applied"
 msgstr ""
 
 #: src/filters/artistic/GIMPressionist.xml:46(para)

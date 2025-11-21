@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -186,7 +186,7 @@ msgstr ""
 #: src/filters/map/tile-seamless.xml:49(title)
 #: src/filters/map/smalltiles.xml:56(title)
 #: src/filters/map/recursive-transform.xml:156(title)
-#: src/filters/map/papertile.xml:53(title)
+#: src/filters/map/papertile.xml:51(title)
 #: src/filters/map/panorama-projection.xml:34(title)
 #: src/filters/map/map-object.xml:59(title)
 #: src/filters/map/little-planet.xml:31(title)
@@ -207,7 +207,7 @@ msgstr ""
 #: src/filters/map/tile-seamless.xml:61(title)
 #: src/filters/map/smalltiles.xml:68(title)
 #: src/filters/map/recursive-transform.xml:168(title)
-#: src/filters/map/papertile.xml:65(title)
+#: src/filters/map/papertile.xml:63(title)
 #: src/filters/map/panorama-projection.xml:46(title)
 #: src/filters/map/map-object.xml:71(title)
 #: src/filters/map/little-planet.xml:43(title)
@@ -607,7 +607,15 @@ msgid "An example of Tile Seamless."
 msgstr ""
 
 #: src/filters/map/tile-seamless.xml:37(para)
-msgid "Tile Seamless applied"
+#: src/filters/map/smalltiles.xml:40(para)
+#: src/filters/map/papertile.xml:39(para)
+#: src/filters/map/map-object.xml:42(para)
+#: src/filters/map/little-planet.xml:158(para)
+#: src/filters/map/little-planet.xml:288(para)
+#: src/filters/map/illusion.xml:41(para)
+#: src/filters/map/fractal-trace.xml:41(para)
+#: src/filters/map/displace.xml:482(para)
+msgid "Filter applied"
 msgstr ""
 
 #: src/filters/map/tile-seamless.xml:41(para)
@@ -630,7 +638,7 @@ msgstr ""
 
 #: src/filters/map/tile-seamless.xml:73(term)
 #: src/filters/map/recursive-transform.xml:180(term)
-#: src/filters/map/papertile.xml:77(term)
+#: src/filters/map/papertile.xml:75(term)
 #: src/filters/map/little-planet.xml:56(term)
 #: src/filters/map/illusion.xml:77(term)
 #: src/filters/map/fractal-trace.xml:77(term)
@@ -640,7 +648,7 @@ msgstr ""
 
 #: src/filters/map/tile-seamless.xml:74(quote)
 #: src/filters/map/recursive-transform.xml:181(quote)
-#: src/filters/map/papertile.xml:78(quote)
+#: src/filters/map/papertile.xml:76(quote)
 #: src/filters/map/little-planet.xml:57(quote)
 #: src/filters/map/illusion.xml:78(quote)
 #: src/filters/map/fractal-trace.xml:78(quote)
@@ -651,7 +659,7 @@ msgstr ""
 
 #: src/filters/map/tile-seamless.xml:75(term)
 #: src/filters/map/recursive-transform.xml:182(term)
-#: src/filters/map/papertile.xml:79(term)
+#: src/filters/map/papertile.xml:77(term)
 #: src/filters/map/little-planet.xml:58(term)
 #: src/filters/map/illusion.xml:79(term)
 #: src/filters/map/fractal-trace.xml:79(term)
@@ -661,7 +669,7 @@ msgstr ""
 
 #: src/filters/map/tile-seamless.xml:76(term)
 #: src/filters/map/recursive-transform.xml:183(term)
-#: src/filters/map/papertile.xml:80(term)
+#: src/filters/map/papertile.xml:78(term)
 #: src/filters/map/little-planet.xml:59(term)
 #: src/filters/map/illusion.xml:80(term)
 #: src/filters/map/fractal-trace.xml:80(term)
@@ -671,7 +679,7 @@ msgstr ""
 
 #: src/filters/map/tile-seamless.xml:77(term)
 #: src/filters/map/recursive-transform.xml:184(term)
-#: src/filters/map/papertile.xml:81(term)
+#: src/filters/map/papertile.xml:79(term)
 #: src/filters/map/map-object.xml:74(title)
 #: src/filters/map/little-planet.xml:60(term)
 #: src/filters/map/illusion.xml:81(term)
@@ -682,7 +690,7 @@ msgstr ""
 
 #: src/filters/map/tile-seamless.xml:78(term)
 #: src/filters/map/recursive-transform.xml:185(term)
-#: src/filters/map/papertile.xml:82(term)
+#: src/filters/map/papertile.xml:80(term)
 #: src/filters/map/little-planet.xml:61(term)
 #: src/filters/map/illusion.xml:82(term)
 #: src/filters/map/fractal-trace.xml:82(term)
@@ -692,7 +700,7 @@ msgstr ""
 
 #: src/filters/map/tile-seamless.xml:79(term)
 #: src/filters/map/recursive-transform.xml:186(term)
-#: src/filters/map/papertile.xml:83(term)
+#: src/filters/map/papertile.xml:81(term)
 #: src/filters/map/little-planet.xml:62(term)
 #: src/filters/map/illusion.xml:83(term)
 #: src/filters/map/fractal-trace.xml:83(term)
@@ -724,10 +732,6 @@ msgstr ""
 
 #: src/filters/map/smalltiles.xml:24(title)
 msgid "Example for the <quote>Small Tiles</quote> filter"
-msgstr ""
-
-#: src/filters/map/smalltiles.xml:40(para)
-msgid "<quote>Small Tiles</quote> applied"
 msgstr ""
 
 #: src/filters/map/smalltiles.xml:44(para)
@@ -1108,7 +1112,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/map/papertile.xml:71(None)
+#: src/filters/map/papertile.xml:69(None)
 msgid ""
 "@@image: 'images/filters/map/paper_tile-dialog.png'; "
 "md5=adf5cf7297b58d9d03f4255b97ca8265"
@@ -1124,169 +1128,165 @@ msgstr ""
 msgid "<quote>Papertile</quote> filter example."
 msgstr ""
 
-#: src/filters/map/papertile.xml:39(para)
-msgid "Filter <quote>Papertile</quote> applied"
-msgstr ""
-
-#: src/filters/map/papertile.xml:45(para)
+#: src/filters/map/papertile.xml:43(para)
 msgid ""
 "This filter cuts the image (active layer or selection) into several pieces, "
 "with square form, and then slides them so that they, more or less, overlap "
 "or move apart. They can go out image borders a little."
 msgstr ""
 
-#: src/filters/map/papertile.xml:54(para)
+#: src/filters/map/papertile.xml:52(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Paper Tile…</guimenuitem></"
 "menuchoice>."
 msgstr ""
 
-#: src/filters/map/papertile.xml:67(title)
+#: src/filters/map/papertile.xml:65(title)
 msgid "<quote>Paper Tile</quote> filter options"
 msgstr ""
 
-#: src/filters/map/papertile.xml:89(term)
+#: src/filters/map/papertile.xml:87(term)
 msgid "Tile Width"
 msgstr ""
 
-#: src/filters/map/papertile.xml:90(term)
+#: src/filters/map/papertile.xml:88(term)
 msgid "Tile Height"
 msgstr ""
 
-#: src/filters/map/papertile.xml:92(para)
+#: src/filters/map/papertile.xml:90(para)
 msgid ""
 "Filter starts cutting image before it displaces pieces; so, piece size and "
 "number of pieces in horizontal (Width) and vertical (Height) directions must "
 "be convenient to image size."
 msgstr ""
 
-#: src/filters/map/papertile.xml:97(para)
+#: src/filters/map/papertile.xml:95(para)
 msgid "When these options are linked, tiles are square."
 msgstr ""
 
-#: src/filters/map/papertile.xml:103(term)
+#: src/filters/map/papertile.xml:101(term)
 msgid "Move rate"
 msgstr ""
 
-#: src/filters/map/papertile.xml:105(para)
+#: src/filters/map/papertile.xml:103(para)
 msgid ""
 "This is the maximum displacement percentage against the side size of squares."
 msgstr ""
 
-#: src/filters/map/papertile.xml:112(term)
+#: src/filters/map/papertile.xml:110(term)
 msgid "Wrap around"
 msgstr ""
 
-#: src/filters/map/papertile.xml:114(para)
+#: src/filters/map/papertile.xml:112(para)
 msgid ""
 "As tiles move, some can go out image borders. If this option is checked, "
 "what goes out on one side goes in on the opposite side."
 msgstr ""
 
-#: src/filters/map/papertile.xml:122(term)
+#: src/filters/map/papertile.xml:120(term)
 msgid "Fractional type"
 msgstr ""
 
-#: src/filters/map/papertile.xml:124(para)
+#: src/filters/map/papertile.xml:122(para)
 msgid ""
 "Because of image cutting, original pixels can persist. There are three ways "
 "treating them:"
 msgstr ""
 
-#: src/filters/map/papertile.xml:130(term)
+#: src/filters/map/papertile.xml:128(term)
 msgid "Force"
 msgstr ""
 
-#: src/filters/map/papertile.xml:132(para)
+#: src/filters/map/papertile.xml:130(para)
 msgid "Remaining pixels will be cut also."
 msgstr ""
 
-#: src/filters/map/papertile.xml:138(term)
+#: src/filters/map/papertile.xml:136(term)
 msgid "Ignore"
 msgstr ""
 
-#: src/filters/map/papertile.xml:140(para)
+#: src/filters/map/papertile.xml:138(para)
 msgid ""
 "<guilabel>Background Type</guilabel> option is not taken into account and "
 "remaining pixels are kept."
 msgstr ""
 
-#: src/filters/map/papertile.xml:147(term)
+#: src/filters/map/papertile.xml:145(term)
 msgid "Background"
 msgstr ""
 
-#: src/filters/map/papertile.xml:149(para)
+#: src/filters/map/papertile.xml:147(para)
 msgid ""
 "Remaining pixels will be replaced with the background type defined in the "
 "following section."
 msgstr ""
 
-#: src/filters/map/papertile.xml:159(term)
+#: src/filters/map/papertile.xml:157(term)
 msgid "Centering"
 msgstr ""
 
-#: src/filters/map/papertile.xml:161(para)
+#: src/filters/map/papertile.xml:159(para)
 msgid ""
 "If this option is checked, tiles will rather be gathered together in the "
 "center of the image."
 msgstr ""
 
-#: src/filters/map/papertile.xml:168(term)
+#: src/filters/map/papertile.xml:166(term)
 msgid "Background Type"
 msgstr ""
 
-#: src/filters/map/papertile.xml:170(para)
+#: src/filters/map/papertile.xml:168(para)
 msgid ""
 "You can select the background type which will be used, if the "
 "<guilabel>Background</guilabel> radio-button is checked, among six options:"
 msgstr ""
 
-#: src/filters/map/papertile.xml:177(term)
+#: src/filters/map/papertile.xml:175(term)
 msgid "Inverted image"
 msgstr ""
 
-#: src/filters/map/papertile.xml:179(para)
+#: src/filters/map/papertile.xml:177(para)
 msgid "Background colors will be inverted (255-value in every color channel)."
 msgstr ""
 
-#: src/filters/map/papertile.xml:186(term)
+#: src/filters/map/papertile.xml:184(term)
 msgid "Transparent"
 msgstr ""
 
-#: src/filters/map/papertile.xml:188(para)
+#: src/filters/map/papertile.xml:186(para)
 msgid "Background will be transparent."
 msgstr ""
 
-#: src/filters/map/papertile.xml:194(term)
+#: src/filters/map/papertile.xml:192(term)
 msgid "Image"
 msgstr ""
 
-#: src/filters/map/papertile.xml:196(para)
+#: src/filters/map/papertile.xml:194(para)
 msgid ""
 "Background colors will be unchanged. The original image is the background."
 msgstr ""
 
-#: src/filters/map/papertile.xml:203(term)
+#: src/filters/map/papertile.xml:201(term)
 msgid "Color"
 msgstr ""
 
-#: src/filters/map/papertile.xml:205(para)
+#: src/filters/map/papertile.xml:203(para)
 msgid ""
 "Remaining pixels will be replaced by the color you can select. Default is "
 "the Foreground color of toolbox. You can choose another color using the "
 "color button or the color picker."
 msgstr ""
 
-#: src/filters/map/papertile.xml:217(term)
+#: src/filters/map/papertile.xml:215(term)
 msgid "Random seed"
 msgstr ""
 
-#: src/filters/map/papertile.xml:218(term)
+#: src/filters/map/papertile.xml:216(term)
 msgid "New Seed"
 msgstr ""
 
-#: src/filters/map/papertile.xml:220(para)
+#: src/filters/map/papertile.xml:218(para)
 msgid ""
 "This option controls the randomness of the filter. The <guilabel>Random "
 "seed</guilabel> box lets you manually enter a seed for the randomization "
@@ -1507,10 +1507,6 @@ msgstr ""
 
 #: src/filters/map/map-object.xml:24(title)
 msgid "The <quote>Map Object</quote> filter applied to a photograph"
-msgstr ""
-
-#: src/filters/map/map-object.xml:42(para)
-msgid "<quote>Map Object</quote> applied"
 msgstr ""
 
 #: src/filters/map/map-object.xml:46(para)
@@ -2110,11 +2106,6 @@ msgid ""
 "the horizon perfectly horizontal, the vanishing perspective."
 msgstr ""
 
-#: src/filters/map/little-planet.xml:158(para)
-#: src/filters/map/little-planet.xml:288(para)
-msgid "Filter applied"
-msgstr ""
-
 #: src/filters/map/little-planet.xml:166(title)
 msgid "Using Little Planet filter with a normal image"
 msgstr ""
@@ -2276,10 +2267,6 @@ msgstr ""
 msgid "Illusion"
 msgstr ""
 
-#: src/filters/map/illusion.xml:41(para)
-msgid "Filter <quote>Illusion</quote> applied"
-msgstr ""
-
 #: src/filters/map/illusion.xml:45(para)
 msgid ""
 "With this filter, your image (active layer or selection) looks like a "
@@ -2344,10 +2331,6 @@ msgstr ""
 
 #: src/filters/map/fractal-trace.xml:19(primary)
 msgid "Fractal trace"
-msgstr ""
-
-#: src/filters/map/fractal-trace.xml:41(para)
-msgid "Filter <quote>Fractal Trace</quote> applied"
 msgstr ""
 
 #: src/filters/map/fractal-trace.xml:45(para)
@@ -2550,7 +2533,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/map/displace.xml:549(None)
+#: src/filters/map/displace.xml:547(None)
 msgid ""
 "@@image: 'images/filters/examples/map-displace8.png'; "
 "md5=bcbdf325a5e9f8ea501716beb28d4e9c"
@@ -2909,10 +2892,6 @@ msgid ""
 "linkend=\"gimp-layer-resize-to-image\">Layers to Image Size</link>."
 msgstr ""
 
-#: src/filters/map/displace.xml:482(para)
-msgid "Displace filter applied."
-msgstr ""
-
 #: src/filters/map/displace.xml:472(para)
 msgid ""
 "Open the <quote>Displace</quote> filter. Click on the <guibutton>Aux</"
@@ -2920,49 +2899,49 @@ msgid ""
 "panel. <placeholder-1/>"
 msgstr ""
 
-#: src/filters/map/displace.xml:492(title)
+#: src/filters/map/displace.xml:490(title)
 msgid "Displacement Calculation"
 msgstr ""
 
-#: src/filters/map/displace.xml:493(para)
+#: src/filters/map/displace.xml:491(para)
 msgid ""
 "The following section will show you how to calculate the amount of "
 "displacement, if you are interested in these details. If you don't want to "
 "know it, you can safely omit this section."
 msgstr ""
 
-#: src/filters/map/displace.xml:498(para)
+#: src/filters/map/displace.xml:496(para)
 msgid ""
 "The overview example showed the horizontal displacement using a coefficient "
 "of 30.0: 19, 8, 4, or 15 pixels, depending on the gray level of the "
 "displacement map's color."
 msgstr ""
 
-#: src/filters/map/displace.xml:503(para)
+#: src/filters/map/displace.xml:501(para)
 msgid "Why just these amounts? That's easy:"
 msgstr ""
 
-#: src/filters/map/displace.xml:506(alt)
+#: src/filters/map/displace.xml:504(alt)
 msgid "$30.0 * \\frac{I - 127.5}{127.5} = D$"
 msgstr ""
 
-#: src/filters/map/displace.xml:512(alt)
+#: src/filters/map/displace.xml:510(alt)
 msgid "$30.0 * \\frac{210 - 127.5}{127.5} = 19$"
 msgstr ""
 
-#: src/filters/map/displace.xml:518(alt)
+#: src/filters/map/displace.xml:516(alt)
 msgid "$30.0 * \\frac{(160 - 127.5)}{127.5} = 8$"
 msgstr ""
 
-#: src/filters/map/displace.xml:524(alt)
+#: src/filters/map/displace.xml:522(alt)
 msgid "$30.0 * \\frac{(110 - 127.5)}{127.5} = -4$"
 msgstr ""
 
-#: src/filters/map/displace.xml:530(alt)
+#: src/filters/map/displace.xml:528(alt)
 msgid "$30.0 * \\frac{(60 - 127.5)}{127.5} = -15$"
 msgstr ""
 
-#: src/filters/map/displace.xml:534(para)
+#: src/filters/map/displace.xml:532(para)
 msgid ""
 "If you check these equations, you will notice that the values they give are "
 "not exactly the results we retained in the example (using non-integers, "
@@ -2973,15 +2952,15 @@ msgid ""
 "at the example image will show it:"
 msgstr ""
 
-#: src/filters/map/displace.xml:545(title)
+#: src/filters/map/displace.xml:543(title)
 msgid "A closer look at the displacement example"
 msgstr ""
 
-#: src/filters/map/displace.xml:552(para)
+#: src/filters/map/displace.xml:550(para)
 msgid "A small area zoomed in by 800 percent."
 msgstr ""
 
-#: src/filters/map/displace.xml:556(para)
+#: src/filters/map/displace.xml:554(para)
 msgid ""
 "The displacement causes small (one pixel wide) areas of intermediate colors "
 "at the edges of plain color areas. E.g., the black area (zoomed in image) is "
@@ -2989,7 +2968,7 @@ msgid ""
 "and 88% gold."
 msgstr ""
 
-#: src/filters/map/displace.xml:562(para)
+#: src/filters/map/displace.xml:560(para)
 msgid ""
 "So if you select a displacement coefficient of 30.01 instead of 30.00, you "
 "will indeed get a different image, although you won't see the difference, of "

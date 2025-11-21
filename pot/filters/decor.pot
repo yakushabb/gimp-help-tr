@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-21 21:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,7 +221,15 @@ msgid "Example for the <quote>Slide</quote> filter"
 msgstr ""
 
 #: src/filters/decor/slide.xml:41(para)
-msgid "<quote>Slide</quote> applied"
+#: src/filters/decor/round-corners.xml:41(para)
+#: src/filters/decor/old-photo.xml:41(para)
+#: src/filters/decor/fuzzyborder.xml:41(para)
+#: src/filters/decor/fog.xml:38(para) src/filters/decor/chrome-it.xml:36(para)
+#: src/filters/decor/carve-it.xml:43(para)
+#: src/filters/decor/addborder.xml:41(para)
+#: src/filters/decor/add-bevel.xml:43(para)
+#: src/filters/decor/add-bevel.xml:78(para)
+msgid "Filter applied"
 msgstr ""
 
 #: src/filters/decor/slide.xml:45(para)
@@ -388,10 +396,6 @@ msgstr ""
 
 #: src/filters/decor/round-corners.xml:25(title)
 msgid "Example for the <quote>Round Corners</quote> filter"
-msgstr ""
-
-#: src/filters/decor/round-corners.xml:41(para)
-msgid "<quote>Round Corners</quote> applied"
 msgstr ""
 
 #: src/filters/decor/round-corners.xml:45(para)
@@ -575,10 +579,6 @@ msgstr ""
 
 #: src/filters/decor/old-photo.xml:25(title)
 msgid "Example for the <quote>Old Photo</quote> filter"
-msgstr ""
-
-#: src/filters/decor/old-photo.xml:41(para)
-msgid "<quote>Old Photo</quote> applied"
 msgstr ""
 
 #: src/filters/decor/old-photo.xml:45(para)
@@ -790,10 +790,6 @@ msgstr ""
 msgid "Example for the <quote>Fuzzy Border</quote> filter"
 msgstr ""
 
-#: src/filters/decor/fuzzyborder.xml:41(para)
-msgid "<quote>Fuzzy Border</quote> applied"
-msgstr ""
-
 #: src/filters/decor/fuzzyborder.xml:45(para)
 msgid ""
 "This filter adds a cool fading border to an image. The border will look "
@@ -957,10 +953,6 @@ msgstr ""
 msgid "Example for the <quote>Fog</quote> filter"
 msgstr ""
 
-#: src/filters/decor/fog.xml:38(para)
-msgid "<quote>Fog</quote> applied"
-msgstr ""
-
 #: src/filters/decor/fog.xml:43(para)
 msgid ""
 "This filter adds a new layer with some clouds to the image that look like "
@@ -1108,10 +1100,6 @@ msgstr ""
 
 #: src/filters/decor/chrome-it.xml:20(title)
 msgid "Example for the <quote>Stencil Chrome</quote> filter"
-msgstr ""
-
-#: src/filters/decor/chrome-it.xml:36(para)
-msgid "<quote>Stencil Chrome</quote> applied"
 msgstr ""
 
 #: src/filters/decor/chrome-it.xml:40(para)
@@ -1399,10 +1387,6 @@ msgstr ""
 msgid "Example for the <quote>Stencil Carve</quote> filter"
 msgstr ""
 
-#: src/filters/decor/carve-it.xml:43(para)
-msgid "<quote>Stencil Carve</quote> applied"
-msgstr ""
-
 #: src/filters/decor/carve-it.xml:47(para)
 msgid ""
 "This filter works with two images, source and target. The source image must "
@@ -1536,10 +1520,6 @@ msgstr ""
 
 #: src/filters/decor/addborder.xml:25(title)
 msgid "Example for the <quote>Add Border</quote> filter"
-msgstr ""
-
-#: src/filters/decor/addborder.xml:41(para)
-msgid "Border added"
 msgstr ""
 
 #: src/filters/decor/addborder.xml:45(para)
@@ -1726,10 +1706,6 @@ msgstr ""
 msgid "Original image, the colored rectangle is selected"
 msgstr ""
 
-#: src/filters/decor/add-bevel.xml:43(para)
-msgid "<quote>Add Bevel</quote> applied"
-msgstr ""
-
 #: src/filters/decor/add-bevel.xml:47(para)
 msgid ""
 "This filter adds a slight bevel to an image using a <link linkend=\"gimp-"
@@ -1743,10 +1719,6 @@ msgstr ""
 
 #: src/filters/decor/add-bevel.xml:69(para)
 msgid "Bumpmap"
-msgstr ""
-
-#: src/filters/decor/add-bevel.xml:78(para)
-msgid "Filter applied"
 msgstr ""
 
 #: src/filters/decor/add-bevel.xml:92(para)
