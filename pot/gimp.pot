@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-21 21:36+0000\n"
+"POT-Creation-Date: 2025-11-23 19:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -765,7 +765,7 @@ msgid "Transform, Offset: shift the pixels in the layer"
 msgstr ""
 
 #: src/key-reference.xml:701(refentrytitle) src/key-reference.xml:704(refname)
-#: src/key-reference.xml:710(title) src/gimp.xml:162(title)
+#: src/key-reference.xml:710(title) src/gimp.xml:163(title)
 msgid "Tools"
 msgstr ""
 
@@ -1120,7 +1120,7 @@ msgid "Click on the colors to change the colors."
 msgstr ""
 
 #: src/key-reference.xml:983(refentrytitle) src/key-reference.xml:986(refname)
-#: src/key-reference.xml:992(title) src/gimp.xml:195(title)
+#: src/key-reference.xml:992(title) src/gimp.xml:196(title)
 msgid "Filters"
 msgstr ""
 
@@ -1670,35 +1670,35 @@ msgstr ""
 msgid "Combining Images"
 msgstr ""
 
-#: src/gimp.xml:132(title)
+#: src/gimp.xml:133(title)
 msgid "Text Management"
 msgstr ""
 
-#: src/gimp.xml:137(title)
+#: src/gimp.xml:138(title)
 msgid "Enhancing Photographs"
 msgstr ""
 
-#: src/gimp.xml:141(title)
+#: src/gimp.xml:142(title)
 msgid "Color Management with GIMP"
 msgstr ""
 
-#: src/gimp.xml:145(title)
+#: src/gimp.xml:146(title)
 msgid "Enrich my GIMP"
 msgstr ""
 
-#: src/gimp.xml:152(title)
+#: src/gimp.xml:153(title)
 msgid "Scripting and writing plug-ins"
 msgstr ""
 
-#: src/gimp.xml:160(title)
+#: src/gimp.xml:161(title)
 msgid "Function Reference"
 msgstr ""
 
-#: src/gimp.xml:170(title)
+#: src/gimp.xml:171(title)
 msgid "Dialogs"
 msgstr ""
 
-#: src/gimp.xml:180(title)
+#: src/gimp.xml:181(title)
 msgid "Menus"
 msgstr ""
 

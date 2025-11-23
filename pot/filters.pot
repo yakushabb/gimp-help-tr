@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2025-11-21 21:36+0000\n"
+"POT-Creation-Date: 2025-11-23 19:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -295,22 +295,28 @@ msgstr ""
 
 #: src/filters/common-features.xml:204(para)
 msgid ""
+"See <link linkend=\"gimp-using-layer-effects\">Using Layer Effects</link> "
+"for more details."
+msgstr ""
+
+#: src/filters/common-features.xml:208(para)
+msgid ""
 "This option is remembered, so you only need to change it once if you prefer "
 "to always use filters destructively."
 msgstr ""
 
-#: src/filters/common-features.xml:212(term)
+#: src/filters/common-features.xml:216(term)
 msgid "Split view"
 msgstr ""
 
-#: src/filters/common-features.xml:214(para)
+#: src/filters/common-features.xml:218(para)
 msgid ""
 "When this option is enabled, the view of the image is divided in two parts. "
 "On the left side it shows the effect of the filter applied, and on the right "
 "side it shows the image without filter."
 msgstr ""
 
-#: src/filters/common-features.xml:220(para)
+#: src/filters/common-features.xml:224(para)
 msgid ""
 "You can click-and-drag the line that divides the preview to move it, and "
 "<keycap>Ctrl</keycap>-click to make the line horizontal, or to switch it "
