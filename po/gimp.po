@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-help master\n"
-"POT-Creation-Date: 2025-11-09 16:57+0000\n"
+"POT-Creation-Date: 2025-11-23 19:04+0000\n"
 "PO-Revision-Date: 2025-11-09 22:53+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -819,7 +819,7 @@ msgid "Transform, Offset: shift the pixels in the layer"
 msgstr "Dönüştür, Ofset: katmandaki pikselleri kaydır"
 
 #: src/key-reference.xml:701(refentrytitle) src/key-reference.xml:704(refname)
-#: src/key-reference.xml:710(title) src/gimp.xml:162(title)
+#: src/key-reference.xml:710(title) src/gimp.xml:163(title)
 msgid "Tools"
 msgstr "Araçlar"
 
@@ -1178,7 +1178,7 @@ msgid "Click on the colors to change the colors."
 msgstr "Renkleri değiştirmek için renklerin üzerine tıklayın."
 
 #: src/key-reference.xml:983(refentrytitle) src/key-reference.xml:986(refname)
-#: src/key-reference.xml:992(title) src/gimp.xml:195(title)
+#: src/key-reference.xml:992(title) src/gimp.xml:196(title)
 msgid "Filters"
 msgstr "Süzgeçler"
 
@@ -1845,35 +1845,35 @@ msgstr "GIMP ile Boyama"
 msgid "Combining Images"
 msgstr "Görüntüleri Birleştirme"
 
-#: src/gimp.xml:132(title)
+#: src/gimp.xml:133(title)
 msgid "Text Management"
 msgstr "Metin Yönetimi"
 
-#: src/gimp.xml:137(title)
+#: src/gimp.xml:138(title)
 msgid "Enhancing Photographs"
 msgstr "Fotoğrafları İyileştirme"
 
-#: src/gimp.xml:141(title)
+#: src/gimp.xml:142(title)
 msgid "Color Management with GIMP"
 msgstr "GIMP ile Renk Yönetimi"
 
-#: src/gimp.xml:145(title)
+#: src/gimp.xml:146(title)
 msgid "Enrich my GIMP"
 msgstr "GIMPʼimi zenginleştir"
 
-#: src/gimp.xml:152(title)
+#: src/gimp.xml:153(title)
 msgid "Scripting and writing plug-ins"
 msgstr "Betik oluşturma ve eklenti yazma"
 
-#: src/gimp.xml:160(title)
+#: src/gimp.xml:161(title)
 msgid "Function Reference"
 msgstr "Fonksiyon Referansı"
 
-#: src/gimp.xml:170(title)
+#: src/gimp.xml:171(title)
 msgid "Dialogs"
 msgstr "İletişim Kutuları"
 
-#: src/gimp.xml:180(title)
+#: src/gimp.xml:181(title)
 msgid "Menus"
 msgstr "Menüler"
 

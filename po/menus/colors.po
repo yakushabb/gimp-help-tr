@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2025-11-23 19:04+0000\n"
 "PO-Revision-Date: 2025-11-09 22:18+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -524,7 +524,7 @@ msgstr "Süzgeci birleştir"
 #: src/menus/colors/saturation.xml:59(term)
 #: src/menus/colors/rgb-clip.xml:53(term)
 #: src/menus/colors/posterize.xml:84(term) src/menus/colors/levels.xml:93(term)
-#: src/menus/colors/introduction.xml:379(term)
+#: src/menus/colors/introduction.xml:383(term)
 #: src/menus/colors/hue-saturation.xml:54(term)
 #: src/menus/colors/hue-chroma.xml:53(term)
 #: src/menus/colors/gegl-local-threshold.xml:45(term)
@@ -2432,13 +2432,19 @@ msgstr ""
 
 #: src/menus/colors/introduction.xml:371(para)
 msgid ""
+"See <link linkend=\"gimp-using-layer-effects\">Using Layer Effects</link> "
+"for more details."
+msgstr ""
+
+#: src/menus/colors/introduction.xml:375(para)
+msgid ""
 "This option is remembered, so you only need to change it once if you prefer "
 "to always use filters destructively."
 msgstr ""
 "Bu seçenek anımsanır, bu nedenle süzgeçleri her zaman yıkıcı olarak "
 "kullanmayı yeğliyorsanız yalnızca bir kez değiştirmeniz gerekir."
 
-#: src/menus/colors/introduction.xml:381(para)
+#: src/menus/colors/introduction.xml:385(para)
 msgid ""
 "When this option is enabled, the view of the image is divided in two parts. "
 "On the left side it shows the effect of the filter applied, and on the right "
@@ -2448,7 +2454,7 @@ msgstr ""
 "tarafta uygulanan süzgecin etkisi, sağ taraftaysa süzgeçsiz görüntü "
 "gösterilir."
 
-#: src/menus/colors/introduction.xml:387(para)
+#: src/menus/colors/introduction.xml:391(para)
 msgid ""
 "You can click-and-drag the line that divides the preview to move it, and "
 "<keycap>Ctrl</keycap>-click to make the line horizontal, or to switch it "

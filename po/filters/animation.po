@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-08 18:26+0000\n"
-"PO-Revision-Date: 2025-11-18 23:07+0300\n"
+"PO-Revision-Date: 2025-11-23 22:04+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -106,10 +106,9 @@ msgstr "<quote>Dalgalar</quote> süzgeci örneği"
 msgid "Original image"
 msgstr "Özgün görüntü"
 
-# Diğer süzgeçlerle uyumlu olacak şekilde özgün metinden farklı çevirildi.
 #: src/filters/animation/waves.xml:35(para)
 msgid "A <quote>Wave</quote> frame"
-msgstr "<quote>Dalga</quote> uygulandı"
+msgstr "<quote>Dalga</quote> karesi"
 
 #: src/filters/animation/waves.xml:40(para)
 #: src/filters/animation/spinning-globe.xml:50(para)
