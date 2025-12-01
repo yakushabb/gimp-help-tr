@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-23 19:04+0000\n"
-"PO-Revision-Date: 2025-11-09 22:18+0300\n"
+"POT-Creation-Date: 2025-11-29 15:09+0000\n"
+"PO-Revision-Date: 2025-12-01 21:32+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -162,11 +162,11 @@ msgstr ""
 
 #: src/menus/colors/value-invert.xml:60(title)
 msgid "Example of using this filter twice"
-msgstr "Süzgeci iki defa uygulama örneği"
+msgstr "Süzgeci iki kez uygulama örneği"
 
 #: src/menus/colors/value-invert.xml:76(para)
 msgid "First application of the filter"
-msgstr "Süzgecin ilk defa uygulanması"
+msgstr "Süzgecin ilk kez uygulanması"
 
 #: src/menus/colors/value-invert.xml:85(para)
 #, fuzzy
@@ -797,7 +797,7 @@ msgstr ""
 #: src/menus/colors/hue-chroma.xml:26(title)
 #: src/menus/colors/exposure.xml:26(title)
 msgid "Activating the Command"
-msgstr "Komutu Etkinleştirme"
+msgstr "Komutu Etkinleştirmek"
 
 #: src/menus/colors/shadows-highlights.xml:28(para)
 msgid ""
@@ -812,7 +812,7 @@ msgstr ""
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/shadows-highlights.xml:40(title)
 msgid "Shadows-Highlights Options"
-msgstr "“Gölgeler-Vurgular” seçenekleri"
+msgstr "“Gölgeler-Vurgular“ Seçenekleri"
 
 #: src/menus/colors/shadows-highlights.xml:51(term)
 #: src/menus/colors/rgb-clip.xml:48(term)
@@ -1025,7 +1025,7 @@ msgstr ""
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/saturation.xml:45(title)
 msgid "Saturation Options"
-msgstr "“Doygunluk” seçenekleri"
+msgstr "“Doygunluk“ Seçenekleri"
 
 #: src/menus/colors/saturation.xml:65(term)
 msgid "Scale"
@@ -1237,8 +1237,8 @@ msgid ""
 "The <guimenuitem>Map</guimenuitem> submenu contains operations that allow "
 "you to map the colors of an image to different colors in several ways."
 msgstr ""
-"<guimenuitem>Eşlem</guimenuitem> alt menüsü, görüntünün renklerini çeşitli "
-"şekillerde farklı renklerle eşlemenizi sağlayan işlemler içerir."
+"<guimenuitem>Eşlem</guimenuitem> alt menüsü, görüntünün renklerini türlü "
+"biçimlerde başka renklerle eşlemenizi sağlayan işlemler içerir."
 
 #: src/menus/colors/map.xml:56(para)
 msgid ""
@@ -2387,7 +2387,7 @@ msgid ""
 "<guilabel>Adjust</guilabel> The layer will be automatically resized as "
 "necessary when the filter is applied. This is the default."
 msgstr ""
-"<guilabel>Ayarla</guilabel> Süzgeç uygulandığında katman gerektiği şekilde "
+"<guilabel>Ayarla</guilabel> Süzgeç uygulandığında katman gerektiğince "
 "kendiliğinden yeniden boyutlandırılır. Bu öntanımlıdır."
 
 #: src/menus/colors/introduction.xml:319(para)
@@ -2406,7 +2406,7 @@ msgstr ""
 "uygularken kullanılacak harmanlamayla ilgili <guilabel>Kip</guilabel> ve "
 "<guilabel>Matlık</guilabel> değerlerini seçebilirsiniz. Bunlar, <link "
 "linkend=\"gimp-layer-dialog-paint-mode-menu\">katman harmanlama seçenekleri</"
-"link> ile aynı şekilde çalışır."
+"link> ile aynı biçimde çalışır."
 
 #: src/menus/colors/introduction.xml:352(para)
 msgid ""
@@ -2450,9 +2450,8 @@ msgid ""
 "On the left side it shows the effect of the filter applied, and on the right "
 "side it shows the image without filter."
 msgstr ""
-"Bu seçenek etkinleştirildiğinde, görüntünün görünümü ikiye bölünür. Sol "
-"tarafta uygulanan süzgecin etkisi, sağ taraftaysa süzgeçsiz görüntü "
-"gösterilir."
+"Bu seçenek işaretlenirse, görüntü penceresi ikiye bölünür. Sol tarafta "
+"uygulanan süzgecin etkisi, sağ tarafta ise süzgeçsiz görüntü gösterilir."
 
 #: src/menus/colors/introduction.xml:391(para)
 msgid ""
@@ -2565,7 +2564,7 @@ msgstr ""
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/hue-saturation.xml:40(title)
 msgid "Hue-Saturation Options"
-msgstr "“Renk Tonu-Doygunluk” seçenekleri"
+msgstr "“Renk Tonu-Doygunluk“ Seçenekleri"
 
 #: src/menus/colors/hue-saturation.xml:60(term)
 msgid "Select Primary Color to Adjust"
@@ -2756,7 +2755,7 @@ msgstr ""
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/hue-chroma.xml:39(title)
 msgid "Hue-Chroma Options"
-msgstr "“Renk Tonu-Renk Parlaklığı” seçenekleri"
+msgstr "“Renk Tonu-Renk Parlaklığı“ Seçenekleri"
 
 #: src/menus/colors/hue-chroma.xml:61(para)
 #, fuzzy
@@ -3164,11 +3163,11 @@ msgstr "Aritmetik ekle eşdeğişken"
 
 #: src/menus/colors/dither.xml:123(term)
 msgid "Arithmetic xor"
-msgstr "Aritmetik ya da"
+msgstr "Aritmetik veya"
 
 #: src/menus/colors/dither.xml:124(term)
 msgid "Arithmetic xor covariant"
-msgstr "Aritmetik ya da eşdeğişken"
+msgstr "Aritmetik veya eşdeğişken"
 
 #: src/menus/colors/dither.xml:126(para)
 #, fuzzy
@@ -3732,7 +3731,7 @@ msgstr "<quote>Eğriler</quote>ʼi Kullanmak"
 #: src/menus/colors/curves.xml:390(title)
 #, fuzzy
 msgid "Summary and basic shapes"
-msgstr "Özet ve temel şekiller"
+msgstr "Özet ve basit şekiller"
 
 #: src/menus/colors/curves.xml:392(para)
 #, fuzzy
@@ -4956,3 +4955,5 @@ msgstr ""
 #: src/menus/colors/about-common-features.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>"

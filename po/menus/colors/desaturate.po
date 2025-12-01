@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
-"PO-Revision-Date: 2025-11-09 22:03+0300\n"
+"POT-Creation-Date: 2025-11-29 15:09+0000\n"
+"PO-Revision-Date: 2025-12-01 21:27+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -392,7 +392,8 @@ msgstr ""
 # Pot dosyası çarpı işaretlerini atlamış.
 #: src/menus/colors/desaturate/desaturate.xml:83(phrase)
 msgid "Luminance = (0.22 R) + (0.72 G) + (0.06 B)"
-msgstr "Renk Parlaklığı = (0.22 × R) + (0.72 × G) + (0.06 × B)"
+msgstr ""
+"Renk Parlaklığı = (0.22 &times; R) + (0.72 &times; G) + (0.06 &times; B)"
 
 #: src/menus/colors/desaturate/desaturate.xml:95(link)
 msgid "Luma"
@@ -405,7 +406,7 @@ msgstr "Gri tonları doğrusal olmayan sRGB kullanılarak hesaplanır"
 # Pot dosyası çarpı işaretlerini atlamış.
 #: src/menus/colors/desaturate/desaturate.xml:102(phrase)
 msgid "Luma = (0.22 R) + (0.72 G) + (0.06 B)"
-msgstr "Luma = (0.22 × R) + (0.72 × G) + (0.06 × B)"
+msgstr "Luma = (0.22 &times; R) + (0.72 &times; G) + (0.06 &times; B)"
 
 #: src/menus/colors/desaturate/desaturate.xml:112(link)
 msgid "Lightness (HSL)"
@@ -420,7 +421,7 @@ msgstr "Gri tonları şöyle hesaplanır"
 # Pot dosyası çarpı işaretlerini atlamış.
 #: src/menus/colors/desaturate/desaturate.xml:119(phrase)
 msgid "Lightness (HSL) = (max(R,G,B) + min(R,G,B))"
-msgstr "Açıklık (HSL) = ½ × (en büyük(R,G,B) + en küçük(R,G,B))"
+msgstr "Açıklık (HSL) = &frac12;&times; (en büyük(R,G,B) + en küçük(R,G,B))"
 
 #: src/menus/colors/desaturate/desaturate.xml:129(link)
 msgid "Average (HSI Intensity)"
@@ -429,7 +430,7 @@ msgstr "Ortalama (HSI Yoğunluğu)"
 # Pot dosyası çarpı işaretlerini atlamış.
 #: src/menus/colors/desaturate/desaturate.xml:136(phrase)
 msgid "Average (HSI Intensity) = (R + G + B) 3"
-msgstr "Ortalama (HSI Yoğunluğu) = (R + G + B) ÷ 3"
+msgstr "Ortalama (HSI Yoğunluğu) = (R + G + B) &divide; 3"
 
 #: src/menus/colors/desaturate/desaturate.xml:145(link)
 msgid "Value (HSV)"
@@ -450,7 +451,7 @@ msgstr ""
 #: src/menus/colors/desaturate/desaturate.xml:189(para)
 #: src/menus/colors/desaturate/desaturate.xml:198(para)
 msgid "<quote>Luminance</quote> applied"
-msgstr "<quote>Renk Parlaklığı</quote> uygulandı."
+msgstr "<quote>Renk Parlaklığı</quote> uygulandı"
 
 #: src/menus/colors/desaturate/desaturate.xml:207(para)
 #: src/menus/colors/desaturate/desaturate.xml:218(para)
@@ -827,3 +828,5 @@ msgstr "Etkin olduğunda, gölge ayrıntıları gürültü pahasına artırılı
 #: src/menus/colors/desaturate/color-to-gray.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+"Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Sabri Ünal <yakushabb@gmail.com>"
