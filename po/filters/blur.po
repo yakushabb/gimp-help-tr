@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-21 21:36+0000\n"
-"PO-Revision-Date: 2025-11-18 23:12+0300\n"
+"POT-Creation-Date: 2025-11-29 15:09+0000\n"
+"PO-Revision-Date: 2025-12-07 12:55+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -149,10 +149,8 @@ msgstr "Özgün görüntü"
 #: src/filters/blur/gauss_select.xml:39(para)
 #: src/filters/blur/gauss.xml:39(para) src/filters/blur/focus-blur.xml:36(para)
 #: src/filters/blur/circular-motion.xml:39(para)
-#, fuzzy
-#| msgid "Blur applied"
 msgid "Filter applied"
-msgstr "Bulanıklık uygulandı"
+msgstr "Süzgeç uygulandı"
 
 #: src/filters/blur/zoom-motion.xml:43(para)
 msgid ""
@@ -161,7 +159,7 @@ msgid ""
 "layer or selection. You can set center somewhere in the layer and this "
 "center is applied to the layer or to a selection if it exists."
 msgstr ""
-"Bu süzgecin adı <quote>Radyal</quote> olmalıydı. Merkez etrafında her yönde "
+"Bu süzgecin adı <quote>Radyal</quote> olmalıydı. Merkez çevresinde her yönde "
 "bulanıklık oluşturur. Öntanımlı merkez, katmanın ya da seçimin merkezidir. "
 "Merkezi katmanın herhangi bir yerinde ayarlayabilirsiniz ve bu merkez "
 "katmana ya da varsa seçime uygulanır."
@@ -352,7 +350,7 @@ msgid ""
 msgstr ""
 "Bu seçenek (öntanımlı), bulanıklaştırma ayarlarının görsel olarak daha kolay "
 "değiştirilebilmesi için bulanıklaştırma ayarlarını doğrudan tuvalde "
-"denetlemenizii sağlar. Merkezi ve bulanıklaştırma katsayısını değiştirmek "
+"denetlemenizi sağlar. Merkezi ve bulanıklaştırma katsayısını değiştirmek "
 "için her iki ucunda tutamaç bulunan çizgi görüntüler."
 
 #: src/filters/blur/zoom-motion.xml:121(para)
@@ -715,7 +713,7 @@ msgid ""
 "Diamond and Round shapes will only be visible when you lower <guilabel>Size "
 "Ratio X/Y</guilabel> to about 0.6 (Diamond) or 0.5 (Round)."
 msgstr ""
-"Üç tip Şekil seçeneği vardır: <guilabel>Karo</guilabel>, <guilabel>Yuvarlak</"
+"Üç tür Şekil seçeneği vardır: <guilabel>Karo</guilabel>, <guilabel>Yuvarlak</"
 "guilabel> ve <guilabel>Kare</guilabel> (öntanımlı). Karo ve Yuvarlak "
 "şekilleri yalnızca <guilabel>X/Y Boyut Oranını</guilabel> yaklaşık 0,6 "
 "(Karo) ya da 0,5 (Yuvarlak) değerine düşürdüğünüzde görünür olur."
@@ -731,8 +729,7 @@ msgstr "Blok yüksekliği"
 #: src/filters/blur/pixelize.xml:102(para)
 msgid "Here you can set the desired width and height of the blocks, in pixels."
 msgstr ""
-"Burada blokların genişlik ve yüksekliğini piksel cinsinden "
-"ayarlayabilirsiniz."
+"Burada blokların genişlik ve yüksekliğini piksel türünden ayarlayabilirsiniz."
 
 #: src/filters/blur/pixelize.xml:106(para)
 msgid ""
@@ -754,7 +751,7 @@ msgstr "Y Konumu"
 
 #: src/filters/blur/pixelize.xml:124(para)
 msgid "Horizontal/Vertical offset of the shapes in pixels inside a block."
-msgstr "Blok içindeki şekillerin piksel cinsinden yatay/dikey konumu."
+msgstr "Blok içindeki şekillerin piksel türünden yatay/dikey konumu."
 
 #: src/filters/blur/pixelize.xml:131(term)
 msgid "Size ratio X"
@@ -799,7 +796,7 @@ msgid ""
 "alpha channel."
 msgstr ""
 "Renk seçimi iletişim kutusundaki alfa değerini düşürerek arka plan rengini "
-"kısmen ya da tamamen saydam yapabilirsiniz. Bu, üzerinde çalıştığınız "
+"kısmen ya da tümüyle saydam yapabilirsiniz. Bu, üzerinde çalıştığınız "
 "katmanın alfa kanalına sahip olması koşuluyla ilginç etkiler oluşturabilir."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -976,7 +973,7 @@ msgid ""
 msgstr ""
 "Komşuluk şekli. Kullanılabilir üç seçenek vardır: <guilabel>Kare</guilabel>, "
 "<guilabel>Daire</guilabel> (öntanımlı), <guilabel>Karo</guilabel>. Farkları "
-"çok hassastır ve tahmin edilemez. Tuvalde denetimleri kullanarak deneme "
+"çok hassastır ve öngörülemez. Tuvalde denetimleri kullanarak deneme "
 "yapabilirsiniz."
 
 #: src/filters/blur/median-blur.xml:114(title)
@@ -1085,9 +1082,9 @@ msgid ""
 "the alpha channel is opaque everywhere, the result will also be fully "
 "opaque, regardless of the percentile."
 msgstr ""
-"Bu parametrenin etkisini görmek için saydamlığı olan bir görüntüye "
-"ihtiyacınız var. Alfa kanalı her yerde matsa, yüzdelik dilimden bağımsız "
-"olarak sonuç da tamamen mat olur."
+"Bu parametrenin etkisini görmek için saydamlığı olan bir görüntünüz "
+"olmalıdır. Alfa kanalı her yerde matsa, yüzdelik dilimden bağımsız olarak "
+"sonuç da tümüyle mat olur."
 
 #: src/filters/blur/median-blur.xml:223(para)
 msgid ""
@@ -1673,12 +1670,12 @@ msgid ""
 "reduced.) This filter is much slower than a Gaussian Blur, though, so only "
 "consider using it when you really need the selectivity."
 msgstr ""
-"Seçici Gauss Bulanıklığı süzgeci, yalnızca birbirine benzeyen piksellerin "
+"Seçmeli Gauss Bulanıklığı süzgeci, yalnızca birbirine benzeyen piksellerin "
 "bulanıklaştırılması için eşik ayarlamanızı sağlar. Keskin kenarları "
 "bulanıklaştırmadan fotoğraflardaki taneliliği azaltmak için kullanılır. "
 "(Örnekte, arka planın taneliliğinin azaldığını görebilirsiniz.) Bu süzgeç "
-"Gauss Bulanıklığıʼndan daha yavaştır, bu nedenle yalnızca seçiciliğe ihtiyaç "
-"duyduğunuzda kullanın."
+"Gauss Bulanıklığıʼndan daha yavaştır, bu nedenle yalnızca seçiciliğe "
+"gereksindiğinizde kullanın."
 
 #: src/filters/blur/introduction.xml:141(title)
 #: src/filters/blur/circular-motion.xml:9(title)
