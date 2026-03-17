@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-21 21:36+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-22 01:01+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -712,7 +712,7 @@ msgstr "Örtü şekli (örneğin elips ya da daire) Oran ayarına bağlıdır."
 #: src/filters/light-and-shadow/vignette.xml:162(term)
 #: src/filters/light-and-shadow/supernova.xml:97(term)
 #: src/filters/light-and-shadow/gflare.xml:116(term)
-#: src/filters/light-and-shadow/gegl-bevel.xml:125(term)
+#: src/filters/light-and-shadow/gegl-bevel.xml:126(term)
 #: src/filters/light-and-shadow/bloom.xml:97(term)
 msgid "Radius"
 msgstr "Yarıçap"
@@ -3488,7 +3488,7 @@ msgstr ""
 "yapısını değiştiren üç seçenek vardır. Görüntünüz için en uygun olanı görmek "
 "için denemeler yapın."
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:127(para)
+#: src/filters/light-and-shadow/gegl-bevel.xml:128(para)
 #, fuzzy
 msgid ""
 "Only available for <guilabel>Bump</guilabel>. This determines the size of "
@@ -3497,19 +3497,19 @@ msgstr ""
 "Yalnızca <guilabel>Derinlik Etkisi Eğimi</guilabel> için kullanılabilir. Bu, "
 "derinlik etkisi için yumuşatma boyutunu belirler."
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:134(term)
+#: src/filters/light-and-shadow/gegl-bevel.xml:135(term)
 msgid "Elevation"
 msgstr "Yükselme"
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:136(para)
+#: src/filters/light-and-shadow/gegl-bevel.xml:137(para)
 msgid "This controls the elevation angle of the bevel."
 msgstr "Bu, eğimin yükselme açısını denetler."
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:142(term)
+#: src/filters/light-and-shadow/gegl-bevel.xml:143(term)
 msgid "Depth"
 msgstr "Derinlik"
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:144(para)
+#: src/filters/light-and-shadow/gegl-bevel.xml:145(para)
 #, fuzzy
 msgid ""
 "This controls the emboss depth; i.e. how deep and detailed the bevel will be."
@@ -3517,11 +3517,11 @@ msgstr ""
 "Bu, kabartma derinliğini denetler; yani eğimin ne kadar derin ve ayrıntılı "
 "olacağını belirler."
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:151(term)
+#: src/filters/light-and-shadow/gegl-bevel.xml:152(term)
 msgid "Light Angle"
 msgstr "Işık Açısı"
 
-#: src/filters/light-and-shadow/gegl-bevel.xml:153(para)
+#: src/filters/light-and-shadow/gegl-bevel.xml:154(para)
 #, fuzzy
 msgid ""
 "This controls the angle of the light source illuminating and shading the "

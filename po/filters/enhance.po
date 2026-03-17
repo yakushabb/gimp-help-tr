@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-21 21:36+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-22 00:59+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -219,7 +219,7 @@ msgstr "Görüntü indeksli kipte ise, bu menü girişi devre dışı bırakıl�
 #: src/filters/enhance/high-pass.xml:34(title)
 #: src/filters/enhance/despeckle.xml:35(title)
 #: src/filters/enhance/deinterlace.xml:42(title)
-#: src/filters/enhance/antialias.xml:49(title)
+#: src/filters/enhance/antialias.xml:46(title)
 msgid "Activating the Filter"
 msgstr "Süzgeci Etkinleştirme"
 
@@ -1350,7 +1350,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/enhance/high-pass.xml:131(None)
+#: src/filters/enhance/high-pass.xml:130(None)
 msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-open.png'; "
 "md5=d8aafe7d21a8a9d5cf53ad809c62b164"
@@ -1360,7 +1360,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/enhance/high-pass.xml:143(None)
+#: src/filters/enhance/high-pass.xml:142(None)
 msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-mode-example.png'; "
 "md5=64905ea849761f8b2fd5ba4f10162b65"
@@ -1370,7 +1370,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/enhance/high-pass.xml:150(None)
+#: src/filters/enhance/high-pass.xml:149(None)
 msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-mode-dialog.png'; "
 "md5=2ba6737b4942d59b1e54fbb548a9d9dd"
@@ -1380,7 +1380,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/enhance/high-pass.xml:162(None)
+#: src/filters/enhance/high-pass.xml:161(None)
 msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-setting-example.png'; "
 "md5=8c513765d1e495403c3106c47b27144c"
@@ -1390,7 +1390,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/enhance/high-pass.xml:169(None)
+#: src/filters/enhance/high-pass.xml:168(None)
 msgid ""
 "@@image: 'images/filters/examples/enhance/high-pass-setting-dialog.png'; "
 "md5=c3db6590b439a91f14da6705da44a193"
@@ -1469,20 +1469,25 @@ msgid "Open your image: <placeholder-1/>"
 msgstr "Görüntünüzü açın: <placeholder-1/>"
 
 #: src/filters/enhance/high-pass.xml:110(para)
+#, fuzzy
+#| msgid ""
+#| "Use the <link linkend=\"gimp-layer-duplicate\">Duplicate layers</link>: "
+#| "<placeholder-1/> command to duplicate your image. This duplicate layer "
+#| "becomes the active layer."
 msgid ""
-"Use the <link linkend=\"gimp-layer-duplicate\">Duplicate layers</link>: "
-"<placeholder-1/> command to duplicate your image. This duplicate layer "
+"Use the <link linkend=\"gimp-layer-duplicate\">Duplicate layers</link> "
+"command to duplicate your image: <placeholder-1/> This duplicate layer "
 "becomes the active layer."
 msgstr ""
 "Görüntünün kopyasını oluşturmak için <link linkend=\"gimp-layer-"
 "duplicate\">Katmanları Çoğalt</link> komutunu kullanın: <placeholder-1/>. "
 "Çoğaltılan bu katman etkin katman olur."
 
-#: src/filters/enhance/high-pass.xml:125(para)
+#: src/filters/enhance/high-pass.xml:124(para)
 msgid "Open High Pass filter. <placeholder-1/>"
 msgstr "Yüksek Karşıtlık süzgecini açın. <placeholder-1/>"
 
-#: src/filters/enhance/high-pass.xml:137(para)
+#: src/filters/enhance/high-pass.xml:136(para)
 msgid ""
 "Change mode to Soft light (try Hard light also). <placeholder-1/"
 "><placeholder-2/>"
@@ -1490,7 +1495,7 @@ msgstr ""
 "Kipi Yumuşak Işık olarak değiştirin (Sert Işık seçeneğini de deneyin). "
 "<placeholder-1/><placeholder-2/>"
 
-#: src/filters/enhance/high-pass.xml:156(para)
+#: src/filters/enhance/high-pass.xml:155(para)
 msgid "Settings and on-canvas view <placeholder-1/><placeholder-2/>"
 msgstr "Ayarlar ve tuvalde görünüm <placeholder-1/><placeholder-2/>"
 
@@ -1514,7 +1519,7 @@ msgstr "Beneksizleştir"
 #, fuzzy
 msgid ""
 "This filter is used to remove small defects due to dust, or scratches, on a "
-"scanned image, and also moiré effects on image scanned from a magazine. You "
+"scanned image, and also moiré effects on images scanned from a magazine. You "
 "should select isolated defects before applying this filter, in order to "
 "avoid unwanted changes in other areas of your image. The filter replaces "
 "each pixel with the median value of the pixels within the specified radius."
@@ -1679,12 +1684,12 @@ msgstr "Ayrıştır"
 #, fuzzy
 msgid ""
 "Images captured by videocards, especially when fast movement is recorded, "
-"may look blurred and stripped, with split objects. This is due to how "
-"cameras work. They don't record 25 images per second, but 50, with half "
-"vertical resolution. There are two interlaced images in one frame. First "
-"line of first image is followed by first line of second image followed by "
-"second line of first image, etc. So, if there have been an important move "
-"between the two images, objects will appear split, shifted, stripped."
+"may look blurred and striped, with split objects. This is due to how cameras "
+"work. They don't record 25 images per second, but 50, with half vertical "
+"resolution. There are two interlaced images in one frame. First line of "
+"first image is followed by first line of second image followed by second "
+"line of first image, etc. So, if there have been an important move between "
+"the two images, objects will appear split, shifted, striped."
 msgstr ""
 "Video kartları tarafından yakalanan görüntüler, özellikle hızlı hareket "
 "kaydedildiğinde, bulanık ve soyulmuş, bölünmüş nesnelerle birlikte "
@@ -1788,9 +1793,9 @@ msgstr ""
 #: src/filters/enhance/deinterlace.xml:137(para)
 #, fuzzy
 msgid ""
-"<quote>Keep even fields</quote> checked. Top: odd lines have been shifted to "
-"the right, to align themselves with the even lines. Bottom: the empty line "
-"has been filled with red."
+"<quote>Keep even fields</quote> selected. Top: odd lines have been shifted "
+"to the right, to align themselves with the even lines. Bottom: the empty "
+"line has been filled with red."
 msgstr ""
 "<quote>Çift alanları</quote> işaretli <quote>tutun</quote>. Üst: tek "
 "satırlar, çift satırlarla aynı hizaya gelmeleri için sağa kaydırılmıştır. "
@@ -1799,8 +1804,8 @@ msgstr ""
 #: src/filters/enhance/deinterlace.xml:151(para)
 #, fuzzy
 msgid ""
-"<quote>Keep odd fields</quote> checked. Top: even lines have been shifted to "
-"the left, to align themselves with the odd lines. Bottom: the empty line "
+"<quote>Keep odd fields</quote> selected. Top: even lines have been shifted "
+"to the left, to align themselves with the odd lines. Bottom: the empty line "
 "persists, but joins up and down through a gradient."
 msgstr ""
 "<quote>Tek alanları</quote> işaretli <quote>tutun</quote>. Üst: çift "
@@ -1810,7 +1815,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/enhance/antialias.xml:69(None)
+#: src/filters/enhance/antialias.xml:66(None)
 msgid ""
 "@@image: 'images/filters/enhance/antialias-orig.png'; "
 "md5=f689b9ee7fda4ef31c86eca64ad2db90"
@@ -1820,7 +1825,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/enhance/antialias.xml:78(None)
+#: src/filters/enhance/antialias.xml:75(None)
 msgid ""
 "@@image: 'images/filters/enhance/antialias-applied.png'; "
 "md5=fe250d798a78a29d5f87118a13dde56a"
@@ -1875,10 +1880,6 @@ msgstr ""
 "<placeholder-2/>"
 
 #: src/filters/enhance/antialias.xml:36(para)
-msgid "The Antialias filter works as follows:"
-msgstr "Kenar yumuşatma süzgeci aşağıdaki gibi çalışır:"
-
-#: src/filters/enhance/antialias.xml:39(para)
 #, fuzzy
 msgid ""
 "The Antialias filter works as follows: for every pixel, the filter expands "
@@ -1890,7 +1891,7 @@ msgstr ""
 "Scale3X algoritmasına göre özgün pikseli 9 (3×3) yeni piksele genişletir;"
 
 # Kenar Yumuşatma süzgecinin iletişim kutusu olmadığı için üç nokta içermiyor.
-#: src/filters/enhance/antialias.xml:50(para)
+#: src/filters/enhance/antialias.xml:47(para)
 msgid ""
 "This filter is found in the main menu under <menuchoice><guimenu>Filters</"
 "guimenu><guisubmenu>Enhance</guisubmenu><guimenuitem>Antialias</"
@@ -1900,11 +1901,11 @@ msgstr ""
 "guimenu><guisubmenu>İyileştir</guisubmenu><guimenuitem>Kenar Yumuşatma</"
 "guimenuitem></menuchoice> altında bulunur."
 
-#: src/filters/enhance/antialias.xml:61(title)
+#: src/filters/enhance/antialias.xml:58(title)
 msgid "Examples"
 msgstr "Örnekler"
 
-#: src/filters/enhance/antialias.xml:62(para)
+#: src/filters/enhance/antialias.xml:59(para)
 msgid ""
 "The following examples illustrate the effect on some patterns. The small "
 "squares are one pixel in size (zoom 16:1)."
@@ -1912,11 +1913,11 @@ msgstr ""
 "Aşağıdaki örnekler kimi desenler üzerindeki etkiyi göstermektedir. Küçük "
 "kareler bir piksel boyutundadır (yakınlaştırma 16:1)."
 
-#: src/filters/enhance/antialias.xml:72(para)
+#: src/filters/enhance/antialias.xml:69(para)
 msgid "Original image (zoom 16:1)"
 msgstr "Özgün görüntü (yakınlaştırma 16:1)"
 
-#: src/filters/enhance/antialias.xml:81(para)
+#: src/filters/enhance/antialias.xml:78(para)
 msgid "<quote>Antialias</quote> applied (zoom 16:1)"
 msgstr "<quote>Kenar Yumuşatma</quote> uygulandı (yakınlaştırma 16:1)"
 
@@ -1927,3 +1928,5 @@ msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
 
+#~ msgid "The Antialias filter works as follows:"
+#~ msgstr "Kenar yumuşatma süzgeci aşağıdaki gibi çalışır:"

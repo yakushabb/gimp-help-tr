@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-23 22:12+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -52,6 +52,7 @@ msgstr ""
 #: src/menus/help/procedure-browser.xml:27(title)
 #: src/menus/help/plug-in-browser.xml:32(title)
 #: src/menus/help/help.xml:35(title) src/menus/help/context-help.xml:29(title)
+#: src/menus/help/about.xml:34(title)
 msgid "Activating the Command"
 msgstr "Komutu Etkinleştirmek"
 
@@ -681,18 +682,27 @@ msgstr ""
 "<keycap>F1</keycap> tuşuna basarak daima erişebilirsiniz."
 
 #: src/menus/help/context-help.xml:32(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Help</guimenu><guimenuitem>Context Help</"
+#| "guimenuitem></menuchoice>,"
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Help</guimenu><guimenuitem>Context Help</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Yardım</"
 "guimenu><guimenuitem>Bağlam Yardımı</guimenuitem></menuchoice> yoluyla "
 "erişebilirsiniz"
 
 #: src/menus/help/context-help.xml:41(para)
+#, fuzzy
+#| msgid ""
+#| "or by using the keyboard shortcut <keycombo><keycap>Shift</"
+#| "keycap><keycap>F1</keycap></keycombo>."
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
 "keycap><keycap>F1</keycap></keycombo>."
 msgstr ""
 "ya da <keycombo><keycap>Shift</keycap><keycap>F1</keycap></keycombo> klavye "
@@ -734,10 +744,6 @@ msgstr ""
 "etkinleştirdiyseniz, bu kutu size GIMPʼin yeni sürümünün var olduğunu "
 "gösterebilir. Bu durumda düğme, GIMP için en yeni sürümü indirmenizi sağlar."
 
-#: src/menus/help/about.xml:34(title)
-msgid "Activating the <quote>About</quote> Command"
-msgstr "<quote>Hakkında</quote> Komutunu Etkinleştirmek"
-
 #: src/menus/help/about.xml:35(para)
 msgid ""
 "You can access this command in the main menu through "
@@ -777,3 +783,6 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "Activating the <quote>About</quote> Command"
+#~ msgstr "<quote>Hakkında</quote> Komutunu Etkinleştirmek"

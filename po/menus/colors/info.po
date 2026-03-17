@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-09 22:05+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -105,14 +105,21 @@ msgstr ""
 #: src/menus/colors/info/smooth_palette.xml:60(title)
 #: src/menus/colors/info/export-histogram.xml:62(title)
 #: src/menus/colors/info/borderaverage.xml:76(title)
-msgid "Activating the Filter"
+#, fuzzy
+#| msgid "Activating the Filter"
+msgid "Activating the Command"
 msgstr "Süzgeci Etkinleştirme"
 
 #: src/menus/colors/info/smooth_palette.xml:61(para)
+#, fuzzy
+#| msgid ""
+#| "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#| "guimenu><guisubmenu>Info</guisubmenu><guimenuitem>Smooth Palette…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Info</guisubmenu><guimenuitem>Smooth Palette…</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Info</"
+"guisubmenu><guimenuitem>Smooth Palette…</guimenuitem></menuchoice>."
 msgstr ""
 "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
 "guimenu><guisubmenu>Bilgi</guisubmenu><guimenuitem>Pürüzsüz Palet…</"
@@ -268,10 +275,15 @@ msgstr ""
 "şeklinde yorumlanabilir."
 
 #: src/menus/colors/info/export-histogram.xml:63(para)
+#, fuzzy
+#| msgid ""
+#| "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#| "guimenu><guisubmenu>Info</guisubmenu><guimenuitem>Export histogram…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Info</guisubmenu><guimenuitem>Export histogram…</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Info</"
+"guisubmenu><guimenuitem>Export Histogram…</guimenuitem></menuchoice>."
 msgstr ""
 "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
 "guimenu><guisubmenu>Bilgi</guisubmenu><guimenuitem>Histogramı Dışa Aktar…</"
@@ -448,10 +460,15 @@ msgstr ""
 "keycap><keycap>Z</keycap></keycombo>ile geri alınamaz: görüntüyü değiştirmez."
 
 #: src/menus/colors/info/borderaverage.xml:77(para)
+#, fuzzy
+#| msgid ""
+#| "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#| "guimenu><guisubmenu>Info</guisubmenu><guimenuitem>Border Average…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Info</guisubmenu><guimenuitem>Border Average…</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Info</"
+"guisubmenu><guimenuitem>Border Average…</guimenuitem></menuchoice>."
 msgstr ""
 "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
 "guimenu><guisubmenu>Bilgi</guisubmenu><guimenuitem>Kenarlık Ortalaması…</"

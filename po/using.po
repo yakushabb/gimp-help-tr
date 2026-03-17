@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-02 20:21+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -884,7 +884,7 @@ msgid ""
 msgstr ""
 
 #: src/using/simpleobjects.xml:186(title)
-#: src/using/animated-brushes.xml:239(title)
+#: src/using/animated-brushes.xml:245(title)
 msgid "Examples"
 msgstr "Örnekler"
 
@@ -2840,7 +2840,7 @@ msgstr ""
 #: src/using/script-fu-gui-api.xml:54(segtitle)
 #: src/using/script-fu-gui-api.xml:98(segtitle)
 #: src/using/script-fu-gui-api.xml:143(segtitle)
-#: src/using/animated-brushes.xml:77(term)
+#: src/using/animated-brushes.xml:80(term)
 msgid "Description"
 msgstr ""
 
@@ -6619,6 +6619,13 @@ msgid ""
 "attributes are set as expected."
 msgstr ""
 
+#: src/using/getting-unstuck.xml:506(para)
+msgid ""
+"Check the <link linkend=\"gimp-view-menu\">View Menu</link> to see if the "
+"part of the user interface that you are looking for is hidden, or to make "
+"sure that snapping is enabled or disabled as desired."
+msgstr ""
+
 #: src/using/getting-unstuck-intro.xml:8(primary)
 msgid "GIMP"
 msgstr "GIMP"
@@ -6868,7 +6875,7 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/fonts-and-text.xml:118(None)
 #: src/using/creating-brush-quickly.xml:78(None)
-#: src/using/animated-brushes.xml:321(None)
+#: src/using/animated-brushes.xml:327(None)
 msgid ""
 "@@image: 'images/stock-icons/view-refresh.svg'; "
 "md5=e30a124eb8dd881de92ab4b2dd6c0550"
@@ -7290,14 +7297,14 @@ msgid "The second method is more elaborate."
 msgstr ""
 
 #: src/using/creating-brush-quickly.xml:40(para)
-#: src/using/animated-brushes.xml:260(para)
+#: src/using/animated-brushes.xml:266(para)
 msgid ""
 "Select <menuchoice><guimenu>File</guimenu><guimenuitem>New…</guimenuitem></"
 "menuchoice> from the main menu."
 msgstr ""
 
 #: src/using/creating-brush-quickly.xml:47(para)
-#: src/using/animated-brushes.xml:267(para)
+#: src/using/animated-brushes.xml:273(para)
 msgid ""
 "Set <guilabel>Width</guilabel> and <guilabel>Height</guilabel> for example "
 "to 30 pixels."
@@ -7322,7 +7329,7 @@ msgid ""
 msgstr ""
 
 #: src/using/creating-brush-quickly.xml:67(para)
-#: src/using/animated-brushes.xml:299(para)
+#: src/using/animated-brushes.xml:305(para)
 msgid ""
 "Export the image with a <filename class=\"extension\">.gbr</filename> "
 "extension in the <filename class=\"directory\">brushes</filename> directory "
@@ -7331,14 +7338,14 @@ msgid ""
 msgstr ""
 
 #: src/using/creating-brush-quickly.xml:72(para)
-#: src/using/animated-brushes.xml:315(para)
+#: src/using/animated-brushes.xml:321(para)
 msgid ""
 "In the <link linkend=\"gimp-brush-dialog\">Brush Dialog</link>, click on the "
 "button <guibutton>Refresh brushes</guibutton><placeholder-1/>."
 msgstr ""
 
 #: src/using/creating-brush-quickly.xml:83(para)
-#: src/using/animated-brushes.xml:326(para)
+#: src/using/animated-brushes.xml:332(para)
 msgid ""
 "Your brush appears among the other brushes. You can use it immediately, "
 "without restarting <acronym>GIMP</acronym>."
@@ -7511,7 +7518,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/animated-brushes.xml:45(None)
+#: src/using/animated-brushes.xml:48(None)
 msgid ""
 "@@image: 'images/using/file-gih-export.png'; "
 "md5=415655efe67003a049e817d5d8569710"
@@ -7521,7 +7528,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/animated-brushes.xml:157(None)
+#: src/using/animated-brushes.xml:160(None)
 msgid ""
 "@@image: 'images/using/gih-array2D.png'; md5=c15b84ef6a337006a1f39b307847a573"
 msgstr ""
@@ -7529,7 +7536,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/animated-brushes.xml:167(None)
+#: src/using/animated-brushes.xml:170(None)
 msgid ""
 "@@image: 'images/using/gih-array3D.png'; md5=9feefe655bf2c5034f05b9faaafc82b6"
 msgstr ""
@@ -7537,7 +7544,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/animated-brushes.xml:253(None)
+#: src/using/animated-brushes.xml:259(None)
 msgid ""
 "@@image: 'images/using/gih-array1D.png'; md5=68095ff8ef85b22e5a9f104026505900"
 msgstr ""
@@ -7545,7 +7552,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/animated-brushes.xml:336(None)
+#: src/using/animated-brushes.xml:342(None)
 msgid ""
 "@@image: 'images/using/gih1234incr.png'; md5=916ee26278465b6f392b47d3441e6316"
 msgstr ""
@@ -7553,7 +7560,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/animated-brushes.xml:354(None)
+#: src/using/animated-brushes.xml:360(None)
 msgid ""
 "@@image: 'images/using/gih1234rand.png'; md5=8d8cb33c9bcf1271675c898c3e80edda"
 msgstr ""
@@ -7561,7 +7568,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/animated-brushes.xml:370(None)
+#: src/using/animated-brushes.xml:376(None)
 msgid ""
 "@@image: 'images/using/gih1234angl.png'; md5=61d5f4b2f9828f9f838601a663a4e2e1"
 msgstr ""
@@ -7569,7 +7576,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/animated-brushes.xml:396(None)
+#: src/using/animated-brushes.xml:402(None)
 msgid ""
 "@@image: 'images/using/gih-3Dnum.png'; md5=fc2b9899af4d83c132c50ebe6c61bd1e"
 msgstr ""
@@ -7577,7 +7584,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/animated-brushes.xml:517(None)
+#: src/using/animated-brushes.xml:523(None)
 msgid ""
 "@@image: 'images/using/gih-correlation.png'; "
 "md5=f0421f134c5e4534ac1b1dff89a7ab05"
@@ -7587,7 +7594,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/animated-brushes.xml:532(None)
+#: src/using/animated-brushes.xml:538(None)
 msgid ""
 "@@image: 'images/using/gih-hands-layers.png'; "
 "md5=92a1c9476be90d72aa078597d99923a4"
@@ -7597,7 +7604,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/animated-brushes.xml:585(None)
+#: src/using/animated-brushes.xml:591(None)
 msgid ""
 "@@image: 'images/using/gih-hands-stroke.png'; "
 "md5=3032494d8893f9cb754b05b12af748ec"
@@ -7638,24 +7645,30 @@ msgid ""
 msgstr ""
 
 #: src/using/animated-brushes.xml:42(title)
+#, fuzzy
+#| msgid "Export Images"
+msgid "Export Image as Brush Pipe"
+msgstr "Görüntüleri Dışa Aktar"
+
+#: src/using/animated-brushes.xml:45(title)
 msgid "Dialog to export an image as Brush Pipe"
 msgstr ""
 
-#: src/using/animated-brushes.xml:48(para)
+#: src/using/animated-brushes.xml:51(para)
 msgid "Dialog to export an image as GIMP image hose"
 msgstr ""
 
-#: src/using/animated-brushes.xml:55(para)
+#: src/using/animated-brushes.xml:58(para)
 msgid ""
 "This dialog box has several options that allow you to select how your brush "
 "is animated."
 msgstr ""
 
-#: src/using/animated-brushes.xml:61(term)
+#: src/using/animated-brushes.xml:64(term)
 msgid "Spacing (Percent)"
 msgstr ""
 
-#: src/using/animated-brushes.xml:63(para)
+#: src/using/animated-brushes.xml:66(para)
 msgid ""
 "<quote>Spacing</quote> is the distance between consecutive brush marks when "
 "you trace out a brushstroke with the pointer. You must consider drawing with "
@@ -7666,51 +7679,51 @@ msgid ""
 "refers to brush <quote>diameter</quote>: 100% is one diameter."
 msgstr ""
 
-#: src/using/animated-brushes.xml:79(para)
+#: src/using/animated-brushes.xml:82(para)
 msgid ""
 "It's the brush name that will appear at the top of Brush Dialog (grid mode) "
 "when the brush is selected."
 msgstr ""
 
-#: src/using/animated-brushes.xml:86(term)
+#: src/using/animated-brushes.xml:89(term)
 msgid "Cell Size"
 msgstr "Hücre Boyutu"
 
-#: src/using/animated-brushes.xml:88(para)
+#: src/using/animated-brushes.xml:91(para)
 msgid ""
 "That is size of cells you will cut up in layers. Default is one cell per "
 "layer and size is that of the layer. Then there is only one brush aspect per "
 "layer."
 msgstr ""
 
-#: src/using/animated-brushes.xml:93(para)
+#: src/using/animated-brushes.xml:96(para)
 msgid ""
 "We could have only one big layer and cut up in it the cells that will be "
 "used for the different aspects of the animated brush."
 msgstr ""
 
-#: src/using/animated-brushes.xml:97(para)
+#: src/using/animated-brushes.xml:100(para)
 msgid ""
 "For instance, we want a 100×100 pixels brush with 8 different aspects. We "
 "can take these 8 aspects from a 400×200 pixels layer, or from a 300×300 "
 "pixels layer but with one cell unused."
 msgstr ""
 
-#: src/using/animated-brushes.xml:105(term)
+#: src/using/animated-brushes.xml:108(term)
 msgid "Number of cells"
 msgstr ""
 
-#: src/using/animated-brushes.xml:107(para)
+#: src/using/animated-brushes.xml:110(para)
 msgid ""
 "That's the number of cells (one cell per aspect) that will be cut in every "
 "layer. Default is the number of layers as there is only one layer per aspect."
 msgstr ""
 
-#: src/using/animated-brushes.xml:115(term)
+#: src/using/animated-brushes.xml:118(term)
 msgid "Display as"
 msgstr ""
 
-#: src/using/animated-brushes.xml:117(para)
+#: src/using/animated-brushes.xml:120(para)
 msgid ""
 "This tells how cells have been arranged in layers. If, for example, you have "
 "placed height cells at the rate of two cells per layer on four layers, GIMP "
@@ -7718,27 +7731,27 @@ msgid ""
 "computeroutput>."
 msgstr ""
 
-#: src/using/animated-brushes.xml:126(term)
+#: src/using/animated-brushes.xml:129(term)
 msgid "Dimension"
 msgstr "Boyutlar"
 
-#: src/using/animated-brushes.xml:127(term)
+#: src/using/animated-brushes.xml:130(term)
 msgid "Ranks"
 msgstr ""
 
-#: src/using/animated-brushes.xml:128(term)
+#: src/using/animated-brushes.xml:131(term)
 #, fuzzy
 #| msgid "Selection"
 msgid "Selection dropdown"
 msgstr "Seçim"
 
-#: src/using/animated-brushes.xml:130(para)
+#: src/using/animated-brushes.xml:133(para)
 msgid ""
 "There things are getting complicated! Explanations are necessary to "
 "understand how to arrange cell and layers."
 msgstr ""
 
-#: src/using/animated-brushes.xml:134(para)
+#: src/using/animated-brushes.xml:137(para)
 msgid ""
 "GIMP starts retrieving cells from each layer and stacks them into a FIFO "
 "stack (First In First Out: the first in is at the top of the stack and so "
@@ -7751,13 +7764,13 @@ msgid ""
 "class=\"extension\">.gih</filename> image file."
 msgstr ""
 
-#: src/using/animated-brushes.xml:146(para)
+#: src/using/animated-brushes.xml:149(para)
 msgid ""
 "Then GIMP creates a computer array from this stack with the "
 "<guilabel>Dimensions</guilabel> you have set. You can use four dimensions."
 msgstr ""
 
-#: src/using/animated-brushes.xml:151(para)
+#: src/using/animated-brushes.xml:154(para)
 msgid ""
 "In computer science an array has a <quote>myarray(x,y,z)</quote> form for a "
 "3 dimensions array (3D). It's easy to imagine a 2D array: on a paper it's an "
@@ -7768,7 +7781,7 @@ msgid ""
 "<placeholder-2/>"
 msgstr ""
 
-#: src/using/animated-brushes.xml:171(para)
+#: src/using/animated-brushes.xml:174(para)
 msgid ""
 "To fill up this array, GIMP starts retrieving cells from the top of stack. "
 "The way it fills the array reminds that of an odometer: right rank digits "
@@ -7779,34 +7792,34 @@ msgid ""
 "example."
 msgstr ""
 
-#: src/using/animated-brushes.xml:180(para)
+#: src/using/animated-brushes.xml:183(para)
 msgid ""
 "Besides the rank number that you can give to each dimension, you can also "
 "give them a <guilabel>Selection</guilabel> mode. You have several modes that "
 "will be applied when drawing:"
 msgstr ""
 
-#: src/using/animated-brushes.xml:187(term)
+#: src/using/animated-brushes.xml:190(term)
 msgid "Incremental"
 msgstr ""
 
-#: src/using/animated-brushes.xml:189(para)
+#: src/using/animated-brushes.xml:192(para)
 msgid ""
 "<acronym>GIMP</acronym> selects a rank from the concerned dimension "
 "according to the order ranks have in that dimension."
 msgstr ""
 
-#: src/using/animated-brushes.xml:196(term)
+#: src/using/animated-brushes.xml:199(term)
 msgid "Angular"
 msgstr ""
 
-#: src/using/animated-brushes.xml:198(para)
+#: src/using/animated-brushes.xml:201(para)
 msgid ""
 "<acronym>GIMP</acronym> selects a rank in the concerned dimension according "
 "to the moving angle of the brush."
 msgstr ""
 
-#: src/using/animated-brushes.xml:202(para)
+#: src/using/animated-brushes.xml:205(para)
 msgid ""
 "The first rank is for the direction 0°, upwards. The other ranks are "
 "affected, clockwise, to an angle whose value is 360/number of ranks. So, "
@@ -7815,77 +7828,81 @@ msgid ""
 "third rank to 180° (downwards) and fourth rank to 270° (-90°) (leftwards)."
 msgstr ""
 
-#: src/using/animated-brushes.xml:214(term)
+#: src/using/animated-brushes.xml:217(term)
 msgid "Random"
 msgstr ""
 
-#: src/using/animated-brushes.xml:216(para)
+#: src/using/animated-brushes.xml:219(para)
 msgid ""
 "<acronym>GIMP</acronym> selects a rank at random from the concerned "
 "dimension."
 msgstr ""
 
-#: src/using/animated-brushes.xml:223(term)
+#: src/using/animated-brushes.xml:226(term)
 msgid "Velocity"
 msgstr ""
 
-#: src/using/animated-brushes.xml:224(term)
+#: src/using/animated-brushes.xml:227(term)
 #, fuzzy
 #| msgid "Progressive"
 msgid "Pressure"
 msgstr "İlerlemeli"
 
-#: src/using/animated-brushes.xml:225(term)
+#: src/using/animated-brushes.xml:228(term)
 msgid "X tilt"
 msgstr ""
 
-#: src/using/animated-brushes.xml:226(term)
+#: src/using/animated-brushes.xml:229(term)
 msgid "Y tilt"
 msgstr ""
 
-#: src/using/animated-brushes.xml:228(para)
+#: src/using/animated-brushes.xml:231(para)
 msgid "These options are for sophisticated drawing tablets."
 msgstr ""
 
-#: src/using/animated-brushes.xml:241(term)
+#: src/using/animated-brushes.xml:243(title)
+msgid "Brush Pipe Examples"
+msgstr ""
+
+#: src/using/animated-brushes.xml:247(term)
 msgid "A one dimension image pipe"
 msgstr ""
 
-#: src/using/animated-brushes.xml:243(para)
+#: src/using/animated-brushes.xml:249(para)
 msgid ""
 "Well! What is all this useful for? We'll see that gradually with examples. "
 "You can actually place in each dimension cases that will give your brush a "
 "particular action."
 msgstr ""
 
-#: src/using/animated-brushes.xml:248(para)
+#: src/using/animated-brushes.xml:254(para)
 msgid ""
 "Let us start with a 1D brush which will allow us to study selection modes "
 "action. We can imagine it like this: <placeholder-1/> Follow these steps:"
 msgstr ""
 
-#: src/using/animated-brushes.xml:270(para)
+#: src/using/animated-brushes.xml:276(para)
 msgid ""
 "In the <guilabel>Advanced Options</guilabel>, set the <guilabel>Color space</"
 "guilabel> to <guilabel>RGB color</guilabel> and set <guilabel>Fill with</"
 "guilabel> to <guilabel>Transparency</guilabel>."
 msgstr ""
 
-#: src/using/animated-brushes.xml:276(para)
+#: src/using/animated-brushes.xml:282(para)
 msgid ""
 "Using the Text tool create 4 layers <quote>1</quote>, <quote>2</quote>, "
 "<quote>3</quote>, <quote>4</quote>. Delete the <quote>background</quote> "
 "layer."
 msgstr ""
 
-#: src/using/animated-brushes.xml:283(para)
+#: src/using/animated-brushes.xml:289(para)
 msgid ""
 "Select <menuchoice><guimenu>File</guimenu><guimenuitem>Save…</guimenuitem></"
 "menuchoice> from the main menu to first save your image as an <filename "
 "class=\"extension\">.xcf</filename> file to keep its properties."
 msgstr ""
 
-#: src/using/animated-brushes.xml:291(para)
+#: src/using/animated-brushes.xml:297(para)
 msgid ""
 "Select <menuchoice><guimenu>File</guimenu><guimenuitem>Export As…</"
 "guimenuitem></menuchoice> from the main menu to export the image as an "
@@ -7893,7 +7910,7 @@ msgid ""
 "extension."
 msgstr ""
 
-#: src/using/animated-brushes.xml:306(para)
+#: src/using/animated-brushes.xml:312(para)
 msgid ""
 "In the <guilabel>Export Image as Brush Pipe</guilabel> dialog, provide a "
 "<guilabel>Description</guilabel>, set the <guilabel>Spacing (percent)</"
@@ -7904,21 +7921,21 @@ msgid ""
 "guibutton> button."
 msgstr ""
 
-#: src/using/animated-brushes.xml:339(para)
+#: src/using/animated-brushes.xml:345(para)
 msgid "You see 1, 2, 3, 4 digits following one another in order."
 msgstr ""
 
-#: src/using/animated-brushes.xml:330(para)
+#: src/using/animated-brushes.xml:336(para)
 msgid ""
 "Select your brush. Select pencil tool for instance and click and hold with "
 "it on a new image: <placeholder-1/>"
 msgstr ""
 
-#: src/using/animated-brushes.xml:357(para)
+#: src/using/animated-brushes.xml:363(para)
 msgid "Digits will be displayed at random order."
 msgstr ""
 
-#: src/using/animated-brushes.xml:347(para)
+#: src/using/animated-brushes.xml:353(para)
 msgid ""
 "Take your <filename class=\"extension\">.xcf</filename> image file back and "
 "export it as <filename class=\"extension\">.gih</filename> setting the "
@@ -7926,24 +7943,24 @@ msgid ""
 "<placeholder-1/>"
 msgstr ""
 
-#: src/using/animated-brushes.xml:365(para)
+#: src/using/animated-brushes.xml:371(para)
 msgid ""
 "Now set the <guilabel>Selection</guilabel> drop-down to <guilabel>angular</"
 "guilabel>: <placeholder-1/>"
 msgstr ""
 
-#: src/using/animated-brushes.xml:380(term)
+#: src/using/animated-brushes.xml:386(term)
 msgid "A 3 dimensions image hose"
 msgstr ""
 
-#: src/using/animated-brushes.xml:382(para)
+#: src/using/animated-brushes.xml:388(para)
 msgid ""
 "We are now going to create a 3D animated brush: its orientation will vary "
 "according to brush direction, it will alternate Left/Right hands regularly "
 "and its color will vary at random between black and blue."
 msgstr ""
 
-#: src/using/animated-brushes.xml:388(para)
+#: src/using/animated-brushes.xml:394(para)
 msgid ""
 "The first question we have to answer to is the number of images that is "
 "necessary. We reserve the first dimension (x) to the brush direction (4 "
@@ -7954,31 +7971,31 @@ msgid ""
 "dimension (z). Thus there are 4×2×2 = 16 cells. We need 16 images."
 msgstr ""
 
-#: src/using/animated-brushes.xml:405(title)
+#: src/using/animated-brushes.xml:411(title)
 msgid "Creating images of dimension 1 (x)"
 msgstr ""
 
-#: src/using/animated-brushes.xml:409(para)
+#: src/using/animated-brushes.xml:415(para)
 msgid ""
 "Ok, we are cheating here: our hand is borrowed from <ulink url=\"https://"
 "commons.wikimedia.org/wiki/File:Stop_hand.png\"/>."
 msgstr ""
 
-#: src/using/animated-brushes.xml:406(para)
+#: src/using/animated-brushes.xml:412(para)
 msgid ""
 "Open a new 30×30 pixels image, RGB with Transparent Fill Type. Using the "
 "zoom draw a left hand with fingers upwards.<placeholder-1/> Save it as "
 "<filename>handL0k.xcf</filename> (hand Left 0° Black)."
 msgstr ""
 
-#: src/using/animated-brushes.xml:416(para)
+#: src/using/animated-brushes.xml:422(para)
 msgid ""
 "Open the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>. Double "
 "click on the layer to open the Layer Attributes Dialog and rename it to "
 "handL0k."
 msgstr ""
 
-#: src/using/animated-brushes.xml:421(para)
+#: src/using/animated-brushes.xml:427(para)
 msgid ""
 "Duplicate the layer. Let visible only the duplicated layer, select it and "
 "apply <menuchoice><guimenu>Layer</guimenu><guisubmenu>Transform</"
@@ -7986,46 +8003,46 @@ msgid ""
 "Rename it to handL90k."
 msgstr ""
 
-#: src/using/animated-brushes.xml:427(para)
+#: src/using/animated-brushes.xml:433(para)
 msgid ""
 "Repeat the same operations to create handL180k and handL-90k (or handL270k)."
 msgstr ""
 
-#: src/using/animated-brushes.xml:433(title)
+#: src/using/animated-brushes.xml:439(title)
 msgid "Creating images of dimension 2 (y)"
 msgstr ""
 
-#: src/using/animated-brushes.xml:434(para)
+#: src/using/animated-brushes.xml:440(para)
 msgid ""
 "This dimension in our example has two ranks, one for left hand and the other "
 "for right hand. The left hand rank exists yet. We shall build right hand "
 "images by flipping it horizontally."
 msgstr ""
 
-#: src/using/animated-brushes.xml:439(para)
+#: src/using/animated-brushes.xml:445(para)
 msgid ""
 "Duplicate the handL0k layer. Let it visible only and select it. Rename it to "
 "handR0K. Apply <menuchoice><guimenu>Layer</guimenu><guisubmenu>Transform</"
 "guisubmenu><guimenuitem>Flip Horizontally</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/using/animated-brushes.xml:446(para)
+#: src/using/animated-brushes.xml:452(para)
 msgid ""
 "Repeat the same operation on the other left hand layers to create their "
 "right hand equivalent."
 msgstr ""
 
-#: src/using/animated-brushes.xml:450(para)
+#: src/using/animated-brushes.xml:456(para)
 msgid ""
 "Re-order layers to have a clockwise rotation from top to bottom, alternating "
 "Left and Right: handL0k, handR0k, handL90k, handR90k, …, handR-90k."
 msgstr ""
 
-#: src/using/animated-brushes.xml:457(title)
+#: src/using/animated-brushes.xml:463(title)
 msgid "Creating images of dimension 3 (z)"
 msgstr ""
 
-#: src/using/animated-brushes.xml:458(para)
+#: src/using/animated-brushes.xml:464(para)
 msgid ""
 "<emphasis>Creating images of dimension 3 (z)</emphasis>: The third dimension "
 "has two ranks, one for black color and the other for blue color. The first "
@@ -8035,7 +8052,7 @@ msgid ""
 "images."
 msgstr ""
 
-#: src/using/animated-brushes.xml:467(para)
+#: src/using/animated-brushes.xml:473(para)
 msgid ""
 "Select the handL0k layer and let it visible only. Use "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Canvas Size…</guimenuitem></"
@@ -8043,13 +8060,13 @@ msgid ""
 "link> to 60×30 pixels."
 msgstr ""
 
-#: src/using/animated-brushes.xml:473(para)
+#: src/using/animated-brushes.xml:479(para)
 msgid ""
 "Duplicate handL0k layer. On the copy, fill the hand with blue using Bucket "
 "Fill tool."
 msgstr ""
 
-#: src/using/animated-brushes.xml:477(para)
+#: src/using/animated-brushes.xml:483(para)
 msgid ""
 "Now, select the Move tool. Double click on it to accede to its properties: "
 "check <guilabel>Move the Current Layer</guilabel> option. Move the blue hand "
@@ -8057,7 +8074,7 @@ msgid ""
 "<guisubmenu>Zoom</guisubmenu>."
 msgstr ""
 
-#: src/using/animated-brushes.xml:483(para)
+#: src/using/animated-brushes.xml:489(para)
 msgid ""
 "Make sure only handL0k and its blue copy are visible. Right click on the "
 "Layers dialog: Apply the <guimenuitem>Merge Visible Layers</guimenuitem> "
@@ -8066,15 +8083,15 @@ msgid ""
 "right. Rename it to <quote>handsL0</quote>."
 msgstr ""
 
-#: src/using/animated-brushes.xml:491(para)
+#: src/using/animated-brushes.xml:497(para)
 msgid "Repeat the same operations on the other layers."
 msgstr ""
 
-#: src/using/animated-brushes.xml:496(title)
+#: src/using/animated-brushes.xml:502(title)
 msgid "Set layers in order"
 msgstr ""
 
-#: src/using/animated-brushes.xml:497(para)
+#: src/using/animated-brushes.xml:503(para)
 msgid ""
 "Layers must be set in order so that GIMP can find the required image at some "
 "point of using the brush. Our layers are yet in order but we must understand "
@@ -8087,13 +8104,13 @@ msgid ""
 "dimension to represent a color at random between black and blue."
 msgstr ""
 
-#: src/using/animated-brushes.xml:511(para)
+#: src/using/animated-brushes.xml:517(para)
 msgid ""
 "The other method is visual, by using the array representation. Correlation "
 "between two methods is represented in next image: <placeholder-1/>"
 msgstr ""
 
-#: src/using/animated-brushes.xml:521(para)
+#: src/using/animated-brushes.xml:527(para)
 msgid ""
 "<emphasis>How will GIMP read this array?</emphasis>: GIMP starts with the "
 "first dimension which is programmed for <quote>angular</quote>, for instance "
@@ -8103,57 +8120,57 @@ msgid ""
 "in the following order: <placeholder-1/>"
 msgstr ""
 
-#: src/using/animated-brushes.xml:538(para)
+#: src/using/animated-brushes.xml:544(para)
 msgid ""
 "Voilà. Your brush is ready. Save it as <filename class=\"extension\">.xcf</"
 "filename> first, then export as <filename class=\"extension\">.gih</"
 "filename> with the following parameters:"
 msgstr ""
 
-#: src/using/animated-brushes.xml:546(para)
+#: src/using/animated-brushes.xml:552(para)
 msgid "Spacing: 100"
 msgstr ""
 
-#: src/using/animated-brushes.xml:549(para)
+#: src/using/animated-brushes.xml:555(para)
 msgid "Description: Hands"
 msgstr ""
 
-#: src/using/animated-brushes.xml:552(para)
+#: src/using/animated-brushes.xml:558(para)
 msgid "Cell Size: 30×30"
 msgstr "Hücre Boytu: 30x30"
 
-#: src/using/animated-brushes.xml:555(para)
+#: src/using/animated-brushes.xml:561(para)
 msgid "Number of cells: 16"
 msgstr ""
 
-#: src/using/animated-brushes.xml:558(para)
+#: src/using/animated-brushes.xml:564(para)
 msgid "Dimensions: 3"
 msgstr "Boyutlar: 3"
 
-#: src/using/animated-brushes.xml:561(para)
+#: src/using/animated-brushes.xml:567(para)
 msgid "Dimension 1: 4 ranks Selection: Angular"
 msgstr ""
 
-#: src/using/animated-brushes.xml:564(para)
+#: src/using/animated-brushes.xml:570(para)
 msgid "Dimension 2: 2 ranks Selection: Incremental"
 msgstr ""
 
-#: src/using/animated-brushes.xml:567(para)
+#: src/using/animated-brushes.xml:573(para)
 msgid "Dimension 3: 2 ranks Selection: Random"
 msgstr ""
 
-#: src/using/animated-brushes.xml:572(para)
+#: src/using/animated-brushes.xml:578(para)
 msgid ""
 "Place your <filename class=\"extension\">.gih</filename> file into the "
 "<acronym>GIMP</acronym> brush directory and refresh the brush box (see steps "
 "above). You can now use your brush."
 msgstr ""
 
-#: src/using/animated-brushes.xml:578(title)
+#: src/using/animated-brushes.xml:584(title)
 msgid "Here is the result by stroking an elliptical selection with the brush:"
 msgstr ""
 
-#: src/using/animated-brushes.xml:588(para)
+#: src/using/animated-brushes.xml:594(para)
 msgid ""
 "This brush alternates right hand and left hand regularly, black and blue "
 "color at random, direction according to four brush directions."

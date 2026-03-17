@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-29 15:09+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-12-01 21:32+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -119,7 +119,7 @@ msgstr "<quote>Değeri Tersine Çevir</quote> süzgeci örneği"
 #: src/menus/colors/value-invert.xml:67(para)
 #: src/menus/colors/posterize.xml:31(para)
 #: src/menus/colors/linear-invert.xml:52(para)
-#: src/menus/colors/levels.xml:319(para) src/menus/colors/levels.xml:641(para)
+#: src/menus/colors/levels.xml:316(para) src/menus/colors/levels.xml:638(para)
 #: src/menus/colors/invert.xml:58(para)
 msgid "Original image"
 msgstr "Özgün görüntü"
@@ -176,24 +176,39 @@ msgstr "İkinci uygulama: görüntü özgüniyle tam olarak aynı değildir."
 
 #: src/menus/colors/value-invert.xml:95(title)
 #: src/menus/colors/threshold.xml:50(title)
+#: src/menus/colors/shadows-highlights.xml:27(title)
+#: src/menus/colors/saturation.xml:32(title)
 #: src/menus/colors/rgb-clip.xml:24(title)
-#: src/menus/colors/posterize.xml:57(title) src/menus/colors/hot.xml:32(title)
+#: src/menus/colors/posterize.xml:57(title)
+#: src/menus/colors/linear-invert.xml:33(title)
+#: src/menus/colors/levels.xml:44(title) src/menus/colors/invert.xml:39(title)
+#: src/menus/colors/hue-saturation.xml:27(title)
+#: src/menus/colors/hue-chroma.xml:26(title) src/menus/colors/hot.xml:32(title)
 #: src/menus/colors/gegl-local-threshold.xml:16(title)
-#: src/menus/colors/dither.xml:23(title)
+#: src/menus/colors/exposure.xml:26(title)
+#: src/menus/colors/dither.xml:23(title) src/menus/colors/curves.xml:27(title)
 #: src/menus/colors/colortoalpha.xml:34(title)
 #: src/menus/colors/colorize.xml:33(title)
 #: src/menus/colors/color-temperature.xml:57(title)
-msgid "Activating the Filter"
-msgstr "Süzgeci Etkinleştirme"
+#: src/menus/colors/color-balance.xml:34(title)
+#: src/menus/colors/brightness-contrast.xml:39(title)
+msgid "Activating the Command"
+msgstr "Komutu Etkinleştirmek"
 
 #: src/menus/colors/value-invert.xml:96(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Invert</guimenuitem></"
+#| "menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Value Invert</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Value Invert</"
+"guimenuitem></menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guimenuitem>Değeri Tersine Çevir</guimenuitem></menuchoice> altında "
-"bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Tersine Çevir</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/colors/tone-mapping.xml:6(title)
 msgid "The <quote>Tone Mapping</quote> Submenu"
@@ -235,7 +250,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:71(None)
+#: src/menus/colors/threshold.xml:68(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-tool-threshold.svg'; "
 "md5=43dd4e99eafa28c18786ce32cb47624a"
@@ -245,7 +260,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:90(None)
+#: src/menus/colors/threshold.xml:87(None)
 msgid ""
 "@@image: 'images/menus/colors/threshold-dialog.png'; "
 "md5=901fe3518ed326476313f96bd359c137"
@@ -255,8 +270,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:126(None)
-#: src/menus/colors/levels.xml:188(None) src/menus/colors/curves.xml:182(None)
+#: src/menus/colors/threshold.xml:123(None)
+#: src/menus/colors/levels.xml:185(None) src/menus/colors/curves.xml:179(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-histogram-linear.svg'; "
 "md5=58e63c2f5e72a05ef82c11af93689f16"
@@ -266,8 +281,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:137(None)
-#: src/menus/colors/levels.xml:199(None) src/menus/colors/curves.xml:193(None)
+#: src/menus/colors/threshold.xml:134(None)
+#: src/menus/colors/levels.xml:196(None) src/menus/colors/curves.xml:190(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-histogram-logarithmic.svg'; "
 "md5=3be73e2db317eecfa88858f92dacd7d1"
@@ -277,7 +292,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:198(None)
+#: src/menus/colors/threshold.xml:195(None)
 msgid ""
 "@@image: 'images/using/threshold-orig.png'; "
 "md5=7169fd0c85bd72acd2c604f210c45683"
@@ -287,7 +302,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:203(None)
+#: src/menus/colors/threshold.xml:200(None)
 msgid ""
 "@@image: 'images/using/threshold-decomp.png'; "
 "md5=21ed21ec79ce4729e4b549866c09e139"
@@ -297,7 +312,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:208(None)
+#: src/menus/colors/threshold.xml:205(None)
 msgid ""
 "@@image: 'images/using/threshold-layers.png'; "
 "md5=ec85f8127995e1cb22286d64642fa27d"
@@ -307,7 +322,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:231(None)
+#: src/menus/colors/threshold.xml:228(None)
 msgid ""
 "@@image: 'images/using/threshold-fit.png'; "
 "md5=36c8d9ab439eb56b428a2cf4b2a5fc2b"
@@ -317,7 +332,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:267(None)
+#: src/menus/colors/threshold.xml:264(None)
 msgid ""
 "@@image: 'images/using/threshold-mask.png'; "
 "md5=4c86bbfd708eff6d2ff46958781ee2d3"
@@ -327,7 +342,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:284(None)
+#: src/menus/colors/threshold.xml:281(None)
 msgid ""
 "@@image: 'images/using/threshold-result.png'; "
 "md5=126e427b6568bc7dc871f30f97d4a120"
@@ -337,7 +352,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:289(None)
+#: src/menus/colors/threshold.xml:286(None)
 msgid ""
 "@@image: 'images/using/threshold-selection.png'; "
 "md5=0871bc80de2676cda58c04d96afba655"
@@ -394,37 +409,39 @@ msgstr ""
 "yumuşatma özelliği kaybolur. Bu bir sorun teşkil ediyorsa, bunun yerine "
 "<link linkend=\"gimp-tool-levels\">Levels</link> aracını kullanın."
 
-#: src/menus/colors/threshold.xml:52(para)
+#: src/menus/colors/threshold.xml:53(para)
 #, fuzzy
-msgid "There are different possibilities to activate this:"
-msgstr "Bunu etkinleştirmek için farklı seçenekler vardır:"
-
-#: src/menus/colors/threshold.xml:56(para)
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Hue-Chroma…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Threshold…</guimenuitem></menuchoice>,"
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Threshold…</guimenuitem></"
+"menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Eşik…"
-"</guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Renk Tonu-Renk Saflığı…</guimenuitem></menuchoice> "
+"yoluyla erişebilirsiniz."
 
 # split sentence
-#: src/menus/colors/threshold.xml:65(para)
+#: src/menus/colors/threshold.xml:62(para)
 #, fuzzy
 msgid ""
-"or by clicking the <placeholder-1/> icon in the Toolbox if Threshold has "
-"been enabled as a tool (which is disabled by default). For this, please "
-"refer to <xref linkend=\"gimp-prefs-toolbox\"/>."
+"You can also access it by clicking the tool icon <placeholder-1/> in the "
+"Toolbox if Threshold has been enabled as a tool (which is disabled by "
+"default). For this, please refer to <xref linkend=\"gimp-prefs-toolbox\"/>."
 msgstr ""
 "ya da Araç Kutusu'ndaki <placeholder-1/> simgesine tıklayarak (öntanımlı "
 "olarak devre dışıdır). Bunun için lütfen <xref linkend=\"gimp-prefs-"
 "toolbox\"/> adresine bakın."
 
-#: src/menus/colors/threshold.xml:84(title)
+#: src/menus/colors/threshold.xml:81(title)
 #: src/menus/colors/shadows-highlights.xml:38(title)
 #: src/menus/colors/saturation.xml:43(title)
 #: src/menus/colors/rgb-clip.xml:35(title)
 #: src/menus/colors/posterize.xml:68(title)
-#: src/menus/colors/levels.xml:77(title)
+#: src/menus/colors/levels.xml:74(title)
 #: src/menus/colors/hue-saturation.xml:38(title)
 #: src/menus/colors/hue-chroma.xml:37(title) src/menus/colors/hot.xml:50(title)
 #: src/menus/colors/gegl-local-threshold.xml:27(title)
@@ -434,116 +451,116 @@ msgstr ""
 #: src/menus/colors/colorize.xml:44(title)
 #: src/menus/colors/color-temperature.xml:68(title)
 #: src/menus/colors/color-balance.xml:45(title)
-#: src/menus/colors/brightness-contrast.xml:72(title)
+#: src/menus/colors/brightness-contrast.xml:69(title)
 msgid "Options"
 msgstr "Seçenekler"
 
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
-#: src/menus/colors/threshold.xml:86(title)
+#: src/menus/colors/threshold.xml:83(title)
 msgid "Threshold filter dialog"
 msgstr "“Eşik” iletişim kutusu"
 
-#: src/menus/colors/threshold.xml:96(term)
+#: src/menus/colors/threshold.xml:93(term)
 #: src/menus/colors/shadows-highlights.xml:50(term)
 #: src/menus/colors/saturation.xml:55(term)
 #: src/menus/colors/rgb-clip.xml:47(term)
-#: src/menus/colors/posterize.xml:80(term) src/menus/colors/levels.xml:89(term)
+#: src/menus/colors/posterize.xml:80(term) src/menus/colors/levels.xml:86(term)
 #: src/menus/colors/introduction.xml:216(term)
 #: src/menus/colors/hue-saturation.xml:50(term)
 #: src/menus/colors/hue-chroma.xml:49(term)
 #: src/menus/colors/gegl-local-threshold.xml:39(term)
 #: src/menus/colors/exposure.xml:49(term) src/menus/colors/dither.xml:46(term)
-#: src/menus/colors/curves.xml:71(term)
+#: src/menus/colors/curves.xml:68(term)
 #: src/menus/colors/colortoalpha.xml:57(term)
 #: src/menus/colors/colorize.xml:55(term)
 #: src/menus/colors/color-temperature.xml:79(term)
 #: src/menus/colors/color-balance.xml:57(term)
-#: src/menus/colors/brightness-contrast.xml:85(term)
+#: src/menus/colors/brightness-contrast.xml:82(term)
 msgid "Presets"
 msgstr "Önayarlar"
 
-#: src/menus/colors/threshold.xml:97(term)
+#: src/menus/colors/threshold.xml:94(term)
 #: src/menus/colors/shadows-highlights.xml:53(term)
 #: src/menus/colors/saturation.xml:56(term)
 #: src/menus/colors/rgb-clip.xml:50(term)
-#: src/menus/colors/posterize.xml:81(term) src/menus/colors/levels.xml:90(term)
+#: src/menus/colors/posterize.xml:81(term) src/menus/colors/levels.xml:87(term)
 #: src/menus/colors/introduction.xml:329(term)
 #: src/menus/colors/hue-saturation.xml:51(term)
 #: src/menus/colors/hue-chroma.xml:50(term)
 #: src/menus/colors/gegl-local-threshold.xml:42(term)
 #: src/menus/colors/exposure.xml:50(term) src/menus/colors/dither.xml:49(term)
-#: src/menus/colors/curves.xml:72(term)
+#: src/menus/colors/curves.xml:69(term)
 #: src/menus/colors/colortoalpha.xml:58(term)
 #: src/menus/colors/colorize.xml:56(term)
 #: src/menus/colors/color-temperature.xml:80(term)
 #: src/menus/colors/color-balance.xml:58(term)
-#: src/menus/colors/brightness-contrast.xml:86(term)
+#: src/menus/colors/brightness-contrast.xml:83(term)
 msgid "Blending Options"
 msgstr "Harmanlama Seçenekleri"
 
-#: src/menus/colors/threshold.xml:98(term)
+#: src/menus/colors/threshold.xml:95(term)
 #: src/menus/colors/shadows-highlights.xml:54(term)
 #: src/menus/colors/saturation.xml:57(term)
 #: src/menus/colors/rgb-clip.xml:51(term)
-#: src/menus/colors/posterize.xml:82(term) src/menus/colors/levels.xml:91(term)
+#: src/menus/colors/posterize.xml:82(term) src/menus/colors/levels.xml:88(term)
 #: src/menus/colors/introduction.xml:350(term)
 #: src/menus/colors/hue-saturation.xml:52(term)
 #: src/menus/colors/hue-chroma.xml:51(term)
 #: src/menus/colors/gegl-local-threshold.xml:43(term)
 #: src/menus/colors/exposure.xml:51(term) src/menus/colors/dither.xml:50(term)
-#: src/menus/colors/curves.xml:73(term)
+#: src/menus/colors/curves.xml:70(term)
 #: src/menus/colors/colortoalpha.xml:59(term)
 #: src/menus/colors/colorize.xml:57(term)
 #: src/menus/colors/color-temperature.xml:81(term)
 #: src/menus/colors/color-balance.xml:59(term)
-#: src/menus/colors/brightness-contrast.xml:87(term)
+#: src/menus/colors/brightness-contrast.xml:84(term)
 msgid "Preview"
 msgstr "Ön izleme"
 
-#: src/menus/colors/threshold.xml:99(term)
+#: src/menus/colors/threshold.xml:96(term)
 #: src/menus/colors/shadows-highlights.xml:55(term)
 #: src/menus/colors/saturation.xml:58(term)
 #: src/menus/colors/rgb-clip.xml:52(term)
-#: src/menus/colors/posterize.xml:83(term) src/menus/colors/levels.xml:92(term)
+#: src/menus/colors/posterize.xml:83(term) src/menus/colors/levels.xml:89(term)
 #: src/menus/colors/introduction.xml:361(term)
 #: src/menus/colors/hue-saturation.xml:53(term)
 #: src/menus/colors/hue-chroma.xml:52(term)
 #: src/menus/colors/gegl-local-threshold.xml:44(term)
 #: src/menus/colors/exposure.xml:52(term) src/menus/colors/dither.xml:51(term)
-#: src/menus/colors/curves.xml:74(term)
+#: src/menus/colors/curves.xml:71(term)
 #: src/menus/colors/colortoalpha.xml:60(term)
 #: src/menus/colors/colorize.xml:58(term)
 #: src/menus/colors/color-temperature.xml:82(term)
 #: src/menus/colors/color-balance.xml:60(term)
-#: src/menus/colors/brightness-contrast.xml:88(term)
+#: src/menus/colors/brightness-contrast.xml:85(term)
 msgid "Merge filter"
 msgstr "Süzgeci birleştir"
 
-#: src/menus/colors/threshold.xml:100(term)
+#: src/menus/colors/threshold.xml:97(term)
 #: src/menus/colors/shadows-highlights.xml:56(term)
 #: src/menus/colors/saturation.xml:59(term)
 #: src/menus/colors/rgb-clip.xml:53(term)
-#: src/menus/colors/posterize.xml:84(term) src/menus/colors/levels.xml:93(term)
+#: src/menus/colors/posterize.xml:84(term) src/menus/colors/levels.xml:90(term)
 #: src/menus/colors/introduction.xml:383(term)
 #: src/menus/colors/hue-saturation.xml:54(term)
 #: src/menus/colors/hue-chroma.xml:53(term)
 #: src/menus/colors/gegl-local-threshold.xml:45(term)
 #: src/menus/colors/exposure.xml:53(term) src/menus/colors/dither.xml:52(term)
-#: src/menus/colors/curves.xml:75(term)
+#: src/menus/colors/curves.xml:72(term)
 #: src/menus/colors/colortoalpha.xml:61(term)
 #: src/menus/colors/colorize.xml:59(term)
 #: src/menus/colors/color-temperature.xml:83(term)
 #: src/menus/colors/color-balance.xml:61(term)
-#: src/menus/colors/brightness-contrast.xml:89(term)
+#: src/menus/colors/brightness-contrast.xml:86(term)
 msgid "Split view"
 msgstr "Bölünmüş görünüm"
 
-#: src/menus/colors/threshold.xml:106(term)
-#: src/menus/colors/levels.xml:99(term) src/menus/colors/curves.xml:81(term)
+#: src/menus/colors/threshold.xml:103(term)
+#: src/menus/colors/levels.xml:96(term) src/menus/colors/curves.xml:78(term)
 msgid "Channel"
 msgstr "Kanal"
 
-#: src/menus/colors/threshold.xml:108(para)
+#: src/menus/colors/threshold.xml:105(para)
 #, fuzzy
 msgid ""
 "This allows you to select which channel(s) will be used to apply the "
@@ -562,17 +579,17 @@ msgstr ""
 "alfa kanalına sahipse kullanılabilir), <guilabel>Parlaklık</guilabel> ya da "
 "<guilabel>RGB</guilabel>."
 
-#: src/menus/colors/threshold.xml:121(term)
-#: src/menus/colors/levels.xml:183(term) src/menus/colors/curves.xml:177(term)
+#: src/menus/colors/threshold.xml:118(term)
+#: src/menus/colors/levels.xml:180(term) src/menus/colors/curves.xml:174(term)
 msgid "<placeholder-1/> Linear histogram"
 msgstr "<placeholder-1/> Doğrusal histogram"
 
-#: src/menus/colors/threshold.xml:132(term)
-#: src/menus/colors/levels.xml:194(term) src/menus/colors/curves.xml:188(term)
+#: src/menus/colors/threshold.xml:129(term)
+#: src/menus/colors/levels.xml:191(term) src/menus/colors/curves.xml:185(term)
 msgid "<placeholder-1/> Logarithmic histogram"
 msgstr "<placeholder-1/> Logaritmik histogram"
 
-#: src/menus/colors/threshold.xml:144(para)
+#: src/menus/colors/threshold.xml:141(para)
 #, fuzzy
 msgid ""
 "These two buttons to the right of the Channel selection let you choose the "
@@ -581,11 +598,11 @@ msgstr ""
 "Kanal seçiminin sağındaki bu iki düğme, gösterilen histogramın türünü "
 "seçmenizi sağlar."
 
-#: src/menus/colors/threshold.xml:151(term)
+#: src/menus/colors/threshold.xml:148(term)
 msgid "Threshold range"
 msgstr "Eşik erimi"
 
-#: src/menus/colors/threshold.xml:153(para)
+#: src/menus/colors/threshold.xml:150(para)
 #, fuzzy
 msgid ""
 "The Threshold tool provides a visual graph, a histogram, of the intensity "
@@ -606,12 +623,12 @@ msgstr ""
 "istediğiniz seçimi elde etmek için aralığı ayarlayın. <guibutton>Otomatik</"
 "guibutton> düğmesi, eşiği otomatik olarak ayarlamak için kullanılabilir."
 
-#: src/menus/colors/threshold.xml:171(title)
+#: src/menus/colors/threshold.xml:168(title)
 #, fuzzy
 msgid "Using Threshold and Quick Mask to create a selection mask"
 msgstr "Eşik ve Hızlı Maske kullanarak seçim maskesi oluşturma"
 
-#: src/menus/colors/threshold.xml:172(para)
+#: src/menus/colors/threshold.xml:169(para)
 #, fuzzy
 msgid ""
 "Sometimes an element you want to extract from an image can stand out well "
@@ -624,7 +641,7 @@ msgstr ""
 "bütün olarak seçebilir ve ardından Hızlı maske <link linkend=\"gimp-image-"
 "window-quick-mask-button\"></link> kullanabilirsiniz."
 
-#: src/menus/colors/threshold.xml:180(para)
+#: src/menus/colors/threshold.xml:177(para)
 #, fuzzy
 msgid ""
 "First start decomposing your image into its RGB and HSV components by using "
@@ -647,12 +664,12 @@ msgstr ""
 "ayrıştırılmış görüntüde istenen katmanı görüntülemek için daha basittir. "
 "Öğeyi en iyi şekilde izole eden katmanı seçin."
 
-#: src/menus/colors/threshold.xml:193(title)
+#: src/menus/colors/threshold.xml:190(title)
 #, fuzzy
 msgid "The original image, the decompose image and its Layers dialog"
 msgstr "Özgün görüntü, ayrıştırılmış görüntü ve Katmanlar iletişim kutusu"
 
-#: src/menus/colors/threshold.xml:214(para)
+#: src/menus/colors/threshold.xml:211(para)
 #, fuzzy
 msgid ""
 "Call the Threshold tool from the decompose image. By moving the black "
@@ -665,7 +682,7 @@ msgstr ""
 "ayarlayın. Bu muhtemelen mükemmel olmayacaktır: oluşturacağımız seçim "
 "maskesi ile sonucu iyileştireceğiz."
 
-#: src/menus/colors/threshold.xml:221(para)
+#: src/menus/colors/threshold.xml:218(para)
 #, fuzzy
 msgid ""
 "Make sure you have selected the right layer when you call the Threshold "
@@ -674,12 +691,12 @@ msgstr ""
 "Eşik aracını çağırdığınızda doğru katmanı seçtiğinizden emin olun: araç "
 "açıldığında başka bir katmana geçemezsiniz."
 
-#: src/menus/colors/threshold.xml:228(title)
+#: src/menus/colors/threshold.xml:225(title)
 #, fuzzy
 msgid "The selected layer after threshold fit"
 msgstr "Eşik uyumu sonrası seçilen katman"
 
-#: src/menus/colors/threshold.xml:234(para)
+#: src/menus/colors/threshold.xml:231(para)
 #, fuzzy
 msgid ""
 "We got the best outline for our flower. There are several red objects which "
@@ -688,7 +705,7 @@ msgstr ""
 "Çiçeğimiz için en iyi taslağı elde ettik. Kaldırmamız gereken birkaç kırmızı "
 "nesne var."
 
-#: src/menus/colors/threshold.xml:243(para)
+#: src/menus/colors/threshold.xml:240(para)
 #, fuzzy
 msgid ""
 "Make sure the image displaying the selected layer is active and copy it to "
@@ -699,7 +716,7 @@ msgstr ""
 "<keycombo><keycap>Ctrl</keycap><keycap>C</keycap></keycombo>tuşlarıyla "
 "panoya kopyalayın."
 
-#: src/menus/colors/threshold.xml:250(para)
+#: src/menus/colors/threshold.xml:247(para)
 #, fuzzy
 msgid ""
 "Now, make the original image active. Click the <guibutton>Quick Mask</"
@@ -721,11 +738,11 @@ msgstr ""
 "keycap></keycombo> tuşlarına basarak önceden kopyaladığınız katmanı "
 "yapıştırın."
 
-#: src/menus/colors/threshold.xml:263(title)
+#: src/menus/colors/threshold.xml:260(title)
 msgid "The mask"
 msgstr "Maske"
 
-#: src/menus/colors/threshold.xml:273(para)
+#: src/menus/colors/threshold.xml:270(para)
 #, fuzzy
 msgid ""
 "Voilà. Your selection mask is ready: you can improve the selection as usual. "
@@ -738,11 +755,11 @@ msgstr ""
 "bırakın: seçimin etrafında <link linkend=\"glossary-marching-ants\">yürüyen "
 "karıncalar</link> göreceksiniz."
 
-#: src/menus/colors/threshold.xml:281(title)
+#: src/menus/colors/threshold.xml:278(title)
 msgid "The result"
 msgstr "Sonuç"
 
-#: src/menus/colors/threshold.xml:293(para)
+#: src/menus/colors/threshold.xml:290(para)
 #, fuzzy
 msgid ""
 "We used the Zoom to work at a pixel level, <link linkend=\"gimp-tool-free-"
@@ -788,16 +805,6 @@ msgstr ""
 "docs.darktable.org/usermanual/development/en/module-reference/processing-"
 "modules/shadows-and-highlights/\">Shadows and Highlights</ulink>(Gölgeler ve "
 "Vurgular) özelliğine çok benzer."
-
-#: src/menus/colors/shadows-highlights.xml:27(title)
-#: src/menus/colors/saturation.xml:32(title)
-#: src/menus/colors/linear-invert.xml:33(title)
-#: src/menus/colors/invert.xml:39(title)
-#: src/menus/colors/hue-saturation.xml:27(title)
-#: src/menus/colors/hue-chroma.xml:26(title)
-#: src/menus/colors/exposure.xml:26(title)
-msgid "Activating the Command"
-msgstr "Komutu Etkinleştirmek"
 
 #: src/menus/colors/shadows-highlights.xml:28(para)
 msgid ""
@@ -983,7 +990,7 @@ msgstr ""
 #: src/menus/colors/saturation.xml:9(title)
 #: src/menus/colors/saturation.xml:13(secondary)
 #: src/menus/colors/saturation.xml:16(primary)
-#: src/menus/colors/hue-saturation.xml:165(term)
+#: src/menus/colors/hue-saturation.xml:146(term)
 #: src/menus/colors/colorize.xml:74(term)
 msgid "Saturation"
 msgstr "Doygunluk"
@@ -1082,12 +1089,19 @@ msgstr ""
 "edebilirsiniz."
 
 #: src/menus/colors/rgb-clip.xml:25(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Exposure…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>RGB Clip…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>RGB Clip…</guimenuitem></"
+"menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</guimenu><guimenuitem>RGB "
-"Kırp…</guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Pozlama…</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/rgb-clip.xml:37(title)
@@ -1186,13 +1200,19 @@ msgstr ""
 "tasarlanmıştır."
 
 #: src/menus/colors/posterize.xml:58(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Exposure…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Posterize…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Posterize…</guimenuitem></"
+"menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guimenuitem>Posterleştir…</guimenuitem></menuchoice> altında "
-"bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Pozlama…</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/posterize.xml:70(title)
@@ -1326,8 +1346,8 @@ msgstr "Doğrusal ışıkta renkleri ters çevirdikten sonra"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:65(None)
-#: src/menus/colors/brightness-contrast.xml:60(None)
+#: src/menus/colors/levels.xml:62(None)
+#: src/menus/colors/brightness-contrast.xml:57(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-tool-levels.svg'; "
 "md5=27fc6afe9c68b5a242f0eacc3dd6e1af"
@@ -1337,7 +1357,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:83(None)
+#: src/menus/colors/levels.xml:80(None)
 msgid ""
 "@@image: 'images/menus/colors/levels-dialog.png'; "
 "md5=ccd8408c1dbb6908b6aee987f4b42166"
@@ -1347,7 +1367,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:146(None) src/menus/colors/curves.xml:140(None)
+#: src/menus/colors/levels.xml:143(None) src/menus/colors/curves.xml:137(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-color-space-linear-symbolic.svg'; "
 "md5=a04790ad39814aee1a2300a094d87855"
@@ -1357,7 +1377,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:157(None) src/menus/colors/curves.xml:151(None)
+#: src/menus/colors/levels.xml:154(None) src/menus/colors/curves.xml:148(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-color-space-non-linear-symbolic.svg'; "
 "md5=78323d0f1819a802fbac35f7330c9ad6"
@@ -1367,7 +1387,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:168(None) src/menus/colors/curves.xml:162(None)
+#: src/menus/colors/levels.xml:165(None) src/menus/colors/curves.xml:159(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-color-space-perceptual-symbolic.svg'; "
 "md5=443c4bae3fe223d262c5b03c9d74a684"
@@ -1377,7 +1397,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:272(None) src/menus/colors/levels.xml:495(None)
+#: src/menus/colors/levels.xml:269(None) src/menus/colors/levels.xml:492(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-color-picker-black.svg'; "
 "md5=61cea71f54cfbfebb92d98abeb97f5f9"
@@ -1387,7 +1407,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:281(None) src/menus/colors/levels.xml:479(None)
+#: src/menus/colors/levels.xml:278(None) src/menus/colors/levels.xml:476(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-color-picker-white.svg'; "
 "md5=f849e4d3a7e6b69a637de9c8f1c5670a"
@@ -1397,7 +1417,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:316(None)
+#: src/menus/colors/levels.xml:313(None)
 msgid ""
 "@@image: 'images/toolbox/levels-input-1.png'; "
 "md5=89de48a7071bca8aaba5d4b442a75644"
@@ -1407,7 +1427,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:333(None)
+#: src/menus/colors/levels.xml:330(None)
 msgid ""
 "@@image: 'images/toolbox/levels-input-2-dialog.png'; "
 "md5=054ec9e9e7ca42fc1567cf3dcf282c56"
@@ -1417,7 +1437,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:342(None)
+#: src/menus/colors/levels.xml:339(None)
 msgid ""
 "@@image: 'images/toolbox/levels-input-2.png'; "
 "md5=1fdbb20ecb665144a3da121f6de8f84a"
@@ -1427,7 +1447,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:362(None)
+#: src/menus/colors/levels.xml:359(None)
 msgid ""
 "@@image: 'images/toolbox/levels-input-3-dialog.png'; "
 "md5=b40b68584248f6cd9ff3e4d905b4e06b"
@@ -1437,7 +1457,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:371(None)
+#: src/menus/colors/levels.xml:368(None)
 msgid ""
 "@@image: 'images/toolbox/levels-input-3.png'; "
 "md5=51cc6664dcfbd727957239c4f2b3e239"
@@ -1447,7 +1467,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:437(None)
+#: src/menus/colors/levels.xml:434(None)
 msgid ""
 "@@image: 'images/toolbox/levels-output-1.png'; "
 "md5=a3f6d87952ebdb5d4208332f66385d79"
@@ -1457,7 +1477,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:455(None)
+#: src/menus/colors/levels.xml:452(None)
 msgid ""
 "@@image: 'images/toolbox/levels-output-2.png'; "
 "md5=9362c933780a79d8df9f886a986954d8"
@@ -1467,7 +1487,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:487(None)
+#: src/menus/colors/levels.xml:484(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-color-picker-gray.svg'; "
 "md5=4a312f19022da47d07bd1a24305116a3"
@@ -1477,7 +1497,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:518(None)
+#: src/menus/colors/levels.xml:515(None)
 msgid ""
 "@@image: 'images/toolbox/levels-eyedrop.png'; "
 "md5=3b4221bf4b688bc078354a16bbd558f0"
@@ -1487,7 +1507,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:593(None)
+#: src/menus/colors/levels.xml:590(None)
 msgid ""
 "@@image: 'images/toolbox/tool-options-levels.png'; "
 "md5=22a05c1ee41168baa8f9bfe4701d463f"
@@ -1497,7 +1517,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:638(None)
+#: src/menus/colors/levels.xml:635(None)
 msgid ""
 "@@image: 'images/filters/examples/colors-retinex1.png'; "
 "md5=25f4bc072d9614e58d5cb74fd9a7f70e"
@@ -1507,7 +1527,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:646(None)
+#: src/menus/colors/levels.xml:643(None)
 msgid ""
 "@@image: 'images/toolbox/levels-ex1b.png'; "
 "md5=be9a9026fa024eb751ec1e2f16e49627"
@@ -1517,7 +1537,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:660(None)
+#: src/menus/colors/levels.xml:657(None)
 msgid ""
 "@@image: 'images/toolbox/levels-ex2a.png'; "
 "md5=eeaf458e17db88f2a5e2572fcbd1ee7e"
@@ -1527,7 +1547,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:671(None)
+#: src/menus/colors/levels.xml:668(None)
 msgid ""
 "@@image: 'images/toolbox/levels-ex2b.png'; "
 "md5=f5b2d2dd261da070bb2900117701280a"
@@ -1537,7 +1557,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:685(None)
+#: src/menus/colors/levels.xml:682(None)
 msgid ""
 "@@image: 'images/toolbox/levels-ex3a.png'; "
 "md5=47a4a2de02ba2059d55203ffc6692d38"
@@ -1547,7 +1567,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:697(None)
+#: src/menus/colors/levels.xml:694(None)
 msgid ""
 "@@image: 'images/toolbox/levels-ex3b.png'; "
 "md5=8022e32f75cd8db4bae740c46443a1ca"
@@ -1606,45 +1626,39 @@ msgstr ""
 "açık ya da daha koyu hale getirmek, kontrastı değiştirmek ya da baskın renk "
 "tonunu düzeltmek için kullanılır."
 
-#: src/menus/colors/levels.xml:44(title) src/menus/colors/curves.xml:27(title)
-#: src/menus/colors/color-balance.xml:34(title)
-#: src/menus/colors/brightness-contrast.xml:39(title)
-msgid "Activating the Tool"
-msgstr "Aracı Etkinleştirme"
-
-#: src/menus/colors/levels.xml:45(para) src/menus/colors/curves.xml:28(para)
-#: src/menus/colors/brightness-contrast.xml:40(para)
+#: src/menus/colors/levels.xml:47(para)
 #, fuzzy
-msgid "There are different possibilities to activate the tool:"
-msgstr "Aracı etkinleştirmek için farklı seçenekler mevcuttur:"
-
-#: src/menus/colors/levels.xml:50(para)
-#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Invert</guimenuitem></"
+#| "menuchoice>."
 msgid ""
-"From the main menu: <menuchoice><guimenu>Colors</guimenu><guimenuitem>Levels…"
-"</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Levels…</guimenuitem></"
+"menuchoice>."
 msgstr ""
-"Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Seviyeler…</"
-"guimenuitem></menuchoice>."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Tersine Çevir</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
-#: src/menus/colors/levels.xml:59(para) src/menus/colors/curves.xml:42(para)
-#: src/menus/colors/brightness-contrast.xml:54(para)
+#: src/menus/colors/levels.xml:56(para) src/menus/colors/curves.xml:39(para)
+#: src/menus/colors/brightness-contrast.xml:51(para)
 #, fuzzy
 msgid ""
-"By clicking the tool icon <placeholder-1/> in the Toolbox if this tool has "
-"been installed there. For this, please refer to <xref linkend=\"gimp-prefs-"
-"toolbox\"/>."
+"You can also access it by clicking the tool icon <placeholder-1/> in the "
+"Toolbox if this tool has been installed there. For this, please refer to "
+"<xref linkend=\"gimp-prefs-toolbox\"/>."
 msgstr ""
 "Bu araç Toolbox'a yüklenmişse, Toolbox'taki araç simgesine ( <placeholder-1/"
 "> ) tıklayarak. Bunun için lütfen <xref linkend=\"gimp-prefs-toolbox\"/> "
 "adresine bakın."
 
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
-#: src/menus/colors/levels.xml:79(title)
+#: src/menus/colors/levels.xml:76(title)
 msgid "Level tool options"
 msgstr "“Düzey” aracı seçenekleri"
 
-#: src/menus/colors/levels.xml:106(para)
+#: src/menus/colors/levels.xml:103(para)
 #, fuzzy
 msgid ""
 "<guilabel>Value</guilabel> makes changes to the value of all RGB channels in "
@@ -1653,7 +1667,7 @@ msgstr ""
 "<guilabel>Değer</guilabel>, görüntüdeki tüm RGB kanallarının değerinde "
 "değişiklikler yapar: görüntü daha koyu ya da daha açık hale gelir."
 
-#: src/menus/colors/levels.xml:113(para)
+#: src/menus/colors/levels.xml:110(para)
 #, fuzzy
 msgid ""
 "<guilabel>Red</guilabel>, <guilabel>Green</guilabel> and <guilabel>Blue</"
@@ -1666,7 +1680,7 @@ msgstr ""
 "az renk alır. Bir rengi eklemek ya da çıkarmak, tamamlayıcı rengi çıkarmak "
 "ya da eklemekle sonuçlanır."
 
-#: src/menus/colors/levels.xml:122(para)
+#: src/menus/colors/levels.xml:119(para)
 #, fuzzy
 msgid ""
 "<guilabel>Alpha</guilabel> works on semi-transparent layers or selections: "
@@ -1678,7 +1692,7 @@ msgstr ""
 "anlamına gelir. Görüntünüzün bir Alfa Kanalı olması gerekir, aksi takdirde "
 "bu seçenek devre dışı kalır."
 
-#: src/menus/colors/levels.xml:130(para)
+#: src/menus/colors/levels.xml:127(para)
 #, fuzzy
 msgid ""
 "<guilabel>Reset channel</guilabel> restores the original setting for the "
@@ -1687,7 +1701,7 @@ msgstr ""
 "<guilabel>Kanalı sıfırla</guilabel>, seçilen kanalın özgün ayarını geri "
 "yükler."
 
-#: src/menus/colors/levels.xml:101(para)
+#: src/menus/colors/levels.xml:98(para)
 #, fuzzy
 msgid ""
 "You can select the specific channel which will be modified by the tool: "
@@ -1696,19 +1710,19 @@ msgstr ""
 "Araç tarafından değiştirilecek belirli kanalı seçebilirsiniz: <placeholder-1/"
 ">"
 
-#: src/menus/colors/levels.xml:141(term) src/menus/colors/curves.xml:135(term)
+#: src/menus/colors/levels.xml:138(term) src/menus/colors/curves.xml:132(term)
 msgid "<placeholder-1/> Linear"
 msgstr "<placeholder-1/> Doğrusal"
 
-#: src/menus/colors/levels.xml:152(term) src/menus/colors/curves.xml:146(term)
+#: src/menus/colors/levels.xml:149(term) src/menus/colors/curves.xml:143(term)
 msgid "<placeholder-1/> Non-Linear"
 msgstr "<placeholder-1/> Doğrusal olmayan"
 
-#: src/menus/colors/levels.xml:163(term) src/menus/colors/curves.xml:157(term)
+#: src/menus/colors/levels.xml:160(term) src/menus/colors/curves.xml:154(term)
 msgid "<placeholder-1/> Perceptual"
 msgstr "<placeholder-1/> Algısal"
 
-#: src/menus/colors/levels.xml:175(para) src/menus/colors/curves.xml:169(para)
+#: src/menus/colors/levels.xml:172(para) src/menus/colors/curves.xml:166(para)
 #, fuzzy
 msgid ""
 "These three buttons determine whether the tone reproduction (TRC) will be "
@@ -1717,7 +1731,7 @@ msgstr ""
 "Bu üç düğme, ton reprodüksiyonunun (TRC) doğrusal, doğrusal olmayan ya da "
 "algısal X ekseni kullanılarak görüntülenip görüntülenmeyeceğini belirler."
 
-#: src/menus/colors/levels.xml:206(para) src/menus/colors/curves.xml:200(para)
+#: src/menus/colors/levels.xml:203(para) src/menus/colors/curves.xml:197(para)
 #, fuzzy
 msgid ""
 "These two buttons determine whether the histogram will be displayed using a "
@@ -1733,11 +1747,11 @@ msgstr ""
 "tarafından domine edilir ve logaritmik histogram genellikle daha kullanışlı "
 "olur."
 
-#: src/menus/colors/levels.xml:218(term)
+#: src/menus/colors/levels.xml:215(term)
 msgid "Input Levels"
 msgstr "Girdi Düzeyleri"
 
-#: src/menus/colors/levels.xml:220(para)
+#: src/menus/colors/levels.xml:217(para)
 #, fuzzy
 msgid ""
 "The main area is a graphic representation of the active layer or selection "
@@ -1760,11 +1774,11 @@ msgstr ""
 "kaymış bir histogram üretir; bu, vurguların yeşil ve kırmızı renklerinin "
 "eksik olmasıyla belirtilir."
 
-#: src/menus/colors/levels.xml:232(para)
+#: src/menus/colors/levels.xml:229(para)
 msgid "Level ranges can be modified in three ways:"
 msgstr "Düzey aralıkları üç şekilde değiştirilebilir:"
 
-#: src/menus/colors/levels.xml:237(para)
+#: src/menus/colors/levels.xml:234(para)
 #, fuzzy
 msgid ""
 "Three triangles as sliders: one black for dark tones (Shadows), one gray for "
@@ -1773,7 +1787,7 @@ msgstr ""
 "Sürgü olarak üç üçgen: koyu tonlar için siyah (Gölgeler), orta tonlar için "
 "gri (Gama), açık tonlar için beyaz (Vurgular)."
 
-#: src/menus/colors/levels.xml:242(para)
+#: src/menus/colors/levels.xml:239(para)
 #, fuzzy
 msgid ""
 "The black slider determines the <emphasis>black point</emphasis>: all pixels "
@@ -1784,7 +1798,7 @@ msgstr ""
 "ya da daha düşük tüm pikseller siyah olacaktır (renk kanalı seçiliyken renk "
 "yok / Alfa kanalı seçiliyken şeffaf)."
 
-#: src/menus/colors/levels.xml:248(para)
+#: src/menus/colors/levels.xml:245(para)
 #, fuzzy
 msgid ""
 "The white slider determines the <emphasis>white point</emphasis>: all pixels "
@@ -1795,7 +1809,7 @@ msgstr ""
 "ya da daha yüksek tüm pikseller beyaz olacaktır (seçilen renk kanalıyla "
 "tamamen renklendirilmiş / seçilen Alfa kanalıyla tamamen mat)."
 
-#: src/menus/colors/levels.xml:254(para)
+#: src/menus/colors/levels.xml:251(para)
 #, fuzzy
 msgid ""
 "The gray slider determines the <emphasis>mid point</emphasis>. Going to the "
@@ -1808,7 +1822,7 @@ msgstr ""
 "beyaza doğru kaydırıldığında görüntü daha koyu (daha az renkli / daha "
 "şeffaf) hale gelir."
 
-#: src/menus/colors/levels.xml:263(para)
+#: src/menus/colors/levels.xml:260(para)
 #, fuzzy
 msgid ""
 "Two eye-droppers: when you click them, the mouse pointer becomes an eye-"
@@ -1823,12 +1837,12 @@ msgstr ""
 "renkli damlalığı <placeholder-1/> kullanın; beyaz noktayı belirlemek için "
 "sağdaki beyaz damlalığı <placeholder-2/> kullanın."
 
-#: src/menus/colors/levels.xml:289(para)
+#: src/menus/colors/levels.xml:286(para)
 msgid "Three numeric text boxes to enter values directly."
 msgstr "Değerleri doğrudan girmek için üç sayısal metin kutusu."
 
 #. summary
-#: src/menus/colors/levels.xml:296(para)
+#: src/menus/colors/levels.xml:293(para)
 #, fuzzy
 msgid ""
 "Input Levels are used to lighten highlights (bright tones), darken shadows "
@@ -1843,11 +1857,11 @@ msgstr ""
 "(seçilen rengi artırın / matlığı artırın). Parlaklığı azaltmak için "
 "kaydırıcıları sağa hareket ettirin (seçilen rengi azaltın / matlığı azaltın)."
 
-#: src/menus/colors/levels.xml:306(title)
+#: src/menus/colors/levels.xml:303(title)
 msgid "Examples for Input Levels"
 msgstr "Girdi Düzeyleri İçin Örnekler"
 
-#: src/menus/colors/levels.xml:307(para)
+#: src/menus/colors/levels.xml:304(para)
 #, fuzzy
 msgid ""
 "The original image is a grayscale image with three stripes: Shadows (64), "
@@ -1858,7 +1872,7 @@ msgstr ""
 "Orta Tonlar (127), Vurgular (192). Histogram, üç tonun her biri için birer "
 "tane olmak üzere üç tepe noktası gösterir."
 
-#: src/menus/colors/levels.xml:323(para)
+#: src/menus/colors/levels.xml:320(para)
 #, fuzzy
 msgid ""
 "The Value channel is selected. The black slider (Shadows) has been moved up "
@@ -1872,15 +1886,15 @@ msgstr ""
 "ortasına kaydırılmıştır. Orta tonlar 84'e, Vurgular ise 171'e kadar "
 "koyulaştırılmıştır."
 
-#: src/menus/colors/levels.xml:336(para) src/menus/colors/levels.xml:458(para)
+#: src/menus/colors/levels.xml:333(para) src/menus/colors/levels.xml:455(para)
 msgid "Black slider has been moved"
 msgstr "Siyah kaydırıcı taşındı"
 
-#: src/menus/colors/levels.xml:345(para) src/menus/colors/levels.xml:374(para)
+#: src/menus/colors/levels.xml:342(para) src/menus/colors/levels.xml:371(para)
 msgid "Resulting image"
 msgstr "Sonuç görüntüsü"
 
-#: src/menus/colors/levels.xml:352(para)
+#: src/menus/colors/levels.xml:349(para)
 #, fuzzy
 msgid ""
 "The white slider (highlights) has been moved up to the highlight peak. The "
@@ -1893,15 +1907,15 @@ msgstr ""
 "otomatik olarak ton aralığının ortasına taşınır. Orta tonlar 169'a, gölgeler "
 "ise 84'e kadar açılır."
 
-#: src/menus/colors/levels.xml:365(para)
+#: src/menus/colors/levels.xml:362(para)
 msgid "White slider has been moved"
 msgstr "Beyaz kaydırıcı taşındı"
 
-#: src/menus/colors/levels.xml:384(term)
+#: src/menus/colors/levels.xml:381(term)
 msgid "Output Levels"
 msgstr "Çıktı Düzeyleri"
 
-#: src/menus/colors/levels.xml:386(para)
+#: src/menus/colors/levels.xml:383(para)
 #, fuzzy
 msgid ""
 "Output levels allow manual selection of a constrained output level range. "
@@ -1912,12 +1926,12 @@ msgstr ""
 "tanır. Burada, Çıkış Seviyelerini etkileşimli olarak değiştirmek için "
 "kullanılabilen ok uçlu sayısal metin kutuları da bulunmaktadır."
 
-#: src/menus/colors/levels.xml:392(para)
+#: src/menus/colors/levels.xml:389(para)
 #, fuzzy
 msgid "Output levels force the tone range to fit the new limits you have set."
 msgstr "Çıkış düzeyleri, ton aralığını belirlediğiniz yeni sınırlara uydurur."
 
-#: src/menus/colors/levels.xml:398(para)
+#: src/menus/colors/levels.xml:395(para)
 #, fuzzy
 msgid ""
 "Working with Value: values are compressed and look more alike; so contrast "
@@ -1929,7 +1943,7 @@ msgstr ""
 "ayrıntılar ortaya çıkabilir ancak kontrast azalır; bir uzlaşma gereklidir. "
 "Vurgular daha koyu hale getirilir."
 
-#: src/menus/colors/levels.xml:406(para)
+#: src/menus/colors/levels.xml:403(para)
 #, fuzzy
 msgid ""
 "Working with Color channels: if you the use the green channel for example "
@@ -1942,7 +1956,7 @@ msgstr ""
 "yeşil kanal değeri, düşük bir değer olsa bile, 100 ile 140 arasında "
 "kaydırılır."
 
-#: src/menus/colors/levels.xml:414(para)
+#: src/menus/colors/levels.xml:411(para)
 #, fuzzy
 msgid ""
 "Working with Alpha channel: all Alpha values are shifted to the range you "
@@ -1950,11 +1964,11 @@ msgid ""
 msgstr ""
 "Alfa kanalıyla çalışma: tüm Alfa değerleri, ayarladığınız aralığa kaydırılır."
 
-#: src/menus/colors/levels.xml:422(title)
+#: src/menus/colors/levels.xml:419(title)
 msgid "Example for Output Levels"
 msgstr "Çıktı Düzeyleri Örneği"
 
-#: src/menus/colors/levels.xml:424(para)
+#: src/menus/colors/levels.xml:421(para)
 #, fuzzy
 msgid ""
 "The original image is a RGB gradient from black (0;0;0) to white "
@@ -1968,11 +1982,11 @@ msgstr ""
 "Diyaloglar</guisubmenu><guimenuitem>Histogram</guimenuitem></"
 "menuchoice>kullan"
 
-#: src/menus/colors/levels.xml:440(para)
+#: src/menus/colors/levels.xml:437(para)
 msgid "Original image (a gradient)"
 msgstr "Özgün görüntü (renk geçişi)"
 
-#: src/menus/colors/levels.xml:445(para)
+#: src/menus/colors/levels.xml:442(para)
 #, fuzzy
 msgid ""
 "Value channel selected. The black slider has been moved to 63 and the white "
@@ -1985,11 +1999,11 @@ msgstr ""
 "63'ten küçük, hiçbir piksel de 189'dan büyük değildir. Görüntüde gölgeler "
 "daha açık, vurgular ise daha koyu: kontrast azaltılmıştır."
 
-#: src/menus/colors/levels.xml:466(term)
+#: src/menus/colors/levels.xml:463(term)
 msgid "All Channels"
 msgstr "Tüm Kanallar"
 
-#: src/menus/colors/levels.xml:468(para)
+#: src/menus/colors/levels.xml:465(para)
 #, fuzzy
 msgid ""
 "<guilabel>Auto Input Levels</guilabel>: Performs an automatic setting of the "
@@ -1998,12 +2012,12 @@ msgstr ""
 "<guilabel>Otomatik Giriş Seviyeleri</guilabel>: Seviyelerin otomatik ayarını "
 "gerçekleştirir."
 
-#: src/menus/colors/levels.xml:473(title)
+#: src/menus/colors/levels.xml:470(title)
 #, fuzzy
 msgid "Three eyedroppers <placeholder-1/>, <placeholder-2/>, <placeholder-3/>."
 msgstr "Üç damlalık <placeholder-1/>, <placeholder-2/>, <placeholder-3/>."
 
-#: src/menus/colors/levels.xml:500(para)
+#: src/menus/colors/levels.xml:497(para)
 #, fuzzy
 msgid ""
 "These three buttons respectively represent a white, a gray and a black eye-"
@@ -2021,12 +2035,12 @@ msgstr ""
 "noktayı</emphasis> ya da <emphasis>orta noktayı</emphasis> belirler. Belirli "
 "bir kanal seçilmiş olsa bile tüm kanallarda çalışır."
 
-#: src/menus/colors/levels.xml:514(title)
+#: src/menus/colors/levels.xml:511(title)
 #, fuzzy
 msgid "Example for Levels eye-droppers"
 msgstr "Seviyeler için örnek damlalıklar"
 
-#: src/menus/colors/levels.xml:521(para)
+#: src/menus/colors/levels.xml:518(para)
 #, fuzzy
 msgid ""
 "Above is original gradient from black to white. Below is the result after "
@@ -2037,11 +2051,11 @@ msgstr ""
 "damlalıkla tıklandıktan sonraki sonuç gösterilmektedir: tıklanan pikselin "
 "değerinden daha yüksek değere sahip tüm pikseller beyaza dönüşmüştür."
 
-#: src/menus/colors/levels.xml:571(term)
+#: src/menus/colors/levels.xml:568(term)
 msgid "Edit these settings as Curves"
 msgstr "Bu Ayarları Eğriler olarak düzenle"
 
-#: src/menus/colors/levels.xml:573(para)
+#: src/menus/colors/levels.xml:570(para)
 #, fuzzy
 msgid ""
 "To make your work easier, this button lets you turn to the <link "
@@ -2051,15 +2065,15 @@ msgstr ""
 "tool-curves\">Curves</link> aracına geçmenizi sağlar."
 
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
-#: src/menus/colors/levels.xml:585(title)
+#: src/menus/colors/levels.xml:582(title)
 msgid "Tool Options dialog"
 msgstr "“Araç Seçenekleri” iletişim kutusu"
 
-#: src/menus/colors/levels.xml:589(title)
+#: src/menus/colors/levels.xml:586(title)
 msgid "<quote>Levels</quote> tool options"
 msgstr "<quote>Düzeyler</quote> aracı seçenekleri"
 
-#: src/menus/colors/levels.xml:598(para)
+#: src/menus/colors/levels.xml:595(para)
 #, fuzzy
 msgid ""
 "Although this tool is not present in the Toolbox by default (please refer to "
@@ -2070,11 +2084,11 @@ msgstr ""
 "isterseniz lütfen <xref linkend=\"gimp-prefs-toolbox\"/> adresine bakın), "
 "Araç Kutusunun altında bir Araç Seçenekleri İletişim Kutusu bulunmaktadır."
 
-#: src/menus/colors/levels.xml:605(term)
+#: src/menus/colors/levels.xml:602(term)
 msgid "Sample average"
 msgstr "Örnek ortalama"
 
-#: src/menus/colors/levels.xml:607(para)
+#: src/menus/colors/levels.xml:604(para)
 #, fuzzy
 msgid ""
 "This slider sets the <quote>radius</quote> of the color-picking area to get "
@@ -2086,11 +2100,11 @@ msgstr ""
 "üzerinde tıklamayı sürdürdüğünüzde, az çok büyütülmüş bir kare olarak "
 "görünür."
 
-#: src/menus/colors/levels.xml:616(term)
+#: src/menus/colors/levels.xml:613(term)
 msgid "Sample merged"
 msgstr "Birleştirilmiş örnek"
 
-#: src/menus/colors/levels.xml:618(para)
+#: src/menus/colors/levels.xml:615(para)
 #, fuzzy
 msgid ""
 "If you enable this option, sampling is not calculated only from the values "
@@ -2099,7 +2113,7 @@ msgstr ""
 "Bu seçeneği etkinleştirirseniz, örnekleme yalnızca etkin katmanın "
 "değerlerinden değil, tüm görünür katmanlardan hesaplanır."
 
-#: src/menus/colors/levels.xml:622(para)
+#: src/menus/colors/levels.xml:619(para)
 #, fuzzy
 msgid ""
 "For more information, see the <link linkend=\"glossary-"
@@ -2108,27 +2122,27 @@ msgstr ""
 "Daha fazla bilgi için, <link linkend=\"glossary-samplemerge\">Sözlük "
 "girişine bakın</link>."
 
-#: src/menus/colors/levels.xml:632(title)
+#: src/menus/colors/levels.xml:629(title)
 #, fuzzy
 msgid "Actual practice"
 msgstr "Gerçek uygulama"
 
-#: src/menus/colors/levels.xml:634(title)
+#: src/menus/colors/levels.xml:631(title)
 #, fuzzy
 msgid "A very under-exposed image"
 msgstr "Çok az pozlanmış bir görüntü"
 
-#: src/menus/colors/levels.xml:649(para)
+#: src/menus/colors/levels.xml:646(para)
 #, fuzzy
 msgid "The histogram shows a predominance of Shadows and missing Highlights."
 msgstr "Histogramda gölgeler baskın ve parlak alanlar eksik."
 
-#: src/menus/colors/levels.xml:657(title)
+#: src/menus/colors/levels.xml:654(title)
 #, fuzzy
 msgid "Setting the white point"
 msgstr "Beyaz nokta ayarı"
 
-#: src/menus/colors/levels.xml:663(para)
+#: src/menus/colors/levels.xml:660(para)
 #, fuzzy
 msgid ""
 "The white slider has been moved to the start of well marked Highlights. The "
@@ -2137,7 +2151,7 @@ msgstr ""
 "Beyaz kaydırıcı, iyi işaretlenmiş Önemli Noktalar bölümünün başına "
 "taşınmıştır. Görüntü aydınlanır."
 
-#: src/menus/colors/levels.xml:674(para)
+#: src/menus/colors/levels.xml:671(para)
 #, fuzzy
 msgid ""
 "The resulting histogram (down) shows Highlights now, but Shadows are still "
@@ -2146,12 +2160,12 @@ msgstr ""
 "Ortaya çıkan histogram (aşağıda) artık Vurguları gösteriyor, ancak Gölgeler "
 "hala baskın durumda."
 
-#: src/menus/colors/levels.xml:682(title)
+#: src/menus/colors/levels.xml:679(title)
 #, fuzzy
 msgid "Setting the balance between Shadows and Highlights"
 msgstr "Gölgeler ve Vurgular arasındaki dengeyi ayarlama"
 
-#: src/menus/colors/levels.xml:688(para)
+#: src/menus/colors/levels.xml:685(para)
 #, fuzzy
 msgid ""
 "The mid slider has been moved to the left. This results in reducing the "
@@ -2160,7 +2174,7 @@ msgstr ""
 "Orta kaydırıcı sola kaydırılmıştır. Bu, Gölgeler oranının azalmasına ve "
 "Vurgular oranının artmasına neden olur."
 
-#: src/menus/colors/levels.xml:700(para)
+#: src/menus/colors/levels.xml:697(para)
 #, fuzzy
 msgid "The resulting histogram (down) confirms the reduction of Shadows."
 msgstr ""
@@ -2182,7 +2196,7 @@ msgid "Invert"
 msgstr "Tersine Çevir"
 
 #: src/menus/colors/invert.xml:19(primary)
-#: src/menus/colors/curves.xml:495(title)
+#: src/menus/colors/curves.xml:492(title)
 msgid "Invert colors"
 msgstr "Tersine çevrilmiş renkler"
 
@@ -2500,9 +2514,13 @@ msgstr "Bu alt menü aşağıdaki komutları içerir:"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/colors/hue-saturation.xml:44(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/menus/colors/hue-saturation-dialog.png'; "
+#| "md5=f847988eb9d95b0ef4e2365226e31cde"
 msgid ""
 "@@image: 'images/menus/colors/hue-saturation-dialog.png'; "
-"md5=f847988eb9d95b0ef4e2365226e31cde"
+"md5=d57f74da86fb0596eeb7cadf83fc594a"
 msgstr ""
 "@@image: 'images/menus/colors/hue-saturation-dialog.png'; "
 "md5=f847988eb9d95b0ef4e2365226e31cde"
@@ -2664,13 +2682,18 @@ msgstr ""
 "Kaydırıcı ve girdi kutusu, renk tekerleğinde renk tonu seçmenizi sağlar: "
 "-180, 180."
 
-#: src/menus/colors/hue-saturation.xml:146(term)
+#: src/menus/colors/hue-saturation.xml:148(para)
+msgid ""
+"The slider and the input box allow you to select a saturation: -100, 100."
+msgstr "Kaydırıcı ve girdi kutusu doygunluk seçmenizi sağlar: -100, 100."
+
+#: src/menus/colors/hue-saturation.xml:155(term)
 #: src/menus/colors/hue-chroma.xml:77(term)
 #: src/menus/colors/colorize.xml:83(term)
 msgid "Lightness"
 msgstr "Açıklık"
 
-#: src/menus/colors/hue-saturation.xml:148(para)
+#: src/menus/colors/hue-saturation.xml:157(para)
 msgid ""
 "The slider and the input box allow you to select a value (luminosity): -100, "
 "100."
@@ -2678,7 +2701,7 @@ msgstr ""
 "Kaydırıcı ve girdi kutusu değer (renk parlaklığı) seçmenizi sağlar: -100, "
 "100."
 
-#: src/menus/colors/hue-saturation.xml:153(para)
+#: src/menus/colors/hue-saturation.xml:162(para)
 #, fuzzy
 msgid ""
 "Lightness changes here concern a color range, while they concern a color "
@@ -2692,11 +2715,6 @@ msgstr ""
 "Hue-Saturation ile Sarı açıklığını değiştirirseniz, tüm sarı pikseller "
 "değişirken, Curves ya da Levels araçlarıyla yalnızca koyu, parlak ya da orta "
 "piksellerin parlaklığı değişir."
-
-#: src/menus/colors/hue-saturation.xml:167(para)
-msgid ""
-"The slider and the input box allow you to select a saturation: -100, 100."
-msgstr "Kaydırıcı ve girdi kutusu doygunluk seçmenizi sağlar: -100, 100."
 
 #: src/menus/colors/hue-saturation.xml:174(term)
 msgid "Reset Color"
@@ -2814,12 +2832,19 @@ msgstr ""
 "olabilecek pikselleri tanımlar ve değiştirir."
 
 #: src/menus/colors/hot.xml:33(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Hue-Chroma…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Hot…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Hot…</guimenuitem></"
+"menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guimenuitem>Sıcak…</guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Renk Tonu-Renk Saflığı…</guimenuitem></menuchoice> "
+"yoluyla erişebilirsiniz."
 
 #: src/menus/colors/hot.xml:41(para)
 #, fuzzy
@@ -2900,12 +2925,19 @@ msgid "Local Threshold"
 msgstr "Yerel Eşik"
 
 #: src/menus/colors/gegl-local-threshold.xml:17(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Exposure…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Local Threshold…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Local Threshold…</"
+"guimenuitem></menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guimenuitem>Yerel Eşik…</guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Pozlama…</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/colors/gegl-local-threshold.xml:29(title)
 msgid "<quote>Local Threshold</quote> filter options"
@@ -3045,12 +3077,19 @@ msgstr ""
 "için farklı dithering yöntemleri belirlenebilir."
 
 #: src/menus/colors/dither.xml:24(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Invert</guimenuitem></"
+#| "menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Dither…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Dither…</guimenuitem></"
+"menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guimenuitem>Titreme…</guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Tersine Çevir</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/dither.xml:36(title)
@@ -3256,7 +3295,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:48(None)
+#: src/menus/colors/curves.xml:45(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-tool-curves.svg'; "
 "md5=c9e6a6ce8948de1a3a1ec3306e7438f4"
@@ -3266,7 +3305,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:65(None)
+#: src/menus/colors/curves.xml:62(None)
 msgid ""
 "@@image: 'images/menus/colors/curves-dialog.png'; "
 "md5=cc009f37dc7bbbcb72acebfcf93034eb"
@@ -3276,7 +3315,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:406(None)
+#: src/menus/colors/curves.xml:403(None)
 msgid ""
 "@@image: 'images/toolbox/curves-work.png'; "
 "md5=21b8adbd64af62efcd39dea2ccf21e6b"
@@ -3286,7 +3325,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:429(None)
+#: src/menus/colors/curves.xml:426(None)
 msgid ""
 "@@image: 'images/toolbox/curves-horiz-1.png'; "
 "md5=30b62bc0eab3c3ad4a75dedf1e2f32fc"
@@ -3296,7 +3335,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:437(None)
+#: src/menus/colors/curves.xml:434(None)
 msgid ""
 "@@image: 'images/toolbox/curves-horiz-2.png'; "
 "md5=89fca43da9c397c3a381b3acf1cfc574"
@@ -3306,7 +3345,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:472(None)
+#: src/menus/colors/curves.xml:469(None)
 msgid ""
 "@@image: 'images/toolbox/curves-vert-1.png'; "
 "md5=16f3740307bbf0aa1fc58ddac98bd6e0"
@@ -3316,7 +3355,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:481(None)
+#: src/menus/colors/curves.xml:478(None)
 msgid ""
 "@@image: 'images/toolbox/curves-vert-2.png'; "
 "md5=f71cf6a97b4bc331da6f60084796cefb"
@@ -3326,7 +3365,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:500(None)
+#: src/menus/colors/curves.xml:497(None)
 msgid ""
 "@@image: 'images/toolbox/curves-invert.png'; "
 "md5=6d82a32d0ca897021be0a2ea704dcc2a"
@@ -3336,7 +3375,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:520(None)
+#: src/menus/colors/curves.xml:517(None)
 msgid ""
 "@@image: 'images/toolbox/curves-H-S.png'; "
 "md5=f2cf306fde0fb55fb67c8b4b5246a204"
@@ -3346,7 +3385,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:539(None)
+#: src/menus/colors/curves.xml:536(None)
 msgid ""
 "@@image: 'images/toolbox/curves-lighten-1.png'; "
 "md5=68b939bf085574b147eee7a0e8c71772"
@@ -3356,7 +3395,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:551(None)
+#: src/menus/colors/curves.xml:548(None)
 msgid ""
 "@@image: 'images/toolbox/curves-lighten-2.png'; "
 "md5=c5ac63792603e264e76e578c424f4c4b"
@@ -3384,32 +3423,38 @@ msgstr ""
 "Eğriler aracı herhangi bir ton aralığı üzerinde çalışmanıza olanak sağlar. "
 "RGB görüntüler üzerinde çalışır."
 
-#: src/menus/colors/curves.xml:33(para)
+#: src/menus/colors/curves.xml:30(para)
 #, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Exposure…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"From the main menu: <menuchoice><guimenu>Colors</guimenu><guimenuitem>Curves…"
-"</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Curves…</guimenuitem></"
+"menuchoice>."
 msgstr ""
-"Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Eğriler…</"
-"guimenuitem></menuchoice>."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Pozlama…</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
-#: src/menus/colors/curves.xml:60(title)
+#: src/menus/colors/curves.xml:57(title)
 msgid "<quote>Curves</quote> options"
 msgstr "<quote>Eğriler</quote> seçenekleri"
 
-#: src/menus/colors/curves.xml:62(title)
+#: src/menus/colors/curves.xml:59(title)
 msgid "The <quote>Curves</quote> dialog"
 msgstr "<quote>Eğriler</quote> iletişim kutusu"
 
-#: src/menus/colors/curves.xml:84(para)
+#: src/menus/colors/curves.xml:81(para)
 msgid "There are five options:"
 msgstr "5 seçenek bulunmaktadır:"
 
-#: src/menus/colors/curves.xml:86(term)
+#: src/menus/colors/curves.xml:83(term)
 msgid "Value"
 msgstr "Değer"
 
-#: src/menus/colors/curves.xml:88(para)
+#: src/menus/colors/curves.xml:85(para)
 #, fuzzy
 msgid ""
 "The curve represents the Value, i.e. the brightness of pixels as you can see "
@@ -3418,19 +3463,19 @@ msgstr ""
 "Eğri, kompozit görüntüde görebileceğiniz gibi piksellerin parlaklığını "
 "temsil eden Değeri gösterir."
 
-#: src/menus/colors/curves.xml:95(term)
+#: src/menus/colors/curves.xml:92(term)
 msgid "Red"
 msgstr "Kırmızı"
 
-#: src/menus/colors/curves.xml:96(term)
+#: src/menus/colors/curves.xml:93(term)
 msgid "Green"
 msgstr "Yeşil"
 
-#: src/menus/colors/curves.xml:97(term)
+#: src/menus/colors/curves.xml:94(term)
 msgid "Blue"
 msgstr "Mavi"
 
-#: src/menus/colors/curves.xml:99(para)
+#: src/menus/colors/curves.xml:96(para)
 #, fuzzy
 msgid ""
 "The curve represents the quantity of color in each of the three RGB "
@@ -3443,11 +3488,11 @@ msgstr ""
 "<emphasis>açık ise</emphasis> rengin <emphasis>çok olduğunu</emphasis> ifade "
 "eder."
 
-#: src/menus/colors/curves.xml:109(term)
+#: src/menus/colors/curves.xml:106(term)
 msgid "Alpha"
 msgstr "Alfa"
 
-#: src/menus/colors/curves.xml:111(para)
+#: src/menus/colors/curves.xml:108(para)
 #, fuzzy
 msgid ""
 "The curve represents the opacity of the pixels. <emphasis>Dark</emphasis> "
@@ -3461,11 +3506,11 @@ msgstr ""
 "etkinleştirilebilmesi için görüntünüzün ya da etkin katmanınızın bir Alfa "
 "kanalı olması gerekir."
 
-#: src/menus/colors/curves.xml:125(term)
+#: src/menus/colors/curves.xml:122(term)
 msgid "Reset Channel"
 msgstr "Kanalı Sıfırla"
 
-#: src/menus/colors/curves.xml:127(para)
+#: src/menus/colors/curves.xml:124(para)
 #, fuzzy
 msgid ""
 "This button deletes all changes made to the selected channel and returns to "
@@ -3474,7 +3519,7 @@ msgstr ""
 "Bu düğme, seçilen kanalda yapılan tüm değişiklikleri siler ve öntanımlı "
 "değerlere geri döner."
 
-#: src/menus/colors/curves.xml:208(para)
+#: src/menus/colors/curves.xml:205(para)
 #, fuzzy
 msgid ""
 "You can also use the same options in the Tool Options dialog if Curves has "
@@ -3485,11 +3530,11 @@ msgstr ""
 "kutusundaki aynı seçenekleri de kullanabilirsiniz. Bu grileştirilmiş "
 "histogram öntanımlı olarak görüntülenmez."
 
-#: src/menus/colors/curves.xml:217(term)
+#: src/menus/colors/curves.xml:214(term)
 msgid "Main Editing Area"
 msgstr "Ana Düzenleme Alanı"
 
-#: src/menus/colors/curves.xml:221(para)
+#: src/menus/colors/curves.xml:218(para)
 #, fuzzy
 msgid ""
 "<emphasis role=\"bold\">The horizontal gradient</emphasis>: it represents "
@@ -3504,7 +3549,7 @@ msgstr ""
 "ayrılır; üst kısım, katmanın ya da seçimin <emphasis>ton dengesini</"
 "emphasis> temsil eder."
 
-#: src/menus/colors/curves.xml:231(para)
+#: src/menus/colors/curves.xml:228(para)
 #, fuzzy
 msgid ""
 "<emphasis role=\"bold\">The vertical gradient</emphasis>: it represents the "
@@ -3515,7 +3560,7 @@ msgstr ""
 "emphasis> ton skalasını temsil eder. 0 (siyah) ile 255 (beyaz) arasında, "
 "Gölgeler ile Vurgular arasında değişir."
 
-#: src/menus/colors/curves.xml:239(para)
+#: src/menus/colors/curves.xml:236(para)
 #, fuzzy
 msgid ""
 "<emphasis role=\"bold\">The chart</emphasis>: the curve is drawn on a grid "
@@ -3532,7 +3577,7 @@ msgstr ""
 "karşılık gelir. GIMP, eğrinin her iki ucuna otomatik olarak bir nokta "
 "yerleştirir: siyah (0) ve beyaz (255) için."
 
-#: src/menus/colors/curves.xml:248(para)
+#: src/menus/colors/curves.xml:245(para)
 #, fuzzy
 msgid ""
 "If you click the curve, a new <emphasis>point</emphasis> is created. When "
@@ -3543,7 +3588,7 @@ msgstr ""
 "imleci bir noktanın üzerine geldiğinde, küçük bir el şekli alır. Noktayı "
 "tıklayıp sürükleyerek eğriyi bükebilirsiniz."
 
-#: src/menus/colors/curves.xml:254(para)
+#: src/menus/colors/curves.xml:251(para)
 #, fuzzy
 msgid ""
 "If you click outside the curve, a point is also created, and the curve "
@@ -3558,7 +3603,7 @@ msgstr ""
 "yapışır</emphasis>: bu, eğri boyunca noktalar eklemek için özellikle "
 "kullanışlıdır."
 
-#: src/menus/colors/curves.xml:261(para)
+#: src/menus/colors/curves.xml:258(para)
 #, fuzzy
 msgid ""
 "Inactive points are white. The active point is black. You can activate a "
@@ -3569,7 +3614,7 @@ msgstr ""
 "tıklayarak etkinleştirebilirsiniz. Klavyenizin sol ve sağ ok tuşlarını "
 "kullanarak nokta etkinleştirmesini değiştirebilirsiniz."
 
-#: src/menus/colors/curves.xml:267(para)
+#: src/menus/colors/curves.xml:264(para)
 #, fuzzy
 msgid ""
 "Two points define a <emphasis>curve segment</emphasis> which represents a "
@@ -3581,12 +3626,12 @@ msgstr ""
 "(bu, yeni bir nokta oluşturur). Elbette, uç noktaların ötesine "
 "sürükleyemezsiniz."
 
-#: src/menus/colors/curves.xml:278(para)
+#: src/menus/colors/curves.xml:275(para)
 #, fuzzy
 msgid "Click-and-drag the point."
 msgstr "Noktayı tıklayıp sürükleyin."
 
-#: src/menus/colors/curves.xml:283(para)
+#: src/menus/colors/curves.xml:280(para)
 #, fuzzy
 msgid ""
 "Using Up and Down arrow keys (Holding the <keycap>Shift</keycap> down lets "
@@ -3596,7 +3641,7 @@ msgstr ""
 "basılı tutarak 15 piksel artışlarla hareket ettirebilirsiniz) noktayı dikey "
 "olarak hareket ettirin."
 
-#: src/menus/colors/curves.xml:298(para)
+#: src/menus/colors/curves.xml:295(para)
 #, fuzzy
 msgid ""
 "Another way to move point is using the <quote>Input</quote> and "
@@ -3605,7 +3650,7 @@ msgstr ""
 "Noktayı hareket ettirmenin başka bir yolu da <quote>Giriş</quote> ve "
 "<quote>Çıkış</quote> döndürme düğmelerini kullanmaktır: aşağıya bakın."
 
-#: src/menus/colors/curves.xml:273(para)
+#: src/menus/colors/curves.xml:270(para)
 #, fuzzy
 msgid ""
 "To <emphasis>move a point</emphasis>, there are several possibilities to "
@@ -3614,7 +3659,7 @@ msgstr ""
 "<emphasis>Bir noktayı hareket ettirmek</emphasis> için, nokta konumunu "
 "hassas bir şekilde ayarlamak için birkaç olasılık vardır: <placeholder-1/>"
 
-#: src/menus/colors/curves.xml:306(para)
+#: src/menus/colors/curves.xml:303(para)
 #, fuzzy
 msgid ""
 "To <emphasis>delete</emphasis> all points (apart from both ends that can't "
@@ -3626,7 +3671,7 @@ msgstr ""
 "noktayı silmek için, onu yatay olarak bitişik herhangi bir noktanın ötesine "
 "taşıyın."
 
-#: src/menus/colors/curves.xml:312(para)
+#: src/menus/colors/curves.xml:309(para)
 #, fuzzy
 msgid ""
 "Meanwhile, on the canvas, the mouse pointer has the form of an eye-dropper. "
@@ -3648,7 +3693,7 @@ msgstr ""
 "tutarak sürük</keycap>leyebilirsiniz: bu, dikey çizgiyi hareket ettirir ve "
 "fare sol tuşunu bıraktığınızda nokta görünür."
 
-#: src/menus/colors/curves.xml:325(para)
+#: src/menus/colors/curves.xml:322(para)
 #, fuzzy
 msgid ""
 "The <emphasis>histogram</emphasis> of the active layer or selection for the "
@@ -3659,15 +3704,15 @@ msgstr ""
 "emphasis> grafikte gri renkle gösterilir. Bu yalnızca bir referanstır ve "
 "işlem sırasında güncellenmez."
 
-#: src/menus/colors/curves.xml:336(term)
+#: src/menus/colors/curves.xml:333(term)
 msgid "Input"
 msgstr "Girdi"
 
-#: src/menus/colors/curves.xml:337(term)
+#: src/menus/colors/curves.xml:334(term)
 msgid "Output"
 msgstr "Çıktı"
 
-#: src/menus/colors/curves.xml:339(para)
+#: src/menus/colors/curves.xml:336(para)
 #, fuzzy
 msgid ""
 "These spin buttons allow setting the selected point coordinates numerically "
@@ -3676,11 +3721,11 @@ msgstr ""
 "Bu döndürme düğmeleri, gerektiğinde seçilen nokta koordinatlarını sayısal "
 "olarak ve doğru bir şekilde ayarlamaya olanak tanır."
 
-#: src/menus/colors/curves.xml:346(term)
+#: src/menus/colors/curves.xml:343(term)
 msgid "Type"
 msgstr "Tür"
 
-#: src/menus/colors/curves.xml:348(para)
+#: src/menus/colors/curves.xml:345(para)
 #, fuzzy
 msgid ""
 "Control points can be either <guilabel>Smooth</guilabel> (default: all "
@@ -3694,15 +3739,15 @@ msgstr ""
 "görüntülenirler. Seçilen nokta için Düzgün ve Köşe arasında geçiş "
 "yapabilirsiniz."
 
-#: src/menus/colors/curves.xml:358(term)
+#: src/menus/colors/curves.xml:355(term)
 msgid "Curve type"
 msgstr "Eğri türü"
 
-#: src/menus/colors/curves.xml:362(term)
+#: src/menus/colors/curves.xml:359(term)
 msgid "Smooth"
 msgstr "Pürüzsüz"
 
-#: src/menus/colors/curves.xml:364(para)
+#: src/menus/colors/curves.xml:361(para)
 #, fuzzy
 msgid ""
 "This Smooth option affects the whole curve, not only the selected point as "
@@ -3711,11 +3756,11 @@ msgstr ""
 "Bu Düzgün seçeneği, yukarıdaki gibi yalnızca seçilen noktayı değil, tüm "
 "eğriyi etkiler."
 
-#: src/menus/colors/curves.xml:371(term)
+#: src/menus/colors/curves.xml:368(term)
 msgid "Free Hand"
 msgstr "Serbest Çizim"
 
-#: src/menus/colors/curves.xml:373(para)
+#: src/menus/colors/curves.xml:370(para)
 #, fuzzy
 msgid ""
 "With this mode, you can draw a free hand line that you can smooth by "
@@ -3724,16 +3769,16 @@ msgstr ""
 "Bu modda, <guilabel>Smooth</guilabel> Curve (Düzgünleştirme Eğrisi) türünü "
 "tıklayarak düzgünleştirebileceğiniz serbest el çizgisi çizebilirsiniz."
 
-#: src/menus/colors/curves.xml:387(title)
+#: src/menus/colors/curves.xml:384(title)
 msgid "Using <quote>Curves</quote>"
 msgstr "<quote>Eğriler</quote>ʼi Kullanmak"
 
-#: src/menus/colors/curves.xml:390(title)
+#: src/menus/colors/curves.xml:387(title)
 #, fuzzy
 msgid "Summary and basic shapes"
 msgstr "Özet ve basit şekiller"
 
-#: src/menus/colors/curves.xml:392(para)
+#: src/menus/colors/curves.xml:389(para)
 #, fuzzy
 msgid ""
 "We create points and segments on the curve and we move them to shape the "
@@ -3744,29 +3789,29 @@ msgstr ""
 "ettirerek eğriyi şekillendiririz. Bu eğri, etkin katmanın ya da seçimin "
 "<quote>giriş</quote> tonlarını <quote>çıkış</quote> tonlarına eşler."
 
-#: src/menus/colors/curves.xml:399(title)
+#: src/menus/colors/curves.xml:396(title)
 #, fuzzy
 msgid "How the Curves tool works"
 msgstr "Eğriler aracı nasıl çalışır?"
 
-#: src/menus/colors/curves.xml:401(para)
+#: src/menus/colors/curves.xml:398(para)
 #, fuzzy
 msgid "Moving the point a pixel upwards makes this pixel brighter."
 msgstr ""
 "Noktayı bir piksel yukarı kaydırmak, bu pikseli daha parlak hale getirir."
 
-#: src/menus/colors/curves.xml:409(para)
+#: src/menus/colors/curves.xml:406(para)
 #, fuzzy
 msgid "Moving the point upwards"
 msgstr "Noktayı yukarı doğru hareket ettirme"
 
-#: src/menus/colors/curves.xml:415(title)
-#: src/menus/colors/curves.xml:426(title)
+#: src/menus/colors/curves.xml:412(title)
+#: src/menus/colors/curves.xml:423(title)
 #, fuzzy
 msgid "Making the curve more horizontal"
 msgstr "Eğriyi daha yatay hale getirme"
 
-#: src/menus/colors/curves.xml:417(para)
+#: src/menus/colors/curves.xml:414(para)
 #, fuzzy
 msgid ""
 "Making the curve more horizontal forces all the input tonal range to occupy "
@@ -3775,7 +3820,7 @@ msgstr ""
 "Eğriyi daha yatay hale getirmek, tüm giriş ton aralığının daralmış bir çıkış "
 "ton aralığını işgal etmesini sağlar."
 
-#: src/menus/colors/curves.xml:421(para)
+#: src/menus/colors/curves.xml:418(para)
 #, fuzzy
 msgid ""
 "The histogram shows the compression of pixels into the output range. Darkest "
@@ -3784,22 +3829,22 @@ msgstr ""
 "Histogram, piksellerin çıktı aralığına sıkıştırıldığını gösterir. En koyu ve "
 "en parlak pikseller kaybolmuştur: kontrast azalır."
 
-#: src/menus/colors/curves.xml:432(para)
+#: src/menus/colors/curves.xml:429(para)
 #, fuzzy
 msgid "Make the curve more horizontal"
 msgstr "Eğriyi daha yatay hale getirin"
 
-#: src/menus/colors/curves.xml:440(para)
+#: src/menus/colors/curves.xml:437(para)
 msgid "The resulting histogram"
 msgstr "Ortaya çıkan histogram"
 
-#: src/menus/colors/curves.xml:447(title)
-#: src/menus/colors/curves.xml:468(title)
+#: src/menus/colors/curves.xml:444(title)
+#: src/menus/colors/curves.xml:465(title)
 #, fuzzy
 msgid "Making the curve more vertical"
 msgstr "Eğriyi daha dikey hale getirme"
 
-#: src/menus/colors/curves.xml:449(para)
+#: src/menus/colors/curves.xml:446(para)
 #, fuzzy
 msgid ""
 "Moving the upper end point to the left and the lower end point to the right "
@@ -3824,7 +3869,7 @@ msgstr ""
 "hale getirilir (yeşil oklar). Tüm bu pikseller, tüm çıktı ton aralığına "
 "yayılır."
 
-#: src/menus/colors/curves.xml:462(para)
+#: src/menus/colors/curves.xml:459(para)
 #, fuzzy
 msgid ""
 "The histogram shows the extension of values, from black (0) to White (255): "
@@ -3835,26 +3880,26 @@ msgstr ""
 "gösterir: kontrast artırılmıştır. Değer kanalı seçili olduğundan, "
 "değişiklikler tüm renk kanallarını etkiler ve renkler artar."
 
-#: src/menus/colors/curves.xml:475(para)
+#: src/menus/colors/curves.xml:472(para)
 #, fuzzy
 msgid "Make the curve more vertical"
 msgstr "Eğriyi daha dikey hale getirin"
 
-#: src/menus/colors/curves.xml:484(para)
+#: src/menus/colors/curves.xml:481(para)
 #, fuzzy
 msgid "Result and its histogram"
 msgstr "Sonuç ve histogramı"
 
-#: src/menus/colors/curves.xml:492(title)
+#: src/menus/colors/curves.xml:489(title)
 #, fuzzy
 msgid "Practical cases"
 msgstr "Pratik örnekler"
 
-#: src/menus/colors/curves.xml:503(para)
+#: src/menus/colors/curves.xml:500(para)
 msgid "Inverted curve"
 msgstr "Tersine çevrilmiş eğri"
 
-#: src/menus/colors/curves.xml:506(para)
+#: src/menus/colors/curves.xml:503(para)
 #, fuzzy
 msgid ""
 "Black is made White (fully colored / fully opaque). White is made black "
@@ -3869,15 +3914,15 @@ msgstr ""
 "19;197;248 gök mavisi 255-19; 255-197; 255-248 = 236;58;7, parlak kırmızı "
 "verir."
 
-#: src/menus/colors/curves.xml:516(title)
+#: src/menus/colors/curves.xml:513(title)
 msgid "Enhance contrast"
 msgstr "Karşıtlığı iyileştir"
 
-#: src/menus/colors/curves.xml:523(para)
+#: src/menus/colors/curves.xml:520(para)
 msgid "Contrast enhanced"
 msgstr "Karşıtlık iyileştirildi"
 
-#: src/menus/colors/curves.xml:526(para)
+#: src/menus/colors/curves.xml:523(para)
 #, fuzzy
 msgid ""
 "Contrast is increased in mid tones because the curve is steeper there. "
@@ -3888,11 +3933,11 @@ msgstr ""
 "gölgeler artar ancak kontrast bu bölgelerde biraz daha azdır çünkü eğri daha "
 "düzdür."
 
-#: src/menus/colors/curves.xml:534(title)
+#: src/menus/colors/curves.xml:531(title)
 msgid "Working on color channels"
 msgstr "Renk kanalları üstünde çalışmak"
 
-#: src/menus/colors/curves.xml:542(para)
+#: src/menus/colors/curves.xml:539(para)
 #, fuzzy
 msgid ""
 "For every channel, we moved the white point horizontally to the left, to the "
@@ -3903,7 +3948,7 @@ msgstr ""
 "kaydırdık. Bu, Vurguları aydınlatır. Ardından, siyahı korurken Orta tonları "
 "ve Gölgeleri aydınlatmak için eğriyi şekillendirdik."
 
-#: src/menus/colors/curves.xml:554(para)
+#: src/menus/colors/curves.xml:551(para)
 msgid "The original image and the result"
 msgstr "Özgün görüntü ve sonuç"
 
@@ -4061,13 +4106,19 @@ msgstr ""
 "alanlar, çevrelerindeki piksellerle harmanlanmış bir görünüm korur."
 
 #: src/menus/colors/colortoalpha.xml:35(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Hue-Chroma…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Color to Alpha…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Color to Alpha…</"
+"guimenuitem></menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guimenuitem>Renkten Alfaya…</guimenuitem></menuchoice> altında "
-"bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Renk Tonu-Renk Saflığı…</guimenuitem></menuchoice> "
+"yoluyla erişebilirsiniz."
 
 #: src/menus/colors/colortoalpha.xml:47(title)
 msgid "<quote>Color to Alpha</quote> filter dialog"
@@ -4359,12 +4410,19 @@ msgstr ""
 "bakın."
 
 #: src/menus/colors/colorize.xml:34(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Exposure…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Colorize…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Colorize…</guimenuitem></"
+"menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guimenuitem>Renklendir…</guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Pozlama…</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/colorize.xml:46(title)
@@ -4469,12 +4527,19 @@ msgid "You can also use it to get interesting creative effects."
 msgstr "Ayrıca ilginç yaratıcı etkiler elde etmek için de kullanabilirsiniz."
 
 #: src/menus/colors/color-temperature.xml:58(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Exposure…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Color Temperature…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Color Temperature…</"
+"guimenuitem></menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Renk "
-"Sıcaklığı…</guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Pozlama…</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/colors/color-temperature.xml:70(title)
 msgid "<quote>Color Temperature</quote> options"
@@ -4549,12 +4614,19 @@ msgstr ""
 "renkleri düzeltmek için uygundur."
 
 #: src/menus/colors/color-balance.xml:35(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Exposure…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"From the main menu: <menuchoice><guimenu>Colors</guimenu><guimenuitem>Color "
-"Balance…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Color Balance…</"
+"guimenuitem></menuchoice>."
 msgstr ""
-"Bu aracı ana menüden <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Renk "
-"Dengesi…</guimenuitem></menuchoice> yoluyla etkinleştirebilirsiniz."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Pozlama…</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
 #: src/menus/colors/color-balance.xml:47(title)
@@ -4625,7 +4697,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/brightness-contrast.xml:79(None)
+#: src/menus/colors/brightness-contrast.xml:76(None)
 msgid ""
 "@@image: 'images/menus/colors/brightness-contrast-dialog.png'; "
 "md5=a1325de782a2048a46e68fec4aee193f"
@@ -4676,25 +4748,31 @@ msgstr ""
 "kutusundaki <guilabel>Tamam</guilabel> düğmesine basabilir ya da "
 "klavyenizdeki <keycap>Return</keycap> tuşuna basabilirsiniz."
 
-#: src/menus/colors/brightness-contrast.xml:45(para)
+#: src/menus/colors/brightness-contrast.xml:42(para)
 #, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guimenuitem>Hue-Chroma…</"
+#| "guimenuitem></menuchoice>."
 msgid ""
-"From the main menu: <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Brightness-Contrast…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Brightness-Contrast…</"
+"guimenuitem></menuchoice>."
 msgstr ""
-"Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Parlaklık-"
-"Kontrast…</guimenuitem></menuchoice>."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guimenuitem>Renk Tonu-Renk Saflığı…</guimenuitem></menuchoice> "
+"yoluyla erişebilirsiniz."
 
 # Alıntı karakterler ve çeviri uyumlaması bilerek yapıldı
-#: src/menus/colors/brightness-contrast.xml:74(title)
+#: src/menus/colors/brightness-contrast.xml:71(title)
 msgid "Brightness-Contrast options dialog"
 msgstr "“Parlaklık-Karşıtlık” seçenekleri"
 
-#: src/menus/colors/brightness-contrast.xml:95(term)
+#: src/menus/colors/brightness-contrast.xml:92(term)
 msgid "Brightness"
 msgstr "Parlaklık"
 
-#: src/menus/colors/brightness-contrast.xml:97(para)
+#: src/menus/colors/brightness-contrast.xml:94(para)
 #, fuzzy
 msgid ""
 "This slider sets a negative (to darken) or positive (to brighten) value for "
@@ -4704,11 +4782,11 @@ msgstr ""
 "(aydınlatmak için) bir değer belirleyerek parlak tonları azaltır ya da "
 "artırır."
 
-#: src/menus/colors/brightness-contrast.xml:104(term)
+#: src/menus/colors/brightness-contrast.xml:101(term)
 msgid "Contrast"
 msgstr "Karşıtlık"
 
-#: src/menus/colors/brightness-contrast.xml:106(para)
+#: src/menus/colors/brightness-contrast.xml:103(para)
 #, fuzzy
 msgid ""
 "This slider sets a negative (to decrease) or positive (to increase) value "
@@ -4717,11 +4795,11 @@ msgstr ""
 "Bu kaydırıcı, kontrast için negatif (azaltmak için) ya da pozitif (artırmak "
 "için) bir değer belirler."
 
-#: src/menus/colors/brightness-contrast.xml:113(term)
+#: src/menus/colors/brightness-contrast.xml:110(term)
 msgid "Edit these settings as Levels"
 msgstr "Bu Ayarları Düzey Olarak Düzenle"
 
-#: src/menus/colors/brightness-contrast.xml:115(para)
+#: src/menus/colors/brightness-contrast.xml:112(para)
 #, fuzzy
 msgid ""
 "To make your work easier, this button lets you turn to the <link "
@@ -4957,3 +5035,125 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "Activating the Filter"
+#~ msgstr "Süzgeci Etkinleştirme"
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Value Invert</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>Değeri Tersine Çevir</guimenuitem></menuchoice> "
+#~ "altında bulunur."
+
+#, fuzzy
+#~ msgid "There are different possibilities to activate this:"
+#~ msgstr "Bunu etkinleştirmek için farklı seçenekler vardır:"
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Threshold…</guimenuitem></menuchoice>,"
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>Eşik…</guimenuitem></menuchoice> altında bulunur."
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>RGB Clip…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>RGB Kırp…</guimenuitem></menuchoice> altında bulunur."
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Posterize…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>Posterleştir…</guimenuitem></menuchoice> altında "
+#~ "bulunur."
+
+#~ msgid "Activating the Tool"
+#~ msgstr "Aracı Etkinleştirme"
+
+#, fuzzy
+#~ msgid "There are different possibilities to activate the tool:"
+#~ msgstr "Aracı etkinleştirmek için farklı seçenekler mevcuttur:"
+
+#, fuzzy
+#~ msgid ""
+#~ "From the main menu: <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Levels…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Seviyeler…"
+#~ "</guimenuitem></menuchoice>."
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Hot…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>Sıcak…</guimenuitem></menuchoice> altında bulunur."
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Local Threshold…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>Yerel Eşik…</guimenuitem></menuchoice> altında "
+#~ "bulunur."
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Dither…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>Titreme…</guimenuitem></menuchoice> altında bulunur."
+
+#, fuzzy
+#~ msgid ""
+#~ "From the main menu: <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Curves…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Eğriler…</"
+#~ "guimenuitem></menuchoice>."
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Color to Alpha…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>Renkten Alfaya…</guimenuitem></menuchoice> altında "
+#~ "bulunur."
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Colorize…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>Renklendir…</guimenuitem></menuchoice> altında "
+#~ "bulunur."
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Color Temperature…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>Renk Sıcaklığı…</guimenuitem></menuchoice> altında "
+#~ "bulunur."
+
+#~ msgid ""
+#~ "From the main menu: <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Color Balance…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu aracı ana menüden <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guimenuitem>Renk Dengesi…</guimenuitem></menuchoice> yoluyla "
+#~ "etkinleştirebilirsiniz."
+
+#, fuzzy
+#~ msgid ""
+#~ "From the main menu: <menuchoice><guimenu>Colors</"
+#~ "guimenu><guimenuitem>Brightness-Contrast…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guimenuitem>Parlaklık-"
+#~ "Kontrast…</guimenuitem></menuchoice>."

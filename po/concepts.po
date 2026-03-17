@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-23 19:04+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-10-20 15:27+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.8\n"
 
-#: src/concepts/undo.xml:8(title) src/concepts/concepts.xml:235(term)
+#: src/concepts/undo.xml:8(title) src/concepts/concepts.xml:218(term)
 msgid "Undoing"
 msgstr "Geri Alma"
 
@@ -1331,7 +1331,7 @@ msgstr ""
 msgid "The Selection"
 msgstr "Seçim"
 
-#: src/concepts/selection.xml:21(primary) src/concepts/concepts.xml:201(term)
+#: src/concepts/selection.xml:21(primary) src/concepts/concepts.xml:184(term)
 msgid "Selections"
 msgstr "Seçimler"
 
@@ -2181,7 +2181,7 @@ msgid "Plug-Ins"
 msgstr "Eklentiler"
 
 #: src/concepts/plugins.xml:17(primary) src/concepts/plugins.xml:137(primary)
-#: src/concepts/plugins.xml:252(primary) src/concepts/concepts.xml:262(term)
+#: src/concepts/plugins.xml:252(primary) src/concepts/concepts.xml:245(term)
 msgid "Plug-ins"
 msgstr "Eklentiler"
 
@@ -3106,7 +3106,7 @@ msgid "Introduction to Layers"
 msgstr "Katmanlar'a Giriş"
 
 #: src/concepts/layers.xml:12(primary) src/concepts/layers.xml:452(primary)
-#: src/concepts/layers.xml:477(primary) src/concepts/concepts.xml:80(term)
+#: src/concepts/layers.xml:477(primary) src/concepts/concepts.xml:63(term)
 msgid "Layers"
 msgstr "Katmanlar"
 
@@ -7449,96 +7449,103 @@ msgid "--help-all"
 msgstr "--help-all"
 
 #: src/concepts/intro.xml:176(para)
-msgid "Show all help options."
-msgstr "Tüm yardım seçeneklerini göster."
+msgid ""
+"Show all help options, including those for <acronym>GEGL</acronym> and "
+"<acronym>GTK</acronym>."
+msgstr ""
 
-#: src/concepts/intro.xml:180(term)
+#: src/concepts/intro.xml:182(term)
 #, fuzzy
 #| msgid "--help-gtk"
 msgid "--help-gegl"
 msgstr "--help-gtk"
 
-#: src/concepts/intro.xml:182(para)
+#: src/concepts/intro.xml:184(para)
 #, fuzzy
 #| msgid "Show all help options."
-msgid "Show all GEGL options."
+msgid "Show all <acronym>GEGL</acronym> options."
 msgstr "Tüm yardım seçeneklerini göster."
 
-#: src/concepts/intro.xml:186(term)
+#: src/concepts/intro.xml:188(term)
 msgid "--help-gtk"
 msgstr "--help-gtk"
 
-# GTK+ artık yalnızca GTK olarak anılıyor.
-#: src/concepts/intro.xml:188(para)
-msgid "Show GTK+ Options."
-msgstr "GTK+ Seçeneklerini göster."
+#: src/concepts/intro.xml:190(para)
+#, fuzzy
+#| msgid "Start a new <acronym>GIMP</acronym> instance."
+msgid "Show <acronym>GTK</acronym> options."
+msgstr "Yeni bir <acronym>GIMP</acronym> örneği başlat."
 
-#: src/concepts/intro.xml:192(term)
+#: src/concepts/intro.xml:194(term)
 msgid "-v, --version"
 msgstr "-v, --version"
 
-#: src/concepts/intro.xml:194(para)
+#: src/concepts/intro.xml:196(para)
 msgid "Print the <acronym>GIMP</acronym> version and exit."
 msgstr "<acronym>GIMP</acronym> sürümünü yazdır ve çık."
 
-#: src/concepts/intro.xml:200(term)
+#: src/concepts/intro.xml:202(term)
 msgid "--license"
 msgstr "--license"
 
-#: src/concepts/intro.xml:202(para)
+#: src/concepts/intro.xml:204(para)
 msgid "Show license information and exit."
 msgstr "Lisans bilgisini göster ve çık"
 
-#: src/concepts/intro.xml:206(term)
+#: src/concepts/intro.xml:208(term)
 msgid "--verbose"
 msgstr "--verbose"
 
-#: src/concepts/intro.xml:208(para)
+#: src/concepts/intro.xml:210(para)
 msgid "Show detailed start-up messages."
 msgstr "Başlangıç mesajlarını detaylı olarak göster."
 
-#: src/concepts/intro.xml:212(term)
+#: src/concepts/intro.xml:214(term)
 msgid "-n, --new-instance"
 msgstr "-n, --new-instance"
 
-#: src/concepts/intro.xml:214(para)
+#: src/concepts/intro.xml:216(para)
 msgid "Start a new <acronym>GIMP</acronym> instance."
 msgstr "Yeni bir <acronym>GIMP</acronym> örneği başlat."
 
-#: src/concepts/intro.xml:218(term)
+#: src/concepts/intro.xml:220(term)
 msgid "-a, --as-new"
 msgstr "-a, --as-new"
 
-#: src/concepts/intro.xml:220(para)
+#: src/concepts/intro.xml:222(para)
 msgid "Open images as new."
 msgstr "Görüntüleri yeni olarak aç"
 
-#: src/concepts/intro.xml:224(term)
+#: src/concepts/intro.xml:226(term)
 msgid "-i, --no-interface"
 msgstr "-i, --no-interface"
 
-#: src/concepts/intro.xml:226(para)
+#: src/concepts/intro.xml:228(para)
 msgid "Run without a user interface."
 msgstr "Bir kullanıcı arayüzü olmadan çalıştır."
 
-#: src/concepts/intro.xml:230(term)
+#: src/concepts/intro.xml:232(term)
 msgid "-d, --no-data"
 msgstr "-d, --no-data"
 
-#: src/concepts/intro.xml:232(para)
+#: src/concepts/intro.xml:234(para)
+#, fuzzy
+#| msgid ""
+#| "Do not load patterns, gradients, palettes, or brushes. Often useful in "
+#| "non-interactive situations where start-up time is to be minimized."
 msgid ""
-"Do not load patterns, gradients, palettes, or brushes. Often useful in non-"
-"interactive situations where start-up time is to be minimized."
+"Do not load patterns, gradients, palettes, or brushes. Often used when "
+"running in non-interactive mode to minimize startup time."
 msgstr ""
 "Desen, renk geçişi, palet ya da fırçaları yükleme. Genellikle başlangıç "
 "zamanının en iyilenmesi gerektiği etkileşimli olmayan durumlar için "
 "yararlıdır."
 
-#: src/concepts/intro.xml:240(term)
+#: src/concepts/intro.xml:241(term)
 msgid "-f, --no-fonts"
 msgstr "-f, --no-fonts"
 
-#: src/concepts/intro.xml:242(para)
+#: src/concepts/intro.xml:243(para)
 msgid ""
 "Do not load any fonts. This is useful to load <acronym>GIMP</acronym> faster "
 "for scripts that do not use fonts, or to find problems related to malformed "
@@ -7549,19 +7556,19 @@ msgstr ""
 "acronym>'in açılmasını engelleyen hatalı biçimlendirilmiş yazı tipleriyle "
 "ilgili sorunları bulmak için kullanışlıdır."
 
-#: src/concepts/intro.xml:250(term)
+#: src/concepts/intro.xml:251(term)
 msgid "-s, --no-splash"
 msgstr "-s, --no-splash"
 
-#: src/concepts/intro.xml:252(para)
+#: src/concepts/intro.xml:253(para)
 msgid "Do not show the splash screen while starting."
 msgstr "Başlangıçta, açılış penceresini gösterme."
 
-#: src/concepts/intro.xml:256(term)
+#: src/concepts/intro.xml:257(term)
 msgid "--no-shm"
 msgstr "--no-shm"
 
-#: src/concepts/intro.xml:258(para)
+#: src/concepts/intro.xml:259(para)
 #, fuzzy
 #| msgid ""
 #| "Do not use shared memory between <acronym>GIMP</acronym> and plugins."
@@ -7569,11 +7576,11 @@ msgid "Do not use shared memory between <acronym>GIMP</acronym> and plug-ins."
 msgstr ""
 "<acronym>GIMP</acronym> ve eklentiler arasında paylaşımlı bellek kullanma."
 
-#: src/concepts/intro.xml:263(term)
+#: src/concepts/intro.xml:264(term)
 msgid "--no-cpu-accel"
 msgstr "--no-cpu-accel"
 
-#: src/concepts/intro.xml:265(para)
+#: src/concepts/intro.xml:266(para)
 msgid ""
 "Do not use special CPU acceleration functions. Useful for finding or "
 "disabling buggy accelerated hardware or functions."
@@ -7581,11 +7588,11 @@ msgstr ""
 "Özel işlemci hızlandırma işlevlerini kullanma. Hatalı çalışan hızlandırmalı "
 "donanım ya da işlevleri bulmak ya da devre dışı bırakmak için kullanışlıdır."
 
-#: src/concepts/intro.xml:271(term)
+#: src/concepts/intro.xml:272(term)
 msgid "--session=<replaceable>name</replaceable>"
 msgstr "--session=<replaceable>name</replaceable>"
 
-#: src/concepts/intro.xml:273(para)
+#: src/concepts/intro.xml:274(para)
 #, fuzzy
 #| msgid ""
 #| "Use a different <filename>sessionrc</filename> for this <acronym>GIMP</"
@@ -7600,13 +7607,13 @@ msgstr ""
 "filename> dosyası kullan. Belirtilen oturum ismi, öntanımlı "
 "<filename>sessionrc</filename> dosya adına eklenir."
 
-#: src/concepts/intro.xml:282(term)
+#: src/concepts/intro.xml:283(term)
 #, fuzzy
 #| msgid "--system-gimprc=<replaceable>filename</replaceable>"
 msgid "-g, --gimprc=<replaceable>filename</replaceable>"
 msgstr "--system-gimprc=<replaceable>filename</replaceable>"
 
-#: src/concepts/intro.xml:284(para)
+#: src/concepts/intro.xml:285(para)
 #, fuzzy
 #| msgid ""
 #| "Use an alternative <filename>gimprc</filename> instead of the default "
@@ -7624,21 +7631,21 @@ msgstr ""
 "Eklenti yolları ya da makine özelliklerinin farklı olduğu durumlar için "
 "kullanışlıdır."
 
-#: src/concepts/intro.xml:293(term)
+#: src/concepts/intro.xml:294(term)
 msgid "--system-gimprc=<replaceable>filename</replaceable>"
 msgstr "--system-gimprc=<replaceable>filename</replaceable>"
 
-#: src/concepts/intro.xml:295(para)
+#: src/concepts/intro.xml:296(para)
 #, fuzzy
 #| msgid "Use an alternate system gimprc file."
 msgid "Use an alternate system <filename>gimprc</filename> file."
 msgstr "Alternatif bir sistem gimprc dosyası kullan."
 
-#: src/concepts/intro.xml:299(term)
+#: src/concepts/intro.xml:300(term)
 msgid "-b, --batch=<replaceable>commands</replaceable>"
 msgstr "-b, --batch=<replaceable>commands</replaceable>"
 
-#: src/concepts/intro.xml:303(para)
+#: src/concepts/intro.xml:304(para)
 #, fuzzy
 #| msgid ""
 #| "Execute the set of commands non-interactively. The set of commands is "
@@ -7656,11 +7663,11 @@ msgstr ""
 "çalıştırılabilecek bir betik dosyası şeklindedir. Komut <userinput>-</"
 "userinput> olduğunda komutlar standart girdiden okunur."
 
-#: src/concepts/intro.xml:313(term)
+#: src/concepts/intro.xml:314(term)
 msgid "--batch-interpreter=<replaceable>proc</replaceable>"
 msgstr "--batch-interpreter=<replaceable>proc</replaceable>"
 
-#: src/concepts/intro.xml:315(para)
+#: src/concepts/intro.xml:316(para)
 msgid ""
 "Specify the procedure to use to process batch commands. The default "
 "procedure is Script-Fu."
@@ -7668,21 +7675,21 @@ msgstr ""
 "Toplu iş komutlarını işlemek için kullanılacak yordamı belirt. Varsayılan "
 "yordam Script-Fu'dur."
 
-#: src/concepts/intro.xml:320(term)
+#: src/concepts/intro.xml:321(term)
 msgid "--quit"
 msgstr "--quit"
 
-#: src/concepts/intro.xml:322(para)
+#: src/concepts/intro.xml:323(para)
 msgid "Quit immediately after performing requested actions"
 msgstr ""
 
-#: src/concepts/intro.xml:326(term)
+#: src/concepts/intro.xml:327(term)
 #, fuzzy
 #| msgid "--console-messages"
 msgid "-c, --console-messages"
 msgstr "--console-messages"
 
-#: src/concepts/intro.xml:328(para)
+#: src/concepts/intro.xml:329(para)
 #, fuzzy
 #| msgid ""
 #| "Do not popup dialog boxes on errors or warnings. Print the messages on "
@@ -7694,27 +7701,27 @@ msgstr ""
 "Hata ya da uyarılarda iletişim kutularını açma. Bunun yerine iletileri "
 "uçbirime yazdır."
 
-#: src/concepts/intro.xml:335(term)
+#: src/concepts/intro.xml:336(term)
 msgid "--pdb-compat-mode=<replaceable>mode</replaceable>"
 msgstr "--pdb-compat-mode=<replaceable>mode</replaceable>"
 
-#: src/concepts/intro.xml:337(para)
+#: src/concepts/intro.xml:338(para)
 msgid "PDB compatibility mode (off|on|warn)."
 msgstr "PDB uyumluluk kipi (off|on|warn)."
 
-#: src/concepts/intro.xml:341(term)
+#: src/concepts/intro.xml:342(term)
 msgid "--stack-trace-mode=<replaceable>mode</replaceable>"
 msgstr "--stack-trace-mode=<replaceable>mode</replaceable>"
 
-#: src/concepts/intro.xml:343(para)
+#: src/concepts/intro.xml:344(para)
 msgid "Debug in case of a crash (never|query|always)."
 msgstr "Çökme durumunda hata ayıkla (never|query|always)."
 
-#: src/concepts/intro.xml:347(term)
+#: src/concepts/intro.xml:348(term)
 msgid "--debug-handlers"
 msgstr "--debug-handlers"
 
-#: src/concepts/intro.xml:349(para)
+#: src/concepts/intro.xml:350(para)
 msgid ""
 "Enable non-fatal debugging signal handlers. Useful for <acronym>GIMP</"
 "acronym> debugging."
@@ -7722,21 +7729,21 @@ msgstr ""
 "Ölümcül olmayan hata ayıklama sinyal işleyicilerini etkinleştir. "
 "<acronym>GIMP</acronym> hata ayıklama için kullanışlıdır."
 
-#: src/concepts/intro.xml:354(term)
+#: src/concepts/intro.xml:355(term)
 msgid "--g-fatal-warnings"
 msgstr "--g-fatal-warnings"
 
-#: src/concepts/intro.xml:356(para)
+#: src/concepts/intro.xml:357(para)
 #, fuzzy
 #| msgid "Make all warnings fatal. Useful for debug."
 msgid "Make all warnings fatal. Useful for debugging."
 msgstr "Bütün uyarıları ölümcül yap. Hata ayıklama için kullanışlıdır"
 
-#: src/concepts/intro.xml:360(term)
+#: src/concepts/intro.xml:361(term)
 msgid "--dump-gimprc"
 msgstr "--dump-gimprc"
 
-#: src/concepts/intro.xml:362(para)
+#: src/concepts/intro.xml:363(para)
 msgid ""
 "Output a gimprc file with default settings. Useful if you messed up the "
 "gimprc file."
@@ -7744,33 +7751,43 @@ msgstr ""
 "Varsayılan ayarlarla bir gimprc dosyası çıktıla. gimprc dosyasını "
 "karıştırdıysanız, kullanışlıdır."
 
-#: src/concepts/intro.xml:367(term)
+#: src/concepts/intro.xml:368(term)
 msgid "--show-playground"
 msgstr "--show-playground"
 
-#: src/concepts/intro.xml:369(para)
+#: src/concepts/intro.xml:370(para)
 msgid ""
 "Show a <link linkend=\"gimp-prefs-playground\">preferences page</link> with "
 "experimental features."
 msgstr ""
 
-#: src/concepts/intro.xml:376(term)
+#: src/concepts/intro.xml:377(term)
+msgid "--show-debug-menu"
+msgstr ""
+
+#: src/concepts/intro.xml:379(para)
+msgid ""
+"Show a Debug submenu under File with commands useful for debugging "
+"<acronym>GIMP</acronym>."
+msgstr ""
+
+#: src/concepts/intro.xml:386(term)
 msgid "--display=<replaceable>display</replaceable>"
 msgstr "--display=<replaceable>display</replaceable>"
 
-#: src/concepts/intro.xml:378(para)
+#: src/concepts/intro.xml:388(para)
 msgid "Use the designated X display (does not apply to all platforms)."
 msgstr "Belirtilen X ekranını kullan (tüm platformlar için geçerli değildir)."
 
-#: src/concepts/intro.xml:387(title)
+#: src/concepts/intro.xml:397(title)
 msgid "Configuration Folder"
 msgstr ""
 
-#: src/concepts/intro.xml:390(primary)
+#: src/concepts/intro.xml:400(primary)
 msgid "Setup"
 msgstr "Kurulum"
 
-#: src/concepts/intro.xml:393(para)
+#: src/concepts/intro.xml:403(para)
 msgid ""
 "When first run, <acronym>GIMP</acronym> creates a configuration folder. All "
 "of the configuration information is stored in this folder. If you remove or "
@@ -7778,39 +7795,39 @@ msgid ""
 "process and creates a new configuration folder."
 msgstr ""
 
-#: src/concepts/intro.xml:400(para)
+#: src/concepts/intro.xml:410(para)
 msgid ""
 "The exact location of your configuration folder depends on your Operating "
 "System:"
 msgstr ""
 
-#: src/concepts/intro.xml:406(term)
+#: src/concepts/intro.xml:416(term)
 msgid "Under Linux:"
 msgstr "Linux altında:"
 
-#: src/concepts/intro.xml:409(code)
+#: src/concepts/intro.xml:419(code)
 msgid "$XDG_CONFIG_HOME"
 msgstr "$XDG_CONFIG_HOME"
 
-#: src/concepts/intro.xml:411(para)
+#: src/concepts/intro.xml:421(para)
 #, fuzzy
 #| msgid "Usually: <code>$HOME/.config/GIMP/&gimp.app.version;/</code>"
 msgid "Usually: <code>$HOME/.config/GIMP//</code>"
 msgstr "Genelde: <code>$HOME/.config/GIMP/&gimp.app.version;/</code>"
 
-#: src/concepts/intro.xml:417(term)
+#: src/concepts/intro.xml:427(term)
 msgid ""
 "Under Microsoft Windows using <ulink url=\"https://en.wikipedia.org/wiki/"
 "Environment_variable#DOS,_OS/2_and_Windows\"> environment variables</ulink>:"
 msgstr ""
 
-#: src/concepts/intro.xml:424(code)
+#: src/concepts/intro.xml:434(code)
 #, fuzzy
 #| msgid "%APPDATA%\\GIMP\\&gimp.app.version;\\"
 msgid "%APPDATA%\\GIMP\\\\"
 msgstr "%APPDATA%\\GIMP\\&gimp.app.version;\\"
 
-#: src/concepts/intro.xml:426(para)
+#: src/concepts/intro.xml:436(para)
 #, fuzzy
 #| msgid ""
 #| "Usually: <code>%USERPROFILE%\\AppData\\Roaming\\GIMP\\&gimp.app.version;"
@@ -7820,15 +7837,15 @@ msgstr ""
 "Genelde: <code>%USERPROFILE%\\AppData\\Roaming\\GIMP\\&gimp.app.version;\\</"
 "code>"
 
-#: src/concepts/intro.xml:432(term)
+#: src/concepts/intro.xml:442(term)
 msgid "Under Apple macOS:"
 msgstr "Apple macOS altında:"
 
-#: src/concepts/intro.xml:435(code)
+#: src/concepts/intro.xml:445(code)
 msgid "NSApplicationSupportDirectory"
 msgstr "NSApplicationSupportDirectory"
 
-#: src/concepts/intro.xml:437(para)
+#: src/concepts/intro.xml:447(para)
 #, fuzzy
 #| msgid ""
 #| "Usually: <code>~/Library/Application Support/GIMP/&gimp.app.version;/</"
@@ -7837,11 +7854,11 @@ msgid "Usually: <code>~/Library/Application Support/GIMP//</code>"
 msgstr ""
 "Genelde: <code>~/Library/Application Support/GIMP/&gimp.app.version;/</code>"
 
-#: src/concepts/intro.xml:446(title)
+#: src/concepts/intro.xml:456(title)
 msgid "Tips and Tricks"
 msgstr "İpuçları ve İncelikler"
 
-#: src/concepts/intro.xml:451(para)
+#: src/concepts/intro.xml:461(para)
 #, fuzzy
 #| msgid ""
 #| "Just a couple of suggestions before you start, though: First, "
@@ -7871,14 +7888,14 @@ msgstr ""
 "çalışmayı durduruyorsa, <link linkend=\"gimp-using-getting-unstuck\">Sıkışıp "
 "Kalmamak</link> bölümü size yardımcı olabilir. Mutlu GIMP'lemeler!"
 
-#: src/concepts/intro.xml:464(para)
+#: src/concepts/intro.xml:474(para)
 msgid ""
 "If at some point you are trying to do something, and <acronym>GIMP</acronym> "
 "seems to have suddenly stopped functioning, the <link linkend=\"gimp-using-"
 "getting-unstuck\">Getting Unstuck</link> section may be able to help you out."
 msgstr ""
 
-#: src/concepts/intro.xml:472(para)
+#: src/concepts/intro.xml:482(para)
 msgid ""
 "Don't forget to check out the <link linkend=\"gimp-prefs-"
 "dialog\">Preferences Dialog</link>. <acronym>GIMP</acronym> is very "
@@ -7886,7 +7903,7 @@ msgid ""
 "personal preferences."
 msgstr ""
 
-#: src/concepts/intro.xml:447(para)
+#: src/concepts/intro.xml:457(para)
 msgid "Just a couple of suggestions before you start: <placeholder-1/>"
 msgstr ""
 
@@ -8883,7 +8900,7 @@ msgstr ""
 msgid "Image Types"
 msgstr "Görüntü Türleri"
 
-#: src/concepts/image-types.xml:10(primary) src/concepts/concepts.xml:47(term)
+#: src/concepts/image-types.xml:10(primary) src/concepts/concepts.xml:30(term)
 msgid "Images"
 msgstr "Görüntüler"
 
@@ -10437,32 +10454,11 @@ msgid ""
 "functionality to choose a different display."
 msgstr ""
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/concepts.xml:23(None)
-msgid ""
-"@@image: 'images/using/wilber.png'; md5=4b08b4728cebdd66519caa628050b532"
-msgstr ""
-"@@image: 'images/using/wilber.png'; md5=4b08b4728cebdd66519caa628050b532"
-
 #: src/concepts/concepts.xml:13(title)
 msgid "Basic Concepts"
 msgstr "Temel Kavramlar"
 
-#: src/concepts/concepts.xml:20(title)
-msgid "Wilber, the GIMP mascot"
-msgstr "Wilber, GIMP maskotu"
-
-#: src/concepts/concepts.xml:26(para)
-msgid ""
-"The Wilber Construction Kit (<ulink url=\"https://gitlab.gnome.org/GNOME/"
-"gimp-help/-/blob/master/src/images/Wilber_Construction_Kit_original.xcf?"
-"ref_type=heads\"> src/images/Wilber_Construction_Kit_original.xcf</ulink>) "
-"allows you to give <acronym>GIMP</acronym>'s mascot named Wilber a different "
-"appearance. It is the work of Tuomas Kuosmanen (tigert)."
-msgstr ""
-
-#: src/concepts/concepts.xml:36(para)
+#: src/concepts/concepts.xml:19(para)
 msgid ""
 "This section provides a brief introduction to the basic concepts and "
 "terminology used in <acronym>GIMP</acronym>. The concepts presented here are "
@@ -10479,7 +10475,7 @@ msgstr ""
 "erişebilirsiniz."
 
 # Son iki cümley gerçekten gerek yoktu. Kafa karıştırıyor yalnızca.
-#: src/concepts/concepts.xml:49(para)
+#: src/concepts/concepts.xml:32(para)
 msgid ""
 "Images are the basic entities used by <acronym>GIMP</acronym>. Roughly "
 "speaking, an <quote>image</quote> corresponds to a single file, such as a "
@@ -10497,7 +10493,7 @@ msgstr ""
 "görüntü olması mümkün değildir, aynı şekilde bir görüntünün de ekran "
 "penceresi olmaması mümkün değildir. "
 
-#: src/concepts/concepts.xml:58(para)
+#: src/concepts/concepts.xml:41(para)
 msgid ""
 "A <acronym>GIMP</acronym> image may be quite a complicated thing. Instead of "
 "thinking of it as a sheet of paper with a picture on it, think of it as more "
@@ -10515,7 +10511,7 @@ msgstr ""
 "Aslında, <acronym>GIMP</acronym> <quote>parazit</quote> adı verilen rastgele "
 "veri parçalarını bir görüntüye eklemek için bir mekanizma sağlar."
 
-#: src/concepts/concepts.xml:68(para)
+#: src/concepts/concepts.xml:51(para)
 msgid ""
 "In <acronym>GIMP</acronym>, it is possible to have many images open at the "
 "same time. Although large images may use many megabytes of memory, "
@@ -10531,7 +10527,7 @@ msgstr ""
 "birlikte, daha fazla belleğe sahip olmak sistem performansını "
 "iyileştirebilir."
 
-#: src/concepts/concepts.xml:82(para)
+#: src/concepts/concepts.xml:65(para)
 #, fuzzy
 #| msgid ""
 #| "If a simple image can be compared to a single sheet of paper, an image "
@@ -10565,11 +10561,11 @@ msgstr ""
 "görüntünün ekranına baktığınızda, yalnızca üst katmandan daha fazlasını: "
 "birçok katmanın öğelerini görebilirsiniz."
 
-#: src/concepts/concepts.xml:100(phrase) src/concepts/concepts.xml:102(primary)
+#: src/concepts/concepts.xml:83(phrase) src/concepts/concepts.xml:85(primary)
 msgid "Resolution"
 msgstr "Çözünürlük"
 
-#: src/concepts/concepts.xml:106(para)
+#: src/concepts/concepts.xml:89(para)
 msgid ""
 "Digital images consist of a grid of square pixels. Each image has a size "
 "measured in two dimensions, such as 900 pixels wide by 600 pixels high. But "
@@ -10580,7 +10576,7 @@ msgid ""
 "is expressed as ppipixels per inch."
 msgstr ""
 
-#: src/concepts/concepts.xml:116(para)
+#: src/concepts/concepts.xml:99(para)
 msgid ""
 "When printing a file, the resolution determines the size the image will have "
 "on paper, and as a result, the physical size of the pixels. The same 900×600 "
@@ -10588,7 +10584,7 @@ msgid ""
 "pixelsor as a large poster with large, chunky pixels."
 msgstr ""
 
-#: src/concepts/concepts.xml:124(para)
+#: src/concepts/concepts.xml:107(para)
 msgid ""
 "Images imported from cameras and mobile devices tend to have a resolution "
 "attached to the file. The resolution is usually 72 or 96 ppi. It is "
@@ -10601,18 +10597,18 @@ msgid ""
 "pixel conforms to one screen pixel."
 msgstr ""
 
-#: src/concepts/concepts.xml:139(varlistentry:xreflabel)
-#: src/concepts/concepts.xml:141(phrase)
+#: src/concepts/concepts.xml:122(varlistentry:xreflabel)
+#: src/concepts/concepts.xml:124(phrase)
 msgid "Channels"
 msgstr "Kanallar"
 
-#: src/concepts/concepts.xml:143(primary)
+#: src/concepts/concepts.xml:126(primary)
 msgid "Channel"
 msgstr "Kanal"
 
 #. TRANSLATORS: this is the modified text from glossary.xml, so
 #.         you should check po/LANG/glossary.po for an old translation
-#: src/concepts/concepts.xml:149(para)
+#: src/concepts/concepts.xml:132(para)
 msgid ""
 "A Channel is a single component of a pixel's color. For a colored pixel in "
 "<acronym>GIMP</acronym>, these components are usually Red, Green, Blue and "
@@ -10628,7 +10624,7 @@ msgstr ""
 "(Alfa) ve <link linkend=\"glossary-indexedcolors\">Sıralanmış</link> bir "
 "renkli görüntü için, Sıralanmış ve Görünür (Alfa) şeklindedir."
 
-#: src/concepts/concepts.xml:158(para)
+#: src/concepts/concepts.xml:141(para)
 #, fuzzy
 #| msgid ""
 #| "The entire rectangular array of any one of the color components for all "
@@ -10646,7 +10642,7 @@ msgstr ""
 "linkend=\"gimp-channel-dialog\">Kanallar iletişim kutusu</link> sayfasında "
 "görebilirsiniz."
 
-#: src/concepts/concepts.xml:164(para)
+#: src/concepts/concepts.xml:147(para)
 msgid ""
 "When the image is displayed, <acronym>GIMP</acronym> puts these components "
 "together to form the pixel colors for the screen, printer, or other output "
@@ -10660,7 +10656,7 @@ msgstr ""
 "kanallar kullanabilir. Böylesi durumlarda, görüntü görüntülenirken "
 "<acronym>GIMP</acronym>'in kanalları aygıt için uygun olanlara dönüştürülür."
 
-#: src/concepts/concepts.xml:172(para)
+#: src/concepts/concepts.xml:155(para)
 msgid ""
 "Channels can be useful when you are working on an image which needs "
 "adjustment in one particular color. For example, if you want to remove "
@@ -10670,7 +10666,7 @@ msgstr ""
 "çalışırken yararlı olabilir. Örneğin, bir fotoğraftaki <quote>kırmızı göz</"
 "quote> sorununu çözmek için Kırmızı kanalda çalışabilirsiniz."
 
-#: src/concepts/concepts.xml:178(para)
+#: src/concepts/concepts.xml:161(para)
 msgid ""
 "You can look at channels as masks which allow or restrict the output of the "
 "color that the channel represents. By using Filters on the channel "
@@ -10685,7 +10681,7 @@ msgstr ""
 "<link linkend=\"gimp-filter-channel-mixer\">Kanal Karıştırıcı</link> "
 "süzgecidir."
 
-#: src/concepts/concepts.xml:187(para)
+#: src/concepts/concepts.xml:170(para)
 msgid ""
 "In addition to these channels, <acronym>GIMP</acronym> also allows you to "
 "create other channels (or more correctly, Channel Masks), which are "
@@ -10703,7 +10699,7 @@ msgstr ""
 "Maskeleri hakkında daha fazla bilgi için <link linkend=\"glossary-"
 "masks\">Maskeler</link> maddesine bakınız."
 
-#: src/concepts/concepts.xml:203(para)
+#: src/concepts/concepts.xml:186(para)
 #, fuzzy
 #| msgid ""
 #| "Often when modify an image, you only want a part of the image to be "
@@ -10743,7 +10739,7 @@ msgstr ""
 "zaman, <link linkend=\"gimp-image-window-qmask-button\">Hızlı Maske</link> "
 "düğmesini kullanarak seçim kanalını tüm ayrıntılarıyla görebilirsiniz."
 
-#: src/concepts/concepts.xml:219(para)
+#: src/concepts/concepts.xml:202(para)
 #, fuzzy
 #| msgid ""
 #| "A large component of learning how to use <acronym>GIMP</acronym> "
@@ -10773,7 +10769,7 @@ msgstr ""
 "Hızlı Maske kipi, ve bunun bir yansıması olarak <quote>seçimi boyamak</"
 "quote> bunlar arasında sayılabilir."
 
-#: src/concepts/concepts.xml:237(para)
+#: src/concepts/concepts.xml:220(para)
 #, fuzzy
 #| msgid ""
 #| "When you make mistakes, you can undo them. Nearly everything you can do "
@@ -10814,7 +10810,7 @@ msgstr ""
 "bir değişiklik yaptıysanız görüntüyü gerçekten kapatmak isteyip "
 "istemediğinizi onaylamanızı ister.)"
 
-#: src/concepts/concepts.xml:248(para)
+#: src/concepts/concepts.xml:231(para)
 msgid ""
 "You can configure the amount of memory <acronym>GIMP</acronym> allows for "
 "the undo history of each image, but in any situation, you should always be "
@@ -10825,7 +10821,7 @@ msgid ""
 "<link linkend=\"gimp-concepts-undo\">Undoing</link>."
 msgstr ""
 
-#: src/concepts/concepts.xml:264(para)
+#: src/concepts/concepts.xml:247(para)
 #, fuzzy
 #| msgid ""
 #| "Many, probably most, of the things that you do to an image in "
@@ -10862,7 +10858,7 @@ msgstr ""
 "kişilerin <acronym>GIMP</acronym>'e yeni özellikler eklemelerinin en kolay "
 "yoludur."
 
-#: src/concepts/concepts.xml:278(para)
+#: src/concepts/concepts.xml:261(para)
 msgid ""
 "All of the commands in the Filters menu, and a substantial number of "
 "commands in other menus, are actually implemented as plug-ins."
@@ -10870,11 +10866,11 @@ msgstr ""
 "Süzgeçler menüsündeki komutların tümü ve diğer menülerdeki önemli sayıdaki "
 "komut aslında eklenti şeklinde yazılmıştır."
 
-#: src/concepts/concepts.xml:285(term)
+#: src/concepts/concepts.xml:268(term)
 msgid "Scripts"
 msgstr "Betikler"
 
-#: src/concepts/concepts.xml:287(para)
+#: src/concepts/concepts.xml:270(para)
 #, fuzzy
 #| msgid ""
 #| "In addition to plug-ins, which are programs written in the C language, "
@@ -11840,3 +11836,18 @@ msgstr ""
 #: src/concepts/basic-setup.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+
+#~ msgid "Show all help options."
+#~ msgstr "Tüm yardım seçeneklerini göster."
+
+# GTK+ artık yalnızca GTK olarak anılıyor.
+#~ msgid "Show GTK+ Options."
+#~ msgstr "GTK+ Seçeneklerini göster."
+
+#~ msgid ""
+#~ "@@image: 'images/using/wilber.png'; md5=4b08b4728cebdd66519caa628050b532"
+#~ msgstr ""
+#~ "@@image: 'images/using/wilber.png'; md5=4b08b4728cebdd66519caa628050b532"
+
+#~ msgid "Wilber, the GIMP mascot"
+#~ msgstr "Wilber, GIMP maskotu"

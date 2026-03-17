@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-09 22:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -93,14 +93,26 @@ msgid "If your image is not indexed, this command is disabled."
 msgstr "Görüntü indeksli renklerde değilse, bu komut devre dışı bırakılır."
 
 #: src/menus/colors/map/set-colormap.xml:55(title)
+#: src/menus/colors/map/sample-colorize.xml:53(title)
+#: src/menus/colors/map/rearrange-colormap.xml:41(title)
+#: src/menus/colors/map/palettemap.xml:35(title)
+#: src/menus/colors/map/gradientmap.xml:60(title)
+#: src/menus/colors/map/color-rotate.xml:48(title)
+#: src/menus/colors/map/color-exchange.xml:51(title)
+#: src/menus/colors/map/alien-map.xml:45(title)
 msgid "Activating the Command"
 msgstr "Komutu Etkinleştirme"
 
 #: src/menus/colors/map/set-colormap.xml:56(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+#| "guisubmenu><guimenuitem>Set Colormap</guimenuitem></menuchoice>."
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-"guisubmenu><guimenuitem>Set Colormap</guimenuitem></menuchoice>."
+"guisubmenu><guimenuitem>Set Colormap…</guimenuitem></menuchoice>."
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
 "guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renk Eşlemi Ata…</"
@@ -186,24 +198,20 @@ msgstr ""
 "Bu süzgeç, renkli kaynak görüntüyü ya da renk geçişini eşleyerek eski siyah-"
 "beyaz görüntüleri renklendirmenizi sağlar."
 
-#: src/menus/colors/map/sample-colorize.xml:53(title)
-#: src/menus/colors/map/palettemap.xml:35(title)
-#: src/menus/colors/map/gradientmap.xml:60(title)
-#: src/menus/colors/map/color-rotate.xml:48(title)
-#: src/menus/colors/map/color-exchange.xml:51(title)
-#: src/menus/colors/map/alien-map.xml:45(title)
-msgid "Activating the Filter"
-msgstr "Süzgeci Etkinleştirme"
-
 #: src/menus/colors/map/sample-colorize.xml:54(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+#| "guisubmenu><guimenuitem>Set Colormap</guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Sample Colorize</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"guisubmenu><guimenuitem>Sample Colorize…</guimenuitem></menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Örnek Renklendirme…</"
-"guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renk Eşlemi Ata…</"
+"guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/colors/map/sample-colorize.xml:65(title)
 #: src/menus/colors/map/color-rotate.xml:60(title)
@@ -426,39 +434,42 @@ msgstr ""
 "kaldıramazsınız; bunun için <link linkend=\"gimp-indexed-palette-"
 "dialog\">İndeksli Palet İletişim Kutusu</link> bölümüne bakın."
 
-#: src/menus/colors/map/rearrange-colormap.xml:41(title)
-msgid "Activating the Dialog"
-msgstr "İletişim Kutusunu Etkinleştirme"
-
-#: src/menus/colors/map/rearrange-colormap.xml:42(para)
-msgid "You can access this command in two ways:"
-msgstr "Bu komuta iki şekilde erişebilirsiniz:"
-
-#: src/menus/colors/map/rearrange-colormap.xml:47(para)
+#: src/menus/colors/map/rearrange-colormap.xml:44(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+#| "guisubmenu><guimenuitem>Set Colormap</guimenuitem></menuchoice>."
 msgid ""
-"from the main menu: <menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
 "guisubmenu><guimenuitem>Rearrange Colormap…</guimenuitem></menuchoice>."
 msgstr ""
-"Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guisubmenu>Eşlem</"
-"guisubmenu><guimenuitem>Renk Eşlemini Yeniden Düzenle…</guimenuitem></"
-"menuchoice> yoluyla."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renk Eşlemi Ata…</"
+"guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
-#: src/menus/colors/map/rearrange-colormap.xml:57(para)
+#: src/menus/colors/map/rearrange-colormap.xml:54(para)
+#, fuzzy
+#| msgid ""
+#| "from the <link linkend=\"gimp-indexed-palette-dialog\">Colormap Dialog</"
+#| "link> using the right-click context menu "
+#| "<menuchoice><guimenuitem>Rearrange Colormap…</guimenuitem></menuchoice>."
 msgid ""
-"from the <link linkend=\"gimp-indexed-palette-dialog\">Colormap Dialog</"
-"link> using the right-click context menu <menuchoice><guimenuitem>Rearrange "
-"Colormap…</guimenuitem></menuchoice>."
+"You can also access it from the <link linkend=\"gimp-indexed-palette-"
+"dialog\">Colormap Dialog</link> using the right-click context menu "
+"<menuchoice><guimenuitem>Rearrange Colormap…</guimenuitem></menuchoice>."
 msgstr ""
 "<link linkend=\"gimp-indexed-palette-dialog\">Renk Eşlemi</link>rıhtımında "
 "sağ tıklayıp açılan içerik menüsünden <menuchoice><guimenuitem>Renk Eşlemini "
 "Yeniden Düzenle…</guimenuitem></menuchoice> yoluyla."
 
-#: src/menus/colors/map/rearrange-colormap.xml:69(title)
+#: src/menus/colors/map/rearrange-colormap.xml:67(title)
 msgid "Using the <quote>Rearrange Colormap</quote> dialog"
 msgstr ""
 "<quote>Renk Haritasını Yeniden Düzenle</quote> iletişim kutusunu kullanma"
 
-#: src/menus/colors/map/rearrange-colormap.xml:70(para)
+#: src/menus/colors/map/rearrange-colormap.xml:68(para)
 #, fuzzy
 msgid ""
 "You can drag and drop colors using the mouse to rearrange the colormap. You "
@@ -470,7 +481,7 @@ msgstr ""
 "Değer'e göre sıralayabilirsiniz. Renklerin sırasını tersine çevirebilir ya "
 "da sıfırlayabilirsiniz."
 
-#: src/menus/colors/map/rearrange-colormap.xml:76(para)
+#: src/menus/colors/map/rearrange-colormap.xml:74(para)
 #, fuzzy
 msgid ""
 "Another way to sort a colormap is by using the <link linkend=\"gimp-palette-"
@@ -539,16 +550,20 @@ msgstr ""
 "girişi, tamamen beyaz ise en yüksek palet girişi olur. Alfa kanalı olan ya "
 "da olmayan gri tonlamalı ve RGB görüntülerde çalışır."
 
-# İletişim kutusu açmadığı için son menü ögesinde üç nokta yok.
 #: src/menus/colors/map/palettemap.xml:36(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+#| "guisubmenu><guimenuitem>Set Colormap</guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Palette Map</guimenuitem></"
-"menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"guisubmenu><guimenuitem>Palette Map</guimenuitem></menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Palet Eşlemi</"
-"guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renk Eşlemi Ata…</"
+"guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/colors/map/palettemap.xml:47(title)
 msgid "Example"
@@ -633,16 +648,20 @@ msgstr ""
 "sol uç rengiyle, en açık pikselleri ise gradyanın sağ uç rengiyle "
 "eşleştirir. Ara değerler, karşılık gelen ara renklere ayarlanır."
 
-# İletişim kutusu açmadığı için son menü ögesinde üç nokta yok.
 #: src/menus/colors/map/gradientmap.xml:61(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+#| "guisubmenu><guimenuitem>Set Colormap</guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Gradient Map</guimenuitem></"
-"menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"guisubmenu><guimenuitem>Gradient Map</guimenuitem></menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renk Geçişi Eşlemi</"
-"guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renk Eşlemi Ata…</"
+"guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -727,14 +746,19 @@ msgstr ""
 "(Hedef Aralık) dönüştürmenizi sağlar."
 
 #: src/menus/colors/map/color-rotate.xml:49(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+#| "guisubmenu><guimenuitem>Set Colormap</guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Rotate Colors</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"guisubmenu><guimenuitem>Rotate Colors…</guimenuitem></menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renkleri Döndür…</"
-"guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renk Eşlemi Ata…</"
+"guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/colors/map/color-rotate.xml:62(title)
 msgid "The <quote>Rotate Colors</quote> Dialog"
@@ -1018,14 +1042,19 @@ msgid "This filter replaces a color with another one."
 msgstr "Bu süzgeç rengi başka renkle değiştirir."
 
 #: src/menus/colors/map/color-exchange.xml:52(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+#| "guisubmenu><guimenuitem>Set Colormap</guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Color Exchange</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"guisubmenu><guimenuitem>Color Exchange…</guimenuitem></menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renk Değişimi…</"
-"guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renk Eşlemi Ata…</"
+"guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/colors/map/color-exchange.xml:65(title)
 msgid "The <quote>Color Exchange</quote> Dialog"
@@ -1129,14 +1158,19 @@ msgstr ""
 "uygulayarak görüntü renklerini büyük ölçüde bozar."
 
 #: src/menus/colors/map/alien-map.xml:46(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+#| "guisubmenu><guimenuitem>Set Colormap</guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Alien Map</guimenuitem></"
-"menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"guisubmenu><guimenuitem>Alien Map…</guimenuitem></menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Uzaylı Eşlemi…</"
-"guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renk Eşlemi Ata…</"
+"guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/colors/map/alien-map.xml:59(title)
 msgid "The <quote>Alien Map</quote> Dialog"
@@ -1265,3 +1299,76 @@ msgstr ""
 #: src/menus/colors/map/alien-map.xml:0(None)
 msgid "translator-credits"
 msgstr ""
+
+#~ msgid "Activating the Filter"
+#~ msgstr "Süzgeci Etkinleştirme"
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Sample Colorize</"
+#~ "guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Örnek Renklendirme…</"
+#~ "guimenuitem></menuchoice> altında bulunur."
+
+#~ msgid "Activating the Dialog"
+#~ msgstr "İletişim Kutusunu Etkinleştirme"
+
+#~ msgid "You can access this command in two ways:"
+#~ msgstr "Bu komuta iki şekilde erişebilirsiniz:"
+
+#~ msgid ""
+#~ "from the main menu: <menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+#~ "guisubmenu><guimenuitem>Rearrange Colormap…</guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Ana menüden: <menuchoice><guimenu>Renkler</guimenu><guisubmenu>Eşlem</"
+#~ "guisubmenu><guimenuitem>Renk Eşlemini Yeniden Düzenle…</guimenuitem></"
+#~ "menuchoice> yoluyla."
+
+# İletişim kutusu açmadığı için son menü ögesinde üç nokta yok.
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Palette Map</"
+#~ "guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Palet Eşlemi</"
+#~ "guimenuitem></menuchoice> altında bulunur."
+
+# İletişim kutusu açmadığı için son menü ögesinde üç nokta yok.
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Gradient Map</"
+#~ "guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renk Geçişi Eşlemi</"
+#~ "guimenuitem></menuchoice> altında bulunur."
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Rotate Colors</"
+#~ "guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renkleri Döndür…</"
+#~ "guimenuitem></menuchoice> altında bulunur."
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Color Exchange</"
+#~ "guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Renk Değişimi…</"
+#~ "guimenuitem></menuchoice> altında bulunur."
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Alien Map</guimenuitem></"
+#~ "menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guisubmenu>Eşlem</guisubmenu><guimenuitem>Uzaylı Eşlemi…</"
+#~ "guimenuitem></menuchoice> altında bulunur."

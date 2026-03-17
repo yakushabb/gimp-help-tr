@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-21 21:36+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-18 23:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -80,6 +80,7 @@ msgstr "Süzgeçler"
 #: src/filters/decor/introduction.xml:16(secondary)
 #: src/filters/decor/introduction.xml:20(primary)
 #: src/filters/decor/fuzzyborder.xml:15(secondary)
+#: src/filters/decor/fog.xml:13(secondary)
 #: src/filters/decor/chrome-it.xml:10(secondary)
 #: src/filters/decor/carve-it.xml:17(secondary)
 msgid "Decor"
@@ -339,9 +340,13 @@ msgid "Text"
 msgstr "Metin"
 
 #: src/filters/decor/slide.xml:92(para)
+#, fuzzy
+#| msgid ""
+#| "A short label that will be displayed in the top and bottom (or the left "
+#| "and right) of the frame. The text must be really short."
 msgid ""
-"A short label that will be displayed in the top and bottom (or the left and "
-"right) of the frame. The text must be really short."
+"A short label that will be displayed in the top (or the left) of the frame. "
+"The text must be really short."
 msgstr ""
 "Çerçevenin üstünde ve altında (ya da solunda ve sağında) görüntülenecek kısa "
 "etiket. Metin çok kısa olmalıdır."
@@ -394,13 +399,13 @@ msgid "Work on copy"
 msgstr "Kopya üzerinde çalış"
 
 #: src/filters/decor/slide.xml:130(para)
-#: src/filters/decor/round-corners.xml:218(para)
-#: src/filters/decor/old-photo.xml:163(para)
-#: src/filters/decor/fuzzyborder.xml:247(para)
-#: src/filters/decor/add-bevel.xml:126(para)
+#, fuzzy
+#| msgid ""
+#| "If checked, the filter creates a new window containing a copy of the "
+#| "image with the filter applied. The original image remains unchanged."
 msgid ""
-"If checked, the filter creates a new window containing a copy of the image "
-"with the filter applied. The original image remains unchanged."
+"If checked, the filter creates a copy of the image with the filter applied. "
+"The original image remains unchanged."
 msgstr ""
 "İşaretliyse, süzgeç, süzgeç uygulanmış görüntünün kopyasını içeren yeni "
 "pencere oluşturur. Özgün görüntü değişmeden kalır."
@@ -667,6 +672,17 @@ msgstr ""
 "katmanın altına mevcut arka plan rengiyle doldurulmuş bir arka plan katmanı "
 "ekler. Bu yeni katmanın boyutu bulanıklık yarıçapına ve gölge ofsetlerine "
 "bağlıdır."
+
+#: src/filters/decor/round-corners.xml:218(para)
+#: src/filters/decor/old-photo.xml:163(para)
+#: src/filters/decor/fuzzyborder.xml:247(para)
+#: src/filters/decor/add-bevel.xml:126(para)
+msgid ""
+"If checked, the filter creates a new window containing a copy of the image "
+"with the filter applied. The original image remains unchanged."
+msgstr ""
+"İşaretliyse, süzgeç, süzgeç uygulanmış görüntünün kopyasını içeren yeni "
+"pencere oluşturur. Özgün görüntü değişmeden kalır."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1167,10 +1183,6 @@ msgstr ""
 #: src/filters/decor/fog.xml:16(primary)
 msgid "Fog"
 msgstr "Sis"
-
-#: src/filters/decor/fog.xml:13(secondary)
-msgid "Render"
-msgstr "Oluştur"
 
 #: src/filters/decor/fog.xml:22(title)
 msgid "Example for the <quote>Fog</quote> filter"
@@ -2227,3 +2239,5 @@ msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
 
+#~ msgid "Render"
+#~ msgstr "Oluştur"

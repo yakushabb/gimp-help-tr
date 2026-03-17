@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gimp-help master\n"
-"POT-Creation-Date: 2025-11-23 19:04+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-23 22:16+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -1434,6 +1434,13 @@ msgstr "Alanın içinde yakınlaştır"
 msgid "Zoom out inside the area"
 msgstr "Alanın içinde uzaklaştır"
 
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction.xml:99(None)
+msgid ""
+"@@image: 'images/using/wilber.png'; md5=99ac11abd800deaeafdc1f9b398e4a08"
+msgstr ""
+
 #: src/introduction.xml:15(title)
 msgid "Welcome to GIMP"
 msgstr "GIMPʼe Hoş Geldiniz"
@@ -1572,11 +1579,38 @@ msgstr ""
 "bulunmuştur. <acronym>GIMP</acronym>ʼin kısa tarihçesi <ulink url=\"https://"
 "www.gimp.org/about/#gimp-history\">çevrim içi olarak</ulink> vardır."
 
-#: src/introduction.xml:94(title)
+#: src/introduction.xml:94(title) src/introduction.xml:96(title)
+msgid "Wilber, GIMP's mascot"
+msgstr ""
+
+#: src/introduction.xml:102(para)
+msgid ""
+"Wilber, created by Aryeom in 2024 for <acronym>GIMP</acronym> 3.0. License: "
+"<ulink url=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative "
+"Commons Attribution-ShareAlike 4.0</ulink>."
+msgstr ""
+
+#: src/introduction.xml:111(para)
+msgid ""
+"The creature on <acronym>GIMP</acronym>'s icon is called <quote>Wilber</"
+"quote>. It is the official mascot of GIMP and was created by Tuomas "
+"Kuosmanen in 1997. Over the years, the appearance was updated and modernized "
+"several times."
+msgstr ""
+
+#: src/introduction.xml:117(para)
+msgid ""
+"The most recent version was created by Aryeom, with input from several "
+"others. An overview of all historical Wilber versions is available <ulink "
+"url=\"https://gitlab.gnome.org/GNOME/gimp-data/-/blob/main/images/logo-"
+"log.md\">here</ulink>."
+msgstr ""
+
+#: src/introduction.xml:125(title)
 msgid "GIMP's Help system"
 msgstr "GIMPʼin Yardım sistemi"
 
-#: src/introduction.xml:95(para)
+#: src/introduction.xml:126(para)
 msgid ""
 "The <acronym>GIMP</acronym> Documentation Team provides the information that "
 "tries to help you understand how to use <acronym>GIMP</acronym>. The User "
@@ -1598,7 +1632,7 @@ msgstr ""
 "kullanılabilir. Çoğu iletişim kutusu, kılavuzun ilgili bölümüne erişmek için "
 "kullanabileceğiniz yardım düğmesi de gösterecektir."
 
-#: src/introduction.xml:107(para)
+#: src/introduction.xml:138(para)
 msgid ""
 "The manual in HTML format can also be installed locally on your computer. "
 "Installers are <ulink url=\"https://docs.gimp.org/download.html\">available "
@@ -1618,11 +1652,11 @@ msgstr ""
 "yerel kopyayı kullanmak için <link linkend=\"gimp-prefs-help\">yardım "
 "tercihlerinizi</link> ayarlamanız gerekecektir."
 
-#: src/introduction.xml:122(title)
+#: src/introduction.xml:153(title)
 msgid "Features and Capabilities"
 msgstr "Özellikler ve Yetenekler"
 
-#: src/introduction.xml:123(para)
+#: src/introduction.xml:154(para)
 msgid ""
 "The following list is a short overview of some of the features and "
 "capabilities which <acronym>GIMP</acronym> offers you:"
@@ -1630,7 +1664,7 @@ msgstr ""
 "Aşağıdaki liste, <acronym>GIMP</acronym>ʼin size sunduğu kimi özellik ve "
 "yeteneklere kısa bir bakış sağlar:"
 
-#: src/introduction.xml:129(para)
+#: src/introduction.xml:160(para)
 msgid ""
 "A full suite of painting tools including brushes, a pencil, an airbrush, "
 "cloning, etc."
@@ -1638,7 +1672,7 @@ msgstr ""
 "Fırçalar, kalem, hava fırçası, kopyalama vb. olmak üzere eksiksiz boyama "
 "araçları paketi."
 
-#: src/introduction.xml:135(para)
+#: src/introduction.xml:166(para)
 msgid ""
 "Tile-based memory management, so image size is limited only by available "
 "disk space."
@@ -1646,21 +1680,21 @@ msgstr ""
 "Karo tabanlı bellek yönetimi sayesinde görüntü boyutu yalnızca var olan disk "
 "alanı ile sınırlıdır."
 
-#: src/introduction.xml:141(para)
+#: src/introduction.xml:172(para)
 msgid "Sub-pixel sampling for all paint tools for high-quality anti-aliasing."
 msgstr ""
 "Yüksek nitelikli kenar yumuşatma için tüm boya araçları için alt piksel "
 "örnekleme."
 
-#: src/introduction.xml:147(para)
+#: src/introduction.xml:178(para)
 msgid "Full Alpha channel support for working with transparency."
 msgstr "Saydamlıkla çalışmak için tam Alfa kanalı desteği."
 
-#: src/introduction.xml:152(para)
+#: src/introduction.xml:183(para)
 msgid "Layers and channels."
 msgstr "Katmanlar ve kanallar."
 
-#: src/introduction.xml:155(para)
+#: src/introduction.xml:186(para)
 msgid ""
 "A procedural database for calling internal <acronym>GIMP</acronym> functions "
 "from external programs, such as Script-Fu."
@@ -1668,19 +1702,19 @@ msgstr ""
 "Script-Fu gibi dış programlardan iç <acronym>GIMP</acronym> işlevlerini "
 "çağırmak için prosedürel veri tabanı."
 
-#: src/introduction.xml:161(para)
+#: src/introduction.xml:192(para)
 msgid "Advanced scripting capabilities."
 msgstr "Gelişmiş betikleme yetenekleri."
 
-#: src/introduction.xml:164(para)
+#: src/introduction.xml:195(para)
 msgid "Multiple undo/redo (limited only by disk space)."
 msgstr "Çoklu geri alma/yineleme (yalnızca disk alanı ile sınırlıdır)."
 
-#: src/introduction.xml:167(para)
+#: src/introduction.xml:198(para)
 msgid "Transformation tools including rotate, scale, shear and flip."
 msgstr "Döndürme, ölçekleme, kesme ve çevirme gibi dönüşüm araçları."
 
-#: src/introduction.xml:172(para)
+#: src/introduction.xml:203(para)
 msgid ""
 "Support for a wide range of file formats, including JPEG, PNG, GIF, PSD, "
 "DDS, XPM, TIFF, TGA, MPEG, PS, PDF, PCX, BMP and many others."
@@ -1688,7 +1722,7 @@ msgstr ""
 "JPEG, PNG, GIF, PSD, DDS, XPM, TIFF, TGA, MPEG, PS, PDF, PCX, BMP ve "
 "diğerleri olmak üzere çok türlü dosya biçimleri desteği."
 
-#: src/introduction.xml:178(para)
+#: src/introduction.xml:209(para)
 msgid ""
 "Selection tools, including rectangle, ellipse, free, fuzzy, bezier and "
 "scissors."
@@ -1696,7 +1730,7 @@ msgstr ""
 "Dikdörtgen, elips, serbest, bulanık, bezier ve makastan oluşan seçim "
 "araçları."
 
-#: src/introduction.xml:184(para)
+#: src/introduction.xml:215(para)
 msgid ""
 "Plug-ins that allow for the easy addition of new file formats and new effect "
 "filters."

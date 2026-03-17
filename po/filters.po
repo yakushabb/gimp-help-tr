@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-23 19:04+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-23 22:14+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -100,6 +100,34 @@ msgstr ""
 #: src/filters/introduction.xml:34(para)
 msgid "The filters are divided into several categories:"
 msgstr "Süzgeçler çeşitli kategorilere ayrılmıştır:"
+
+#: src/filters/include-distance-map-metric.xml:11(term)
+msgid "Euclidean"
+msgstr ""
+
+#: src/filters/include-distance-map-metric.xml:13(para)
+msgid "The distance is a straight line."
+msgstr ""
+
+#: src/filters/include-distance-map-metric.xml:19(term)
+msgid "Manhattan"
+msgstr ""
+
+#: src/filters/include-distance-map-metric.xml:21(para)
+msgid ""
+"The distance is the sum of the one-dimensional distances along the X and Y "
+"axes."
+msgstr ""
+
+#: src/filters/include-distance-map-metric.xml:28(term)
+msgid "Chebyshev"
+msgstr ""
+
+#: src/filters/include-distance-map-metric.xml:30(para)
+msgid ""
+"The distance is the maximum of the one-dimensional distances along the X and "
+"Y axes."
+msgstr ""
 
 #: src/filters/generic.xml:7(title)
 msgid "Generic Filters"

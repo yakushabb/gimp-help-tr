@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-21 21:36+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-18 23:09+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -632,10 +632,28 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/map/tile.xml:66(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/filters/map/tile.png'; "
+#| "md5=d82880e355ace6b39b64ed356254669f"
 msgid ""
-"@@image: 'images/filters/map/tile.png'; md5=d82880e355ace6b39b64ed356254669f"
+"@@image: 'images/filters/map/tile.png'; md5=eea846e6bab6fa96ccb5e4d48e797338"
 msgstr ""
 "@@image: 'images/filters/map/tile.png'; md5=d82880e355ace6b39b64ed356254669f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/filters/map/tile.xml:93(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/stock-icons/gimp-vchain.svg'; "
+#| "md5=d47eea1ce790b9e3211d223704a1e9de"
+msgid ""
+"@@image: 'images/stock-icons/gimp-hchain.svg'; "
+"md5=980cb7ea9e9761c54f7bf8bb3fd57754"
+msgstr ""
+"@@image: 'images/stock-icons/gimp-vchain.svg'; "
+"md5=d47eea1ce790b9e3211d223704a1e9de"
 
 #: src/filters/map/tile.xml:9(title) src/filters/map/tile.xml:13(tertiary)
 #: src/filters/map/tile.xml:16(primary)
@@ -715,11 +733,19 @@ msgstr ""
 "Aksi takdirde, yalnızca bir görüntü örneği alırsınız. Kesilmiş kutucuklara "
 "sahip olmak istemiyorsanız özgün boyutların katları olan boyutları seçin."
 
-#: src/filters/map/tile.xml:89(term)
+#: src/filters/map/tile.xml:86(para)
+msgid ""
+"By default, <guilabel>New width</guilabel> and <guilabel>New height</"
+"guilabel> are linked, indicated by the <placeholder-1/> chain symbol below "
+"the input boxes. If you want to set them separately, click on that chain "
+"symbol to unlink them."
+msgstr ""
+
+#: src/filters/map/tile.xml:103(term)
 msgid "New image"
 msgstr "Yeni görüntü"
 
-#: src/filters/map/tile.xml:91(para)
+#: src/filters/map/tile.xml:105(para)
 msgid "Keep this option checked to avoid modifying your original image."
 msgstr ""
 "Özgün görüntünün değiştirilmesini önlemek için bu seçeneği işaretli tutun."
@@ -4140,4 +4166,3 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
-

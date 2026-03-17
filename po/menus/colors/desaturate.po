@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-29 15:09+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-12-01 21:27+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -97,18 +97,25 @@ msgstr ""
 "beyaz görüntü üretir."
 
 #: src/menus/colors/desaturate/sepia.xml:47(title)
-msgid "Activating the Filter"
-msgstr "Süzgeci Etkinleştirme"
+#: src/menus/colors/desaturate/desaturate.xml:37(title)
+#: src/menus/colors/desaturate/color-to-gray.xml:30(title)
+msgid "Activating the Command"
+msgstr "Komutu Etkinleştirme"
 
 #: src/menus/colors/desaturate/sepia.xml:48(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
+#| "guisubmenu><guimenuitem>Desaturate…</guimenuitem></menuchoice>."
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Sepia…</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
+"guisubmenu><guimenuitem>Sepia…</guimenuitem></menuchoice>."
 msgstr ""
-"Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
-"guimenu><guisubmenu>Solgunlaştır</guisubmenu><guimenuitem>Sepya..</"
-"guimenuitem></menuchoice> altında bulunur."
+"Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
+"guimenu><guisubmenu>Solgunlaştır</guisubmenu><guimenuitem>Desaturate…</"
+"guimenuitem></menuchoice> yoluyla erişebilirsiniz."
 
 #: src/menus/colors/desaturate/sepia.xml:59(title)
 #: src/menus/colors/desaturate/desaturate.xml:49(title)
@@ -348,11 +355,6 @@ msgstr ""
 "Bu komut yalnızca <link linkend=\"glossary-rgb\">RGB</link> görüntü "
 "katmanlarında çalışır. Görüntü Gri Tonlamalı ya da İndeksli kipteyse, hiçbir "
 "şey yapamaz."
-
-#: src/menus/colors/desaturate/desaturate.xml:37(title)
-#: src/menus/colors/desaturate/color-to-gray.xml:30(title)
-msgid "Activating the Command"
-msgstr "Komutu Etkinleştirme"
 
 #: src/menus/colors/desaturate/desaturate.xml:38(para)
 msgid ""
@@ -763,10 +765,15 @@ msgstr ""
 "zarfları kullanır."
 
 #: src/menus/colors/desaturate/color-to-gray.xml:31(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
+#| "guisubmenu><guimenuitem>Color to Gray</guimenuitem></menuchoice>."
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
-"guisubmenu><guimenuitem>Color to Gray</guimenuitem></menuchoice>."
+"guisubmenu><guimenuitem>Color to Gray…</guimenuitem></menuchoice>."
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Renkler</"
 "guimenu><guisubmenu>Solgunlaştır</guisubmenu><guimenuitem>Renkten Griye…</"
@@ -830,3 +837,15 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "Activating the Filter"
+#~ msgstr "Süzgeci Etkinleştirme"
+
+#~ msgid ""
+#~ "This filter is found in the main menu under <menuchoice><guimenu>Colors</"
+#~ "guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Sepia…</"
+#~ "guimenuitem></menuchoice>."
+#~ msgstr ""
+#~ "Bu süzgeç ana menüde <menuchoice><guimenu>Renkler</"
+#~ "guimenu><guisubmenu>Solgunlaştır</guisubmenu><guimenuitem>Sepya..</"
+#~ "guimenuitem></menuchoice> altında bulunur."

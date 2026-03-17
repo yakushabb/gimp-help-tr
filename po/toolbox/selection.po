@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-09-19 16:29+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -1453,7 +1453,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/foreground.xml:362(None)
+#: src/toolbox/selection/foreground.xml:367(None)
 msgid ""
 "@@image: 'images/toolbox/FG-select-draw-bg.png'; "
 "md5=c172baafd4ab27ae34a2e30c85a32379"
@@ -1463,7 +1463,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/foreground.xml:386(None)
+#: src/toolbox/selection/foreground.xml:391(None)
 msgid ""
 "@@image: 'images/toolbox/FG-select-unknown.png'; "
 "md5=6d548df2a8877e8135e14a16fd8a44ca"
@@ -1687,27 +1687,33 @@ msgstr ""
 
 #: src/toolbox/selection/foreground.xml:304(para)
 msgid ""
-"This is the method that will be used to select the foreground. The default "
-"is <guilabel>Matting Levin</guilabel>, which usually gives the best results, "
-"but you can also try <guilabel>Matting global</guilabel>, especially if "
-"processing is slow and you are using larger images."
+"This is the method that will be used to select the foreground. Choices are "
+"<guilabel>Matting Levin</guilabel>, and <guilabel>Matting Global</guilabel>. "
+"Note that <guilabel>Matting Levin</guilabel> has been temporarily removed on "
+"Windows due to crashes. When it is available, it is the default."
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:314(term)
+#: src/toolbox/selection/foreground.xml:311(para)
+msgid ""
+"<guilabel>Matting Levin</guilabel> usually gives the best results, but is "
+"slower, especially on larger images when there are large unknown areas."
+msgstr ""
+
+#: src/toolbox/selection/foreground.xml:319(term)
 msgid "Levels (Matting Levin only)"
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:316(para)
+#: src/toolbox/selection/foreground.xml:321(para)
 msgid ""
 "The number of downsampled levels to use. Higher numbers can improve "
 "processing speed at the cost of using more memory. The default is 2 levels."
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:324(term)
+#: src/toolbox/selection/foreground.xml:329(term)
 msgid "Active levels (Matting Levin only)"
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:326(para)
+#: src/toolbox/selection/foreground.xml:331(para)
 msgid ""
 "The number of levels to perform solving. Higher numbers can increase the "
 "selection a bit at the cost of slowing down processing. Setting this number "
@@ -1715,21 +1721,21 @@ msgid ""
 "active levels."
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:335(term)
+#: src/toolbox/selection/foreground.xml:340(term)
 msgid "Iterations (Matting Global only)"
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:337(para)
+#: src/toolbox/selection/foreground.xml:342(para)
 msgid ""
 "Higher values may improve the result at the cost of being slower. The "
 "default is 2 iterations."
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:347(title)
+#: src/toolbox/selection/foreground.xml:352(title)
 msgid "Refining Foreground Extraction"
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:348(para)
+#: src/toolbox/selection/foreground.xml:353(para)
 msgid ""
 "In a lot of images, distinguishing what is foreground or background can be "
 "difficult. Refining the selection allows you to extract these foregrounds. "
@@ -1740,39 +1746,39 @@ msgid ""
 "<guilabel>Color</guilabel> preview mode."
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:358(title)
+#: src/toolbox/selection/foreground.xml:363(title)
 msgid "<quote>Draw background</quote> Example"
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:365(para)
+#: src/toolbox/selection/foreground.xml:370(para)
 msgid ""
 "On the left: drawing foreground by mistake went over the background area: a "
 "part of the background will be included in the foreground selection!"
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:370(para)
+#: src/toolbox/selection/foreground.xml:375(para)
 msgid ""
 "In the middle: <guilabel>Draw background</guilabel> option is checked: draw "
 "on the unwanted background pixels."
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:374(para)
+#: src/toolbox/selection/foreground.xml:379(para)
 msgid ""
 "On the right: unwanted selected pixels in the background are no longer in "
 "the foreground selection."
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:382(title)
+#: src/toolbox/selection/foreground.xml:387(title)
 msgid "<quote>Draw unknown</quote> Example"
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:389(para)
+#: src/toolbox/selection/foreground.xml:394(para)
 msgid ""
 "On the left: the selection left a small part of the foreground unselected, "
 "in the unknown pixels area."
 msgstr ""
 
-#: src/toolbox/selection/foreground.xml:393(para)
+#: src/toolbox/selection/foreground.xml:398(para)
 msgid ""
 "On the right: with <guilabel>Draw unknown</guilabel> option checked, draw on "
 "the unselected pixels to select them. This shows that they are now selected."

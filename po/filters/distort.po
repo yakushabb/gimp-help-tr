@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-21 21:36+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-18 23:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -160,6 +160,7 @@ msgstr "Süzgeçler"
 #: src/filters/distort/emboss.xml:12(secondary)
 #: src/filters/distort/curve_bend.xml:15(secondary)
 #: src/filters/distort/blinds.xml:16(secondary)
+#: src/filters/distort/apply_lens.xml:13(secondary)
 msgid "Distorts"
 msgstr "Bozulma"
 
@@ -3969,10 +3970,6 @@ msgstr ""
 msgid "Apply Lens"
 msgstr "Mercek Uygula"
 
-#: src/filters/distort/apply_lens.xml:13(secondary)
-msgid "Light and Shadow"
-msgstr "Işık ve Gölge"
-
 #: src/filters/distort/apply_lens.xml:23(title)
 msgid "The same image, before and after applying lens effect."
 msgstr "Aynı görüntü, Mercek Uygula etkisi uygulanmadan önce ve sonra."
@@ -4036,3 +4033,6 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "Light and Shadow"
+#~ msgstr "Işık ve Gölge"

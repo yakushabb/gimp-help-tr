@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-09 22:26+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -71,8 +71,13 @@ msgid "Activating the Submenu"
 msgstr "Alt Menüyü Etkinleştirmek"
 
 #: src/menus/filters/script-fu.xml:30(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</"
+#| "guisubmenu><guimenuitem>Script-Fu</guimenuitem></menuchoice>."
 msgid ""
-"You can access this command from the main menu through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</"
 "guisubmenu><guimenuitem>Script-Fu</guimenuitem></menuchoice>."
 msgstr ""
@@ -455,10 +460,15 @@ msgid "Activating the Command"
 msgstr "Komutu Etkinleştirmek"
 
 #: src/menus/filters/reshow.xml:57(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Filters</guimenu><guimenuitem> Re-Show "
+#| "<replaceable>filter</replaceable></guimenuitem></menuchoice>,"
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Filters</guimenu><guimenuitem> Re-Show "
-"<replaceable>filter</replaceable></guimenuitem></menuchoice>,"
+"<replaceable>filter</replaceable></guimenuitem></menuchoice>."
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Süzgeçler</"
 "guimenu><guimenuitem>Yeniden Göster <replaceable>süzgeç adı</replaceable></"
@@ -466,8 +476,12 @@ msgstr ""
 
 # Split sentence
 #: src/menus/filters/reshow.xml:68(para)
+#, fuzzy
+#| msgid ""
+#| "or by using the keyboard shortcut <keycombo><keycap>Ctrl</"
+#| "keycap><keycap>Shift</keycap><keycap>F</keycap></keycombo>."
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</"
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
 "keycap><keycap>Shift</keycap><keycap>F</keycap></keycombo>."
 msgstr ""
 "ya da <keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap><keycap>F</"
@@ -534,19 +548,28 @@ msgstr ""
 "bulunmaz."
 
 #: src/menus/filters/repeat.xml:38(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Filters</guimenu><guimenuitem>Repeat "
+#| "<replaceable>filter</replaceable></guimenuitem></menuchoice>,"
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Filters</guimenu><guimenuitem>Repeat "
-"<replaceable>filter</replaceable></guimenuitem></menuchoice>,"
+"<replaceable>filter</replaceable></guimenuitem></menuchoice>."
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Süzgeçler</"
 "guimenu><guimenuitem>Yinele <replaceable>Süzgeç Adı</replaceable></"
 "guimenuitem></menuchoice> yoluyla erişebilirsiniz,"
 
 #: src/menus/filters/repeat.xml:48(para)
+#, fuzzy
+#| msgid ""
+#| "or by using the keyboard shortcut <keycombo><keycap>Ctrl</"
+#| "keycap><keycap>F</keycap></keycombo>."
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>F</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>F</keycap></keycombo>."
 msgstr ""
 "ya da <keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> klavye "
 "kısayolunu kullanabilirsiniz."
@@ -874,8 +897,13 @@ msgstr ""
 "kullanışlıdır."
 
 #: src/menus/filters/development.xml:21(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</"
+#| "guisubmenu></menuchoice>."
 msgid ""
-"You can access this command from the main menu through "
+"You can access this submenu from the main menu through "
 "<menuchoice><guimenu>Filters</guimenu><guisubmenu>Development</guisubmenu></"
 "menuchoice>."
 msgstr ""

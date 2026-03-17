@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-21 21:36+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-29 18:08+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -1357,7 +1357,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/distance-map.xml:122(None)
+#: src/filters/generic/distance-map.xml:95(None)
 msgid ""
 "@@image: 'images/filters/examples/generic/dist_map-orig.png'; "
 "md5=f4726362d161c226a0c17888f937dd54"
@@ -1367,7 +1367,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/distance-map.xml:137(None)
+#: src/filters/generic/distance-map.xml:110(None)
 msgid ""
 "@@image: 'images/filters/examples/generic/dist_map-low-0.png'; "
 "md5=ac0bfb5b11349ce046c89786bed38aa0"
@@ -1377,7 +1377,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/distance-map.xml:148(None)
+#: src/filters/generic/distance-map.xml:121(None)
 msgid ""
 "@@image: 'images/filters/examples/generic/dist_map-low-1.png'; "
 "md5=fbf065a34ef39a543e6916e27428af55"
@@ -1387,7 +1387,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/distance-map.xml:159(None)
+#: src/filters/generic/distance-map.xml:132(None)
 msgid ""
 "@@image: 'images/filters/examples/generic/dist_map-low-2.png'; "
 "md5=c7a8a741eee72340cd1d7c7d0fb41ac8"
@@ -1397,8 +1397,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/distance-map.xml:170(None)
-#: src/filters/generic/distance-map.xml:215(None)
+#: src/filters/generic/distance-map.xml:143(None)
+#: src/filters/generic/distance-map.xml:188(None)
 msgid ""
 "@@image: 'images/filters/examples/generic/dist_map-low-3.png'; "
 "md5=4aa826d6d4955a4954b87eb596d79954"
@@ -1408,7 +1408,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/distance-map.xml:226(None)
+#: src/filters/generic/distance-map.xml:199(None)
 msgid ""
 "@@image: 'images/filters/examples/generic/dist_map-nonormalize.png'; "
 "md5=48be95baf3d1b0942c4e08272177882a"
@@ -1454,39 +1454,11 @@ msgstr "Metrik"
 msgid "<quote>Metric</quote> is a topology term. Three methods are available:"
 msgstr "<quote>Metrik</quote> topoloji terimidir. Üç yöntem vardır:"
 
-#: src/filters/generic/distance-map.xml:74(term)
-msgid "Euclidean"
-msgstr "Öklid"
-
-#: src/filters/generic/distance-map.xml:76(para)
-msgid "The distance is a straight line (default)."
-msgstr "Mesafe düz çizgidir."
-
-#: src/filters/generic/distance-map.xml:82(term)
-msgid "Manhattan"
-msgstr "Manhattan"
-
-#: src/filters/generic/distance-map.xml:84(para)
-msgid ""
-"The distance is the sum of the one-dimensional distances along the X and Y "
-"axes."
-msgstr "Mesafe, X ve Y eksenleri boyunca tek boyutlu uzaklığın toplamıdır."
-
-#: src/filters/generic/distance-map.xml:91(term)
-msgid "Chebyshev"
-msgstr "Chebyshev"
-
-#: src/filters/generic/distance-map.xml:93(para)
-msgid ""
-"The distance is the maximum of the one-dimensional distances along the X and "
-"Y axes."
-msgstr "Mesafe, X ve Y eksenleri boyunca tek boyutlu uzaklıkların en çoğudur."
-
-#: src/filters/generic/distance-map.xml:103(term)
+#: src/filters/generic/distance-map.xml:76(term)
 msgid "Edge handling"
 msgstr "Kenar işleme"
 
-#: src/filters/generic/distance-map.xml:105(para)
+#: src/filters/generic/distance-map.xml:78(para)
 msgid ""
 "This defines how areas outside the input are considered when calculating "
 "distance. Choices are: <guilabel>Below threshold</guilabel> and "
@@ -1496,17 +1468,17 @@ msgstr ""
 "tanımlar. Seçenekler şunlardır: <guilabel>Eşiğin altında</guilabel> ve "
 "<guilabel>Eşiğin üstünde</guilabel>."
 
-#: src/filters/generic/distance-map.xml:114(term)
+#: src/filters/generic/distance-map.xml:87(term)
 msgid "Threshold low"
 msgstr "Düşük eşik"
 
-#: src/filters/generic/distance-map.xml:116(para)
+#: src/filters/generic/distance-map.xml:89(para)
 msgid "Default is 0. Increasing this value selects higher lightness pixels"
 msgstr ""
 "Öntanımlı değer 0'dır. Bu değerin artırılması daha yüksek açıklık "
 "piksellerini seçer"
 
-#: src/filters/generic/distance-map.xml:125(para)
+#: src/filters/generic/distance-map.xml:98(para)
 msgid ""
 "Original image for examples. Threshold low will be progressively increased. "
 "Lightness: dark red = 0.070; bright red = 0.223; green = 0.133"
@@ -1514,49 +1486,49 @@ msgstr ""
 "Örnekler için özgün görüntü. Düşük eşik kademeli olarak artırılacaktır. "
 "Açıklık: koyu kırmızı = 0,070; parlak kırmızı = 0,223; yeşil = 0,133"
 
-#: src/filters/generic/distance-map.xml:133(title)
+#: src/filters/generic/distance-map.xml:106(title)
 msgid "<quote>Threshold low</quote> example"
 msgstr "<quote>Düşük eşik</quote> örneği"
 
-#: src/filters/generic/distance-map.xml:140(para)
+#: src/filters/generic/distance-map.xml:113(para)
 msgid "Threshold low = 0: only border distances are visible."
 msgstr "Düşük eşik = 0: yalnızca kenar mesafeleri görünür."
 
-#: src/filters/generic/distance-map.xml:151(para)
+#: src/filters/generic/distance-map.xml:124(para)
 msgid "Threshold low = 0.070: <quote>dark red</quote> circle appears."
 msgstr "Düşük eşik = 0,070: <quote>koyu kırmızı</quote> daire görünür."
 
-#: src/filters/generic/distance-map.xml:162(para)
+#: src/filters/generic/distance-map.xml:135(para)
 msgid "Threshold low = 0.133: <quote>green</quote> circle appears."
 msgstr "Düşük eşik = 0,133: <quote>yeşil</quote> daire görünür."
 
-#: src/filters/generic/distance-map.xml:173(para)
+#: src/filters/generic/distance-map.xml:146(para)
 msgid "Threshold low = 0.223: <quote>bright red</quote> circle appears."
 msgstr "Düşük eşik = 0,223: <quote>parlak kırmızı</quote> daire görünür."
 
-#: src/filters/generic/distance-map.xml:183(term)
+#: src/filters/generic/distance-map.xml:156(term)
 msgid "Threshold high"
 msgstr "Yüksek eşik"
 
-#: src/filters/generic/distance-map.xml:185(para)
+#: src/filters/generic/distance-map.xml:158(para)
 msgid "Default is 1. Decreasing this value makes result darker."
 msgstr "Öntanımlı değer 1. Bu değerin azaltılması sonucu daha koyu yapar."
 
 # Arayüzde çevrildiği şekliyle kullanıldı.
-#: src/filters/generic/distance-map.xml:191(term)
+#: src/filters/generic/distance-map.xml:164(term)
 msgid "Grayscale Averaging"
 msgstr "Gri tonlamalı ortalama"
 
-#: src/filters/generic/distance-map.xml:193(para)
+#: src/filters/generic/distance-map.xml:166(para)
 msgid "Number of computations for grayscale averaging."
 msgstr "Gri tonlamalı ortalama için hesaplama sayısı."
 
-#: src/filters/generic/distance-map.xml:199(term)
+#: src/filters/generic/distance-map.xml:172(term)
 #: src/filters/generic/convol-matrix.xml:154(term)
 msgid "Normalize"
 msgstr "Normalleştir"
 
-#: src/filters/generic/distance-map.xml:201(para)
+#: src/filters/generic/distance-map.xml:174(para)
 #, fuzzy
 #| msgid ""
 #| "This option is checked by default. If you uncheck it, no blur is created."
@@ -1566,7 +1538,7 @@ msgid ""
 msgstr ""
 "Bu seçenek öntanımlı olarak işaretlidir. İşaretsizse bulanıklık oluşturulmaz."
 
-#: src/filters/generic/distance-map.xml:205(para)
+#: src/filters/generic/distance-map.xml:178(para)
 #, fuzzy
 msgid ""
 "If you uncheck this option, non-obstacle pixels will appear white because "
@@ -1575,15 +1547,15 @@ msgstr ""
 "Bu seçeneğin işaretini kaldırırsanız, engel olmayan pikseller hesaplanan "
 "mesafeleri 1,0'dan büyük veya ona eşit olduğu için beyaz olarak görünecektir."
 
-#: src/filters/generic/distance-map.xml:211(title)
+#: src/filters/generic/distance-map.xml:184(title)
 msgid "<quote>Normalize</quote> example"
 msgstr "<quote>Normalleştir</quote> örneği"
 
-#: src/filters/generic/distance-map.xml:218(para)
+#: src/filters/generic/distance-map.xml:191(para)
 msgid "Normalize option checked."
 msgstr "Normalleştir seçeneği işaretli."
 
-#: src/filters/generic/distance-map.xml:229(para)
+#: src/filters/generic/distance-map.xml:202(para)
 msgid "Normalize option unchecked."
 msgstr "Normalleştir seçeneği işaretsiz."
 
@@ -2148,3 +2120,26 @@ msgid "translator-credits"
 msgstr ""
 "Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Sabri Ünal <yakushabb@gmail.com>"
+
+#~ msgid "Euclidean"
+#~ msgstr "Öklid"
+
+#~ msgid "The distance is a straight line (default)."
+#~ msgstr "Mesafe düz çizgidir."
+
+#~ msgid "Manhattan"
+#~ msgstr "Manhattan"
+
+#~ msgid ""
+#~ "The distance is the sum of the one-dimensional distances along the X and "
+#~ "Y axes."
+#~ msgstr "Mesafe, X ve Y eksenleri boyunca tek boyutlu uzaklığın toplamıdır."
+
+#~ msgid "Chebyshev"
+#~ msgstr "Chebyshev"
+
+#~ msgid ""
+#~ "The distance is the maximum of the one-dimensional distances along the X "
+#~ "and Y axes."
+#~ msgstr ""
+#~ "Mesafe, X ve Y eksenleri boyunca tek boyutlu uzaklıkların en çoğudur."

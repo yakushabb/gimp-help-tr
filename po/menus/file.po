@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
-"POT-Creation-Date: 2025-11-18 19:31+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: 2025-11-09 22:22+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
@@ -74,7 +74,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/save-as.xml:61(None)
+#: src/menus/file/save-as.xml:62(None)
 msgid ""
 "@@image: 'images/menus/file/save-as.png'; "
 "md5=147bcd9ccc96af74120d238c36a1014f"
@@ -92,8 +92,8 @@ msgstr "Farklı Kaydet…"
 #: src/menus/file/open-recent.xml:12(primary)
 #: src/menus/file/open-location.xml:15(primary)
 #: src/menus/file/open-as-layer.xml:15(primary)
-#: src/menus/file/new.xml:16(primary) src/menus/file/new.xml:72(primary)
-#: src/menus/file/new.xml:151(primary) src/menus/file/new.xml:452(primary)
+#: src/menus/file/new.xml:16(primary) src/menus/file/new.xml:75(primary)
+#: src/menus/file/new.xml:154(primary) src/menus/file/new.xml:455(primary)
 #: src/menus/file/export-as.xml:12(primary)
 #: src/menus/file/create.xml:14(primary) src/menus/file/close.xml:13(primary)
 msgid "Image"
@@ -130,24 +130,31 @@ msgid "Activating the Command"
 msgstr "Komutu Etkinleştirmek"
 
 #: src/menus/file/save-as.xml:34(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Export As…</guimenuitem></"
+#| "menuchoice>,"
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Save As…</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Dosya</guimenu><guimenuitem>Dışa "
+"Farklı Aktar…</guimenuitem></menuchoice> yoluyla erişebilirsiniz,"
 
 #: src/menus/file/save-as.xml:43(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
 "keycap><keycap>Ctrl</keycap><keycap>S</keycap></keycombo>."
 msgstr ""
 
-#: src/menus/file/save-as.xml:55(title) src/menus/file/save-as.xml:57(title)
+#: src/menus/file/save-as.xml:56(title) src/menus/file/save-as.xml:58(title)
 msgid "The <quote>Save Image</quote> dialog"
 msgstr "<quote>Görüntüyü Kaydet</quote> iletişim kutusu"
 
 #. 1
-#: src/menus/file/save-as.xml:67(para)
+#: src/menus/file/save-as.xml:68(para)
 msgid ""
 "The left panel is divided into two parts. The upper part lists your main "
 "directories and your storage devices; you cannot modify this list. The lower "
@@ -161,7 +168,7 @@ msgid ""
 msgstr ""
 
 #. 2
-#: src/menus/file/save-as.xml:81(para)
+#: src/menus/file/save-as.xml:82(para)
 msgid ""
 "The middle panel displays a list of the files in the current directory. "
 "Change your current directory by double left-clicking on a directory in this "
@@ -170,32 +177,32 @@ msgid ""
 "Note that a double left click saves the file directly."
 msgstr ""
 
-#: src/menus/file/save-as.xml:89(para)
+#: src/menus/file/save-as.xml:90(para)
 msgid ""
 "You can right click on the middle panel to access the <emphasis>Show Hidden "
 "Files</emphasis> command."
 msgstr ""
 
 #. 3
-#: src/menus/file/save-as.xml:95(para)
+#: src/menus/file/save-as.xml:96(para)
 msgid ""
 "The selected image is displayed in the <guilabel>Preview </guilabel> window. "
 "File size, resolution and image composition are displayed below the preview "
 "window."
 msgstr ""
 
-#: src/menus/file/save-as.xml:100(para)
+#: src/menus/file/save-as.xml:101(para)
 msgid ""
 "If your image has been modified by another program, click on the preview to "
 "update it."
 msgstr ""
 
 #. 4
-#: src/menus/file/save-as.xml:106(para)
+#: src/menus/file/save-as.xml:107(para)
 msgid "Enter the filename of the new image file here."
 msgstr ""
 
-#: src/menus/file/save-as.xml:108(para)
+#: src/menus/file/save-as.xml:109(para)
 msgid ""
 "If the image has already been saved, <acronym>GIMP</acronym> suggests the "
 "same filename to you. If you click on <emphasis>Save</emphasis>, the file is "
@@ -203,14 +210,14 @@ msgid ""
 msgstr ""
 
 #. 5
-#: src/menus/file/save-as.xml:117(para)
+#: src/menus/file/save-as.xml:118(para)
 msgid ""
 "Above the middle panel, the path of the current directory is displayed. You "
 "can navigate along this path by clicking on one of the buttons."
 msgstr ""
 
 #. 6
-#: src/menus/file/save-as.xml:124(para)
+#: src/menus/file/save-as.xml:125(para)
 msgid ""
 "If you want to save the image into a folder that doesn't yet exist, you can "
 "create it by clicking on <guilabel>Create Folder</guilabel> and following "
@@ -218,7 +225,7 @@ msgid ""
 msgstr ""
 
 #. 7
-#: src/menus/file/save-as.xml:131(para)
+#: src/menus/file/save-as.xml:132(para)
 msgid ""
 "At <guilabel>Select File Type</guilabel>, you can select a compressed format "
 "for your XCF file."
@@ -315,19 +322,27 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/quit.xml:32(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Close All</guimenuitem></"
+#| "menuchoice>."
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Quit</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Dosya</"
+"guimenu><guimenuitem>Tümünü Kapat</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/file/quit.xml:41(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>Q</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>Q</keycap></keycombo>."
 msgstr ""
 
-#: src/menus/file/quit.xml:47(para)
+#: src/menus/file/quit.xml:50(para)
 msgid ""
 "For most systems on which <acronym>GIMP</acronym> runs, you can also execute "
 "it by clicking the <quote>Close</quote> button on the main window titlebar "
@@ -335,7 +350,7 @@ msgid ""
 "no image is open."
 msgstr ""
 
-#: src/menus/file/quit.xml:53(para)
+#: src/menus/file/quit.xml:56(para)
 msgid ""
 "The location and appearance of this button vary from system to system. "
 "Activating this button will close <acronym>GIMP</acronym>. If there are open "
@@ -386,16 +401,24 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/print.xml:43(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Close All</guimenuitem></"
+#| "menuchoice>."
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Print</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Dosya</"
+"guimenu><guimenuitem>Tümünü Kapat</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/file/print.xml:52(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>P</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>P</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/file/open.xml:13(title)
@@ -571,10 +594,15 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/open-as-layer.xml:38(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Open as Layers…</"
+#| "guimenuitem></menuchoice>,"
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Open as Layers…</"
-"guimenuitem></menuchoice>,"
+"guimenuitem></menuchoice>."
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Dosya</"
 "guimenu><guimenuitem>Katman Olarak Aç…</guimenuitem></menuchoice> yoluyla "
@@ -582,13 +610,13 @@ msgstr ""
 
 #: src/menus/file/open-as-layer.xml:47(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</"
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
 "keycap><keycap>Alt</keycap><keycap>O</keycap></keycombo>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/new.xml:62(None)
+#: src/menus/file/new.xml:65(None)
 msgid ""
 "@@image: 'images/menus/file/new/advanced-dialog.png'; "
 "md5=feb164b2744f288b72b901f5283248a6"
@@ -598,7 +626,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file/new.xml:294(None)
+#: src/menus/file/new.xml:297(None)
 msgid ""
 "@@image: 'images/menus/file/new/precision.png'; "
 "md5=bc1cda74763f2a80b2969e9f4b35e3ff"
@@ -626,45 +654,53 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/new.xml:38(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Close All</guimenuitem></"
+#| "menuchoice>."
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>New…</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
+"Bu komuta ana menüden <menuchoice><guimenu>Dosya</"
+"guimenu><guimenuitem>Tümünü Kapat</guimenuitem></menuchoice> yoluyla "
+"erişebilirsiniz."
 
 #: src/menus/file/new.xml:47(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>N</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>N</keycap></keycombo>."
 msgstr ""
 
-#: src/menus/file/new.xml:56(title)
+#: src/menus/file/new.xml:59(title)
 msgid "Options"
 msgstr "Seçenekler"
 
-#: src/menus/file/new.xml:58(title)
+#: src/menus/file/new.xml:61(title)
 msgid "The <quote>Create a New Image</quote> dialog"
 msgstr "<quote>Yeni Görüntü Oluştur</quote> iletişim kutusu"
 
-#: src/menus/file/new.xml:68(primary) src/menus/file/new.xml:80(term)
+#: src/menus/file/new.xml:71(primary) src/menus/file/new.xml:83(term)
 #: src/menus/file/create-template.xml:15(primary)
 msgid "Template"
 msgstr "Şablon"
 
-#: src/menus/file/new.xml:69(secondary)
+#: src/menus/file/new.xml:72(secondary)
 #: src/menus/file/introduction.xml:7(primary)
 msgid "Menu"
 msgstr "Menü"
 
-#: src/menus/file/new.xml:73(secondary) src/menus/file/new.xml:77(primary)
+#: src/menus/file/new.xml:76(secondary) src/menus/file/new.xml:80(primary)
 msgid "Image size"
 msgstr "Görüntü boyutu"
 
-#: src/menus/file/new.xml:74(tertiary)
+#: src/menus/file/new.xml:77(tertiary)
 msgid "When creating"
 msgstr "Oluştururken"
 
-#: src/menus/file/new.xml:82(para)
+#: src/menus/file/new.xml:85(para)
 msgid ""
 "Rather than entering all the values by hand, you can select some predefined "
 "values for your image from a menu of templates, which represent image types "
@@ -674,11 +710,11 @@ msgid ""
 "using the <link linkend=\"gimp-template-dialog\">Templates</link> dialog."
 msgstr ""
 
-#: src/menus/file/new.xml:94(term)
+#: src/menus/file/new.xml:97(term)
 msgid "Image Size"
 msgstr "Görüntü Boyutu"
 
-#: src/menus/file/new.xml:96(para)
+#: src/menus/file/new.xml:99(para)
 msgid ""
 "Here you set the <guilabel>Width</guilabel> and <guilabel>Height</guilabel> "
 "of the new image. The default units are pixels, but you can choose a "
@@ -688,7 +724,7 @@ msgid ""
 "<quote>Dot for Dot</quote> in the <guimenu>View</guimenu> menu."
 msgstr ""
 
-#: src/menus/file/new.xml:107(para)
+#: src/menus/file/new.xml:110(para)
 msgid ""
 "If no image is open, the <quote>New</quote> image is opened in the empty "
 "image window, with the default size you have determined. If you open the "
@@ -696,15 +732,15 @@ msgid ""
 "opened in another window, with the same size as the first image."
 msgstr ""
 
-#: src/menus/file/new.xml:117(term)
+#: src/menus/file/new.xml:120(term)
 msgid "Portrait/Landscape buttons"
 msgstr "Dikey/Yatay düğmeleri"
 
-#: src/menus/file/new.xml:120(primary)
+#: src/menus/file/new.xml:123(primary)
 msgid "Portrait/Landscape mode"
 msgstr "Dikey/Yatay kipi"
 
-#: src/menus/file/new.xml:122(para)
+#: src/menus/file/new.xml:125(para)
 msgid ""
 "These buttons toggle between Portrait and Landscape mode. Their effect is to "
 "exchange the values for <guilabel>Width</guilabel> and <guilabel>Height</"
@@ -713,19 +749,19 @@ msgid ""
 "resolution and color space are displayed."
 msgstr ""
 
-#: src/menus/file/new.xml:135(title)
+#: src/menus/file/new.xml:138(title)
 msgid "Advanced Options"
 msgstr "Gelişmiş Seçenekler"
 
-#: src/menus/file/new.xml:137(primary) src/menus/file/new.xml:237(term)
+#: src/menus/file/new.xml:140(primary) src/menus/file/new.xml:240(term)
 msgid "Precision"
 msgstr "Hassasiyet"
 
-#: src/menus/file/new.xml:140(primary)
+#: src/menus/file/new.xml:143(primary)
 msgid "8-bit, 16-bit, 32-bit"
 msgstr "8-bit, 16-bit, 32-bit"
 
-#: src/menus/file/new.xml:142(para)
+#: src/menus/file/new.xml:145(para)
 msgid ""
 "The <guilabel>Advanced Options</guilabel> are mostly of interest to more "
 "advanced <acronym>GIMP</acronym> users. You can display these options by "
@@ -733,19 +769,19 @@ msgid ""
 "that you will need to scroll down to see all the available options."
 msgstr ""
 
-#: src/menus/file/new.xml:152(secondary) src/menus/file/new.xml:156(primary)
+#: src/menus/file/new.xml:155(secondary) src/menus/file/new.xml:159(primary)
 msgid "Resolution"
 msgstr "Çözünürlük"
 
-#: src/menus/file/new.xml:153(tertiary) src/menus/file/new.xml:157(secondary)
+#: src/menus/file/new.xml:156(tertiary) src/menus/file/new.xml:160(secondary)
 msgid "Setting when creating"
 msgstr ""
 
-#: src/menus/file/new.xml:160(term)
+#: src/menus/file/new.xml:163(term)
 msgid "X and Y resolution"
 msgstr "X ve Y çözünürlüğü"
 
-#: src/menus/file/new.xml:162(para)
+#: src/menus/file/new.xml:165(para)
 msgid ""
 "The values in the <guilabel>X resolution</guilabel> and <guilabel>Y "
 "resolution</guilabel> fields relate mainly to printing: they do not affect "
@@ -754,7 +790,7 @@ msgid ""
 "are translated into other measurement units, such as millimeters or inches."
 msgstr ""
 
-#: src/menus/file/new.xml:172(para)
+#: src/menus/file/new.xml:175(para)
 msgid ""
 "If you want to display the image on the screen at the correct dimensions, "
 "select <menuchoice><guimenu>View</guimenu><guimenuitem>Dot for Dot</"
@@ -766,32 +802,32 @@ msgid ""
 "display\">Preferences</link> dialog."
 msgstr ""
 
-#: src/menus/file/new.xml:192(term)
+#: src/menus/file/new.xml:195(term)
 msgid "Color space"
 msgstr "Renk uzayı"
 
-#: src/menus/file/new.xml:194(para)
+#: src/menus/file/new.xml:197(para)
 msgid ""
 "You can create the new image in different <link linkend=\"gimp-image-"
 "mode\">color modes</link>, as either an <link linkend=\"glossary-rgb\">RGB</"
 "link> image or a grayscale image."
 msgstr ""
 
-#: src/menus/file/new.xml:201(term)
+#: src/menus/file/new.xml:204(term)
 msgid "RGB color"
 msgstr "RGB renk"
 
-#: src/menus/file/new.xml:203(para)
+#: src/menus/file/new.xml:206(para)
 msgid ""
 "The image is created in the Red, Green, Blue color system, which is the one "
 "used by your monitor or your television screen."
 msgstr ""
 
-#: src/menus/file/new.xml:211(term)
+#: src/menus/file/new.xml:214(term)
 msgid "Grayscale"
 msgstr "Gri tonlama"
 
-#: src/menus/file/new.xml:213(para)
+#: src/menus/file/new.xml:216(para)
 msgid ""
 "The image is created in black and white, with various shades of gray. Aside "
 "from your artistic interests, this type of image may be necessary for some "
@@ -800,7 +836,7 @@ msgid ""
 "link>, if you would like."
 msgstr ""
 
-#: src/menus/file/new.xml:224(para)
+#: src/menus/file/new.xml:227(para)
 msgid ""
 "You cannot create an indexed image directly with this menu, but of course "
 "you can always convert the image to indexed mode after it has been created. "
@@ -808,38 +844,38 @@ msgid ""
 "guisubmenu><guimenuitem>Indexed</guimenuitem></menuchoice> command."
 msgstr ""
 
-#: src/menus/file/new.xml:240(para)
+#: src/menus/file/new.xml:243(para)
 msgid ""
 "This setting lets you define the encoding used to store pixel information. "
 "For more details, please see the <link linkend=\"gimp-image-choosing-"
 "precision-encoding\"> Image Encoding</link> section."
 msgstr ""
 
-#: src/menus/file/new.xml:250(para)
+#: src/menus/file/new.xml:253(para)
 msgid "8-bit integer"
 msgstr "8-bit tamsayı"
 
-#: src/menus/file/new.xml:255(para)
+#: src/menus/file/new.xml:258(para)
 msgid "16-bit integer"
 msgstr "16-bit tamsayı"
 
-#: src/menus/file/new.xml:260(para)
+#: src/menus/file/new.xml:263(para)
 msgid "32-bit integer"
 msgstr "32-bit tamsayı"
 
-#: src/menus/file/new.xml:265(para)
+#: src/menus/file/new.xml:268(para)
 msgid "16-bit floating point"
 msgstr "16-bit kayan noktalı sayı"
 
-#: src/menus/file/new.xml:270(para)
+#: src/menus/file/new.xml:273(para)
 msgid "32-bit floating point"
 msgstr "32-bit kayan noktalı sayı"
 
-#: src/menus/file/new.xml:246(para)
+#: src/menus/file/new.xml:249(para)
 msgid "Five options are available: <placeholder-1/>"
 msgstr ""
 
-#: src/menus/file/new.xml:276(para)
+#: src/menus/file/new.xml:279(para)
 msgid ""
 "If you wonder what the difference is between integer and floating point (in "
 "the graphics area): If you have an image with 16-bit integer precision per "
@@ -853,21 +889,21 @@ msgid ""
 "detail out of only the darker reds."
 msgstr ""
 
-#: src/menus/file/new.xml:290(title)
+#: src/menus/file/new.xml:293(title)
 msgid "Precision example"
 msgstr "Hassasiyet örneği"
 
-#: src/menus/file/new.xml:297(para)
+#: src/menus/file/new.xml:300(para)
 msgid ""
 "Left image is 8-bit, right is 32-bit. You can see that there are much more "
 "available colors between color transitions on the right image."
 msgstr ""
 
-#: src/menus/file/new.xml:309(term)
+#: src/menus/file/new.xml:312(term)
 msgid "Gamma"
 msgstr "Gama"
 
-#: src/menus/file/new.xml:311(para)
+#: src/menus/file/new.xml:314(para)
 msgid ""
 "Here you can choose the <link linkend=\"glossary-channel-encoding\">channel "
 "encoding</link> for your image. Choices are <guilabel>Non-linear</guilabel> "
@@ -877,11 +913,11 @@ msgid ""
 "precision-encoding\">which precision options should you choose</link>."
 msgstr ""
 
-#: src/menus/file/new.xml:326(term)
+#: src/menus/file/new.xml:329(term)
 msgid "Color profile"
 msgstr "Renk profili"
 
-#: src/menus/file/new.xml:328(para)
+#: src/menus/file/new.xml:331(para)
 msgid ""
 "Here you can choose a color profile to be used for your image. The default "
 "is GIMP's standard color profile based on <guilabel>Color space</guilabel>, "
@@ -891,11 +927,11 @@ msgid ""
 "profile from disk…</guilabel>."
 msgstr ""
 
-#: src/menus/file/new.xml:341(term)
+#: src/menus/file/new.xml:344(term)
 msgid "Soft-proofing color profile"
 msgstr "Ekran provası renk profili"
 
-#: src/menus/file/new.xml:343(para)
+#: src/menus/file/new.xml:346(para)
 msgid ""
 "You can attach a CMYK color profile to the image with this option. This "
 "profile will be used to create a soft-proofed display of the image when the "
@@ -906,11 +942,11 @@ msgid ""
 "profile from disk…</guilabel>."
 msgstr ""
 
-#: src/menus/file/new.xml:357(term)
+#: src/menus/file/new.xml:360(term)
 msgid "Soft-proofing rendering intent"
 msgstr "Ekran provası görselleştirme amacı"
 
-#: src/menus/file/new.xml:359(para)
+#: src/menus/file/new.xml:362(para)
 msgid ""
 "This option lets you select the rendering intent that will be used to "
 "convert the colors from the soft-proofed image to your display device when "
@@ -922,11 +958,11 @@ msgid ""
 "and <xref linkend=\"gimp-image-color-management\"/> for more information."
 msgstr ""
 
-#: src/menus/file/new.xml:378(term)
+#: src/menus/file/new.xml:381(term)
 msgid "Use Black Point Compensation"
 msgstr "Siyah Nokta Dengelemesi Kullan"
 
-#: src/menus/file/new.xml:380(para)
+#: src/menus/file/new.xml:383(para)
 msgid ""
 "When enabled, the BPC algorithm attempts to adjust the display of darker "
 "areas in the image when the <guilabel>Proof Colors</guilabel> option is "
@@ -934,11 +970,11 @@ msgid ""
 msgstr ""
 
 # Arayüz çevirisine uyuldu.
-#: src/menus/file/new.xml:389(term)
+#: src/menus/file/new.xml:392(term)
 msgid "Fill with"
 msgstr "Doldur"
 
-#: src/menus/file/new.xml:391(para)
+#: src/menus/file/new.xml:394(para)
 msgid ""
 "Here, you specify the background color that is used for your new image. It "
 "is certainly possible to change the background of an image later, too. You "
@@ -946,41 +982,41 @@ msgid ""
 "dialog\">Layers Dialog</link>."
 msgstr ""
 
-#: src/menus/file/new.xml:398(para)
+#: src/menus/file/new.xml:401(para)
 msgid "There are several choices:"
 msgstr ""
 
-#: src/menus/file/new.xml:400(para)
+#: src/menus/file/new.xml:403(para)
 msgid ""
 "Fill the image with the current <guilabel>Foreground color</guilabel>, shown "
 "in the Toolbox."
 msgstr ""
 
-#: src/menus/file/new.xml:404(para)
+#: src/menus/file/new.xml:407(para)
 msgid ""
 "Note that you can change the foreground color while the <quote>New Image</"
 "quote> dialog window is open."
 msgstr ""
 
-#: src/menus/file/new.xml:410(para)
+#: src/menus/file/new.xml:413(para)
 msgid ""
 "Fill the image with the current <guilabel>Background color</guilabel>, shown "
 "in the Toolbox. (You can change the background color too, while the dialog "
 "window is open.)"
 msgstr ""
 
-#: src/menus/file/new.xml:417(para)
+#: src/menus/file/new.xml:420(para)
 msgid ""
 "Fill the image with <guilabel>Middle Gray (CIELAB)</guilabel>. This will "
 "create a layer with a gray color that is 50% of perceptual lightness in the "
 "selected <link linkend=\"gimp-image-mode\">color mode</link>."
 msgstr ""
 
-#: src/menus/file/new.xml:424(para)
+#: src/menus/file/new.xml:427(para)
 msgid "Fill the image with <guilabel>White</guilabel>."
 msgstr ""
 
-#: src/menus/file/new.xml:429(para)
+#: src/menus/file/new.xml:432(para)
 msgid ""
 "Fill the image with <guilabel>Transparency</guilabel>. If you choose this "
 "option, the image is created with an <link linkend=\"glossary-alpha-"
@@ -989,26 +1025,26 @@ msgid ""
 "to indicate the transparency."
 msgstr ""
 
-#: src/menus/file/new.xml:439(para)
+#: src/menus/file/new.xml:442(para)
 msgid ""
 "Fill the image with a <guilabel>Pattern</guilabel>. If you choose this "
 "option, the image is filled with the currently active pattern (which you can "
 "change while this dialog is open)."
 msgstr ""
 
-#: src/menus/file/new.xml:449(term) src/menus/file/new.xml:453(secondary)
-#: src/menus/file/new.xml:456(primary)
+#: src/menus/file/new.xml:452(term) src/menus/file/new.xml:456(secondary)
+#: src/menus/file/new.xml:459(primary)
 msgid "Comment"
 msgstr "Yorum"
 
-#: src/menus/file/new.xml:458(para)
+#: src/menus/file/new.xml:461(para)
 msgid ""
 "You can write a descriptive comment here. The text is attached to the image "
 "as a <link linkend=\"glossary-parasite\">parasite</link>, and is saved with "
 "the image by some file formats (PNG, JPEG, GIF)."
 msgstr ""
 
-#: src/menus/file/new.xml:465(para)
+#: src/menus/file/new.xml:468(para)
 msgid ""
 "You can view and edit this comment in the <link linkend=\"gimp-image-"
 "properties\">Image Properties</link> dialog."
@@ -1093,17 +1129,22 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/export-as.xml:41(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Export As…</guimenuitem></"
+#| "menuchoice>,"
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Export As…</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Dosya</guimenu><guimenuitem>Dışa "
 "Farklı Aktar…</guimenuitem></menuchoice> yoluyla erişebilirsiniz,"
 
 #: src/menus/file/export-as.xml:50(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
 "keycap><keycap>Ctrl</keycap><keycap>E</keycap></keycombo>."
 msgstr ""
 
@@ -1436,10 +1477,15 @@ msgid ""
 msgstr ""
 
 #: src/menus/file/close.xml:42(para)
+#, fuzzy
+#| msgid ""
+#| "You can access this command from the main menu through "
+#| "<menuchoice><guimenu>File</guimenu><guimenuitem>Close View</guimenuitem></"
+#| "menuchoice>,"
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Close View</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 "Bu komuta ana menüden <menuchoice><guimenu>Dosya</"
 "guimenu><guimenuitem>Görünümü Kapat</guimenuitem></menuchoice> yoluyla "
@@ -1447,18 +1493,18 @@ msgstr ""
 
 #: src/menus/file/close.xml:51(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>W</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>W</keycap></keycombo>."
 msgstr ""
 
-#: src/menus/file/close.xml:57(para)
+#: src/menus/file/close.xml:60(para)
 msgid ""
 "In single-window mode, you can also execute it by clicking the <quote>Close</"
 "quote> button on the image bar. In multi-window mode, you click the "
 "<quote>Close</quote> button on the image window."
 msgstr ""
 
-#: src/menus/file/close.xml:63(para)
+#: src/menus/file/close.xml:66(para)
 msgid ""
 "If the image has unsaved changes you will be asked whether you want to close "
 "it, possibly losing changes, or go back to working in <acronym>GIMP</"
@@ -1485,9 +1531,8 @@ msgstr ""
 
 #: src/menus/file/close-all.xml:26(para)
 msgid ""
-"You can also access it by using the keyboard shortcut "
-"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>W</keycap></"
-"keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>W</keycap></keycombo>."
 msgstr ""
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
