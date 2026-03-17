@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,6 +39,7 @@ msgstr ""
 #: src/menus/help/procedure-browser.xml:27(title)
 #: src/menus/help/plug-in-browser.xml:32(title)
 #: src/menus/help/help.xml:35(title) src/menus/help/context-help.xml:29(title)
+#: src/menus/help/about.xml:34(title)
 msgid "Activating the Command"
 msgstr ""
 
@@ -535,12 +536,12 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Help</guimenu><guimenuitem>Context Help</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/help/context-help.xml:41(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
 "keycap><keycap>F1</keycap></keycombo>."
 msgstr ""
 
@@ -569,10 +570,6 @@ msgid ""
 "GIMP. If you have enabled automatic update checking, then this box may show "
 "you that a new version of GIMP is available. In that case the button will "
 "allow you to go to the newest download for GIMP."
-msgstr ""
-
-#: src/menus/help/about.xml:34(title)
-msgid "Activating the <quote>About</quote> Command"
 msgstr ""
 
 #: src/menus/help/about.xml:35(para)

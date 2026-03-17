@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -79,14 +79,16 @@ msgid ""
 msgstr ""
 
 #: src/menus/colors/desaturate/sepia.xml:47(title)
-msgid "Activating the Filter"
+#: src/menus/colors/desaturate/desaturate.xml:37(title)
+#: src/menus/colors/desaturate/color-to-gray.xml:30(title)
+msgid "Activating the Command"
 msgstr ""
 
 #: src/menus/colors/desaturate/sepia.xml:48(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Desaturate</guisubmenu><guimenuitem>Sepia…</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
+"guisubmenu><guimenuitem>Sepia…</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/desaturate/sepia.xml:59(title)
@@ -281,11 +283,6 @@ msgid ""
 "This command only works on layers of <link linkend=\"glossary-rgb\">RGB</"
 "link> images. If the image is in Grayscale or Indexed mode, it can do "
 "nothing."
-msgstr ""
-
-#: src/menus/colors/desaturate/desaturate.xml:37(title)
-#: src/menus/colors/desaturate/color-to-gray.xml:30(title)
-msgid "Activating the Command"
 msgstr ""
 
 #: src/menus/colors/desaturate/desaturate.xml:38(para)
@@ -596,7 +593,7 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Desaturate</"
-"guisubmenu><guimenuitem>Color to Gray</guimenuitem></menuchoice>."
+"guisubmenu><guimenuitem>Color to Gray…</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/desaturate/color-to-gray.xml:44(title)

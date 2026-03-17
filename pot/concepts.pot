@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/concepts/undo.xml:8(title) src/concepts/concepts.xml:235(term)
+#: src/concepts/undo.xml:8(title) src/concepts/concepts.xml:218(term)
 msgid "Undoing"
 msgstr ""
 
@@ -1055,7 +1055,7 @@ msgstr ""
 msgid "The Selection"
 msgstr ""
 
-#: src/concepts/selection.xml:21(primary) src/concepts/concepts.xml:201(term)
+#: src/concepts/selection.xml:21(primary) src/concepts/concepts.xml:184(term)
 msgid "Selections"
 msgstr ""
 
@@ -1579,7 +1579,7 @@ msgid "Plug-Ins"
 msgstr ""
 
 #: src/concepts/plugins.xml:17(primary) src/concepts/plugins.xml:137(primary)
-#: src/concepts/plugins.xml:252(primary) src/concepts/concepts.xml:262(term)
+#: src/concepts/plugins.xml:252(primary) src/concepts/concepts.xml:245(term)
 msgid "Plug-ins"
 msgstr ""
 
@@ -2390,7 +2390,7 @@ msgid "Introduction to Layers"
 msgstr ""
 
 #: src/concepts/layers.xml:12(primary) src/concepts/layers.xml:452(primary)
-#: src/concepts/layers.xml:477(primary) src/concepts/concepts.xml:80(term)
+#: src/concepts/layers.xml:477(primary) src/concepts/concepts.xml:63(term)
 msgid "Layers"
 msgstr ""
 
@@ -6385,136 +6385,138 @@ msgid "--help-all"
 msgstr ""
 
 #: src/concepts/intro.xml:176(para)
-msgid "Show all help options."
+msgid ""
+"Show all help options, including those for <acronym>GEGL</acronym> and "
+"<acronym>GTK</acronym>."
 msgstr ""
 
-#: src/concepts/intro.xml:180(term)
+#: src/concepts/intro.xml:182(term)
 msgid "--help-gegl"
 msgstr ""
 
-#: src/concepts/intro.xml:182(para)
-msgid "Show all GEGL options."
+#: src/concepts/intro.xml:184(para)
+msgid "Show all <acronym>GEGL</acronym> options."
 msgstr ""
 
-#: src/concepts/intro.xml:186(term)
+#: src/concepts/intro.xml:188(term)
 msgid "--help-gtk"
 msgstr ""
 
-#: src/concepts/intro.xml:188(para)
-msgid "Show GTK+ Options."
+#: src/concepts/intro.xml:190(para)
+msgid "Show <acronym>GTK</acronym> options."
 msgstr ""
 
-#: src/concepts/intro.xml:192(term)
+#: src/concepts/intro.xml:194(term)
 msgid "-v, --version"
 msgstr ""
 
-#: src/concepts/intro.xml:194(para)
+#: src/concepts/intro.xml:196(para)
 msgid "Print the <acronym>GIMP</acronym> version and exit."
 msgstr ""
 
-#: src/concepts/intro.xml:200(term)
+#: src/concepts/intro.xml:202(term)
 msgid "--license"
 msgstr ""
 
-#: src/concepts/intro.xml:202(para)
+#: src/concepts/intro.xml:204(para)
 msgid "Show license information and exit."
 msgstr ""
 
-#: src/concepts/intro.xml:206(term)
+#: src/concepts/intro.xml:208(term)
 msgid "--verbose"
 msgstr ""
 
-#: src/concepts/intro.xml:208(para)
+#: src/concepts/intro.xml:210(para)
 msgid "Show detailed start-up messages."
 msgstr ""
 
-#: src/concepts/intro.xml:212(term)
+#: src/concepts/intro.xml:214(term)
 msgid "-n, --new-instance"
 msgstr ""
 
-#: src/concepts/intro.xml:214(para)
+#: src/concepts/intro.xml:216(para)
 msgid "Start a new <acronym>GIMP</acronym> instance."
 msgstr ""
 
-#: src/concepts/intro.xml:218(term)
+#: src/concepts/intro.xml:220(term)
 msgid "-a, --as-new"
 msgstr ""
 
-#: src/concepts/intro.xml:220(para)
+#: src/concepts/intro.xml:222(para)
 msgid "Open images as new."
 msgstr ""
 
-#: src/concepts/intro.xml:224(term)
+#: src/concepts/intro.xml:226(term)
 msgid "-i, --no-interface"
 msgstr ""
 
-#: src/concepts/intro.xml:226(para)
+#: src/concepts/intro.xml:228(para)
 msgid "Run without a user interface."
 msgstr ""
 
-#: src/concepts/intro.xml:230(term)
+#: src/concepts/intro.xml:232(term)
 msgid "-d, --no-data"
 msgstr ""
 
-#: src/concepts/intro.xml:232(para)
+#: src/concepts/intro.xml:234(para)
 msgid ""
-"Do not load patterns, gradients, palettes, or brushes. Often useful in non-"
-"interactive situations where start-up time is to be minimized."
+"Do not load patterns, gradients, palettes, or brushes. Often used when "
+"running in non-interactive mode to minimize startup time."
 msgstr ""
 
-#: src/concepts/intro.xml:240(term)
+#: src/concepts/intro.xml:241(term)
 msgid "-f, --no-fonts"
 msgstr ""
 
-#: src/concepts/intro.xml:242(para)
+#: src/concepts/intro.xml:243(para)
 msgid ""
 "Do not load any fonts. This is useful to load <acronym>GIMP</acronym> faster "
 "for scripts that do not use fonts, or to find problems related to malformed "
 "fonts that hang <acronym>GIMP</acronym>."
 msgstr ""
 
-#: src/concepts/intro.xml:250(term)
+#: src/concepts/intro.xml:251(term)
 msgid "-s, --no-splash"
 msgstr ""
 
-#: src/concepts/intro.xml:252(para)
+#: src/concepts/intro.xml:253(para)
 msgid "Do not show the splash screen while starting."
 msgstr ""
 
-#: src/concepts/intro.xml:256(term)
+#: src/concepts/intro.xml:257(term)
 msgid "--no-shm"
 msgstr ""
 
-#: src/concepts/intro.xml:258(para)
+#: src/concepts/intro.xml:259(para)
 msgid "Do not use shared memory between <acronym>GIMP</acronym> and plug-ins."
 msgstr ""
 
-#: src/concepts/intro.xml:263(term)
+#: src/concepts/intro.xml:264(term)
 msgid "--no-cpu-accel"
 msgstr ""
 
-#: src/concepts/intro.xml:265(para)
+#: src/concepts/intro.xml:266(para)
 msgid ""
 "Do not use special CPU acceleration functions. Useful for finding or "
 "disabling buggy accelerated hardware or functions."
 msgstr ""
 
-#: src/concepts/intro.xml:271(term)
+#: src/concepts/intro.xml:272(term)
 msgid "--session=<replaceable>name</replaceable>"
 msgstr ""
 
-#: src/concepts/intro.xml:273(para)
+#: src/concepts/intro.xml:274(para)
 msgid ""
 "Use a different <filename>sessionrc</filename> file for this <acronym>GIMP</"
 "acronym> session. The given session name is appended to the default "
 "<filename>sessionrc</filename> filename."
 msgstr ""
 
-#: src/concepts/intro.xml:282(term)
+#: src/concepts/intro.xml:283(term)
 msgid "-g, --gimprc=<replaceable>filename</replaceable>"
 msgstr ""
 
-#: src/concepts/intro.xml:284(para)
+#: src/concepts/intro.xml:285(para)
 msgid ""
 "Use an alternative <filename>gimprc</filename> file instead of the default "
 "one. The <filename>gimprc</filename> file contains a record of your "
@@ -6522,19 +6524,19 @@ msgid ""
 "different."
 msgstr ""
 
-#: src/concepts/intro.xml:293(term)
+#: src/concepts/intro.xml:294(term)
 msgid "--system-gimprc=<replaceable>filename</replaceable>"
 msgstr ""
 
-#: src/concepts/intro.xml:295(para)
+#: src/concepts/intro.xml:296(para)
 msgid "Use an alternate system <filename>gimprc</filename> file."
 msgstr ""
 
-#: src/concepts/intro.xml:299(term)
+#: src/concepts/intro.xml:300(term)
 msgid "-b, --batch=<replaceable>commands</replaceable>"
 msgstr ""
 
-#: src/concepts/intro.xml:303(para)
+#: src/concepts/intro.xml:304(para)
 msgid ""
 "Execute the set of commands non-interactively. The set of commands is "
 "typically in the form of a script that can be executed by one of the "
@@ -6542,105 +6544,115 @@ msgid ""
 "<userinput>-</userinput>, commands are read from standard input."
 msgstr ""
 
-#: src/concepts/intro.xml:313(term)
+#: src/concepts/intro.xml:314(term)
 msgid "--batch-interpreter=<replaceable>proc</replaceable>"
 msgstr ""
 
-#: src/concepts/intro.xml:315(para)
+#: src/concepts/intro.xml:316(para)
 msgid ""
 "Specify the procedure to use to process batch commands. The default "
 "procedure is Script-Fu."
 msgstr ""
 
-#: src/concepts/intro.xml:320(term)
+#: src/concepts/intro.xml:321(term)
 msgid "--quit"
 msgstr ""
 
-#: src/concepts/intro.xml:322(para)
+#: src/concepts/intro.xml:323(para)
 msgid "Quit immediately after performing requested actions"
 msgstr ""
 
-#: src/concepts/intro.xml:326(term)
+#: src/concepts/intro.xml:327(term)
 msgid "-c, --console-messages"
 msgstr ""
 
-#: src/concepts/intro.xml:328(para)
+#: src/concepts/intro.xml:329(para)
 msgid ""
 "Do not display dialog boxes on errors or warnings. Print the messages on the "
 "console instead."
 msgstr ""
 
-#: src/concepts/intro.xml:335(term)
+#: src/concepts/intro.xml:336(term)
 msgid "--pdb-compat-mode=<replaceable>mode</replaceable>"
 msgstr ""
 
-#: src/concepts/intro.xml:337(para)
+#: src/concepts/intro.xml:338(para)
 msgid "PDB compatibility mode (off|on|warn)."
 msgstr ""
 
-#: src/concepts/intro.xml:341(term)
+#: src/concepts/intro.xml:342(term)
 msgid "--stack-trace-mode=<replaceable>mode</replaceable>"
 msgstr ""
 
-#: src/concepts/intro.xml:343(para)
+#: src/concepts/intro.xml:344(para)
 msgid "Debug in case of a crash (never|query|always)."
 msgstr ""
 
-#: src/concepts/intro.xml:347(term)
+#: src/concepts/intro.xml:348(term)
 msgid "--debug-handlers"
 msgstr ""
 
-#: src/concepts/intro.xml:349(para)
+#: src/concepts/intro.xml:350(para)
 msgid ""
 "Enable non-fatal debugging signal handlers. Useful for <acronym>GIMP</"
 "acronym> debugging."
 msgstr ""
 
-#: src/concepts/intro.xml:354(term)
+#: src/concepts/intro.xml:355(term)
 msgid "--g-fatal-warnings"
 msgstr ""
 
-#: src/concepts/intro.xml:356(para)
+#: src/concepts/intro.xml:357(para)
 msgid "Make all warnings fatal. Useful for debugging."
 msgstr ""
 
-#: src/concepts/intro.xml:360(term)
+#: src/concepts/intro.xml:361(term)
 msgid "--dump-gimprc"
 msgstr ""
 
-#: src/concepts/intro.xml:362(para)
+#: src/concepts/intro.xml:363(para)
 msgid ""
 "Output a gimprc file with default settings. Useful if you messed up the "
 "gimprc file."
 msgstr ""
 
-#: src/concepts/intro.xml:367(term)
+#: src/concepts/intro.xml:368(term)
 msgid "--show-playground"
 msgstr ""
 
-#: src/concepts/intro.xml:369(para)
+#: src/concepts/intro.xml:370(para)
 msgid ""
 "Show a <link linkend=\"gimp-prefs-playground\">preferences page</link> with "
 "experimental features."
 msgstr ""
 
-#: src/concepts/intro.xml:376(term)
+#: src/concepts/intro.xml:377(term)
+msgid "--show-debug-menu"
+msgstr ""
+
+#: src/concepts/intro.xml:379(para)
+msgid ""
+"Show a Debug submenu under File with commands useful for debugging "
+"<acronym>GIMP</acronym>."
+msgstr ""
+
+#: src/concepts/intro.xml:386(term)
 msgid "--display=<replaceable>display</replaceable>"
 msgstr ""
 
-#: src/concepts/intro.xml:378(para)
+#: src/concepts/intro.xml:388(para)
 msgid "Use the designated X display (does not apply to all platforms)."
 msgstr ""
 
-#: src/concepts/intro.xml:387(title)
+#: src/concepts/intro.xml:397(title)
 msgid "Configuration Folder"
 msgstr ""
 
-#: src/concepts/intro.xml:390(primary)
+#: src/concepts/intro.xml:400(primary)
 msgid "Setup"
 msgstr ""
 
-#: src/concepts/intro.xml:393(para)
+#: src/concepts/intro.xml:403(para)
 msgid ""
 "When first run, <acronym>GIMP</acronym> creates a configuration folder. All "
 "of the configuration information is stored in this folder. If you remove or "
@@ -6648,55 +6660,55 @@ msgid ""
 "process and creates a new configuration folder."
 msgstr ""
 
-#: src/concepts/intro.xml:400(para)
+#: src/concepts/intro.xml:410(para)
 msgid ""
 "The exact location of your configuration folder depends on your Operating "
 "System:"
 msgstr ""
 
-#: src/concepts/intro.xml:406(term)
+#: src/concepts/intro.xml:416(term)
 msgid "Under Linux:"
 msgstr ""
 
-#: src/concepts/intro.xml:409(code)
+#: src/concepts/intro.xml:419(code)
 msgid "$XDG_CONFIG_HOME"
 msgstr ""
 
-#: src/concepts/intro.xml:411(para)
+#: src/concepts/intro.xml:421(para)
 msgid "Usually: <code>$HOME/.config/GIMP//</code>"
 msgstr ""
 
-#: src/concepts/intro.xml:417(term)
+#: src/concepts/intro.xml:427(term)
 msgid ""
 "Under Microsoft Windows using <ulink url=\"https://en.wikipedia.org/wiki/"
 "Environment_variable#DOS,_OS/2_and_Windows\"> environment variables</ulink>:"
 msgstr ""
 
-#: src/concepts/intro.xml:424(code)
+#: src/concepts/intro.xml:434(code)
 msgid "%APPDATA%\\GIMP\\\\"
 msgstr ""
 
-#: src/concepts/intro.xml:426(para)
+#: src/concepts/intro.xml:436(para)
 msgid "Usually: <code>%USERPROFILE%\\AppData\\Roaming\\GIMP\\\\</code>"
 msgstr ""
 
-#: src/concepts/intro.xml:432(term)
+#: src/concepts/intro.xml:442(term)
 msgid "Under Apple macOS:"
 msgstr ""
 
-#: src/concepts/intro.xml:435(code)
+#: src/concepts/intro.xml:445(code)
 msgid "NSApplicationSupportDirectory"
 msgstr ""
 
-#: src/concepts/intro.xml:437(para)
+#: src/concepts/intro.xml:447(para)
 msgid "Usually: <code>~/Library/Application Support/GIMP//</code>"
 msgstr ""
 
-#: src/concepts/intro.xml:446(title)
+#: src/concepts/intro.xml:456(title)
 msgid "Tips and Tricks"
 msgstr ""
 
-#: src/concepts/intro.xml:451(para)
+#: src/concepts/intro.xml:461(para)
 msgid ""
 "<acronym>GIMP</acronym> can provide tips you can read at any time using the "
 "menu command <menuchoice><guimenu>Help</guimenu><guimenuitem>Tip of the Day</"
@@ -6705,14 +6717,14 @@ msgid ""
 "Please consider reading the tips when you have the time."
 msgstr ""
 
-#: src/concepts/intro.xml:464(para)
+#: src/concepts/intro.xml:474(para)
 msgid ""
 "If at some point you are trying to do something, and <acronym>GIMP</acronym> "
 "seems to have suddenly stopped functioning, the <link linkend=\"gimp-using-"
 "getting-unstuck\">Getting Unstuck</link> section may be able to help you out."
 msgstr ""
 
-#: src/concepts/intro.xml:472(para)
+#: src/concepts/intro.xml:482(para)
 msgid ""
 "Don't forget to check out the <link linkend=\"gimp-prefs-"
 "dialog\">Preferences Dialog</link>. <acronym>GIMP</acronym> is very "
@@ -6720,7 +6732,7 @@ msgid ""
 "personal preferences."
 msgstr ""
 
-#: src/concepts/intro.xml:447(para)
+#: src/concepts/intro.xml:457(para)
 msgid "Just a couple of suggestions before you start: <placeholder-1/>"
 msgstr ""
 
@@ -7358,7 +7370,7 @@ msgstr ""
 msgid "Image Types"
 msgstr ""
 
-#: src/concepts/image-types.xml:10(primary) src/concepts/concepts.xml:47(term)
+#: src/concepts/image-types.xml:10(primary) src/concepts/concepts.xml:30(term)
 msgid "Images"
 msgstr ""
 
@@ -8553,31 +8565,11 @@ msgid ""
 "functionality to choose a different display."
 msgstr ""
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/concepts.xml:23(None)
-msgid ""
-"@@image: 'images/using/wilber.png'; md5=4b08b4728cebdd66519caa628050b532"
-msgstr ""
-
 #: src/concepts/concepts.xml:13(title)
 msgid "Basic Concepts"
 msgstr ""
 
-#: src/concepts/concepts.xml:20(title)
-msgid "Wilber, the GIMP mascot"
-msgstr ""
-
-#: src/concepts/concepts.xml:26(para)
-msgid ""
-"The Wilber Construction Kit (<ulink url=\"https://gitlab.gnome.org/GNOME/"
-"gimp-help/-/blob/master/src/images/Wilber_Construction_Kit_original.xcf?"
-"ref_type=heads\"> src/images/Wilber_Construction_Kit_original.xcf</ulink>) "
-"allows you to give <acronym>GIMP</acronym>'s mascot named Wilber a different "
-"appearance. It is the work of Tuomas Kuosmanen (tigert)."
-msgstr ""
-
-#: src/concepts/concepts.xml:36(para)
+#: src/concepts/concepts.xml:19(para)
 msgid ""
 "This section provides a brief introduction to the basic concepts and "
 "terminology used in <acronym>GIMP</acronym>. The concepts presented here are "
@@ -8587,7 +8579,7 @@ msgid ""
 "the index."
 msgstr ""
 
-#: src/concepts/concepts.xml:49(para)
+#: src/concepts/concepts.xml:32(para)
 msgid ""
 "Images are the basic entities used by <acronym>GIMP</acronym>. Roughly "
 "speaking, an <quote>image</quote> corresponds to a single file, such as a "
@@ -8598,7 +8590,7 @@ msgid ""
 "window displaying it."
 msgstr ""
 
-#: src/concepts/concepts.xml:58(para)
+#: src/concepts/concepts.xml:41(para)
 msgid ""
 "A <acronym>GIMP</acronym> image may be quite a complicated thing. Instead of "
 "thinking of it as a sheet of paper with a picture on it, think of it as more "
@@ -8609,7 +8601,7 @@ msgid ""
 "<quote>parasites</quote>, to an image."
 msgstr ""
 
-#: src/concepts/concepts.xml:68(para)
+#: src/concepts/concepts.xml:51(para)
 msgid ""
 "In <acronym>GIMP</acronym>, it is possible to have many images open at the "
 "same time. Although large images may use many megabytes of memory, "
@@ -8619,7 +8611,7 @@ msgid ""
 "improve system performance."
 msgstr ""
 
-#: src/concepts/concepts.xml:82(para)
+#: src/concepts/concepts.xml:65(para)
 msgid ""
 "If a simple image can be compared to a single sheet of paper, an image with "
 "layers is likened to a sheaf of transparent papers stacked one on top of the "
@@ -8633,11 +8625,11 @@ msgid ""
 "linkend=\"gimp-concepts-layers\">Introduction to Layers</link>."
 msgstr ""
 
-#: src/concepts/concepts.xml:100(phrase) src/concepts/concepts.xml:102(primary)
+#: src/concepts/concepts.xml:83(phrase) src/concepts/concepts.xml:85(primary)
 msgid "Resolution"
 msgstr ""
 
-#: src/concepts/concepts.xml:106(para)
+#: src/concepts/concepts.xml:89(para)
 msgid ""
 "Digital images consist of a grid of square pixels. Each image has a size "
 "measured in two dimensions, such as 900 pixels wide by 600 pixels high. But "
@@ -8648,7 +8640,7 @@ msgid ""
 "is expressed as ppipixels per inch."
 msgstr ""
 
-#: src/concepts/concepts.xml:116(para)
+#: src/concepts/concepts.xml:99(para)
 msgid ""
 "When printing a file, the resolution determines the size the image will have "
 "on paper, and as a result, the physical size of the pixels. The same 900×600 "
@@ -8656,7 +8648,7 @@ msgid ""
 "pixelsor as a large poster with large, chunky pixels."
 msgstr ""
 
-#: src/concepts/concepts.xml:124(para)
+#: src/concepts/concepts.xml:107(para)
 msgid ""
 "Images imported from cameras and mobile devices tend to have a resolution "
 "attached to the file. The resolution is usually 72 or 96 ppi. It is "
@@ -8669,18 +8661,18 @@ msgid ""
 "pixel conforms to one screen pixel."
 msgstr ""
 
-#: src/concepts/concepts.xml:139(varlistentry:xreflabel)
-#: src/concepts/concepts.xml:141(phrase)
+#: src/concepts/concepts.xml:122(varlistentry:xreflabel)
+#: src/concepts/concepts.xml:124(phrase)
 msgid "Channels"
 msgstr ""
 
-#: src/concepts/concepts.xml:143(primary)
+#: src/concepts/concepts.xml:126(primary)
 msgid "Channel"
 msgstr ""
 
 #. TRANSLATORS: this is the modified text from glossary.xml, so
 #.         you should check po/LANG/glossary.po for an old translation
-#: src/concepts/concepts.xml:149(para)
+#: src/concepts/concepts.xml:132(para)
 msgid ""
 "A Channel is a single component of a pixel's color. For a colored pixel in "
 "<acronym>GIMP</acronym>, these components are usually Red, Green, Blue and "
@@ -8690,7 +8682,7 @@ msgid ""
 "Indexed and Alpha."
 msgstr ""
 
-#: src/concepts/concepts.xml:158(para)
+#: src/concepts/concepts.xml:141(para)
 msgid ""
 "The entire rectangular array of any one of the color components for all of "
 "the pixels in an image is also referred to as a Channel. You can see these "
@@ -8698,7 +8690,7 @@ msgid ""
 "Dialog</link>."
 msgstr ""
 
-#: src/concepts/concepts.xml:164(para)
+#: src/concepts/concepts.xml:147(para)
 msgid ""
 "When the image is displayed, <acronym>GIMP</acronym> puts these components "
 "together to form the pixel colors for the screen, printer, or other output "
@@ -8707,14 +8699,14 @@ msgid ""
 "appropriate ones for the device when the image is displayed."
 msgstr ""
 
-#: src/concepts/concepts.xml:172(para)
+#: src/concepts/concepts.xml:155(para)
 msgid ""
 "Channels can be useful when you are working on an image which needs "
 "adjustment in one particular color. For example, if you want to remove "
 "<quote>red eye</quote> from a photograph, you might work on the Red channel."
 msgstr ""
 
-#: src/concepts/concepts.xml:178(para)
+#: src/concepts/concepts.xml:161(para)
 msgid ""
 "You can look at channels as masks which allow or restrict the output of the "
 "color that the channel represents. By using Filters on the channel "
@@ -8723,7 +8715,7 @@ msgid ""
 "linkend=\"gimp-filter-channel-mixer\">Channel Mixer</link> filter."
 msgstr ""
 
-#: src/concepts/concepts.xml:187(para)
+#: src/concepts/concepts.xml:170(para)
 msgid ""
 "In addition to these channels, <acronym>GIMP</acronym> also allows you to "
 "create other channels (or more correctly, Channel Masks), which are "
@@ -8734,7 +8726,7 @@ msgid ""
 "more information about Channel Masks."
 msgstr ""
 
-#: src/concepts/concepts.xml:203(para)
+#: src/concepts/concepts.xml:186(para)
 msgid ""
 "Often when modifying an image, you only want a part of the image to be "
 "affected. The <quote>selection</quote> mechanism makes this possible. Each "
@@ -8750,7 +8742,7 @@ msgid ""
 "button."
 msgstr ""
 
-#: src/concepts/concepts.xml:219(para)
+#: src/concepts/concepts.xml:202(para)
 msgid ""
 "A large component of learning how to use <acronym>GIMP</acronym> effectively "
 "is acquiring the art of making good selections—selections that contain "
@@ -8763,7 +8755,7 @@ msgid ""
 "concepts-selection\">The Selection</link>."
 msgstr ""
 
-#: src/concepts/concepts.xml:237(para)
+#: src/concepts/concepts.xml:220(para)
 msgid ""
 "When you make mistakes, you can undo them. Nearly everything you can do to "
 "an image is undoable. In fact, you can usually undo a substantial number of "
@@ -8775,7 +8767,7 @@ msgid ""
 "types of actions require massive amounts of undo memory."
 msgstr ""
 
-#: src/concepts/concepts.xml:248(para)
+#: src/concepts/concepts.xml:231(para)
 msgid ""
 "You can configure the amount of memory <acronym>GIMP</acronym> allows for "
 "the undo history of each image, but in any situation, you should always be "
@@ -8786,7 +8778,7 @@ msgid ""
 "<link linkend=\"gimp-concepts-undo\">Undoing</link>."
 msgstr ""
 
-#: src/concepts/concepts.xml:264(para)
+#: src/concepts/concepts.xml:247(para)
 msgid ""
 "A lot of the things that you do to an image in <acronym>GIMP</acronym> are "
 "done by <acronym>GIMP</acronym> itself. However, <acronym>GIMP</acronym> "
@@ -8800,17 +8792,17 @@ msgid ""
 "<acronym>GIMP</acronym>."
 msgstr ""
 
-#: src/concepts/concepts.xml:278(para)
+#: src/concepts/concepts.xml:261(para)
 msgid ""
 "All of the commands in the Filters menu, and a substantial number of "
 "commands in other menus, are actually implemented as plug-ins."
 msgstr ""
 
-#: src/concepts/concepts.xml:285(term)
+#: src/concepts/concepts.xml:268(term)
 msgid "Scripts"
 msgstr ""
 
-#: src/concepts/concepts.xml:287(para)
+#: src/concepts/concepts.xml:270(para)
 msgid ""
 "In addition to plug-ins, <acronym>GIMP</acronym> can also make use of "
 "scripts. Scripts are written in a language called Script-Fu, which is unique "

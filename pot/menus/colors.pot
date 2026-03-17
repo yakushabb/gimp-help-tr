@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,7 +99,7 @@ msgstr ""
 #: src/menus/colors/value-invert.xml:67(para)
 #: src/menus/colors/posterize.xml:31(para)
 #: src/menus/colors/linear-invert.xml:52(para)
-#: src/menus/colors/levels.xml:319(para) src/menus/colors/levels.xml:641(para)
+#: src/menus/colors/levels.xml:316(para) src/menus/colors/levels.xml:638(para)
 #: src/menus/colors/invert.xml:58(para)
 msgid "Original image"
 msgstr ""
@@ -142,20 +142,30 @@ msgstr ""
 
 #: src/menus/colors/value-invert.xml:95(title)
 #: src/menus/colors/threshold.xml:50(title)
+#: src/menus/colors/shadows-highlights.xml:27(title)
+#: src/menus/colors/saturation.xml:32(title)
 #: src/menus/colors/rgb-clip.xml:24(title)
-#: src/menus/colors/posterize.xml:57(title) src/menus/colors/hot.xml:32(title)
+#: src/menus/colors/posterize.xml:57(title)
+#: src/menus/colors/linear-invert.xml:33(title)
+#: src/menus/colors/levels.xml:44(title) src/menus/colors/invert.xml:39(title)
+#: src/menus/colors/hue-saturation.xml:27(title)
+#: src/menus/colors/hue-chroma.xml:26(title) src/menus/colors/hot.xml:32(title)
 #: src/menus/colors/gegl-local-threshold.xml:16(title)
-#: src/menus/colors/dither.xml:23(title)
+#: src/menus/colors/exposure.xml:26(title)
+#: src/menus/colors/dither.xml:23(title) src/menus/colors/curves.xml:27(title)
 #: src/menus/colors/colortoalpha.xml:34(title)
 #: src/menus/colors/colorize.xml:33(title)
 #: src/menus/colors/color-temperature.xml:57(title)
-msgid "Activating the Filter"
+#: src/menus/colors/color-balance.xml:34(title)
+#: src/menus/colors/brightness-contrast.xml:39(title)
+msgid "Activating the Command"
 msgstr ""
 
 #: src/menus/colors/value-invert.xml:96(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Value Invert</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Value Invert</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/tone-mapping.xml:6(title)
@@ -191,7 +201,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:71(None)
+#: src/menus/colors/threshold.xml:68(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-tool-threshold.svg'; "
 "md5=43dd4e99eafa28c18786ce32cb47624a"
@@ -199,7 +209,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:90(None)
+#: src/menus/colors/threshold.xml:87(None)
 msgid ""
 "@@image: 'images/menus/colors/threshold-dialog.png'; "
 "md5=901fe3518ed326476313f96bd359c137"
@@ -207,8 +217,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:126(None)
-#: src/menus/colors/levels.xml:188(None) src/menus/colors/curves.xml:182(None)
+#: src/menus/colors/threshold.xml:123(None)
+#: src/menus/colors/levels.xml:185(None) src/menus/colors/curves.xml:179(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-histogram-linear.svg'; "
 "md5=58e63c2f5e72a05ef82c11af93689f16"
@@ -216,8 +226,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:137(None)
-#: src/menus/colors/levels.xml:199(None) src/menus/colors/curves.xml:193(None)
+#: src/menus/colors/threshold.xml:134(None)
+#: src/menus/colors/levels.xml:196(None) src/menus/colors/curves.xml:190(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-histogram-logarithmic.svg'; "
 "md5=3be73e2db317eecfa88858f92dacd7d1"
@@ -225,7 +235,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:198(None)
+#: src/menus/colors/threshold.xml:195(None)
 msgid ""
 "@@image: 'images/using/threshold-orig.png'; "
 "md5=7169fd0c85bd72acd2c604f210c45683"
@@ -233,7 +243,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:203(None)
+#: src/menus/colors/threshold.xml:200(None)
 msgid ""
 "@@image: 'images/using/threshold-decomp.png'; "
 "md5=21ed21ec79ce4729e4b549866c09e139"
@@ -241,7 +251,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:208(None)
+#: src/menus/colors/threshold.xml:205(None)
 msgid ""
 "@@image: 'images/using/threshold-layers.png'; "
 "md5=ec85f8127995e1cb22286d64642fa27d"
@@ -249,7 +259,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:231(None)
+#: src/menus/colors/threshold.xml:228(None)
 msgid ""
 "@@image: 'images/using/threshold-fit.png'; "
 "md5=36c8d9ab439eb56b428a2cf4b2a5fc2b"
@@ -257,7 +267,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:267(None)
+#: src/menus/colors/threshold.xml:264(None)
 msgid ""
 "@@image: 'images/using/threshold-mask.png'; "
 "md5=4c86bbfd708eff6d2ff46958781ee2d3"
@@ -265,7 +275,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:284(None)
+#: src/menus/colors/threshold.xml:281(None)
 msgid ""
 "@@image: 'images/using/threshold-result.png'; "
 "md5=126e427b6568bc7dc871f30f97d4a120"
@@ -273,7 +283,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/threshold.xml:289(None)
+#: src/menus/colors/threshold.xml:286(None)
 msgid ""
 "@@image: 'images/using/threshold-selection.png'; "
 "md5=0871bc80de2676cda58c04d96afba655"
@@ -315,29 +325,26 @@ msgid ""
 "linkend=\"gimp-tool-levels\">Levels</link> tool instead."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:52(para)
-msgid "There are different possibilities to activate this:"
-msgstr ""
-
-#: src/menus/colors/threshold.xml:56(para)
+#: src/menus/colors/threshold.xml:53(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Threshold…</guimenuitem></menuchoice>,"
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Threshold…</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:65(para)
+#: src/menus/colors/threshold.xml:62(para)
 msgid ""
-"or by clicking the <placeholder-1/> icon in the Toolbox if Threshold has "
-"been enabled as a tool (which is disabled by default). For this, please "
-"refer to <xref linkend=\"gimp-prefs-toolbox\"/>."
+"You can also access it by clicking the tool icon <placeholder-1/> in the "
+"Toolbox if Threshold has been enabled as a tool (which is disabled by "
+"default). For this, please refer to <xref linkend=\"gimp-prefs-toolbox\"/>."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:84(title)
+#: src/menus/colors/threshold.xml:81(title)
 #: src/menus/colors/shadows-highlights.xml:38(title)
 #: src/menus/colors/saturation.xml:43(title)
 #: src/menus/colors/rgb-clip.xml:35(title)
 #: src/menus/colors/posterize.xml:68(title)
-#: src/menus/colors/levels.xml:77(title)
+#: src/menus/colors/levels.xml:74(title)
 #: src/menus/colors/hue-saturation.xml:38(title)
 #: src/menus/colors/hue-chroma.xml:37(title) src/menus/colors/hot.xml:50(title)
 #: src/menus/colors/gegl-local-threshold.xml:27(title)
@@ -347,115 +354,115 @@ msgstr ""
 #: src/menus/colors/colorize.xml:44(title)
 #: src/menus/colors/color-temperature.xml:68(title)
 #: src/menus/colors/color-balance.xml:45(title)
-#: src/menus/colors/brightness-contrast.xml:72(title)
+#: src/menus/colors/brightness-contrast.xml:69(title)
 msgid "Options"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:86(title)
+#: src/menus/colors/threshold.xml:83(title)
 msgid "Threshold filter dialog"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:96(term)
+#: src/menus/colors/threshold.xml:93(term)
 #: src/menus/colors/shadows-highlights.xml:50(term)
 #: src/menus/colors/saturation.xml:55(term)
 #: src/menus/colors/rgb-clip.xml:47(term)
-#: src/menus/colors/posterize.xml:80(term) src/menus/colors/levels.xml:89(term)
+#: src/menus/colors/posterize.xml:80(term) src/menus/colors/levels.xml:86(term)
 #: src/menus/colors/introduction.xml:216(term)
 #: src/menus/colors/hue-saturation.xml:50(term)
 #: src/menus/colors/hue-chroma.xml:49(term)
 #: src/menus/colors/gegl-local-threshold.xml:39(term)
 #: src/menus/colors/exposure.xml:49(term) src/menus/colors/dither.xml:46(term)
-#: src/menus/colors/curves.xml:71(term)
+#: src/menus/colors/curves.xml:68(term)
 #: src/menus/colors/colortoalpha.xml:57(term)
 #: src/menus/colors/colorize.xml:55(term)
 #: src/menus/colors/color-temperature.xml:79(term)
 #: src/menus/colors/color-balance.xml:57(term)
-#: src/menus/colors/brightness-contrast.xml:85(term)
+#: src/menus/colors/brightness-contrast.xml:82(term)
 msgid "Presets"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:97(term)
+#: src/menus/colors/threshold.xml:94(term)
 #: src/menus/colors/shadows-highlights.xml:53(term)
 #: src/menus/colors/saturation.xml:56(term)
 #: src/menus/colors/rgb-clip.xml:50(term)
-#: src/menus/colors/posterize.xml:81(term) src/menus/colors/levels.xml:90(term)
+#: src/menus/colors/posterize.xml:81(term) src/menus/colors/levels.xml:87(term)
 #: src/menus/colors/introduction.xml:329(term)
 #: src/menus/colors/hue-saturation.xml:51(term)
 #: src/menus/colors/hue-chroma.xml:50(term)
 #: src/menus/colors/gegl-local-threshold.xml:42(term)
 #: src/menus/colors/exposure.xml:50(term) src/menus/colors/dither.xml:49(term)
-#: src/menus/colors/curves.xml:72(term)
+#: src/menus/colors/curves.xml:69(term)
 #: src/menus/colors/colortoalpha.xml:58(term)
 #: src/menus/colors/colorize.xml:56(term)
 #: src/menus/colors/color-temperature.xml:80(term)
 #: src/menus/colors/color-balance.xml:58(term)
-#: src/menus/colors/brightness-contrast.xml:86(term)
+#: src/menus/colors/brightness-contrast.xml:83(term)
 msgid "Blending Options"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:98(term)
+#: src/menus/colors/threshold.xml:95(term)
 #: src/menus/colors/shadows-highlights.xml:54(term)
 #: src/menus/colors/saturation.xml:57(term)
 #: src/menus/colors/rgb-clip.xml:51(term)
-#: src/menus/colors/posterize.xml:82(term) src/menus/colors/levels.xml:91(term)
+#: src/menus/colors/posterize.xml:82(term) src/menus/colors/levels.xml:88(term)
 #: src/menus/colors/introduction.xml:350(term)
 #: src/menus/colors/hue-saturation.xml:52(term)
 #: src/menus/colors/hue-chroma.xml:51(term)
 #: src/menus/colors/gegl-local-threshold.xml:43(term)
 #: src/menus/colors/exposure.xml:51(term) src/menus/colors/dither.xml:50(term)
-#: src/menus/colors/curves.xml:73(term)
+#: src/menus/colors/curves.xml:70(term)
 #: src/menus/colors/colortoalpha.xml:59(term)
 #: src/menus/colors/colorize.xml:57(term)
 #: src/menus/colors/color-temperature.xml:81(term)
 #: src/menus/colors/color-balance.xml:59(term)
-#: src/menus/colors/brightness-contrast.xml:87(term)
+#: src/menus/colors/brightness-contrast.xml:84(term)
 msgid "Preview"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:99(term)
+#: src/menus/colors/threshold.xml:96(term)
 #: src/menus/colors/shadows-highlights.xml:55(term)
 #: src/menus/colors/saturation.xml:58(term)
 #: src/menus/colors/rgb-clip.xml:52(term)
-#: src/menus/colors/posterize.xml:83(term) src/menus/colors/levels.xml:92(term)
+#: src/menus/colors/posterize.xml:83(term) src/menus/colors/levels.xml:89(term)
 #: src/menus/colors/introduction.xml:361(term)
 #: src/menus/colors/hue-saturation.xml:53(term)
 #: src/menus/colors/hue-chroma.xml:52(term)
 #: src/menus/colors/gegl-local-threshold.xml:44(term)
 #: src/menus/colors/exposure.xml:52(term) src/menus/colors/dither.xml:51(term)
-#: src/menus/colors/curves.xml:74(term)
+#: src/menus/colors/curves.xml:71(term)
 #: src/menus/colors/colortoalpha.xml:60(term)
 #: src/menus/colors/colorize.xml:58(term)
 #: src/menus/colors/color-temperature.xml:82(term)
 #: src/menus/colors/color-balance.xml:60(term)
-#: src/menus/colors/brightness-contrast.xml:88(term)
+#: src/menus/colors/brightness-contrast.xml:85(term)
 msgid "Merge filter"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:100(term)
+#: src/menus/colors/threshold.xml:97(term)
 #: src/menus/colors/shadows-highlights.xml:56(term)
 #: src/menus/colors/saturation.xml:59(term)
 #: src/menus/colors/rgb-clip.xml:53(term)
-#: src/menus/colors/posterize.xml:84(term) src/menus/colors/levels.xml:93(term)
+#: src/menus/colors/posterize.xml:84(term) src/menus/colors/levels.xml:90(term)
 #: src/menus/colors/introduction.xml:383(term)
 #: src/menus/colors/hue-saturation.xml:54(term)
 #: src/menus/colors/hue-chroma.xml:53(term)
 #: src/menus/colors/gegl-local-threshold.xml:45(term)
 #: src/menus/colors/exposure.xml:53(term) src/menus/colors/dither.xml:52(term)
-#: src/menus/colors/curves.xml:75(term)
+#: src/menus/colors/curves.xml:72(term)
 #: src/menus/colors/colortoalpha.xml:61(term)
 #: src/menus/colors/colorize.xml:59(term)
 #: src/menus/colors/color-temperature.xml:83(term)
 #: src/menus/colors/color-balance.xml:61(term)
-#: src/menus/colors/brightness-contrast.xml:89(term)
+#: src/menus/colors/brightness-contrast.xml:86(term)
 msgid "Split view"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:106(term)
-#: src/menus/colors/levels.xml:99(term) src/menus/colors/curves.xml:81(term)
+#: src/menus/colors/threshold.xml:103(term)
+#: src/menus/colors/levels.xml:96(term) src/menus/colors/curves.xml:78(term)
 msgid "Channel"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:108(para)
+#: src/menus/colors/threshold.xml:105(para)
 msgid ""
 "This allows you to select which channel(s) will be used to apply the "
 "Threshold. The default is <guilabel>Value</guilabel>, which will use all "
@@ -466,27 +473,27 @@ msgid ""
 "guilabel>."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:121(term)
-#: src/menus/colors/levels.xml:183(term) src/menus/colors/curves.xml:177(term)
+#: src/menus/colors/threshold.xml:118(term)
+#: src/menus/colors/levels.xml:180(term) src/menus/colors/curves.xml:174(term)
 msgid "<placeholder-1/> Linear histogram"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:132(term)
-#: src/menus/colors/levels.xml:194(term) src/menus/colors/curves.xml:188(term)
+#: src/menus/colors/threshold.xml:129(term)
+#: src/menus/colors/levels.xml:191(term) src/menus/colors/curves.xml:185(term)
 msgid "<placeholder-1/> Logarithmic histogram"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:144(para)
+#: src/menus/colors/threshold.xml:141(para)
 msgid ""
 "These two buttons to the right of the Channel selection let you choose the "
 "type of histogram shown."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:151(term)
+#: src/menus/colors/threshold.xml:148(term)
 msgid "Threshold range"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:153(para)
+#: src/menus/colors/threshold.xml:150(para)
 msgid ""
 "The Threshold tool provides a visual graph, a histogram, of the intensity "
 "value of the active layer or selection. You can set the threshold range "
@@ -498,11 +505,11 @@ msgid ""
 "button can be used to automatically adjust the threshold."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:171(title)
+#: src/menus/colors/threshold.xml:168(title)
 msgid "Using Threshold and Quick Mask to create a selection mask"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:172(para)
+#: src/menus/colors/threshold.xml:169(para)
 msgid ""
 "Sometimes an element you want to extract from an image can stand out well "
 "against the background. In this case, you can use the Threshold tool to "
@@ -510,7 +517,7 @@ msgid ""
 "window-quick-mask-button\">Quick mask</link>."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:180(para)
+#: src/menus/colors/threshold.xml:177(para)
 msgid ""
 "First start decomposing your image into its RGB and HSV components by using "
 "the <link linkend=\"plug-in-decompose\">Decompose</link> filter. A new "
@@ -523,11 +530,11 @@ msgid ""
 "element the best."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:193(title)
+#: src/menus/colors/threshold.xml:190(title)
 msgid "The original image, the decompose image and its Layers dialog"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:214(para)
+#: src/menus/colors/threshold.xml:211(para)
 msgid ""
 "Call the Threshold tool from the decompose image. By moving the black "
 "cursor, fit threshold to isolate the best the element you want to extract. "
@@ -535,30 +542,30 @@ msgid ""
 "selection mask we are going to create."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:221(para)
+#: src/menus/colors/threshold.xml:218(para)
 msgid ""
 "Make sure you have selected the right layer when you call the Threshold "
 "tool: when it is opened, you can't change to another layer."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:228(title)
+#: src/menus/colors/threshold.xml:225(title)
 msgid "The selected layer after threshold fit"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:234(para)
+#: src/menus/colors/threshold.xml:231(para)
 msgid ""
 "We got the best outline for our flower. There are several red objects which "
 "we must remove."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:243(para)
+#: src/menus/colors/threshold.xml:240(para)
 msgid ""
 "Make sure the image displaying the selected layer is active and copy it to "
 "the clipboard with <keycombo><keycap>Ctrl</keycap><keycap>C</keycap></"
 "keycombo>."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:250(para)
+#: src/menus/colors/threshold.xml:247(para)
 msgid ""
 "Now, make the original image active. Click the <guibutton>Quick Mask</"
 "guibutton> button at the bottom-left corner of the image window: the image "
@@ -570,11 +577,11 @@ msgid ""
 "paste the previously copied layer."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:263(title)
+#: src/menus/colors/threshold.xml:260(title)
 msgid "The mask"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:273(para)
+#: src/menus/colors/threshold.xml:270(para)
 msgid ""
 "Voilà. Your selection mask is ready: you can improve the selection as usual. "
 "When the selection is ready, disable the Quick mask by clicking its button "
@@ -582,11 +589,11 @@ msgid ""
 "ants</link> around the selection."
 msgstr ""
 
-#: src/menus/colors/threshold.xml:281(title)
+#: src/menus/colors/threshold.xml:278(title)
 msgid "The result"
 msgstr ""
 
-#: src/menus/colors/threshold.xml:293(para)
+#: src/menus/colors/threshold.xml:290(para)
 msgid ""
 "We used the Zoom to work at a pixel level, <link linkend=\"gimp-tool-free-"
 "select\">Free Select</link> to remove large unwanted areas, the pencil (to "
@@ -618,16 +625,6 @@ msgid ""
 "photography software <ulink url=\"https://docs.darktable.org/usermanual/"
 "development/en/module-reference/processing-modules/shadows-and-highlights/"
 "\">Shadows and Highlights</ulink>."
-msgstr ""
-
-#: src/menus/colors/shadows-highlights.xml:27(title)
-#: src/menus/colors/saturation.xml:32(title)
-#: src/menus/colors/linear-invert.xml:33(title)
-#: src/menus/colors/invert.xml:39(title)
-#: src/menus/colors/hue-saturation.xml:27(title)
-#: src/menus/colors/hue-chroma.xml:26(title)
-#: src/menus/colors/exposure.xml:26(title)
-msgid "Activating the Command"
 msgstr ""
 
 #: src/menus/colors/shadows-highlights.xml:28(para)
@@ -767,7 +764,7 @@ msgstr ""
 #: src/menus/colors/saturation.xml:9(title)
 #: src/menus/colors/saturation.xml:13(secondary)
 #: src/menus/colors/saturation.xml:16(primary)
-#: src/menus/colors/hue-saturation.xml:165(term)
+#: src/menus/colors/hue-saturation.xml:146(term)
 #: src/menus/colors/colorize.xml:74(term)
 msgid "Saturation"
 msgstr ""
@@ -843,8 +840,9 @@ msgstr ""
 
 #: src/menus/colors/rgb-clip.xml:25(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>RGB Clip…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>RGB Clip…</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/colors/rgb-clip.xml:37(title)
@@ -930,8 +928,9 @@ msgstr ""
 
 #: src/menus/colors/posterize.xml:58(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Posterize…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Posterize…</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/colors/posterize.xml:70(title)
@@ -1039,8 +1038,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:65(None)
-#: src/menus/colors/brightness-contrast.xml:60(None)
+#: src/menus/colors/levels.xml:62(None)
+#: src/menus/colors/brightness-contrast.xml:57(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-tool-levels.svg'; "
 "md5=27fc6afe9c68b5a242f0eacc3dd6e1af"
@@ -1048,7 +1047,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:83(None)
+#: src/menus/colors/levels.xml:80(None)
 msgid ""
 "@@image: 'images/menus/colors/levels-dialog.png'; "
 "md5=ccd8408c1dbb6908b6aee987f4b42166"
@@ -1056,7 +1055,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:146(None) src/menus/colors/curves.xml:140(None)
+#: src/menus/colors/levels.xml:143(None) src/menus/colors/curves.xml:137(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-color-space-linear-symbolic.svg'; "
 "md5=a04790ad39814aee1a2300a094d87855"
@@ -1064,7 +1063,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:157(None) src/menus/colors/curves.xml:151(None)
+#: src/menus/colors/levels.xml:154(None) src/menus/colors/curves.xml:148(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-color-space-non-linear-symbolic.svg'; "
 "md5=78323d0f1819a802fbac35f7330c9ad6"
@@ -1072,7 +1071,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:168(None) src/menus/colors/curves.xml:162(None)
+#: src/menus/colors/levels.xml:165(None) src/menus/colors/curves.xml:159(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-color-space-perceptual-symbolic.svg'; "
 "md5=443c4bae3fe223d262c5b03c9d74a684"
@@ -1080,7 +1079,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:272(None) src/menus/colors/levels.xml:495(None)
+#: src/menus/colors/levels.xml:269(None) src/menus/colors/levels.xml:492(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-color-picker-black.svg'; "
 "md5=61cea71f54cfbfebb92d98abeb97f5f9"
@@ -1088,7 +1087,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:281(None) src/menus/colors/levels.xml:479(None)
+#: src/menus/colors/levels.xml:278(None) src/menus/colors/levels.xml:476(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-color-picker-white.svg'; "
 "md5=f849e4d3a7e6b69a637de9c8f1c5670a"
@@ -1096,7 +1095,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:316(None)
+#: src/menus/colors/levels.xml:313(None)
 msgid ""
 "@@image: 'images/toolbox/levels-input-1.png'; "
 "md5=89de48a7071bca8aaba5d4b442a75644"
@@ -1104,7 +1103,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:333(None)
+#: src/menus/colors/levels.xml:330(None)
 msgid ""
 "@@image: 'images/toolbox/levels-input-2-dialog.png'; "
 "md5=054ec9e9e7ca42fc1567cf3dcf282c56"
@@ -1112,7 +1111,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:342(None)
+#: src/menus/colors/levels.xml:339(None)
 msgid ""
 "@@image: 'images/toolbox/levels-input-2.png'; "
 "md5=1fdbb20ecb665144a3da121f6de8f84a"
@@ -1120,7 +1119,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:362(None)
+#: src/menus/colors/levels.xml:359(None)
 msgid ""
 "@@image: 'images/toolbox/levels-input-3-dialog.png'; "
 "md5=b40b68584248f6cd9ff3e4d905b4e06b"
@@ -1128,7 +1127,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:371(None)
+#: src/menus/colors/levels.xml:368(None)
 msgid ""
 "@@image: 'images/toolbox/levels-input-3.png'; "
 "md5=51cc6664dcfbd727957239c4f2b3e239"
@@ -1136,7 +1135,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:437(None)
+#: src/menus/colors/levels.xml:434(None)
 msgid ""
 "@@image: 'images/toolbox/levels-output-1.png'; "
 "md5=a3f6d87952ebdb5d4208332f66385d79"
@@ -1144,7 +1143,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:455(None)
+#: src/menus/colors/levels.xml:452(None)
 msgid ""
 "@@image: 'images/toolbox/levels-output-2.png'; "
 "md5=9362c933780a79d8df9f886a986954d8"
@@ -1152,7 +1151,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:487(None)
+#: src/menus/colors/levels.xml:484(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-color-picker-gray.svg'; "
 "md5=4a312f19022da47d07bd1a24305116a3"
@@ -1160,7 +1159,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:518(None)
+#: src/menus/colors/levels.xml:515(None)
 msgid ""
 "@@image: 'images/toolbox/levels-eyedrop.png'; "
 "md5=3b4221bf4b688bc078354a16bbd558f0"
@@ -1168,7 +1167,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:593(None)
+#: src/menus/colors/levels.xml:590(None)
 msgid ""
 "@@image: 'images/toolbox/tool-options-levels.png'; "
 "md5=22a05c1ee41168baa8f9bfe4701d463f"
@@ -1176,7 +1175,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:638(None)
+#: src/menus/colors/levels.xml:635(None)
 msgid ""
 "@@image: 'images/filters/examples/colors-retinex1.png'; "
 "md5=25f4bc072d9614e58d5cb74fd9a7f70e"
@@ -1184,7 +1183,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:646(None)
+#: src/menus/colors/levels.xml:643(None)
 msgid ""
 "@@image: 'images/toolbox/levels-ex1b.png'; "
 "md5=be9a9026fa024eb751ec1e2f16e49627"
@@ -1192,7 +1191,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:660(None)
+#: src/menus/colors/levels.xml:657(None)
 msgid ""
 "@@image: 'images/toolbox/levels-ex2a.png'; "
 "md5=eeaf458e17db88f2a5e2572fcbd1ee7e"
@@ -1200,7 +1199,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:671(None)
+#: src/menus/colors/levels.xml:668(None)
 msgid ""
 "@@image: 'images/toolbox/levels-ex2b.png'; "
 "md5=f5b2d2dd261da070bb2900117701280a"
@@ -1208,7 +1207,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:685(None)
+#: src/menus/colors/levels.xml:682(None)
 msgid ""
 "@@image: 'images/toolbox/levels-ex3a.png'; "
 "md5=47a4a2de02ba2059d55203ffc6692d38"
@@ -1216,7 +1215,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/levels.xml:697(None)
+#: src/menus/colors/levels.xml:694(None)
 msgid ""
 "@@image: 'images/toolbox/levels-ex3b.png'; "
 "md5=8022e32f75cd8db4bae740c46443a1ca"
@@ -1267,42 +1266,32 @@ msgid ""
 "predominant color cast."
 msgstr ""
 
-#: src/menus/colors/levels.xml:44(title) src/menus/colors/curves.xml:27(title)
-#: src/menus/colors/color-balance.xml:34(title)
-#: src/menus/colors/brightness-contrast.xml:39(title)
-msgid "Activating the Tool"
-msgstr ""
-
-#: src/menus/colors/levels.xml:45(para) src/menus/colors/curves.xml:28(para)
-#: src/menus/colors/brightness-contrast.xml:40(para)
-msgid "There are different possibilities to activate the tool:"
-msgstr ""
-
-#: src/menus/colors/levels.xml:50(para)
+#: src/menus/colors/levels.xml:47(para)
 msgid ""
-"From the main menu: <menuchoice><guimenu>Colors</guimenu><guimenuitem>Levels…"
-"</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Levels…</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
-#: src/menus/colors/levels.xml:59(para) src/menus/colors/curves.xml:42(para)
-#: src/menus/colors/brightness-contrast.xml:54(para)
+#: src/menus/colors/levels.xml:56(para) src/menus/colors/curves.xml:39(para)
+#: src/menus/colors/brightness-contrast.xml:51(para)
 msgid ""
-"By clicking the tool icon <placeholder-1/> in the Toolbox if this tool has "
-"been installed there. For this, please refer to <xref linkend=\"gimp-prefs-"
-"toolbox\"/>."
+"You can also access it by clicking the tool icon <placeholder-1/> in the "
+"Toolbox if this tool has been installed there. For this, please refer to "
+"<xref linkend=\"gimp-prefs-toolbox\"/>."
 msgstr ""
 
-#: src/menus/colors/levels.xml:79(title)
+#: src/menus/colors/levels.xml:76(title)
 msgid "Level tool options"
 msgstr ""
 
-#: src/menus/colors/levels.xml:106(para)
+#: src/menus/colors/levels.xml:103(para)
 msgid ""
 "<guilabel>Value</guilabel> makes changes to the value of all RGB channels in "
 "the image: the image becomes darker or lighter."
 msgstr ""
 
-#: src/menus/colors/levels.xml:113(para)
+#: src/menus/colors/levels.xml:110(para)
 msgid ""
 "<guilabel>Red</guilabel>, <guilabel>Green</guilabel> and <guilabel>Blue</"
 "guilabel> work on a particular color channel: the image gets more or less "
@@ -1310,44 +1299,44 @@ msgid ""
 "adding the complementary color."
 msgstr ""
 
-#: src/menus/colors/levels.xml:122(para)
+#: src/menus/colors/levels.xml:119(para)
 msgid ""
 "<guilabel>Alpha</guilabel> works on semi-transparent layers or selections: "
 "here, dark means more transparency, and white is fully opaque. Your image "
 "must have an Alpha Channel, otherwise this option is disabled."
 msgstr ""
 
-#: src/menus/colors/levels.xml:130(para)
+#: src/menus/colors/levels.xml:127(para)
 msgid ""
 "<guilabel>Reset channel</guilabel> restores the original setting for the "
 "selected channel."
 msgstr ""
 
-#: src/menus/colors/levels.xml:101(para)
+#: src/menus/colors/levels.xml:98(para)
 msgid ""
 "You can select the specific channel which will be modified by the tool: "
 "<placeholder-1/>"
 msgstr ""
 
-#: src/menus/colors/levels.xml:141(term) src/menus/colors/curves.xml:135(term)
+#: src/menus/colors/levels.xml:138(term) src/menus/colors/curves.xml:132(term)
 msgid "<placeholder-1/> Linear"
 msgstr ""
 
-#: src/menus/colors/levels.xml:152(term) src/menus/colors/curves.xml:146(term)
+#: src/menus/colors/levels.xml:149(term) src/menus/colors/curves.xml:143(term)
 msgid "<placeholder-1/> Non-Linear"
 msgstr ""
 
-#: src/menus/colors/levels.xml:163(term) src/menus/colors/curves.xml:157(term)
+#: src/menus/colors/levels.xml:160(term) src/menus/colors/curves.xml:154(term)
 msgid "<placeholder-1/> Perceptual"
 msgstr ""
 
-#: src/menus/colors/levels.xml:175(para) src/menus/colors/curves.xml:169(para)
+#: src/menus/colors/levels.xml:172(para) src/menus/colors/curves.xml:166(para)
 msgid ""
 "These three buttons determine whether the tone reproduction (TRC) will be "
 "displayed using a linear, non-linear, or perceptual X axis."
 msgstr ""
 
-#: src/menus/colors/levels.xml:206(para) src/menus/colors/curves.xml:200(para)
+#: src/menus/colors/levels.xml:203(para) src/menus/colors/curves.xml:197(para)
 msgid ""
 "These two buttons determine whether the histogram will be displayed using a "
 "linear or logarithmic Y axis. For images taken from photographs, the linear "
@@ -1356,11 +1345,11 @@ msgid ""
 "single bar, and a logarithmic histogram will often be more useful."
 msgstr ""
 
-#: src/menus/colors/levels.xml:218(term)
+#: src/menus/colors/levels.xml:215(term)
 msgid "Input Levels"
 msgstr ""
 
-#: src/menus/colors/levels.xml:220(para)
+#: src/menus/colors/levels.xml:217(para)
 msgid ""
 "The main area is a graphic representation of the active layer or selection "
 "dark (Shadows), mid and light (Highlight) tones content (the Histogram). "
@@ -1373,31 +1362,31 @@ msgid ""
 "highlights."
 msgstr ""
 
-#: src/menus/colors/levels.xml:232(para)
+#: src/menus/colors/levels.xml:229(para)
 msgid "Level ranges can be modified in three ways:"
 msgstr ""
 
-#: src/menus/colors/levels.xml:237(para)
+#: src/menus/colors/levels.xml:234(para)
 msgid ""
 "Three triangles as sliders: one black for dark tones (Shadows), one gray for "
 "midtones (Gamma), one white for light (Highlights) tones."
 msgstr ""
 
-#: src/menus/colors/levels.xml:242(para)
+#: src/menus/colors/levels.xml:239(para)
 msgid ""
 "The black slider determines the <emphasis>black point</emphasis>: all pixels "
 "with this value or less will be black (no color with a color channel "
 "selected / transparent with the Alpha channel selected)."
 msgstr ""
 
-#: src/menus/colors/levels.xml:248(para)
+#: src/menus/colors/levels.xml:245(para)
 msgid ""
 "The white slider determines the <emphasis>white point</emphasis>: all pixels "
 "with this value or higher, will be white (fully colored with a color channel "
 "selected / fully opaque with the Alpha channel selected)."
 msgstr ""
 
-#: src/menus/colors/levels.xml:254(para)
+#: src/menus/colors/levels.xml:251(para)
 msgid ""
 "The gray slider determines the <emphasis>mid point</emphasis>. Going to the "
 "left, to the black, makes the image lighter (more colored / more opaque). "
@@ -1405,7 +1394,7 @@ msgid ""
 "more transparent)."
 msgstr ""
 
-#: src/menus/colors/levels.xml:263(para)
+#: src/menus/colors/levels.xml:260(para)
 msgid ""
 "Two eye-droppers: when you click them, the mouse pointer becomes an eye-"
 "dropper. Then clicking on the image determines the black or the white point "
@@ -1414,12 +1403,12 @@ msgid ""
 "determine the white point."
 msgstr ""
 
-#: src/menus/colors/levels.xml:289(para)
+#: src/menus/colors/levels.xml:286(para)
 msgid "Three numeric text boxes to enter values directly."
 msgstr ""
 
 #. summary
-#: src/menus/colors/levels.xml:296(para)
+#: src/menus/colors/levels.xml:293(para)
 msgid ""
 "Input Levels are used to lighten highlights (bright tones), darken shadows "
 "(dark tones), change the balance of bright and dark tones. Move sliders to "
@@ -1428,18 +1417,18 @@ msgid ""
 "chosen color / lessen opacity)."
 msgstr ""
 
-#: src/menus/colors/levels.xml:306(title)
+#: src/menus/colors/levels.xml:303(title)
 msgid "Examples for Input Levels"
 msgstr ""
 
-#: src/menus/colors/levels.xml:307(para)
+#: src/menus/colors/levels.xml:304(para)
 msgid ""
 "The original image is a grayscale image with three stripes: Shadows (64), "
 "Mid Tones (127), Highlights (192). The histogram shows three peaks, one for "
 "each of the three tones."
 msgstr ""
 
-#: src/menus/colors/levels.xml:323(para)
+#: src/menus/colors/levels.xml:320(para)
 msgid ""
 "The Value channel is selected. The black slider (Shadows) has been moved up "
 "to the Shadows peak. The 64 value became 0 and the Shadows stripe became "
@@ -1447,15 +1436,15 @@ msgid ""
 "of the tone range. Mid tones are made darker to 84 and Highlights to 171."
 msgstr ""
 
-#: src/menus/colors/levels.xml:336(para) src/menus/colors/levels.xml:458(para)
+#: src/menus/colors/levels.xml:333(para) src/menus/colors/levels.xml:455(para)
 msgid "Black slider has been moved"
 msgstr ""
 
-#: src/menus/colors/levels.xml:345(para) src/menus/colors/levels.xml:374(para)
+#: src/menus/colors/levels.xml:342(para) src/menus/colors/levels.xml:371(para)
 msgid "Resulting image"
 msgstr ""
 
-#: src/menus/colors/levels.xml:352(para)
+#: src/menus/colors/levels.xml:349(para)
 msgid ""
 "The white slider (highlights) has been moved up to the highlight peak. The "
 "192 value became 255 and the highlight stripe became white. The Gamma (mid "
@@ -1463,33 +1452,33 @@ msgid ""
 "tones are made lighter to 169 and Shadows to 84."
 msgstr ""
 
-#: src/menus/colors/levels.xml:365(para)
+#: src/menus/colors/levels.xml:362(para)
 msgid "White slider has been moved"
 msgstr ""
 
-#: src/menus/colors/levels.xml:384(term)
+#: src/menus/colors/levels.xml:381(term)
 msgid "Output Levels"
 msgstr ""
 
-#: src/menus/colors/levels.xml:386(para)
+#: src/menus/colors/levels.xml:383(para)
 msgid ""
 "Output levels allow manual selection of a constrained output level range. "
 "There are also numeric text boxes with arrowheads located here that can be "
 "used to interactively change the Output Levels."
 msgstr ""
 
-#: src/menus/colors/levels.xml:392(para)
+#: src/menus/colors/levels.xml:389(para)
 msgid "Output levels force the tone range to fit the new limits you have set."
 msgstr ""
 
-#: src/menus/colors/levels.xml:398(para)
+#: src/menus/colors/levels.xml:395(para)
 msgid ""
 "Working with Value: values are compressed and look more alike; so contrast "
 "is reduced. Shadows are made lighter: new details can show up but contrast "
 "is less; a compromise is necessary. Highlights are made darker."
 msgstr ""
 
-#: src/menus/colors/levels.xml:406(para)
+#: src/menus/colors/levels.xml:403(para)
 msgid ""
 "Working with Color channels: if you the use the green channel for example "
 "and set the output levels between 100 and 140, all pixels with some green, "
@@ -1497,17 +1486,17 @@ msgid ""
 "and 140."
 msgstr ""
 
-#: src/menus/colors/levels.xml:414(para)
+#: src/menus/colors/levels.xml:411(para)
 msgid ""
 "Working with Alpha channel: all Alpha values are shifted to the range you "
 "have set."
 msgstr ""
 
-#: src/menus/colors/levels.xml:422(title)
+#: src/menus/colors/levels.xml:419(title)
 msgid "Example for Output Levels"
 msgstr ""
 
-#: src/menus/colors/levels.xml:424(para)
+#: src/menus/colors/levels.xml:421(para)
 msgid ""
 "The original image is a RGB gradient from black (0;0;0) to white "
 "(255;255;255). Output Levels has no histogram; here, we used "
@@ -1515,11 +1504,11 @@ msgid ""
 "guisubmenu><guimenuitem>Histogram</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/colors/levels.xml:440(para)
+#: src/menus/colors/levels.xml:437(para)
 msgid "Original image (a gradient)"
 msgstr ""
 
-#: src/menus/colors/levels.xml:445(para)
+#: src/menus/colors/levels.xml:442(para)
 msgid ""
 "Value channel selected. The black slider has been moved to 63 and the white "
 "slider to 189. The Histogram shows the compression of pixels. No pixel is "
@@ -1527,21 +1516,21 @@ msgid ""
 "lighter and Highlights are darker: contrast is reduced."
 msgstr ""
 
-#: src/menus/colors/levels.xml:466(term)
+#: src/menus/colors/levels.xml:463(term)
 msgid "All Channels"
 msgstr ""
 
-#: src/menus/colors/levels.xml:468(para)
+#: src/menus/colors/levels.xml:465(para)
 msgid ""
 "<guilabel>Auto Input Levels</guilabel>: Performs an automatic setting of the "
 "levels."
 msgstr ""
 
-#: src/menus/colors/levels.xml:473(title)
+#: src/menus/colors/levels.xml:470(title)
 msgid "Three eyedroppers <placeholder-1/>, <placeholder-2/>, <placeholder-3/>."
 msgstr ""
 
-#: src/menus/colors/levels.xml:500(para)
+#: src/menus/colors/levels.xml:497(para)
 msgid ""
 "These three buttons respectively represent a white, a gray and a black eye-"
 "dropper. When you click one of these buttons, the mouse pointer takes the "
@@ -1552,108 +1541,108 @@ msgid ""
 "particular channel is selected."
 msgstr ""
 
-#: src/menus/colors/levels.xml:514(title)
+#: src/menus/colors/levels.xml:511(title)
 msgid "Example for Levels eye-droppers"
 msgstr ""
 
-#: src/menus/colors/levels.xml:521(para)
+#: src/menus/colors/levels.xml:518(para)
 msgid ""
 "Above is original gradient from black to white. Below is the result after "
 "clicking with the white eye-dropper: all pixels with a value higher than "
 "that of the clicked pixel turned to white."
 msgstr ""
 
-#: src/menus/colors/levels.xml:571(term)
+#: src/menus/colors/levels.xml:568(term)
 msgid "Edit these settings as Curves"
 msgstr ""
 
-#: src/menus/colors/levels.xml:573(para)
+#: src/menus/colors/levels.xml:570(para)
 msgid ""
 "To make your work easier, this button lets you turn to the <link "
 "linkend=\"gimp-tool-curves\">Curves</link> tool with the same settings."
 msgstr ""
 
-#: src/menus/colors/levels.xml:585(title)
+#: src/menus/colors/levels.xml:582(title)
 msgid "Tool Options dialog"
 msgstr ""
 
-#: src/menus/colors/levels.xml:589(title)
+#: src/menus/colors/levels.xml:586(title)
 msgid "<quote>Levels</quote> tool options"
 msgstr ""
 
-#: src/menus/colors/levels.xml:598(para)
+#: src/menus/colors/levels.xml:595(para)
 msgid ""
 "Although this tool is not present in the Toolbox by default (please refer to "
 "<xref linkend=\"gimp-prefs-toolbox\"/> if you want to add it), nevertheless "
 "it has a Tool Option Dialog under the Toolbox."
 msgstr ""
 
-#: src/menus/colors/levels.xml:605(term)
+#: src/menus/colors/levels.xml:602(term)
 msgid "Sample average"
 msgstr ""
 
-#: src/menus/colors/levels.xml:607(para)
+#: src/menus/colors/levels.xml:604(para)
 msgid ""
 "This slider sets the <quote>radius</quote> of the color-picking area to get "
 "the averaged color value from nearby pixels. This area appears as a more or "
 "less enlarged square when you maintain the click on a pixel."
 msgstr ""
 
-#: src/menus/colors/levels.xml:616(term)
+#: src/menus/colors/levels.xml:613(term)
 msgid "Sample merged"
 msgstr ""
 
-#: src/menus/colors/levels.xml:618(para)
+#: src/menus/colors/levels.xml:615(para)
 msgid ""
 "If you enable this option, sampling is not calculated only from the values "
 "of the active layer, but from all visible layers."
 msgstr ""
 
-#: src/menus/colors/levels.xml:622(para)
+#: src/menus/colors/levels.xml:619(para)
 msgid ""
 "For more information, see the <link linkend=\"glossary-"
 "samplemerge\">Glossary entry</link>."
 msgstr ""
 
-#: src/menus/colors/levels.xml:632(title)
+#: src/menus/colors/levels.xml:629(title)
 msgid "Actual practice"
 msgstr ""
 
-#: src/menus/colors/levels.xml:634(title)
+#: src/menus/colors/levels.xml:631(title)
 msgid "A very under-exposed image"
 msgstr ""
 
-#: src/menus/colors/levels.xml:649(para)
+#: src/menus/colors/levels.xml:646(para)
 msgid "The histogram shows a predominance of Shadows and missing Highlights."
 msgstr ""
 
-#: src/menus/colors/levels.xml:657(title)
+#: src/menus/colors/levels.xml:654(title)
 msgid "Setting the white point"
 msgstr ""
 
-#: src/menus/colors/levels.xml:663(para)
+#: src/menus/colors/levels.xml:660(para)
 msgid ""
 "The white slider has been moved to the start of well marked Highlights. The "
 "image lightens up."
 msgstr ""
 
-#: src/menus/colors/levels.xml:674(para)
+#: src/menus/colors/levels.xml:671(para)
 msgid ""
 "The resulting histogram (down) shows Highlights now, but Shadows are still "
 "predominant."
 msgstr ""
 
-#: src/menus/colors/levels.xml:682(title)
+#: src/menus/colors/levels.xml:679(title)
 msgid "Setting the balance between Shadows and Highlights"
 msgstr ""
 
-#: src/menus/colors/levels.xml:688(para)
+#: src/menus/colors/levels.xml:685(para)
 msgid ""
 "The mid slider has been moved to the left. This results in reducing the "
 "proportion of Shadows and increasing the proportion of Highlights."
 msgstr ""
 
-#: src/menus/colors/levels.xml:700(para)
+#: src/menus/colors/levels.xml:697(para)
 msgid "The resulting histogram (down) confirms the reduction of Shadows."
 msgstr ""
 
@@ -1671,7 +1660,7 @@ msgid "Invert"
 msgstr ""
 
 #: src/menus/colors/invert.xml:19(primary)
-#: src/menus/colors/curves.xml:495(title)
+#: src/menus/colors/curves.xml:492(title)
 msgid "Invert colors"
 msgstr ""
 
@@ -1917,7 +1906,7 @@ msgstr ""
 #: src/menus/colors/hue-saturation.xml:44(None)
 msgid ""
 "@@image: 'images/menus/colors/hue-saturation-dialog.png'; "
-"md5=f847988eb9d95b0ef4e2365226e31cde"
+"md5=d57f74da86fb0596eeb7cadf83fc594a"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -2036,30 +2025,30 @@ msgid ""
 "(-180, 180)."
 msgstr ""
 
-#: src/menus/colors/hue-saturation.xml:146(term)
+#: src/menus/colors/hue-saturation.xml:148(para)
+msgid ""
+"The slider and the input box allow you to select a saturation: -100, 100."
+msgstr ""
+
+#: src/menus/colors/hue-saturation.xml:155(term)
 #: src/menus/colors/hue-chroma.xml:77(term)
 #: src/menus/colors/colorize.xml:83(term)
 msgid "Lightness"
 msgstr ""
 
-#: src/menus/colors/hue-saturation.xml:148(para)
+#: src/menus/colors/hue-saturation.xml:157(para)
 msgid ""
 "The slider and the input box allow you to select a value (luminosity): -100, "
 "100."
 msgstr ""
 
-#: src/menus/colors/hue-saturation.xml:153(para)
+#: src/menus/colors/hue-saturation.xml:162(para)
 msgid ""
 "Lightness changes here concern a color range, while they concern a color "
 "tone with Curves and Levels tools, which work on color channels. If you "
 "change the Yellow lightness with Hue-Saturation, all yellow pixels will be "
 "changed, while only dark, bright or medium pixels luminosity will be changed "
 "with Curves or Levels tools."
-msgstr ""
-
-#: src/menus/colors/hue-saturation.xml:167(para)
-msgid ""
-"The slider and the input box allow you to select a saturation: -100, 100."
 msgstr ""
 
 #: src/menus/colors/hue-saturation.xml:174(term)
@@ -2153,8 +2142,9 @@ msgstr ""
 
 #: src/menus/colors/hot.xml:33(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Hot…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Hot…</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/colors/hot.xml:41(para)
@@ -2227,8 +2217,9 @@ msgstr ""
 
 #: src/menus/colors/gegl-local-threshold.xml:17(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Local Threshold…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Local Threshold…</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/gegl-local-threshold.xml:29(title)
@@ -2336,8 +2327,9 @@ msgstr ""
 
 #: src/menus/colors/dither.xml:24(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Dither…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Dither…</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/colors/dither.xml:36(title)
@@ -2502,7 +2494,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:48(None)
+#: src/menus/colors/curves.xml:45(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-tool-curves.svg'; "
 "md5=c9e6a6ce8948de1a3a1ec3306e7438f4"
@@ -2510,7 +2502,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:65(None)
+#: src/menus/colors/curves.xml:62(None)
 msgid ""
 "@@image: 'images/menus/colors/curves-dialog.png'; "
 "md5=cc009f37dc7bbbcb72acebfcf93034eb"
@@ -2518,7 +2510,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:406(None)
+#: src/menus/colors/curves.xml:403(None)
 msgid ""
 "@@image: 'images/toolbox/curves-work.png'; "
 "md5=21b8adbd64af62efcd39dea2ccf21e6b"
@@ -2526,7 +2518,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:429(None)
+#: src/menus/colors/curves.xml:426(None)
 msgid ""
 "@@image: 'images/toolbox/curves-horiz-1.png'; "
 "md5=30b62bc0eab3c3ad4a75dedf1e2f32fc"
@@ -2534,7 +2526,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:437(None)
+#: src/menus/colors/curves.xml:434(None)
 msgid ""
 "@@image: 'images/toolbox/curves-horiz-2.png'; "
 "md5=89fca43da9c397c3a381b3acf1cfc574"
@@ -2542,7 +2534,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:472(None)
+#: src/menus/colors/curves.xml:469(None)
 msgid ""
 "@@image: 'images/toolbox/curves-vert-1.png'; "
 "md5=16f3740307bbf0aa1fc58ddac98bd6e0"
@@ -2550,7 +2542,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:481(None)
+#: src/menus/colors/curves.xml:478(None)
 msgid ""
 "@@image: 'images/toolbox/curves-vert-2.png'; "
 "md5=f71cf6a97b4bc331da6f60084796cefb"
@@ -2558,7 +2550,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:500(None)
+#: src/menus/colors/curves.xml:497(None)
 msgid ""
 "@@image: 'images/toolbox/curves-invert.png'; "
 "md5=6d82a32d0ca897021be0a2ea704dcc2a"
@@ -2566,7 +2558,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:520(None)
+#: src/menus/colors/curves.xml:517(None)
 msgid ""
 "@@image: 'images/toolbox/curves-H-S.png'; "
 "md5=f2cf306fde0fb55fb67c8b4b5246a204"
@@ -2574,7 +2566,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:539(None)
+#: src/menus/colors/curves.xml:536(None)
 msgid ""
 "@@image: 'images/toolbox/curves-lighten-1.png'; "
 "md5=68b939bf085574b147eee7a0e8c71772"
@@ -2582,7 +2574,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/curves.xml:551(None)
+#: src/menus/colors/curves.xml:548(None)
 msgid ""
 "@@image: 'images/toolbox/curves-lighten-2.png'; "
 "md5=c5ac63792603e264e76e578c424f4c4b"
@@ -2602,47 +2594,48 @@ msgid ""
 "Curves tool allows you to work on any tonal range. It works on RGB images."
 msgstr ""
 
-#: src/menus/colors/curves.xml:33(para)
+#: src/menus/colors/curves.xml:30(para)
 msgid ""
-"From the main menu: <menuchoice><guimenu>Colors</guimenu><guimenuitem>Curves…"
-"</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Curves…</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
-#: src/menus/colors/curves.xml:60(title)
+#: src/menus/colors/curves.xml:57(title)
 msgid "<quote>Curves</quote> options"
 msgstr ""
 
-#: src/menus/colors/curves.xml:62(title)
+#: src/menus/colors/curves.xml:59(title)
 msgid "The <quote>Curves</quote> dialog"
 msgstr ""
 
-#: src/menus/colors/curves.xml:84(para)
+#: src/menus/colors/curves.xml:81(para)
 msgid "There are five options:"
 msgstr ""
 
-#: src/menus/colors/curves.xml:86(term)
+#: src/menus/colors/curves.xml:83(term)
 msgid "Value"
 msgstr ""
 
-#: src/menus/colors/curves.xml:88(para)
+#: src/menus/colors/curves.xml:85(para)
 msgid ""
 "The curve represents the Value, i.e. the brightness of pixels as you can see "
 "them in the composite image."
 msgstr ""
 
-#: src/menus/colors/curves.xml:95(term)
+#: src/menus/colors/curves.xml:92(term)
 msgid "Red"
 msgstr ""
 
-#: src/menus/colors/curves.xml:96(term)
+#: src/menus/colors/curves.xml:93(term)
 msgid "Green"
 msgstr ""
 
-#: src/menus/colors/curves.xml:97(term)
+#: src/menus/colors/curves.xml:94(term)
 msgid "Blue"
 msgstr ""
 
-#: src/menus/colors/curves.xml:99(para)
+#: src/menus/colors/curves.xml:96(para)
 msgid ""
 "The curve represents the quantity of color in each of the three RGB "
 "channels. Here, <emphasis>dark</emphasis> means <emphasis>little</emphasis> "
@@ -2650,11 +2643,11 @@ msgid ""
 "the color."
 msgstr ""
 
-#: src/menus/colors/curves.xml:109(term)
+#: src/menus/colors/curves.xml:106(term)
 msgid "Alpha"
 msgstr ""
 
-#: src/menus/colors/curves.xml:111(para)
+#: src/menus/colors/curves.xml:108(para)
 msgid ""
 "The curve represents the opacity of the pixels. <emphasis>Dark</emphasis> "
 "means <emphasis>very transparent</emphasis>. <emphasis>Light</emphasis> "
@@ -2662,28 +2655,28 @@ msgid ""
 "an Alpha channel for this option to be enabled."
 msgstr ""
 
-#: src/menus/colors/curves.xml:125(term)
+#: src/menus/colors/curves.xml:122(term)
 msgid "Reset Channel"
 msgstr ""
 
-#: src/menus/colors/curves.xml:127(para)
+#: src/menus/colors/curves.xml:124(para)
 msgid ""
 "This button deletes all changes made to the selected channel and returns to "
 "default values."
 msgstr ""
 
-#: src/menus/colors/curves.xml:208(para)
+#: src/menus/colors/curves.xml:205(para)
 msgid ""
 "You can also use the same options in the Tool Options dialog if Curves has "
 "been enabled as a tool. This grayed out histogram is not displayed by "
 "default."
 msgstr ""
 
-#: src/menus/colors/curves.xml:217(term)
+#: src/menus/colors/curves.xml:214(term)
 msgid "Main Editing Area"
 msgstr ""
 
-#: src/menus/colors/curves.xml:221(para)
+#: src/menus/colors/curves.xml:218(para)
 msgid ""
 "<emphasis role=\"bold\">The horizontal gradient</emphasis>: it represents "
 "the <emphasis>input</emphasis> tonal scale. It, too, ranges from 0 (black) "
@@ -2692,14 +2685,14 @@ msgid ""
 "balance</emphasis> of the layer or selection."
 msgstr ""
 
-#: src/menus/colors/curves.xml:231(para)
+#: src/menus/colors/curves.xml:228(para)
 msgid ""
 "<emphasis role=\"bold\">The vertical gradient</emphasis>: it represents the "
 "destination, the <emphasis>output</emphasis> tonal scale. It ranges from 0 "
 "(black) to 255 (white), from Shadows to Highlights."
 msgstr ""
 
-#: src/menus/colors/curves.xml:239(para)
+#: src/menus/colors/curves.xml:236(para)
 msgid ""
 "<emphasis role=\"bold\">The chart</emphasis>: the curve is drawn on a grid "
 "and goes from the bottom left corner to the top right corner. The "
@@ -2709,14 +2702,14 @@ msgid ""
 "point at both ends of the curve, for black (0) and white (255)."
 msgstr ""
 
-#: src/menus/colors/curves.xml:248(para)
+#: src/menus/colors/curves.xml:245(para)
 msgid ""
 "If you click the curve, a new <emphasis>point</emphasis> is created. When "
 "the mouse pointer goes over a point, it takes the form of a small hand. You "
 "can click-and-drag the point to bend the curve."
 msgstr ""
 
-#: src/menus/colors/curves.xml:254(para)
+#: src/menus/colors/curves.xml:251(para)
 msgid ""
 "If you click outside the curve, a point is also created, and the curve "
 "includes it automatically. <emphasis role=\"underline\"> If you "
@@ -2725,50 +2718,50 @@ msgid ""
 "along the curve."
 msgstr ""
 
-#: src/menus/colors/curves.xml:261(para)
+#: src/menus/colors/curves.xml:258(para)
 msgid ""
 "Inactive points are white. The active point is black. You can activate a "
 "point by clicking it. You can also swap the point activation by using the "
 "Left and Right arrow keys of your keyboard."
 msgstr ""
 
-#: src/menus/colors/curves.xml:267(para)
+#: src/menus/colors/curves.xml:264(para)
 msgid ""
 "Two points define a <emphasis>curve segment</emphasis> which represents a "
 "tonal range in the layer. You can click-and-drag this segment (this creates "
 "a new point). Of course, you can't drag it beyond the end points."
 msgstr ""
 
-#: src/menus/colors/curves.xml:278(para)
+#: src/menus/colors/curves.xml:275(para)
 msgid "Click-and-drag the point."
 msgstr ""
 
-#: src/menus/colors/curves.xml:283(para)
+#: src/menus/colors/curves.xml:280(para)
 msgid ""
 "Using Up and Down arrow keys (Holding the <keycap>Shift</keycap> down lets "
 "you move it by increments of 15 pixels) to move the point vertically."
 msgstr ""
 
-#: src/menus/colors/curves.xml:298(para)
+#: src/menus/colors/curves.xml:295(para)
 msgid ""
 "Another way to move point is using the <quote>Input</quote> and "
 "<quote>Output</quote> spin buttons: see below."
 msgstr ""
 
-#: src/menus/colors/curves.xml:273(para)
+#: src/menus/colors/curves.xml:270(para)
 msgid ""
 "To <emphasis>move a point</emphasis>, there are several possibilities to "
 "fine tune the point position: <placeholder-1/>"
 msgstr ""
 
-#: src/menus/colors/curves.xml:306(para)
+#: src/menus/colors/curves.xml:303(para)
 msgid ""
 "To <emphasis>delete</emphasis> all points (apart from both ends that can't "
 "be deleted), click the <guibutton>Reset Channel</guibutton> button. To "
 "delete only one point, move it beyond any adjacent point horizontally."
 msgstr ""
 
-#: src/menus/colors/curves.xml:312(para)
+#: src/menus/colors/curves.xml:309(para)
 msgid ""
 "Meanwhile, on the canvas, the mouse pointer has the form of an eye-dropper. "
 "If you click a pixel, a vertical line appears on the chart, positioned to "
@@ -2780,32 +2773,32 @@ msgid ""
 "point appears when releasing the mouse left button."
 msgstr ""
 
-#: src/menus/colors/curves.xml:325(para)
+#: src/menus/colors/curves.xml:322(para)
 msgid ""
 "The <emphasis>histogram</emphasis> of the active layer or selection for the "
 "selected channel is represented in gray in the chart. It's only a reference "
 "and is not updated during treatment."
 msgstr ""
 
-#: src/menus/colors/curves.xml:336(term)
+#: src/menus/colors/curves.xml:333(term)
 msgid "Input"
 msgstr ""
 
-#: src/menus/colors/curves.xml:337(term)
+#: src/menus/colors/curves.xml:334(term)
 msgid "Output"
 msgstr ""
 
-#: src/menus/colors/curves.xml:339(para)
+#: src/menus/colors/curves.xml:336(para)
 msgid ""
 "These spin buttons allow setting the selected point coordinates numerically "
 "and accurately if needed."
 msgstr ""
 
-#: src/menus/colors/curves.xml:346(term)
+#: src/menus/colors/curves.xml:343(term)
 msgid "Type"
 msgstr ""
 
-#: src/menus/colors/curves.xml:348(para)
+#: src/menus/colors/curves.xml:345(para)
 msgid ""
 "Control points can be either <guilabel>Smooth</guilabel> (default: all "
 "points are smooth) or <guilabel>Corner</guilabel> points. These Corner "
@@ -2813,88 +2806,88 @@ msgid ""
 "You can toggle between Smooth and Corner for the selected point."
 msgstr ""
 
-#: src/menus/colors/curves.xml:358(term)
+#: src/menus/colors/curves.xml:355(term)
 msgid "Curve type"
 msgstr ""
 
-#: src/menus/colors/curves.xml:362(term)
+#: src/menus/colors/curves.xml:359(term)
 msgid "Smooth"
 msgstr ""
 
-#: src/menus/colors/curves.xml:364(para)
+#: src/menus/colors/curves.xml:361(para)
 msgid ""
 "This Smooth option affects the whole curve, not only the selected point as "
 "above."
 msgstr ""
 
-#: src/menus/colors/curves.xml:371(term)
+#: src/menus/colors/curves.xml:368(term)
 msgid "Free Hand"
 msgstr ""
 
-#: src/menus/colors/curves.xml:373(para)
+#: src/menus/colors/curves.xml:370(para)
 msgid ""
 "With this mode, you can draw a free hand line that you can smooth by "
 "clicking the <guilabel>Smooth</guilabel> Curve type."
 msgstr ""
 
-#: src/menus/colors/curves.xml:387(title)
+#: src/menus/colors/curves.xml:384(title)
 msgid "Using <quote>Curves</quote>"
 msgstr ""
 
-#: src/menus/colors/curves.xml:390(title)
+#: src/menus/colors/curves.xml:387(title)
 msgid "Summary and basic shapes"
 msgstr ""
 
-#: src/menus/colors/curves.xml:392(para)
+#: src/menus/colors/curves.xml:389(para)
 msgid ""
 "We create points and segments on the curve and we move them to shape the "
 "curve. This curve maps <quote>input</quote> tones of the active layer or "
 "selection to <quote>output</quote> tones."
 msgstr ""
 
-#: src/menus/colors/curves.xml:399(title)
+#: src/menus/colors/curves.xml:396(title)
 msgid "How the Curves tool works"
 msgstr ""
 
-#: src/menus/colors/curves.xml:401(para)
+#: src/menus/colors/curves.xml:398(para)
 msgid "Moving the point a pixel upwards makes this pixel brighter."
 msgstr ""
 
-#: src/menus/colors/curves.xml:409(para)
+#: src/menus/colors/curves.xml:406(para)
 msgid "Moving the point upwards"
 msgstr ""
 
-#: src/menus/colors/curves.xml:415(title)
-#: src/menus/colors/curves.xml:426(title)
+#: src/menus/colors/curves.xml:412(title)
+#: src/menus/colors/curves.xml:423(title)
 msgid "Making the curve more horizontal"
 msgstr ""
 
-#: src/menus/colors/curves.xml:417(para)
+#: src/menus/colors/curves.xml:414(para)
 msgid ""
 "Making the curve more horizontal forces all the input tonal range to occupy "
 "a shrunk output tonal range."
 msgstr ""
 
-#: src/menus/colors/curves.xml:421(para)
+#: src/menus/colors/curves.xml:418(para)
 msgid ""
 "The histogram shows the compression of pixels into the output range. Darkest "
 "and brightest pixels disappeared: contrast decreases."
 msgstr ""
 
-#: src/menus/colors/curves.xml:432(para)
+#: src/menus/colors/curves.xml:429(para)
 msgid "Make the curve more horizontal"
 msgstr ""
 
-#: src/menus/colors/curves.xml:440(para)
+#: src/menus/colors/curves.xml:437(para)
 msgid "The resulting histogram"
 msgstr ""
 
-#: src/menus/colors/curves.xml:447(title)
-#: src/menus/colors/curves.xml:468(title)
+#: src/menus/colors/curves.xml:444(title)
+#: src/menus/colors/curves.xml:465(title)
 msgid "Making the curve more vertical"
 msgstr ""
 
-#: src/menus/colors/curves.xml:449(para)
+#: src/menus/colors/curves.xml:446(para)
 msgid ""
 "Moving the upper end point to the left and the lower end point to the right "
 "is the same as moving the white slider to the left and the black slider to "
@@ -2908,30 +2901,30 @@ msgid ""
 "be extended to the whole output tonal range."
 msgstr ""
 
-#: src/menus/colors/curves.xml:462(para)
+#: src/menus/colors/curves.xml:459(para)
 msgid ""
 "The histogram shows the extension of values, from black (0) to White (255): "
 "contrast is increased. Since the Value channel is selected, changes affect "
 "all color channels and colors increase."
 msgstr ""
 
-#: src/menus/colors/curves.xml:475(para)
+#: src/menus/colors/curves.xml:472(para)
 msgid "Make the curve more vertical"
 msgstr ""
 
-#: src/menus/colors/curves.xml:484(para)
+#: src/menus/colors/curves.xml:481(para)
 msgid "Result and its histogram"
 msgstr ""
 
-#: src/menus/colors/curves.xml:492(title)
+#: src/menus/colors/curves.xml:489(title)
 msgid "Practical cases"
 msgstr ""
 
-#: src/menus/colors/curves.xml:503(para)
+#: src/menus/colors/curves.xml:500(para)
 msgid "Inverted curve"
 msgstr ""
 
-#: src/menus/colors/curves.xml:506(para)
+#: src/menus/colors/curves.xml:503(para)
 msgid ""
 "Black is made White (fully colored / fully opaque). White is made black "
 "(black, fully transparent). All pixels adopt the complementary color. Why "
@@ -2940,33 +2933,33 @@ msgid ""
 "255-197; 255-248 = 236;58;7, a bright red."
 msgstr ""
 
-#: src/menus/colors/curves.xml:516(title)
+#: src/menus/colors/curves.xml:513(title)
 msgid "Enhance contrast"
 msgstr ""
 
-#: src/menus/colors/curves.xml:523(para)
+#: src/menus/colors/curves.xml:520(para)
 msgid "Contrast enhanced"
 msgstr ""
 
-#: src/menus/colors/curves.xml:526(para)
+#: src/menus/colors/curves.xml:523(para)
 msgid ""
 "Contrast is increased in mid tones because the curve is steeper there. "
 "Highlights and Shadows are increased but contrast is slightly less in these "
 "areas because the curve is flatter."
 msgstr ""
 
-#: src/menus/colors/curves.xml:534(title)
+#: src/menus/colors/curves.xml:531(title)
 msgid "Working on color channels"
 msgstr ""
 
-#: src/menus/colors/curves.xml:542(para)
+#: src/menus/colors/curves.xml:539(para)
 msgid ""
 "For every channel, we moved the white point horizontally to the left, to the "
 "first Highlights. This lightens Highlights up. Then we shaped the curve to "
 "lighten Mid tones and Shadows while keeping black."
 msgstr ""
 
-#: src/menus/colors/curves.xml:554(para)
+#: src/menus/colors/curves.xml:551(para)
 msgid "The original image and the result"
 msgstr ""
 
@@ -3093,8 +3086,9 @@ msgstr ""
 
 #: src/menus/colors/colortoalpha.xml:35(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Color to Alpha…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Color to Alpha…</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/colortoalpha.xml:47(title)
@@ -3305,8 +3299,9 @@ msgstr ""
 
 #: src/menus/colors/colorize.xml:34(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Colorize…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Colorize…</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/colors/colorize.xml:46(title)
@@ -3386,8 +3381,9 @@ msgstr ""
 
 #: src/menus/colors/color-temperature.xml:58(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Color Temperature…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Color Temperature…</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/color-temperature.xml:70(title)
@@ -3446,8 +3442,9 @@ msgstr ""
 
 #: src/menus/colors/color-balance.xml:35(para)
 msgid ""
-"From the main menu: <menuchoice><guimenu>Colors</guimenu><guimenuitem>Color "
-"Balance…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Color Balance…</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/color-balance.xml:47(title)
@@ -3502,7 +3499,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/colors/brightness-contrast.xml:79(None)
+#: src/menus/colors/brightness-contrast.xml:76(None)
 msgid ""
 "@@image: 'images/menus/colors/brightness-contrast-dialog.png'; "
 "md5=a1325de782a2048a46e68fec4aee193f"
@@ -3535,41 +3532,42 @@ msgid ""
 "press the <keycap>Return</keycap> key on your keyboard."
 msgstr ""
 
-#: src/menus/colors/brightness-contrast.xml:45(para)
+#: src/menus/colors/brightness-contrast.xml:42(para)
 msgid ""
-"From the main menu: <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Brightness-Contrast…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Brightness-Contrast…</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/colors/brightness-contrast.xml:74(title)
+#: src/menus/colors/brightness-contrast.xml:71(title)
 msgid "Brightness-Contrast options dialog"
 msgstr ""
 
-#: src/menus/colors/brightness-contrast.xml:95(term)
+#: src/menus/colors/brightness-contrast.xml:92(term)
 msgid "Brightness"
 msgstr ""
 
-#: src/menus/colors/brightness-contrast.xml:97(para)
+#: src/menus/colors/brightness-contrast.xml:94(para)
 msgid ""
 "This slider sets a negative (to darken) or positive (to brighten) value for "
 "the brightness, decreasing or increasing bright tones."
 msgstr ""
 
-#: src/menus/colors/brightness-contrast.xml:104(term)
+#: src/menus/colors/brightness-contrast.xml:101(term)
 msgid "Contrast"
 msgstr ""
 
-#: src/menus/colors/brightness-contrast.xml:106(para)
+#: src/menus/colors/brightness-contrast.xml:103(para)
 msgid ""
 "This slider sets a negative (to decrease) or positive (to increase) value "
 "for the contrast."
 msgstr ""
 
-#: src/menus/colors/brightness-contrast.xml:113(term)
+#: src/menus/colors/brightness-contrast.xml:110(term)
 msgid "Edit these settings as Levels"
 msgstr ""
 
-#: src/menus/colors/brightness-contrast.xml:115(para)
+#: src/menus/colors/brightness-contrast.xml:112(para)
 msgid ""
 "To make your work easier, this button lets you turn to the <link "
 "linkend=\"gimp-tool-levels\">Levels</link> tool with the same settings."

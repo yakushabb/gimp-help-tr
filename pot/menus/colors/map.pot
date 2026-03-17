@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,6 +69,13 @@ msgid "If your image is not indexed, this command is disabled."
 msgstr ""
 
 #: src/menus/colors/map/set-colormap.xml:55(title)
+#: src/menus/colors/map/sample-colorize.xml:53(title)
+#: src/menus/colors/map/rearrange-colormap.xml:41(title)
+#: src/menus/colors/map/palettemap.xml:35(title)
+#: src/menus/colors/map/gradientmap.xml:60(title)
+#: src/menus/colors/map/color-rotate.xml:48(title)
+#: src/menus/colors/map/color-exchange.xml:51(title)
+#: src/menus/colors/map/alien-map.xml:45(title)
 msgid "Activating the Command"
 msgstr ""
 
@@ -76,7 +83,7 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
-"guisubmenu><guimenuitem>Set Colormap</guimenuitem></menuchoice>."
+"guisubmenu><guimenuitem>Set Colormap…</guimenuitem></menuchoice>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -151,20 +158,11 @@ msgid ""
 "color source image or a gradient against it."
 msgstr ""
 
-#: src/menus/colors/map/sample-colorize.xml:53(title)
-#: src/menus/colors/map/palettemap.xml:35(title)
-#: src/menus/colors/map/gradientmap.xml:60(title)
-#: src/menus/colors/map/color-rotate.xml:48(title)
-#: src/menus/colors/map/color-exchange.xml:51(title)
-#: src/menus/colors/map/alien-map.xml:45(title)
-msgid "Activating the Filter"
-msgstr ""
-
 #: src/menus/colors/map/sample-colorize.xml:54(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Sample Colorize</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"guisubmenu><guimenuitem>Sample Colorize…</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/map/sample-colorize.xml:65(title)
@@ -331,39 +329,32 @@ msgid ""
 "dialog\">The Indexed Palette Dialog</link>."
 msgstr ""
 
-#: src/menus/colors/map/rearrange-colormap.xml:41(title)
-msgid "Activating the Dialog"
-msgstr ""
-
-#: src/menus/colors/map/rearrange-colormap.xml:42(para)
-msgid "You can access this command in two ways:"
-msgstr ""
-
-#: src/menus/colors/map/rearrange-colormap.xml:47(para)
+#: src/menus/colors/map/rearrange-colormap.xml:44(para)
 msgid ""
-"from the main menu: <menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
 "guisubmenu><guimenuitem>Rearrange Colormap…</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/colors/map/rearrange-colormap.xml:57(para)
+#: src/menus/colors/map/rearrange-colormap.xml:54(para)
 msgid ""
-"from the <link linkend=\"gimp-indexed-palette-dialog\">Colormap Dialog</"
-"link> using the right-click context menu <menuchoice><guimenuitem>Rearrange "
-"Colormap…</guimenuitem></menuchoice>."
+"You can also access it from the <link linkend=\"gimp-indexed-palette-"
+"dialog\">Colormap Dialog</link> using the right-click context menu "
+"<menuchoice><guimenuitem>Rearrange Colormap…</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/colors/map/rearrange-colormap.xml:69(title)
+#: src/menus/colors/map/rearrange-colormap.xml:67(title)
 msgid "Using the <quote>Rearrange Colormap</quote> dialog"
 msgstr ""
 
-#: src/menus/colors/map/rearrange-colormap.xml:70(para)
+#: src/menus/colors/map/rearrange-colormap.xml:68(para)
 msgid ""
 "You can drag and drop colors using the mouse to rearrange the colormap. You "
 "can sort colors based on Hue, Saturation and Value by using the buttons. You "
 "can also reverse or reset the order of the colors."
 msgstr ""
 
-#: src/menus/colors/map/rearrange-colormap.xml:76(para)
+#: src/menus/colors/map/rearrange-colormap.xml:74(para)
 msgid ""
 "Another way to sort a colormap is by using the <link linkend=\"gimp-palette-"
 "sort\">Sort Palette…</link> context menu command available in the <link "
@@ -416,9 +407,9 @@ msgstr ""
 
 #: src/menus/colors/map/palettemap.xml:36(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Palette Map</guimenuitem></"
-"menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"guisubmenu><guimenuitem>Palette Map</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/map/palettemap.xml:47(title)
@@ -483,9 +474,9 @@ msgstr ""
 
 #: src/menus/colors/map/gradientmap.xml:61(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Gradient Map</guimenuitem></"
-"menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"guisubmenu><guimenuitem>Gradient Map</guimenuitem></menuchoice>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -556,9 +547,9 @@ msgstr ""
 
 #: src/menus/colors/map/color-rotate.xml:49(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Rotate Colors</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"guisubmenu><guimenuitem>Rotate Colors…</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/map/color-rotate.xml:62(title)
@@ -788,9 +779,9 @@ msgstr ""
 
 #: src/menus/colors/map/color-exchange.xml:52(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Color Exchange</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"guisubmenu><guimenuitem>Color Exchange…</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/map/color-exchange.xml:65(title)
@@ -876,9 +867,9 @@ msgstr ""
 
 #: src/menus/colors/map/alien-map.xml:46(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Map</guisubmenu><guimenuitem>Alien Map</guimenuitem></"
-"menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Map</"
+"guisubmenu><guimenuitem>Alien Map…</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/map/alien-map.xml:59(title)

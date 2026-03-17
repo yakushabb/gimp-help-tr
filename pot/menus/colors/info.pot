@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,14 +82,14 @@ msgstr ""
 #: src/menus/colors/info/smooth_palette.xml:60(title)
 #: src/menus/colors/info/export-histogram.xml:62(title)
 #: src/menus/colors/info/borderaverage.xml:76(title)
-msgid "Activating the Filter"
+msgid "Activating the Command"
 msgstr ""
 
 #: src/menus/colors/info/smooth_palette.xml:61(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Info</guisubmenu><guimenuitem>Smooth Palette…</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Info</"
+"guisubmenu><guimenuitem>Smooth Palette…</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/info/smooth_palette.xml:72(title)
@@ -205,9 +205,9 @@ msgstr ""
 
 #: src/menus/colors/info/export-histogram.xml:63(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Info</guisubmenu><guimenuitem>Export histogram…</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Info</"
+"guisubmenu><guimenuitem>Export Histogram…</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/info/export-histogram.xml:76(title)
@@ -339,9 +339,9 @@ msgstr ""
 
 #: src/menus/colors/info/borderaverage.xml:77(para)
 msgid ""
-"This filter is found in the main menu under <menuchoice><guimenu>Colors</"
-"guimenu><guisubmenu>Info</guisubmenu><guimenuitem>Border Average…</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guisubmenu>Info</"
+"guisubmenu><guimenuitem>Border Average…</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/info/borderaverage.xml:90(title)

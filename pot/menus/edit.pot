@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -213,18 +213,19 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Undo</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/edit/undo.xml:58(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>Z</"
-"keycap></keycombo>,"
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>Z</keycap></keycombo>."
 msgstr ""
 
-#: src/menus/edit/undo.xml:64(para)
+#: src/menus/edit/undo.xml:67(para) src/menus/edit/redo.xml:63(para)
 msgid ""
-"or by simply clicking on the status you want in the Undo History dialog."
+"Or, you can simply click on the status you want in the <link linkend=\"gimp-"
+"undo-dialog\">Undo History dialog</link>."
 msgstr ""
 
 #: src/menus/edit/undo-history.xml:9(title)
@@ -605,19 +606,13 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Redo</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/edit/redo.xml:54(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>Y</"
-"keycap></keycombo>,"
-msgstr ""
-
-#: src/menus/edit/redo.xml:60(para)
-msgid ""
-"or by simply clicking on the status you want in the <link linkend=\"gimp-"
-"undo-dialog\">Undo History dialog</link>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>Y</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/edit/preferences.xml:5(title)
@@ -689,13 +684,13 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/edit/paste.xml:49(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>V</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>V</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/edit/paste-into-selection.xml:8(title)
@@ -961,13 +956,13 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Edit</guimenu><guisubmenu>Paste as</"
-"guisubmenu><guimenuitem>Paste as New Image</guimenuitem></menuchoice>,"
+"guisubmenu><guimenuitem>Paste as New Image</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/edit/paste-as-new-image.xml:50(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
-"keycap><keycap>Ctrl</keycap><keycap>V </keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>V</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/edit/paste-as-floating-data.xml:6(title)
@@ -1335,13 +1330,13 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Fill with Pattern</"
-"guimenuitem></menuchoice>,"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/edit/fill-pattern.xml:57(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>;</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>;</keycap></keycombo>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1423,16 +1418,16 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Fill with FG Color</"
-"guimenuitem></menuchoice>,"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/edit/fill-fg.xml:54(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>,</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>,</keycap></keycombo>."
 msgstr ""
 
-#: src/menus/edit/fill-fg.xml:61(para)
+#: src/menus/edit/fill-fg.xml:64(para)
 msgid ""
 "You can also fill a selection by click-and-dragging from the Toolbox "
 "foreground color."
@@ -1465,16 +1460,16 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Fill with BG Color</"
-"guimenuitem></menuchoice>,"
+"guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/edit/fill-bg.xml:54(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>.</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>.</keycap></keycombo>."
 msgstr ""
 
-#: src/menus/edit/fill-bg.xml:61(para)
+#: src/menus/edit/fill-bg.xml:64(para)
 msgid ""
 "You can also fill a selection by click-and-dragging from the Toolbox "
 "background color."
@@ -1517,13 +1512,13 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Cut</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/edit/cut.xml:53(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>X</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>X</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/edit/copy.xml:9(title) src/menus/edit/copy.xml:13(secondary)
@@ -1552,13 +1547,13 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Copy</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/edit/copy.xml:50(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>C</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>C</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/edit/copy-visible.xml:9(title)
@@ -1632,11 +1627,11 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Edit</guimenu><guimenuitem>Clear</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/edit/clear.xml:57(para)
-msgid "or by using the keyboard shortcut <keycap>Delete</keycap>."
+msgid "You can also use the keyboard shortcut <keycap>Delete</keycap>."
 msgstr ""
 
 #: src/menus/edit/buffer.xml:12(title)

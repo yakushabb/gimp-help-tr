@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -64,6 +64,7 @@ msgstr ""
 #: src/filters/decor/introduction.xml:16(secondary)
 #: src/filters/decor/introduction.xml:20(primary)
 #: src/filters/decor/fuzzyborder.xml:15(secondary)
+#: src/filters/decor/fog.xml:13(secondary)
 #: src/filters/decor/chrome-it.xml:10(secondary)
 #: src/filters/decor/carve-it.xml:17(secondary)
 msgid "Decor"
@@ -271,8 +272,8 @@ msgstr ""
 
 #: src/filters/decor/slide.xml:92(para)
 msgid ""
-"A short label that will be displayed in the top and bottom (or the left and "
-"right) of the frame. The text must be really short."
+"A short label that will be displayed in the top (or the left) of the frame. "
+"The text must be really short."
 msgstr ""
 
 #: src/filters/decor/slide.xml:99(term)
@@ -315,13 +316,9 @@ msgid "Work on copy"
 msgstr ""
 
 #: src/filters/decor/slide.xml:130(para)
-#: src/filters/decor/round-corners.xml:218(para)
-#: src/filters/decor/old-photo.xml:163(para)
-#: src/filters/decor/fuzzyborder.xml:247(para)
-#: src/filters/decor/add-bevel.xml:126(para)
 msgid ""
-"If checked, the filter creates a new window containing a copy of the image "
-"with the filter applied. The original image remains unchanged."
+"If checked, the filter creates a copy of the image with the filter applied. "
+"The original image remains unchanged."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -529,6 +526,15 @@ msgid ""
 "background layer below the existing layer, filled with the current "
 "background color. The size of this new layer depends on the blur radius and "
 "the shadow offsets."
+msgstr ""
+
+#: src/filters/decor/round-corners.xml:218(para)
+#: src/filters/decor/old-photo.xml:163(para)
+#: src/filters/decor/fuzzyborder.xml:247(para)
+#: src/filters/decor/add-bevel.xml:126(para)
+msgid ""
+"If checked, the filter creates a new window containing a copy of the image "
+"with the filter applied. The original image remains unchanged."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -943,10 +949,6 @@ msgstr ""
 #: src/filters/decor/fog.xml:9(title) src/filters/decor/fog.xml:14(tertiary)
 #: src/filters/decor/fog.xml:16(primary)
 msgid "Fog"
-msgstr ""
-
-#: src/filters/decor/fog.xml:13(secondary)
-msgid "Render"
 msgstr ""
 
 #: src/filters/decor/fog.xml:22(title)

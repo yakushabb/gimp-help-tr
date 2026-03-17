@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,6 +60,7 @@ msgstr ""
 #: src/menus/select/qmask-toggle.xml:23(title)
 #: src/menus/select/none.xml:23(title) src/menus/select/invert.xml:33(title)
 #: src/menus/select/grow.xml:24(title) src/menus/select/from-path.xml:26(title)
+#: src/menus/select/float.xml:82(title) src/menus/select/float.xml:114(title)
 #: src/menus/select/feather.xml:25(title)
 #: src/menus/select/distort.xml:46(title)
 #: src/menus/select/by_color.xml:23(title)
@@ -288,7 +289,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/select/selection-editor.xml:266(None)
+#: src/menus/select/selection-editor.xml:275(None)
 msgid ""
 "@@image: 'images/menus/select/250px-Bezier.png'; "
 "md5=9f10efc05741935cd9181ddaccada2c1"
@@ -432,33 +433,49 @@ msgid ""
 "options are mostly used by advanced users. They are:"
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:227(para)
-msgid ""
-"<emphasis>Align Threshold</emphasis>: If two endpoints are closer than this "
-"value, they are made to be equal."
+#: src/menus/select/selection-editor.xml:227(term)
+msgid "Align Threshold"
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:234(para)
-msgid ""
-"<emphasis>Corner Always Threshold</emphasis>: If the angle defined by a "
-"point and its predecessors and successors is smaller than this, it is a "
-"corner, even if it is within <emphasis>Corner Surround</emphasis> pixels of "
-"a point with a smaller angle."
+#: src/menus/select/selection-editor.xml:229(para)
+msgid "If two endpoints are closer than this value, they are made to be equal."
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:243(para)
-msgid ""
-"<emphasis>Corner Surround</emphasis>: Number of points to consider when "
-"determining if a point is a corner or not."
+#: src/menus/select/selection-editor.xml:236(term)
+msgid "Corner Always Threshold"
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:250(para)
+#: src/menus/select/selection-editor.xml:238(para)
 msgid ""
-"<emphasis>Corner Threshold</emphasis>: If a point, its predecessors, and its "
-"successors define an angle smaller than this, it is a corner."
+"If the angle defined by a point and its predecessors and successors is "
+"smaller than this, it is a corner, even if it is within <guilabel>Corner "
+"Surround</guilabel> pixels of a point with a smaller angle."
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:259(para)
+#: src/menus/select/selection-editor.xml:247(term)
+msgid "Corner Surround"
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:249(para)
+msgid ""
+"Number of points to consider when determining if a point is a corner or not."
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:256(term)
+msgid "Corner Threshold"
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:258(para)
+msgid ""
+"If a point, its predecessors, and its successors define an angle smaller "
+"than this, it is a corner."
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:265(term)
+msgid "Error Threshold"
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:268(para)
 msgid ""
 "<quote>Spline</quote> is a mathematical term for a function which defines a "
 "curve by using a series of control points, such as a Bézier curve. "
@@ -466,115 +483,166 @@ msgid ""
 "Spline_(mathematics)\">Wikipedia</ulink> for more information."
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:257(para)
+#: src/menus/select/selection-editor.xml:267(para)
 msgid ""
-"<emphasis>Error Threshold</emphasis>: Amount of error at which a fitted "
-"spline<placeholder-1/> is unacceptable. If any pixel is further away than "
-"this from the fitted curve, the algorithm tries again."
+"Amount of error at which a fitted spline<placeholder-1/> is unacceptable. If "
+"any pixel is further away than this from the fitted curve, the algorithm "
+"tries again."
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:277(para)
-msgid ""
-"<emphasis>Filter Alternative Surround</emphasis>: A second number of "
-"adjacent points to consider when filtering."
+#: src/menus/select/selection-editor.xml:287(term)
+msgid "Filter Alternative Surround"
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:284(para)
-msgid ""
-"<emphasis>Filter Epsilon</emphasis>: If the angles between the vectors "
-"produced by <emphasis>Filter Surround</emphasis> and <emphasis>Filter "
-"Alternative Surround</emphasis> points differ by more than this, use the one "
-"from <emphasis>Filter Alternative Surround</emphasis>."
+#: src/menus/select/selection-editor.xml:289(para)
+msgid "A second number of adjacent points to consider when filtering."
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:294(para)
-msgid ""
-"<emphasis>Filter Iteration Count</emphasis>: The number of times to smooth "
-"the original data points. Increasing this number dramatically, to 50 or so, "
-"can produce vastly better results. But if any points that <quote>should</"
-"quote> be corners aren't found, the curve goes wild around that point."
+#: src/menus/select/selection-editor.xml:296(term)
+msgid "Filter Epsilon"
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:304(para)
+#: src/menus/select/selection-editor.xml:298(para)
 msgid ""
-"<emphasis>Filter Percent</emphasis>: To produce the new point, use the old "
-"point plus this times the neighbors."
+"If the angles between the vectors produced by <guilabel>Filter Surround</"
+"guilabel> and <guilabel>Filter Alternative Surround</guilabel> points differ "
+"by more than this, use the one from <guilabel>Filter Alternative Surround</"
+"guilabel>."
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:308(term)
+msgid "Filter Iteration Count"
 msgstr ""
 
 #: src/menus/select/selection-editor.xml:310(para)
 msgid ""
-"<emphasis>Filter Secondary Surround</emphasis>: Number of adjacent points to "
-"consider if <emphasis>Filter Surround</emphasis> points defines a straight "
-"line."
+"The number of times to smooth the original data points. Increasing this "
+"number dramatically, to 50 or so, can produce vastly better results. But if "
+"any points that <quote>should</quote> be corners aren't found, the curve "
+"goes wild around that point."
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:318(para)
-msgid ""
-"<emphasis>Filter Surround</emphasis>: Number of adjacent points to consider "
-"when filtering."
+#: src/menus/select/selection-editor.xml:320(term)
+msgid "Filter Percent"
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:324(para)
+#: src/menus/select/selection-editor.xml:322(para)
 msgid ""
-"<emphasis>Keep Knees</emphasis>: This check box says whether or not to "
-"remove <quote>knee</quote> points after finding the outline."
+"To produce the new point, use the old point plus this times the neighbors."
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:329(term)
+msgid "Filter Secondary Surround"
 msgstr ""
 
 #: src/menus/select/selection-editor.xml:331(para)
 msgid ""
-"<emphasis>Line Reversion Threshold</emphasis>: If a spline is closer to a "
-"straight line than this value, it remains a straight line, even if it would "
-"otherwise be changed back to a curve. This is weighted by the square of the "
-"curve length, to make shorter curves more likely to be reverted."
+"Number of adjacent points to consider if <guilabel>Filter Surround</"
+"guilabel> points defines a straight line."
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:339(term)
+msgid "Filter Surround"
 msgstr ""
 
 #: src/menus/select/selection-editor.xml:341(para)
-msgid ""
-"<emphasis>Line Threshold</emphasis>: How many pixels (on the average) a "
-"spline can diverge from the line determined by its endpoints before it is "
-"changed to a straight line."
+msgid "Number of adjacent points to consider when filtering."
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:347(term)
+msgid "Keep Knees"
 msgstr ""
 
 #: src/menus/select/selection-editor.xml:349(para)
 msgid ""
-"<emphasis>Reparametrize Improvement</emphasis>: If reparameterization "
-"doesn't improve the fit by this much percent, the algorithm stops doing it."
+"This check box says whether or not to remove <quote>knee</quote> points "
+"after finding the outline."
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:356(para)
-msgid ""
-"<emphasis>Reparametrize Threshold</emphasis>: Amount of error at which it is "
-"pointless to reparameterize. This happens, for example, when the algorithm "
-"is trying to fit the outline of the outside of an <quote>O</quote> with a "
-"single spline. The initial fit is not good enough for the Newton-Raphson "
-"iteration to improve it. It may be that it would be better to detect the "
-"cases where the algorithm didn't find any corners."
+#: src/menus/select/selection-editor.xml:356(term)
+msgid "Line Reversion Threshold"
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:367(para)
+#: src/menus/select/selection-editor.xml:358(para)
 msgid ""
-"<emphasis>Subdivide Search</emphasis>: Percentage of the curve away from the "
-"worst point to look for a better place to subdivide."
+"If a spline is closer to a straight line than this value, it remains a "
+"straight line, even if it would otherwise be changed back to a curve. This "
+"is weighted by the square of the curve length, to make shorter curves more "
+"likely to be reverted."
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:374(para)
-msgid ""
-"<emphasis>Subdivide Surround</emphasis>: Number of points to consider when "
-"deciding whether a given point is a better place to subdivide."
+#: src/menus/select/selection-editor.xml:368(term)
+msgid "Line Threshold"
 msgstr ""
 
-#: src/menus/select/selection-editor.xml:381(para)
+#: src/menus/select/selection-editor.xml:370(para)
 msgid ""
-"<emphasis>Subdivide Threshold</emphasis>: How many pixels a point can "
-"diverge from a straight line and still be considered a better place to "
-"subdivide."
+"How many pixels (on the average) a spline can diverge from the line "
+"determined by its endpoints before it is changed to a straight line."
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:378(term)
+msgid "Reparametrize Improvement"
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:380(para)
+msgid ""
+"If reparameterization doesn't improve the fit by this much percent, the "
+"algorithm stops doing it."
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:387(term)
+msgid "Reparametrize Threshold"
 msgstr ""
 
 #: src/menus/select/selection-editor.xml:389(para)
 msgid ""
-"<emphasis>Tangent Surround</emphasis>: Number of points to look at on either "
-"side of a point when computing the approximation to the tangent at that "
-"point."
+"Amount of error at which it is pointless to reparameterize. This happens, "
+"for example, when the algorithm is trying to fit the outline of the outside "
+"of an <quote>O</quote> with a single spline. The initial fit is not good "
+"enough for the Newton-Raphson iteration to improve it. It may be that it "
+"would be better to detect the cases where the algorithm didn't find any "
+"corners."
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:400(term)
+msgid "Subdivide Search"
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:402(para)
+msgid ""
+"Percentage of the curve away from the worst point to look for a better place "
+"to subdivide."
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:409(term)
+msgid "Subdivide Surround"
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:411(para)
+msgid ""
+"Number of points to consider when deciding whether a given point is a better "
+"place to subdivide."
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:418(term)
+msgid "Subdivide Threshold"
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:420(para)
+msgid ""
+"How many pixels a point can diverge from a straight line and still be "
+"considered a better place to subdivide."
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:428(term)
+msgid "Tangent Surround"
+msgstr ""
+
+#: src/menus/select/selection-editor.xml:430(para)
+msgid ""
+"Number of points to look at on either side of a point when computing the "
+"approximation to the tangent at that point."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -768,8 +836,8 @@ msgstr ""
 
 #: src/menus/select/qmask-toggle.xml:35(para)
 msgid ""
-"You can also access it by using the keyboard shortcut "
-"<keycombo><keycap>Shift</keycap><keycap>Q</keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Q</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/select/none.xml:9(title)
@@ -791,17 +859,17 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Select</guimenu><guimenuitem>None</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/select/none.xml:35(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
 "keycap><keycap>Ctrl</keycap><keycap>A</keycap></keycombo>."
 msgstr ""
 
-#: src/menus/select/none.xml:47(para) src/menus/select/invert.xml:53(para)
-#: src/menus/select/all.xml:40(para)
+#: src/menus/select/none.xml:47(para) src/menus/select/invert.xml:56(para)
+#: src/menus/select/all.xml:43(para)
 msgid ""
 "You can also access this command from the bottom bar of the <link "
 "linkend=\"gimp-selection-dialog\">Selection Editor</link>, or through the "
@@ -835,13 +903,13 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Select</guimenu><guimenuitem>Invert</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/select/invert.xml:45(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>I</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>I</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/select/introduction.xml:5(title)
@@ -985,7 +1053,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/select/float.xml:213(None)
+#: src/menus/select/float.xml:211(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-anchor.svg'; "
 "md5=103e738c35821502338ebf78eb3ba7ca"
@@ -1071,21 +1139,17 @@ msgid ""
 "layer and converts it into a floating selection."
 msgstr ""
 
-#: src/menus/select/float.xml:82(title) src/menus/select/float.xml:114(title)
-msgid "Activating the command"
-msgstr ""
-
-#: src/menus/select/float.xml:86(para)
+#: src/menus/select/float.xml:84(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Select</guimenu><guisubmenu>Float</"
 "guisubmenu><guimenuitem>Cut and Float</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/select/float.xml:96(para)
+#: src/menus/select/float.xml:94(para)
 msgid ""
-"By using the keyboard shortcut <keycombo><keycap>Shift</keycap><keycap>Ctrl</"
-"keycap><keycap>L</keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>L</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/select/float.xml:109(para)
@@ -1094,22 +1158,22 @@ msgid ""
 "the layer and converts it into a floating selection."
 msgstr ""
 
-#: src/menus/select/float.xml:118(para)
+#: src/menus/select/float.xml:116(para)
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Select</guimenu><guisubmenu>Float</"
 "guisubmenu><guimenuitem>Copy and Float</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/select/float.xml:134(title)
+#: src/menus/select/float.xml:132(title)
 msgid "Creating a Floating Selection Automatically"
 msgstr ""
 
-#: src/menus/select/float.xml:135(para)
+#: src/menus/select/float.xml:133(para)
 msgid "Some image operations create a floating selection automatically:"
 msgstr ""
 
-#: src/menus/select/float.xml:140(para)
+#: src/menus/select/float.xml:138(para)
 msgid ""
 "The <quote>paste</quote> operations <link linkend=\"gimp-buffer-"
 "paste\">Paste Buffer</link>, <link linkend=\"gimp-buffer-paste-in-"
@@ -1124,7 +1188,7 @@ msgid ""
 "selection."
 msgstr ""
 
-#: src/menus/select/float.xml:154(para)
+#: src/menus/select/float.xml:152(para)
 msgid ""
 "In addition, all the Transform tools: <link linkend=\"gimp-tool-unified-"
 "transform\">Unified Transform</link>, <link linkend=\"gimp-tool-"
@@ -1143,7 +1207,7 @@ msgid ""
 "selection.)"
 msgstr ""
 
-#: src/menus/select/float.xml:176(para)
+#: src/menus/select/float.xml:174(para)
 msgid ""
 "By click-and-dragging a selection while pressing the <keycombo><keycap>Ctrl</"
 "keycap><keycap>Alt</keycap></keycombo>, or <keycombo><keycap>Shift</"
@@ -1151,15 +1215,15 @@ msgid ""
 "selections-moving\"/>) you also automatically create a floating selection."
 msgstr ""
 
-#: src/menus/select/float.xml:188(title)
+#: src/menus/select/float.xml:186(title)
 msgid "Anchor a Floating Selection"
 msgstr ""
 
-#: src/menus/select/float.xml:189(para)
+#: src/menus/select/float.xml:187(para)
 msgid "You can anchor a floating selection in various ways:"
 msgstr ""
 
-#: src/menus/select/float.xml:192(para)
+#: src/menus/select/float.xml:190(para)
 msgid ""
 "You can anchor the floating selection to the current layer the selection is "
 "originating from. To do this, click anywhere on the image except on the "
@@ -1167,20 +1231,20 @@ msgid ""
 "layer."
 msgstr ""
 
-#: src/menus/select/float.xml:200(para)
+#: src/menus/select/float.xml:198(para)
 msgid ""
 "Use the <link linkend=\"gimp-layer-anchor\">Anchor layer</link> command "
 "(<keycombo><keycap>Ctrl</keycap><keycap>H</keycap></keycombo>)."
 msgstr ""
 
-#: src/menus/select/float.xml:207(para)
+#: src/menus/select/float.xml:205(para)
 msgid ""
 "By clicking on the anchor button <placeholder-1/> of the <link "
 "linkend=\"gimp-layer-dialog\">Layers Dialog</link>, that appears when the "
 "floating selection is created, instead of the default Merge layers icon."
 msgstr ""
 
-#: src/menus/select/float.xml:226(para)
+#: src/menus/select/float.xml:224(para)
 msgid ""
 "Use the <link linkend=\"gimp-layer-new\">To New Layer</link> command "
 "( <keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>N</keycap></"
@@ -1430,8 +1494,8 @@ msgstr ""
 
 #: src/menus/select/by_color.xml:35(para)
 msgid ""
-"You can also access it by using the keyboard shortcut "
-"<keycombo><keycap>Shift</keycap><keycap>O</keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>O</keycap></keycombo>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1648,13 +1712,13 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Select</guimenu><guimenuitem>All</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/select/all.xml:32(para)
 msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>A</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>A</keycap></keycombo>."
 msgstr ""
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2

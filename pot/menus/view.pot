@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -732,8 +732,8 @@ msgstr ""
 
 #: src/menus/view/shrink-wrap.xml:49(para)
 msgid ""
-"You can also access it by using the keyboard shortcut "
-"<keycombo><keycap>Ctrl</keycap><keycap>J</keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>J</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/view/show-statusbar.xml:10(title)
@@ -810,8 +810,8 @@ msgstr ""
 
 #: src/menus/view/show-selection.xml:45(para)
 msgid ""
-"You can also access it by using the keyboard shortcut "
-"<keycombo><keycap>Ctrl</keycap><keycap>T</keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>T</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/view/show-scrollbars.xml:10(title)
@@ -911,9 +911,8 @@ msgstr ""
 
 #: src/menus/view/show-rulers.xml:43(para)
 msgid ""
-"You can also access it by using the keyboard shortcut "
-"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>R</keycap></"
-"keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>R</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/view/show-menubar.xml:10(title)
@@ -1017,9 +1016,8 @@ msgstr ""
 
 #: src/menus/view/show-guides.xml:43(para)
 msgid ""
-"You can also access it by using the keyboard shortcut "
-"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>T</keycap></"
-"keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>T</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/view/show-grid.xml:10(title)
@@ -1256,8 +1254,8 @@ msgstr ""
 
 #: src/menus/view/scroll-center.xml:28(para)
 msgid ""
-"You can also access it by using the keyboard shortcut "
-"<keycombo><keycap>Shift</keycap><keycap>J</keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>J</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/view/padding-color.xml:10(title)
@@ -1536,11 +1534,10 @@ msgid ""
 msgstr ""
 
 #: src/menus/view/fullscreen.xml:58(para)
-msgid ""
-"You can also access it by using the keyboard shortcut <keycap>F11</keycap>."
+msgid "You can also use the keyboard shortcut <keycap>F11</keycap>."
 msgstr ""
 
-#: src/menus/view/fullscreen.xml:64(para)
+#: src/menus/view/fullscreen.xml:63(para)
 msgid ""
 "In multi-window mode, you can also get it by double-clicking on the title "
 "bar of the image window."

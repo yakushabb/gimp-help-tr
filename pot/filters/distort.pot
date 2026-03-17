@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -134,6 +134,7 @@ msgstr ""
 #: src/filters/distort/emboss.xml:12(secondary)
 #: src/filters/distort/curve_bend.xml:15(secondary)
 #: src/filters/distort/blinds.xml:16(secondary)
+#: src/filters/distort/apply_lens.xml:13(secondary)
 msgid "Distorts"
 msgstr ""
 
@@ -3252,10 +3253,6 @@ msgstr ""
 #: src/filters/distort/apply_lens.xml:14(tertiary)
 #: src/filters/distort/apply_lens.xml:17(primary)
 msgid "Apply Lens"
-msgstr ""
-
-#: src/filters/distort/apply_lens.xml:13(secondary)
-msgid "Light and Shadow"
 msgstr ""
 
 #: src/filters/distort/apply_lens.xml:23(title)

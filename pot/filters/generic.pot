@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1105,7 +1105,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/distance-map.xml:122(None)
+#: src/filters/generic/distance-map.xml:95(None)
 msgid ""
 "@@image: 'images/filters/examples/generic/dist_map-orig.png'; "
 "md5=f4726362d161c226a0c17888f937dd54"
@@ -1113,7 +1113,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/distance-map.xml:137(None)
+#: src/filters/generic/distance-map.xml:110(None)
 msgid ""
 "@@image: 'images/filters/examples/generic/dist_map-low-0.png'; "
 "md5=ac0bfb5b11349ce046c89786bed38aa0"
@@ -1121,7 +1121,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/distance-map.xml:148(None)
+#: src/filters/generic/distance-map.xml:121(None)
 msgid ""
 "@@image: 'images/filters/examples/generic/dist_map-low-1.png'; "
 "md5=fbf065a34ef39a543e6916e27428af55"
@@ -1129,7 +1129,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/distance-map.xml:159(None)
+#: src/filters/generic/distance-map.xml:132(None)
 msgid ""
 "@@image: 'images/filters/examples/generic/dist_map-low-2.png'; "
 "md5=c7a8a741eee72340cd1d7c7d0fb41ac8"
@@ -1137,8 +1137,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/distance-map.xml:170(None)
-#: src/filters/generic/distance-map.xml:215(None)
+#: src/filters/generic/distance-map.xml:143(None)
+#: src/filters/generic/distance-map.xml:188(None)
 msgid ""
 "@@image: 'images/filters/examples/generic/dist_map-low-3.png'; "
 "md5=4aa826d6d4955a4954b87eb596d79954"
@@ -1146,7 +1146,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/filters/generic/distance-map.xml:226(None)
+#: src/filters/generic/distance-map.xml:199(None)
 msgid ""
 "@@image: 'images/filters/examples/generic/dist_map-nonormalize.png'; "
 "md5=48be95baf3d1b0942c4e08272177882a"
@@ -1184,121 +1184,93 @@ msgstr ""
 msgid "<quote>Metric</quote> is a topology term. Three methods are available:"
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:74(term)
-msgid "Euclidean"
-msgstr ""
-
-#: src/filters/generic/distance-map.xml:76(para)
-msgid "The distance is a straight line (default)."
-msgstr ""
-
-#: src/filters/generic/distance-map.xml:82(term)
-msgid "Manhattan"
-msgstr ""
-
-#: src/filters/generic/distance-map.xml:84(para)
-msgid ""
-"The distance is the sum of the one-dimensional distances along the X and Y "
-"axes."
-msgstr ""
-
-#: src/filters/generic/distance-map.xml:91(term)
-msgid "Chebyshev"
-msgstr ""
-
-#: src/filters/generic/distance-map.xml:93(para)
-msgid ""
-"The distance is the maximum of the one-dimensional distances along the X and "
-"Y axes."
-msgstr ""
-
-#: src/filters/generic/distance-map.xml:103(term)
+#: src/filters/generic/distance-map.xml:76(term)
 msgid "Edge handling"
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:105(para)
+#: src/filters/generic/distance-map.xml:78(para)
 msgid ""
 "This defines how areas outside the input are considered when calculating "
 "distance. Choices are: <guilabel>Below threshold</guilabel> and "
 "<guilabel>Above threshold</guilabel>."
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:114(term)
+#: src/filters/generic/distance-map.xml:87(term)
 msgid "Threshold low"
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:116(para)
+#: src/filters/generic/distance-map.xml:89(para)
 msgid "Default is 0. Increasing this value selects higher lightness pixels"
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:125(para)
+#: src/filters/generic/distance-map.xml:98(para)
 msgid ""
 "Original image for examples. Threshold low will be progressively increased. "
 "Lightness: dark red = 0.070; bright red = 0.223; green = 0.133"
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:133(title)
+#: src/filters/generic/distance-map.xml:106(title)
 msgid "<quote>Threshold low</quote> example"
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:140(para)
+#: src/filters/generic/distance-map.xml:113(para)
 msgid "Threshold low = 0: only border distances are visible."
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:151(para)
+#: src/filters/generic/distance-map.xml:124(para)
 msgid "Threshold low = 0.070: <quote>dark red</quote> circle appears."
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:162(para)
+#: src/filters/generic/distance-map.xml:135(para)
 msgid "Threshold low = 0.133: <quote>green</quote> circle appears."
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:173(para)
+#: src/filters/generic/distance-map.xml:146(para)
 msgid "Threshold low = 0.223: <quote>bright red</quote> circle appears."
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:183(term)
+#: src/filters/generic/distance-map.xml:156(term)
 msgid "Threshold high"
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:185(para)
+#: src/filters/generic/distance-map.xml:158(para)
 msgid "Default is 1. Decreasing this value makes result darker."
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:191(term)
+#: src/filters/generic/distance-map.xml:164(term)
 msgid "Grayscale Averaging"
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:193(para)
+#: src/filters/generic/distance-map.xml:166(para)
 msgid "Number of computations for grayscale averaging."
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:199(term)
+#: src/filters/generic/distance-map.xml:172(term)
 #: src/filters/generic/convol-matrix.xml:154(term)
 msgid "Normalize"
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:201(para)
+#: src/filters/generic/distance-map.xml:174(para)
 msgid ""
 "This option is checked by default. When checked, all distances are "
 "normalized into a range of 0.0 to 1.0."
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:205(para)
+#: src/filters/generic/distance-map.xml:178(para)
 msgid ""
 "If you uncheck this option, non-obstacle pixels will appear white because "
 "their calculated distance will be greater than or equal to 1.0."
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:211(title)
+#: src/filters/generic/distance-map.xml:184(title)
 msgid "<quote>Normalize</quote> example"
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:218(para)
+#: src/filters/generic/distance-map.xml:191(para)
 msgid "Normalize option checked."
 msgstr ""
 
-#: src/filters/generic/distance-map.xml:229(para)
+#: src/filters/generic/distance-map.xml:202(para)
 msgid "Normalize option unchecked."
 msgstr ""
 

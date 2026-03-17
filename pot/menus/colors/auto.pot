@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -179,7 +179,7 @@ msgstr ""
 msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Colors</guimenu><guisubmenu>Auto</"
-"guisubmenu><guimenuitem>Stretch Contrast…</guimenuitem></menuchoice>."
+"guisubmenu><guimenuitem>Stretch Contrast</guimenuitem></menuchoice>."
 msgstr ""
 
 #: src/menus/colors/auto/stretch-contrast.xml:56(title)

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2026-03-17 22:35+0000\n"
+"POT-Creation-Date: 2026-03-17 22:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -240,8 +240,7 @@ msgid ""
 msgstr ""
 
 #: src/menus/layer/top.xml:39(para)
-msgid ""
-"You can also access it by using the keyboard shortcut <keycap>Home</keycap>."
+msgid "You can also use the keyboard shortcut <keycap>Home</keycap>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -414,42 +413,14 @@ msgid ""
 "least one text layer is selected."
 msgstr ""
 
-#: src/menus/layer/text-to-path.xml:34(para)
-#: src/menus/layer/text-discard.xml:43(para)
-#: src/menus/layer/text-along-path.xml:36(para)
-#: src/menus/layer/scale.xml:42(para) src/menus/layer/resize.xml:39(para)
-#: src/menus/layer/resize-to-image.xml:25(para)
-#: src/menus/layer/raise.xml:27(para) src/menus/layer/raise-to-top.xml:25(para)
-#: src/menus/layer/next.xml:28(para) src/menus/layer/new.xml:40(para)
-#: src/menus/layer/new-layer-group.xml:23(para)
-#: src/menus/layer/new-from-visible.xml:30(para)
-#: src/menus/layer/merge-layer-group.xml:39(para)
-#: src/menus/layer/merge-down.xml:49(para)
-#: src/menus/layer/mask-show.xml:43(para)
-#: src/menus/layer/mask-selection-replace.xml:38(para)
-#: src/menus/layer/mask-edit.xml:40(para)
-#: src/menus/layer/mask-disable.xml:35(para)
-#: src/menus/layer/mask-delete.xml:34(para)
-#: src/menus/layer/mask-apply.xml:46(para)
-#: src/menus/layer/mask-add.xml:41(para) src/menus/layer/lower.xml:27(para)
-#: src/menus/layer/lower-to-bottom.xml:27(para)
-#: src/menus/layer/duplicate.xml:37(para) src/menus/layer/delete.xml:28(para)
-#: src/menus/layer/color-to-alpha.xml:37(para)
-#: src/menus/layer/bottom.xml:30(para) src/menus/layer/anchor.xml:41(para)
-#: src/menus/layer/alpha-semi-flatten.xml:39(para)
-#: src/menus/layer/alpha-selection-replace.xml:39(para)
-#: src/menus/layer/alpha-remove.xml:36(para)
-#: src/menus/layer/alpha-add.xml:40(para)
-msgid "You can access this command"
-msgstr ""
-
-#: src/menus/layer/text-to-path.xml:39(para)
+#: src/menus/layer/text-to-path.xml:36(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>Text to Path</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Text to Path</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
-#: src/menus/layer/text-to-path.xml:48(para)
+#: src/menus/layer/text-to-path.xml:45(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Text to Path</guimenuitem> command of its "
@@ -482,13 +453,14 @@ msgid ""
 "information back by undoing the operation which modified the text."
 msgstr ""
 
-#: src/menus/layer/text-discard.xml:48(para)
+#: src/menus/layer/text-discard.xml:45(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>Discard Text Information</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Discard Text Information</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/text-discard.xml:57(para)
+#: src/menus/layer/text-discard.xml:54(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Discard Text Information</guimenuitem> "
@@ -536,13 +508,14 @@ msgid ""
 "command will have no effect."
 msgstr ""
 
-#: src/menus/layer/text-along-path.xml:41(para)
+#: src/menus/layer/text-along-path.xml:38(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>Text along Path</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Text along Path</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/text-along-path.xml:50(para)
+#: src/menus/layer/text-along-path.xml:47(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Text along Path</guimenuitem> command of "
@@ -606,14 +579,14 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/scale.xml:72(None)
+#: src/menus/layer/scale.xml:69(None)
 msgid ""
 "@@image: 'images/menus/layer/scale.png'; md5=1d82beb03977c6f6a4694b5b8bde8ebe"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/scale.xml:106(None) src/menus/layer/resize.xml:115(None)
+#: src/menus/layer/scale.xml:103(None) src/menus/layer/resize.xml:112(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-vchain.svg'; "
 "md5=d47eea1ce790b9e3211d223704a1e9de"
@@ -655,32 +628,33 @@ msgid ""
 "<guilabel>Layer</guilabel>."
 msgstr ""
 
-#: src/menus/layer/scale.xml:47(para)
+#: src/menus/layer/scale.xml:44(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>Scale Layer…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Scale Layer…</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
-#: src/menus/layer/scale.xml:56(para)
+#: src/menus/layer/scale.xml:53(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Scale Layer…</guimenuitem> command of its "
 "context menu."
 msgstr ""
 
-#: src/menus/layer/scale.xml:67(title)
+#: src/menus/layer/scale.xml:64(title)
 msgid "Description of the <quote>Scale Layer</quote> Dialog"
 msgstr ""
 
-#: src/menus/layer/scale.xml:69(title)
+#: src/menus/layer/scale.xml:66(title)
 msgid "The <quote>Scale Layer</quote> dialog"
 msgstr ""
 
-#: src/menus/layer/scale.xml:78(term) src/menus/layer/resize.xml:100(term)
+#: src/menus/layer/scale.xml:75(term) src/menus/layer/resize.xml:97(term)
 msgid "Layer Size"
 msgstr ""
 
-#: src/menus/layer/scale.xml:80(para)
+#: src/menus/layer/scale.xml:77(para)
 msgid ""
 "When you enlarge a layer, <acronym>GIMP</acronym> has to calculate new "
 "pixels from the existing ones. This procedure is called "
@@ -692,17 +666,17 @@ msgid ""
 "layer, the image loses some of its quality when pixels are removed."
 msgstr ""
 
-#: src/menus/layer/scale.xml:94(term) src/menus/layer/resize.xml:104(term)
-#: src/menus/layer/new.xml:322(term)
+#: src/menus/layer/scale.xml:91(term) src/menus/layer/resize.xml:101(term)
+#: src/menus/layer/new.xml:319(term)
 msgid "Width"
 msgstr ""
 
-#: src/menus/layer/scale.xml:95(term) src/menus/layer/resize.xml:105(term)
-#: src/menus/layer/new.xml:323(term)
+#: src/menus/layer/scale.xml:92(term) src/menus/layer/resize.xml:102(term)
+#: src/menus/layer/new.xml:320(term)
 msgid "Height"
 msgstr ""
 
-#: src/menus/layer/scale.xml:97(para)
+#: src/menus/layer/scale.xml:94(para)
 msgid ""
 "The command displays a dialog which shows the dimensions of the original "
 "layer in pixels. You can set the new <guilabel>Width</guilabel> and "
@@ -713,7 +687,7 @@ msgid ""
 "distorting the layer."
 msgstr ""
 
-#: src/menus/layer/scale.xml:116(para)
+#: src/menus/layer/scale.xml:113(para)
 msgid ""
 "However, you do not have to set the dimensions in pixels. You can choose "
 "different units from the drop-down menu. If you choose percent as units, you "
@@ -722,7 +696,7 @@ msgid ""
 "should pay attention to the <guilabel>X/Y resolution</guilabel> of the image."
 msgstr ""
 
-#: src/menus/layer/scale.xml:125(para)
+#: src/menus/layer/scale.xml:122(para)
 msgid ""
 "If you enlarge a layer, the missing pixels are calculated by interpolation, "
 "but no new details are added. The more the layer is enlarged, and the more "
@@ -735,11 +709,11 @@ msgid ""
 "raster images that they do not scale up well."
 msgstr ""
 
-#: src/menus/layer/scale.xml:146(term)
+#: src/menus/layer/scale.xml:143(term)
 msgid "Quality"
 msgstr ""
 
-#: src/menus/layer/scale.xml:148(para)
+#: src/menus/layer/scale.xml:145(para)
 msgid ""
 "To change the size of the layer, <acronym>GIMP</acronym> either has to add "
 "or remove pixels. The method it uses to do this has a considerable impact on "
@@ -748,11 +722,11 @@ msgid ""
 "menu."
 msgstr ""
 
-#: src/menus/layer/scale.xml:157(term)
+#: src/menus/layer/scale.xml:154(term)
 msgid "Interpolation"
 msgstr ""
 
-#: src/menus/layer/scale.xml:159(para)
+#: src/menus/layer/scale.xml:156(para)
 msgid ""
 "This lets you choose the interpolation method used for scaling. See for "
 "details about each method the <link linkend=\"gimp-tool-interpolation-"
@@ -810,19 +784,19 @@ msgstr ""
 
 #: src/menus/layer/rotate-arbitrary.xml:42(para)
 msgid ""
-"You can also access it by using the keyboard shortcut "
-"<keycombo><keycap>Shift</keycap><keycap>R</keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>R</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/layer/rotate-arbitrary.xml:53(title)
 #: src/menus/layer/rotate-90.xml:47(title)
 #: src/menus/layer/rotate-270.xml:48(title)
 #: src/menus/layer/rotate-180.xml:44(title)
-#: src/menus/layer/resize.xml:223(title) src/menus/layer/resize.xml:249(title)
+#: src/menus/layer/resize.xml:220(title) src/menus/layer/resize.xml:246(title)
 #: src/menus/layer/flip-vertical.xml:42(title)
 #: src/menus/layer/flip-horizontal.xml:43(title)
 #: src/menus/layer/alpha-selection-subtract.xml:49(title)
-#: src/menus/layer/alpha-selection-replace.xml:65(title)
+#: src/menus/layer/alpha-selection-replace.xml:62(title)
 #: src/menus/layer/alpha-selection-intersect.xml:51(title)
 #: src/menus/layer/alpha-selection-add.xml:50(title)
 msgid "Example"
@@ -966,7 +940,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/resize.xml:72(None)
+#: src/menus/layer/resize.xml:69(None)
 msgid ""
 "@@image: 'images/menus/layer/boundary-size.png'; "
 "md5=77f7c18d6d79b189dc57717a376f21a2"
@@ -974,7 +948,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/resize.xml:227(None)
+#: src/menus/layer/resize.xml:224(None)
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-1.png'; "
 "md5=1b797526eb18b86f8dad63e9d80937c1"
@@ -982,7 +956,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/resize.xml:238(None)
+#: src/menus/layer/resize.xml:235(None)
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-2.png'; "
 "md5=c99ff96d2dcba27ce5d32cc80f6e324e"
@@ -990,7 +964,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/resize.xml:253(None)
+#: src/menus/layer/resize.xml:250(None)
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-3.png'; "
 "md5=cd6b43c44a14ff331734f2619516eedc"
@@ -998,7 +972,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/resize.xml:264(None)
+#: src/menus/layer/resize.xml:261(None)
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-4.png'; "
 "md5=b7f61fe0edec0d466847c71f6820e95d"
@@ -1006,7 +980,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/resize.xml:281(None)
+#: src/menus/layer/resize.xml:278(None)
 msgid ""
 "@@image: 'images/menus/layer/boundary-size-ex-5.png'; "
 "md5=c8b83cddb59e530a91b1fda622ef2e24"
@@ -1038,32 +1012,33 @@ msgid ""
 "the canvas."
 msgstr ""
 
-#: src/menus/layer/resize.xml:44(para)
+#: src/menus/layer/resize.xml:41(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>Layer Boundary Size…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Layer Boundary Size…</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/resize.xml:53(para)
+#: src/menus/layer/resize.xml:50(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Layer Boundary Size…</guimenuitem> "
 "command of its context menu."
 msgstr ""
 
-#: src/menus/layer/resize.xml:64(title)
+#: src/menus/layer/resize.xml:61(title)
 msgid "Description of the <quote>Layer Boundary Size</quote> dialog"
 msgstr ""
 
-#: src/menus/layer/resize.xml:68(title)
+#: src/menus/layer/resize.xml:65(title)
 msgid "The <quote>Layer Boundary Size</quote> Dialog"
 msgstr ""
 
-#: src/menus/layer/resize.xml:78(term)
+#: src/menus/layer/resize.xml:75(term)
 msgid "Template"
 msgstr ""
 
-#: src/menus/layer/resize.xml:80(para)
+#: src/menus/layer/resize.xml:77(para)
 msgid ""
 "This drop-down list allows you to pick a size from one of the available "
 "image templates. For more information on templates see <link linkend=\"gimp-"
@@ -1071,20 +1046,20 @@ msgid ""
 "dialog\">Templates Dialog</link>."
 msgstr ""
 
-#: src/menus/layer/resize.xml:86(para)
+#: src/menus/layer/resize.xml:83(para)
 msgid ""
 "When choosing a template that has a different print resolution (ppi) than "
 "your image, two new buttons will appear that ask you how to adjust this."
 msgstr ""
 
-#: src/menus/layer/resize.xml:91(para)
+#: src/menus/layer/resize.xml:88(para)
 msgid ""
 "<guibutton>Scale template to … ppi</guibutton> will adjust the template to "
 "the ppi of the image; and <guibutton>Scale image to … ppi</guibutton> will "
 "adjust the image to the ppi of the template."
 msgstr ""
 
-#: src/menus/layer/resize.xml:107(para)
+#: src/menus/layer/resize.xml:104(para)
 msgid ""
 "When the dialog is displayed, the original dimensions of the active layer "
 "are shown. You can change them by using the two text boxes. If these boxes "
@@ -1093,31 +1068,31 @@ msgid ""
 "can set the dimensions independently of each other."
 msgstr ""
 
-#: src/menus/layer/resize.xml:126(term)
+#: src/menus/layer/resize.xml:123(term)
 msgid "Unit of Measurement"
 msgstr ""
 
-#: src/menus/layer/resize.xml:128(para)
+#: src/menus/layer/resize.xml:125(para)
 msgid ""
 "The default unit of measurement is pixels. You can change this by using the "
 "drop-down menu. For instance, you might use a <quote>%</quote> of the "
 "current size."
 msgstr ""
 
-#: src/menus/layer/resize.xml:139(term) src/menus/layer/offset.xml:8(title)
+#: src/menus/layer/resize.xml:136(term) src/menus/layer/offset.xml:8(title)
 #: src/menus/layer/offset.xml:16(primary) src/menus/layer/offset.xml:84(term)
 msgid "Offset"
 msgstr ""
 
-#: src/menus/layer/resize.xml:143(term) src/menus/layer/offset.xml:88(term)
+#: src/menus/layer/resize.xml:140(term) src/menus/layer/offset.xml:88(term)
 msgid "X"
 msgstr ""
 
-#: src/menus/layer/resize.xml:144(term) src/menus/layer/offset.xml:89(term)
+#: src/menus/layer/resize.xml:141(term) src/menus/layer/offset.xml:89(term)
 msgid "Y"
 msgstr ""
 
-#: src/menus/layer/resize.xml:146(para)
+#: src/menus/layer/resize.xml:143(para)
 msgid ""
 "These coordinates are relative to the layer, not to the image. They are used "
 "to move a frame that determines which part of the layer content will be "
@@ -1127,11 +1102,11 @@ msgid ""
 "frame of the resized layer appears in the preview."
 msgstr ""
 
-#: src/menus/layer/resize.xml:162(term)
+#: src/menus/layer/resize.xml:159(term)
 msgid "A Preview of the layer inside the frame of the canvas"
 msgstr ""
 
-#: src/menus/layer/resize.xml:164(para)
+#: src/menus/layer/resize.xml:161(para)
 msgid ""
 "Besides the layer dimensions, a preview represents the layer with the frame "
 "of the resized layer. You can move this frame using the X and Y offsets and "
@@ -1139,40 +1114,40 @@ msgid ""
 "moves over the layer area."
 msgstr ""
 
-#: src/menus/layer/resize.xml:173(term)
+#: src/menus/layer/resize.xml:170(term)
 msgid "Center"
 msgstr ""
 
-#: src/menus/layer/resize.xml:175(para)
+#: src/menus/layer/resize.xml:172(para)
 msgid ""
 "The <guibutton>Center</guibutton> button allows you to place the frame at "
 "the center of the layer."
 msgstr ""
 
-#: src/menus/layer/resize.xml:182(term) src/menus/layer/new.xml:348(term)
+#: src/menus/layer/resize.xml:179(term) src/menus/layer/new.xml:345(term)
 msgid "Fill With"
 msgstr ""
 
-#: src/menus/layer/resize.xml:184(para)
+#: src/menus/layer/resize.xml:181(para)
 msgid ""
 "This allows you to select how to fill the background of the layer when you "
 "increase its size. The same options are available here as in the <link "
 "linkend=\"gimp-file-new\">Create New Image</link> Dialog."
 msgstr ""
 
-#: src/menus/layer/resize.xml:196(title)
+#: src/menus/layer/resize.xml:193(title)
 msgid "Resizing Layer"
 msgstr ""
 
-#: src/menus/layer/resize.xml:199(term)
+#: src/menus/layer/resize.xml:196(term)
 msgid "Increasing the size of a layer"
 msgstr ""
 
-#: src/menus/layer/resize.xml:201(para)
+#: src/menus/layer/resize.xml:198(para)
 msgid "You can't make the size of a layer larger than the image canvas."
 msgstr ""
 
-#: src/menus/layer/resize.xml:204(para)
+#: src/menus/layer/resize.xml:201(para)
 msgid ""
 "If the layer is smaller than the image, you can enlarge the <guilabel>Width</"
 "guilabel> and/or <guilabel>Height</guilabel>. If you want to enlarge the "
@@ -1180,37 +1155,37 @@ msgid ""
 "layer-resize-to-image\">Layers to Image Size</link>."
 msgstr ""
 
-#: src/menus/layer/resize.xml:215(term)
+#: src/menus/layer/resize.xml:212(term)
 msgid "Reducing the size of a layer"
 msgstr ""
 
-#: src/menus/layer/resize.xml:217(para)
+#: src/menus/layer/resize.xml:214(para)
 msgid "If you want to remove unused parts of a layer, you can reduce the size."
 msgstr ""
 
-#: src/menus/layer/resize.xml:230(para)
+#: src/menus/layer/resize.xml:227(para)
 msgid "Original image with 2 layers"
 msgstr ""
 
-#: src/menus/layer/resize.xml:241(para)
+#: src/menus/layer/resize.xml:238(para)
 msgid "The two layers"
 msgstr ""
 
-#: src/menus/layer/resize.xml:256(para)
+#: src/menus/layer/resize.xml:253(para)
 msgid "The selected layer for resizing"
 msgstr ""
 
-#: src/menus/layer/resize.xml:267(para)
+#: src/menus/layer/resize.xml:264(para)
 msgid ""
 "The frame representing the new layer size. It has been placed at the center "
 "of the layer using the <guibutton>Center</guibutton> button."
 msgstr ""
 
-#: src/menus/layer/resize.xml:277(title)
+#: src/menus/layer/resize.xml:274(title)
 msgid "Result"
 msgstr ""
 
-#: src/menus/layer/resize.xml:286(para)
+#: src/menus/layer/resize.xml:283(para)
 msgid ""
 "If the image has only one layer, it can be more convenient to use the <link "
 "linkend=\"gimp-tool-crop\">Crop tool</link>."
@@ -1279,13 +1254,14 @@ msgid ""
 "of the selected layers with respect to the image."
 msgstr ""
 
-#: src/menus/layer/resize-to-image.xml:30(para)
+#: src/menus/layer/resize-to-image.xml:27(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>Layers to Image Size</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Layers to Image Size</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/resize-to-image.xml:39(para)
+#: src/menus/layer/resize-to-image.xml:36(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Layers to Image Size</guimenuitem> "
@@ -1307,15 +1283,17 @@ msgid ""
 "at the top, or if there is only one layer, this menu entry is disabled."
 msgstr ""
 
-#: src/menus/layer/raise.xml:32(para)
+#: src/menus/layer/raise.xml:29(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Stack</guisubmenu><guimenuitem>Raise Layers</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Stack</"
+"guisubmenu><guimenuitem>Raise Layers</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/raise.xml:41(para)
-msgid "By clicking the up-arrow icon at the bottom of the Layers dialog."
+#: src/menus/layer/raise.xml:38(para)
+msgid ""
+"You can also access it by clicking the up-arrow icon at the bottom of the "
+"Layers dialog."
 msgstr ""
 
 #: src/menus/layer/raise-to-top.xml:10(title)
@@ -1333,14 +1311,14 @@ msgid ""
 "at the top, or if there is only one layer, this menu entry is disabled."
 msgstr ""
 
-#: src/menus/layer/raise-to-top.xml:30(para)
+#: src/menus/layer/raise-to-top.xml:27(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Stack</guisubmenu><guimenuitem>Layers to Top</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Stack</"
+"guisubmenu><guimenuitem>Layers to Top</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/raise-to-top.xml:40(para)
+#: src/menus/layer/raise-to-top.xml:37(para)
 msgid ""
 "By pressing the <keycap>Shift</keycap> key and clicking on the up-arrow icon "
 "at the bottom of the Layers dialog."
@@ -1380,8 +1358,7 @@ msgid ""
 msgstr ""
 
 #: src/menus/layer/previous.xml:52(para)
-msgid ""
-"You can also access it by using the keyboard shortcut <keycap>PgUp</keycap>."
+msgid "You can also use the keyboard shortcut <keycap>PgUp</keycap>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1478,9 +1455,8 @@ msgstr ""
 
 #: src/menus/layer/offset.xml:48(para)
 msgid ""
-"You can also access it by using the keyboard shortcut "
-"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap><keycap>O</keycap></"
-"keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>O</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/layer/offset.xml:61(title)
@@ -1636,20 +1612,20 @@ msgid ""
 "selects the next layer (the one below it)."
 msgstr ""
 
-#: src/menus/layer/next.xml:33(para)
+#: src/menus/layer/next.xml:30(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Stack</guisubmenu><guimenuitem>Select Next Layers</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Stack</"
+"guisubmenu><guimenuitem>Select Next Layers</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/next.xml:43(para)
-msgid "By using the keyboard shortcut <keycap>PgDn</keycap>."
+#: src/menus/layer/next.xml:40(para)
+msgid "You can also use the keyboard shortcut <keycap>PgDn</keycap>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new.xml:73(None)
+#: src/menus/layer/new.xml:70(None)
 msgid ""
 "@@image: 'images/stock-icons/document-new.svg'; "
 "md5=06940851b3c5b383f3a345703f51728e"
@@ -1657,14 +1633,14 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new.xml:92(None)
+#: src/menus/layer/new.xml:89(None)
 msgid ""
 "@@image: 'images/menus/layer/new.png'; md5=48af23ec8d94fd134ed42f310755c5fa"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new.xml:241(None)
+#: src/menus/layer/new.xml:238(None)
 msgid ""
 "@@image: 'images/menus/layer/composite-mode-union.png'; "
 "md5=2c48ecc913e59c23a518782096756742"
@@ -1672,7 +1648,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new.xml:258(None)
+#: src/menus/layer/new.xml:255(None)
 msgid ""
 "@@image: 'images/menus/layer/composite-mode-clip-to-backdrop.png'; "
 "md5=125e2c6afee616b4d2dfdd930244e134"
@@ -1680,7 +1656,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new.xml:275(None)
+#: src/menus/layer/new.xml:272(None)
 msgid ""
 "@@image: 'images/menus/layer/composite-mode-clip-to-layer.png'; "
 "md5=fdb28ffc27096824f5d392f9ba9fbb00"
@@ -1688,7 +1664,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new.xml:291(None)
+#: src/menus/layer/new.xml:288(None)
 msgid ""
 "@@image: 'images/menus/layer/composite-mode-intersection.png'; "
 "md5=07d866e2918f5bfa8e71bd109cbf77db"
@@ -1723,19 +1699,20 @@ msgid ""
 "layer without opening the New Layer dialog."
 msgstr ""
 
-#: src/menus/layer/new.xml:45(para)
+#: src/menus/layer/new.xml:42(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>New Layer…</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>New Layer…</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
-#: src/menus/layer/new.xml:54(para)
+#: src/menus/layer/new.xml:51(para)
 msgid ""
-"By using the keyboard shortcut <keycombo><keycap>Shift</keycap><keycap>Ctrl</"
-"keycap><keycap>N</keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>N</keycap></keycombo>."
 msgstr ""
 
-#: src/menus/layer/new.xml:64(para)
+#: src/menus/layer/new.xml:61(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>New Layer</guimenuitem> command of its "
@@ -1743,15 +1720,15 @@ msgid ""
 "bottom of that dialog."
 msgstr ""
 
-#: src/menus/layer/new.xml:87(title)
+#: src/menus/layer/new.xml:84(title)
 msgid "Description of the <quote>New Layer</quote> Dialog"
 msgstr ""
 
-#: src/menus/layer/new.xml:89(title)
+#: src/menus/layer/new.xml:86(title)
 msgid "The <quote>New Layer</quote> dialog"
 msgstr ""
 
-#: src/menus/layer/new.xml:96(para)
+#: src/menus/layer/new.xml:93(para)
 msgid ""
 "Below the title <quote>Create a new layer</quote>, the name of the image "
 "that this new layer will belong to, is displayed. To the right of the title "
@@ -1760,11 +1737,11 @@ msgid ""
 "open."
 msgstr ""
 
-#: src/menus/layer/new.xml:105(term)
+#: src/menus/layer/new.xml:102(term)
 msgid "Layer Name"
 msgstr ""
 
-#: src/menus/layer/new.xml:107(para)
+#: src/menus/layer/new.xml:104(para)
 msgid ""
 "The name of the new layer. It does not have any functional significance; it "
 "is simply a convenient way for you to remember the purpose of the layer. The "
@@ -1774,11 +1751,11 @@ msgid ""
 "quote>) when you click <guibutton>OK</guibutton> to create the layer."
 msgstr ""
 
-#: src/menus/layer/new.xml:120(term)
+#: src/menus/layer/new.xml:117(term)
 msgid "<anchor id=\"gimp-layer-color-tag\"/> Color tag"
 msgstr ""
 
-#: src/menus/layer/new.xml:125(para)
+#: src/menus/layer/new.xml:122(para)
 msgid ""
 "If you click on one of these color buttons, the \"Eye\" icon box of the "
 "created layer will have this color. This can help you identify or group "
@@ -1786,11 +1763,11 @@ msgid ""
 "image."
 msgstr ""
 
-#: src/menus/layer/new.xml:135(term)
+#: src/menus/layer/new.xml:132(term)
 msgid "Mode"
 msgstr ""
 
-#: src/menus/layer/new.xml:137(para)
+#: src/menus/layer/new.xml:134(para)
 msgid ""
 "A layer's mode determines how the layer is combined with the layers below "
 "it. The default is <quote>Normal</quote>. The drop-down list offers a wide "
@@ -1799,22 +1776,22 @@ msgid ""
 "<quote>Legacy</quote> layer modes."
 msgstr ""
 
-#: src/menus/layer/new.xml:144(para)
+#: src/menus/layer/new.xml:141(para)
 msgid ""
 "Layer modes are described in more detail in <link linkend=\"gimp-concepts-"
 "layer-modes\">Layer Modes</link> and <link linkend=\"gimp-concepts-layer-"
 "modes-legacy\">Legacy Layer Modes</link>."
 msgstr ""
 
-#: src/menus/layer/new.xml:154(term)
+#: src/menus/layer/new.xml:151(term)
 msgid "Blend space"
 msgstr ""
 
-#: src/menus/layer/new.xml:155(term)
+#: src/menus/layer/new.xml:152(term)
 msgid "<anchor id=\"gimp-layer-composite-space\"/> Composite space"
 msgstr ""
 
-#: src/menus/layer/new.xml:160(para)
+#: src/menus/layer/new.xml:157(para)
 msgid ""
 "The color space used for blending or compositing the layer with the layers "
 "below it. <quote>Blending</quote> determines how the colors of the upper and "
@@ -1823,7 +1800,7 @@ msgid ""
 "pixel."
 msgstr ""
 
-#: src/menus/layer/new.xml:167(para)
+#: src/menus/layer/new.xml:164(para)
 msgid ""
 "Depending on the layer mode (see above) one or both of these settings may be "
 "disabled. It is only enabled for layer modes where setting this has any "
@@ -1834,7 +1811,7 @@ msgid ""
 "use linear, others use perceptual."
 msgstr ""
 
-#: src/menus/layer/new.xml:177(para)
+#: src/menus/layer/new.xml:174(para)
 msgid ""
 "The linear and perceptual (non-linear) encodings are described in <link "
 "linkend=\"gimp-image-choosing-precision-encoding\">choosing precision and "
@@ -1842,7 +1819,7 @@ msgid ""
 "encoding\">Glossary</link>."
 msgstr ""
 
-#: src/menus/layer/new.xml:184(para)
+#: src/menus/layer/new.xml:181(para)
 msgid ""
 "When changing the layer mode, both <guilabel>Blend space</guilabel> and "
 "<guilabel>Composite space</guilabel> are always reset to <guilabel>Auto</"
@@ -1850,11 +1827,11 @@ msgid ""
 "mode."
 msgstr ""
 
-#: src/menus/layer/new.xml:195(term)
+#: src/menus/layer/new.xml:192(term)
 msgid "Composite mode"
 msgstr ""
 
-#: src/menus/layer/new.xml:197(para)
+#: src/menus/layer/new.xml:194(para)
 msgid ""
 "The layer <guilabel>Mode</guilabel>, sometimes referred to as its "
 "<quote>blend mode</quote> (Normal, Multiply, etc.), determines how the "
@@ -1867,7 +1844,7 @@ msgid ""
 "namely, it's the combination of the layers below it."
 msgstr ""
 
-#: src/menus/layer/new.xml:210(para)
+#: src/menus/layer/new.xml:207(para)
 msgid ""
 "There are two regions of interest when compositing the layer against its "
 "backdrop: the opaque region of the backdrop, and the opaque region of the "
@@ -1879,7 +1856,7 @@ msgid ""
 "these regions to keep, and which to discard."
 msgstr ""
 
-#: src/menus/layer/new.xml:221(para)
+#: src/menus/layer/new.xml:218(para)
 msgid ""
 "The example images below show the composition of two layers the bottom layer "
 "containing a red feathered circle, and the top layer containing a green "
@@ -1887,49 +1864,49 @@ msgid ""
 "modes (applied to the top layer)."
 msgstr ""
 
-#: src/menus/layer/new.xml:231(para)
+#: src/menus/layer/new.xml:228(para)
 msgid ""
 "<guilabel>Union</guilabel>: keeps the opaque regions of both the layer and "
 "its backdrop, i.e their union."
 msgstr ""
 
-#: src/menus/layer/new.xml:237(title)
+#: src/menus/layer/new.xml:234(title)
 msgid "<quote>Union</quote> option example"
 msgstr ""
 
-#: src/menus/layer/new.xml:247(para)
+#: src/menus/layer/new.xml:244(para)
 msgid ""
 "<guilabel>Clip to backdrop</guilabel>: keeps only the opaque regions of the "
 "backdrop (this includes the common opaque region to both the backdrop and "
 "the layer i.e their intersection)."
 msgstr ""
 
-#: src/menus/layer/new.xml:254(title)
+#: src/menus/layer/new.xml:251(title)
 msgid "<quote>Clip to backdrop</quote> option example"
 msgstr ""
 
-#: src/menus/layer/new.xml:264(para)
+#: src/menus/layer/new.xml:261(para)
 msgid ""
 "<guilabel>Clip to layer</guilabel>: keeps only the opaque region of the "
 "layer (this includes the common opaque region to both the backdrop and the "
 "layer, i.e their intersection)."
 msgstr ""
 
-#: src/menus/layer/new.xml:271(title)
+#: src/menus/layer/new.xml:268(title)
 msgid "<quote>Clip to layer</quote> option example"
 msgstr ""
 
-#: src/menus/layer/new.xml:281(para)
+#: src/menus/layer/new.xml:278(para)
 msgid ""
 "<guilabel>Intersection</guilabel>: keeps only the opaque region to both the "
 "backdrop and the layer, i.e their intersection."
 msgstr ""
 
-#: src/menus/layer/new.xml:287(title)
+#: src/menus/layer/new.xml:284(title)
 msgid "<quote>Intersection</quote> option example"
 msgstr ""
 
-#: src/menus/layer/new.xml:297(para)
+#: src/menus/layer/new.xml:294(para)
 msgid ""
 "<guilabel>Auto</guilabel>: <quote>Auto</quote> mode is not a separate "
 "composite mode, but rather corresponds to one of the other composite modes, "
@@ -1939,15 +1916,15 @@ msgid ""
 "composite modes) it corresponds to <quote>Clip to Backdrop</quote>."
 msgstr ""
 
-#: src/menus/layer/new.xml:313(term)
+#: src/menus/layer/new.xml:310(term)
 msgid "Opacity"
 msgstr ""
 
-#: src/menus/layer/new.xml:315(para)
+#: src/menus/layer/new.xml:312(para)
 msgid "Sets the opacity of painting on the layer. Default is 100%."
 msgstr ""
 
-#: src/menus/layer/new.xml:325(para)
+#: src/menus/layer/new.xml:322(para)
 msgid ""
 "The dimensions of the new layer. When the dialog appears, the values are "
 "initialized to the dimensions of the image. You can change them by using the "
@@ -1955,15 +1932,15 @@ msgid ""
 "right."
 msgstr ""
 
-#: src/menus/layer/new.xml:335(term)
+#: src/menus/layer/new.xml:332(term)
 msgid "Offset X"
 msgstr ""
 
-#: src/menus/layer/new.xml:336(term)
+#: src/menus/layer/new.xml:333(term)
 msgid "Offset Y"
 msgstr ""
 
-#: src/menus/layer/new.xml:338(para)
+#: src/menus/layer/new.xml:335(para)
 msgid ""
 "The default origin of the new layer is the upper left corner of the image "
 "canvas. Here, you can set the exact position of the layer. By choosing a "
@@ -1971,7 +1948,7 @@ msgid ""
 "canvas."
 msgstr ""
 
-#: src/menus/layer/new.xml:350(para)
+#: src/menus/layer/new.xml:347(para)
 msgid ""
 "There are numerous options for filling the new layer: the current "
 "<guilabel>Foreground color</guilabel>, the current <guilabel>Background "
@@ -1980,11 +1957,11 @@ msgid ""
 "current <guilabel>Pattern</guilabel>."
 msgstr ""
 
-#: src/menus/layer/new.xml:363(term)
+#: src/menus/layer/new.xml:360(term)
 msgid "Switches"
 msgstr ""
 
-#: src/menus/layer/new.xml:365(para)
+#: src/menus/layer/new.xml:362(para)
 msgid ""
 "The switches <guilabel>Visible</guilabel>, <guilabel>Lock pixels</guilabel>, "
 "<guilabel>Lock position and size</guilabel>, <guilabel>Lock visibility</"
@@ -1995,7 +1972,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/new-layer-group.xml:46(None)
+#: src/menus/layer/new-layer-group.xml:43(None)
 msgid ""
 "@@image: 'images/stock-icons/folder-new.svg'; "
 "md5=a2dce97d57bafd8f8471e969146f33f2"
@@ -2019,13 +1996,14 @@ msgid ""
 "linkend=\"gimp-layer-groups\"/>."
 msgstr ""
 
-#: src/menus/layer/new-layer-group.xml:28(para)
+#: src/menus/layer/new-layer-group.xml:25(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>New Layer Group</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>New Layer Group</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/new-layer-group.xml:37(para)
+#: src/menus/layer/new-layer-group.xml:34(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>New Layer Group</guimenuitem> command of "
@@ -2055,13 +2033,14 @@ msgid ""
 "apply a layer mask to erase the parts you want your original work to show."
 msgstr ""
 
-#: src/menus/layer/new-from-visible.xml:35(para)
+#: src/menus/layer/new-from-visible.xml:32(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>New from Visible</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>New from Visible</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/new-from-visible.xml:44(para)
+#: src/menus/layer/new-from-visible.xml:41(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>New from Visible</guimenuitem> command of "
@@ -2070,8 +2049,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/merge-layer-group.xml:63(None)
-#: src/menus/layer/merge-down.xml:72(None)
+#: src/menus/layer/merge-layer-group.xml:60(None)
+#: src/menus/layer/merge-down.xml:69(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-merge-down.svg'; "
 "md5=bb05f514074f3277374e17160d4b9def"
@@ -2108,13 +2087,14 @@ msgid ""
 "layer group."
 msgstr ""
 
-#: src/menus/layer/merge-layer-group.xml:44(para)
+#: src/menus/layer/merge-layer-group.xml:41(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>Merge Layer Groups</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Merge Layer Groups</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/merge-layer-group.xml:53(para)
+#: src/menus/layer/merge-layer-group.xml:50(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Merge Layer Groups</guimenuitem> command "
@@ -2160,13 +2140,14 @@ msgid ""
 "floating layer is present."
 msgstr ""
 
-#: src/menus/layer/merge-down.xml:54(para)
+#: src/menus/layer/merge-down.xml:51(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>Merge Down</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Merge Down</guimenuitem></"
+"menuchoice>."
 msgstr ""
 
-#: src/menus/layer/merge-down.xml:63(para)
+#: src/menus/layer/merge-down.xml:60(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Merge Down</guimenuitem> command of its "
@@ -2275,14 +2256,14 @@ msgid ""
 "green border."
 msgstr ""
 
-#: src/menus/layer/mask-show.xml:48(para)
+#: src/menus/layer/mask-show.xml:45(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Mask</guisubmenu><guimenuitem>Show Layer Masks</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Mask</"
+"guisubmenu><guimenuitem>Show Layer Masks</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/mask-show.xml:58(para)
+#: src/menus/layer/mask-show.xml:55(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Show Layer Masks</guimenuitem> command of "
@@ -2293,7 +2274,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/mask-selection-subtract.xml:55(None)
-#: src/menus/layer/mask-selection-replace.xml:70(None)
+#: src/menus/layer/mask-selection-replace.xml:67(None)
 #: src/menus/layer/mask-selection-intersect.xml:60(None)
 #: src/menus/layer/mask-selection-add.xml:59(None)
 msgid ""
@@ -2304,7 +2285,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/mask-selection-subtract.xml:66(None)
-#: src/menus/layer/mask-selection-replace.xml:81(None)
+#: src/menus/layer/mask-selection-replace.xml:78(None)
 #: src/menus/layer/mask-selection-intersect.xml:71(None)
 #: src/menus/layer/mask-selection-add.xml:70(None)
 msgid ""
@@ -2371,14 +2352,14 @@ msgid "Illustration of Subtract Masks from Selection"
 msgstr ""
 
 #: src/menus/layer/mask-selection-subtract.xml:58(para)
-#: src/menus/layer/mask-selection-replace.xml:73(para)
+#: src/menus/layer/mask-selection-replace.xml:70(para)
 #: src/menus/layer/mask-selection-intersect.xml:63(para)
 #: src/menus/layer/mask-selection-add.xml:62(para)
 msgid "The original image with a selection."
 msgstr ""
 
 #: src/menus/layer/mask-selection-subtract.xml:69(para)
-#: src/menus/layer/mask-selection-replace.xml:84(para)
+#: src/menus/layer/mask-selection-replace.xml:81(para)
 #: src/menus/layer/mask-selection-intersect.xml:74(para)
 #: src/menus/layer/mask-selection-add.xml:73(para)
 msgid ""
@@ -2396,7 +2377,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/mask-selection-replace.xml:95(None)
+#: src/menus/layer/mask-selection-replace.xml:92(None)
 msgid ""
 "@@image: 'images/menus/layer/replace-mask-example.png'; "
 "md5=f81b57f80fb14786ac4cb289b42f4fdf"
@@ -2421,26 +2402,26 @@ msgid ""
 "that is already active in the image."
 msgstr ""
 
-#: src/menus/layer/mask-selection-replace.xml:43(para)
+#: src/menus/layer/mask-selection-replace.xml:40(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Mask</guisubmenu><guimenuitem>Masks to Selection</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Mask</"
+"guisubmenu><guimenuitem>Masks to Selection</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/mask-selection-replace.xml:53(para)
+#: src/menus/layer/mask-selection-replace.xml:50(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Masks to Selection</guimenuitem> command "
 "of its context menu."
 msgstr ""
 
-#: src/menus/layer/mask-selection-replace.xml:64(title)
-#: src/menus/layer/mask-selection-replace.xml:66(title)
+#: src/menus/layer/mask-selection-replace.xml:61(title)
+#: src/menus/layer/mask-selection-replace.xml:63(title)
 msgid "Illustration of <quote>Masks to Selection</quote>"
 msgstr ""
 
-#: src/menus/layer/mask-selection-replace.xml:98(para)
+#: src/menus/layer/mask-selection-replace.xml:95(para)
 msgid ""
 "The result after applying <quote>Masks to Selection</quote>: the selection "
 "of the non-transparent pixels of the selected layer replaces the initial "
@@ -2517,7 +2498,7 @@ msgid "Add to selection"
 msgstr ""
 
 #: src/menus/layer/mask-selection-add.xml:25(primary)
-#: src/menus/layer/mask-add.xml:149(term)
+#: src/menus/layer/mask-add.xml:146(term)
 #: src/menus/layer/alpha-selection-subtract.xml:22(primary)
 #: src/menus/layer/alpha-selection-replace.xml:22(primary)
 #: src/menus/layer/alpha-selection-intersect.xml:22(primary)
@@ -2576,14 +2557,14 @@ msgid ""
 "make it easier to see what you are changing on the mask."
 msgstr ""
 
-#: src/menus/layer/mask-edit.xml:45(para)
+#: src/menus/layer/mask-edit.xml:42(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Mask</guisubmenu><guimenuitem>Edit Layer Mask</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Mask</"
+"guisubmenu><guimenuitem>Edit Layer Mask</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/mask-edit.xml:55(para)
+#: src/menus/layer/mask-edit.xml:52(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Edit Layer Mask</guimenuitem> command of "
@@ -2609,14 +2590,14 @@ msgid ""
 "Dialog. To enable the layer masks use the same command again."
 msgstr ""
 
-#: src/menus/layer/mask-disable.xml:40(para)
+#: src/menus/layer/mask-disable.xml:37(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Mask</guisubmenu><guimenuitem>Disable Layer Masks</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Mask</"
+"guisubmenu><guimenuitem>Disable Layer Masks</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/mask-disable.xml:50(para)
+#: src/menus/layer/mask-disable.xml:47(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Disable Layer Masks</guimenuitem> command "
@@ -2648,14 +2629,14 @@ msgid ""
 "This menu command is disabled when none of the selected layers has a mask."
 msgstr ""
 
-#: src/menus/layer/mask-delete.xml:39(para)
+#: src/menus/layer/mask-delete.xml:36(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Mask</guisubmenu><guimenuitem>Delete Layer Masks</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Mask</"
+"guisubmenu><guimenuitem>Delete Layer Masks</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/mask-delete.xml:49(para)
+#: src/menus/layer/mask-delete.xml:46(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Delete Layer Masks</guimenuitem> command "
@@ -2664,8 +2645,8 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/mask-apply.xml:72(None)
-#: src/menus/layer/mask-add.xml:65(None)
+#: src/menus/layer/mask-apply.xml:67(None)
+#: src/menus/layer/mask-add.xml:62(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-layer-mask.svg'; "
 "md5=6a258b8141ba3594e284fe5c6a80fd40"
@@ -2705,14 +2686,14 @@ msgid ""
 "more information."
 msgstr ""
 
-#: src/menus/layer/mask-apply.xml:51(para)
+#: src/menus/layer/mask-apply.xml:46(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Mask</guisubmenu><guimenuitem>Apply Layer Masks</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Mask</"
+"guisubmenu><guimenuitem>Apply Layer Masks</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/mask-apply.xml:61(para)
+#: src/menus/layer/mask-apply.xml:56(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Apply Layer Masks</guimenuitem> command "
@@ -2723,7 +2704,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/mask-add.xml:84(None)
+#: src/menus/layer/mask-add.xml:81(None)
 msgid ""
 "@@image: 'images/dialogs/layer-mask-add.png'; "
 "md5=be74d19950c57deba0fce4683ea52323"
@@ -2755,14 +2736,14 @@ msgid ""
 "transparent or transparent."
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:46(para)
+#: src/menus/layer/mask-add.xml:43(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Mask</guisubmenu><guimenuitem>Add Layer Masks…</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Mask</"
+"guisubmenu><guimenuitem>Add Layer Masks…</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:56(para)
+#: src/menus/layer/mask-add.xml:53(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Add Layer Masks…</guimenuitem> command of "
@@ -2770,62 +2751,62 @@ msgid ""
 "bottom of that dialog."
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:79(title)
+#: src/menus/layer/mask-add.xml:76(title)
 msgid "Description of the <quote>Add Layer Masks…</quote> Dialog"
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:81(title)
+#: src/menus/layer/mask-add.xml:78(title)
 msgid "The <quote>Add Layer Masks…</quote> dialog"
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:90(term)
+#: src/menus/layer/mask-add.xml:87(term)
 msgid "Initialize Layer Mask to"
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:92(para)
+#: src/menus/layer/mask-add.xml:89(para)
 msgid ""
 "This dialog allows you several choices for the initial contents of the layer "
 "mask:"
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:98(term)
+#: src/menus/layer/mask-add.xml:95(term)
 msgid "White (full opacity)"
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:100(para)
+#: src/menus/layer/mask-add.xml:97(para)
 msgid ""
 "With this option, the layer mask will make all of the layer fully opaque. "
 "That means that you will not notice any difference in the appearance of the "
 "layer until you paint on the layer mask."
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:109(term)
+#: src/menus/layer/mask-add.xml:106(term)
 msgid "Black (full transparency)"
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:111(para)
+#: src/menus/layer/mask-add.xml:108(para)
 msgid ""
 "With this option, the layer mask will make all of the layer fully "
 "transparent. This is represented in the image by a checkered pattern on "
 "which you will need to paint to make any part of the layer visible."
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:120(term)
+#: src/menus/layer/mask-add.xml:117(term)
 msgid "Layer's alpha channel"
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:122(para)
+#: src/menus/layer/mask-add.xml:119(para)
 msgid ""
 "With this option, the contents of the alpha channel are used to fill the "
 "layer mask. The alpha channel itself is not altered, so the transparency of "
 "partially visible areas is increased, leading to a more transparent layer."
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:132(term)
+#: src/menus/layer/mask-add.xml:129(term)
 msgid "Transfer layer's alpha channel"
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:134(para)
+#: src/menus/layer/mask-add.xml:131(para)
 msgid ""
 "This option sets the layer mask as the previous option, but resets the "
 "layer's alpha channel to full opacity afterwards. The effect is to transfer "
@@ -2836,7 +2817,7 @@ msgid ""
 "channel</quote>, because it will leave the appearance unaltered."
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:151(para)
+#: src/menus/layer/mask-add.xml:148(para)
 msgid ""
 "This option converts the current selection into a layer mask, so that "
 "selected areas are opaque, and unselected areas are transparent. If any "
@@ -2845,21 +2826,21 @@ msgid ""
 "predict what the effects will be."
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:162(term)
+#: src/menus/layer/mask-add.xml:159(term)
 msgid "Grayscale copy of layer"
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:164(para)
+#: src/menus/layer/mask-add.xml:161(para)
 msgid ""
 "This option converts the layer itself into a layer mask. It is particularly "
 "useful when you plan to add new contents to the layer afterwards."
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:172(term)
+#: src/menus/layer/mask-add.xml:169(term)
 msgid "Channel"
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:174(para)
+#: src/menus/layer/mask-add.xml:171(para)
 msgid ""
 "With this option the layer mask is initialized with a selection mask you "
 "have created before, stored in the Channels dialog. Note: that the normal "
@@ -2867,18 +2848,18 @@ msgid ""
 "you have created."
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:187(term)
+#: src/menus/layer/mask-add.xml:184(term)
 msgid "Invert Mask"
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:189(para)
+#: src/menus/layer/mask-add.xml:186(para)
 msgid ""
 "If you check the <guilabel>Invert mask</guilabel> box at the bottom of the "
 "dialog, the resulting mask is inverted, so that transparent areas become "
 "opaque and vice versa."
 msgstr ""
 
-#: src/menus/layer/mask-add.xml:197(para)
+#: src/menus/layer/mask-add.xml:194(para)
 msgid ""
 "When you click on the <guibutton>Add</guibutton> button, a thumbnail of the "
 "layer mask appears to the right of the thumbnail of the layer in the Layers "
@@ -2901,15 +2882,17 @@ msgid ""
 "is disabled."
 msgstr ""
 
-#: src/menus/layer/lower.xml:32(para)
+#: src/menus/layer/lower.xml:29(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Stack</guisubmenu><guimenuitem>Lower Layers</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Stack</"
+"guisubmenu><guimenuitem>Lower Layers</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/lower.xml:42(para)
-msgid "By clicking on the down-arrow icon at the bottom of the Layers dialog."
+#: src/menus/layer/lower.xml:39(para)
+msgid ""
+"You can also access it by clicking on the down-arrow icon at the bottom of "
+"the Layers dialog."
 msgstr ""
 
 #: src/menus/layer/lower-to-bottom.xml:10(title)
@@ -2928,17 +2911,17 @@ msgid ""
 "is disabled."
 msgstr ""
 
-#: src/menus/layer/lower-to-bottom.xml:32(para)
+#: src/menus/layer/lower-to-bottom.xml:29(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Stack</guisubmenu><guimenuitem>Layers to Bottom</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Stack</"
+"guisubmenu><guimenuitem>Layers to Bottom</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/lower-to-bottom.xml:42(para)
+#: src/menus/layer/lower-to-bottom.xml:39(para)
 msgid ""
-"By pressing the <keycap>Shift</keycap> key and clicking on the down-arrow "
-"icon at the bottom of the Layers dialog."
+"You can also access it by pressing the <keycap>Shift</keycap> key and "
+"clicking on the down-arrow icon at the bottom of the Layers dialog."
 msgstr ""
 
 #: src/menus/layer/introduction.xml:12(title)
@@ -3074,7 +3057,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/duplicate.xml:70(None)
+#: src/menus/layer/duplicate.xml:67(None)
 msgid ""
 "@@image: 'images/stock-icons/gimp-duplicate.svg'; "
 "md5=c4e41353df046752fe30ac926eac91f1"
@@ -3106,19 +3089,20 @@ msgid ""
 "link> attached to the selected layers, they are not duplicated."
 msgstr ""
 
-#: src/menus/layer/duplicate.xml:42(para)
+#: src/menus/layer/duplicate.xml:39(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>Duplicate Layers</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Duplicate Layers</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/duplicate.xml:51(para)
+#: src/menus/layer/duplicate.xml:48(para)
 msgid ""
-"By using the keyboard shortcut <keycombo><keycap>Shift</keycap><keycap>Ctrl</"
-"keycap><keycap>D</keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>D</keycap></keycombo>."
 msgstr ""
 
-#: src/menus/layer/duplicate.xml:61(para)
+#: src/menus/layer/duplicate.xml:58(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Duplicate Layers</guimenuitem> command of "
@@ -3128,7 +3112,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/delete.xml:51(None)
+#: src/menus/layer/delete.xml:48(None)
 msgid ""
 "@@image: 'images/stock-icons/edit-delete.svg'; "
 "md5=45f8be6623096f6f25175b048c82a721"
@@ -3148,13 +3132,14 @@ msgid ""
 "layers from the image."
 msgstr ""
 
-#: src/menus/layer/delete.xml:33(para)
+#: src/menus/layer/delete.xml:30(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>Delete Layers</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Delete Layers</"
+"guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/delete.xml:42(para)
+#: src/menus/layer/delete.xml:39(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Delete Layers</guimenuitem> command of "
@@ -3230,7 +3215,7 @@ msgstr ""
 
 #: src/menus/layer/crop-to-content.xml:44(para)
 #: src/menus/layer/alpha-selection-subtract.xml:59(para)
-#: src/menus/layer/alpha-selection-replace.xml:73(para)
+#: src/menus/layer/alpha-selection-replace.xml:70(para)
 #: src/menus/layer/alpha-selection-intersect.xml:59(para)
 #: src/menus/layer/alpha-selection-add.xml:58(para)
 msgid "Original image."
@@ -3238,7 +3223,7 @@ msgstr ""
 
 #: src/menus/layer/crop-to-content.xml:55(para)
 #: src/menus/layer/alpha-selection-subtract.xml:69(para)
-#: src/menus/layer/alpha-selection-replace.xml:83(para)
+#: src/menus/layer/alpha-selection-replace.xml:80(para)
 #: src/menus/layer/alpha-selection-intersect.xml:69(para)
 #: src/menus/layer/alpha-selection-add.xml:68(para)
 msgid "Layers of the original image."
@@ -3278,18 +3263,19 @@ msgid ""
 "<xref linkend=\"gimp-filter-color-to-alpha\"/>."
 msgstr ""
 
-#: src/menus/layer/color-to-alpha.xml:42(para)
+#: src/menus/layer/color-to-alpha.xml:39(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Transparency</guisubmenu><guimenuitem>Color to Alpha…</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Transparency</"
+"guisubmenu><guimenuitem>Color to Alpha…</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/color-to-alpha.xml:52(para)
+#: src/menus/layer/color-to-alpha.xml:49(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Colors</"
-"guimenu><guimenuitem>Color to Alpha…</guimenuitem></menuchoice> (see <xref "
-"linkend=\"gimp-filter-color-to-alpha\"/>)."
+"You can also access it from the main menu through "
+"<menuchoice><guimenu>Colors</guimenu><guimenuitem>Color to Alpha…</"
+"guimenuitem></menuchoice> (see <xref linkend=\"gimp-filter-color-to-alpha\"/"
+">)."
 msgstr ""
 
 #: src/menus/layer/bottom.xml:13(title)
@@ -3308,15 +3294,15 @@ msgid ""
 "menu entry is disabled."
 msgstr ""
 
-#: src/menus/layer/bottom.xml:35(para)
+#: src/menus/layer/bottom.xml:32(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Stack</guisubmenu><guimenuitem>Select Bottom Layer</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Stack</"
+"guisubmenu><guimenuitem>Select Bottom Layer</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/bottom.xml:45(para)
-msgid "By using the keyboard shortcut <keycap>End</keycap>."
+#: src/menus/layer/bottom.xml:42(para)
+msgid "You can also use the keyboard shortcut <keycap>End</keycap>."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -3358,17 +3344,17 @@ msgid ""
 "anchor icon when it is outside of the selection."
 msgstr ""
 
-#: src/menus/layer/anchor.xml:46(para)
+#: src/menus/layer/anchor.xml:43(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guimenuitem>Anchor Floating Layer or Mask</guimenuitem></"
-"menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>Anchor Floating Layer or "
+"Mask</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/anchor.xml:55(para)
+#: src/menus/layer/anchor.xml:52(para)
 msgid ""
-"By using the keyboard shortcut <keycombo><keycap>Ctrl</keycap><keycap>H</"
-"keycap></keycombo>."
+"You can also use the keyboard shortcut <keycombo><keycap>Ctrl</"
+"keycap><keycap>H</keycap></keycombo>."
 msgstr ""
 
 #: src/menus/layer/anchor.xml:61(para)
@@ -3408,24 +3394,25 @@ msgid ""
 "indexed colors and transparency."
 msgstr ""
 
-#: src/menus/layer/alpha-semi-flatten.xml:44(para)
+#: src/menus/layer/alpha-semi-flatten.xml:41(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Transparency</guisubmenu><guimenuitem>Semi-Flatten…</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Transparency</"
+"guisubmenu><guimenuitem>Semi-Flatten…</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/alpha-semi-flatten.xml:54(para)
+#: src/menus/layer/alpha-semi-flatten.xml:51(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Filters</"
-"guimenu><guisubmenu>Web</guisubmenu><guimenuitem>Semi-Flatten…</"
-"guimenuitem></menuchoice> (see <xref linkend=\"gimp-filter-semi-flatten\"/>)."
+"You can also access it from the main menu through "
+"<menuchoice><guimenu>Filters</guimenu><guisubmenu>Web</"
+"guisubmenu><guimenuitem>Semi-Flatten…</guimenuitem></menuchoice> (see <xref "
+"linkend=\"gimp-filter-semi-flatten\"/>)."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/alpha-selection-subtract.xml:56(None)
-#: src/menus/layer/alpha-selection-replace.xml:70(None)
+#: src/menus/layer/alpha-selection-replace.xml:67(None)
 #: src/menus/layer/alpha-selection-intersect.xml:56(None)
 #: src/menus/layer/alpha-selection-add.xml:55(None)
 msgid ""
@@ -3436,7 +3423,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/alpha-selection-subtract.xml:66(None)
-#: src/menus/layer/alpha-selection-replace.xml:80(None)
+#: src/menus/layer/alpha-selection-replace.xml:77(None)
 #: src/menus/layer/alpha-selection-intersect.xml:66(None)
 #: src/menus/layer/alpha-selection-add.xml:65(None)
 msgid ""
@@ -3501,7 +3488,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/layer/alpha-selection-replace.xml:91(None)
+#: src/menus/layer/alpha-selection-replace.xml:88(None)
 msgid ""
 "@@image: 'images/menus/layer/alpha-replace.png'; "
 "md5=0fa909ce05be3061a37297f03d2fe348"
@@ -3526,25 +3513,25 @@ msgid ""
 "selection <emphasis>replaces</emphasis> the existing selection."
 msgstr ""
 
-#: src/menus/layer/alpha-selection-replace.xml:44(para)
+#: src/menus/layer/alpha-selection-replace.xml:41(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Transparency</guisubmenu><guimenuitem>Alpha to "
-"Selection</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Transparency</"
+"guisubmenu><guimenuitem>Alpha to Selection</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/alpha-selection-replace.xml:54(para)
+#: src/menus/layer/alpha-selection-replace.xml:51(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Alpha to Selection</guimenuitem> command "
 "of its context menu."
 msgstr ""
 
-#: src/menus/layer/alpha-selection-replace.xml:67(title)
+#: src/menus/layer/alpha-selection-replace.xml:64(title)
 msgid "Applying <quote>Alpha to Selection</quote>"
 msgstr ""
 
-#: src/menus/layer/alpha-selection-replace.xml:94(para)
+#: src/menus/layer/alpha-selection-replace.xml:91(para)
 msgid ""
 "Resulting image: Non-transparent pixels of the active layer have replaced "
 "the existing rectangular selection."
@@ -3583,7 +3570,7 @@ msgid ""
 "You can access this command from the main menu through "
 "<menuchoice><guimenu>Layer</guimenu><guisubmenu>Transparency</"
 "guisubmenu><guimenuitem>Intersect Alpha with Selection</guimenuitem></"
-"menuchoice>,"
+"menuchoice>."
 msgstr ""
 
 #: src/menus/layer/alpha-selection-intersect.xml:53(title)
@@ -3663,14 +3650,14 @@ msgid ""
 "disabled."
 msgstr ""
 
-#: src/menus/layer/alpha-remove.xml:41(para)
+#: src/menus/layer/alpha-remove.xml:38(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Transparency</guisubmenu><guimenuitem>Remove Alpha "
-"Channel</guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Transparency</"
+"guisubmenu><guimenuitem>Remove Alpha Channel</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/alpha-remove.xml:51(para)
+#: src/menus/layer/alpha-remove.xml:48(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Remove Alpha Channel</guimenuitem> "
@@ -3705,14 +3692,14 @@ msgid ""
 "channel are shown in bold in the Layers Dialog."
 msgstr ""
 
-#: src/menus/layer/alpha-add.xml:45(para)
+#: src/menus/layer/alpha-add.xml:42(para)
 msgid ""
-"From the main menu through <menuchoice><guimenu>Layer</"
-"guimenu><guisubmenu>Transparency</guisubmenu><guimenuitem>Add Alpha Channel</"
-"guimenuitem></menuchoice>."
+"You can access this command from the main menu through "
+"<menuchoice><guimenu>Layer</guimenu><guisubmenu>Transparency</"
+"guisubmenu><guimenuitem>Add Alpha Channel</guimenuitem></menuchoice>."
 msgstr ""
 
-#: src/menus/layer/alpha-add.xml:55(para)
+#: src/menus/layer/alpha-add.xml:52(para)
 msgid ""
 "From the <link linkend=\"gimp-layer-dialog\">Layers Dialog</link>, you can "
 "access it through the <guimenuitem>Add Alpha Channel</guimenuitem> command "
