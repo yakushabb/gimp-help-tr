@@ -3,7 +3,7 @@ chatGPT ve deneme yanılma ile hazırlanmıştır.
 Bu çalışma 2 dosyayı içermektedir
 
 - Containerfile
-- makePot.md.md
+- makePot.md
 
 ### Containerfile
 
