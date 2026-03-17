@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2025-11-18 19:31+0000\n"
-"PO-Revision-Date: 2026-03-18 01:56+0300\n"
+"PO-Revision-Date: 2026-03-18 02:06+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -48,12 +48,17 @@ msgid ""
 "<menuchoice><guimenu>Windows</guimenu></menuchoice> menu, which allows you "
 "to manage <acronym>GIMP</acronym>'s windows and docks."
 msgstr ""
+"Bu bölümde, <menuchoice><guimenu>Pencereler</guimenu></menuchoice> "
+"menüsündeki komutlar hakkında yardım bulacaksınız; bu menü, <acronym>GIMP</"
+"acronym> pencerelerini ve kenar çubuklarını yönetmenizi sağlar."
 
 #: src/menus/windows.xml:26(para)
 msgid ""
 "The available commands of this menu may vary according presence or absence "
 "of images and docks."
 msgstr ""
+"Bu menüdeki komutlar, görüntülerin ve rıhtımların varlığına ya da yokluğuna "
+"göre değişiklik gösterebilir."
 
 #: src/menus/windows.xml:33(title)
 msgid "The Contents of the <quote>Windows</quote> Menu"
@@ -87,30 +92,18 @@ msgid "Dockable Dialogs"
 msgstr "Rıhtımlanabilir İletişim Kutuları"
 
 #: src/menus/windows.xml:52(para)
-#, fuzzy
-#| msgid ""
-#| "<command>Dockable Dialogs</command>: this command opens the list of "
-#| "dockable dialogs. Please refer to <xref linkend=\"gimp-concepts-docks\"/>."
 msgid ""
 "This command opens the list of dockable dialogs. Please refer to <xref "
 "linkend=\"gimp-concepts-docks\"/>."
 msgstr ""
-"<command>Rıhtımlanabilir Kutular</command>: bu komut rıhtımlanabilir "
-"kutuların listesini açar. Lütfen bakınız: <xref linkend=\"gimp-concepts-"
-"docks\"/>."
+"Bu komut rıhtımlanabilir kutuların listesini açar. Lütfen bakınız: <xref "
+"linkend=\"gimp-concepts-docks\"/>."
 
 #: src/menus/windows.xml:60(term)
 msgid "Toolbox"
 msgstr "Araç Kutusu"
 
 #: src/menus/windows.xml:62(para)
-#, fuzzy
-#| msgid ""
-#| "<command>Toolbox</command>: clicking on this command or using the "
-#| "<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> shortcut, "
-#| "raises the toolbox usually together with the tool options dock. Note that "
-#| "in single-window mode this usually doesn't have any effect since the "
-#| "toolbox is part of the main window."
 msgid ""
 "Clicking on this command or using the <keycombo><keycap>Ctrl</"
 "keycap><keycap>B</keycap></keycombo> shortcut, raises the toolbox usually "
@@ -118,74 +111,55 @@ msgid ""
 msgstr ""
 "<command>Araç Kutusu</command>: bu komuta tıklamak ya da "
 "<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> kısayolunu "
-"kullanmak, genellikle araç kutusunu araç seçenekleriyle birlikte yükseltir. "
-"Tek pencere kipinde, araç kutusu ana pencerenin bir parçası olduğu için "
-"bunun genellikle herhangi bir etkisi olmaz."
+"kullanmak, genellikle araç kutusunu araç seçenekleriyle birlikte yükseltir."
 
 #: src/menus/windows.xml:70(para)
 msgid ""
 "Note that in single-window mode this usually doesn't have any effect since "
 "the toolbox is part of the main window."
 msgstr ""
+"Not: Tek pencere kipinde, araç kutusu ana pencerenin parçası olduğu için "
+"bunun genelde bir etkisi olmaz."
 
 #: src/menus/windows.xml:78(term)
 msgid "The list of open image windows"
 msgstr "Açık görüntü pencerelerinin listesi"
 
 #: src/menus/windows.xml:80(para)
-#, fuzzy
-#| msgid ""
-#| "The list of open image windows: clicking on an image name, or using the "
-#| "<keycombo><keycap>Alt</keycap><keycap>Number of the image</keycap></"
-#| "keycombo> shortcut, makes the image active."
 msgid ""
 "Clicking on an image name, or using the <keycombo><keycap>Alt</"
 "keycap><keycap>Number of the image</keycap></keycombo> shortcut, makes the "
 "image active."
 msgstr ""
-"Açık görüntü pencerelerinin listesi: bir görüntü adına tıklamak ya da "
-"<keycombo><keycap>Alt</keycap><keycap>Sayı</keycap></keycombo> kısayolunu "
-"kullanmak görüntüyü etkinleştirir."
+"Bir görüntü adına tıklamak ya da <keycombo><keycap>Alt</keycap><keycap>Sayı</"
+"keycap></keycombo> kısayolunu kullanmak görüntüyü etkinleştirir."
 
 #: src/menus/windows.xml:90(term)
 msgid "The list of open docks"
 msgstr "Açık rıhtımların listesi"
 
 #: src/menus/windows.xml:92(para)
-#, fuzzy
-#| msgid ""
-#| "The list of open docks: in this list, docks are named with the name of "
-#| "the active dialog in this dock. Clicking on a dock name raises this dock. "
-#| "Note that in single-window mode only docks that are not part of the main "
-#| "window will be shown here."
 msgid ""
 "In this list, docks are named with the name of the active dialog in this "
 "dock. Clicking on a dock name raises this dock. Note that in single-window "
 "mode only docks that are not part of the main window will be shown here."
 msgstr ""
-"Açık rıhtımların listesi: Bu listede rıhtımlar, bu rıhtımdaki etkin iletişim "
-"kutusunun adıyla adlandırılır. Bir rıhtımın adına tıklamak o rıhtımı "
-"yükseltir. Tek pencere kipinde yalnızca ana pencerenin parçası olmayan "
-"rıhtımlar burada gösterilir."
+"Bu listede rıhtımlar, bu rıhtımdaki etkin iletişim kutusunun adıyla "
+"adlandırılır. Bir rıhtımın adına tıklamak o rıhtımı yükseltir. Tek pencere "
+"kipinde yalnızca ana pencerenin parçası olmayan rıhtımlar burada gösterilir."
 
 #: src/menus/windows.xml:101(term)
 msgid "Hide Docks"
 msgstr "Rıhtımları Gizle"
 
 #: src/menus/windows.xml:103(para)
-#, fuzzy
-#| msgid ""
-#| "<command>Hide Docks</command> (<keycap>Tab</keycap>): this command hides "
-#| "all docks (usually to the left and right of the image), leaving the image "
-#| "window alone. The command status is kept on quitting GIMP and will be in "
-#| "the same state when GIMP starts."
 msgid ""
 "Clicking on this command or using the (<keycap>Tab</keycap>) shortcut hides "
 "all docks (usually to the left and right of the image), leaving the image "
 "window alone. The command status is kept on quitting <acronym>GIMP</acronym> "
 "and will be in the same state when <acronym>GIMP</acronym> starts."
 msgstr ""
-"<command>Rıhtımları Gizle</command> (<keycap>Tab</keycap>): bu komut "
+"Bu komuta tıklamak ya da (<keycap>Tab</keycap>) kısayolunu kullanmak "
 "(genelde görüntünün sağında ve solunda bulunan) tüm rıhtımları gizler ve "
 "görüntüyü görüntü penceresini tek başına bırakır. Komut durumu "
 "<acronym>GIMP</acronym>ʼten çıkıldığında saklanır ve <acronym>GIMP</acronym> "
