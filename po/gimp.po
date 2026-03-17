@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp-help master\n"
 "POT-Creation-Date: 2026-03-17 22:45+0000\n"
-"PO-Revision-Date: 2025-11-23 22:16+0300\n"
+"PO-Revision-Date: 2026-03-18 01:50+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: src/key-reference.xml:6(title)
 msgid "Keys and Mouse Reference"
@@ -1440,6 +1440,7 @@ msgstr "Alanın içinde uzaklaştır"
 msgid ""
 "@@image: 'images/using/wilber.png'; md5=99ac11abd800deaeafdc1f9b398e4a08"
 msgstr ""
+"@@image: 'images/using/wilber.png'; md5=99ac11abd800deaeafdc1f9b398e4a08"
 
 #: src/introduction.xml:15(title)
 msgid "Welcome to GIMP"
@@ -1581,7 +1582,7 @@ msgstr ""
 
 #: src/introduction.xml:94(title) src/introduction.xml:96(title)
 msgid "Wilber, GIMP's mascot"
-msgstr ""
+msgstr "Wilber, GIMP maskotu"
 
 #: src/introduction.xml:102(para)
 msgid ""

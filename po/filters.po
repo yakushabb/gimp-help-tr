@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help master\n"
 "POT-Creation-Date: 2026-03-17 22:45+0000\n"
-"PO-Revision-Date: 2025-11-23 22:14+0300\n"
+"PO-Revision-Date: 2026-03-18 01:51+0300\n"
 "Last-Translator: Sabri Ünal <yakushabb@gmail.com>\n"
 "Language-Team: Türkçe <takim@gnome.org.tr>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: src/filters/web.xml:11(title)
 msgid "Web Filters"
@@ -103,31 +103,31 @@ msgstr "Süzgeçler çeşitli kategorilere ayrılmıştır:"
 
 #: src/filters/include-distance-map-metric.xml:11(term)
 msgid "Euclidean"
-msgstr ""
+msgstr "Öklid"
 
 #: src/filters/include-distance-map-metric.xml:13(para)
 msgid "The distance is a straight line."
-msgstr ""
+msgstr "Mesafe düz çizgidir."
 
 #: src/filters/include-distance-map-metric.xml:19(term)
 msgid "Manhattan"
-msgstr ""
+msgstr "Manhattan"
 
 #: src/filters/include-distance-map-metric.xml:21(para)
 msgid ""
 "The distance is the sum of the one-dimensional distances along the X and Y "
 "axes."
-msgstr ""
+msgstr "Mesafe, X ve Y eksenleri boyunca tek boyutlu uzaklığın toplamıdır."
 
 #: src/filters/include-distance-map-metric.xml:28(term)
 msgid "Chebyshev"
-msgstr ""
+msgstr "Chebyshev"
 
 #: src/filters/include-distance-map-metric.xml:30(para)
 msgid ""
 "The distance is the maximum of the one-dimensional distances along the X and "
 "Y axes."
-msgstr ""
+msgstr "Mesafe, X ve Y eksenleri boyunca tek boyutlu uzaklıkların en çoğudur."
 
 #: src/filters/generic.xml:7(title)
 msgid "Generic Filters"
